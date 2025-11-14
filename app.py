@@ -7,7 +7,9 @@ from modules.github_utils import (
     save_results_to_github, 
     load_results_from_github,
     save_job_positions_to_github,
-    load_job_positions_from_github
+    load_job_positions_from_github,
+    delete_job_position_from_github,
+    update_job_position_in_github
 )
 from modules.candidate_processor import (
     parse_candidate_csv,
@@ -175,11 +177,71 @@ if selected == "Job Management":
     jobs_df = load_job_positions_from_github()
     
     if jobs_df is not None and not jobs_df.empty:
-        st.dataframe(
-            jobs_df,
-            use_container_width=True,
-            hide_index=True
-        )
+        # Display each job position with edit and delete buttons
+        for idx, row in jobs_df.iterrows():
+            with st.expander(f"💼 {row['Job Position']}", expanded=False):
+                st.markdown(f"**Date Created:** {row['Date Created']}")
+                st.markdown("**Job Description:**")
+                st.text_area("", value=row['Job Description'], height=150, disabled=True, key=f"view_desc_{idx}")
+                
+                col1, col2, col3 = st.columns([1, 1, 3])
+                
+                with col1:
+                    if st.button(f"✏️ Edit", key=f"edit_{idx}", type="secondary"):
+                        st.session_state[f"editing_{idx}"] = True
+                        st.rerun()
+                
+                with col2:
+                    if st.button(f"🗑️ Delete", key=f"delete_{idx}", type="secondary"):
+                        if delete_job_position_from_github(row['Job Position']):
+                            st.success(f"✅ Job position '{row['Job Position']}' deleted successfully!")
+                            time.sleep(1)
+                            st.rerun()
+                        else:
+                            st.error("❌ Failed to delete job position")
+                
+                # Edit form (shown when edit button is clicked)
+                if st.session_state.get(f"editing_{idx}", False):
+                    st.markdown("---")
+                    st.markdown("#### Edit Job Position")
+                    
+                    edit_job_position = st.text_input(
+                        "Job Position", 
+                        value=row['Job Position'],
+                        key=f"edit_pos_{idx}"
+                    )
+                    edit_job_description = st.text_area(
+                        "Job Description", 
+                        value=row['Job Description'],
+                        height=200,
+                        key=f"edit_desc_{idx}"
+                    )
+                    
+                    col_save, col_cancel = st.columns([1, 1])
+                    
+                    with col_save:
+                        if st.button("💾 Save Changes", key=f"save_{idx}", type="primary"):
+                            if not edit_job_position.strip() or not edit_job_description.strip():
+                                st.warning("⚠️ Please provide both Job Position and Job Description.")
+                            else:
+                                if update_job_position_in_github(
+                                    row['Job Position'], 
+                                    edit_job_position.strip(), 
+                                    edit_job_description.strip()
+                                ):
+                                    st.success(f"✅ Job position updated successfully!")
+                                    st.session_state[f"editing_{idx}"] = False
+                                    time.sleep(1)
+                                    st.rerun()
+                                else:
+                                    st.error("❌ Failed to update job position")
+                    
+                    with col_cancel:
+                        if st.button("❌ Cancel", key=f"cancel_{idx}"):
+                            st.session_state[f"editing_{idx}"] = False
+                            st.rerun()
+        
+        st.markdown("---")
         
         # Download option
         csv = jobs_df.to_csv(index=False).encode("utf-8")
