@@ -27,6 +27,7 @@ Thumbs.db
 output/
 *.csv
 !requirements.txt
+!sample_candidate_template.csv
 
 # Test files
 test_*.py
