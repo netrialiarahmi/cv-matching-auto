@@ -22,3 +22,12 @@ Thumbs.db
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Output files (using GitHub for storage)
+output/
+*.csv
+!requirements.txt
+
+# Test files
+test_*.py
+*_test.py
