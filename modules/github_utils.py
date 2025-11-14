@@ -94,3 +94,92 @@ def load_results_from_github(path="results.csv"):
     else:
         st.error(f"❌ GitHub load failed: {r.status_code} - {r.text}")
         return None
+
+
+def save_job_positions_to_github(df, path="job_positions.csv"):
+    """Save or update job_positions.csv in GitHub repo.
+    
+    Returns:
+        bool: True if save was successful, False otherwise.
+    """
+    token = st.secrets.get("GITHUB_TOKEN")
+    repo = st.secrets.get("GITHUB_REPO", "netrialiarahmi/cv-matching-gemini")
+    branch = st.secrets.get("GITHUB_BRANCH", "main")
+
+    if not token:
+        st.error("❌ Missing GITHUB_TOKEN in Streamlit secrets.")
+        return False
+
+    headers = {
+        "Authorization": f"token {token}",
+        "Accept": "application/vnd.github+json"
+    }
+
+    url = f"https://api.github.com/repos/{repo}/contents/{path}"
+
+    # Check if file exists
+    r = requests.get(url, headers=headers)
+    sha = None
+    if r.status_code == 200:
+        content = r.json()
+        sha = content["sha"]
+        existing_csv = base64.b64decode(content["content"]).decode("utf-8")
+        old_df = pd.read_csv(StringIO(existing_csv))
+        df = pd.concat([old_df, df], ignore_index=True)
+        df.drop_duplicates(subset=["Job Position"], keep="last", inplace=True)
+    elif r.status_code == 401:
+        st.error(f"❌ GitHub authentication failed: {r.status_code} - {r.text}")
+        return False
+    elif r.status_code != 404:
+        st.warning(f"⚠️ Could not check existing file: {r.status_code} - {r.text}")
+
+    # Encode CSV
+    csv_bytes = df.to_csv(index=False).encode("utf-8")
+    encoded = base64.b64encode(csv_bytes).decode("utf-8")
+
+    # Prepare payload
+    data = {
+        "message": "📋 Update job_positions.csv via Streamlit app",
+        "content": encoded,
+        "branch": branch
+    }
+    if sha:
+        data["sha"] = sha
+
+    # Upload to GitHub
+    res = requests.put(url, headers=headers, data=json.dumps(data))
+    if res.status_code in [200, 201]:
+        st.success("✅ Job positions successfully saved to GitHub!")
+        return True
+    else:
+        st.error(f"❌ GitHub save failed: {res.status_code} - {res.text}")
+        return False
+
+
+def load_job_positions_from_github(path="job_positions.csv"):
+    """Load job_positions.csv from GitHub repo."""
+    token = st.secrets.get("GITHUB_TOKEN")
+    repo = st.secrets.get("GITHUB_REPO", "netrialiarahmi/cv-matching-gemini")
+    branch = st.secrets.get("GITHUB_BRANCH", "main")
+
+    if not token:
+        st.error("❌ Missing GITHUB_TOKEN in Streamlit secrets.")
+        return None
+
+    headers = {
+        "Authorization": f"token {token}",
+        "Accept": "application/vnd.github+json"
+    }
+
+    url = f"https://api.github.com/repos/{repo}/contents/{path}?ref={branch}"
+    r = requests.get(url, headers=headers)
+
+    if r.status_code == 200:
+        content = r.json()
+        decoded = base64.b64decode(content["content"]).decode("utf-8")
+        return pd.read_csv(StringIO(decoded))
+    elif r.status_code == 404:
+        return pd.DataFrame(columns=["Job Position", "Job Description", "Date Created"])
+    else:
+        st.error(f"❌ GitHub load failed: {r.status_code} - {r.text}")
+        return None
