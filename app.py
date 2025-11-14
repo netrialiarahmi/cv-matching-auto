@@ -399,8 +399,17 @@ elif selected == "Screening":
                             )
                         
                         # Calculate Final Score (weighted average, ensuring 0-100 range)
-                        # Weight: 60% CV score, 40% table data score
-                        final_score = int((cv_score * 0.6) + (table_score * 0.4))
+                        # If both scores are available: weighted average (60% CV + 40% table)
+                        # If only one score: use that score
+                        if cv_score > 0 and table_score > 0:
+                            final_score = int((cv_score * 0.6) + (table_score * 0.4))
+                        elif cv_score > 0:
+                            final_score = cv_score
+                        elif table_score > 0:
+                            final_score = table_score
+                        else:
+                            final_score = 0
+                        
                         final_score = max(0, min(100, final_score))  # Clamp to 0-100
                         
                         results.append({
