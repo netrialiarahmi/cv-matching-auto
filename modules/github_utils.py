@@ -33,11 +33,15 @@ def save_results_to_github(df, path="results.csv"):
         content = r.json()
         sha = content["sha"]
         existing_csv = base64.b64decode(content["content"]).decode("utf-8")
-        old_df = pd.read_csv(StringIO(existing_csv))
-        df = pd.concat([old_df, df], ignore_index=True)
-        # Use Candidate Email as unique identifier (new format) or fallback to Filename (old format)
-        dedup_columns = ["Candidate Email", "Job Position"] if "Candidate Email" in df.columns else ["Filename", "Job Position"]
-        df.drop_duplicates(subset=dedup_columns, keep="last", inplace=True)
+        try:
+            old_df = pd.read_csv(StringIO(existing_csv))
+            df = pd.concat([old_df, df], ignore_index=True)
+            # Use Candidate Email as unique identifier (new format) or fallback to Filename (old format)
+            dedup_columns = ["Candidate Email", "Job Position"] if "Candidate Email" in df.columns else ["Filename", "Job Position"]
+            df.drop_duplicates(subset=dedup_columns, keep="last", inplace=True)
+        except pd.errors.EmptyDataError:
+            # Existing file is empty, just use the new data
+            pass
     elif r.status_code == 401:
         st.error(f"❌ GitHub authentication failed: {r.status_code} - {r.text}")
         return False
@@ -89,7 +93,11 @@ def load_results_from_github(path="results.csv"):
     if r.status_code == 200:
         content = r.json()
         decoded = base64.b64decode(content["content"]).decode("utf-8")
-        return pd.read_csv(StringIO(decoded))
+        try:
+            return pd.read_csv(StringIO(decoded))
+        except pd.errors.EmptyDataError:
+            st.warning("⚠️ results.csv is empty.")
+            return None
     elif r.status_code == 404:
         st.warning("⚠️ No results.csv found in GitHub repository yet.")
         return None
@@ -126,9 +134,13 @@ def save_job_positions_to_github(df, path="job_positions.csv"):
         content = r.json()
         sha = content["sha"]
         existing_csv = base64.b64decode(content["content"]).decode("utf-8")
-        old_df = pd.read_csv(StringIO(existing_csv))
-        df = pd.concat([old_df, df], ignore_index=True)
-        df.drop_duplicates(subset=["Job Position"], keep="last", inplace=True)
+        try:
+            old_df = pd.read_csv(StringIO(existing_csv))
+            df = pd.concat([old_df, df], ignore_index=True)
+            df.drop_duplicates(subset=["Job Position"], keep="last", inplace=True)
+        except pd.errors.EmptyDataError:
+            # Existing file is empty, just use the new data
+            pass
     elif r.status_code == 401:
         st.error(f"❌ GitHub authentication failed: {r.status_code} - {r.text}")
         return False
@@ -179,7 +191,11 @@ def load_job_positions_from_github(path="job_positions.csv"):
     if r.status_code == 200:
         content = r.json()
         decoded = base64.b64decode(content["content"]).decode("utf-8")
-        return pd.read_csv(StringIO(decoded))
+        try:
+            return pd.read_csv(StringIO(decoded))
+        except pd.errors.EmptyDataError:
+            # Empty file, return empty DataFrame with expected columns
+            return pd.DataFrame(columns=["Job Position", "Job Description", "Date Created"])
     elif r.status_code == 404:
         return pd.DataFrame(columns=["Job Position", "Job Description", "Date Created"])
     else:
@@ -221,7 +237,11 @@ def delete_job_position_from_github(job_position, path="job_positions.csv"):
     content = r.json()
     sha = content["sha"]
     existing_csv = base64.b64decode(content["content"]).decode("utf-8")
-    df = pd.read_csv(StringIO(existing_csv))
+    try:
+        df = pd.read_csv(StringIO(existing_csv))
+    except pd.errors.EmptyDataError:
+        st.error(f"❌ Cannot delete from empty file")
+        return False
     
     # Remove the job position
     df = df[df["Job Position"] != job_position]
@@ -281,7 +301,11 @@ def update_job_position_in_github(old_position, new_position, new_description, p
     content = r.json()
     sha = content["sha"]
     existing_csv = base64.b64decode(content["content"]).decode("utf-8")
-    df = pd.read_csv(StringIO(existing_csv))
+    try:
+        df = pd.read_csv(StringIO(existing_csv))
+    except pd.errors.EmptyDataError:
+        st.error(f"❌ Cannot update from empty file")
+        return False
     
     # Update the job position
     mask = df["Job Position"] == old_position
