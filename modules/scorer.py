@@ -94,7 +94,7 @@ def score_with_openrouter(cv_text, job_position, job_description):
     client = get_openrouter_client()
 
     prompt = f"""
-You are a professional HR assistant. Compare the candidate's CV with the given job position and job description.
+You are a professional HR assistant. Provide Explanation in Bahasa Indonesia. Compare the candidate's CV with the given job position and job description.
 
 Strict rules:
 • Evaluate only experience that is relevant to the job scope.
