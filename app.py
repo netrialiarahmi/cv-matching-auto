@@ -405,12 +405,13 @@ elif selected == "Screening":
                             use_container_width=True
                         )
                         
-                        # Save to GitHub
-                        if st.button("💾 Save Results to GitHub"):
+                        # Automatically save to GitHub
+                        with st.spinner("💾 Saving results to GitHub..."):
                             if save_results_to_github(df):
-                                st.success("✅ Results saved to GitHub successfully!")
+                                st.success("✅ Results automatically saved to GitHub!")
+                                st.info("💡 You can now view the results in the Dashboard section.")
                             else:
-                                st.error("❌ Failed to save results to GitHub")
+                                st.error("❌ Failed to save results to GitHub. Please try running the screening again.")
 
 
 # ========================================
