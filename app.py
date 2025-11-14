@@ -484,7 +484,7 @@ elif selected == "Dashboard":
                 
                 with col2:
                     st.markdown("### ✅ Strengths")
-                    strengths = row.get("Strengths", "")
+                    strengths = str(row.get("Strengths", "")) if pd.notna(row.get("Strengths")) else ""
                     if strengths and strengths.strip():
                         for strength in strengths.split(", "):
                             if strength.strip():
@@ -493,7 +493,7 @@ elif selected == "Dashboard":
                         st.text("No strengths listed")
                     
                     st.markdown("### ⚠️ Weaknesses")
-                    weaknesses = row.get("Weaknesses", "")
+                    weaknesses = str(row.get("Weaknesses", "")) if pd.notna(row.get("Weaknesses")) else ""
                     if weaknesses and weaknesses.strip():
                         for weakness in weaknesses.split(", "):
                             if weakness.strip():
@@ -502,7 +502,7 @@ elif selected == "Dashboard":
                         st.text("No weaknesses listed")
                     
                     st.markdown("### 🔴 Gaps")
-                    gaps = row.get("Gaps", "")
+                    gaps = str(row.get("Gaps", "")) if pd.notna(row.get("Gaps")) else ""
                     if gaps and gaps.strip():
                         for gap in gaps.split(", "):
                             if gap.strip():
