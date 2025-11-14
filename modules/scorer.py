@@ -89,6 +89,52 @@ def _clamp_score(value):
 # =========================
 # Main Scoring Function
 # =========================
+def extract_candidate_name_from_cv(cv_text):
+    """Extract candidate name from CV text using AI."""
+    if not cv_text or not cv_text.strip():
+        return ""
+    
+    client = get_openrouter_client()
+    
+    prompt = f"""
+Extract the candidate's full name from this CV/resume text.
+
+Rules:
+- Return ONLY the person's full name (first name and last name)
+- If the name is not found or unclear, return "Unknown Candidate"
+- Do not include titles, degrees, or job positions
+- Return just the name, nothing else
+
+CV Text (first 1000 characters):
+{cv_text[:1000]}
+
+Return only the name:
+"""
+    
+    try:
+        response = client.chat.completions.create(
+            model=DEFAULT_MODEL,
+            messages=[
+                {"role": "system", "content": "You are a name extraction assistant. Return only the candidate's full name."},
+                {"role": "user", "content": prompt}
+            ],
+            temperature=0.1,
+        )
+        
+        name = response.choices[0].message.content.strip()
+        # Clean up common artifacts
+        name = name.replace('"', '').replace("'", '').strip()
+        
+        # If name is too long or contains weird patterns, return Unknown
+        if len(name) > 100 or '\n' in name:
+            return "Unknown Candidate"
+        
+        return name if name else "Unknown Candidate"
+        
+    except Exception as e:
+        return "Unknown Candidate"
+
+
 def score_with_openrouter(cv_text, job_position, job_description):
     """Send CV, job position, and JD to OpenRouter (Gemini 2.5 Pro) and return structured evaluation."""
     client = get_openrouter_client()

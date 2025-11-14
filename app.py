@@ -2,7 +2,7 @@ import streamlit as st
 from streamlit_option_menu import option_menu
 import pandas as pd
 from modules.extractor import extract_text_from_pdf
-from modules.scorer import score_with_openrouter, get_openrouter_client
+from modules.scorer import score_with_openrouter, get_openrouter_client, extract_candidate_name_from_cv
 from modules.github_utils import (
     save_results_to_github, 
     load_results_from_github,
@@ -335,16 +335,32 @@ elif selected == "Screening":
                         row = candidates_df.iloc[idx]
                         candidate_name = f"{row.get('Nama Depan', '')} {row.get('Nama Belakang', '')}".strip()
                         
-                        status_text.text(f"Processing {i+1}/{len(new_candidates)}: {candidate_name}")
-                        progress.progress((i + 1) / len(new_candidates))
-                        
                         # Extract resume from URL
                         resume_url = row.get("Link Resume", "")
                         cv_text = ""
                         
                         if pd.notna(resume_url) and resume_url.strip():
-                            with st.spinner(f"📥 Downloading resume for {candidate_name}..."):
+                            # Use a temporary name for status display
+                            temp_name = candidate_name if candidate_name else f"Candidate {i+1}"
+                            status_text.text(f"Processing {i+1}/{len(new_candidates)}: {temp_name}")
+                            with st.spinner(f"📥 Downloading resume for {temp_name}..."):
                                 cv_text = extract_resume_from_url(resume_url)
+                        
+                        # If candidate name is missing from CSV, try to extract it from CV
+                        if not candidate_name and cv_text:
+                            with st.spinner(f"🔍 Extracting name from resume..."):
+                                candidate_name = extract_candidate_name_from_cv(cv_text)
+                        
+                        # Final fallback: use email or generate identifier
+                        if not candidate_name:
+                            email = str(row.get("Alamat Email", "")).strip()
+                            if email and email != "nan":
+                                candidate_name = email.split("@")[0]
+                            else:
+                                candidate_name = f"Candidate {i+1}"
+                        
+                        status_text.text(f"Processing {i+1}/{len(new_candidates)}: {candidate_name}")
+                        progress.progress((i + 1) / len(new_candidates))
                         
                         # Build additional context from CSV data
                         additional_context = build_candidate_context(row)
@@ -462,10 +478,16 @@ elif selected == "Dashboard":
         for idx, row in df_sorted.iterrows():
             # Handle NaN values properly for candidate name
             candidate_name = row.get("Candidate Name")
-            if pd.isna(candidate_name) or not str(candidate_name).strip():
-                candidate_name = row.get("Filename")
-                if pd.isna(candidate_name) or not str(candidate_name).strip():
-                    candidate_name = f"Candidate {idx + 1}"
+            if pd.isna(candidate_name) or not str(candidate_name).strip() or str(candidate_name).strip() == "nan":
+                # Try to use email as identifier
+                email = row.get("Candidate Email")
+                if pd.notna(email) and str(email).strip() and str(email).strip() != "nan":
+                    candidate_name = str(email).split("@")[0]
+                else:
+                    # Check if there's a Filename column as fallback
+                    candidate_name = row.get("Filename")
+                    if pd.isna(candidate_name) or not str(candidate_name).strip():
+                        candidate_name = f"Candidate {idx + 1}"
             
             score = row.get("Final Score", row.get("Match Score", 0))
             
@@ -560,11 +582,18 @@ elif selected == "Dashboard":
         
         # Replace NaN values with appropriate defaults for display
         if "Candidate Name" in df_display.columns:
-            df_display["Candidate Name"] = df_display.apply(
-                lambda row: f"Candidate {row.name + 1}" if pd.isna(row.get("Candidate Name")) or not str(row.get("Candidate Name")).strip() 
-                else row.get("Candidate Name"), 
-                axis=1
-            )
+            def get_display_name(row):
+                name = row.get("Candidate Name")
+                if pd.isna(name) or not str(name).strip() or str(name).strip() == "nan":
+                    # Try email as fallback
+                    email = row.get("Candidate Email")
+                    if pd.notna(email) and str(email).strip() and str(email).strip() != "nan":
+                        return str(email).split("@")[0]
+                    # Final fallback to index
+                    return f"Candidate {row.name + 1}"
+                return str(name)
+            
+            df_display["Candidate Name"] = df_display.apply(get_display_name, axis=1)
         
         # Select key columns for display
         display_cols = ["Candidate Name" if "Candidate Name" in df_display.columns else "Filename", 
