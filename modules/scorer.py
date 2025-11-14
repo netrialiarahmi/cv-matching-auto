@@ -245,3 +245,73 @@ Instructions:
     except Exception as e:
         st.error(f"⚠️ OpenRouter request failed: {e}")
         return 0, f"[Error] {e}", [], [], []
+
+
+def score_table_data(candidate_context, job_position, job_description):
+    """
+    Score candidate based on structured table/CSV data.
+    This evaluates the structured information from the CSV independently from the CV.
+    Returns a score from 0-100.
+    """
+    if not candidate_context or not candidate_context.strip():
+        return 0
+    
+    client = get_openrouter_client()
+    
+    prompt = f"""
+You are an HR evaluator AI. Evaluate the candidate's structured data against the job requirements.
+
+Focus on:
+- Work experience relevance (job titles, companies, duration)
+- Education match (degree level, major, university)
+- Career progression and job level alignment
+- Data completeness and quality
+
+Respond only with a valid JSON object:
+{{
+"score": <integer 0-100>
+}}
+
+Guidelines:
+- 90-100: Excellent match in all areas
+- 70-89: Strong match with minor gaps
+- 50-69: Moderate match, some concerns
+- 30-49: Weak match, significant gaps
+- 0-29: Poor match, major misalignment
+
+=== Job Position ===
+{job_position}
+
+=== Job Description ===
+{job_description}
+
+=== Candidate Structured Data ===
+{candidate_context}
+"""
+
+    try:
+        response = client.chat.completions.create(
+            model=DEFAULT_MODEL,
+            messages=[
+                {"role": "system", "content": "You are an HR evaluator AI that scores candidate data quality and job fit."},
+                {"role": "user", "content": prompt}
+            ],
+            temperature=0.2,
+            response_format={"type": "json_object"},
+        )
+        
+        output = response.choices[0].message.content
+        data = _try_parse_json(output)
+        
+        if isinstance(data, dict):
+            score = _clamp_score(data.get("score", 0))
+            return score
+        
+        # Fallback: try to extract score
+        score_match = re.search(r'"?score"?\s*[:\-]?\s*(\d{1,3})', output, re.IGNORECASE)
+        score = _clamp_score(score_match.group(1) if score_match else 0)
+        return score
+        
+    except Exception as e:
+        st.warning(f"⚠️ Table data scoring failed: {e}")
+        return 0
