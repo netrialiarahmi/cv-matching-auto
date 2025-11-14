@@ -37,58 +37,69 @@ An automated CV matching system with 3 main sections for managing job positions,
 
 ## Required CSV Format for Candidate Upload
 
-The candidate CSV file must include the following 50 columns:
+The candidate CSV file supports both English and Indonesian column names. Use the English format (recommended) or the legacy Indonesian format:
 
-1. Nama Depan
-2. Nama Belakang
-3. Jenis Kelamin
-4. Tanggal Lahir (mm/dd/yy)
-5. Alamat Email
-6. Nomor Handphone
-7. Alamat Domisili
-8. Jabatan Pekerjaan Terakhir
-9. Perusahaan Terakhir
-10. Periode Mulai Kerja
-11. Periode Akhir Kerja
-12. Spesialisasi
-13. Tingkat Posisi
-14. Deskripsi Pekerjaan
-15. Jabatan Pekerjaan Sebelumnya (1)
-16. Perusahaan Sebelumnya (1)
-17. Periode Mulai Kerja (1)
-18. Periode Akhir Kerja (1)
-19. Spesialisasi (1)
-20. Tingkat Posisi (1)
-21. Deskripsi Pekerjaan (1)
-22. Jabatan Pekerjaan Sebelumnya (2)
-23. Perusahaan Sebelumnya (2)
-24. Periode Mulai Kerja (2)
-25. Periode Akhir Kerja (2)
-26. Spesialisasi (2)
-27. Tingkat Posisi (2)
-28. Deskripsi Pekerjaan (2)
-29. Tingkat Pendidikan Tertinggi
-30. Sekolah/Universitas
-31. Jurusan/Program Studi
-32. Periode Mulai Studi
-33. Periode Akhir Studi
-34. Tingkat Pendidikan Sebelumnya (1)
-35. Sekolah/Universitas (1)
-36. Jurusan/Program Studi (1)
-37. Periode Mulai Studi (1)
-38. Periode Akhir Studi (1)
-39. Tingkat Pendidikan Sebelumnya (2)
-40. Sekolah/Universitas (2)
-41. Jurusan/Program Studi (2)
-42. Periode Mulai Studi (2)
-43. Periode Akhir Studi (2)
-44. Tanggal Aplikasi Dimulai (mm/dd/yy hr:mn)
-45. Tanggal Assessment Selesai (mm/dd/yy hr:mn)
-46. Nama Pekerjaan
-47. Status Aplikasi
-48. Link Profil Kalibrr
-49. Link Aplikasi Pekerjaan
-50. Link Resume
+### English Format (Recommended)
+1. First Name
+2. Last Name
+3. Gender
+4. Birthdate (mm/dd/yy)
+5. Email Address
+6. Mobile Number
+7. Physical Address
+8. Latest Job Title
+9. Latest Company
+10. Latest Job Starting Period
+11. Latest Job Ending Period
+12. Latest Job Function
+13. Latest Job Level
+14. Latest Job Description
+15. Previous Job Title (1)
+16. Previous Company (1)
+17. Previous Job Starting Period (1)
+18. Previous Job Ending Period (1)
+19. Previous Job Function (1)
+20. Previous Job Level (1)
+21. Previous Job Description (1)
+22. Previous Job Title (2)
+23. Previous Company (2)
+24. Previous Job Starting Period (2)
+25. Previous Job Ending Period (2)
+26. Previous Job Function (2)
+27. Previous Job Level (2)
+28. Previous Job Description (2)
+29. Latest Educational Attainment
+30. Latest School/University
+31. Latest Major/Course
+32. Latest Education Starting Period
+33. Latest Education Ending Period
+34. Previous Educational Attainment (1)
+35. Previous School/University (1)
+36. Previous Major/Course (1)
+37. Previous Education Starting Period (1)
+38. Previous Education Ending Period (1)
+39. Previous Educational Attainment (2)
+40. Previous School/University (2)
+41. Previous Major/Course (2)
+42. Previous Education Starting Period (2)
+43. Previous Education Ending Period (2)
+44. Date Application Started (mm/dd/yy hr:mn)
+45. Date Assessment Completed (mm/dd/yy hr:mn)
+46. Job Name
+47. Application Status
+48. Kalibrr Profile Link
+49. Job Application Link
+50. Resume Link
+
+### Indonesian Format (Legacy - Still Supported)
+The system also supports the legacy Indonesian column names for backward compatibility:
+- Nama Depan / Nama Belakang → First Name / Last Name
+- Alamat Email → Email Address
+- Nomor Handphone → Mobile Number
+- Jabatan Pekerjaan Terakhir → Latest Job Title
+- Perusahaan Terakhir → Latest Company
+- Tingkat Pendidikan Tertinggi → Latest Educational Attainment
+- And so on...
 
 ## Setup
 
