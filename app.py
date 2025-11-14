@@ -15,7 +15,8 @@ from modules.candidate_processor import (
     parse_candidate_csv,
     extract_resume_from_url,
     build_candidate_context,
-    get_candidate_identifier
+    get_candidate_identifier,
+    _get_column_value
 )
 from PIL import Image
 from datetime import datetime
@@ -315,9 +316,12 @@ elif selected == "Screening":
                 skipped_candidates = []
                 
                 for idx, row in candidates_df.iterrows():
-                    candidate_email = str(row.get("Alamat Email", "")).strip()
+                    # Support both English and Indonesian column names
+                    candidate_email = _get_column_value(row, "Email Address", "Alamat Email", "").strip()
                     if candidate_email in existing_candidates:
-                        skipped_candidates.append(f"{row.get('Nama Depan', '')} {row.get('Nama Belakang', '')}")
+                        first_name = _get_column_value(row, "First Name", "Nama Depan")
+                        last_name = _get_column_value(row, "Last Name", "Nama Belakang")
+                        skipped_candidates.append(f"{first_name} {last_name}")
                     else:
                         new_candidates.append(idx)
                 
@@ -333,13 +337,16 @@ elif selected == "Screening":
                     
                     for i, idx in enumerate(new_candidates):
                         row = candidates_df.iloc[idx]
-                        candidate_name = f"{row.get('Nama Depan', '')} {row.get('Nama Belakang', '')}".strip()
+                        # Get candidate name supporting both English and Indonesian columns
+                        first_name = _get_column_value(row, "First Name", "Nama Depan")
+                        last_name = _get_column_value(row, "Last Name", "Nama Belakang")
+                        candidate_name = f"{first_name} {last_name}".strip()
                         
                         # Extract resume from URL
-                        resume_url = row.get("Link Resume", "")
+                        resume_url = _get_column_value(row, "Resume Link", "Link Resume")
                         cv_text = ""
                         
-                        if pd.notna(resume_url) and resume_url.strip():
+                        if resume_url and str(resume_url).strip():
                             # Use a temporary name for status display
                             temp_name = candidate_name if candidate_name else f"Candidate {i+1}"
                             status_text.text(f"Processing {i+1}/{len(new_candidates)}: {temp_name}")
@@ -353,7 +360,7 @@ elif selected == "Screening":
                         
                         # Final fallback: use email or generate identifier
                         if not candidate_name:
-                            email = str(row.get("Alamat Email", "")).strip()
+                            email = _get_column_value(row, "Email Address", "Alamat Email", "").strip()
                             if email and email != "nan":
                                 candidate_name = email.split("@")[0]
                             else:
@@ -384,21 +391,21 @@ elif selected == "Screening":
                         
                         results.append({
                             "Candidate Name": candidate_name,
-                            "Candidate Email": str(row.get("Alamat Email", "")),
-                            "Phone": str(row.get("Nomor Handphone", "")),
+                            "Candidate Email": _get_column_value(row, "Email Address", "Alamat Email"),
+                            "Phone": _get_column_value(row, "Mobile Number", "Nomor Handphone"),
                             "Job Position": selected_job,
                             "Match Score": score,
                             "AI Summary": summary,
                             "Strengths": ", ".join(strengths) if strengths else "",
                             "Weaknesses": ", ".join(weaknesses) if weaknesses else "",
                             "Gaps": ", ".join(gaps) if gaps else "",
-                            "Latest Job Title": str(row.get("Jabatan Pekerjaan Terakhir", "")),
-                            "Latest Company": str(row.get("Perusahaan Terakhir", "")),
-                            "Education": str(row.get("Tingkat Pendidikan Tertinggi", "")),
-                            "University": str(row.get("Sekolah/Universitas", "")),
-                            "Major": str(row.get("Jurusan/Program Studi", "")),
-                            "Kalibrr Profile": str(row.get("Link Profil Kalibrr", "")),
-                            "Application Link": str(row.get("Link Aplikasi Pekerjaan", "")),
+                            "Latest Job Title": _get_column_value(row, "Latest Job Title", "Jabatan Pekerjaan Terakhir"),
+                            "Latest Company": _get_column_value(row, "Latest Company", "Perusahaan Terakhir"),
+                            "Education": _get_column_value(row, "Latest Educational Attainment", "Tingkat Pendidikan Tertinggi"),
+                            "University": _get_column_value(row, "Latest School/University", "Sekolah/Universitas"),
+                            "Major": _get_column_value(row, "Latest Major/Course", "Jurusan/Program Studi"),
+                            "Kalibrr Profile": _get_column_value(row, "Kalibrr Profile Link", "Link Profil Kalibrr"),
+                            "Application Link": _get_column_value(row, "Job Application Link", "Link Aplikasi Pekerjaan"),
                             "Resume Link": resume_url,
                             "Recruiter Feedback": "",
                             "AI Recruiter Score": "",
