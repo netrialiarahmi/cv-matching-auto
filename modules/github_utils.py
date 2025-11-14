@@ -35,7 +35,9 @@ def save_results_to_github(df, path="results.csv"):
         existing_csv = base64.b64decode(content["content"]).decode("utf-8")
         old_df = pd.read_csv(StringIO(existing_csv))
         df = pd.concat([old_df, df], ignore_index=True)
-        df.drop_duplicates(subset=["Filename", "Job Position"], keep="last", inplace=True)
+        # Use Candidate Email as unique identifier (new format) or fallback to Filename (old format)
+        dedup_columns = ["Candidate Email", "Job Position"] if "Candidate Email" in df.columns else ["Filename", "Job Position"]
+        df.drop_duplicates(subset=dedup_columns, keep="last", inplace=True)
     elif r.status_code == 401:
         st.error(f"❌ GitHub authentication failed: {r.status_code} - {r.text}")
         return False
