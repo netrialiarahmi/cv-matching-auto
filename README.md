@@ -6,8 +6,10 @@ An automated CV matching system with 3 main sections for managing job positions,
 
 ### 1. Job Management
 - Upload and manage job positions with descriptions
+- Edit existing job positions (name and description)
+- Delete job positions
 - Store job positions in GitHub repository
-- View all saved job positions in a table
+- View all saved job positions in expandable cards
 - Download job positions as CSV
 
 ### 2. Screening
