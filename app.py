@@ -460,7 +460,13 @@ elif selected == "Dashboard":
         st.subheader("📋 Candidate Details (Ranked by Score)")
         
         for idx, row in df_sorted.iterrows():
-            candidate_name = row.get("Candidate Name", row.get("Filename", f"Candidate {idx}"))
+            # Handle NaN values properly for candidate name
+            candidate_name = row.get("Candidate Name")
+            if pd.isna(candidate_name) or not str(candidate_name).strip():
+                candidate_name = row.get("Filename")
+                if pd.isna(candidate_name) or not str(candidate_name).strip():
+                    candidate_name = f"Candidate {idx + 1}"
+            
             score = row.get("Final Score", row.get("Match Score", 0))
             
             with st.expander(f"🔍 {candidate_name} - Score: {score}", expanded=False):
@@ -469,18 +475,24 @@ elif selected == "Dashboard":
                 with col1:
                     st.markdown("### 📊 Scores")
                     st.metric("Match Score", f"{row.get('Match Score', 0)}")
-                    if row.get("AI Recruiter Score"):
-                        st.metric("AI Recruiter Score", f"{row.get('AI Recruiter Score', 0)}")
+                    ai_recruiter_score = row.get("AI Recruiter Score")
+                    if pd.notna(ai_recruiter_score) and str(ai_recruiter_score).strip():
+                        st.metric("AI Recruiter Score", f"{ai_recruiter_score}")
                     st.metric("Final Score", f"{row.get('Final Score', 0)}")
                     
                     st.markdown("### 👤 Basic Info")
+                    # Helper function to get non-NaN value
+                    def get_value(key, default='N/A'):
+                        val = row.get(key, default)
+                        return val if pd.notna(val) and str(val).strip() else default
+                    
                     if "Candidate Email" in row:
-                        st.text(f"📧 Email: {row.get('Candidate Email', 'N/A')}")
-                        st.text(f"📱 Phone: {row.get('Phone', 'N/A')}")
-                    st.text(f"💼 Job: {row.get('Latest Job Title', 'N/A')}")
-                    st.text(f"🏢 Company: {row.get('Latest Company', 'N/A')}")
-                    st.text(f"🎓 Education: {row.get('Education', 'N/A')}")
-                    st.text(f"🏫 University: {row.get('University', 'N/A')}")
+                        st.text(f"📧 Email: {get_value('Candidate Email')}")
+                        st.text(f"📱 Phone: {get_value('Phone')}")
+                    st.text(f"💼 Job: {get_value('Latest Job Title')}")
+                    st.text(f"🏢 Company: {get_value('Latest Company')}")
+                    st.text(f"🎓 Education: {get_value('Education')}")
+                    st.text(f"🏫 University: {get_value('University')}")
                 
                 with col2:
                     st.markdown("### ✅ Strengths")
@@ -511,42 +523,71 @@ elif selected == "Dashboard":
                         st.text("No gaps identified")
                 
                 st.markdown("### 🤖 AI Summary")
-                st.info(row.get("AI Summary", "No summary available"))
+                ai_summary = row.get("AI Summary")
+                if pd.notna(ai_summary) and str(ai_summary).strip():
+                    st.info(ai_summary)
+                else:
+                    st.info("No summary available")
                 
                 # Links section
-                if "Resume Link" in row or "Kalibrr Profile" in row:
+                resume_link = row.get("Resume Link")
+                kalibrr_profile = row.get("Kalibrr Profile")
+                application_link = row.get("Application Link")
+                
+                has_links = (
+                    (pd.notna(resume_link) and str(resume_link).strip()) or
+                    (pd.notna(kalibrr_profile) and str(kalibrr_profile).strip()) or
+                    (pd.notna(application_link) and str(application_link).strip())
+                )
+                
+                if has_links:
                     st.markdown("### 🔗 Links")
                     link_cols = st.columns(3)
-                    if row.get("Resume Link"):
-                        link_cols[0].markdown(f"[📄 Resume]({row['Resume Link']})")
-                    if row.get("Kalibrr Profile"):
-                        link_cols[1].markdown(f"[👤 Kalibrr Profile]({row['Kalibrr Profile']})")
-                    if row.get("Application Link"):
-                        link_cols[2].markdown(f"[📝 Application]({row['Application Link']})")
+                    if pd.notna(resume_link) and str(resume_link).strip():
+                        link_cols[0].markdown(f"[📄 Resume]({resume_link})")
+                    if pd.notna(kalibrr_profile) and str(kalibrr_profile).strip():
+                        link_cols[1].markdown(f"[👤 Kalibrr Profile]({kalibrr_profile})")
+                    if pd.notna(application_link) and str(application_link).strip():
+                        link_cols[2].markdown(f"[📝 Application]({application_link})")
 
         st.divider()
         
         # --- Summary Table ---
         st.subheader("📊 Summary Table (All Candidates)")
         
+        # Create a display dataframe with cleaned values
+        df_display = df_sorted.copy()
+        
+        # Replace NaN values with appropriate defaults for display
+        if "Candidate Name" in df_display.columns:
+            df_display["Candidate Name"] = df_display.apply(
+                lambda row: f"Candidate {row.name + 1}" if pd.isna(row.get("Candidate Name")) or not str(row.get("Candidate Name")).strip() 
+                else row.get("Candidate Name"), 
+                axis=1
+            )
+        
         # Select key columns for display
-        display_cols = ["Candidate Name" if "Candidate Name" in df_sorted.columns else "Filename", 
+        display_cols = ["Candidate Name" if "Candidate Name" in df_display.columns else "Filename", 
                        "Job Position", "Match Score", "Final Score"]
         
         # Add optional columns if they exist
         optional_cols = ["AI Recruiter Score", "Latest Job Title", "Education"]
         for col in optional_cols:
-            if col in df_sorted.columns:
+            if col in df_display.columns:
                 display_cols.append(col)
         
         st.dataframe(
-            df_sorted[display_cols],
+            df_display[display_cols],
             use_container_width=True
         )
         
         # --- Visualizations ---
         st.subheader("📈 Score Distribution")
-        st.bar_chart(df_sorted.set_index(df_sorted["Candidate Name"] if "Candidate Name" in df_sorted.columns else df_sorted["Filename"])["Final Score"])
+        
+        # Create chart data with cleaned candidate names
+        chart_data = df_display.copy()
+        chart_index = chart_data["Candidate Name"] if "Candidate Name" in chart_data.columns else chart_data.index
+        st.bar_chart(chart_data.set_index(chart_index)["Final Score"])
 
         # --- Download buttons ---
         csv = df_sorted.to_csv(index=False).encode("utf-8")
