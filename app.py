@@ -2,7 +2,7 @@ import streamlit as st
 from streamlit_option_menu import option_menu
 import pandas as pd
 from modules.extractor import extract_text_from_pdf
-from modules.scorer import score_with_openrouter, get_openrouter_client, extract_candidate_name_from_cv
+from modules.scorer import score_with_openrouter, get_openrouter_client, extract_candidate_name_from_cv, score_table_data
 from modules.github_utils import (
     save_results_to_github, 
     load_results_from_github,
@@ -372,29 +372,52 @@ elif selected == "Screening":
                         # Build additional context from CSV data
                         additional_context = build_candidate_context(row)
                         
-                        # Combine CV text with additional context
+                        # Combine CV text with additional context for CV scoring
                         full_context = f"{cv_text}\n\n--- Additional Information ---\n{additional_context}"
                         
-                        # Score the candidate
-                        if full_context.strip():
-                            score, summary, strengths, weaknesses, gaps = score_with_openrouter(
-                                full_context, 
+                        # Score 1: CV Match Score (from resume analysis)
+                        cv_score = 0
+                        summary = "No resume or information available"
+                        strengths = []
+                        weaknesses = []
+                        gaps = []
+                        
+                        if cv_text.strip():
+                            cv_score, summary, strengths, weaknesses, gaps = score_with_openrouter(
+                                cv_text, 
                                 selected_job, 
                                 job_info['Job Description']
                             )
+                        
+                        # Score 2: Table Data Score (from structured CSV data)
+                        table_score = 0
+                        if additional_context.strip():
+                            table_score = score_table_data(
+                                additional_context,
+                                selected_job,
+                                job_info['Job Description']
+                            )
+                        
+                        # Calculate Final Score (weighted average, ensuring 0-100 range)
+                        # If both scores are available: weighted average (60% CV + 40% table)
+                        # If only one score: use that score
+                        if cv_score > 0 and table_score > 0:
+                            final_score = int((cv_score * 0.6) + (table_score * 0.4))
+                        elif cv_score > 0:
+                            final_score = cv_score
+                        elif table_score > 0:
+                            final_score = table_score
                         else:
-                            score = 0
-                            summary = "No resume or information available"
-                            strengths = []
-                            weaknesses = []
-                            gaps = []
+                            final_score = 0
+                        
+                        final_score = max(0, min(100, final_score))  # Clamp to 0-100
                         
                         results.append({
                             "Candidate Name": candidate_name,
                             "Candidate Email": _get_column_value(row, "Email Address", "Alamat Email"),
                             "Phone": _get_column_value(row, "Mobile Number", "Nomor Handphone"),
                             "Job Position": selected_job,
-                            "Match Score": score,
+                            "Match Score": cv_score,
                             "AI Summary": summary,
                             "Strengths": ", ".join(strengths) if strengths else "",
                             "Weaknesses": ", ".join(weaknesses) if weaknesses else "",
@@ -408,8 +431,8 @@ elif selected == "Screening":
                             "Application Link": _get_column_value(row, "Job Application Link", "Link Aplikasi Pekerjaan"),
                             "Resume Link": resume_url,
                             "Recruiter Feedback": "",
-                            "AI Recruiter Score": "",
-                            "Final Score": score,
+                            "AI Recruiter Score": table_score,
+                            "Final Score": final_score,
                             "Date Processed": datetime.now().strftime("%Y-%m-%d %H:%M:%S")
                         })
                     
