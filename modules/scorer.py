@@ -180,7 +180,7 @@ Instructions:
 {job_description}
 
 === Candidate CV (truncated) ===
-{cv_text[:5000]}
+{cv_text[:2000]}
 """
 
     # --- Send to OpenRouter ---
