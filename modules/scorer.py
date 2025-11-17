@@ -195,6 +195,7 @@ Instructions:
             temperature=0.2,
             # Encourage strict JSON responses for models that support it
             response_format={"type": "json_object"},
+            max_tokens=2048
         )
 
         output = response.choices[0].message.content
@@ -299,6 +300,7 @@ Guidelines:
             ],
             temperature=0.2,
             response_format={"type": "json_object"},
+            max_tokens=2048
         )
         
         output = response.choices[0].message.content
