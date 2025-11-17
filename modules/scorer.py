@@ -119,6 +119,7 @@ Return only the name:
                 {"role": "user", "content": prompt}
             ],
             temperature=0.1,
+            max_tokens=2048
         )
         
         name = response.choices[0].message.content.strip()
