@@ -171,7 +171,7 @@ Instructions:
 • "strengths": up to 5 relevant advantages.
 • "weaknesses": up to 5 limitations.
 • "gaps": up to 5 missing requirements.
-• Use elaboration when assessing senior roles that are no longer aligned with the AE level.
+• Use elaboration when assessing senior roles that are no longer aligned with.
 • Prioritize match strictly based on the job description.
 
 === Job Position ===
