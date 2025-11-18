@@ -13,7 +13,8 @@ An automated CV matching system with 3 main sections for managing job positions,
 - Download job positions as CSV
 
 ### 2. Screening
-- Upload candidate data via CSV file (50 columns including work history, education, and resume links)
+- **Automatic data fetching from Google Sheets** - Automatically loads candidate data from a configured Google Sheets URL when you select a job position
+- **Fallback to CSV upload** - If no data is found for the position in Google Sheets, you can upload a CSV file manually
 - Select job position from saved positions
 - Preview job description and candidate data before screening
 - Automatically extract and analyze resumes from URLs
@@ -116,7 +117,13 @@ GITHUB_REPO = "username/repo-name"
 GITHUB_BRANCH = "main"
 ```
 
-3. Run the application:
+3. (Optional) Configure Google Sheets URL:
+   - The Google Sheets URL is configured in `modules/candidate_processor.py`
+   - By default, it uses: `https://docs.google.com/spreadsheets/d/e/2PACX-1vRKC_5lHg9yJgGoBlkH0A-fjpjpiYu4MzO4ieEdSId5wAKS7bsLDdplXWx8944xFlHf2f9lVcUYzVcr/pub?output=csv`
+   - Your Google Sheet should contain a column named "Job Name" or "Nama Pekerjaan" to match against job positions
+   - The sheet should follow the same CSV format as described in the "Required CSV Format" section
+
+4. Run the application:
 ```bash
 streamlit run app.py
 ```
@@ -142,9 +149,12 @@ cv-matching-auto/
 
 1. **Job Management**: HR adds job positions with detailed descriptions. These are saved to `job_positions.csv` in GitHub.
 
-2. **Screening**: HR uploads a CSV file with candidate data. The system:
+2. **Screening**: When a job position is selected, the system:
+   - First attempts to fetch candidate data from the configured Google Sheets URL
+   - Filters candidates by matching the job position name with the "Job Name" or "Nama Pekerjaan" column
+   - If no data is found in Google Sheets, prompts for CSV file upload
    - Downloads resumes from provided URLs
-   - Combines resume content with structured data from the CSV
+   - Combines resume content with structured data from the CSV/Google Sheets
    - Uses AI to match candidates against the selected job position
    - Saves results to `results.csv` in GitHub
 
