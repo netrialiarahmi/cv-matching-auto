@@ -16,7 +16,8 @@ from modules.candidate_processor import (
     extract_resume_from_url,
     build_candidate_context,
     get_candidate_identifier,
-    _get_column_value
+    _get_column_value,
+    fetch_candidates_from_google_sheets
 )
 from PIL import Image
 from datetime import datetime
@@ -283,183 +284,204 @@ elif selected == "Screening":
                 st.text_area("", value=job_info['Job Description'], height=150, disabled=True, key="jd_preview")
         
         st.markdown("---")
-        st.markdown("### 2️⃣ Upload Candidate Data")
+        st.markdown("### 2️⃣ Load Candidate Data")
         
-        uploaded_csv = st.file_uploader(
-            "📤 Upload Candidate CSV File",
-            type=["csv"],
-            help="Upload CSV file with candidate information including resume links"
-        )
+        # Try to fetch candidates from Google Sheets first
+        candidates_df = None
+        data_source = None
         
-        if uploaded_csv:
-            candidates_df = parse_candidate_csv(uploaded_csv)
+        with st.spinner("🔍 Checking Google Sheets for candidate data..."):
+            candidates_df = fetch_candidates_from_google_sheets(selected_job)
+        
+        if candidates_df is not None and not candidates_df.empty:
+            # Data found in Google Sheets
+            data_source = "Google Sheets"
+            st.success(f"✅ Found {len(candidates_df)} candidate(s) from Google Sheets for '{selected_job}'")
             
-            if candidates_df is not None:
-                st.success(f"✅ CSV loaded successfully! Found {len(candidates_df)} candidates.")
+            with st.expander("👀 Preview Candidate Data from Google Sheets", expanded=True):
+                st.dataframe(candidates_df.head(10), use_container_width=True)
+        else:
+            # No data in Google Sheets, show upload option
+            st.info("ℹ️ No candidate data found in Google Sheets for this position. Please upload a CSV file.")
+            
+            uploaded_csv = st.file_uploader(
+                "📤 Upload Candidate CSV File",
+                type=["csv"],
+                help="Upload CSV file with candidate information including resume links"
+            )
+            
+            if uploaded_csv:
+                candidates_df = parse_candidate_csv(uploaded_csv)
+                data_source = "Uploaded CSV"
                 
-                with st.expander("👀 Preview Candidate Data", expanded=True):
-                    st.dataframe(candidates_df.head(10), use_container_width=True)
-                
-                st.markdown("---")
-                
-                # Load existing results to check for duplicates
-                existing_results = load_results_from_github()
-                existing_candidate_job_pairs = set()
-                
-                if existing_results is not None and not existing_results.empty:
-                    for _, row in existing_results.iterrows():
-                        if "Candidate Email" in row and pd.notna(row["Candidate Email"]) and "Job Position" in row and pd.notna(row["Job Position"]):
-                            # Store combination of email + job position
-                            existing_candidate_job_pairs.add((row["Candidate Email"], row["Job Position"]))
-                
-                # Check which candidates are new for this specific job position
-                new_candidates = []
-                skipped_candidates = []
-                
-                for idx, row in candidates_df.iterrows():
-                    # Support both English and Indonesian column names
-                    candidate_email = _get_column_value(row, "Email Address", "Alamat Email", "").strip()
-                    # Check if this candidate has already been processed for this specific job position
-                    if (candidate_email, selected_job) in existing_candidate_job_pairs:
-                        first_name = _get_column_value(row, "First Name", "Nama Depan")
-                        last_name = _get_column_value(row, "Last Name", "Nama Belakang")
-                        skipped_candidates.append(f"{first_name} {last_name}")
-                    else:
-                        new_candidates.append(idx)
-                
-                if skipped_candidates:
-                    st.info(f"ℹ️ {len(skipped_candidates)} candidate(s) already processed for '{selected_job}' position and will be skipped.")
-                
-                st.markdown(f"### 3️⃣ Process Candidates ({len(new_candidates)} new)")
-                
-                if st.button("🚀 Start Screening", type="primary", disabled=len(new_candidates) == 0):
-                    results = []
-                    progress = st.progress(0)
-                    status_text = st.empty()
+                if candidates_df is not None:
+                    st.success(f"✅ CSV loaded successfully! Found {len(candidates_df)} candidates.")
                     
-                    for i, idx in enumerate(new_candidates):
-                        row = candidates_df.iloc[idx]
-                        # Get candidate name supporting both English and Indonesian columns
-                        first_name = _get_column_value(row, "First Name", "Nama Depan")
-                        last_name = _get_column_value(row, "Last Name", "Nama Belakang")
-                        candidate_name = f"{first_name} {last_name}".strip()
-                        
-                        # Extract resume from URL
-                        resume_url = _get_column_value(row, "Resume Link", "Link Resume")
-                        cv_text = ""
-                        
-                        if resume_url and str(resume_url).strip():
-                            # Use a temporary name for status display
-                            temp_name = candidate_name if candidate_name else f"Candidate {i+1}"
-                            status_text.text(f"Processing {i+1}/{len(new_candidates)}: {temp_name}")
-                            with st.spinner(f"📥 Downloading resume for {temp_name}..."):
-                                cv_text = extract_resume_from_url(resume_url)
-                        
-                        # If candidate name is missing from CSV, try to extract it from CV
-                        if not candidate_name and cv_text:
-                            with st.spinner(f"🔍 Extracting name from resume..."):
-                                candidate_name = extract_candidate_name_from_cv(cv_text)
-                        
-                        # Final fallback: use email or generate identifier
-                        if not candidate_name:
-                            email = _get_column_value(row, "Email Address", "Alamat Email", "").strip()
-                            if email and email != "nan":
-                                candidate_name = email.split("@")[0]
-                            else:
-                                candidate_name = f"Candidate {i+1}"
-                        
-                        status_text.text(f"Processing {i+1}/{len(new_candidates)}: {candidate_name}")
-                        progress.progress((i + 1) / len(new_candidates))
-                        
-                        # Build additional context from CSV data
-                        additional_context = build_candidate_context(row)
-                        
-                        # Combine CV text with additional context for CV scoring
-                        full_context = f"{cv_text}\n\n--- Additional Information ---\n{additional_context}"
-                        
-                        # Score 1: CV Match Score (from resume analysis)
-                        cv_score = 0
-                        summary = "No resume or information available"
-                        strengths = []
-                        weaknesses = []
-                        gaps = []
-                        
-                        if cv_text.strip():
-                            cv_score, summary, strengths, weaknesses, gaps = score_with_openrouter(
-                                cv_text, 
-                                selected_job, 
-                                job_info['Job Description']
-                            )
-                        
-                        # Score 2: Table Data Score (from structured CSV data)
-                        table_score = 0
-                        if additional_context.strip():
-                            table_score = score_table_data(
-                                additional_context,
-                                selected_job,
-                                job_info['Job Description']
-                            )
-                        
-                        # Calculate Final Score (weighted average, ensuring 0-100 range)
-                        # If both scores are available: weighted average (60% CV + 40% table)
-                        # If only one score: use that score
-                        if cv_score > 0 and table_score > 0:
-                            final_score = int((cv_score * 0.6) + (table_score * 0.4))
-                        elif cv_score > 0:
-                            final_score = cv_score
-                        elif table_score > 0:
-                            final_score = table_score
+                    with st.expander("👀 Preview Candidate Data", expanded=True):
+                        st.dataframe(candidates_df.head(10), use_container_width=True)
+        
+        # Process candidates if data is available from any source
+        if candidates_df is not None and not candidates_df.empty:
+            st.markdown("---")
+            
+            # Load existing results to check for duplicates
+            existing_results = load_results_from_github()
+            existing_candidate_job_pairs = set()
+            
+            if existing_results is not None and not existing_results.empty:
+                for _, row in existing_results.iterrows():
+                    if "Candidate Email" in row and pd.notna(row["Candidate Email"]) and "Job Position" in row and pd.notna(row["Job Position"]):
+                        # Store combination of email + job position
+                        existing_candidate_job_pairs.add((row["Candidate Email"], row["Job Position"]))
+            
+            # Check which candidates are new for this specific job position
+            new_candidates = []
+            skipped_candidates = []
+            
+            for idx, row in candidates_df.iterrows():
+                # Support both English and Indonesian column names
+                candidate_email = _get_column_value(row, "Email Address", "Alamat Email", "").strip()
+                # Check if this candidate has already been processed for this specific job position
+                if (candidate_email, selected_job) in existing_candidate_job_pairs:
+                    first_name = _get_column_value(row, "First Name", "Nama Depan")
+                    last_name = _get_column_value(row, "Last Name", "Nama Belakang")
+                    skipped_candidates.append(f"{first_name} {last_name}")
+                else:
+                    new_candidates.append(idx)
+            
+            if skipped_candidates:
+                st.info(f"ℹ️ {len(skipped_candidates)} candidate(s) already processed for '{selected_job}' position and will be skipped.")
+            
+            st.markdown(f"### 3️⃣ Process Candidates ({len(new_candidates)} new)")
+            
+            if st.button("🚀 Start Screening", type="primary", disabled=len(new_candidates) == 0):
+                results = []
+                progress = st.progress(0)
+                status_text = st.empty()
+                
+                for i, idx in enumerate(new_candidates):
+                    row = candidates_df.iloc[idx]
+                    # Get candidate name supporting both English and Indonesian columns
+                    first_name = _get_column_value(row, "First Name", "Nama Depan")
+                    last_name = _get_column_value(row, "Last Name", "Nama Belakang")
+                    candidate_name = f"{first_name} {last_name}".strip()
+                    
+                    # Extract resume from URL
+                    resume_url = _get_column_value(row, "Resume Link", "Link Resume")
+                    cv_text = ""
+                    
+                    if resume_url and str(resume_url).strip():
+                        # Use a temporary name for status display
+                        temp_name = candidate_name if candidate_name else f"Candidate {i+1}"
+                        status_text.text(f"Processing {i+1}/{len(new_candidates)}: {temp_name}")
+                        with st.spinner(f"📥 Downloading resume for {temp_name}..."):
+                            cv_text = extract_resume_from_url(resume_url)
+                    
+                    # If candidate name is missing from CSV, try to extract it from CV
+                    if not candidate_name and cv_text:
+                        with st.spinner(f"🔍 Extracting name from resume..."):
+                            candidate_name = extract_candidate_name_from_cv(cv_text)
+                    
+                    # Final fallback: use email or generate identifier
+                    if not candidate_name:
+                        email = _get_column_value(row, "Email Address", "Alamat Email", "").strip()
+                        if email and email != "nan":
+                            candidate_name = email.split("@")[0]
                         else:
-                            final_score = 0
-                        
-                        final_score = max(0, min(100, final_score))  # Clamp to 0-100
-                        
-                        results.append({
-                            "Candidate Name": candidate_name,
-                            "Candidate Email": _get_column_value(row, "Email Address", "Alamat Email"),
-                            "Phone": _get_column_value(row, "Mobile Number", "Nomor Handphone"),
-                            "Job Position": selected_job,
-                            "Match Score": cv_score,
-                            "AI Summary": summary,
-                            "Strengths": ", ".join(strengths) if strengths else "",
-                            "Weaknesses": ", ".join(weaknesses) if weaknesses else "",
-                            "Gaps": ", ".join(gaps) if gaps else "",
-                            "Latest Job Title": _get_column_value(row, "Latest Job Title", "Jabatan Pekerjaan Terakhir"),
-                            "Latest Company": _get_column_value(row, "Latest Company", "Perusahaan Terakhir"),
-                            "Education": _get_column_value(row, "Latest Educational Attainment", "Tingkat Pendidikan Tertinggi"),
-                            "University": _get_column_value(row, "Latest School/University", "Sekolah/Universitas"),
-                            "Major": _get_column_value(row, "Latest Major/Course", "Jurusan/Program Studi"),
-                            "Kalibrr Profile": _get_column_value(row, "Kalibrr Profile Link", "Link Profil Kalibrr"),
-                            "Application Link": _get_column_value(row, "Job Application Link", "Link Aplikasi Pekerjaan"),
-                            "Resume Link": resume_url,
-                            "Recruiter Feedback": "",
-                            "AI Recruiter Score": table_score,
-                            "Final Score": final_score,
-                            "Date Processed": datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-                        })
+                            candidate_name = f"Candidate {i+1}"
                     
-                    status_text.text("✅ Screening completed!")
+                    status_text.text(f"Processing {i+1}/{len(new_candidates)}: {candidate_name}")
+                    progress.progress((i + 1) / len(new_candidates))
                     
-                    if results:
-                        df = pd.DataFrame(results)
-                        st.session_state["screening_results"] = df
-                        
-                        st.success(f"🎉 Successfully screened {len(results)} candidates!")
-                        
-                        # Preview results
-                        st.markdown("### 📊 Screening Results Preview")
-                        st.dataframe(
-                            df[["Candidate Name", "Job Position", "Match Score", "AI Summary"]],
-                            use_container_width=True
+                    # Build additional context from CSV data
+                    additional_context = build_candidate_context(row)
+                    
+                    # Combine CV text with additional context for CV scoring
+                    full_context = f"{cv_text}\n\n--- Additional Information ---\n{additional_context}"
+                    
+                    # Score 1: CV Match Score (from resume analysis)
+                    cv_score = 0
+                    summary = "No resume or information available"
+                    strengths = []
+                    weaknesses = []
+                    gaps = []
+                    
+                    if cv_text.strip():
+                        cv_score, summary, strengths, weaknesses, gaps = score_with_openrouter(
+                            cv_text, 
+                            selected_job, 
+                            job_info['Job Description']
                         )
-                        
-                        # Automatically save to GitHub
-                        with st.spinner("💾 Saving results to GitHub..."):
-                            if save_results_to_github(df):
-                                st.success("✅ Results automatically saved to GitHub!")
-                                st.info("💡 You can now view the results in the Dashboard section.")
-                            else:
-                                st.error("❌ Failed to save results to GitHub. Please try running the screening again.")
+                    
+                    # Score 2: Table Data Score (from structured CSV data)
+                    table_score = 0
+                    if additional_context.strip():
+                        table_score = score_table_data(
+                            additional_context,
+                            selected_job,
+                            job_info['Job Description']
+                        )
+                    
+                    # Calculate Final Score (weighted average, ensuring 0-100 range)
+                    # If both scores are available: weighted average (60% CV + 40% table)
+                    # If only one score: use that score
+                    if cv_score > 0 and table_score > 0:
+                        final_score = int((cv_score * 0.6) + (table_score * 0.4))
+                    elif cv_score > 0:
+                        final_score = cv_score
+                    elif table_score > 0:
+                        final_score = table_score
+                    else:
+                        final_score = 0
+                    
+                    final_score = max(0, min(100, final_score))  # Clamp to 0-100
+                    
+                    results.append({
+                        "Candidate Name": candidate_name,
+                        "Candidate Email": _get_column_value(row, "Email Address", "Alamat Email"),
+                        "Phone": _get_column_value(row, "Mobile Number", "Nomor Handphone"),
+                        "Job Position": selected_job,
+                        "Match Score": cv_score,
+                        "AI Summary": summary,
+                        "Strengths": ", ".join(strengths) if strengths else "",
+                        "Weaknesses": ", ".join(weaknesses) if weaknesses else "",
+                        "Gaps": ", ".join(gaps) if gaps else "",
+                        "Latest Job Title": _get_column_value(row, "Latest Job Title", "Jabatan Pekerjaan Terakhir"),
+                        "Latest Company": _get_column_value(row, "Latest Company", "Perusahaan Terakhir"),
+                        "Education": _get_column_value(row, "Latest Educational Attainment", "Tingkat Pendidikan Tertinggi"),
+                        "University": _get_column_value(row, "Latest School/University", "Sekolah/Universitas"),
+                        "Major": _get_column_value(row, "Latest Major/Course", "Jurusan/Program Studi"),
+                        "Kalibrr Profile": _get_column_value(row, "Kalibrr Profile Link", "Link Profil Kalibrr"),
+                        "Application Link": _get_column_value(row, "Job Application Link", "Link Aplikasi Pekerjaan"),
+                        "Resume Link": resume_url,
+                        "Recruiter Feedback": "",
+                        "AI Recruiter Score": table_score,
+                        "Final Score": final_score,
+                        "Date Processed": datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+                    })
+                
+                status_text.text("✅ Screening completed!")
+                
+                if results:
+                    df = pd.DataFrame(results)
+                    st.session_state["screening_results"] = df
+                    
+                    st.success(f"🎉 Successfully screened {len(results)} candidates!")
+                    
+                    # Preview results
+                    st.markdown("### 📊 Screening Results Preview")
+                    st.dataframe(
+                        df[["Candidate Name", "Job Position", "Match Score", "AI Summary"]],
+                        use_container_width=True
+                    )
+                    
+                    # Automatically save to GitHub
+                    with st.spinner("💾 Saving results to GitHub..."):
+                        if save_results_to_github(df):
+                            st.success("✅ Results automatically saved to GitHub!")
+                            st.info("💡 You can now view the results in the Dashboard section.")
+                        else:
+                            st.error("❌ Failed to save results to GitHub. Please try running the screening again.")
 
 
 # ========================================
