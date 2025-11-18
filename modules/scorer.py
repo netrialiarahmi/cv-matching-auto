@@ -136,7 +136,7 @@ Return only the name:
         return "Unknown Candidate"
 
 
-def score_with_openrouter(cv_text, job_position, job_description):
+def score_with_openrouter(cv_text, job_position, job_description, max_retries=2):
     """Send CV, job position, and JD to OpenRouter (Gemini 2.5 Pro) and return structured evaluation."""
     client = get_openrouter_client()
 
@@ -145,16 +145,19 @@ You are a professional HR assistant. Provide Explanation in Bahasa Indonesia. Co
 
 Strict rules:
 • Evaluate only experience that is relevant to the job scope.
-• If the candidate has more relevant years of experience than required, classify it as “exceeds”.
-• If the candidate has senior or managerial roles that do not match the required level, classify them as irrelevant, not “exceeds”.
+• If the candidate has more relevant years of experience than required, classify it as "exceeds".
+• If the candidate has senior or managerial roles that do not match the required level, classify them as irrelevant, not "exceeds".
 • Do not treat irrelevant seniority as a strength.
 • Do not count irrelevant seniority toward total relevant years.
 • Exceeding relevant experience may indicate higher salary expectations.
 
 You must add elaboration when:
-• The candidate’s recent roles are more senior but not aligned with the required responsibilities.
+• The candidate's recent roles are more senior but not aligned with the required responsibilities.
 • The relevant experience comes only from earlier roles.
 • The candidate exceeds the required years only based on relevant experience, not based on unrelated senior roles.
+
+CRITICAL: You MUST provide ALL fields in your response. Never leave strengths, weaknesses, or gaps empty.
+If you cannot find specific strengths/weaknesses/gaps, provide at least one general observation for each.
 
 Respond only with a valid JSON object (no explanations or extra text) using this exact structure:
 {{
@@ -168,9 +171,9 @@ Respond only with a valid JSON object (no explanations or extra text) using this
 Instructions:
 • "score": integer 0 to 100.
 • "summary": 2-3 concise sentences explaining fit and main factors behind the score.
-• "strengths": up to 5 relevant advantages.
-• "weaknesses": up to 5 limitations.
-• "gaps": up to 5 missing requirements.
+• "strengths": MUST include at least 1 item, up to 5 relevant advantages.
+• "weaknesses": MUST include at least 1 item, up to 5 limitations.
+• "gaps": MUST include at least 1 item, up to 5 missing requirements.
 • Use elaboration when assessing senior roles that are no longer aligned with.
 • Prioritize match strictly based on the job description.
 
@@ -180,73 +183,114 @@ Instructions:
 === Job Description ===
 {job_description}
 
-=== Candidate CV (truncated) ===
-{cv_text[:2000]}
+=== Candidate CV ===
+{cv_text[:4000]}
 """
 
-    # --- Send to OpenRouter ---
-    try:
-        response = client.chat.completions.create(
-            model=DEFAULT_MODEL,
-            messages=[
-                {"role": "system", "content": "You are a professional HR assistant that evaluates candidate-job fit."},
-                {"role": "user", "content": prompt}
-            ],
-            temperature=0.2,
-            # Encourage strict JSON responses for models that support it
-            response_format={"type": "json_object"},
-            max_tokens=2048
-        )
+    # --- Send to OpenRouter with retry logic ---
+    for attempt in range(max_retries + 1):
+        try:
+            response = client.chat.completions.create(
+                model=DEFAULT_MODEL,
+                messages=[
+                    {"role": "system", "content": "You are a professional HR assistant that evaluates candidate-job fit. Always provide complete JSON responses with all required fields."},
+                    {"role": "user", "content": prompt}
+                ],
+                temperature=0.2,
+                # Encourage strict JSON responses for models that support it
+                response_format={"type": "json_object"},
+                max_tokens=3000
+            )
 
-        output = response.choices[0].message.content
+            output = response.choices[0].message.content
 
-        # First, try to parse JSON directly
-        data = _try_parse_json(output)
+            # First, try to parse JSON directly
+            data = _try_parse_json(output)
 
-        if isinstance(data, dict):
-            score = _clamp_score(data.get("score", 0))
-            summary = str(data.get("summary", "")).strip()
-            strengths = _ensure_list_str(data.get("strengths", []))
-            weaknesses = _ensure_list_str(data.get("weaknesses", []))
-            gaps = _ensure_list_str(data.get("gaps", []))
+            if isinstance(data, dict):
+                score = _clamp_score(data.get("score", 0))
+                summary = str(data.get("summary", "")).strip()
+                strengths = _ensure_list_str(data.get("strengths", []))
+                weaknesses = _ensure_list_str(data.get("weaknesses", []))
+                gaps = _ensure_list_str(data.get("gaps", []))
+
+                # Validate that we have meaningful data
+                if summary and len(strengths) > 0 and len(weaknesses) > 0 and len(gaps) > 0:
+                    return score, summary, strengths, weaknesses, gaps
+                
+                # If validation fails on first attempts, retry
+                if attempt < max_retries:
+                    continue
+                
+                # On final attempt, provide defaults for empty fields
+                if not summary:
+                    summary = f"Candidate evaluation for {job_position} position."
+                if len(strengths) == 0:
+                    strengths = ["Informasi kekuatan tidak tersedia dari analisis CV."]
+                if len(weaknesses) == 0:
+                    weaknesses = ["Informasi kelemahan tidak tersedia dari analisis CV."]
+                if len(gaps) == 0:
+                    gaps = ["Informasi kesenjangan tidak tersedia dari analisis CV."]
+                
+                return score, summary, strengths, weaknesses, gaps
+
+            # Fallback: very defensive extraction if JSON parsing failed
+            # Try to extract arrays from JSON-like blocks
+            def _extract_json_array(key: str):
+                m = re.search(rf'"{key}"\s*:\s*\[(.*?)\]', output, re.DOTALL | re.IGNORECASE)
+                if m:
+                    arr_text = "[" + m.group(1) + "]"
+                    try:
+                        arr = json.loads(arr_text)
+                        return _ensure_list_str(arr)
+                    except Exception:
+                        pass
+                return []
+
+            score_match = re.search(r'"?score"?\s*[:\-]?\s*(\d{1,3})', output, re.IGNORECASE)
+            score = _clamp_score(score_match.group(1) if score_match else 0)
+
+            # Try to grab summary string literal
+            summary = ""
+            msum = re.search(r'"summary"\s*:\s*"(?P<val>(?:\\.|[^"\\])*)"', output, re.DOTALL | re.IGNORECASE)
+            if msum:
+                # Unescape common JSON escapes
+                summary = msum.group("val").encode("utf-8").decode("unicode_escape").strip()
+            if not summary:
+                # Try to extract any text that looks like a summary
+                summary_alt = re.search(r'"summary"\s*:\s*"([^"]+)"', output, re.IGNORECASE)
+                if summary_alt:
+                    summary = summary_alt.group(1).strip()
+
+            strengths = _extract_json_array("strengths")
+            weaknesses = _extract_json_array("weaknesses")
+            gaps = _extract_json_array("gaps")
+            
+            # Validate extracted data
+            if summary and len(strengths) > 0 and len(weaknesses) > 0 and len(gaps) > 0:
+                return score, summary, strengths, weaknesses, gaps
+            
+            # Retry if validation fails
+            if attempt < max_retries:
+                continue
+            
+            # Provide defaults on final attempt
+            if not summary:
+                summary = f"Candidate evaluation for {job_position} position. Score: {score}"
+            if len(strengths) == 0:
+                strengths = ["Informasi kekuatan tidak tersedia dari analisis CV."]
+            if len(weaknesses) == 0:
+                weaknesses = ["Informasi kelemahan tidak tersedia dari analisis CV."]
+            if len(gaps) == 0:
+                gaps = ["Informasi kesenjangan tidak tersedia dari analisis CV."]
 
             return score, summary, strengths, weaknesses, gaps
 
-        # Fallback: very defensive extraction if JSON parsing failed
-        # Try to extract arrays from JSON-like blocks
-        def _extract_json_array(key: str):
-            m = re.search(rf'"{key}"\s*:\s*\[(.*?)\]', output, re.DOTALL | re.IGNORECASE)
-            if m:
-                arr_text = "[" + m.group(1) + "]"
-                try:
-                    arr = json.loads(arr_text)
-                    return _ensure_list_str(arr)
-                except Exception:
-                    pass
-            return []
-
-        score_match = re.search(r'"?score"?\s*[:\-]?\s*(\d{1,3})', output, re.IGNORECASE)
-        score = _clamp_score(score_match.group(1) if score_match else 0)
-
-        # Try to grab summary string literal
-        summary = ""
-        msum = re.search(r'"summary"\s*:\s*"(?P<val>(?:\\.|[^"\\])*)"', output, re.DOTALL | re.IGNORECASE)
-        if msum:
-            # Unescape common JSON escapes
-            summary = msum.group("val").encode("utf-8").decode("unicode_escape").strip()
-        if not summary:
-            # Last resort: use raw output
-            summary = output.strip()
-
-        strengths = _extract_json_array("strengths")
-        weaknesses = _extract_json_array("weaknesses")
-        gaps = _extract_json_array("gaps")
-
-        return score, summary, strengths, weaknesses, gaps
-
-    except Exception as e:
-        st.error(f"⚠️ OpenRouter request failed: {e}")
-        return 0, f"[Error] {e}", [], [], []
+        except Exception as e:
+            if attempt < max_retries:
+                continue  # Retry on error
+            st.error(f"⚠️ OpenRouter request failed after {max_retries + 1} attempts: {e}")
+            return 0, f"Error evaluating candidate: {str(e)}", ["Evaluasi gagal."], ["Evaluasi gagal."], ["Evaluasi gagal."]
 
 
 def score_table_data(candidate_context, job_position, job_description):
