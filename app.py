@@ -304,21 +304,23 @@ elif selected == "Screening":
                 
                 # Load existing results to check for duplicates
                 existing_results = load_results_from_github()
-                existing_candidates = set()
+                existing_candidate_job_pairs = set()
                 
                 if existing_results is not None and not existing_results.empty:
                     for _, row in existing_results.iterrows():
-                        if "Candidate Email" in row and pd.notna(row["Candidate Email"]):
-                            existing_candidates.add(row["Candidate Email"])
+                        if "Candidate Email" in row and pd.notna(row["Candidate Email"]) and "Job Position" in row and pd.notna(row["Job Position"]):
+                            # Store combination of email + job position
+                            existing_candidate_job_pairs.add((row["Candidate Email"], row["Job Position"]))
                 
-                # Check which candidates are new
+                # Check which candidates are new for this specific job position
                 new_candidates = []
                 skipped_candidates = []
                 
                 for idx, row in candidates_df.iterrows():
                     # Support both English and Indonesian column names
                     candidate_email = _get_column_value(row, "Email Address", "Alamat Email", "").strip()
-                    if candidate_email in existing_candidates:
+                    # Check if this candidate has already been processed for this specific job position
+                    if (candidate_email, selected_job) in existing_candidate_job_pairs:
                         first_name = _get_column_value(row, "First Name", "Nama Depan")
                         last_name = _get_column_value(row, "Last Name", "Nama Belakang")
                         skipped_candidates.append(f"{first_name} {last_name}")
@@ -326,7 +328,7 @@ elif selected == "Screening":
                         new_candidates.append(idx)
                 
                 if skipped_candidates:
-                    st.info(f"ℹ️ {len(skipped_candidates)} candidate(s) already processed and will be skipped.")
+                    st.info(f"ℹ️ {len(skipped_candidates)} candidate(s) already processed for '{selected_job}' position and will be skipped.")
                 
                 st.markdown(f"### 3️⃣ Process Candidates ({len(new_candidates)} new)")
                 
