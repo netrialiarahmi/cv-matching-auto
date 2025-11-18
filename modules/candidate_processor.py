@@ -4,6 +4,56 @@ from io import BytesIO
 import streamlit as st
 from modules.extractor import extract_text_from_pdf
 
+# Google Sheets CSV URL
+GOOGLE_SHEETS_URL = "https://docs.google.com/spreadsheets/d/e/2PACX-1vRKC_5lHg9yJgGoBlkH0A-fjpjpiYu4MzO4ieEdSId5wAKS7bsLDdplXWx8944xFlHf2f9lVcUYzVcr/pub?output=csv"
+
+
+def fetch_candidates_from_google_sheets(job_position_name):
+    """
+    Fetch candidate data from Google Sheets and filter by job position name.
+    
+    Args:
+        job_position_name: The job position name to filter candidates by.
+        
+    Returns:
+        DataFrame with filtered candidates, or None if fetch fails or no candidates found.
+    """
+    try:
+        # Fetch CSV data from Google Sheets
+        response = requests.get(GOOGLE_SHEETS_URL, timeout=30)
+        
+        if response.status_code != 200:
+            return None
+            
+        # Parse CSV content
+        df = pd.read_csv(BytesIO(response.content))
+        
+        if df.empty:
+            return None
+        
+        # Filter by job position - support both English and Indonesian column names
+        job_name_column = None
+        if "Job Name" in df.columns:
+            job_name_column = "Job Name"
+        elif "Nama Pekerjaan" in df.columns:
+            job_name_column = "Nama Pekerjaan"
+        
+        if job_name_column is None:
+            # No job position column found, return all data
+            return df
+        
+        # Filter candidates matching the job position
+        filtered_df = df[df[job_name_column].str.strip().str.lower() == job_position_name.strip().lower()]
+        
+        if filtered_df.empty:
+            return None
+            
+        return filtered_df
+        
+    except Exception as e:
+        # Silently fail and return None to allow fallback to CSV upload
+        return None
+
 
 def parse_candidate_csv(uploaded_file):
     """Parse uploaded candidate CSV file and return DataFrame."""
