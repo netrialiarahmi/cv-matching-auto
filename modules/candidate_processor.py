@@ -8,7 +8,7 @@ from modules.extractor import extract_text_from_pdf
 GOOGLE_SHEETS_URL = "https://docs.google.com/spreadsheets/d/e/2PACX-1vRKC_5lHg9yJgGoBlkH0A-fjpjpiYu4MzO4ieEdSId5wAKS7bsLDdplXWx8944xFlHf2f9lVcUYzVcr/pub?output=csv"
 
 
-def fetch_candidates_from_google_sheets(job_position_name):
+def fetch_candidates_from_google_sheets(job_position_name, max_retries=3):
     """
     Fetch candidate data from Google Sheets by:
     1. Loading the sheet to get the File Storage URL for the job position
@@ -17,78 +17,100 @@ def fetch_candidates_from_google_sheets(job_position_name):
     
     Args:
         job_position_name: The job position name to filter candidates by.
+        max_retries: Maximum number of retry attempts on failure.
         
     Returns:
         DataFrame with candidates from the File Storage CSV, or None if fetch fails.
     """
-    try:
-        # Step 1: Fetch the main sheet to get File Storage URLs
-        response = requests.get(GOOGLE_SHEETS_URL, timeout=30)
-        
-        if response.status_code != 200:
-            return None
+    import time
+    
+    for attempt in range(max_retries):
+        try:
+            # Step 1: Fetch the main sheet to get File Storage URLs
+            response = requests.get(GOOGLE_SHEETS_URL, timeout=30)
             
-        # Parse the sheet content
-        sheet_df = pd.read_csv(BytesIO(response.content))
-        
-        if sheet_df.empty:
+            if response.status_code != 200:
+                if attempt < max_retries - 1:
+                    time.sleep(2)
+                    continue
+                return None
+                
+            # Parse the sheet content
+            sheet_df = pd.read_csv(BytesIO(response.content))
+            
+            if sheet_df.empty:
+                return None
+            
+            # Step 2: Find the row matching the job position name
+            # Look for columns that might contain position name
+            # Expected format: Nama Posisi, JOB_ID, UPLOAD_ID, File Storage
+            position_column = None
+            if "Nama Posisi" in sheet_df.columns:
+                position_column = "Nama Posisi"
+            elif "Job Position" in sheet_df.columns:
+                position_column = "Job Position"
+            elif "Position" in sheet_df.columns:
+                position_column = "Position"
+            
+            if position_column is None:
+                # If no position column, can't match
+                return None
+            
+            # Find matching row (case-insensitive)
+            matching_rows = sheet_df[sheet_df[position_column].str.strip().str.lower() == job_position_name.strip().lower()]
+            
+            if matching_rows.empty:
+                return None
+            
+            # Step 3: Get the File Storage URL from the matching row
+            file_storage_column = None
+            if "File Storage" in sheet_df.columns:
+                file_storage_column = "File Storage"
+            elif "file_storage" in sheet_df.columns:
+                file_storage_column = "file_storage"
+            
+            if file_storage_column is None:
+                # No File Storage column found
+                return None
+            
+            # Get the first matching row's File Storage URL
+            file_storage_url = matching_rows.iloc[0][file_storage_column]
+            
+            if pd.isna(file_storage_url) or not str(file_storage_url).strip():
+                return None
+            
+            # Step 4: Download the CSV from the File Storage URL (with retry)
+            csv_response = requests.get(str(file_storage_url).strip(), timeout=60)
+            
+            if csv_response.status_code != 200:
+                if attempt < max_retries - 1:
+                    time.sleep(2)
+                    continue
+                return None
+            
+            # Parse the candidate CSV data
+            candidates_df = pd.read_csv(BytesIO(csv_response.content))
+            
+            if candidates_df.empty:
+                return None
+            
+            return candidates_df
+            
+        except requests.exceptions.Timeout:
+            if attempt < max_retries - 1:
+                time.sleep(3)
+                continue
             return None
-        
-        # Step 2: Find the row matching the job position name
-        # Look for columns that might contain position name
-        # Expected format: Nama Posisi, JOB_ID, UPLOAD_ID, File Storage
-        position_column = None
-        if "Nama Posisi" in sheet_df.columns:
-            position_column = "Nama Posisi"
-        elif "Job Position" in sheet_df.columns:
-            position_column = "Job Position"
-        elif "Position" in sheet_df.columns:
-            position_column = "Position"
-        
-        if position_column is None:
-            # If no position column, can't match
+        except requests.exceptions.RequestException:
+            if attempt < max_retries - 1:
+                time.sleep(2)
+                continue
             return None
-        
-        # Find matching row (case-insensitive)
-        matching_rows = sheet_df[sheet_df[position_column].str.strip().str.lower() == job_position_name.strip().lower()]
-        
-        if matching_rows.empty:
+        except Exception as e:
+            # For other errors (parsing, etc.), don't retry
             return None
-        
-        # Step 3: Get the File Storage URL from the matching row
-        file_storage_column = None
-        if "File Storage" in sheet_df.columns:
-            file_storage_column = "File Storage"
-        elif "file_storage" in sheet_df.columns:
-            file_storage_column = "file_storage"
-        
-        if file_storage_column is None:
-            # No File Storage column found
-            return None
-        
-        # Get the first matching row's File Storage URL
-        file_storage_url = matching_rows.iloc[0][file_storage_column]
-        
-        if pd.isna(file_storage_url) or not str(file_storage_url).strip():
-            return None
-        
-        # Step 4: Download the CSV from the File Storage URL
-        csv_response = requests.get(str(file_storage_url).strip(), timeout=60)
-        
-        if csv_response.status_code != 200:
-            return None
-        
-        # Parse the candidate CSV data
-        candidates_df = pd.read_csv(BytesIO(csv_response.content))
-        
-        if candidates_df.empty:
-            return None
-        
-        return candidates_df
-        
-    except Exception as e:
-        # Silently fail and return None to allow fallback to CSV upload
-        return None
+    
+    return None
 
 
 def parse_candidate_csv(uploaded_file):
@@ -101,31 +123,70 @@ def parse_candidate_csv(uploaded_file):
         return None
 
 
-def extract_resume_from_url(url):
-    """Download and extract text from resume URL (PDF)."""
+def extract_resume_from_url(url, max_retries=3):
+    """Download and extract text from resume URL (PDF) with retry logic.
+    
+    Args:
+        url: URL to the resume PDF
+        max_retries: Maximum number of retry attempts on failure
+    
+    Returns:
+        str: Extracted text from the PDF, or empty string on failure
+    """
     if pd.isna(url) or not url.strip():
         return ""
     
-    try:
-        response = requests.get(url, timeout=30)
-        if response.status_code == 200:
-            pdf_file = BytesIO(response.content)
-            # Create a file-like object that mimics uploaded_file
-            class PDFFile:
-                def __init__(self, content):
-                    self.content = content
-                def read(self):
-                    return self.content
-            
-            pdf_obj = PDFFile(response.content)
-            text = extract_text_from_pdf(pdf_obj)
-            return text
-        else:
-            st.warning(f"⚠️ Failed to download resume from {url}: Status {response.status_code}")
+    import time
+    
+    for attempt in range(max_retries):
+        try:
+            response = requests.get(url, timeout=60)
+            if response.status_code == 200:
+                pdf_file = BytesIO(response.content)
+                # Create a file-like object that mimics uploaded_file
+                class PDFFile:
+                    def __init__(self, content):
+                        self.content = content
+                    def read(self):
+                        return self.content
+                
+                pdf_obj = PDFFile(response.content)
+                text = extract_text_from_pdf(pdf_obj)
+                return text
+            elif response.status_code == 429:  # Too many requests
+                if attempt < max_retries - 1:
+                    time.sleep(5)  # Wait 5 seconds before retrying
+                    continue
+                else:
+                    st.warning(f"⚠️ Too many requests. Failed to download resume from {url}")
+                    return ""
+            else:
+                if attempt < max_retries - 1:
+                    time.sleep(2)  # Wait before retrying
+                    continue
+                else:
+                    st.warning(f"⚠️ Failed to download resume from {url}: Status {response.status_code}")
+                    return ""
+        except requests.exceptions.Timeout:
+            if attempt < max_retries - 1:
+                time.sleep(3)  # Wait before retrying
+                continue
+            else:
+                st.warning(f"⚠️ Timeout downloading resume from {url}")
+                return ""
+        except requests.exceptions.RequestException as e:
+            if attempt < max_retries - 1:
+                time.sleep(2)  # Wait before retrying
+                continue
+            else:
+                st.warning(f"⚠️ Network error extracting resume from {url}: {e}")
+                return ""
+        except Exception as e:
+            # Non-network errors (like PDF parsing errors) should not retry
+            st.warning(f"⚠️ Error extracting resume from {url}: {e}")
             return ""
-    except Exception as e:
-        st.warning(f"⚠️ Error extracting resume from {url}: {e}")
-        return ""
+    
+    return ""
 
 
 def _get_column_value(row, english_name, indonesian_name, default=''):
