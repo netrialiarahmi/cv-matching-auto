@@ -1,8 +1,9 @@
 import os
 import re
 import json
+import time
 import streamlit as st
-from openai import OpenAI
+from openai import OpenAI, RateLimitError
 
 # Constants for API configuration
 OPENROUTER_API_BASE = "https://openrouter.ai/api/v1"
@@ -11,6 +12,11 @@ OPENROUTER_MODEL = "google/gemini-2.5-pro"
 GEMINI_MODEL = "gemini-2.0-flash-exp"
 OPENROUTER_REFERRER = "https://github.com/netrialiarahmi/cv-matching-gemini"
 OPENROUTER_TITLE = "AI CV Matching System"
+
+# Rate limiting configuration
+REQUEST_DELAY = 6.5  # Delay between requests in seconds (10 requests/min = 6s + buffer)
+MAX_RETRIES = 3  # Maximum number of retries for rate limit errors
+RETRY_DELAY = 60  # Initial retry delay for 429 errors in seconds
 
 # =========================
 # API Key & Client Handling
@@ -63,6 +69,66 @@ def _get_model_name():
     """Get the appropriate model name based on API key type."""
     _, key_type = _get_api_key()
     return GEMINI_MODEL if key_type == "gemini" else OPENROUTER_MODEL
+
+
+# =========================
+# Rate Limiting Helper
+# =========================
+def _call_api_with_retry(client, **kwargs):
+    """
+    Make an API call with rate limiting and retry logic.
+    
+    Args:
+        client: OpenAI client instance
+        **kwargs: Arguments to pass to client.chat.completions.create()
+    
+    Returns:
+        Response from the API
+    
+    Raises:
+        Exception: If all retries fail
+    """
+    last_error = None
+    
+    for attempt in range(MAX_RETRIES):
+        try:
+            # Add delay between requests to respect rate limits (except first attempt)
+            if attempt > 0:
+                time.sleep(REQUEST_DELAY)
+            
+            response = client.chat.completions.create(**kwargs)
+            
+            # Add delay after successful request to prevent hitting rate limit on next call
+            time.sleep(REQUEST_DELAY)
+            
+            return response
+            
+        except RateLimitError as e:
+            last_error = e
+            error_msg = str(e)
+            
+            # Extract retry delay from error message if available
+            retry_delay = RETRY_DELAY
+            retry_match = re.search(r'retryDelay["\']?\s*:\s*["\']?(\d+)s?', error_msg)
+            if retry_match:
+                retry_delay = int(retry_match.group(1))
+            
+            # Show warning to user
+            if attempt < MAX_RETRIES - 1:
+                st.warning(f"⚠️ Rate limit reached (429). Waiting {retry_delay} seconds before retry {attempt + 1}/{MAX_RETRIES}...")
+                time.sleep(retry_delay)
+            else:
+                st.error(f"❌ Rate limit error after {MAX_RETRIES} attempts. Please try again later.")
+        
+        except Exception as e:
+            # For non-rate-limit errors, raise immediately
+            raise e
+    
+    # If all retries failed, raise the last error
+    if last_error:
+        raise last_error
+    
+    raise Exception("API call failed after all retries")
 
 
 # =========================
@@ -141,7 +207,8 @@ Return only the name:
 """
     
     try:
-        response = client.chat.completions.create(
+        response = _call_api_with_retry(
+            client,
             model=_get_model_name(),
             messages=[
                 {"role": "system", "content": "You are a name extraction assistant. Return only the candidate's full name."},
@@ -162,6 +229,7 @@ Return only the name:
         return name if name else "Unknown Candidate"
         
     except Exception as e:
+        st.warning(f"⚠️ Name extraction failed: {e}")
         return "Unknown Candidate"
 
 
@@ -219,7 +287,8 @@ Instructions:
     # --- Send to OpenRouter with retry logic ---
     for attempt in range(max_retries + 1):
         try:
-            response = client.chat.completions.create(
+            response = _call_api_with_retry(
+                client,
                 model=_get_model_name(),
                 messages=[
                     {"role": "system", "content": "You are a professional HR assistant that evaluates candidate-job fit. Always provide complete JSON responses with all required fields."},
@@ -365,7 +434,8 @@ Guidelines:
 """
 
     try:
-        response = client.chat.completions.create(
+        response = _call_api_with_retry(
+            client,
             model=_get_model_name(),
             messages=[
                 {"role": "system", "content": "You are an HR evaluator AI that scores candidate data quality and job fit."},
