@@ -354,7 +354,9 @@ elif selected == "Screening":
             
             st.markdown(f"### 3️⃣ Process Candidates ({len(new_candidates)} new)")
             
-            if st.button("🚀 Start Screening", type="primary", disabled=len(new_candidates) == 0):
+            # Automatically process new candidates without requiring button click
+            if len(new_candidates) > 0:
+                st.info("🔄 Automatically processing new candidates in the background...")
                 results = []
                 progress = st.progress(0)
                 status_text = st.empty()
@@ -399,7 +401,7 @@ elif selected == "Screening":
                     # Combine CV text with additional context for CV scoring
                     full_context = f"{cv_text}\n\n--- Additional Information ---\n{additional_context}"
                     
-                    # Score 1: CV Match Score (from resume analysis)
+                    # Score: CV Match Score (from resume analysis only)
                     cv_score = 0
                     summary = "No resume or information available"
                     strengths = []
@@ -413,35 +415,15 @@ elif selected == "Screening":
                             job_info['Job Description']
                         )
                     
-                    # Score 2: Table Data Score (from structured CSV data)
-                    table_score = 0
-                    if additional_context.strip():
-                        table_score = score_table_data(
-                            additional_context,
-                            selected_job,
-                            job_info['Job Description']
-                        )
-                    
-                    # Calculate Final Score (weighted average, ensuring 0-100 range)
-                    # If both scores are available: weighted average (60% CV + 40% table)
-                    # If only one score: use that score
-                    if cv_score > 0 and table_score > 0:
-                        final_score = int((cv_score * 0.6) + (table_score * 0.4))
-                    elif cv_score > 0:
-                        final_score = cv_score
-                    elif table_score > 0:
-                        final_score = table_score
-                    else:
-                        final_score = 0
-                    
-                    final_score = max(0, min(100, final_score))  # Clamp to 0-100
+                    # Use CV score as the final match score
+                    final_score = cv_score
                     
                     results.append({
                         "Candidate Name": candidate_name,
                         "Candidate Email": _get_column_value(row, "Email Address", "Alamat Email"),
                         "Phone": _get_column_value(row, "Mobile Number", "Nomor Handphone"),
                         "Job Position": selected_job,
-                        "Match Score": cv_score,
+                        "Match Score": final_score,
                         "AI Summary": summary,
                         "Strengths": ", ".join(strengths) if strengths else "",
                         "Weaknesses": ", ".join(weaknesses) if weaknesses else "",
@@ -455,8 +437,6 @@ elif selected == "Screening":
                         "Application Link": _get_column_value(row, "Job Application Link", "Link Aplikasi Pekerjaan"),
                         "Resume Link": resume_url,
                         "Recruiter Feedback": "",
-                        "AI Recruiter Score": table_score,
-                        "Final Score": final_score,
                         "Date Processed": datetime.now().strftime("%Y-%m-%d %H:%M:%S")
                     })
                 
@@ -482,6 +462,8 @@ elif selected == "Screening":
                             st.info("💡 You can now view the results in the Dashboard section.")
                         else:
                             st.error("❌ Failed to save results to GitHub. Please try running the screening again.")
+            else:
+                st.info("ℹ️ All candidates have already been processed for this position. Check the Dashboard to view results.")
 
 
 # ========================================
@@ -497,7 +479,7 @@ elif selected == "Dashboard":
         st.session_state["results"] = df
 
         # Ensure columns exist
-        for col in ["Recruiter Feedback", "AI Recruiter Score", "Final Score", "Strengths", "Weaknesses", "Gaps", "AI Summary"]:
+        for col in ["Recruiter Feedback", "Strengths", "Weaknesses", "Gaps", "AI Summary"]:
             if col not in df.columns:
                 df[col] = ""
 
@@ -508,20 +490,20 @@ elif selected == "Dashboard":
             df = df[df["Job Position"] == selected_job]
 
         # Convert numeric columns
-        numeric_cols = ["Match Score", "AI Recruiter Score", "Final Score"]
+        numeric_cols = ["Match Score"]
         for col in numeric_cols:
             df[col] = pd.to_numeric(df[col], errors="coerce").fillna(0)
 
-        df_sorted = df.sort_values(by="Final Score", ascending=False).reset_index(drop=True)
+        df_sorted = df.sort_values(by="Match Score", ascending=False).reset_index(drop=True)
 
         # --- KPI metrics ---
-        avg_score = int(df_sorted["Final Score"].mean())
-        top_score = int(df_sorted["Final Score"].max())
+        avg_score = int(df_sorted["Match Score"].mean())
+        top_score = int(df_sorted["Match Score"].max())
         total_candidates = len(df_sorted)
 
         c1, c2, c3 = st.columns(3)
-        c1.metric("📈 Avg Final Score", avg_score)
-        c2.metric("🏆 Top Final Score", top_score)
+        c1.metric("📈 Avg Match Score", avg_score)
+        c2.metric("🏆 Top Match Score", top_score)
         c3.metric("👥 Candidates", total_candidates)
 
         st.divider()
@@ -543,18 +525,14 @@ elif selected == "Dashboard":
                     if pd.isna(candidate_name) or not str(candidate_name).strip():
                         candidate_name = f"Candidate {idx + 1}"
             
-            score = row.get("Final Score", row.get("Match Score", 0))
+            score = row.get("Match Score", 0)
             
             with st.expander(f"🔍 {candidate_name} - Score: {score}", expanded=False):
                 col1, col2 = st.columns([1, 1])
                 
                 with col1:
-                    st.markdown("### 📊 Scores")
+                    st.markdown("### 📊 Score")
                     st.metric("Match Score", f"{row.get('Match Score', 0)}")
-                    ai_recruiter_score = row.get("AI Recruiter Score")
-                    if pd.notna(ai_recruiter_score) and str(ai_recruiter_score).strip():
-                        st.metric("AI Recruiter Score", f"{ai_recruiter_score}")
-                    st.metric("Final Score", f"{row.get('Final Score', 0)}")
                     
                     st.markdown("### 👤 Basic Info")
                     # Helper function to get non-NaN value
@@ -651,10 +629,10 @@ elif selected == "Dashboard":
         
         # Select key columns for display
         display_cols = ["Candidate Name" if "Candidate Name" in df_display.columns else "Filename", 
-                       "Job Position", "Match Score", "Final Score"]
+                       "Job Position", "Match Score"]
         
         # Add optional columns if they exist
-        optional_cols = ["AI Recruiter Score", "Latest Job Title", "Education"]
+        optional_cols = ["Latest Job Title", "Education"]
         for col in optional_cols:
             if col in df_display.columns:
                 display_cols.append(col)
@@ -670,7 +648,7 @@ elif selected == "Dashboard":
         # Create chart data with cleaned candidate names
         chart_data = df_display.copy()
         chart_index = chart_data["Candidate Name"] if "Candidate Name" in chart_data.columns else chart_data.index
-        st.bar_chart(chart_data.set_index(chart_index)["Final Score"])
+        st.bar_chart(chart_data.set_index(chart_index)["Match Score"])
 
         # --- Download buttons ---
         csv = df_sorted.to_csv(index=False).encode("utf-8")

@@ -10,45 +10,80 @@ GOOGLE_SHEETS_URL = "https://docs.google.com/spreadsheets/d/e/2PACX-1vRKC_5lHg9y
 
 def fetch_candidates_from_google_sheets(job_position_name):
     """
-    Fetch candidate data from Google Sheets and filter by job position name.
+    Fetch candidate data from Google Sheets by:
+    1. Loading the sheet to get the File Storage URL for the job position
+    2. Downloading the CSV from the File Storage URL
+    3. Returning the candidate data from that CSV
     
     Args:
         job_position_name: The job position name to filter candidates by.
         
     Returns:
-        DataFrame with filtered candidates, or None if fetch fails or no candidates found.
+        DataFrame with candidates from the File Storage CSV, or None if fetch fails.
     """
     try:
-        # Fetch CSV data from Google Sheets
+        # Step 1: Fetch the main sheet to get File Storage URLs
         response = requests.get(GOOGLE_SHEETS_URL, timeout=30)
         
         if response.status_code != 200:
             return None
             
-        # Parse CSV content
-        df = pd.read_csv(BytesIO(response.content))
+        # Parse the sheet content
+        sheet_df = pd.read_csv(BytesIO(response.content))
         
-        if df.empty:
+        if sheet_df.empty:
             return None
         
-        # Filter by job position - support both English and Indonesian column names
-        job_name_column = None
-        if "Job Name" in df.columns:
-            job_name_column = "Job Name"
-        elif "Nama Pekerjaan" in df.columns:
-            job_name_column = "Nama Pekerjaan"
+        # Step 2: Find the row matching the job position name
+        # Look for columns that might contain position name
+        position_column = None
+        if "Nama Posisi" in sheet_df.columns:
+            position_column = "Nama Posisi"
+        elif "Job Position" in sheet_df.columns:
+            position_column = "Job Position"
+        elif "Position" in sheet_df.columns:
+            position_column = "Position"
         
-        if job_name_column is None:
-            # No job position column found, return all data
-            return df
-        
-        # Filter candidates matching the job position
-        filtered_df = df[df[job_name_column].str.strip().str.lower() == job_position_name.strip().lower()]
-        
-        if filtered_df.empty:
+        if position_column is None:
+            # If no position column, can't match
             return None
-            
-        return filtered_df
+        
+        # Find matching row (case-insensitive)
+        matching_rows = sheet_df[sheet_df[position_column].str.strip().str.lower() == job_position_name.strip().lower()]
+        
+        if matching_rows.empty:
+            return None
+        
+        # Step 3: Get the File Storage URL from the matching row
+        file_storage_column = None
+        if "File Storage" in sheet_df.columns:
+            file_storage_column = "File Storage"
+        elif "file_storage" in sheet_df.columns:
+            file_storage_column = "file_storage"
+        
+        if file_storage_column is None:
+            # No File Storage column found
+            return None
+        
+        # Get the first matching row's File Storage URL
+        file_storage_url = matching_rows.iloc[0][file_storage_column]
+        
+        if pd.isna(file_storage_url) or not str(file_storage_url).strip():
+            return None
+        
+        # Step 4: Download the CSV from the File Storage URL
+        csv_response = requests.get(str(file_storage_url).strip(), timeout=60)
+        
+        if csv_response.status_code != 200:
+            return None
+        
+        # Parse the candidate CSV data
+        candidates_df = pd.read_csv(BytesIO(csv_response.content))
+        
+        if candidates_df.empty:
+            return None
+        
+        return candidates_df
         
     except Exception as e:
         # Silently fail and return None to allow fallback to CSV upload

@@ -14,11 +14,19 @@ OPENROUTER_TITLE = "AI CV Matching System"
 # API Key & Client Handling
 # =========================
 def _get_api_key():
+    # Try OPENROUTER_API_KEY first
     key = os.getenv("OPENROUTER_API_KEY")
     if not key and hasattr(st, "secrets"):
         key = st.secrets.get("OPENROUTER_API_KEY")
+    
+    # Fallback to GEMINI_API_KEY if OPENROUTER_API_KEY is not available
     if not key:
-        raise ValueError("❌ Missing OPENROUTER_API_KEY. Add it in Streamlit Secrets.")
+        key = os.getenv("GEMINI_API_KEY")
+        if not key and hasattr(st, "secrets"):
+            key = st.secrets.get("GEMINI_API_KEY")
+    
+    if not key:
+        raise ValueError("❌ Missing OPENROUTER_API_KEY or GEMINI_API_KEY. Add one of them in Streamlit Secrets.")
     return key
 
 @st.cache_resource
