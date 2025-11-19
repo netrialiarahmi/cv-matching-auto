@@ -161,7 +161,12 @@ def extract_resume_from_url(url, max_retries=3):
     
     for attempt in range(max_retries):
         try:
-            response = requests.get(url, timeout=60)
+            # Add proper headers for better compatibility
+            headers = {
+                'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
+                'Accept': 'application/pdf,*/*'
+            }
+            response = requests.get(url, headers=headers, timeout=60)
             if response.status_code == 200:
                 pdf_file = BytesIO(response.content)
                 # Create a file-like object that mimics uploaded_file
@@ -179,32 +184,32 @@ def extract_resume_from_url(url, max_retries=3):
                     time.sleep(5)  # Wait 5 seconds before retrying
                     continue
                 else:
-                    st.warning(f"⚠️ Too many requests. Failed to download resume from {url}")
+                    st.warning(f"⚠️ Too many requests. Failed to download resume (rate limit)")
                     return ""
             else:
                 if attempt < max_retries - 1:
                     time.sleep(2)  # Wait before retrying
                     continue
                 else:
-                    st.warning(f"⚠️ Failed to download resume from {url}: Status {response.status_code}")
+                    st.warning(f"⚠️ Failed to download resume (Status {response.status_code})")
                     return ""
         except requests.exceptions.Timeout:
             if attempt < max_retries - 1:
                 time.sleep(3)  # Wait before retrying
                 continue
             else:
-                st.warning(f"⚠️ Timeout downloading resume from {url}")
+                st.warning(f"⚠️ Timeout downloading resume")
                 return ""
         except requests.exceptions.RequestException as e:
             if attempt < max_retries - 1:
                 time.sleep(2)  # Wait before retrying
                 continue
             else:
-                st.warning(f"⚠️ Network error extracting resume from {url}: {e}")
+                st.warning(f"⚠️ Network error extracting resume")
                 return ""
         except Exception as e:
             # Non-network errors (like PDF parsing errors) should not retry
-            st.warning(f"⚠️ Error extracting resume from {url}: {e}")
+            st.warning(f"⚠️ Error extracting resume: {str(e)[:50]}")
             return ""
     
     return ""

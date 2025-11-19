@@ -597,26 +597,22 @@ elif selected == "Dashboard":
                 else:
                     st.info("No summary available")
                 
-                # Links section
-                resume_link = row.get("Resume Link")
+                # Links section (excluding Resume Link for security)
                 kalibrr_profile = row.get("Kalibrr Profile")
                 application_link = row.get("Application Link")
                 
                 has_links = (
-                    (pd.notna(resume_link) and str(resume_link).strip()) or
                     (pd.notna(kalibrr_profile) and str(kalibrr_profile).strip()) or
                     (pd.notna(application_link) and str(application_link).strip())
                 )
                 
                 if has_links:
                     st.markdown("### 🔗 Links")
-                    link_cols = st.columns(3)
-                    if pd.notna(resume_link) and str(resume_link).strip():
-                        link_cols[0].markdown(f"[📄 Resume]({resume_link})")
+                    link_cols = st.columns(2)
                     if pd.notna(kalibrr_profile) and str(kalibrr_profile).strip():
-                        link_cols[1].markdown(f"[👤 Kalibrr Profile]({kalibrr_profile})")
+                        link_cols[0].markdown(f"[👤 Kalibrr Profile]({kalibrr_profile})")
                     if pd.notna(application_link) and str(application_link).strip():
-                        link_cols[2].markdown(f"[📝 Application]({application_link})")
+                        link_cols[1].markdown(f"[📝 Application]({application_link})")
 
         st.divider()
         
