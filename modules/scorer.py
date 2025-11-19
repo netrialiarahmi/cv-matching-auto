@@ -243,20 +243,22 @@ def score_with_openrouter(cv_text, job_position, job_description, max_retries=2)
     client = get_openrouter_client()
 
     prompt = f"""
-You are a professional HR assistant. Provide the entire output in Bahasa Indonesia, , including “summary”, “strengths”, “weaknesses”, and “gaps”. Compare the candidate's CV with the given job position and job description.
+You are a professional HR assistant. Provide the entire output in Bahasa Indonesia, , including “summary”, “strengths”, “weaknesses”, and “gaps”.. Compare the candidate's CV with the given job position and job description.
 
 Strict rules:
 • Evaluate only experience that is relevant to the job scope.
+• Reject common false positives. Roles that are not aligned with the required industry or specialization must not be counted as relevant experience.
+• Examples of unrelated roles include general retail work, store staff, penjaga toko, general sales, promotional or activation agency work, event organizer tasks, marketplace selling, and broad freelance roles that do not match the job scope.
 • If the candidate has more relevant years of experience than required, classify it as "exceeds".
 • If the candidate has senior or managerial roles that do not match the required level, classify them as irrelevant, not "exceeds".
 • Do not treat irrelevant seniority as a strength.
 • Do not count irrelevant seniority toward total relevant years.
 • Exceeding relevant experience may indicate higher salary expectations.
 
-Elaboration is required when:
-• Recent positions are more senior but no longer aligned with the required duties.
-• Relevant experience only appears in older roles.
-• The candidate exceeds the requirement only through relevant experience, not through unrelated senior positions.
+You must add elaboration when:
+• The candidate's recent roles are more senior but not aligned with the required responsibilities.
+• The relevant experience comes only from earlier roles.
+• The candidate exceeds the required years only based on relevant experience, not based on unrelated senior roles.
 
 CRITICAL:
 • You MUST provide ALL fields in the JSON.  
@@ -268,7 +270,7 @@ CRITICAL:
 Respond only with a valid JSON object (no explanations or extra text) using this exact structure:
 {{
 "score": <integer 0-100>,
-"summary": "2-3 short sentences in English summarizing the main evaluation points",
+"summary": "2-3 short sentences in Bahasa Indonesia summarizing the main evaluation points",
 "strengths": ["strength 1", "strength 2", ...],
 "weaknesses": ["weakness 1", "weakness 2", ...],
 "gaps": ["gap 1", "gap 2", ...]
@@ -282,8 +284,6 @@ Instructions:
 • "gaps": MUST include at least 1 item, up to 5 missing requirements.
 • Use elaboration when assessing senior roles that are no longer aligned with.
 • Prioritize match strictly based on the job description.
-• Highlight clearly whether the candidate has media experience.
-• If media experience is missing or limited, reflect it clearly in weaknesses and gaps.
 
 === Job Position ===
 {job_position}
