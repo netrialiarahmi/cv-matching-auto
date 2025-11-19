@@ -4,9 +4,11 @@ import json
 import streamlit as st
 from openai import OpenAI
 
-# Constants for OpenRouter
+# Constants for API configuration
 OPENROUTER_API_BASE = "https://openrouter.ai/api/v1"
-DEFAULT_MODEL = "google/gemini-2.5-pro"
+GEMINI_API_BASE = "https://generativelanguage.googleapis.com/v1beta"
+OPENROUTER_MODEL = "google/gemini-2.5-pro"
+GEMINI_MODEL = "gemini-2.0-flash-exp"
 OPENROUTER_REFERRER = "https://github.com/netrialiarahmi/cv-matching-gemini"
 OPENROUTER_TITLE = "AI CV Matching System"
 
@@ -14,34 +16,53 @@ OPENROUTER_TITLE = "AI CV Matching System"
 # API Key & Client Handling
 # =========================
 def _get_api_key():
+    """Get API key and return tuple of (key, key_type)"""
     # Try OPENROUTER_API_KEY first
     key = os.getenv("OPENROUTER_API_KEY")
     if not key and hasattr(st, "secrets"):
         key = st.secrets.get("OPENROUTER_API_KEY")
     
-    # Fallback to GEMINI_API_KEY if OPENROUTER_API_KEY is not available
-    if not key:
-        key = os.getenv("GEMINI_API_KEY")
-        if not key and hasattr(st, "secrets"):
-            key = st.secrets.get("GEMINI_API_KEY")
+    if key:
+        return key, "openrouter"
     
-    if not key:
-        raise ValueError("❌ Missing OPENROUTER_API_KEY or GEMINI_API_KEY. Add one of them in Streamlit Secrets.")
-    return key
+    # Fallback to GEMINI_API_KEY if OPENROUTER_API_KEY is not available
+    key = os.getenv("GEMINI_API_KEY")
+    if not key and hasattr(st, "secrets"):
+        key = st.secrets.get("GEMINI_API_KEY")
+    
+    if key:
+        return key, "gemini"
+    
+    raise ValueError("❌ Missing OPENROUTER_API_KEY or GEMINI_API_KEY. Add one of them in Streamlit Secrets.")
 
 @st.cache_resource
 def get_openrouter_client():
-    """Create and cache OpenAI client configured for OpenRouter."""
-    api_key = _get_api_key()
-    client = OpenAI(
-        api_key=api_key,
-        base_url=OPENROUTER_API_BASE,
-        default_headers={
-            "HTTP-Referer": OPENROUTER_REFERRER,
-            "X-Title": OPENROUTER_TITLE
-        }
-    )
+    """Create and cache OpenAI client configured for OpenRouter or Gemini API."""
+    api_key, key_type = _get_api_key()
+    
+    if key_type == "gemini":
+        # Use Gemini API directly
+        client = OpenAI(
+            api_key=api_key,
+            base_url=GEMINI_API_BASE
+        )
+    else:
+        # Use OpenRouter API
+        client = OpenAI(
+            api_key=api_key,
+            base_url=OPENROUTER_API_BASE,
+            default_headers={
+                "HTTP-Referer": OPENROUTER_REFERRER,
+                "X-Title": OPENROUTER_TITLE
+            }
+        )
+    
     return client
+
+def _get_model_name():
+    """Get the appropriate model name based on API key type."""
+    _, key_type = _get_api_key()
+    return GEMINI_MODEL if key_type == "gemini" else OPENROUTER_MODEL
 
 
 # =========================
@@ -121,7 +142,7 @@ Return only the name:
     
     try:
         response = client.chat.completions.create(
-            model=DEFAULT_MODEL,
+            model=_get_model_name(),
             messages=[
                 {"role": "system", "content": "You are a name extraction assistant. Return only the candidate's full name."},
                 {"role": "user", "content": prompt}
@@ -199,7 +220,7 @@ Instructions:
     for attempt in range(max_retries + 1):
         try:
             response = client.chat.completions.create(
-                model=DEFAULT_MODEL,
+                model=_get_model_name(),
                 messages=[
                     {"role": "system", "content": "You are a professional HR assistant that evaluates candidate-job fit. Always provide complete JSON responses with all required fields."},
                     {"role": "user", "content": prompt}
@@ -345,7 +366,7 @@ Guidelines:
 
     try:
         response = client.chat.completions.create(
-            model=DEFAULT_MODEL,
+            model=_get_model_name(),
             messages=[
                 {"role": "system", "content": "You are an HR evaluator AI that scores candidate data quality and job fit."},
                 {"role": "user", "content": prompt}
