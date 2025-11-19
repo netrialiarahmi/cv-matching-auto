@@ -5,6 +5,7 @@ An automated CV matching system with 3 main sections for managing job positions,
 ## Recent Updates
 
 ### ✨ Latest Changes (2024)
+- **API Authentication Fix**: Fixed OpenRouter 401 error when using GEMINI_API_KEY - system now properly routes to Gemini API endpoint
 - **File Storage Integration**: System now fetches candidate CSVs from URLs in Google Sheets "File Storage" column
 - **API Key Flexibility**: Added fallback support for GEMINI_API_KEY when OPENROUTER_API_KEY is not available
 - **Simplified Scoring**: Removed AI Recruiter Score, now using only Match Score based on CV analysis
@@ -120,15 +121,19 @@ pip install -r requirements.txt
 2. Configure Streamlit secrets (`.streamlit/secrets.toml`):
 ```toml
 # API Key (use one of these)
-OPENROUTER_API_KEY = "your-openrouter-api-key"  # Preferred
+OPENROUTER_API_KEY = "your-openrouter-api-key"  # Uses OpenRouter API (google/gemini-2.5-pro)
 # OR
-GEMINI_API_KEY = "your-gemini-api-key"  # Fallback option
+GEMINI_API_KEY = "your-gemini-api-key"  # Uses Gemini API directly (gemini-2.0-flash-exp)
 
 # GitHub configuration
 GITHUB_TOKEN = "your-github-token"
 GITHUB_REPO = "username/repo-name"
 GITHUB_BRANCH = "main"
 ```
+
+**Note:** The system automatically detects which API key is available and uses the appropriate endpoint:
+- `OPENROUTER_API_KEY` → OpenRouter API at `https://openrouter.ai/api/v1`
+- `GEMINI_API_KEY` → Gemini API at `https://generativelanguage.googleapis.com/v1beta`
 
 3. (Optional) Configure Google Sheets URL:
    - The Google Sheets URL is configured in `modules/candidate_processor.py`
