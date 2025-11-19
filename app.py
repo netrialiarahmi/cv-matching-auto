@@ -352,6 +352,9 @@ elif selected == "Screening":
             
             if skipped_candidates:
                 st.info(f"ℹ️ {len(skipped_candidates)} candidate(s) already processed for '{selected_job}' position and will be skipped.")
+                with st.expander("👀 View skipped candidates", expanded=False):
+                    for name in skipped_candidates:
+                        st.text(f"  • {name}")
             
             st.markdown(f"### 3️⃣ Process Candidates ({len(new_candidates)} new)")
             
@@ -466,6 +469,8 @@ elif selected == "Screening":
                 # Show final save summary
                 if successfully_saved > 0:
                     st.success(f"🎉 Successfully processed and saved {successfully_saved} candidate(s)!")
+                    if len(skipped_candidates) > 0:
+                        st.info(f"ℹ️ Skipped {len(skipped_candidates)} candidate(s) already processed for this position (no duplicates).")
                     if failed_saves > 0:
                         st.warning(f"⚠️ {failed_saves} candidate(s) failed to save. Please check the Dashboard and re-run if needed.")
                     st.info("💡 You can now view the results in the Dashboard section.")
