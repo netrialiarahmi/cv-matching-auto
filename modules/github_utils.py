@@ -4,9 +4,15 @@ import requests
 import pandas as pd
 import streamlit as st
 from io import StringIO
+import time
 
-def save_results_to_github(df, path="results.csv"):
-    """Save or update results.csv in GitHub repo (root level).
+def save_results_to_github(df, path="results.csv", max_retries=3):
+    """Save or update results.csv in GitHub repo (root level) with retry logic.
+    
+    Args:
+        df: DataFrame to save
+        path: Path to the CSV file in GitHub
+        max_retries: Maximum number of retry attempts on failure
     
     Returns:
         bool: True if save was successful, False otherwise.
@@ -26,50 +32,86 @@ def save_results_to_github(df, path="results.csv"):
 
     url = f"https://api.github.com/repos/{repo}/contents/{path}"
 
-    # 1️⃣ Cek apakah file sudah ada
-    r = requests.get(url, headers=headers)
-    sha = None
-    if r.status_code == 200:
-        content = r.json()
-        sha = content["sha"]
-        existing_csv = base64.b64decode(content["content"]).decode("utf-8")
+    # Retry loop
+    for attempt in range(max_retries):
         try:
-            old_df = pd.read_csv(StringIO(existing_csv))
-            df = pd.concat([old_df, df], ignore_index=True)
-            # Use Candidate Email as unique identifier (new format) or fallback to Filename (old format)
-            dedup_columns = ["Candidate Email", "Job Position"] if "Candidate Email" in df.columns else ["Filename", "Job Position"]
-            df.drop_duplicates(subset=dedup_columns, keep="last", inplace=True)
-        except pd.errors.EmptyDataError:
-            # Existing file is empty, just use the new data
-            pass
-    elif r.status_code == 401:
-        st.error(f"❌ GitHub authentication failed: {r.status_code} - {r.text}")
-        return False
-    elif r.status_code != 404:
-        # 404 is expected for new files, other errors should be reported
-        st.warning(f"⚠️ Could not check existing file: {r.status_code} - {r.text}")
+            # 1️⃣ Cek apakah file sudah ada
+            r = requests.get(url, headers=headers, timeout=30)
+            sha = None
+            if r.status_code == 200:
+                content = r.json()
+                sha = content["sha"]
+                existing_csv = base64.b64decode(content["content"]).decode("utf-8")
+                try:
+                    old_df = pd.read_csv(StringIO(existing_csv))
+                    df = pd.concat([old_df, df], ignore_index=True)
+                    # Use Candidate Email as unique identifier (new format) or fallback to Filename (old format)
+                    dedup_columns = ["Candidate Email", "Job Position"] if "Candidate Email" in df.columns else ["Filename", "Job Position"]
+                    df.drop_duplicates(subset=dedup_columns, keep="last", inplace=True)
+                except pd.errors.EmptyDataError:
+                    # Existing file is empty, just use the new data
+                    pass
+            elif r.status_code == 401:
+                st.error(f"❌ GitHub authentication failed: {r.status_code} - {r.text}")
+                return False
+            elif r.status_code != 404:
+                # 404 is expected for new files, other errors should be reported
+                if attempt == max_retries - 1:
+                    st.warning(f"⚠️ Could not check existing file: {r.status_code} - {r.text}")
 
-    # 2️⃣ Encode CSV baru
-    csv_bytes = df.to_csv(index=False).encode("utf-8")
-    encoded = base64.b64encode(csv_bytes).decode("utf-8")
+            # 2️⃣ Encode CSV baru
+            csv_bytes = df.to_csv(index=False).encode("utf-8")
+            encoded = base64.b64encode(csv_bytes).decode("utf-8")
 
-    # 3️⃣ Siapkan payload
-    data = {
-        "message": "📊 Update results.csv via Streamlit app",
-        "content": encoded,
-        "branch": branch
-    }
-    if sha:
-        data["sha"] = sha
+            # 3️⃣ Siapkan payload
+            data = {
+                "message": "📊 Update results.csv via Streamlit app",
+                "content": encoded,
+                "branch": branch
+            }
+            if sha:
+                data["sha"] = sha
 
-    # 4️⃣ Upload ke GitHub
-    res = requests.put(url, headers=headers, data=json.dumps(data))
-    if res.status_code in [200, 201]:
-        st.success("✅ Results successfully saved to GitHub!")
-        return True
-    else:
-        st.error(f"❌ GitHub save failed: {res.status_code} - {res.text}")
-        return False
+            # 4️⃣ Upload ke GitHub
+            res = requests.put(url, headers=headers, data=json.dumps(data), timeout=30)
+            if res.status_code in [200, 201]:
+                # Only show success message on last retry or first success
+                if attempt == 0:
+                    st.success("✅ Results successfully saved to GitHub!")
+                return True
+            elif res.status_code == 409:
+                # Conflict - file was updated by someone else, retry
+                if attempt < max_retries - 1:
+                    time.sleep(1)  # Wait before retrying
+                    continue
+                else:
+                    st.error(f"❌ GitHub save failed after {max_retries} attempts: File conflict")
+                    return False
+            else:
+                if attempt == max_retries - 1:
+                    st.error(f"❌ GitHub save failed: {res.status_code} - {res.text}")
+                return False
+                
+        except requests.exceptions.Timeout:
+            if attempt < max_retries - 1:
+                time.sleep(2)  # Wait before retrying
+                continue
+            else:
+                st.error(f"❌ GitHub save failed: Connection timeout after {max_retries} attempts")
+                return False
+        except requests.exceptions.RequestException as e:
+            if attempt < max_retries - 1:
+                time.sleep(2)  # Wait before retrying
+                continue
+            else:
+                st.error(f"❌ GitHub save failed: Network error - {str(e)}")
+                return False
+        except Exception as e:
+            if attempt == max_retries - 1:
+                st.error(f"❌ Unexpected error while saving: {str(e)}")
+            return False
+    
+    return False
 
 
 def load_results_from_github(path="results.csv"):

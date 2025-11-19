@@ -358,9 +358,13 @@ elif selected == "Screening":
             # Automatically process new candidates without requiring button click
             if len(new_candidates) > 0:
                 st.info("🔄 Automatically processing new candidates in the background...")
-                results = []
                 progress = st.progress(0)
                 status_text = st.empty()
+                save_status = st.empty()
+                
+                # Track successful saves
+                successfully_saved = 0
+                failed_saves = 0
                 
                 for i, idx in enumerate(new_candidates):
                     row = candidates_df.iloc[idx]
@@ -394,7 +398,6 @@ elif selected == "Screening":
                             candidate_name = f"Candidate {i+1}"
                     
                     status_text.text(f"Processing {i+1}/{len(new_candidates)}: {candidate_name}")
-                    progress.progress((i + 1) / len(new_candidates))
                     
                     # Build additional context from CSV data
                     additional_context = build_candidate_context(row)
@@ -419,7 +422,8 @@ elif selected == "Screening":
                     # Use CV score as the final match score
                     final_score = cv_score
                     
-                    results.append({
+                    # Create result for this candidate
+                    candidate_result = {
                         "Candidate Name": candidate_name,
                         "Candidate Email": _get_column_value(row, "Email Address", "Alamat Email"),
                         "Phone": _get_column_value(row, "Mobile Number", "Nomor Handphone"),
@@ -439,30 +443,34 @@ elif selected == "Screening":
                         "Resume Link": resume_url,
                         "Recruiter Feedback": "",
                         "Date Processed": datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-                    })
+                    }
+                    
+                    # Save immediately after processing each candidate
+                    try:
+                        result_df = pd.DataFrame([candidate_result])
+                        if save_results_to_github(result_df):
+                            successfully_saved += 1
+                            save_status.success(f"💾 Saved {candidate_name} ({successfully_saved}/{i+1})")
+                        else:
+                            failed_saves += 1
+                            save_status.warning(f"⚠️ Failed to save {candidate_name}. Will retry at the end.")
+                    except Exception as e:
+                        failed_saves += 1
+                        save_status.warning(f"⚠️ Error saving {candidate_name}: {str(e)}")
+                    
+                    # Update progress
+                    progress.progress((i + 1) / len(new_candidates))
                 
                 status_text.text("✅ Screening completed!")
                 
-                if results:
-                    df = pd.DataFrame(results)
-                    st.session_state["screening_results"] = df
-                    
-                    st.success(f"🎉 Successfully screened {len(results)} candidates!")
-                    
-                    # Preview results
-                    st.markdown("### 📊 Screening Results Preview")
-                    st.dataframe(
-                        df[["Candidate Name", "Job Position", "Match Score", "AI Summary"]],
-                        use_container_width=True
-                    )
-                    
-                    # Automatically save to GitHub
-                    with st.spinner("💾 Saving results to GitHub..."):
-                        if save_results_to_github(df):
-                            st.success("✅ Results automatically saved to GitHub!")
-                            st.info("💡 You can now view the results in the Dashboard section.")
-                        else:
-                            st.error("❌ Failed to save results to GitHub. Please try running the screening again.")
+                # Show final save summary
+                if successfully_saved > 0:
+                    st.success(f"🎉 Successfully processed and saved {successfully_saved} candidate(s)!")
+                    if failed_saves > 0:
+                        st.warning(f"⚠️ {failed_saves} candidate(s) failed to save. Please check the Dashboard and re-run if needed.")
+                    st.info("💡 You can now view the results in the Dashboard section.")
+                else:
+                    st.error("❌ Failed to save any results to GitHub. Please check your connection and try again.")
             else:
                 st.info("ℹ️ All candidates have already been processed for this position. Check the Dashboard to view results.")
 
