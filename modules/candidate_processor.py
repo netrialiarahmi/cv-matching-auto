@@ -33,12 +33,14 @@ def fetch_candidates_from_google_sheets(job_position_name, max_retries=3):
                 if attempt < max_retries - 1:
                     time.sleep(2)
                     continue
+                st.warning(f"⚠️ Failed to fetch Google Sheets (status {response.status_code})")
                 return None
                 
             # Parse the sheet content
             sheet_df = pd.read_csv(BytesIO(response.content))
             
             if sheet_df.empty:
+                st.info("ℹ️ Google Sheets is empty")
                 return None
             
             # Step 2: Find the row matching the job position name
@@ -54,12 +56,18 @@ def fetch_candidates_from_google_sheets(job_position_name, max_retries=3):
             
             if position_column is None:
                 # If no position column, can't match
+                available_columns = ", ".join(sheet_df.columns)
+                st.warning(f"⚠️ No position column found in Google Sheets. Available columns: {available_columns}")
                 return None
             
             # Find matching row (case-insensitive)
-            matching_rows = sheet_df[sheet_df[position_column].str.strip().str.lower() == job_position_name.strip().lower()]
+            # Filter out NaN values first before string operations
+            valid_positions = sheet_df[position_column].notna()
+            matching_rows = sheet_df[valid_positions & (sheet_df[position_column].str.strip().str.lower() == job_position_name.strip().lower())]
             
             if matching_rows.empty:
+                available_positions = sheet_df[valid_positions][position_column].str.strip().unique().tolist()
+                st.info(f"ℹ️ No match found for '{job_position_name}' in Google Sheets. Available positions: {', '.join(available_positions[:5])}")
                 return None
             
             # Step 3: Get the File Storage URL from the matching row
@@ -71,29 +79,35 @@ def fetch_candidates_from_google_sheets(job_position_name, max_retries=3):
             
             if file_storage_column is None:
                 # No File Storage column found
+                st.warning(f"⚠️ No 'File Storage' column found in Google Sheets")
                 return None
             
             # Get the first matching row's File Storage URL
             file_storage_url = matching_rows.iloc[0][file_storage_column]
             
             if pd.isna(file_storage_url) or not str(file_storage_url).strip():
+                st.warning(f"⚠️ No File Storage URL found for position '{job_position_name}'")
                 return None
             
             # Step 4: Download the CSV from the File Storage URL (with retry)
+            st.info(f"📥 Downloading candidate data from: {str(file_storage_url).strip()}")
             csv_response = requests.get(str(file_storage_url).strip(), timeout=60)
             
             if csv_response.status_code != 200:
                 if attempt < max_retries - 1:
                     time.sleep(2)
                     continue
+                st.warning(f"⚠️ Failed to download CSV from File Storage (status {csv_response.status_code})")
                 return None
             
             # Parse the candidate CSV data
             candidates_df = pd.read_csv(BytesIO(csv_response.content))
             
             if candidates_df.empty:
+                st.info("ℹ️ Downloaded CSV is empty")
                 return None
             
+            st.success(f"✅ Successfully fetched {len(candidates_df)} candidate(s) from File Storage")
             return candidates_df
             
         except requests.exceptions.Timeout:
