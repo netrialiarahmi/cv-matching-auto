@@ -2,7 +2,7 @@ import streamlit as st
 from streamlit_option_menu import option_menu
 import pandas as pd
 from modules.extractor import extract_text_from_pdf
-from modules.scorer import score_with_openrouter, get_openrouter_client, extract_candidate_name_from_cv, score_table_data
+from modules.scorer import score_with_openrouter, get_openrouter_client, extract_candidate_name_from_cv, score_table_data, _get_model_name
 from modules.github_utils import (
     save_results_to_github, 
     load_results_from_github,
@@ -125,7 +125,7 @@ Recruiter Feedback:
 
     try:
         response = client.chat.completions.create(
-            model="google/gemini-2.5-pro",
+            model=_get_model_name(),
             messages=[
                 {"role": "system", "content": "You are an HR evaluator AI."},
                 {"role": "user", "content": prompt}
