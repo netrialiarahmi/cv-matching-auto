@@ -78,26 +78,33 @@ def fetch_candidates_from_google_sheets(job_position_name, max_retries=3):
                 file_storage_column = "file_storage"
             
             if file_storage_column is None:
-                # No File Storage column found
-                st.warning(f"⚠️ No 'File Storage' column found in Google Sheets")
+                # No data source column found
+                st.warning(f"⚠️ No data source configured in Google Sheets for this position")
                 return None
             
             # Get the first matching row's File Storage URL
             file_storage_url = matching_rows.iloc[0][file_storage_column]
             
             if pd.isna(file_storage_url) or not str(file_storage_url).strip():
-                st.warning(f"⚠️ No File Storage URL found for position '{job_position_name}'")
+                st.warning(f"⚠️ No data source found for position '{job_position_name}'")
                 return None
             
             # Step 4: Download the CSV from the File Storage URL (with retry)
-            st.info(f"📥 Downloading candidate data from: {str(file_storage_url).strip()}")
-            csv_response = requests.get(str(file_storage_url).strip(), timeout=60)
+            # Don't display the URL to users for security
+            st.info(f"📥 Downloading candidate data for position '{job_position_name}'...")
+            
+            # Add proper headers for Google Storage API
+            headers = {
+                'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
+                'Accept': 'text/csv,application/csv,text/plain,*/*'
+            }
+            csv_response = requests.get(str(file_storage_url).strip(), headers=headers, timeout=60)
             
             if csv_response.status_code != 200:
                 if attempt < max_retries - 1:
                     time.sleep(2)
                     continue
-                st.warning(f"⚠️ Failed to download CSV from File Storage (status {csv_response.status_code})")
+                st.warning(f"⚠️ Failed to download candidate data (status {csv_response.status_code})")
                 return None
             
             # Parse the candidate CSV data
@@ -107,7 +114,7 @@ def fetch_candidates_from_google_sheets(job_position_name, max_retries=3):
                 st.info("ℹ️ Downloaded CSV is empty")
                 return None
             
-            st.success(f"✅ Successfully fetched {len(candidates_df)} candidate(s) from File Storage")
+            st.success(f"✅ Successfully fetched {len(candidates_df)} candidate(s)")
             return candidates_df
             
         except requests.exceptions.Timeout:
@@ -154,7 +161,12 @@ def extract_resume_from_url(url, max_retries=3):
     
     for attempt in range(max_retries):
         try:
-            response = requests.get(url, timeout=60)
+            # Add proper headers for better compatibility
+            headers = {
+                'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
+                'Accept': 'application/pdf,*/*'
+            }
+            response = requests.get(url, headers=headers, timeout=60)
             if response.status_code == 200:
                 pdf_file = BytesIO(response.content)
                 # Create a file-like object that mimics uploaded_file
@@ -172,32 +184,32 @@ def extract_resume_from_url(url, max_retries=3):
                     time.sleep(5)  # Wait 5 seconds before retrying
                     continue
                 else:
-                    st.warning(f"⚠️ Too many requests. Failed to download resume from {url}")
+                    st.warning(f"⚠️ Too many requests. Failed to download resume (rate limit)")
                     return ""
             else:
                 if attempt < max_retries - 1:
                     time.sleep(2)  # Wait before retrying
                     continue
                 else:
-                    st.warning(f"⚠️ Failed to download resume from {url}: Status {response.status_code}")
+                    st.warning(f"⚠️ Failed to download resume (Status {response.status_code})")
                     return ""
         except requests.exceptions.Timeout:
             if attempt < max_retries - 1:
                 time.sleep(3)  # Wait before retrying
                 continue
             else:
-                st.warning(f"⚠️ Timeout downloading resume from {url}")
+                st.warning(f"⚠️ Timeout downloading resume")
                 return ""
         except requests.exceptions.RequestException as e:
             if attempt < max_retries - 1:
                 time.sleep(2)  # Wait before retrying
                 continue
             else:
-                st.warning(f"⚠️ Network error extracting resume from {url}: {e}")
+                st.warning(f"⚠️ Network error extracting resume")
                 return ""
         except Exception as e:
             # Non-network errors (like PDF parsing errors) should not retry
-            st.warning(f"⚠️ Error extracting resume from {url}: {e}")
+            st.warning(f"⚠️ Error extracting resume: {str(e)[:50]}")
             return ""
     
     return ""
