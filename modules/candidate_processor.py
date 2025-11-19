@@ -90,7 +90,7 @@ def fetch_candidates_from_google_sheets(job_position_name, max_retries=3):
                 return None
             
             # Step 4: Download the CSV from the File Storage URL (with retry)
-            st.info(f"📥 Downloading candidate data from: {str(file_storage_url).strip()}")
+            st.info(f"📥 Downloading candidate data from File Storage...")
             csv_response = requests.get(str(file_storage_url).strip(), timeout=60)
             
             if csv_response.status_code != 200:
@@ -172,32 +172,32 @@ def extract_resume_from_url(url, max_retries=3):
                     time.sleep(5)  # Wait 5 seconds before retrying
                     continue
                 else:
-                    st.warning(f"⚠️ Too many requests. Failed to download resume from {url}")
+                    st.warning(f"⚠️ Too many requests. Failed to download resume.")
                     return ""
             else:
                 if attempt < max_retries - 1:
                     time.sleep(2)  # Wait before retrying
                     continue
                 else:
-                    st.warning(f"⚠️ Failed to download resume from {url}: Status {response.status_code}")
+                    st.warning(f"⚠️ Failed to download resume. Status {response.status_code}")
                     return ""
         except requests.exceptions.Timeout:
             if attempt < max_retries - 1:
                 time.sleep(3)  # Wait before retrying
                 continue
             else:
-                st.warning(f"⚠️ Timeout downloading resume from {url}")
+                st.warning(f"⚠️ Timeout downloading resume.")
                 return ""
         except requests.exceptions.RequestException as e:
             if attempt < max_retries - 1:
                 time.sleep(2)  # Wait before retrying
                 continue
             else:
-                st.warning(f"⚠️ Network error extracting resume from {url}: {e}")
+                st.warning(f"⚠️ Network error extracting resume.")
                 return ""
         except Exception as e:
             # Non-network errors (like PDF parsing errors) should not retry
-            st.warning(f"⚠️ Error extracting resume from {url}: {e}")
+            st.warning(f"⚠️ Error extracting resume: {e}")
             return ""
     
     return ""
