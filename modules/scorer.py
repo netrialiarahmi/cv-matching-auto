@@ -14,7 +14,7 @@ OPENROUTER_REFERRER = "https://github.com/netrialiarahmi/cv-matching-gemini"
 OPENROUTER_TITLE = "AI CV Matching System"
 
 # Rate limiting configuration
-REQUEST_DELAY = 6.5  # Delay between requests in seconds (~9.2 requests/min, under 10/min limit)
+REQUEST_DELAY = 6.5  # Delay between requests in seconds (~9.23 requests/min, under 10/min limit)
 MAX_RETRIES = 3  # Maximum number of retries for rate limit errors
 RETRY_DELAY = 60  # Initial retry delay for 429 errors in seconds
 
@@ -74,7 +74,7 @@ def _get_model_name():
 # =========================
 # Rate Limiting Helper
 # =========================
-def _call_api_with_retry(client, **kwargs):
+def call_api_with_retry(client, **kwargs):
     """
     Make an API call with rate limiting and retry logic.
     
@@ -105,7 +105,7 @@ def _call_api_with_retry(client, **kwargs):
             
             # Extract retry delay from error message if available
             retry_delay = RETRY_DELAY
-            retry_match = re.search(r'retryDelay[^0-9]*(\d+)', error_msg, re.IGNORECASE)
+            retry_match = re.search(r'\bretryDelay\s*[:\-=]?\s*["\']?(\d+)', error_msg, re.IGNORECASE)
             if retry_match:
                 retry_delay = int(retry_match.group(1))
             
@@ -203,7 +203,7 @@ Return only the name:
 """
     
     try:
-        response = _call_api_with_retry(
+        response = call_api_with_retry(
             client,
             model=_get_model_name(),
             messages=[
@@ -282,11 +282,11 @@ Instructions:
 """
 
     # --- Send to API and parse response ---
-    # Note: _call_api_with_retry already handles rate limit retries
+    # Note: call_api_with_retry already handles rate limit retries
     # This loop is only for handling incomplete JSON responses from the model
     for attempt in range(max_retries + 1):
         try:
-            response = _call_api_with_retry(
+            response = call_api_with_retry(
                 client,
                 model=_get_model_name(),
                 messages=[
@@ -386,7 +386,7 @@ Instructions:
             return score, summary, strengths, weaknesses, gaps
 
         except Exception as e:
-            # API errors (including rate limits) are already handled by _call_api_with_retry
+            # API errors (including rate limits) are already handled by call_api_with_retry
             # If we get here, it's an unexpected error
             st.error(f"⚠️ Unexpected error during CV evaluation: {e}")
             return 0, f"Error evaluating candidate: {str(e)}", ["Evaluasi gagal."], ["Evaluasi gagal."], ["Evaluasi gagal."]
@@ -435,7 +435,7 @@ Guidelines:
 """
 
     try:
-        response = _call_api_with_retry(
+        response = call_api_with_retry(
             client,
             model=_get_model_name(),
             messages=[
