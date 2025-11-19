@@ -75,9 +75,6 @@ def save_results_to_github(df, path="results.csv", max_retries=3):
             # 4️⃣ Upload ke GitHub
             res = requests.put(url, headers=headers, data=json.dumps(data), timeout=30)
             if res.status_code in [200, 201]:
-                # Only show success message on last retry or first success
-                if attempt == 0:
-                    st.success("✅ Results successfully saved to GitHub!")
                 return True
             elif res.status_code == 409:
                 # Conflict - file was updated by someone else, retry

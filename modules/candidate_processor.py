@@ -91,7 +91,6 @@ def fetch_candidates_from_google_sheets(job_position_name, max_retries=3):
             
             # Step 4: Download the CSV from the File Storage URL (with retry)
             # Don't display the URL to users for security
-            st.info(f"📥 Downloading candidate data for position '{job_position_name}'...")
             
             # Add proper headers for Google Storage API
             headers = {
