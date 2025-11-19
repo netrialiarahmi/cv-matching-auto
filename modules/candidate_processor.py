@@ -36,6 +36,7 @@ def fetch_candidates_from_google_sheets(job_position_name):
         
         # Step 2: Find the row matching the job position name
         # Look for columns that might contain position name
+        # Expected format: Nama Posisi, JOB_ID, UPLOAD_ID, File Storage
         position_column = None
         if "Nama Posisi" in sheet_df.columns:
             position_column = "Nama Posisi"

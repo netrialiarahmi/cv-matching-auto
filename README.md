@@ -2,6 +2,14 @@
 
 An automated CV matching system with 3 main sections for managing job positions, screening candidates, and viewing results.
 
+## Recent Updates
+
+### ✨ Latest Changes (2024)
+- **File Storage Integration**: System now fetches candidate CSVs from URLs in Google Sheets "File Storage" column
+- **API Key Flexibility**: Added fallback support for GEMINI_API_KEY when OPENROUTER_API_KEY is not available
+- **Simplified Scoring**: Removed AI Recruiter Score, now using only Match Score based on CV analysis
+- **Automatic Processing**: Candidates are now processed automatically without manual button clicks
+
 ## Features
 
 ### 1. Job Management
@@ -13,21 +21,21 @@ An automated CV matching system with 3 main sections for managing job positions,
 - Download job positions as CSV
 
 ### 2. Screening
-- **Automatic data fetching from Google Sheets** - Automatically loads candidate data from a configured Google Sheets URL when you select a job position
+- **Automatic data fetching from Google Sheets** - Fetches CSV URLs from "File Storage" column and downloads candidate data from cloud storage
 - **Fallback to CSV upload** - If no data is found for the position in Google Sheets, you can upload a CSV file manually
 - Select job position from saved positions
 - Preview job description and candidate data before screening
+- **Automatic background processing** - New candidates are automatically processed without button clicks
+- Automatically skip candidates already processed for the same position
 - Automatically extract and analyze resumes from URLs
-- Combine resume content with structured candidate data
-- Skip candidates already in the dashboard
-- AI-powered matching using OpenRouter (Gemini 2.5 Pro)
-- Save results to GitHub
+- AI-powered matching using Gemini 2.5 Pro (supports both OpenRouter and direct Gemini API)
+- Automatically save results to GitHub
 
 ### 3. Dashboard
 - View all screening results from GitHub
 - Filter by job position
 - Expandable cards for each candidate showing:
-  - Match scores
+  - Match Score (based on CV analysis)
   - Strengths, Weaknesses, and Gaps
   - AI Summary
   - Basic candidate information
@@ -111,7 +119,12 @@ pip install -r requirements.txt
 
 2. Configure Streamlit secrets (`.streamlit/secrets.toml`):
 ```toml
-OPENROUTER_API_KEY = "your-openrouter-api-key"
+# API Key (use one of these)
+OPENROUTER_API_KEY = "your-openrouter-api-key"  # Preferred
+# OR
+GEMINI_API_KEY = "your-gemini-api-key"  # Fallback option
+
+# GitHub configuration
 GITHUB_TOKEN = "your-github-token"
 GITHUB_REPO = "username/repo-name"
 GITHUB_BRANCH = "main"
@@ -120,8 +133,20 @@ GITHUB_BRANCH = "main"
 3. (Optional) Configure Google Sheets URL:
    - The Google Sheets URL is configured in `modules/candidate_processor.py`
    - By default, it uses: `https://docs.google.com/spreadsheets/d/e/2PACX-1vRKC_5lHg9yJgGoBlkH0A-fjpjpiYu4MzO4ieEdSId5wAKS7bsLDdplXWx8944xFlHf2f9lVcUYzVcr/pub?output=csv`
-   - Your Google Sheet should contain a column named "Job Name" or "Nama Pekerjaan" to match against job positions
-   - The sheet should follow the same CSV format as described in the "Required CSV Format" section
+   - Your Google Sheet should contain these columns:
+     - **Nama Posisi** - Job position name (primary column name)
+     - **File Storage** - URL to the candidate CSV file (e.g., storage.googleapis.com URLs)
+     - JOB_ID, UPLOAD_ID (optional, for reference)
+   - Example format:
+     ```
+     Nama Posisi                         JOB_ID    UPLOAD_ID   File Storage
+     Account Executive Kompasiana        260796    18964456    https://storage.googleapis.com/.../candidates.csv
+     Account Executive Pasangiklan.com   256571    18964460    https://storage.googleapis.com/.../candidates2.csv
+     ```
+   - The system will:
+     1. Find the row matching the job position in "Nama Posisi" column
+     2. Extract the File Storage URL from that row
+     3. Download and parse the candidate CSV from that URL
 
 4. Run the application:
 ```bash
@@ -151,12 +176,15 @@ cv-matching-auto/
 
 2. **Screening**: When a job position is selected, the system:
    - First attempts to fetch candidate data from the configured Google Sheets URL
-   - Filters candidates by matching the job position name with the "Job Name" or "Nama Pekerjaan" column
+   - Finds the row matching the job position name
+   - Extracts the File Storage URL from the "File Storage" column
+   - Downloads the candidate CSV from that URL (e.g., from storage.googleapis.com)
    - If no data is found in Google Sheets, prompts for CSV file upload
+   - Automatically checks for candidates already processed for this position
+   - **Automatically processes new candidates in the background** (no button click needed)
    - Downloads resumes from provided URLs
-   - Combines resume content with structured data from the CSV/Google Sheets
-   - Uses AI to match candidates against the selected job position
-   - Saves results to `results.csv` in GitHub
+   - Uses AI (Gemini 2.5 Pro) to analyze CVs and match against the job position
+   - Automatically saves results to `results.csv` in GitHub
 
 3. **Dashboard**: Results are loaded from GitHub and displayed in an organized view with filtering, ranking, and detailed analysis for each candidate.
 
