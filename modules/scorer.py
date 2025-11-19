@@ -14,7 +14,7 @@ OPENROUTER_REFERRER = "https://github.com/netrialiarahmi/cv-matching-gemini"
 OPENROUTER_TITLE = "AI CV Matching System"
 
 # Rate limiting configuration
-REQUEST_DELAY = 6.5  # Delay between requests in seconds (10 requests/min = 6s + buffer)
+REQUEST_DELAY = 6.5  # Delay between requests in seconds (~9.2 requests/min, under 10/min limit)
 MAX_RETRIES = 3  # Maximum number of retries for rate limit errors
 RETRY_DELAY = 60  # Initial retry delay for 429 errors in seconds
 
@@ -105,7 +105,7 @@ def _call_api_with_retry(client, **kwargs):
             
             # Extract retry delay from error message if available
             retry_delay = RETRY_DELAY
-            retry_match = re.search(r'retryDelay.*?(\d+)', error_msg, re.IGNORECASE)
+            retry_match = re.search(r'retryDelay[^0-9]*(\d+)', error_msg, re.IGNORECASE)
             if retry_match:
                 retry_delay = int(retry_match.group(1))
             
@@ -225,7 +225,8 @@ Return only the name:
         return name if name else "Unknown Candidate"
         
     except Exception as e:
-        st.warning(f"⚠️ Name extraction failed: {e}")
+        # Use info instead of warning since name extraction failure is handled gracefully
+        st.info(f"ℹ️ Could not extract name from CV, using default identifier.")
         return "Unknown Candidate"
 
 
