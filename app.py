@@ -282,7 +282,9 @@ elif selected == "Screening":
             with st.expander("📄 View Job Position Details", expanded=True):
                 st.markdown(f"**Job Position:** {job_info['Job Position']}")
                 st.markdown(f"**Job Description:**")
-                st.text_area("", value=job_info['Job Description'], height=150, disabled=True, key="jd_preview")
+                # Use dynamic key based on job position and date to ensure fresh data display
+                jd_key = f"jd_preview_{selected_job}_{job_info.get('Date Created', 'default')}"
+                st.text_area("", value=job_info['Job Description'], height=150, disabled=True, key=jd_key)
         
         st.markdown("---")
         st.markdown("### 2️⃣ Load Candidate Data")
