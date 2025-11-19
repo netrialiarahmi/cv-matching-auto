@@ -25,16 +25,24 @@ def _get_api_key():
     """Get API key and return tuple of (key, key_type)"""
     # Try OPENROUTER_API_KEY first
     key = os.getenv("OPENROUTER_API_KEY")
-    if not key and hasattr(st, "secrets"):
-        key = st.secrets.get("OPENROUTER_API_KEY")
+    if not key:
+        try:
+            key = st.secrets.get("OPENROUTER_API_KEY")
+        except Exception:
+            # Handle case where secrets file doesn't exist or secrets is not available
+            key = None
     
     if key:
         return key, "openrouter"
     
     # Fallback to GEMINI_API_KEY if OPENROUTER_API_KEY is not available
     key = os.getenv("GEMINI_API_KEY")
-    if not key and hasattr(st, "secrets"):
-        key = st.secrets.get("GEMINI_API_KEY")
+    if not key:
+        try:
+            key = st.secrets.get("GEMINI_API_KEY")
+        except Exception:
+            # Handle case where secrets file doesn't exist or secrets is not available
+            key = None
     
     if key:
         return key, "gemini"
