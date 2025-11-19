@@ -92,10 +92,6 @@ def _call_api_with_retry(client, **kwargs):
     
     for attempt in range(MAX_RETRIES):
         try:
-            # Add delay between requests to respect rate limits (except first attempt)
-            if attempt > 0:
-                time.sleep(REQUEST_DELAY)
-            
             response = client.chat.completions.create(**kwargs)
             
             # Add delay after successful request to prevent hitting rate limit on next call
@@ -109,7 +105,7 @@ def _call_api_with_retry(client, **kwargs):
             
             # Extract retry delay from error message if available
             retry_delay = RETRY_DELAY
-            retry_match = re.search(r'retryDelay["\']?\s*:\s*["\']?(\d+)s?', error_msg)
+            retry_match = re.search(r'retryDelay.*?(\d+)', error_msg, re.IGNORECASE)
             if retry_match:
                 retry_delay = int(retry_match.group(1))
             
@@ -284,7 +280,9 @@ Instructions:
 {cv_text[:4000]}
 """
 
-    # --- Send to OpenRouter with retry logic ---
+    # --- Send to API and parse response ---
+    # Note: _call_api_with_retry already handles rate limit retries
+    # This loop is only for handling incomplete JSON responses from the model
     for attempt in range(max_retries + 1):
         try:
             response = _call_api_with_retry(
@@ -316,8 +314,9 @@ Instructions:
                 if summary and len(strengths) > 0 and len(weaknesses) > 0 and len(gaps) > 0:
                     return score, summary, strengths, weaknesses, gaps
                 
-                # If validation fails on first attempts, retry
+                # If validation fails on first attempts, retry (ask the model again)
                 if attempt < max_retries:
+                    st.warning(f"⚠️ Incomplete response from AI (attempt {attempt + 1}/{max_retries + 1}). Retrying...")
                     continue
                 
                 # On final attempt, provide defaults for empty fields
@@ -368,8 +367,9 @@ Instructions:
             if summary and len(strengths) > 0 and len(weaknesses) > 0 and len(gaps) > 0:
                 return score, summary, strengths, weaknesses, gaps
             
-            # Retry if validation fails
+            # Retry if validation fails (ask the model again)
             if attempt < max_retries:
+                st.warning(f"⚠️ Could not parse AI response properly (attempt {attempt + 1}/{max_retries + 1}). Retrying...")
                 continue
             
             # Provide defaults on final attempt
@@ -385,9 +385,9 @@ Instructions:
             return score, summary, strengths, weaknesses, gaps
 
         except Exception as e:
-            if attempt < max_retries:
-                continue  # Retry on error
-            st.error(f"⚠️ OpenRouter request failed after {max_retries + 1} attempts: {e}")
+            # API errors (including rate limits) are already handled by _call_api_with_retry
+            # If we get here, it's an unexpected error
+            st.error(f"⚠️ Unexpected error during CV evaluation: {e}")
             return 0, f"Error evaluating candidate: {str(e)}", ["Evaluasi gagal."], ["Evaluasi gagal."], ["Evaluasi gagal."]
 
 
