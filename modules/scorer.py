@@ -243,7 +243,7 @@ def score_with_openrouter(cv_text, job_position, job_description, max_retries=2)
     client = get_openrouter_client()
 
     prompt = f"""
-You are a professional HR assistant. Provide the entire output in Bahasa Indonesia. Compare the candidate's CV with the given job position and job description.
+You are a professional HR assistant. Provide the entire output in Bahasa Indonesia, , including “summary”, “strengths”, “weaknesses”, and “gaps”.. Compare the candidate's CV with the given job position and job description.
 
 Strict rules:
 • Evaluate only experience that is relevant to the job scope.
@@ -258,8 +258,12 @@ You must add elaboration when:
 • The relevant experience comes only from earlier roles.
 • The candidate exceeds the required years only based on relevant experience, not based on unrelated senior roles.
 
-CRITICAL: You MUST provide ALL fields in your response. Never leave strengths, weaknesses, or gaps empty.
-If you cannot find specific strengths/weaknesses/gaps, provide at least one general observation for each.
+CRITICAL:
+• You MUST provide ALL fields in the JSON.  
+• Do NOT leave strengths, weaknesses, or gaps empty. If necessary, provide general observations.  
+• You MUST respond ONLY with a valid JSON object.  
+• The JSON must match this structure exactly.  
+• ALL content inside the JSON must be written in Bahasa Indonesia.
 
 Respond only with a valid JSON object (no explanations or extra text) using this exact structure:
 {{
