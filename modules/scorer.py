@@ -267,6 +267,13 @@ CRITICAL:
 • The JSON must match this structure exactly.  
 • ALL content inside the JSON must be written in Bahasa Indonesia.
 
+Use this scoring scale when assigning the score:
+• Very strong fit. 85 to 100. Relevant experience is strong. Tasks and industry aligned. Education aligns with the role. Most requirements met.
+• Strong fit. 70 to 84. Some relevant experience. Tasks partly aligned. Education mostly aligns. Several requirements incomplete.
+• Moderate fit. 55 to 69. Limited relevant experience. Tasks often different. Education somewhat related. Many requirements missed.
+• Weak fit. 30 to 54. Minimal relevant experience. Tasks not aligned. Education weakly related. Core requirements missing.
+• Not a fit. 0 to 29. No relevant experience. Tasks and industry unrelated. Education does not support the role. Key qualifications not met.
+
 Respond only with a valid JSON object (no explanations or extra text) using this exact structure:
 {{
 "score": <integer 0-100>,
