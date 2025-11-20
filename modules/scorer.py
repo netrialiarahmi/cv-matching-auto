@@ -8,8 +8,8 @@ from openai import OpenAI, RateLimitError
 # Constants for API configuration
 OPENROUTER_API_BASE = "https://openrouter.ai/api/v1"
 GEMINI_API_BASE = "https://generativelanguage.googleapis.com/v1beta"
-OPENROUTER_MODEL = "google/gemini-2.5-pro"
-GEMINI_MODEL = "gemini-2.0-flash-exp"
+OPENROUTER_MODEL = "google/gemini-2.0-flash"
+GEMINI_MODEL = "gemini-2.5-pro"
 OPENROUTER_REFERRER = "https://github.com/netrialiarahmi/cv-matching-gemini"
 OPENROUTER_TITLE = "AI CV Matching System"
 
