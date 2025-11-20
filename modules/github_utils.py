@@ -304,6 +304,103 @@ def delete_job_position_from_github(job_position, path="job_positions.csv"):
         return False
 
 
+def update_results_in_github(df, path="results.csv", max_retries=3):
+    """Replace the entire results.csv file with the provided DataFrame.
+    
+    This is different from save_results_to_github which appends/merges data.
+    Use this when you want to update existing records (e.g., updating shortlist status).
+    
+    Args:
+        df: DataFrame to save (replaces existing file)
+        path: Path to the CSV file in GitHub
+        max_retries: Maximum number of retry attempts on failure
+    
+    Returns:
+        bool: True if update was successful, False otherwise.
+    """
+    token = st.secrets.get("GITHUB_TOKEN")
+    repo = st.secrets.get("GITHUB_REPO", "netrialiarahmi/cv-matching-gemini")
+    branch = st.secrets.get("GITHUB_BRANCH", "main")
+
+    if not token:
+        st.error("❌ Missing GITHUB_TOKEN in Streamlit secrets.")
+        return False
+
+    headers = {
+        "Authorization": f"token {token}",
+        "Accept": "application/vnd.github+json"
+    }
+
+    url = f"https://api.github.com/repos/{repo}/contents/{path}"
+
+    # Retry loop
+    for attempt in range(max_retries):
+        try:
+            # Get the current file SHA (required for updates)
+            r = requests.get(url, headers=headers, timeout=30)
+            sha = None
+            if r.status_code == 200:
+                content = r.json()
+                sha = content["sha"]
+            elif r.status_code == 401:
+                st.error(f"❌ GitHub authentication failed: {r.status_code} - {r.text}")
+                return False
+            elif r.status_code != 404:
+                if attempt == max_retries - 1:
+                    st.warning(f"⚠️ Could not check existing file: {r.status_code} - {r.text}")
+
+            # Encode CSV
+            csv_bytes = df.to_csv(index=False).encode("utf-8")
+            encoded = base64.b64encode(csv_bytes).decode("utf-8")
+
+            # Prepare payload
+            data = {
+                "message": "📊 Update results.csv (shortlist status) via Streamlit app",
+                "content": encoded,
+                "branch": branch
+            }
+            if sha:
+                data["sha"] = sha
+
+            # Upload to GitHub
+            res = requests.put(url, headers=headers, data=json.dumps(data), timeout=30)
+            if res.status_code in [200, 201]:
+                return True
+            elif res.status_code == 409:
+                # Conflict - file was updated by someone else, retry
+                if attempt < max_retries - 1:
+                    time.sleep(1)
+                    continue
+                else:
+                    st.error(f"❌ GitHub update failed after {max_retries} attempts: File conflict")
+                    return False
+            else:
+                if attempt == max_retries - 1:
+                    st.error(f"❌ GitHub update failed: {res.status_code} - {res.text}")
+                return False
+                
+        except requests.exceptions.Timeout:
+            if attempt < max_retries - 1:
+                time.sleep(2)
+                continue
+            else:
+                st.error(f"❌ GitHub update failed: Connection timeout after {max_retries} attempts")
+                return False
+        except requests.exceptions.RequestException as e:
+            if attempt < max_retries - 1:
+                time.sleep(2)
+                continue
+            else:
+                st.error(f"❌ GitHub update failed: Network error - {str(e)}")
+                return False
+        except Exception as e:
+            if attempt == max_retries - 1:
+                st.error(f"❌ Unexpected error while updating: {str(e)}")
+            return False
+    
+    return False
+
+
 def update_job_position_in_github(old_position, new_position, new_description, path="job_positions.csv"):
     """Update a specific job position in GitHub repo.
     

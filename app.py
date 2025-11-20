@@ -9,7 +9,8 @@ from modules.github_utils import (
     save_job_positions_to_github,
     load_job_positions_from_github,
     delete_job_position_from_github,
-    update_job_position_in_github
+    update_job_position_in_github,
+    update_results_in_github
 )
 from modules.candidate_processor import (
     parse_candidate_csv,
@@ -447,6 +448,7 @@ elif selected == "Screening":
                         "Application Link": _get_column_value(row, "Job Application Link", "Link Aplikasi Pekerjaan"),
                         "Resume Link": resume_url,
                         "Recruiter Feedback": "",
+                        "Shortlisted": False,
                         "Date Processed": datetime.now().strftime("%Y-%m-%d %H:%M:%S")
                     }
                     
@@ -495,9 +497,12 @@ elif selected == "Dashboard":
         st.session_state["results"] = df
 
         # Ensure columns exist
-        for col in ["Recruiter Feedback", "Strengths", "Weaknesses", "Gaps", "AI Summary"]:
+        for col in ["Recruiter Feedback", "Strengths", "Weaknesses", "Gaps", "AI Summary", "Shortlisted"]:
             if col not in df.columns:
-                df[col] = ""
+                if col == "Shortlisted":
+                    df[col] = False
+                else:
+                    df[col] = ""
 
         # Filter by position
         job_positions = df["Job Position"].unique().tolist()
@@ -543,82 +548,126 @@ elif selected == "Dashboard":
             
             score = row.get("Match Score", 0)
             
-            with st.expander(f"🔍 {candidate_name} - Score: {score}", expanded=False):
-                col1, col2 = st.columns([1, 1])
+            # Get shortlist status
+            is_shortlisted = row.get("Shortlisted", False)
+            if pd.isna(is_shortlisted) or is_shortlisted == "" or is_shortlisted == "False":
+                is_shortlisted = False
+            elif is_shortlisted == "True" or is_shortlisted == True:
+                is_shortlisted = True
+            else:
+                is_shortlisted = bool(is_shortlisted)
+            
+            # Create unique key for checkbox
+            checkbox_key = f"shortlist_{idx}_{candidate_name.replace(' ', '_')}"
+            
+            # Create layout with checkbox and expander
+            col_checkbox, col_expander = st.columns([0.05, 0.95])
+            
+            with col_checkbox:
+                # Checkbox for shortlisting
+                new_shortlist_status = st.checkbox("", value=is_shortlisted, key=checkbox_key, label_visibility="collapsed")
                 
-                with col1:
-                    st.markdown("### 📊 Score")
-                    st.metric("Match Score", f"{row.get('Match Score', 0)}")
+                # If checkbox status changed, update the dataframe and save
+                if new_shortlist_status != is_shortlisted:
+                    # Update the dataframe
+                    # Find the original row index in the full dataframe
+                    original_df = st.session_state["results"]
                     
-                    st.markdown("### 👤 Basic Info")
-                    # Helper function to get non-NaN value
-                    def get_value(key, default='N/A'):
-                        val = row.get(key, default)
-                        return val if pd.notna(val) and str(val).strip() else default
+                    # Try to identify the row by email + job position, or just candidate name
+                    candidate_email = row.get("Candidate Email")
+                    job_position = row.get("Job Position")
                     
-                    if "Candidate Email" in row:
-                        st.text(f"📧 Email: {get_value('Candidate Email')}")
-                        st.text(f"📱 Phone: {get_value('Phone')}")
-                    st.text(f"💼 Job: {get_value('Latest Job Title')}")
-                    st.text(f"🏢 Company: {get_value('Latest Company')}")
-                    st.text(f"🎓 Education: {get_value('Education')}")
-                    st.text(f"🏫 University: {get_value('University')}")
-                
-                with col2:
-                    st.markdown("### ✅ Strengths")
-                    strengths = str(row.get("Strengths", "")) if pd.notna(row.get("Strengths")) else ""
-                    if strengths and strengths.strip():
-                        for strength in strengths.split(", "):
-                            if strength.strip():
-                                st.markdown(f"- {strength.strip()}")
+                    if pd.notna(candidate_email) and candidate_email:
+                        mask = (original_df["Candidate Email"] == candidate_email) & (original_df["Job Position"] == job_position)
                     else:
-                        st.text("No strengths listed")
+                        mask = (original_df["Candidate Name"] == candidate_name) & (original_df["Job Position"] == job_position)
                     
-                    st.markdown("### ⚠️ Weaknesses")
-                    weaknesses = str(row.get("Weaknesses", "")) if pd.notna(row.get("Weaknesses")) else ""
-                    if weaknesses and weaknesses.strip():
-                        for weakness in weaknesses.split(", "):
-                            if weakness.strip():
-                                st.markdown(f"- {weakness.strip()}")
-                    else:
-                        st.text("No weaknesses listed")
+                    original_df.loc[mask, "Shortlisted"] = new_shortlist_status
                     
-                    st.markdown("### 🔴 Gaps")
-                    gaps = str(row.get("Gaps", "")) if pd.notna(row.get("Gaps")) else ""
-                    if gaps and gaps.strip():
-                        for gap in gaps.split(", "):
-                            if gap.strip():
-                                st.markdown(f"- {gap.strip()}")
+                    # Save to GitHub (use update to replace the file, not append)
+                    if update_results_in_github(original_df, path="results.csv"):
+                        st.session_state["results"] = original_df
+                        st.rerun()
+            
+            with col_expander:
+                # Show checkmark in title if shortlisted
+                shortlist_mark = " ✅" if new_shortlist_status else ""
+                with st.expander(f"🔍 {candidate_name} - Score: {score}{shortlist_mark}", expanded=False):
+                    col1, col2 = st.columns([1, 1])
+                    
+                    with col1:
+                        st.markdown("### 📊 Score")
+                        st.metric("Match Score", f"{row.get('Match Score', 0)}")
+                        
+                        st.markdown("### 👤 Basic Info")
+                        # Helper function to get non-NaN value
+                        def get_value(key, default='N/A'):
+                            val = row.get(key, default)
+                            return val if pd.notna(val) and str(val).strip() else default
+                        
+                        if "Candidate Email" in row:
+                            st.text(f"📧 Email: {get_value('Candidate Email')}")
+                            st.text(f"📱 Phone: {get_value('Phone')}")
+                        st.text(f"💼 Job: {get_value('Latest Job Title')}")
+                        st.text(f"🏢 Company: {get_value('Latest Company')}")
+                        st.text(f"🎓 Education: {get_value('Education')}")
+                        st.text(f"🏫 University: {get_value('University')}")
+                    
+                    with col2:
+                        st.markdown("### ✅ Strengths")
+                        strengths = str(row.get("Strengths", "")) if pd.notna(row.get("Strengths")) else ""
+                        if strengths and strengths.strip():
+                            for strength in strengths.split(", "):
+                                if strength.strip():
+                                    st.markdown(f"- {strength.strip()}")
+                        else:
+                            st.text("No strengths listed")
+                        
+                        st.markdown("### ⚠️ Weaknesses")
+                        weaknesses = str(row.get("Weaknesses", "")) if pd.notna(row.get("Weaknesses")) else ""
+                        if weaknesses and weaknesses.strip():
+                            for weakness in weaknesses.split(", "):
+                                if weakness.strip():
+                                    st.markdown(f"- {weakness.strip()}")
+                        else:
+                            st.text("No weaknesses listed")
+                        
+                        st.markdown("### 🔴 Gaps")
+                        gaps = str(row.get("Gaps", "")) if pd.notna(row.get("Gaps")) else ""
+                        if gaps and gaps.strip():
+                            for gap in gaps.split(", "):
+                                if gap.strip():
+                                    st.markdown(f"- {gap.strip()}")
+                        else:
+                            st.text("No gaps identified")
+                    
+                    st.markdown("### 🤖 AI Summary")
+                    ai_summary = row.get("AI Summary")
+                    if pd.notna(ai_summary) and str(ai_summary).strip():
+                        st.info(ai_summary)
                     else:
-                        st.text("No gaps identified")
-                
-                st.markdown("### 🤖 AI Summary")
-                ai_summary = row.get("AI Summary")
-                if pd.notna(ai_summary) and str(ai_summary).strip():
-                    st.info(ai_summary)
-                else:
-                    st.info("No summary available")
-                
-                # Links section
-                kalibrr_profile = row.get("Kalibrr Profile")
-                application_link = row.get("Application Link")
-                resume_link = row.get("Resume Link")
-                
-                has_links = (
-                    (pd.notna(kalibrr_profile) and str(kalibrr_profile).strip()) or
-                    (pd.notna(application_link) and str(application_link).strip()) or
-                    (pd.notna(resume_link) and str(resume_link).strip())
-                )
-                
-                if has_links:
-                    st.markdown("### 🔗 Links")
-                    link_cols = st.columns(3)
-                    if pd.notna(kalibrr_profile) and str(kalibrr_profile).strip():
-                        link_cols[0].markdown(f"[👤 Kalibrr Profile]({kalibrr_profile})")
-                    if pd.notna(application_link) and str(application_link).strip():
-                        link_cols[1].markdown(f"[📝 Application]({application_link})")
-                    if pd.notna(resume_link) and str(resume_link).strip():
-                        link_cols[2].markdown(f"[📄 Resume]({resume_link})")
+                        st.info("No summary available")
+                    
+                    # Links section
+                    kalibrr_profile = row.get("Kalibrr Profile")
+                    application_link = row.get("Application Link")
+                    resume_link = row.get("Resume Link")
+                    
+                    has_links = (
+                        (pd.notna(kalibrr_profile) and str(kalibrr_profile).strip()) or
+                        (pd.notna(application_link) and str(application_link).strip()) or
+                        (pd.notna(resume_link) and str(resume_link).strip())
+                    )
+                    
+                    if has_links:
+                        st.markdown("### 🔗 Links")
+                        link_cols = st.columns(3)
+                        if pd.notna(kalibrr_profile) and str(kalibrr_profile).strip():
+                            link_cols[0].markdown(f"[👤 Kalibrr Profile]({kalibrr_profile})")
+                        if pd.notna(application_link) and str(application_link).strip():
+                            link_cols[1].markdown(f"[📝 Application]({application_link})")
+                        if pd.notna(resume_link) and str(resume_link).strip():
+                            link_cols[2].markdown(f"[📄 Resume]({resume_link})")
 
         st.divider()
         
