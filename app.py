@@ -491,8 +491,18 @@ elif selected == "Dashboard":
     st.markdown("<h2 style='text-align:center;color:#0b3d91;'>📊 Screening Dashboard</h2>", unsafe_allow_html=True)
 
     df = load_results_from_github()
-    if df is None or df.empty:
-        st.warning("⚠️ No results found on GitHub. Please run a screening first.")
+    
+    # Check for errors (None means authentication/connection error)
+    if df is None:
+        st.error("❌ Failed to load results from GitHub. Please check your connection and credentials.")
+        st.stop()
+    
+    # Check if we have any data
+    if df.empty:
+        st.info("ℹ️ No screening results yet. Please run a screening first from the 'Screening' section.")
+        st.stop()
+    
+    # Data loaded successfully
     else:
         st.session_state["results"] = df
 

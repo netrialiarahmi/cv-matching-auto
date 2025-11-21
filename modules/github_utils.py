@@ -17,6 +17,22 @@ def save_results_to_github(df, path="results.csv", max_retries=3):
     Returns:
         bool: True if save was successful, False otherwise.
     """
+    # Validate input DataFrame
+    if df is None:
+        st.error("❌ Cannot save: DataFrame is None")
+        return False
+    
+    if df.empty:
+        st.warning("⚠️ Cannot save: DataFrame is empty")
+        return False
+    
+    # Ensure required columns exist
+    required_columns = ["Candidate Name", "Job Position"]
+    missing_columns = [col for col in required_columns if col not in df.columns]
+    if missing_columns:
+        st.error(f"❌ Cannot save: Missing required columns: {', '.join(missing_columns)}")
+        return False
+    
     token = st.secrets.get("GITHUB_TOKEN")
     repo = st.secrets.get("GITHUB_REPO", "netrialiarahmi/cv-matching-gemini")
     branch = st.secrets.get("GITHUB_BRANCH", "main")
@@ -44,12 +60,20 @@ def save_results_to_github(df, path="results.csv", max_retries=3):
                 existing_csv = base64.b64decode(content["content"]).decode("utf-8")
                 try:
                     old_df = pd.read_csv(StringIO(existing_csv))
-                    df = pd.concat([old_df, df], ignore_index=True)
-                    # Use Candidate Email as unique identifier (new format) or fallback to Filename (old format)
-                    dedup_columns = ["Candidate Email", "Job Position"] if "Candidate Email" in df.columns else ["Filename", "Job Position"]
-                    df.drop_duplicates(subset=dedup_columns, keep="last", inplace=True)
+                    # Only merge if old_df has data
+                    if not old_df.empty:
+                        df = pd.concat([old_df, df], ignore_index=True)
+                        # Use Candidate Email as unique identifier (new format) or fallback to Filename (old format)
+                        dedup_columns = ["Candidate Email", "Job Position"] if "Candidate Email" in df.columns else ["Filename", "Job Position"]
+                        df.drop_duplicates(subset=dedup_columns, keep="last", inplace=True)
+                    # If old_df is empty (header only), just use the new data
                 except pd.errors.EmptyDataError:
-                    # Existing file is empty, just use the new data
+                    # Existing file is completely empty (no header), just use the new data
+                    pass
+                except Exception as e:
+                    # Log parsing error but continue with new data
+                    if attempt == max_retries - 1:
+                        st.warning(f"⚠️ Could not parse existing data (using new data only): {str(e)}")
                     pass
             elif r.status_code == 401:
                 st.error(f"❌ GitHub authentication failed: {r.status_code} - {r.text}")
@@ -112,7 +136,12 @@ def save_results_to_github(df, path="results.csv", max_retries=3):
 
 
 def load_results_from_github(path="results.csv"):
-    """Load results.csv from GitHub repo."""
+    """Load results.csv from GitHub repo.
+    
+    Returns:
+        pd.DataFrame: DataFrame with results, or empty DataFrame with expected columns if file is empty/not found
+        None: Only if there's an authentication or connection error
+    """
     token = st.secrets.get("GITHUB_TOKEN")
     repo = st.secrets.get("GITHUB_REPO", "netrialiarahmi/cv-matching-gemini")
     branch = st.secrets.get("GITHUB_BRANCH", "main")
@@ -127,19 +156,42 @@ def load_results_from_github(path="results.csv"):
     }
 
     url = f"https://api.github.com/repos/{repo}/contents/{path}?ref={branch}"
-    r = requests.get(url, headers=headers)
+    
+    try:
+        r = requests.get(url, headers=headers, timeout=30)
+    except requests.exceptions.RequestException as e:
+        st.error(f"❌ Failed to connect to GitHub: {str(e)}")
+        return None
 
     if r.status_code == 200:
         content = r.json()
         decoded = base64.b64decode(content["content"]).decode("utf-8")
         try:
-            return pd.read_csv(StringIO(decoded))
+            df = pd.read_csv(StringIO(decoded))
+            # Successfully loaded - return the dataframe even if it's empty (has headers but no data)
+            return df
         except pd.errors.EmptyDataError:
-            st.warning("⚠️ results.csv is empty.")
+            # File exists but is completely empty (no headers, no data)
+            # Return empty DataFrame with expected columns for consistency
+            return pd.DataFrame(columns=[
+                "Candidate Name", "Candidate Email", "Phone", "Job Position", 
+                "Match Score", "AI Summary", "Strengths", "Weaknesses", "Gaps",
+                "Latest Job Title", "Latest Company", "Education", "University", "Major",
+                "Kalibrr Profile", "Application Link", "Resume Link", 
+                "Recruiter Feedback", "Shortlisted", "Date Processed"
+            ])
+        except Exception as e:
+            st.error(f"❌ Failed to parse results.csv: {str(e)}")
             return None
     elif r.status_code == 404:
-        st.warning("⚠️ No results.csv found in GitHub repository yet.")
-        return None
+        # File doesn't exist yet - return empty DataFrame with expected columns
+        return pd.DataFrame(columns=[
+            "Candidate Name", "Candidate Email", "Phone", "Job Position", 
+            "Match Score", "AI Summary", "Strengths", "Weaknesses", "Gaps",
+            "Latest Job Title", "Latest Company", "Education", "University", "Major",
+            "Kalibrr Profile", "Application Link", "Resume Link", 
+            "Recruiter Feedback", "Shortlisted", "Date Processed"
+        ])
     else:
         st.error(f"❌ GitHub load failed: {r.status_code} - {r.text}")
         return None
@@ -318,6 +370,15 @@ def update_results_in_github(df, path="results.csv", max_retries=3):
     Returns:
         bool: True if update was successful, False otherwise.
     """
+    # Validate input DataFrame
+    if df is None:
+        st.error("❌ Cannot update: DataFrame is None")
+        return False
+    
+    if df.empty:
+        st.warning("⚠️ Cannot update: DataFrame is empty")
+        return False
+    
     token = st.secrets.get("GITHUB_TOKEN")
     repo = st.secrets.get("GITHUB_REPO", "netrialiarahmi/cv-matching-gemini")
     branch = st.secrets.get("GITHUB_BRANCH", "main")
