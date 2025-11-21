@@ -46,7 +46,7 @@ def save_results_to_github(df, path="results.csv", max_retries=3):
         return False
     
     token = st.secrets.get("GITHUB_TOKEN")
-    repo = st.secrets.get("GITHUB_REPO", "netrialiarahmi/cv-matching-gemini")
+    repo = st.secrets.get("GITHUB_REPO", "netrialiarahmi/cv-matching-auto")
     branch = st.secrets.get("GITHUB_BRANCH", "main")
 
     if not token:
@@ -156,7 +156,7 @@ def load_results_from_github(path="results.csv"):
         None: Only if there's an authentication or connection error
     """
     token = st.secrets.get("GITHUB_TOKEN")
-    repo = st.secrets.get("GITHUB_REPO", "netrialiarahmi/cv-matching-gemini")
+    repo = st.secrets.get("GITHUB_REPO", "netrialiarahmi/cv-matching-auto")
     branch = st.secrets.get("GITHUB_BRANCH", "main")
 
     if not token:
@@ -205,7 +205,7 @@ def save_job_positions_to_github(df, path="job_positions.csv"):
         bool: True if save was successful, False otherwise.
     """
     token = st.secrets.get("GITHUB_TOKEN")
-    repo = st.secrets.get("GITHUB_REPO", "netrialiarahmi/cv-matching-gemini")
+    repo = st.secrets.get("GITHUB_REPO", "netrialiarahmi/cv-matching-auto")
     branch = st.secrets.get("GITHUB_BRANCH", "main")
 
     if not token:
@@ -265,7 +265,7 @@ def save_job_positions_to_github(df, path="job_positions.csv"):
 def load_job_positions_from_github(path="job_positions.csv"):
     """Load job_positions.csv from GitHub repo."""
     token = st.secrets.get("GITHUB_TOKEN")
-    repo = st.secrets.get("GITHUB_REPO", "netrialiarahmi/cv-matching-gemini")
+    repo = st.secrets.get("GITHUB_REPO", "netrialiarahmi/cv-matching-auto")
     branch = st.secrets.get("GITHUB_BRANCH", "main")
 
     if not token:
@@ -306,7 +306,7 @@ def delete_job_position_from_github(job_position, path="job_positions.csv"):
         bool: True if delete was successful, False otherwise.
     """
     token = st.secrets.get("GITHUB_TOKEN")
-    repo = st.secrets.get("GITHUB_REPO", "netrialiarahmi/cv-matching-gemini")
+    repo = st.secrets.get("GITHUB_REPO", "netrialiarahmi/cv-matching-auto")
     branch = st.secrets.get("GITHUB_BRANCH", "main")
 
     if not token:
@@ -381,7 +381,7 @@ def update_results_in_github(df, path="results.csv", max_retries=3):
         return False
     
     token = st.secrets.get("GITHUB_TOKEN")
-    repo = st.secrets.get("GITHUB_REPO", "netrialiarahmi/cv-matching-gemini")
+    repo = st.secrets.get("GITHUB_REPO", "netrialiarahmi/cv-matching-auto")
     branch = st.secrets.get("GITHUB_BRANCH", "main")
 
     if not token:
@@ -476,7 +476,7 @@ def update_job_position_in_github(old_position, new_position, new_description, p
         bool: True if update was successful, False otherwise.
     """
     token = st.secrets.get("GITHUB_TOKEN")
-    repo = st.secrets.get("GITHUB_REPO", "netrialiarahmi/cv-matching-gemini")
+    repo = st.secrets.get("GITHUB_REPO", "netrialiarahmi/cv-matching-auto")
     branch = st.secrets.get("GITHUB_BRANCH", "main")
 
     if not token:
