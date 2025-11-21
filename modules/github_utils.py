@@ -23,12 +23,32 @@ GITHUB_TIMEOUT = 30
 # Files larger than this should be downloaded via raw URL
 GITHUB_CONTENTS_API_SIZE_LIMIT = 1_000_000  # 1MB
 
-def save_results_to_github(df, path="results.csv", max_retries=3):
-    """Save or update results.csv in GitHub repo (root level) with retry logic.
+
+def get_results_filename(job_position):
+    """Generate a safe filename for storing results by job position.
+    
+    Args:
+        job_position: The job position name
+        
+    Returns:
+        str: Safe filename like "results_Account_Executive_VCBL.csv"
+    """
+    import re
+    # Replace special characters with underscore using regex
+    # Keep only alphanumeric, spaces, and underscores
+    safe_name = re.sub(r'[^\w\s]', '', job_position)  # Remove special chars
+    safe_name = re.sub(r'\s+', '_', safe_name)  # Replace spaces with underscore
+    safe_name = re.sub(r'_+', '_', safe_name)  # Collapse multiple underscores
+    return f"results_{safe_name}.csv"
+
+
+def save_results_to_github(df, path=None, job_position=None, max_retries=3):
+    """Save or update results in GitHub repo, storing each job position in a separate file.
     
     Args:
         df: DataFrame to save
-        path: Path to the CSV file in GitHub
+        path: (Optional) Explicit path to CSV file. If not provided, uses job_position to generate filename.
+        job_position: (Optional) Job position name to generate filename (e.g., "Account Executive")
         max_retries: Maximum number of retry attempts on failure
     
     Returns:
@@ -49,6 +69,17 @@ def save_results_to_github(df, path="results.csv", max_retries=3):
     if missing_columns:
         st.error(f"❌ Cannot save: Missing required columns: {', '.join(missing_columns)}")
         return False
+    
+    # Determine the file path
+    if path is None:
+        if job_position is None:
+            # If no path and no job_position, try to get it from the dataframe
+            if "Job Position" in df.columns and not df.empty:
+                job_position = df["Job Position"].iloc[0]
+            else:
+                st.error("❌ Cannot save: No path or job_position provided")
+                return False
+        path = get_results_filename(job_position)
     
     token = st.secrets.get("GITHUB_TOKEN")
     repo = st.secrets.get("GITHUB_REPO", "netrialiarahmi/cv-matching-auto")
@@ -74,26 +105,52 @@ def save_results_to_github(df, path="results.csv", max_retries=3):
             if r.status_code == 200:
                 content = r.json()
                 sha = content["sha"]
-                existing_csv = base64.b64decode(content["content"]).decode("utf-8")
-                try:
-                    old_df = pd.read_csv(StringIO(existing_csv))
-                    # Merge if old_df has data, otherwise just use new data
-                    if not old_df.empty:
-                        df = pd.concat([old_df, df], ignore_index=True)
-                except pd.errors.EmptyDataError:
-                    # Existing file is completely empty (no header), just use the new data
-                    pass
-                except (pd.errors.ParserError, ValueError) as e:
-                    # Log parsing error but continue with new data
-                    if attempt == max_retries - 1:
-                        st.warning(f"⚠️ Could not parse existing data (using new data only): {str(e)}")
+                file_size = content.get("size", 0)
+                
+                # Handle large files (>1MB) using raw URL instead of Contents API
+                # GitHub Contents API excludes content field for files >1MB
+                if file_size > GITHUB_CONTENTS_API_SIZE_LIMIT or "content" not in content:
+                    # Use raw.githubusercontent.com for large files
+                    raw_url = f"https://raw.githubusercontent.com/{repo}/{branch}/{path}"
+                    r_raw = requests.get(raw_url, timeout=GITHUB_TIMEOUT)
+                    if r_raw.status_code == 200:
+                        existing_csv = r_raw.text
+                        st.info(f"📥 Loaded large file ({file_size:,} bytes) from raw URL")
+                    else:
+                        st.error(f"❌ CRITICAL: Could not download large file ({file_size:,} bytes). Data loss may occur!")
+                        existing_csv = None
+                else:
+                    # File is small enough, use Contents API
+                    existing_csv = base64.b64decode(content["content"]).decode("utf-8")
+                
+                # Parse existing data if available
+                if existing_csv:
+                    try:
+                        old_df = pd.read_csv(StringIO(existing_csv))
+                        # Merge if old_df has data, otherwise just use new data
+                        if not old_df.empty:
+                            old_count = len(old_df)
+                            new_count = len(df)
+                            df = pd.concat([old_df, df], ignore_index=True)
+                            st.info(f"📊 Merging data: {old_count} existing + {new_count} new = {len(df)} total records")
+                    except pd.errors.EmptyDataError:
+                        # Existing file is completely empty (no header), just use the new data
+                        pass
+                    except (pd.errors.ParserError, ValueError) as e:
+                        # Log parsing error but continue with new data
+                        if attempt == max_retries - 1:
+                            st.warning(f"⚠️ Could not parse existing data (using new data only): {str(e)}")
                 
                 # Apply deduplication to remove duplicates (handles both merged and new-only data)
                 # Use Candidate Email as unique identifier (new format) or fallback to Filename (old format)
                 # Keep 'first' to preserve existing records and their shortlist status
                 dedup_columns = ["Candidate Email", "Job Position"] if "Candidate Email" in df.columns else ["Filename", "Job Position"]
                 if all(col in df.columns for col in dedup_columns):
+                    before_dedup = len(df)
                     df.drop_duplicates(subset=dedup_columns, keep="first", inplace=True)
+                    after_dedup = len(df)
+                    if before_dedup > after_dedup:
+                        st.info(f"🔄 Removed {before_dedup - after_dedup} duplicate(s). Final count: {after_dedup} records")
             elif r.status_code == 401:
                 st.error(f"❌ GitHub authentication failed: {r.status_code} - {r.text}")
                 return False
@@ -239,6 +296,104 @@ def load_results_from_github(path="results.csv"):
             return None
     else:
         # Neither GitHub nor local file exists - return empty DataFrame with expected columns
+        return pd.DataFrame(columns=RESULTS_COLUMNS)
+
+
+def load_all_results_from_github():
+    """Load all results from GitHub by finding and merging all results_*.csv files.
+    
+    This function discovers all position-specific result files (results_*.csv) and merges them
+    into a single DataFrame for the Dashboard "All" view.
+    
+    Returns:
+        pd.DataFrame: Merged DataFrame with all results, or empty DataFrame if no files found
+    """
+    token = st.secrets.get("GITHUB_TOKEN")
+    repo = st.secrets.get("GITHUB_REPO", "netrialiarahmi/cv-matching-auto")
+    branch = st.secrets.get("GITHUB_BRANCH", "main")
+    
+    all_results = []
+    
+    # Try to get list of files from GitHub
+    if token:
+        headers = {
+            "Authorization": f"token {token}",
+            "Accept": "application/vnd.github+json"
+        }
+        
+        # Get list of files in the repository root
+        url = f"https://api.github.com/repos/{repo}/contents/?ref={branch}"
+        
+        try:
+            r = requests.get(url, headers=headers, timeout=GITHUB_TIMEOUT)
+            
+            if r.status_code == 200:
+                files = r.json()
+                # Find all results_*.csv files
+                result_files = [f["name"] for f in files if f["name"].startswith("results_") and f["name"].endswith(".csv")]
+                
+                if result_files:
+                    st.info(f"📂 Found {len(result_files)} position file(s)")
+                    
+                    # Load each file
+                    for filename in result_files:
+                        df = load_results_from_github(path=filename)
+                        if df is not None and not df.empty:
+                            all_results.append(df)
+                            st.info(f"   ✓ Loaded {len(df)} records from {filename}")
+                
+                # Also check for legacy results.csv
+                if any(f["name"] == "results.csv" for f in files):
+                    df = load_results_from_github(path="results.csv")
+                    if df is not None and not df.empty:
+                        all_results.append(df)
+                        st.info(f"   ✓ Loaded {len(df)} records from legacy results.csv")
+                        
+        except Exception as e:
+            st.warning(f"⚠️ Could not list files from GitHub: {str(e)}")
+    
+    # Also check local directory for results_*.csv files
+    try:
+        import glob
+        local_files = glob.glob("results_*.csv") + glob.glob("results.csv")
+        for filename in local_files:
+            if os.path.exists(filename):
+                try:
+                    df = pd.read_csv(filename)
+                    if not df.empty:
+                        # Check if we already loaded this file from GitHub by comparing first few rows
+                        is_duplicate = False
+                        for existing in all_results:
+                            if len(existing) == len(df):
+                                # Compare first 3 rows to check if it's the same dataset
+                                if len(df) >= 3 and len(existing) >= 3:
+                                    if df.head(3).equals(existing.head(3)):
+                                        is_duplicate = True
+                                        break
+                                elif df.equals(existing):
+                                    is_duplicate = True
+                                    break
+                        
+                        if not is_duplicate:
+                            all_results.append(df)
+                            st.info(f"📁 Loaded {len(df)} records from local {filename}")
+                except Exception as e:
+                    st.warning(f"⚠️ Could not load local {filename}: {str(e)}")
+    except Exception:
+        pass  # Glob not available or other error
+    
+    # Merge all results
+    if all_results:
+        merged_df = pd.concat(all_results, ignore_index=True)
+        # Remove duplicates based on email + job position
+        if "Candidate Email" in merged_df.columns and "Job Position" in merged_df.columns:
+            before = len(merged_df)
+            merged_df.drop_duplicates(subset=["Candidate Email", "Job Position"], keep="first", inplace=True)
+            after = len(merged_df)
+            if before > after:
+                st.info(f"🔄 Removed {before - after} duplicate(s) across files")
+        return merged_df
+    else:
         return pd.DataFrame(columns=RESULTS_COLUMNS)
 
 
@@ -447,15 +602,16 @@ def delete_job_position_from_github(job_position, path="job_positions.csv"):
         return False
 
 
-def update_results_in_github(df, path="results.csv", max_retries=3):
-    """Replace the entire results.csv file with the provided DataFrame.
+def update_results_in_github(df, path=None, job_position=None, max_retries=3):
+    """Replace the entire results file with the provided DataFrame for a specific position.
     
     This is different from save_results_to_github which appends/merges data.
     Use this when you want to update existing records (e.g., updating shortlist status).
     
     Args:
         df: DataFrame to save (replaces existing file)
-        path: Path to the CSV file in GitHub
+        path: (Optional) Path to the CSV file in GitHub
+        job_position: (Optional) Job position name to generate filename
         max_retries: Maximum number of retry attempts on failure
     
     Returns:
@@ -469,6 +625,17 @@ def update_results_in_github(df, path="results.csv", max_retries=3):
     if df.empty:
         st.warning("⚠️ Cannot update: DataFrame is empty")
         return False
+    
+    # Determine the file path
+    if path is None:
+        if job_position is None:
+            # If no path and no job_position, try to get it from the dataframe
+            if "Job Position" in df.columns and not df.empty:
+                job_position = df["Job Position"].iloc[0]
+            else:
+                st.error("❌ Cannot update: No path or job_position provided")
+                return False
+        path = get_results_filename(job_position)
     
     token = st.secrets.get("GITHUB_TOKEN")
     repo = st.secrets.get("GITHUB_REPO", "netrialiarahmi/cv-matching-auto")
