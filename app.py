@@ -6,6 +6,7 @@ from modules.scorer import score_with_openrouter, get_openrouter_client, extract
 from modules.github_utils import (
     save_results_to_github,
     load_results_from_github,
+    load_all_results_from_github,
     save_job_positions_to_github,
     load_job_positions_from_github,
     delete_job_position_from_github,
@@ -455,7 +456,8 @@ elif selected == "Screening":
                     # Save immediately after processing each candidate
                     try:
                         result_df = pd.DataFrame([candidate_result])
-                        if save_results_to_github(result_df):
+                        # Save to position-specific file
+                        if save_results_to_github(result_df, job_position=selected_job):
                             successfully_saved += 1
                             save_status.success(f"💾 Saved {candidate_name} ({successfully_saved}/{i+1})")
                         else:
@@ -490,7 +492,8 @@ elif selected == "Screening":
 elif selected == "Dashboard":
     st.markdown("<h2 style='text-align:center;color:#0b3d91;'>📊 Screening Dashboard</h2>", unsafe_allow_html=True)
 
-    df = load_results_from_github()
+    # Load all results from all position-specific files
+    df = load_all_results_from_github()
 
     # Check for errors (None means authentication/connection error)
     if df is None:
@@ -601,8 +604,9 @@ elif selected == "Dashboard":
 
                 original_df.loc[mask, "Shortlisted"] = new_shortlist_status
 
-                # Save to GitHub (use update to replace the file, not append)
-                if update_results_in_github(original_df, path="results.csv"):
+                # Save only the records for this specific position to its position-specific file
+                position_df = original_df[original_df["Job Position"] == job_position].copy()
+                if update_results_in_github(position_df, job_position=job_position):
                     st.session_state["results"] = original_df
                     st.rerun()
 
