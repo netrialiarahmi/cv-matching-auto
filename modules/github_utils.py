@@ -77,14 +77,16 @@ def save_results_to_github(df, path="results.csv", max_retries=3):
                 file_size = content.get("size", 0)
                 
                 # Handle large files (>1MB) using raw URL instead of Contents API
-                if file_size > GITHUB_CONTENTS_API_SIZE_LIMIT:
+                # GitHub Contents API excludes content field for files >1MB
+                if file_size > GITHUB_CONTENTS_API_SIZE_LIMIT or "content" not in content:
                     # Use raw.githubusercontent.com for large files
                     raw_url = f"https://raw.githubusercontent.com/{repo}/{branch}/{path}"
                     r_raw = requests.get(raw_url, timeout=GITHUB_TIMEOUT)
                     if r_raw.status_code == 200:
                         existing_csv = r_raw.text
+                        st.info(f"📥 Loaded large file ({file_size:,} bytes) from raw URL")
                     else:
-                        st.warning(f"⚠️ Could not download large file ({file_size} bytes). Starting with new data only.")
+                        st.error(f"❌ CRITICAL: Could not download large file ({file_size:,} bytes). Data loss may occur!")
                         existing_csv = None
                 else:
                     # File is small enough, use Contents API
@@ -96,7 +98,10 @@ def save_results_to_github(df, path="results.csv", max_retries=3):
                         old_df = pd.read_csv(StringIO(existing_csv))
                         # Merge if old_df has data, otherwise just use new data
                         if not old_df.empty:
+                            old_count = len(old_df)
+                            new_count = len(df)
                             df = pd.concat([old_df, df], ignore_index=True)
+                            st.info(f"📊 Merging data: {old_count} existing + {new_count} new = {len(df)} total records")
                     except pd.errors.EmptyDataError:
                         # Existing file is completely empty (no header), just use the new data
                         pass
@@ -110,7 +115,11 @@ def save_results_to_github(df, path="results.csv", max_retries=3):
                 # Keep 'first' to preserve existing records and their shortlist status
                 dedup_columns = ["Candidate Email", "Job Position"] if "Candidate Email" in df.columns else ["Filename", "Job Position"]
                 if all(col in df.columns for col in dedup_columns):
+                    before_dedup = len(df)
                     df.drop_duplicates(subset=dedup_columns, keep="first", inplace=True)
+                    after_dedup = len(df)
+                    if before_dedup > after_dedup:
+                        st.info(f"🔄 Removed {before_dedup - after_dedup} duplicate(s). Final count: {after_dedup} records")
             elif r.status_code == 401:
                 st.error(f"❌ GitHub authentication failed: {r.status_code} - {r.text}")
                 return False
