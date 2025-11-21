@@ -33,10 +33,12 @@ def get_results_filename(job_position):
     Returns:
         str: Safe filename like "results_Account_Executive_VCBL.csv"
     """
-    # Replace special characters with underscore
-    safe_name = job_position.replace(" ", "_").replace("/", "_").replace("\\", "_")
-    safe_name = safe_name.replace("(", "").replace(")", "").replace(",", "")
-    safe_name = safe_name.replace(".", "").replace("-", "_")
+    import re
+    # Replace special characters with underscore using regex
+    # Keep only alphanumeric, spaces, and underscores
+    safe_name = re.sub(r'[^\w\s]', '', job_position)  # Remove special chars
+    safe_name = re.sub(r'\s+', '_', safe_name)  # Replace spaces with underscore
+    safe_name = re.sub(r'_+', '_', safe_name)  # Collapse multiple underscores
     return f"results_{safe_name}.csv"
 
 
@@ -359,8 +361,20 @@ def load_all_results_from_github():
                 try:
                     df = pd.read_csv(filename)
                     if not df.empty:
-                        # Check if we already loaded this from GitHub
-                        if not any(len(existing) == len(df) for existing in all_results):
+                        # Check if we already loaded this file from GitHub by comparing first few rows
+                        is_duplicate = False
+                        for existing in all_results:
+                            if len(existing) == len(df):
+                                # Compare first 3 rows to check if it's the same dataset
+                                if len(df) >= 3 and len(existing) >= 3:
+                                    if df.head(3).equals(existing.head(3)):
+                                        is_duplicate = True
+                                        break
+                                elif df.equals(existing):
+                                    is_duplicate = True
+                                    break
+                        
+                        if not is_duplicate:
                             all_results.append(df)
                             st.info(f"📁 Loaded {len(df)} records from local {filename}")
                 except Exception as e:

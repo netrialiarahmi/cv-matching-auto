@@ -519,9 +519,8 @@ elif selected == "Dashboard":
     # Clean up Shortlisted column - ensure it only contains boolean values
     # This handles any corrupted data (e.g., timestamps) that may exist
     if "Shortlisted" in df.columns:
-        df["Shortlisted"] = df["Shortlisted"].apply(
-            lambda x: True if str(x).strip() == "True" or x is True else False
-        )
+        # Use vectorized string operations for better performance
+        df["Shortlisted"] = df["Shortlisted"].astype(str).str.strip().str.lower().isin(['true', '1'])
 
     # Filter by position
     job_positions = df["Job Position"].unique().tolist()
