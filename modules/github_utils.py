@@ -90,9 +90,10 @@ def save_results_to_github(df, path="results.csv", max_retries=3):
                 
                 # Apply deduplication to remove duplicates (handles both merged and new-only data)
                 # Use Candidate Email as unique identifier (new format) or fallback to Filename (old format)
+                # Keep 'first' to preserve existing records and their shortlist status
                 dedup_columns = ["Candidate Email", "Job Position"] if "Candidate Email" in df.columns else ["Filename", "Job Position"]
                 if all(col in df.columns for col in dedup_columns):
-                    df.drop_duplicates(subset=dedup_columns, keep="last", inplace=True)
+                    df.drop_duplicates(subset=dedup_columns, keep="first", inplace=True)
             elif r.status_code == 401:
                 st.error(f"❌ GitHub authentication failed: {r.status_code} - {r.text}")
                 return False
@@ -190,7 +191,6 @@ def load_results_from_github(path="results.csv"):
                     if r_raw.status_code == 200:
                         try:
                             df = pd.read_csv(StringIO(r_raw.text))
-                            st.info(f"📁 Loaded {len(df)} records from GitHub (large file, {file_size:,} bytes)")
                             return df
                         except pd.errors.EmptyDataError:
                             return pd.DataFrame(columns=RESULTS_COLUMNS)
@@ -337,7 +337,6 @@ def load_job_positions_from_github(path="job_positions.csv"):
                     if r_raw.status_code == 200:
                         try:
                             df = pd.read_csv(StringIO(r_raw.text))
-                            st.info(f"📁 Loaded {len(df)} job positions from GitHub (large file, {file_size:,} bytes)")
                             return df
                         except pd.errors.EmptyDataError:
                             return pd.DataFrame(columns=["Job Position", "Job Description", "Date Created"])
