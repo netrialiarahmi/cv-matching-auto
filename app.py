@@ -586,9 +586,9 @@ elif selected == "Dashboard":
             # Checkbox for shortlisting
             new_shortlist_status = st.checkbox("Shortlist", value=is_shortlisted, key=checkbox_key, label_visibility="collapsed")
 
-            # If checkbox status changed, update the dataframe and save
+            # If checkbox status changed, update the dataframe in session state only (no GitHub sync)
             if new_shortlist_status != is_shortlisted:
-                # Update the dataframe
+                # Update the dataframe in session state
                 # Find the original row index in the full dataframe
                 original_df = st.session_state["results"]
 
@@ -603,11 +603,9 @@ elif selected == "Dashboard":
 
                 original_df.loc[mask, "Shortlisted"] = new_shortlist_status
 
-                # Save only the records for this specific position to its position-specific file
-                position_df = original_df[original_df["Job Position"] == job_position].copy()
-                if update_results_in_github(position_df, job_position=job_position):
-                    st.session_state["results"] = original_df
-                    st.rerun()
+                # Update session state only (no GitHub backup)
+                st.session_state["results"] = original_df
+                st.rerun()
 
         with col_expander:
             # Show checkmark in title if shortlisted

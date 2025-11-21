@@ -286,7 +286,7 @@ def load_results_from_github(path="results.csv"):
         try:
             df = pd.read_csv(path)
             if not df.empty:
-            return df
+                return df
         except pd.errors.EmptyDataError:
             return pd.DataFrame(columns=RESULTS_COLUMNS)
         except Exception as e:
@@ -523,7 +523,7 @@ def load_job_positions_from_github(path="job_positions.csv"):
         try:
             df = pd.read_csv(path)
             if not df.empty:
-            return df
+                return df
         except pd.errors.EmptyDataError:
             return pd.DataFrame(columns=["Job Position", "Job Description", "Date Created"])
         except Exception as e:
