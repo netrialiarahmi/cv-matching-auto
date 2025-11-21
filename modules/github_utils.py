@@ -15,6 +15,9 @@ RESULTS_COLUMNS = [
     "Recruiter Feedback", "Shortlisted", "Date Processed"
 ]
 
+# Network timeout for GitHub API requests (in seconds)
+GITHUB_TIMEOUT = 30
+
 def save_results_to_github(df, path="results.csv", max_retries=3):
     """Save or update results.csv in GitHub repo (root level) with retry logic.
     
@@ -61,7 +64,7 @@ def save_results_to_github(df, path="results.csv", max_retries=3):
     for attempt in range(max_retries):
         try:
             # 1️⃣ Cek apakah file sudah ada
-            r = requests.get(url, headers=headers, timeout=30)
+            r = requests.get(url, headers=headers, timeout=GITHUB_TIMEOUT)
             sha = None
             if r.status_code == 200:
                 content = r.json()
@@ -107,7 +110,7 @@ def save_results_to_github(df, path="results.csv", max_retries=3):
                 data["sha"] = sha
 
             # 4️⃣ Upload ke GitHub
-            res = requests.put(url, headers=headers, data=json.dumps(data), timeout=30)
+            res = requests.put(url, headers=headers, data=json.dumps(data), timeout=GITHUB_TIMEOUT)
             if res.status_code in [200, 201]:
                 return True
             elif res.status_code == 409:
@@ -168,7 +171,7 @@ def load_results_from_github(path="results.csv"):
     url = f"https://api.github.com/repos/{repo}/contents/{path}?ref={branch}"
     
     try:
-        r = requests.get(url, headers=headers, timeout=30)
+        r = requests.get(url, headers=headers, timeout=GITHUB_TIMEOUT)
     except requests.exceptions.RequestException as e:
         st.error(f"❌ Failed to connect to GitHub: {str(e)}")
         return None
@@ -396,7 +399,7 @@ def update_results_in_github(df, path="results.csv", max_retries=3):
     for attempt in range(max_retries):
         try:
             # Get the current file SHA (required for updates)
-            r = requests.get(url, headers=headers, timeout=30)
+            r = requests.get(url, headers=headers, timeout=GITHUB_TIMEOUT)
             sha = None
             if r.status_code == 200:
                 content = r.json()
@@ -422,7 +425,7 @@ def update_results_in_github(df, path="results.csv", max_retries=3):
                 data["sha"] = sha
 
             # Upload to GitHub
-            res = requests.put(url, headers=headers, data=json.dumps(data), timeout=30)
+            res = requests.put(url, headers=headers, data=json.dumps(data), timeout=GITHUB_TIMEOUT)
             if res.status_code in [200, 201]:
                 return True
             elif res.status_code == 409:
