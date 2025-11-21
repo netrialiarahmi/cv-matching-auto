@@ -512,37 +512,17 @@ elif selected == "Dashboard":
                 df[col] = False
             else:
                 df[col] = ""
+    
+    # Clean up Shortlisted column - ensure it only contains boolean values
+    # This handles any corrupted data (e.g., timestamps) that may exist
+    if "Shortlisted" in df.columns:
+        df["Shortlisted"] = df["Shortlisted"].apply(
+            lambda x: True if str(x).strip() == "True" or x is True else False
+        )
 
     # Filter by position
     job_positions = df["Job Position"].unique().tolist()
-    
-    col_filter, col_reset = st.columns([3, 1])
-    
-    with col_filter:
-        selected_job = st.selectbox("🎯 Filter by Job Position", ["All"] + job_positions)
-    
-    with col_reset:
-        # Show reset button only when a specific position is selected
-        if selected_job != "All":
-            st.markdown("<div style='margin-top: 25px;'></div>", unsafe_allow_html=True)
-            if st.button("🔄 Reset Shortlist", type="secondary", help=f"Clear all shortlists for '{selected_job}'"):
-                # Get the full dataset from session state
-                full_df = st.session_state["results"]
-                
-                # Count how many candidates were shortlisted for this position
-                mask = full_df["Job Position"] == selected_job
-                shortlisted_count = (full_df.loc[mask, "Shortlisted"] == True).sum()
-                
-                # Reset shortlist status for this position only
-                full_df.loc[mask, "Shortlisted"] = False
-                
-                # Update in GitHub
-                if update_results_in_github(full_df, path="results.csv"):
-                    st.session_state["results"] = full_df
-                    st.success(f"✅ Reset {shortlisted_count} shortlisted candidate(s) for '{selected_job}'")
-                    st.rerun()
-                else:
-                    st.error("❌ Failed to reset shortlist. Please try again.")
+    selected_job = st.selectbox("🎯 Filter by Job Position", ["All"] + job_positions)
     
     if selected_job != "All":
         df = df[df["Job Position"] == selected_job].copy()
