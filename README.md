@@ -5,6 +5,7 @@ An automated CV matching system with 3 main sections for managing job positions,
 ## Recent Updates
 
 ### ✨ Latest Changes (2024)
+- **Local File Fallback**: Dashboard and Job Management now load from local files when GitHub API is unavailable or files don't exist in the configured branch
 - **API Authentication Fix**: Fixed OpenRouter 401 error when using GEMINI_API_KEY - system now properly routes to Gemini API endpoint
 - **File Storage Integration**: System now fetches candidate CSVs from URLs in Google Sheets "File Storage" column
 - **API Key Flexibility**: Added fallback support for GEMINI_API_KEY when OPENROUTER_API_KEY is not available
@@ -195,8 +196,22 @@ cv-matching-auto/
 
 ## Data Storage
 
-All data is stored in the GitHub repository:
+All data is stored in the GitHub repository with local file fallback:
 - `job_positions.csv` - Job positions and descriptions
 - `results.csv` - Screening results with scores and analysis
 
-This ensures data persistence and version control.
+### How It Works
+
+The application uses a **hybrid storage approach**:
+
+1. **Primary**: GitHub API (when credentials are configured)
+   - Data is loaded from the configured GitHub repository and branch
+   - Provides cloud storage and version control
+   - Requires `GITHUB_TOKEN`, `GITHUB_REPO`, and `GITHUB_BRANCH` in secrets
+
+2. **Fallback**: Local filesystem
+   - If GitHub API is unavailable, returns an error, or file doesn't exist in the branch
+   - Automatically loads from local `results.csv` and `job_positions.csv`
+   - Ensures the app works even without network connectivity or during development
+
+This ensures data persistence and version control while maintaining reliability.
