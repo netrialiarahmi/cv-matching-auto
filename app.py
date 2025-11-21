@@ -531,7 +531,7 @@ elif selected == "Dashboard":
                 
                 # Count how many candidates were shortlisted for this position
                 mask = full_df["Job Position"] == selected_job
-                shortlisted_count = full_df.loc[mask, "Shortlisted"].astype(bool).sum()
+                shortlisted_count = (full_df.loc[mask, "Shortlisted"] == True).sum()
                 
                 # Reset shortlist status for this position only
                 full_df.loc[mask, "Shortlisted"] = False
@@ -540,7 +540,6 @@ elif selected == "Dashboard":
                 if update_results_in_github(full_df, path="results.csv"):
                     st.session_state["results"] = full_df
                     st.success(f"✅ Reset {shortlisted_count} shortlisted candidate(s) for '{selected_job}'")
-                    time.sleep(1)
                     st.rerun()
                 else:
                     st.error("❌ Failed to reset shortlist. Please try again.")
