@@ -149,53 +149,70 @@ def save_results_to_github(df, path="results.csv", max_retries=3):
 
 
 def load_results_from_github(path="results.csv"):
-    """Load results.csv from GitHub repo.
+    """Load results.csv from GitHub repo, with fallback to local file.
     
     Returns:
         pd.DataFrame: DataFrame with results, or empty DataFrame with expected columns if file is empty/not found
-        None: Only if there's an authentication or connection error
+        None: Only if there's a critical error and no fallback is available
     """
+    import os
+    
     token = st.secrets.get("GITHUB_TOKEN")
     repo = st.secrets.get("GITHUB_REPO", "netrialiarahmi/cv-matching-auto")
     branch = st.secrets.get("GITHUB_BRANCH", "main")
 
-    if not token:
-        st.error("❌ Missing GITHUB_TOKEN in Streamlit secrets.")
-        return None
+    # Try to load from GitHub first
+    if token:
+        headers = {
+            "Authorization": f"token {token}",
+            "Accept": "application/vnd.github+json"
+        }
 
-    headers = {
-        "Authorization": f"token {token}",
-        "Accept": "application/vnd.github+json"
-    }
-
-    url = f"https://api.github.com/repos/{repo}/contents/{path}?ref={branch}"
-    
-    try:
-        r = requests.get(url, headers=headers, timeout=GITHUB_TIMEOUT)
-    except requests.exceptions.RequestException as e:
-        st.error(f"❌ Failed to connect to GitHub: {str(e)}")
-        return None
-
-    if r.status_code == 200:
-        content = r.json()
-        decoded = base64.b64decode(content["content"]).decode("utf-8")
+        url = f"https://api.github.com/repos/{repo}/contents/{path}?ref={branch}"
+        
         try:
-            df = pd.read_csv(StringIO(decoded))
-            # Successfully loaded - return the dataframe even if it's empty (has headers but no data)
+            r = requests.get(url, headers=headers, timeout=GITHUB_TIMEOUT)
+            
+            if r.status_code == 200:
+                content = r.json()
+                decoded = base64.b64decode(content["content"]).decode("utf-8")
+                try:
+                    df = pd.read_csv(StringIO(decoded))
+                    # Successfully loaded from GitHub
+                    return df
+                except pd.errors.EmptyDataError:
+                    # File exists but is completely empty (no headers, no data)
+                    # Return empty DataFrame with expected columns for consistency
+                    return pd.DataFrame(columns=RESULTS_COLUMNS)
+                except Exception as e:
+                    st.warning(f"⚠️ Failed to parse GitHub file: {str(e)}. Trying local file.")
+                    # Fall through to local file fallback
+            elif r.status_code == 404:
+                st.info(f"ℹ️ File not found in GitHub branch '{branch}'. Checking local file.")
+                # Fall through to local file fallback
+            else:
+                st.warning(f"⚠️ GitHub load failed ({r.status_code}). Trying local file.")
+                # Fall through to local file fallback
+                
+        except requests.exceptions.RequestException as e:
+            st.warning(f"⚠️ Failed to connect to GitHub: {str(e)}. Trying local file.")
+            # Fall through to local file fallback
+    
+    # Fallback to local file
+    if os.path.exists(path):
+        try:
+            df = pd.read_csv(path)
+            if not df.empty:
+                st.info(f"📁 Loaded {len(df)} records from local file: {path}")
             return df
         except pd.errors.EmptyDataError:
-            # File exists but is completely empty (no headers, no data)
-            # Return empty DataFrame with expected columns for consistency
             return pd.DataFrame(columns=RESULTS_COLUMNS)
         except Exception as e:
-            st.error(f"❌ Failed to parse results.csv: {str(e)}")
+            st.error(f"❌ Failed to load local {path}: {str(e)}")
             return None
-    elif r.status_code == 404:
-        # File doesn't exist yet - return empty DataFrame with expected columns
-        return pd.DataFrame(columns=RESULTS_COLUMNS)
     else:
-        st.error(f"❌ GitHub load failed: {r.status_code} - {r.text}")
-        return None
+        # Neither GitHub nor local file exists - return empty DataFrame with expected columns
+        return pd.DataFrame(columns=RESULTS_COLUMNS)
 
 
 def save_job_positions_to_github(df, path="job_positions.csv"):
@@ -263,36 +280,59 @@ def save_job_positions_to_github(df, path="job_positions.csv"):
 
 
 def load_job_positions_from_github(path="job_positions.csv"):
-    """Load job_positions.csv from GitHub repo."""
+    """Load job_positions.csv from GitHub repo, with fallback to local file."""
+    import os
+    
     token = st.secrets.get("GITHUB_TOKEN")
     repo = st.secrets.get("GITHUB_REPO", "netrialiarahmi/cv-matching-auto")
     branch = st.secrets.get("GITHUB_BRANCH", "main")
 
-    if not token:
-        st.error("❌ Missing GITHUB_TOKEN in Streamlit secrets.")
-        return None
+    # Try to load from GitHub first
+    if token:
+        headers = {
+            "Authorization": f"token {token}",
+            "Accept": "application/vnd.github+json"
+        }
 
-    headers = {
-        "Authorization": f"token {token}",
-        "Accept": "application/vnd.github+json"
-    }
-
-    url = f"https://api.github.com/repos/{repo}/contents/{path}?ref={branch}"
-    r = requests.get(url, headers=headers)
-
-    if r.status_code == 200:
-        content = r.json()
-        decoded = base64.b64decode(content["content"]).decode("utf-8")
+        url = f"https://api.github.com/repos/{repo}/contents/{path}?ref={branch}"
+        
         try:
-            return pd.read_csv(StringIO(decoded))
+            r = requests.get(url, headers=headers)
+            
+            if r.status_code == 200:
+                content = r.json()
+                decoded = base64.b64decode(content["content"]).decode("utf-8")
+                try:
+                    return pd.read_csv(StringIO(decoded))
+                except pd.errors.EmptyDataError:
+                    # Empty file, return empty DataFrame with expected columns
+                    return pd.DataFrame(columns=["Job Position", "Job Description", "Date Created"])
+            elif r.status_code == 404:
+                st.info(f"ℹ️ File not found in GitHub branch '{branch}'. Checking local file.")
+                # Fall through to local file fallback
+            else:
+                st.warning(f"⚠️ GitHub load failed ({r.status_code}). Trying local file.")
+                # Fall through to local file fallback
+                
+        except requests.exceptions.RequestException as e:
+            st.warning(f"⚠️ Failed to connect to GitHub: {str(e)}. Trying local file.")
+            # Fall through to local file fallback
+    
+    # Fallback to local file
+    if os.path.exists(path):
+        try:
+            df = pd.read_csv(path)
+            if not df.empty:
+                st.info(f"📁 Loaded {len(df)} job positions from local file: {path}")
+            return df
         except pd.errors.EmptyDataError:
-            # Empty file, return empty DataFrame with expected columns
             return pd.DataFrame(columns=["Job Position", "Job Description", "Date Created"])
-    elif r.status_code == 404:
-        return pd.DataFrame(columns=["Job Position", "Job Description", "Date Created"])
+        except Exception as e:
+            st.error(f"❌ Failed to load local {path}: {str(e)}")
+            return None
     else:
-        st.error(f"❌ GitHub load failed: {r.status_code} - {r.text}")
-        return None
+        # Neither GitHub nor local file exists - return empty DataFrame with expected columns
+        return pd.DataFrame(columns=["Job Position", "Job Description", "Date Created"])
 
 
 def delete_job_position_from_github(job_position, path="job_positions.csv"):
