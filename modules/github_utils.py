@@ -74,19 +74,36 @@ def save_results_to_github(df, path="results.csv", max_retries=3):
             if r.status_code == 200:
                 content = r.json()
                 sha = content["sha"]
-                existing_csv = base64.b64decode(content["content"]).decode("utf-8")
-                try:
-                    old_df = pd.read_csv(StringIO(existing_csv))
-                    # Merge if old_df has data, otherwise just use new data
-                    if not old_df.empty:
-                        df = pd.concat([old_df, df], ignore_index=True)
-                except pd.errors.EmptyDataError:
-                    # Existing file is completely empty (no header), just use the new data
-                    pass
-                except (pd.errors.ParserError, ValueError) as e:
-                    # Log parsing error but continue with new data
-                    if attempt == max_retries - 1:
-                        st.warning(f"⚠️ Could not parse existing data (using new data only): {str(e)}")
+                file_size = content.get("size", 0)
+                
+                # Handle large files (>1MB) using raw URL instead of Contents API
+                if file_size > GITHUB_CONTENTS_API_SIZE_LIMIT:
+                    # Use raw.githubusercontent.com for large files
+                    raw_url = f"https://raw.githubusercontent.com/{repo}/{branch}/{path}"
+                    r_raw = requests.get(raw_url, timeout=GITHUB_TIMEOUT)
+                    if r_raw.status_code == 200:
+                        existing_csv = r_raw.text
+                    else:
+                        st.warning(f"⚠️ Could not download large file ({file_size} bytes). Starting with new data only.")
+                        existing_csv = None
+                else:
+                    # File is small enough, use Contents API
+                    existing_csv = base64.b64decode(content["content"]).decode("utf-8")
+                
+                # Parse existing data if available
+                if existing_csv:
+                    try:
+                        old_df = pd.read_csv(StringIO(existing_csv))
+                        # Merge if old_df has data, otherwise just use new data
+                        if not old_df.empty:
+                            df = pd.concat([old_df, df], ignore_index=True)
+                    except pd.errors.EmptyDataError:
+                        # Existing file is completely empty (no header), just use the new data
+                        pass
+                    except (pd.errors.ParserError, ValueError) as e:
+                        # Log parsing error but continue with new data
+                        if attempt == max_retries - 1:
+                            st.warning(f"⚠️ Could not parse existing data (using new data only): {str(e)}")
                 
                 # Apply deduplication to remove duplicates (handles both merged and new-only data)
                 # Use Candidate Email as unique identifier (new format) or fallback to Filename (old format)
