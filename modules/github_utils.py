@@ -6,6 +6,15 @@ import streamlit as st
 from io import StringIO
 import time
 
+# Expected columns for results.csv
+RESULTS_COLUMNS = [
+    "Candidate Name", "Candidate Email", "Phone", "Job Position",
+    "Match Score", "AI Summary", "Strengths", "Weaknesses", "Gaps",
+    "Latest Job Title", "Latest Company", "Education", "University", "Major",
+    "Kalibrr Profile", "Application Link", "Resume Link",
+    "Recruiter Feedback", "Shortlisted", "Date Processed"
+]
+
 def save_results_to_github(df, path="results.csv", max_retries=3):
     """Save or update results.csv in GitHub repo (root level) with retry logic.
     
@@ -66,7 +75,6 @@ def save_results_to_github(df, path="results.csv", max_retries=3):
                         # Use Candidate Email as unique identifier (new format) or fallback to Filename (old format)
                         dedup_columns = ["Candidate Email", "Job Position"] if "Candidate Email" in df.columns else ["Filename", "Job Position"]
                         df.drop_duplicates(subset=dedup_columns, keep="last", inplace=True)
-                    # If old_df is empty (header only), just use the new data
                 except pd.errors.EmptyDataError:
                     # Existing file is completely empty (no header), just use the new data
                     pass
@@ -173,25 +181,13 @@ def load_results_from_github(path="results.csv"):
         except pd.errors.EmptyDataError:
             # File exists but is completely empty (no headers, no data)
             # Return empty DataFrame with expected columns for consistency
-            return pd.DataFrame(columns=[
-                "Candidate Name", "Candidate Email", "Phone", "Job Position", 
-                "Match Score", "AI Summary", "Strengths", "Weaknesses", "Gaps",
-                "Latest Job Title", "Latest Company", "Education", "University", "Major",
-                "Kalibrr Profile", "Application Link", "Resume Link", 
-                "Recruiter Feedback", "Shortlisted", "Date Processed"
-            ])
+            return pd.DataFrame(columns=RESULTS_COLUMNS)
         except Exception as e:
             st.error(f"❌ Failed to parse results.csv: {str(e)}")
             return None
     elif r.status_code == 404:
         # File doesn't exist yet - return empty DataFrame with expected columns
-        return pd.DataFrame(columns=[
-            "Candidate Name", "Candidate Email", "Phone", "Job Position", 
-            "Match Score", "AI Summary", "Strengths", "Weaknesses", "Gaps",
-            "Latest Job Title", "Latest Company", "Education", "University", "Major",
-            "Kalibrr Profile", "Application Link", "Resume Link", 
-            "Recruiter Feedback", "Shortlisted", "Date Processed"
-        ])
+        return pd.DataFrame(columns=RESULTS_COLUMNS)
     else:
         st.error(f"❌ GitHub load failed: {r.status_code} - {r.text}")
         return None
