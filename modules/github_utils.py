@@ -73,12 +73,13 @@ def save_results_to_github(df, path="results.csv", max_retries=3):
                     if not old_df.empty:
                         df = pd.concat([old_df, df], ignore_index=True)
                         # Use Candidate Email as unique identifier (new format) or fallback to Filename (old format)
+                        # Check columns in the merged DataFrame
                         dedup_columns = ["Candidate Email", "Job Position"] if "Candidate Email" in df.columns else ["Filename", "Job Position"]
                         df.drop_duplicates(subset=dedup_columns, keep="last", inplace=True)
                 except pd.errors.EmptyDataError:
                     # Existing file is completely empty (no header), just use the new data
                     pass
-                except Exception as e:
+                except (pd.errors.ParserError, ValueError) as e:
                     # Log parsing error but continue with new data
                     if attempt == max_retries - 1:
                         st.warning(f"⚠️ Could not parse existing data (using new data only): {str(e)}")

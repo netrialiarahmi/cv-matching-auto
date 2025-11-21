@@ -494,7 +494,7 @@ elif selected == "Dashboard":
 
     # Check for errors (None means authentication/connection error)
     if df is None:
-        st.error("❌ Failed to load results from GitHub. Please check your connection and credentials.")
+        st.error("❌ Failed to load results from GitHub. Please check your GitHub token, repository access, and network connection.")
         st.stop()
 
     # Check if we have any data
