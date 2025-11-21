@@ -115,7 +115,6 @@ def save_results_to_github(df, path=None, job_position=None, max_retries=3):
                     r_raw = requests.get(raw_url, timeout=GITHUB_TIMEOUT)
                     if r_raw.status_code == 200:
                         existing_csv = r_raw.text
-                        st.info(f"📥 Loaded large file ({file_size:,} bytes) from raw URL")
                     else:
                         st.error(f"❌ CRITICAL: Could not download large file ({file_size:,} bytes). Data loss may occur!")
                         existing_csv = None
@@ -524,7 +523,6 @@ def load_job_positions_from_github(path="job_positions.csv"):
         try:
             df = pd.read_csv(path)
             if not df.empty:
-                st.info(f"📁 Loaded {len(df)} job positions from local file: {path}")
             return df
         except pd.errors.EmptyDataError:
             return pd.DataFrame(columns=["Job Position", "Job Description", "Date Created"])
