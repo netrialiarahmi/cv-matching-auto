@@ -524,7 +524,7 @@ elif selected == "Dashboard":
     with col_reset:
         # Show reset button only when a specific position is selected
         if selected_job != "All":
-            st.write("")  # Spacing to align with selectbox
+            st.markdown("<div style='margin-top: 25px;'></div>", unsafe_allow_html=True)
             if st.button("🔄 Reset Shortlist", type="secondary", help=f"Clear all shortlists for '{selected_job}'"):
                 # Get the full dataset from session state
                 full_df = st.session_state["results"]
