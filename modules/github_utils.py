@@ -287,7 +287,6 @@ def load_results_from_github(path="results.csv"):
         try:
             df = pd.read_csv(path)
             if not df.empty:
-                st.info(f"📁 Loaded {len(df)} records from local file: {path}")
             return df
         except pd.errors.EmptyDataError:
             return pd.DataFrame(columns=RESULTS_COLUMNS)
@@ -340,14 +339,12 @@ def load_all_results_from_github():
                         df = load_results_from_github(path=filename)
                         if df is not None and not df.empty:
                             all_results.append(df)
-                            st.info(f"   ✓ Loaded {len(df)} records from {filename}")
                 
                 # Also check for legacy results.csv
                 if any(f["name"] == "results.csv" for f in files):
                     df = load_results_from_github(path="results.csv")
                     if df is not None and not df.empty:
                         all_results.append(df)
-                        st.info(f"   ✓ Loaded {len(df)} records from legacy results.csv")
                         
         except Exception as e:
             st.warning(f"⚠️ Could not list files from GitHub: {str(e)}")
@@ -376,7 +373,6 @@ def load_all_results_from_github():
                         
                         if not is_duplicate:
                             all_results.append(df)
-                            st.info(f"📁 Loaded {len(df)} records from local {filename}")
                 except Exception as e:
                     st.warning(f"⚠️ Could not load local {filename}: {str(e)}")
     except Exception:
