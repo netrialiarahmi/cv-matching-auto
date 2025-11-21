@@ -19,6 +19,10 @@ RESULTS_COLUMNS = [
 # Network timeout for GitHub API requests (in seconds)
 GITHUB_TIMEOUT = 30
 
+# GitHub Contents API size limit for inline content (bytes)
+# Files larger than this should be downloaded via raw URL
+GITHUB_CONTENTS_API_SIZE_LIMIT = 1_000_000  # 1MB
+
 def save_results_to_github(df, path="results.csv", max_retries=3):
     """Save or update results.csv in GitHub repo (root level) with retry logic.
     
@@ -167,6 +171,7 @@ def load_results_from_github(path="results.csv"):
             "Accept": "application/vnd.github+json"
         }
 
+        # First, check file size using Contents API
         url = f"https://api.github.com/repos/{repo}/contents/{path}?ref={branch}"
         
         try:
@@ -174,18 +179,41 @@ def load_results_from_github(path="results.csv"):
             
             if r.status_code == 200:
                 content = r.json()
-                decoded = base64.b64decode(content["content"]).decode("utf-8")
-                try:
-                    df = pd.read_csv(StringIO(decoded))
-                    # Successfully loaded from GitHub
-                    return df
-                except pd.errors.EmptyDataError:
-                    # File exists but is completely empty (no headers, no data)
-                    # Return empty DataFrame with expected columns for consistency
-                    return pd.DataFrame(columns=RESULTS_COLUMNS)
-                except Exception as e:
-                    st.warning(f"⚠️ Failed to parse GitHub file: {str(e)}. Trying local file.")
-                    # Fall through to local file fallback
+                file_size = content.get("size", 0)
+                
+                # GitHub Contents API has a size limit for inline content
+                # For files larger than this, download via raw URL instead
+                if file_size > GITHUB_CONTENTS_API_SIZE_LIMIT:
+                    # Use raw.githubusercontent.com for large files (no auth needed for public repos)
+                    raw_url = f"https://raw.githubusercontent.com/{repo}/{branch}/{path}"
+                    r_raw = requests.get(raw_url, timeout=GITHUB_TIMEOUT)
+                    if r_raw.status_code == 200:
+                        try:
+                            df = pd.read_csv(StringIO(r_raw.text))
+                            st.info(f"📁 Loaded {len(df)} records from GitHub (large file, {file_size:,} bytes)")
+                            return df
+                        except pd.errors.EmptyDataError:
+                            return pd.DataFrame(columns=RESULTS_COLUMNS)
+                        except Exception as e:
+                            st.warning(f"⚠️ Failed to parse large GitHub file: {str(e)}. Trying local file.")
+                            # Fall through to local file fallback
+                    else:
+                        st.warning(f"⚠️ Failed to download large file from GitHub ({r_raw.status_code}). Trying local file.")
+                        # Fall through to local file fallback
+                else:
+                    # File is small enough, use Contents API
+                    try:
+                        decoded = base64.b64decode(content["content"]).decode("utf-8")
+                        df = pd.read_csv(StringIO(decoded))
+                        # Successfully loaded from GitHub
+                        return df
+                    except pd.errors.EmptyDataError:
+                        # File exists but is completely empty (no headers, no data)
+                        # Return empty DataFrame with expected columns for consistency
+                        return pd.DataFrame(columns=RESULTS_COLUMNS)
+                    except Exception as e:
+                        st.warning(f"⚠️ Failed to parse GitHub file: {str(e)}. Trying local file.")
+                        # Fall through to local file fallback
             elif r.status_code == 404:
                 st.info(f"ℹ️ File not found in GitHub branch '{branch}'. Checking local file.")
                 # Fall through to local file fallback
@@ -298,12 +326,38 @@ def load_job_positions_from_github(path="job_positions.csv"):
             
             if r.status_code == 200:
                 content = r.json()
-                decoded = base64.b64decode(content["content"]).decode("utf-8")
-                try:
-                    return pd.read_csv(StringIO(decoded))
-                except pd.errors.EmptyDataError:
-                    # Empty file, return empty DataFrame with expected columns
-                    return pd.DataFrame(columns=["Job Position", "Job Description", "Date Created"])
+                file_size = content.get("size", 0)
+                
+                # GitHub Contents API has a size limit for inline content
+                # For files larger than this, download via raw URL instead
+                if file_size > GITHUB_CONTENTS_API_SIZE_LIMIT:
+                    # Use raw.githubusercontent.com for large files (no auth needed for public repos)
+                    raw_url = f"https://raw.githubusercontent.com/{repo}/{branch}/{path}"
+                    r_raw = requests.get(raw_url, timeout=GITHUB_TIMEOUT)
+                    if r_raw.status_code == 200:
+                        try:
+                            df = pd.read_csv(StringIO(r_raw.text))
+                            st.info(f"📁 Loaded {len(df)} job positions from GitHub (large file, {file_size:,} bytes)")
+                            return df
+                        except pd.errors.EmptyDataError:
+                            return pd.DataFrame(columns=["Job Position", "Job Description", "Date Created"])
+                        except Exception as e:
+                            st.warning(f"⚠️ Failed to parse large GitHub file: {str(e)}. Trying local file.")
+                            # Fall through to local file fallback
+                    else:
+                        st.warning(f"⚠️ Failed to download large file from GitHub ({r_raw.status_code}). Trying local file.")
+                        # Fall through to local file fallback
+                else:
+                    # File is small enough, use Contents API
+                    try:
+                        decoded = base64.b64decode(content["content"]).decode("utf-8")
+                        return pd.read_csv(StringIO(decoded))
+                    except pd.errors.EmptyDataError:
+                        # Empty file, return empty DataFrame with expected columns
+                        return pd.DataFrame(columns=["Job Position", "Job Description", "Date Created"])
+                    except Exception as e:
+                        st.warning(f"⚠️ Failed to parse GitHub file: {str(e)}. Trying local file.")
+                        # Fall through to local file fallback
             elif r.status_code == 404:
                 st.info(f"ℹ️ File not found in GitHub branch '{branch}'. Checking local file.")
                 # Fall through to local file fallback
