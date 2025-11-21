@@ -545,7 +545,7 @@ elif selected == "Dashboard":
                     st.error("❌ Failed to reset shortlist. Please try again.")
     
     if selected_job != "All":
-        df = df[df["Job Position"] == selected_job]
+        df = df[df["Job Position"] == selected_job].copy()
 
     # Convert numeric columns
     numeric_cols = ["Match Score"]
@@ -602,7 +602,7 @@ elif selected == "Dashboard":
 
         with col_checkbox:
             # Checkbox for shortlisting
-            new_shortlist_status = st.checkbox("", value=is_shortlisted, key=checkbox_key, label_visibility="collapsed")
+            new_shortlist_status = st.checkbox("Shortlist", value=is_shortlisted, key=checkbox_key, label_visibility="collapsed")
 
             # If checkbox status changed, update the dataframe and save
             if new_shortlist_status != is_shortlisted:
