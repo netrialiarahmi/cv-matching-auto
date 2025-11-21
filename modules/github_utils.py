@@ -69,13 +69,9 @@ def save_results_to_github(df, path="results.csv", max_retries=3):
                 existing_csv = base64.b64decode(content["content"]).decode("utf-8")
                 try:
                     old_df = pd.read_csv(StringIO(existing_csv))
-                    # Only merge if old_df has data
+                    # Merge if old_df has data, otherwise just use new data
                     if not old_df.empty:
                         df = pd.concat([old_df, df], ignore_index=True)
-                        # Use Candidate Email as unique identifier (new format) or fallback to Filename (old format)
-                        # Check columns in the merged DataFrame
-                        dedup_columns = ["Candidate Email", "Job Position"] if "Candidate Email" in df.columns else ["Filename", "Job Position"]
-                        df.drop_duplicates(subset=dedup_columns, keep="last", inplace=True)
                 except pd.errors.EmptyDataError:
                     # Existing file is completely empty (no header), just use the new data
                     pass
@@ -83,7 +79,12 @@ def save_results_to_github(df, path="results.csv", max_retries=3):
                     # Log parsing error but continue with new data
                     if attempt == max_retries - 1:
                         st.warning(f"⚠️ Could not parse existing data (using new data only): {str(e)}")
-                    pass
+                
+                # Apply deduplication to remove duplicates (handles both merged and new-only data)
+                # Use Candidate Email as unique identifier (new format) or fallback to Filename (old format)
+                dedup_columns = ["Candidate Email", "Job Position"] if "Candidate Email" in df.columns else ["Filename", "Job Position"]
+                if all(col in df.columns for col in dedup_columns):
+                    df.drop_duplicates(subset=dedup_columns, keep="last", inplace=True)
             elif r.status_code == 401:
                 st.error(f"❌ GitHub authentication failed: {r.status_code} - {r.text}")
                 return False
