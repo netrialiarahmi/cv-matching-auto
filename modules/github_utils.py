@@ -1,5 +1,6 @@
 import base64
 import json
+import os
 import requests
 import pandas as pd
 import streamlit as st
@@ -155,8 +156,6 @@ def load_results_from_github(path="results.csv"):
         pd.DataFrame: DataFrame with results, or empty DataFrame with expected columns if file is empty/not found
         None: Only if there's a critical error and no fallback is available
     """
-    import os
-    
     token = st.secrets.get("GITHUB_TOKEN")
     repo = st.secrets.get("GITHUB_REPO", "netrialiarahmi/cv-matching-auto")
     branch = st.secrets.get("GITHUB_BRANCH", "main")
@@ -281,8 +280,6 @@ def save_job_positions_to_github(df, path="job_positions.csv"):
 
 def load_job_positions_from_github(path="job_positions.csv"):
     """Load job_positions.csv from GitHub repo, with fallback to local file."""
-    import os
-    
     token = st.secrets.get("GITHUB_TOKEN")
     repo = st.secrets.get("GITHUB_REPO", "netrialiarahmi/cv-matching-auto")
     branch = st.secrets.get("GITHUB_BRANCH", "main")
@@ -297,7 +294,7 @@ def load_job_positions_from_github(path="job_positions.csv"):
         url = f"https://api.github.com/repos/{repo}/contents/{path}?ref={branch}"
         
         try:
-            r = requests.get(url, headers=headers)
+            r = requests.get(url, headers=headers, timeout=GITHUB_TIMEOUT)
             
             if r.status_code == 200:
                 content = r.json()
