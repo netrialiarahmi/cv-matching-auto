@@ -145,11 +145,7 @@ def save_results_to_github(df, path=None, job_position=None, max_retries=3):
                 # Keep 'first' to preserve existing records and their shortlist status
                 dedup_columns = ["Candidate Email", "Job Position"] if "Candidate Email" in df.columns else ["Filename", "Job Position"]
                 if all(col in df.columns for col in dedup_columns):
-                    before_dedup = len(df)
                     df.drop_duplicates(subset=dedup_columns, keep="first", inplace=True)
-                    after_dedup = len(df)
-                    if before_dedup > after_dedup:
-                        st.info(f"🔄 Removed {before_dedup - after_dedup} duplicate(s). Final count: {after_dedup} records")
             elif r.status_code == 401:
                 st.error(f"❌ GitHub authentication failed: {r.status_code} - {r.text}")
                 return False
@@ -331,8 +327,6 @@ def load_all_results_from_github():
                 result_files = [f["name"] for f in files if f["name"].startswith("results_") and f["name"].endswith(".csv")]
                 
                 if result_files:
-                    st.info(f"📂 Found {len(result_files)} position file(s)")
-                    
                     # Load each file
                     for filename in result_files:
                         df = load_results_from_github(path=filename)
@@ -382,11 +376,7 @@ def load_all_results_from_github():
         merged_df = pd.concat(all_results, ignore_index=True)
         # Remove duplicates based on email + job position
         if "Candidate Email" in merged_df.columns and "Job Position" in merged_df.columns:
-            before = len(merged_df)
             merged_df.drop_duplicates(subset=["Candidate Email", "Job Position"], keep="first", inplace=True)
-            after = len(merged_df)
-            if before > after:
-                st.info(f"🔄 Removed {before - after} duplicate(s) across files")
         return merged_df
     else:
         return pd.DataFrame(columns=RESULTS_COLUMNS)
