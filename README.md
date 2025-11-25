@@ -159,11 +159,95 @@ GITHUB_BRANCH = "main"
 streamlit run app.py
 ```
 
+## Kalibrr Export Tool
+
+The `kalibrr_export.py` script automates exporting candidate data from Kalibrr and updating the Google Sheets with File Storage URLs.
+
+### Setup
+
+1. Install additional dependencies:
+```bash
+pip install playwright python-dotenv pandas requests gspread google-auth
+playwright install chromium
+```
+
+2. Create a `.env` file with your Kalibrr credentials:
+```
+KAID=your_kaid_cookie_value
+KB=your_kb_cookie_value
+GSHEET_URL=https://docs.google.com/spreadsheets/d/YOUR_SHEET_ID/edit
+GSHEET_CSV_URL=https://docs.google.com/spreadsheets/d/e/YOUR_PUBLISHED_SHEET_ID/pub?output=csv
+```
+
+Note: 
+- `GSHEET_URL` is optional. If not provided, it defaults to the preconfigured sheet.
+- `GSHEET_CSV_URL` is the published CSV URL for reading position data. The sheet must be published to web (File > Share > Publish to web).
+
+### Usage
+
+```bash
+python kalibrr_export.py
+```
+
+The script will:
+1. **Automatically fetch job positions from Google Sheets** (no manual configuration needed!)
+2. Export candidates from each position on Kalibrr
+3. Save CSV files locally to `kalibrr_exports/` directory
+4. Open Google Sheets and update the UPLOAD_ID and File Storage columns
+
+### Weekly Automated Updates
+
+The script supports **automated weekly updates** via GitHub Actions. Every Monday at 00:00 UTC (07:00 WIB), the workflow will:
+1. Fetch all positions from Google Sheets
+2. Export fresh candidate data from Kalibrr
+3. Update the UPLOAD_ID and File Storage columns automatically
+
+#### Setting up Weekly Automation
+
+To enable weekly automated updates, configure these GitHub Secrets:
+
+| Secret Name | Description |
+|-------------|-------------|
+| `KAID` | Kalibrr cookie value |
+| `KB` | Kalibrr cookie value |
+| `GSHEET_URL` | Google Sheets edit URL |
+| `GSHEET_CSV_URL` | Published CSV URL for reading positions |
+| `GOOGLE_SERVICE_ACCOUNT_JSON` | Google Service Account credentials JSON |
+
+**To create a Google Service Account:**
+1. Go to [Google Cloud Console](https://console.cloud.google.com/)
+2. Create a new project or select existing
+3. Enable Google Sheets API
+4. Create a Service Account and download the JSON key
+5. Share your Google Sheet with the service account email
+6. Copy the entire JSON content to the `GOOGLE_SERVICE_ACCOUNT_JSON` secret
+
+You can also manually trigger the workflow from the Actions tab.
+
+### Dynamic Position Loading
+
+The script **automatically reads positions from Google Sheets**, so you only need to add new positions directly to the sheet. No code changes required!
+
+Simply add a new row to your Google Sheet with:
+- **Nama Posisi**: The position name
+- **JOB_ID**: The Kalibrr job ID
+
+The script will automatically pick up new positions on the next run.
+
+### Google Sheets Format
+
+The script reads from and updates a Google Sheet with the following structure:
+
+| Nama Posisi | JOB_ID | UPLOAD_ID | File Storage |
+|-------------|--------|-----------|--------------|
+| Position name | Job ID | Auto-filled | Auto-filled URL |
+
 ## Repository Structure
 
 ```
 cv-matching-auto/
 ├── app.py                          # Main Streamlit application
+├── kalibrr_export.py               # Kalibrr export automation script
 ├── modules/
 │   ├── __init__.py
 │   ├── extractor.py               # PDF text extraction

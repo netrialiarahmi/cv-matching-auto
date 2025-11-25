@@ -28,6 +28,13 @@ output/
 *.csv
 !requirements.txt
 !sample_candidate_template.csv
+!job_positions.csv
+
+# Kalibrr Export
+kalibrr_exports/
+playwright_google_data/
+.env
+error_row_*.png
 
 # Test files
 test_*.py
