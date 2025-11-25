@@ -129,7 +129,11 @@ def fetch_candidates_from_google_sheets(job_position_name, max_retries=3):
                 
                 if job_id_column and pd.notna(matching_rows.iloc[0].get(job_id_column)):
                     job_id = matching_rows.iloc[0][job_id_column]
-                    st.warning(f"⚠️ No File Storage URL found for position '{job_position_name}' (JOB_ID: {int(float(job_id)) if pd.notna(job_id) else 'N/A'})")
+                    try:
+                        job_id_display = int(float(job_id))
+                    except (ValueError, TypeError):
+                        job_id_display = job_id
+                    st.warning(f"⚠️ No File Storage URL found for position '{job_position_name}' (JOB_ID: {job_id_display})")
                     st.info("💡 The Kalibrr export script needs to be run to populate candidate data. Please run `python kalibrr_export.py` to export candidates from Kalibrr.")
                 else:
                     st.warning(f"⚠️ No data source found for position '{job_position_name}'")
