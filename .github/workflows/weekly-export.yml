@@ -24,7 +24,7 @@ jobs:
       
       - name: Install dependencies
         run: |
-          pip install playwright python-dotenv pandas requests gspread==6.1.0 google-auth==2.29.0
+          pip install playwright python-dotenv pandas requests
           playwright install chromium
           playwright install-deps
       
@@ -34,8 +34,6 @@ jobs:
           KB: ${{ secrets.KB }}
           GSHEET_URL: ${{ secrets.GSHEET_URL }}
           GSHEET_CSV_URL: ${{ secrets.GSHEET_CSV_URL }}
-          GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
-          HEADLESS_MODE: 'true'
         run: |
           python kalibrr_export.py
       

@@ -3,7 +3,6 @@ import sys
 import asyncio
 import re
 import time
-import json
 from pathlib import Path
 from io import StringIO
 import requests
@@ -20,10 +19,6 @@ KB = os.getenv("KB")
 GSHEET_URL = os.getenv("GSHEET_URL") or "https://docs.google.com/spreadsheets/d/1Xs7qLk1_gOu4jCHiCmyo28BlRmGXIvve1npwKuYf5mw/edit"
 # CSV export URL for the same sheet (for fetching positions)
 GSHEET_CSV_URL = os.getenv("GSHEET_CSV_URL") or "https://docs.google.com/spreadsheets/d/e/2PACX-1vRKC_5lHg9yJgGoBlkH0A-fjpjpiYu4MzO4ieEdSId5wAKS7bsLDdplXWx8944xFlHf2f9lVcUYzVcr/pub?output=csv"
-# Headless mode for CI/CD (set to 'true' for automated runs)
-HEADLESS_MODE = os.getenv("HEADLESS_MODE", "false").lower() == "true"
-# Google Service Account JSON for automated sheet updates
-GOOGLE_SERVICE_ACCOUNT_JSON = os.getenv("GOOGLE_SERVICE_ACCOUNT_JSON")
 
 if not KAID or not KB:
     print("KAID atau KB tidak ditemukan di .env")
@@ -135,7 +130,6 @@ def fetch_positions_from_sheet(max_retries=3):
 
 # Global variables to store positions (will be populated at runtime)
 POSITIONS = {}
-POSITION_ROW_MAPPINGS = []
 
 # ======================================
 # EXPORT DIR
@@ -163,7 +157,7 @@ async def export_position(playwright, position_name, job_id):
     print(f"\n=== Memproses {position_name} ===")
     print(f"URL: {url}")
 
-    browser = await playwright.chromium.launch(headless=HEADLESS_MODE)
+    browser = await playwright.chromium.launch(headless=False)
     context = await browser.new_context()
 
     # cookies login
@@ -299,89 +293,9 @@ async def export_position(playwright, position_name, job_id):
     await browser.close()
 
 # ======================================
-# WRITE TO GOOGLE SHEETS (using Google Sheets API for headless mode)
+# WRITE TO GOOGLE SHEETS
 # ======================================
-def write_to_gsheets_api():
-    """Update Google Sheets using the Google Sheets API (for headless/automated mode)."""
-    if not GOOGLE_SERVICE_ACCOUNT_JSON:
-        print("❌ GOOGLE_SERVICE_ACCOUNT_JSON tidak ditemukan. Tidak dapat update sheet dalam headless mode.")
-        print("💡 Untuk automated weekly updates, set up Google Service Account credentials.")
-        return False
-    
-    try:
-        import gspread
-        from google.oauth2.service_account import Credentials
-        
-        print("\n=== Updating Google Sheets via API ===")
-        
-        # Parse service account credentials from JSON string
-        creds_dict = json.loads(GOOGLE_SERVICE_ACCOUNT_JSON)
-        
-        # Define the scope (v4 API)
-        scopes = ['https://www.googleapis.com/auth/spreadsheets',
-                  'https://www.googleapis.com/auth/drive']
-        
-        # Authenticate using google-auth library
-        creds = Credentials.from_service_account_info(creds_dict, scopes=scopes)
-        client = gspread.authorize(creds)
-        
-        # Extract sheet ID from URL
-        sheet_id_match = re.search(r'/d/([a-zA-Z0-9-_]+)', GSHEET_URL)
-        if not sheet_id_match:
-            print(f"❌ Tidak dapat extract sheet ID dari URL: {GSHEET_URL}")
-            return False
-        
-        sheet_id = sheet_id_match.group(1)
-        spreadsheet = client.open_by_key(sheet_id)
-        worksheet = spreadsheet.sheet1  # Use first sheet
-        
-        # Build a mapping of position name to row number from fetched data
-        position_to_row = {}
-        for position_name, row_num in POSITION_ROW_MAPPINGS:
-            position_to_row[position_name] = row_num
-        
-        # Prepare batch update data for better performance
-        batch_updates = []
-        
-        for result in EXPORT_RESULTS:
-            position_name, job_id, upload_id, csv_url = result
-            
-            # Get the correct row for this position
-            target_row = position_to_row.get(position_name)
-            if target_row is None:
-                print(f"⚠️ Position '{position_name}' not found in mapping, skipping...")
-                continue
-            
-            print(f"Preparing update for row {target_row}: {position_name}...")
-            
-            # Add to batch updates
-            batch_updates.append({
-                'range': f'C{target_row}:D{target_row}',
-                'values': [[upload_id, csv_url]]
-            })
-        
-        # Perform batch update
-        if batch_updates:
-            print(f"\n📤 Mengirim {len(batch_updates)} update ke Google Sheets...")
-            worksheet.batch_update(batch_updates)
-            print("✓ Batch update berhasil!")
-        
-        print("\n✅ Google Sheet sudah terupdate semua via API!")
-        return True
-        
-    except ImportError:
-        print("❌ gspread atau google-auth tidak terinstall.")
-        print("💡 Jalankan: pip install gspread google-auth")
-        return False
-    except Exception as e:
-        print(f"❌ Error updating sheet via API: {e}")
-        return False
-
-# ======================================
-# WRITE TO GOOGLE SHEETS (Interactive browser mode)
-# ======================================
-async def write_to_gsheets_browser(playwright):
-    """Update Google Sheets using browser automation (for interactive mode)."""
+async def write_to_gsheets(playwright):
     print("\n=== Membuka Google Sheets ===")
 
     # Gunakan persistent context agar login tersimpan
@@ -399,49 +313,36 @@ async def write_to_gsheets_browser(playwright):
     await page.goto(GSHEET_URL)
     
     print("\nMenunggu Google Sheets terbuka...")
-    print("💡 Jika diminta login, silakan login ke Google dulu")
-    print("💡 Setelah sheets terbuka penuh, tekan ENTER di terminal ini")
     
-    # Tunggu user confirm kalau sheets sudah siap
-    input("\n👉 Tekan ENTER setelah Google Sheets terbuka dan siap diedit... ")
+    # Tunggu sampai sheet siap (wait for grid to be visible)
+    try:
+        await page.wait_for_selector('div.grid-container', timeout=30000)
+    except Exception:
+        # Fallback: tunggu beberapa detik
+        await page.wait_for_timeout(5000)
 
-    # Build a mapping of position name to row number from fetched data
-    position_to_row = {}
-    for position_name, row_num in POSITION_ROW_MAPPINGS:
-        position_to_row[position_name] = row_num
+    row_num = 2
 
-    for result in EXPORT_RESULTS:
-        position_name, job_id, upload_id, csv_url = result
-        
-        # Get the correct row for this position
-        target_row = position_to_row.get(position_name)
-        if target_row is None:
-            print(f"⚠️ Position '{position_name}' not found in mapping, skipping...")
-            continue
-            
-        print(f"\nUpdating row {target_row} untuk {position_name}...")
+    for name, job_id, upload_id, csv_url in EXPORT_RESULTS:
+        print(f"\nUpdating row {row_num} untuk {name}...")
         
         try:
-            # Ke cell A1 dulu untuk reset posisi
+            # Ke cell A1 dulu
             await page.keyboard.press("Control+Home")
+            await page.wait_for_timeout(300)
+            
+            # Buka dialog Go To dengan Ctrl+G
+            await page.keyboard.press("Control+g")
             await page.wait_for_timeout(500)
             
-            # Gunakan Name Box untuk navigasi langsung ke cell
-            # Click pada Name Box (area yang menampilkan alamat cell, biasanya di kiri atas)
-            # Atau gunakan Ctrl+G / F5 untuk Go To dialog
-            
-            # Method 1: Gunakan F5 (Go To) yang lebih reliable
-            await page.keyboard.press("F5")
-            await page.wait_for_timeout(500)
-            
-            # Ketik cell address untuk UPLOAD_ID (kolom C)
-            await page.keyboard.type(f"C{target_row}")
+            # Ketik cell address C{row_num}
+            await page.keyboard.type(f"C{row_num}")
             await page.keyboard.press("Enter")
             await page.wait_for_timeout(500)
             
             # Ketik upload_id
             await page.keyboard.type(str(upload_id))
-            await page.keyboard.press("Tab")  # Tab ke kolom D (File Storage)
+            await page.keyboard.press("Tab")  # Tab ke kolom D
             await page.wait_for_timeout(300)
             
             # Ketik csv_url
@@ -449,16 +350,18 @@ async def write_to_gsheets_browser(playwright):
             await page.keyboard.press("Enter")
             await page.wait_for_timeout(500)
 
-            print(f"✓ Row {target_row} berhasil diupdate")
+            print(f"✓ Row {row_num} berhasil diupdate")
             
         except Exception as e:
-            print(f"✗ Error updating row {target_row}: {e}")
+            print(f"✗ Error updating row {row_num}: {e}")
             # Screenshot untuk debug
             try:
-                await page.screenshot(path=f"error_row_{target_row}.png")
-                print(f"  Screenshot disimpan: error_row_{target_row}.png")
+                await page.screenshot(path=f"error_row_{row_num}.png")
+                print(f"  Screenshot disimpan: error_row_{row_num}.png")
             except Exception:
                 pass
+
+        row_num += 1
 
     print("\n✅ Google Sheet sudah terupdate semua!")
     await page.wait_for_timeout(2000)
@@ -469,12 +372,10 @@ async def write_to_gsheets_browser(playwright):
 # MAIN
 # ======================================
 async def main():
-    global POSITIONS, POSITION_ROW_MAPPINGS
-    
-    print(f"🔧 Mode: {'Headless (CI/CD)' if HEADLESS_MODE else 'Interactive'}")
+    global POSITIONS
     
     # Fetch positions from Google Sheets first
-    POSITIONS, POSITION_ROW_MAPPINGS = fetch_positions_from_sheet()
+    POSITIONS, _ = fetch_positions_from_sheet()
     
     if not POSITIONS:
         print("\n❌ Tidak ada posisi yang ditemukan di Google Sheets.")
@@ -492,15 +393,8 @@ async def main():
 
         print("\n=== Semua export selesai. Update Google Sheets... ===")
         
-        # Choose update method based on mode
-        if HEADLESS_MODE:
-            # In headless mode, use Google Sheets API
-            success = write_to_gsheets_api()
-            if not success:
-                print("⚠️ Gagal update via API. Data export tersimpan di folder kalibrr_exports/")
-        else:
-            # In interactive mode, use browser automation
-            await write_to_gsheets_browser(pw)
+        # Update Google Sheets menggunakan browser
+        await write_to_gsheets(pw)
 
 if __name__ == "__main__":
     asyncio.run(main())
