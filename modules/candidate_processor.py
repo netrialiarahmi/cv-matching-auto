@@ -18,14 +18,14 @@ def _normalize_position_name(name):
         name: Position name to normalize
         
     Returns:
-        Normalized name (lowercase, no special chars except spaces)
+        Normalized name (lowercase, alphanumeric and spaces only)
     """
     if pd.isna(name):
         return ""
     # Convert to lowercase
     name = str(name).lower().strip()
-    # Remove special characters but keep alphanumeric and spaces
-    name = re.sub(r'[^\w\s]', '', name)
+    # Remove special characters, keeping only letters, numbers, and spaces
+    name = re.sub(r'[^a-z0-9\s]', '', name)
     # Collapse multiple spaces
     name = re.sub(r'\s+', ' ', name)
     return name
@@ -90,11 +90,11 @@ def fetch_candidates_from_google_sheets(job_position_name, max_retries=3):
             # Normalize the target position name for flexible matching
             normalized_target = _normalize_position_name(job_position_name)
             
-            # Create a normalized column for matching
-            sheet_df['_normalized_position'] = sheet_df[position_column].apply(_normalize_position_name)
-            
-            # Try exact normalized match first
-            matching_rows = sheet_df[valid_positions & (sheet_df['_normalized_position'] == normalized_target)]
+            # Find matching row by normalizing each position on-the-fly (more efficient)
+            matching_mask = valid_positions & sheet_df[position_column].apply(
+                lambda x: _normalize_position_name(x) == normalized_target
+            )
+            matching_rows = sheet_df[matching_mask]
             
             if matching_rows.empty:
                 available_positions = sheet_df[valid_positions][position_column].str.strip().unique().tolist()
