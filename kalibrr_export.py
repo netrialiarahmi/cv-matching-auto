@@ -295,7 +295,7 @@ async def export_position(playwright, position_name, job_id):
 # ======================================
 # WRITE TO GOOGLE SHEETS
 # ======================================
-async def write_to_gsheets(playwright):
+async def write_to_gsheets(playwright, position_to_row):
     print("\n=== Membuka Google Sheets ===")
 
     # Gunakan persistent context agar login tersimpan
@@ -321,9 +321,13 @@ async def write_to_gsheets(playwright):
         # Fallback: tunggu beberapa detik
         await page.wait_for_timeout(5000)
 
-    row_num = 2
-
     for name, job_id, upload_id, csv_url in EXPORT_RESULTS:
+        # Get the correct row for this position
+        row_num = position_to_row.get(name)
+        if row_num is None:
+            print(f"⚠️ Position '{name}' not found in mapping, skipping...")
+            continue
+            
         print(f"\nUpdating row {row_num} untuk {name}...")
         
         try:
@@ -361,8 +365,6 @@ async def write_to_gsheets(playwright):
             except Exception:
                 pass
 
-        row_num += 1
-
     print("\n✅ Google Sheet sudah terupdate semua!")
     await page.wait_for_timeout(2000)
     await browser.close()
@@ -375,12 +377,15 @@ async def main():
     global POSITIONS
     
     # Fetch positions from Google Sheets first
-    POSITIONS, _ = fetch_positions_from_sheet()
+    POSITIONS, row_mappings = fetch_positions_from_sheet()
     
     if not POSITIONS:
         print("\n❌ Tidak ada posisi yang ditemukan di Google Sheets.")
         print("Pastikan sheet memiliki kolom 'Nama Posisi' dan 'JOB_ID'")
         return
+    
+    # Build position to row mapping
+    position_to_row = {name: row for name, row in row_mappings}
     
     async with async_playwright() as pw:
 
@@ -394,7 +399,7 @@ async def main():
         print("\n=== Semua export selesai. Update Google Sheets... ===")
         
         # Update Google Sheets menggunakan browser
-        await write_to_gsheets(pw)
+        await write_to_gsheets(pw, position_to_row)
 
 if __name__ == "__main__":
     asyncio.run(main())
