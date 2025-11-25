@@ -331,27 +331,65 @@ async def write_to_gsheets(playwright, position_to_row):
         print(f"\nUpdating row {row_num} untuk {name}...")
         
         try:
-            # Ke cell A1 dulu
-            await page.keyboard.press("Control+Home")
-            await page.wait_for_timeout(300)
+            # Navigate ke cell menggunakan Name Box
+            # Di Google Sheets, klik Name Box (kotak alamat cell di kiri atas) lalu ketik alamat
             
-            # Buka dialog Go To dengan Ctrl+G
-            await page.keyboard.press("Control+g")
-            await page.wait_for_timeout(500)
+            # Cara 1: Gunakan keyboard shortcut Ctrl+Shift+J atau klik langsung Name Box
+            # Name Box biasanya punya id "t-name-box" atau class tertentu
             
-            # Ketik cell address C{row_num}
-            await page.keyboard.type(f"C{row_num}")
+            name_box_clicked = False
+            
+            # Coba klik Name Box dengan berbagai selector
+            selectors = [
+                'input#t-name-box',
+                '[id="t-name-box"]',
+                '.name-box-text-field input',
+                '[aria-label="Name box"]'
+            ]
+            
+            for selector in selectors:
+                try:
+                    name_box = page.locator(selector).first
+                    await name_box.click(timeout=2000)
+                    name_box_clicked = True
+                    break
+                except Exception:
+                    continue
+            
+            # Jika klik langsung gagal, coba dengan F5 (Go to range di Google Sheets)
+            if not name_box_clicked:
+                await page.keyboard.press("F5")
+                await page.wait_for_timeout(500)
+                
+                # Cari input dialog "Go to range"
+                try:
+                    range_input = page.locator('input[type="text"]').first
+                    await range_input.click(timeout=2000)
+                    name_box_clicked = True
+                except Exception:
+                    pass
+            
+            if not name_box_clicked:
+                print(f"⚠️ Tidak bisa menemukan Name Box, skip row {row_num}")
+                continue
+            
+            await page.wait_for_timeout(200)
+            
+            # Select all dan ketik alamat cell C{row_num}
+            await page.keyboard.press("Control+a")
+            await page.wait_for_timeout(100)
+            await page.keyboard.type(f"C{row_num}", delay=50)
             await page.keyboard.press("Enter")
             await page.wait_for_timeout(500)
             
-            # Ketik upload_id
-            await page.keyboard.type(str(upload_id))
-            await page.keyboard.press("Tab")  # Tab ke kolom D
+            # Sekarang kita di cell C{row_num}, ketik upload_id
+            await page.keyboard.type(str(upload_id), delay=20)
+            await page.keyboard.press("Tab")  # Pindah ke kolom D (File Storage)
             await page.wait_for_timeout(300)
             
-            # Ketik csv_url
-            await page.keyboard.type(csv_url)
-            await page.keyboard.press("Enter")
+            # Ketik csv_url di kolom D
+            await page.keyboard.type(csv_url, delay=10)
+            await page.keyboard.press("Enter")  # Konfirmasi entry
             await page.wait_for_timeout(500)
 
             print(f"✓ Row {row_num} berhasil diupdate")
