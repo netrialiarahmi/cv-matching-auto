@@ -118,7 +118,21 @@ def fetch_candidates_from_google_sheets(job_position_name, max_retries=3):
             file_storage_url = matching_rows.iloc[0][file_storage_column]
             
             if pd.isna(file_storage_url) or not str(file_storage_url).strip():
-                st.warning(f"⚠️ No data source found for position '{job_position_name}'")
+                # Check if JOB_ID exists - this means export script needs to be run
+                job_id_column = None
+                if "JOB_ID" in sheet_df.columns:
+                    job_id_column = "JOB_ID"
+                elif "Job ID" in sheet_df.columns:
+                    job_id_column = "Job ID"
+                elif "job_id" in sheet_df.columns:
+                    job_id_column = "job_id"
+                
+                if job_id_column and pd.notna(matching_rows.iloc[0].get(job_id_column)):
+                    job_id = matching_rows.iloc[0][job_id_column]
+                    st.warning(f"⚠️ No File Storage URL found for position '{job_position_name}' (JOB_ID: {int(float(job_id)) if pd.notna(job_id) else 'N/A'})")
+                    st.info("💡 The Kalibrr export script needs to be run to populate candidate data. Please run `python kalibrr_export.py` to export candidates from Kalibrr.")
+                else:
+                    st.warning(f"⚠️ No data source found for position '{job_position_name}'")
                 return None
             
             # Step 4: Download the CSV from the File Storage URL (with retry)
