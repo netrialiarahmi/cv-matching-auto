@@ -134,7 +134,11 @@ def fetch_candidates_from_google_sheets(job_position_name, max_retries=3):
                     except (ValueError, TypeError):
                         job_id_display = job_id
                     st.warning(f"⚠️ No File Storage URL found for position '{job_position_name}' (JOB_ID: {job_id_display})")
-                    st.info("💡 The Kalibrr export script needs to be run to populate candidate data. Please run `python kalibrr_export.py` to export candidates from Kalibrr.")
+                    st.info("💡 **To populate File Storage / Cara mengisi File Storage:**\n\n"
+                           "1. Go to GitHub repository → Actions → 'Weekly Kalibrr Export'\n"
+                           "2. Click 'Run workflow' to export candidate data from Kalibrr\n"
+                           "3. Wait for completion, then refresh this page\n\n"
+                           "Or run manually: `python kalibrr_export.py`")
                 else:
                     st.warning(f"⚠️ No data source found for position '{job_position_name}'")
                 return None
