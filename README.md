@@ -167,7 +167,7 @@ The `kalibrr_export.py` script automates exporting candidate data from Kalibrr a
 
 1. Install additional dependencies:
 ```bash
-pip install playwright python-dotenv pandas requests
+pip install playwright python-dotenv pandas requests gspread google-auth
 playwright install chromium
 ```
 
@@ -194,6 +194,35 @@ The script will:
 2. Export candidates from each position on Kalibrr
 3. Save CSV files locally to `kalibrr_exports/` directory
 4. Open Google Sheets and update the UPLOAD_ID and File Storage columns
+
+### Weekly Automated Updates
+
+The script supports **automated weekly updates** via GitHub Actions. Every Monday at 00:00 UTC (07:00 WIB), the workflow will:
+1. Fetch all positions from Google Sheets
+2. Export fresh candidate data from Kalibrr
+3. Update the UPLOAD_ID and File Storage columns automatically
+
+#### Setting up Weekly Automation
+
+To enable weekly automated updates, configure these GitHub Secrets:
+
+| Secret Name | Description |
+|-------------|-------------|
+| `KAID` | Kalibrr cookie value |
+| `KB` | Kalibrr cookie value |
+| `GSHEET_URL` | Google Sheets edit URL |
+| `GSHEET_CSV_URL` | Published CSV URL for reading positions |
+| `GOOGLE_SERVICE_ACCOUNT_JSON` | Google Service Account credentials JSON |
+
+**To create a Google Service Account:**
+1. Go to [Google Cloud Console](https://console.cloud.google.com/)
+2. Create a new project or select existing
+3. Enable Google Sheets API
+4. Create a Service Account and download the JSON key
+5. Share your Google Sheet with the service account email
+6. Copy the entire JSON content to the `GOOGLE_SERVICE_ACCOUNT_JSON` secret
+
+You can also manually trigger the workflow from the Actions tab.
 
 ### Dynamic Position Loading
 

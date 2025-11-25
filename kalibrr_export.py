@@ -3,6 +3,7 @@ import sys
 import asyncio
 import re
 import time
+import json
 from pathlib import Path
 from io import StringIO
 import requests
@@ -19,6 +20,10 @@ KB = os.getenv("KB")
 GSHEET_URL = os.getenv("GSHEET_URL", "https://docs.google.com/spreadsheets/d/1Xs7qLk1_gOu4jCHiCmyo28BlRmGXIvve1npwKuYf5mw/edit")
 # CSV export URL for the same sheet (for fetching positions)
 GSHEET_CSV_URL = os.getenv("GSHEET_CSV_URL", "https://docs.google.com/spreadsheets/d/e/2PACX-1vRKC_5lHg9yJgGoBlkH0A-fjpjpiYu4MzO4ieEdSId5wAKS7bsLDdplXWx8944xFlHf2f9lVcUYzVcr/pub?output=csv")
+# Headless mode for CI/CD (set to 'true' for automated runs)
+HEADLESS_MODE = os.getenv("HEADLESS_MODE", "false").lower() == "true"
+# Google Service Account JSON for automated sheet updates
+GOOGLE_SERVICE_ACCOUNT_JSON = os.getenv("GOOGLE_SERVICE_ACCOUNT_JSON")
 
 if not KAID or not KB:
     print("KAID atau KB tidak ditemukan di .env")
@@ -158,7 +163,7 @@ async def export_position(playwright, position_name, job_id):
     print(f"\n=== Memproses {position_name} ===")
     print(f"URL: {url}")
 
-    browser = await playwright.chromium.launch(headless=False)
+    browser = await playwright.chromium.launch(headless=HEADLESS_MODE)
     context = await browser.new_context()
 
     # cookies login
@@ -294,9 +299,89 @@ async def export_position(playwright, position_name, job_id):
     await browser.close()
 
 # ======================================
-# WRITE TO GOOGLE SHEETS
+# WRITE TO GOOGLE SHEETS (using Google Sheets API for headless mode)
 # ======================================
-async def write_to_gsheets(playwright):
+def write_to_gsheets_api():
+    """Update Google Sheets using the Google Sheets API (for headless/automated mode)."""
+    if not GOOGLE_SERVICE_ACCOUNT_JSON:
+        print("❌ GOOGLE_SERVICE_ACCOUNT_JSON tidak ditemukan. Tidak dapat update sheet dalam headless mode.")
+        print("💡 Untuk automated weekly updates, set up Google Service Account credentials.")
+        return False
+    
+    try:
+        import gspread
+        from google.oauth2.service_account import Credentials
+        
+        print("\n=== Updating Google Sheets via API ===")
+        
+        # Parse service account credentials from JSON string
+        creds_dict = json.loads(GOOGLE_SERVICE_ACCOUNT_JSON)
+        
+        # Define the scope (v4 API)
+        scopes = ['https://www.googleapis.com/auth/spreadsheets',
+                  'https://www.googleapis.com/auth/drive']
+        
+        # Authenticate using google-auth library
+        creds = Credentials.from_service_account_info(creds_dict, scopes=scopes)
+        client = gspread.authorize(creds)
+        
+        # Extract sheet ID from URL
+        sheet_id_match = re.search(r'/d/([a-zA-Z0-9-_]+)', GSHEET_URL)
+        if not sheet_id_match:
+            print(f"❌ Tidak dapat extract sheet ID dari URL: {GSHEET_URL}")
+            return False
+        
+        sheet_id = sheet_id_match.group(1)
+        spreadsheet = client.open_by_key(sheet_id)
+        worksheet = spreadsheet.sheet1  # Use first sheet
+        
+        # Build a mapping of position name to row number from fetched data
+        position_to_row = {}
+        for position_name, row_num in POSITION_ROW_MAPPINGS:
+            position_to_row[position_name] = row_num
+        
+        # Prepare batch update data for better performance
+        batch_updates = []
+        
+        for result in EXPORT_RESULTS:
+            position_name, job_id, upload_id, csv_url = result
+            
+            # Get the correct row for this position
+            target_row = position_to_row.get(position_name)
+            if target_row is None:
+                print(f"⚠️ Position '{position_name}' not found in mapping, skipping...")
+                continue
+            
+            print(f"Preparing update for row {target_row}: {position_name}...")
+            
+            # Add to batch updates
+            batch_updates.append({
+                'range': f'C{target_row}:D{target_row}',
+                'values': [[upload_id, csv_url]]
+            })
+        
+        # Perform batch update
+        if batch_updates:
+            print(f"\n📤 Mengirim {len(batch_updates)} update ke Google Sheets...")
+            worksheet.batch_update(batch_updates)
+            print("✓ Batch update berhasil!")
+        
+        print("\n✅ Google Sheet sudah terupdate semua via API!")
+        return True
+        
+    except ImportError:
+        print("❌ gspread atau google-auth tidak terinstall.")
+        print("💡 Jalankan: pip install gspread google-auth")
+        return False
+    except Exception as e:
+        print(f"❌ Error updating sheet via API: {e}")
+        return False
+
+# ======================================
+# WRITE TO GOOGLE SHEETS (Interactive browser mode)
+# ======================================
+async def write_to_gsheets_browser(playwright):
+    """Update Google Sheets using browser automation (for interactive mode)."""
     print("\n=== Membuka Google Sheets ===")
 
     # Gunakan persistent context agar login tersimpan
@@ -386,6 +471,8 @@ async def write_to_gsheets(playwright):
 async def main():
     global POSITIONS, POSITION_ROW_MAPPINGS
     
+    print(f"🔧 Mode: {'Headless (CI/CD)' if HEADLESS_MODE else 'Interactive'}")
+    
     # Fetch positions from Google Sheets first
     POSITIONS, POSITION_ROW_MAPPINGS = fetch_positions_from_sheet()
     
@@ -404,7 +491,16 @@ async def main():
             return
 
         print("\n=== Semua export selesai. Update Google Sheets... ===")
-        await write_to_gsheets(pw)
+        
+        # Choose update method based on mode
+        if HEADLESS_MODE:
+            # In headless mode, use Google Sheets API
+            success = write_to_gsheets_api()
+            if not success:
+                print("⚠️ Gagal update via API. Data export tersimpan di folder kalibrr_exports/")
+        else:
+            # In interactive mode, use browser automation
+            await write_to_gsheets_browser(pw)
 
 if __name__ == "__main__":
     asyncio.run(main())
