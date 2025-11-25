@@ -175,7 +175,10 @@ playwright install chromium
 ```
 KAID=your_kaid_cookie_value
 KB=your_kb_cookie_value
+GSHEET_URL=https://docs.google.com/spreadsheets/d/YOUR_SHEET_ID/edit
 ```
+
+Note: `GSHEET_URL` is optional. If not provided, it defaults to the preconfigured sheet.
 
 ### Usage
 

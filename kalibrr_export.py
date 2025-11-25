@@ -1,4 +1,5 @@
 import os
+import sys
 import asyncio
 import re
 from pathlib import Path
@@ -11,15 +12,11 @@ from playwright.async_api import async_playwright
 load_dotenv()
 KAID = os.getenv("KAID")
 KB = os.getenv("KB")
+GSHEET_URL = os.getenv("GSHEET_URL", "https://docs.google.com/spreadsheets/d/1Xs7qLk1_gOu4jCHiCmyo28BlRmGXIvve1npwKuYf5mw/edit")
 
 if not KAID or not KB:
     print("KAID atau KB tidak ditemukan di .env")
-    exit()
-
-# ======================================
-# GOOGLE SHEETS
-# ======================================
-GSHEET_URL = "https://docs.google.com/spreadsheets/d/1Xs7qLk1_gOu4jCHiCmyo28BlRmGXIvve1npwKuYf5mw/edit"
+    sys.exit(1)
 
 # hasil export tersimpan disini
 EXPORT_RESULTS = []
@@ -54,23 +51,6 @@ def extract_upload_id_from_network(logs):
             m = re.search(r"candidate_uploads/(\d+)", entry)
             if m:
                 return m.group(1)
-    return None
-
-def extract_csv_from_network(logs):
-    """
-    Mencari URL CSV yang valid dari network logs.
-    Filter out URL analytics dan ambil hanya URL storage GCS yang sebenarnya.
-    """
-    for entry in logs:
-        # Skip URL analytics
-        if "analytics.google.com" in entry:
-            continue
-        
-        # Cari URL yang benar-benar mengarah ke storage.googleapis.com
-        if "job-csv-exports" in entry and "storage.googleapis.com" in entry:
-            # Pastikan ini adalah URL utama, bukan parameter dari URL lain
-            if entry.startswith("https://storage.googleapis.com"):
-                return entry
     return None
 
 # ======================================
@@ -129,7 +109,7 @@ async def export_position(playwright, position_name, job_id):
                 clicked = True
                 print(f"✓ Tombol ditemukan setelah {attempt+1} detik: {label}")
                 break
-            except:
+            except Exception:
                 pass
         
         if clicked:
@@ -180,7 +160,7 @@ async def export_position(playwright, position_name, job_id):
                 break
             else:
                 csv_url = None
-        except:
+        except Exception:
             pass
         
         if (attempt + 1) % 5 == 0:
@@ -299,7 +279,7 @@ async def write_to_gsheets(playwright):
             try:
                 await page.screenshot(path=f"error_row_{target_row}.png")
                 print(f"  Screenshot disimpan: error_row_{target_row}.png")
-            except:
+            except Exception:
                 pass
 
     print("\n✅ Google Sheet sudah terupdate semua!")
