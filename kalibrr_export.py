@@ -2,7 +2,11 @@ import os
 import sys
 import asyncio
 import re
+import time
 from pathlib import Path
+from io import StringIO
+import requests
+import pandas as pd
 from dotenv import load_dotenv
 from playwright.async_api import async_playwright
 
@@ -13,6 +17,8 @@ load_dotenv()
 KAID = os.getenv("KAID")
 KB = os.getenv("KB")
 GSHEET_URL = os.getenv("GSHEET_URL", "https://docs.google.com/spreadsheets/d/1Xs7qLk1_gOu4jCHiCmyo28BlRmGXIvve1npwKuYf5mw/edit")
+# CSV export URL for the same sheet (for fetching positions)
+GSHEET_CSV_URL = os.getenv("GSHEET_CSV_URL", "https://docs.google.com/spreadsheets/d/e/2PACX-1vRKC_5lHg9yJgGoBlkH0A-fjpjpiYu4MzO4ieEdSId5wAKS7bsLDdplXWx8944xFlHf2f9lVcUYzVcr/pub?output=csv")
 
 if not KAID or not KB:
     print("KAID atau KB tidak ditemukan di .env")
@@ -22,19 +28,109 @@ if not KAID or not KB:
 EXPORT_RESULTS = []
 
 # ======================================
-# POSITIONS (urutan row)
+# POSITIONS - Fetched from Google Sheets
 # Sheet structure:
 # Row 1: Header (Nama Posisi, JOB_ID, UPLOAD_ID, File Storage)
 # Row 2+: Data per position
 # ======================================
-POSITIONS = {
-    "Account Executive Kompasiana": 260796,
-    "Account Executive Pasangiklan.com": 256571,
-    "Account Executive VCBL": 259102,
-    "Account Executive KOMPAScom": 260574,
-    "Sales Group Head (VCBL)": 261105,
-    "Data Reliability Admin": 261144
-}
+def fetch_positions_from_sheet(max_retries=3):
+    """
+    Fetch positions and JOB_IDs from Google Sheets.
+    Returns a dictionary of {position_name: job_id} and a list of row mappings.
+    """
+    for attempt in range(max_retries):
+        try:
+            print("📊 Mengambil data posisi dari Google Sheets...")
+            response = requests.get(GSHEET_CSV_URL, timeout=30)
+            
+            if response.status_code != 200:
+                if attempt < max_retries - 1:
+                    print(f"⚠️ Gagal fetch (status {response.status_code}), retry...")
+                    time.sleep(2)
+                    continue
+                print(f"❌ Gagal fetch Google Sheets (status {response.status_code})")
+                return {}, []
+            
+            # Parse the sheet content using StringIO for proper text encoding
+            sheet_df = pd.read_csv(StringIO(response.text))
+            
+            if sheet_df.empty:
+                print("❌ Google Sheets kosong")
+                return {}, []
+            
+            # Find the position and job_id columns
+            position_column = None
+            job_id_column = None
+            
+            if "Nama Posisi" in sheet_df.columns:
+                position_column = "Nama Posisi"
+            elif "Job Position" in sheet_df.columns:
+                position_column = "Job Position"
+            elif "Position" in sheet_df.columns:
+                position_column = "Position"
+            
+            if "JOB_ID" in sheet_df.columns:
+                job_id_column = "JOB_ID"
+            elif "Job ID" in sheet_df.columns:
+                job_id_column = "Job ID"
+            elif "job_id" in sheet_df.columns:
+                job_id_column = "job_id"
+            
+            if position_column is None or job_id_column is None:
+                available_columns = ", ".join(sheet_df.columns)
+                print(f"❌ Kolom tidak ditemukan. Kolom tersedia: {available_columns}")
+                return {}, []
+            
+            # Build positions dictionary and row mappings
+            positions = {}
+            row_mappings = []  # List of (position_name, row_number)
+            
+            for idx, row in sheet_df.iterrows():
+                position_name = row[position_column]
+                job_id = row[job_id_column]
+                
+                # Skip rows with missing data
+                if pd.isna(position_name) or pd.isna(job_id):
+                    continue
+                
+                position_name = str(position_name).strip()
+                try:
+                    # Convert to float first to handle numeric strings like "260796.0" from Excel/Sheets
+                    # then to int for clean integer job IDs
+                    job_id = int(float(job_id))
+                except (ValueError, TypeError):
+                    continue
+                
+                positions[position_name] = job_id
+                # Row number in sheet (idx + 2 because idx is 0-based and row 1 is header)
+                row_mappings.append((position_name, idx + 2))
+            
+            print(f"✅ Berhasil mengambil {len(positions)} posisi dari Google Sheets")
+            for name, jid in positions.items():
+                print(f"   - {name}: {jid}")
+            
+            return positions, row_mappings
+            
+        except requests.exceptions.Timeout:
+            if attempt < max_retries - 1:
+                print("⚠️ Timeout, retry...")
+                time.sleep(3)
+                continue
+            print("❌ Timeout saat mengambil data dari Google Sheets")
+        except requests.exceptions.RequestException as e:
+            if attempt < max_retries - 1:
+                time.sleep(2)
+                continue
+            print(f"❌ Network error: {e}")
+        except Exception as e:
+            print(f"❌ Error: {e}")
+    
+    return {}, []
+
+
+# Global variables to store positions (will be populated at runtime)
+POSITIONS = {}
+POSITION_ROW_MAPPINGS = []
 
 # ======================================
 # EXPORT DIR
@@ -224,13 +320,10 @@ async def write_to_gsheets(playwright):
     # Tunggu user confirm kalau sheets sudah siap
     input("\n👉 Tekan ENTER setelah Google Sheets terbuka dan siap diedit... ")
 
-    # Build a mapping of position name to row number
-    # Based on the POSITIONS dictionary order (which matches sheet row order)
+    # Build a mapping of position name to row number from fetched data
     position_to_row = {}
-    row_num = 2  # Start from row 2 (row 1 is header)
-    for position_name in POSITIONS.keys():
+    for position_name, row_num in POSITION_ROW_MAPPINGS:
         position_to_row[position_name] = row_num
-        row_num += 1
 
     for result in EXPORT_RESULTS:
         position_name, job_id, upload_id, csv_url = result
@@ -291,6 +384,16 @@ async def write_to_gsheets(playwright):
 # MAIN
 # ======================================
 async def main():
+    global POSITIONS, POSITION_ROW_MAPPINGS
+    
+    # Fetch positions from Google Sheets first
+    POSITIONS, POSITION_ROW_MAPPINGS = fetch_positions_from_sheet()
+    
+    if not POSITIONS:
+        print("\n❌ Tidak ada posisi yang ditemukan di Google Sheets.")
+        print("Pastikan sheet memiliki kolom 'Nama Posisi' dan 'JOB_ID'")
+        return
+    
     async with async_playwright() as pw:
 
         for name, job_id in POSITIONS.items():

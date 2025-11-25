@@ -167,7 +167,7 @@ The `kalibrr_export.py` script automates exporting candidate data from Kalibrr a
 
 1. Install additional dependencies:
 ```bash
-pip install playwright python-dotenv
+pip install playwright python-dotenv pandas requests
 playwright install chromium
 ```
 
@@ -176,9 +176,12 @@ playwright install chromium
 KAID=your_kaid_cookie_value
 KB=your_kb_cookie_value
 GSHEET_URL=https://docs.google.com/spreadsheets/d/YOUR_SHEET_ID/edit
+GSHEET_CSV_URL=https://docs.google.com/spreadsheets/d/e/YOUR_PUBLISHED_SHEET_ID/pub?output=csv
 ```
 
-Note: `GSHEET_URL` is optional. If not provided, it defaults to the preconfigured sheet.
+Note: 
+- `GSHEET_URL` is optional. If not provided, it defaults to the preconfigured sheet.
+- `GSHEET_CSV_URL` is the published CSV URL for reading position data. The sheet must be published to web (File > Share > Publish to web).
 
 ### Usage
 
@@ -187,27 +190,24 @@ python kalibrr_export.py
 ```
 
 The script will:
-1. Loop through all configured job positions
+1. **Automatically fetch job positions from Google Sheets** (no manual configuration needed!)
 2. Export candidates from each position on Kalibrr
 3. Save CSV files locally to `kalibrr_exports/` directory
 4. Open Google Sheets and update the UPLOAD_ID and File Storage columns
 
-### Configured Positions
+### Dynamic Position Loading
 
-The script exports candidates for the following positions:
+The script **automatically reads positions from Google Sheets**, so you only need to add new positions directly to the sheet. No code changes required!
 
-| Position Name | JOB_ID |
-|---------------|--------|
-| Account Executive Kompasiana | 260796 |
-| Account Executive Pasangiklan.com | 256571 |
-| Account Executive VCBL | 259102 |
-| Account Executive KOMPAScom | 260574 |
-| Sales Group Head (VCBL) | 261105 |
-| Data Reliability Admin | 261144 |
+Simply add a new row to your Google Sheet with:
+- **Nama Posisi**: The position name
+- **JOB_ID**: The Kalibrr job ID
+
+The script will automatically pick up new positions on the next run.
 
 ### Google Sheets Format
 
-The script updates a Google Sheet with the following structure:
+The script reads from and updates a Google Sheet with the following structure:
 
 | Nama Posisi | JOB_ID | UPLOAD_ID | File Storage |
 |-------------|--------|-----------|--------------|
