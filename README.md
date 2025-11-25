@@ -159,11 +159,63 @@ GITHUB_BRANCH = "main"
 streamlit run app.py
 ```
 
+## Kalibrr Export Tool
+
+The `kalibrr_export.py` script automates exporting candidate data from Kalibrr and updating the Google Sheets with File Storage URLs.
+
+### Setup
+
+1. Install additional dependencies:
+```bash
+pip install playwright python-dotenv
+playwright install chromium
+```
+
+2. Create a `.env` file with your Kalibrr credentials:
+```
+KAID=your_kaid_cookie_value
+KB=your_kb_cookie_value
+```
+
+### Usage
+
+```bash
+python kalibrr_export.py
+```
+
+The script will:
+1. Loop through all configured job positions
+2. Export candidates from each position on Kalibrr
+3. Save CSV files locally to `kalibrr_exports/` directory
+4. Open Google Sheets and update the UPLOAD_ID and File Storage columns
+
+### Configured Positions
+
+The script exports candidates for the following positions:
+
+| Position Name | JOB_ID |
+|---------------|--------|
+| Account Executive Kompasiana | 260796 |
+| Account Executive Pasangiklan.com | 256571 |
+| Account Executive VCBL | 259102 |
+| Account Executive KOMPAScom | 260574 |
+| Sales Group Head (VCBL) | 261105 |
+| Data Reliability Admin | 261144 |
+
+### Google Sheets Format
+
+The script updates a Google Sheet with the following structure:
+
+| Nama Posisi | JOB_ID | UPLOAD_ID | File Storage |
+|-------------|--------|-----------|--------------|
+| Position name | Job ID | Auto-filled | Auto-filled URL |
+
 ## Repository Structure
 
 ```
 cv-matching-auto/
 ├── app.py                          # Main Streamlit application
+├── kalibrr_export.py               # Kalibrr export automation script
 ├── modules/
 │   ├── __init__.py
 │   ├── extractor.py               # PDF text extraction
