@@ -320,6 +320,10 @@ async def write_to_gsheets(playwright, position_to_row):
     except Exception:
         # Fallback: tunggu beberapa detik
         await page.wait_for_timeout(5000)
+    
+    # Screenshot awal untuk debugging
+    await page.screenshot(path="gsheet_opened.png")
+    print("📸 Screenshot awal: gsheet_opened.png")
 
     for name, job_id, upload_id, csv_url in EXPORT_RESULTS:
         # Get the correct row for this position
@@ -329,80 +333,114 @@ async def write_to_gsheets(playwright, position_to_row):
             continue
             
         print(f"\nUpdating row {row_num} untuk {name}...")
+        print(f"   UPLOAD_ID: {upload_id}")
+        print(f"   Target: C{row_num} dan D{row_num}")
         
         try:
-            # Navigate ke cell menggunakan Name Box
-            # Di Google Sheets, klik Name Box (kotak alamat cell di kiri atas) lalu ketik alamat
+            # Klik pada cell langsung menggunakan koordinat atau selector
+            # Di Google Sheets, cells bisa di-access via aria-label atau data attributes
             
-            # Cara 1: Gunakan keyboard shortcut Ctrl+Shift+J atau klik langsung Name Box
-            # Name Box biasanya punya id "t-name-box" atau class tertentu
+            # Metode 1: Gunakan Ctrl+G yang seharusnya membuka "Go to range" di Google Sheets
+            # Catatan: Di Google Sheets, Ctrl+Shift+P membuka command palette
             
-            name_box_clicked = False
+            # Coba dulu klik sembarang cell untuk memastikan focus di sheet
+            try:
+                await page.click('div.grid-container', timeout=3000)
+                await page.wait_for_timeout(300)
+            except Exception:
+                pass
             
-            # Coba klik Name Box dengan berbagai selector
-            selectors = [
-                'input#t-name-box',
-                '[id="t-name-box"]',
-                '.name-box-text-field input',
-                '[aria-label="Name box"]'
+            # Gunakan Ctrl+G untuk Go to range (ini harusnya bekerja di Google Sheets)
+            await page.keyboard.press("Control+g")
+            await page.wait_for_timeout(800)
+            
+            # Cari dialog input yang muncul
+            dialog_found = False
+            dialog_selectors = [
+                'input[aria-label*="range"]',
+                'input[aria-label*="Range"]', 
+                'input[placeholder*="range"]',
+                '.modal-dialog-content input',
+                '[role="dialog"] input[type="text"]',
+                'input.jfk-textinput'
             ]
             
-            for selector in selectors:
+            for selector in dialog_selectors:
                 try:
-                    name_box = page.locator(selector).first
-                    await name_box.click(timeout=2000)
-                    name_box_clicked = True
-                    break
+                    dialog_input = page.locator(selector).first
+                    if await dialog_input.is_visible(timeout=1000):
+                        await dialog_input.click(timeout=1000)
+                        await dialog_input.fill(f"C{row_num}")
+                        await page.keyboard.press("Enter")
+                        dialog_found = True
+                        print(f"   ✓ Dialog ditemukan dengan selector: {selector}")
+                        break
                 except Exception:
                     continue
             
-            # Jika klik langsung gagal, coba dengan F5 (Go to range di Google Sheets)
-            if not name_box_clicked:
-                await page.keyboard.press("F5")
-                await page.wait_for_timeout(500)
+            # Jika Ctrl+G tidak berhasil, coba metode Name Box
+            if not dialog_found:
+                print("   Ctrl+G tidak berhasil, mencoba Name Box...")
                 
-                # Cari input dialog "Go to range"
-                try:
-                    range_input = page.locator('input[type="text"]').first
-                    await range_input.click(timeout=2000)
-                    name_box_clicked = True
-                except Exception:
-                    pass
+                # Tekan Escape dulu untuk menutup dialog yang mungkin terbuka
+                await page.keyboard.press("Escape")
+                await page.wait_for_timeout(300)
+                
+                name_box_selectors = [
+                    'input#t-name-box',
+                    '[id="t-name-box"]',
+                    '.name-box-text-field input',
+                    '[aria-label="Name box"]',
+                    '.waffle-name-box input'
+                ]
+                
+                for selector in name_box_selectors:
+                    try:
+                        name_box = page.locator(selector).first
+                        if await name_box.is_visible(timeout=1000):
+                            await name_box.click(timeout=1000)
+                            await page.keyboard.press("Control+a")
+                            await page.keyboard.type(f"C{row_num}", delay=50)
+                            await page.keyboard.press("Enter")
+                            dialog_found = True
+                            print(f"   ✓ Name Box ditemukan dengan selector: {selector}")
+                            break
+                    except Exception:
+                        continue
             
-            if not name_box_clicked:
-                print(f"⚠️ Tidak bisa menemukan Name Box, skip row {row_num}")
+            if not dialog_found:
+                print(f"   ⚠️ Tidak bisa navigasi ke cell, skip row {row_num}")
+                await page.screenshot(path=f"error_nav_row_{row_num}.png")
                 continue
             
-            await page.wait_for_timeout(200)
-            
-            # Select all dan ketik alamat cell C{row_num}
-            await page.keyboard.press("Control+a")
-            await page.wait_for_timeout(100)
-            await page.keyboard.type(f"C{row_num}", delay=50)
-            await page.keyboard.press("Enter")
             await page.wait_for_timeout(500)
             
             # Sekarang kita di cell C{row_num}, ketik upload_id
+            # Pastikan cell dalam mode edit
             await page.keyboard.type(str(upload_id), delay=20)
             await page.keyboard.press("Tab")  # Pindah ke kolom D (File Storage)
             await page.wait_for_timeout(300)
             
             # Ketik csv_url di kolom D
-            await page.keyboard.type(csv_url, delay=10)
+            await page.keyboard.type(csv_url, delay=5)
             await page.keyboard.press("Enter")  # Konfirmasi entry
             await page.wait_for_timeout(500)
 
-            print(f"✓ Row {row_num} berhasil diupdate")
+            print(f"   ✓ Row {row_num} berhasil diupdate")
             
         except Exception as e:
-            print(f"✗ Error updating row {row_num}: {e}")
+            print(f"   ✗ Error updating row {row_num}: {e}")
             # Screenshot untuk debug
             try:
                 await page.screenshot(path=f"error_row_{row_num}.png")
-                print(f"  Screenshot disimpan: error_row_{row_num}.png")
+                print(f"   📸 Screenshot error: error_row_{row_num}.png")
             except Exception:
                 pass
 
+    # Screenshot akhir untuk verifikasi
+    await page.screenshot(path="gsheet_final.png")
+    print("\n📸 Screenshot akhir: gsheet_final.png")
+    
     print("\n✅ Google Sheet sudah terupdate semua!")
     await page.wait_for_timeout(2000)
     await browser.close()
