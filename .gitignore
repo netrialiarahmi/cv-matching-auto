@@ -35,6 +35,8 @@ kalibrr_exports/
 playwright_google_data/
 .env
 error_row_*.png
+error_nav_row_*.png
+gsheet_*.png
 
 # Test files
 test_*.py
