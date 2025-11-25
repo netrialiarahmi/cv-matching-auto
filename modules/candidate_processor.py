@@ -1,11 +1,34 @@
 import pandas as pd
 import requests
 from io import BytesIO
+import re
 import streamlit as st
 from modules.extractor import extract_text_from_pdf
 
 # Google Sheets CSV URL
 GOOGLE_SHEETS_URL = "https://docs.google.com/spreadsheets/d/e/2PACX-1vRKC_5lHg9yJgGoBlkH0A-fjpjpiYu4MzO4ieEdSId5wAKS7bsLDdplXWx8944xFlHf2f9lVcUYzVcr/pub?output=csv"
+
+
+def _normalize_position_name(name):
+    """
+    Normalize position name for flexible matching.
+    Handles variations like "KOMPAS.com" vs "KOMPAScom".
+    
+    Args:
+        name: Position name to normalize
+        
+    Returns:
+        Normalized name (lowercase, no special chars except spaces)
+    """
+    if pd.isna(name):
+        return ""
+    # Convert to lowercase
+    name = str(name).lower().strip()
+    # Remove special characters but keep alphanumeric and spaces
+    name = re.sub(r'[^\w\s]', '', name)
+    # Collapse multiple spaces
+    name = re.sub(r'\s+', ' ', name)
+    return name
 
 
 def fetch_candidates_from_google_sheets(job_position_name, max_retries=3):
@@ -60,10 +83,18 @@ def fetch_candidates_from_google_sheets(job_position_name, max_retries=3):
                 st.warning(f"⚠️ No position column found in Google Sheets. Available columns: {available_columns}")
                 return None
             
-            # Find matching row (case-insensitive)
+            # Find matching row using flexible matching
             # Filter out NaN values first before string operations
             valid_positions = sheet_df[position_column].notna()
-            matching_rows = sheet_df[valid_positions & (sheet_df[position_column].str.strip().str.lower() == job_position_name.strip().lower())]
+            
+            # Normalize the target position name for flexible matching
+            normalized_target = _normalize_position_name(job_position_name)
+            
+            # Create a normalized column for matching
+            sheet_df['_normalized_position'] = sheet_df[position_column].apply(_normalize_position_name)
+            
+            # Try exact normalized match first
+            matching_rows = sheet_df[valid_positions & (sheet_df['_normalized_position'] == normalized_target)]
             
             if matching_rows.empty:
                 available_positions = sheet_df[valid_positions][position_column].str.strip().unique().tolist()
