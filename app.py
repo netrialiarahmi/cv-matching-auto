@@ -291,6 +291,12 @@ elif selected == "Screening":
         st.markdown("---")
         st.markdown("### 2️⃣ Load Candidate Data")
 
+        # Add refresh button for Google Sheets data
+        col_refresh, col_spacer = st.columns([1, 3])
+        with col_refresh:
+            if st.button("🔄 Refresh from Google Sheets", type="secondary", help="Click to re-fetch candidate data from Google Sheets"):
+                st.rerun()
+
         # Try to fetch candidates from Google Sheets first
         candidates_df = None
         data_source = None
@@ -307,7 +313,8 @@ elif selected == "Screening":
                 st.dataframe(candidates_df.head(10), use_container_width=True)
         else:
             # No data in Google Sheets, show upload option
-            st.info("ℹ️ No candidate data found in Google Sheets for this position. Please upload a CSV file.")
+            st.warning("⚠️ No candidate data found in Google Sheets for this position.")
+            st.info("💡 Click '🔄 Refresh from Google Sheets' above to retry, or upload a CSV file below.")
 
             uploaded_csv = st.file_uploader(
                 "📤 Upload Candidate CSV File",
