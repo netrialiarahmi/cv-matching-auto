@@ -187,7 +187,7 @@ if selected == "Job Management":
             with st.expander(f"💼 {row['Job Position']}", expanded=False):
                 st.markdown(f"**Date Created:** {row['Date Created']}")
                 st.markdown("**Job Description:**")
-                st.text_area("", value=row['Job Description'], height=150, disabled=True, key=f"view_desc_{idx}")
+                st.text_area("Job Description", value=row['Job Description'], height=150, disabled=True, key=f"view_desc_{idx}", label_visibility="collapsed")
 
                 col1, col2, col3 = st.columns([1, 1, 3])
 
@@ -286,7 +286,7 @@ elif selected == "Screening":
                 st.markdown(f"**Job Description:**")
                 # Use dynamic key based on job position and date to ensure fresh data display
                 jd_key = f"jd_preview_{selected_job}_{job_info.get('Date Created', 'default')}"
-                st.text_area("", value=job_info['Job Description'], height=150, disabled=True, key=jd_key)
+                st.text_area("Job Description", value=job_info['Job Description'], height=150, disabled=True, key=jd_key, label_visibility="collapsed")
 
         st.markdown("---")
         st.markdown("### 2️⃣ Load Candidate Data")
