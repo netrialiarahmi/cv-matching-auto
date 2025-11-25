@@ -15,10 +15,11 @@ def _normalize_position_name(name):
     Handles variations like "KOMPAS.com" vs "KOMPAScom".
     
     Args:
-        name: Position name to normalize
+        name (str): Position name to normalize. Can also be None or NaN.
         
     Returns:
-        Normalized name (lowercase, alphanumeric and spaces only)
+        str: Normalized name (lowercase, alphanumeric and spaces only).
+             Returns empty string for None/NaN inputs.
     """
     if pd.isna(name):
         return ""
