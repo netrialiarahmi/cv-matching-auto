@@ -308,7 +308,17 @@ async def write_to_gsheets(playwright, position_to_row):
     )
     page = await context.new_page()
     
-    await page.goto(GSHEET_URL, wait_until="networkidle")
+    # Load page dengan timeout lebih lama dan wait until networkidle, dengan fallback
+    try:
+        await page.goto(GSHEET_URL, timeout=60000, wait_until="networkidle")
+    except Exception as e:
+        print(f"⚠️  Page load lambat, mencoba lanjut dengan domcontentloaded: {e}")
+        try:
+            await page.goto(GSHEET_URL, timeout=60000, wait_until="domcontentloaded")
+        except Exception as e2:
+            print(f"❌ Gagal load Google Sheets sama sekali: {e2}")
+            await browser.close()
+            return
     
     print("\nMenunggu Google Sheets terbuka...")
     
