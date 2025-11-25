@@ -157,7 +157,7 @@ async def export_position(playwright, position_name, job_id):
     print(f"\n=== Memproses {position_name} ===")
     print(f"URL: {url}")
 
-    browser = await playwright.chromium.launch(headless=False)
+    browser = await playwright.chromium.launch(headless=True)
     context = await browser.new_context()
 
     # cookies login
@@ -304,7 +304,7 @@ async def write_to_gsheets(playwright, position_to_row):
     
     browser = await playwright.chromium.launch_persistent_context(
         user_data_dir=str(user_data_dir),
-        headless=False
+        headless=True
     )
 
     # Gunakan tab yang sudah ada
