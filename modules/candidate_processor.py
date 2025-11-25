@@ -1,11 +1,35 @@
 import pandas as pd
 import requests
 from io import BytesIO
+import re
 import streamlit as st
 from modules.extractor import extract_text_from_pdf
 
 # Google Sheets CSV URL
 GOOGLE_SHEETS_URL = "https://docs.google.com/spreadsheets/d/e/2PACX-1vRKC_5lHg9yJgGoBlkH0A-fjpjpiYu4MzO4ieEdSId5wAKS7bsLDdplXWx8944xFlHf2f9lVcUYzVcr/pub?output=csv"
+
+
+def _normalize_position_name(name):
+    """
+    Normalize position name for flexible matching.
+    Handles variations like "KOMPAS.com" vs "KOMPAScom".
+    
+    Args:
+        name (str): Position name to normalize. Can also be None or NaN.
+        
+    Returns:
+        str: Normalized name (lowercase, alphanumeric and spaces only).
+             Returns empty string for None/NaN inputs.
+    """
+    if pd.isna(name):
+        return ""
+    # Convert to lowercase
+    name = str(name).lower().strip()
+    # Remove special characters, keeping only letters, numbers, and spaces
+    name = re.sub(r'[^a-z0-9\s]', '', name)
+    # Collapse multiple spaces
+    name = re.sub(r'\s+', ' ', name)
+    return name
 
 
 def fetch_candidates_from_google_sheets(job_position_name, max_retries=3):
@@ -60,10 +84,18 @@ def fetch_candidates_from_google_sheets(job_position_name, max_retries=3):
                 st.warning(f"⚠️ No position column found in Google Sheets. Available columns: {available_columns}")
                 return None
             
-            # Find matching row (case-insensitive)
+            # Find matching row using flexible matching
             # Filter out NaN values first before string operations
             valid_positions = sheet_df[position_column].notna()
-            matching_rows = sheet_df[valid_positions & (sheet_df[position_column].str.strip().str.lower() == job_position_name.strip().lower())]
+            
+            # Normalize the target position name for flexible matching
+            normalized_target = _normalize_position_name(job_position_name)
+            
+            # Find matching row by normalizing each position on-the-fly (more efficient)
+            matching_mask = valid_positions & sheet_df[position_column].apply(
+                lambda x: _normalize_position_name(x) == normalized_target
+            )
+            matching_rows = sheet_df[matching_mask]
             
             if matching_rows.empty:
                 available_positions = sheet_df[valid_positions][position_column].str.strip().unique().tolist()
