@@ -440,29 +440,21 @@ async def write_to_gsheets(playwright, position_to_row):
             
             await page.wait_for_timeout(800)
             
-            # Sekarang kita di cell C{row_num}
-            # PENTING: Tekan F2 atau Enter untuk masuk ke mode edit
-            await page.keyboard.press("F2")
-            await page.wait_for_timeout(300)
-            
-            # Clear cell content dulu (Ctrl+A lalu Delete)
-            await page.keyboard.press("Control+a")
+            # Sekarang kita di cell C{row_num} (kolom UPLOAD_ID)
+            # PENTING: Tekan Delete untuk menghapus isi cell yang sedang dipilih (tanpa masuk edit mode)
+            # Ini HANYA menghapus isi cell C, tidak mempengaruhi kolom A dan B
             await page.keyboard.press("Delete")
             await page.wait_for_timeout(200)
             
-            # Ketik upload_id
+            # Ketik upload_id - langsung ketik akan otomatis masuk edit mode
             await page.keyboard.type(str(upload_id), delay=10)
             await page.wait_for_timeout(300)
             
-            # Tekan Tab untuk pindah ke kolom D dan otomatis masuk edit mode
+            # Tekan Tab untuk pindah ke kolom D (File Storage) dan konfirmasi input
             await page.keyboard.press("Tab")
             await page.wait_for_timeout(500)
             
-            # Ketik csv_url di kolom D
-            # F2 untuk masuk edit mode
-            await page.keyboard.press("F2")
-            await page.wait_for_timeout(200)
-            await page.keyboard.press("Control+a")
+            # Sekarang di cell D{row_num}, hapus isi cell lalu ketik csv_url
             await page.keyboard.press("Delete")
             await page.wait_for_timeout(200)
             
