@@ -198,20 +198,23 @@ The script will:
 ### Weekly Automated Updates
 
 The script supports **automated weekly updates** via GitHub Actions. Every Monday at 00:00 UTC (07:00 WIB), the workflow will:
-1. Fetch all positions from Google Sheets
-2. Export fresh candidate data from Kalibrr
-3. Update the UPLOAD_ID and File Storage columns automatically
-4. **Save positions data to `sheet_positions.csv` in GitHub** (for offline fallback)
+1. Fetch all positions (Nama Posisi + JOB_ID) from Google Sheets
+2. Export fresh candidate data from Kalibrr (gets UPLOAD_ID and File Storage URLs)
+3. **Save all data to `sheet_positions.csv` in GitHub** (UPLOAD_ID and File Storage are auto-filled!)
+4. Also update Google Sheets with the export results
 
-#### Data Caching in GitHub
+#### Data Storage in GitHub (`sheet_positions.csv`)
 
-The weekly workflow automatically commits `sheet_positions.csv` to the GitHub repository, containing:
-- Position names (Nama Posisi)
-- JOB_IDs
-- UPLOAD_IDs (after export)
-- File Storage URLs (after export)
+The weekly workflow automatically commits `sheet_positions.csv` to the GitHub repository. This file contains:
+- **Nama Posisi** - Position names (from Google Sheets)
+- **JOB_ID** - Kalibrr job IDs (from Google Sheets)
+- **UPLOAD_ID** - Auto-filled by weekly export workflow
+- **File Storage** - Auto-filled by weekly export workflow (URLs to candidate CSVs)
 
-This allows the application to work even when Google Sheets is unavailable, by using the cached data from the last successful sync.
+**Benefits:**
+- The application works even when Google Sheets is unavailable
+- UPLOAD_ID and File Storage are automatically updated weekly
+- All data is version-controlled in GitHub
 
 #### Setting up Weekly Automation
 
@@ -223,15 +226,6 @@ To enable weekly automated updates, configure these GitHub Secrets:
 | `KB` | Kalibrr cookie value |
 | `GSHEET_URL` | Google Sheets edit URL |
 | `GSHEET_CSV_URL` | Published CSV URL for reading positions |
-| `GOOGLE_SERVICE_ACCOUNT_JSON` | Google Service Account credentials JSON |
-
-**To create a Google Service Account:**
-1. Go to [Google Cloud Console](https://console.cloud.google.com/)
-2. Create a new project or select existing
-3. Enable Google Sheets API
-4. Create a Service Account and download the JSON key
-5. Share your Google Sheet with the service account email
-6. Copy the entire JSON content to the `GOOGLE_SERVICE_ACCOUNT_JSON` secret
 
 You can also manually trigger the workflow from the Actions tab.
 
@@ -243,7 +237,11 @@ Simply add a new row to your Google Sheet with:
 - **Nama Posisi**: The position name
 - **JOB_ID**: The Kalibrr job ID
 
-The script will automatically pick up new positions on the next run.
+The weekly workflow will automatically:
+1. Pick up new positions
+2. Export candidate data from Kalibrr
+3. Fill in UPLOAD_ID and File Storage
+4. Save everything to GitHub
 
 ### Google Sheets Format
 
