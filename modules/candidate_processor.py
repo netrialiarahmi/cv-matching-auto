@@ -188,8 +188,9 @@ def fetch_candidates_from_google_sheets(job_position_name, max_retries=3):
                 
                 if cached_position_column:
                     cached_valid = cached_df[cached_position_column].notna()
+                    # Reuse normalized_target from earlier in the function
                     cached_matching = cached_valid & cached_df[cached_position_column].apply(
-                        lambda x: _normalize_position_name(x) == _normalize_position_name(job_position_name)
+                        lambda x: _normalize_position_name(x) == normalized_target
                     )
                     cached_rows = cached_df[cached_matching]
                     
