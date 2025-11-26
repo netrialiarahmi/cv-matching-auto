@@ -60,7 +60,9 @@ def fetch_candidates_from_google_sheets(job_position_name, max_retries=3):
     2. Downloading the CSV from the File Storage URL
     3. Returning the candidate data from that CSV
     
-    Falls back to cached sheet_positions.csv if Google Sheets is unavailable.
+    Falls back to cached sheet_positions.csv if:
+    - Google Sheets is unavailable, or
+    - Google Sheets has the position but File Storage URL is empty
     
     Args:
         job_position_name: The job position name to filter candidates by.
@@ -171,30 +173,66 @@ def fetch_candidates_from_google_sheets(job_position_name, max_retries=3):
     file_storage_url = matching_rows.iloc[0][file_storage_column]
     
     if pd.isna(file_storage_url) or not str(file_storage_url).strip():
-        # Check if JOB_ID exists - this means export script needs to be run
-        job_id_column = None
-        if "JOB_ID" in sheet_df.columns:
-            job_id_column = "JOB_ID"
-        elif "Job ID" in sheet_df.columns:
-            job_id_column = "Job ID"
-        elif "job_id" in sheet_df.columns:
-            job_id_column = "job_id"
+        # If we haven't tried cached file yet, try it as fallback
+        if not use_cached:
+            cached_df = _load_cached_sheet_positions()
+            if cached_df is not None and not cached_df.empty:
+                # Try to find position in cached file
+                cached_position_column = None
+                if "Nama Posisi" in cached_df.columns:
+                    cached_position_column = "Nama Posisi"
+                elif "Job Position" in cached_df.columns:
+                    cached_position_column = "Job Position"
+                elif "Position" in cached_df.columns:
+                    cached_position_column = "Position"
+                
+                if cached_position_column:
+                    cached_valid = cached_df[cached_position_column].notna()
+                    # Reuse normalized_target from earlier in the function
+                    cached_matching = cached_valid & cached_df[cached_position_column].apply(
+                        lambda x: _normalize_position_name(x) == normalized_target
+                    )
+                    cached_rows = cached_df[cached_matching]
+                    
+                    if not cached_rows.empty:
+                        cached_fs_column = None
+                        if "File Storage" in cached_df.columns:
+                            cached_fs_column = "File Storage"
+                        elif "file_storage" in cached_df.columns:
+                            cached_fs_column = "file_storage"
+                        
+                        if cached_fs_column:
+                            cached_url = cached_rows.iloc[0][cached_fs_column]
+                            if pd.notna(cached_url) and str(cached_url).strip():
+                                st.info("ℹ️ Using cached File Storage URL from sheet_positions.csv")
+                                file_storage_url = cached_url
         
-        if job_id_column and pd.notna(matching_rows.iloc[0].get(job_id_column)):
-            job_id = matching_rows.iloc[0][job_id_column]
-            try:
-                job_id_display = int(float(job_id))
-            except (ValueError, TypeError):
-                job_id_display = job_id
-            st.warning(f"⚠️ No File Storage URL found for position '{job_position_name}' (JOB_ID: {job_id_display})")
-            st.info("💡 **To populate File Storage / Cara mengisi File Storage:**\n\n"
-                   "1. Go to GitHub repository → Actions → 'Weekly Kalibrr Export'\n"
-                   "2. Click 'Run workflow' to export candidate data from Kalibrr\n"
-                   "3. Wait for completion, then refresh this page\n\n"
-                   "Or run manually: `python kalibrr_export.py`")
-        else:
-            st.warning(f"⚠️ No data source found for position '{job_position_name}'")
-        return None
+        # If still no URL, show error
+        if pd.isna(file_storage_url) or not str(file_storage_url).strip():
+            # Check if JOB_ID exists - this means export script needs to be run
+            job_id_column = None
+            if "JOB_ID" in sheet_df.columns:
+                job_id_column = "JOB_ID"
+            elif "Job ID" in sheet_df.columns:
+                job_id_column = "Job ID"
+            elif "job_id" in sheet_df.columns:
+                job_id_column = "job_id"
+            
+            if job_id_column and pd.notna(matching_rows.iloc[0].get(job_id_column)):
+                job_id = matching_rows.iloc[0][job_id_column]
+                try:
+                    job_id_display = int(float(job_id))
+                except (ValueError, TypeError):
+                    job_id_display = job_id
+                st.warning(f"⚠️ No File Storage URL found for position '{job_position_name}' (JOB_ID: {job_id_display})")
+                st.info("💡 **To populate File Storage / Cara mengisi File Storage:**\n\n"
+                       "1. Go to GitHub repository → Actions → 'Weekly Kalibrr Export'\n"
+                       "2. Click 'Run workflow' to export candidate data from Kalibrr\n"
+                       "3. Wait for completion, then refresh this page\n\n"
+                       "Or run manually: `python kalibrr_export.py`")
+            else:
+                st.warning(f"⚠️ No data source found for position '{job_position_name}'")
+            return None
     
     # Step 4: Download the CSV from the File Storage URL (with retry)
     # Don't display the URL to users for security
