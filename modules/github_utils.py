@@ -24,6 +24,57 @@ GITHUB_TIMEOUT = 30
 GITHUB_CONTENTS_API_SIZE_LIMIT = 1_000_000  # 1MB
 
 
+def _deduplicate_candidates(df):
+    """Deduplicate candidates while handling empty emails properly.
+    
+    For rows with valid emails: deduplicates by email + job position.
+    For rows without emails: deduplicates by candidate name + job position.
+    Preserves original row order.
+    
+    Args:
+        df: DataFrame with candidate data
+        
+    Returns:
+        pd.DataFrame: Deduplicated DataFrame with original order preserved
+    """
+    if df.empty:
+        return df
+    
+    if "Candidate Email" in df.columns and "Job Position" in df.columns:
+        # Reset index to ensure consistent indexing for order preservation
+        df = df.reset_index(drop=True)
+        
+        # Separate rows with valid emails from those without
+        has_email = df["Candidate Email"].notna() & (df["Candidate Email"] != "")
+        
+        # Get indices to keep from rows with emails
+        df_with_email = df.loc[has_email]
+        if not df_with_email.empty:
+            keep_email_indices = df_with_email.drop_duplicates(
+                subset=["Candidate Email", "Job Position"], keep="first"
+            ).index.tolist()
+        else:
+            keep_email_indices = []
+        
+        # Get indices to keep from rows without emails (use candidate name instead)
+        df_without_email = df.loc[~has_email]
+        if not df_without_email.empty and "Candidate Name" in df.columns:
+            keep_name_indices = df_without_email.drop_duplicates(
+                subset=["Candidate Name", "Job Position"], keep="first"
+            ).index.tolist()
+        else:
+            keep_name_indices = df_without_email.index.tolist() if not df_without_email.empty else []
+        
+        # Combine indices and sort to preserve original order
+        all_keep_indices = sorted(keep_email_indices + keep_name_indices)
+        return df.loc[all_keep_indices].reset_index(drop=True)
+    
+    elif "Filename" in df.columns and "Job Position" in df.columns:
+        return df.drop_duplicates(subset=["Filename", "Job Position"], keep="first")
+    
+    return df
+
+
 def get_results_filename(job_position):
     """Generate a safe filename for storing results by job position.
     
@@ -138,11 +189,8 @@ def save_results_to_github(df, path=None, job_position=None, max_retries=3):
                             st.warning(f"⚠️ Could not parse existing data (using new data only): {str(e)}")
                 
                 # Apply deduplication to remove duplicates (handles both merged and new-only data)
-                # Use Candidate Email as unique identifier (new format) or fallback to Filename (old format)
                 # Keep 'first' to preserve existing records and their shortlist status
-                dedup_columns = ["Candidate Email", "Job Position"] if "Candidate Email" in df.columns else ["Filename", "Job Position"]
-                if all(col in df.columns for col in dedup_columns):
-                    df.drop_duplicates(subset=dedup_columns, keep="first", inplace=True)
+                df = _deduplicate_candidates(df)
             elif r.status_code == 401:
                 st.error(f"❌ GitHub authentication failed: {r.status_code} - {r.text}")
                 return False
@@ -370,9 +418,8 @@ def load_all_results_from_github():
     # Merge all results
     if all_results:
         merged_df = pd.concat(all_results, ignore_index=True)
-        # Remove duplicates based on email + job position
-        if "Candidate Email" in merged_df.columns and "Job Position" in merged_df.columns:
-            merged_df.drop_duplicates(subset=["Candidate Email", "Job Position"], keep="first", inplace=True)
+        # Remove duplicates while handling empty emails properly
+        merged_df = _deduplicate_candidates(merged_df)
         return merged_df
     else:
         return pd.DataFrame(columns=RESULTS_COLUMNS)
