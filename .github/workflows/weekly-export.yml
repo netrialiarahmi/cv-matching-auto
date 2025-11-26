@@ -7,7 +7,7 @@ on:
   workflow_dispatch:  # Allow manual triggering
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
   export:
@@ -36,6 +36,14 @@ jobs:
           GSHEET_CSV_URL: ${{ secrets.GSHEET_CSV_URL }}
         run: |
           python kalibrr_export.py
+      
+      - name: Commit sheet_positions.csv to GitHub
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add sheet_positions.csv
+          git diff --staged --quiet || git commit -m "📊 Update sheet_positions.csv from Google Sheets"
+          git push
       
       - name: Upload exported CSVs as artifacts
         uses: actions/upload-artifact@v4

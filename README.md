@@ -201,6 +201,17 @@ The script supports **automated weekly updates** via GitHub Actions. Every Monda
 1. Fetch all positions from Google Sheets
 2. Export fresh candidate data from Kalibrr
 3. Update the UPLOAD_ID and File Storage columns automatically
+4. **Save positions data to `sheet_positions.csv` in GitHub** (for offline fallback)
+
+#### Data Caching in GitHub
+
+The weekly workflow automatically commits `sheet_positions.csv` to the GitHub repository, containing:
+- Position names (Nama Posisi)
+- JOB_IDs
+- UPLOAD_IDs (after export)
+- File Storage URLs (after export)
+
+This allows the application to work even when Google Sheets is unavailable, by using the cached data from the last successful sync.
 
 #### Setting up Weekly Automation
 

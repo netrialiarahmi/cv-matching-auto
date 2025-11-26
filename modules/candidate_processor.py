@@ -2,11 +2,32 @@ import pandas as pd
 import requests
 from io import BytesIO
 import re
+import os
 import streamlit as st
 from modules.extractor import extract_text_from_pdf
 
 # Google Sheets CSV URL
 GOOGLE_SHEETS_URL = "https://docs.google.com/spreadsheets/d/e/2PACX-1vRKC_5lHg9yJgGoBlkH0A-fjpjpiYu4MzO4ieEdSId5wAKS7bsLDdplXWx8944xFlHf2f9lVcUYzVcr/pub?output=csv"
+
+# Local cached positions file (synced weekly from Google Sheets)
+SHEET_POSITIONS_FILE = "sheet_positions.csv"
+
+
+def _load_cached_sheet_positions():
+    """
+    Load cached sheet positions from local CSV file.
+    This file is synced weekly from Google Sheets via GitHub Actions.
+    
+    Returns:
+        DataFrame or None if file doesn't exist
+    """
+    if not os.path.exists(SHEET_POSITIONS_FILE):
+        return None
+    
+    try:
+        return pd.read_csv(SHEET_POSITIONS_FILE)
+    except Exception:
+        return None
 
 
 def _normalize_position_name(name):
@@ -39,6 +60,8 @@ def fetch_candidates_from_google_sheets(job_position_name, max_retries=3):
     2. Downloading the CSV from the File Storage URL
     3. Returning the candidate data from that CSV
     
+    Falls back to cached sheet_positions.csv if Google Sheets is unavailable.
+    
     Args:
         job_position_name: The job position name to filter candidates by.
         max_retries: Maximum number of retry attempts on failure.
@@ -47,6 +70,9 @@ def fetch_candidates_from_google_sheets(job_position_name, max_retries=3):
         DataFrame with candidates from the File Storage CSV, or None if fetch fails.
     """
     import time
+    
+    sheet_df = None
+    use_cached = False
     
     for attempt in range(max_retries):
         try:
@@ -57,95 +83,123 @@ def fetch_candidates_from_google_sheets(job_position_name, max_retries=3):
                 if attempt < max_retries - 1:
                     time.sleep(2)
                     continue
-                st.warning(f"⚠️ Failed to fetch Google Sheets (status {response.status_code})")
-                return None
+                # Try cached file as fallback
+                break
                 
             # Parse the sheet content
             sheet_df = pd.read_csv(BytesIO(response.content))
             
             if sheet_df.empty:
-                st.info("ℹ️ Google Sheets is empty")
-                return None
+                st.info("ℹ️ Google Sheets is empty, trying cached file...")
+                break
             
-            # Step 2: Find the row matching the job position name
-            # Look for columns that might contain position name
-            # Expected format: Nama Posisi, JOB_ID, UPLOAD_ID, File Storage
-            position_column = None
-            if "Nama Posisi" in sheet_df.columns:
-                position_column = "Nama Posisi"
-            elif "Job Position" in sheet_df.columns:
-                position_column = "Job Position"
-            elif "Position" in sheet_df.columns:
-                position_column = "Position"
+            # Successfully fetched from Google Sheets
+            break
             
-            if position_column is None:
-                # If no position column, can't match
-                available_columns = ", ".join(sheet_df.columns)
-                st.warning(f"⚠️ No position column found in Google Sheets. Available columns: {available_columns}")
-                return None
-            
-            # Find matching row using flexible matching
-            # Filter out NaN values first before string operations
-            valid_positions = sheet_df[position_column].notna()
-            
-            # Normalize the target position name for flexible matching
-            normalized_target = _normalize_position_name(job_position_name)
-            
-            # Find matching row by normalizing each position on-the-fly (more efficient)
-            matching_mask = valid_positions & sheet_df[position_column].apply(
-                lambda x: _normalize_position_name(x) == normalized_target
-            )
-            matching_rows = sheet_df[matching_mask]
-            
-            if matching_rows.empty:
-                available_positions = sheet_df[valid_positions][position_column].str.strip().unique().tolist()
-                st.info(f"ℹ️ No match found for '{job_position_name}' in Google Sheets. Available positions: {', '.join(available_positions[:5])}")
-                return None
-            
-            # Step 3: Get the File Storage URL from the matching row
-            file_storage_column = None
-            if "File Storage" in sheet_df.columns:
-                file_storage_column = "File Storage"
-            elif "file_storage" in sheet_df.columns:
-                file_storage_column = "file_storage"
-            
-            if file_storage_column is None:
-                # No data source column found
-                st.warning(f"⚠️ No data source configured in Google Sheets for this position")
-                return None
-            
-            # Get the first matching row's File Storage URL
-            file_storage_url = matching_rows.iloc[0][file_storage_column]
-            
-            if pd.isna(file_storage_url) or not str(file_storage_url).strip():
-                # Check if JOB_ID exists - this means export script needs to be run
-                job_id_column = None
-                if "JOB_ID" in sheet_df.columns:
-                    job_id_column = "JOB_ID"
-                elif "Job ID" in sheet_df.columns:
-                    job_id_column = "Job ID"
-                elif "job_id" in sheet_df.columns:
-                    job_id_column = "job_id"
-                
-                if job_id_column and pd.notna(matching_rows.iloc[0].get(job_id_column)):
-                    job_id = matching_rows.iloc[0][job_id_column]
-                    try:
-                        job_id_display = int(float(job_id))
-                    except (ValueError, TypeError):
-                        job_id_display = job_id
-                    st.warning(f"⚠️ No File Storage URL found for position '{job_position_name}' (JOB_ID: {job_id_display})")
-                    st.info("💡 **To populate File Storage / Cara mengisi File Storage:**\n\n"
-                           "1. Go to GitHub repository → Actions → 'Weekly Kalibrr Export'\n"
-                           "2. Click 'Run workflow' to export candidate data from Kalibrr\n"
-                           "3. Wait for completion, then refresh this page\n\n"
-                           "Or run manually: `python kalibrr_export.py`")
-                else:
-                    st.warning(f"⚠️ No data source found for position '{job_position_name}'")
-                return None
-            
-            # Step 4: Download the CSV from the File Storage URL (with retry)
-            # Don't display the URL to users for security
-            
+        except requests.exceptions.Timeout:
+            if attempt < max_retries - 1:
+                time.sleep(3)
+                continue
+            break
+        except requests.exceptions.RequestException:
+            if attempt < max_retries - 1:
+                time.sleep(2)
+                continue
+            break
+        except Exception:
+            break
+    
+    # If Google Sheets failed, try cached file
+    if sheet_df is None or sheet_df.empty:
+        sheet_df = _load_cached_sheet_positions()
+        if sheet_df is not None and not sheet_df.empty:
+            use_cached = True
+            st.info("ℹ️ Using cached position data from sheet_positions.csv")
+        else:
+            st.warning("⚠️ Failed to fetch Google Sheets and no cached data available")
+            return None
+    
+    # Step 2: Find the row matching the job position name
+    # Look for columns that might contain position name
+    # Expected format: Nama Posisi, JOB_ID, UPLOAD_ID, File Storage
+    position_column = None
+    if "Nama Posisi" in sheet_df.columns:
+        position_column = "Nama Posisi"
+    elif "Job Position" in sheet_df.columns:
+        position_column = "Job Position"
+    elif "Position" in sheet_df.columns:
+        position_column = "Position"
+    
+    if position_column is None:
+        # If no position column, can't match
+        available_columns = ", ".join(sheet_df.columns)
+        st.warning(f"⚠️ No position column found. Available columns: {available_columns}")
+        return None
+    
+    # Find matching row using flexible matching
+    # Filter out NaN values first before string operations
+    valid_positions = sheet_df[position_column].notna()
+    
+    # Normalize the target position name for flexible matching
+    normalized_target = _normalize_position_name(job_position_name)
+    
+    # Find matching row by normalizing each position on-the-fly (more efficient)
+    matching_mask = valid_positions & sheet_df[position_column].apply(
+        lambda x: _normalize_position_name(x) == normalized_target
+    )
+    matching_rows = sheet_df[matching_mask]
+    
+    if matching_rows.empty:
+        available_positions = sheet_df[valid_positions][position_column].str.strip().unique().tolist()
+        st.info(f"ℹ️ No match found for '{job_position_name}'. Available positions: {', '.join(available_positions[:5])}")
+        return None
+    
+    # Step 3: Get the File Storage URL from the matching row
+    file_storage_column = None
+    if "File Storage" in sheet_df.columns:
+        file_storage_column = "File Storage"
+    elif "file_storage" in sheet_df.columns:
+        file_storage_column = "file_storage"
+    
+    if file_storage_column is None:
+        # No data source column found
+        st.warning(f"⚠️ No data source configured for this position")
+        return None
+    
+    # Get the first matching row's File Storage URL
+    file_storage_url = matching_rows.iloc[0][file_storage_column]
+    
+    if pd.isna(file_storage_url) or not str(file_storage_url).strip():
+        # Check if JOB_ID exists - this means export script needs to be run
+        job_id_column = None
+        if "JOB_ID" in sheet_df.columns:
+            job_id_column = "JOB_ID"
+        elif "Job ID" in sheet_df.columns:
+            job_id_column = "Job ID"
+        elif "job_id" in sheet_df.columns:
+            job_id_column = "job_id"
+        
+        if job_id_column and pd.notna(matching_rows.iloc[0].get(job_id_column)):
+            job_id = matching_rows.iloc[0][job_id_column]
+            try:
+                job_id_display = int(float(job_id))
+            except (ValueError, TypeError):
+                job_id_display = job_id
+            st.warning(f"⚠️ No File Storage URL found for position '{job_position_name}' (JOB_ID: {job_id_display})")
+            st.info("💡 **To populate File Storage / Cara mengisi File Storage:**\n\n"
+                   "1. Go to GitHub repository → Actions → 'Weekly Kalibrr Export'\n"
+                   "2. Click 'Run workflow' to export candidate data from Kalibrr\n"
+                   "3. Wait for completion, then refresh this page\n\n"
+                   "Or run manually: `python kalibrr_export.py`")
+        else:
+            st.warning(f"⚠️ No data source found for position '{job_position_name}'")
+        return None
+    
+    # Step 4: Download the CSV from the File Storage URL (with retry)
+    # Don't display the URL to users for security
+    
+    for attempt in range(max_retries):
+        try:
             # Add proper headers for Google Storage API
             headers = {
                 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
@@ -167,7 +221,8 @@ def fetch_candidates_from_google_sheets(job_position_name, max_retries=3):
                 st.info("ℹ️ Downloaded CSV is empty")
                 return None
             
-            st.success(f"✅ Successfully fetched {len(candidates_df)} candidate(s)")
+            source_msg = "cached data" if use_cached else "Google Sheets"
+            st.success(f"✅ Successfully fetched {len(candidates_df)} candidate(s) from {source_msg}")
             return candidates_df
             
         except requests.exceptions.Timeout:
@@ -180,8 +235,7 @@ def fetch_candidates_from_google_sheets(job_position_name, max_retries=3):
                 time.sleep(2)
                 continue
             return None
-        except Exception as e:
-            # For other errors (parsing, etc.), don't retry
+        except Exception:
             return None
     
     return None
