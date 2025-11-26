@@ -41,9 +41,8 @@ def _deduplicate_candidates(df):
         return df
     
     if "Candidate Email" in df.columns and "Job Position" in df.columns:
-        # Track original index to preserve order
+        # Reset index to ensure consistent indexing for order preservation
         df = df.reset_index(drop=True)
-        original_indices = df.index.tolist()
         
         # Separate rows with valid emails from those without
         has_email = df["Candidate Email"].notna() & (df["Candidate Email"] != "")
