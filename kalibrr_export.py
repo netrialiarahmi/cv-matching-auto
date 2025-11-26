@@ -132,10 +132,117 @@ def fetch_positions_from_sheet(max_retries=3):
 POSITIONS = {}
 
 # ======================================
+# SHEET POSITIONS FILE (cached in GitHub)
+# ======================================
+SHEET_POSITIONS_FILE = Path("sheet_positions.csv")
+
+# ======================================
 # EXPORT DIR
 # ======================================
 EXPORT_DIR = Path("kalibrr_exports")
 EXPORT_DIR.mkdir(exist_ok=True)
+
+
+def save_positions_to_csv(positions_dict, row_mappings):
+    """
+    Save fetched positions to sheet_positions.csv for caching in GitHub.
+    This allows the application to work even when Google Sheets is unavailable.
+    
+    Args:
+        positions_dict: Dictionary of {position_name: job_id}
+        row_mappings: List of (position_name, row_number) tuples
+    """
+    if not positions_dict:
+        print("⚠️ No positions to save")
+        return
+    
+    # Build DataFrame with all columns
+    rows = []
+    for name, job_id in positions_dict.items():
+        rows.append({
+            "Nama Posisi": name,
+            "JOB_ID": job_id,
+            "UPLOAD_ID": "",
+            "File Storage": ""
+        })
+    
+    df = pd.DataFrame(rows)
+    df.to_csv(SHEET_POSITIONS_FILE, index=False)
+    print(f"✅ Saved {len(positions_dict)} positions to {SHEET_POSITIONS_FILE}")
+
+
+def load_positions_from_csv():
+    """
+    Load positions from cached sheet_positions.csv file.
+    Used as fallback when Google Sheets is unavailable.
+    
+    Returns:
+        Tuple of (positions_dict, row_mappings) or ({}, []) if file doesn't exist
+    """
+    if not SHEET_POSITIONS_FILE.exists():
+        print("ℹ️ No cached positions file found")
+        return {}, []
+    
+    try:
+        df = pd.read_csv(SHEET_POSITIONS_FILE)
+        positions = {}
+        row_mappings = []
+        
+        for idx, row in df.iterrows():
+            position_name = row.get("Nama Posisi")
+            job_id = row.get("JOB_ID")
+            
+            if pd.isna(position_name) or pd.isna(job_id):
+                continue
+            
+            position_name = str(position_name).strip()
+            try:
+                # Use pd.to_numeric for safer conversion of JOB_IDs
+                job_id = int(pd.to_numeric(job_id, errors='coerce'))
+                if pd.isna(job_id):
+                    continue
+            except (ValueError, TypeError):
+                continue
+            
+            positions[position_name] = job_id
+            row_mappings.append((position_name, idx + 2))
+        
+        print(f"✅ Loaded {len(positions)} positions from {SHEET_POSITIONS_FILE}")
+        return positions, row_mappings
+    
+    except Exception as e:
+        print(f"❌ Error loading positions from CSV: {e}")
+        return {}, []
+
+
+def update_positions_csv_with_export_results(export_results):
+    """
+    Update the cached sheet_positions.csv with UPLOAD_ID and File Storage from export results.
+    
+    Args:
+        export_results: List of [position_name, job_id, upload_id, csv_url] entries
+    """
+    if not export_results:
+        return
+    
+    if not SHEET_POSITIONS_FILE.exists():
+        print("⚠️ Cannot update: sheet_positions.csv does not exist")
+        return
+    
+    try:
+        df = pd.read_csv(SHEET_POSITIONS_FILE)
+        
+        for name, job_id, upload_id, csv_url in export_results:
+            mask = df["Nama Posisi"] == name
+            if mask.any():
+                df.loc[mask, "UPLOAD_ID"] = upload_id
+                df.loc[mask, "File Storage"] = csv_url
+        
+        df.to_csv(SHEET_POSITIONS_FILE, index=False)
+        print(f"✅ Updated {SHEET_POSITIONS_FILE} with export results")
+    
+    except Exception as e:
+        print(f"❌ Error updating positions CSV: {e}")
 
 # ======================================
 # HELPERS
@@ -513,9 +620,18 @@ async def main():
     POSITIONS, row_mappings = fetch_positions_from_sheet()
     
     if not POSITIONS:
-        print("\n❌ Tidak ada posisi yang ditemukan di Google Sheets.")
+        print("\n⚠️ Tidak ada posisi dari Google Sheets.")
+        print("Mencoba load dari cache lokal...")
+        POSITIONS, row_mappings = load_positions_from_csv()
+    
+    if not POSITIONS:
+        print("\n❌ Tidak ada posisi yang ditemukan.")
         print("Pastikan sheet memiliki kolom 'Nama Posisi' dan 'JOB_ID'")
+        print("atau file sheet_positions.csv tersedia.")
         return
+    
+    # Save positions to local CSV (for caching in GitHub)
+    save_positions_to_csv(POSITIONS, row_mappings)
     
     # Build position to row mapping
     position_to_row = {name: row for name, row in row_mappings}
@@ -533,6 +649,9 @@ async def main():
         
         # Update Google Sheets menggunakan browser automation
         await write_to_gsheets(pw, position_to_row)
+        
+        # Also update the local CSV with export results (for caching in GitHub)
+        update_positions_csv_with_export_results(EXPORT_RESULTS)
 
 if __name__ == "__main__":
     asyncio.run(main())
