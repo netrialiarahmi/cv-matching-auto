@@ -291,46 +291,137 @@ elif selected == "Screening":
         st.markdown("---")
         st.markdown("### 2️⃣ Load Candidate Data")
 
-        # Add refresh button for Google Sheets data
-        col_refresh, col_spacer = st.columns([1, 3])
-        with col_refresh:
-            if st.button("🔄 Refresh from Google Sheets", type="secondary", help="Click to re-fetch candidate data from Google Sheets"):
-                st.rerun()
-
         # Try to fetch candidates from Google Sheets first
         candidates_df = None
         data_source = None
 
-        with st.spinner("🔍 Checking Google Sheets for candidate data..."):
-            candidates_df = fetch_candidates_from_google_sheets(selected_job)
+        candidates_df = fetch_candidates_from_google_sheets(selected_job)
 
         if candidates_df is not None and not candidates_df.empty:
             # Data found in Google Sheets
             data_source = "Google Sheets"
-            st.success(f"✅ Found {len(candidates_df)} candidate(s) from Google Sheets for '{selected_job}'")
 
             with st.expander("👀 Preview Candidate Data from Google Sheets", expanded=True):
                 st.dataframe(candidates_df.head(10), use_container_width=True)
-        else:
-            # No data in Google Sheets, show upload option
-            st.warning("⚠️ No candidate data found in Google Sheets for this position.")
-            st.info("💡 Click '🔄 Refresh from Google Sheets' above to retry, or upload a CSV file below.")
+        
+        # Always show CV upload option
+        st.markdown("---")
+        st.markdown("### 📤 Or Upload CV Files")
+        
+        uploaded_cvs = st.file_uploader(
+            "Upload CV (PDF files)",
+            type=["pdf"],
+            accept_multiple_files=True,
+            help="Upload one or more CV files in PDF format for screening"
+        )
+        
+        # Also show CSV upload option
+        uploaded_csv = st.file_uploader(
+            "Or upload Candidate CSV File",
+            type=["csv"],
+            help="Upload CSV file with candidate information including resume links"
+        )
 
-            uploaded_csv = st.file_uploader(
-                "📤 Upload Candidate CSV File",
-                type=["csv"],
-                help="Upload CSV file with candidate information including resume links"
-            )
+        if uploaded_csv:
+            candidates_df = parse_candidate_csv(uploaded_csv)
+            data_source = "Uploaded CSV"
 
-            if uploaded_csv:
-                candidates_df = parse_candidate_csv(uploaded_csv)
-                data_source = "Uploaded CSV"
+            if candidates_df is not None:
+                with st.expander("👀 Preview Candidate Data from CSV", expanded=True):
+                    st.dataframe(candidates_df.head(10), use_container_width=True)
 
-                if candidates_df is not None:
-                    st.success(f"✅ CSV loaded successfully! Found {len(candidates_df)} candidates.")
-
-                    with st.expander("👀 Preview Candidate Data", expanded=True):
-                        st.dataframe(candidates_df.head(10), use_container_width=True)
+        # Process uploaded CV files (PDF)
+        if uploaded_cvs:
+            st.markdown("---")
+            st.markdown(f"### 3️⃣ Process Uploaded CVs ({len(uploaded_cvs)} files)")
+            
+            if st.button("🚀 Start Screening Uploaded CVs", type="primary"):
+                progress = st.progress(0)
+                status_text = st.empty()
+                save_status = st.empty()
+                
+                successfully_saved = 0
+                failed_saves = 0
+                
+                for i, uploaded_cv in enumerate(uploaded_cvs):
+                    filename = uploaded_cv.name
+                    status_text.text(f"Processing {i+1}/{len(uploaded_cvs)}: {filename}")
+                    
+                    # Extract text from PDF
+                    cv_text = extract_text_from_pdf(uploaded_cv)
+                    
+                    # Try to extract candidate name from CV
+                    candidate_name = ""
+                    if cv_text:
+                        candidate_name = extract_candidate_name_from_cv(cv_text)
+                    
+                    if not candidate_name:
+                        # Use filename without extension as fallback
+                        candidate_name = filename.rsplit('.', 1)[0]
+                    
+                    status_text.text(f"Processing {i+1}/{len(uploaded_cvs)}: {candidate_name}")
+                    
+                    # Score CV
+                    cv_score = 0
+                    summary = "No resume or information available"
+                    strengths = []
+                    weaknesses = []
+                    gaps = []
+                    
+                    if cv_text.strip():
+                        cv_score, summary, strengths, weaknesses, gaps = score_with_openrouter(
+                            cv_text,
+                            selected_job,
+                            job_info['Job Description']
+                        )
+                    
+                    # Create result for this candidate
+                    candidate_result = {
+                        "Candidate Name": candidate_name,
+                        "Candidate Email": "",
+                        "Phone": "",
+                        "Job Position": selected_job,
+                        "Match Score": cv_score,
+                        "AI Summary": summary,
+                        "Strengths": ", ".join(strengths) if strengths else "",
+                        "Weaknesses": ", ".join(weaknesses) if weaknesses else "",
+                        "Gaps": ", ".join(gaps) if gaps else "",
+                        "Latest Job Title": "",
+                        "Latest Company": "",
+                        "Education": "",
+                        "University": "",
+                        "Major": "",
+                        "Kalibrr Profile": "",
+                        "Application Link": "",
+                        "Resume Link": f"Uploaded: {filename}",
+                        "Recruiter Feedback": "",
+                        "Shortlisted": False,
+                        "Date Processed": datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+                    }
+                    
+                    # Save immediately after processing each candidate
+                    try:
+                        result_df = pd.DataFrame([candidate_result])
+                        if save_results_to_github(result_df, job_position=selected_job):
+                            successfully_saved += 1
+                            save_status.success(f"💾 Saved {candidate_name} ({successfully_saved}/{i+1})")
+                        else:
+                            failed_saves += 1
+                            save_status.warning(f"⚠️ Failed to save {candidate_name}")
+                    except Exception as e:
+                        failed_saves += 1
+                        save_status.warning(f"⚠️ Error saving {candidate_name}: {str(e)}")
+                    
+                    progress.progress((i + 1) / len(uploaded_cvs))
+                
+                status_text.text("✅ CV Screening completed!")
+                
+                if successfully_saved > 0:
+                    st.success(f"🎉 Successfully processed and saved {successfully_saved} CV(s)!")
+                    if failed_saves > 0:
+                        st.warning(f"⚠️ {failed_saves} CV(s) failed to save.")
+                else:
+                    st.error("❌ Failed to save any results. Please check your connection and try again.")
 
         # Process candidates if data is available from any source
         if candidates_df is not None and not candidates_df.empty:

@@ -36,7 +36,8 @@ EXPORT_RESULTS = []
 def fetch_positions_from_sheet(max_retries=3):
     """
     Fetch positions and JOB_IDs from Google Sheets.
-    Returns a dictionary of {position_name: job_id} and a list of row mappings.
+    Returns a dictionary of {position_name: job_id}, a list of row mappings,
+    and a dictionary of existing file storage URLs.
     """
     for attempt in range(max_retries):
         try:
@@ -49,18 +50,19 @@ def fetch_positions_from_sheet(max_retries=3):
                     time.sleep(2)
                     continue
                 print(f"❌ Gagal fetch Google Sheets (status {response.status_code})")
-                return {}, []
+                return {}, [], {}
             
             # Parse the sheet content using StringIO for proper text encoding
             sheet_df = pd.read_csv(StringIO(response.text))
             
             if sheet_df.empty:
                 print("❌ Google Sheets kosong")
-                return {}, []
+                return {}, [], {}
             
             # Find the position and job_id columns
             position_column = None
             job_id_column = None
+            file_storage_column = None
             
             if "Nama Posisi" in sheet_df.columns:
                 position_column = "Nama Posisi"
@@ -76,14 +78,20 @@ def fetch_positions_from_sheet(max_retries=3):
             elif "job_id" in sheet_df.columns:
                 job_id_column = "job_id"
             
+            if "File Storage" in sheet_df.columns:
+                file_storage_column = "File Storage"
+            elif "file_storage" in sheet_df.columns:
+                file_storage_column = "file_storage"
+            
             if position_column is None or job_id_column is None:
                 available_columns = ", ".join(sheet_df.columns)
                 print(f"❌ Kolom tidak ditemukan. Kolom tersedia: {available_columns}")
-                return {}, []
+                return {}, [], {}
             
-            # Build positions dictionary and row mappings
+            # Build positions dictionary, row mappings, and existing file storage URLs
             positions = {}
             row_mappings = []  # List of (position_name, row_number)
+            existing_file_storage = {}  # Dict of {position_name: file_storage_url}
             
             for idx, row in sheet_df.iterrows():
                 position_name = row[position_column]
@@ -104,12 +112,19 @@ def fetch_positions_from_sheet(max_retries=3):
                 positions[position_name] = job_id
                 # Row number in sheet (idx + 2 because idx is 0-based and row 1 is header)
                 row_mappings.append((position_name, idx + 2))
+                
+                # Get existing File Storage URL if available
+                if file_storage_column and file_storage_column in row:
+                    file_storage_url = row[file_storage_column]
+                    if pd.notna(file_storage_url) and str(file_storage_url).strip():
+                        existing_file_storage[position_name] = str(file_storage_url).strip()
             
             print(f"✅ Berhasil mengambil {len(positions)} posisi dari Google Sheets")
             for name, jid in positions.items():
-                print(f"   - {name}: {jid}")
+                has_data = "✓" if name in existing_file_storage else "✗"
+                print(f"   - {name}: {jid} [File Storage: {has_data}]")
             
-            return positions, row_mappings
+            return positions, row_mappings, existing_file_storage
             
         except requests.exceptions.Timeout:
             if attempt < max_retries - 1:
@@ -125,7 +140,7 @@ def fetch_positions_from_sheet(max_retries=3):
         except Exception as e:
             print(f"❌ Error: {e}")
     
-    return {}, []
+    return {}, [], {}
 
 
 # Global variables to store positions (will be populated at runtime)
@@ -177,16 +192,17 @@ def load_positions_from_csv():
     Used as fallback when Google Sheets is unavailable.
     
     Returns:
-        Tuple of (positions_dict, row_mappings) or ({}, []) if file doesn't exist
+        Tuple of (positions_dict, row_mappings, existing_file_storage) or ({}, [], {}) if file doesn't exist
     """
     if not SHEET_POSITIONS_FILE.exists():
         print("ℹ️ No cached positions file found")
-        return {}, []
+        return {}, [], {}
     
     try:
         df = pd.read_csv(SHEET_POSITIONS_FILE)
         positions = {}
         row_mappings = []
+        existing_file_storage = {}
         
         for idx, row in df.iterrows():
             position_name = row.get("Nama Posisi")
@@ -206,13 +222,18 @@ def load_positions_from_csv():
             
             positions[position_name] = job_id
             row_mappings.append((position_name, idx + 2))
+            
+            # Get existing File Storage URL if available
+            file_storage_url = row.get("File Storage")
+            if pd.notna(file_storage_url) and str(file_storage_url).strip():
+                existing_file_storage[position_name] = str(file_storage_url).strip()
         
         print(f"✅ Loaded {len(positions)} positions from {SHEET_POSITIONS_FILE}")
-        return positions, row_mappings
+        return positions, row_mappings, existing_file_storage
     
     except Exception as e:
         print(f"❌ Error loading positions from CSV: {e}")
-        return {}, []
+        return {}, [], {}
 
 
 def update_positions_csv_with_export_results(export_results):
@@ -616,13 +637,15 @@ async def write_to_gsheets(playwright, position_to_row):
 async def main():
     global POSITIONS
     
+    existing_file_storage = {}
+    
     # Fetch positions from Google Sheets first
-    POSITIONS, row_mappings = fetch_positions_from_sheet()
+    POSITIONS, row_mappings, existing_file_storage = fetch_positions_from_sheet()
     
     if not POSITIONS:
         print("\n⚠️ Tidak ada posisi dari Google Sheets.")
         print("Mencoba load dari cache lokal...")
-        POSITIONS, row_mappings = load_positions_from_csv()
+        POSITIONS, row_mappings, existing_file_storage = load_positions_from_csv()
     
     if not POSITIONS:
         print("\n❌ Tidak ada posisi yang ditemukan.")
@@ -636,9 +659,32 @@ async def main():
     # Build position to row mapping
     position_to_row = {name: row for name, row in row_mappings}
     
+    # Filter positions that need to be exported (skip those with existing File Storage)
+    positions_to_export = {}
+    skipped_positions = []
+    
+    for name, job_id in POSITIONS.items():
+        if name in existing_file_storage and existing_file_storage[name]:
+            skipped_positions.append(name)
+        else:
+            positions_to_export[name] = job_id
+    
+    if skipped_positions:
+        print(f"\n📌 Skipping {len(skipped_positions)} posisi yang sudah memiliki File Storage:")
+        for name in skipped_positions:
+            print(f"   ⏭️ {name}")
+    
+    if not positions_to_export:
+        print("\n✅ Semua posisi sudah memiliki File Storage. Tidak ada yang perlu di-export.")
+        return
+    
+    print(f"\n🔄 Akan meng-export {len(positions_to_export)} posisi:")
+    for name, job_id in positions_to_export.items():
+        print(f"   📤 {name}: {job_id}")
+    
     async with async_playwright() as pw:
 
-        for name, job_id in POSITIONS.items():
+        for name, job_id in positions_to_export.items():
             await export_position(pw, name, job_id)
 
         if not EXPORT_RESULTS:

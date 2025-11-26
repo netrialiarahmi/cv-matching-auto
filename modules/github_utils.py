@@ -263,19 +263,19 @@ def load_results_from_github(path="results.csv"):
                         # File exists but is completely empty (no headers, no data)
                         # Return empty DataFrame with expected columns for consistency
                         return pd.DataFrame(columns=RESULTS_COLUMNS)
-                    except Exception as e:
-                        st.warning(f"⚠️ Failed to parse GitHub file: {str(e)}. Trying local file.")
+                    except Exception:
                         # Fall through to local file fallback
+                        pass
             elif r.status_code == 404:
-                st.info(f"ℹ️ File not found in GitHub branch '{branch}'. Checking local file.")
-                # Fall through to local file fallback
+                # File not found in GitHub branch, fall through to local file fallback
+                pass
             else:
-                st.warning(f"⚠️ GitHub load failed ({r.status_code}). Trying local file.")
-                # Fall through to local file fallback
+                # GitHub load failed, fall through to local file fallback
+                pass
                 
-        except requests.exceptions.RequestException as e:
-            st.warning(f"⚠️ Failed to connect to GitHub: {str(e)}. Trying local file.")
-            # Fall through to local file fallback
+        except requests.exceptions.RequestException:
+            # Failed to connect to GitHub, fall through to local file fallback
+            pass
     
     # Fallback to local file
     if os.path.exists(path):
@@ -285,8 +285,7 @@ def load_results_from_github(path="results.csv"):
                 return df
         except pd.errors.EmptyDataError:
             return pd.DataFrame(columns=RESULTS_COLUMNS)
-        except Exception as e:
-            st.error(f"❌ Failed to load local {path}: {str(e)}")
+        except Exception:
             return None
     else:
         # Neither GitHub nor local file exists - return empty DataFrame with expected columns
@@ -498,15 +497,15 @@ def load_job_positions_from_github(path="job_positions.csv"):
                         st.warning(f"⚠️ Failed to parse GitHub file: {str(e)}. Trying local file.")
                         # Fall through to local file fallback
             elif r.status_code == 404:
-                st.info(f"ℹ️ File not found in GitHub branch '{branch}'. Checking local file.")
-                # Fall through to local file fallback
+                # File not found in GitHub branch, fall through to local file fallback
+                pass
             else:
-                st.warning(f"⚠️ GitHub load failed ({r.status_code}). Trying local file.")
-                # Fall through to local file fallback
+                # GitHub load failed, fall through to local file fallback
+                pass
                 
-        except requests.exceptions.RequestException as e:
-            st.warning(f"⚠️ Failed to connect to GitHub: {str(e)}. Trying local file.")
-            # Fall through to local file fallback
+        except requests.exceptions.RequestException:
+            # Failed to connect to GitHub, fall through to local file fallback
+            pass
     
     # Fallback to local file
     if os.path.exists(path):
@@ -516,8 +515,7 @@ def load_job_positions_from_github(path="job_positions.csv"):
                 return df
         except pd.errors.EmptyDataError:
             return pd.DataFrame(columns=["Job Position", "Job Description", "Date Created"])
-        except Exception as e:
-            st.error(f"❌ Failed to load local {path}: {str(e)}")
+        except Exception:
             return None
     else:
         # Neither GitHub nor local file exists - return empty DataFrame with expected columns

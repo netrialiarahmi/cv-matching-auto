@@ -86,14 +86,13 @@ def fetch_candidates_from_google_sheets(job_position_name, max_retries=3):
                     time.sleep(2)
                     continue
                 # Try cached file as fallback after all retries exhausted
-                st.info("ℹ️ Google Sheets unavailable, trying cached file...")
                 break
                 
             # Parse the sheet content
             sheet_df = pd.read_csv(BytesIO(response.content))
             
             if sheet_df.empty:
-                st.info("ℹ️ Google Sheets is empty, trying cached file...")
+                # Google Sheets is empty, trying cached file
                 break
             
             # Successfully fetched from Google Sheets
@@ -117,9 +116,7 @@ def fetch_candidates_from_google_sheets(job_position_name, max_retries=3):
         sheet_df = _load_cached_sheet_positions()
         if sheet_df is not None and not sheet_df.empty:
             use_cached = True
-            st.info("ℹ️ Using cached position data from sheet_positions.csv")
         else:
-            st.warning("⚠️ Failed to fetch Google Sheets and no cached data available")
             return None
     
     # Step 2: Find the row matching the job position name
@@ -135,8 +132,6 @@ def fetch_candidates_from_google_sheets(job_position_name, max_retries=3):
     
     if position_column is None:
         # If no position column, can't match
-        available_columns = ", ".join(sheet_df.columns)
-        st.warning(f"⚠️ No position column found. Available columns: {available_columns}")
         return None
     
     # Find matching row using flexible matching
@@ -153,8 +148,6 @@ def fetch_candidates_from_google_sheets(job_position_name, max_retries=3):
     matching_rows = sheet_df[matching_mask]
     
     if matching_rows.empty:
-        available_positions = sheet_df[valid_positions][position_column].str.strip().unique().tolist()
-        st.info(f"ℹ️ No match found for '{job_position_name}'. Available positions: {', '.join(available_positions[:5])}")
         return None
     
     # Step 3: Get the File Storage URL from the matching row
@@ -166,7 +159,6 @@ def fetch_candidates_from_google_sheets(job_position_name, max_retries=3):
     
     if file_storage_column is None:
         # No data source column found
-        st.warning(f"⚠️ No data source configured for this position")
         return None
     
     # Get the first matching row's File Storage URL
@@ -204,34 +196,11 @@ def fetch_candidates_from_google_sheets(job_position_name, max_retries=3):
                         if cached_fs_column:
                             cached_url = cached_rows.iloc[0][cached_fs_column]
                             if pd.notna(cached_url) and str(cached_url).strip():
-                                st.info("ℹ️ Using cached File Storage URL from sheet_positions.csv")
                                 file_storage_url = cached_url
         
         # If still no URL, show error
         if pd.isna(file_storage_url) or not str(file_storage_url).strip():
-            # Check if JOB_ID exists - this means export script needs to be run
-            job_id_column = None
-            if "JOB_ID" in sheet_df.columns:
-                job_id_column = "JOB_ID"
-            elif "Job ID" in sheet_df.columns:
-                job_id_column = "Job ID"
-            elif "job_id" in sheet_df.columns:
-                job_id_column = "job_id"
-            
-            if job_id_column and pd.notna(matching_rows.iloc[0].get(job_id_column)):
-                job_id = matching_rows.iloc[0][job_id_column]
-                try:
-                    job_id_display = int(float(job_id))
-                except (ValueError, TypeError):
-                    job_id_display = job_id
-                st.warning(f"⚠️ No File Storage URL found for position '{job_position_name}' (JOB_ID: {job_id_display})")
-                st.info("💡 **To populate File Storage / Cara mengisi File Storage:**\n\n"
-                       "1. Go to GitHub repository → Actions → 'Weekly Kalibrr Export'\n"
-                       "2. Click 'Run workflow' to export candidate data from Kalibrr\n"
-                       "3. Wait for completion, then refresh this page\n\n"
-                       "Or run manually: `python kalibrr_export.py`")
-            else:
-                st.warning(f"⚠️ No data source found for position '{job_position_name}'")
+            # No File Storage URL found
             return None
     
     # Step 4: Download the CSV from the File Storage URL (with retry)
@@ -250,18 +219,14 @@ def fetch_candidates_from_google_sheets(job_position_name, max_retries=3):
                 if attempt < max_retries - 1:
                     time.sleep(2)
                     continue
-                st.warning(f"⚠️ Failed to download candidate data (status {csv_response.status_code})")
                 return None
             
             # Parse the candidate CSV data
             candidates_df = pd.read_csv(BytesIO(csv_response.content))
             
             if candidates_df.empty:
-                st.info("ℹ️ Downloaded CSV is empty")
                 return None
             
-            source_msg = "cached data" if use_cached else "Google Sheets"
-            st.success(f"✅ Successfully fetched {len(candidates_df)} candidate(s) from {source_msg}")
             return candidates_df
             
         except requests.exceptions.Timeout:
