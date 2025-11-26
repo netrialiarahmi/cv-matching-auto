@@ -11,7 +11,8 @@ from modules.github_utils import (
     load_job_positions_from_github,
     delete_job_position_from_github,
     update_job_position_in_github,
-    update_results_in_github
+    update_results_in_github,
+    get_results_filename
 )
 from modules.candidate_processor import (
     parse_candidate_csv,
@@ -427,8 +428,9 @@ elif selected == "Screening":
         if candidates_df is not None and not candidates_df.empty:
             st.markdown("---")
 
-            # Load existing results to check for duplicates
-            existing_results = load_results_from_github()
+            # Load existing results from position-specific file to check for duplicates
+            position_results_file = get_results_filename(selected_job)
+            existing_results = load_results_from_github(path=position_results_file)
             existing_candidate_job_pairs = set()
 
             if existing_results is not None and not existing_results.empty:
