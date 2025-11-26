@@ -140,9 +140,24 @@ def save_results_to_github(df, path=None, job_position=None, max_retries=3):
                 # Apply deduplication to remove duplicates (handles both merged and new-only data)
                 # Use Candidate Email as unique identifier (new format) or fallback to Filename (old format)
                 # Keep 'first' to preserve existing records and their shortlist status
-                dedup_columns = ["Candidate Email", "Job Position"] if "Candidate Email" in df.columns else ["Filename", "Job Position"]
-                if all(col in df.columns for col in dedup_columns):
-                    df.drop_duplicates(subset=dedup_columns, keep="first", inplace=True)
+                # For rows with empty emails, use candidate name + job position instead
+                if "Candidate Email" in df.columns and "Job Position" in df.columns:
+                    # Separate rows with valid emails from those without
+                    has_email = df["Candidate Email"].notna() & (df["Candidate Email"] != "")
+                    df_with_email = df[has_email].copy()
+                    df_without_email = df[~has_email].copy()
+                    
+                    # Deduplicate rows with emails by email + job position
+                    df_with_email.drop_duplicates(subset=["Candidate Email", "Job Position"], keep="first", inplace=True)
+                    
+                    # Deduplicate rows without emails by candidate name + job position
+                    if "Candidate Name" in df_without_email.columns:
+                        df_without_email.drop_duplicates(subset=["Candidate Name", "Job Position"], keep="first", inplace=True)
+                    
+                    # Combine back
+                    df = pd.concat([df_with_email, df_without_email], ignore_index=True)
+                elif "Filename" in df.columns and "Job Position" in df.columns:
+                    df.drop_duplicates(subset=["Filename", "Job Position"], keep="first", inplace=True)
             elif r.status_code == 401:
                 st.error(f"❌ GitHub authentication failed: {r.status_code} - {r.text}")
                 return False
@@ -371,8 +386,22 @@ def load_all_results_from_github():
     if all_results:
         merged_df = pd.concat(all_results, ignore_index=True)
         # Remove duplicates based on email + job position
+        # For rows with empty emails, use candidate name + job position instead
         if "Candidate Email" in merged_df.columns and "Job Position" in merged_df.columns:
-            merged_df.drop_duplicates(subset=["Candidate Email", "Job Position"], keep="first", inplace=True)
+            # Separate rows with valid emails from those without
+            has_email = merged_df["Candidate Email"].notna() & (merged_df["Candidate Email"] != "")
+            df_with_email = merged_df[has_email].copy()
+            df_without_email = merged_df[~has_email].copy()
+            
+            # Deduplicate rows with emails by email + job position
+            df_with_email.drop_duplicates(subset=["Candidate Email", "Job Position"], keep="first", inplace=True)
+            
+            # Deduplicate rows without emails by candidate name + job position
+            if "Candidate Name" in df_without_email.columns:
+                df_without_email.drop_duplicates(subset=["Candidate Name", "Job Position"], keep="first", inplace=True)
+            
+            # Combine back
+            merged_df = pd.concat([df_with_email, df_without_email], ignore_index=True)
         return merged_df
     else:
         return pd.DataFrame(columns=RESULTS_COLUMNS)
