@@ -197,7 +197,10 @@ def load_positions_from_csv():
             
             position_name = str(position_name).strip()
             try:
-                job_id = int(float(job_id))
+                # Use pd.to_numeric for safer conversion of JOB_IDs
+                job_id = int(pd.to_numeric(job_id, errors='coerce'))
+                if pd.isna(job_id):
+                    continue
             except (ValueError, TypeError):
                 continue
             

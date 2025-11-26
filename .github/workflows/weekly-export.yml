@@ -42,8 +42,12 @@ jobs:
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           git add sheet_positions.csv
-          git diff --staged --quiet || git commit -m "📊 Update sheet_positions.csv from Google Sheets"
-          git push
+          if git diff --staged --quiet; then
+            echo "No changes to sheet_positions.csv"
+          else
+            git commit -m "📊 Update sheet_positions.csv from Google Sheets"
+            git push
+          fi
       
       - name: Upload exported CSVs as artifacts
         uses: actions/upload-artifact@v4

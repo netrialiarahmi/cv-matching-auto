@@ -83,7 +83,8 @@ def fetch_candidates_from_google_sheets(job_position_name, max_retries=3):
                 if attempt < max_retries - 1:
                     time.sleep(2)
                     continue
-                # Try cached file as fallback
+                # Try cached file as fallback after all retries exhausted
+                st.info("ℹ️ Google Sheets unavailable, trying cached file...")
                 break
                 
             # Parse the sheet content
