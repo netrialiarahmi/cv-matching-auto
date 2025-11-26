@@ -128,10 +128,7 @@ def save_results_to_github(df, path=None, job_position=None, max_retries=3):
                         old_df = pd.read_csv(StringIO(existing_csv))
                         # Merge if old_df has data, otherwise just use new data
                         if not old_df.empty:
-                            old_count = len(old_df)
-                            new_count = len(df)
                             df = pd.concat([old_df, df], ignore_index=True)
-                            st.info(f"📊 Merging data: {old_count} existing + {new_count} new = {len(df)} total records")
                     except pd.errors.EmptyDataError:
                         # Existing file is completely empty (no header), just use the new data
                         pass
