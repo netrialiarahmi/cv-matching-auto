@@ -46,6 +46,7 @@ jobs:
             echo "No changes to sheet_positions.csv"
           else
             git commit -m "📊 Update sheet_positions.csv from Google Sheets"
+            git pull --rebase origin ${{ github.ref_name }} || { echo "Rebase failed, aborting"; git rebase --abort; exit 1; }
             git push
           fi
       
