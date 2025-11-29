@@ -6,6 +6,7 @@ import pandas as pd
 import streamlit as st
 from io import StringIO
 import time
+from concurrent.futures import ThreadPoolExecutor, as_completed
 
 # Expected columns for results.csv
 RESULTS_COLUMNS = [
@@ -22,6 +23,9 @@ GITHUB_TIMEOUT = 30
 # GitHub Contents API size limit for inline content (bytes)
 # Files larger than this should be downloaded via raw URL
 GITHUB_CONTENTS_API_SIZE_LIMIT = 1_000_000  # 1MB
+
+# Maximum number of parallel downloads for fetching CSV files
+MAX_PARALLEL_DOWNLOADS = 8
 
 
 def _deduplicate_candidates(df):
@@ -337,8 +341,46 @@ def load_results_from_github(path="results.csv"):
         return pd.DataFrame(columns=RESULTS_COLUMNS)
 
 
+def _fetch_csv_from_url(session, url, timeout):
+    """Helper function to fetch a single CSV from a URL.
+    
+    Args:
+        session: requests.Session object for connection reuse
+        url: URL to fetch
+        timeout: Request timeout in seconds
+        
+    Returns:
+        pd.DataFrame or None if fetch fails
+    """
+    try:
+        resp = session.get(url, timeout=timeout)
+        if resp.status_code == 200:
+            try:
+                csv_text = resp.text
+                df = pd.read_csv(StringIO(csv_text))
+                # Ensure expected columns exist
+                for col in RESULTS_COLUMNS:
+                    if col not in df.columns:
+                        df[col] = ""
+                return df
+            except (pd.errors.EmptyDataError, pd.errors.ParserError):
+                # CSV is empty or malformed
+                return None
+        return None
+    except (requests.exceptions.RequestException, requests.exceptions.Timeout):
+        # Network error or timeout - skip this file
+        return None
+
+
+@st.cache_data(ttl=300)  # Cache for 5 minutes
 def load_all_results_from_github():
     """Load all results from GitHub by finding and merging all results_*.csv files.
+    
+    Optimizations:
+    - Uses st.cache_data to cache results for 5 minutes (prevents re-fetching on every rerun)
+    - Uses download_url (raw) directly to avoid extra API calls
+    - Downloads CSVs in parallel using ThreadPoolExecutor to reduce latency
+    - Uses a session for TCP connection reuse
     
     This function discovers all position-specific result files (results_*.csv) and merges them
     into a single DataFrame for the Dashboard "All" view.
@@ -350,79 +392,102 @@ def load_all_results_from_github():
     repo = st.secrets.get("GITHUB_REPO", "netrialiarahmi/cv-matching-auto")
     branch = st.secrets.get("GITHUB_BRANCH", "main")
     
-    all_results = []
-    
-    # Try to get list of files from GitHub
+    headers = {}
     if token:
         headers = {
             "Authorization": f"token {token}",
             "Accept": "application/vnd.github+json"
         }
-        
-        # Get list of files in the repository root
-        url = f"https://api.github.com/repos/{repo}/contents/?ref={branch}"
-        
-        try:
-            r = requests.get(url, headers=headers, timeout=GITHUB_TIMEOUT)
-            
-            if r.status_code == 200:
-                files = r.json()
-                # Find all results_*.csv files
-                result_files = [f["name"] for f in files if f["name"].startswith("results_") and f["name"].endswith(".csv")]
-                
-                if result_files:
-                    # Load each file
-                    for filename in result_files:
-                        df = load_results_from_github(path=filename)
-                        if df is not None and not df.empty:
-                            all_results.append(df)
-                
-                # Also check for legacy results.csv
-                if any(f["name"] == "results.csv" for f in files):
-                    df = load_results_from_github(path="results.csv")
-                    if df is not None and not df.empty:
-                        all_results.append(df)
-                        
-        except Exception as e:
-            st.warning(f"⚠️ Could not list files from GitHub: {str(e)}")
     
-    # Also check local directory for results_*.csv files
+    # Get list of files in the repository root
+    url = f"https://api.github.com/repos/{repo}/contents/?ref={branch}"
+    
     try:
-        import glob
-        local_files = glob.glob("results_*.csv") + glob.glob("results.csv")
-        for filename in local_files:
-            if os.path.exists(filename):
-                try:
-                    df = pd.read_csv(filename)
-                    if not df.empty:
-                        # Check if we already loaded this file from GitHub by comparing first few rows
-                        is_duplicate = False
-                        for existing in all_results:
-                            if len(existing) == len(df):
-                                # Compare first 3 rows to check if it's the same dataset
-                                if len(df) >= 3 and len(existing) >= 3:
-                                    if df.head(3).equals(existing.head(3)):
-                                        is_duplicate = True
-                                        break
-                                elif df.equals(existing):
-                                    is_duplicate = True
-                                    break
-                        
-                        if not is_duplicate:
-                            all_results.append(df)
-                except Exception as e:
-                    st.warning(f"⚠️ Could not load local {filename}: {str(e)}")
+        r = requests.get(url, headers=headers, timeout=GITHUB_TIMEOUT)
+        if r.status_code != 200:
+            return pd.DataFrame(columns=RESULTS_COLUMNS)
+        files = r.json()
     except Exception:
-        pass  # Glob not available or other error
-    
-    # Merge all results
-    if all_results:
-        merged_df = pd.concat(all_results, ignore_index=True)
-        # Remove duplicates while handling empty emails properly
-        merged_df = _deduplicate_candidates(merged_df)
-        return merged_df
-    else:
         return pd.DataFrame(columns=RESULTS_COLUMNS)
+    
+    # Collect download URLs for all results_*.csv files
+    download_tasks = []
+    for item in files:
+        name = item.get("name", "")
+        if name.startswith("results_") and name.endswith(".csv"):
+            # Prefer direct download_url (raw) to avoid extra API calls
+            download_url = item.get("download_url")
+            if download_url:
+                download_tasks.append(download_url)
+    
+    if not download_tasks:
+        return pd.DataFrame(columns=RESULTS_COLUMNS)
+    
+    # Create session to reuse TCP connections
+    session = requests.Session()
+    if headers.get("Authorization"):
+        session.headers.update({"Authorization": headers["Authorization"]})
+    
+    dfs = []
+    
+    # Parallel fetch for better performance
+    max_workers = min(MAX_PARALLEL_DOWNLOADS, len(download_tasks))
+    with ThreadPoolExecutor(max_workers=max_workers) as executor:
+        future_to_url = {
+            executor.submit(_fetch_csv_from_url, session, url, GITHUB_TIMEOUT): url 
+            for url in download_tasks
+        }
+        for future in as_completed(future_to_url):
+            try:
+                df = future.result()
+                if df is not None and not df.empty:
+                    dfs.append(df)
+            except Exception:
+                # Silently skip failed downloads - the file may be malformed or inaccessible
+                continue
+    
+    if not dfs:
+        return pd.DataFrame(columns=RESULTS_COLUMNS)
+    
+    merged = pd.concat(dfs, ignore_index=True, sort=False)
+    
+    # Remove duplicates while handling empty emails properly
+    try:
+        merged = _deduplicate_candidates(merged)
+    except Exception:
+        # If deduplication fails, return the merged data without deduplication
+        pass
+    
+    return merged
+
+
+@st.cache_data(ttl=300)  # Cache for 5 minutes
+def load_results_for_position(job_position):
+    """Load results for a specific job position from GitHub.
+    
+    This is more efficient than load_all_results_from_github when filtering by position,
+    as it only downloads the single file for that position.
+    
+    Args:
+        job_position: The job position name to load results for
+        
+    Returns:
+        pd.DataFrame: DataFrame with results for the position, or empty DataFrame if not found
+    """
+    filename = get_results_filename(job_position)
+    df = load_results_from_github(path=filename)
+    if df is None:
+        return pd.DataFrame(columns=RESULTS_COLUMNS)
+    return df
+
+
+def clear_results_cache():
+    """Clear the cached results data.
+    
+    Call this after saving new results to ensure the dashboard shows fresh data.
+    """
+    load_all_results_from_github.clear()
+    load_results_for_position.clear()
 
 
 def save_job_positions_to_github(df, path="job_positions.csv"):
