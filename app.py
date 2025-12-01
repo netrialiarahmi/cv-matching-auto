@@ -746,9 +746,13 @@ elif selected == "Dashboard":
                     candidate_name = f"Candidate {idx + 1}"
 
         score = row.get("Match Score", 0)
+        
+        # Get candidate status for display in expander title
+        candidate_status = row.get("Candidate Status", "") if pd.notna(row.get("Candidate Status")) else ""
+        status_display = f" - {candidate_status}" if candidate_status else ""
 
         # Display candidate details in expander (no checkbox)
-        with st.expander(f"🔍 {candidate_name} - Score: {score}", expanded=False):
+        with st.expander(f"🔍 {candidate_name} - Score: {score}{status_display}", expanded=False):
             col1, col2 = st.columns([1, 1])
 
             with col1:
