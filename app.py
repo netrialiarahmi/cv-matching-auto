@@ -6,7 +6,6 @@ from modules.scorer import score_with_openrouter, get_openrouter_client, extract
 from modules.github_utils import (
     save_results_to_github,
     load_results_from_github,
-    load_all_results_from_github,
     load_results_for_position,
     clear_results_cache,
     save_job_positions_to_github,
@@ -598,41 +597,35 @@ elif selected == "Screening":
 elif selected == "Dashboard":
     st.markdown("<h2 style='text-align:center;color:#0b3d91;'>📊 Screening Dashboard</h2>", unsafe_allow_html=True)
 
-    # Refresh control: only clear cache and rerun when user requests
-    col_refresh, col_info = st.columns([1, 6])
-    with col_refresh:
-        if st.button("🔄 Refresh"):
-            clear_results_cache()
-            st.rerun()
-    with col_info:
-        st.caption("Tip: Gunakan tombol Refresh bila Anda baru saja menjalankan screening atau update hasil di GitHub.")
+    # Load job positions for the dropdown (lightweight - only loads job_positions.csv)
+    jobs_df = load_job_positions_from_github()
 
-    # First, get available positions (we need this for the dropdown)
-    # Use the all_results to get position list, then load per-position if needed
-    df = load_all_results_from_github()
+    # Check if we have any job positions
+    if jobs_df is None or jobs_df.empty or "Job Position" not in jobs_df.columns:
+        st.info("ℹ️ No job positions available. Please add job positions in the Job Management section first.")
+        st.stop()
 
+    # Get list of job positions for filtering - no "All" option for better performance
+    job_positions = jobs_df["Job Position"].tolist()
+    
+    if not job_positions:
+        st.info("ℹ️ No job positions available. Please add job positions in the Job Management section first.")
+        st.stop()
+    
+    selected_job = st.selectbox("🎯 Pilih posisi untuk melihat hasil screening", job_positions)
+    
+    # Load results only for the selected position (efficient - loads single file)
+    df = load_results_for_position(selected_job)
+    
     # Check for errors (None means authentication/connection error)
     if df is None:
         st.error("❌ Failed to load results from GitHub. Please check your GitHub token, repository access, and network connection.")
         st.stop()
 
-    # Check if we have any data
+    # Check if we have any data for this position
     if df.empty:
-        st.info("ℹ️ No screening results yet. Please run a screening first from the 'Screening' section.")
+        st.info(f"ℹ️ No screening results yet for '{selected_job}'. Please run a screening first from the 'Screening' section.")
         st.stop()
-
-    # Get list of unique job positions for filtering
-    job_positions = df["Job Position"].unique().tolist()
-    selected_job = st.selectbox("🎯 Filter by Job Position", ["All"] + job_positions)
-    
-    # Load data based on filter selection
-    if selected_job != "All":
-        # Use position-specific loading for better performance
-        df = load_results_for_position(selected_job)
-        if df.empty:
-            # Fallback to filtering from all results if position-specific file doesn't exist
-            df = load_all_results_from_github()
-            df = df[df["Job Position"] == selected_job].copy()
 
     # Data loaded successfully
     st.session_state["results"] = df
