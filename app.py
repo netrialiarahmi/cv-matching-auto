@@ -749,10 +749,33 @@ elif selected == "Dashboard":
         
         # Get candidate status for display in expander title
         candidate_status = row.get("Candidate Status", "") if pd.notna(row.get("Candidate Status")) else ""
-        status_display = f" - {candidate_status}" if candidate_status else ""
+        
+        # Create expander label with status icon
+        if candidate_status == "OK":
+            # Green font color for OK status
+            status_color = "#28a745"
+            expander_label = f"✅ {candidate_name} - Score: {score} - OK"
+        elif candidate_status == "Rejected":
+            # Red font color for Rejected status
+            status_color = "#dc3545"
+            expander_label = f"❌ {candidate_name} - Score: {score} - Rejected"
+        else:
+            # Default for pending review (no color change)
+            status_color = None
+            expander_label = f"🔍 {candidate_name} - Score: {score}"
 
+        # Display colored text label using markdown, then expander
+        if status_color:
+            st.markdown(
+                f'<p style="color: {status_color}; font-weight: bold; margin-bottom: 0;">✅ {candidate_name} - Score: {score} - {candidate_status}</p>' if candidate_status == "OK" else
+                f'<p style="color: {status_color}; font-weight: bold; margin-bottom: 0;">❌ {candidate_name} - Score: {score} - {candidate_status}</p>',
+                unsafe_allow_html=True
+            )
+        else:
+            st.markdown(f'🔍 {candidate_name} - Score: {score}')
+        
         # Display candidate details in expander (no checkbox)
-        with st.expander(f"🔍 {candidate_name} - Score: {score}{status_display}", expanded=False):
+        with st.expander("View Details", expanded=False):
             col1, col2 = st.columns([1, 1])
 
             with col1:
