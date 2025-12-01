@@ -14,7 +14,7 @@ RESULTS_COLUMNS = [
     "Match Score", "AI Summary", "Strengths", "Weaknesses", "Gaps",
     "Latest Job Title", "Latest Company", "Education", "University", "Major",
     "Kalibrr Profile", "Application Link", "Resume Link",
-    "Recruiter Feedback", "Shortlisted", "Date Processed"
+    "Recruiter Feedback", "Shortlisted", "Candidate Status", "Date Processed"
 ]
 
 # Network timeout for GitHub API requests (in seconds)

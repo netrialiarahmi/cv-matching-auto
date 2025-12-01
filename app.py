@@ -614,6 +614,14 @@ elif selected == "Dashboard":
     
     selected_job = st.selectbox("🎯 Pilih posisi untuk melihat hasil screening", job_positions)
     
+    # Status filter
+    status_filter = st.selectbox(
+        "🔍 Filter by Status",
+        ["All", "Pending Review", "OK", "Rejected"],
+        index=0,
+        help="Filter candidates by their review status"
+    )
+    
     # Load results only for the selected position (efficient - loads single file)
     df = load_results_for_position(selected_job)
     
@@ -631,10 +639,12 @@ elif selected == "Dashboard":
     st.session_state["results"] = df
 
     # Ensure columns exist
-    for col in ["Recruiter Feedback", "Strengths", "Weaknesses", "Gaps", "AI Summary", "Shortlisted"]:
+    for col in ["Recruiter Feedback", "Strengths", "Weaknesses", "Gaps", "AI Summary", "Shortlisted", "Candidate Status"]:
         if col not in df.columns:
             if col == "Shortlisted":
                 df[col] = False
+            elif col == "Candidate Status":
+                df[col] = ""
             else:
                 df[col] = ""
     
@@ -643,25 +653,80 @@ elif selected == "Dashboard":
     if "Shortlisted" in df.columns:
         # Use vectorized string operations for better performance
         df["Shortlisted"] = df["Shortlisted"].astype(str).str.strip().str.lower().isin(['true', '1'])
+    
+    # Clean up Candidate Status column - ensure valid values only
+    if "Candidate Status" in df.columns:
+        df["Candidate Status"] = df["Candidate Status"].fillna("").astype(str)
+        # Ensure only valid status values
+        df.loc[~df["Candidate Status"].isin(["", "OK", "Rejected"]), "Candidate Status"] = ""
 
     # Convert numeric columns
     numeric_cols = ["Match Score"]
     for col in numeric_cols:
         df[col] = pd.to_numeric(df[col], errors="coerce").fillna(0)
 
+    # Store the full dataframe before filtering for status updates
+    df_full = df.copy()
+    
+    # Apply status filter
+    if status_filter == "OK":
+        df = df[df["Candidate Status"] == "OK"]
+    elif status_filter == "Rejected":
+        df = df[df["Candidate Status"] == "Rejected"]
+    elif status_filter == "Pending Review":
+        df = df[df["Candidate Status"] == ""]
+    # else "All" - no filter applied
+
     df_sorted = df.sort_values(by="Match Score", ascending=False).reset_index(drop=True)
+    
+    # Show message if no candidates match filter
+    if df.empty:
+        st.info(f"ℹ️ No candidates with status '{status_filter}' found.")
+        st.stop()
 
-    # --- KPI metrics ---
-    avg_score = int(df_sorted["Match Score"].mean())
-    top_score = int(df_sorted["Match Score"].max())
-    total_candidates = len(df_sorted)
+    # --- KPI metrics (based on full data, not filtered) ---
+    avg_score = int(df_full["Match Score"].mean())
+    top_score = int(df_full["Match Score"].max())
+    total_candidates = len(df_full)
+    ok_candidates = len(df_full[df_full["Candidate Status"] == "OK"])
+    rejected_candidates = len(df_full[df_full["Candidate Status"] == "Rejected"])
 
-    c1, c2, c3 = st.columns(3)
-    c1.metric("📈 Avg Match Score", avg_score)
-    c2.metric("🏆 Top Match Score", top_score)
-    c3.metric("👥 Candidates", total_candidates)
+    c1, c2, c3, c4, c5 = st.columns(5)
+    c1.metric("📈 Avg Score", avg_score)
+    c2.metric("🏆 Top Score", top_score)
+    c3.metric("👥 Total", total_candidates)
+    c4.metric("✅ OK", ok_candidates)
+    c5.metric("❌ Rejected", rejected_candidates)
 
     st.divider()
+    
+    # Helper function to sanitize keys for Streamlit widgets
+    def sanitize_key(text):
+        """Remove special characters from text to create safe widget keys."""
+        import re
+        if not text:
+            return ""
+        return re.sub(r'[^a-zA-Z0-9_]', '_', str(text))
+    
+    # Helper function to update candidate status in the full dataframe
+    def update_candidate_status_in_df(df_to_update, candidate_email_val, candidate_name_val, new_status, new_shortlisted, job_position):
+        """Update candidate status in dataframe and save to GitHub.
+        
+        Uses email + job position as primary identifier, falls back to name + job position.
+        """
+        mask = None
+        if pd.notna(candidate_email_val) and str(candidate_email_val).strip():
+            # Use email + job position for precise matching
+            mask = (df_to_update["Candidate Email"] == candidate_email_val) & (df_to_update["Job Position"] == job_position)
+        else:
+            # Fall back to name + job position
+            mask = (df_to_update["Candidate Name"] == candidate_name_val) & (df_to_update["Job Position"] == job_position)
+        
+        if mask is not None and mask.any():
+            df_to_update.loc[mask, "Candidate Status"] = new_status
+            df_to_update.loc[mask, "Shortlisted"] = new_shortlisted
+            return update_results_in_github(df_to_update, job_position=job_position)
+        return False
 
     # --- Display candidates with expanders ---
     st.subheader("📋 Candidate Details (Ranked by Score)")
@@ -760,6 +825,56 @@ elif selected == "Dashboard":
                 if pd.notna(resume_link) and str(resume_link).strip():
                     link_cols[2].markdown(f"[📄 Resume]({resume_link})")
 
+            # --- Candidate Status Section ---
+            st.markdown("### 🎯 Candidate Status")
+            current_status = row.get("Candidate Status", "")
+            if pd.isna(current_status):
+                current_status = ""
+            
+            # Display current status
+            if current_status == "OK":
+                st.success("✅ Status: **OK** (Shortlisted)")
+            elif current_status == "Rejected":
+                st.error("❌ Status: **Rejected**")
+            else:
+                st.info("⏳ Status: **Pending Review**")
+            
+            # Create unique key using sanitized candidate email or name + index
+            candidate_email = row.get("Candidate Email", "")
+            email_key = sanitize_key(candidate_email) if pd.notna(candidate_email) and str(candidate_email).strip() else ""
+            name_key = sanitize_key(candidate_name)
+            unique_key = f"{email_key}_{idx}" if email_key else f"{name_key}_{idx}"
+            
+            # Status buttons
+            btn_col1, btn_col2, btn_col3 = st.columns(3)
+            
+            with btn_col1:
+                if st.button("✅ OK", key=f"ok_{unique_key}", type="primary" if current_status != "OK" else "secondary", disabled=current_status == "OK"):
+                    if update_candidate_status_in_df(df_full, candidate_email, candidate_name, "OK", True, selected_job):
+                        clear_results_cache()
+                        st.success(f"✅ {candidate_name} marked as OK!")
+                        st.rerun()
+                    else:
+                        st.error("❌ Failed to save status")
+            
+            with btn_col2:
+                if st.button("❌ Rejected", key=f"rejected_{unique_key}", type="primary" if current_status != "Rejected" else "secondary", disabled=current_status == "Rejected"):
+                    if update_candidate_status_in_df(df_full, candidate_email, candidate_name, "Rejected", False, selected_job):
+                        clear_results_cache()
+                        st.success(f"❌ {candidate_name} marked as Rejected!")
+                        st.rerun()
+                    else:
+                        st.error("❌ Failed to save status")
+            
+            with btn_col3:
+                if current_status and st.button("🔄 Reset", key=f"reset_{unique_key}"):
+                    if update_candidate_status_in_df(df_full, candidate_email, candidate_name, "", False, selected_job):
+                        clear_results_cache()
+                        st.info(f"🔄 {candidate_name} status reset!")
+                        st.rerun()
+                    else:
+                        st.error("❌ Failed to reset status")
+
     st.divider()
 
     # --- Summary Table ---
@@ -785,7 +900,7 @@ elif selected == "Dashboard":
 
     # Select key columns for display
     display_cols = ["Candidate Name" if "Candidate Name" in df_display.columns else "Filename",
-                   "Job Position", "Match Score"]
+                   "Job Position", "Match Score", "Candidate Status"]
 
     # Add optional columns if they exist
     optional_cols = ["Latest Job Title", "Education"]
