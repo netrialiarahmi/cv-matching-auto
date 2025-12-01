@@ -246,7 +246,8 @@ def score_with_openrouter(cv_text, job_position, job_description, max_retries=2)
 You are a professional HR assistant. Provide the entire output in Bahasa Indonesia, , including “summary”, “strengths”, “weaknesses”, and “gaps”.. Compare the candidate's CV with the given job position and job description.
 
 Strict rules:
-• Evaluate only experience that is relevant to the job scope.
+• Evaluate by relevant experiences first, relevant project, relevant courses then education.
+• Evaluate only experience that is relevant to the job scope. 
 • Reject common false positives. Roles that are not aligned with the required industry or specialization must not be counted as relevant experience.
 • Examples of unrelated roles include general retail work, store staff, penjaga toko, general sales, promotional or activation agency work, event organizer tasks, marketplace selling, and broad freelance roles that do not match the job scope.
 • If the candidate has more relevant years of experience than required, classify it as "exceeds".
