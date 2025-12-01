@@ -699,6 +699,34 @@ elif selected == "Dashboard":
     c5.metric("❌ Rejected", rejected_candidates)
 
     st.divider()
+    
+    # Helper function to sanitize keys for Streamlit widgets
+    def sanitize_key(text):
+        """Remove special characters from text to create safe widget keys."""
+        import re
+        if not text:
+            return ""
+        return re.sub(r'[^a-zA-Z0-9_]', '_', str(text))
+    
+    # Helper function to update candidate status in the full dataframe
+    def update_candidate_status_in_df(df_to_update, candidate_email_val, candidate_name_val, new_status, new_shortlisted, job_position):
+        """Update candidate status in dataframe and save to GitHub.
+        
+        Uses email + job position as primary identifier, falls back to name + job position.
+        """
+        mask = None
+        if pd.notna(candidate_email_val) and str(candidate_email_val).strip():
+            # Use email + job position for precise matching
+            mask = (df_to_update["Candidate Email"] == candidate_email_val) & (df_to_update["Job Position"] == job_position)
+        else:
+            # Fall back to name + job position
+            mask = (df_to_update["Candidate Name"] == candidate_name_val) & (df_to_update["Job Position"] == job_position)
+        
+        if mask is not None and mask.any():
+            df_to_update.loc[mask, "Candidate Status"] = new_status
+            df_to_update.loc[mask, "Shortlisted"] = new_shortlisted
+            return update_results_in_github(df_to_update, job_position=job_position)
+        return False
 
     # --- Display candidates with expanders ---
     st.subheader("📋 Candidate Details (Ranked by Score)")
@@ -811,31 +839,18 @@ elif selected == "Dashboard":
             else:
                 st.info("⏳ Status: **Pending Review**")
             
-            # Create unique key using candidate email or name + index
+            # Create unique key using sanitized candidate email or name + index
             candidate_email = row.get("Candidate Email", "")
-            unique_key = f"{candidate_email}_{idx}" if pd.notna(candidate_email) and str(candidate_email).strip() else f"{candidate_name}_{idx}"
-            
-            # Helper function to find and update candidate in full dataframe
-            def update_candidate_status(new_status, new_shortlisted):
-                # Find matching row in df_full using email or name
-                mask = None
-                if pd.notna(candidate_email) and str(candidate_email).strip():
-                    mask = df_full["Candidate Email"] == candidate_email
-                else:
-                    mask = df_full["Candidate Name"] == candidate_name
-                
-                if mask is not None and mask.any():
-                    df_full.loc[mask, "Candidate Status"] = new_status
-                    df_full.loc[mask, "Shortlisted"] = new_shortlisted
-                    return update_results_in_github(df_full, job_position=selected_job)
-                return False
+            email_key = sanitize_key(candidate_email) if pd.notna(candidate_email) and str(candidate_email).strip() else ""
+            name_key = sanitize_key(candidate_name)
+            unique_key = f"{email_key}_{idx}" if email_key else f"{name_key}_{idx}"
             
             # Status buttons
             btn_col1, btn_col2, btn_col3 = st.columns(3)
             
             with btn_col1:
                 if st.button("✅ OK", key=f"ok_{unique_key}", type="primary" if current_status != "OK" else "secondary", disabled=current_status == "OK"):
-                    if update_candidate_status("OK", True):
+                    if update_candidate_status_in_df(df_full, candidate_email, candidate_name, "OK", True, selected_job):
                         clear_results_cache()
                         st.success(f"✅ {candidate_name} marked as OK!")
                         st.rerun()
@@ -844,7 +859,7 @@ elif selected == "Dashboard":
             
             with btn_col2:
                 if st.button("❌ Rejected", key=f"rejected_{unique_key}", type="primary" if current_status != "Rejected" else "secondary", disabled=current_status == "Rejected"):
-                    if update_candidate_status("Rejected", False):
+                    if update_candidate_status_in_df(df_full, candidate_email, candidate_name, "Rejected", False, selected_job):
                         clear_results_cache()
                         st.success(f"❌ {candidate_name} marked as Rejected!")
                         st.rerun()
@@ -853,7 +868,7 @@ elif selected == "Dashboard":
             
             with btn_col3:
                 if current_status and st.button("🔄 Reset", key=f"reset_{unique_key}"):
-                    if update_candidate_status("", False):
+                    if update_candidate_status_in_df(df_full, candidate_email, candidate_name, "", False, selected_job):
                         clear_results_cache()
                         st.info(f"🔄 {candidate_name} status reset!")
                         st.rerun()
