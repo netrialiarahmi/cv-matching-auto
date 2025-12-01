@@ -750,36 +750,32 @@ elif selected == "Dashboard":
         # Get candidate status for display in expander title
         candidate_status = row.get("Candidate Status", "") if pd.notna(row.get("Candidate Status")) else ""
         
-        # Create colored status display based on candidate status
-        # Define status colors with explicit background opacity (10% = 1A in hex)
-        STATUS_BG_OPACITY = "1A"  # 10% opacity for background color
-        
+        # Create expander label with status icon
         if candidate_status == "OK":
-            # Green color for OK status
+            # Green font color for OK status
             status_color = "#28a745"
-            status_icon = "✅"
-            expander_label = f"{status_icon} {candidate_name} - Score: {score} - OK"
+            expander_label = f"✅ {candidate_name} - Score: {score} - OK"
         elif candidate_status == "Rejected":
-            # Red color for Rejected status
+            # Red font color for Rejected status
             status_color = "#dc3545"
-            status_icon = "❌"
-            expander_label = f"{status_icon} {candidate_name} - Score: {score} - Rejected"
+            expander_label = f"❌ {candidate_name} - Score: {score} - Rejected"
         else:
-            # Default/grey for pending review
-            status_color = "#6c757d"
-            status_icon = "🔍"
-            expander_label = f"{status_icon} {candidate_name} - Score: {score}"
+            # Default for pending review (no color change)
+            status_color = None
+            expander_label = f"🔍 {candidate_name} - Score: {score}"
 
-        # Display colored status indicator before expander
-        st.markdown(
-            f'<div style="background-color: {status_color}{STATUS_BG_OPACITY}; border-left: 4px solid {status_color}; padding: 2px 8px; margin-bottom: -10px; border-radius: 4px;">'
-            f'<span style="color: {status_color}; font-weight: bold;">●</span>'
-            f'</div>',
-            unsafe_allow_html=True
-        )
+        # Display colored text label using markdown, then expander
+        if status_color:
+            st.markdown(
+                f'<p style="color: {status_color}; font-weight: bold; margin-bottom: 0;">✅ {candidate_name} - Score: {score} - {candidate_status}</p>' if candidate_status == "OK" else
+                f'<p style="color: {status_color}; font-weight: bold; margin-bottom: 0;">❌ {candidate_name} - Score: {score} - {candidate_status}</p>',
+                unsafe_allow_html=True
+            )
+        else:
+            st.markdown(f'🔍 {candidate_name} - Score: {score}')
         
         # Display candidate details in expander (no checkbox)
-        with st.expander(expander_label, expanded=False):
+        with st.expander("View Details", expanded=False):
             col1, col2 = st.columns([1, 1])
 
             with col1:
