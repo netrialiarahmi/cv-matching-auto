@@ -21,7 +21,7 @@ ENV/
 Thumbs.db
 
 # Streamlit
-.streamlit/secrets.toml
+.streamlit/
 
 # Output files (using GitHub for storage)
 output/
