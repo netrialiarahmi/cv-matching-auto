@@ -313,38 +313,145 @@ async def export_position(playwright, position_name, job_id):
             return
     
     await page.wait_for_timeout(3000)
+    
+    # Check if we need to authenticate or if page loaded correctly
+    current_url = page.url
+    page_title = await page.title()
+    print(f"📍 Current URL: {current_url}")
+    print(f"📄 Page title: {page_title}")
+    
+    # Check for login redirect
+    if "login" in current_url.lower() or "signin" in current_url.lower():
+        print("❌ Sepertinya cookies expired - terdeteksi redirect ke halaman login!")
+        print("   Mohon update KAID dan KB di file .env")
+        debug_screenshot_path = EXPORT_DIR / f"debug_login_required_{job_id}.png"
+        await page.screenshot(path=str(debug_screenshot_path))
+        print(f"📸 Screenshot: {debug_screenshot_path}")
+        await browser.close()
+        return
+    
+    # Check for any error page
+    if "error" in page_title.lower() or "not found" in page_title.lower():
+        print(f"❌ Halaman error terdeteksi: {page_title}")
+        debug_screenshot_path = EXPORT_DIR / f"debug_error_{job_id}.png"
+        await page.screenshot(path=str(debug_screenshot_path))
+        print(f"📸 Screenshot: {debug_screenshot_path}")
+        await browser.close()
+        return
 
+    # List of text labels to search for (exact match)
     labels = [
         "EXPORT ALL CANDIDATES",
         "Export All Candidates",
         "Unduh semua kandidat",
-        "UNDUH SEMUA KANDIDAT"
+        "UNDUH SEMUA KANDIDAT",
+        "Export",
+        "EXPORT",
+        "Download",
+        "DOWNLOAD"
+    ]
+    
+    # List of CSS/XPath selectors to try
+    button_selectors = [
+        'button:has-text("Export")',
+        'button:has-text("EXPORT")',
+        'button:has-text("Download")',
+        'button:has-text("Unduh")',
+        '[data-testid*="export"]',
+        '[data-testid*="download"]',
+        '[aria-label*="export" i]',
+        '[aria-label*="download" i]',
+        'a:has-text("Export")',
+        'a:has-text("Download")',
+        '.export-button',
+        '#export-button',
+        'button[class*="export" i]',
+        'button[class*="download" i]',
+        '[role="button"]:has-text("Export")',
+        '[role="button"]:has-text("Download")'
     ]
 
     clicked = False
     print("Menunggu tombol export muncul (max 200 detik)...")
     
+    # Take a debug screenshot at the start
+    debug_screenshot_path = EXPORT_DIR / f"debug_page_{job_id}_start.png"
+    await page.screenshot(path=str(debug_screenshot_path))
+    print(f"📸 Debug screenshot awal: {debug_screenshot_path}")
+    
     # Retry sampai 200 detik untuk nunggu tombol muncul
     for attempt in range(200):
+        # Try text labels first (using regex for partial match)
         for label in labels:
             try:
-                await page.get_by_text(label).click(timeout=1000)
-                clicked = True
-                print(f"✓ Tombol ditemukan setelah {attempt+1} detik: {label}")
-                break
+                # Use regex=True for more flexible matching
+                locator = page.get_by_text(label, exact=False)
+                if await locator.count() > 0:
+                    await locator.first.click(timeout=1000)
+                    clicked = True
+                    print(f"✓ Tombol ditemukan (by text) setelah {attempt+1} detik: {label}")
+                    break
             except Exception:
                 pass
         
         if clicked:
             break
         
-        # Print progress setiap 10 detik
+        # Try CSS/XPath selectors
+        for selector in button_selectors:
+            try:
+                locator = page.locator(selector)
+                if await locator.count() > 0:
+                    await locator.first.click(timeout=1000)
+                    clicked = True
+                    print(f"✓ Tombol ditemukan (by selector) setelah {attempt+1} detik: {selector}")
+                    break
+            except Exception:
+                pass
+        
+        if clicked:
+            break
+        
+        # Print progress setiap 10 detik and take screenshot for debugging
         if (attempt + 1) % 10 == 0:
             print(f"  ... masih menunggu ({attempt+1}/200 detik)")
+            # Take debug screenshot every 30 seconds
+            if (attempt + 1) % 30 == 0:
+                debug_screenshot_path = EXPORT_DIR / f"debug_page_{job_id}_{attempt+1}s.png"
+                await page.screenshot(path=str(debug_screenshot_path))
+                print(f"📸 Debug screenshot: {debug_screenshot_path}")
         
         await asyncio.sleep(1)
     
     if not clicked:
+        # Take final debug screenshot
+        debug_screenshot_path = EXPORT_DIR / f"debug_page_{job_id}_failed.png"
+        await page.screenshot(path=str(debug_screenshot_path), full_page=True)
+        print(f"📸 Debug screenshot (failed): {debug_screenshot_path}")
+        
+        # Log page content for debugging
+        try:
+            page_title = await page.title()
+            print(f"📄 Page title: {page_title}")
+            
+            # Check if we're on a login page or error page
+            page_url = page.url
+            print(f"📍 Current URL: {page_url}")
+            
+            # Try to get visible buttons on the page for debugging
+            buttons = await page.locator('button').all_text_contents()
+            if buttons:
+                print(f"📋 Visible buttons on page: {buttons[:10]}")  # Limit to 10
+            
+            links = await page.locator('a').all_text_contents()
+            if links:
+                # Filter out empty and very long links
+                visible_links = [l.strip()[:50] for l in links if l.strip() and len(l.strip()) < 100][:10]
+                if visible_links:
+                    print(f"📋 Visible links on page: {visible_links}")
+        except Exception as e:
+            print(f"⚠️ Could not get page info: {e}")
+        
         print("❌ Gagal menemukan tombol download setelah 200 detik.")
         await browser.close()
         return
