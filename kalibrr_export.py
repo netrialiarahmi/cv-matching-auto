@@ -352,6 +352,7 @@ async def export_position(playwright, position_name, job_id):
     ]
     
     # List of CSS/XPath selectors to try
+    # Note: :has-text() is Playwright-specific pseudo-selector, not standard CSS
     button_selectors = [
         'button:has-text("Export")',
         'button:has-text("EXPORT")',
@@ -359,14 +360,20 @@ async def export_position(playwright, position_name, job_id):
         'button:has-text("Unduh")',
         '[data-testid*="export"]',
         '[data-testid*="download"]',
-        '[aria-label*="export" i]',
-        '[aria-label*="download" i]',
+        '[data-testid*="Export"]',
+        '[data-testid*="Download"]',
+        '[aria-label*="export"]',
+        '[aria-label*="Export"]',
+        '[aria-label*="download"]',
+        '[aria-label*="Download"]',
         'a:has-text("Export")',
         'a:has-text("Download")',
         '.export-button',
         '#export-button',
-        'button[class*="export" i]',
-        'button[class*="download" i]',
+        'button[class*="export"]',
+        'button[class*="Export"]',
+        'button[class*="download"]',
+        'button[class*="Download"]',
         '[role="button"]:has-text("Export")',
         '[role="button"]:has-text("Download")'
     ]
@@ -381,10 +388,10 @@ async def export_position(playwright, position_name, job_id):
     
     # Retry sampai 200 detik untuk nunggu tombol muncul
     for attempt in range(200):
-        # Try text labels first (using regex for partial match)
+        # Try text labels first (partial match using exact=False)
         for label in labels:
             try:
-                # Use regex=True for more flexible matching
+                # Use exact=False for more flexible matching (partial text match)
                 locator = page.get_by_text(label, exact=False)
                 if await locator.count() > 0:
                     await locator.first.click(timeout=1000)
@@ -438,17 +445,33 @@ async def export_position(playwright, position_name, job_id):
             page_url = page.url
             print(f"📍 Current URL: {page_url}")
             
-            # Try to get visible buttons on the page for debugging
-            buttons = await page.locator('button').all_text_contents()
-            if buttons:
-                print(f"📋 Visible buttons on page: {buttons[:10]}")  # Limit to 10
+            # Try to get visible buttons on the page for debugging (limit to first 10)
+            button_locators = await page.locator('button:visible').all()
+            if button_locators:
+                button_texts = []
+                for btn in button_locators[:10]:  # Limit to first 10 buttons
+                    try:
+                        text = await btn.text_content()
+                        if text and text.strip():
+                            button_texts.append(text.strip()[:50])
+                    except Exception:
+                        pass
+                if button_texts:
+                    print(f"📋 Visible buttons on page: {button_texts}")
             
-            links = await page.locator('a').all_text_contents()
-            if links:
-                # Filter out empty and very long links
-                visible_links = [l.strip()[:50] for l in links if l.strip() and len(l.strip()) < 100][:10]
-                if visible_links:
-                    print(f"📋 Visible links on page: {visible_links}")
+            # Try to get visible links for debugging (limit to first 10)
+            link_locators = await page.locator('a:visible').all()
+            if link_locators:
+                link_texts = []
+                for link in link_locators[:10]:  # Limit to first 10 links
+                    try:
+                        text = await link.text_content()
+                        if text and text.strip() and len(text.strip()) < 100:
+                            link_texts.append(text.strip()[:50])
+                    except Exception:
+                        pass
+                if link_texts:
+                    print(f"📋 Visible links on page: {link_texts}")
         except Exception as e:
             print(f"⚠️ Could not get page info: {e}")
         
