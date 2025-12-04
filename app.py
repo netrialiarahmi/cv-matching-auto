@@ -874,7 +874,7 @@ elif selected == "Dashboard":
             
             # Display current status
             if current_status == "OK":
-                st.success("✅ Status: **OK** (Shortlisted)")
+                st.success("✅ Status: **OK** (Lolos Initial Interview)")
             elif current_status == "Rejected":
                 rejection_display = f" - Alasan: {current_rejection_reason}" if current_rejection_reason else ""
                 st.error(f"❌ Status: **Rejected**{rejection_display}")
@@ -890,23 +890,27 @@ elif selected == "Dashboard":
             # Rejection reason options
             rejection_reasons = ["Overbudget", "Diterima ditempat lain", "Attitude not suite"]
             
-            # Rejection reason dropdown (only show when not already OK status)
+            # Rejection reason dropdown - only show when candidate is OK (after initial interview)
             selected_rejection_reason = ""
-            if current_status != "OK":
+            if current_status == "OK":
+                st.markdown("#### 📋 Hasil Initial Interview")
                 selected_rejection_reason = st.selectbox(
-                    "📝 Alasan Reject (wajib dipilih untuk reject)",
+                    "📝 Alasan Reject (pilih jika tidak lolos interview)",
                     options=["-- Pilih alasan --"] + rejection_reasons,
                     key=f"reason_{unique_key}",
-                    index=0 if not current_rejection_reason else (rejection_reasons.index(current_rejection_reason) + 1 if current_rejection_reason in rejection_reasons else 0)
+                    index=0
                 )
                 if selected_rejection_reason == "-- Pilih alasan --":
                     selected_rejection_reason = ""
+            elif current_status == "Rejected" and current_rejection_reason:
+                st.markdown(f"**Alasan:** {current_rejection_reason}")
             
             # Status buttons
             btn_col1, btn_col2, btn_col3 = st.columns(3)
             
             with btn_col1:
-                if st.button("✅ OK", key=f"ok_{unique_key}", type="primary" if current_status != "OK" else "secondary", disabled=current_status == "OK"):
+                # OK button - for initial CV screening approval
+                if st.button("✅ OK", key=f"ok_{unique_key}", type="primary" if current_status != "OK" else "secondary", disabled=current_status == "OK" or current_status == "Rejected"):
                     if update_candidate_status_in_df(df_full, candidate_email, candidate_name, "OK", True, selected_job, ""):
                         clear_results_cache()
                         st.success(f"✅ {candidate_name} marked as OK!")
@@ -915,8 +919,8 @@ elif selected == "Dashboard":
                         st.error("❌ Failed to save status")
             
             with btn_col2:
-                # Rejected button - requires rejection reason
-                reject_disabled = current_status == "Rejected" or (current_status != "Rejected" and not selected_rejection_reason)
+                # Rejected button - only available for OK candidates (after initial interview) with reason selected
+                reject_disabled = current_status == "Rejected" or current_status != "OK" or not selected_rejection_reason
                 if st.button("❌ Rejected", key=f"rejected_{unique_key}", type="primary" if current_status != "Rejected" else "secondary", disabled=reject_disabled):
                     if update_candidate_status_in_df(df_full, candidate_email, candidate_name, "Rejected", False, selected_job, selected_rejection_reason):
                         clear_results_cache()
@@ -925,9 +929,11 @@ elif selected == "Dashboard":
                     else:
                         st.error("❌ Failed to save status")
                 
-                # Show hint if no rejection reason selected
-                if current_status != "OK" and current_status != "Rejected" and not selected_rejection_reason:
+                # Show hint based on status
+                if current_status == "OK" and not selected_rejection_reason:
                     st.caption("⚠️ Pilih alasan reject terlebih dahulu")
+                elif current_status == "":
+                    st.caption("ℹ️ Klik OK dulu sebelum reject")
             
             with btn_col3:
                 if current_status and st.button("🔄 Reset", key=f"reset_{unique_key}"):
