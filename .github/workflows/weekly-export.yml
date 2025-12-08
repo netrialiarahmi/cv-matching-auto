@@ -1,4 +1,4 @@
-name: Daily Kalibrr Export
+name: Daily Kalibrr Export and CV Link Update
 
 on:
   schedule:
@@ -34,18 +34,23 @@ jobs:
           KB: ${{ secrets.KB }}
           GSHEET_URL: ${{ secrets.GSHEET_URL }}
           GSHEET_CSV_URL: ${{ secrets.GSHEET_CSV_URL }}
+          FORCE_EXPORT: "true"
         run: |
           python kalibrr_export.py
       
-      - name: Commit sheet_positions.csv to GitHub
+      - name: Update CV links in existing results
+        run: |
+          python update_cv_links.py
+      
+      - name: Commit updated files to GitHub
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add sheet_positions.csv
+          git add sheet_positions.csv results*.csv
           if git diff --staged --quiet; then
-            echo "No changes to sheet_positions.csv"
+            echo "No changes to commit"
           else
-            git commit -m "📊 Update sheet_positions.csv from Google Sheets"
+            git commit -m "📊 Update sheet_positions.csv and CV links from Google Sheets"
             git pull --rebase origin ${{ github.ref_name }} || { echo "Rebase failed, aborting"; git rebase --abort; exit 1; }
             git push
           fi

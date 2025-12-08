@@ -789,12 +789,16 @@ async def main():
     # Build position to row mapping
     position_to_row = {name: row for name, row in row_mappings}
     
-    # Filter positions that need to be exported (skip those with existing File Storage)
+    # Check if we should export all positions or skip existing ones
+    # If FORCE_EXPORT env var is set, export all positions (for daily workflow)
+    force_export = os.getenv("FORCE_EXPORT", "false").lower() == "true"
+    
+    # Filter positions that need to be exported
     positions_to_export = {}
     skipped_positions = []
     
     for name, job_id in POSITIONS.items():
-        if name in existing_file_storage and existing_file_storage[name]:
+        if not force_export and name in existing_file_storage and existing_file_storage[name]:
             skipped_positions.append(name)
         else:
             positions_to_export[name] = job_id
@@ -808,7 +812,8 @@ async def main():
         print("\n✅ Semua posisi sudah memiliki File Storage. Tidak ada yang perlu di-export.")
         return
     
-    print(f"\n🔄 Akan meng-export {len(positions_to_export)} posisi:")
+    export_reason = "semua posisi (force export)" if force_export else f"{len(positions_to_export)} posisi"
+    print(f"\n🔄 Akan meng-export {export_reason}:")
     for name, job_id in positions_to_export.items():
         print(f"   📤 {name}: {job_id}")
     

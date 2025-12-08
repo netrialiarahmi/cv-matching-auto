@@ -195,30 +195,42 @@ The script will:
 3. Save CSV files locally to `kalibrr_exports/` directory
 4. Open Google Sheets and update the UPLOAD_ID and File Storage columns
 
-### Weekly Automated Updates
+### Daily Automated Updates
 
-The script supports **automated weekly updates** via GitHub Actions. Every Monday at 00:00 UTC (07:00 WIB), the workflow will:
+The script supports **automated daily updates** via GitHub Actions. Every day at 00:00 UTC (07:00 WIB), the workflow will:
 1. Fetch all positions (Nama Posisi + JOB_ID) from Google Sheets
 2. Export fresh candidate data from Kalibrr (gets UPLOAD_ID and File Storage URLs)
 3. **Save all data to `sheet_positions.csv` in GitHub** (UPLOAD_ID and File Storage are auto-filled!)
-4. Also update Google Sheets with the export results
+4. **Update CV links in existing results** - Updates Resume Link field for existing candidates without re-analyzing
+5. Also update Google Sheets with the export results
+
+#### Automatic CV Link Updates (No Re-Analysis)
+
+The daily workflow includes an automatic CV link update feature:
+- Updates **only the Resume Link** field in existing screening results
+- **Does not re-score or re-analyze** candidates
+- Matches candidates by email address
+- Useful when candidate CV links are refreshed in Kalibrr
+
+This ensures that all resume links stay current without the overhead of re-processing candidates who have already been screened.
 
 #### Data Storage in GitHub (`sheet_positions.csv`)
 
-The weekly workflow automatically commits `sheet_positions.csv` to the GitHub repository. This file contains:
+The daily workflow automatically commits `sheet_positions.csv` to the GitHub repository. This file contains:
 - **Nama Posisi** - Position names (from Google Sheets)
 - **JOB_ID** - Kalibrr job IDs (from Google Sheets)
-- **UPLOAD_ID** - Auto-filled by weekly export workflow
-- **File Storage** - Auto-filled by weekly export workflow (URLs to candidate CSVs)
+- **UPLOAD_ID** - Auto-filled by daily export workflow
+- **File Storage** - Auto-filled by daily export workflow (URLs to candidate CSVs)
 
 **Benefits:**
 - The application works even when Google Sheets is unavailable
-- UPLOAD_ID and File Storage are automatically updated weekly
+- UPLOAD_ID and File Storage are automatically updated daily
+- CV links are kept current without re-analysis
 - All data is version-controlled in GitHub
 
-#### Setting up Weekly Automation
+#### Setting up Daily Automation
 
-To enable weekly automated updates, configure these GitHub Secrets:
+To enable daily automated updates, configure these GitHub Secrets:
 
 | Secret Name | Description |
 |-------------|-------------|
@@ -237,11 +249,12 @@ Simply add a new row to your Google Sheet with:
 - **Nama Posisi**: The position name
 - **JOB_ID**: The Kalibrr job ID
 
-The weekly workflow will automatically:
+The daily workflow will automatically:
 1. Pick up new positions
 2. Export candidate data from Kalibrr
 3. Fill in UPLOAD_ID and File Storage
-4. Save everything to GitHub
+4. Update CV links in existing results (without re-analysis)
+5. Save everything to GitHub
 
 ### Google Sheets Format
 
