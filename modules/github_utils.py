@@ -14,7 +14,7 @@ RESULTS_COLUMNS = [
     "Match Score", "AI Summary", "Strengths", "Weaknesses", "Gaps",
     "Latest Job Title", "Latest Company", "Education", "University", "Major",
     "Kalibrr Profile", "Application Link", "Resume Link",
-    "Recruiter Feedback", "Shortlisted", "Candidate Status", "Date Processed"
+    "Recruiter Feedback", "Shortlisted", "Candidate Status", "Interview Status", "Rejection Reason", "Date Processed"
 ]
 
 # Network timeout for GitHub API requests (in seconds)
@@ -693,7 +693,7 @@ def delete_job_position_from_github(job_position, path="job_positions.csv"):
         return False
 
 
-def update_results_in_github(df, path=None, job_position=None, max_retries=3):
+def update_results_in_github(df, path=None, job_position=None, max_retries=3, silent=False):
     """Replace the entire results file with the provided DataFrame for a specific position.
     
     This is different from save_results_to_github which appends/merges data.
@@ -704,17 +704,20 @@ def update_results_in_github(df, path=None, job_position=None, max_retries=3):
         path: (Optional) Path to the CSV file in GitHub
         job_position: (Optional) Job position name to generate filename
         max_retries: Maximum number of retry attempts on failure
+        silent: (Optional) If True, suppresses error messages for better performance
     
     Returns:
         bool: True if update was successful, False otherwise.
     """
     # Validate input DataFrame
     if df is None:
-        st.error("❌ Cannot update: DataFrame is None")
+        if not silent:
+            st.error("❌ Cannot update: DataFrame is None")
         return False
     
     if df.empty:
-        st.warning("⚠️ Cannot update: DataFrame is empty")
+        if not silent:
+            st.warning("⚠️ Cannot update: DataFrame is empty")
         return False
     
     # Determine the file path
@@ -724,7 +727,8 @@ def update_results_in_github(df, path=None, job_position=None, max_retries=3):
             if "Job Position" in df.columns and not df.empty:
                 job_position = df["Job Position"].iloc[0]
             else:
-                st.error("❌ Cannot update: No path or job_position provided")
+                if not silent:
+                    st.error("❌ Cannot update: No path or job_position provided")
                 return False
         path = get_results_filename(job_position)
     
@@ -733,7 +737,8 @@ def update_results_in_github(df, path=None, job_position=None, max_retries=3):
     branch = st.secrets.get("GITHUB_BRANCH", "main")
 
     if not token:
-        st.error("❌ Missing GITHUB_TOKEN in Streamlit secrets.")
+        if not silent:
+            st.error("❌ Missing GITHUB_TOKEN in Streamlit secrets.")
         return False
 
     headers = {
@@ -742,6 +747,10 @@ def update_results_in_github(df, path=None, job_position=None, max_retries=3):
     }
 
     url = f"https://api.github.com/repos/{repo}/contents/{path}"
+
+    # Pre-encode CSV outside the retry loop for efficiency
+    csv_bytes = df.to_csv(index=False).encode("utf-8")
+    encoded = base64.b64encode(csv_bytes).decode("utf-8")
 
     # Retry loop
     for attempt in range(max_retries):
@@ -753,19 +762,16 @@ def update_results_in_github(df, path=None, job_position=None, max_retries=3):
                 content = r.json()
                 sha = content["sha"]
             elif r.status_code == 401:
-                st.error(f"❌ GitHub authentication failed: {r.status_code} - {r.text}")
+                if not silent:
+                    st.error(f"❌ GitHub authentication failed: {r.status_code} - {r.text}")
                 return False
             elif r.status_code != 404:
-                if attempt == max_retries - 1:
+                if attempt == max_retries - 1 and not silent:
                     st.warning(f"⚠️ Could not check existing file: {r.status_code} - {r.text}")
 
-            # Encode CSV
-            csv_bytes = df.to_csv(index=False).encode("utf-8")
-            encoded = base64.b64encode(csv_bytes).decode("utf-8")
-
-            # Prepare payload
+            # Prepare payload with timestamp for better tracking
             data = {
-                "message": "📊 Update results.csv (shortlist status) via Streamlit app",
+                "message": f"📊 Update candidate status ({path}) - {time.strftime('%Y-%m-%d %H:%M:%S')}",
                 "content": encoded,
                 "branch": branch
             }
@@ -777,34 +783,37 @@ def update_results_in_github(df, path=None, job_position=None, max_retries=3):
             if res.status_code in [200, 201]:
                 return True
             elif res.status_code == 409:
-                # Conflict - file was updated by someone else, retry
+                # Conflict - file was updated by someone else, retry with exponential backoff
                 if attempt < max_retries - 1:
-                    time.sleep(1)
+                    time.sleep(0.5 * (2 ** attempt))  # Exponential backoff: 0.5s, 1s, 2s
                     continue
                 else:
-                    st.error(f"❌ GitHub update failed after {max_retries} attempts: File conflict")
+                    if not silent:
+                        st.error(f"❌ GitHub update failed after {max_retries} attempts: File conflict")
                     return False
             else:
-                if attempt == max_retries - 1:
+                if attempt == max_retries - 1 and not silent:
                     st.error(f"❌ GitHub update failed: {res.status_code} - {res.text}")
                 return False
                 
         except requests.exceptions.Timeout:
             if attempt < max_retries - 1:
-                time.sleep(2)
+                time.sleep(0.5 * (2 ** attempt))  # Exponential backoff
                 continue
             else:
-                st.error(f"❌ GitHub update failed: Connection timeout after {max_retries} attempts")
+                if not silent:
+                    st.error(f"❌ GitHub update failed: Connection timeout after {max_retries} attempts")
                 return False
         except requests.exceptions.RequestException as e:
             if attempt < max_retries - 1:
-                time.sleep(2)
+                time.sleep(0.5 * (2 ** attempt))  # Exponential backoff
                 continue
             else:
-                st.error(f"❌ GitHub update failed: Network error - {str(e)}")
+                if not silent:
+                    st.error(f"❌ GitHub update failed: Network error - {str(e)}")
                 return False
         except Exception as e:
-            if attempt == max_retries - 1:
+            if attempt == max_retries - 1 and not silent:
                 st.error(f"❌ Unexpected error while updating: {str(e)}")
             return False
     
