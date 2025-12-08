@@ -29,6 +29,15 @@ import io
 import re
 import time
 
+# Constants for candidate status
+REJECTION_REASONS = [
+    "Diterima ditempat lain",
+    "Mengundurkan diri",
+    "Overbudget",
+    "Karena status"
+]
+REJECTION_REASON_CV_SCREENING = "Tidak lolos CV screening"
+
 # --- Page Config ---
 logo = Image.open("cqdybkxstovyrla2dje3.webp")
 st.set_page_config(
@@ -398,6 +407,9 @@ elif selected == "Screening":
                         "Resume Link": f"Uploaded: {filename}",
                         "Recruiter Feedback": "",
                         "Shortlisted": False,
+                        "Candidate Status": "",
+                        "Interview Status": "",
+                        "Rejection Reason": "",
                         "Date Processed": datetime.now().strftime("%Y-%m-%d %H:%M:%S")
                     }
                     
@@ -553,6 +565,9 @@ elif selected == "Screening":
                         "Resume Link": resume_url,
                         "Recruiter Feedback": "",
                         "Shortlisted": False,
+                        "Candidate Status": "",
+                        "Interview Status": "",
+                        "Rejection Reason": "",
                         "Date Processed": datetime.now().strftime("%Y-%m-%d %H:%M:%S")
                     }
 
@@ -639,11 +654,11 @@ elif selected == "Dashboard":
     st.session_state["results"] = df
 
     # Ensure columns exist
-    for col in ["Recruiter Feedback", "Strengths", "Weaknesses", "Gaps", "AI Summary", "Shortlisted", "Candidate Status", "Rejection Reason"]:
+    for col in ["Recruiter Feedback", "Strengths", "Weaknesses", "Gaps", "AI Summary", "Shortlisted", "Candidate Status", "Interview Status", "Rejection Reason"]:
         if col not in df.columns:
             if col == "Shortlisted":
                 df[col] = False
-            elif col in ["Candidate Status", "Rejection Reason"]:
+            elif col in ["Candidate Status", "Interview Status", "Rejection Reason"]:
                 df[col] = ""
             else:
                 df[col] = ""
@@ -659,6 +674,12 @@ elif selected == "Dashboard":
         df["Candidate Status"] = df["Candidate Status"].fillna("").astype(str)
         # Ensure only valid status values
         df.loc[~df["Candidate Status"].isin(["", "OK", "Rejected"]), "Candidate Status"] = ""
+    
+    # Clean up Interview Status column - ensure valid values only
+    if "Interview Status" in df.columns:
+        df["Interview Status"] = df["Interview Status"].fillna("").astype(str)
+        # Ensure only valid status values
+        df.loc[~df["Interview Status"].isin(["", "Lanjut", "Rejected"]), "Interview Status"] = ""
 
     # Convert numeric columns
     numeric_cols = ["Match Score"]
@@ -709,7 +730,7 @@ elif selected == "Dashboard":
         return re.sub(r'[^a-zA-Z0-9_]', '_', str(text))
     
     # Helper function to update candidate status in the full dataframe
-    def update_candidate_status_in_df(df_to_update, candidate_email_val, candidate_name_val, new_status, new_shortlisted, job_position, rejection_reason=""):
+    def update_candidate_status_in_df(df_to_update, candidate_email_val, candidate_name_val, new_status, new_shortlisted, job_position, rejection_reason="", interview_status=""):
         """Update candidate status in dataframe and save to GitHub.
         
         Uses email + job position as primary identifier, falls back to name + job position.
@@ -726,6 +747,7 @@ elif selected == "Dashboard":
             df_to_update.loc[mask, "Candidate Status"] = new_status
             df_to_update.loc[mask, "Shortlisted"] = new_shortlisted
             df_to_update.loc[mask, "Rejection Reason"] = rejection_reason
+            df_to_update.loc[mask, "Interview Status"] = interview_status
             return update_results_in_github(df_to_update, job_position=job_position)
         return False
 
@@ -867,17 +889,28 @@ elif selected == "Dashboard":
             if pd.isna(current_status):
                 current_status = ""
             
+            # Get current interview status
+            current_interview_status = row.get("Interview Status", "")
+            if pd.isna(current_interview_status):
+                current_interview_status = ""
+            
             # Get current rejection reason
             current_rejection_reason = row.get("Rejection Reason", "")
             if pd.isna(current_rejection_reason):
                 current_rejection_reason = ""
             
             # Display current status
-            if current_status == "OK":
-                st.success("✅ Status: **OK** (Lolos Initial Interview)")
-            elif current_status == "Rejected":
+            if current_status == "Rejected":
                 rejection_display = f" - Alasan: {current_rejection_reason}" if current_rejection_reason else ""
                 st.error(f"❌ Status: **Rejected**{rejection_display}")
+            elif current_status == "OK":
+                if current_interview_status == "Lanjut":
+                    st.success("✅ Status: **OK** → **Lanjut ke tahap berikutnya**")
+                elif current_interview_status == "Rejected":
+                    rejection_display = f" - Alasan: {current_rejection_reason}" if current_rejection_reason else ""
+                    st.error(f"✅ Status: **OK** → ❌ **Tidak Lolos Interview**{rejection_display}")
+                else:
+                    st.success("✅ Status: **OK** (Lolos CV Screening)")
             else:
                 st.info("⏳ Status: **Pending Review**")
             
@@ -887,62 +920,93 @@ elif selected == "Dashboard":
             name_key = sanitize_key(candidate_name)
             unique_key = f"{email_key}_{idx}" if email_key else f"{name_key}_{idx}"
             
-            # Rejection reason options
-            rejection_reasons = ["Overbudget", "Diterima ditempat lain", "Attitude not suite"]
+
             
-            # Rejection reason dropdown - only show when candidate is OK (after initial interview)
-            selected_rejection_reason = ""
-            if current_status == "OK":
+            # Stage 1: Initial CV Screening (OK / Reject)
+            if current_status == "":
+                st.markdown("#### 📋 Initial CV Screening")
+                btn_col1, btn_col2, btn_col3 = st.columns(3)
+                
+                with btn_col1:
+                    # OK button - for initial CV screening approval
+                    if st.button("✅ OK", key=f"ok_{unique_key}", type="primary", use_container_width=True):
+                        with st.spinner("💾 Menyimpan status..."):
+                            if update_candidate_status_in_df(df_full, candidate_email, candidate_name, "OK", True, selected_job, "", ""):
+                                clear_results_cache()
+                                st.success(f"✅ {candidate_name} lolos CV screening!")
+                                time.sleep(0.5)
+                                st.rerun()
+                            else:
+                                st.error("❌ Gagal menyimpan status")
+                
+                with btn_col2:
+                    # Initial Reject button
+                    if st.button("❌ Reject", key=f"reject_initial_{unique_key}", type="secondary", use_container_width=True):
+                        with st.spinner("💾 Menyimpan status..."):
+                            if update_candidate_status_in_df(df_full, candidate_email, candidate_name, "Rejected", False, selected_job, REJECTION_REASON_CV_SCREENING, ""):
+                                clear_results_cache()
+                                st.success(f"❌ {candidate_name} tidak lolos CV screening")
+                                time.sleep(0.5)
+                                st.rerun()
+                            else:
+                                st.error("❌ Gagal menyimpan status")
+            
+            # Stage 2: After OK - Interview Result (Lanjut / Reject with reason)
+            elif current_status == "OK" and current_interview_status == "":
                 st.markdown("#### 📋 Hasil Initial Interview")
+                
+                # Rejection reason dropdown
                 selected_rejection_reason = st.selectbox(
                     "📝 Alasan Reject (pilih jika tidak lolos interview)",
-                    options=["-- Pilih alasan --"] + rejection_reasons,
+                    options=["-- Pilih alasan --"] + REJECTION_REASONS,
                     key=f"reason_{unique_key}",
                     index=0
                 )
                 if selected_rejection_reason == "-- Pilih alasan --":
                     selected_rejection_reason = ""
-            elif current_status == "Rejected" and current_rejection_reason:
-                st.markdown(f"**Alasan:** {current_rejection_reason}")
-            
-            # Status buttons
-            btn_col1, btn_col2, btn_col3 = st.columns(3)
-            
-            with btn_col1:
-                # OK button - for initial CV screening approval
-                if st.button("✅ OK", key=f"ok_{unique_key}", type="primary" if current_status != "OK" else "secondary", disabled=current_status == "OK" or current_status == "Rejected"):
-                    if update_candidate_status_in_df(df_full, candidate_email, candidate_name, "OK", True, selected_job, ""):
-                        clear_results_cache()
-                        st.success(f"✅ {candidate_name} marked as OK!")
-                        st.rerun()
-                    else:
-                        st.error("❌ Failed to save status")
-            
-            with btn_col2:
-                # Rejected button - only available for OK candidates (after initial interview) with reason selected
-                reject_disabled = current_status == "Rejected" or current_status != "OK" or not selected_rejection_reason
-                if st.button("❌ Rejected", key=f"rejected_{unique_key}", type="primary" if current_status != "Rejected" else "secondary", disabled=reject_disabled):
-                    if update_candidate_status_in_df(df_full, candidate_email, candidate_name, "Rejected", False, selected_job, selected_rejection_reason):
-                        clear_results_cache()
-                        st.success(f"❌ {candidate_name} marked as Rejected! Alasan: {selected_rejection_reason}")
-                        st.rerun()
-                    else:
-                        st.error("❌ Failed to save status")
                 
-                # Show hint based on status
-                if current_status == "OK" and not selected_rejection_reason:
-                    st.caption("⚠️ Pilih alasan reject terlebih dahulu")
-                elif current_status == "":
-                    st.caption("ℹ️ Klik OK dulu sebelum reject")
+                btn_col1, btn_col2, btn_col3 = st.columns(3)
+                
+                with btn_col1:
+                    # Lanjut button - candidate passes interview
+                    if st.button("✅ Lanjut", key=f"lanjut_{unique_key}", type="primary", use_container_width=True):
+                        with st.spinner("💾 Menyimpan status..."):
+                            if update_candidate_status_in_df(df_full, candidate_email, candidate_name, "OK", True, selected_job, "", "Lanjut"):
+                                clear_results_cache()
+                                st.success(f"✅ {candidate_name} lanjut ke tahap berikutnya!")
+                                time.sleep(0.5)
+                                st.rerun()
+                            else:
+                                st.error("❌ Gagal menyimpan status")
+                
+                with btn_col2:
+                    # Rejected button - only enabled when reason is selected
+                    reject_disabled = not selected_rejection_reason
+                    if st.button("❌ Reject", key=f"reject_interview_{unique_key}", type="secondary", disabled=reject_disabled, use_container_width=True):
+                        with st.spinner("💾 Menyimpan status..."):
+                            if update_candidate_status_in_df(df_full, candidate_email, candidate_name, "OK", False, selected_job, selected_rejection_reason, "Rejected"):
+                                clear_results_cache()
+                                st.success(f"❌ {candidate_name} tidak lolos interview! Alasan: {selected_rejection_reason}")
+                                time.sleep(0.5)
+                                st.rerun()
+                            else:
+                                st.error("❌ Gagal menyimpan status")
+                    
+                    if not selected_rejection_reason:
+                        st.caption("⚠️ Pilih alasan reject terlebih dahulu")
             
-            with btn_col3:
-                if current_status and st.button("🔄 Reset", key=f"reset_{unique_key}"):
-                    if update_candidate_status_in_df(df_full, candidate_email, candidate_name, "", False, selected_job, ""):
-                        clear_results_cache()
-                        st.info(f"🔄 {candidate_name} status reset!")
-                        st.rerun()
-                    else:
-                        st.error("❌ Failed to reset status")
+            # Reset button - available after any status is set
+            if current_status:
+                st.markdown("---")
+                if st.button("🔄 Reset Status", key=f"reset_{unique_key}", use_container_width=False):
+                    with st.spinner("💾 Mereset status..."):
+                        if update_candidate_status_in_df(df_full, candidate_email, candidate_name, "", False, selected_job, "", ""):
+                            clear_results_cache()
+                            st.info(f"🔄 {candidate_name} status direset!")
+                            time.sleep(0.5)
+                            st.rerun()
+                        else:
+                            st.error("❌ Gagal mereset status")
 
     st.divider()
 
@@ -969,7 +1033,7 @@ elif selected == "Dashboard":
 
     # Select key columns for display
     display_cols = ["Candidate Name" if "Candidate Name" in df_display.columns else "Filename",
-                   "Job Position", "Match Score", "Candidate Status", "Rejection Reason"]
+                   "Job Position", "Match Score", "Candidate Status", "Interview Status", "Rejection Reason"]
 
     # Add optional columns if they exist
     optional_cols = ["Latest Job Title", "Education"]
