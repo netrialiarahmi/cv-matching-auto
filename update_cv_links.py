@@ -38,6 +38,15 @@ import re
 # Constants
 SHEET_POSITIONS_FILE = "sheet_positions.csv"
 
+# Expected columns for results files (for reference/validation)
+# Note: We save ALL existing columns, not just these
+EXPECTED_RESULT_COLUMNS = [
+    "Candidate Name", "Candidate Email", "Phone", "Job Position", "Match Score",
+    "AI Summary", "Strengths", "Weaknesses", "Gaps", "Latest Job Title",
+    "Latest Company", "Education", "University", "Major", "Kalibrr Profile",
+    "Application Link", "Resume Link", "Recruiter Feedback", "Shortlisted", "Date Processed"
+]
+
 
 def load_sheet_positions():
     """Load the sheet_positions.csv file with updated File Storage URLs."""
@@ -89,6 +98,12 @@ def fetch_candidates_from_file_storage(file_storage_url, max_retries=3):
             return None
     
     return None
+
+
+def _truncate_str(s, max_len):
+    """Truncate string to max length with ellipsis."""
+    s_str = str(s)
+    return f"{s_str[:max_len]}..." if len(s_str) > max_len else s_str
 
 
 def get_column_value(row, english_name, indonesian_name, default=''):
@@ -186,26 +201,22 @@ def update_cv_links_for_position(position_name, file_storage_url):
                 updated_count += 1
                 candidate_name = row.get('Candidate Name', 'Unknown')
                 print(f"  ✓ Updated resume link for: {candidate_name}")
-                print(f"    Old: {old_resume_link[:80]}..." if len(str(old_resume_link)) > 80 else f"    Old: {old_resume_link}")
-                print(f"    New: {new_resume_link[:80]}..." if len(str(new_resume_link)) > 80 else f"    New: {new_resume_link}")
+                print(f"    Old: {_truncate_str(old_resume_link, 80)}")
+                print(f"    New: {_truncate_str(new_resume_link, 80)}")
     
     # Save updated results back to file
     if updated_count > 0:
         try:
-            # Ensure all expected columns are present before saving
-            expected_columns = [
-                "Candidate Name", "Candidate Email", "Phone", "Job Position", "Match Score",
-                "AI Summary", "Strengths", "Weaknesses", "Gaps", "Latest Job Title",
-                "Latest Company", "Education", "University", "Major", "Kalibrr Profile",
-                "Application Link", "Resume Link", "Recruiter Feedback", "Shortlisted", "Date Processed"
-            ]
-            
-            # Only keep columns that exist in the dataframe
-            columns_to_save = [col for col in expected_columns if col in existing_results.columns]
-            existing_results[columns_to_save].to_csv(results_file, index=False)
+            # Save ALL existing columns (preserve any additional columns that might exist)
+            existing_results.to_csv(results_file, index=False)
             
             print(f"💾 Saved {updated_count} updated resume link(s) to {results_file}")
-            print(f"   Updated column: Resume Link (column 17 in standard format)")
+            print(f"   Updated column: Resume Link")
+            
+            # Verify Resume Link column position (informational only)
+            if "Resume Link" in existing_results.columns:
+                col_idx = list(existing_results.columns).index("Resume Link") + 1
+                print(f"   Column position: {col_idx}")
         except Exception as e:
             print(f"❌ Error saving results: {e}")
             return 0
