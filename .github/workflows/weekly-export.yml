@@ -51,7 +51,21 @@ jobs:
             echo "No changes to commit"
           else
             git commit -m "📊 Update sheet_positions.csv and CV links from Google Sheets"
-            git pull --rebase origin ${{ github.ref_name }} || { echo "Rebase failed, aborting"; git rebase --abort; exit 1; }
+            # Use merge strategy instead of rebase to handle concurrent updates
+            git pull --no-rebase origin ${{ github.ref_name }} || {
+              echo "Merge conflict detected, resolving automatically..."
+              # For CSV files, prefer our version (the latest data from the export)
+              git checkout --ours sheet_positions.csv 2>/dev/null || true
+              find . -maxdepth 1 -name 'results*.csv' -type f -exec git checkout --ours {} \; 2>/dev/null || true
+              git add sheet_positions.csv
+              find . -maxdepth 1 -name 'results*.csv' -type f -exec git add {} \;
+              # Complete the merge with no editor
+              git -c core.editor=: merge --continue || {
+                echo "Auto-merge failed, aborting merge"
+                git merge --abort
+                exit 1
+              }
+            }
             git push
           fi
       
