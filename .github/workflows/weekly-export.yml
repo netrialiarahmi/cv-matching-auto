@@ -55,10 +55,12 @@ jobs:
             git pull --no-rebase origin ${{ github.ref_name }} || {
               echo "Merge conflict detected, resolving automatically..."
               # For CSV files, prefer our version (the latest data from the export)
-              git checkout --ours sheet_positions.csv results*.csv 2>/dev/null || true
-              git add sheet_positions.csv results*.csv
-              # Complete the merge
-              git -c core.editor=true merge --continue || {
+              git checkout --ours sheet_positions.csv 2>/dev/null || true
+              find . -maxdepth 1 -name 'results*.csv' -type f -exec git checkout --ours {} \; 2>/dev/null || true
+              git add sheet_positions.csv
+              find . -maxdepth 1 -name 'results*.csv' -type f -exec git add {} \;
+              # Complete the merge with no editor
+              git -c core.editor=: merge --continue || {
                 echo "Auto-merge failed, aborting merge"
                 git merge --abort
                 exit 1
