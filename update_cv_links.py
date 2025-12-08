@@ -38,15 +38,6 @@ import re
 # Constants
 SHEET_POSITIONS_FILE = "sheet_positions.csv"
 
-# Expected columns for results files (for reference/validation)
-# Note: We save ALL existing columns, not just these
-EXPECTED_RESULT_COLUMNS = [
-    "Candidate Name", "Candidate Email", "Phone", "Job Position", "Match Score",
-    "AI Summary", "Strengths", "Weaknesses", "Gaps", "Latest Job Title",
-    "Latest Company", "Education", "University", "Major", "Kalibrr Profile",
-    "Application Link", "Resume Link", "Recruiter Feedback", "Shortlisted", "Date Processed"
-]
-
 
 def load_sheet_positions():
     """Load the sheet_positions.csv file with updated File Storage URLs."""
@@ -71,7 +62,7 @@ def fetch_candidates_from_file_storage(file_storage_url, max_retries=3):
                 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36',
                 'Accept': 'text/csv,application/csv,text/plain,*/*'
             }
-            response = requests.get(str(file_storage_url).strip(), headers=headers, timeout=60)
+            response = requests.get(str(file_storage_url).strip(), headers=headers, timeout=30)
             
             if response.status_code != 200:
                 if attempt < max_retries - 1:
@@ -212,11 +203,6 @@ def update_cv_links_for_position(position_name, file_storage_url):
             
             print(f"💾 Saved {updated_count} updated resume link(s) to {results_file}")
             print(f"   Updated column: Resume Link")
-            
-            # Verify Resume Link column position (informational only)
-            if "Resume Link" in existing_results.columns:
-                col_idx = list(existing_results.columns).index("Resume Link") + 1
-                print(f"   Column position: {col_idx}")
         except Exception as e:
             print(f"❌ Error saving results: {e}")
             return 0
