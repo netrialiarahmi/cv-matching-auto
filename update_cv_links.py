@@ -2,16 +2,32 @@
 Update CV links in existing results from sheet_positions.csv
 without re-analyzing the CVs.
 
-This script:
-1. Loads sheet_positions.csv with latest File Storage URLs
+This script is designed to run daily after kalibrr_export.py in the GitHub Actions workflow.
+
+Workflow:
+1. kalibrr_export.py runs first and fetches fresh File Storage URLs from Kalibrr
+2. This script then runs and updates CV links in existing screening results
+
+What this script does:
+1. Loads sheet_positions.csv with latest File Storage URLs (from kalibrr_export.py)
 2. Downloads candidate data from each File Storage URL
 3. Matches candidates by email with existing results
-4. Updates only the Resume Link field in existing results
-5. Saves updated results back to GitHub (per position)
+4. Updates ONLY the Resume Link field in existing results
+5. Saves updated results back to position-specific CSV files (e.g., results_Position_Name.csv)
+
+What this script DOES NOT do:
+- Does NOT re-score candidates
+- Does NOT re-analyze CVs
+- Does NOT call any AI/LLM APIs
+- Does NOT change any fields except "Resume Link"
+
+This ensures that CV links stay current (Kalibrr URLs expire) without the
+computational overhead and cost of re-analyzing candidates.
 """
 
 import os
 import sys
+import time
 import pandas as pd
 import requests
 from io import BytesIO
@@ -21,20 +37,6 @@ import re
 
 # Constants
 SHEET_POSITIONS_FILE = "sheet_positions.csv"
-RESULTS_FILE_PATTERN = "results*.csv"
-
-
-def _normalize_position_name(name):
-    """
-    Normalize position name for flexible matching.
-    Handles variations like "KOMPAS.com" vs "KOMPAScom".
-    """
-    if pd.isna(name):
-        return ""
-    name = str(name).lower().strip()
-    name = re.sub(r'[^a-z0-9\s]', '', name)
-    name = re.sub(r'\s+', ' ', name)
-    return name
 
 
 def load_sheet_positions():
@@ -54,8 +56,6 @@ def load_sheet_positions():
 
 def fetch_candidates_from_file_storage(file_storage_url, max_retries=3):
     """Download and parse candidate CSV from File Storage URL."""
-    import time
-    
     for attempt in range(max_retries):
         try:
             headers = {
@@ -145,7 +145,9 @@ def update_cv_links_for_position(position_name, file_storage_url):
     fresh_candidates = fetch_candidates_from_file_storage(file_storage_url)
     
     if fresh_candidates is None or fresh_candidates.empty:
-        print(f"❌ Failed to fetch candidate data for {position_name}")
+        print(f"⚠️ Could not fetch fresh candidate data for {position_name}")
+        print(f"   This may be due to expired URLs or network issues")
+        print(f"   CV links will not be updated for this position")
         return 0
     
     print(f"✅ Fetched {len(fresh_candidates)} candidates from File Storage")
@@ -162,6 +164,12 @@ def update_cv_links_for_position(position_name, file_storage_url):
     
     print(f"📋 Found {len(email_to_resume_link)} candidates with resume links in fresh data")
     
+    # Verify Resume Link column exists in existing results
+    if "Resume Link" not in existing_results.columns:
+        print(f"⚠️ Warning: 'Resume Link' column not found in {results_file}")
+        print(f"   Available columns: {list(existing_results.columns)}")
+        return 0
+    
     # Update resume links in existing results
     updated_count = 0
     
@@ -176,13 +184,28 @@ def update_cv_links_for_position(position_name, file_storage_url):
             if new_resume_link != old_resume_link:
                 existing_results.at[idx, "Resume Link"] = new_resume_link
                 updated_count += 1
-                print(f"  ✓ Updated resume link for: {row.get('Candidate Name', 'Unknown')}")
+                candidate_name = row.get('Candidate Name', 'Unknown')
+                print(f"  ✓ Updated resume link for: {candidate_name}")
+                print(f"    Old: {old_resume_link[:80]}..." if len(str(old_resume_link)) > 80 else f"    Old: {old_resume_link}")
+                print(f"    New: {new_resume_link[:80]}..." if len(str(new_resume_link)) > 80 else f"    New: {new_resume_link}")
     
     # Save updated results back to file
     if updated_count > 0:
         try:
-            existing_results.to_csv(results_file, index=False)
+            # Ensure all expected columns are present before saving
+            expected_columns = [
+                "Candidate Name", "Candidate Email", "Phone", "Job Position", "Match Score",
+                "AI Summary", "Strengths", "Weaknesses", "Gaps", "Latest Job Title",
+                "Latest Company", "Education", "University", "Major", "Kalibrr Profile",
+                "Application Link", "Resume Link", "Recruiter Feedback", "Shortlisted", "Date Processed"
+            ]
+            
+            # Only keep columns that exist in the dataframe
+            columns_to_save = [col for col in expected_columns if col in existing_results.columns]
+            existing_results[columns_to_save].to_csv(results_file, index=False)
+            
             print(f"💾 Saved {updated_count} updated resume link(s) to {results_file}")
+            print(f"   Updated column: Resume Link (column 17 in standard format)")
         except Exception as e:
             print(f"❌ Error saving results: {e}")
             return 0
