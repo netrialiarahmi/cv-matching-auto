@@ -29,6 +29,15 @@ import io
 import re
 import time
 
+# Constants for candidate status
+REJECTION_REASONS = [
+    "Diterima ditempat lain",
+    "Mengundurkan diri",
+    "Overbudget",
+    "Karena status"
+]
+REJECTION_REASON_CV_SCREENING = "Tidak lolos CV screening"
+
 # --- Page Config ---
 logo = Image.open("cqdybkxstovyrla2dje3.webp")
 st.set_page_config(
@@ -911,8 +920,7 @@ elif selected == "Dashboard":
             name_key = sanitize_key(candidate_name)
             unique_key = f"{email_key}_{idx}" if email_key else f"{name_key}_{idx}"
             
-            # Rejection reason options
-            rejection_reasons = ["Diterima ditempat lain", "Mengundurkan diri", "Overbudget", "Karena status"]
+
             
             # Stage 1: Initial CV Screening (OK / Reject)
             if current_status == "":
@@ -935,7 +943,7 @@ elif selected == "Dashboard":
                     # Initial Reject button
                     if st.button("❌ Reject", key=f"reject_initial_{unique_key}", type="secondary", use_container_width=True):
                         with st.spinner("💾 Menyimpan status..."):
-                            if update_candidate_status_in_df(df_full, candidate_email, candidate_name, "Rejected", False, selected_job, "Tidak lolos CV screening", ""):
+                            if update_candidate_status_in_df(df_full, candidate_email, candidate_name, "Rejected", False, selected_job, REJECTION_REASON_CV_SCREENING, ""):
                                 clear_results_cache()
                                 st.success(f"❌ {candidate_name} tidak lolos CV screening")
                                 time.sleep(0.5)
@@ -950,7 +958,7 @@ elif selected == "Dashboard":
                 # Rejection reason dropdown
                 selected_rejection_reason = st.selectbox(
                     "📝 Alasan Reject (pilih jika tidak lolos interview)",
-                    options=["-- Pilih alasan --"] + rejection_reasons,
+                    options=["-- Pilih alasan --"] + REJECTION_REASONS,
                     key=f"reason_{unique_key}",
                     index=0
                 )

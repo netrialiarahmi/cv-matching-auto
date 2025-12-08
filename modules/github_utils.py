@@ -769,9 +769,9 @@ def update_results_in_github(df, path=None, job_position=None, max_retries=3, si
                 if attempt == max_retries - 1 and not silent:
                     st.warning(f"⚠️ Could not check existing file: {r.status_code} - {r.text}")
 
-            # Prepare payload
+            # Prepare payload with timestamp for better tracking
             data = {
-                "message": "📊 Update candidate status via Streamlit app",
+                "message": f"📊 Update candidate status ({path}) - {time.strftime('%Y-%m-%d %H:%M:%S')}",
                 "content": encoded,
                 "branch": branch
             }
