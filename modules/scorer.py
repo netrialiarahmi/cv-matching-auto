@@ -255,6 +255,7 @@ Strict rules:
 • Do not treat irrelevant seniority as a strength.
 • Do not count irrelevant seniority toward total relevant years.
 • Exceeding relevant experience may indicate higher salary expectations.
+• Preferable if the candidate is from one of the top Indonesian universities based on QS WUR, include Universitas Indonesia, Universitas Airlangga Universitas Gadjah Mada, Institut Teknologi Bandung, IPB University, Institut Teknologi Sepuluh November, Universitas Padjajaran, Universitas diponegoro, Universitas Brawijaya, Telkom University, Universitas Andalas, Universitas Sumatera Utara and Binus University.
 
 You must add elaboration when:
 • The candidate's recent roles are more senior but not aligned with the required responsibilities.
