@@ -1,6 +1,12 @@
 import streamlit as st
 from streamlit_option_menu import option_menu
 import pandas as pd
+from PIL import Image
+from datetime import datetime
+import io
+import re
+import time
+import math
 from modules.extractor import extract_text_from_pdf
 from modules.scorer import score_with_openrouter, get_openrouter_client, extract_candidate_name_from_cv, score_table_data, _get_model_name, call_api_with_retry
 from modules.github_utils import (
@@ -15,19 +21,6 @@ from modules.github_utils import (
     update_results_in_github,
     get_results_filename
 )
-from modules.candidate_processor import (
-    parse_candidate_csv,
-    extract_resume_from_url,
-    build_candidate_context,
-    get_candidate_identifier,
-    _get_column_value,
-    fetch_candidates_from_google_sheets
-)
-from PIL import Image
-from datetime import datetime
-import io
-import re
-import time
 
 # Constants for candidate status
 REJECTION_REASONS = [
@@ -752,9 +745,83 @@ elif selected == "Dashboard":
         return False
 
     # --- Display candidates with expanders ---
-    st.subheader("📋 Candidate Details (Ranked by Score)")
+    st.subheader("📋 Candidate Details")
 
-    for idx, row in df_sorted.iterrows():
+    # --- Pagination UI ---
+    st.markdown(
+        """
+        <style>
+        /* Pagination styling scoped to the app */
+        .pagination-card {
+            background: #fff;
+            border-radius: 14px;
+            padding: 14px 18px;
+            box-shadow: 0 10px 28px rgba(15, 23, 42, 0.08);
+            border: 1px solid rgba(0,0,0,0.04);
+        }
+        .pagination-card hr {
+            border: none;
+            border-top: 1px solid #e5ecf5;
+            margin: 10px 0 14px;
+        }
+        .pagination-card .stButton>button {
+            border-radius: 999px;
+            border: 1px solid #cfd8e3;
+            background: #f7fbff;
+            color: #1f4f7f;
+            padding: 6px 12px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.06);
+        }
+        .pagination-card .stButton>button:hover {
+            border-color: #8bbcf5;
+            background: #eaf4ff;
+            color: #0f4d92;
+        }
+        .pagination-card .stButton>button:disabled {
+            opacity: 0.35;
+            border-color: #d8e2ef;
+            background: #f8fafc;
+            color: #94a3b8;
+        }
+        .pagination-card [data-testid="stRadio"] label {
+            border-radius: 999px;
+            border: 1px solid #d8e2ef;
+            padding: 6px 10px;
+            margin-right: 6px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.04);
+            background: #ffffff;
+        }
+        .pagination-card [data-testid="stRadio"] input[type="radio"]:checked + div label,
+        .pagination-card [data-testid="stRadio"] input[type="radio"]:checked + label {
+            border-color: #5aa9ff;
+            background: #e8f3ff;
+        }
+        .pagination-card [data-testid="stRadio"] input[type="radio"] {
+            accent-color: #4da3ff;
+        }
+        .pagination-caption {
+            color: #4b5563;
+            font-size: 13px;
+            margin-top: 4px;
+        }
+        </style>
+        """,
+        unsafe_allow_html=True,
+    )
+
+    if "candidate_page" not in st.session_state:
+        st.session_state["candidate_page"] = 1
+    # Show all candidates in one view (no pagination limit)
+    page_size = max(1, len(df_sorted))
+
+    total_pages = max(1, math.ceil(len(df_sorted) / page_size))
+    current_page = min(st.session_state.get("candidate_page", 1), total_pages)
+    start_idx = 0
+    end_idx = len(df_sorted)
+
+    df_page = df_sorted.iloc[start_idx:end_idx]
+
+    for display_idx, (_, row) in enumerate(df_page.iterrows(), start=start_idx + 1):
         # Handle NaN values properly for candidate name
         candidate_name = row.get("Candidate Name")
         if pd.isna(candidate_name) or not str(candidate_name).strip() or str(candidate_name).strip() == "nan":
@@ -766,7 +833,7 @@ elif selected == "Dashboard":
                 # Check if there's a Filename column as fallback
                 candidate_name = row.get("Filename")
                 if pd.isna(candidate_name) or not str(candidate_name).strip():
-                    candidate_name = f"Candidate {idx + 1}"
+                    candidate_name = f"Candidate {display_idx}"
 
         score = row.get("Match Score", 0)
         
@@ -774,16 +841,31 @@ elif selected == "Dashboard":
         candidate_status = row.get("Candidate Status", "") if pd.notna(row.get("Candidate Status")) else ""
         rejection_reason = row.get("Rejection Reason", "") if pd.notna(row.get("Rejection Reason")) else ""
         
-        # Create expander label with status icon
+        # Create expander label with status icon and show reason when present
+        def _clean_text(val):
+            if val is None or (isinstance(val, float) and pd.isna(val)):
+                return ""
+            text = str(val).strip()
+            return "" if text.lower() in ["nan", "none", "null", ""] else text
+
+        interview_status = _clean_text(row.get("Interview Status", ""))
+        rejection_reason_clean = _clean_text(rejection_reason)
+        reason_suffix = f" - Alasan: {rejection_reason_clean}" if rejection_reason_clean else ""
+
         if candidate_status == "OK":
-            # Green font color for OK status
-            status_color = "#28a745"
-            expander_label = f"✅ {candidate_name} - Score: {score} - OK"
+            if interview_status == "Rejected":
+                # Interview failed after OK CV: show red reject label without score
+                status_color = "#dc3545"
+                expander_label = f"❌ {candidate_name} - OK - Tidak Lolos{reason_suffix}"
+            else:
+                # Pending interview or passed onward: keep green with score
+                status_color = "#28a745"
+                status_tail = " - Lanjut" if interview_status == "Lanjut" else " - OK"
+                expander_label = f"✅ {candidate_name} - Score: {score}{status_tail}"
         elif candidate_status == "Rejected":
-            # Red font color for Rejected status
+            # Red font color for Rejected status (CV stage)
             status_color = "#dc3545"
-            reason_text = f" ({rejection_reason})" if rejection_reason else ""
-            expander_label = f"❌ {candidate_name} - Score: {score} - Rejected{reason_text}"
+            expander_label = f"❌ {candidate_name} - Score: {score} - Rejected{reason_suffix}"
         else:
             # Default for pending review (no color change)
             status_color = None
@@ -918,7 +1000,7 @@ elif selected == "Dashboard":
             candidate_email = row.get("Candidate Email", "")
             email_key = sanitize_key(candidate_email) if pd.notna(candidate_email) and str(candidate_email).strip() else ""
             name_key = sanitize_key(candidate_name)
-            unique_key = f"{email_key}_{idx}" if email_key else f"{name_key}_{idx}"
+            unique_key = f"{email_key}_{display_idx}" if email_key else f"{name_key}_{display_idx}"
             
 
             
@@ -1008,10 +1090,9 @@ elif selected == "Dashboard":
                         else:
                             st.error("❌ Gagal mereset status")
 
-    st.divider()
 
     # --- Summary Table ---
-    st.subheader("📊 Summary Table (All Candidates)")
+    st.subheader("📊 Summary")
 
     # Create a display dataframe with cleaned values
     df_display = df_sorted.copy()

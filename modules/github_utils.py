@@ -27,6 +27,9 @@ GITHUB_CONTENTS_API_SIZE_LIMIT = 1_000_000  # 1MB
 # Maximum number of parallel downloads for fetching CSV files
 MAX_PARALLEL_DOWNLOADS = 8
 
+# Directory to store position-specific results CSVs
+RESULTS_DIR = "results"
+
 
 def _deduplicate_candidates(df):
     """Deduplicate candidates while handling empty emails properly.
@@ -94,7 +97,7 @@ def get_results_filename(job_position):
     safe_name = re.sub(r'[^\w\s]', '', job_position)  # Remove special chars
     safe_name = re.sub(r'\s+', '_', safe_name)  # Replace spaces with underscore
     safe_name = re.sub(r'_+', '_', safe_name)  # Collapse multiple underscores
-    return f"results_{safe_name}.csv"
+    return os.path.join(RESULTS_DIR, f"results_{safe_name}.csv")
 
 
 def save_results_to_github(df, path=None, job_position=None, max_retries=3):
@@ -399,16 +402,47 @@ def load_all_results_from_github():
             "Accept": "application/vnd.github+json"
         }
     
-    # Get list of files in the repository root
-    url = f"https://api.github.com/repos/{repo}/contents/?ref={branch}"
+    def _load_local_results_dir():
+        """Load results_*.csv from local results directory as fallback."""
+        local_dir = os.path.join(os.getcwd(), RESULTS_DIR)
+        if not os.path.isdir(local_dir):
+            return pd.DataFrame(columns=RESULTS_COLUMNS)
+
+        dfs_local = []
+        for fname in os.listdir(local_dir):
+            if fname.startswith("results_") and fname.endswith(".csv"):
+                fpath = os.path.join(local_dir, fname)
+                try:
+                    df_local = pd.read_csv(fpath)
+                    if df_local is not None and not df_local.empty:
+                        dfs_local.append(df_local)
+                except Exception:
+                    # Skip malformed local files without failing the load
+                    continue
+
+        if not dfs_local:
+            return pd.DataFrame(columns=RESULTS_COLUMNS)
+
+        merged_local = pd.concat(dfs_local, ignore_index=True, sort=False)
+        try:
+            merged_local = _deduplicate_candidates(merged_local)
+        except Exception:
+            pass
+        return merged_local
+
+    # Get list of files in the repository results directory
+    url = f"https://api.github.com/repos/{repo}/contents/{RESULTS_DIR}?ref={branch}"
     
     try:
         r = requests.get(url, headers=headers, timeout=GITHUB_TIMEOUT)
-        if r.status_code != 200:
-            return pd.DataFrame(columns=RESULTS_COLUMNS)
-        files = r.json()
+        if r.status_code == 200:
+            files = r.json()
+        elif r.status_code == 404:
+            return _load_local_results_dir()
+        else:
+            return _load_local_results_dir()
     except Exception:
-        return pd.DataFrame(columns=RESULTS_COLUMNS)
+        return _load_local_results_dir()
     
     # Collect download URLs for all results_*.csv files
     download_tasks = []
@@ -421,7 +455,7 @@ def load_all_results_from_github():
                 download_tasks.append(download_url)
     
     if not download_tasks:
-        return pd.DataFrame(columns=RESULTS_COLUMNS)
+        return _load_local_results_dir()
     
     # Create session to reuse TCP connections
     session = requests.Session()
@@ -447,7 +481,7 @@ def load_all_results_from_github():
                 continue
     
     if not dfs:
-        return pd.DataFrame(columns=RESULTS_COLUMNS)
+        return _load_local_results_dir()
     
     merged = pd.concat(dfs, ignore_index=True, sort=False)
     
