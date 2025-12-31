@@ -730,6 +730,35 @@ elif selected == "Dashboard":
             return ""
         return re.sub(r'[^a-zA-Z0-9_]', '_', str(text))
     
+    # Helper function to get candidate status display information
+    def get_status_display_info(candidate_status, interview_status, rejection_reason, candidate_name, score):
+        """Generate status display information for a candidate.
+        
+        Returns:
+            tuple: (status_color, display_html) where status_color is the hex color or None,
+                   and display_html is the HTML string to display.
+        """
+        if candidate_status == "OK" and interview_status == "Rejected":
+            # Red font color for rejected in interview
+            status_color = "#dc3545"
+            reason_text = f" - {rejection_reason}" if rejection_reason else ""
+            display_html = f'<p style="color: {status_color}; font-weight: bold; margin-bottom: 0;">❌ {candidate_name} - Score: {score} - OK-Rejected-Status{reason_text}</p>'
+        elif candidate_status == "OK":
+            # Green font color for OK status (no interview rejection)
+            status_color = "#28a745"
+            display_html = f'<p style="color: {status_color}; font-weight: bold; margin-bottom: 0;">✅ {candidate_name} - Score: {score} - OK</p>'
+        elif candidate_status == "Rejected":
+            # Red font color for Rejected status
+            status_color = "#dc3545"
+            reason_text = f" ({rejection_reason})" if rejection_reason else ""
+            display_html = f'<p style="color: {status_color}; font-weight: bold; margin-bottom: 0;">❌ {candidate_name} - Score: {score} - Rejected{reason_text}</p>'
+        else:
+            # Default for pending review (no color change)
+            status_color = None
+            display_html = f'🔍 {candidate_name} - Score: {score}'
+        
+        return status_color, display_html
+    
     # Helper function to update candidate status in the full dataframe
     def update_candidate_status_in_df(df_to_update, candidate_email_val, candidate_name_val, new_status, new_shortlisted, job_position, rejection_reason="", interview_status=""):
         """Update candidate status in dataframe and save to GitHub.
@@ -773,38 +802,19 @@ elif selected == "Dashboard":
         
         # Get candidate status for display in expander title
         candidate_status = row.get("Candidate Status", "") if pd.notna(row.get("Candidate Status")) else ""
+        interview_status = row.get("Interview Status", "") if pd.notna(row.get("Interview Status")) else ""
         rejection_reason = row.get("Rejection Reason", "") if pd.notna(row.get("Rejection Reason")) else ""
         
-        # Create expander label with status icon
-        if candidate_status == "OK":
-            # Green font color for OK status
-            status_color = "#28a745"
-            expander_label = f"✅ {candidate_name} - Score: {score} - OK"
-        elif candidate_status == "Rejected":
-            # Red font color for Rejected status
-            status_color = "#dc3545"
-            reason_text = f" ({rejection_reason})" if rejection_reason else ""
-            expander_label = f"❌ {candidate_name} - Score: {score} - Rejected{reason_text}"
-        else:
-            # Default for pending review (no color change)
-            status_color = None
-            expander_label = f"🔍 {candidate_name} - Score: {score}"
+        # Get status display information using helper function
+        status_color, display_html = get_status_display_info(
+            candidate_status, interview_status, rejection_reason, candidate_name, score
+        )
 
         # Display colored text label using markdown, then expander
         if status_color:
-            if candidate_status == "OK":
-                st.markdown(
-                    f'<p style="color: {status_color}; font-weight: bold; margin-bottom: 0;">✅ {candidate_name} - Score: {score} - OK</p>',
-                    unsafe_allow_html=True
-                )
-            else:
-                reason_text = f" ({rejection_reason})" if rejection_reason else ""
-                st.markdown(
-                    f'<p style="color: {status_color}; font-weight: bold; margin-bottom: 0;">❌ {candidate_name} - Score: {score} - Rejected{reason_text}</p>',
-                    unsafe_allow_html=True
-                )
+            st.markdown(display_html, unsafe_allow_html=True)
         else:
-            st.markdown(f'🔍 {candidate_name} - Score: {score}')
+            st.markdown(display_html)
         
         # Display candidate details in expander (no checkbox)
         with st.expander("View Details", expanded=False):

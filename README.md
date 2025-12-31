@@ -161,7 +161,7 @@ streamlit run app.py
 
 ## Kalibrr Export Tool
 
-The `kalibrr_export.py` script automates exporting candidate data from Kalibrr and updating the Google Sheets with File Storage URLs.
+The `scripts/kalibrr_export.py` script automates exporting candidate data from Kalibrr and updating the Google Sheets with File Storage URLs.
 
 ### Setup
 
@@ -186,7 +186,7 @@ Note:
 ### Usage
 
 ```bash
-python kalibrr_export.py
+python scripts/kalibrr_export.py
 ```
 
 The script will:
@@ -269,7 +269,10 @@ The script reads from and updates a Google Sheet with the following structure:
 ```
 cv-matching-auto/
 ├── app.py                          # Main Streamlit application
-├── kalibrr_export.py               # Kalibrr export automation script
+├── requirements.txt               # Python dependencies
+├── scripts/
+│   ├── kalibrr_export.py          # Kalibrr export automation script
+│   └── update_cv_links.py         # Daily CV link updater script
 ├── modules/
 │   ├── __init__.py
 │   ├── extractor.py               # PDF text extraction
@@ -277,8 +280,15 @@ cv-matching-auto/
 │   ├── github_utils.py            # GitHub integration for storage
 │   ├── candidate_processor.py     # CSV parsing and candidate data processing
 │   └── utils.py                   # Utility functions
-├── requirements.txt               # Python dependencies
+├── results/                        # Screening results (position-specific CSV files)
+│   ├── results_Position_Name.csv
+│   └── ...
+├── docs/                           # Documentation files
+│   ├── DAILY_CV_UPDATE.md         # Daily CV update documentation
+│   └── WORKFLOW.md                # Workflow documentation
 ├── .gitignore
+└── README.md
+```
 └── README.md
 ```
 
