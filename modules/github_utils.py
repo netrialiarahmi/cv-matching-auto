@@ -27,6 +27,9 @@ GITHUB_CONTENTS_API_SIZE_LIMIT = 1_000_000  # 1MB
 # Maximum number of parallel downloads for fetching CSV files
 MAX_PARALLEL_DOWNLOADS = 8
 
+# Results directory path
+RESULTS_DIR = "results"
+
 
 def _deduplicate_candidates(df):
     """Deduplicate candidates while handling empty emails properly.
@@ -94,7 +97,7 @@ def get_results_filename(job_position):
     safe_name = re.sub(r'[^\w\s]', '', job_position)  # Remove special chars
     safe_name = re.sub(r'\s+', '_', safe_name)  # Replace spaces with underscore
     safe_name = re.sub(r'_+', '_', safe_name)  # Collapse multiple underscores
-    return f"results/results_{safe_name}.csv"
+    return f"{RESULTS_DIR}/results_{safe_name}.csv"
 
 
 def save_results_to_github(df, path=None, job_position=None, max_retries=3):
@@ -400,7 +403,7 @@ def load_all_results_from_github():
         }
     
     # Get list of files in the results/ directory
-    url = f"https://api.github.com/repos/{repo}/contents/results?ref={branch}"
+    url = f"https://api.github.com/repos/{repo}/contents/{RESULTS_DIR}?ref={branch}"
     
     try:
         r = requests.get(url, headers=headers, timeout=GITHUB_TIMEOUT)
