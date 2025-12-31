@@ -34,7 +34,8 @@ REJECTION_REASONS = [
     "Diterima ditempat lain",
     "Mengundurkan diri",
     "Overbudget",
-    "Karena status"
+    "Karena status",
+    "Kompetensi"
 ]
 REJECTION_REASON_CV_SCREENING = "Tidak lolos CV screening"
 
