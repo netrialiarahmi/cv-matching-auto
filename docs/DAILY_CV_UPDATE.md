@@ -7,9 +7,9 @@ Script `scripts/update_cv_links.py` dijalankan setiap hari untuk memperbarui lin
 ## Apa yang Diupdate?
 
 Script ini **hanya mengubah kolom "Resume Link"** (kolom ke-17) di dalam file hasil per posisi, seperti:
-- `results_Account_Executive_Kompasiana.csv`
-- `results_Product_Designer.csv`
-- `results_Content_Creator.csv`
+- `results/results_Account_Executive_Kompasiana.csv`
+- `results/results_Product_Designer.csv`
+- `results/results_Content_Creator.csv`
 - dll.
 
 ## Format File Hasil Per Posisi
@@ -56,7 +56,7 @@ File `sheet_positions.csv` berisi:
 ### 2. Load Hasil Existing
 ```python
 # Untuk setiap posisi, load file hasil yang sudah ada
-df = pd.read_csv("results_Position_Name.csv")
+df = pd.read_csv("results/results_Position_Name.csv")
 ```
 
 ### 3. Fetch Data Kandidat Terbaru
@@ -123,15 +123,15 @@ Step 1: scripts/kalibrr_export.py
 Step 2: scripts/update_cv_links.py (SCRIPT INI)
   - Load sheet_positions.csv
   - Untuk setiap posisi:
-    * Load results_Position_Name.csv
+    * Load results/results_Position_Name.csv
     * Fetch kandidat terbaru dari File Storage URL
     * Match kandidat by email
     * Update HANYA Resume Link column
-    * Save results_Position_Name.csv
+    * Save results/results_Position_Name.csv
   ↓
 Step 3: Git Commit & Push
   - Commit sheet_positions.csv
-  - Commit results_*.csv yang berubah
+  - Commit results/*.csv yang berubah
   - Push ke GitHub
 ```
 
@@ -141,7 +141,7 @@ Step 3: Git Commit & Push
 ============================================================
 Processing: Content Creator
 ============================================================
-✅ Loaded 54 existing results from results_Content_Creator.csv
+✅ Loaded 54 existing results from results/results_Content_Creator.csv
 📥 Fetching fresh candidate data from File Storage...
 ✅ Fetched 68 candidates from File Storage
 📋 Found 68 candidates with resume links in fresh data
@@ -150,7 +150,7 @@ Processing: Content Creator
     Old: https://storage.googleapis.com/.../old-link.pdf?Expires=1234567890...
     New: https://storage.googleapis.com/.../new-link.pdf?Expires=9876543210...
 
-💾 Saved 1 updated resume link(s) to results_Content_Creator.csv
+💾 Saved 1 updated resume link(s) to results/results_Content_Creator.csv
    Updated column: Resume Link (column 17 in standard format)
 ```
 
@@ -169,7 +169,7 @@ Script akan menampilkan warning:
 
 ### Jika Kolom Resume Link Tidak Ada
 ```
-⚠️ Warning: 'Resume Link' column not found in results_Position_Name.csv
+⚠️ Warning: 'Resume Link' column not found in results/results_Position_Name.csv
    Available columns: [list of columns]
 ```
 

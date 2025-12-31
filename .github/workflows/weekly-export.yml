@@ -46,7 +46,7 @@ jobs:
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add sheet_positions.csv results*.csv
+          git add sheet_positions.csv results/*.csv
           if git diff --staged --quiet; then
             echo "No changes to commit"
           else
@@ -56,9 +56,9 @@ jobs:
               echo "Merge conflict detected, resolving automatically..."
               # For CSV files, prefer our version (the latest data from the export)
               git checkout --ours sheet_positions.csv 2>/dev/null || true
-              find . -maxdepth 1 -name 'results*.csv' -type f -exec git checkout --ours {} \; 2>/dev/null || true
+              find results -maxdepth 1 -name 'results*.csv' -type f -exec git checkout --ours {} \; 2>/dev/null || true
               git add sheet_positions.csv
-              find . -maxdepth 1 -name 'results*.csv' -type f -exec git add {} \;
+              find results -maxdepth 1 -name 'results*.csv' -type f -exec git add {} \;
               # Complete the merge with no editor
               git -c core.editor=: merge --continue || {
                 echo "Auto-merge failed, aborting merge"

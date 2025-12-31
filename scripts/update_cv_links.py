@@ -109,7 +109,7 @@ def load_existing_results(position_name):
     # Generate the position-specific filename
     safe_name = re.sub(r'[^\w\s-]', '', position_name)
     safe_name = re.sub(r'[-\s]+', '_', safe_name)
-    results_file = f"results_{safe_name}.csv"
+    results_file = f"results/results_{safe_name}.csv"
     
     if not os.path.exists(results_file):
         print(f"ℹ️ No existing results file found: {results_file}")

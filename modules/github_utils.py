@@ -86,7 +86,7 @@ def get_results_filename(job_position):
         job_position: The job position name
         
     Returns:
-        str: Safe filename like "results_Account_Executive_VCBL.csv"
+        str: Safe filename like "results/results_Account_Executive_VCBL.csv"
     """
     import re
     # Replace special characters with underscore using regex
@@ -94,7 +94,7 @@ def get_results_filename(job_position):
     safe_name = re.sub(r'[^\w\s]', '', job_position)  # Remove special chars
     safe_name = re.sub(r'\s+', '_', safe_name)  # Replace spaces with underscore
     safe_name = re.sub(r'_+', '_', safe_name)  # Collapse multiple underscores
-    return f"results_{safe_name}.csv"
+    return f"results/results_{safe_name}.csv"
 
 
 def save_results_to_github(df, path=None, job_position=None, max_retries=3):
@@ -382,7 +382,7 @@ def load_all_results_from_github():
     - Downloads CSVs in parallel using ThreadPoolExecutor to reduce latency
     - Uses a session for TCP connection reuse
     
-    This function discovers all position-specific result files (results_*.csv) and merges them
+    This function discovers all position-specific result files (results/results_*.csv) and merges them
     into a single DataFrame for the Dashboard "All" view.
     
     Returns:
@@ -399,8 +399,8 @@ def load_all_results_from_github():
             "Accept": "application/vnd.github+json"
         }
     
-    # Get list of files in the repository root
-    url = f"https://api.github.com/repos/{repo}/contents/?ref={branch}"
+    # Get list of files in the results/ directory
+    url = f"https://api.github.com/repos/{repo}/contents/results?ref={branch}"
     
     try:
         r = requests.get(url, headers=headers, timeout=GITHUB_TIMEOUT)

@@ -30,6 +30,7 @@ output/
 !sample_candidate_template.csv
 !job_positions.csv
 !sheet_positions.csv
+!results/*.csv
 
 # Kalibrr Export
 kalibrr_exports/
