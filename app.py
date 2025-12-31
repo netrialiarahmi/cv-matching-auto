@@ -773,11 +773,18 @@ elif selected == "Dashboard":
         
         # Get candidate status for display in expander title
         candidate_status = row.get("Candidate Status", "") if pd.notna(row.get("Candidate Status")) else ""
+        interview_status = row.get("Interview Status", "") if pd.notna(row.get("Interview Status")) else ""
         rejection_reason = row.get("Rejection Reason", "") if pd.notna(row.get("Rejection Reason")) else ""
         
         # Create expander label with status icon
-        if candidate_status == "OK":
-            # Green font color for OK status
+        # If candidate failed interview (OK but Interview Status = Rejected), show red
+        if candidate_status == "OK" and interview_status == "Rejected":
+            # Red font color for rejected in interview
+            status_color = "#dc3545"
+            reason_text = f" - {rejection_reason}" if rejection_reason else ""
+            expander_label = f"❌ {candidate_name} - Score: {score} - OK-Rejected-Status{reason_text}"
+        elif candidate_status == "OK":
+            # Green font color for OK status (no interview rejection)
             status_color = "#28a745"
             expander_label = f"✅ {candidate_name} - Score: {score} - OK"
         elif candidate_status == "Rejected":
@@ -792,7 +799,13 @@ elif selected == "Dashboard":
 
         # Display colored text label using markdown, then expander
         if status_color:
-            if candidate_status == "OK":
+            if candidate_status == "OK" and interview_status == "Rejected":
+                reason_text = f" - {rejection_reason}" if rejection_reason else ""
+                st.markdown(
+                    f'<p style="color: {status_color}; font-weight: bold; margin-bottom: 0;">❌ {candidate_name} - Score: {score} - OK-Rejected-Status{reason_text}</p>',
+                    unsafe_allow_html=True
+                )
+            elif candidate_status == "OK":
                 st.markdown(
                     f'<p style="color: {status_color}; font-weight: bold; margin-bottom: 0;">✅ {candidate_name} - Score: {score} - OK</p>',
                     unsafe_allow_html=True
