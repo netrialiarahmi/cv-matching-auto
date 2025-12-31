@@ -2,7 +2,7 @@
 
 ## Overview
 
-Script `update_cv_links.py` dijalankan setiap hari untuk memperbarui link CV kandidat di file hasil screening per posisi **tanpa melakukan analisis ulang**.
+Script `scripts/update_cv_links.py` dijalankan setiap hari untuk memperbarui link CV kandidat di file hasil screening per posisi **tanpa melakukan analisis ulang**.
 
 ## Apa yang Diupdate?
 
@@ -43,7 +43,7 @@ Setiap file hasil memiliki 20 kolom standar:
 
 ### 1. Load Data Posisi
 ```python
-# Membaca sheet_positions.csv yang sudah diupdate oleh kalibrr_export.py
+# Membaca sheet_positions.csv yang sudah diupdate oleh scripts/kalibrr_export.py
 df = pd.read_csv("sheet_positions.csv")
 ```
 
@@ -115,12 +115,12 @@ Script ini **TIDAK mengubah** kolom-kolom berikut:
 ```
 00:00 UTC (07:00 WIB) - GitHub Actions dimulai
   ↓
-Step 1: kalibrr_export.py
+Step 1: scripts/kalibrr_export.py
   - Fetch posisi dari Google Sheets
   - Export kandidat dari Kalibrr (dengan FORCE_EXPORT=true)
   - Update sheet_positions.csv dengan URL terbaru
   ↓
-Step 2: update_cv_links.py (SCRIPT INI)
+Step 2: scripts/update_cv_links.py (SCRIPT INI)
   - Load sheet_positions.csv
   - Untuk setiap posisi:
     * Load results_Position_Name.csv
@@ -186,7 +186,7 @@ Script akan menampilkan warning:
 
 Untuk test manual:
 ```bash
-python update_cv_links.py
+python scripts/update_cv_links.py
 ```
 
 Script akan memproses semua posisi di `sheet_positions.csv` dan update Resume Link di file hasil masing-masing.

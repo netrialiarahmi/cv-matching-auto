@@ -36,11 +36,11 @@ jobs:
           GSHEET_CSV_URL: ${{ secrets.GSHEET_CSV_URL }}
           FORCE_EXPORT: "true"
         run: |
-          python kalibrr_export.py
+          python scripts/kalibrr_export.py
       
       - name: Update CV links in existing results
         run: |
-          python update_cv_links.py
+          python scripts/update_cv_links.py
       
       - name: Commit updated files to GitHub
         run: |
