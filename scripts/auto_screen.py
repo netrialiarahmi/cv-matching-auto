@@ -306,8 +306,15 @@ def screen_position(position_name, job_description):
                     "Date Processed": datetime.now().strftime("%Y-%m-%d %H:%M:%S")
                 }
                 
-                results.append(result)
-                successfully_processed += 1
+                # Append result immediately to CSV file
+                result_df = pd.DataFrame([result])
+                if save_results_to_github(result_df, job_position=position_name):
+                    print(f"       ✓ Appended to {position_results_file}")
+                    results.append(result)
+                    successfully_processed += 1
+                else:
+                    print(f"       ⚠ Failed to append result")
+                    failed_count += 1
                 
             except KeyboardInterrupt:
                 # Allow manual interruption
@@ -322,21 +329,7 @@ def screen_position(position_name, job_description):
                 # Continue to next candidate - don't let one failure stop the whole process
                 continue
         
-        # 5. Save results to GitHub
-        if results:
-            print(f"\n💾 Saving {len(results)} screening results...")
-            try:
-                results_df = pd.DataFrame(results)
-                if save_results_to_github(results_df, job_position=position_name):
-                    print(f"   ✅ Successfully saved to {position_results_file}")
-                else:
-                    print(f"   ❌ Failed to save results to GitHub")
-                    return 0
-            except Exception as e:
-                print(f"   ❌ Error saving results: {str(e)}")
-                return 0
-        
-        # Summary for this position
+        # Summary for this position (results already saved individually)
         print(f"\n📊 Position Summary:")
         print(f"   • New candidates screened: {successfully_processed}")
         if failed_count > 0:
