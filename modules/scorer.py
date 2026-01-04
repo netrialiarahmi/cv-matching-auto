@@ -25,21 +25,21 @@ from openai import OpenAI, RateLimitError
 def _log_error(message):
     """Log error message - uses st.error in Streamlit, prints to stderr otherwise"""
     if HAS_STREAMLIT:
-        _log_error(message)
+        st.error(message)
     else:
         print(message, file=sys.stderr)
 
 def _log_warning(message):
     """Log warning message - uses st.warning in Streamlit, prints to stderr otherwise"""
     if HAS_STREAMLIT:
-        _log_warning(message)
+        st.warning(message)
     else:
         print(message, file=sys.stderr)
 
 def _log_info(message):
     """Log info message - uses st.info in Streamlit, prints otherwise"""
     if HAS_STREAMLIT:
-        _log_info(message)
+        st.info(message)
     else:
         print(message)
 
