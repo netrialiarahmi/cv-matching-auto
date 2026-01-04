@@ -1082,9 +1082,24 @@ elif selected == "Screening":
                 # Check for existing candidates to prevent duplicates
                 position_results_file = get_results_filename(selected_job)
                 existing_results = load_results_from_github(path=position_results_file)
+                
+                # Build sets for duplicate detection (by email OR by name+phone)
                 existing_emails = set()
+                existing_name_phone = set()
+                
                 if existing_results is not None and not existing_results.empty:
-                    existing_emails = set(existing_results[existing_results["Candidate Email"].notna()]["Candidate Email"])
+                    # Track by email
+                    existing_emails = set(
+                        existing_results[existing_results["Candidate Email"].notna()]["Candidate Email"].str.lower()
+                    )
+                    
+                    # Track by name+phone for candidates without email
+                    for _, row in existing_results.iterrows():
+                        name = row.get("Candidate Name", "")
+                        phone = row.get("Phone", "")
+                        if pd.notna(name) and pd.notna(phone) and str(name).strip() and str(phone).strip():
+                            key = f"{str(name).strip().lower()}_{str(phone).strip()}"
+                            existing_name_phone.add(key)
 
                 # Handle different data sources
                 if data_source == "PDF Upload":
@@ -1176,19 +1191,40 @@ elif selected == "Screening":
                 elif data_source in ["Google Sheets", "CSV Upload"]:
                     candidates_df = st.session_state.screening_data
                     
-                    # Check for duplicates
+                    # Check for duplicates (by email OR by name+phone)
                     new_candidates = []
                     skipped_candidates = []
                     
                     for idx, row in candidates_df.iterrows():
+                        # Get candidate info
                         candidate_email = row.get("Email Pelamar") or row.get("Candidate Email") or row.get("Email", "")
-                        if pd.notna(candidate_email) and candidate_email in existing_emails:
-                            skipped_candidates.append(candidate_email)
+                        candidate_name = row.get("Nama") or row.get("Candidate Name") or row.get("Name", "")
+                        candidate_phone = row.get("Telp") or row.get("Phone") or row.get("Telepon", "")
+                        
+                        # Check by email first
+                        is_duplicate = False
+                        if pd.notna(candidate_email) and str(candidate_email).strip():
+                            if str(candidate_email).strip().lower() in existing_emails:
+                                skipped_candidates.append(f"{candidate_name} ({candidate_email})")
+                                is_duplicate = True
                         else:
+                            # No email, check by name+phone
+                            if pd.notna(candidate_name) and pd.notna(candidate_phone):
+                                name_phone_key = f"{str(candidate_name).strip().lower()}_{str(candidate_phone).strip()}"
+                                if name_phone_key in existing_name_phone:
+                                    skipped_candidates.append(f"{candidate_name} ({candidate_phone})")
+                                    is_duplicate = True
+                        
+                        if not is_duplicate:
                             new_candidates.append(row)
                     
                     if skipped_candidates:
-                        st.info(f"ℹ️ {len(skipped_candidates)} candidate(s) already processed and will be skipped.")
+                        st.warning(f"⏩ Skipping {len(skipped_candidates)} already-analyzed candidate(s):")
+                        with st.expander("View skipped candidates"):
+                            for name in skipped_candidates[:20]:  # Show max 20
+                                st.text(f"  • {name}")
+                            if len(skipped_candidates) > 20:
+                                st.text(f"  ... and {len(skipped_candidates) - 20} more")
                     
                     if new_candidates:
                         st.info(f"Ready to process {len(new_candidates)} new candidate(s)")
