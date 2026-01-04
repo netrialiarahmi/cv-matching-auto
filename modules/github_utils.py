@@ -14,6 +14,16 @@ try:
     HAS_STREAMLIT = True
 except ImportError:
     HAS_STREAMLIT = False
+    # Create a dummy st object with cache_data decorator for non-Streamlit environments
+    class _DummyCache:
+        def __call__(self, *args, **kwargs):
+            def decorator(func):
+                return func
+            return decorator
+    
+    st = type('obj', (object,), {
+        'cache_data': _DummyCache()
+    })()
 
 
 def _get_config(key, default=None):
