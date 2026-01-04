@@ -1056,14 +1056,64 @@ elif selected == "Screening":
             # === STEP 2 COMPLETED SUMMARY ===
             elif st.session_state.screening_step > 2:
                 st.markdown("<div class='step-card step-card-completed'>", unsafe_allow_html=True)
-                data_count = len(st.session_state.screening_data) if isinstance(st.session_state.screening_data, pd.DataFrame) else len(st.session_state.screening_data) if isinstance(st.session_state.screening_data, list) else 0
+                
+                # Calculate actual new candidates after duplicate check
+                data_count = 0
+                if isinstance(st.session_state.screening_data, pd.DataFrame):
+                    candidates_df = st.session_state.screening_data
+                    selected_job = st.session_state.screening_selected_job
+                    
+                    # Load existing results to check for duplicates
+                    position_results_file = get_results_filename(selected_job)
+                    existing_results = load_results_from_github(path=position_results_file)
+                    
+                    existing_emails = set()
+                    existing_name_phone = set()
+                    
+                    if existing_results is not None and not existing_results.empty:
+                        existing_emails = set(
+                            existing_results[existing_results["Candidate Email"].notna()]["Candidate Email"].str.lower()
+                        )
+                        for _, row in existing_results.iterrows():
+                            name = row.get("Candidate Name", "")
+                            phone = row.get("Phone", "")
+                            if pd.notna(name) and pd.notna(phone) and str(name).strip() and str(phone).strip():
+                                key = f"{str(name).strip().lower()}_{str(phone).strip()}"
+                                existing_name_phone.add(key)
+                    
+                    # Count only new candidates
+                    for idx, row in candidates_df.iterrows():
+                        first_name = row.get("Nama Depan") or row.get("First Name") or ""
+                        last_name = row.get("Nama Belakang") or row.get("Last Name") or ""
+                        candidate_name = f"{first_name} {last_name}".strip()
+                        if not candidate_name:
+                            candidate_name = row.get("Nama") or row.get("Candidate Name") or row.get("Name", "")
+                        
+                        candidate_email = row.get("Alamat Email") or row.get("Email Pelamar") or row.get("Candidate Email") or row.get("Email", "")
+                        candidate_phone = row.get("Nomor Handphone") or row.get("Telp") or row.get("Phone") or row.get("Telepon", "")
+                        
+                        is_duplicate = False
+                        if pd.notna(candidate_email) and str(candidate_email).strip():
+                            if str(candidate_email).strip().lower() in existing_emails:
+                                is_duplicate = True
+                        else:
+                            if pd.notna(candidate_name) and pd.notna(candidate_phone):
+                                name_phone_key = f"{str(candidate_name).strip().lower()}_{str(candidate_phone).strip()}"
+                                if name_phone_key in existing_name_phone:
+                                    is_duplicate = True
+                        
+                        if not is_duplicate:
+                            data_count += 1
+                elif isinstance(st.session_state.screening_data, list):
+                    data_count = len(st.session_state.screening_data)
+                
                 st.markdown(f"""
                 <div class='step-summary'>
                     <div class='step-summary-content'>
                         <div class='step-summary-icon'>✓</div>
                         <div class='step-summary-text'>
                             <div class='step-summary-label'>Data Loaded ({st.session_state.screening_data_source})</div>
-                            <div class='step-summary-value'>{data_count} candidate(s)</div>
+                            <div class='step-summary-value'>{data_count} new candidate(s)</div>
                         </div>
                     </div>
                 </div>
