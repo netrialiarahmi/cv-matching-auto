@@ -237,13 +237,23 @@ def screen_position(position_name, job_description):
                 cv_text = ""
                 if pd.notna(resume_link) and str(resume_link).strip():
                     try:
+                        # Set a reasonable timeout for CV extraction (60 seconds)
+                        # The extract_resume_from_url already has timeout for download
+                        # and extract_text_from_pdf has page limit to prevent hanging
                         cv_text = extract_resume_from_url(resume_link)
                         if cv_text:
                             print(f"       ✓ CV extracted ({len(cv_text)} characters)")
                         else:
-                            print(f"       ⚠ CV extraction failed (empty result)")
+                            print(f"       ⚠ CV extraction returned empty (corrupted or unsupported format)")
+                    except KeyboardInterrupt:
+                        # Allow manual interruption
+                        raise
                     except Exception as e:
-                        print(f"       ⚠ CV download error: {str(e)}")
+                        # Catch all errors including MuPDF/parsing issues
+                        error_msg = str(e)[:100]  # Truncate long error messages
+                        print(f"       ⚠ CV extraction failed: {error_msg}")
+                        # Continue processing without CV text
+                        cv_text = ""
                 else:
                     print(f"       ⚠ No resume link available")
                 
@@ -297,10 +307,17 @@ def screen_position(position_name, job_description):
                 results.append(result)
                 successfully_processed += 1
                 
+            except KeyboardInterrupt:
+                # Allow manual interruption
+                print(f"\n⚠️  Processing interrupted by user")
+                raise
             except Exception as e:
-                print(f"       ❌ Error processing candidate: {str(e)}")
-                print(f"       Stack trace: {traceback.format_exc()}")
+                error_msg = str(e)[:150]  # Truncate very long error messages
+                print(f"       ❌ Skipping candidate due to error: {error_msg}")
+                if "MuPDF" in str(e) or "fitz" in str(e):
+                    print(f"       (PDF parsing error - candidate will be skipped)")
                 failed_count += 1
+                # Continue to next candidate - don't let one failure stop the whole process
                 continue
         
         # 5. Save results to GitHub
