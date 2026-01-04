@@ -31,7 +31,7 @@ from modules.candidate_processor import (
     extract_resume_from_url
 )
 from modules.extractor import extract_text_from_pdf
-from modules.scorer import score_with_openrouter
+from modules.scorer import score_with_openrouter, extract_candidate_info_from_cv
 from modules.github_utils import (
     load_job_positions_from_github,
     load_results_from_github,
@@ -276,13 +276,24 @@ def screen_position(position_name, job_description):
                 strengths = []
                 weaknesses = []
                 gaps = []
+                candidate_info = {
+                    "latest_job_title": "",
+                    "latest_company": "",
+                    "education": "",
+                    "university": "",
+                    "major": ""
+                }
                 
                 if cv_text.strip():
                     try:
+                        # Extract score and evaluation
                         cv_score, summary, strengths, weaknesses, gaps = score_with_openrouter(
                             cv_text, position_name, job_description
                         )
                         print(f"       ✓ AI Score: {cv_score}/100")
+                        # Extract candidate info from CV
+                        candidate_info = extract_candidate_info_from_cv(cv_text)
+                        print(f"       ✓ Extracted candidate info from CV")
                     except Exception as e:
                         print(f"       ❌ AI scoring error: {str(e)}")
                         summary = f"Scoring failed: {str(e)}"
@@ -298,11 +309,11 @@ def screen_position(position_name, job_description):
                     "Strengths": "; ".join(strengths) if strengths else "",
                     "Weaknesses": "; ".join(weaknesses) if weaknesses else "",
                     "Gaps": "; ".join(gaps) if gaps else "",
-                    "Latest Job Title": candidate.get("Latest Job Title") or candidate.get("Jabatan Terakhir") or "",
-                    "Latest Company": candidate.get("Latest Company") or candidate.get("Perusahaan Terakhir") or "",
-                    "Education": candidate.get("Tingkat Pendidikan") or candidate.get("Latest Educational Attainment") or candidate.get("Pendidikan") or "",
-                    "University": candidate.get("Latest School/University") or candidate.get("Universitas") or "",
-                    "Major": candidate.get("Latest Major/Course") or candidate.get("Jurusan") or "",
+                    "Latest Job Title": candidate_info.get("latest_job_title") or candidate.get("Latest Job Title") or candidate.get("Jabatan Terakhir") or "",
+                    "Latest Company": candidate_info.get("latest_company") or candidate.get("Latest Company") or candidate.get("Perusahaan Terakhir") or "",
+                    "Education": candidate_info.get("education") or candidate.get("Tingkat Pendidikan") or candidate.get("Latest Educational Attainment") or candidate.get("Pendidikan") or "",
+                    "University": candidate_info.get("university") or candidate.get("Latest School/University") or candidate.get("Universitas") or "",
+                    "Major": candidate_info.get("major") or candidate.get("Latest Major/Course") or candidate.get("Jurusan") or "",
                     "Kalibrr Profile": candidate.get("Link Profil Kalibrr") or candidate.get("Kalibrr Profile Link") or candidate.get("Profil Kalibrr") or "",
                     "Application Link": candidate.get("Link Aplikasi Pekerjaan") or candidate.get("Job Application Link") or candidate.get("Tautan Lamaran") or "",
                     "Resume Link": resume_link,
