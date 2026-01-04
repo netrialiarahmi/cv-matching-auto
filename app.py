@@ -1196,10 +1196,16 @@ elif selected == "Screening":
                     skipped_candidates = []
                     
                     for idx, row in candidates_df.iterrows():
-                        # Get candidate info
-                        candidate_email = row.get("Email Pelamar") or row.get("Candidate Email") or row.get("Email", "")
-                        candidate_name = row.get("Nama") or row.get("Candidate Name") or row.get("Name", "")
-                        candidate_phone = row.get("Telp") or row.get("Phone") or row.get("Telepon", "")
+                        # Get candidate info with proper Kalibrr column mapping
+                        # Kalibrr uses "Nama Depan" and "Nama Belakang"
+                        first_name = row.get("Nama Depan") or row.get("First Name") or ""
+                        last_name = row.get("Nama Belakang") or row.get("Last Name") or ""
+                        candidate_name = f"{first_name} {last_name}".strip()
+                        if not candidate_name:
+                            candidate_name = row.get("Nama") or row.get("Candidate Name") or row.get("Name", "")
+                        
+                        candidate_email = row.get("Alamat Email") or row.get("Email Pelamar") or row.get("Candidate Email") or row.get("Email", "")
+                        candidate_phone = row.get("Nomor Handphone") or row.get("Telp") or row.get("Phone") or row.get("Telepon", "")
                         
                         # Check by email first
                         is_duplicate = False
@@ -1238,12 +1244,19 @@ elif selected == "Screening":
                             failed_saves = 0
                             
                             for i, row in enumerate(new_candidates):
-                                candidate_name = row.get("Nama") or row.get("Candidate Name") or row.get("Name", "Unknown")
+                                # Get candidate name with proper Kalibrr column mapping
+                                first_name = row.get("Nama Depan") or row.get("First Name") or ""
+                                last_name = row.get("Nama Belakang") or row.get("Last Name") or ""
+                                candidate_name = f"{first_name} {last_name}".strip()
+                                if not candidate_name:
+                                    candidate_name = row.get("Nama") or row.get("Candidate Name") or row.get("Name", "Unknown")
+                                
                                 status_text.text(f"Processing {i+1}/{len(new_candidates)}: {candidate_name}")
                                 
-                                resume_link = row.get("Tautan Resume") or row.get("Resume Link") or row.get("Resume", "")
+                                # Get resume link
+                                resume_link = row.get("Link Resume") or row.get("Tautan Resume") or row.get("Resume Link") or row.get("Resume", "")
                                 cv_text = ""
-                                if pd.notna(resume_link) and resume_link.strip():
+                                if pd.notna(resume_link) and str(resume_link).strip():
                                     cv_text = fetch_and_extract_cv_text(resume_link)
                                 
                                 cv_score = 0
