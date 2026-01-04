@@ -94,8 +94,13 @@ def fetch_candidates_from_file_storage(position_name):
 
 def get_results_filename(job_position):
     """Generate results filename for a specific job position."""
-    # Replace special characters with underscores
-    safe_name = job_position.replace("/", "_").replace("\\", "_").replace(" ", "_")
+    # Replace special characters with underscores, remove parentheses
+    safe_name = (job_position
+                 .replace("(", "")
+                 .replace(")", "")
+                 .replace("/", "_")
+                 .replace("\\", "_")
+                 .replace(" ", "_"))
     return f"results/results_{safe_name}.csv"
 
 
