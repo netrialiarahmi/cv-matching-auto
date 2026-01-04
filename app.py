@@ -1134,8 +1134,9 @@ elif selected == "Screening":
                     existing_name_phone = set()
                     
                     if existing_results is not None and not existing_results.empty:
+                        # Convert to string first before using .str accessor
                         existing_emails = set(
-                            existing_results[existing_results["Candidate Email"].notna()]["Candidate Email"].str.lower()
+                            existing_results[existing_results["Candidate Email"].notna()]["Candidate Email"].astype(str).str.lower()
                         )
                         for _, row in existing_results.iterrows():
                             name = row.get("Candidate Name", "")
@@ -1201,9 +1202,9 @@ elif selected == "Screening":
                 existing_name_phone = set()
                 
                 if existing_results is not None and not existing_results.empty:
-                    # Track by email
+                    # Track by email - convert to string first before using .str accessor
                     existing_emails = set(
-                        existing_results[existing_results["Candidate Email"].notna()]["Candidate Email"].str.lower()
+                        existing_results[existing_results["Candidate Email"].notna()]["Candidate Email"].astype(str).str.lower()
                     )
                     
                     # Track by name+phone for candidates without email
