@@ -111,7 +111,7 @@ def _deduplicate_candidates(df):
     """Deduplicate candidates while handling empty emails properly.
     
     For rows with valid emails: deduplicates by email + job position.
-    For rows without emails: deduplicates by candidate name + job position.
+    For rows without emails: deduplicates by candidate name + phone + job position.
     Preserves original row order.
     
     Args:
@@ -139,14 +139,24 @@ def _deduplicate_candidates(df):
         else:
             keep_email_indices = []
         
-        # Get indices to keep from rows without emails (use candidate name instead)
+        # Get indices to keep from rows without emails (use candidate name + phone instead)
         df_without_email = df.loc[~has_email]
-        if not df_without_email.empty and "Candidate Name" in df.columns:
-            keep_name_indices = df_without_email.drop_duplicates(
-                subset=["Candidate Name", "Job Position"], keep="first"
-            ).index.tolist()
+        if not df_without_email.empty:
+            if "Candidate Name" in df.columns and "Phone" in df.columns:
+                # Use name + phone for better deduplication
+                keep_name_indices = df_without_email.drop_duplicates(
+                    subset=["Candidate Name", "Phone", "Job Position"], keep="first"
+                ).index.tolist()
+            elif "Candidate Name" in df.columns:
+                # Fallback to name only if phone not available
+                keep_name_indices = df_without_email.drop_duplicates(
+                    subset=["Candidate Name", "Job Position"], keep="first"
+                ).index.tolist()
+            else:
+                # No deduplication possible without email or name
+                keep_name_indices = df_without_email.index.tolist()
         else:
-            keep_name_indices = df_without_email.index.tolist() if not df_without_email.empty else []
+            keep_name_indices = []
         
         # Combine indices and sort to preserve original order
         all_keep_indices = sorted(keep_email_indices + keep_name_indices)

@@ -140,9 +140,19 @@ def screen_position(position_name, job_description):
         else:
             print(f"   No existing results found (first run for this position)")
         
-        # 3. Filter new candidates only
+        # 3. Filter new candidates only (by email OR by name+phone if no email)
         new_candidates = []
         skipped_count = 0
+        
+        # Also track by name+phone for candidates without email
+        processed_name_phone = set()
+        if existing_results is not None and not existing_results.empty:
+            for _, row in existing_results.iterrows():
+                name = row.get("Candidate Name", "")
+                phone = row.get("Phone", "")
+                if pd.notna(name) and pd.notna(phone) and str(name).strip() and str(phone).strip():
+                    key = f"{str(name).strip().lower()}_{str(phone).strip()}"
+                    processed_name_phone.add(key)
         
         for idx, row in candidates_df.iterrows():
             # Kalibrr export column names: "Alamat Email", etc.
@@ -154,11 +164,31 @@ def screen_position(position_name, job_description):
                 row.get("Email", "")
             )
             
+            # Check by email first
             if pd.notna(candidate_email) and str(candidate_email).strip():
                 email_lower = str(candidate_email).strip().lower()
                 if email_lower in processed_emails:
                     skipped_count += 1
                     continue
+            else:
+                # No email, check by name+phone
+                candidate_name = (
+                    f"{row.get('Nama Depan', '')} {row.get('Nama Belakang', '')}".strip() or
+                    row.get("Candidate Name", "") or
+                    row.get("Name", "")
+                )
+                candidate_phone = (
+                    row.get("Nomor Handphone") or
+                    row.get("Phone Number") or
+                    row.get("Telepon") or
+                    row.get("Phone", "")
+                )
+                
+                if pd.notna(candidate_name) and pd.notna(candidate_phone):
+                    name_phone_key = f"{str(candidate_name).strip().lower()}_{str(candidate_phone).strip()}"
+                    if name_phone_key in processed_name_phone:
+                        skipped_count += 1
+                        continue
             
             new_candidates.append(row)
         
