@@ -7,8 +7,6 @@ import pandas as pd
 from io import StringIO
 import time
 from concurrent.futures import ThreadPoolExecutor, as_completed
-from pathlib import Path
-from contextlib import contextmanager
 
 # Try to import streamlit, but it's optional (for GitHub Actions compatibility)
 try:
@@ -85,73 +83,6 @@ def _log_info(message):
         _log_info(message)
     else:
         print(f"INFO: {message}")
-
-
-@contextmanager
-def file_lock(lock_path, timeout=60):
-    """
-    Cross-platform file lock using .lock files with timestamp.
-    Works on both Windows (local web) and Linux (GitHub Actions).
-    
-    Args:
-        lock_path: Path to the file being locked (we'll create .lock file)
-        timeout: Maximum seconds to wait for lock (default: 60s)
-        
-    Yields:
-        None when lock is acquired
-        
-    Raises:
-        TimeoutError: If lock cannot be acquired within timeout
-    """
-    lock_file = Path(f"{lock_path}.lock")
-    start_time = time.time()
-    acquired = False
-    
-    try:
-        # Try to acquire lock
-        while True:
-            try:
-                # Check if lock file exists
-                if lock_file.exists():
-                    try:
-                        # Check if lock is stale (older than 5 minutes)
-                        lock_age = time.time() - lock_file.stat().st_mtime
-                        if lock_age > 300:  # 5 minutes
-                            _log_warning(f"⚠️ Removing stale lock file (age: {lock_age:.0f}s)")
-                            lock_file.unlink()
-                        else:
-                            # Lock is valid, wait
-                            if time.time() - start_time > timeout:
-                                raise TimeoutError(f"Timeout waiting for lock on {lock_path}")
-                            time.sleep(2)
-                            continue
-                    except FileNotFoundError:
-                        # Lock was removed while we were checking, retry
-                        continue
-                
-                # Try to create lock file atomically
-                # This works on both Windows and Unix-like systems
-                lock_file.touch(exist_ok=False)
-                acquired = True
-                break
-                
-            except FileExistsError:
-                # Another process created the lock, wait and retry
-                if time.time() - start_time > timeout:
-                    raise TimeoutError(f"Timeout waiting for lock on {lock_path}")
-                time.sleep(2)
-        
-        # Lock acquired, yield control
-        yield
-        
-    finally:
-        # Release lock
-        if acquired:
-            try:
-                lock_file.unlink()
-            except FileNotFoundError:
-                pass  # Lock was already removed
-
 
 # Expected columns for results.csv
 RESULTS_COLUMNS = [
@@ -257,7 +188,6 @@ def get_results_filename(job_position):
 
 def save_results_to_github(df, path=None, job_position=None, max_retries=3):
     """Save or update results in GitHub repo, storing each job position in a separate file.
-    Uses file locking to prevent conflicts between manual and automated screening.
     
     Args:
         df: DataFrame to save
@@ -310,116 +240,108 @@ def save_results_to_github(df, path=None, job_position=None, max_retries=3):
 
     url = f"https://api.github.com/repos/{repo}/contents/{path}"
 
-    # Use file lock to prevent conflicts between manual and automated screening
-    try:
-        with file_lock(path, timeout=60):
-            # Retry loop
-            for attempt in range(max_retries):
-                try:
-                    # 1️⃣ Cek apakah file sudah ada
-                    r = requests.get(url, headers=headers, timeout=GITHUB_TIMEOUT)
-                    sha = None
-                    if r.status_code == 200:
-                        content = r.json()
-                        sha = content["sha"]
-                        file_size = content.get("size", 0)
-                        
-                        # Handle large files (>1MB) using raw URL instead of Contents API
-                        # GitHub Contents API excludes content field for files >1MB
-                        if file_size > GITHUB_CONTENTS_API_SIZE_LIMIT or "content" not in content:
-                            # Use raw.githubusercontent.com for large files
-                            raw_url = f"https://raw.githubusercontent.com/{repo}/{branch}/{path}"
-                            r_raw = requests.get(raw_url, timeout=GITHUB_TIMEOUT)
-                            if r_raw.status_code == 200:
-                                existing_csv = r_raw.text
-                            else:
-                                _log_error(f"❌ CRITICAL: Could not download large file ({file_size:,} bytes). Data loss may occur!")
-                                existing_csv = None
-                        else:
-                            # File is small enough, use Contents API
-                            existing_csv = base64.b64decode(content["content"]).decode("utf-8")
-                        
-                        # Parse existing data if available
-                        if existing_csv:
-                            try:
-                                old_df = pd.read_csv(StringIO(existing_csv))
-                                # Merge if old_df has data, otherwise just use new data
-                                if not old_df.empty:
-                                    df = pd.concat([old_df, df], ignore_index=True)
-                            except pd.errors.EmptyDataError:
-                                # Existing file is completely empty (no header), just use the new data
-                                pass
-                            except (pd.errors.ParserError, ValueError) as e:
-                                # Log parsing error but continue with new data
-                                if attempt == max_retries - 1:
-                                    _log_warning(f"⚠️ Could not parse existing data (using new data only): {str(e)}")
-                    
-                    # Apply deduplication to remove duplicates (handles both merged and new-only data)
-                    # Keep 'first' to preserve existing records and their shortlist status
-                    df = _deduplicate_candidates(df)
-                    
-                elif r.status_code == 401:
-                    _log_error(f"❌ GitHub authentication failed: {r.status_code} - {r.text}")
-                    return False
-                elif r.status_code != 404:
-                    # 404 is expected for new files, other errors should be reported
-                    if attempt == max_retries - 1:
-                        _log_warning(f"⚠️ Could not check existing file: {r.status_code} - {r.text}")
-
-                # 2️⃣ Encode CSV baru
-                csv_bytes = df.to_csv(index=False).encode("utf-8")
-                encoded = base64.b64encode(csv_bytes).decode("utf-8")
-
-                # 3️⃣ Siapkan payload
-                data = {
-                    "message": "📊 Update results.csv via Streamlit app",
-                    "content": encoded,
-                    "branch": branch
-                }
-                if sha:
-                    data["sha"] = sha
-
-                # 4️⃣ Upload ke GitHub
-                res = requests.put(url, headers=headers, data=json.dumps(data), timeout=GITHUB_TIMEOUT)
-                if res.status_code in [200, 201]:
-                    return True
-                elif res.status_code == 409:
-                    # Conflict - file was updated by someone else, retry
-                    if attempt < max_retries - 1:
-                        time.sleep(1)  # Wait before retrying
-                        continue
+    # Retry loop
+    for attempt in range(max_retries):
+        try:
+            # 1️⃣ Cek apakah file sudah ada
+            r = requests.get(url, headers=headers, timeout=GITHUB_TIMEOUT)
+            sha = None
+            if r.status_code == 200:
+                content = r.json()
+                sha = content["sha"]
+                file_size = content.get("size", 0)
+                
+                # Handle large files (>1MB) using raw URL instead of Contents API
+                # GitHub Contents API excludes content field for files >1MB
+                if file_size > GITHUB_CONTENTS_API_SIZE_LIMIT or "content" not in content:
+                    # Use raw.githubusercontent.com for large files
+                    raw_url = f"https://raw.githubusercontent.com/{repo}/{branch}/{path}"
+                    r_raw = requests.get(raw_url, timeout=GITHUB_TIMEOUT)
+                    if r_raw.status_code == 200:
+                        existing_csv = r_raw.text
                     else:
-                        _log_error(f"❌ GitHub save failed after {max_retries} attempts: File conflict")
-                        return False
+                        _log_error(f"❌ CRITICAL: Could not download large file ({file_size:,} bytes). Data loss may occur!")
+                        existing_csv = None
                 else:
-                    if attempt == max_retries - 1:
-                        _log_error(f"❌ GitHub save failed: {res.status_code} - {res.text}")
+                    # File is small enough, use Contents API
+                    existing_csv = base64.b64decode(content["content"]).decode("utf-8")
+                
+                # Parse existing data if available
+                if existing_csv:
+                    try:
+                        old_df = pd.read_csv(StringIO(existing_csv))
+                        # Merge if old_df has data, otherwise just use new data
+                        if not old_df.empty:
+                            df = pd.concat([old_df, df], ignore_index=True)
+                    except pd.errors.EmptyDataError:
+                        # Existing file is completely empty (no header), just use the new data
+                        pass
+                    except (pd.errors.ParserError, ValueError) as e:
+                        # Log parsing error but continue with new data
+                        if attempt == max_retries - 1:
+                            _log_warning(f"⚠️ Could not parse existing data (using new data only): {str(e)}")
+                
+                # Apply deduplication to remove duplicates (handles both merged and new-only data)
+                # Keep 'first' to preserve existing records and their shortlist status
+                df = _deduplicate_candidates(df)
+            elif r.status_code == 401:
+                _log_error(f"❌ GitHub authentication failed: {r.status_code} - {r.text}")
+                return False
+            elif r.status_code != 404:
+                # 404 is expected for new files, other errors should be reported
+                if attempt == max_retries - 1:
+                    _log_warning(f"⚠️ Could not check existing file: {r.status_code} - {r.text}")
+
+            # 2️⃣ Encode CSV baru
+            csv_bytes = df.to_csv(index=False).encode("utf-8")
+            encoded = base64.b64encode(csv_bytes).decode("utf-8")
+
+            # 3️⃣ Siapkan payload
+            data = {
+                "message": "📊 Update results.csv via Streamlit app",
+                "content": encoded,
+                "branch": branch
+            }
+            if sha:
+                data["sha"] = sha
+
+            # 4️⃣ Upload ke GitHub
+            res = requests.put(url, headers=headers, data=json.dumps(data), timeout=GITHUB_TIMEOUT)
+            if res.status_code in [200, 201]:
+                return True
+            elif res.status_code == 409:
+                # Conflict - file was updated by someone else, retry
+                if attempt < max_retries - 1:
+                    time.sleep(1)  # Wait before retrying
+                    continue
+                else:
+                    _log_error(f"❌ GitHub save failed after {max_retries} attempts: File conflict")
                     return False
-                    
-                except requests.exceptions.Timeout:
-                    if attempt < max_retries - 1:
-                        time.sleep(2)  # Wait before retrying
-                        continue
-                    else:
-                        _log_error(f"❌ GitHub save failed: Connection timeout after {max_retries} attempts")
-                        return False
-                except requests.exceptions.RequestException as e:
-                    if attempt < max_retries - 1:
-                        time.sleep(2)  # Wait before retrying
-                        continue
-                    else:
-                        _log_error(f"❌ GitHub save failed: Network error - {str(e)}")
-                        return False
-                except Exception as e:
-                    if attempt == max_retries - 1:
-                        _log_error(f"❌ Unexpected error while saving: {str(e)}")
-                    return False
-            
+            else:
+                if attempt == max_retries - 1:
+                    _log_error(f"❌ GitHub save failed: {res.status_code} - {res.text}")
+                return False
+                
+        except requests.exceptions.Timeout:
+            if attempt < max_retries - 1:
+                time.sleep(2)  # Wait before retrying
+                continue
+            else:
+                _log_error(f"❌ GitHub save failed: Connection timeout after {max_retries} attempts")
+                return False
+        except requests.exceptions.RequestException as e:
+            if attempt < max_retries - 1:
+                time.sleep(2)  # Wait before retrying
+                continue
+            else:
+                _log_error(f"❌ GitHub save failed: Network error - {str(e)}")
+                return False
+        except Exception as e:
+            if attempt == max_retries - 1:
+                _log_error(f"❌ Unexpected error while saving: {str(e)}")
             return False
     
-    except TimeoutError as e:
-        _log_error(f"❌ File lock timeout: {str(e)}")
-        return False
+    return False
 
 
 def load_results_from_github(path="results.csv"):

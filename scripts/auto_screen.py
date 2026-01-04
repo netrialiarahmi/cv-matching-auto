@@ -147,7 +147,7 @@ def screen_position(position_name, job_description):
         
         # 3. Filter new candidates only (by email OR by name+phone if no email)
         new_candidates = []
-        skipped_count = 0
+        skipped_candidates = []  # Track skipped candidates for reporting
         
         # Also track by name+phone for candidates without email
         processed_name_phone = set()
@@ -169,19 +169,21 @@ def screen_position(position_name, job_description):
                 row.get("Email", "")
             )
             
+            # Get candidate name for reporting
+            first_name = row.get("Nama Depan") or row.get("First Name") or ""
+            last_name = row.get("Nama Belakang") or row.get("Last Name") or ""
+            candidate_name = f"{first_name} {last_name}".strip()
+            if not candidate_name:
+                candidate_name = row.get("Candidate Name", "") or row.get("Name", "") or "Unknown"
+            
             # Check by email first
             if pd.notna(candidate_email) and str(candidate_email).strip():
                 email_lower = str(candidate_email).strip().lower()
                 if email_lower in processed_emails:
-                    skipped_count += 1
+                    skipped_candidates.append(candidate_name)
                     continue
             else:
                 # No email, check by name+phone
-                candidate_name = (
-                    f"{row.get('Nama Depan', '')} {row.get('Nama Belakang', '')}".strip() or
-                    row.get("Candidate Name", "") or
-                    row.get("Name", "")
-                )
                 candidate_phone = (
                     row.get("Nomor Handphone") or
                     row.get("Phone Number") or
@@ -192,19 +194,25 @@ def screen_position(position_name, job_description):
                 if pd.notna(candidate_name) and pd.notna(candidate_phone):
                     name_phone_key = f"{str(candidate_name).strip().lower()}_{str(candidate_phone).strip()}"
                     if name_phone_key in processed_name_phone:
-                        skipped_count += 1
+                        skipped_candidates.append(candidate_name)
                         continue
             
             new_candidates.append(row)
         
-        if skipped_count > 0:
-            print(f"   ⏩ Skipping {skipped_count} already-processed candidates")
+        if skipped_candidates:
+            print(f"\n   ⏩ Skipping {len(skipped_candidates)} already-analyzed candidates:")
+            # Show first 10 names, then "and X more..."
+            for i, name in enumerate(skipped_candidates[:10]):
+                print(f"      • {name}")
+            if len(skipped_candidates) > 10:
+                print(f"      ... and {len(skipped_candidates) - 10} more")
         
         if not new_candidates:
-            print(f"✅ All candidates already processed (no new candidates)")
+            print(f"\n✅ All {len(candidates_df)} candidates already analyzed (no new candidates to screen)")
             return 0
         
-        print(f"🚀 Starting screening for {len(new_candidates)} new candidates\n")
+        print(f"\n🚀 Starting screening for {len(new_candidates)} new candidates")
+        print(f"   ({len(skipped_candidates)} already analyzed, {len(new_candidates)} remaining)\n")
         
         # 4. Process each new candidate
         results = []
@@ -331,11 +339,12 @@ def screen_position(position_name, job_description):
         
         # Summary for this position (results already saved individually)
         print(f"\n📊 Position Summary:")
+        print(f"   • Total candidates found: {len(candidates_df)}")
+        print(f"   • Already analyzed (skipped): {len(skipped_candidates)}")
         print(f"   • New candidates screened: {successfully_processed}")
         if failed_count > 0:
             print(f"   • Failed to process: {failed_count}")
-        if skipped_count > 0:
-            print(f"   • Already processed (skipped): {skipped_count}")
+        print(f"   • Total analyzed to date: {len(skipped_candidates) + successfully_processed}")
         
         return successfully_processed
         
