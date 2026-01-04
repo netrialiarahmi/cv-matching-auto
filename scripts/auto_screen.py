@@ -237,21 +237,18 @@ def screen_position(position_name, job_description):
                 cv_text = ""
                 if pd.notna(resume_link) and str(resume_link).strip():
                     try:
-                        # Set a reasonable timeout for CV extraction (60 seconds)
-                        # The extract_resume_from_url already has timeout for download
-                        # and extract_text_from_pdf has page limit to prevent hanging
+                        # Extract CV with minimal retry (fail fast on errors)
                         cv_text = extract_resume_from_url(resume_link)
                         if cv_text:
                             print(f"       ✓ CV extracted ({len(cv_text)} characters)")
                         else:
-                            print(f"       ⚠ CV extraction returned empty (corrupted or unsupported format)")
+                            print(f"       ⚠ CV extraction failed - skipping to next candidate")
                     except KeyboardInterrupt:
                         # Allow manual interruption
                         raise
                     except Exception as e:
                         # Catch all errors including MuPDF/parsing issues
-                        error_msg = str(e)[:100]  # Truncate long error messages
-                        print(f"       ⚠ CV extraction failed: {error_msg}")
+                        print(f"       ⚠ CV extraction error - skipping to next candidate")
                         # Continue processing without CV text
                         cv_text = ""
                 else:

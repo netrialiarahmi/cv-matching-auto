@@ -278,12 +278,12 @@ def parse_candidate_csv(uploaded_file):
         return None
 
 
-def extract_resume_from_url(url, max_retries=3):
-    """Download and extract text from resume URL (PDF) with retry logic.
+def extract_resume_from_url(url, max_retries=1):
+    """Download and extract text from resume URL (PDF) with minimal retry.
     
     Args:
         url: URL to the resume PDF
-        max_retries: Maximum number of retry attempts on failure
+        max_retries: Maximum number of retry attempts on failure (default 1 for speed)
     
     Returns:
         str: Extracted text from the PDF, or empty string on failure
@@ -300,7 +300,7 @@ def extract_resume_from_url(url, max_retries=3):
                 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
                 'Accept': 'application/pdf,*/*'
             }
-            response = requests.get(url, headers=headers, timeout=60)
+            response = requests.get(url, headers=headers, timeout=30)
             if response.status_code == 200:
                 pdf_file = BytesIO(response.content)
                 # Create a file-like object that mimics uploaded_file
@@ -315,35 +315,21 @@ def extract_resume_from_url(url, max_retries=3):
                 return text
             elif response.status_code == 429:  # Too many requests
                 if attempt < max_retries - 1:
-                    time.sleep(5)  # Wait 5 seconds before retrying
+                    time.sleep(2)  # Wait 2 seconds before retrying
                     continue
                 else:
-                    _log_warning(f"⚠️ Too many requests. Failed to download resume (rate limit)")
                     return ""
             else:
-                if attempt < max_retries - 1:
-                    time.sleep(2)  # Wait before retrying
-                    continue
-                else:
-                    _log_warning(f"⚠️ Failed to download resume (Status {response.status_code})")
-                    return ""
+                # Don't retry on other HTTP errors - fail fast
+                return ""
         except requests.exceptions.Timeout:
-            if attempt < max_retries - 1:
-                time.sleep(3)  # Wait before retrying
-                continue
-            else:
-                _log_warning(f"⚠️ Timeout downloading resume")
-                return ""
+            # Don't retry on timeout - fail fast
+            return ""
         except requests.exceptions.RequestException as e:
-            if attempt < max_retries - 1:
-                time.sleep(2)  # Wait before retrying
-                continue
-            else:
-                _log_warning(f"⚠️ Network error extracting resume")
-                return ""
+            # Don't retry on network errors - fail fast
+            return ""
         except Exception as e:
             # Non-network errors (like PDF parsing errors) should not retry
-            _log_warning(f"⚠️ Error extracting resume: {str(e)[:50]}")
             return ""
     
     return ""
