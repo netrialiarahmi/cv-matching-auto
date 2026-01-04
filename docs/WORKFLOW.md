@@ -1,149 +1,163 @@
-# CV Matching System Workflow
+# CV Matching System - Technical Workflow
 
-## Section 1: Job Management
-
-```
-User Action: Add Job Position
-    ↓
-Input: Job Position Name + Job Description
-    ↓
-Save to GitHub: job_positions.csv
-    ↓
-Display: Table of all job positions
-```
-
-## Section 2: Screening
+## Module 1: Job Position Management
 
 ```
-User Action: Upload Candidate CSV
-    ↓
-Select: Job Position from dropdown
-    ↓
-Preview: Job Description + Candidate Data (first 10 rows)
-    ↓
-Process: For each candidate
-    │
-    ├─→ Check if already in dashboard (by email)
-    │   └─→ Skip if exists
-    │
-    ├─→ Extract resume from "Link Resume" URL
-    │
-    ├─→ Build context from CSV columns:
-    │   - Work history (3 positions)
-    │   - Education (3 levels)
-    │   - Personal info
-    │
-    ├─→ Combine: Resume text + Structured data
-    │
-    └─→ AI Matching: OpenRouter (Gemini 2.5 Pro)
-        ├─→ Match Score (0-100)
-        ├─→ Strengths (list)
-        ├─→ Weaknesses (list)
-        ├─→ Gaps (list)
-        └─→ AI Summary (2-3 sentences)
-    ↓
-Save to GitHub: results.csv
-    ↓
-Display: Preview of results
+User Interaction: Create Job Position
+    |
+    v
+Input Capture: Position Title + Role Description
+    |
+    v
+Data Persistence: Commit to GitHub (job_positions.csv)
+    |
+    v
+Interface Update: Display position roster in tabular format
 ```
 
-## Section 3: Dashboard
+## Module 2: Candidate Screening
 
 ```
-Load: results.csv from GitHub
-    ↓
-Filter: By Job Position (optional)
-    ↓
-Sort: By Final Score (descending)
-    ↓
-Display: For each candidate
-    │
-    ├─→ KPI Metrics:
-    │   - Average Final Score
-    │   - Top Final Score
-    │   - Total Candidates
-    │
-    ├─→ Expandable Cards:
-    │   - Scores (Match, AI Recruiter, Final)
-    │   - Basic Info (Email, Phone, Job, Education)
-    │   - ✅ Strengths
-    │   - ⚠️ Weaknesses
-    │   - 🔴 Gaps
-    │   - 🤖 AI Summary
-    │   - 🔗 Links (Resume, Profile, Application)
-    │
-    ├─→ Summary Table:
-    │   - All candidates ranked
-    │
-    └─→ Visualizations:
-        - Bar chart of scores
-    ↓
-Download Options:
-    - CSV
-    - Excel
+User Interaction: Upload Candidate Dataset
+    |
+    v
+Position Selection: Choose target position from dropdown menu
+    |
+    v
+Data Preview: Display job requirements + candidate data (first 10 records)
+    |
+    v
+Processing Pipeline: For each candidate record
+    |
+    +-- Duplicate Detection: Verify candidate email against existing results
+    |   |
+    |   +-- Skip if previously processed
+    |
+    +-- Resume Acquisition: Extract document from "Resume Link" URL
+    |
+    +-- Context Assembly: Aggregate structured data from CSV columns:
+    |   - Employment history (3 most recent positions)
+    |   - Educational background (3 highest qualifications)
+    |   - Personal information
+    |
+    +-- Data Integration: Combine extracted resume text with structured data
+    |
+    +-- AI Analysis: Execute evaluation using OpenRouter (Gemini 2.5 Pro)
+        |
+        +-- Match Score: Quantitative assessment (0-100 scale)
+        +-- Strengths: Array of identified positive attributes
+        +-- Weaknesses: Array of identified limitations
+        +-- Gaps: Array of missing qualifications or experience
+        +-- Summary: Generated 2-3 sentence candidate evaluation
+    |
+    v
+Data Persistence: Commit results to GitHub (results.csv)
+    |
+    v
+Interface Update: Display screening results preview
 ```
 
-## Data Storage
+## Module 3: Results Dashboard
 
-All data persisted in GitHub repository:
+```
+Data Retrieval: Load results.csv from GitHub repository
+    |
+    v
+Filter Application: Apply position filter (optional)
+    |
+    v
+Sort Application: Order by Final Score (descending)
+    |
+    v
+Display Generation: For each candidate
+    |
+    +-- Key Performance Indicators:
+    |   - Average Final Score
+    |   - Maximum Final Score
+    |   - Total Candidate Count
+    |
+    +-- Candidate Cards (expandable):
+    |   - Quantitative Scores (Match, AI Recruiter, Final)
+    |   - Basic Information (Email, Phone, Position, Education)
+    |   - Strengths Analysis
+    |   - Weaknesses Analysis
+    |   - Gap Analysis
+    |   - AI-Generated Summary
+    |   - Resource Links (Resume, Profile, Application)
+    |
+    +-- Summary Table:
+    |   - Complete candidate ranking
+    |
+    +-- Data Visualizations:
+        - Score distribution bar chart
+    |
+    v
+Export Options:
+    - CSV format export
+    - Excel format export
+```
+
+## Data Persistence Architecture
+
+All system data is persisted to GitHub repository:
 
 ```
 repository/
 ├── job_positions.csv
-│   - Job Position
-│   - Job Description
-│   - Date Created
+│   - Job Position (position title)
+│   - Job Description (role requirements)
+│   - Date Created (timestamp)
 │
 └── results.csv
     - Candidate Name
     - Candidate Email
-    - Phone
-    - Job Position
-    - Match Score
-    - AI Summary
-    - Strengths
-    - Weaknesses
-    - Gaps
-    - Latest Job Title
-    - Latest Company
-    - Education
-    - University
-    - Major
-    - Kalibrr Profile
-    - Application Link
-    - Resume Link
-    - Recruiter Feedback
-    - AI Recruiter Score
-    - Final Score
-    - Date Processed
+    - Phone (contact number)
+    - Job Position (applied role)
+    - Match Score (quantitative assessment)
+    - AI Summary (generated evaluation)
+    - Strengths (positive attributes)
+    - Weaknesses (identified limitations)
+    - Gaps (missing qualifications)
+    - Latest Job Title (most recent position)
+    - Latest Company (most recent employer)
+    - Education (highest qualification)
+    - University (educational institution)
+    - Major (field of study)
+    - Kalibrr Profile (profile URL)
+    - Application Link (application URL)
+    - Resume Link (resume document URL)
+    - Recruiter Feedback (manual evaluation notes)
+    - AI Recruiter Score (secondary assessment)
+    - Final Score (composite score)
+    - Date Processed (processing timestamp)
 ```
 
-## Key Features
+## System Features
 
 ### Duplicate Prevention
-- Checks existing results by email before processing
-- Skips candidates already in dashboard
-- Shows count of new vs skipped candidates
+- Validates candidate email against existing results before processing
+- Skips previously evaluated candidates automatically
+- Displays metrics for new versus skipped candidates
 
-### AI-Powered Matching
-- Uses OpenRouter API with Gemini 2.5 Pro
-- Analyzes both resume PDF and structured CSV data
-- Provides detailed evaluation:
-  - Numeric score (0-100)
-  - Specific strengths
-  - Clear weaknesses
-  - Skill/experience gaps
-  - Contextual summary
+### AI-Powered Analysis
+- Utilizes OpenRouter API with Gemini 2.5 Pro model
+- Analyzes combined resume PDF and structured CSV data
+- Generates comprehensive evaluation including:
+  - Quantitative match score (0-100 scale)
+  - Specific strength identification
+  - Clear weakness identification
+  - Skill and experience gap analysis
+  - Contextual evaluation summary
 
 ### Data Persistence
-- All data saved to GitHub
-- Version control for changes
-- No local storage dependency
-- Accessible from any deployment
+- All data committed to GitHub repository
+- Full version control for all modifications
+- No dependency on local storage
+- Accessible from any deployment environment
 
 ### User Experience
-- Preview data before processing
-- Progress indicators during screening
-- Filter and sort results
-- Expandable detail views
-- Multiple export formats
+- Data preview before processing initiation
+- Progress indicators during screening operations
+- Multi-criteria filtering and sorting
+- Expandable detail views for comprehensive information
+- Multiple export format options
