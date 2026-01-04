@@ -16,9 +16,9 @@ from playwright.async_api import async_playwright
 load_dotenv()
 KAID = os.getenv("KAID")
 KB = os.getenv("KB")
-GSHEET_URL = os.getenv("GSHEET_URL") or "https://docs.google.com/spreadsheets/d/1Xs7qLk1_gOu4jCHiCmyo28BlRmGXIvve1npwKuYf5mw/edit?usp=sharing"
+GSHEET_URL = os.getenv("GSHEET_URL") or "https://docs.google.com/spreadsheets/d/1Xs7qLk1_gOu4jCHiCmyo28BlRmGXIvve1npwKuYf5mw/edit#gid=0"
 # CSV export URL for the same sheet (for fetching positions)
-GSHEET_CSV_URL = os.getenv("GSHEET_CSV_URL") or "https://docs.google.com/spreadsheets/d/e/2PACX-1vRKC_5lHg9yJgGoBlkH0A-fjpjpiYu4MzO4ieEdSId5wAKS7bsLDdplXWx8944xFlHf2f9lVcUYzVcr/pub?output=csv"
+GSHEET_CSV_URL = os.getenv("GSHEET_CSV_URL") or "https://docs.google.com/spreadsheets/d/e/2PACX-1vRKC_5lHg9yJgGoBlkH0A-fjpjpiYu4MzO4ieEdSId5wAKS7bsLDdplXWx8944xFlHf2f9lVcUYzVcr/pub?gid=0&output=csv"
 
 if not KAID or not KB:
     print("KAID atau KB tidak ditemukan di .env")
