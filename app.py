@@ -985,12 +985,21 @@ elif selected == "Screening":
                 st.markdown("<div class='step-card-header'><div class='step-card-title'>Step 1: Select Job Position</div><div class='step-card-subtitle'>Choose the position you want to screen candidates for</div></div>", unsafe_allow_html=True)
                 
                 job_positions = active_jobs_df["Job Position"].tolist()
+                
+                # Initialize or get current selection
+                if 'step1_current_job' not in st.session_state:
+                    st.session_state.step1_current_job = st.session_state.screening_selected_job if st.session_state.screening_selected_job else job_positions[0]
+                
                 selected_job = st.selectbox(
                     "Job Position",
                     job_positions,
                     key="step1_job_select",
-                    index=job_positions.index(st.session_state.screening_selected_job) if st.session_state.screening_selected_job in job_positions else 0
+                    index=job_positions.index(st.session_state.step1_current_job) if st.session_state.step1_current_job in job_positions else 0
                 )
+                
+                # Update current job when selection changes
+                if selected_job != st.session_state.step1_current_job:
+                    st.session_state.step1_current_job = selected_job
 
                 if selected_job:
                     job_info = active_jobs_df[active_jobs_df["Job Position"] == selected_job].iloc[0]
@@ -999,7 +1008,7 @@ elif selected == "Screening":
                     st.markdown("---")
                     st.markdown("**Job Description:**")
                     job_desc = job_info['Job Description']
-                    st.text_area("Job Description", value=job_desc, height=300, disabled=True, label_visibility="collapsed", key="step1_full_desc")
+                    st.text_area("Job Description", value=job_desc, height=300, disabled=True, label_visibility="collapsed", key=f"step1_full_desc_{selected_job}")
 
                 st.markdown("<div class='step-actions'>", unsafe_allow_html=True)
                 col1, col2 = st.columns([1, 5])
