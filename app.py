@@ -2,7 +2,7 @@ import streamlit as st
 from streamlit_option_menu import option_menu
 import pandas as pd
 from modules.extractor import extract_text_from_pdf
-from modules.scorer import score_with_openrouter, get_openrouter_client, extract_candidate_name_from_cv, score_table_data, _get_model_name, call_api_with_retry
+from modules.scorer import score_with_openrouter, get_openrouter_client, extract_candidate_name_from_cv, extract_candidate_info_from_cv, score_table_data, _get_model_name, call_api_with_retry
 from modules.github_utils import (
     save_results_to_github,
     load_results_from_github,
@@ -1378,11 +1378,21 @@ elif selected == "Screening":
                                 strengths = []
                                 weaknesses = []
                                 gaps = []
+                                candidate_info = {
+                                    "latest_job_title": "",
+                                    "latest_company": "",
+                                    "education": "",
+                                    "university": "",
+                                    "major": ""
+                                }
                                 
                                 if cv_text.strip():
+                                    # Extract score and evaluation
                                     cv_score, summary, strengths, weaknesses, gaps = score_with_openrouter(
                                         cv_text, selected_job, job_info['Job Description']
                                     )
+                                    # Extract candidate info from CV
+                                    candidate_info = extract_candidate_info_from_cv(cv_text)
                                 
                                 candidate_result = {
                                     "Candidate Name": candidate_name,
@@ -1394,11 +1404,11 @@ elif selected == "Screening":
                                     "Strengths": ", ".join(strengths) if strengths else "",
                                     "Weaknesses": ", ".join(weaknesses) if weaknesses else "",
                                     "Gaps": ", ".join(gaps) if gaps else "",
-                                    "Latest Job Title": row.get("Jabatan Terakhir") or row.get("Latest Job Title") or row.get("Job Title", ""),
-                                    "Latest Company": row.get("Perusahaan Terakhir") or row.get("Latest Company") or row.get("Company", ""),
-                                    "Education": row.get("Tingkat Pendidikan") or row.get("Education") or row.get("Degree", ""),
-                                    "University": row.get("Universitas") or row.get("University") or row.get("School", ""),
-                                    "Major": row.get("Jurusan") or row.get("Major") or row.get("Field of Study", ""),
+                                    "Latest Job Title": candidate_info.get("latest_job_title") or row.get("Jabatan Terakhir") or row.get("Latest Job Title") or "",
+                                    "Latest Company": candidate_info.get("latest_company") or row.get("Perusahaan Terakhir") or row.get("Latest Company") or "",
+                                    "Education": candidate_info.get("education") or row.get("Tingkat Pendidikan") or row.get("Education") or "",
+                                    "University": candidate_info.get("university") or row.get("Universitas") or row.get("University") or "",
+                                    "Major": candidate_info.get("major") or row.get("Jurusan") or row.get("Major") or "",
                                     "Kalibrr Profile": row.get("Link Profil Kalibrr") or row.get("Kalibrr Profile") or row.get("Profile", ""),
                                     "Application Link": row.get("Link Aplikasi Pekerjaan") or row.get("Application Link") or row.get("Application", ""),
                                     "Resume Link": resume_link,

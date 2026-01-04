@@ -226,6 +226,82 @@ def _clamp_score(value):
 # =========================
 # Main Scoring Function
 # =========================
+def extract_candidate_info_from_cv(cv_text):
+    """Extract candidate information from CV text using AI."""
+    if not cv_text or not cv_text.strip():
+        return {
+            "latest_job_title": "",
+            "latest_company": "",
+            "education": "",
+            "university": "",
+            "major": ""
+        }
+    
+    client = get_openrouter_client()
+    
+    prompt = f"""
+Extract the following information from this CV/resume text:
+1. Latest Job Title (most recent position)
+2. Latest Company (most recent workplace)
+3. Education Level (e.g., S1, S2, Bachelor's, Master's, etc.)
+4. University Name
+5. Major/Field of Study
+
+Rules:
+- If information is not found, leave it empty
+- Return ONLY a JSON object with these exact keys: latest_job_title, latest_company, education, university, major
+- Do not add any explanation or extra text
+
+CV Text:
+{cv_text[:3000]}
+
+Return JSON only:
+"""
+    
+    try:
+        response = call_api_with_retry(
+            client,
+            model=_get_model_name(),
+            messages=[
+                {"role": "system", "content": "You are a data extraction assistant. Return only valid JSON with candidate information."},
+                {"role": "user", "content": prompt}
+            ],
+            temperature=0.1,
+            response_format={"type": "json_object"},
+            max_tokens=1000
+        )
+        
+        output = response.choices[0].message.content.strip()
+        data = _try_parse_json(output)
+        
+        if isinstance(data, dict):
+            return {
+                "latest_job_title": str(data.get("latest_job_title", "")).strip(),
+                "latest_company": str(data.get("latest_company", "")).strip(),
+                "education": str(data.get("education", "")).strip(),
+                "university": str(data.get("university", "")).strip(),
+                "major": str(data.get("major", "")).strip()
+            }
+        
+        return {
+            "latest_job_title": "",
+            "latest_company": "",
+            "education": "",
+            "university": "",
+            "major": ""
+        }
+        
+    except Exception as e:
+        _log_info(f"ℹ️ Could not extract candidate info from CV: {e}")
+        return {
+            "latest_job_title": "",
+            "latest_company": "",
+            "education": "",
+            "university": "",
+            "major": ""
+        }
+
+
 def extract_candidate_name_from_cv(cv_text):
     """Extract candidate name from CV text using AI."""
     if not cv_text or not cv_text.strip():
