@@ -1371,7 +1371,7 @@ elif selected == "Screening":
                                 resume_link = row.get("Link Resume") or row.get("Tautan Resume") or row.get("Resume Link") or row.get("Resume", "")
                                 cv_text = ""
                                 if pd.notna(resume_link) and str(resume_link).strip():
-                                    cv_text = fetch_and_extract_cv_text(resume_link)
+                                    cv_text = extract_resume_from_url(resume_link)
                                 
                                 cv_score = 0
                                 summary = "No resume available"
