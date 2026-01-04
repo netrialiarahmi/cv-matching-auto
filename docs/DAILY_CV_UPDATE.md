@@ -172,24 +172,4 @@ Could not fetch fresh candidate data for Position Name
 
 ### Missing Resume Link Column
 ```
-Warning: 'Resume Link' column not found in results/results_Position_Name.csv
-   Available columns: [list of columns]
-```
-
-**Resolution**: Result file lacks Resume Link column. Script skips this position.
-
-### No Updates Required
-```
-No resume links needed updating for Position Name
-```
-
-**Resolution**: Normal operation. All Resume Links are current or no changes detected.
-
-## Manual Testing
-
-Execute script manually for testing purposes:
-```bash
-python scripts/update_cv_links.py
-```
-
-Script processes all positions in `sheet_positions.csv` and updates Resume Link fields in corresponding result files.
+Warni
