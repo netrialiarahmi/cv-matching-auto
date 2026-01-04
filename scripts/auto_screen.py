@@ -145,8 +145,9 @@ def screen_position(position_name, job_description):
         skipped_count = 0
         
         for idx, row in candidates_df.iterrows():
-            # Try multiple column name variations
+            # Kalibrr export column names: "Alamat Email", etc.
             candidate_email = (
+                row.get("Alamat Email") or 
                 row.get("Email Address") or 
                 row.get("Email Pelamar") or 
                 row.get("Candidate Email") or 
@@ -177,14 +178,15 @@ def screen_position(position_name, job_description):
         
         for idx, candidate in enumerate(new_candidates, 1):
             try:
-                # Extract candidate info (handle multiple column name variations)
-                first_name = candidate.get("First Name") or candidate.get("Nama Depan") or ""
-                last_name = candidate.get("Last Name") or candidate.get("Nama Belakang") or ""
+                # Extract candidate info from Kalibrr export columns
+                first_name = candidate.get("Nama Depan") or candidate.get("First Name") or ""
+                last_name = candidate.get("Nama Belakang") or candidate.get("Last Name") or ""
                 candidate_name = f"{first_name} {last_name}".strip()
                 if not candidate_name:
                     candidate_name = candidate.get("Nama") or candidate.get("Name") or "Unknown"
                 
                 candidate_email = (
+                    candidate.get("Alamat Email") or 
                     candidate.get("Email Address") or 
                     candidate.get("Email Pelamar") or 
                     candidate.get("Candidate Email") or 
@@ -194,7 +196,9 @@ def screen_position(position_name, job_description):
                 print(f"   [{idx}/{len(new_candidates)}] Processing: {candidate_name}")
                 
                 # Download and extract CV
+                # Kalibrr export uses "Link Resume" (not "Resume Link")
                 resume_link = (
+                    candidate.get("Link Resume") or 
                     candidate.get("Resume Link") or 
                     candidate.get("Tautan Resume") or 
                     candidate.get("Resume", "")
@@ -237,7 +241,7 @@ def screen_position(position_name, job_description):
                 result = {
                     "Candidate Name": candidate_name,
                     "Candidate Email": candidate_email,
-                    "Phone": candidate.get("Mobile Number") or candidate.get("Telp") or candidate.get("Phone") or "",
+                    "Phone": candidate.get("Nomor Handphone") or candidate.get("Mobile Number") or candidate.get("Telp") or candidate.get("Phone") or "",
                     "Job Position": position_name,
                     "Match Score": cv_score,
                     "AI Summary": summary,
@@ -246,11 +250,11 @@ def screen_position(position_name, job_description):
                     "Gaps": "; ".join(gaps) if gaps else "",
                     "Latest Job Title": candidate.get("Latest Job Title") or candidate.get("Jabatan Terakhir") or "",
                     "Latest Company": candidate.get("Latest Company") or candidate.get("Perusahaan Terakhir") or "",
-                    "Education": candidate.get("Latest Educational Attainment") or candidate.get("Pendidikan") or "",
+                    "Education": candidate.get("Tingkat Pendidikan") or candidate.get("Latest Educational Attainment") or candidate.get("Pendidikan") or "",
                     "University": candidate.get("Latest School/University") or candidate.get("Universitas") or "",
                     "Major": candidate.get("Latest Major/Course") or candidate.get("Jurusan") or "",
-                    "Kalibrr Profile": candidate.get("Kalibrr Profile Link") or candidate.get("Profil Kalibrr") or "",
-                    "Application Link": candidate.get("Job Application Link") or candidate.get("Tautan Lamaran") or "",
+                    "Kalibrr Profile": candidate.get("Link Profil Kalibrr") or candidate.get("Kalibrr Profile Link") or candidate.get("Profil Kalibrr") or "",
+                    "Application Link": candidate.get("Link Aplikasi Pekerjaan") or candidate.get("Job Application Link") or candidate.get("Tautan Lamaran") or "",
                     "Resume Link": resume_link,
                     "Recruiter Feedback": "",
                     "Shortlisted": False,
