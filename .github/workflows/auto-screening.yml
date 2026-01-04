@@ -1,0 +1,75 @@
+name: Automated CV Screening
+
+on:
+  schedule:
+    # Run every night at 00:30 UTC (07:30 WIB) - 30 minutes after export workflow
+    - cron: '30 0 * * *'
+  workflow_dispatch:  # Allow manual triggering
+
+permissions:
+  contents: write
+
+jobs:
+  screen:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          # Fetch latest changes from the export workflow
+          ref: ${{ github.ref_name }}
+      
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      
+      - name: Install dependencies
+        run: |
+          pip install pandas PyMuPDF requests openai python-dotenv
+      
+      - name: Run Automated CV Screening
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPO: ${{ github.repository }}
+          GITHUB_BRANCH: ${{ github.ref_name }}
+        run: |
+          python scripts/auto_screen.py
+      
+      - name: Commit screening results to GitHub
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add results/*.csv
+          if git diff --staged --quiet; then
+            echo "No new candidates screened"
+          else
+            git commit -m "🤖 Automated CV screening results - $(date +'%Y-%m-%d %H:%M UTC')"
+            # Pull latest changes with merge strategy
+            git pull --no-rebase origin ${{ github.ref_name }} || {
+              echo "Merge conflict detected, resolving automatically..."
+              # For CSV result files, prefer our version (the latest screening data)
+              find results -maxdepth 1 -name 'results*.csv' -type f -exec git checkout --ours {} \; 2>/dev/null || true
+              find results -maxdepth 1 -name 'results*.csv' -type f -exec git add {} \;
+              # Complete the merge
+              git -c core.editor=: merge --continue || {
+                echo "Auto-merge failed, aborting merge"
+                git merge --abort
+                exit 1
+              }
+            }
+            git push
+          fi
+      
+      - name: Upload screening logs as artifacts
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: screening-logs-${{ github.run_number }}
+          path: |
+            *.log
+          retention-days: 7
+          if-no-files-found: ignore

@@ -49,65 +49,626 @@ st.set_page_config(
 
 # --- Custom Styling ---
 st.markdown("""
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
     <style>
-    body { background-color: #f8fbff; }
-    .main-title {
-        text-align:center;
-        font-size:30px;
-        font-weight:700;
-        color:#0b3d91;
-        margin-bottom:10px;
+    /* Modern Design System Variables */
+    :root {
+        --primary-50: #eff6ff;
+        --primary-100: #dbeafe;
+        --primary-500: #3b82f6;
+        --primary-600: #2563eb;
+        --primary-700: #1d4ed8;
+        --success-50: #ecfdf5;
+        --success-500: #10b981;
+        --success-600: #059669;
+        --error-50: #fef2f2;
+        --error-500: #ef4444;
+        --error-600: #dc2626;
+        --warning-50: #fffbeb;
+        --warning-500: #f59e0b;
+        --neutral-50: #f9fafb;
+        --neutral-100: #f3f4f6;
+        --neutral-200: #e5e7eb;
+        --neutral-300: #d1d5db;
+        --neutral-400: #9ca3af;
+        --neutral-500: #6b7280;
+        --neutral-600: #4b5563;
+        --neutral-700: #374151;
+        --neutral-800: #1f2937;
+        --neutral-900: #111827;
+        --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+        --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+        --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+        --radius-md: 8px;
+        --radius-lg: 12px;
+        --radius-xl: 16px;
     }
-    .metric-card {
-        background-color: #f7faff;
-        padding: 15px;
-        border-radius: 12px;
-        text-align: center;
-        border: 1px solid #d8e3f0;
+    
+    /* Global Typography */
+    * {
+        font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
     }
-    .score-highlight {
-        font-size: 36px;
+    
+    body {
+        background-color: var(--neutral-50);
+        color: var(--neutral-800);
+    }
+    
+    .block-container {
+        padding-top: 2rem;
+        max-width: 1400px;
+    }
+    
+    /* Step Headers */
+    .step-header {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        font-size: 1.3rem;
+        font-weight: 600;
+        color: var(--text-primary);
+        margin: 1.5rem 0 1rem 0;
+        padding-bottom: 0.5rem;
+        border-bottom: 2px solid var(--border-color);
+    }
+    
+    .step-number {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 32px;
+        height: 32px;
+        background: linear-gradient(135deg, var(--primary-color), var(--primary-hover));
+        color: white;
+        border-radius: 50%;
+        font-size: 1rem;
         font-weight: 700;
-        color: #004aad;
+        box-shadow: 0 2px 8px rgba(37, 99, 235, 0.3);
     }
+
+    /* Animations */
+    @keyframes fadeIn {
+        from { opacity: 0; transform: translateY(10px); }
+        to { opacity: 1; transform: translateY(0); }
+    }
+    
+    @keyframes slideIn {
+        from { transform: translateX(-20px); opacity: 0; }
+        to { transform: translateX(0); opacity: 1; }
+    }
+    
+    @keyframes scaleIn {
+        from { transform: scale(0.95); opacity: 0; }
+        to { transform: scale(1); opacity: 1; }
+    }
+    
+    @keyframes shimmer {
+        0% { background-position: -1000px 0; }
+        100% { background-position: 1000px 0; }
+    }
+    
+    /* Headers */
+    h1, h2, h3, h4, h5, h6 {
+        font-weight: 600;
+        color: var(--neutral-900);
+        animation: fadeIn 0.5s ease-out;
+        letter-spacing: -0.025em;
+    }
+    
+    h1 { font-size: 2rem; line-height: 2.5rem; }
+    h2 { font-size: 1.5rem; line-height: 2rem; }
+    h3 { font-size: 1.25rem; line-height: 1.75rem; }
+    
+    /* Step Headers */
+    .step-header {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        font-size: 1.3rem;
+        font-weight: 600;
+        color: var(--text-primary);
+        margin: 1.5rem 0 1rem 0;
+        padding-bottom: 0.5rem;
+        border-bottom: 2px solid var(--border-color);
+    }
+    
+    .step-number {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 32px;
+        height: 32px;
+        background: linear-gradient(135deg, var(--primary-color), var(--primary-hover));
+        color: white;
+        border-radius: 50%;
+        font-size: 1rem;
+        font-weight: 700;
+        box-shadow: 0 2px 8px rgba(37, 99, 235, 0.3);
+    }
+    
+    /* Progress Stepper */
+    .progress-stepper {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 2rem 0 3rem 0;
+        padding: 1.5rem;
+        background: white;
+        border-radius: var(--radius-lg);
+        box-shadow: var(--shadow-sm);
+    }
+    
+    .step-indicator {
+        display: flex;
+        align-items: center;
+        gap: 0.75rem;
+        flex: 1;
+        max-width: 200px;
+    }
+    
+    .step-indicator-circle {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 44px;
+        height: 44px;
+        border-radius: 50%;
+        font-weight: 700;
+        font-size: 1.1rem;
+        transition: all 0.3s ease;
+        flex-shrink: 0;
+    }
+    
+    .step-indicator-circle.completed {
+        background: var(--primary-600);
+        color: white;
+        box-shadow: 0 2px 8px rgba(37, 99, 235, 0.3);
+    }
+    
+    .step-indicator-circle.active {
+        background: linear-gradient(135deg, var(--primary-500), var(--primary-600));
+        color: white;
+        box-shadow: 0 4px 12px rgba(37, 99, 235, 0.4);
+        animation: pulse 2s infinite;
+    }
+    
+    .step-indicator-circle.upcoming {
+        background: var(--neutral-200);
+        color: var(--neutral-500);
+    }
+    
+    .step-indicator-label {
+        display: flex;
+        flex-direction: column;
+        gap: 0.25rem;
+    }
+    
+    .step-indicator-title {
+        font-weight: 600;
+        font-size: 0.95rem;
+        color: var(--neutral-700);
+        transition: all 0.3s ease;
+    }
+    
+    .step-indicator-subtitle {
+        font-size: 0.75rem;
+        color: var(--neutral-500);
+    }
+    
+    .step-indicator.active .step-indicator-title {
+        color: var(--primary-600);
+        font-weight: 700;
+    }
+    
+    .step-indicator.completed .step-indicator-title {
+        color: var(--neutral-600);
+    }
+    
+    .step-connector {
+        flex: 1;
+        height: 3px;
+        background: var(--neutral-200);
+        position: relative;
+        margin: 0 1rem;
+        max-width: 80px;
+    }
+    
+    .step-connector.completed {
+        background: var(--primary-600);
+    }
+    
+    @keyframes pulse {
+        0%, 100% { transform: scale(1); }
+        50% { transform: scale(1.05); }
+    }
+    
+    /* Step Cards */
+    .step-card {
+        background: white;
+        border-radius: var(--radius-xl);
+        padding: 2rem;
+        margin-bottom: 1.5rem;
+        box-shadow: var(--shadow-md);
+        border: 2px solid var(--neutral-200);
+        animation: slideIn 0.3s ease-out;
+    }
+    
+    .step-card-active {
+        border-color: var(--primary-500);
+        box-shadow: 0 4px 16px rgba(37, 99, 235, 0.15);
+    }
+    
+    .step-card-completed {
+        background: var(--neutral-50);
+        border: 1px solid var(--neutral-300);
+        padding: 1.25rem 2rem;
+        cursor: pointer;
+        transition: all 0.2s ease;
+    }
+    
+    .step-card-completed:hover {
+        border-color: var(--primary-400);
+        box-shadow: var(--shadow-sm);
+    }
+    
+    .step-summary {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .step-summary-content {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+    }
+    
+    .step-summary-icon {
+        width: 32px;
+        height: 32px;
+        border-radius: 50%;
+        background: var(--primary-600);
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: 700;
+    }
+    
+    .step-summary-text {
+        display: flex;
+        flex-direction: column;
+        gap: 0.25rem;
+    }
+    
+    .step-summary-label {
+        font-size: 0.85rem;
+        color: var(--neutral-600);
+        font-weight: 500;
+    }
+    
+    .step-summary-value {
+        font-size: 1rem;
+        color: var(--neutral-900);
+        font-weight: 600;
+    }
+    
+    .step-card-header {
+        margin-bottom: 1.5rem;
+        padding-bottom: 1rem;
+        border-bottom: 2px solid var(--neutral-200);
+    }
+    
+    .step-card-title {
+        font-size: 1.4rem;
+        font-weight: 700;
+        color: var(--neutral-900);
+        margin-bottom: 0.5rem;
+    }
+    
+    .step-card-subtitle {
+        font-size: 0.95rem;
+        color: var(--neutral-600);
+    }
+    
+    /* Step Actions */
+    .step-actions {
+        display: flex;
+        gap: 1rem;
+        margin-top: 2rem;
+        padding-top: 1.5rem;
+        border-top: 1px solid var(--neutral-200);
+    }
+    
+    /* Metric Cards */
+    [data-testid="stMetricValue"] {
+        font-size: 2rem;
+        font-weight: 700;
+        color: var(--primary-600);
+    }
+    
+    [data-testid="stMetric"] {
+        background: white;
+        padding: 1.25rem;
+        border-radius: var(--radius-lg);
+        border: 1px solid var(--neutral-200);
+        box-shadow: var(--shadow-sm);
+        transition: all 0.3s ease;
+        animation: scaleIn 0.4s ease-out;
+    }
+    
+    [data-testid="stMetric"]:hover {
+        box-shadow: var(--shadow-md);
+        transform: translateY(-2px);
+        border-color: var(--primary-300);
+    }
+    
+    /* Buttons */
+    .stButton > button {
+        border-radius: var(--radius-md);
+        font-weight: 500;
+        padding: 0.5rem 1.5rem;
+        transition: all 0.2s ease;
+        box-shadow: var(--shadow-sm);
+        font-size: 0.875rem;
+    }
+    
+    .stButton > button:hover {
+        transform: translateY(-1px);
+        box-shadow: var(--shadow-md);
+    }
+    
+    .stButton > button:active {
+        transform: translateY(0);
+    }
+    
+    .stButton > button[kind="primary"] {
+        background: linear-gradient(135deg, var(--primary-600) 0%, var(--primary-700) 100%);
+        color: white;
+        border: none;
+    }
+    
+    .stButton > button[kind="secondary"] {
+        background: white;
+        color: var(--neutral-700);
+        border: 1px solid var(--neutral-300);
+    }
+    
+    /* Input Fields */
+    .stTextInput > div > div > input,
+    .stTextArea > div > div > textarea,
+    .stSelectbox > div > div > select {
+        border-radius: var(--radius-md);
+        border: 1px solid var(--neutral-300);
+        transition: all 0.2s ease;
+        font-size: 0.875rem;
+    }
+    
+    .stTextInput > div > div > input:focus,
+    .stTextArea > div > div > textarea:focus,
+    .stSelectbox > div > div > select:focus {
+        border-color: var(--primary-500);
+        box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
+        outline: none;
+    }
+    
+    /* Expanders (Candidate Cards) */
+    .streamlit-expanderHeader {
+        background: white;
+        border: 1px solid var(--neutral-200);
+        border-radius: var(--radius-lg);
+        padding: 1rem 1.5rem;
+        font-weight: 500;
+        transition: all 0.3s ease;
+        animation: fadeIn 0.3s ease-out;
+        color: var(--neutral-800);
+    }
+    
+    .streamlit-expanderHeader:hover {
+        background: var(--neutral-50);
+        border-color: var(--primary-300);
+        box-shadow: var(--shadow-sm);
+    }
+    
+    .streamlit-expanderContent {
+        border: 1px solid var(--neutral-200);
+        border-top: none;
+        border-radius: 0 0 var(--radius-lg) var(--radius-lg);
+        padding: 1.5rem;
+        background: white;
+        animation: fadeIn 0.4s ease-out;
+    }
+    
+    /* Status Badges */
+    .status-badge {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.375rem;
+        padding: 0.375rem 0.875rem;
+        border-radius: 9999px;
+        font-size: 0.875rem;
+        font-weight: 500;
+        animation: scaleIn 0.3s ease-out;
+    }
+    
+    .status-ok {
+        background: var(--success-50);
+        color: var(--success-600);
+    }
+    
+    .status-rejected {
+        background: var(--error-50);
+        color: var(--error-600);
+    }
+    
+    .status-pending {
+        background: var(--warning-50);
+        color: #92400e;
+    }
+    
+    .status-pooled {
+        background: var(--primary-50);
+        color: var(--primary-600);
+    }
+    
+    /* DataFrames */
+    .dataframe {
+        border: 1px solid var(--neutral-200) !important;
+        border-radius: var(--radius-lg) !important;
+        overflow: hidden;
+        animation: fadeIn 0.5s ease-out;
+        font-size: 0.875rem;
+    }
+    
+    .dataframe th {
+        background: var(--neutral-100) !important;
+        color: var(--neutral-700) !important;
+        font-weight: 600 !important;
+        padding: 0.75rem !important;
+        border-bottom: 2px solid var(--neutral-300) !important;
+        text-align: left !important;
+    }
+    
+    .dataframe td {
+        padding: 0.75rem !important;
+        border-bottom: 1px solid var(--neutral-200) !important;
+    }
+    
+    .dataframe tr:hover {
+        background: var(--neutral-50) !important;
+        transition: background 0.15s ease;
+    }
+    
+    /* File Uploader */
+    [data-testid="stFileUploader"] {
+        border: 2px dashed var(--neutral-300);
+        border-radius: var(--radius-lg);
+        padding: 2rem;
+        text-align: center;
+        transition: all 0.3s ease;
+        background: white;
+    }
+    
+    [data-testid="stFileUploader"]:hover {
+        border-color: var(--primary-500);
+        background: var(--primary-50);
+    }
+    
+    /* Divider */
+    hr {
+        border: none;
+        border-top: 1px solid var(--neutral-200);
+        margin: 2rem 0;
+    }
+    
+    /* Alerts */
+    .stAlert {
+        border-radius: var(--radius-md);
+        border-left-width: 4px;
+        animation: slideIn 0.3s ease-out;
+    }
+    
+    /* Progress Bar */
+    .stProgress > div > div {
+        background: linear-gradient(90deg, var(--primary-500) 0%, var(--primary-600) 100%);
+        border-radius: 9999px;
+    }
+    
+    /* Tabs */
+    .stTabs [data-baseweb="tab-list"] {
+        gap: 0.5rem;
+        border-bottom: 1px solid var(--neutral-200);
+    }
+    
+    .stTabs [data-baseweb="tab"] {
+        border-radius: var(--radius-md) var(--radius-md) 0 0;
+        padding: 0.625rem 1.25rem;
+        font-weight: 500;
+        transition: all 0.2s ease;
+        color: var(--neutral-600);
+        border: none;
+    }
+    
+    .stTabs [data-baseweb="tab"]:hover {
+        background: var(--neutral-100);
+        color: var(--neutral-900);
+    }
+    
+    .stTabs [aria-selected="true"] {
+        background: var(--primary-600);
+        color: white;
+    }
+    
+    /* Spinner */
+    .stSpinner > div {
+        border-color: var(--primary-500) !important;
+        border-right-color: transparent !important;
+    }
+    
+    /* Download Button */
+    .stDownloadButton > button {
+        background: white;
+        border: 1px solid var(--neutral-300);
+        color: var(--neutral-700);
+    }
+    
+    .stDownloadButton > button:hover {
+        border-color: var(--primary-500);
+        color: var(--primary-600);
+    }
+    
+    /* Remove emoji from labels */
+    label { font-weight: 500; color: var(--neutral-700); }
+    
+    /* Smooth page transitions */
+    .main { animation: fadeIn 0.4s ease-out; }
     </style>
 """, unsafe_allow_html=True)
 
 # --- Navigation Bar ---
 selected = option_menu(
     menu_title=None,
-    options=["Job Management", "Screening", "Dashboard"],
-    icons=["briefcase-fill", "cloud-upload-fill", "bar-chart-line-fill"],
+    options=["Job Management", "Screening", "Dashboard", "Pooling"],
+    icons=["briefcase", "search", "graph-up", "archive"],
     orientation="horizontal",
     default_index=0,
     styles={
         "container": {
-            "padding": "5px 0",
-            "background-color": "#0d6efd",
-            "border-radius": "8px",
-            "width": "100%",
-            "display": "flex",
-            "justify-content": "center",
-            "margin-bottom": "2rem",
+            "padding": "0",
+            "background-color": "#f8fafc",
+            "margin-bottom": "2.5rem",
+            "border-bottom": "1px solid #e5e7eb",
+            "box-shadow": "0 2px 4px rgba(0,0,0,0.05)"
         },
-        "icon": {"color": "#f9fafb", "font-size": "18px"},
+        "icon": {
+            "font-size": "18px",
+            "margin-right": "8px"
+        },
         "nav-link": {
-            "color": "#f9fafb",
+            "color": "#6b7280",
             "font-size": "15px",
+            "font-weight": "500",
             "text-align": "center",
-            "margin": "0 10px",
-            "--hover-color": "#0761e97e",
-            "padding": "10px 10px",
-            "border-radius": "16px",
+            "margin": "0 0.25rem",
+            "padding": "0.875rem 1.75rem",
+            "border-radius": "8px 8px 0 0",
+            "transition": "all 0.3s cubic-bezier(0.4, 0, 0.2, 1)",
+            "border": "none",
+            "border-bottom": "3px solid transparent",
         },
         "nav-link-selected": {
-            "background-color": "#ffd700",
-            "color": "#0d6efd",
-            "font-weight": "bold",
-            "border-radius": "8px",
-            "padding": "10px 15px",
-            "box-shadow": "0px 4px 10px rgba(0, 0, 0, 0.15)",
-            "transition": "background-color 0.3s ease",
+            "background-color": "white",
+            "color": "#2563eb",
+            "font-weight": "600",
+            "border-bottom": "3px solid #2563eb",
+            "box-shadow": "0 -2px 8px rgba(37, 99, 235, 0.15)",
+            "transform": "translateY(-2px)"
         },
     },
 )
@@ -151,7 +712,7 @@ Recruiter Feedback:
         match = re.search(r"Score\s*:\s*(\d{1,3})", output)
         score = int(match.group(1)) if match else 50
     except Exception as e:
-        st.warning(f"⚠️ AI Evaluation failed: {e}")
+        st.warning(f"AI Evaluation failed: {e}")
         score = 50
 
     return min(max(score, 0), 100)
@@ -161,21 +722,21 @@ Recruiter Feedback:
 # SECTION 1: JOB MANAGEMENT
 # ========================================
 if selected == "Job Management":
-    st.markdown("<h2 style='text-align:center;color:#0b3d91;'>💼 Job Position Management</h2>", unsafe_allow_html=True)
+    st.markdown("<h2 style='text-align:center;color:#111827;font-weight:600;'>Job Position Management</h2>", unsafe_allow_html=True)
 
-    st.markdown("### 📝 Add/Update Job Position")
+    st.markdown("### Add or Update Job Position")
 
     col1, col2 = st.columns([1, 2])
 
     with col1:
-        job_position = st.text_input("🧑‍💼 Job Position", placeholder="e.g., Business Analyst")
+        job_position = st.text_input("Job Position", placeholder="e.g., Business Analyst")
 
     with col2:
-        job_description = st.text_area("📝 Job Description", height=200, placeholder="Paste job description here...")
+        job_description = st.text_area("Job Description", height=200, placeholder="Paste job description here...")
 
-    if st.button("💾 Save Job Position", type="primary"):
+    if st.button("Save Job Position", type="primary"):
         if not job_position.strip() or not job_description.strip():
-            st.warning("⚠️ Please provide both Job Position and Job Description.")
+            st.warning("Please provide both Job Position and Job Description.")
         else:
             new_job = pd.DataFrame([{
                 "Job Position": job_position.strip(),
@@ -184,38 +745,70 @@ if selected == "Job Management":
             }])
 
             if save_job_positions_to_github(new_job):
-                st.success(f"✅ Job position '{job_position}' saved successfully!")
+                st.success(f"Job position '{job_position}' saved successfully!")
                 st.rerun()
 
     st.markdown("---")
-    st.markdown("### 📋 All Job Positions")
+    st.markdown("### All Job Positions")
 
     # Load and display all job positions
     jobs_df = load_job_positions_from_github()
 
     if jobs_df is not None and not jobs_df.empty:
-        # Display each job position with edit and delete buttons
+        # Ensure Pooling Status column exists
+        if "Pooling Status" not in jobs_df.columns:
+            jobs_df["Pooling Status"] = ""
+        
+        # Display each job position with edit, delete, and pooling buttons
         for idx, row in jobs_df.iterrows():
-            with st.expander(f"💼 {row['Job Position']}", expanded=False):
+            pooling_status = row.get('Pooling Status', '')
+            is_pooled = pooling_status == "Pooled"
+            
+            # Show pooling indicator in expander title
+            title_prefix = "[Pooled] " if is_pooled else ""
+            with st.expander(f"{title_prefix}{row['Job Position']}", expanded=False):
                 st.markdown(f"**Date Created:** {row['Date Created']}")
+                if is_pooled:
+                    st.markdown("**Status:** **In Pooling** (Not visible in Dashboard)")
                 st.markdown("**Job Description:**")
                 st.text_area("Job Description", value=row['Job Description'], height=150, disabled=True, key=f"view_desc_{idx}", label_visibility="collapsed")
 
-                col1, col2, col3 = st.columns([1, 1, 3])
+                col1, col2, col3 = st.columns([1, 1, 1])
 
                 with col1:
-                    if st.button(f"✏️ Edit", key=f"edit_{idx}", type="secondary"):
+                    if st.button(f"Edit", key=f"edit_{idx}", type="secondary", use_container_width=True):
                         st.session_state[f"editing_{idx}"] = True
                         st.rerun()
 
                 with col2:
-                    if st.button(f"🗑️ Delete", key=f"delete_{idx}", type="secondary"):
+                    if st.button(f"Delete", key=f"delete_{idx}", type="secondary", use_container_width=True):
                         if delete_job_position_from_github(row['Job Position']):
-                            st.success(f"✅ Job position '{row['Job Position']}' deleted successfully!")
+                            st.success(f"Job position '{row['Job Position']}' deleted successfully!")
                             time.sleep(1)
                             st.rerun()
                         else:
-                            st.error("❌ Failed to delete job position")
+                            st.error("Failed to delete job position")
+                
+                with col3:
+                    # Pooling toggle button
+                    if is_pooled:
+                        if st.button(f"Unpool", key=f"unpool_{idx}", type="primary", use_container_width=True):
+                            from modules.github_utils import toggle_job_pooling_status
+                            if toggle_job_pooling_status(row['Job Position'], ""):
+                                st.success(f"Position '{row['Job Position']}' removed from pooling!")
+                                time.sleep(1)
+                                st.rerun()
+                            else:
+                                st.error("Failed to update pooling status")
+                    else:
+                        if st.button(f"Pool", key=f"pool_{idx}", use_container_width=True):
+                            from modules.github_utils import toggle_job_pooling_status
+                            if toggle_job_pooling_status(row['Job Position'], "Pooled"):
+                                st.success(f"Position '{row['Job Position']}' moved to pooling!")
+                                time.sleep(1)
+                                st.rerun()
+                            else:
+                                st.error("Failed to update pooling status")
 
                 # Edit form (shown when edit button is clicked)
                 if st.session_state.get(f"editing_{idx}", False):
@@ -237,37 +830,26 @@ if selected == "Job Management":
                     col_save, col_cancel = st.columns([1, 1])
 
                     with col_save:
-                        if st.button("💾 Save Changes", key=f"save_{idx}", type="primary"):
+                        if st.button("Save Changes", key=f"save_{idx}", type="primary"):
                             if not edit_job_position.strip() or not edit_job_description.strip():
-                                st.warning("⚠️ Please provide both Job Position and Job Description.")
+                                st.warning("Please provide both Job Position and Job Description.")
                             else:
                                 if update_job_position_in_github(
                                     row['Job Position'],
                                     edit_job_position.strip(),
                                     edit_job_description.strip()
                                 ):
-                                    st.success(f"✅ Job position updated successfully!")
+                                    st.success(f"Job position updated successfully!")
                                     st.session_state[f"editing_{idx}"] = False
                                     time.sleep(1)
                                     st.rerun()
                                 else:
-                                    st.error("❌ Failed to update job position")
+                                    st.error("Failed to update job position")
 
                     with col_cancel:
-                        if st.button("❌ Cancel", key=f"cancel_{idx}"):
+                        if st.button("Cancel", key=f"cancel_{idx}"):
                             st.session_state[f"editing_{idx}"] = False
                             st.rerun()
-
-        st.markdown("---")
-
-        # Download option
-        csv = jobs_df.to_csv(index=False).encode("utf-8")
-        st.download_button(
-            "💾 Download Job Positions (CSV)",
-            data=csv,
-            file_name="job_positions.csv",
-            mime="text/csv"
-        )
     else:
         st.info("ℹ️ No job positions saved yet. Add your first job position above!")
 
@@ -276,342 +858,431 @@ if selected == "Job Management":
 # SECTION 2: SCREENING
 # ========================================
 elif selected == "Screening":
-    st.markdown("<h2 style='text-align:center;color:#0b3d91;'>🔍 Candidate Screening</h2>", unsafe_allow_html=True)
+    st.markdown("<h2 style='text-align:center;color:#0b3d91;'>Candidate Screening</h2>", unsafe_allow_html=True)
+
+    # Initialize session state for screening steps
+    if 'screening_step' not in st.session_state:
+        st.session_state.screening_step = 1
+    if 'screening_selected_job' not in st.session_state:
+        st.session_state.screening_selected_job = None
+    if 'screening_data_source' not in st.session_state:
+        st.session_state.screening_data_source = None
+    if 'screening_data' not in st.session_state:
+        st.session_state.screening_data = None
 
     # Load job positions
     jobs_df = load_job_positions_from_github()
 
     if jobs_df is None or jobs_df.empty:
-        st.warning("⚠️ No job positions found. Please add job positions in the Job Management section first.")
+        st.warning("No job positions found. Please add job positions in the Job Management section first.")
     else:
-        # Job position selection
-        st.markdown("### 1️⃣ Select Job Position")
-        job_positions = jobs_df["Job Position"].tolist()
-        selected_job = st.selectbox("🎯 Choose Job Position", job_positions)
+        # Filter only active (non-pooled) positions
+        active_jobs_df = jobs_df[jobs_df.get("Pooling Status", "") != "Pooled"]
+        if active_jobs_df.empty:
+            st.info("No active job positions available. All positions are in pooling.")
+        else:
+            # === PROGRESS STEPPER ===
+            st.markdown("""
+            <div class='progress-stepper'>
+                <div class='step-indicator {step1_status}'>
+                    <div class='step-indicator-circle {step1_status}'>
+                        {step1_icon}
+                    </div>
+                    <div class='step-indicator-label'>
+                        <div class='step-indicator-title'>Select Position</div>
+                        <div class='step-indicator-subtitle'>Choose job role</div>
+                    </div>
+                </div>
+                <div class='step-connector {connector1_status}'></div>
+                <div class='step-indicator {step2_status}'>
+                    <div class='step-indicator-circle {step2_status}'>
+                        {step2_icon}
+                    </div>
+                    <div class='step-indicator-label'>
+                        <div class='step-indicator-title'>Load Data</div>
+                        <div class='step-indicator-subtitle'>Import candidates</div>
+                    </div>
+                </div>
+                <div class='step-connector {connector2_status}'></div>
+                <div class='step-indicator {step3_status}'>
+                    <div class='step-indicator-circle {step3_status}'>
+                        {step3_icon}
+                    </div>
+                    <div class='step-indicator-label'>
+                        <div class='step-indicator-title'>Screen & Process</div>
+                        <div class='step-indicator-subtitle'>Run AI screening</div>
+                    </div>
+                </div>
+            </div>
+            """.format(
+                step1_status="completed" if st.session_state.screening_step > 1 else "active" if st.session_state.screening_step == 1 else "upcoming",
+                step1_icon="✓" if st.session_state.screening_step > 1 else "1",
+                connector1_status="completed" if st.session_state.screening_step > 1 else "",
+                step2_status="completed" if st.session_state.screening_step > 2 else "active" if st.session_state.screening_step == 2 else "upcoming",
+                step2_icon="✓" if st.session_state.screening_step > 2 else "2",
+                connector2_status="completed" if st.session_state.screening_step > 2 else "",
+                step3_status="active" if st.session_state.screening_step == 3 else "upcoming",
+                step3_icon="3"
+            ), unsafe_allow_html=True)
 
-        # Display selected job details
-        if selected_job:
-            job_info = jobs_df[jobs_df["Job Position"] == selected_job].iloc[0]
-
-            with st.expander("📄 View Job Position Details", expanded=True):
-                st.markdown(f"**Job Position:** {job_info['Job Position']}")
-                st.markdown(f"**Job Description:**")
-                # Use dynamic key based on job position and date to ensure fresh data display
-                jd_key = f"jd_preview_{selected_job}_{job_info.get('Date Created', 'default')}"
-                st.text_area("Job Description", value=job_info['Job Description'], height=150, disabled=True, key=jd_key, label_visibility="collapsed")
-
-        st.markdown("---")
-        st.markdown("### 2️⃣ Load Candidate Data")
-
-        # Try to fetch candidates from Google Sheets first
-        candidates_df = None
-        data_source = None
-
-        candidates_df = fetch_candidates_from_google_sheets(selected_job)
-
-        if candidates_df is not None and not candidates_df.empty:
-            # Data found in Google Sheets
-            data_source = "Google Sheets"
-
-            with st.expander("👀 Preview Candidate Data from Google Sheets", expanded=True):
-                st.dataframe(candidates_df.head(10), use_container_width=True)
-        
-        # Always show CV upload option
-        st.markdown("---")
-        st.markdown("### 📤 Or Upload CV Files")
-        
-        uploaded_cvs = st.file_uploader(
-            "Upload CV (PDF files)",
-            type=["pdf"],
-            accept_multiple_files=True,
-            help="Upload one or more CV files in PDF format for screening"
-        )
-        
-        # Also show CSV upload option
-        uploaded_csv = st.file_uploader(
-            "Or upload Candidate CSV File",
-            type=["csv"],
-            help="Upload CSV file with candidate information including resume links"
-        )
-
-        if uploaded_csv:
-            candidates_df = parse_candidate_csv(uploaded_csv)
-            data_source = "Uploaded CSV"
-
-            if candidates_df is not None:
-                with st.expander("👀 Preview Candidate Data from CSV", expanded=True):
-                    st.dataframe(candidates_df.head(10), use_container_width=True)
-
-        # Process uploaded CV files (PDF)
-        if uploaded_cvs:
-            st.markdown("---")
-            st.markdown(f"### 3️⃣ Process Uploaded CVs ({len(uploaded_cvs)} files)")
-            
-            if st.button("🚀 Start Screening Uploaded CVs", type="primary"):
-                progress = st.progress(0)
-                status_text = st.empty()
-                save_status = st.empty()
+            # === STEP 1: SELECT POSITION ===
+            if st.session_state.screening_step == 1:
+                st.markdown("<div class='step-card step-card-active'>", unsafe_allow_html=True)
+                st.markdown("<div class='step-card-header'><div class='step-card-title'>Step 1: Select Job Position</div><div class='step-card-subtitle'>Choose the position you want to screen candidates for</div></div>", unsafe_allow_html=True)
                 
-                successfully_saved = 0
-                failed_saves = 0
+                job_positions = active_jobs_df["Job Position"].tolist()
+                selected_job = st.selectbox(
+                    "Job Position",
+                    job_positions,
+                    key="step1_job_select",
+                    index=job_positions.index(st.session_state.screening_selected_job) if st.session_state.screening_selected_job in job_positions else 0
+                )
+
+                if selected_job:
+                    job_info = active_jobs_df[active_jobs_df["Job Position"] == selected_job].iloc[0]
+                    
+                    # Full job description
+                    st.markdown("---")
+                    st.markdown("**Job Description:**")
+                    job_desc = job_info['Job Description']
+                    st.text_area("Job Description", value=job_desc, height=300, disabled=True, label_visibility="collapsed", key="step1_full_desc")
+
+                st.markdown("<div class='step-actions'>", unsafe_allow_html=True)
+                col1, col2 = st.columns([1, 5])
+                with col2:
+                    if st.button("Continue to Load Data →", type="primary", disabled=not selected_job, use_container_width=True):
+                        st.session_state.screening_selected_job = selected_job
+                        st.session_state.screening_step = 2
+                        st.rerun()
+                st.markdown("</div></div>", unsafe_allow_html=True)
+
+            # === STEP 1 COMPLETED SUMMARY ===
+            elif st.session_state.screening_step > 1:
+                st.markdown("<div class='step-card step-card-completed'>", unsafe_allow_html=True)
+                st.markdown(f"""
+                <div class='step-summary'>
+                    <div class='step-summary-content'>
+                        <div class='step-summary-icon'>✓</div>
+                        <div class='step-summary-text'>
+                            <div class='step-summary-label'>Selected Position</div>
+                            <div class='step-summary-value'>{st.session_state.screening_selected_job}</div>
+                        </div>
+                    </div>
+                </div>
+                """, unsafe_allow_html=True)
+                st.markdown("</div>", unsafe_allow_html=True)
+
+            # === STEP 2: LOAD DATA ===
+            if st.session_state.screening_step == 2:
+                st.markdown("<div class='step-card step-card-active'>", unsafe_allow_html=True)
+                st.markdown("<div class='step-card-header'><div class='step-card-title'>Step 2: Load Candidate Data</div><div class='step-card-subtitle'>Import candidates from Google Sheets or upload files</div></div>", unsafe_allow_html=True)
                 
-                for i, uploaded_cv in enumerate(uploaded_cvs):
-                    filename = uploaded_cv.name
-                    status_text.text(f"Processing {i+1}/{len(uploaded_cvs)}: {filename}")
-                    
-                    # Extract text from PDF
-                    cv_text = extract_text_from_pdf(uploaded_cv)
-                    
-                    # Try to extract candidate name from CV
-                    candidate_name = ""
-                    if cv_text:
-                        candidate_name = extract_candidate_name_from_cv(cv_text)
-                    
-                    if not candidate_name:
-                        # Use filename without extension as fallback
-                        candidate_name = filename.rsplit('.', 1)[0]
-                    
-                    status_text.text(f"Processing {i+1}/{len(uploaded_cvs)}: {candidate_name}")
-                    
-                    # Score CV
-                    cv_score = 0
-                    summary = "No resume or information available"
-                    strengths = []
-                    weaknesses = []
-                    gaps = []
-                    
-                    if cv_text.strip():
-                        cv_score, summary, strengths, weaknesses, gaps = score_with_openrouter(
-                            cv_text,
-                            selected_job,
-                            job_info['Job Description']
-                        )
-                    
-                    # Create result for this candidate
-                    candidate_result = {
-                        "Candidate Name": candidate_name,
-                        "Candidate Email": "",
-                        "Phone": "",
-                        "Job Position": selected_job,
-                        "Match Score": cv_score,
-                        "AI Summary": summary,
-                        "Strengths": ", ".join(strengths) if strengths else "",
-                        "Weaknesses": ", ".join(weaknesses) if weaknesses else "",
-                        "Gaps": ", ".join(gaps) if gaps else "",
-                        "Latest Job Title": "",
-                        "Latest Company": "",
-                        "Education": "",
-                        "University": "",
-                        "Major": "",
-                        "Kalibrr Profile": "",
-                        "Application Link": "",
-                        "Resume Link": f"Uploaded: {filename}",
-                        "Recruiter Feedback": "",
-                        "Shortlisted": False,
-                        "Candidate Status": "",
-                        "Interview Status": "",
-                        "Rejection Reason": "",
-                        "Date Processed": datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-                    }
-                    
-                    # Save immediately after processing each candidate
-                    try:
-                        result_df = pd.DataFrame([candidate_result])
-                        if save_results_to_github(result_df, job_position=selected_job):
-                            successfully_saved += 1
-                            save_status.success(f"💾 Saved {candidate_name} ({successfully_saved}/{i+1})")
-                        else:
-                            failed_saves += 1
-                            save_status.warning(f"⚠️ Failed to save {candidate_name}")
-                    except Exception as e:
-                        failed_saves += 1
-                        save_status.warning(f"⚠️ Error saving {candidate_name}: {str(e)}")
-                    
-                    progress.progress((i + 1) / len(uploaded_cvs))
+                selected_job = st.session_state.screening_selected_job
                 
-                status_text.text("✅ CV Screening completed!")
+                # Try to fetch from Google Sheets first
+                candidates_df = fetch_candidates_from_google_sheets(selected_job)
                 
-                if successfully_saved > 0:
-                    # Clear the results cache so Dashboard shows fresh data
-                    clear_results_cache()
-                    st.success(f"🎉 Successfully processed and saved {successfully_saved} CV(s)!")
-                    if failed_saves > 0:
-                        st.warning(f"⚠️ {failed_saves} CV(s) failed to save.")
+                data_loaded = False
+                data_source = None
+                loaded_data = None
+                
+                if candidates_df is not None and not candidates_df.empty:
+                    # Primary option: Google Sheets
+                    st.success(f"✓ Found {len(candidates_df)} candidates in Google Sheets for '{selected_job}'")
+                    
+                    with st.expander("Preview Candidate Data", expanded=False):
+                        st.dataframe(candidates_df.head(10), use_container_width=True)
+                    
+                    col1, col2 = st.columns([3, 1])
+                    with col1:
+                        st.info("Candidates loaded from Google Sheets. Click Continue to proceed with screening.")
+                    with col2:
+                        if st.button("Use This Data", type="primary", use_container_width=True):
+                            st.session_state.screening_data_source = "Google Sheets"
+                            st.session_state.screening_data = candidates_df
+                            st.session_state.screening_step = 3
+                            st.rerun()
                 else:
-                    st.error("❌ Failed to save any results. Please check your connection and try again.")
+                    st.info("No Google Sheets data found for this position. Please upload candidate files below.")
+                
+                # Alternative options (collapsed by default)
+                with st.expander("📁 Or Upload Files"):
+                    st.markdown("**Upload CV Files (PDF)**")
+                    uploaded_cvs = st.file_uploader(
+                        "Select one or more PDF files",
+                        type=["pdf"],
+                        accept_multiple_files=True,
+                        key="step2_cv_upload",
+                        help="Upload CV files in PDF format for screening"
+                    )
+                    
+                    if uploaded_cvs:
+                        st.success(f"✓ {len(uploaded_cvs)} CV file(s) selected")
+                        if st.button("Use CV Files", type="primary", key="use_cv_files"):
+                            st.session_state.screening_data_source = "PDF Upload"
+                            st.session_state.screening_data = uploaded_cvs
+                            st.session_state.screening_step = 3
+                            st.rerun()
+                    
+                    st.markdown("---")
+                    st.markdown("**Upload Candidate CSV**")
+                    uploaded_csv = st.file_uploader(
+                        "Select CSV file with candidate information",
+                        type=["csv"],
+                        key="step2_csv_upload",
+                        help="CSV file with candidate data including resume links"
+                    )
+                    
+                    if uploaded_csv:
+                        csv_df = parse_candidate_csv(uploaded_csv)
+                        if csv_df is not None and not csv_df.empty:
+                            st.success(f"✓ {len(csv_df)} candidates loaded from CSV")
+                            with st.expander("Preview CSV Data"):
+                                st.dataframe(csv_df.head(10), use_container_width=True)
+                            if st.button("Use CSV Data", type="primary", key="use_csv_data"):
+                                st.session_state.screening_data_source = "CSV Upload"
+                                st.session_state.screening_data = csv_df
+                                st.session_state.screening_step = 3
+                                st.rerun()
 
-        # Process candidates if data is available from any source
-        if candidates_df is not None and not candidates_df.empty:
-            st.markdown("---")
+                st.markdown("<div class='step-actions'>", unsafe_allow_html=True)
+                col1, col2 = st.columns([1, 5])
+                with col1:
+                    if st.button("← Back", use_container_width=True):
+                        st.session_state.screening_step = 1
+                        st.rerun()
+                st.markdown("</div></div>", unsafe_allow_html=True)
 
-            # Load existing results from position-specific file to check for duplicates
-            position_results_file = get_results_filename(selected_job)
-            existing_results = load_results_from_github(path=position_results_file)
-            existing_candidate_job_pairs = set()
+            # === STEP 2 COMPLETED SUMMARY ===
+            elif st.session_state.screening_step > 2:
+                st.markdown("<div class='step-card step-card-completed'>", unsafe_allow_html=True)
+                data_count = len(st.session_state.screening_data) if isinstance(st.session_state.screening_data, pd.DataFrame) else len(st.session_state.screening_data) if isinstance(st.session_state.screening_data, list) else 0
+                st.markdown(f"""
+                <div class='step-summary'>
+                    <div class='step-summary-content'>
+                        <div class='step-summary-icon'>✓</div>
+                        <div class='step-summary-text'>
+                            <div class='step-summary-label'>Data Loaded ({st.session_state.screening_data_source})</div>
+                            <div class='step-summary-value'>{data_count} candidate(s)</div>
+                        </div>
+                    </div>
+                </div>
+                """, unsafe_allow_html=True)
+                st.markdown("</div>", unsafe_allow_html=True)
 
-            if existing_results is not None and not existing_results.empty:
-                for _, row in existing_results.iterrows():
-                    if "Candidate Email" in row and pd.notna(row["Candidate Email"]) and "Job Position" in row and pd.notna(row["Job Position"]):
-                        # Store combination of email + job position
-                        existing_candidate_job_pairs.add((row["Candidate Email"], row["Job Position"]))
+            # === STEP 3: PROCESS & SCREEN ===
+            if st.session_state.screening_step == 3:
+                st.markdown("<div class='step-card step-card-active'>", unsafe_allow_html=True)
+                st.markdown("<div class='step-card-header'><div class='step-card-title'>Step 3: Process & Screen Candidates</div><div class='step-card-subtitle'>Run AI screening on loaded candidates</div></div>", unsafe_allow_html=True)
+                
+                selected_job = st.session_state.screening_selected_job
+                job_info = active_jobs_df[active_jobs_df["Job Position"] == selected_job].iloc[0]
+                data_source = st.session_state.screening_data_source
+                
+                # Check for existing candidates to prevent duplicates
+                position_results_file = get_results_filename(selected_job)
+                existing_results = load_results_from_github(path=position_results_file)
+                existing_emails = set()
+                if existing_results is not None and not existing_results.empty:
+                    existing_emails = set(existing_results[existing_results["Candidate Email"].notna()]["Candidate Email"])
 
-            # Check which candidates are new for this specific job position
-            new_candidates = []
-            skipped_candidates = []
-
-            for idx, row in candidates_df.iterrows():
-                # Support both English and Indonesian column names
-                candidate_email = _get_column_value(row, "Email Address", "Alamat Email", "").strip()
-                # Check if this candidate has already been processed for this specific job position
-                if (candidate_email, selected_job) in existing_candidate_job_pairs:
-                    first_name = _get_column_value(row, "First Name", "Nama Depan")
-                    last_name = _get_column_value(row, "Last Name", "Nama Belakang")
-                    skipped_candidates.append(f"{first_name} {last_name}")
-                else:
-                    new_candidates.append(idx)
-
-            if skipped_candidates:
-                st.info(f"ℹ️ {len(skipped_candidates)} candidate(s) already processed for '{selected_job}' position and will be skipped.")
-                with st.expander("👀 View skipped candidates", expanded=False):
-                    for name in skipped_candidates:
-                        st.text(f"  • {name}")
-
-            st.markdown(f"### 3️⃣ Process Candidates ({len(new_candidates)} new)")
-
-            # Automatically process new candidates without requiring button click
-            if len(new_candidates) > 0:
-                st.info("🔄 Automatically processing new candidates in the background...")
-                progress = st.progress(0)
-                status_text = st.empty()
-                save_status = st.empty()
-
-                # Track successful saves
-                successfully_saved = 0
-                failed_saves = 0
-
-                for i, idx in enumerate(new_candidates):
-                    row = candidates_df.iloc[idx]
-                    # Get candidate name supporting both English and Indonesian columns
-                    first_name = _get_column_value(row, "First Name", "Nama Depan")
-                    last_name = _get_column_value(row, "Last Name", "Nama Belakang")
-                    candidate_name = f"{first_name} {last_name}".strip()
-
-                    # Extract resume from URL
-                    resume_url = _get_column_value(row, "Resume Link", "Link Resume")
-                    cv_text = ""
-
-                    if resume_url and str(resume_url).strip():
-                        # Use a temporary name for status display
-                        temp_name = candidate_name if candidate_name else f"Candidate {i+1}"
-                        status_text.text(f"Processing {i+1}/{len(new_candidates)}: {temp_name}")
-                        with st.spinner(f"📥 Downloading resume for {temp_name}..."):
-                            cv_text = extract_resume_from_url(resume_url)
-
-                    # If candidate name is missing from CSV, try to extract it from CV
-                    if not candidate_name and cv_text:
-                        with st.spinner(f"🔍 Extracting name from resume..."):
-                            candidate_name = extract_candidate_name_from_cv(cv_text)
-
-                    # Final fallback: use email or generate identifier
-                    if not candidate_name:
-                        email = _get_column_value(row, "Email Address", "Alamat Email", "").strip()
-                        if email and email != "nan":
-                            candidate_name = email.split("@")[0]
+                # Handle different data sources
+                if data_source == "PDF Upload":
+                    uploaded_cvs = st.session_state.screening_data
+                    total_files = len(uploaded_cvs)
+                    
+                    st.info(f"Ready to process {total_files} CV file(s)")
+                    
+                    if st.button("🚀 Start Screening", type="primary", use_container_width=True):
+                        progress = st.progress(0)
+                        status_text = st.empty()
+                        save_status = st.empty()
+                        
+                        successfully_saved = 0
+                        failed_saves = 0
+                        
+                        for i, uploaded_cv in enumerate(uploaded_cvs):
+                            filename = uploaded_cv.name
+                            status_text.text(f"Processing {i+1}/{total_files}: {filename}")
+                            
+                            cv_text = extract_text_from_pdf(uploaded_cv)
+                            candidate_name = ""
+                            if cv_text:
+                                candidate_name = extract_candidate_name_from_cv(cv_text)
+                            if not candidate_name:
+                                candidate_name = filename.rsplit('.', 1)[0]
+                            
+                            status_text.text(f"Processing {i+1}/{total_files}: {candidate_name}")
+                            
+                            cv_score = 0
+                            summary = "No resume or information available"
+                            strengths = []
+                            weaknesses = []
+                            gaps = []
+                            
+                            if cv_text.strip():
+                                cv_score, summary, strengths, weaknesses, gaps = score_with_openrouter(
+                                    cv_text, selected_job, job_info['Job Description']
+                                )
+                            
+                            candidate_result = {
+                                "Candidate Name": candidate_name,
+                                "Candidate Email": "",
+                                "Phone": "",
+                                "Job Position": selected_job,
+                                "Match Score": cv_score,
+                                "AI Summary": summary,
+                                "Strengths": ", ".join(strengths) if strengths else "",
+                                "Weaknesses": ", ".join(weaknesses) if weaknesses else "",
+                                "Gaps": ", ".join(gaps) if gaps else "",
+                                "Latest Job Title": "",
+                                "Latest Company": "",
+                                "Education": "",
+                                "University": "",
+                                "Major": "",
+                                "Kalibrr Profile": "",
+                                "Application Link": "",
+                                "Resume Link": f"Uploaded: {filename}",
+                                "Recruiter Feedback": "",
+                                "Shortlisted": False,
+                                "Candidate Status": "",
+                                "Interview Status": "",
+                                "Rejection Reason": "",
+                                "Date Processed": datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+                            }
+                            
+                            try:
+                                result_df = pd.DataFrame([candidate_result])
+                                if save_results_to_github(result_df, job_position=selected_job):
+                                    successfully_saved += 1
+                                    save_status.success(f"Saved {candidate_name} ({successfully_saved}/{i+1})")
+                                else:
+                                    failed_saves += 1
+                            except Exception as e:
+                                failed_saves += 1
+                            
+                            progress.progress((i + 1) / total_files)
+                        
+                        status_text.text("CV Screening completed!")
+                        if successfully_saved > 0:
+                            clear_results_cache()
+                            st.success(f"🎉 Successfully processed {successfully_saved} CV(s)!")
+                            # Reset to step 1 for next screening
+                            st.session_state.screening_step = 1
+                            st.session_state.screening_data = None
                         else:
-                            candidate_name = f"Candidate {i+1}"
-
-                    status_text.text(f"Processing {i+1}/{len(new_candidates)}: {candidate_name}")
-
-                    # Build additional context from CSV data
-                    additional_context = build_candidate_context(row)
-
-                    # Combine CV text with additional context for CV scoring
-                    full_context = f"{cv_text}\n\n--- Additional Information ---\n{additional_context}"
-
-                    # Score: CV Match Score (from resume analysis only)
-                    cv_score = 0
-                    summary = "No resume or information available"
-                    strengths = []
-                    weaknesses = []
-                    gaps = []
-
-                    if cv_text.strip():
-                        cv_score, summary, strengths, weaknesses, gaps = score_with_openrouter(
-                            cv_text,
-                            selected_job,
-                            job_info['Job Description']
-                        )
-
-                    # Use CV score as the final match score
-                    final_score = cv_score
-
-                    # Create result for this candidate
-                    candidate_result = {
-                        "Candidate Name": candidate_name,
-                        "Candidate Email": _get_column_value(row, "Email Address", "Alamat Email"),
-                        "Phone": _get_column_value(row, "Mobile Number", "Nomor Handphone"),
-                        "Job Position": selected_job,
-                        "Match Score": final_score,
-                        "AI Summary": summary,
-                        "Strengths": ", ".join(strengths) if strengths else "",
-                        "Weaknesses": ", ".join(weaknesses) if weaknesses else "",
-                        "Gaps": ", ".join(gaps) if gaps else "",
-                        "Latest Job Title": _get_column_value(row, "Latest Job Title", "Jabatan Pekerjaan Terakhir"),
-                        "Latest Company": _get_column_value(row, "Latest Company", "Perusahaan Terakhir"),
-                        "Education": _get_column_value(row, "Latest Educational Attainment", "Tingkat Pendidikan Tertinggi"),
-                        "University": _get_column_value(row, "Latest School/University", "Sekolah/Universitas"),
-                        "Major": _get_column_value(row, "Latest Major/Course", "Jurusan/Program Studi"),
-                        "Kalibrr Profile": _get_column_value(row, "Kalibrr Profile Link", "Link Profil Kalibrr"),
-                        "Application Link": _get_column_value(row, "Job Application Link", "Link Aplikasi Pekerjaan"),
-                        "Resume Link": resume_url,
-                        "Recruiter Feedback": "",
-                        "Shortlisted": False,
-                        "Candidate Status": "",
-                        "Interview Status": "",
-                        "Rejection Reason": "",
-                        "Date Processed": datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-                    }
-
-                    # Save immediately after processing each candidate
-                    try:
-                        result_df = pd.DataFrame([candidate_result])
-                        # Save to position-specific file
-                        if save_results_to_github(result_df, job_position=selected_job):
-                            successfully_saved += 1
-                            save_status.success(f"💾 Saved {candidate_name} ({successfully_saved}/{i+1})")
+                            st.error("Failed to save results. Please try again.")
+                
+                elif data_source in ["Google Sheets", "CSV Upload"]:
+                    candidates_df = st.session_state.screening_data
+                    
+                    # Check for duplicates
+                    new_candidates = []
+                    skipped_candidates = []
+                    
+                    for idx, row in candidates_df.iterrows():
+                        candidate_email = row.get("Email Pelamar") or row.get("Candidate Email") or row.get("Email", "")
+                        if pd.notna(candidate_email) and candidate_email in existing_emails:
+                            skipped_candidates.append(candidate_email)
                         else:
-                            failed_saves += 1
-                            save_status.warning(f"⚠️ Failed to save {candidate_name}. Will retry at the end.")
-                    except Exception as e:
-                        failed_saves += 1
-                        save_status.warning(f"⚠️ Error saving {candidate_name}: {str(e)}")
+                            new_candidates.append(row)
+                    
+                    if skipped_candidates:
+                        st.info(f"ℹ️ {len(skipped_candidates)} candidate(s) already processed and will be skipped.")
+                    
+                    if new_candidates:
+                        st.info(f"Ready to process {len(new_candidates)} new candidate(s)")
+                        
+                        if st.button("🚀 Start Screening", type="primary", use_container_width=True):
+                            progress = st.progress(0)
+                            status_text = st.empty()
+                            save_status = st.empty()
+                            
+                            successfully_saved = 0
+                            failed_saves = 0
+                            
+                            for i, row in enumerate(new_candidates):
+                                candidate_name = row.get("Nama") or row.get("Candidate Name") or row.get("Name", "Unknown")
+                                status_text.text(f"Processing {i+1}/{len(new_candidates)}: {candidate_name}")
+                                
+                                resume_link = row.get("Tautan Resume") or row.get("Resume Link") or row.get("Resume", "")
+                                cv_text = ""
+                                if pd.notna(resume_link) and resume_link.strip():
+                                    cv_text = fetch_and_extract_cv_text(resume_link)
+                                
+                                cv_score = 0
+                                summary = "No resume available"
+                                strengths = []
+                                weaknesses = []
+                                gaps = []
+                                
+                                if cv_text.strip():
+                                    cv_score, summary, strengths, weaknesses, gaps = score_with_openrouter(
+                                        cv_text, selected_job, job_info['Job Description']
+                                    )
+                                
+                                candidate_result = {
+                                    "Candidate Name": candidate_name,
+                                    "Candidate Email": row.get("Email Pelamar") or row.get("Candidate Email") or row.get("Email", ""),
+                                    "Phone": row.get("Telp") or row.get("Phone") or row.get("Telepon", ""),
+                                    "Job Position": selected_job,
+                                    "Match Score": cv_score,
+                                    "AI Summary": summary,
+                                    "Strengths": ", ".join(strengths) if strengths else "",
+                                    "Weaknesses": ", ".join(weaknesses) if weaknesses else "",
+                                    "Gaps": ", ".join(gaps) if gaps else "",
+                                    "Latest Job Title": row.get("Jabatan Terakhir") or row.get("Latest Job Title") or row.get("Job Title", ""),
+                                    "Latest Company": row.get("Perusahaan Terakhir") or row.get("Latest Company") or row.get("Company", ""),
+                                    "Education": row.get("Pendidikan") or row.get("Education") or row.get("Degree", ""),
+                                    "University": row.get("Universitas") or row.get("University") or row.get("School", ""),
+                                    "Major": row.get("Jurusan") or row.get("Major") or row.get("Field of Study", ""),
+                                    "Kalibrr Profile": row.get("Profil Kalibrr") or row.get("Kalibrr Profile") or row.get("Profile", ""),
+                                    "Application Link": row.get("Tautan Lamaran") or row.get("Application Link") or row.get("Application", ""),
+                                    "Resume Link": resume_link,
+                                    "Recruiter Feedback": "",
+                                    "Shortlisted": False,
+                                    "Candidate Status": "",
+                                    "Interview Status": "",
+                                    "Rejection Reason": "",
+                                    "Date Processed": datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+                                }
+                                
+                                try:
+                                    result_df = pd.DataFrame([candidate_result])
+                                    if save_results_to_github(result_df, job_position=selected_job):
+                                        successfully_saved += 1
+                                        save_status.success(f"Saved {candidate_name} ({successfully_saved}/{i+1})")
+                                    else:
+                                        failed_saves += 1
+                                except Exception as e:
+                                    failed_saves += 1
+                                
+                                progress.progress((i + 1) / len(new_candidates))
+                            
+                            status_text.text("Screening completed!")
+                            if successfully_saved > 0:
+                                clear_results_cache()
+                                st.success(f"🎉 Successfully processed {successfully_saved} candidate(s)!")
+                                st.session_state.screening_step = 1
+                                st.session_state.screening_data = None
+                            else:
+                                st.error("Failed to save results. Please try again.")
+                    else:
+                        st.info("ℹ️ All candidates have already been processed for this position.")
 
-                    # Update progress
-                    progress.progress((i + 1) / len(new_candidates))
-
-                status_text.text("✅ Screening completed!")
-
-                # Show final save summary
-                if successfully_saved > 0:
-                    # Clear the results cache so Dashboard shows fresh data
-                    clear_results_cache()
-                    st.success(f"🎉 Successfully processed and saved {successfully_saved} candidate(s)!")
-                    if len(skipped_candidates) > 0:
-                        st.info(f"ℹ️ Skipped {len(skipped_candidates)} candidate(s) already processed for this position (no duplicates).")
-                    if failed_saves > 0:
-                        st.warning(f"⚠️ {failed_saves} candidate(s) failed to save. Please check the Dashboard and re-run if needed.")
-                    st.info("💡 You can now view the results in the Dashboard section.")
-                else:
-                    st.error("❌ Failed to save any results to GitHub. Please check your connection and try again.")
-            else:
-                st.info("ℹ️ All candidates have already been processed for this position. Check the Dashboard to view results.")
-
+                st.markdown("<div class='step-actions'>", unsafe_allow_html=True)
+                col1, col2 = st.columns([1, 5])
+                with col1:
+                    if st.button("← Back to Data Loading", use_container_width=True):
+                        st.session_state.screening_step = 2
+                        st.rerun()
+                st.markdown("</div></div>", unsafe_allow_html=True)
 
 # ========================================
 # SECTION 3: DASHBOARD
 # ========================================
 elif selected == "Dashboard":
-    st.markdown("<h2 style='text-align:center;color:#0b3d91;'>📊 Screening Dashboard</h2>", unsafe_allow_html=True)
+    st.markdown("<h2 style='text-align:center;color:#0b3d91;'>Screening Dashboard</h2>", unsafe_allow_html=True)
 
     # Load job positions for the dropdown (lightweight - only loads job_positions.csv)
     jobs_df = load_job_positions_from_github()
@@ -620,30 +1291,29 @@ elif selected == "Dashboard":
     if jobs_df is None or jobs_df.empty or "Job Position" not in jobs_df.columns:
         st.info("ℹ️ No job positions available. Please add job positions in the Job Management section first.")
         st.stop()
+    
+    # Ensure Pooling Status column exists
+    if "Pooling Status" not in jobs_df.columns:
+        jobs_df["Pooling Status"] = ""
+    
+    # Filter out pooled positions (they should only appear in Pooling tab)
+    jobs_df_active = jobs_df[jobs_df["Pooling Status"] != "Pooled"]
 
-    # Get list of job positions for filtering - no "All" option for better performance
-    job_positions = jobs_df["Job Position"].tolist()
+    # Get list of active (non-pooled) job positions
+    job_positions = jobs_df_active["Job Position"].tolist()
     
     if not job_positions:
-        st.info("ℹ️ No job positions available. Please add job positions in the Job Management section first.")
+        st.info("ℹ️ No active job positions available. All positions are in pooling. Check the Pooling tab or add new positions in Job Management.")
         st.stop()
     
-    selected_job = st.selectbox("🎯 Pilih posisi untuk melihat hasil screening", job_positions)
-    
-    # Status filter
-    status_filter = st.selectbox(
-        "🔍 Filter by Status",
-        ["All", "Pending Review", "OK", "Rejected"],
-        index=0,
-        help="Filter candidates by their review status"
-    )
+    selected_job = st.selectbox("Pilih posisi untuk melihat hasil screening", job_positions)
     
     # Load results only for the selected position (efficient - loads single file)
     df = load_results_for_position(selected_job)
     
     # Check for errors (None means authentication/connection error)
     if df is None:
-        st.error("❌ Failed to load results from GitHub. Please check your GitHub token, repository access, and network connection.")
+        st.error("Failed to load results from GitHub. Please check your GitHub token, repository access, and network connection.")
         st.stop()
 
     # Check if we have any data for this position
@@ -665,21 +1335,17 @@ elif selected == "Dashboard":
                 df[col] = ""
     
     # Clean up Shortlisted column - ensure it only contains boolean values
-    # This handles any corrupted data (e.g., timestamps) that may exist
     if "Shortlisted" in df.columns:
-        # Use vectorized string operations for better performance
         df["Shortlisted"] = df["Shortlisted"].astype(str).str.strip().str.lower().isin(['true', '1'])
     
     # Clean up Candidate Status column - ensure valid values only
     if "Candidate Status" in df.columns:
         df["Candidate Status"] = df["Candidate Status"].fillna("").astype(str)
-        # Ensure only valid status values
         df.loc[~df["Candidate Status"].isin(["", "OK", "Rejected"]), "Candidate Status"] = ""
     
     # Clean up Interview Status column - ensure valid values only
     if "Interview Status" in df.columns:
         df["Interview Status"] = df["Interview Status"].fillna("").astype(str)
-        # Ensure only valid status values
         df.loc[~df["Interview Status"].isin(["", "Lanjut", "Rejected"]), "Interview Status"] = ""
 
     # Convert numeric columns
@@ -687,41 +1353,119 @@ elif selected == "Dashboard":
     for col in numeric_cols:
         df[col] = pd.to_numeric(df[col], errors="coerce").fillna(0)
 
-    # Store the full dataframe before filtering for status updates
+    # Store the full dataframe for statistics
     df_full = df.copy()
     
-    # Apply status filter
-    if status_filter == "OK":
-        df = df[df["Candidate Status"] == "OK"]
-    elif status_filter == "Rejected":
-        df = df[df["Candidate Status"] == "Rejected"]
-    elif status_filter == "Pending Review":
-        df = df[df["Candidate Status"] == ""]
-    # else "All" - no filter applied
-
-    df_sorted = df.sort_values(by="Match Score", ascending=False).reset_index(drop=True)
-    
-    # Show message if no candidates match filter
-    if df.empty:
-        st.info(f"ℹ️ No candidates with status '{status_filter}' found.")
-        st.stop()
-
-    # --- KPI metrics (based on full data, not filtered) ---
+    # --- Overview Statistics (at top) ---
+    st.markdown("### Overview Statistics")
     avg_score = int(df_full["Match Score"].mean())
     top_score = int(df_full["Match Score"].max())
     total_candidates = len(df_full)
-    ok_candidates = len(df_full[df_full["Candidate Status"] == "OK"])
-    rejected_candidates = len(df_full[df_full["Candidate Status"] == "Rejected"])
+    pending_count = len(df_full[df_full["Candidate Status"] == ""])
+    ok_count = len(df_full[(df_full["Candidate Status"] == "OK") & (df_full["Interview Status"] == "")])
+    ok_passed_count = len(df_full[(df_full["Candidate Status"] == "OK") & (df_full["Interview Status"] == "Lanjut")])
+    rejected_count = len(df_full[df_full["Candidate Status"] == "Rejected"])
+    ok_rejected_count = len(df_full[(df_full["Candidate Status"] == "OK") & (df_full["Interview Status"] == "Rejected")])
 
-    c1, c2, c3, c4, c5 = st.columns(5)
-    c1.metric("📈 Avg Score", avg_score)
-    c2.metric("🏆 Top Score", top_score)
-    c3.metric("👥 Total", total_candidates)
-    c4.metric("✅ OK", ok_candidates)
-    c5.metric("❌ Rejected", rejected_candidates)
+    metric_col1, metric_col2, metric_col3 = st.columns(3)
+    metric_col1.metric("Average Score", avg_score)
+    metric_col2.metric("Top Score", top_score)
+    metric_col3.metric("Total Candidates", total_candidates)
+    
+    st.markdown("### Status Breakdown")
+    breakdown_col1, breakdown_col2, breakdown_col3, breakdown_col4, breakdown_col5 = st.columns(5)
+    breakdown_col1.metric("Pending", pending_count)
+    breakdown_col2.metric("OK", ok_count)
+    breakdown_col3.metric("OK-Passed", ok_passed_count)
+    breakdown_col4.metric("Rejected", rejected_count)
+    breakdown_col5.metric("OK-Rejected", ok_rejected_count)
 
     st.divider()
     
+    # --- Filter & Search Section ---
+    st.markdown("### Filter & Search")
+    
+    filter_col1, filter_col2, filter_col3 = st.columns(3)
+    
+    with filter_col1:
+        # Status filter
+        status_options = ["All Status", "Pending", "OK", "OK-Passed", "Rejected", "OK-Rejected"]
+        selected_status_filter = st.selectbox("Filter by Status", status_options, key="dashboard_status_filter")
+    
+    with filter_col2:
+        # Score filter
+        score_options = ["All Scores", "High (>80)", "Medium (50-80)", "Low (<50)"]
+        selected_score_filter = st.selectbox("Filter by Score", score_options, key="dashboard_score_filter")
+    
+    with filter_col3:
+        # Sort options
+        sort_options = ["Score (High to Low)", "Score (Low to High)", "Name (A-Z)", "Name (Z-A)"]
+        selected_sort = st.selectbox("Sort by", sort_options, key="dashboard_sort")
+    
+    # Search box
+    search_query = st.text_input("Search by Name or Email", placeholder="Type to search...", key="dashboard_search")
+    
+    st.divider()
+    
+    # Apply filters
+    df_filtered = df_full.copy()
+    
+    # Status filter
+    if selected_status_filter != "All Status":
+        if selected_status_filter == "Pending":
+            df_filtered = df_filtered[df_filtered["Candidate Status"] == ""]
+        elif selected_status_filter == "OK":
+            df_filtered = df_filtered[
+                (df_filtered["Candidate Status"] == "OK") & 
+                (df_filtered["Interview Status"] == "")
+            ]
+        elif selected_status_filter == "OK-Passed":
+            df_filtered = df_filtered[
+                (df_filtered["Candidate Status"] == "OK") & 
+                (df_filtered["Interview Status"] == "Lanjut")
+            ]
+        elif selected_status_filter == "Rejected":
+            df_filtered = df_filtered[df_filtered["Candidate Status"] == "Rejected"]
+        elif selected_status_filter == "OK-Rejected":
+            df_filtered = df_filtered[
+                (df_filtered["Candidate Status"] == "OK") & 
+                (df_filtered["Interview Status"] == "Rejected")
+            ]
+    
+    # Score filter
+    if selected_score_filter != "All Scores":
+        if selected_score_filter == "High (>80)":
+            df_filtered = df_filtered[df_filtered["Match Score"] > 80]
+        elif selected_score_filter == "Medium (50-80)":
+            df_filtered = df_filtered[(df_filtered["Match Score"] >= 50) & (df_filtered["Match Score"] <= 80)]
+        elif selected_score_filter == "Low (<50)":
+            df_filtered = df_filtered[df_filtered["Match Score"] < 50]
+    
+    # Search filter
+    if search_query:
+        df_filtered = df_filtered[
+            df_filtered["Candidate Name"].fillna("").str.contains(search_query, case=False, na=False) |
+            df_filtered["Candidate Email"].fillna("").str.contains(search_query, case=False, na=False)
+        ]
+    
+    # Apply sorting
+    if selected_sort == "Score (High to Low)":
+        df_filtered = df_filtered.sort_values(by="Match Score", ascending=False)
+    elif selected_sort == "Score (Low to High)":
+        df_filtered = df_filtered.sort_values(by="Match Score", ascending=True)
+    elif selected_sort == "Name (A-Z)":
+        df_filtered = df_filtered.sort_values(by="Candidate Name", ascending=True)
+    elif selected_sort == "Name (Z-A)":
+        df_filtered = df_filtered.sort_values(by="Candidate Name", ascending=False)
+    
+    df_filtered = df_filtered.reset_index(drop=True)
+    df_sorted = df_filtered
+
+    # Show message if no candidates match filter
+    if df_filtered.empty:
+        st.info(f"No candidates found matching the selected filters.")
+        st.stop()
+
     # Helper function to sanitize keys for Streamlit widgets
     def sanitize_key(text):
         """Remove special characters from text to create safe widget keys."""
@@ -742,20 +1486,20 @@ elif selected == "Dashboard":
             # Red font color for rejected in interview
             status_color = "#dc3545"
             reason_text = f" - {rejection_reason}" if rejection_reason else ""
-            display_html = f'<p style="color: {status_color}; font-weight: bold; margin-bottom: 0;">❌ {candidate_name} - Score: {score} - OK-Rejected-Status{reason_text}</p>'
+            display_html = f'<p style="color: {status_color}; font-weight: bold; margin-bottom: 0;">{candidate_name} - Score: {score} - OK-Rejected{reason_text}</p>'
         elif candidate_status == "OK":
             # Green font color for OK status (no interview rejection)
             status_color = "#28a745"
-            display_html = f'<p style="color: {status_color}; font-weight: bold; margin-bottom: 0;">✅ {candidate_name} - Score: {score} - OK</p>'
+            display_html = f'<p style="color: {status_color}; font-weight: bold; margin-bottom: 0;">{candidate_name} - Score: {score} - OK</p>'
         elif candidate_status == "Rejected":
             # Red font color for Rejected status
             status_color = "#dc3545"
-            reason_text = f" ({rejection_reason})" if rejection_reason else ""
-            display_html = f'<p style="color: {status_color}; font-weight: bold; margin-bottom: 0;">❌ {candidate_name} - Score: {score} - Rejected{reason_text}</p>'
+            reason_text = f" - {rejection_reason}" if rejection_reason else ""
+            display_html = f'<p style="color: {status_color}; font-weight: bold; margin-bottom: 0;">{candidate_name} - Score: {score} - Rejected{reason_text}</p>'
         else:
             # Default for pending review (no color change)
             status_color = None
-            display_html = f'🔍 {candidate_name} - Score: {score}'
+            display_html = f'{candidate_name} - Score: {score}'
         
         return status_color, display_html
     
@@ -782,7 +1526,7 @@ elif selected == "Dashboard":
         return False
 
     # --- Display candidates with expanders ---
-    st.subheader("📋 Candidate Details (Ranked by Score)")
+    st.markdown("### **Candidate Details**")
 
     for idx, row in df_sorted.iterrows():
         # Handle NaN values properly for candidate name
@@ -821,25 +1565,25 @@ elif selected == "Dashboard":
             col1, col2 = st.columns([1, 1])
 
             with col1:
-                st.markdown("### 📊 Score")
+                st.markdown("### Score")
                 st.metric("Match Score", f"{row.get('Match Score', 0)}")
 
-                st.markdown("### 👤 Basic Info")
+                st.markdown("### Basic Info")
                 # Helper function to get non-NaN value
                 def get_value(key, default='N/A'):
                     val = row.get(key, default)
                     return val if pd.notna(val) and str(val).strip() else default
 
                 if "Candidate Email" in row:
-                    st.text(f"📧 Email: {get_value('Candidate Email')}")
-                    st.text(f"📱 Phone: {get_value('Phone')}")
-                st.text(f"💼 Job: {get_value('Latest Job Title')}")
-                st.text(f"🏢 Company: {get_value('Latest Company')}")
-                st.text(f"🎓 Education: {get_value('Education')}")
-                st.text(f"🏫 University: {get_value('University')}")
+                    st.text(f"Email: {get_value('Candidate Email')}")
+                    st.text(f"Phone: {get_value('Phone')}")
+                st.text(f"Job: {get_value('Latest Job Title')}")
+                st.text(f"Company: {get_value('Latest Company')}")
+                st.text(f"Education: {get_value('Education')}")
+                st.text(f"University: {get_value('University')}")
 
             with col2:
-                st.markdown("### ✅ Strengths")
+                st.markdown("### Strengths")
                 strengths = str(row.get("Strengths", "")) if pd.notna(row.get("Strengths")) else ""
                 if strengths and strengths.strip():
                     for strength in strengths.split(", "):
@@ -895,7 +1639,7 @@ elif selected == "Dashboard":
                     link_cols[2].markdown(f"[📄 Resume]({resume_link})")
 
             # --- Candidate Status Section ---
-            st.markdown("### 🎯 Candidate Status")
+            st.markdown("### Candidate Status")
             current_status = row.get("Candidate Status", "")
             if pd.isna(current_status):
                 current_status = ""
@@ -910,101 +1654,96 @@ elif selected == "Dashboard":
             if pd.isna(current_rejection_reason):
                 current_rejection_reason = ""
             
-            # Display current status
-            if current_status == "Rejected":
-                rejection_display = f" - Alasan: {current_rejection_reason}" if current_rejection_reason else ""
-                st.error(f"❌ Status: **Rejected**{rejection_display}")
-            elif current_status == "OK":
-                if current_interview_status == "Lanjut":
-                    st.success("✅ Status: **OK** → **Lanjut ke tahap berikutnya**")
-                elif current_interview_status == "Rejected":
-                    rejection_display = f" - Alasan: {current_rejection_reason}" if current_rejection_reason else ""
-                    st.error(f"✅ Status: **OK** → ❌ **Tidak Lolos Interview**{rejection_display}")
-                else:
-                    st.success("✅ Status: **OK** (Lolos CV Screening)")
-            else:
-                st.info("⏳ Status: **Pending Review**")
-            
             # Create unique key using sanitized candidate email or name + index
             candidate_email = row.get("Candidate Email", "")
             email_key = sanitize_key(candidate_email) if pd.notna(candidate_email) and str(candidate_email).strip() else ""
             name_key = sanitize_key(candidate_name)
             unique_key = f"{email_key}_{idx}" if email_key else f"{name_key}_{idx}"
             
-
-            
             # Stage 1: Initial CV Screening (OK / Reject)
             if current_status == "":
-                st.markdown("#### 📋 Initial CV Screening")
+                st.markdown("#### Candidate Status")
+                st.info("Status: Pending Review")
+                
                 btn_col1, btn_col2, btn_col3 = st.columns(3)
                 
                 with btn_col1:
                     # OK button - for initial CV screening approval
-                    if st.button("✅ OK", key=f"ok_{unique_key}", type="primary", use_container_width=True):
-                        with st.spinner("💾 Menyimpan status..."):
+                    if st.button("OK", key=f"ok_{unique_key}", type="primary", use_container_width=True):
+                        with st.spinner("Saving status..."):
                             if update_candidate_status_in_df(df_full, candidate_email, candidate_name, "OK", True, selected_job, "", ""):
                                 clear_results_cache()
-                                st.success(f"✅ {candidate_name} lolos CV screening!")
+                                st.success(f"{candidate_name} passed CV screening!")
                                 time.sleep(0.5)
                                 st.rerun()
                             else:
-                                st.error("❌ Gagal menyimpan status")
+                                st.error("Failed to save status")
                 
                 with btn_col2:
                     # Initial Reject button
-                    if st.button("❌ Reject", key=f"reject_initial_{unique_key}", type="secondary", use_container_width=True):
-                        with st.spinner("💾 Menyimpan status..."):
+                    if st.button("Reject", key=f"reject_initial_{unique_key}", type="secondary", use_container_width=True):
+                        with st.spinner("Saving status..."):
                             if update_candidate_status_in_df(df_full, candidate_email, candidate_name, "Rejected", False, selected_job, REJECTION_REASON_CV_SCREENING, ""):
                                 clear_results_cache()
-                                st.success(f"❌ {candidate_name} tidak lolos CV screening")
+                                st.success(f"{candidate_name} did not pass CV screening")
                                 time.sleep(0.5)
                                 st.rerun()
                             else:
-                                st.error("❌ Gagal menyimpan status")
+                                st.error("Failed to save status")
             
-            # Stage 2: After OK - Interview Result (Lanjut / Reject with reason)
+            # Stage 2: Show OK status and interview options
             elif current_status == "OK" and current_interview_status == "":
-                st.markdown("#### 📋 Hasil Initial Interview")
+                st.markdown("#### Candidate Status")
+                st.success("Status: OK (Passed CV Screening)")
                 
-                # Rejection reason dropdown
+                st.markdown("#### Initial Interview Result")
+                
+                # Pass Interview button
+                if st.button("Pass Interview", key=f"lanjut_{unique_key}", type="primary", use_container_width=True):
+                    with st.spinner("Saving status..."):
+                        if update_candidate_status_in_df(df_full, candidate_email, candidate_name, "OK", True, selected_job, "", "Lanjut"):
+                            clear_results_cache()
+                            st.success(f"{candidate_name} passed interview!")
+                            time.sleep(0.5)
+                            st.rerun()
+                        else:
+                            st.error("Failed to save status")
+                
+                st.markdown("---")
+                st.markdown("**Or Reject with Reason:**")
+                
+                # Rejection reason form - always visible
                 selected_rejection_reason = st.selectbox(
-                    "📝 Alasan Reject (pilih jika tidak lolos interview)",
-                    options=["-- Pilih alasan --"] + REJECTION_REASONS,
+                    "Select rejection reason",
+                    options=["-- Select reason --"] + REJECTION_REASONS,
                     key=f"reason_{unique_key}",
                     index=0
                 )
-                if selected_rejection_reason == "-- Pilih alasan --":
-                    selected_rejection_reason = ""
                 
-                btn_col1, btn_col2, btn_col3 = st.columns(3)
-                
-                with btn_col1:
-                    # Lanjut button - candidate passes interview
-                    if st.button("✅ Lanjut", key=f"lanjut_{unique_key}", type="primary", use_container_width=True):
-                        with st.spinner("💾 Menyimpan status..."):
-                            if update_candidate_status_in_df(df_full, candidate_email, candidate_name, "OK", True, selected_job, "", "Lanjut"):
-                                clear_results_cache()
-                                st.success(f"✅ {candidate_name} lanjut ke tahap berikutnya!")
-                                time.sleep(0.5)
-                                st.rerun()
-                            else:
-                                st.error("❌ Gagal menyimpan status")
-                
-                with btn_col2:
-                    # Rejected button - only enabled when reason is selected
-                    reject_disabled = not selected_rejection_reason
-                    if st.button("❌ Reject", key=f"reject_interview_{unique_key}", type="secondary", disabled=reject_disabled, use_container_width=True):
-                        with st.spinner("💾 Menyimpan status..."):
-                            if update_candidate_status_in_df(df_full, candidate_email, candidate_name, "OK", False, selected_job, selected_rejection_reason, "Rejected"):
-                                clear_results_cache()
-                                st.success(f"❌ {candidate_name} tidak lolos interview! Alasan: {selected_rejection_reason}")
-                                time.sleep(0.5)
-                                st.rerun()
-                            else:
-                                st.error("❌ Gagal menyimpan status")
-                    
-                    if not selected_rejection_reason:
-                        st.caption("⚠️ Pilih alasan reject terlebih dahulu")
+                if st.button("Submit Rejection", key=f"submit_reject_{unique_key}", type="secondary", disabled=(selected_rejection_reason == "-- Select reason --"), use_container_width=True):
+                    with st.spinner("Saving status..."):
+                        if update_candidate_status_in_df(df_full, candidate_email, candidate_name, "OK", False, selected_job, selected_rejection_reason, "Rejected"):
+                            clear_results_cache()
+                            st.success(f"{candidate_name} did not pass interview! Reason: {selected_rejection_reason}")
+                            time.sleep(0.5)
+                            st.rerun()
+                        else:
+                            st.error("Failed to save status")
+            
+            # Stage 3: Show final status for completed candidates
+            elif current_status == "Rejected":
+                st.markdown("#### Candidate Status")
+                rejection_display = f" - Reason: {current_rejection_reason}" if current_rejection_reason else ""
+                st.error(f"Status: Rejected{rejection_display}")
+            
+            elif current_status == "OK" and current_interview_status == "Lanjut":
+                st.markdown("#### Candidate Status")
+                st.success("Status: OK → Passed Interview")
+            
+            elif current_status == "OK" and current_interview_status == "Rejected":
+                st.markdown("#### Candidate Status")
+                rejection_display = f" - Reason: {current_rejection_reason}" if current_rejection_reason else ""
+                st.error(f"Status: OK → Rejected at Interview{rejection_display}")
             
             # Reset button - available after any status is set
             if current_status:
@@ -1057,31 +1796,313 @@ elif selected == "Dashboard":
         use_container_width=True
     )
 
-    # --- Visualizations ---
-    st.subheader("📈 Score Distribution")
+# ============================================
+# POOLING TAB - ARCHIVED CANDIDATES
+# ============================================
+elif selected == "Pooling":
+    st.markdown("<h2 style='text-align:center;color:#0b3d91;'>Position Pooling</h2>", unsafe_allow_html=True)
+    
+    # Load job positions
+    jobs_df = load_job_positions_from_github()
 
-    # Create chart data with cleaned candidate names
-    chart_data = df_display.copy()
-    chart_index = chart_data["Candidate Name"] if "Candidate Name" in chart_data.columns else chart_data.index
-    st.bar_chart(chart_data.set_index(chart_index)["Match Score"])
+    if jobs_df is None or jobs_df.empty or "Job Position" not in jobs_df.columns:
+        st.info("No job positions available.")
+        st.stop()
+    
+    # Ensure Pooling Status column exists
+    if "Pooling Status" not in jobs_df.columns:
+        jobs_df["Pooling Status"] = ""
+    
+    # Filter only pooled positions
+    jobs_df_pooled = jobs_df[jobs_df["Pooling Status"] == "Pooled"]
 
-    # --- Download buttons ---
-    csv = df_sorted.to_csv(index=False).encode("utf-8")
-    st.download_button(
-        "💾 Download Results (CSV)",
-        data=csv,
-        file_name="cv_screening_results.csv",
-        mime="text/csv"
-    )
+    # Get list of pooled job positions
+    job_positions = jobs_df_pooled["Job Position"].tolist()
+    
+    if not job_positions:
+        st.info("No positions in pooling yet. Move positions to pooling from the Job Management section.")
+        st.stop()
+    
+    st.markdown("**Select Position:**")
+    selected_job = st.selectbox("Select Position", job_positions, label_visibility="collapsed")
+    
+    # Load results for the selected position
+    df_pooled = load_results_for_position(selected_job)
+    
+    # Check for errors
+    if df_pooled is None:
+        st.error("Failed to load results from GitHub.")
+        st.stop()
+    
+    if df_pooled.empty:
+        st.info(f"ℹ️ Belum ada kandidat untuk posisi '{selected_job}'.")
+        st.stop()
+    
+    st.session_state["pooling_results"] = df_pooled
+    
+    # Ensure required columns exist
+    for col in ["Strengths", "Weaknesses", "Gaps", "AI Summary", "Candidate Status", "Interview Status", "Rejection Reason"]:
+        if col not in df_pooled.columns:
+            df_pooled[col] = ""
+    
+    # Convert numeric columns
+    if "Match Score" in df_pooled.columns:
+        df_pooled["Match Score"] = pd.to_numeric(df_pooled["Match Score"], errors="coerce").fillna(0)
+    
+    df_pooled_sorted = df_pooled.sort_values(by="Match Score", ascending=False).reset_index(drop=True)
+    
+    # --- KPI metrics ---
+    st.markdown("### Pooling Statistics")
+    avg_score = int(df_pooled["Match Score"].mean())
+    top_score = int(df_pooled["Match Score"].max())
+    total_pooled = len(df_pooled)
+    
+    c1, c2, c3 = st.columns(3)
+    c1.metric("Average Score", avg_score)
+    c2.metric("Top Score", top_score)
+    c3.metric("Total Pooled", total_pooled)
+    
+    # Status breakdown
+    st.markdown("### Status Breakdown")
+    total_candidates = len(df_pooled_sorted)
+    pending_count = len(df_pooled_sorted[df_pooled_sorted["Candidate Status"] == ""])
+    ok_count = len(df_pooled_sorted[(df_pooled_sorted["Candidate Status"] == "OK") & (df_pooled_sorted["Interview Status"] == "")])
+    ok_passed_count = len(df_pooled_sorted[(df_pooled_sorted["Candidate Status"] == "OK") & (df_pooled_sorted["Interview Status"] == "Lanjut")])
+    rejected_count = len(df_pooled_sorted[df_pooled_sorted["Candidate Status"] == "Rejected"])
+    ok_rejected_count = len(df_pooled_sorted[(df_pooled_sorted["Candidate Status"] == "OK") & (df_pooled_sorted["Interview Status"] == "Rejected")])
+    
+    breakdown_col1, breakdown_col2, breakdown_col3, breakdown_col4, breakdown_col5 = st.columns(5)
+    breakdown_col1.metric("Pending", pending_count)
+    breakdown_col2.metric("OK", ok_count)
+    breakdown_col3.metric("OK-Passed", ok_passed_count)
+    breakdown_col4.metric("Rejected", rejected_count)
+    breakdown_col5.metric("OK-Rejected", ok_rejected_count)
+    
+    st.divider()
+    
+    # --- Filters Section ---
+    st.markdown("### Filter & Search")
+    
+    filter_col1, filter_col2, filter_col3 = st.columns(3)
+    
+    with filter_col1:
+        # Status filter
+        status_options = ["All Status", "Pending", "OK", "OK-Passed", "Rejected", "OK-Rejected"]
+        selected_status_filter = st.selectbox("Filter by Status", status_options, key="pooling_status_filter")
+    
+    with filter_col2:
+        # Score filter
+        score_options = ["All Scores", "High (>80)", "Medium (50-80)", "Low (<50)"]
+        selected_score_filter = st.selectbox("Filter by Score", score_options, key="pooling_score_filter")
+    
+    with filter_col3:
+        # Sort options
+        sort_options = ["Score (High to Low)", "Score (Low to High)", "Name (A-Z)", "Name (Z-A)"]
+        selected_sort = st.selectbox("Sort by", sort_options, key="pooling_sort")
+    
+    # Search box
+    search_query = st.text_input("Search by Name or Email", placeholder="Type to search...", key="pooling_search")
+    
+    # Apply filters
+    df_filtered = df_pooled_sorted.copy()
+    
+    # Status filter
+    if selected_status_filter != "All Status":
+        if selected_status_filter == "Pending":
+            df_filtered = df_filtered[df_filtered["Candidate Status"] == ""]
+        elif selected_status_filter == "OK":
+            df_filtered = df_filtered[
+                (df_filtered["Candidate Status"] == "OK") & 
+                (df_filtered["Interview Status"] == "")
+            ]
+        elif selected_status_filter == "OK-Passed":
+            df_filtered = df_filtered[
+                (df_filtered["Candidate Status"] == "OK") & 
+                (df_filtered["Interview Status"] == "Lanjut")
+            ]
+        elif selected_status_filter == "Rejected":
+            df_filtered = df_filtered[df_filtered["Candidate Status"] == "Rejected"]
+        elif selected_status_filter == "OK-Rejected":
+            df_filtered = df_filtered[
+                (df_filtered["Candidate Status"] == "OK") & 
+                (df_filtered["Interview Status"] == "Rejected")
+            ]
+    
+    # Score filter
+    if selected_score_filter != "All Scores":
+        if selected_score_filter == "High (>80)":
+            df_filtered = df_filtered[df_filtered["Match Score"] > 80]
+        elif selected_score_filter == "Medium (50-80)":
+            df_filtered = df_filtered[(df_filtered["Match Score"] >= 50) & (df_filtered["Match Score"] <= 80)]
+        elif selected_score_filter == "Low (<50)":
+            df_filtered = df_filtered[df_filtered["Match Score"] < 50]
+    
+    # Search filter
+    if search_query:
+        df_filtered = df_filtered[
+            df_filtered["Candidate Name"].fillna("").str.contains(search_query, case=False, na=False) |
+            df_filtered["Candidate Email"].fillna("").str.contains(search_query, case=False, na=False)
+        ]
+    
+    # Apply sorting
+    if selected_sort == "Score (High to Low)":
+        df_filtered = df_filtered.sort_values(by="Match Score", ascending=False)
+    elif selected_sort == "Score (Low to High)":
+        df_filtered = df_filtered.sort_values(by="Match Score", ascending=True)
+    elif selected_sort == "Name (A-Z)":
+        df_filtered = df_filtered.sort_values(by="Candidate Name", ascending=True)
+    elif selected_sort == "Name (Z-A)":
+        df_filtered = df_filtered.sort_values(by="Candidate Name", ascending=False)
+    
+    df_filtered = df_filtered.reset_index(drop=True)
+    
+    st.divider()
+    
+    # --- Pagination ---
+    if df_filtered.empty:
+        st.info("No candidates found matching the selected filters.")
+    else:
+        items_per_page = 10
+        total_pages = max(1, (len(df_filtered) + items_per_page - 1) // items_per_page)
+        
+        # Initialize page number in session state
+        if "pooling_page" not in st.session_state:
+            st.session_state.pooling_page = 1
+        
+        # Ensure page is within valid range
+        if st.session_state.pooling_page > total_pages:
+            st.session_state.pooling_page = total_pages
+        
+        st.markdown(f"### Candidate Details (Showing {len(df_filtered)} of {total_candidates})")
+        
+        # Pagination controls
+        page_col1, page_col2, page_col3 = st.columns([1, 2, 1])
+        with page_col1:
+            if st.button("← Previous", disabled=(st.session_state.pooling_page == 1), key="prev_page"):
+                st.session_state.pooling_page -= 1
+                st.rerun()
+        with page_col2:
+            st.markdown(f"<p style='text-align:center'>Page {st.session_state.pooling_page} of {total_pages}</p>", unsafe_allow_html=True)
+        with page_col3:
+            if st.button("Next →", disabled=(st.session_state.pooling_page == total_pages), key="next_page"):
+                st.session_state.pooling_page += 1
+                st.rerun()
+        
+        # Get current page data
+        start_idx = (st.session_state.pooling_page - 1) * items_per_page
+        end_idx = start_idx + items_per_page
+        df_to_display = df_filtered.iloc[start_idx:end_idx]
+    
+    # Helper function to sanitize keys
+    def sanitize_key(text):
+        """Remove special characters from text to create safe widget keys."""
+        if pd.isna(text) or not str(text).strip():
+            return "unknown"
+        return re.sub(r'[^a-zA-Z0-9_]', '_', str(text))
+    
+    for idx, row in df_to_display.iterrows():
+        candidate_name = row.get("Candidate Name")
+        if pd.isna(candidate_name) or not str(candidate_name).strip() or str(candidate_name).strip() == "nan":
+            candidate_email = row.get("Candidate Email")
+            if pd.notna(candidate_email) and str(candidate_email).strip():
+                candidate_name = str(candidate_email).split("@")[0]
+            else:
+                candidate_name = row.get("Filename")
+                if pd.isna(candidate_name) or not str(candidate_name).strip():
+                    candidate_name = f"Candidate {idx + 1}"
+        
+        score = row.get("Match Score", 0)
+        candidate_status = row.get("Candidate Status", "") if pd.notna(row.get("Candidate Status")) else ""
+        interview_status = row.get("Interview Status", "") if pd.notna(row.get("Interview Status")) else ""
+        rejection_reason = row.get("Rejection Reason", "") if pd.notna(row.get("Rejection Reason")) else ""
+        
+        # Format status display
+        if candidate_status == "OK" and interview_status == "Rejected":
+            status_display = f"OK-Rejected - {rejection_reason}" if rejection_reason else "OK-Rejected"
+            status_color = "#dc3545"
+        elif candidate_status == "OK" and interview_status == "Lanjut":
+            status_display = "OK-Passed"
+            status_color = "#28a745"
+        elif candidate_status == "OK":
+            status_display = "OK"
+            status_color = "#28a745"
+        elif candidate_status == "Rejected":
+            status_display = f"Rejected - {rejection_reason}" if rejection_reason else "Rejected"
+            status_color = "#dc3545"
+        else:
+            status_display = "Pending"
+            status_color = "#6c757d"
+        
+        # Display candidate card
+        st.markdown(f"""
+        <div style='padding: 15px; background-color: #f8f9fa; border-left: 5px solid {status_color}; border-radius: 8px; margin-bottom: 10px;'>
+            <h4 style='margin: 0; color: #212529;'>{candidate_name} - Score: {score}</h4>
+            <p style='margin: 5px 0; color: {status_color}; font-weight: 600;'>Status: {status_display}</p>
+        </div>
+        """, unsafe_allow_html=True)
+        
+        # Details in expander
+        with st.expander("View Details", expanded=False):
+            col1, col2 = st.columns([1, 1])
+            
+            with col1:
+                st.markdown("### Basic Info")
+                def get_value(key, default='N/A'):
+                    val = row.get(key, default)
+                    return val if pd.notna(val) and str(val).strip() else default
+                
+                if "Candidate Email" in row:
+                    st.text(f"Email: {get_value('Candidate Email')}")
+                    st.text(f"Phone: {get_value('Phone')}")
+                st.text(f"Job: {get_value('Latest Job Title')}")
+                st.text(f"Company: {get_value('Latest Company')}")
+                st.text(f"Education: {get_value('Education')}")
+                st.text(f"University: {get_value('University')}")
+            
+            with col2:
+                st.markdown("### Strengths")
+                strengths = str(row.get("Strengths", "")) if pd.notna(row.get("Strengths")) else ""
+                if strengths and strengths.strip():
+                    for strength in strengths.split(", "):
+                        if strength.strip():
+                            st.markdown(f"- {strength.strip()}")
+                else:
+                    st.text("No strengths listed")
+                
+                st.markdown("### Weaknesses")
+                weaknesses = str(row.get("Weaknesses", "")) if pd.notna(row.get("Weaknesses")) else ""
+                if weaknesses and weaknesses.strip():
+                    for weakness in weaknesses.split(", "):
+                        if weakness.strip():
+                            st.markdown(f"- {weakness.strip()}")
+                else:
+                    st.text("No weaknesses listed")
+            
+            st.markdown("### AI Summary")
+            ai_summary = row.get("AI Summary")
+            if pd.notna(ai_summary) and str(ai_summary).strip():
+                st.info(ai_summary)
+            else:
+                st.info("No summary available")
+            
+            # Links section
+            kalibrr_profile = row.get("Kalibrr Profile")
+            application_link = row.get("Application Link")
+            resume_link = row.get("Resume Link")
+            
+            has_links = (
+                (pd.notna(kalibrr_profile) and str(kalibrr_profile).strip()) or
+                (pd.notna(application_link) and str(application_link).strip()) or
+                (pd.notna(resume_link) and str(resume_link).strip())
+            )
+            
+            if has_links:
+                st.markdown("### Links")
+                link_cols = st.columns(3)
+                if pd.notna(kalibrr_profile) and str(kalibrr_profile).strip():
+                    link_cols[0].markdown(f"[Kalibrr Profile]({kalibrr_profile})")
+                if pd.notna(application_link) and str(application_link).strip():
+                    link_cols[1].markdown(f"[Application]({application_link})")
+                if pd.notna(resume_link) and str(resume_link).strip():
+                    link_cols[2].markdown(f"[Resume]({resume_link})")
 
-    # Excel download
-    excel_buffer = io.BytesIO()
-    with pd.ExcelWriter(excel_buffer, engine="xlsxwriter") as writer:
-        df_sorted.to_excel(writer, index=False, sheet_name="Results")
-
-    st.download_button(
-        "📘 Download Results (Excel)",
-        data=excel_buffer.getvalue(),
-        file_name="cv_screening_results.xlsx",
-        mime="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
-    )

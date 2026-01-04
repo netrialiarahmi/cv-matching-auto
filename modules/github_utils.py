@@ -1,12 +1,78 @@
 import base64
 import json
 import os
+import sys
 import requests
 import pandas as pd
-import streamlit as st
 from io import StringIO
 import time
 from concurrent.futures import ThreadPoolExecutor, as_completed
+
+# Try to import streamlit, but it's optional (for GitHub Actions compatibility)
+try:
+    import streamlit as st
+    HAS_STREAMLIT = True
+except ImportError:
+    HAS_STREAMLIT = False
+
+
+def _get_config(key, default=None):
+    """
+    Get configuration value from environment variables or Streamlit secrets.
+    Checks environment variables first (for GitHub Actions), then falls back to Streamlit secrets.
+    
+    Args:
+        key: Configuration key name
+        default: Default value if key not found
+        
+    Returns:
+        Configuration value or default
+    """
+    # First check environment variables (for GitHub Actions)
+    value = os.environ.get(key)
+    if value is not None:
+        return value
+    
+    # Fall back to Streamlit secrets (for Streamlit app)
+    if HAS_STREAMLIT:
+        try:
+            return _get_config(key, default)
+        except Exception:
+            return default
+    
+    return default
+
+
+def _log_error(message):
+    """Log error message. Uses Streamlit if available, otherwise prints to stderr."""
+    if HAS_STREAMLIT:
+        _log_error(message)
+    else:
+        print(f"ERROR: {message}", file=sys.stderr)
+
+
+def _log_warning(message):
+    """Log warning message. Uses Streamlit if available, otherwise prints to stderr."""
+    if HAS_STREAMLIT:
+        _log_warning(message)
+    else:
+        print(f"WARNING: {message}", file=sys.stderr)
+
+
+def _log_success(message):
+    """Log success message. Uses Streamlit if available, otherwise prints to stdout."""
+    if HAS_STREAMLIT:
+        _log_success(message)
+    else:
+        print(f"SUCCESS: {message}")
+
+
+def _log_info(message):
+    """Log info message. Uses Streamlit if available, otherwise prints to stdout."""
+    if HAS_STREAMLIT:
+        _log_info(message)
+    else:
+        print(f"INFO: {message}")
 
 # Expected columns for results.csv
 RESULTS_COLUMNS = [
@@ -114,18 +180,18 @@ def save_results_to_github(df, path=None, job_position=None, max_retries=3):
     """
     # Validate input DataFrame
     if df is None:
-        st.error("❌ Cannot save: DataFrame is None")
+        _log_error("❌ Cannot save: DataFrame is None")
         return False
     
     if df.empty:
-        st.warning("⚠️ Cannot save: DataFrame is empty")
+        _log_warning("⚠️ Cannot save: DataFrame is empty")
         return False
     
     # Ensure required columns exist
     required_columns = ["Candidate Name", "Job Position"]
     missing_columns = [col for col in required_columns if col not in df.columns]
     if missing_columns:
-        st.error(f"❌ Cannot save: Missing required columns: {', '.join(missing_columns)}")
+        _log_error(f"❌ Cannot save: Missing required columns: {', '.join(missing_columns)}")
         return False
     
     # Determine the file path
@@ -135,16 +201,16 @@ def save_results_to_github(df, path=None, job_position=None, max_retries=3):
             if "Job Position" in df.columns and not df.empty:
                 job_position = df["Job Position"].iloc[0]
             else:
-                st.error("❌ Cannot save: No path or job_position provided")
+                _log_error("❌ Cannot save: No path or job_position provided")
                 return False
         path = get_results_filename(job_position)
     
-    token = st.secrets.get("GITHUB_TOKEN")
-    repo = st.secrets.get("GITHUB_REPO", "netrialiarahmi/cv-matching-auto")
-    branch = st.secrets.get("GITHUB_BRANCH", "main")
+    token = _get_config("GITHUB_TOKEN")
+    repo = _get_config("GITHUB_REPO", "netrialiarahmi/cv-matching-auto")
+    branch = _get_config("GITHUB_BRANCH", "main")
 
     if not token:
-        st.error("❌ Missing GITHUB_TOKEN in Streamlit secrets.")
+        _log_error("❌ Missing GITHUB_TOKEN in Streamlit secrets.")
         return False
 
     headers = {
@@ -174,7 +240,7 @@ def save_results_to_github(df, path=None, job_position=None, max_retries=3):
                     if r_raw.status_code == 200:
                         existing_csv = r_raw.text
                     else:
-                        st.error(f"❌ CRITICAL: Could not download large file ({file_size:,} bytes). Data loss may occur!")
+                        _log_error(f"❌ CRITICAL: Could not download large file ({file_size:,} bytes). Data loss may occur!")
                         existing_csv = None
                 else:
                     # File is small enough, use Contents API
@@ -193,18 +259,18 @@ def save_results_to_github(df, path=None, job_position=None, max_retries=3):
                     except (pd.errors.ParserError, ValueError) as e:
                         # Log parsing error but continue with new data
                         if attempt == max_retries - 1:
-                            st.warning(f"⚠️ Could not parse existing data (using new data only): {str(e)}")
+                            _log_warning(f"⚠️ Could not parse existing data (using new data only): {str(e)}")
                 
                 # Apply deduplication to remove duplicates (handles both merged and new-only data)
                 # Keep 'first' to preserve existing records and their shortlist status
                 df = _deduplicate_candidates(df)
             elif r.status_code == 401:
-                st.error(f"❌ GitHub authentication failed: {r.status_code} - {r.text}")
+                _log_error(f"❌ GitHub authentication failed: {r.status_code} - {r.text}")
                 return False
             elif r.status_code != 404:
                 # 404 is expected for new files, other errors should be reported
                 if attempt == max_retries - 1:
-                    st.warning(f"⚠️ Could not check existing file: {r.status_code} - {r.text}")
+                    _log_warning(f"⚠️ Could not check existing file: {r.status_code} - {r.text}")
 
             # 2️⃣ Encode CSV baru
             csv_bytes = df.to_csv(index=False).encode("utf-8")
@@ -229,11 +295,11 @@ def save_results_to_github(df, path=None, job_position=None, max_retries=3):
                     time.sleep(1)  # Wait before retrying
                     continue
                 else:
-                    st.error(f"❌ GitHub save failed after {max_retries} attempts: File conflict")
+                    _log_error(f"❌ GitHub save failed after {max_retries} attempts: File conflict")
                     return False
             else:
                 if attempt == max_retries - 1:
-                    st.error(f"❌ GitHub save failed: {res.status_code} - {res.text}")
+                    _log_error(f"❌ GitHub save failed: {res.status_code} - {res.text}")
                 return False
                 
         except requests.exceptions.Timeout:
@@ -241,18 +307,18 @@ def save_results_to_github(df, path=None, job_position=None, max_retries=3):
                 time.sleep(2)  # Wait before retrying
                 continue
             else:
-                st.error(f"❌ GitHub save failed: Connection timeout after {max_retries} attempts")
+                _log_error(f"❌ GitHub save failed: Connection timeout after {max_retries} attempts")
                 return False
         except requests.exceptions.RequestException as e:
             if attempt < max_retries - 1:
                 time.sleep(2)  # Wait before retrying
                 continue
             else:
-                st.error(f"❌ GitHub save failed: Network error - {str(e)}")
+                _log_error(f"❌ GitHub save failed: Network error - {str(e)}")
                 return False
         except Exception as e:
             if attempt == max_retries - 1:
-                st.error(f"❌ Unexpected error while saving: {str(e)}")
+                _log_error(f"❌ Unexpected error while saving: {str(e)}")
             return False
     
     return False
@@ -265,9 +331,9 @@ def load_results_from_github(path="results.csv"):
         pd.DataFrame: DataFrame with results, or empty DataFrame with expected columns if file is empty/not found
         None: Only if there's a critical error and no fallback is available
     """
-    token = st.secrets.get("GITHUB_TOKEN")
-    repo = st.secrets.get("GITHUB_REPO", "netrialiarahmi/cv-matching-auto")
-    branch = st.secrets.get("GITHUB_BRANCH", "main")
+    token = _get_config("GITHUB_TOKEN")
+    repo = _get_config("GITHUB_REPO", "netrialiarahmi/cv-matching-auto")
+    branch = _get_config("GITHUB_BRANCH", "main")
 
     # Try to load from GitHub first
     if token:
@@ -299,10 +365,10 @@ def load_results_from_github(path="results.csv"):
                         except pd.errors.EmptyDataError:
                             return pd.DataFrame(columns=RESULTS_COLUMNS)
                         except Exception as e:
-                            st.warning(f"⚠️ Failed to parse large GitHub file: {str(e)}. Trying local file.")
+                            _log_warning(f"⚠️ Failed to parse large GitHub file: {str(e)}. Trying local file.")
                             # Fall through to local file fallback
                     else:
-                        st.warning(f"⚠️ Failed to download large file from GitHub ({r_raw.status_code}). Trying local file.")
+                        _log_warning(f"⚠️ Failed to download large file from GitHub ({r_raw.status_code}). Trying local file.")
                         # Fall through to local file fallback
                 else:
                     # File is small enough, use Contents API
@@ -391,9 +457,9 @@ def load_all_results_from_github():
     Returns:
         pd.DataFrame: Merged DataFrame with all results, or empty DataFrame if no files found
     """
-    token = st.secrets.get("GITHUB_TOKEN")
-    repo = st.secrets.get("GITHUB_REPO", "netrialiarahmi/cv-matching-auto")
-    branch = st.secrets.get("GITHUB_BRANCH", "main")
+    token = _get_config("GITHUB_TOKEN")
+    repo = _get_config("GITHUB_REPO", "netrialiarahmi/cv-matching-auto")
+    branch = _get_config("GITHUB_BRANCH", "main")
     
     headers = {}
     if token:
@@ -499,12 +565,12 @@ def save_job_positions_to_github(df, path="job_positions.csv"):
     Returns:
         bool: True if save was successful, False otherwise.
     """
-    token = st.secrets.get("GITHUB_TOKEN")
-    repo = st.secrets.get("GITHUB_REPO", "netrialiarahmi/cv-matching-auto")
-    branch = st.secrets.get("GITHUB_BRANCH", "main")
+    token = _get_config("GITHUB_TOKEN")
+    repo = _get_config("GITHUB_REPO", "netrialiarahmi/cv-matching-auto")
+    branch = _get_config("GITHUB_BRANCH", "main")
 
     if not token:
-        st.error("❌ Missing GITHUB_TOKEN in Streamlit secrets.")
+        _log_error("❌ Missing GITHUB_TOKEN in Streamlit secrets.")
         return False
 
     headers = {
@@ -529,10 +595,10 @@ def save_job_positions_to_github(df, path="job_positions.csv"):
             # Existing file is empty, just use the new data
             pass
     elif r.status_code == 401:
-        st.error(f"❌ GitHub authentication failed: {r.status_code} - {r.text}")
+        _log_error(f"❌ GitHub authentication failed: {r.status_code} - {r.text}")
         return False
     elif r.status_code != 404:
-        st.warning(f"⚠️ Could not check existing file: {r.status_code} - {r.text}")
+        _log_warning(f"⚠️ Could not check existing file: {r.status_code} - {r.text}")
 
     # Encode CSV
     csv_bytes = df.to_csv(index=False).encode("utf-8")
@@ -550,18 +616,18 @@ def save_job_positions_to_github(df, path="job_positions.csv"):
     # Upload to GitHub
     res = requests.put(url, headers=headers, data=json.dumps(data))
     if res.status_code in [200, 201]:
-        st.success("✅ Job positions successfully saved to GitHub!")
+        _log_success("✅ Job positions successfully saved to GitHub!")
         return True
     else:
-        st.error(f"❌ GitHub save failed: {res.status_code} - {res.text}")
+        _log_error(f"❌ GitHub save failed: {res.status_code} - {res.text}")
         return False
 
 
 def load_job_positions_from_github(path="job_positions.csv"):
     """Load job_positions.csv from GitHub repo, with fallback to local file."""
-    token = st.secrets.get("GITHUB_TOKEN")
-    repo = st.secrets.get("GITHUB_REPO", "netrialiarahmi/cv-matching-auto")
-    branch = st.secrets.get("GITHUB_BRANCH", "main")
+    token = _get_config("GITHUB_TOKEN")
+    repo = _get_config("GITHUB_REPO", "netrialiarahmi/cv-matching-auto")
+    branch = _get_config("GITHUB_BRANCH", "main")
 
     # Try to load from GitHub first
     if token:
@@ -592,10 +658,10 @@ def load_job_positions_from_github(path="job_positions.csv"):
                         except pd.errors.EmptyDataError:
                             return pd.DataFrame(columns=["Job Position", "Job Description", "Date Created"])
                         except Exception as e:
-                            st.warning(f"⚠️ Failed to parse large GitHub file: {str(e)}. Trying local file.")
+                            _log_warning(f"⚠️ Failed to parse large GitHub file: {str(e)}. Trying local file.")
                             # Fall through to local file fallback
                     else:
-                        st.warning(f"⚠️ Failed to download large file from GitHub ({r_raw.status_code}). Trying local file.")
+                        _log_warning(f"⚠️ Failed to download large file from GitHub ({r_raw.status_code}). Trying local file.")
                         # Fall through to local file fallback
                 else:
                     # File is small enough, use Contents API
@@ -606,7 +672,7 @@ def load_job_positions_from_github(path="job_positions.csv"):
                         # Empty file, return empty DataFrame with expected columns
                         return pd.DataFrame(columns=["Job Position", "Job Description", "Date Created"])
                     except Exception as e:
-                        st.warning(f"⚠️ Failed to parse GitHub file: {str(e)}. Trying local file.")
+                        _log_warning(f"⚠️ Failed to parse GitHub file: {str(e)}. Trying local file.")
                         # Fall through to local file fallback
             elif r.status_code == 404:
                 # File not found in GitHub branch, fall through to local file fallback
@@ -644,12 +710,12 @@ def delete_job_position_from_github(job_position, path="job_positions.csv"):
     Returns:
         bool: True if delete was successful, False otherwise.
     """
-    token = st.secrets.get("GITHUB_TOKEN")
-    repo = st.secrets.get("GITHUB_REPO", "netrialiarahmi/cv-matching-auto")
-    branch = st.secrets.get("GITHUB_BRANCH", "main")
+    token = _get_config("GITHUB_TOKEN")
+    repo = _get_config("GITHUB_REPO", "netrialiarahmi/cv-matching-auto")
+    branch = _get_config("GITHUB_BRANCH", "main")
 
     if not token:
-        st.error("❌ Missing GITHUB_TOKEN in Streamlit secrets.")
+        _log_error("❌ Missing GITHUB_TOKEN in Streamlit secrets.")
         return False
 
     headers = {
@@ -662,7 +728,7 @@ def delete_job_position_from_github(job_position, path="job_positions.csv"):
     # Load existing data
     r = requests.get(url, headers=headers)
     if r.status_code != 200:
-        st.error(f"❌ Could not load job positions: {r.status_code}")
+        _log_error(f"❌ Could not load job positions: {r.status_code}")
         return False
     
     content = r.json()
@@ -671,7 +737,7 @@ def delete_job_position_from_github(job_position, path="job_positions.csv"):
     try:
         df = pd.read_csv(StringIO(existing_csv))
     except pd.errors.EmptyDataError:
-        st.error(f"❌ Cannot delete from empty file")
+        _log_error(f"❌ Cannot delete from empty file")
         return False
     
     # Remove the job position
@@ -692,7 +758,7 @@ def delete_job_position_from_github(job_position, path="job_positions.csv"):
     if res.status_code in [200, 201]:
         return True
     else:
-        st.error(f"❌ GitHub delete failed: {res.status_code} - {res.text}")
+        _log_error(f"❌ GitHub delete failed: {res.status_code} - {res.text}")
         return False
 
 
@@ -715,12 +781,12 @@ def update_results_in_github(df, path=None, job_position=None, max_retries=3, si
     # Validate input DataFrame
     if df is None:
         if not silent:
-            st.error("❌ Cannot update: DataFrame is None")
+            _log_error("❌ Cannot update: DataFrame is None")
         return False
     
     if df.empty:
         if not silent:
-            st.warning("⚠️ Cannot update: DataFrame is empty")
+            _log_warning("⚠️ Cannot update: DataFrame is empty")
         return False
     
     # Determine the file path
@@ -731,17 +797,17 @@ def update_results_in_github(df, path=None, job_position=None, max_retries=3, si
                 job_position = df["Job Position"].iloc[0]
             else:
                 if not silent:
-                    st.error("❌ Cannot update: No path or job_position provided")
+                    _log_error("❌ Cannot update: No path or job_position provided")
                 return False
         path = get_results_filename(job_position)
     
-    token = st.secrets.get("GITHUB_TOKEN")
-    repo = st.secrets.get("GITHUB_REPO", "netrialiarahmi/cv-matching-auto")
-    branch = st.secrets.get("GITHUB_BRANCH", "main")
+    token = _get_config("GITHUB_TOKEN")
+    repo = _get_config("GITHUB_REPO", "netrialiarahmi/cv-matching-auto")
+    branch = _get_config("GITHUB_BRANCH", "main")
 
     if not token:
         if not silent:
-            st.error("❌ Missing GITHUB_TOKEN in Streamlit secrets.")
+            _log_error("❌ Missing GITHUB_TOKEN in Streamlit secrets.")
         return False
 
     headers = {
@@ -766,11 +832,11 @@ def update_results_in_github(df, path=None, job_position=None, max_retries=3, si
                 sha = content["sha"]
             elif r.status_code == 401:
                 if not silent:
-                    st.error(f"❌ GitHub authentication failed: {r.status_code} - {r.text}")
+                    _log_error(f"❌ GitHub authentication failed: {r.status_code} - {r.text}")
                 return False
             elif r.status_code != 404:
                 if attempt == max_retries - 1 and not silent:
-                    st.warning(f"⚠️ Could not check existing file: {r.status_code} - {r.text}")
+                    _log_warning(f"⚠️ Could not check existing file: {r.status_code} - {r.text}")
 
             # Prepare payload with timestamp for better tracking
             data = {
@@ -792,11 +858,11 @@ def update_results_in_github(df, path=None, job_position=None, max_retries=3, si
                     continue
                 else:
                     if not silent:
-                        st.error(f"❌ GitHub update failed after {max_retries} attempts: File conflict")
+                        _log_error(f"❌ GitHub update failed after {max_retries} attempts: File conflict")
                     return False
             else:
                 if attempt == max_retries - 1 and not silent:
-                    st.error(f"❌ GitHub update failed: {res.status_code} - {res.text}")
+                    _log_error(f"❌ GitHub update failed: {res.status_code} - {res.text}")
                 return False
                 
         except requests.exceptions.Timeout:
@@ -805,7 +871,7 @@ def update_results_in_github(df, path=None, job_position=None, max_retries=3, si
                 continue
             else:
                 if not silent:
-                    st.error(f"❌ GitHub update failed: Connection timeout after {max_retries} attempts")
+                    _log_error(f"❌ GitHub update failed: Connection timeout after {max_retries} attempts")
                 return False
         except requests.exceptions.RequestException as e:
             if attempt < max_retries - 1:
@@ -813,11 +879,11 @@ def update_results_in_github(df, path=None, job_position=None, max_retries=3, si
                 continue
             else:
                 if not silent:
-                    st.error(f"❌ GitHub update failed: Network error - {str(e)}")
+                    _log_error(f"❌ GitHub update failed: Network error - {str(e)}")
                 return False
         except Exception as e:
             if attempt == max_retries - 1 and not silent:
-                st.error(f"❌ Unexpected error while updating: {str(e)}")
+                _log_error(f"❌ Unexpected error while updating: {str(e)}")
             return False
     
     return False
@@ -835,12 +901,12 @@ def update_job_position_in_github(old_position, new_position, new_description, p
     Returns:
         bool: True if update was successful, False otherwise.
     """
-    token = st.secrets.get("GITHUB_TOKEN")
-    repo = st.secrets.get("GITHUB_REPO", "netrialiarahmi/cv-matching-auto")
-    branch = st.secrets.get("GITHUB_BRANCH", "main")
+    token = _get_config("GITHUB_TOKEN")
+    repo = _get_config("GITHUB_REPO", "netrialiarahmi/cv-matching-auto")
+    branch = _get_config("GITHUB_BRANCH", "main")
 
     if not token:
-        st.error("❌ Missing GITHUB_TOKEN in Streamlit secrets.")
+        _log_error("❌ Missing GITHUB_TOKEN in Streamlit secrets.")
         return False
 
     headers = {
@@ -853,7 +919,7 @@ def update_job_position_in_github(old_position, new_position, new_description, p
     # Load existing data
     r = requests.get(url, headers=headers)
     if r.status_code != 200:
-        st.error(f"❌ Could not load job positions: {r.status_code}")
+        _log_error(f"❌ Could not load job positions: {r.status_code}")
         return False
     
     content = r.json()
@@ -862,13 +928,13 @@ def update_job_position_in_github(old_position, new_position, new_description, p
     try:
         df = pd.read_csv(StringIO(existing_csv))
     except pd.errors.EmptyDataError:
-        st.error(f"❌ Cannot update from empty file")
+        _log_error(f"❌ Cannot update from empty file")
         return False
     
     # Update the job position
     mask = df["Job Position"] == old_position
     if mask.sum() == 0:
-        st.error(f"❌ Job position '{old_position}' not found")
+        _log_error(f"❌ Job position '{old_position}' not found")
         return False
     
     df.loc[mask, "Job Position"] = new_position
@@ -890,5 +956,78 @@ def update_job_position_in_github(old_position, new_position, new_description, p
     if res.status_code in [200, 201]:
         return True
     else:
-        st.error(f"❌ GitHub update failed: {res.status_code} - {res.text}")
+        _log_error(f"❌ GitHub update failed: {res.status_code} - {res.text}")
+        return False
+
+
+def toggle_job_pooling_status(job_position, pooling_status, path="job_positions.csv"):
+    """Toggle pooling status for a specific job position.
+    
+    Args:
+        job_position (str): The job position name
+        pooling_status (str): "Pooled" or "" (empty for unpool)
+        path (str): Path to the CSV file in GitHub
+        
+    Returns:
+        bool: True if update was successful, False otherwise.
+    """
+    token = _get_config("GITHUB_TOKEN")
+    repo = _get_config("GITHUB_REPO", "netrialiarahmi/cv-matching-auto")
+    branch = _get_config("GITHUB_BRANCH", "main")
+
+    if not token:
+        _log_error("❌ Missing GITHUB_TOKEN in Streamlit secrets.")
+        return False
+
+    headers = {
+        "Authorization": f"token {token}",
+        "Accept": "application/vnd.github+json"
+    }
+
+    url = f"https://api.github.com/repos/{repo}/contents/{path}"
+
+    # Load existing data
+    r = requests.get(url, headers=headers)
+    if r.status_code != 200:
+        _log_error(f"❌ Failed to load job positions: {r.status_code}")
+        return False
+
+    content = r.json()
+    sha = content["sha"]
+    existing_csv = base64.b64decode(content["content"]).decode("utf-8")
+    
+    try:
+        df = pd.read_csv(StringIO(existing_csv))
+    except pd.errors.EmptyDataError:
+        _log_error("❌ Job positions file is empty")
+        return False
+    
+    # Ensure Pooling Status column exists
+    if "Pooling Status" not in df.columns:
+        df["Pooling Status"] = ""
+    
+    # Find and update the job position
+    mask = df["Job Position"] == job_position
+    if mask.sum() == 0:
+        _log_error(f"❌ Job position '{job_position}' not found")
+        return False
+    
+    df.loc[mask, "Pooling Status"] = pooling_status
+    
+    # Encode and save
+    csv_bytes = df.to_csv(index=False).encode("utf-8")
+    encoded = base64.b64encode(csv_bytes).decode("utf-8")
+
+    data = {
+        "message": f"📦 Toggle pooling status for: {job_position}",
+        "content": encoded,
+        "branch": branch,
+        "sha": sha
+    }
+
+    res = requests.put(url, headers=headers, data=json.dumps(data))
+    if res.status_code in [200, 201]:
+        return True
+    else:
+        _log_error(f"❌ GitHub update failed: {res.status_code} - {res.text}")
         return False

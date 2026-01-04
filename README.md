@@ -4,7 +4,13 @@ An automated CV matching system with 3 main sections for managing job positions,
 
 ## Recent Updates
 
-### ✨ Latest Changes (2024)
+### ✨ Latest Changes (January 2026)
+- **Automated Daily Screening**: GitHub Actions workflow automatically screens new candidates every day at 7:30 AM WIB
+- **Background Processing**: CVs are analyzed in the background without manual intervention
+- **Smart Duplicate Prevention**: Only new candidates are processed; already-screened candidates are automatically skipped
+- **Error Resilience**: Position-level error handling ensures one failure doesn't block processing of other positions
+
+### Previous Updates (2024)
 - **Local File Fallback**: Dashboard and Job Management now load from local files when GitHub API is unavailable or files don't exist in the configured branch
 - **API Authentication Fix**: Fixed OpenRouter 401 error when using GEMINI_API_KEY - system now properly routes to Gemini API endpoint
 - **File Storage Integration**: System now fetches candidate CSVs from URLs in Google Sheets "File Storage" column
@@ -21,30 +27,52 @@ An automated CV matching system with 3 main sections for managing job positions,
 - Store job positions in GitHub repository
 - View all saved job positions in expandable cards
 - Download job positions as CSV
+- Mark positions as "Pooled" to archive filled positions
 
-### 2. Screening
-- **Automatic data fetching from Google Sheets** - Fetches CSV URLs from "File Storage" column and downloads candidate data from cloud storage
-- **Fallback to CSV upload** - If no data is found for the position in Google Sheets, you can upload a CSV file manually
-- Select job position from saved positions
-- Preview job description and candidate data before screening
-- **Automatic background processing** - New candidates are automatically processed without button clicks
-- Automatically skip candidates already processed for the same position
-- Automatically extract and analyze resumes from URLs
-- AI-powered matching using Gemini 2.5 Pro (supports both OpenRouter and direct Gemini API)
-- Automatically save results to GitHub
+### 2. Screening (Manual & Automated)
+- **Manual Screening (via Streamlit UI)**:
+  - Multi-step wizard for easy data loading
+  - **Automatic data fetching from Google Sheets** - Fetches CSV URLs from "File Storage" column and downloads candidate data from cloud storage
+  - **Fallback to CSV upload** - If no data is found for the position in Google Sheets, you can upload a CSV file manually
+  - Select job position from saved positions
+  - Preview job description and candidate data before screening
+  - **Automatic background processing** - New candidates are automatically processed without button clicks
+  - Automatically skip candidates already processed for the same position
+  
+- **Automated Daily Screening (via GitHub Actions)**:
+  - Runs every day at **7:30 AM WIB (00:30 UTC)**
+  - Automatically processes all active (non-pooled) positions
+  - Fetches latest candidate data from Google Sheets
+  - Only screens new candidates (skips already-processed candidates)
+  - Downloads CVs, extracts text, and analyzes with Gemini AI
+  - Saves results directly to GitHub repository
+  - Continues processing even if one position fails (error resilience)
+  - Can be manually triggered via GitHub Actions tab
 
 ### 3. Dashboard
 - View all screening results from GitHub
-- Filter by job position
+- Filter by job position, candidate status, and score range
+- Search candidates by name or email
+- Sort by score, name, or date
 - Expandable cards for each candidate showing:
   - Match Score (based on CV analysis)
   - Strengths, Weaknesses, and Gaps
   - AI Summary
   - Basic candidate information
   - Direct links to resume, profile, and application
-- Ranked table sorted by match score
-- Visual score distribution chart
-- Download results as CSV or Excel
+- Update candidate status (OK, Rejected) and interview status
+- Add recruiter feedback and rejection reasons
+- Overview statistics: Average Score, Top Score, Total Candidates
+- Status breakdown: Pending, OK, OK-Passed, Rejected, OK-Rejected
+
+### 4. Pooling
+- Archive filled positions to keep screening dashboard clean
+- View all pooled candidates across positions
+- Filter by status and score range
+- Search by name or email
+- Sort by various criteria
+- Pagination for easy browsing
+- Same candidate management features as Dashboard
 
 ## Required CSV Format for Candidate Upload
 
@@ -154,10 +182,59 @@ GITHUB_BRANCH = "main"
      2. Extract the File Storage URL from that row
      3. Download and parse the candidate CSV from that URL
 
-4. Run the application:
+4. **Configure GitHub Actions Secrets** (for automated screening):
+   - Go to your GitHub repository → Settings → Secrets and variables → Actions
+   - Add the following secrets:
+     - `GEMINI_API_KEY` - Your Gemini API key for AI scoring
+     - `KAID` - Kalibrr authentication cookie (for candidate export)
+     - `KB` - Kalibrr authentication cookie (for candidate export)
+     - `GSHEET_URL` - Google Sheets edit URL (for updating File Storage URLs)
+     - `GSHEET_CSV_URL` - Published Google Sheets CSV URL (for reading positions)
+   - Note: `GITHUB_TOKEN` is automatically provided by GitHub Actions
+
+5. Run the application:
 ```bash
 streamlit run app.py
 ```
+
+## Automation Workflows
+
+The system includes two GitHub Actions workflows for automated processing:
+
+### 1. Daily Kalibrr Export and CV Link Update
+**File:** `.github/workflows/weekly-export.yml`  
+**Schedule:** Every day at 7:00 AM WIB (00:00 UTC)  
+**Purpose:** Export candidates from Kalibrr and update CV links in existing results
+
+**What it does:**
+1. Exports candidate data from Kalibrr for all active positions
+2. Updates `sheet_positions.csv` with UPLOAD_ID and File Storage URLs
+3. Updates Resume Link column in existing result files (no re-analysis)
+4. Commits changes back to GitHub
+
+### 2. Automated CV Screening
+**File:** `.github/workflows/auto-screening.yml`  
+**Schedule:** Every day at 7:30 AM WIB (00:30 UTC) - runs 30 minutes after export  
+**Purpose:** Automatically screen new candidates with AI
+
+**What it does:**
+1. Loads all active (non-pooled) job positions
+2. Fetches candidate data from Google Sheets File Storage URLs
+3. Checks existing results to identify new candidates
+4. **Only processes candidates not yet screened** (skips duplicates)
+5. Downloads CVs, extracts text, and analyzes with Gemini AI
+6. Saves new screening results to position-specific CSV files
+7. Commits results back to GitHub
+
+**Manual Trigger:**
+- Both workflows can be manually triggered via GitHub Actions tab
+- Go to Actions → Select workflow → Run workflow
+
+**Error Handling:**
+- Position-level error handling: If one position fails, others continue processing
+- Network retries with exponential backoff
+- Rate limiting compliance (6.5s delay between AI calls)
+- Detailed logging uploaded as artifacts
 
 ## Kalibrr Export Tool
 
