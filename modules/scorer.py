@@ -2,8 +2,46 @@ import os
 import re
 import json
 import time
-import streamlit as st
+import sys
+
+# Optional streamlit import - not available in GitHub Actions
+try:
+    import streamlit as st
+    HAS_STREAMLIT = True
+except ImportError:
+    HAS_STREAMLIT = False
+    # Dummy decorator for @st.cache_resource when streamlit is not available
+    class _DummyCache:
+        def __call__(self, func):
+            return func
+    st = type('obj', (object,), {
+        'secrets': type('obj', (object,), {'get': lambda self, key, default=None: os.getenv(key, default)})(),
+        'cache_resource': _DummyCache()
+    })()
+
 from openai import OpenAI, RateLimitError
+
+# Logging helper functions for dual-mode operation
+def _log_error(message):
+    """Log error message - uses st.error in Streamlit, prints to stderr otherwise"""
+    if HAS_STREAMLIT:
+        _log_error(message)
+    else:
+        print(message, file=sys.stderr)
+
+def _log_warning(message):
+    """Log warning message - uses st.warning in Streamlit, prints to stderr otherwise"""
+    if HAS_STREAMLIT:
+        _log_warning(message)
+    else:
+        print(message, file=sys.stderr)
+
+def _log_info(message):
+    """Log info message - uses st.info in Streamlit, prints otherwise"""
+    if HAS_STREAMLIT:
+        _log_info(message)
+    else:
+        print(message)
 
 # Constants for API configuration
 OPENROUTER_API_BASE = "https://openrouter.ai/api/v1"
@@ -119,10 +157,10 @@ def call_api_with_retry(client, **kwargs):
             
             # Show warning to user
             if attempt < MAX_RETRIES - 1:
-                st.warning(f"⚠️ Rate limit reached (429). Waiting {retry_delay} seconds before retry {attempt + 1}/{MAX_RETRIES}...")
+                _log_warning(f"⚠️ Rate limit reached (429). Waiting {retry_delay} seconds before retry {attempt + 1}/{MAX_RETRIES}...")
                 time.sleep(retry_delay)
             else:
-                st.error(f"❌ Rate limit error after {MAX_RETRIES} attempts. Please try again later.")
+                _log_error(f"❌ Rate limit error after {MAX_RETRIES} attempts. Please try again later.")
         
         except Exception as e:
             # For non-rate-limit errors, raise immediately
@@ -234,7 +272,7 @@ Return only the name:
         
     except Exception as e:
         # Use info instead of warning since name extraction failure is handled gracefully
-        st.info(f"ℹ️ Could not extract name from CV, using default identifier.")
+        _log_info(f"ℹ️ Could not extract name from CV, using default identifier.")
         return "Unknown Candidate"
 
 
@@ -340,7 +378,7 @@ Instructions:
                 
                 # If validation fails on first attempts, retry (ask the model again)
                 if attempt < max_retries:
-                    st.warning(f"⚠️ Incomplete response from AI (attempt {attempt + 1}/{max_retries + 1}). Retrying...")
+                    _log_warning(f"⚠️ Incomplete response from AI (attempt {attempt + 1}/{max_retries + 1}). Retrying...")
                     continue
                 
                 # On final attempt, provide defaults for empty fields
@@ -393,7 +431,7 @@ Instructions:
             
             # Retry if validation fails (ask the model again)
             if attempt < max_retries:
-                st.warning(f"⚠️ Could not parse AI response properly (attempt {attempt + 1}/{max_retries + 1}). Retrying...")
+                _log_warning(f"⚠️ Could not parse AI response properly (attempt {attempt + 1}/{max_retries + 1}). Retrying...")
                 continue
             
             # Provide defaults on final attempt
@@ -411,7 +449,7 @@ Instructions:
         except Exception as e:
             # API errors (including rate limits) are already handled by call_api_with_retry
             # If we get here, it's an unexpected error
-            st.error(f"⚠️ Unexpected error during CV evaluation: {e}")
+            _log_error(f"⚠️ Unexpected error during CV evaluation: {e}")
             return 0, f"Error evaluating candidate: {str(e)}", ["Evaluasi gagal."], ["Evaluasi gagal."], ["Evaluasi gagal."]
 
 
@@ -483,5 +521,5 @@ Guidelines:
         return score
         
     except Exception as e:
-        st.warning(f"⚠️ Table data scoring failed: {e}")
+        _log_warning(f"⚠️ Table data scoring failed: {e}")
         return 0
