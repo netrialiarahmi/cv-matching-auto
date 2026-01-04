@@ -686,33 +686,6 @@ st.markdown("""
     </style>
 """, unsafe_allow_html=True)
 
-# --- Modern Header ---
-st.markdown("""
-    <div style="background: white; padding: 1.5rem 0; margin: -4rem -4rem 2rem -4rem; border-bottom: 2px solid #e5e7eb; box-shadow: 0 2px 8px rgba(0,0,0,0.05);">
-        <div style="max-width: 1400px; margin: 0 auto; padding: 0 2rem;">
-            <div style="display: flex; align-items: center; justify-content: space-between;">
-                <div style="display: flex; align-items: center; gap: 1rem;">
-                    <div style="font-size: 2rem;">📋</div>
-                    <div>
-                        <h1 style="margin: 0; font-size: 1.75rem; font-weight: 700; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">
-                            CV Matching System
-                        </h1>
-                        <p style="margin: 0; font-size: 0.875rem; color: #6b7280; font-weight: 500;">
-                            Kompas.com Recruitment Platform
-                        </p>
-                    </div>
-                </div>
-                <div style="display: flex; align-items: center; gap: 1rem;">
-                    <div style="text-align: right;">
-                        <div style="font-size: 0.75rem; color: #9ca3af; text-transform: uppercase; letter-spacing: 0.05em;">Powered by</div>
-                        <div style="font-size: 0.875rem; font-weight: 600; color: #4b5563;">OpenRouter AI</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-""", unsafe_allow_html=True)
-
 # --- Navigation Bar ---
 selected = option_menu(
     menu_title=None,
