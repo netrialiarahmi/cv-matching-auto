@@ -3,8 +3,31 @@ import requests
 from io import BytesIO
 import re
 import os
-import streamlit as st
+import sys
+
+# Optional streamlit import - not available in GitHub Actions
+try:
+    import streamlit as st
+    HAS_STREAMLIT = True
+except ImportError:
+    HAS_STREAMLIT = False
+
 from modules.extractor import extract_text_from_pdf
+
+# Logging helper functions for dual-mode operation
+def _log_error(message):
+    """Log error message - uses st.error in Streamlit, prints to stderr otherwise"""
+    if HAS_STREAMLIT:
+        _log_error(message)
+    else:
+        print(message, file=sys.stderr)
+
+def _log_warning(message):
+    """Log warning message - uses st.warning in Streamlit, prints to stderr otherwise"""
+    if HAS_STREAMLIT:
+        _log_warning(message)
+    else:
+        print(message, file=sys.stderr)
 
 # Google Sheets CSV URL
 GOOGLE_SHEETS_URL = "https://docs.google.com/spreadsheets/d/e/2PACX-1vRKC_5lHg9yJgGoBlkH0A-fjpjpiYu4MzO4ieEdSId5wAKS7bsLDdplXWx8944xFlHf2f9lVcUYzVcr/pub?output=csv"
@@ -251,7 +274,7 @@ def parse_candidate_csv(uploaded_file):
         df = pd.read_csv(uploaded_file)
         return df
     except Exception as e:
-        st.error(f"❌ Failed to parse CSV: {e}")
+        _log_error(f"❌ Failed to parse CSV: {e}")
         return None
 
 
@@ -295,32 +318,32 @@ def extract_resume_from_url(url, max_retries=3):
                     time.sleep(5)  # Wait 5 seconds before retrying
                     continue
                 else:
-                    st.warning(f"⚠️ Too many requests. Failed to download resume (rate limit)")
+                    _log_warning(f"⚠️ Too many requests. Failed to download resume (rate limit)")
                     return ""
             else:
                 if attempt < max_retries - 1:
                     time.sleep(2)  # Wait before retrying
                     continue
                 else:
-                    st.warning(f"⚠️ Failed to download resume (Status {response.status_code})")
+                    _log_warning(f"⚠️ Failed to download resume (Status {response.status_code})")
                     return ""
         except requests.exceptions.Timeout:
             if attempt < max_retries - 1:
                 time.sleep(3)  # Wait before retrying
                 continue
             else:
-                st.warning(f"⚠️ Timeout downloading resume")
+                _log_warning(f"⚠️ Timeout downloading resume")
                 return ""
         except requests.exceptions.RequestException as e:
             if attempt < max_retries - 1:
                 time.sleep(2)  # Wait before retrying
                 continue
             else:
-                st.warning(f"⚠️ Network error extracting resume")
+                _log_warning(f"⚠️ Network error extracting resume")
                 return ""
         except Exception as e:
             # Non-network errors (like PDF parsing errors) should not retry
-            st.warning(f"⚠️ Error extracting resume: {str(e)[:50]}")
+            _log_warning(f"⚠️ Error extracting resume: {str(e)[:50]}")
             return ""
     
     return ""
