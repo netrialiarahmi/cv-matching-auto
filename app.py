@@ -628,47 +628,128 @@ st.markdown("""
     
     /* Smooth page transitions */
     .main { animation: fadeIn 0.4s ease-out; }
+    
+    /* Modern Navbar Styles */
+    .navbar-container {
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        padding: 0;
+        margin: -5rem -5rem 2rem -5rem;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+    }
+    
+    .navbar-header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 1.25rem 2.5rem;
+        background: rgba(255, 255, 255, 0.95);
+        backdrop-filter: blur(10px);
+        border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    }
+    
+    .navbar-brand {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+    }
+    
+    .navbar-logo {
+        font-size: 1.75rem;
+        font-weight: 700;
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+    }
+    
+    .navbar-subtitle {
+        font-size: 0.875rem;
+        color: var(--neutral-500);
+        font-weight: 500;
+    }
+    
+    /* Override streamlit-option-menu default styles */
+    div[data-testid="stHorizontalBlock"] > div:has(nav) {
+        background: white !important;
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+    
+    nav[data-testid="stHorizontalBlock"] {
+        background: white !important;
+        box-shadow: none !important;
+        border-bottom: 1px solid var(--neutral-200) !important;
+    }
     </style>
+""", unsafe_allow_html=True)
+
+# --- Modern Header ---
+st.markdown("""
+    <div style="background: white; padding: 1.5rem 0; margin: -4rem -4rem 2rem -4rem; border-bottom: 2px solid #e5e7eb; box-shadow: 0 2px 8px rgba(0,0,0,0.05);">
+        <div style="max-width: 1400px; margin: 0 auto; padding: 0 2rem;">
+            <div style="display: flex; align-items: center; justify-content: space-between;">
+                <div style="display: flex; align-items: center; gap: 1rem;">
+                    <div style="font-size: 2rem;">📋</div>
+                    <div>
+                        <h1 style="margin: 0; font-size: 1.75rem; font-weight: 700; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">
+                            CV Matching System
+                        </h1>
+                        <p style="margin: 0; font-size: 0.875rem; color: #6b7280; font-weight: 500;">
+                            Kompas.com Recruitment Platform
+                        </p>
+                    </div>
+                </div>
+                <div style="display: flex; align-items: center; gap: 1rem;">
+                    <div style="text-align: right;">
+                        <div style="font-size: 0.75rem; color: #9ca3af; text-transform: uppercase; letter-spacing: 0.05em;">Powered by</div>
+                        <div style="font-size: 0.875rem; font-weight: 600; color: #4b5563;">OpenRouter AI</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 """, unsafe_allow_html=True)
 
 # --- Navigation Bar ---
 selected = option_menu(
     menu_title=None,
     options=["Job Management", "Screening", "Dashboard", "Pooling"],
-    icons=["briefcase", "search", "graph-up", "archive"],
+    icons=["briefcase-fill", "search", "bar-chart-fill", "archive-fill"],
     orientation="horizontal",
     default_index=0,
     styles={
         "container": {
-            "padding": "0",
-            "background-color": "#f8fafc",
-            "margin-bottom": "2.5rem",
+            "padding": "0 2rem",
+            "background-color": "white",
+            "margin": "0 -4rem 2.5rem -4rem",
             "border-bottom": "1px solid #e5e7eb",
-            "box-shadow": "0 2px 4px rgba(0,0,0,0.05)"
+            "box-shadow": "0 1px 3px rgba(0,0,0,0.05)"
         },
         "icon": {
-            "font-size": "18px",
-            "margin-right": "8px"
+            "font-size": "1.1rem",
+            "margin-right": "0.5rem",
         },
         "nav-link": {
             "color": "#6b7280",
-            "font-size": "15px",
+            "font-size": "0.95rem",
             "font-weight": "500",
             "text-align": "center",
-            "margin": "0 0.25rem",
-            "padding": "0.875rem 1.75rem",
-            "border-radius": "8px 8px 0 0",
-            "transition": "all 0.3s cubic-bezier(0.4, 0, 0.2, 1)",
+            "margin": "0",
+            "padding": "1rem 2rem",
+            "border-radius": "0",
+            "transition": "all 0.2s ease",
             "border": "none",
             "border-bottom": "3px solid transparent",
+            "background-color": "transparent"
         },
         "nav-link-selected": {
-            "background-color": "white",
-            "color": "#2563eb",
+            "background": "linear-gradient(135deg, rgba(102, 126, 234, 0.08) 0%, rgba(118, 75, 162, 0.08) 100%)",
+            "color": "#667eea",
             "font-weight": "600",
-            "border-bottom": "3px solid #2563eb",
-            "box-shadow": "0 -2px 8px rgba(37, 99, 235, 0.15)",
-            "transform": "translateY(-2px)"
+            "border-bottom": "3px solid #667eea",
         },
     },
 )
