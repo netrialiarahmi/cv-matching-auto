@@ -39,6 +39,59 @@ from modules.github_utils import (
 )
 
 
+def fetch_candidates_from_file_storage(position_name):
+    """
+    Fetch candidates from File Storage URL (updated by weekly export workflow).
+    This reads from sheet_positions.csv to get the File Storage URL.
+    
+    Args:
+        position_name: Name of the job position
+        
+    Returns:
+        DataFrame or None
+    """
+    import pandas as pd
+    import requests
+    from io import BytesIO
+    
+    try:
+        # Read sheet_positions.csv to get File Storage URL
+        sheet_positions = pd.read_csv("sheet_positions.csv")
+        
+        # Find the position
+        position_row = sheet_positions[sheet_positions["Nama Posisi"] == position_name]
+        
+        if position_row.empty:
+            print(f"   Position '{position_name}' not found in sheet_positions.csv")
+            return None
+        
+        file_storage_url = position_row.iloc[0].get("File Storage")
+        
+        if pd.isna(file_storage_url) or not str(file_storage_url).strip():
+            print(f"   No File Storage URL found for this position")
+            print(f"   (Run weekly-export workflow first to populate File Storage URLs)")
+            return None
+        
+        # Fetch candidates from File Storage URL
+        response = requests.get(file_storage_url, timeout=30)
+        
+        if response.status_code != 200:
+            print(f"   Failed to fetch from File Storage (HTTP {response.status_code})")
+            return None
+        
+        # Parse CSV
+        candidates_df = pd.read_csv(BytesIO(response.content))
+        return candidates_df
+        
+    except FileNotFoundError:
+        print(f"   sheet_positions.csv not found")
+        print(f"   (Run weekly-export workflow first to generate this file)")
+        return None
+    except Exception as e:
+        print(f"   Error fetching from File Storage: {e}")
+        return None
+
+
 def get_results_filename(job_position):
     """Generate results filename for a specific job position."""
     # Replace special characters with underscores
@@ -62,15 +115,15 @@ def screen_position(position_name, job_description):
     print(f"{'='*70}")
     
     try:
-        # 1. Fetch candidates from Google Sheets
-        print("📋 Fetching candidates from Google Sheets...")
-        candidates_df = fetch_candidates_from_google_sheets(position_name)
+        # 1. Fetch candidates from File Storage (updated by weekly export workflow)
+        print("📋 Fetching candidates from File Storage...")
+        candidates_df = fetch_candidates_from_file_storage(position_name)
         
         if candidates_df is None or candidates_df.empty:
             print(f"⏭️  No candidates found for this position")
             return 0
         
-        print(f"   Found {len(candidates_df)} total candidates in Google Sheets")
+        print(f"   Found {len(candidates_df)} total candidates from File Storage")
         
         # 2. Load existing results to identify already-processed candidates
         print("🔍 Checking existing results...")
