@@ -46,7 +46,7 @@ def _get_config(key, default=None):
     # Fall back to Streamlit secrets (for Streamlit app)
     if HAS_STREAMLIT:
         try:
-            return _get_config(key, default)
+            return st.secrets.get(key, default)
         except Exception:
             return default
     
@@ -56,7 +56,7 @@ def _get_config(key, default=None):
 def _log_error(message):
     """Log error message. Uses Streamlit if available, otherwise prints to stderr."""
     if HAS_STREAMLIT:
-        _log_error(message)
+        st.error(message)
     else:
         print(f"ERROR: {message}", file=sys.stderr)
 
@@ -64,7 +64,7 @@ def _log_error(message):
 def _log_warning(message):
     """Log warning message. Uses Streamlit if available, otherwise prints to stderr."""
     if HAS_STREAMLIT:
-        _log_warning(message)
+        st.warning(message)
     else:
         print(f"WARNING: {message}", file=sys.stderr)
 
@@ -72,7 +72,7 @@ def _log_warning(message):
 def _log_success(message):
     """Log success message. Uses Streamlit if available, otherwise prints to stdout."""
     if HAS_STREAMLIT:
-        _log_success(message)
+        st.success(message)
     else:
         print(f"SUCCESS: {message}")
 
@@ -80,7 +80,7 @@ def _log_success(message):
 def _log_info(message):
     """Log info message. Uses Streamlit if available, otherwise prints to stdout."""
     if HAS_STREAMLIT:
-        _log_info(message)
+        st.info(message)
     else:
         print(f"INFO: {message}")
 
@@ -609,11 +609,39 @@ def save_job_positions_to_github(df, path="job_positions.csv"):
         existing_csv = base64.b64decode(content["content"]).decode("utf-8")
         try:
             old_df = pd.read_csv(StringIO(existing_csv))
+            
+            # Ensure Job ID column exists in both dataframes
+            if "Job ID" not in old_df.columns:
+                old_df["Job ID"] = ""
+            
+            if "Job ID" not in df.columns:
+                df["Job ID"] = ""
+            
+            # Merge the dataframes
             df = pd.concat([old_df, df], ignore_index=True)
-            df.drop_duplicates(subset=["Job Position"], keep="last", inplace=True)
+            
+            # Remove duplicates based on Job ID (keeps first occurrence which preserves original creation date)
+            df.drop_duplicates(subset=["Job ID"], keep="first", inplace=True)
+            
+            # Check for duplicate active (non-pooled) Job Position names with different IDs
+            # This allows pooled positions to have same name as active positions
+            active_positions = df[df.get('Pooling Status', '') != 'Pooled']
+            duplicate_active_positions = active_positions[active_positions.duplicated(subset=["Job Position"], keep=False)]
+            if not duplicate_active_positions.empty:
+                _log_warning(f"⚠️ Found duplicate active job position names: {', '.join(duplicate_active_positions['Job Position'].unique())}")
+            
+            # Log info about pooled positions with same names (this is allowed)
+            pooled_positions = df[df.get('Pooling Status', '') == 'Pooled']
+            if not pooled_positions.empty and not active_positions.empty:
+                same_name_pooled = set(pooled_positions['Job Position'].unique()) & set(active_positions['Job Position'].unique())
+                if same_name_pooled:
+                    _log_info(f"ℹ️ Positions with both active and pooled versions: {', '.join(same_name_pooled)}")
+                
         except pd.errors.EmptyDataError:
             # Existing file is empty, just use the new data
-            pass
+            # Ensure Job ID column exists
+            if "Job ID" not in df.columns:
+                df["Job ID"] = ""
     elif r.status_code == 401:
         _log_error(f"❌ GitHub authentication failed: {r.status_code} - {r.text}")
         return False
@@ -909,13 +937,14 @@ def update_results_in_github(df, path=None, job_position=None, max_retries=3, si
     return False
 
 
-def update_job_position_in_github(old_position, new_position, new_description, path="job_positions.csv"):
+def update_job_position_in_github(old_position, new_position, new_description, new_job_id=None, path="job_positions.csv"):
     """Update a specific job position in GitHub repo.
     
     Args:
         old_position (str): The original job position name
         new_position (str): The new job position name
         new_description (str): The new job description
+        new_job_id (str): The new Job ID (optional)
         path (str): Path to the CSV file in GitHub
         
     Returns:
@@ -959,7 +988,17 @@ def update_job_position_in_github(old_position, new_position, new_description, p
     
     df.loc[mask, "Job Position"] = new_position
     df.loc[mask, "Job Description"] = new_description
-    df.loc[mask, "Date Created"] = pd.Timestamp.now().strftime("%Y-%m-%d %H:%M:%S")
+    
+    # Update Job ID if provided
+    if new_job_id is not None:
+        if "Job ID" not in df.columns:
+            df["Job ID"] = ""
+        df.loc[mask, "Job ID"] = new_job_id
+    
+    # Keep the original Date Created, add Last Modified
+    if "Last Modified" not in df.columns:
+        df["Last Modified"] = ""
+    df.loc[mask, "Last Modified"] = pd.Timestamp.now().strftime("%Y-%m-%d %H:%M:%S")
     
     # Encode and save
     csv_bytes = df.to_csv(index=False).encode("utf-8")

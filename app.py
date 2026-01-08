@@ -780,27 +780,76 @@ if selected == "Job Management":
 
     st.markdown("### Add or Update Job Position")
 
-    col1, col2 = st.columns([1, 2])
+    col1, col2, col3 = st.columns([1, 1, 2])
 
     with col1:
         job_position = st.text_input("Job Position", placeholder="e.g., Business Analyst")
-
+    
     with col2:
+        job_id = st.text_input("Job ID (Kalibrr)", placeholder="e.g., 261105")
+
+    with col3:
         job_description = st.text_area("Job Description", height=200, placeholder="Paste job description here...")
 
     if st.button("Save Job Position", type="primary"):
         if not job_position.strip() or not job_description.strip():
             st.warning("Please provide both Job Position and Job Description.")
+        elif not job_id.strip():
+            st.warning("Please provide Job ID from Kalibrr.")
         else:
-            new_job = pd.DataFrame([{
-                "Job Position": job_position.strip(),
-                "Job Description": job_description.strip(),
-                "Date Created": datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-            }])
+            # Check if job position already exists
+            existing_jobs = load_job_positions_from_github()
+            if existing_jobs is not None and not existing_jobs.empty:
+                existing_positions = existing_jobs[existing_jobs['Job Position'].str.lower() == job_position.strip().lower()]
+                
+                # Check if exists and is NOT pooled
+                active_duplicates = existing_positions[existing_positions.get('Pooling Status', '') != 'Pooled']
+                
+                if not active_duplicates.empty:
+                    # Duplicate exists and is active (not pooled)
+                    st.error(f"⚠️ Job position '{job_position}' already exists and is active! Created on: {active_duplicates.iloc[0]['Date Created']}")
+                    st.info("Please use a different name or edit the existing position.")
+                elif not existing_positions.empty:
+                    # Duplicate exists but is pooled - allow merging with confirmation
+                    st.warning(f"ℹ️ Job position '{job_position}' exists in pooling (created on: {existing_positions.iloc[0]['Date Created']})")
+                    st.info("✅ New position will be added. Old pooled position will remain in pooling for reference.")
+                    
+                    new_job = pd.DataFrame([{
+                        "Job ID": job_id.strip(),
+                        "Job Position": job_position.strip(),
+                        "Job Description": job_description.strip(),
+                        "Date Created": datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+                    }])
 
-            if save_job_positions_to_github(new_job):
-                st.success(f"Job position '{job_position}' saved successfully!")
-                st.rerun()
+                    if save_job_positions_to_github(new_job):
+                        st.success(f"Job position '{job_position}' saved successfully! Old pooled version preserved.")
+                        time.sleep(1)
+                        st.rerun()
+                else:
+                    # No duplicate found
+                    new_job = pd.DataFrame([{
+                        "Job ID": job_id.strip(),
+                        "Job Position": job_position.strip(),
+                        "Job Description": job_description.strip(),
+                        "Date Created": datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+                    }])
+
+                    if save_job_positions_to_github(new_job):
+                        st.success(f"Job position '{job_position}' saved successfully!")
+                        time.sleep(1)
+                        st.rerun()
+            else:
+                new_job = pd.DataFrame([{
+                    "Job ID": job_id.strip(),
+                    "Job Position": job_position.strip(),
+                    "Job Description": job_description.strip(),
+                    "Date Created": datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+                }])
+
+                if save_job_positions_to_github(new_job):
+                    st.success(f"Job position '{job_position}' saved successfully!")
+                    time.sleep(1)
+                    st.rerun()
 
     st.markdown("---")
     st.markdown("### All Job Positions")
@@ -817,11 +866,19 @@ if selected == "Job Management":
         for idx, row in jobs_df.iterrows():
             pooling_status = row.get('Pooling Status', '')
             is_pooled = pooling_status == "Pooled"
+            job_id = row.get('Job ID', 'N/A')
             
             # Show pooling indicator in expander title
             title_prefix = "[Pooled] " if is_pooled else ""
             with st.expander(f"{title_prefix}{row['Job Position']}", expanded=False):
-                st.markdown(f"**Date Created:** {row['Date Created']}")
+                col_info1, col_info2 = st.columns(2)
+                with col_info1:
+                    st.markdown(f"**Date Created:** {row['Date Created']}")
+                    last_modified = row.get('Last Modified', '')
+                    if last_modified and last_modified != '':
+                        st.markdown(f"**Last Modified:** {last_modified}")
+                with col_info2:
+                    st.markdown(f"**Job ID:** `{job_id}`")
                 if is_pooled:
                     st.markdown("**Status:** **In Pooling** (Not visible in Dashboard)")
                 st.markdown("**Job Description:**")
@@ -869,11 +926,22 @@ if selected == "Job Management":
                     st.markdown("---")
                     st.markdown("#### Edit Job Position")
 
-                    edit_job_position = st.text_input(
-                        "Job Position",
-                        value=row['Job Position'],
-                        key=f"edit_pos_{idx}"
-                    )
+                    edit_col1, edit_col2 = st.columns([1, 1])
+                    
+                    with edit_col1:
+                        edit_job_position = st.text_input(
+                            "Job Position",
+                            value=row['Job Position'],
+                            key=f"edit_pos_{idx}"
+                        )
+                    
+                    with edit_col2:
+                        edit_job_id = st.text_input(
+                            "Job ID (Kalibrr)",
+                            value=row.get('Job ID', ''),
+                            key=f"edit_id_{idx}"
+                        )
+                    
                     edit_job_description = st.text_area(
                         "Job Description",
                         value=row['Job Description'],
@@ -887,11 +955,14 @@ if selected == "Job Management":
                         if st.button("Save Changes", key=f"save_{idx}", type="primary"):
                             if not edit_job_position.strip() or not edit_job_description.strip():
                                 st.warning("Please provide both Job Position and Job Description.")
+                            elif not edit_job_id.strip():
+                                st.warning("Please provide Job ID from Kalibrr.")
                             else:
                                 if update_job_position_in_github(
                                     row['Job Position'],
                                     edit_job_position.strip(),
-                                    edit_job_description.strip()
+                                    edit_job_description.strip(),
+                                    edit_job_id.strip()
                                 ):
                                     st.success(f"Job position updated successfully!")
                                     st.session_state[f"editing_{idx}"] = False

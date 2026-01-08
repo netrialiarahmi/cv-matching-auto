@@ -39,57 +39,191 @@ from modules.github_utils import (
 )
 
 
-def fetch_candidates_from_file_storage(position_name):
+def fetch_candidates_from_kalibrr(job_id):
     """
-    Fetch candidates from File Storage URL (updated by weekly export workflow).
-    This reads from sheet_positions.csv to get the File Storage URL.
+    Fetch candidates from Kalibrr using Playwright automation.
+    This mimics the browser workflow to export candidates.
     
     Args:
-        position_name: Name of the job position
+        job_id: Job ID from Kalibrr (e.g., "261105")
         
     Returns:
         DataFrame or None
     """
     import pandas as pd
-    import requests
-    from io import BytesIO
+    import asyncio
+    import os
+    import re
+    from playwright.async_api import async_playwright
+    
+    async def extract_upload_id_from_network(network_logs):
+        """Extract upload ID from network logs"""
+        for url in network_logs:
+            match = re.search(r"candidate_uploads/(\d+)", url)
+            if match:
+                return match.group(1)
+        return None
+    
+    async def fetch_with_playwright():
+        """Main async function to fetch candidates"""
+        kb = os.getenv("KALIBRR_KB")
+        kaid = os.getenv("KALIBRR_KAID")
+        
+        if not kb or not kaid:
+            print(f"   ❌ KALIBRR_KB or KALIBRR_KAID not found in environment variables")
+            return None
+        
+        url = f"https://www.kalibrr.com/ats/candidates?job_id={job_id}&state_id=19"
+        print(f"   Opening: {url}")
+        
+        async with async_playwright() as p:
+            browser = await p.chromium.launch(headless=True)
+            context = await browser.new_context()
+            
+            # Set cookies for authentication
+            await context.add_cookies([
+                {"name": "kaid", "value": kaid, "domain": "www.kalibrr.com", "path": "/"},
+                {"name": "kb", "value": kb, "domain": "www.kalibrr.com", "path": "/"}
+            ])
+            
+            page = await context.new_page()
+            network_logs = []
+            
+            page.on("request", lambda req: network_logs.append(req.url))
+            page.on("response", lambda res: network_logs.append(res.url))
+            
+            # Load page
+            try:
+                await page.goto(url, timeout=60000, wait_until="networkidle")
+            except Exception:
+                await page.goto(url, timeout=60000, wait_until="domcontentloaded")
+            
+            await page.wait_for_timeout(3000)
+            
+            # Find and click export button
+            print(f"   Looking for export button...")
+            
+            # Text labels to search for
+            text_labels = [
+                "EXPORT ALL CANDIDATES",
+                "Export All Candidates",
+                "Unduh semua kandidat",
+                "UNDUH SEMUA KANDIDAT",
+                "Export",
+                "EXPORT",
+                "Download",
+                "DOWNLOAD"
+            ]
+            
+            # CSS selectors
+            export_button_selectors = [
+                'button:has-text("Export")',
+                'button:has-text("EXPORT")',
+                'button:has-text("Download")',
+                '[data-testid*="export"]',
+                '[aria-label*="export"]',
+                'a:has-text("Export")',
+                'button[class*="export"]'
+            ]
+            
+            clicked = False
+            for attempt in range(60):  # Wait up to 60 seconds
+                # Try text labels first
+                for label in text_labels:
+                    try:
+                        locator = page.get_by_text(label, exact=False)
+                        if await locator.count() > 0:
+                            await locator.first.click(timeout=1000)
+                            clicked = True
+                            print(f"   ✓ Export button clicked (text: {label})")
+                            break
+                    except Exception:
+                        pass
+                
+                if clicked:
+                    break
+                
+                # Try selectors
+                for selector in export_button_selectors:
+                    try:
+                        locator = page.locator(selector)
+                        if await locator.count() > 0:
+                            await locator.first.click(timeout=1000)
+                            clicked = True
+                            print(f"   ✓ Export button clicked (selector: {selector})")
+                            break
+                    except Exception:
+                        pass
+                
+                if clicked:
+                    break
+                
+                await asyncio.sleep(1)
+            
+            if not clicked:
+                print(f"   ❌ Could not find export button")
+                await browser.close()
+                return None
+            
+            # Wait for upload_id in network logs
+            print(f"   Waiting for upload ID...")
+            upload_id = None
+            for _ in range(60):
+                upload_id = await extract_upload_id_from_network(network_logs)
+                if upload_id:
+                    break
+                await asyncio.sleep(1)
+            
+            if not upload_id:
+                print(f"   ❌ Upload ID not found")
+                await browser.close()
+                return None
+            
+            print(f"   ✓ Upload ID: {upload_id}")
+            
+            # Get CSV URL from API
+            api_url = f"https://www.kalibrr.com/api/candidate_uploads/{upload_id}?url_only=true"
+            csv_url = None
+            
+            for attempt in range(30):
+                try:
+                    res = await page.request.get(api_url)
+                    csv_url = (await res.text()).replace('"', "").strip()
+                    
+                    if csv_url and csv_url.startswith("https://storage.googleapis.com"):
+                        break
+                    else:
+                        csv_url = None
+                except Exception:
+                    pass
+                
+                await asyncio.sleep(1)
+            
+            if not csv_url:
+                print(f"   ❌ Could not get CSV URL")
+                await browser.close()
+                return None
+            
+            print(f"   ✓ CSV URL obtained")
+            
+            # Download CSV
+            csv_response = await page.request.get(csv_url)
+            csv_data = await csv_response.body()
+            
+            await browser.close()
+            
+            # Parse CSV to DataFrame
+            from io import BytesIO
+            df = pd.read_csv(BytesIO(csv_data))
+            return df
     
     try:
-        # Read sheet_positions.csv to get File Storage URL
-        sheet_positions = pd.read_csv("sheet_positions.csv")
-        
-        # Find the position
-        position_row = sheet_positions[sheet_positions["Nama Posisi"] == position_name]
-        
-        if position_row.empty:
-            print(f"   Position '{position_name}' not found in sheet_positions.csv")
-            return None
-        
-        file_storage_url = position_row.iloc[0].get("File Storage")
-        
-        if pd.isna(file_storage_url) or not str(file_storage_url).strip():
-            print(f"   No File Storage URL found for this position")
-            print(f"   (Run weekly-export workflow first to populate File Storage URLs)")
-            return None
-        
-        # Fetch candidates from File Storage URL
-        response = requests.get(file_storage_url, timeout=30)
-        
-        if response.status_code != 200:
-            print(f"   Failed to fetch from File Storage (HTTP {response.status_code})")
-            return None
-        
-        # Parse CSV
-        candidates_df = pd.read_csv(BytesIO(response.content))
-        return candidates_df
-        
-    except FileNotFoundError:
-        print(f"   sheet_positions.csv not found")
-        print(f"   (Run weekly-export workflow first to generate this file)")
-        return None
+        # Run async function
+        return asyncio.run(fetch_with_playwright())
     except Exception as e:
-        print(f"   Error fetching from File Storage: {e}")
+        print(f"   ❌ Error during Playwright fetch: {e}")
         return None
+
 
 
 def get_results_filename(job_position):
@@ -104,31 +238,32 @@ def get_results_filename(job_position):
     return f"results/results_{safe_name}.csv"
 
 
-def screen_position(position_name, job_description):
+def screen_position(position_name, job_description, job_id):
     """
     Screen new candidates for a specific position.
     
     Args:
         position_name: Name of the job position
         job_description: Full job description text
+        job_id: Job ID from Kalibrr
         
     Returns:
         int: Number of candidates successfully screened
     """
     print(f"\n{'='*70}")
-    print(f"Position: {position_name}")
+    print(f"Position: {position_name} (Job ID: {job_id})")
     print(f"{'='*70}")
     
     try:
-        # 1. Fetch candidates from File Storage (updated by weekly export workflow)
-        print("📋 Fetching candidates from File Storage...")
-        candidates_df = fetch_candidates_from_file_storage(position_name)
+        # 1. Fetch candidates directly from Kalibrr API using Job ID
+        print(f"📋 Fetching candidates from Kalibrr API...")
+        candidates_df = fetch_candidates_from_kalibrr(job_id)
         
         if candidates_df is None or candidates_df.empty:
             print(f"⏭️  No candidates found for this position")
             return 0
         
-        print(f"   Found {len(candidates_df)} total candidates from File Storage")
+        print(f"   Total candidates: {len(candidates_df)}")
         
         # 2. Load existing results to identify already-processed candidates
         print("🔍 Checking existing results...")
@@ -391,9 +526,13 @@ def main():
         print(f"❌ Error loading job positions: {str(e)}")
         return 1
     
-    # 2. Use all positions (we don't check Pooling Status since that's only in sheet_positions.csv)
-    active_jobs = jobs_df.copy()
-    print(f"✅ Will screen all {len(active_jobs)} positions")
+    # 2. Filter only active positions (non-pooled)
+    if "Pooling Status" in jobs_df.columns:
+        active_jobs = jobs_df[jobs_df["Pooling Status"] != "Pooled"].copy()
+    else:
+        active_jobs = jobs_df.copy()
+    
+    print(f"✅ Will screen {len(active_jobs)} active positions")
     
     # 3. Screen each active position
     total_screened = 0
@@ -403,13 +542,18 @@ def main():
     for idx, job in active_jobs.iterrows():
         position_name = job["Job Position"]
         job_description = job.get("Job Description", "")
+        job_id = job.get("Job ID", "")
         
         if not job_description:
             print(f"\n⚠️  Skipping '{position_name}': No job description available")
             continue
         
+        if not job_id:
+            print(f"\n⚠️  Skipping '{position_name}': No Job ID available")
+            continue
+        
         try:
-            count = screen_position(position_name, job_description)
+            count = screen_position(position_name, job_description, job_id)
             total_screened += count
             if count > 0:
                 successful_positions += 1
