@@ -620,8 +620,26 @@ def save_job_positions_to_github(df, path="job_positions.csv"):
             # Merge the dataframes
             df = pd.concat([old_df, df], ignore_index=True)
             
-            # Remove duplicates based on Job ID (keeps first occurrence which preserves original creation date)
-            df.drop_duplicates(subset=["Job ID"], keep="first", inplace=True)
+            # Remove duplicates:
+            # - For rows WITH Job ID: deduplicate by Job ID
+            # - For rows WITHOUT Job ID: deduplicate by Job Position name
+            # This prevents losing old positions that don't have Job IDs yet
+            
+            # Separate rows with and without Job ID
+            has_job_id = df["Job ID"].notna() & (df["Job ID"] != "")
+            
+            # Deduplicate rows WITH Job ID
+            df_with_id = df[has_job_id].copy()
+            if not df_with_id.empty:
+                df_with_id = df_with_id.drop_duplicates(subset=["Job ID"], keep="first")
+            
+            # Deduplicate rows WITHOUT Job ID by Job Position name
+            df_without_id = df[~has_job_id].copy()
+            if not df_without_id.empty:
+                df_without_id = df_without_id.drop_duplicates(subset=["Job Position"], keep="first")
+            
+            # Combine back
+            df = pd.concat([df_with_id, df_without_id], ignore_index=True)
             
             # Check for duplicate active (non-pooled) Job Position names with different IDs
             # This allows pooled positions to have same name as active positions
