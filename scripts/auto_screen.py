@@ -562,7 +562,13 @@ def main():
         return 1
     
     # 2. Filter active positions
-    active_positions = jobs_df[jobs_df['Status'].str.lower() == 'active']
+    if 'Pooling Status' in jobs_df.columns:
+        active_positions = jobs_df[jobs_df['Pooling Status'].str.lower() != 'pooled']
+    elif 'Status' in jobs_df.columns:
+        active_positions = jobs_df[jobs_df['Status'].str.lower() == 'active']
+    else:
+        # If no status column, treat all as active
+        active_positions = jobs_df
     
     if active_positions.empty:
         print("   No active positions found")
