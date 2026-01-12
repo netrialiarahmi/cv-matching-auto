@@ -591,9 +591,9 @@ def main():
     positions_with_new_candidates = 0
     
     for idx, row in active_positions.iterrows():
-        position_name = row['Position']
-        job_description = row['Description']
-        job_id = row.get('Job_ID', None)
+        position_name = row['Job Position']
+        job_description = row['Job Description']
+        job_id = row.get('Job ID', None)
         
         # Skip if no Job ID
         if pd.isna(job_id):
