@@ -27,7 +27,9 @@ jobs:
       
       - name: Install dependencies
         run: |
-          pip install pandas PyMuPDF requests openai python-dotenv
+          pip install pandas PyMuPDF requests openai python-dotenv playwright
+          playwright install chromium
+          playwright install-deps
       
       - name: Run Automated CV Screening
         env:
