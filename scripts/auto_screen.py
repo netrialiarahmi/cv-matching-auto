@@ -630,12 +630,3 @@ def main():
 
 if __name__ == "__main__":
     sys.exit(main())
-        print(f"Positions with errors: {failed_positions}")
-    print(f"Completed at: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
-    print("="*70)
-    
-    return 0
-
-
-if __name__ == "__main__":
-    sys.exit(main())
