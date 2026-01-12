@@ -30,14 +30,10 @@ jobs:
       
       - name: Install dependencies
         run: |
-          pip install pandas PyMuPDF requests openai python-dotenv playwright
-          playwright install chromium
-          playwright install-deps
+          pip install pandas PyMuPDF requests openai python-dotenv
       
       - name: Run Automated CV Screening
         env:
-          KALIBRR_KB: ${{ secrets.KB }}
-          KALIBRR_KAID: ${{ secrets.KAID }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

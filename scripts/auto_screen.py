@@ -37,6 +37,40 @@ from modules.github_utils import (
     load_results_from_github,
     save_results_to_github
 )
+import requests
+
+
+def fetch_candidates_from_sheet_csv(csv_url):
+    """
+    Fetch candidates from pre-exported CSV URL in sheet_positions.csv.
+    This reads the CSV that was already exported by weekly-export workflow.
+    
+    Args:
+        csv_url: Direct URL to CSV file from File Storage column
+        
+    Returns:
+        DataFrame or None
+    """
+    import pandas as pd
+    
+    if not csv_url or pd.isna(csv_url) or str(csv_url).strip() == '':
+        print(f"   ⚠️  No CSV URL provided")
+        return None
+    
+    try:
+        print(f"   Downloading CSV from File Storage...")
+        response = requests.get(csv_url, timeout=30)
+        response.raise_for_status()
+        
+        from io import StringIO
+        csv_content = StringIO(response.text)
+        df = pd.read_csv(csv_content)
+        
+        print(f"   ✅ Successfully loaded {len(df)} candidates from CSV")
+        return df
+    except Exception as e:
+        print(f"   ❌ Error downloading CSV: {str(e)}")
+        return None
 
 
 def fetch_candidates_from_kalibrr(job_id):
@@ -238,14 +272,15 @@ def get_results_filename(job_position):
     return f"results/results_{safe_name}.csv"
 
 
-def screen_position(position_name, job_description, job_id):
+def screen_position(position_name, job_description, job_id, csv_url=None):
     """
     Screen new candidates for a specific position.
     
     Args:
         position_name: Name of the job position
         job_description: Full job description text
-        job_id: Job ID from Kalibrr
+        job_id: Job ID from Kalibrr (for reference)
+        csv_url: Direct CSV URL from sheet_positions.csv File Storage column
         
     Returns:
         int: Number of candidates successfully screened
@@ -255,9 +290,9 @@ def screen_position(position_name, job_description, job_id):
     print(f"{'='*70}")
     
     try:
-        # 1. Fetch candidates directly from Kalibrr API using Job ID
-        print(f"📋 Fetching candidates from Kalibrr API...")
-        candidates_df = fetch_candidates_from_kalibrr(job_id)
+        # 1. Fetch candidates from pre-exported CSV in sheet_positions.csv
+        print(f"📋 Loading candidates from sheet_positions.csv...")
+        candidates_df = fetch_candidates_from_sheet_csv(csv_url)
         
         if candidates_df is None or candidates_df.empty:
             print(f"⏭️  No candidates found for this position")
@@ -523,53 +558,78 @@ def main():
         
         print(f"   Found {len(jobs_df)} total positions")
     except Exception as e:
-        print(f"❌ Error loading job positions: {str(e)}")
+        print(f"❌ Error loading job positions: {e}")
         return 1
     
-    # 2. Filter only active positions (non-pooled)
-    if "Pooling Status" in jobs_df.columns:
-        active_jobs = jobs_df[jobs_df["Pooling Status"] != "Pooled"].copy()
-    else:
-        active_jobs = jobs_df.copy()
+    # 2. Filter active positions
+    active_positions = jobs_df[jobs_df['Status'].str.lower() == 'active']
     
-    print(f"✅ Will screen {len(active_jobs)} active positions")
+    if active_positions.empty:
+        print("   No active positions found")
+        return 0
     
-    # 3. Screen each active position
+    print(f"✅ Will screen {len(active_positions)} active positions")
+    
+    # 3. Load sheet_positions.csv to get File Storage URLs
+    print(f"\n📊 Loading sheet_positions.csv for CSV URLs...")
+    try:
+        sheet_df = pd.read_csv('sheet_positions.csv')
+        print(f"   Loaded {len(sheet_df)} positions from sheet_positions.csv\n")
+    except Exception as e:
+        print(f"   ⚠️  Could not load sheet_positions.csv: {e}")
+        print(f"   Will proceed without File Storage URLs\n")
+        sheet_df = None
+    
+    # 4. Screen each active position
     total_screened = 0
-    successful_positions = 0
-    failed_positions = 0
+    positions_with_new_candidates = 0
     
-    for idx, job in active_jobs.iterrows():
-        position_name = job["Job Position"]
-        job_description = job.get("Job Description", "")
-        job_id = job.get("Job ID", "")
+    for idx, row in active_positions.iterrows():
+        position_name = row['Position']
+        job_description = row['Description']
+        job_id = row.get('Job_ID', None)
         
-        if not job_description:
-            print(f"\n⚠️  Skipping '{position_name}': No job description available")
+        # Skip if no Job ID
+        if pd.isna(job_id):
+            print(f"\n⚠️  Skipping '{position_name}' - No Job ID found")
             continue
         
-        if not job_id:
-            print(f"\n⚠️  Skipping '{position_name}': No Job ID available")
+        # Get CSV URL from sheet_positions.csv
+        csv_url = None
+        if sheet_df is not None:
+            match = sheet_df[sheet_df['Nama Posisi'] == position_name]
+            if not match.empty:
+                csv_url = match.iloc[0].get('File Storage')
+        
+        if not csv_url or pd.isna(csv_url):
+            print(f"\n⚠️  Skipping '{position_name}' - No File Storage URL in sheet_positions.csv")
             continue
         
         try:
-            count = screen_position(position_name, job_description, job_id)
-            total_screened += count
-            if count > 0:
-                successful_positions += 1
+            screened = screen_position(position_name, job_description, job_id, csv_url)
+            total_screened += screened
+            if screened > 0:
+                positions_with_new_candidates += 1
         except Exception as e:
-            print(f"\n❌ Unexpected error screening '{position_name}': {str(e)}")
+            print(f"❌ Error screening position '{position_name}': {str(e)}")
             print(f"   Stack trace: {traceback.format_exc()}")
-            failed_positions += 1
+            # Continue with next position even if this one fails
             continue
     
-    # 4. Final summary
+    # Final summary
     print("\n" + "="*70)
     print("SCREENING COMPLETED")
     print("="*70)
     print(f"Total candidates screened: {total_screened}")
-    print(f"Positions with new candidates: {successful_positions}")
-    if failed_positions > 0:
+    print(f"Positions with new candidates: {positions_with_new_candidates}")
+    print(f"Completed at: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
+    print("="*70)
+    
+    return 0
+
+
+if __name__ == "__main__":
+    sys.exit(main())
         print(f"Positions with errors: {failed_positions}")
     print(f"Completed at: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
     print("="*70)
