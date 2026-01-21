@@ -1,4 +1,4 @@
-Job Position,Job Description,Date Created,Pooling Status,Job ID
+Job Position,Job Description,Date Created,Pooling Status,Job ID,Last Modified
 Software Engineer,"Qualification:
 Bachelor degree in technical majors is preferred (e.g. Computer Science, Information Technology or other related majors.)
 Experienced in web development frameworks such as CodeIgniter and Laravel (with additional advantages in Next.js, Vue, and Django).
@@ -21,7 +21,7 @@ Familiarity with Cloud Computing, such as AWS/GCP
 Skilled in utilizing Docker as a development environment.
 Proficient in using version control systems (Git).
 Capable of leveraging AI tools to support tasks and develop automation.
-Able to work effectively in a team and communicate clearly.",2026-01-08 13:12:10,Pooled,262597.0
+Able to work effectively in a team and communicate clearly.",2026-01-08 13:12:10,Pooled,262597.0,
 Accounting Staff,"Job Description
 Prepare and record accounting journal entries accurately and in a timely manner.
 Understand, compile, and analyze financial statements, including balance sheets, income statements, and cash flow reports.
@@ -43,13 +43,13 @@ Proficient in Microsoft Excel and accounting software.
 
 Detail-oriented with strong organizational and accuracy skills.
 
-Able to work independently and collaboratively within a team.",2026-01-13 03:36:23,,262696.0
+Able to work independently and collaboratively within a team.",2026-01-13 03:36:23,,262696.0,
 Account Executive VCBL,"1–3 years of experience as an Account Executive, preferably from Online Media/know basic programmatic
 Experience in seek new prospective clients
 Have good networking track with direct client/advertising agency is a plus
 Have great communication, interpersonal & presentation skills
 Understand the newest advertising industry, digital programmatic ads & digital media trends
-Candidates with knowledge or experience in programmatic ads and programmatic sales are preferred.",2025-11-14 02:11:51,,
+Candidates with knowledge or experience in programmatic ads and programmatic sales are preferred.",2025-11-14 02:11:51,,,
 Sales Group Head (VCBL),"Requirements
 • Minimum 2 years in a supervisory or team lead role.
 • Must have experience in programmatic advertising
@@ -72,7 +72,7 @@ Role Expectations
 • Manage programmatic and direct deals.
 • Build long term relationships with advertisers.
 • Understand ad inventory, pricing, performance metrics, and monetization strategies.
-• Drive revenue based on media products and ad placements.",2025-11-26 06:04:06,,
+• Drive revenue based on media products and ad placements.",2025-11-26 06:04:06,,,
 Account Executive KOMPAS.com,"Job Description
 Making long term relationship with client
 Seeking & approaching new clients
@@ -88,7 +88,7 @@ Proficient in English
 Able to make and execute a sales marketing program
 Excellent communication, negotiation, and presentation skill
 Have good networking skill
-Able to work under sales target",2025-11-17 06:42:33,,
+Able to work under sales target",2025-11-17 06:42:33,,,
 Account Executive Pasangiklan.com,"Job Description
 Canvasing for SME clients & maintain existing clients
 Making strategy to achieve revenue target
@@ -101,13 +101,13 @@ Minimum 1 year experience as sales/Account Executive
 Networking and negotiation skills
 Able to make and execute a sales/marketing program
 Having the capability to build good networking
-Ability to multitask and work efficiently and effectively to meet required deadlines",2025-11-17 06:43:29,Pooled,
+Ability to multitask and work efficiently and effectively to meet required deadlines",2025-11-17 06:43:29,Pooled,,
 Account Executive Kompasiana,"Minimum Bachelor Degree from any major
 At least 2 years experienced as sales executive from digital agency and/or broadcast company is a plus (acquiring new clients, not only maintaining)
 Proficient in English
 Able to make and execute a sales/marketing program
 Excellent communication, negotiation, and presentation skill
-Having the capability to build good networking",2025-11-21 12:16:28,,
+Having the capability to build good networking",2025-11-21 12:16:28,,,
 Data Reliability Admin,"Job Description
 Monitor data ingestion from multiple sources to ensure completeness & accuracy
 Identify and log data-related issues, escalating critical issues to relevant teams when
@@ -132,7 +132,7 @@ Able to work independently or collaboratively in a fast-paced environment.
 Experience in data collection and data cleaning; experience handling text-based data (news or social media) is a plus.
 High attention to detail, strong problem-solving skills, and a strong willingness to be on standby when needed (mandatory).
 Familiarity and knowledge of Api, Python, and data crawling/scraping are strong advantages.
-Strong proficiency in Google Sheets, including formulas such as vlookup, regexmatch, and Remove Duplicates.",2025-11-21 12:22:18,,
+Strong proficiency in Google Sheets, including formulas such as vlookup, regexmatch, and Remove Duplicates.",2025-11-21 12:22:18,,,
 Account Executive Japanese Client,"Requirements
 • Degree in Japanese Literature or a related field.
 • Fluent in Japanese for meetings, emails, and client communication.
@@ -148,7 +148,7 @@ Job Description
 • Coordinate internal teams to deliver projects based on client requirements.
 • Maintain strong relationships with Japanese clients and understand their expectations.
 • Prepare reports and insights to help improve client outcomes.
-• Monitor timelines and ensure all tasks related to Japanese accounts are completed.",2025-11-22 13:08:50,,
+• Monitor timelines and ensure all tasks related to Japanese accounts are completed.",2025-11-22 13:08:50,,261684,2026-01-21 02:38:01
 Video Creator (AI Production),"Requirements
 •⁠  ⁠Min. Bachelor in Broadcasting, Film or Video Production
 •⁠  ⁠Passionate in AI Gen Images, Video, Music/Voice production
@@ -161,7 +161,7 @@ Video Creator (AI Production),"Requirements
 Job Description
 •⁠  ⁠Produce video content using fully AI Generated
 •⁠  ⁠Work collaboratively with Data Team, Product Team, Social Media Team to create a high quality content
-•⁠  ⁠Analize content performance in each channel",2025-11-22 13:09:38,,
+•⁠  ⁠Analize content performance in each channel",2025-11-22 13:09:38,,,
 iOS Engineer,"Minimum Qualifications
 - Experience in iOS development 1-3 year.
 - Skill in Swift 5.
@@ -177,7 +177,7 @@ iOS Engineer,"Minimum Qualifications
 - Skill in debugging and troubleshooting.
 - Skill in communication and teamwork.
 - Ability to work with tight deadlines.
-- Interest in learning new iOS updates.",2025-12-10 08:41:39,Pooled,
+- Interest in learning new iOS updates.",2025-12-10 08:41:39,Pooled,,
 Data Scanner,"Job Description
 Scan and review digital and print media from home to collect relevant news content efficiently.
 Upload scanned materials to the designated web dashboard and ensure proper categorization.
@@ -187,7 +187,7 @@ Maintain an organized workflow to ensure timely delivery of scanned and processe
 Minimum Qualifications
 No minimum educational background required; candidates from all academic levels are welcome.
 Must be willing and able to work early morning shifts starting at 4:00 AM.
-Open to applicants of all age groups who are responsible, reliable, and committed to accuracy in work",2025-12-01 02:16:19,,
+Open to applicants of all age groups who are responsible, reliable, and committed to accuracy in work",2025-12-01 02:16:19,,,
 Product Designer,"Job Description
 Gather and evaluate user requirements in collaboration with product managers and engineers
 Illustrate design ideas using storyboards, process flows and sitemaps
@@ -208,7 +208,7 @@ Experience developing dashboard-type products
 Team spirit; strong communication skills to collaborate with various stakeholders
 Good time-management skills
 Basic in Design, Computer Science or relevant field
-Have skill on creative & motion graphic is a plus value",2025-12-02 03:03:44,,
+Have skill on creative & motion graphic is a plus value",2025-12-02 03:03:44,,,
 Business Development Analyst,"Menyusun dan menerapkan strategi pengembangan bisnis yang sejalan dengan visi dan misi organisasi.
 Melakukan assessment dan memberikan rekomendasi terhadap produk/layanan berjalan.
 Menyusun proposal/studi kelayakan bisnis sesuai kebutuhan dan persyaratan bisnis terhadap inisiatif produk/layanan baru.
@@ -219,7 +219,7 @@ Pengalaman bekerja maksimal 4 tahun di posisi business development.
 Mengerti proses bisnis media dan industri terkait media.
 Mampu menjalankan riset pasar industri media dan pengembangan produk, serta mengolah data kuantitatif/kualitatif.
 Mampu melakukan perhitungan finansial untuk kebutuhan pengembangan bisnis
-Mampu berbahasa inggris aktif, lisan dan tulisan.",2025-12-12 03:02:32,,
+Mampu berbahasa inggris aktif, lisan dan tulisan.",2025-12-12 03:02:32,,,
 Content Creator,"Job Description
 Create and edit short-form video content (TikTok, Reels, YouTube Shorts) from concept to publishing.
 Write scripts, captions, and hooks that grab audience attention quickly.
@@ -238,7 +238,7 @@ Strong visual sense and basic graphic design skills (Canva or similar tools).
 Proficient in video editing using mobile apps (CapCut, Canva, or equivalent).
 Good understanding of social media trends and algorithms.
 Comfortable appearing on camera when needed.
-Analytical mindset with the ability to track and improve content performance using insights.",2025-12-03 02:36:09,,
+Analytical mindset with the ability to track and improve content performance using insights.",2025-12-03 02:36:09,,,
 Content Writer Money,"Job Description
 Writing news related to economic trends and/or issues.
 Developing news angle based on SEO keywords.
@@ -250,17 +250,17 @@ Having 5 years experience as journalist at online media
 Collect, analyze, translate economy articles
 Familiar with economy issues
 Have the ability to work under pressure
-Fluently in English, especially in reading and writing",2025-12-08 04:43:46,,
+Fluently in English, especially in reading and writing",2025-12-08 04:43:46,,,
 Reporter Megapolitan,"Passionate to be a journalist and creative.
 Able to write and work on team.
 Able to work under tight deadlines.
 Candidate must have at least bachelor degree in any major from reputable university, preferably public university.
 Having min. 1 year experience as a journalist.
-Wiling to be assigned at any area in Jabodetabek.",2025-12-12 09:44:56,,
+Wiling to be assigned at any area in Jabodetabek.",2025-12-12 09:44:56,,,
 Reporter Nasional,"- berpengalaman liputan lapangan, wawancara dan menulis berita untuk isu politik, hukum, nasional.
 - berpengalaman maksimal 2 tahun sebagai reporter media online.
 - dapat mengambil foto dan video liputan, serta editing foto/video sederhana.
-- latar belakang pendidikan jurnalistik, ilmu komunikasi, atau sastra.",2025-12-16 09:41:53,,
+- latar belakang pendidikan jurnalistik, ilmu komunikasi, atau sastra.",2025-12-16 09:41:53,,,
 Freelance Reporter Olahrga,"Job Description:
 Cover and report on various sports events, including matches, tournaments, press conferences, and related activities.
 Gather, verify, and analyze information from reliable sources such as athletes, coaches, officials, and stakeholders.
@@ -278,7 +278,7 @@ Excellent writing and storytelling skills in English.
 Strong communication and interviewing abilities.
 Ability to work under tight deadlines and flexible working hours, including evenings and weekends.
 Able to work independently and collaboratively within a team.
-Prior experience as a reporter or journalist is a plus.",2025-12-22 03:52:47,,
+Prior experience as a reporter or journalist is a plus.",2025-12-22 03:52:47,,,
 Software Engineer,"Bachelor degree in technical majors is preferred (e.g. Computer Science, Information Technology, Data Science or other related majors.)
 Experienced in web development frameworks such as CodeIgniter and Laravel (with additional advantages in Next.js, Vue, and Django).
 Passion in software engineering and big data systems
@@ -288,4 +288,4 @@ Familiarity and have hands-on experience with Cloud Computing, such as AWS/GCP
 Skilled in utilizing Docker as a development environment.
 Proficient in using version control systems (Git).
 Capable of leveraging AI tools to support tasks and develop automation.
-Able to work effectively in a team and communicate clearly.",2026-01-08 02:54:50,Pooled,
+Able to work effectively in a team and communicate clearly.",2026-01-08 02:54:50,Pooled,,
