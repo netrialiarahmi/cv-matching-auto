@@ -1,27 +1,31 @@
 name: Automated CV Screening
 
 on:
-  schedule:
-    # Run every night at 00:30 UTC (07:30 WIB) - 30 minutes after export workflow
-    - cron: '30 0 * * *'
+  workflow_run:
+    workflows:
+      - Daily Kalibrr Export and CV Link Update
+    types:
+      - completed
   workflow_dispatch:  # Allow manual triggering
-  push:
-    branches:
-      - main
 
 permissions:
   contents: write
 
 jobs:
   screen:
+    if: |
+      github.event_name != 'workflow_run' ||
+      (github.event.workflow_run.conclusion == 'success' && github.event.workflow_run.head_branch == 'main')
     runs-on: ubuntu-latest
+    env:
+      TARGET_BRANCH: ${{ github.event_name == 'workflow_run' && github.event.workflow_run.head_branch || github.ref_name }}
     
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          # Fetch latest changes from the export workflow
-          ref: ${{ github.ref_name }}
+          # For workflow_run, checkout the exact commit produced by the export workflow
+          ref: ${{ github.event_name == 'workflow_run' && github.event.workflow_run.head_sha || github.ref }}
       
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -38,7 +42,7 @@ jobs:
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_REPO: ${{ github.repository }}
-          GITHUB_BRANCH: ${{ github.ref_name }}
+          GITHUB_BRANCH: ${{ env.TARGET_BRANCH }}
         run: |
           python scripts/auto_screen.py
       
@@ -52,7 +56,7 @@ jobs:
           else
             git commit -m "🤖 Automated CV screening results - $(date +'%Y-%m-%d %H:%M UTC')"
             # Pull latest changes with merge strategy
-            git pull --no-rebase origin ${{ github.ref_name }} || {
+            git pull --no-rebase origin ${{ env.TARGET_BRANCH }} || {
               echo "Merge conflict detected, resolving automatically..."
               # For CSV result files, prefer our version (the latest screening data)
               find results -maxdepth 1 -name 'results*.csv' -type f -exec git checkout --ours {} \; 2>/dev/null || true

@@ -182,6 +182,13 @@ def save_positions_to_csv(positions_dict, row_mappings):
         })
     
     df = pd.DataFrame(rows)
+    # Ensure stable dtypes when this CSV is re-loaded in CI (avoid float dtype for empty columns)
+    df = df.astype({
+        "Nama Posisi": "string",
+        "JOB_ID": "Int64",
+        "UPLOAD_ID": "string",
+        "File Storage": "string",
+    })
     df.to_csv(SHEET_POSITIONS_FILE, index=False)
     print(f"✅ Saved {len(positions_dict)} positions to {SHEET_POSITIONS_FILE}")
 
@@ -199,7 +206,8 @@ def load_positions_from_csv():
         return {}, [], {}
     
     try:
-        df = pd.read_csv(SHEET_POSITIONS_FILE)
+        # Read as strings to avoid dtype inference turning empty columns into floats
+        df = pd.read_csv(SHEET_POSITIONS_FILE, dtype=str, keep_default_na=False)
         positions = {}
         row_mappings = []
         existing_file_storage = {}
@@ -213,10 +221,10 @@ def load_positions_from_csv():
             
             position_name = str(position_name).strip()
             try:
-                # Use pd.to_numeric for safer conversion of JOB_IDs
-                job_id = int(pd.to_numeric(job_id, errors='coerce'))
-                if pd.isna(job_id):
+                job_id_num = pd.to_numeric(job_id, errors="coerce")
+                if pd.isna(job_id_num):
                     continue
+                job_id = int(float(job_id_num))
             except (ValueError, TypeError):
                 continue
             
@@ -251,13 +259,22 @@ def update_positions_csv_with_export_results(export_results):
         return
     
     try:
-        df = pd.read_csv(SHEET_POSITIONS_FILE)
+        # Read as strings so updating UPLOAD_ID/File Storage never fails due to float dtype
+        df = pd.read_csv(SHEET_POSITIONS_FILE, dtype=str, keep_default_na=False)
         
         for name, job_id, upload_id, csv_url in export_results:
             mask = df["Nama Posisi"] == name
             if mask.any():
-                df.loc[mask, "UPLOAD_ID"] = upload_id
-                df.loc[mask, "File Storage"] = csv_url
+                df.loc[mask, "UPLOAD_ID"] = "" if upload_id is None else str(upload_id)
+                df.loc[mask, "File Storage"] = "" if csv_url is None else str(csv_url)
+
+            # Keep output schema stable
+            df = df.astype({
+                "Nama Posisi": "string",
+                "JOB_ID": "string",
+                "UPLOAD_ID": "string",
+                "File Storage": "string",
+            })
         
         df.to_csv(SHEET_POSITIONS_FILE, index=False)
         print(f"✅ Updated {SHEET_POSITIONS_FILE} with export results")
