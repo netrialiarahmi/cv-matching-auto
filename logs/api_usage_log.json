@@ -1,12 +1,12 @@
 {
   "2026-01-26": {
-    "total": 8,
-    "streamlit": 8,
+    "total": 9,
+    "streamlit": 9,
     "github_action": 0,
-    "successful": 8,
+    "successful": 9,
     "failed": 0,
     "positions": {
-      "Accounting Staff": 8
+      "Accounting Staff": 9
     },
     "entries": [
       {
@@ -62,6 +62,13 @@
         "timestamp": "2026-01-26 03:40:17",
         "source": "streamlit",
         "candidate": "Feryantosa Elfin Diah Wijayanti",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-01-26 03:41:02",
+        "source": "streamlit",
+        "candidate": "Dewi Anggraini",
         "position": "Accounting Staff",
         "success": true
       }
