@@ -1248,16 +1248,18 @@ elif selected == "Screening":
                         if pd.notna(candidate_email) and str(candidate_email).strip():
                             if str(candidate_email).strip().lower() in existing_emails:
                                 is_duplicate = True
-                    elif pd.notna(candidate_name) and pd.notna(candidate_phone) and str(candidate_phone).strip():
-                        # Check by name+phone
-                        name_phone_key = f"{str(candidate_name).strip().lower()}_{str(candidate_phone).strip()}"
-                        if name_phone_key in existing_name_phone:
-                            is_duplicate = True
-                    elif pd.notna(candidate_name) and str(candidate_name).strip():
-                        # Fallback: check by name-only if no email and no phone
-                        if str(candidate_name).strip().lower() in existing_names:
-                            is_duplicate = True
-                    data_count = len(st.session_state.screening_data)
+                        elif pd.notna(candidate_name) and pd.notna(candidate_phone) and str(candidate_phone).strip():
+                            # Check by name+phone
+                            name_phone_key = f"{str(candidate_name).strip().lower()}_{str(candidate_phone).strip()}"
+                            if name_phone_key in existing_name_phone:
+                                is_duplicate = True
+                        elif pd.notna(candidate_name) and str(candidate_name).strip():
+                            # Fallback: check by name-only if no email and no phone
+                            if str(candidate_name).strip().lower() in existing_names:
+                                is_duplicate = True
+                        
+                        if not is_duplicate:
+                            data_count += 1
                 
                 st.markdown(f"""
                 <div class='step-summary'>
