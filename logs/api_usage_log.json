@@ -1,12 +1,12 @@
 {
   "2026-01-26": {
-    "total": 4,
-    "streamlit": 4,
+    "total": 5,
+    "streamlit": 5,
     "github_action": 0,
-    "successful": 4,
+    "successful": 5,
     "failed": 0,
     "positions": {
-      "Accounting Staff": 4
+      "Accounting Staff": 5
     },
     "entries": [
       {
@@ -34,6 +34,13 @@
         "timestamp": "2026-01-26 03:35:50",
         "source": "streamlit",
         "candidate": "Erseto Wicaksono",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-01-26 03:38:49",
+        "source": "streamlit",
+        "candidate": "Naifa Nur Fa’iza",
         "position": "Accounting Staff",
         "success": true
       }
