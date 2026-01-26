@@ -1,12 +1,12 @@
 {
   "2026-01-26": {
-    "total": 11,
-    "streamlit": 11,
+    "total": 12,
+    "streamlit": 12,
     "github_action": 0,
-    "successful": 11,
+    "successful": 12,
     "failed": 0,
     "positions": {
-      "Accounting Staff": 11
+      "Accounting Staff": 12
     },
     "entries": [
       {
@@ -83,6 +83,13 @@
         "timestamp": "2026-01-26 03:42:26",
         "source": "streamlit",
         "candidate": "Arinda Maulidina",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-01-26 03:43:09",
+        "source": "streamlit",
+        "candidate": "Habib Amin Rahman Habibi",
         "position": "Accounting Staff",
         "success": true
       }
