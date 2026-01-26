@@ -1,12 +1,12 @@
 {
   "2026-01-26": {
-    "total": 2,
-    "streamlit": 2,
+    "total": 3,
+    "streamlit": 3,
     "github_action": 0,
-    "successful": 2,
+    "successful": 3,
     "failed": 0,
     "positions": {
-      "Accounting Staff": 2
+      "Accounting Staff": 3
     },
     "entries": [
       {
@@ -20,6 +20,13 @@
         "timestamp": "2026-01-26 03:30:57",
         "source": "streamlit",
         "candidate": "Kharisma Qaulam",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-01-26 03:35:49",
+        "source": "streamlit",
+        "candidate": "Hanif Fathoni",
         "position": "Accounting Staff",
         "success": true
       }
