@@ -23,8 +23,9 @@ Thumbs.db
 # Streamlit
 .streamlit/
 
-# Logs
+# Logs (but allow JSON usage logs for tracking)
 logs/
+!logs/*.json
 *.log
 
 # Output files (using GitHub for storage)
