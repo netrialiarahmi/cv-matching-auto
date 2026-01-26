@@ -1,12 +1,12 @@
 {
   "2026-01-26": {
-    "total": 17,
-    "streamlit": 17,
+    "total": 18,
+    "streamlit": 18,
     "github_action": 0,
-    "successful": 17,
+    "successful": 18,
     "failed": 0,
     "positions": {
-      "Accounting Staff": 17
+      "Accounting Staff": 18
     },
     "entries": [
       {
@@ -125,6 +125,13 @@
         "timestamp": "2026-01-26 03:46:34",
         "source": "streamlit",
         "candidate": "M. Famil Erisyah Putra",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-01-26 03:47:18",
+        "source": "streamlit",
+        "candidate": "Nalparia Bara Lembang",
         "position": "Accounting Staff",
         "success": true
       }
