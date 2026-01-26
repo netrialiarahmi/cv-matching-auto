@@ -1,12 +1,12 @@
 {
   "2026-01-26": {
-    "total": 13,
-    "streamlit": 13,
+    "total": 14,
+    "streamlit": 14,
     "github_action": 0,
-    "successful": 13,
+    "successful": 14,
     "failed": 0,
     "positions": {
-      "Accounting Staff": 13
+      "Accounting Staff": 14
     },
     "entries": [
       {
@@ -97,6 +97,13 @@
         "timestamp": "2026-01-26 03:43:47",
         "source": "streamlit",
         "candidate": "Ulfah Maha ulya",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-01-26 03:44:26",
+        "source": "streamlit",
+        "candidate": "Nazhirah Luthfia Putri",
         "position": "Accounting Staff",
         "success": true
       }
