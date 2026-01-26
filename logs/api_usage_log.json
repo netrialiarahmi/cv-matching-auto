@@ -1,12 +1,12 @@
 {
   "2026-01-26": {
-    "total": 16,
-    "streamlit": 16,
+    "total": 17,
+    "streamlit": 17,
     "github_action": 0,
-    "successful": 16,
+    "successful": 17,
     "failed": 0,
     "positions": {
-      "Accounting Staff": 16
+      "Accounting Staff": 17
     },
     "entries": [
       {
@@ -118,6 +118,13 @@
         "timestamp": "2026-01-26 03:45:53",
         "source": "streamlit",
         "candidate": "Bayu Seno Aji",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-01-26 03:46:34",
+        "source": "streamlit",
+        "candidate": "M. Famil Erisyah Putra",
         "position": "Accounting Staff",
         "success": true
       }
