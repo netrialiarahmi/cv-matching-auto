@@ -1,12 +1,12 @@
 {
   "2026-01-26": {
-    "total": 9,
-    "streamlit": 9,
+    "total": 10,
+    "streamlit": 10,
     "github_action": 0,
-    "successful": 9,
+    "successful": 10,
     "failed": 0,
     "positions": {
-      "Accounting Staff": 9
+      "Accounting Staff": 10
     },
     "entries": [
       {
@@ -69,6 +69,13 @@
         "timestamp": "2026-01-26 03:41:02",
         "source": "streamlit",
         "candidate": "Dewi Anggraini",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-01-26 03:41:45",
+        "source": "streamlit",
+        "candidate": "naiya nadiya",
         "position": "Accounting Staff",
         "success": true
       }
