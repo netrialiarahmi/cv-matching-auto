@@ -51,6 +51,7 @@ jobs:
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           git add results/*.csv
+          git add logs/*.json 2>/dev/null || true
           if git diff --staged --quiet; then
             echo "No new candidates screened"
           else

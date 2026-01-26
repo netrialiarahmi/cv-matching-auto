@@ -23,6 +23,10 @@ Thumbs.db
 # Streamlit
 .streamlit/
 
+# Logs
+logs/
+*.log
+
 # Output files (using GitHub for storage)
 output/
 *.csv

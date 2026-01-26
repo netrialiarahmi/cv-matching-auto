@@ -23,6 +23,7 @@ from modules.candidate_processor import (
     _get_column_value,
     fetch_candidates_from_google_sheets
 )
+from modules.usage_logger import log_cv_processing, print_daily_summary, get_daily_summary
 from PIL import Image
 from datetime import datetime
 import io
@@ -689,8 +690,8 @@ st.markdown("""
 # --- Navigation Bar ---
 selected = option_menu(
     menu_title=None,
-    options=["Job Management", "Screening", "Dashboard", "Pooling"],
-    icons=["briefcase-fill", "search", "bar-chart-fill", "archive-fill"],
+    options=["Job Management", "Screening", "Dashboard", "Pooling", "Usage Log"],
+    icons=["briefcase-fill", "search", "bar-chart-fill", "archive-fill", "clock-history"],
     orientation="horizontal",
     default_index=0,
     styles={
@@ -1001,11 +1002,24 @@ elif selected == "Screening":
     if jobs_df is None or jobs_df.empty:
         st.warning("No job positions found. Please add job positions in the Job Management section first.")
     else:
+        # Ensure Pooling Status column exists
+        if 'Pooling Status' not in jobs_df.columns:
+            jobs_df['Pooling Status'] = ''
+        
         # Filter only active (non-pooled) positions
-        active_jobs_df = jobs_df[jobs_df.get("Pooling Status", "") != "Pooled"]
+        # Case-insensitive filter, handle null/empty values
+        active_jobs_df = jobs_df[
+            (jobs_df['Pooling Status'].fillna('').astype(str).str.strip().str.lower() != 'pooled')
+        ].copy()
+        
+        pooled_count = len(jobs_df) - len(active_jobs_df)
+        
         if active_jobs_df.empty:
-            st.info("No active job positions available. All positions are in pooling.")
+            st.info(f"ℹ️ No active job positions available. All {len(jobs_df)} position(s) are in pooling.")
+            st.info("💡 Tip: Go to Job Management to unpool positions you want to screen.")
         else:
+            if pooled_count > 0:
+                st.info(f"ℹ️ Showing {len(active_jobs_df)} active positions ({pooled_count} position(s) in pooling are excluded)")
             # === PROGRESS STEPPER ===
             st.markdown("""
             <div class='progress-stepper'>
@@ -1356,10 +1370,31 @@ elif selected == "Screening":
                                 if save_results_to_github(result_df, job_position=selected_job):
                                     successfully_saved += 1
                                     save_status.success(f"Saved {candidate_name} ({successfully_saved}/{i+1})")
+                                    # Log successful CV processing
+                                    log_cv_processing(
+                                        source="streamlit",
+                                        candidate_name=candidate_name,
+                                        position=selected_job,
+                                        success=True
+                                    )
                                 else:
                                     failed_saves += 1
+                                    # Log failed CV processing
+                                    log_cv_processing(
+                                        source="streamlit",
+                                        candidate_name=candidate_name,
+                                        position=selected_job,
+                                        success=False
+                                    )
                             except Exception as e:
                                 failed_saves += 1
+                                # Log failed CV processing
+                                log_cv_processing(
+                                    source="streamlit",
+                                    candidate_name=candidate_name,
+                                    position=selected_job,
+                                    success=False
+                                )
                             
                             progress.progress((i + 1) / total_files)
                         
@@ -1496,10 +1531,31 @@ elif selected == "Screening":
                                     if save_results_to_github(result_df, job_position=selected_job):
                                         successfully_saved += 1
                                         save_status.success(f"Saved {candidate_name} ({successfully_saved}/{i+1})")
+                                        # Log successful CV processing
+                                        log_cv_processing(
+                                            source="streamlit",
+                                            candidate_name=candidate_name,
+                                            position=selected_job,
+                                            success=True
+                                        )
                                     else:
                                         failed_saves += 1
+                                        # Log failed CV processing
+                                        log_cv_processing(
+                                            source="streamlit",
+                                            candidate_name=candidate_name,
+                                            position=selected_job,
+                                            success=False
+                                        )
                                 except Exception as e:
                                     failed_saves += 1
+                                    # Log failed CV processing
+                                    log_cv_processing(
+                                        source="streamlit",
+                                        candidate_name=candidate_name,
+                                        position=selected_job,
+                                        success=False
+                                    )
                                 
                                 progress.progress((i + 1) / len(new_candidates))
                             
@@ -2350,3 +2406,122 @@ elif selected == "Pooling":
                 if pd.notna(resume_link) and str(resume_link).strip():
                     link_cols[2].markdown(f"[Resume]({resume_link})")
 
+
+# ============================================
+# USAGE LOG TAB - API USAGE TRACKING
+# ============================================
+elif selected == "Usage Log":
+    st.markdown("<h2 style='text-align:center;color:#0b3d91;'>API Usage Log</h2>", unsafe_allow_html=True)
+    
+    # Get today's summary
+    from modules.usage_logger import load_usage_log, get_monthly_summary
+    
+    today = datetime.now().strftime("%Y-%m-%d")
+    today_summary = get_daily_summary(today)
+    
+    # Today's statistics
+    st.markdown("### Today's Usage")
+    if today_summary:
+        col1, col2, col3, col4, col5 = st.columns(5)
+        col1.metric("Total CVs", today_summary.get('total', 0))
+        col2.metric("Streamlit", today_summary.get('streamlit', 0))
+        col3.metric("GitHub Actions", today_summary.get('github_action', 0))
+        col4.metric("Successful", today_summary.get('successful', 0))
+        col5.metric("Failed", today_summary.get('failed', 0))
+        
+        # By position
+        if today_summary.get('positions'):
+            st.markdown("### Today's Usage by Position")
+            positions_df = pd.DataFrame([
+                {"Position": pos, "Count": count} 
+                for pos, count in sorted(today_summary['positions'].items(), key=lambda x: x[1], reverse=True)
+            ])
+            st.dataframe(positions_df, use_container_width=True, hide_index=True)
+    else:
+        st.info("No usage recorded today yet.")
+    
+    st.divider()
+    
+    # Monthly summary
+    st.markdown("### This Month's Usage")
+    current_year = datetime.now().year
+    current_month = datetime.now().month
+    monthly_summary = get_monthly_summary(current_year, current_month)
+    
+    if monthly_summary and monthly_summary.get('total', 0) > 0:
+        col1, col2, col3, col4, col5 = st.columns(5)
+        col1.metric("Total CVs", monthly_summary.get('total', 0))
+        col2.metric("Streamlit", monthly_summary.get('streamlit', 0))
+        col3.metric("GitHub Actions", monthly_summary.get('github_action', 0))
+        col4.metric("Successful", monthly_summary.get('successful', 0))
+        col5.metric("Failed", monthly_summary.get('failed', 0))
+        
+        # By position
+        if monthly_summary.get('positions'):
+            st.markdown("### Monthly Usage by Position")
+            monthly_positions_df = pd.DataFrame([
+                {"Position": pos, "Count": count} 
+                for pos, count in sorted(monthly_summary['positions'].items(), key=lambda x: x[1], reverse=True)
+            ])
+            st.dataframe(monthly_positions_df, use_container_width=True, hide_index=True)
+        
+        # Daily breakdown chart
+        if monthly_summary.get('daily_breakdown'):
+            st.markdown("### Daily Usage Chart")
+            daily_data = []
+            for date_key, day_data in sorted(monthly_summary['daily_breakdown'].items()):
+                daily_data.append({
+                    "Date": date_key,
+                    "Total": day_data.get('total', 0),
+                    "Streamlit": day_data.get('streamlit', 0),
+                    "GitHub Actions": day_data.get('github_action', 0)
+                })
+            
+            daily_df = pd.DataFrame(daily_data)
+            st.line_chart(daily_df.set_index('Date'))
+    else:
+        st.info("No usage recorded this month yet.")
+    
+    st.divider()
+    
+    # Historical view
+    st.markdown("### Historical Data")
+    all_logs = load_usage_log()
+    
+    if all_logs:
+        # Create summary table
+        historical_data = []
+        for date_key in sorted(all_logs.keys(), reverse=True):
+            day_data = all_logs[date_key]
+            historical_data.append({
+                "Date": date_key,
+                "Total": day_data.get('total', 0),
+                "Streamlit": day_data.get('streamlit', 0),
+                "GitHub Actions": day_data.get('github_action', 0),
+                "Successful": day_data.get('successful', 0),
+                "Failed": day_data.get('failed', 0)
+            })
+        
+        historical_df = pd.DataFrame(historical_data)
+        st.dataframe(historical_df, use_container_width=True, hide_index=True)
+        
+        # Calculate estimated costs (example - adjust based on your API pricing)
+        st.markdown("### Estimated API Costs")
+        st.info("""
+        **Cost Estimation Guide:**
+        - Gemini 2.5 Pro (via OpenRouter): ~$0.001 - $0.003 per CV processed
+        - Monthly total estimation based on usage patterns
+        
+        *Note: Actual costs may vary based on CV length and API response complexity.*
+        """)
+        
+        total_monthly = monthly_summary.get('total', 0)
+        estimated_cost_low = total_monthly * 0.001
+        estimated_cost_high = total_monthly * 0.003
+        
+        cost_col1, cost_col2, cost_col3 = st.columns(3)
+        cost_col1.metric("CVs This Month", total_monthly)
+        cost_col2.metric("Est. Cost (Low)", f"${estimated_cost_low:.2f}")
+        cost_col3.metric("Est. Cost (High)", f"${estimated_cost_high:.2f}")
+    else:
+        st.info("No historical data available yet.")
