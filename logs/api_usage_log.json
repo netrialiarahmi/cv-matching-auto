@@ -1,12 +1,12 @@
 {
   "2026-01-26": {
-    "total": 14,
-    "streamlit": 14,
+    "total": 15,
+    "streamlit": 15,
     "github_action": 0,
-    "successful": 14,
+    "successful": 15,
     "failed": 0,
     "positions": {
-      "Accounting Staff": 14
+      "Accounting Staff": 15
     },
     "entries": [
       {
@@ -104,6 +104,13 @@
         "timestamp": "2026-01-26 03:44:26",
         "source": "streamlit",
         "candidate": "Nazhirah Luthfia Putri",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-01-26 03:45:11",
+        "source": "streamlit",
+        "candidate": "Arlinsagita Nainggolan",
         "position": "Accounting Staff",
         "success": true
       }
