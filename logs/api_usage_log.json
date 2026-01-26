@@ -1,12 +1,12 @@
 {
   "2026-01-26": {
-    "total": 5,
-    "streamlit": 5,
+    "total": 6,
+    "streamlit": 6,
     "github_action": 0,
-    "successful": 5,
+    "successful": 6,
     "failed": 0,
     "positions": {
-      "Accounting Staff": 5
+      "Accounting Staff": 6
     },
     "entries": [
       {
@@ -41,6 +41,13 @@
         "timestamp": "2026-01-26 03:38:49",
         "source": "streamlit",
         "candidate": "Naifa Nur Fa’iza",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-01-26 03:38:51",
+        "source": "streamlit",
+        "candidate": "Nahrisal Nurfajar",
         "position": "Accounting Staff",
         "success": true
       }
