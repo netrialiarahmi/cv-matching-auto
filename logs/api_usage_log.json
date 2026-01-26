@@ -1,12 +1,12 @@
 {
   "2026-01-26": {
-    "total": 6,
-    "streamlit": 6,
+    "total": 7,
+    "streamlit": 7,
     "github_action": 0,
-    "successful": 6,
+    "successful": 7,
     "failed": 0,
     "positions": {
-      "Accounting Staff": 6
+      "Accounting Staff": 7
     },
     "entries": [
       {
@@ -48,6 +48,13 @@
         "timestamp": "2026-01-26 03:38:51",
         "source": "streamlit",
         "candidate": "Nahrisal Nurfajar",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-01-26 03:39:33",
+        "source": "streamlit",
+        "candidate": "Shirley Tjung",
         "position": "Accounting Staff",
         "success": true
       }
