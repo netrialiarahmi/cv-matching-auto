@@ -1,12 +1,12 @@
 {
   "2026-01-26": {
-    "total": 18,
-    "streamlit": 18,
+    "total": 19,
+    "streamlit": 19,
     "github_action": 0,
-    "successful": 18,
+    "successful": 19,
     "failed": 0,
     "positions": {
-      "Accounting Staff": 18
+      "Accounting Staff": 19
     },
     "entries": [
       {
@@ -132,6 +132,13 @@
         "timestamp": "2026-01-26 03:47:18",
         "source": "streamlit",
         "candidate": "Nalparia Bara Lembang",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-01-26 03:48:04",
+        "source": "streamlit",
+        "candidate": "Reagin Fatrin Sandaya",
         "position": "Accounting Staff",
         "success": true
       }
