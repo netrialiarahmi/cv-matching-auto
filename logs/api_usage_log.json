@@ -1,12 +1,12 @@
 {
   "2026-01-26": {
-    "total": 12,
-    "streamlit": 12,
+    "total": 13,
+    "streamlit": 13,
     "github_action": 0,
-    "successful": 12,
+    "successful": 13,
     "failed": 0,
     "positions": {
-      "Accounting Staff": 12
+      "Accounting Staff": 13
     },
     "entries": [
       {
@@ -90,6 +90,13 @@
         "timestamp": "2026-01-26 03:43:09",
         "source": "streamlit",
         "candidate": "Habib Amin Rahman Habibi",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-01-26 03:43:47",
+        "source": "streamlit",
+        "candidate": "Ulfah Maha ulya",
         "position": "Accounting Staff",
         "success": true
       }
