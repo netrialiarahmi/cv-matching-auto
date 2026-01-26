@@ -8,13 +8,18 @@ import json
 from datetime import datetime
 from pathlib import Path
 
-# Log file path
-LOG_FILE = "logs/api_usage_log.json"
+# Log file path - use absolute path relative to this file
+CURRENT_DIR = Path(__file__).parent.parent
+LOG_FILE = CURRENT_DIR / "logs" / "api_usage_log.json"
 
 def ensure_log_directory():
     """Ensure logs directory exists"""
-    log_dir = Path(LOG_FILE).parent
+    log_dir = LOG_FILE.parent
     log_dir.mkdir(parents=True, exist_ok=True)
+    
+    # Debug: print where we're writing
+    # print(f"[DEBUG] Log file path: {LOG_FILE}")
+    # print(f"[DEBUG] Current working directory: {os.getcwd()}")
 
 
 def load_usage_log():
@@ -25,7 +30,7 @@ def load_usage_log():
     """
     ensure_log_directory()
     
-    if not os.path.exists(LOG_FILE):
+    if not LOG_FILE.exists():
         return {}
     
     try:
@@ -113,6 +118,9 @@ def log_cv_processing(source="unknown", candidate_name="", position="", success=
     
     # Save updated log
     save_usage_log(log_data)
+    
+    # Print confirmation (useful for debugging)
+    print(f"✓ Logged: {candidate_name} ({position}) - {'Success' if success else 'Failed'} - Source: {source}")
     
     return log_data[today]
 

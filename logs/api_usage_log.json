@@ -1,1 +1,28 @@
-{}
+{
+  "2026-01-26": {
+    "total": 2,
+    "streamlit": 2,
+    "github_action": 0,
+    "successful": 2,
+    "failed": 0,
+    "positions": {
+      "Accounting Staff": 2
+    },
+    "entries": [
+      {
+        "timestamp": "2026-01-26 03:30:57",
+        "source": "streamlit",
+        "candidate": "Adhyatmikarabbani",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-01-26 03:30:57",
+        "source": "streamlit",
+        "candidate": "Kharisma Qaulam",
+        "position": "Accounting Staff",
+        "success": true
+      }
+    ]
+  }
+}
