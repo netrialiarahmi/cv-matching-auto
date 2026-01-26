@@ -1217,20 +1217,23 @@ elif selected == "Screening":
                     
                     existing_emails = set()
                     existing_name_phone = set()
-                    
-                    if existing_results is not None and not existing_results.empty:
-                        # Convert to string first before using .str accessor
-                        existing_emails = set(
-                            existing_results[existing_results["Candidate Email"].notna()]["Candidate Email"].astype(str).str.lower()
-                        )
-                        for _, row in existing_results.iterrows():
-                            name = row.get("Candidate Name", "")
-                            phone = row.get("Phone", "")
-                            if pd.notna(name) and pd.notna(phone) and str(name).strip() and str(phone).strip():
-                                key = f"{str(name).strip().lower()}_{str(phone).strip()}"
-                                existing_name_phone.add(key)
-                    
-                    # Count only new candidates
+                existing_names = set()  # Add name-only tracking
+                
+                if existing_results is not None and not existing_results.empty:
+                    # Convert to string first before using .str accessor
+                    existing_emails = set(
+                        existing_results[existing_results["Candidate Email"].notna()]["Candidate Email"].astype(str).str.lower()
+                    )
+                    for _, row in existing_results.iterrows():
+                        name = row.get("Candidate Name", "")
+                        phone = row.get("Phone", "")
+                        # Track by name+phone
+                        if pd.notna(name) and pd.notna(phone) and str(name).strip() and str(phone).strip():
+                            key = f"{str(name).strip().lower()}_{str(phone).strip()}"
+                            existing_name_phone.add(key)
+                        # Track by name-only as fallback
+                        if pd.notna(name) and str(name).strip():
+                            existing_names.add(str(name).strip().lower())
                     for idx, row in candidates_df.iterrows():
                         first_name = row.get("Nama Depan") or row.get("First Name") or ""
                         last_name = row.get("Nama Belakang") or row.get("Last Name") or ""
@@ -1245,15 +1248,15 @@ elif selected == "Screening":
                         if pd.notna(candidate_email) and str(candidate_email).strip():
                             if str(candidate_email).strip().lower() in existing_emails:
                                 is_duplicate = True
-                        else:
-                            if pd.notna(candidate_name) and pd.notna(candidate_phone):
-                                name_phone_key = f"{str(candidate_name).strip().lower()}_{str(candidate_phone).strip()}"
-                                if name_phone_key in existing_name_phone:
-                                    is_duplicate = True
-                        
-                        if not is_duplicate:
-                            data_count += 1
-                elif isinstance(st.session_state.screening_data, list):
+                    elif pd.notna(candidate_name) and pd.notna(candidate_phone) and str(candidate_phone).strip():
+                        # Check by name+phone
+                        name_phone_key = f"{str(candidate_name).strip().lower()}_{str(candidate_phone).strip()}"
+                        if name_phone_key in existing_name_phone:
+                            is_duplicate = True
+                    elif pd.notna(candidate_name) and str(candidate_name).strip():
+                        # Fallback: check by name-only if no email and no phone
+                        if str(candidate_name).strip().lower() in existing_names:
+                            is_duplicate = True
                     data_count = len(st.session_state.screening_data)
                 
                 st.markdown(f"""
@@ -1282,9 +1285,10 @@ elif selected == "Screening":
                 position_results_file = get_results_filename(selected_job)
                 existing_results = load_results_from_github(path=position_results_file)
                 
-                # Build sets for duplicate detection (by email OR by name+phone)
+                # Build sets for duplicate detection (by email OR by name+phone OR by name-only)
                 existing_emails = set()
                 existing_name_phone = set()
+                existing_names = set()  # Add name-only tracking
                 
                 if existing_results is not None and not existing_results.empty:
                     # Track by email - convert to string first before using .str accessor
@@ -1296,9 +1300,13 @@ elif selected == "Screening":
                     for _, row in existing_results.iterrows():
                         name = row.get("Candidate Name", "")
                         phone = row.get("Phone", "")
+                        # Track by name+phone
                         if pd.notna(name) and pd.notna(phone) and str(name).strip() and str(phone).strip():
                             key = f"{str(name).strip().lower()}_{str(phone).strip()}"
                             existing_name_phone.add(key)
+                        # Track by name-only as fallback
+                        if pd.notna(name) and str(name).strip():
+                            existing_names.add(str(name).strip().lower())
 
                 # Handle different data sources
                 if data_source == "PDF Upload":
@@ -1433,13 +1441,17 @@ elif selected == "Screening":
                             if str(candidate_email).strip().lower() in existing_emails:
                                 skipped_candidates.append(f"{candidate_name} ({candidate_email})")
                                 is_duplicate = True
-                        else:
-                            # No email, check by name+phone
-                            if pd.notna(candidate_name) and pd.notna(candidate_phone):
-                                name_phone_key = f"{str(candidate_name).strip().lower()}_{str(candidate_phone).strip()}"
-                                if name_phone_key in existing_name_phone:
-                                    skipped_candidates.append(f"{candidate_name} ({candidate_phone})")
-                                    is_duplicate = True
+                        elif pd.notna(candidate_name) and pd.notna(candidate_phone) and str(candidate_phone).strip():
+                            # Check by name+phone
+                            name_phone_key = f"{str(candidate_name).strip().lower()}_{str(candidate_phone).strip()}"
+                            if name_phone_key in existing_name_phone:
+                                skipped_candidates.append(f"{candidate_name} ({candidate_phone})")
+                                is_duplicate = True
+                        elif pd.notna(candidate_name) and str(candidate_name).strip():
+                            # Fallback: check by name-only if no email and no phone
+                            if str(candidate_name).strip().lower() in existing_names:
+                                skipped_candidates.append(f"{candidate_name} (name match)")
+                                is_duplicate = True
                         
                         if not is_duplicate:
                             new_candidates.append(row)
