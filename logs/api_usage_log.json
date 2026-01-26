@@ -1,12 +1,12 @@
 {
   "2026-01-26": {
-    "total": 7,
-    "streamlit": 7,
+    "total": 8,
+    "streamlit": 8,
     "github_action": 0,
-    "successful": 7,
+    "successful": 8,
     "failed": 0,
     "positions": {
-      "Accounting Staff": 7
+      "Accounting Staff": 8
     },
     "entries": [
       {
@@ -55,6 +55,13 @@
         "timestamp": "2026-01-26 03:39:33",
         "source": "streamlit",
         "candidate": "Shirley Tjung",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-01-26 03:40:17",
+        "source": "streamlit",
+        "candidate": "Feryantosa Elfin Diah Wijayanti",
         "position": "Accounting Staff",
         "success": true
       }
