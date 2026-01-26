@@ -5,8 +5,10 @@ Tracks daily API usage for CV processing (both Streamlit and GitHub Actions)
 
 import os
 import json
+import base64
 from datetime import datetime
 from pathlib import Path
+import requests
 
 # Log file path - use absolute path relative to this file
 CURRENT_DIR = Path(__file__).parent.parent
@@ -16,10 +18,72 @@ def ensure_log_directory():
     """Ensure logs directory exists"""
     log_dir = LOG_FILE.parent
     log_dir.mkdir(parents=True, exist_ok=True)
+
+
+def _commit_log_to_github(log_data):
+    """Commit usage log to GitHub repository using GitHub API
     
-    # Debug: print where we're writing
-    # print(f"[DEBUG] Log file path: {LOG_FILE}")
-    # print(f"[DEBUG] Current working directory: {os.getcwd()}")
+    Args:
+        log_data (dict): Log data to commit
+        
+    Returns:
+        bool: True if commit successful, False otherwise
+    """
+    try:
+        # Get GitHub credentials from environment
+        token = os.environ.get("GITHUB_TOKEN")
+        repo = os.environ.get("GITHUB_REPO", "netrialiarahmi/cv-matching-auto")
+        
+        if not token:
+            # If no token, just save locally
+            return False
+        
+        headers = {
+            "Authorization": f"token {token}",
+            "Accept": "application/vnd.github+json"
+        }
+        
+        # File path in repo
+        file_path = "logs/api_usage_log.json"
+        
+        # Get current file SHA (needed for update)
+        url = f"https://api.github.com/repos/{repo}/contents/{file_path}"
+        response = requests.get(url, headers=headers, timeout=10)
+        
+        sha = None
+        if response.status_code == 200:
+            sha = response.json().get("sha")
+        
+        # Prepare content
+        content = json.dumps(log_data, indent=2, ensure_ascii=False)
+        encoded_content = base64.b64encode(content.encode()).decode()
+        
+        # Commit message
+        message = f"chore: update API usage log - {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}"
+        
+        # Prepare payload
+        payload = {
+            "message": message,
+            "content": encoded_content,
+            "branch": "main"
+        }
+        
+        if sha:
+            payload["sha"] = sha
+        
+        # Push to GitHub
+        response = requests.put(url, headers=headers, json=payload, timeout=10)
+        
+        if response.status_code in [200, 201]:
+            print(f"✓ Log committed to GitHub: {file_path}")
+            return True
+        else:
+            print(f"⚠ GitHub commit failed: {response.status_code}")
+            return False
+            
+    except Exception as e:
+        print(f"⚠ Could not commit to GitHub: {e}")
+        return False
 
 
 def load_usage_log():
@@ -42,7 +106,7 @@ def load_usage_log():
 
 
 def save_usage_log(log_data):
-    """Save usage log to file
+    """Save usage log to file and optionally commit to GitHub
     
     Args:
         log_data (dict): Usage log data to save
@@ -50,8 +114,13 @@ def save_usage_log(log_data):
     ensure_log_directory()
     
     try:
+        # Always save to local file first
         with open(LOG_FILE, 'w', encoding='utf-8') as f:
             json.dump(log_data, f, indent=2, ensure_ascii=False)
+        
+        # Try to commit to GitHub (will only work if GITHUB_TOKEN is available)
+        _commit_log_to_github(log_data)
+        
     except Exception as e:
         print(f"Warning: Could not save usage log: {e}")
 
