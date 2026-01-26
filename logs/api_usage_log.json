@@ -1,12 +1,12 @@
 {
   "2026-01-26": {
-    "total": 15,
-    "streamlit": 15,
+    "total": 16,
+    "streamlit": 16,
     "github_action": 0,
-    "successful": 15,
+    "successful": 16,
     "failed": 0,
     "positions": {
-      "Accounting Staff": 15
+      "Accounting Staff": 16
     },
     "entries": [
       {
@@ -111,6 +111,13 @@
         "timestamp": "2026-01-26 03:45:11",
         "source": "streamlit",
         "candidate": "Arlinsagita Nainggolan",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-01-26 03:45:53",
+        "source": "streamlit",
+        "candidate": "Bayu Seno Aji",
         "position": "Accounting Staff",
         "success": true
       }
