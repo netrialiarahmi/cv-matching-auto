@@ -145,13 +145,13 @@
     ]
   },
   "2026-01-29": {
-    "total": 6,
-    "streamlit": 6,
+    "total": 7,
+    "streamlit": 7,
     "github_action": 0,
-    "successful": 6,
+    "successful": 7,
     "failed": 0,
     "positions": {
-      "Account Executive Japanese Client": 6
+      "Account Executive Japanese Client": 7
     },
     "entries": [
       {
@@ -193,6 +193,13 @@
         "timestamp": "2026-01-29 03:30:26",
         "source": "streamlit",
         "candidate": "laurenz bunda",
+        "position": "Account Executive Japanese Client",
+        "success": true
+      },
+      {
+        "timestamp": "2026-01-29 03:31:03",
+        "source": "streamlit",
+        "candidate": "Adrian Mufti",
         "position": "Account Executive Japanese Client",
         "success": true
       }
