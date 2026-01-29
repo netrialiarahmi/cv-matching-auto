@@ -145,13 +145,13 @@
     ]
   },
   "2026-01-29": {
-    "total": 5,
-    "streamlit": 5,
+    "total": 6,
+    "streamlit": 6,
     "github_action": 0,
-    "successful": 5,
+    "successful": 6,
     "failed": 0,
     "positions": {
-      "Account Executive Japanese Client": 5
+      "Account Executive Japanese Client": 6
     },
     "entries": [
       {
@@ -186,6 +186,13 @@
         "timestamp": "2026-01-29 03:29:47",
         "source": "streamlit",
         "candidate": "Diandra Putra Wijanarko",
+        "position": "Account Executive Japanese Client",
+        "success": true
+      },
+      {
+        "timestamp": "2026-01-29 03:30:26",
+        "source": "streamlit",
+        "candidate": "laurenz bunda",
         "position": "Account Executive Japanese Client",
         "success": true
       }
