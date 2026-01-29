@@ -145,13 +145,13 @@
     ]
   },
   "2026-01-29": {
-    "total": 2,
-    "streamlit": 2,
+    "total": 3,
+    "streamlit": 3,
     "github_action": 0,
-    "successful": 2,
+    "successful": 3,
     "failed": 0,
     "positions": {
-      "Account Executive Japanese Client": 2
+      "Account Executive Japanese Client": 3
     },
     "entries": [
       {
@@ -165,6 +165,13 @@
         "timestamp": "2026-01-29 03:27:43",
         "source": "streamlit",
         "candidate": "Muhammad Rizki",
+        "position": "Account Executive Japanese Client",
+        "success": true
+      },
+      {
+        "timestamp": "2026-01-29 03:28:24",
+        "source": "streamlit",
+        "candidate": "Dalbro Nugroho Sinaga",
         "position": "Account Executive Japanese Client",
         "success": true
       }
