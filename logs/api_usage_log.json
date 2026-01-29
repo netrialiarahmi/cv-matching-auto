@@ -143,5 +143,24 @@
         "success": true
       }
     ]
+  },
+  "2026-01-29": {
+    "total": 1,
+    "streamlit": 1,
+    "github_action": 0,
+    "successful": 1,
+    "failed": 0,
+    "positions": {
+      "Account Executive Japanese Client": 1
+    },
+    "entries": [
+      {
+        "timestamp": "2026-01-29 03:27:03",
+        "source": "streamlit",
+        "candidate": "I Nyoman Aditya Bahari Dewantara",
+        "position": "Account Executive Japanese Client",
+        "success": true
+      }
+    ]
   }
 }
