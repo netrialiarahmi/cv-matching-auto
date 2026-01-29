@@ -145,13 +145,13 @@
     ]
   },
   "2026-01-29": {
-    "total": 7,
-    "streamlit": 7,
+    "total": 8,
+    "streamlit": 8,
     "github_action": 0,
-    "successful": 7,
+    "successful": 8,
     "failed": 0,
     "positions": {
-      "Account Executive Japanese Client": 7
+      "Account Executive Japanese Client": 8
     },
     "entries": [
       {
@@ -200,6 +200,13 @@
         "timestamp": "2026-01-29 03:31:03",
         "source": "streamlit",
         "candidate": "Adrian Mufti",
+        "position": "Account Executive Japanese Client",
+        "success": true
+      },
+      {
+        "timestamp": "2026-01-29 03:31:43",
+        "source": "streamlit",
+        "candidate": "siti nursaidah",
         "position": "Account Executive Japanese Client",
         "success": true
       }
