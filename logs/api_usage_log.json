@@ -239,13 +239,13 @@
     ]
   },
   "2026-02-02": {
-    "total": 2,
-    "streamlit": 2,
+    "total": 3,
+    "streamlit": 3,
     "github_action": 0,
-    "successful": 2,
+    "successful": 3,
     "failed": 0,
     "positions": {
-      "Account Executive Japanese Client": 2
+      "Account Executive Japanese Client": 3
     },
     "entries": [
       {
@@ -259,6 +259,13 @@
         "timestamp": "2026-02-02 02:08:15",
         "source": "streamlit",
         "candidate": "Rivaldo Simanjuntak",
+        "position": "Account Executive Japanese Client",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-02 02:08:51",
+        "source": "streamlit",
+        "candidate": "ariyah anggraini anggraini",
         "position": "Account Executive Japanese Client",
         "success": true
       }
