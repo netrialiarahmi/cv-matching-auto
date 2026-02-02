@@ -239,13 +239,13 @@
     ]
   },
   "2026-02-02": {
-    "total": 5,
-    "streamlit": 5,
+    "total": 6,
+    "streamlit": 6,
     "github_action": 0,
-    "successful": 5,
+    "successful": 6,
     "failed": 0,
     "positions": {
-      "Account Executive Japanese Client": 5
+      "Account Executive Japanese Client": 6
     },
     "entries": [
       {
@@ -280,6 +280,13 @@
         "timestamp": "2026-02-02 02:10:06",
         "source": "streamlit",
         "candidate": "Dimas Agung",
+        "position": "Account Executive Japanese Client",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-02 02:10:46",
+        "source": "streamlit",
+        "candidate": "Eunike Aldelia",
         "position": "Account Executive Japanese Client",
         "success": true
       }
