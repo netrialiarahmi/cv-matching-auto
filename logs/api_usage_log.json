@@ -239,19 +239,26 @@
     ]
   },
   "2026-02-02": {
-    "total": 1,
-    "streamlit": 1,
+    "total": 2,
+    "streamlit": 2,
     "github_action": 0,
-    "successful": 1,
+    "successful": 2,
     "failed": 0,
     "positions": {
-      "Account Executive Japanese Client": 1
+      "Account Executive Japanese Client": 2
     },
     "entries": [
       {
         "timestamp": "2026-02-02 02:07:31",
         "source": "streamlit",
         "candidate": "amanda syari",
+        "position": "Account Executive Japanese Client",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-02 02:08:15",
+        "source": "streamlit",
+        "candidate": "Rivaldo Simanjuntak",
         "position": "Account Executive Japanese Client",
         "success": true
       }
