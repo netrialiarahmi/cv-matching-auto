@@ -1217,23 +1217,23 @@ elif selected == "Screening":
                     
                     existing_emails = set()
                     existing_name_phone = set()
-                existing_names = set()  # Add name-only tracking
-                
-                if existing_results is not None and not existing_results.empty:
-                    # Convert to string first before using .str accessor
-                    existing_emails = set(
-                        existing_results[existing_results["Candidate Email"].notna()]["Candidate Email"].astype(str).str.lower()
-                    )
-                    for _, row in existing_results.iterrows():
-                        name = row.get("Candidate Name", "")
-                        phone = row.get("Phone", "")
-                        # Track by name+phone
-                        if pd.notna(name) and pd.notna(phone) and str(name).strip() and str(phone).strip():
-                            key = f"{str(name).strip().lower()}_{str(phone).strip()}"
-                            existing_name_phone.add(key)
-                        # Track by name-only as fallback
-                        if pd.notna(name) and str(name).strip():
-                            existing_names.add(str(name).strip().lower())
+                    existing_names = set()  # Add name-only tracking
+                    
+                    if existing_results is not None and not existing_results.empty:
+                        # Convert to string first before using .str accessor
+                        existing_emails = set(
+                            existing_results[existing_results["Candidate Email"].notna()]["Candidate Email"].astype(str).str.lower()
+                        )
+                        for _, row in existing_results.iterrows():
+                            name = row.get("Candidate Name", "")
+                            phone = row.get("Phone", "")
+                            # Track by name+phone
+                            if pd.notna(name) and pd.notna(phone) and str(name).strip() and str(phone).strip():
+                                key = f"{str(name).strip().lower()}_{str(phone).strip()}"
+                                existing_name_phone.add(key)
+                            # Track by name-only as fallback
+                            if pd.notna(name) and str(name).strip():
+                                existing_names.add(str(name).strip().lower())
                     for idx, row in candidates_df.iterrows():
                         first_name = row.get("Nama Depan") or row.get("First Name") or ""
                         last_name = row.get("Nama Belakang") or row.get("Last Name") or ""
