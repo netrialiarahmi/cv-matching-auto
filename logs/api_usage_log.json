@@ -312,13 +312,13 @@
     ]
   },
   "2026-02-04": {
-    "total": 38,
-    "streamlit": 38,
+    "total": 39,
+    "streamlit": 39,
     "github_action": 0,
-    "successful": 38,
+    "successful": 39,
     "failed": 0,
     "positions": {
-      "Accounting Staff": 38
+      "Accounting Staff": 39
     },
     "entries": [
       {
@@ -584,6 +584,13 @@
         "timestamp": "2026-02-04 02:05:38",
         "source": "streamlit",
         "candidate": "Haidar Hamim Probo",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-04 02:06:20",
+        "source": "streamlit",
+        "candidate": "Achmad Yusuf",
         "position": "Accounting Staff",
         "success": true
       }
