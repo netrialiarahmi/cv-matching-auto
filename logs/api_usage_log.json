@@ -312,13 +312,13 @@
     ]
   },
   "2026-02-04": {
-    "total": 10,
-    "streamlit": 10,
+    "total": 11,
+    "streamlit": 11,
     "github_action": 0,
-    "successful": 10,
+    "successful": 11,
     "failed": 0,
     "positions": {
-      "Accounting Staff": 10
+      "Accounting Staff": 11
     },
     "entries": [
       {
@@ -388,6 +388,13 @@
         "timestamp": "2026-02-04 01:46:19",
         "source": "streamlit",
         "candidate": "Mita Lestiany",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-04 01:47:06",
+        "source": "streamlit",
+        "candidate": "Achmad Taufik",
         "position": "Accounting Staff",
         "success": true
       }
