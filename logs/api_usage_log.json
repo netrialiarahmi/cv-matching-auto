@@ -312,13 +312,13 @@
     ]
   },
   "2026-02-04": {
-    "total": 36,
-    "streamlit": 36,
+    "total": 37,
+    "streamlit": 37,
     "github_action": 0,
-    "successful": 36,
+    "successful": 37,
     "failed": 0,
     "positions": {
-      "Accounting Staff": 36
+      "Accounting Staff": 37
     },
     "entries": [
       {
@@ -570,6 +570,13 @@
         "timestamp": "2026-02-04 02:04:14",
         "source": "streamlit",
         "candidate": "Fran Giska Fadhiya Haya",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-04 02:04:54",
+        "source": "streamlit",
+        "candidate": "Meliansa Dwi Novitaratri",
         "position": "Accounting Staff",
         "success": true
       }
