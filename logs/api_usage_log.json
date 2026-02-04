@@ -312,13 +312,13 @@
     ]
   },
   "2026-02-04": {
-    "total": 23,
-    "streamlit": 23,
+    "total": 24,
+    "streamlit": 24,
     "github_action": 0,
-    "successful": 23,
+    "successful": 24,
     "failed": 0,
     "positions": {
-      "Accounting Staff": 23
+      "Accounting Staff": 24
     },
     "entries": [
       {
@@ -479,6 +479,13 @@
         "timestamp": "2026-02-04 01:56:19",
         "source": "streamlit",
         "candidate": "Audrea Maria M",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-04 01:56:23",
+        "source": "streamlit",
+        "candidate": "Annisa Nisrina",
         "position": "Accounting Staff",
         "success": true
       }
