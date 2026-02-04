@@ -312,13 +312,13 @@
     ]
   },
   "2026-02-04": {
-    "total": 3,
-    "streamlit": 3,
+    "total": 4,
+    "streamlit": 4,
     "github_action": 0,
-    "successful": 3,
+    "successful": 4,
     "failed": 0,
     "positions": {
-      "Accounting Staff": 3
+      "Accounting Staff": 4
     },
     "entries": [
       {
@@ -339,6 +339,13 @@
         "timestamp": "2026-02-04 01:40:57",
         "source": "streamlit",
         "candidate": "Dwiky Ramadhan",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-04 01:41:37",
+        "source": "streamlit",
+        "candidate": "Kharisma Qaulam",
         "position": "Accounting Staff",
         "success": true
       }
