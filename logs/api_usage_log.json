@@ -312,22 +312,15 @@
     ]
   },
   "2026-02-04": {
-    "total": 142,
-    "streamlit": 142,
+    "total": 143,
+    "streamlit": 143,
     "github_action": 0,
-    "successful": 142,
+    "successful": 143,
     "failed": 0,
     "positions": {
-      "Accounting Staff": 142
+      "Accounting Staff": 143
     },
     "entries": [
-      {
-        "timestamp": "2026-02-04 02:09:16",
-        "source": "streamlit",
-        "candidate": "Mohamad Agung Wahyudi",
-        "position": "Accounting Staff",
-        "success": true
-      },
       {
         "timestamp": "2026-02-04 02:10:05",
         "source": "streamlit",
@@ -1018,6 +1011,13 @@
         "timestamp": "2026-02-04 03:25:53",
         "source": "streamlit",
         "candidate": "Shirley Tjung",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-04 03:25:56",
+        "source": "streamlit",
+        "candidate": "Nahrisal Nurfajar",
         "position": "Accounting Staff",
         "success": true
       }
