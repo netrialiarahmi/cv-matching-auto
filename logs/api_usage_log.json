@@ -312,13 +312,13 @@
     ]
   },
   "2026-02-04": {
-    "total": 33,
-    "streamlit": 33,
+    "total": 34,
+    "streamlit": 34,
     "github_action": 0,
-    "successful": 33,
+    "successful": 34,
     "failed": 0,
     "positions": {
-      "Accounting Staff": 33
+      "Accounting Staff": 34
     },
     "entries": [
       {
@@ -549,6 +549,13 @@
         "timestamp": "2026-02-04 02:02:00",
         "source": "streamlit",
         "candidate": "Mohamad Agung Wahyudi",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-04 02:02:46",
+        "source": "streamlit",
+        "candidate": "Agriani Esa Arianti, S.E",
         "position": "Accounting Staff",
         "success": true
       }
