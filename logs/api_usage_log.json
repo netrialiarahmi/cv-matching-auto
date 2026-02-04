@@ -312,22 +312,15 @@
     ]
   },
   "2026-02-04": {
-    "total": 108,
-    "streamlit": 108,
+    "total": 109,
+    "streamlit": 109,
     "github_action": 0,
-    "successful": 108,
+    "successful": 109,
     "failed": 0,
     "positions": {
-      "Accounting Staff": 108
+      "Accounting Staff": 109
     },
     "entries": [
-      {
-        "timestamp": "2026-02-04 01:45:27",
-        "source": "streamlit",
-        "candidate": "Adhyatmikarabbani .",
-        "position": "Accounting Staff",
-        "success": true
-      },
       {
         "timestamp": "2026-02-04 01:46:19",
         "source": "streamlit",
@@ -1018,6 +1011,13 @@
         "timestamp": "2026-02-04 02:58:40",
         "source": "streamlit",
         "candidate": "Yhoga Pranata",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-04 02:59:25",
+        "source": "streamlit",
+        "candidate": "Tracy Valerie  Bacas",
         "position": "Accounting Staff",
         "success": true
       }
