@@ -312,22 +312,15 @@
     ]
   },
   "2026-02-04": {
-    "total": 171,
-    "streamlit": 171,
+    "total": 172,
+    "streamlit": 172,
     "github_action": 0,
-    "successful": 171,
+    "successful": 172,
     "failed": 0,
     "positions": {
-      "Accounting Staff": 171
+      "Accounting Staff": 172
     },
     "entries": [
-      {
-        "timestamp": "2026-02-04 02:29:55",
-        "source": "streamlit",
-        "candidate": "Annisa Aprillestari",
-        "position": "Accounting Staff",
-        "success": true
-      },
       {
         "timestamp": "2026-02-04 02:30:41",
         "source": "streamlit",
@@ -1018,6 +1011,13 @@
         "timestamp": "2026-02-04 03:46:47",
         "source": "streamlit",
         "candidate": "Arif Rahman Hakim",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-04 03:47:41",
+        "source": "streamlit",
+        "candidate": "Rachmalia Jeany Savitri",
         "position": "Accounting Staff",
         "success": true
       }
