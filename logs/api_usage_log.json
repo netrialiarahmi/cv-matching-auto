@@ -312,13 +312,13 @@
     ]
   },
   "2026-02-04": {
-    "total": 81,
-    "streamlit": 81,
+    "total": 82,
+    "streamlit": 82,
     "github_action": 0,
-    "successful": 81,
+    "successful": 82,
     "failed": 0,
     "positions": {
-      "Accounting Staff": 81
+      "Accounting Staff": 82
     },
     "entries": [
       {
@@ -885,6 +885,13 @@
         "timestamp": "2026-02-04 02:36:44",
         "source": "streamlit",
         "candidate": "Mochamad Fathur Rahman",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-04 02:37:31",
+        "source": "streamlit",
+        "candidate": "Khusnul Khotimah",
         "position": "Accounting Staff",
         "success": true
       }
