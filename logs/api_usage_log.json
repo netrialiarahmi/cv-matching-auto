@@ -312,22 +312,15 @@
     ]
   },
   "2026-02-04": {
-    "total": 132,
-    "streamlit": 132,
+    "total": 133,
+    "streamlit": 133,
     "github_action": 0,
-    "successful": 132,
+    "successful": 133,
     "failed": 0,
     "positions": {
-      "Accounting Staff": 132
+      "Accounting Staff": 133
     },
     "entries": [
-      {
-        "timestamp": "2026-02-04 02:02:00",
-        "source": "streamlit",
-        "candidate": "Mohamad Agung Wahyudi",
-        "position": "Accounting Staff",
-        "success": true
-      },
       {
         "timestamp": "2026-02-04 02:02:46",
         "source": "streamlit",
@@ -1018,6 +1011,13 @@
         "timestamp": "2026-02-04 03:18:15",
         "source": "streamlit",
         "candidate": "Nidya Nurul Qonitah",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-04 03:18:59",
+        "source": "streamlit",
+        "candidate": "Qori Atun Soleha",
         "position": "Accounting Staff",
         "success": true
       }
