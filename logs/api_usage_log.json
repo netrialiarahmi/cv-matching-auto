@@ -312,13 +312,13 @@
     ]
   },
   "2026-02-04": {
-    "total": 86,
-    "streamlit": 86,
+    "total": 87,
+    "streamlit": 87,
     "github_action": 0,
-    "successful": 86,
+    "successful": 87,
     "failed": 0,
     "positions": {
-      "Accounting Staff": 86
+      "Accounting Staff": 87
     },
     "entries": [
       {
@@ -920,6 +920,13 @@
         "timestamp": "2026-02-04 02:39:55",
         "source": "streamlit",
         "candidate": "Fran Giska Fadhiya Haya",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-04 02:40:39",
+        "source": "streamlit",
+        "candidate": "Haidar Hamim Probo",
         "position": "Accounting Staff",
         "success": true
       }
