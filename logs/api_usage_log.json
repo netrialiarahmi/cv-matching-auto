@@ -312,13 +312,13 @@
     ]
   },
   "2026-02-04": {
-    "total": 58,
-    "streamlit": 58,
+    "total": 59,
+    "streamlit": 59,
     "github_action": 0,
-    "successful": 58,
+    "successful": 59,
     "failed": 0,
     "positions": {
-      "Accounting Staff": 58
+      "Accounting Staff": 59
     },
     "entries": [
       {
@@ -724,6 +724,13 @@
         "timestamp": "2026-02-04 02:20:01",
         "source": "streamlit",
         "candidate": "Ervita Ervita",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-04 02:20:49",
+        "source": "streamlit",
+        "candidate": "Mohamad Agung Wahyudi",
         "position": "Accounting Staff",
         "success": true
       }
