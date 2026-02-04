@@ -312,22 +312,15 @@
     ]
   },
   "2026-02-04": {
-    "total": 113,
-    "streamlit": 113,
+    "total": 114,
+    "streamlit": 114,
     "github_action": 0,
-    "successful": 113,
+    "successful": 114,
     "failed": 0,
     "positions": {
-      "Accounting Staff": 113
+      "Accounting Staff": 114
     },
     "entries": [
-      {
-        "timestamp": "2026-02-04 01:49:24",
-        "source": "streamlit",
-        "candidate": "Agnes daevany Kinanti",
-        "position": "Accounting Staff",
-        "success": true
-      },
       {
         "timestamp": "2026-02-04 01:50:09",
         "source": "streamlit",
@@ -1018,6 +1011,13 @@
         "timestamp": "2026-02-04 03:02:34",
         "source": "streamlit",
         "candidate": "Diva Rachmalia",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-04 03:03:20",
+        "source": "streamlit",
+        "candidate": "falaah bait yaa siin",
         "position": "Accounting Staff",
         "success": true
       }
