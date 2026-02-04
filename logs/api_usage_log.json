@@ -312,13 +312,13 @@
     ]
   },
   "2026-02-04": {
-    "total": 77,
-    "streamlit": 77,
+    "total": 78,
+    "streamlit": 78,
     "github_action": 0,
-    "successful": 77,
+    "successful": 78,
     "failed": 0,
     "positions": {
-      "Accounting Staff": 77
+      "Accounting Staff": 78
     },
     "entries": [
       {
@@ -857,6 +857,13 @@
         "timestamp": "2026-02-04 02:33:45",
         "source": "streamlit",
         "candidate": "Mohammad Hafidz Widyatama",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-04 02:34:28",
+        "source": "streamlit",
+        "candidate": "Qori Atun Soleha",
         "position": "Accounting Staff",
         "success": true
       }
