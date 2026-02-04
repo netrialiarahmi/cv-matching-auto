@@ -312,22 +312,15 @@
     ]
   },
   "2026-02-04": {
-    "total": 174,
-    "streamlit": 174,
+    "total": 175,
+    "streamlit": 175,
     "github_action": 0,
-    "successful": 174,
+    "successful": 175,
     "failed": 0,
     "positions": {
-      "Accounting Staff": 174
+      "Accounting Staff": 175
     },
     "entries": [
-      {
-        "timestamp": "2026-02-04 02:32:09",
-        "source": "streamlit",
-        "candidate": "falaah bait yaa siin",
-        "position": "Accounting Staff",
-        "success": true
-      },
       {
         "timestamp": "2026-02-04 02:32:58",
         "source": "streamlit",
@@ -1018,6 +1011,13 @@
         "timestamp": "2026-02-04 03:49:08",
         "source": "streamlit",
         "candidate": "Mutiara Salsabila Hanifia",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-04 03:49:54",
+        "source": "streamlit",
+        "candidate": "Janet Prastyowati A",
         "position": "Accounting Staff",
         "success": true
       }
