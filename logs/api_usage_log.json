@@ -312,13 +312,13 @@
     ]
   },
   "2026-02-04": {
-    "total": 96,
-    "streamlit": 96,
+    "total": 97,
+    "streamlit": 97,
     "github_action": 0,
-    "successful": 96,
+    "successful": 97,
     "failed": 0,
     "positions": {
-      "Accounting Staff": 96
+      "Accounting Staff": 97
     },
     "entries": [
       {
@@ -990,6 +990,13 @@
         "timestamp": "2026-02-04 02:47:19",
         "source": "streamlit",
         "candidate": "Annisa Aprillestari",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-04 02:48:01",
+        "source": "streamlit",
+        "candidate": "Diva Rachmalia",
         "position": "Accounting Staff",
         "success": true
       }
