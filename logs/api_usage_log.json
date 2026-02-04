@@ -312,13 +312,13 @@
     ]
   },
   "2026-02-04": {
-    "total": 83,
-    "streamlit": 83,
+    "total": 84,
+    "streamlit": 84,
     "github_action": 0,
-    "successful": 83,
+    "successful": 84,
     "failed": 0,
     "positions": {
-      "Accounting Staff": 83
+      "Accounting Staff": 84
     },
     "entries": [
       {
@@ -899,6 +899,13 @@
         "timestamp": "2026-02-04 02:38:20",
         "source": "streamlit",
         "candidate": "Muhammad Adrian Bagaskara",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-04 02:38:24",
+        "source": "streamlit",
+        "candidate": "Ervita Ervita",
         "position": "Accounting Staff",
         "success": true
       }
