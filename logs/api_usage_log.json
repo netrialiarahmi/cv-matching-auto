@@ -312,22 +312,15 @@
     ]
   },
   "2026-02-04": {
-    "total": 179,
-    "streamlit": 179,
+    "total": 180,
+    "streamlit": 180,
     "github_action": 0,
-    "successful": 179,
+    "successful": 180,
     "failed": 0,
     "positions": {
-      "Accounting Staff": 179
+      "Accounting Staff": 180
     },
     "entries": [
-      {
-        "timestamp": "2026-02-04 02:35:59",
-        "source": "streamlit",
-        "candidate": "Arif Rahman Hakim",
-        "position": "Accounting Staff",
-        "success": true
-      },
       {
         "timestamp": "2026-02-04 02:36:44",
         "source": "streamlit",
@@ -1018,6 +1011,13 @@
         "timestamp": "2026-02-04 03:52:07",
         "source": "streamlit",
         "candidate": "Petrus Ricardo",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-04 03:52:53",
+        "source": "streamlit",
+        "candidate": "Raihan Dimas Saputra",
         "position": "Accounting Staff",
         "success": true
       }
