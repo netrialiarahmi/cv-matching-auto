@@ -312,22 +312,15 @@
     ]
   },
   "2026-02-04": {
-    "total": 121,
-    "streamlit": 121,
+    "total": 122,
+    "streamlit": 122,
     "github_action": 0,
-    "successful": 121,
+    "successful": 122,
     "failed": 0,
     "positions": {
-      "Accounting Staff": 121
+      "Accounting Staff": 122
     },
     "entries": [
-      {
-        "timestamp": "2026-02-04 01:55:33",
-        "source": "streamlit",
-        "candidate": "Hammam Fuad Hasyim",
-        "position": "Accounting Staff",
-        "success": true
-      },
       {
         "timestamp": "2026-02-04 01:56:19",
         "source": "streamlit",
@@ -1018,6 +1011,13 @@
         "timestamp": "2026-02-04 03:09:58",
         "source": "streamlit",
         "candidate": "Ervita Ervita",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-04 03:10:41",
+        "source": "streamlit",
+        "candidate": "Erseto Wicaksono",
         "position": "Accounting Staff",
         "success": true
       }
