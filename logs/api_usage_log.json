@@ -312,13 +312,13 @@
     ]
   },
   "2026-02-04": {
-    "total": 80,
-    "streamlit": 80,
+    "total": 81,
+    "streamlit": 81,
     "github_action": 0,
-    "successful": 80,
+    "successful": 81,
     "failed": 0,
     "positions": {
-      "Accounting Staff": 80
+      "Accounting Staff": 81
     },
     "entries": [
       {
@@ -878,6 +878,13 @@
         "timestamp": "2026-02-04 02:35:59",
         "source": "streamlit",
         "candidate": "Arif Rahman Hakim",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-04 02:36:44",
+        "source": "streamlit",
+        "candidate": "Mochamad Fathur Rahman",
         "position": "Accounting Staff",
         "success": true
       }
