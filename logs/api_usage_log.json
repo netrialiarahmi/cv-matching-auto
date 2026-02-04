@@ -312,13 +312,13 @@
     ]
   },
   "2026-02-04": {
-    "total": 2,
-    "streamlit": 2,
+    "total": 3,
+    "streamlit": 3,
     "github_action": 0,
-    "successful": 2,
+    "successful": 3,
     "failed": 0,
     "positions": {
-      "Accounting Staff": 2
+      "Accounting Staff": 3
     },
     "entries": [
       {
@@ -332,6 +332,13 @@
         "timestamp": "2026-02-04 01:40:13",
         "source": "streamlit",
         "candidate": "Ihza Nurman Amrulloh",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-04 01:40:57",
+        "source": "streamlit",
+        "candidate": "Dwiky Ramadhan",
         "position": "Accounting Staff",
         "success": true
       }
