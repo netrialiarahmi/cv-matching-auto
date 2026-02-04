@@ -312,22 +312,15 @@
     ]
   },
   "2026-02-04": {
-    "total": 152,
-    "streamlit": 152,
+    "total": 153,
+    "streamlit": 153,
     "github_action": 0,
-    "successful": 152,
+    "successful": 153,
     "failed": 0,
     "positions": {
-      "Accounting Staff": 152
+      "Accounting Staff": 153
     },
     "entries": [
-      {
-        "timestamp": "2026-02-04 02:15:58",
-        "source": "streamlit",
-        "candidate": "Langgeng Harum Islami",
-        "position": "Accounting Staff",
-        "success": true
-      },
       {
         "timestamp": "2026-02-04 02:16:38",
         "source": "streamlit",
@@ -1018,6 +1011,13 @@
         "timestamp": "2026-02-04 03:32:49",
         "source": "streamlit",
         "candidate": "Alfanita H Soka",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-04 03:33:38",
+        "source": "streamlit",
+        "candidate": "Andini Eka Junita",
         "position": "Accounting Staff",
         "success": true
       }
