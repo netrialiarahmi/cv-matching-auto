@@ -312,22 +312,15 @@
     ]
   },
   "2026-02-04": {
-    "total": 153,
-    "streamlit": 153,
+    "total": 154,
+    "streamlit": 154,
     "github_action": 0,
-    "successful": 153,
+    "successful": 154,
     "failed": 0,
     "positions": {
-      "Accounting Staff": 153
+      "Accounting Staff": 154
     },
     "entries": [
-      {
-        "timestamp": "2026-02-04 02:16:38",
-        "source": "streamlit",
-        "candidate": "Tracy Valerie  Bacas",
-        "position": "Accounting Staff",
-        "success": true
-      },
       {
         "timestamp": "2026-02-04 02:17:25",
         "source": "streamlit",
@@ -1018,6 +1011,13 @@
         "timestamp": "2026-02-04 03:33:38",
         "source": "streamlit",
         "candidate": "Andini Eka Junita",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-04 03:34:18",
+        "source": "streamlit",
+        "candidate": "Sephia Putri Pertiwi",
         "position": "Accounting Staff",
         "success": true
       }
