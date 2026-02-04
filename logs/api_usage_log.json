@@ -312,22 +312,15 @@
     ]
   },
   "2026-02-04": {
-    "total": 124,
-    "streamlit": 124,
+    "total": 125,
+    "streamlit": 125,
     "github_action": 0,
-    "successful": 124,
+    "successful": 125,
     "failed": 0,
     "positions": {
-      "Accounting Staff": 124
+      "Accounting Staff": 125
     },
     "entries": [
-      {
-        "timestamp": "2026-02-04 01:57:09",
-        "source": "streamlit",
-        "candidate": "Riziq Fajar  Ramadhan",
-        "position": "Accounting Staff",
-        "success": true
-      },
       {
         "timestamp": "2026-02-04 01:57:56",
         "source": "streamlit",
@@ -1018,6 +1011,13 @@
         "timestamp": "2026-02-04 03:12:12",
         "source": "streamlit",
         "candidate": "Haidar Hamim Probo",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-04 03:12:54",
+        "source": "streamlit",
+        "candidate": "Achmad Yusuf",
         "position": "Accounting Staff",
         "success": true
       }
