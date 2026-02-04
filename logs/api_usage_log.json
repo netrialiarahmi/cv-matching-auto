@@ -312,22 +312,15 @@
     ]
   },
   "2026-02-04": {
-    "total": 107,
-    "streamlit": 107,
+    "total": 108,
+    "streamlit": 108,
     "github_action": 0,
-    "successful": 107,
+    "successful": 108,
     "failed": 0,
     "positions": {
-      "Accounting Staff": 107
+      "Accounting Staff": 108
     },
     "entries": [
-      {
-        "timestamp": "2026-02-04 01:44:40",
-        "source": "streamlit",
-        "candidate": "Zahra Afaf",
-        "position": "Accounting Staff",
-        "success": true
-      },
       {
         "timestamp": "2026-02-04 01:45:27",
         "source": "streamlit",
@@ -1018,6 +1011,13 @@
         "timestamp": "2026-02-04 02:57:49",
         "source": "streamlit",
         "candidate": "Dina Lestari",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-04 02:58:40",
+        "source": "streamlit",
+        "candidate": "Yhoga Pranata",
         "position": "Accounting Staff",
         "success": true
       }
