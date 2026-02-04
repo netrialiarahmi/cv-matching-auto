@@ -312,13 +312,13 @@
     ]
   },
   "2026-02-04": {
-    "total": 66,
-    "streamlit": 66,
+    "total": 67,
+    "streamlit": 67,
     "github_action": 0,
-    "successful": 66,
+    "successful": 67,
     "failed": 0,
     "positions": {
-      "Accounting Staff": 66
+      "Accounting Staff": 67
     },
     "entries": [
       {
@@ -780,6 +780,13 @@
         "timestamp": "2026-02-04 02:25:56",
         "source": "streamlit",
         "candidate": "Yhoga Pranata",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-04 02:26:01",
+        "source": "streamlit",
+        "candidate": "Langgeng Harum Islami",
         "position": "Accounting Staff",
         "success": true
       }
