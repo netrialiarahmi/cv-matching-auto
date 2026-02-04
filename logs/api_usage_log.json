@@ -312,13 +312,13 @@
     ]
   },
   "2026-02-04": {
-    "total": 6,
-    "streamlit": 6,
+    "total": 7,
+    "streamlit": 7,
     "github_action": 0,
-    "successful": 6,
+    "successful": 7,
     "failed": 0,
     "positions": {
-      "Accounting Staff": 6
+      "Accounting Staff": 7
     },
     "entries": [
       {
@@ -360,6 +360,13 @@
         "timestamp": "2026-02-04 01:43:09",
         "source": "streamlit",
         "candidate": "Sani cristin",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-04 01:43:51",
+        "source": "streamlit",
+        "candidate": "Ribka Tasya",
         "position": "Accounting Staff",
         "success": true
       }
