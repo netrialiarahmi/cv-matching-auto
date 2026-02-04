@@ -312,13 +312,13 @@
     ]
   },
   "2026-02-04": {
-    "total": 97,
-    "streamlit": 97,
+    "total": 98,
+    "streamlit": 98,
     "github_action": 0,
-    "successful": 97,
+    "successful": 98,
     "failed": 0,
     "positions": {
-      "Accounting Staff": 97
+      "Accounting Staff": 98
     },
     "entries": [
       {
@@ -997,6 +997,13 @@
         "timestamp": "2026-02-04 02:48:01",
         "source": "streamlit",
         "candidate": "Diva Rachmalia",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-04 02:48:41",
+        "source": "streamlit",
+        "candidate": "falaah bait yaa siin",
         "position": "Accounting Staff",
         "success": true
       }
