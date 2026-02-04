@@ -312,13 +312,13 @@
     ]
   },
   "2026-02-04": {
-    "total": 73,
-    "streamlit": 73,
+    "total": 74,
+    "streamlit": 74,
     "github_action": 0,
-    "successful": 73,
+    "successful": 74,
     "failed": 0,
     "positions": {
-      "Accounting Staff": 73
+      "Accounting Staff": 74
     },
     "entries": [
       {
@@ -829,6 +829,13 @@
         "timestamp": "2026-02-04 02:30:41",
         "source": "streamlit",
         "candidate": "Diva Rachmalia",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-04 02:31:23",
+        "source": "streamlit",
+        "candidate": "Irvinta Mestika  Sari",
         "position": "Accounting Staff",
         "success": true
       }
