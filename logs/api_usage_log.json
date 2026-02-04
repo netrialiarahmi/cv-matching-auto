@@ -312,22 +312,15 @@
     ]
   },
   "2026-02-04": {
-    "total": 185,
-    "streamlit": 185,
+    "total": 186,
+    "streamlit": 186,
     "github_action": 0,
-    "successful": 185,
+    "successful": 186,
     "failed": 0,
     "positions": {
-      "Accounting Staff": 185
+      "Accounting Staff": 186
     },
     "entries": [
-      {
-        "timestamp": "2026-02-04 02:39:55",
-        "source": "streamlit",
-        "candidate": "Fran Giska Fadhiya Haya",
-        "position": "Accounting Staff",
-        "success": true
-      },
       {
         "timestamp": "2026-02-04 02:40:39",
         "source": "streamlit",
@@ -1018,6 +1011,13 @@
         "timestamp": "2026-02-04 03:56:34",
         "source": "streamlit",
         "candidate": "Raden Syaffira",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-04 03:57:18",
+        "source": "streamlit",
+        "candidate": "Alfanita H Soka",
         "position": "Accounting Staff",
         "success": true
       }
