@@ -312,22 +312,15 @@
     ]
   },
   "2026-02-04": {
-    "total": 137,
-    "streamlit": 137,
+    "total": 138,
+    "streamlit": 138,
     "github_action": 0,
-    "successful": 137,
+    "successful": 138,
     "failed": 0,
     "positions": {
-      "Accounting Staff": 137
+      "Accounting Staff": 138
     },
     "entries": [
-      {
-        "timestamp": "2026-02-04 02:05:38",
-        "source": "streamlit",
-        "candidate": "Haidar Hamim Probo",
-        "position": "Accounting Staff",
-        "success": true
-      },
       {
         "timestamp": "2026-02-04 02:06:20",
         "source": "streamlit",
@@ -1018,6 +1011,13 @@
         "timestamp": "2026-02-04 03:22:03",
         "source": "streamlit",
         "candidate": "Saskia Marizki",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-04 03:22:47",
+        "source": "streamlit",
+        "candidate": "Mutiara Salsabila Hanifia",
         "position": "Accounting Staff",
         "success": true
       }
