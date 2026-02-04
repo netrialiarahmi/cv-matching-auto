@@ -312,13 +312,13 @@
     ]
   },
   "2026-02-04": {
-    "total": 71,
-    "streamlit": 71,
+    "total": 72,
+    "streamlit": 72,
     "github_action": 0,
-    "successful": 71,
+    "successful": 72,
     "failed": 0,
     "positions": {
-      "Accounting Staff": 71
+      "Accounting Staff": 72
     },
     "entries": [
       {
@@ -815,6 +815,13 @@
         "timestamp": "2026-02-04 02:29:08",
         "source": "streamlit",
         "candidate": "Muhammad Rayhannur Harits",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-04 02:29:55",
+        "source": "streamlit",
+        "candidate": "Annisa Aprillestari",
         "position": "Accounting Staff",
         "success": true
       }
