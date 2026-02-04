@@ -312,13 +312,13 @@
     ]
   },
   "2026-02-04": {
-    "total": 28,
-    "streamlit": 28,
+    "total": 29,
+    "streamlit": 29,
     "github_action": 0,
-    "successful": 28,
+    "successful": 29,
     "failed": 0,
     "positions": {
-      "Accounting Staff": 28
+      "Accounting Staff": 29
     },
     "entries": [
       {
@@ -514,6 +514,13 @@
         "timestamp": "2026-02-04 01:58:43",
         "source": "streamlit",
         "candidate": "Rizka Ayu Prameiliana",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-04 01:59:32",
+        "source": "streamlit",
+        "candidate": "Natasya Wolok",
         "position": "Accounting Staff",
         "success": true
       }
