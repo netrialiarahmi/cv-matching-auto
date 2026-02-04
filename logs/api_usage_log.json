@@ -312,13 +312,13 @@
     ]
   },
   "2026-02-04": {
-    "total": 34,
-    "streamlit": 34,
+    "total": 35,
+    "streamlit": 35,
     "github_action": 0,
-    "successful": 34,
+    "successful": 35,
     "failed": 0,
     "positions": {
-      "Accounting Staff": 34
+      "Accounting Staff": 35
     },
     "entries": [
       {
@@ -556,6 +556,13 @@
         "timestamp": "2026-02-04 02:02:46",
         "source": "streamlit",
         "candidate": "Agriani Esa Arianti, S.E",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-04 02:03:27",
+        "source": "streamlit",
+        "candidate": "Erseto Wicaksono",
         "position": "Accounting Staff",
         "success": true
       }
