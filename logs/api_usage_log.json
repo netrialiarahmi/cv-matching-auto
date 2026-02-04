@@ -312,22 +312,15 @@
     ]
   },
   "2026-02-04": {
-    "total": 115,
-    "streamlit": 115,
+    "total": 116,
+    "streamlit": 116,
     "github_action": 0,
-    "successful": 115,
+    "successful": 116,
     "failed": 0,
     "positions": {
-      "Accounting Staff": 115
+      "Accounting Staff": 116
     },
     "entries": [
-      {
-        "timestamp": "2026-02-04 01:50:56",
-        "source": "streamlit",
-        "candidate": "FEBRIANTI ANDIKA PUTRI",
-        "position": "Accounting Staff",
-        "success": true
-      },
       {
         "timestamp": "2026-02-04 01:51:39",
         "source": "streamlit",
@@ -1018,6 +1011,13 @@
         "timestamp": "2026-02-04 03:04:05",
         "source": "streamlit",
         "candidate": "Nidya Nurul Qonitah",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-04 03:04:51",
+        "source": "streamlit",
+        "candidate": "Mohammad Hafidz Widyatama",
         "position": "Accounting Staff",
         "success": true
       }
