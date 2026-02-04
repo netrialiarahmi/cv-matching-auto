@@ -312,13 +312,13 @@
     ]
   },
   "2026-02-04": {
-    "total": 50,
-    "streamlit": 50,
+    "total": 51,
+    "streamlit": 51,
     "github_action": 0,
-    "successful": 50,
+    "successful": 51,
     "failed": 0,
     "positions": {
-      "Accounting Staff": 50
+      "Accounting Staff": 51
     },
     "entries": [
       {
@@ -668,6 +668,13 @@
         "timestamp": "2026-02-04 02:14:19",
         "source": "streamlit",
         "candidate": "Dina Lestari",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-04 02:15:07",
+        "source": "streamlit",
+        "candidate": "Shafira Imnes Rama Yanti",
         "position": "Accounting Staff",
         "success": true
       }
