@@ -312,22 +312,15 @@
     ]
   },
   "2026-02-04": {
-    "total": 131,
-    "streamlit": 131,
+    "total": 132,
+    "streamlit": 132,
     "github_action": 0,
-    "successful": 131,
+    "successful": 132,
     "failed": 0,
     "positions": {
-      "Accounting Staff": 131
+      "Accounting Staff": 132
     },
     "entries": [
-      {
-        "timestamp": "2026-02-04 02:01:07",
-        "source": "streamlit",
-        "candidate": "Ervita Ervita",
-        "position": "Accounting Staff",
-        "success": true
-      },
       {
         "timestamp": "2026-02-04 02:02:00",
         "source": "streamlit",
@@ -1018,6 +1011,13 @@
         "timestamp": "2026-02-04 03:17:25",
         "source": "streamlit",
         "candidate": "Diva Rachmalia",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-04 03:18:15",
+        "source": "streamlit",
+        "candidate": "Nidya Nurul Qonitah",
         "position": "Accounting Staff",
         "success": true
       }
