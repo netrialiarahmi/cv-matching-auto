@@ -312,22 +312,15 @@
     ]
   },
   "2026-02-04": {
-    "total": 114,
-    "streamlit": 114,
+    "total": 115,
+    "streamlit": 115,
     "github_action": 0,
-    "successful": 114,
+    "successful": 115,
     "failed": 0,
     "positions": {
-      "Accounting Staff": 114
+      "Accounting Staff": 115
     },
     "entries": [
-      {
-        "timestamp": "2026-02-04 01:50:09",
-        "source": "streamlit",
-        "candidate": "Rezaldi Dwinanta Tama",
-        "position": "Accounting Staff",
-        "success": true
-      },
       {
         "timestamp": "2026-02-04 01:50:56",
         "source": "streamlit",
@@ -1018,6 +1011,13 @@
         "timestamp": "2026-02-04 03:03:20",
         "source": "streamlit",
         "candidate": "falaah bait yaa siin",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-04 03:04:05",
+        "source": "streamlit",
+        "candidate": "Nidya Nurul Qonitah",
         "position": "Accounting Staff",
         "success": true
       }
