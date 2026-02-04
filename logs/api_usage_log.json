@@ -312,22 +312,15 @@
     ]
   },
   "2026-02-04": {
-    "total": 167,
-    "streamlit": 167,
+    "total": 168,
+    "streamlit": 168,
     "github_action": 0,
-    "successful": 167,
+    "successful": 168,
     "failed": 0,
     "positions": {
-      "Accounting Staff": 167
+      "Accounting Staff": 168
     },
     "entries": [
-      {
-        "timestamp": "2026-02-04 02:26:45",
-        "source": "streamlit",
-        "candidate": "Tracy Valerie  Bacas",
-        "position": "Accounting Staff",
-        "success": true
-      },
       {
         "timestamp": "2026-02-04 02:27:31",
         "source": "streamlit",
@@ -1018,6 +1011,13 @@
         "timestamp": "2026-02-04 03:43:53",
         "source": "streamlit",
         "candidate": "Muhammad Rayhannur Harits",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-04 03:44:39",
+        "source": "streamlit",
+        "candidate": "Diva Rachmalia",
         "position": "Accounting Staff",
         "success": true
       }
