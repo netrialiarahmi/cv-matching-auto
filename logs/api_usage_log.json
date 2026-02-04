@@ -312,13 +312,13 @@
     ]
   },
   "2026-02-04": {
-    "total": 55,
-    "streamlit": 55,
+    "total": 56,
+    "streamlit": 56,
     "github_action": 0,
-    "successful": 55,
+    "successful": 56,
     "failed": 0,
     "positions": {
-      "Accounting Staff": 55
+      "Accounting Staff": 56
     },
     "entries": [
       {
@@ -703,6 +703,13 @@
         "timestamp": "2026-02-04 02:17:25",
         "source": "streamlit",
         "candidate": "Elisabet Puspita Sari",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-04 02:19:09",
+        "source": "streamlit",
+        "candidate": "Khusnul Khotimah",
         "position": "Accounting Staff",
         "success": true
       }
