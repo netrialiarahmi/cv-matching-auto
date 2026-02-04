@@ -312,13 +312,13 @@
     ]
   },
   "2026-02-04": {
-    "total": 15,
-    "streamlit": 15,
+    "total": 16,
+    "streamlit": 16,
     "github_action": 0,
-    "successful": 15,
+    "successful": 16,
     "failed": 0,
     "positions": {
-      "Accounting Staff": 15
+      "Accounting Staff": 16
     },
     "entries": [
       {
@@ -423,6 +423,13 @@
         "timestamp": "2026-02-04 01:50:09",
         "source": "streamlit",
         "candidate": "Rezaldi Dwinanta Tama",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-04 01:50:56",
+        "source": "streamlit",
+        "candidate": "FEBRIANTI ANDIKA PUTRI",
         "position": "Accounting Staff",
         "success": true
       }
