@@ -312,22 +312,15 @@
     ]
   },
   "2026-02-04": {
-    "total": 138,
-    "streamlit": 138,
+    "total": 139,
+    "streamlit": 139,
     "github_action": 0,
-    "successful": 138,
+    "successful": 139,
     "failed": 0,
     "positions": {
-      "Accounting Staff": 138
+      "Accounting Staff": 139
     },
     "entries": [
-      {
-        "timestamp": "2026-02-04 02:06:20",
-        "source": "streamlit",
-        "candidate": "Achmad Yusuf",
-        "position": "Accounting Staff",
-        "success": true
-      },
       {
         "timestamp": "2026-02-04 02:07:31",
         "source": "streamlit",
@@ -1018,6 +1011,13 @@
         "timestamp": "2026-02-04 03:22:47",
         "source": "streamlit",
         "candidate": "Mutiara Salsabila Hanifia",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-04 03:23:36",
+        "source": "streamlit",
+        "candidate": "Janet Prastyowati A",
         "position": "Accounting Staff",
         "success": true
       }
