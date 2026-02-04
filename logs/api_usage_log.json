@@ -312,13 +312,13 @@
     ]
   },
   "2026-02-04": {
-    "total": 90,
-    "streamlit": 90,
+    "total": 91,
+    "streamlit": 91,
     "github_action": 0,
-    "successful": 90,
+    "successful": 91,
     "failed": 0,
     "positions": {
-      "Accounting Staff": 90
+      "Accounting Staff": 91
     },
     "entries": [
       {
@@ -948,6 +948,13 @@
         "timestamp": "2026-02-04 02:42:49",
         "source": "streamlit",
         "candidate": "Dina Lestari",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-04 02:43:37",
+        "source": "streamlit",
+        "candidate": "Yhoga Pranata",
         "position": "Accounting Staff",
         "success": true
       }
