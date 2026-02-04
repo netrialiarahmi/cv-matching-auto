@@ -312,22 +312,15 @@
     ]
   },
   "2026-02-04": {
-    "total": 127,
-    "streamlit": 127,
+    "total": 128,
+    "streamlit": 128,
     "github_action": 0,
-    "successful": 127,
+    "successful": 128,
     "failed": 0,
     "positions": {
-      "Accounting Staff": 127
+      "Accounting Staff": 128
     },
     "entries": [
-      {
-        "timestamp": "2026-02-04 01:58:43",
-        "source": "streamlit",
-        "candidate": "Rizka Ayu Prameiliana",
-        "position": "Accounting Staff",
-        "success": true
-      },
       {
         "timestamp": "2026-02-04 01:59:32",
         "source": "streamlit",
@@ -1018,6 +1011,13 @@
         "timestamp": "2026-02-04 03:14:27",
         "source": "streamlit",
         "candidate": "Tracy Valerie  Bacas",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-04 03:15:15",
+        "source": "streamlit",
+        "candidate": "Elisabet Puspita Sari",
         "position": "Accounting Staff",
         "success": true
       }
