@@ -312,13 +312,13 @@
     ]
   },
   "2026-02-04": {
-    "total": 19,
-    "streamlit": 19,
+    "total": 20,
+    "streamlit": 20,
     "github_action": 0,
-    "successful": 19,
+    "successful": 20,
     "failed": 0,
     "positions": {
-      "Accounting Staff": 19
+      "Accounting Staff": 20
     },
     "entries": [
       {
@@ -451,6 +451,13 @@
         "timestamp": "2026-02-04 01:53:09",
         "source": "streamlit",
         "candidate": "Giska Hawa Syahrani",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-04 01:53:58",
+        "source": "streamlit",
+        "candidate": "Ahmad Hafidz",
         "position": "Accounting Staff",
         "success": true
       }
