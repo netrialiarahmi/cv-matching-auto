@@ -312,13 +312,13 @@
     ]
   },
   "2026-02-04": {
-    "total": 14,
-    "streamlit": 14,
+    "total": 15,
+    "streamlit": 15,
     "github_action": 0,
-    "successful": 14,
+    "successful": 15,
     "failed": 0,
     "positions": {
-      "Accounting Staff": 14
+      "Accounting Staff": 15
     },
     "entries": [
       {
@@ -416,6 +416,13 @@
         "timestamp": "2026-02-04 01:49:24",
         "source": "streamlit",
         "candidate": "Agnes daevany Kinanti",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-04 01:50:09",
+        "source": "streamlit",
+        "candidate": "Rezaldi Dwinanta Tama",
         "position": "Accounting Staff",
         "success": true
       }
