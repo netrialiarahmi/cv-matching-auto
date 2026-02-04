@@ -312,13 +312,13 @@
     ]
   },
   "2026-02-04": {
-    "total": 88,
-    "streamlit": 88,
+    "total": 89,
+    "streamlit": 89,
     "github_action": 0,
-    "successful": 88,
+    "successful": 89,
     "failed": 0,
     "positions": {
-      "Accounting Staff": 88
+      "Accounting Staff": 89
     },
     "entries": [
       {
@@ -934,6 +934,13 @@
         "timestamp": "2026-02-04 02:41:20",
         "source": "streamlit",
         "candidate": "Achmad Yusuf",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-04 02:42:04",
+        "source": "streamlit",
+        "candidate": "Hanif  Fathoni",
         "position": "Accounting Staff",
         "success": true
       }
