@@ -312,22 +312,15 @@
     ]
   },
   "2026-02-04": {
-    "total": 172,
-    "streamlit": 172,
+    "total": 173,
+    "streamlit": 173,
     "github_action": 0,
-    "successful": 172,
+    "successful": 173,
     "failed": 0,
     "positions": {
-      "Accounting Staff": 172
+      "Accounting Staff": 173
     },
     "entries": [
-      {
-        "timestamp": "2026-02-04 02:30:41",
-        "source": "streamlit",
-        "candidate": "Diva Rachmalia",
-        "position": "Accounting Staff",
-        "success": true
-      },
       {
         "timestamp": "2026-02-04 02:31:23",
         "source": "streamlit",
@@ -1018,6 +1011,13 @@
         "timestamp": "2026-02-04 03:47:41",
         "source": "streamlit",
         "candidate": "Rachmalia Jeany Savitri",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-04 03:48:26",
+        "source": "streamlit",
+        "candidate": "Saskia Marizki",
         "position": "Accounting Staff",
         "success": true
       }
