@@ -312,22 +312,15 @@
     ]
   },
   "2026-02-04": {
-    "total": 178,
-    "streamlit": 178,
+    "total": 179,
+    "streamlit": 179,
     "github_action": 0,
-    "successful": 178,
+    "successful": 179,
     "failed": 0,
     "positions": {
-      "Accounting Staff": 178
+      "Accounting Staff": 179
     },
     "entries": [
-      {
-        "timestamp": "2026-02-04 02:35:12",
-        "source": "streamlit",
-        "candidate": "Fiona Elisa Pratiwi",
-        "position": "Accounting Staff",
-        "success": true
-      },
       {
         "timestamp": "2026-02-04 02:35:59",
         "source": "streamlit",
@@ -1018,6 +1011,13 @@
         "timestamp": "2026-02-04 03:51:21",
         "source": "streamlit",
         "candidate": "Nahrisal Nurfajar",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-04 03:52:07",
+        "source": "streamlit",
+        "candidate": "Petrus Ricardo",
         "position": "Accounting Staff",
         "success": true
       }
