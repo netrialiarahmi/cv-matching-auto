@@ -312,22 +312,15 @@
     ]
   },
   "2026-02-04": {
-    "total": 104,
-    "streamlit": 104,
+    "total": 105,
+    "streamlit": 105,
     "github_action": 0,
-    "successful": 104,
+    "successful": 105,
     "failed": 0,
     "positions": {
-      "Accounting Staff": 104
+      "Accounting Staff": 105
     },
     "entries": [
-      {
-        "timestamp": "2026-02-04 01:42:22",
-        "source": "streamlit",
-        "candidate": "Benedicta Rafensca Merry Christa",
-        "position": "Accounting Staff",
-        "success": true
-      },
       {
         "timestamp": "2026-02-04 01:43:09",
         "source": "streamlit",
@@ -1018,6 +1011,13 @@
         "timestamp": "2026-02-04 02:55:41",
         "source": "streamlit",
         "candidate": "Fran Giska Fadhiya Haya",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-04 02:56:27",
+        "source": "streamlit",
+        "candidate": "Haidar Hamim Probo",
         "position": "Accounting Staff",
         "success": true
       }
