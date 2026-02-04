@@ -312,22 +312,15 @@
     ]
   },
   "2026-02-04": {
-    "total": 157,
-    "streamlit": 157,
+    "total": 158,
+    "streamlit": 158,
     "github_action": 0,
-    "successful": 157,
+    "successful": 158,
     "failed": 0,
     "positions": {
-      "Accounting Staff": 157
+      "Accounting Staff": 158
     },
     "entries": [
-      {
-        "timestamp": "2026-02-04 02:20:01",
-        "source": "streamlit",
-        "candidate": "Ervita Ervita",
-        "position": "Accounting Staff",
-        "success": true
-      },
       {
         "timestamp": "2026-02-04 02:20:49",
         "source": "streamlit",
@@ -1018,6 +1011,13 @@
         "timestamp": "2026-02-04 03:36:36",
         "source": "streamlit",
         "candidate": "Tika Darmayanti",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-04 03:37:42",
+        "source": "streamlit",
+        "candidate": "Muhammad Adrian Bagaskara",
         "position": "Accounting Staff",
         "success": true
       }
