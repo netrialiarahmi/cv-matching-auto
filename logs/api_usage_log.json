@@ -312,22 +312,15 @@
     ]
   },
   "2026-02-04": {
-    "total": 165,
-    "streamlit": 165,
+    "total": 166,
+    "streamlit": 166,
     "github_action": 0,
-    "successful": 165,
+    "successful": 166,
     "failed": 0,
     "positions": {
-      "Accounting Staff": 165
+      "Accounting Staff": 166
     },
     "entries": [
-      {
-        "timestamp": "2026-02-04 02:25:56",
-        "source": "streamlit",
-        "candidate": "Yhoga Pranata",
-        "position": "Accounting Staff",
-        "success": true
-      },
       {
         "timestamp": "2026-02-04 02:26:01",
         "source": "streamlit",
@@ -1018,6 +1011,13 @@
         "timestamp": "2026-02-04 03:42:23",
         "source": "streamlit",
         "candidate": "Elisabet Puspita Sari",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-04 03:43:05",
+        "source": "streamlit",
+        "candidate": "Dimas Teguh Ramadhan",
         "position": "Accounting Staff",
         "success": true
       }
