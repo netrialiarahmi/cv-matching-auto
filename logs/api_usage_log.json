@@ -312,22 +312,15 @@
     ]
   },
   "2026-02-04": {
-    "total": 120,
-    "streamlit": 120,
+    "total": 121,
+    "streamlit": 121,
     "github_action": 0,
-    "successful": 120,
+    "successful": 121,
     "failed": 0,
     "positions": {
-      "Accounting Staff": 120
+      "Accounting Staff": 121
     },
     "entries": [
-      {
-        "timestamp": "2026-02-04 01:54:48",
-        "source": "streamlit",
-        "candidate": "Michael  Henry",
-        "position": "Accounting Staff",
-        "success": true
-      },
       {
         "timestamp": "2026-02-04 01:55:33",
         "source": "streamlit",
@@ -1018,6 +1011,13 @@
         "timestamp": "2026-02-04 03:09:54",
         "source": "streamlit",
         "candidate": "Muhammad Adrian Bagaskara",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-04 03:09:58",
+        "source": "streamlit",
+        "candidate": "Ervita Ervita",
         "position": "Accounting Staff",
         "success": true
       }
