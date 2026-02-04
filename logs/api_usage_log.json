@@ -312,13 +312,13 @@
     ]
   },
   "2026-02-04": {
-    "total": 79,
-    "streamlit": 79,
+    "total": 80,
+    "streamlit": 80,
     "github_action": 0,
-    "successful": 79,
+    "successful": 80,
     "failed": 0,
     "positions": {
-      "Accounting Staff": 79
+      "Accounting Staff": 80
     },
     "entries": [
       {
@@ -871,6 +871,13 @@
         "timestamp": "2026-02-04 02:35:12",
         "source": "streamlit",
         "candidate": "Fiona Elisa Pratiwi",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-04 02:35:59",
+        "source": "streamlit",
+        "candidate": "Arif Rahman Hakim",
         "position": "Accounting Staff",
         "success": true
       }
