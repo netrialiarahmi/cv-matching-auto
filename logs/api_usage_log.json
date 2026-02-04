@@ -312,22 +312,15 @@
     ]
   },
   "2026-02-04": {
-    "total": 111,
-    "streamlit": 111,
+    "total": 112,
+    "streamlit": 112,
     "github_action": 0,
-    "successful": 111,
+    "successful": 112,
     "failed": 0,
     "positions": {
-      "Accounting Staff": 111
+      "Accounting Staff": 112
     },
     "entries": [
-      {
-        "timestamp": "2026-02-04 01:47:55",
-        "source": "streamlit",
-        "candidate": "Elvina Salsabilla",
-        "position": "Accounting Staff",
-        "success": true
-      },
       {
         "timestamp": "2026-02-04 01:48:42",
         "source": "streamlit",
@@ -1018,6 +1011,13 @@
         "timestamp": "2026-02-04 03:01:05",
         "source": "streamlit",
         "candidate": "Dimas Teguh Ramadhan",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-04 03:01:54",
+        "source": "streamlit",
+        "candidate": "Muhammad Rayhannur Harits",
         "position": "Accounting Staff",
         "success": true
       }
