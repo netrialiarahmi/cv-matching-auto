@@ -312,22 +312,15 @@
     ]
   },
   "2026-02-04": {
-    "total": 139,
-    "streamlit": 139,
+    "total": 140,
+    "streamlit": 140,
     "github_action": 0,
-    "successful": 139,
+    "successful": 140,
     "failed": 0,
     "positions": {
-      "Accounting Staff": 139
+      "Accounting Staff": 140
     },
     "entries": [
-      {
-        "timestamp": "2026-02-04 02:07:31",
-        "source": "streamlit",
-        "candidate": "Khusnul Khotimah",
-        "position": "Accounting Staff",
-        "success": true
-      },
       {
         "timestamp": "2026-02-04 02:08:17",
         "source": "streamlit",
@@ -1018,6 +1011,13 @@
         "timestamp": "2026-02-04 03:23:36",
         "source": "streamlit",
         "candidate": "Janet Prastyowati A",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-04 03:24:19",
+        "source": "streamlit",
+        "candidate": "Naifa Nur Fa’iza",
         "position": "Accounting Staff",
         "success": true
       }
