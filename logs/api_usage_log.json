@@ -312,13 +312,13 @@
     ]
   },
   "2026-02-04": {
-    "total": 56,
-    "streamlit": 56,
+    "total": 57,
+    "streamlit": 57,
     "github_action": 0,
-    "successful": 56,
+    "successful": 57,
     "failed": 0,
     "positions": {
-      "Accounting Staff": 56
+      "Accounting Staff": 57
     },
     "entries": [
       {
@@ -710,6 +710,13 @@
         "timestamp": "2026-02-04 02:19:09",
         "source": "streamlit",
         "candidate": "Khusnul Khotimah",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-04 02:19:57",
+        "source": "streamlit",
+        "candidate": "Muhammad Adrian Bagaskara",
         "position": "Accounting Staff",
         "success": true
       }
