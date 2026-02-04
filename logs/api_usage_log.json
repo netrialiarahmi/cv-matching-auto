@@ -312,22 +312,15 @@
     ]
   },
   "2026-02-04": {
-    "total": 133,
-    "streamlit": 133,
+    "total": 134,
+    "streamlit": 134,
     "github_action": 0,
-    "successful": 133,
+    "successful": 134,
     "failed": 0,
     "positions": {
-      "Accounting Staff": 133
+      "Accounting Staff": 134
     },
     "entries": [
-      {
-        "timestamp": "2026-02-04 02:02:46",
-        "source": "streamlit",
-        "candidate": "Agriani Esa Arianti, S.E",
-        "position": "Accounting Staff",
-        "success": true
-      },
       {
         "timestamp": "2026-02-04 02:03:27",
         "source": "streamlit",
@@ -1018,6 +1011,13 @@
         "timestamp": "2026-02-04 03:18:59",
         "source": "streamlit",
         "candidate": "Qori Atun Soleha",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-04 03:19:44",
+        "source": "streamlit",
+        "candidate": "Fiona Elisa Pratiwi",
         "position": "Accounting Staff",
         "success": true
       }
