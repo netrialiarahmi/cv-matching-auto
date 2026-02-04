@@ -312,22 +312,15 @@
     ]
   },
   "2026-02-04": {
-    "total": 150,
-    "streamlit": 150,
+    "total": 151,
+    "streamlit": 151,
     "github_action": 0,
-    "successful": 150,
+    "successful": 151,
     "failed": 0,
     "positions": {
-      "Accounting Staff": 150
+      "Accounting Staff": 151
     },
     "entries": [
-      {
-        "timestamp": "2026-02-04 02:15:07",
-        "source": "streamlit",
-        "candidate": "Shafira Imnes Rama Yanti",
-        "position": "Accounting Staff",
-        "success": true
-      },
       {
         "timestamp": "2026-02-04 02:15:53",
         "source": "streamlit",
@@ -1018,6 +1011,13 @@
         "timestamp": "2026-02-04 03:31:15",
         "source": "streamlit",
         "candidate": "Feryantosa Elfin Diah Wijayanti",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-04 03:32:03",
+        "source": "streamlit",
+        "candidate": "Raden Syaffira",
         "position": "Accounting Staff",
         "success": true
       }
