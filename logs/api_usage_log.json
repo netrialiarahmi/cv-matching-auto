@@ -312,22 +312,15 @@
     ]
   },
   "2026-02-04": {
-    "total": 143,
-    "streamlit": 143,
+    "total": 144,
+    "streamlit": 144,
     "github_action": 0,
-    "successful": 143,
+    "successful": 144,
     "failed": 0,
     "positions": {
-      "Accounting Staff": 143
+      "Accounting Staff": 144
     },
     "entries": [
-      {
-        "timestamp": "2026-02-04 02:10:05",
-        "source": "streamlit",
-        "candidate": "Agriani Esa Arianti, S.E",
-        "position": "Accounting Staff",
-        "success": true
-      },
       {
         "timestamp": "2026-02-04 02:10:48",
         "source": "streamlit",
@@ -1018,6 +1011,13 @@
         "timestamp": "2026-02-04 03:25:56",
         "source": "streamlit",
         "candidate": "Nahrisal Nurfajar",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-04 03:26:41",
+        "source": "streamlit",
+        "candidate": "Petrus Ricardo",
         "position": "Accounting Staff",
         "success": true
       }
