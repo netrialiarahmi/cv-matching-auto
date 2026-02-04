@@ -312,13 +312,13 @@
     ]
   },
   "2026-02-04": {
-    "total": 16,
-    "streamlit": 16,
+    "total": 17,
+    "streamlit": 17,
     "github_action": 0,
-    "successful": 16,
+    "successful": 17,
     "failed": 0,
     "positions": {
-      "Accounting Staff": 16
+      "Accounting Staff": 17
     },
     "entries": [
       {
@@ -430,6 +430,13 @@
         "timestamp": "2026-02-04 01:50:56",
         "source": "streamlit",
         "candidate": "FEBRIANTI ANDIKA PUTRI",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-04 01:51:39",
+        "source": "streamlit",
+        "candidate": "Gema Muharam",
         "position": "Accounting Staff",
         "success": true
       }
