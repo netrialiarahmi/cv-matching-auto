@@ -312,13 +312,13 @@
     ]
   },
   "2026-02-04": {
-    "total": 69,
-    "streamlit": 69,
+    "total": 70,
+    "streamlit": 70,
     "github_action": 0,
-    "successful": 69,
+    "successful": 70,
     "failed": 0,
     "positions": {
-      "Accounting Staff": 69
+      "Accounting Staff": 70
     },
     "entries": [
       {
@@ -801,6 +801,13 @@
         "timestamp": "2026-02-04 02:27:31",
         "source": "streamlit",
         "candidate": "Elisabet Puspita Sari",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-04 02:28:20",
+        "source": "streamlit",
+        "candidate": "Dimas Teguh Ramadhan",
         "position": "Accounting Staff",
         "success": true
       }
