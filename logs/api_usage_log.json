@@ -312,22 +312,15 @@
     ]
   },
   "2026-02-04": {
-    "total": 140,
-    "streamlit": 140,
+    "total": 141,
+    "streamlit": 141,
     "github_action": 0,
-    "successful": 140,
+    "successful": 141,
     "failed": 0,
     "positions": {
-      "Accounting Staff": 140
+      "Accounting Staff": 141
     },
     "entries": [
-      {
-        "timestamp": "2026-02-04 02:08:17",
-        "source": "streamlit",
-        "candidate": "Muhammad Adrian Bagaskara",
-        "position": "Accounting Staff",
-        "success": true
-      },
       {
         "timestamp": "2026-02-04 02:08:22",
         "source": "streamlit",
@@ -1018,6 +1011,13 @@
         "timestamp": "2026-02-04 03:24:19",
         "source": "streamlit",
         "candidate": "Naifa Nur Fa’iza",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-04 03:25:08",
+        "source": "streamlit",
+        "candidate": "Nur Irfansah",
         "position": "Accounting Staff",
         "success": true
       }
