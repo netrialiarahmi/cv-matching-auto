@@ -312,13 +312,13 @@
     ]
   },
   "2026-02-04": {
-    "total": 29,
-    "streamlit": 29,
+    "total": 30,
+    "streamlit": 30,
     "github_action": 0,
-    "successful": 29,
+    "successful": 30,
     "failed": 0,
     "positions": {
-      "Accounting Staff": 29
+      "Accounting Staff": 30
     },
     "entries": [
       {
@@ -521,6 +521,13 @@
         "timestamp": "2026-02-04 01:59:32",
         "source": "streamlit",
         "candidate": "Natasya Wolok",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-04 02:00:13",
+        "source": "streamlit",
+        "candidate": "Khusnul Khotimah",
         "position": "Accounting Staff",
         "success": true
       }
