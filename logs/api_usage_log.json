@@ -312,13 +312,13 @@
     ]
   },
   "2026-02-04": {
-    "total": 22,
-    "streamlit": 22,
+    "total": 23,
+    "streamlit": 23,
     "github_action": 0,
-    "successful": 22,
+    "successful": 23,
     "failed": 0,
     "positions": {
-      "Accounting Staff": 22
+      "Accounting Staff": 23
     },
     "entries": [
       {
@@ -472,6 +472,13 @@
         "timestamp": "2026-02-04 01:55:33",
         "source": "streamlit",
         "candidate": "Hammam Fuad Hasyim",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-04 01:56:19",
+        "source": "streamlit",
+        "candidate": "Audrea Maria M",
         "position": "Accounting Staff",
         "success": true
       }
