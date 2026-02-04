@@ -312,22 +312,15 @@
     ]
   },
   "2026-02-04": {
-    "total": 170,
-    "streamlit": 170,
+    "total": 171,
+    "streamlit": 171,
     "github_action": 0,
-    "successful": 170,
+    "successful": 171,
     "failed": 0,
     "positions": {
-      "Accounting Staff": 170
+      "Accounting Staff": 171
     },
     "entries": [
-      {
-        "timestamp": "2026-02-04 02:29:08",
-        "source": "streamlit",
-        "candidate": "Muhammad Rayhannur Harits",
-        "position": "Accounting Staff",
-        "success": true
-      },
       {
         "timestamp": "2026-02-04 02:29:55",
         "source": "streamlit",
@@ -1018,6 +1011,13 @@
         "timestamp": "2026-02-04 03:46:06",
         "source": "streamlit",
         "candidate": "Qori Atun Soleha",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-04 03:46:47",
+        "source": "streamlit",
+        "candidate": "Arif Rahman Hakim",
         "position": "Accounting Staff",
         "success": true
       }
