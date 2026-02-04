@@ -312,22 +312,15 @@
     ]
   },
   "2026-02-04": {
-    "total": 176,
-    "streamlit": 176,
+    "total": 177,
+    "streamlit": 177,
     "github_action": 0,
-    "successful": 176,
+    "successful": 177,
     "failed": 0,
     "positions": {
-      "Accounting Staff": 176
+      "Accounting Staff": 177
     },
     "entries": [
-      {
-        "timestamp": "2026-02-04 02:33:45",
-        "source": "streamlit",
-        "candidate": "Mohammad Hafidz Widyatama",
-        "position": "Accounting Staff",
-        "success": true
-      },
       {
         "timestamp": "2026-02-04 02:34:28",
         "source": "streamlit",
@@ -1018,6 +1011,13 @@
         "timestamp": "2026-02-04 03:50:32",
         "source": "streamlit",
         "candidate": "Naifa Nur Fa’iza",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-04 03:51:18",
+        "source": "streamlit",
+        "candidate": "Shirley Tjung",
         "position": "Accounting Staff",
         "success": true
       }
