@@ -312,13 +312,13 @@
     ]
   },
   "2026-02-04": {
-    "total": 68,
-    "streamlit": 68,
+    "total": 69,
+    "streamlit": 69,
     "github_action": 0,
-    "successful": 68,
+    "successful": 69,
     "failed": 0,
     "positions": {
-      "Accounting Staff": 68
+      "Accounting Staff": 69
     },
     "entries": [
       {
@@ -794,6 +794,13 @@
         "timestamp": "2026-02-04 02:26:45",
         "source": "streamlit",
         "candidate": "Tracy Valerie  Bacas",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-04 02:27:31",
+        "source": "streamlit",
+        "candidate": "Elisabet Puspita Sari",
         "position": "Accounting Staff",
         "success": true
       }
