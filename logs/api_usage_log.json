@@ -312,22 +312,15 @@
     ]
   },
   "2026-02-04": {
-    "total": 116,
-    "streamlit": 116,
+    "total": 117,
+    "streamlit": 117,
     "github_action": 0,
-    "successful": 116,
+    "successful": 117,
     "failed": 0,
     "positions": {
-      "Accounting Staff": 116
+      "Accounting Staff": 117
     },
     "entries": [
-      {
-        "timestamp": "2026-02-04 01:51:39",
-        "source": "streamlit",
-        "candidate": "Gema Muharam",
-        "position": "Accounting Staff",
-        "success": true
-      },
       {
         "timestamp": "2026-02-04 01:52:24",
         "source": "streamlit",
@@ -1018,6 +1011,13 @@
         "timestamp": "2026-02-04 03:04:51",
         "source": "streamlit",
         "candidate": "Mohammad Hafidz Widyatama",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-04 03:05:35",
+        "source": "streamlit",
+        "candidate": "Qori Atun Soleha",
         "position": "Accounting Staff",
         "success": true
       }
