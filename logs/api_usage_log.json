@@ -312,13 +312,13 @@
     ]
   },
   "2026-02-04": {
-    "total": 51,
-    "streamlit": 51,
+    "total": 52,
+    "streamlit": 52,
     "github_action": 0,
-    "successful": 51,
+    "successful": 52,
     "failed": 0,
     "positions": {
-      "Accounting Staff": 51
+      "Accounting Staff": 52
     },
     "entries": [
       {
@@ -675,6 +675,13 @@
         "timestamp": "2026-02-04 02:15:07",
         "source": "streamlit",
         "candidate": "Shafira Imnes Rama Yanti",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-04 02:15:53",
+        "source": "streamlit",
+        "candidate": "Yhoga Pranata",
         "position": "Accounting Staff",
         "success": true
       }
