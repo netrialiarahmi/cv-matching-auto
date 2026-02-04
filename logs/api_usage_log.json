@@ -312,13 +312,13 @@
     ]
   },
   "2026-02-04": {
-    "total": 89,
-    "streamlit": 89,
+    "total": 90,
+    "streamlit": 90,
     "github_action": 0,
-    "successful": 89,
+    "successful": 90,
     "failed": 0,
     "positions": {
-      "Accounting Staff": 89
+      "Accounting Staff": 90
     },
     "entries": [
       {
@@ -941,6 +941,13 @@
         "timestamp": "2026-02-04 02:42:04",
         "source": "streamlit",
         "candidate": "Hanif  Fathoni",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-04 02:42:49",
+        "source": "streamlit",
+        "candidate": "Dina Lestari",
         "position": "Accounting Staff",
         "success": true
       }
