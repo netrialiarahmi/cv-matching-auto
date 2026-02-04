@@ -312,22 +312,15 @@
     ]
   },
   "2026-02-04": {
-    "total": 125,
-    "streamlit": 125,
+    "total": 126,
+    "streamlit": 126,
     "github_action": 0,
-    "successful": 125,
+    "successful": 126,
     "failed": 0,
     "positions": {
-      "Accounting Staff": 125
+      "Accounting Staff": 126
     },
     "entries": [
-      {
-        "timestamp": "2026-02-04 01:57:56",
-        "source": "streamlit",
-        "candidate": "Rizky Junifadli",
-        "position": "Accounting Staff",
-        "success": true
-      },
       {
         "timestamp": "2026-02-04 01:58:40",
         "source": "streamlit",
@@ -1018,6 +1011,13 @@
         "timestamp": "2026-02-04 03:12:54",
         "source": "streamlit",
         "candidate": "Achmad Yusuf",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-04 03:13:44",
+        "source": "streamlit",
+        "candidate": "Yhoga Pranata",
         "position": "Accounting Staff",
         "success": true
       }
