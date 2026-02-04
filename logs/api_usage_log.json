@@ -312,13 +312,13 @@
     ]
   },
   "2026-02-04": {
-    "total": 39,
-    "streamlit": 39,
+    "total": 40,
+    "streamlit": 40,
     "github_action": 0,
-    "successful": 39,
+    "successful": 40,
     "failed": 0,
     "positions": {
-      "Accounting Staff": 39
+      "Accounting Staff": 40
     },
     "entries": [
       {
@@ -591,6 +591,13 @@
         "timestamp": "2026-02-04 02:06:20",
         "source": "streamlit",
         "candidate": "Achmad Yusuf",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-04 02:07:31",
+        "source": "streamlit",
+        "candidate": "Khusnul Khotimah",
         "position": "Accounting Staff",
         "success": true
       }
