@@ -312,22 +312,15 @@
     ]
   },
   "2026-02-04": {
-    "total": 156,
-    "streamlit": 156,
+    "total": 157,
+    "streamlit": 157,
     "github_action": 0,
-    "successful": 156,
+    "successful": 157,
     "failed": 0,
     "positions": {
-      "Accounting Staff": 156
+      "Accounting Staff": 157
     },
     "entries": [
-      {
-        "timestamp": "2026-02-04 02:19:57",
-        "source": "streamlit",
-        "candidate": "Muhammad Adrian Bagaskara",
-        "position": "Accounting Staff",
-        "success": true
-      },
       {
         "timestamp": "2026-02-04 02:20:01",
         "source": "streamlit",
@@ -1018,6 +1011,13 @@
         "timestamp": "2026-02-04 03:35:50",
         "source": "streamlit",
         "candidate": "Christian Aryo Wibisono",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-04 03:36:36",
+        "source": "streamlit",
+        "candidate": "Tika Darmayanti",
         "position": "Accounting Staff",
         "success": true
       }
