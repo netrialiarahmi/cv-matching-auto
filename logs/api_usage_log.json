@@ -312,22 +312,15 @@
     ]
   },
   "2026-02-04": {
-    "total": 146,
-    "streamlit": 146,
+    "total": 147,
+    "streamlit": 147,
     "github_action": 0,
-    "successful": 146,
+    "successful": 147,
     "failed": 0,
     "positions": {
-      "Accounting Staff": 146
+      "Accounting Staff": 147
     },
     "entries": [
-      {
-        "timestamp": "2026-02-04 02:12:20",
-        "source": "streamlit",
-        "candidate": "Haidar Hamim Probo",
-        "position": "Accounting Staff",
-        "success": true
-      },
       {
         "timestamp": "2026-02-04 02:13:02",
         "source": "streamlit",
@@ -1018,6 +1011,13 @@
         "timestamp": "2026-02-04 03:28:17",
         "source": "streamlit",
         "candidate": "I Dewa Made Sugiantara",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-04 03:28:58",
+        "source": "streamlit",
+        "candidate": "Deni Syufri",
         "position": "Accounting Staff",
         "success": true
       }
