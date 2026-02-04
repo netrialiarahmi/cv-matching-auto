@@ -312,13 +312,13 @@
     ]
   },
   "2026-02-04": {
-    "total": 21,
-    "streamlit": 21,
+    "total": 22,
+    "streamlit": 22,
     "github_action": 0,
-    "successful": 21,
+    "successful": 22,
     "failed": 0,
     "positions": {
-      "Accounting Staff": 21
+      "Accounting Staff": 22
     },
     "entries": [
       {
@@ -465,6 +465,13 @@
         "timestamp": "2026-02-04 01:54:48",
         "source": "streamlit",
         "candidate": "Michael  Henry",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-04 01:55:33",
+        "source": "streamlit",
+        "candidate": "Hammam Fuad Hasyim",
         "position": "Accounting Staff",
         "success": true
       }
