@@ -312,13 +312,13 @@
     ]
   },
   "2026-02-04": {
-    "total": 74,
-    "streamlit": 74,
+    "total": 75,
+    "streamlit": 75,
     "github_action": 0,
-    "successful": 74,
+    "successful": 75,
     "failed": 0,
     "positions": {
-      "Accounting Staff": 74
+      "Accounting Staff": 75
     },
     "entries": [
       {
@@ -836,6 +836,13 @@
         "timestamp": "2026-02-04 02:31:23",
         "source": "streamlit",
         "candidate": "Irvinta Mestika  Sari",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-04 02:32:09",
+        "source": "streamlit",
+        "candidate": "falaah bait yaa siin",
         "position": "Accounting Staff",
         "success": true
       }
