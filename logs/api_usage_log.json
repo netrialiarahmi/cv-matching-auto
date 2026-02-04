@@ -312,13 +312,13 @@
     ]
   },
   "2026-02-04": {
-    "total": 99,
-    "streamlit": 99,
+    "total": 100,
+    "streamlit": 100,
     "github_action": 0,
-    "successful": 99,
+    "successful": 100,
     "failed": 0,
     "positions": {
-      "Accounting Staff": 99
+      "Accounting Staff": 100
     },
     "entries": [
       {
@@ -1011,6 +1011,13 @@
         "timestamp": "2026-02-04 02:49:27",
         "source": "streamlit",
         "candidate": "Nidya Nurul Qonitah",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-04 02:53:18",
+        "source": "streamlit",
+        "candidate": "Khusnul Khotimah",
         "position": "Accounting Staff",
         "success": true
       }
