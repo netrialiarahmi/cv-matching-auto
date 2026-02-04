@@ -312,13 +312,13 @@
     ]
   },
   "2026-02-04": {
-    "total": 20,
-    "streamlit": 20,
+    "total": 21,
+    "streamlit": 21,
     "github_action": 0,
-    "successful": 20,
+    "successful": 21,
     "failed": 0,
     "positions": {
-      "Accounting Staff": 20
+      "Accounting Staff": 21
     },
     "entries": [
       {
@@ -458,6 +458,13 @@
         "timestamp": "2026-02-04 01:53:58",
         "source": "streamlit",
         "candidate": "Ahmad Hafidz",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-04 01:54:48",
+        "source": "streamlit",
+        "candidate": "Michael  Henry",
         "position": "Accounting Staff",
         "success": true
       }
