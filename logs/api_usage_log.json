@@ -312,13 +312,13 @@
     ]
   },
   "2026-02-04": {
-    "total": 94,
-    "streamlit": 94,
+    "total": 95,
+    "streamlit": 95,
     "github_action": 0,
-    "successful": 94,
+    "successful": 95,
     "failed": 0,
     "positions": {
-      "Accounting Staff": 94
+      "Accounting Staff": 95
     },
     "entries": [
       {
@@ -976,6 +976,13 @@
         "timestamp": "2026-02-04 02:45:45",
         "source": "streamlit",
         "candidate": "Dimas Teguh Ramadhan",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-04 02:46:33",
+        "source": "streamlit",
+        "candidate": "Muhammad Rayhannur Harits",
         "position": "Accounting Staff",
         "success": true
       }
