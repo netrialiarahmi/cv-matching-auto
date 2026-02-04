@@ -312,13 +312,13 @@
     ]
   },
   "2026-02-04": {
-    "total": 35,
-    "streamlit": 35,
+    "total": 36,
+    "streamlit": 36,
     "github_action": 0,
-    "successful": 35,
+    "successful": 36,
     "failed": 0,
     "positions": {
-      "Accounting Staff": 35
+      "Accounting Staff": 36
     },
     "entries": [
       {
@@ -563,6 +563,13 @@
         "timestamp": "2026-02-04 02:03:27",
         "source": "streamlit",
         "candidate": "Erseto Wicaksono",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-04 02:04:14",
+        "source": "streamlit",
+        "candidate": "Fran Giska Fadhiya Haya",
         "position": "Accounting Staff",
         "success": true
       }
