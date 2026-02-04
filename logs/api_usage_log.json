@@ -312,13 +312,13 @@
     ]
   },
   "2026-02-04": {
-    "total": 17,
-    "streamlit": 17,
+    "total": 18,
+    "streamlit": 18,
     "github_action": 0,
-    "successful": 17,
+    "successful": 18,
     "failed": 0,
     "positions": {
-      "Accounting Staff": 17
+      "Accounting Staff": 18
     },
     "entries": [
       {
@@ -437,6 +437,13 @@
         "timestamp": "2026-02-04 01:51:39",
         "source": "streamlit",
         "candidate": "Gema Muharam",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-04 01:52:24",
+        "source": "streamlit",
+        "candidate": "Lilis Ananda",
         "position": "Accounting Staff",
         "success": true
       }
