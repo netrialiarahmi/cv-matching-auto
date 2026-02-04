@@ -312,13 +312,13 @@
     ]
   },
   "2026-02-04": {
-    "total": 24,
-    "streamlit": 24,
+    "total": 25,
+    "streamlit": 25,
     "github_action": 0,
-    "successful": 24,
+    "successful": 25,
     "failed": 0,
     "positions": {
-      "Accounting Staff": 24
+      "Accounting Staff": 25
     },
     "entries": [
       {
@@ -486,6 +486,13 @@
         "timestamp": "2026-02-04 01:56:23",
         "source": "streamlit",
         "candidate": "Annisa Nisrina",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-04 01:57:09",
+        "source": "streamlit",
+        "candidate": "Riziq Fajar  Ramadhan",
         "position": "Accounting Staff",
         "success": true
       }
