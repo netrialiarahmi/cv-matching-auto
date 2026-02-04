@@ -312,22 +312,15 @@
     ]
   },
   "2026-02-04": {
-    "total": 109,
-    "streamlit": 109,
+    "total": 110,
+    "streamlit": 110,
     "github_action": 0,
-    "successful": 109,
+    "successful": 110,
     "failed": 0,
     "positions": {
-      "Accounting Staff": 109
+      "Accounting Staff": 110
     },
     "entries": [
-      {
-        "timestamp": "2026-02-04 01:46:19",
-        "source": "streamlit",
-        "candidate": "Mita Lestiany",
-        "position": "Accounting Staff",
-        "success": true
-      },
       {
         "timestamp": "2026-02-04 01:47:06",
         "source": "streamlit",
@@ -1018,6 +1011,13 @@
         "timestamp": "2026-02-04 02:59:25",
         "source": "streamlit",
         "candidate": "Tracy Valerie  Bacas",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-04 03:00:16",
+        "source": "streamlit",
+        "candidate": "Elisabet Puspita Sari",
         "position": "Accounting Staff",
         "success": true
       }
