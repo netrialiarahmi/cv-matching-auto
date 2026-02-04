@@ -312,22 +312,15 @@
     ]
   },
   "2026-02-04": {
-    "total": 154,
-    "streamlit": 154,
+    "total": 155,
+    "streamlit": 155,
     "github_action": 0,
-    "successful": 154,
+    "successful": 155,
     "failed": 0,
     "positions": {
-      "Accounting Staff": 154
+      "Accounting Staff": 155
     },
     "entries": [
-      {
-        "timestamp": "2026-02-04 02:17:25",
-        "source": "streamlit",
-        "candidate": "Elisabet Puspita Sari",
-        "position": "Accounting Staff",
-        "success": true
-      },
       {
         "timestamp": "2026-02-04 02:19:09",
         "source": "streamlit",
@@ -1018,6 +1011,13 @@
         "timestamp": "2026-02-04 03:34:18",
         "source": "streamlit",
         "candidate": "Sephia Putri Pertiwi",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-04 03:35:06",
+        "source": "streamlit",
+        "candidate": "Silfi  Apriliyani",
         "position": "Accounting Staff",
         "success": true
       }
