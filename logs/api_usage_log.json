@@ -312,13 +312,13 @@
     ]
   },
   "2026-02-04": {
-    "total": 8,
-    "streamlit": 8,
+    "total": 9,
+    "streamlit": 9,
     "github_action": 0,
-    "successful": 8,
+    "successful": 9,
     "failed": 0,
     "positions": {
-      "Accounting Staff": 8
+      "Accounting Staff": 9
     },
     "entries": [
       {
@@ -374,6 +374,13 @@
         "timestamp": "2026-02-04 01:44:40",
         "source": "streamlit",
         "candidate": "Zahra Afaf",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-04 01:45:27",
+        "source": "streamlit",
+        "candidate": "Adhyatmikarabbani .",
         "position": "Accounting Staff",
         "success": true
       }
