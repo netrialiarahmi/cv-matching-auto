@@ -312,22 +312,15 @@
     ]
   },
   "2026-02-04": {
-    "total": 145,
-    "streamlit": 145,
+    "total": 146,
+    "streamlit": 146,
     "github_action": 0,
-    "successful": 145,
+    "successful": 146,
     "failed": 0,
     "positions": {
-      "Accounting Staff": 145
+      "Accounting Staff": 146
     },
     "entries": [
-      {
-        "timestamp": "2026-02-04 02:11:33",
-        "source": "streamlit",
-        "candidate": "Fran Giska Fadhiya Haya",
-        "position": "Accounting Staff",
-        "success": true
-      },
       {
         "timestamp": "2026-02-04 02:12:20",
         "source": "streamlit",
@@ -1018,6 +1011,13 @@
         "timestamp": "2026-02-04 03:27:29",
         "source": "streamlit",
         "candidate": "Raihan Dimas Saputra",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-04 03:28:17",
+        "source": "streamlit",
+        "candidate": "I Dewa Made Sugiantara",
         "position": "Accounting Staff",
         "success": true
       }
