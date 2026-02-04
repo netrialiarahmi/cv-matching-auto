@@ -312,19 +312,26 @@
     ]
   },
   "2026-02-04": {
-    "total": 1,
-    "streamlit": 1,
+    "total": 2,
+    "streamlit": 2,
     "github_action": 0,
-    "successful": 1,
+    "successful": 2,
     "failed": 0,
     "positions": {
-      "Accounting Staff": 1
+      "Accounting Staff": 2
     },
     "entries": [
       {
         "timestamp": "2026-02-04 01:39:28",
         "source": "streamlit",
         "candidate": "dimas mahendra",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-04 01:40:13",
+        "source": "streamlit",
+        "candidate": "Ihza Nurman Amrulloh",
         "position": "Accounting Staff",
         "success": true
       }
