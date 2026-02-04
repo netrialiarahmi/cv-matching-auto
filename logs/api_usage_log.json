@@ -312,22 +312,15 @@
     ]
   },
   "2026-02-04": {
-    "total": 148,
-    "streamlit": 148,
+    "total": 149,
+    "streamlit": 149,
     "github_action": 0,
-    "successful": 148,
+    "successful": 149,
     "failed": 0,
     "positions": {
-      "Accounting Staff": 148
+      "Accounting Staff": 149
     },
     "entries": [
-      {
-        "timestamp": "2026-02-04 02:13:40",
-        "source": "streamlit",
-        "candidate": "Hanif  Fathoni",
-        "position": "Accounting Staff",
-        "success": true
-      },
       {
         "timestamp": "2026-02-04 02:14:19",
         "source": "streamlit",
@@ -1018,6 +1011,13 @@
         "timestamp": "2026-02-04 03:29:41",
         "source": "streamlit",
         "candidate": "Bagas Adianto",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-04 03:30:28",
+        "source": "streamlit",
+        "candidate": "Muhamad Fadilah  Al Habsy",
         "position": "Accounting Staff",
         "success": true
       }
