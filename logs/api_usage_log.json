@@ -312,22 +312,15 @@
     ]
   },
   "2026-02-04": {
-    "total": 106,
-    "streamlit": 106,
+    "total": 107,
+    "streamlit": 107,
     "github_action": 0,
-    "successful": 106,
+    "successful": 107,
     "failed": 0,
     "positions": {
-      "Accounting Staff": 106
+      "Accounting Staff": 107
     },
     "entries": [
-      {
-        "timestamp": "2026-02-04 01:43:51",
-        "source": "streamlit",
-        "candidate": "Ribka Tasya",
-        "position": "Accounting Staff",
-        "success": true
-      },
       {
         "timestamp": "2026-02-04 01:44:40",
         "source": "streamlit",
@@ -1018,6 +1011,13 @@
         "timestamp": "2026-02-04 02:57:07",
         "source": "streamlit",
         "candidate": "Achmad Yusuf",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-04 02:57:49",
+        "source": "streamlit",
+        "candidate": "Dina Lestari",
         "position": "Accounting Staff",
         "success": true
       }
