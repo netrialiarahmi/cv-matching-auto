@@ -312,22 +312,15 @@
     ]
   },
   "2026-02-04": {
-    "total": 149,
-    "streamlit": 149,
+    "total": 150,
+    "streamlit": 150,
     "github_action": 0,
-    "successful": 149,
+    "successful": 150,
     "failed": 0,
     "positions": {
-      "Accounting Staff": 149
+      "Accounting Staff": 150
     },
     "entries": [
-      {
-        "timestamp": "2026-02-04 02:14:19",
-        "source": "streamlit",
-        "candidate": "Dina Lestari",
-        "position": "Accounting Staff",
-        "success": true
-      },
       {
         "timestamp": "2026-02-04 02:15:07",
         "source": "streamlit",
@@ -1018,6 +1011,13 @@
         "timestamp": "2026-02-04 03:30:28",
         "source": "streamlit",
         "candidate": "Muhamad Fadilah  Al Habsy",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-04 03:31:15",
+        "source": "streamlit",
+        "candidate": "Feryantosa Elfin Diah Wijayanti",
         "position": "Accounting Staff",
         "success": true
       }
