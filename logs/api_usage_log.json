@@ -312,13 +312,13 @@
     ]
   },
   "2026-02-04": {
-    "total": 5,
-    "streamlit": 5,
+    "total": 6,
+    "streamlit": 6,
     "github_action": 0,
-    "successful": 5,
+    "successful": 6,
     "failed": 0,
     "positions": {
-      "Accounting Staff": 5
+      "Accounting Staff": 6
     },
     "entries": [
       {
@@ -353,6 +353,13 @@
         "timestamp": "2026-02-04 01:42:22",
         "source": "streamlit",
         "candidate": "Benedicta Rafensca Merry Christa",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-04 01:43:09",
+        "source": "streamlit",
+        "candidate": "Sani cristin",
         "position": "Accounting Staff",
         "success": true
       }
