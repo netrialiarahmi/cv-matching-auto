@@ -312,13 +312,13 @@
     ]
   },
   "2026-02-04": {
-    "total": 67,
-    "streamlit": 67,
+    "total": 68,
+    "streamlit": 68,
     "github_action": 0,
-    "successful": 67,
+    "successful": 68,
     "failed": 0,
     "positions": {
-      "Accounting Staff": 67
+      "Accounting Staff": 68
     },
     "entries": [
       {
@@ -787,6 +787,13 @@
         "timestamp": "2026-02-04 02:26:01",
         "source": "streamlit",
         "candidate": "Langgeng Harum Islami",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-04 02:26:45",
+        "source": "streamlit",
+        "candidate": "Tracy Valerie  Bacas",
         "position": "Accounting Staff",
         "success": true
       }
