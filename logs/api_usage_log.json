@@ -312,13 +312,13 @@
     ]
   },
   "2026-02-04": {
-    "total": 7,
-    "streamlit": 7,
+    "total": 8,
+    "streamlit": 8,
     "github_action": 0,
-    "successful": 7,
+    "successful": 8,
     "failed": 0,
     "positions": {
-      "Accounting Staff": 7
+      "Accounting Staff": 8
     },
     "entries": [
       {
@@ -367,6 +367,13 @@
         "timestamp": "2026-02-04 01:43:51",
         "source": "streamlit",
         "candidate": "Ribka Tasya",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-04 01:44:40",
+        "source": "streamlit",
+        "candidate": "Zahra Afaf",
         "position": "Accounting Staff",
         "success": true
       }
