@@ -312,22 +312,15 @@
     ]
   },
   "2026-02-04": {
-    "total": 169,
-    "streamlit": 169,
+    "total": 170,
+    "streamlit": 170,
     "github_action": 0,
-    "successful": 169,
+    "successful": 170,
     "failed": 0,
     "positions": {
-      "Accounting Staff": 169
+      "Accounting Staff": 170
     },
     "entries": [
-      {
-        "timestamp": "2026-02-04 02:28:20",
-        "source": "streamlit",
-        "candidate": "Dimas Teguh Ramadhan",
-        "position": "Accounting Staff",
-        "success": true
-      },
       {
         "timestamp": "2026-02-04 02:29:08",
         "source": "streamlit",
@@ -1018,6 +1011,13 @@
         "timestamp": "2026-02-04 03:45:21",
         "source": "streamlit",
         "candidate": "Nidya Nurul Qonitah",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-04 03:46:06",
+        "source": "streamlit",
+        "candidate": "Qori Atun Soleha",
         "position": "Accounting Staff",
         "success": true
       }
