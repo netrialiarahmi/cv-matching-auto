@@ -312,13 +312,13 @@
     ]
   },
   "2026-02-04": {
-    "total": 12,
-    "streamlit": 12,
+    "total": 13,
+    "streamlit": 13,
     "github_action": 0,
-    "successful": 12,
+    "successful": 13,
     "failed": 0,
     "positions": {
-      "Accounting Staff": 12
+      "Accounting Staff": 13
     },
     "entries": [
       {
@@ -402,6 +402,13 @@
         "timestamp": "2026-02-04 01:47:55",
         "source": "streamlit",
         "candidate": "Elvina Salsabilla",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-04 01:48:42",
+        "source": "streamlit",
+        "candidate": "Yayu Yesika",
         "position": "Accounting Staff",
         "success": true
       }
