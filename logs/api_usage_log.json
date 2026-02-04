@@ -312,13 +312,13 @@
     ]
   },
   "2026-02-04": {
-    "total": 78,
-    "streamlit": 78,
+    "total": 79,
+    "streamlit": 79,
     "github_action": 0,
-    "successful": 78,
+    "successful": 79,
     "failed": 0,
     "positions": {
-      "Accounting Staff": 78
+      "Accounting Staff": 79
     },
     "entries": [
       {
@@ -864,6 +864,13 @@
         "timestamp": "2026-02-04 02:34:28",
         "source": "streamlit",
         "candidate": "Qori Atun Soleha",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-04 02:35:12",
+        "source": "streamlit",
+        "candidate": "Fiona Elisa Pratiwi",
         "position": "Accounting Staff",
         "success": true
       }
