@@ -312,22 +312,15 @@
     ]
   },
   "2026-02-04": {
-    "total": 118,
-    "streamlit": 118,
+    "total": 119,
+    "streamlit": 119,
     "github_action": 0,
-    "successful": 118,
+    "successful": 119,
     "failed": 0,
     "positions": {
-      "Accounting Staff": 118
+      "Accounting Staff": 119
     },
     "entries": [
-      {
-        "timestamp": "2026-02-04 01:53:09",
-        "source": "streamlit",
-        "candidate": "Giska Hawa Syahrani",
-        "position": "Accounting Staff",
-        "success": true
-      },
       {
         "timestamp": "2026-02-04 01:53:58",
         "source": "streamlit",
@@ -1018,6 +1011,13 @@
         "timestamp": "2026-02-04 03:06:21",
         "source": "streamlit",
         "candidate": "Fiona Elisa Pratiwi",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-04 03:09:04",
+        "source": "streamlit",
+        "candidate": "Khusnul Khotimah",
         "position": "Accounting Staff",
         "success": true
       }
