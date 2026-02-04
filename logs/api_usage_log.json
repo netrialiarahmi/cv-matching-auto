@@ -312,22 +312,15 @@
     ]
   },
   "2026-02-04": {
-    "total": 182,
-    "streamlit": 182,
+    "total": 183,
+    "streamlit": 183,
     "github_action": 0,
-    "successful": 182,
+    "successful": 183,
     "failed": 0,
     "positions": {
-      "Accounting Staff": 182
+      "Accounting Staff": 183
     },
     "entries": [
-      {
-        "timestamp": "2026-02-04 02:38:20",
-        "source": "streamlit",
-        "candidate": "Muhammad Adrian Bagaskara",
-        "position": "Accounting Staff",
-        "success": true
-      },
       {
         "timestamp": "2026-02-04 02:38:24",
         "source": "streamlit",
@@ -1018,6 +1011,13 @@
         "timestamp": "2026-02-04 03:54:18",
         "source": "streamlit",
         "candidate": "Deni Syufri",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-04 03:55:03",
+        "source": "streamlit",
+        "candidate": "Bagas Adianto",
         "position": "Accounting Staff",
         "success": true
       }
