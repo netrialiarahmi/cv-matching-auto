@@ -312,13 +312,13 @@
     ]
   },
   "2026-02-04": {
-    "total": 98,
-    "streamlit": 98,
+    "total": 99,
+    "streamlit": 99,
     "github_action": 0,
-    "successful": 98,
+    "successful": 99,
     "failed": 0,
     "positions": {
-      "Accounting Staff": 98
+      "Accounting Staff": 99
     },
     "entries": [
       {
@@ -1004,6 +1004,13 @@
         "timestamp": "2026-02-04 02:48:41",
         "source": "streamlit",
         "candidate": "falaah bait yaa siin",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-04 02:49:27",
+        "source": "streamlit",
+        "candidate": "Nidya Nurul Qonitah",
         "position": "Accounting Staff",
         "success": true
       }
