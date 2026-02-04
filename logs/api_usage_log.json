@@ -312,22 +312,15 @@
     ]
   },
   "2026-02-04": {
-    "total": 101,
-    "streamlit": 101,
+    "total": 102,
+    "streamlit": 102,
     "github_action": 0,
-    "successful": 101,
+    "successful": 102,
     "failed": 0,
     "positions": {
-      "Accounting Staff": 101
+      "Accounting Staff": 102
     },
     "entries": [
-      {
-        "timestamp": "2026-02-04 01:40:13",
-        "source": "streamlit",
-        "candidate": "Ihza Nurman Amrulloh",
-        "position": "Accounting Staff",
-        "success": true
-      },
       {
         "timestamp": "2026-02-04 01:40:57",
         "source": "streamlit",
@@ -1018,6 +1011,13 @@
         "timestamp": "2026-02-04 02:54:07",
         "source": "streamlit",
         "candidate": "Muhammad Adrian Bagaskara",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-04 02:54:13",
+        "source": "streamlit",
+        "candidate": "Ervita Ervita",
         "position": "Accounting Staff",
         "success": true
       }
