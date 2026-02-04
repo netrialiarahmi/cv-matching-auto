@@ -312,22 +312,15 @@
     ]
   },
   "2026-02-04": {
-    "total": 130,
-    "streamlit": 130,
+    "total": 131,
+    "streamlit": 131,
     "github_action": 0,
-    "successful": 130,
+    "successful": 131,
     "failed": 0,
     "positions": {
-      "Accounting Staff": 130
+      "Accounting Staff": 131
     },
     "entries": [
-      {
-        "timestamp": "2026-02-04 02:01:02",
-        "source": "streamlit",
-        "candidate": "Muhammad Adrian Bagaskara",
-        "position": "Accounting Staff",
-        "success": true
-      },
       {
         "timestamp": "2026-02-04 02:01:07",
         "source": "streamlit",
@@ -1018,6 +1011,13 @@
         "timestamp": "2026-02-04 03:16:45",
         "source": "streamlit",
         "candidate": "Muhammad Rayhannur Harits",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-04 03:17:25",
+        "source": "streamlit",
+        "candidate": "Diva Rachmalia",
         "position": "Accounting Staff",
         "success": true
       }
