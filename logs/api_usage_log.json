@@ -1024,13 +1024,13 @@
     ]
   },
   "2026-02-25": {
-    "total": 25,
+    "total": 26,
     "streamlit": 0,
-    "github_action": 25,
-    "successful": 25,
+    "github_action": 26,
+    "successful": 26,
     "failed": 0,
     "positions": {
-      "Account Executive Japanese Client": 25
+      "Account Executive Japanese Client": 26
     },
     "entries": [
       {
@@ -1205,6 +1205,13 @@
         "timestamp": "2026-02-25 07:45:14",
         "source": "github_action",
         "candidate": "Usep Supriatna",
+        "position": "Account Executive Japanese Client",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-25 07:45:56",
+        "source": "github_action",
+        "candidate": "laurenz bunda",
         "position": "Account Executive Japanese Client",
         "success": true
       }
