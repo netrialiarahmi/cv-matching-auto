@@ -1024,13 +1024,13 @@
     ]
   },
   "2026-02-25": {
-    "total": 13,
+    "total": 14,
     "streamlit": 0,
-    "github_action": 13,
-    "successful": 13,
+    "github_action": 14,
+    "successful": 14,
     "failed": 0,
     "positions": {
-      "Account Executive Japanese Client": 13
+      "Account Executive Japanese Client": 14
     },
     "entries": [
       {
@@ -1121,6 +1121,13 @@
         "timestamp": "2026-02-25 07:39:14",
         "source": "github_action",
         "candidate": "Muhammad Syukri ZA",
+        "position": "Account Executive Japanese Client",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-25 07:39:55",
+        "source": "github_action",
+        "candidate": "Adrian Mufti",
         "position": "Account Executive Japanese Client",
         "success": true
       }
