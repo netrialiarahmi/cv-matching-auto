@@ -1024,13 +1024,13 @@
     ]
   },
   "2026-02-25": {
-    "total": 6,
+    "total": 7,
     "streamlit": 0,
-    "github_action": 6,
-    "successful": 6,
+    "github_action": 7,
+    "successful": 7,
     "failed": 0,
     "positions": {
-      "Account Executive Japanese Client": 6
+      "Account Executive Japanese Client": 7
     },
     "entries": [
       {
@@ -1072,6 +1072,13 @@
         "timestamp": "2026-02-25 07:34:58",
         "source": "github_action",
         "candidate": "amanda syari",
+        "position": "Account Executive Japanese Client",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-25 07:35:45",
+        "source": "github_action",
+        "candidate": "Diandra Putra Wijanarko",
         "position": "Account Executive Japanese Client",
         "success": true
       }
