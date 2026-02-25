@@ -1024,13 +1024,13 @@
     ]
   },
   "2026-02-25": {
-    "total": 33,
+    "total": 34,
     "streamlit": 0,
-    "github_action": 33,
-    "successful": 33,
+    "github_action": 34,
+    "successful": 34,
     "failed": 0,
     "positions": {
-      "Account Executive Japanese Client": 33
+      "Account Executive Japanese Client": 34
     },
     "entries": [
       {
@@ -1261,6 +1261,13 @@
         "timestamp": "2026-02-25 07:50:32",
         "source": "github_action",
         "candidate": "Andre Andhika Sabila",
+        "position": "Account Executive Japanese Client",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-25 07:51:14",
+        "source": "github_action",
+        "candidate": "Reski Gunawan",
         "position": "Account Executive Japanese Client",
         "success": true
       }
