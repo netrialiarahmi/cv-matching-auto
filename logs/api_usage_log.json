@@ -1024,13 +1024,13 @@
     ]
   },
   "2026-02-25": {
-    "total": 23,
+    "total": 24,
     "streamlit": 0,
-    "github_action": 23,
-    "successful": 23,
+    "github_action": 24,
+    "successful": 24,
     "failed": 0,
     "positions": {
-      "Account Executive Japanese Client": 23
+      "Account Executive Japanese Client": 24
     },
     "entries": [
       {
@@ -1191,6 +1191,13 @@
         "timestamp": "2026-02-25 07:44:33",
         "source": "github_action",
         "candidate": "Raka Almasiha Rabbani",
+        "position": "Account Executive Japanese Client",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-25 07:44:35",
+        "source": "github_action",
+        "candidate": "Gabriella  Mali",
         "position": "Account Executive Japanese Client",
         "success": true
       }
