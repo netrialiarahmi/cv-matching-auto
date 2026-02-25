@@ -1024,13 +1024,13 @@
     ]
   },
   "2026-02-25": {
-    "total": 30,
+    "total": 31,
     "streamlit": 0,
-    "github_action": 30,
-    "successful": 30,
+    "github_action": 31,
+    "successful": 31,
     "failed": 0,
     "positions": {
-      "Account Executive Japanese Client": 30
+      "Account Executive Japanese Client": 31
     },
     "entries": [
       {
@@ -1240,6 +1240,13 @@
         "timestamp": "2026-02-25 07:48:26",
         "source": "github_action",
         "candidate": "Syafina Denissa",
+        "position": "Account Executive Japanese Client",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-25 07:49:05",
+        "source": "github_action",
+        "candidate": "Nashita Nashwa",
         "position": "Account Executive Japanese Client",
         "success": true
       }
