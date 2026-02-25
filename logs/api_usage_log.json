@@ -1,0 +1,1026 @@
+{
+  "2026-01-26": {
+    "total": 19,
+    "streamlit": 19,
+    "github_action": 0,
+    "successful": 19,
+    "failed": 0,
+    "positions": {
+      "Accounting Staff": 19
+    },
+    "entries": [
+      {
+        "timestamp": "2026-01-26 03:30:57",
+        "source": "streamlit",
+        "candidate": "Adhyatmikarabbani",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-01-26 03:30:57",
+        "source": "streamlit",
+        "candidate": "Kharisma Qaulam",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-01-26 03:35:49",
+        "source": "streamlit",
+        "candidate": "Hanif Fathoni",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-01-26 03:35:50",
+        "source": "streamlit",
+        "candidate": "Erseto Wicaksono",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-01-26 03:38:49",
+        "source": "streamlit",
+        "candidate": "Naifa Nur Fa’iza",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-01-26 03:38:51",
+        "source": "streamlit",
+        "candidate": "Nahrisal Nurfajar",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-01-26 03:39:33",
+        "source": "streamlit",
+        "candidate": "Shirley Tjung",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-01-26 03:40:17",
+        "source": "streamlit",
+        "candidate": "Feryantosa Elfin Diah Wijayanti",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-01-26 03:41:02",
+        "source": "streamlit",
+        "candidate": "Dewi Anggraini",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-01-26 03:41:45",
+        "source": "streamlit",
+        "candidate": "naiya nadiya",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-01-26 03:42:26",
+        "source": "streamlit",
+        "candidate": "Arinda Maulidina",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-01-26 03:43:09",
+        "source": "streamlit",
+        "candidate": "Habib Amin Rahman Habibi",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-01-26 03:43:47",
+        "source": "streamlit",
+        "candidate": "Ulfah Maha ulya",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-01-26 03:44:26",
+        "source": "streamlit",
+        "candidate": "Nazhirah Luthfia Putri",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-01-26 03:45:11",
+        "source": "streamlit",
+        "candidate": "Arlinsagita Nainggolan",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-01-26 03:45:53",
+        "source": "streamlit",
+        "candidate": "Bayu Seno Aji",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-01-26 03:46:34",
+        "source": "streamlit",
+        "candidate": "M. Famil Erisyah Putra",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-01-26 03:47:18",
+        "source": "streamlit",
+        "candidate": "Nalparia Bara Lembang",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-01-26 03:48:04",
+        "source": "streamlit",
+        "candidate": "Reagin Fatrin Sandaya",
+        "position": "Accounting Staff",
+        "success": true
+      }
+    ]
+  },
+  "2026-01-29": {
+    "total": 8,
+    "streamlit": 8,
+    "github_action": 0,
+    "successful": 8,
+    "failed": 0,
+    "positions": {
+      "Account Executive Japanese Client": 8
+    },
+    "entries": [
+      {
+        "timestamp": "2026-01-29 03:27:03",
+        "source": "streamlit",
+        "candidate": "I Nyoman Aditya Bahari Dewantara",
+        "position": "Account Executive Japanese Client",
+        "success": true
+      },
+      {
+        "timestamp": "2026-01-29 03:27:43",
+        "source": "streamlit",
+        "candidate": "Muhammad Rizki",
+        "position": "Account Executive Japanese Client",
+        "success": true
+      },
+      {
+        "timestamp": "2026-01-29 03:28:24",
+        "source": "streamlit",
+        "candidate": "Dalbro Nugroho Sinaga",
+        "position": "Account Executive Japanese Client",
+        "success": true
+      },
+      {
+        "timestamp": "2026-01-29 03:29:03",
+        "source": "streamlit",
+        "candidate": "Agie Gilang Ramadhan",
+        "position": "Account Executive Japanese Client",
+        "success": true
+      },
+      {
+        "timestamp": "2026-01-29 03:29:47",
+        "source": "streamlit",
+        "candidate": "Diandra Putra Wijanarko",
+        "position": "Account Executive Japanese Client",
+        "success": true
+      },
+      {
+        "timestamp": "2026-01-29 03:30:26",
+        "source": "streamlit",
+        "candidate": "laurenz bunda",
+        "position": "Account Executive Japanese Client",
+        "success": true
+      },
+      {
+        "timestamp": "2026-01-29 03:31:03",
+        "source": "streamlit",
+        "candidate": "Adrian Mufti",
+        "position": "Account Executive Japanese Client",
+        "success": true
+      },
+      {
+        "timestamp": "2026-01-29 03:31:43",
+        "source": "streamlit",
+        "candidate": "siti nursaidah",
+        "position": "Account Executive Japanese Client",
+        "success": true
+      }
+    ]
+  },
+  "2026-01-30": {
+    "total": 2,
+    "streamlit": 2,
+    "github_action": 0,
+    "successful": 2,
+    "failed": 0,
+    "positions": {
+      "Account Executive Japanese Client": 2
+    },
+    "entries": [
+      {
+        "timestamp": "2026-01-30 06:15:16",
+        "source": "streamlit",
+        "candidate": "Fauzan Indra Shafwan",
+        "position": "Account Executive Japanese Client",
+        "success": true
+      },
+      {
+        "timestamp": "2026-01-30 06:15:58",
+        "source": "streamlit",
+        "candidate": "Reski Gunawan",
+        "position": "Account Executive Japanese Client",
+        "success": true
+      }
+    ]
+  },
+  "2026-02-02": {
+    "total": 6,
+    "streamlit": 6,
+    "github_action": 0,
+    "successful": 6,
+    "failed": 0,
+    "positions": {
+      "Account Executive Japanese Client": 6
+    },
+    "entries": [
+      {
+        "timestamp": "2026-02-02 02:07:31",
+        "source": "streamlit",
+        "candidate": "amanda syari",
+        "position": "Account Executive Japanese Client",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-02 02:08:15",
+        "source": "streamlit",
+        "candidate": "Rivaldo Simanjuntak",
+        "position": "Account Executive Japanese Client",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-02 02:08:51",
+        "source": "streamlit",
+        "candidate": "ariyah anggraini anggraini",
+        "position": "Account Executive Japanese Client",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-02 02:09:29",
+        "source": "streamlit",
+        "candidate": "Andre Andhika Sabila",
+        "position": "Account Executive Japanese Client",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-02 02:10:06",
+        "source": "streamlit",
+        "candidate": "Dimas Agung",
+        "position": "Account Executive Japanese Client",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-02 02:10:46",
+        "source": "streamlit",
+        "candidate": "Eunike Aldelia",
+        "position": "Account Executive Japanese Client",
+        "success": true
+      }
+    ]
+  },
+  "2026-02-03": {
+    "total": 1,
+    "streamlit": 1,
+    "github_action": 0,
+    "successful": 1,
+    "failed": 0,
+    "positions": {
+      "Account Executive Japanese Client": 1
+    },
+    "entries": [
+      {
+        "timestamp": "2026-02-03 06:26:32",
+        "source": "streamlit",
+        "candidate": "SEKAR FATINAH HASIBUAN",
+        "position": "Account Executive Japanese Client",
+        "success": true
+      }
+    ]
+  },
+  "2026-02-04": {
+    "total": 186,
+    "streamlit": 186,
+    "github_action": 0,
+    "successful": 186,
+    "failed": 0,
+    "positions": {
+      "Accounting Staff": 186
+    },
+    "entries": [
+      {
+        "timestamp": "2026-02-04 02:40:39",
+        "source": "streamlit",
+        "candidate": "Haidar Hamim Probo",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-04 02:41:20",
+        "source": "streamlit",
+        "candidate": "Achmad Yusuf",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-04 02:42:04",
+        "source": "streamlit",
+        "candidate": "Hanif  Fathoni",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-04 02:42:49",
+        "source": "streamlit",
+        "candidate": "Dina Lestari",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-04 02:43:37",
+        "source": "streamlit",
+        "candidate": "Yhoga Pranata",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-04 02:44:19",
+        "source": "streamlit",
+        "candidate": "Tracy Valerie  Bacas",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-04 02:45:04",
+        "source": "streamlit",
+        "candidate": "Elisabet Puspita Sari",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-04 02:45:45",
+        "source": "streamlit",
+        "candidate": "Dimas Teguh Ramadhan",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-04 02:46:33",
+        "source": "streamlit",
+        "candidate": "Muhammad Rayhannur Harits",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-04 02:47:19",
+        "source": "streamlit",
+        "candidate": "Annisa Aprillestari",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-04 02:48:01",
+        "source": "streamlit",
+        "candidate": "Diva Rachmalia",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-04 02:48:41",
+        "source": "streamlit",
+        "candidate": "falaah bait yaa siin",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-04 02:49:27",
+        "source": "streamlit",
+        "candidate": "Nidya Nurul Qonitah",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-04 02:53:18",
+        "source": "streamlit",
+        "candidate": "Khusnul Khotimah",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-04 02:54:07",
+        "source": "streamlit",
+        "candidate": "Muhammad Adrian Bagaskara",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-04 02:54:13",
+        "source": "streamlit",
+        "candidate": "Ervita Ervita",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-04 02:54:55",
+        "source": "streamlit",
+        "candidate": "Erseto Wicaksono",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-04 02:55:41",
+        "source": "streamlit",
+        "candidate": "Fran Giska Fadhiya Haya",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-04 02:56:27",
+        "source": "streamlit",
+        "candidate": "Haidar Hamim Probo",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-04 02:57:07",
+        "source": "streamlit",
+        "candidate": "Achmad Yusuf",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-04 02:57:49",
+        "source": "streamlit",
+        "candidate": "Dina Lestari",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-04 02:58:40",
+        "source": "streamlit",
+        "candidate": "Yhoga Pranata",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-04 02:59:25",
+        "source": "streamlit",
+        "candidate": "Tracy Valerie  Bacas",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-04 03:00:16",
+        "source": "streamlit",
+        "candidate": "Elisabet Puspita Sari",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-04 03:01:05",
+        "source": "streamlit",
+        "candidate": "Dimas Teguh Ramadhan",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-04 03:01:54",
+        "source": "streamlit",
+        "candidate": "Muhammad Rayhannur Harits",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-04 03:02:34",
+        "source": "streamlit",
+        "candidate": "Diva Rachmalia",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-04 03:03:20",
+        "source": "streamlit",
+        "candidate": "falaah bait yaa siin",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-04 03:04:05",
+        "source": "streamlit",
+        "candidate": "Nidya Nurul Qonitah",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-04 03:04:51",
+        "source": "streamlit",
+        "candidate": "Mohammad Hafidz Widyatama",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-04 03:05:35",
+        "source": "streamlit",
+        "candidate": "Qori Atun Soleha",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-04 03:06:21",
+        "source": "streamlit",
+        "candidate": "Fiona Elisa Pratiwi",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-04 03:09:04",
+        "source": "streamlit",
+        "candidate": "Khusnul Khotimah",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-04 03:09:54",
+        "source": "streamlit",
+        "candidate": "Muhammad Adrian Bagaskara",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-04 03:09:58",
+        "source": "streamlit",
+        "candidate": "Ervita Ervita",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-04 03:10:41",
+        "source": "streamlit",
+        "candidate": "Erseto Wicaksono",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-04 03:11:24",
+        "source": "streamlit",
+        "candidate": "Fran Giska Fadhiya Haya",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-04 03:12:12",
+        "source": "streamlit",
+        "candidate": "Haidar Hamim Probo",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-04 03:12:54",
+        "source": "streamlit",
+        "candidate": "Achmad Yusuf",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-04 03:13:44",
+        "source": "streamlit",
+        "candidate": "Yhoga Pranata",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-04 03:14:27",
+        "source": "streamlit",
+        "candidate": "Tracy Valerie  Bacas",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-04 03:15:15",
+        "source": "streamlit",
+        "candidate": "Elisabet Puspita Sari",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-04 03:15:58",
+        "source": "streamlit",
+        "candidate": "Dimas Teguh Ramadhan",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-04 03:16:45",
+        "source": "streamlit",
+        "candidate": "Muhammad Rayhannur Harits",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-04 03:17:25",
+        "source": "streamlit",
+        "candidate": "Diva Rachmalia",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-04 03:18:15",
+        "source": "streamlit",
+        "candidate": "Nidya Nurul Qonitah",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-04 03:18:59",
+        "source": "streamlit",
+        "candidate": "Qori Atun Soleha",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-04 03:19:44",
+        "source": "streamlit",
+        "candidate": "Fiona Elisa Pratiwi",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-04 03:20:26",
+        "source": "streamlit",
+        "candidate": "Arif Rahman Hakim",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-04 03:21:17",
+        "source": "streamlit",
+        "candidate": "Rachmalia Jeany Savitri",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-04 03:22:03",
+        "source": "streamlit",
+        "candidate": "Saskia Marizki",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-04 03:22:47",
+        "source": "streamlit",
+        "candidate": "Mutiara Salsabila Hanifia",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-04 03:23:36",
+        "source": "streamlit",
+        "candidate": "Janet Prastyowati A",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-04 03:24:19",
+        "source": "streamlit",
+        "candidate": "Naifa Nur Fa’iza",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-04 03:25:08",
+        "source": "streamlit",
+        "candidate": "Nur Irfansah",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-04 03:25:53",
+        "source": "streamlit",
+        "candidate": "Shirley Tjung",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-04 03:25:56",
+        "source": "streamlit",
+        "candidate": "Nahrisal Nurfajar",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-04 03:26:41",
+        "source": "streamlit",
+        "candidate": "Petrus Ricardo",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-04 03:27:29",
+        "source": "streamlit",
+        "candidate": "Raihan Dimas Saputra",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-04 03:28:17",
+        "source": "streamlit",
+        "candidate": "I Dewa Made Sugiantara",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-04 03:28:58",
+        "source": "streamlit",
+        "candidate": "Deni Syufri",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-04 03:29:41",
+        "source": "streamlit",
+        "candidate": "Bagas Adianto",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-04 03:30:28",
+        "source": "streamlit",
+        "candidate": "Muhamad Fadilah  Al Habsy",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-04 03:31:15",
+        "source": "streamlit",
+        "candidate": "Feryantosa Elfin Diah Wijayanti",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-04 03:32:03",
+        "source": "streamlit",
+        "candidate": "Raden Syaffira",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-04 03:32:49",
+        "source": "streamlit",
+        "candidate": "Alfanita H Soka",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-04 03:33:38",
+        "source": "streamlit",
+        "candidate": "Andini Eka Junita",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-04 03:34:18",
+        "source": "streamlit",
+        "candidate": "Sephia Putri Pertiwi",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-04 03:35:06",
+        "source": "streamlit",
+        "candidate": "Silfi  Apriliyani",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-04 03:35:50",
+        "source": "streamlit",
+        "candidate": "Christian Aryo Wibisono",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-04 03:36:36",
+        "source": "streamlit",
+        "candidate": "Tika Darmayanti",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-04 03:37:42",
+        "source": "streamlit",
+        "candidate": "Muhammad Adrian Bagaskara",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-04 03:37:47",
+        "source": "streamlit",
+        "candidate": "Ervita Ervita",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-04 03:38:30",
+        "source": "streamlit",
+        "candidate": "Erseto Wicaksono",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-04 03:39:15",
+        "source": "streamlit",
+        "candidate": "Fran Giska Fadhiya Haya",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-04 03:40:00",
+        "source": "streamlit",
+        "candidate": "Haidar Hamim Probo",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-04 03:40:42",
+        "source": "streamlit",
+        "candidate": "Achmad Yusuf",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-04 03:41:33",
+        "source": "streamlit",
+        "candidate": "Yhoga Pranata",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-04 03:42:23",
+        "source": "streamlit",
+        "candidate": "Elisabet Puspita Sari",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-04 03:43:05",
+        "source": "streamlit",
+        "candidate": "Dimas Teguh Ramadhan",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-04 03:43:53",
+        "source": "streamlit",
+        "candidate": "Muhammad Rayhannur Harits",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-04 03:44:39",
+        "source": "streamlit",
+        "candidate": "Diva Rachmalia",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-04 03:45:21",
+        "source": "streamlit",
+        "candidate": "Nidya Nurul Qonitah",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-04 03:46:06",
+        "source": "streamlit",
+        "candidate": "Qori Atun Soleha",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-04 03:46:47",
+        "source": "streamlit",
+        "candidate": "Arif Rahman Hakim",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-04 03:47:41",
+        "source": "streamlit",
+        "candidate": "Rachmalia Jeany Savitri",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-04 03:48:26",
+        "source": "streamlit",
+        "candidate": "Saskia Marizki",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-04 03:49:08",
+        "source": "streamlit",
+        "candidate": "Mutiara Salsabila Hanifia",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-04 03:49:54",
+        "source": "streamlit",
+        "candidate": "Janet Prastyowati A",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-04 03:50:32",
+        "source": "streamlit",
+        "candidate": "Naifa Nur Fa’iza",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-04 03:51:18",
+        "source": "streamlit",
+        "candidate": "Shirley Tjung",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-04 03:51:21",
+        "source": "streamlit",
+        "candidate": "Nahrisal Nurfajar",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-04 03:52:07",
+        "source": "streamlit",
+        "candidate": "Petrus Ricardo",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-04 03:52:53",
+        "source": "streamlit",
+        "candidate": "Raihan Dimas Saputra",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-04 03:53:39",
+        "source": "streamlit",
+        "candidate": "I Dewa Made Sugiantara",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-04 03:54:18",
+        "source": "streamlit",
+        "candidate": "Deni Syufri",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-04 03:55:03",
+        "source": "streamlit",
+        "candidate": "Bagas Adianto",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-04 03:55:45",
+        "source": "streamlit",
+        "candidate": "Feryantosa Elfin Diah Wijayanti",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-04 03:56:34",
+        "source": "streamlit",
+        "candidate": "Raden Syaffira",
+        "position": "Accounting Staff",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-04 03:57:18",
+        "source": "streamlit",
+        "candidate": "Alfanita H Soka",
+        "position": "Accounting Staff",
+        "success": true
+      }
+    ]
+  }
+}

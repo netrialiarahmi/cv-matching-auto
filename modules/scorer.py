@@ -239,6 +239,10 @@ def extract_candidate_info_from_cv(cv_text):
     
     client = get_openrouter_client()
     
+    # Limit CV text to ~1000 tokens (approximately 3-4 pages)
+    # 1000 tokens ≈ 5000 characters for mixed English/Indonesian content
+    cv_text_limited = cv_text[:5000] if len(cv_text) > 5000 else cv_text
+    
     prompt = f"""
 Extract the following information from this CV/resume text:
 1. Latest Job Title (most recent position)
@@ -253,7 +257,7 @@ Rules:
 - Do not add any explanation or extra text
 
 CV Text:
-{cv_text[:3000]}
+{cv_text_limited}
 
 Return JSON only:
 """
@@ -309,6 +313,9 @@ def extract_candidate_name_from_cv(cv_text):
     
     client = get_openrouter_client()
     
+    # Use first 1000 characters to find name (usually at the top of CV)
+    cv_text_limited = cv_text[:1000] if len(cv_text) > 1000 else cv_text
+    
     prompt = f"""
 Extract the candidate's full name from this CV/resume text.
 
@@ -318,8 +325,8 @@ Rules:
 - Do not include titles, degrees, or job positions
 - Return just the name, nothing else
 
-CV Text (first 1000 characters):
-{cv_text[:1000]}
+CV Text (beginning of resume):
+{cv_text_limited}
 
 Return only the name:
 """
@@ -414,8 +421,8 @@ Instructions:
 === Job Description ===
 {job_description}
 
-=== Candidate CV ===
-{cv_text[:4000]}
+=== Candidate CV (First ~1000 tokens / 3-4 pages) ===
+{cv_text[:5000]}
 """
 
     # --- Send to API and parse response ---

@@ -37,6 +37,7 @@ from modules.github_utils import (
     load_results_from_github,
     save_results_to_github
 )
+from modules.usage_logger import log_cv_processing, print_daily_summary
 import requests
 
 
@@ -501,9 +502,23 @@ def screen_position(position_name, job_description, job_id, csv_url=None):
                     print(f"       ✓ Appended to {position_results_file}")
                     results.append(result)
                     successfully_processed += 1
+                    # Log successful CV processing
+                    log_cv_processing(
+                        source="github_action",
+                        candidate_name=candidate_name,
+                        position=position_name,
+                        success=True
+                    )
                 else:
                     print(f"       ⚠ Failed to append result")
                     failed_count += 1
+                    # Log failed CV processing
+                    log_cv_processing(
+                        source="github_action",
+                        candidate_name=candidate_name,
+                        position=position_name,
+                        success=False
+                    )
                 
             except KeyboardInterrupt:
                 # Allow manual interruption
@@ -561,20 +576,27 @@ def main():
         print(f"❌ Error loading job positions: {e}")
         return 1
     
-    # 2. Filter active positions
-    if 'Pooling Status' in jobs_df.columns:
-        active_positions = jobs_df[jobs_df['Pooling Status'].str.lower() != 'pooled']
-    elif 'Status' in jobs_df.columns:
-        active_positions = jobs_df[jobs_df['Status'].str.lower() == 'active']
-    else:
-        # If no status column, treat all as active
-        active_positions = jobs_df
+    # 2. Filter active positions (EXCLUDE pooled positions)
+    # Ensure Pooling Status column exists
+    if 'Pooling Status' not in jobs_df.columns:
+        jobs_df['Pooling Status'] = ''
+    
+    # Filter out pooled positions (case-insensitive, handle null/empty)
+    # Keep only positions where Pooling Status is NOT 'Pooled'
+    active_positions = jobs_df[
+        (jobs_df['Pooling Status'].fillna('').astype(str).str.strip().str.lower() != 'pooled')
+    ].copy()
+    
+    pooled_count = len(jobs_df) - len(active_positions)
     
     if active_positions.empty:
-        print("   No active positions found")
+        print("   ⚠️  All positions are in pooling. No active positions to screen.")
+        print(f"   Total positions: {len(jobs_df)}, Pooled: {pooled_count}")
         return 0
     
     print(f"✅ Will screen {len(active_positions)} active positions")
+    if pooled_count > 0:
+        print(f"   (Skipping {pooled_count} pooled position(s))")
     
     # 3. Load sheet_positions.csv to get File Storage URLs
     print(f"\n📊 Loading sheet_positions.csv for CSV URLs...")
@@ -594,6 +616,12 @@ def main():
         position_name = row['Job Position']
         job_description = row['Job Description']
         job_id = row.get('Job ID', None)
+        pooling_status = row.get('Pooling Status', '')
+        
+        # Double-check: Skip if position is pooled (extra safety check)
+        if pd.notna(pooling_status) and str(pooling_status).strip().lower() == 'pooled':
+            print(f"\n⚠️  Skipping '{position_name}' - Position is in pooling")
+            continue
         
         # Skip if no Job ID
         if pd.isna(job_id):
@@ -626,10 +654,17 @@ def main():
     print("\n" + "="*70)
     print("SCREENING COMPLETED")
     print("="*70)
+    print(f"Total positions in job_positions.csv: {len(jobs_df)}")
+    print(f"  • Active positions screened: {len(active_positions)}")
+    if pooled_count > 0:
+        print(f"  • Pooled positions (excluded): {pooled_count}")
     print(f"Total candidates screened: {total_screened}")
     print(f"Positions with new candidates: {positions_with_new_candidates}")
     print(f"Completed at: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
     print("="*70)
+    
+    # Print daily usage summary
+    print_daily_summary()
     
     return 0
 
