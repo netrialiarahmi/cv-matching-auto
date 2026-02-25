@@ -1024,13 +1024,13 @@
     ]
   },
   "2026-02-25": {
-    "total": 3,
+    "total": 4,
     "streamlit": 0,
-    "github_action": 3,
-    "successful": 3,
+    "github_action": 4,
+    "successful": 4,
     "failed": 0,
     "positions": {
-      "Account Executive Japanese Client": 3
+      "Account Executive Japanese Client": 4
     },
     "entries": [
       {
@@ -1051,6 +1051,13 @@
         "timestamp": "2026-02-25 07:32:38",
         "source": "github_action",
         "candidate": "Stella Gracia",
+        "position": "Account Executive Japanese Client",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-25 07:33:24",
+        "source": "github_action",
+        "candidate": "Fauzan Indra Shafwan",
         "position": "Account Executive Japanese Client",
         "success": true
       }
