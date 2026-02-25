@@ -1024,13 +1024,13 @@
     ]
   },
   "2026-02-25": {
-    "total": 16,
+    "total": 17,
     "streamlit": 0,
-    "github_action": 16,
-    "successful": 16,
+    "github_action": 17,
+    "successful": 17,
     "failed": 0,
     "positions": {
-      "Account Executive Japanese Client": 16
+      "Account Executive Japanese Client": 17
     },
     "entries": [
       {
@@ -1142,6 +1142,13 @@
         "timestamp": "2026-02-25 07:40:41",
         "source": "github_action",
         "candidate": "Rizky sani",
+        "position": "Account Executive Japanese Client",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-25 07:40:43",
+        "source": "github_action",
+        "candidate": "Fachrial Febryanto",
         "position": "Account Executive Japanese Client",
         "success": true
       }
