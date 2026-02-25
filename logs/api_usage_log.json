@@ -1024,13 +1024,13 @@
     ]
   },
   "2026-02-25": {
-    "total": 19,
+    "total": 20,
     "streamlit": 0,
-    "github_action": 19,
-    "successful": 19,
+    "github_action": 20,
+    "successful": 20,
     "failed": 0,
     "positions": {
-      "Account Executive Japanese Client": 19
+      "Account Executive Japanese Client": 20
     },
     "entries": [
       {
@@ -1163,6 +1163,13 @@
         "timestamp": "2026-02-25 07:42:02",
         "source": "github_action",
         "candidate": "Muhammad Rino  Adrianto",
+        "position": "Account Executive Japanese Client",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-25 07:42:38",
+        "source": "github_action",
+        "candidate": "Efriza Rachima Putra",
         "position": "Account Executive Japanese Client",
         "success": true
       }
