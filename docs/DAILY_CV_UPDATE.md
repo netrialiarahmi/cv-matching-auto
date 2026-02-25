@@ -43,7 +43,8 @@ Each position-specific result file adheres to a standardized 20-column schema:
 
 ### 1. Position Data Retrieval
 ```python
-# Load updated position data from sheet_positions.csv (maintained by scripts/kalibrr_export.py)
+# Load updated position data from sheet_positions.csv
+# (maintained by kalibrr_export_pooling.py / kalibrr_export_dashboard.py)
 df = pd.read_csv("sheet_positions.csv")
 ```
 
@@ -52,6 +53,9 @@ The `sheet_positions.csv` file contains:
 - JOB_ID
 - UPLOAD_ID
 - **File Storage** (URL endpoint for current candidate CSV data from Kalibrr)
+
+Source of truth for positions: `job_positions.csv` (includes Pooling Status).
+No Google Sheets dependency — all data is local/GitHub.
 
 ### 2. Existing Result Retrieval
 ```python
@@ -113,18 +117,21 @@ The script maintains all other column data without modification:
 ## Daily Workflow Sequence
 
 ```
-00:00 UTC (07:00 WIB) - GitHub Actions workflow initiation
+00:00 UTC (07:00 WIB) - GitHub Actions workflows initiation
+
+=== Workflow 1: Pooling CV Link Update ===
   |
   v
-Step 1: scripts/kalibrr_export.py execution
-  - Retrieve position list from Google Sheets
+Step 1: scripts/kalibrr_export_pooling.py execution
+  - Read pooled positions from job_positions.csv (Pooling Status == "Pooled")
+  - Skip positions without Job ID
   - Export candidate data from Kalibrr (FORCE_EXPORT=true)
-  - Update sheet_positions.csv with current URLs
+  - Update sheet_positions.csv with current File Storage URLs
   |
   v
-Step 2: scripts/update_cv_links.py execution (current script)
-  - Load sheet_positions.csv
-  - For each position:
+Step 2: scripts/update_cv_links.py --mode pooling
+  - Load sheet_positions.csv (filtered to pooled positions via job_positions.csv)
+  - For each pooled position:
     * Load results/results_Position_Name.csv
     * Fetch current candidate data from File Storage URL
     * Match candidates by email address
@@ -133,9 +140,44 @@ Step 2: scripts/update_cv_links.py execution (current script)
   |
   v
 Step 3: Version control commit
-  - Commit sheet_positions.csv updates
-  - Commit modified results/*.csv files
-  - Push changes to GitHub repository
+  - Commit sheet_positions.csv + results/*.csv → push to GitHub
+
+=== Workflow 2: Dashboard Export and CV Link Update ===
+  |
+  v
+Step 1: scripts/kalibrr_export_dashboard.py execution
+  - Read active (non-pooled) positions from job_positions.csv
+  - Skip positions without Job ID
+  - Export candidate data from Kalibrr (FORCE_EXPORT=true)
+  - Update sheet_positions.csv with current File Storage URLs
+  |
+  v
+Step 2: scripts/update_cv_links.py --mode dashboard
+  - Load sheet_positions.csv (filtered to active positions via job_positions.csv)
+  - For each active position:
+    * Load results/results_Position_Name.csv
+    * Fetch current candidate data from File Storage URL
+    * Match candidates by email address
+    * Update Resume Link column exclusively
+    * Persist results/results_Position_Name.csv
+  |
+  v
+Step 3: Version control commit
+  - Commit sheet_positions.csv + results/*.csv → push to GitHub
+
+=== Workflow 3: Automated CV Screening (triggers after Workflow 2) ===
+  |
+  v
+Step 1: scripts/auto_screen.py execution
+  - Load active positions from job_positions.csv (skip pooled)
+  - For each position with File Storage URL in sheet_positions.csv:
+    * Download candidate CSV
+    * Skip already-processed candidates
+    * For each NEW candidate: download CV, AI score, save results
+  |
+  v
+Step 2: Version control commit
+  - Commit results/*.csv → push to GitHub
 ```
 
 ## Example Execution Output

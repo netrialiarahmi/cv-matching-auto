@@ -1,0 +1,73 @@
+name: Dashboard Export and CV Link Update
+
+on:
+  schedule:
+    # Run every day at 00:00 UTC (07:00 WIB)
+    - cron: '0 0 * * *'
+  workflow_dispatch:  # Allow manual triggering
+
+permissions:
+  contents: write
+
+jobs:
+  dashboard-export:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          pip install playwright python-dotenv pandas requests
+          playwright install chromium
+          playwright install-deps
+
+      - name: Run Kalibrr Export (dashboard/active positions)
+        env:
+          KAID: ${{ secrets.KAID }}
+          KB: ${{ secrets.KB }}
+          FORCE_EXPORT: "true"
+        run: |
+          python scripts/kalibrr_export_dashboard.py
+
+      - name: Update CV links for dashboard positions
+        run: |
+          python scripts/update_cv_links.py --mode dashboard
+
+      - name: Commit updated files to GitHub
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add sheet_positions.csv results/*.csv
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "📊 Update dashboard positions and CV links - $(date +'%Y-%m-%d %H:%M UTC')"
+            git pull --no-rebase origin ${{ github.ref_name }} || {
+              echo "Merge conflict detected, resolving automatically..."
+              git checkout --ours sheet_positions.csv 2>/dev/null || true
+              find results -maxdepth 1 -name 'results*.csv' -type f -exec git checkout --ours {} \; 2>/dev/null || true
+              git add sheet_positions.csv
+              find results -maxdepth 1 -name 'results*.csv' -type f -exec git add {} \;
+              git -c core.editor=: merge --continue || {
+                echo "Auto-merge failed, aborting merge"
+                git merge --abort
+                exit 1
+              }
+            }
+            git push
+          fi
+
+      - name: Upload exported CSVs as artifacts
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: dashboard-exports-${{ github.run_number }}
+          path: kalibrr_exports/
+          retention-days: 30

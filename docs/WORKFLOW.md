@@ -103,20 +103,55 @@ All system data is persisted to GitHub repository:
 
 ```
 repository/
-├── job_positions.csv
-│   - Job Position (position title)
-│   - Job Description (role requirements)
-│   - Date Created (timestamp)
+├── job_positions.csv          ← Source of truth for positions
+│   - Job Position
+│   - Job Description
+│   - Date Created
+│   - Pooling Status           ← "Pooled" or empty
+│   - Job ID                   ← Kalibrr Job ID
+│   - Last Modified
 │
-└── results.csv
-    - Candidate Name
-    - Candidate Email
-    - Phone (contact number)
-    - Job Position (applied role)
-    - Match Score (quantitative assessment)
-    - AI Summary (generated evaluation)
-    - Strengths (positive attributes)
-    - Weaknesses (identified limitations)
-    - Gaps (missing qualifications)
-    - Latest Job Title (most recent position)
-    - Latest Company (m
+├── sheet_positions.csv        ← File Storage URL cache
+│   - Nama Posisi
+│   - JOB_ID
+│   - UPLOAD_ID
+│   - File Storage             ← Kalibrr CSV download URL
+│
+├── results/
+│   └── results_<Position>.csv ← Per-position screening results
+│
+├── scripts/
+│   ├── kalibrr_export_pooling.py    ← Export pooled positions
+│   ├── kalibrr_export_dashboard.py  ← Export active positions
+│   ├── update_cv_links.py           ← Refresh resume URLs (--mode pooling/dashboard)
+│   └── auto_screen.py               ← AI CV screening (active positions only)
+│
+├── modules/
+│   ├── kalibrr_core.py       ← Shared Kalibrr export logic
+│   └── ...                    ← Other modules
+│
+└── .github/workflows/
+    ├── pooling-link-update.yml      ← Workflow 1: Pooling link refresh
+    ├── dashboard-export.yml         ← Workflow 2: Dashboard export + links
+    └── auto-screening.yml           ← Workflow 3: AI screening (after Workflow 2)
+```
+
+### GitHub Actions Flow
+
+```
+Daily 00:00 UTC (07:00 WIB)
+  │
+  ├── Workflow 1: Pooling CV Link Update
+  │   ├── kalibrr_export_pooling.py  (pooled positions only)
+  │   ├── update_cv_links.py --mode pooling
+  │   └── git commit + push
+  │
+  ├── Workflow 2: Dashboard Export and CV Link Update
+  │   ├── kalibrr_export_dashboard.py  (active positions only)
+  │   ├── update_cv_links.py --mode dashboard
+  │   └── git commit + push
+  │
+  └── Workflow 3: Automated CV Screening  (triggers after Workflow 2)
+      ├── auto_screen.py  (screen new candidates for active positions)
+      └── git commit + push
+```

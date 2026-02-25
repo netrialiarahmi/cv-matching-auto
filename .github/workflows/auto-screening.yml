@@ -3,7 +3,7 @@ name: Automated CV Screening
 on:
   workflow_run:
     workflows:
-      - Daily Kalibrr Export and CV Link Update
+      - Dashboard Export and CV Link Update
     types:
       - completed
   workflow_dispatch:  # Allow manual triggering
