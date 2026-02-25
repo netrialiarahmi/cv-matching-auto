@@ -69,7 +69,7 @@ jobs:
                 exit 1
               }
             }
-            git push
+            git push origin HEAD:${{ env.TARGET_BRANCH }}
           fi
       
       - name: Upload screening logs as artifacts
