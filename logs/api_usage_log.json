@@ -1024,13 +1024,13 @@
     ]
   },
   "2026-02-25": {
-    "total": 31,
+    "total": 32,
     "streamlit": 0,
-    "github_action": 31,
-    "successful": 31,
+    "github_action": 32,
+    "successful": 32,
     "failed": 0,
     "positions": {
-      "Account Executive Japanese Client": 31
+      "Account Executive Japanese Client": 32
     },
     "entries": [
       {
@@ -1247,6 +1247,13 @@
         "timestamp": "2026-02-25 07:49:05",
         "source": "github_action",
         "candidate": "Nashita Nashwa",
+        "position": "Account Executive Japanese Client",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-25 07:49:52",
+        "source": "github_action",
+        "candidate": "Eunike Aldelia",
         "position": "Account Executive Japanese Client",
         "success": true
       }
