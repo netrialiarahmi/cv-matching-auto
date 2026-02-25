@@ -1024,13 +1024,13 @@
     ]
   },
   "2026-02-25": {
-    "total": 15,
+    "total": 16,
     "streamlit": 0,
-    "github_action": 15,
-    "successful": 15,
+    "github_action": 16,
+    "successful": 16,
     "failed": 0,
     "positions": {
-      "Account Executive Japanese Client": 15
+      "Account Executive Japanese Client": 16
     },
     "entries": [
       {
@@ -1135,6 +1135,13 @@
         "timestamp": "2026-02-25 07:40:39",
         "source": "github_action",
         "candidate": "Rivaldo Simanjuntak",
+        "position": "Account Executive Japanese Client",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-25 07:40:41",
+        "source": "github_action",
+        "candidate": "Rizky sani",
         "position": "Account Executive Japanese Client",
         "success": true
       }
