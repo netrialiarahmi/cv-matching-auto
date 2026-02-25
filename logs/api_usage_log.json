@@ -1024,13 +1024,13 @@
     ]
   },
   "2026-02-25": {
-    "total": 28,
+    "total": 29,
     "streamlit": 0,
-    "github_action": 28,
-    "successful": 28,
+    "github_action": 29,
+    "successful": 29,
     "failed": 0,
     "positions": {
-      "Account Executive Japanese Client": 28
+      "Account Executive Japanese Client": 29
     },
     "entries": [
       {
@@ -1226,6 +1226,13 @@
         "timestamp": "2026-02-25 07:47:15",
         "source": "github_action",
         "candidate": "Agie Gilang Ramadhan",
+        "position": "Account Executive Japanese Client",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-25 07:47:52",
+        "source": "github_action",
+        "candidate": "ariyah anggraini anggraini",
         "position": "Account Executive Japanese Client",
         "success": true
       }
