@@ -1316,23 +1316,16 @@
     ]
   },
   "2026-02-26": {
-    "total": 160,
+    "total": 161,
     "streamlit": 2,
-    "github_action": 158,
-    "successful": 160,
+    "github_action": 159,
+    "successful": 161,
     "failed": 0,
     "positions": {
       "Account Executive Japanese Client": 3,
-      "Freelance Data Scanner": 157
+      "Freelance Data Scanner": 158
     },
     "entries": [
-      {
-        "timestamp": "2026-02-26 05:07:13",
-        "source": "github_action",
-        "candidate": "Sabila Astari",
-        "position": "Freelance Data Scanner",
-        "success": true
-      },
       {
         "timestamp": "2026-02-26 05:07:55",
         "source": "github_action",
@@ -2023,6 +2016,13 @@
         "timestamp": "2026-02-26 06:07:58",
         "source": "github_action",
         "candidate": "Kholidah Suhaimah RRM",
+        "position": "Freelance Data Scanner",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-26 06:08:41",
+        "source": "github_action",
+        "candidate": "PUTRI KUSUMAWATI ANGGRAINI",
         "position": "Freelance Data Scanner",
         "success": true
       }
