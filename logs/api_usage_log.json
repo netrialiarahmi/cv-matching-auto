@@ -1316,14 +1316,14 @@
     ]
   },
   "2026-02-26": {
-    "total": 14,
+    "total": 15,
     "streamlit": 2,
-    "github_action": 12,
-    "successful": 14,
+    "github_action": 13,
+    "successful": 15,
     "failed": 0,
     "positions": {
       "Account Executive Japanese Client": 3,
-      "Freelance Data Scanner": 11
+      "Freelance Data Scanner": 12
     },
     "entries": [
       {
@@ -1421,6 +1421,13 @@
         "timestamp": "2026-02-26 04:36:08",
         "source": "github_action",
         "candidate": "Leni Epriliani",
+        "position": "Freelance Data Scanner",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-26 04:36:51",
+        "source": "github_action",
+        "candidate": "Rida  Adinda",
         "position": "Freelance Data Scanner",
         "success": true
       }
