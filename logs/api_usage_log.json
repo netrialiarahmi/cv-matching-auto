@@ -1316,23 +1316,16 @@
     ]
   },
   "2026-02-26": {
-    "total": 239,
+    "total": 240,
     "streamlit": 2,
-    "github_action": 237,
-    "successful": 239,
+    "github_action": 238,
+    "successful": 240,
     "failed": 0,
     "positions": {
       "Account Executive Japanese Client": 3,
-      "Freelance Data Scanner": 236
+      "Freelance Data Scanner": 237
     },
     "entries": [
-      {
-        "timestamp": "2026-02-26 05:56:01",
-        "source": "github_action",
-        "candidate": "Intan Fitaloka",
-        "position": "Freelance Data Scanner",
-        "success": true
-      },
       {
         "timestamp": "2026-02-26 05:56:45",
         "source": "github_action",
@@ -2023,6 +2016,13 @@
         "timestamp": "2026-02-26 06:58:43",
         "source": "github_action",
         "candidate": "Nisrina A P",
+        "position": "Freelance Data Scanner",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-26 06:59:28",
+        "source": "github_action",
+        "candidate": "Satya Subakti",
         "position": "Freelance Data Scanner",
         "success": true
       }
