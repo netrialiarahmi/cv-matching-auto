@@ -1316,23 +1316,16 @@
     ]
   },
   "2026-02-26": {
-    "total": 100,
+    "total": 101,
     "streamlit": 2,
-    "github_action": 98,
-    "successful": 100,
+    "github_action": 99,
+    "successful": 101,
     "failed": 0,
     "positions": {
       "Account Executive Japanese Client": 3,
-      "Freelance Data Scanner": 97
+      "Freelance Data Scanner": 98
     },
     "entries": [
-      {
-        "timestamp": "2026-02-26 02:19:39",
-        "source": "streamlit",
-        "candidate": "Momoko Poedjokerto",
-        "position": "Account Executive Japanese Client",
-        "success": true
-      },
       {
         "timestamp": "2026-02-26 02:23:56",
         "source": "streamlit",
@@ -2023,6 +2016,13 @@
         "timestamp": "2026-02-26 05:31:47",
         "source": "github_action",
         "candidate": "Dede Mufliha",
+        "position": "Freelance Data Scanner",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-26 05:32:33",
+        "source": "github_action",
+        "candidate": "Anita Wijayanti",
         "position": "Freelance Data Scanner",
         "success": true
       }
