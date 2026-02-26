@@ -1316,23 +1316,16 @@
     ]
   },
   "2026-02-26": {
-    "total": 337,
+    "total": 338,
     "streamlit": 2,
-    "github_action": 335,
-    "successful": 337,
+    "github_action": 336,
+    "successful": 338,
     "failed": 0,
     "positions": {
       "Account Executive Japanese Client": 3,
-      "Freelance Data Scanner": 334
+      "Freelance Data Scanner": 335
     },
     "entries": [
-      {
-        "timestamp": "2026-02-26 06:57:59",
-        "source": "github_action",
-        "candidate": "Haliza Diva Kusumo",
-        "position": "Freelance Data Scanner",
-        "success": true
-      },
       {
         "timestamp": "2026-02-26 06:58:43",
         "source": "github_action",
@@ -2023,6 +2016,13 @@
         "timestamp": "2026-02-26 08:01:59",
         "source": "github_action",
         "candidate": "Angel Hernandez",
+        "position": "Freelance Data Scanner",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-26 08:02:39",
+        "source": "github_action",
+        "candidate": "Amanda  Chrisnina",
         "position": "Freelance Data Scanner",
         "success": true
       }
