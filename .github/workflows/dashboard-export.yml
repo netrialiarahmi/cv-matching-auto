@@ -2,9 +2,13 @@ name: Dashboard Export and CV Link Update
 
 on:
   schedule:
-    # Run every day at 00:00 UTC (07:00 WIB)
-    - cron: '0 0 * * *'
+    # Run every day at 00:30 UTC (07:30 WIB) - after pooling finishes
+    - cron: '30 0 * * *'
   workflow_dispatch:  # Allow manual triggering
+
+concurrency:
+  group: csv-update
+  cancel-in-progress: false
 
 permissions:
   contents: write
