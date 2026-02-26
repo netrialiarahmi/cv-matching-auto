@@ -1316,23 +1316,16 @@
     ]
   },
   "2026-02-26": {
-    "total": 212,
+    "total": 213,
     "streamlit": 2,
-    "github_action": 210,
-    "successful": 212,
+    "github_action": 211,
+    "successful": 213,
     "failed": 0,
     "positions": {
       "Account Executive Japanese Client": 3,
-      "Freelance Data Scanner": 209
+      "Freelance Data Scanner": 210
     },
     "entries": [
-      {
-        "timestamp": "2026-02-26 05:40:39",
-        "source": "github_action",
-        "candidate": "Eka Aji",
-        "position": "Freelance Data Scanner",
-        "success": true
-      },
       {
         "timestamp": "2026-02-26 05:41:21",
         "source": "github_action",
@@ -2023,6 +2016,13 @@
         "timestamp": "2026-02-26 06:41:58",
         "source": "github_action",
         "candidate": "594_Rosita Putri",
+        "position": "Freelance Data Scanner",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-26 06:42:38",
+        "source": "github_action",
+        "candidate": "Aulia Dinda Eka Putri",
         "position": "Freelance Data Scanner",
         "success": true
       }
