@@ -1316,14 +1316,14 @@
     ]
   },
   "2026-02-26": {
-    "total": 28,
+    "total": 29,
     "streamlit": 2,
-    "github_action": 26,
-    "successful": 28,
+    "github_action": 27,
+    "successful": 29,
     "failed": 0,
     "positions": {
       "Account Executive Japanese Client": 3,
-      "Freelance Data Scanner": 25
+      "Freelance Data Scanner": 26
     },
     "entries": [
       {
@@ -1519,6 +1519,13 @@
         "timestamp": "2026-02-26 04:44:04",
         "source": "github_action",
         "candidate": "Enry Eko Todingan",
+        "position": "Freelance Data Scanner",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-26 04:44:43",
+        "source": "github_action",
+        "candidate": "Andi nur safitri",
         "position": "Freelance Data Scanner",
         "success": true
       }
