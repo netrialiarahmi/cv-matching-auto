@@ -1316,23 +1316,16 @@
     ]
   },
   "2026-02-26": {
-    "total": 186,
+    "total": 187,
     "streamlit": 2,
-    "github_action": 184,
-    "successful": 186,
+    "github_action": 185,
+    "successful": 187,
     "failed": 0,
     "positions": {
       "Account Executive Japanese Client": 3,
-      "Freelance Data Scanner": 183
+      "Freelance Data Scanner": 184
     },
     "entries": [
-      {
-        "timestamp": "2026-02-26 05:23:52",
-        "source": "github_action",
-        "candidate": "Anindya Belva",
-        "position": "Freelance Data Scanner",
-        "success": true
-      },
       {
         "timestamp": "2026-02-26 05:24:34",
         "source": "github_action",
@@ -2023,6 +2016,13 @@
         "timestamp": "2026-02-26 06:25:19",
         "source": "github_action",
         "candidate": "Birgita Jenaio Bella Faidra Azka",
+        "position": "Freelance Data Scanner",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-26 06:26:08",
+        "source": "github_action",
+        "candidate": "Margareta Berty Wahyuni",
         "position": "Freelance Data Scanner",
         "success": true
       }
