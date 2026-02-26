@@ -1316,23 +1316,16 @@
     ]
   },
   "2026-02-26": {
-    "total": 403,
+    "total": 404,
     "streamlit": 2,
-    "github_action": 401,
-    "successful": 403,
+    "github_action": 402,
+    "successful": 404,
     "failed": 0,
     "positions": {
       "Account Executive Japanese Client": 3,
-      "Freelance Data Scanner": 400
+      "Freelance Data Scanner": 401
     },
     "entries": [
-      {
-        "timestamp": "2026-02-26 07:40:46",
-        "source": "github_action",
-        "candidate": "farell micaro",
-        "position": "Freelance Data Scanner",
-        "success": true
-      },
       {
         "timestamp": "2026-02-26 07:41:24",
         "source": "github_action",
@@ -2023,6 +2016,13 @@
         "timestamp": "2026-02-26 08:44:34",
         "source": "github_action",
         "candidate": "SATRIA NUGRAHA",
+        "position": "Freelance Data Scanner",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-26 08:45:22",
+        "source": "github_action",
+        "candidate": "Elzah Bilqis Tenia Saputri",
         "position": "Freelance Data Scanner",
         "success": true
       }
