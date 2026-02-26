@@ -1316,23 +1316,16 @@
     ]
   },
   "2026-02-26": {
-    "total": 384,
+    "total": 385,
     "streamlit": 2,
-    "github_action": 382,
-    "successful": 384,
+    "github_action": 383,
+    "successful": 385,
     "failed": 0,
     "positions": {
       "Account Executive Japanese Client": 3,
-      "Freelance Data Scanner": 381
+      "Freelance Data Scanner": 382
     },
     "entries": [
-      {
-        "timestamp": "2026-02-26 07:27:42",
-        "source": "github_action",
-        "candidate": "Dea Audina",
-        "position": "Freelance Data Scanner",
-        "success": true
-      },
       {
         "timestamp": "2026-02-26 07:28:25",
         "source": "github_action",
@@ -2023,6 +2016,13 @@
         "timestamp": "2026-02-26 08:31:18",
         "source": "github_action",
         "candidate": "Yoga Pradana",
+        "position": "Freelance Data Scanner",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-26 08:32:00",
+        "source": "github_action",
+        "candidate": "Rifky Pratama",
         "position": "Freelance Data Scanner",
         "success": true
       }
