@@ -1316,23 +1316,16 @@
     ]
   },
   "2026-02-26": {
-    "total": 193,
+    "total": 194,
     "streamlit": 2,
-    "github_action": 191,
-    "successful": 193,
+    "github_action": 192,
+    "successful": 194,
     "failed": 0,
     "positions": {
       "Account Executive Japanese Client": 3,
-      "Freelance Data Scanner": 190
+      "Freelance Data Scanner": 191
     },
     "entries": [
-      {
-        "timestamp": "2026-02-26 05:28:11",
-        "source": "github_action",
-        "candidate": "Femy Rahma F.",
-        "position": "Freelance Data Scanner",
-        "success": true
-      },
       {
         "timestamp": "2026-02-26 05:28:58",
         "source": "github_action",
@@ -2023,6 +2016,13 @@
         "timestamp": "2026-02-26 06:29:28",
         "source": "github_action",
         "candidate": "Sita Rahmasari",
+        "position": "Freelance Data Scanner",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-26 06:30:08",
+        "source": "github_action",
+        "candidate": "Corina Septianti Kurniawan",
         "position": "Freelance Data Scanner",
         "success": true
       }
