@@ -1316,14 +1316,14 @@
     ]
   },
   "2026-02-26": {
-    "total": 58,
+    "total": 59,
     "streamlit": 2,
-    "github_action": 56,
-    "successful": 58,
+    "github_action": 57,
+    "successful": 59,
     "failed": 0,
     "positions": {
       "Account Executive Japanese Client": 3,
-      "Freelance Data Scanner": 55
+      "Freelance Data Scanner": 56
     },
     "entries": [
       {
@@ -1729,6 +1729,13 @@
         "timestamp": "2026-02-26 05:05:09",
         "source": "github_action",
         "candidate": "Dhika Adhi saputra",
+        "position": "Freelance Data Scanner",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-26 05:05:50",
+        "source": "github_action",
+        "candidate": "Raden Ayu Andiny Kurniawati",
         "position": "Freelance Data Scanner",
         "success": true
       }
