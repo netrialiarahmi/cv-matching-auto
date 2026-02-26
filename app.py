@@ -872,125 +872,87 @@ if selected == "Job Management":
         n_pooled = len(jobs_df[jobs_df['_is_pooled'] == 1])
         st.caption(f"{len(jobs_df)} positions — {n_active} active, {n_pooled} pooled")
         
-        # Plain table overview
-        table_df = jobs_df[['Job Position', 'Pooling Status', 'Job ID', 'Date Created']].copy()
-        table_df['Status'] = table_df['Pooling Status'].apply(lambda x: 'Pooled' if x == 'Pooled' else 'Active')
-        table_df = table_df[['Job Position', 'Status', 'Job ID', 'Date Created']]
-        table_df.index = range(1, len(table_df) + 1)
-        st.dataframe(
-            table_df,
-            use_container_width=True,
-            hide_index=False,
-            column_config={
-                "Job Position": st.column_config.TextColumn("Position", width="large"),
-                "Status": st.column_config.TextColumn("Status", width="small"),
-                "Job ID": st.column_config.TextColumn("Job ID", width="small"),
-                "Date Created": st.column_config.TextColumn("Created", width="small"),
-            }
-        )
+        # Table header row
+        hdr_pos, hdr_desc, hdr_id, hdr_status, hdr_actions = st.columns([3, 4, 2, 2, 3])
+        hdr_pos.markdown("**Position**")
+        hdr_desc.markdown("**Description**")
+        hdr_id.markdown("**Job ID**")
+        hdr_status.markdown("**Status**")
+        hdr_actions.markdown("**Actions**")
+        st.markdown("---")
         
-        # Expanders for actions (Edit / Delete / Pool)
-        st.markdown("#### Manage Positions")
+        # Table rows
         for idx, row in jobs_df.iterrows():
             pooling_status = row.get('Pooling Status', '')
             is_pooled = pooling_status == "Pooled"
             job_id = row.get('Job ID', 'N/A')
             
-            with st.expander(row['Job Position'], expanded=False):
-                st.markdown("**Job Description:**")
-                st.text_area("Job Description", value=row['Job Description'], height=150, disabled=True, key=f"view_desc_{idx}", label_visibility="collapsed")
-
-                col1, col2, col3 = st.columns([1, 1, 1])
-
-                with col1:
-                    if st.button(f"Edit", key=f"edit_{idx}", type="secondary", use_container_width=True):
-                        st.session_state[f"editing_{idx}"] = True
+            col_pos, col_desc, col_id, col_status, col_actions = st.columns([3, 4, 2, 2, 3])
+            
+            with col_pos:
+                st.markdown(f"**{row['Job Position']}**")
+            
+            with col_desc:
+                desc_text = str(row.get('Job Description', ''))
+                preview = desc_text[:80] + "..." if len(desc_text) > 80 else desc_text
+                st.caption(preview)
+            
+            with col_id:
+                st.code(str(job_id), language=None)
+            
+            with col_status:
+                if is_pooled:
+                    if st.button("Pooled", key=f"unpool_{idx}", type="primary", use_container_width=True):
+                        from modules.github_utils import toggle_job_pooling_status
+                        if toggle_job_pooling_status(row['Job Position'], ""):
+                            st.rerun()
+                else:
+                    if st.button("Active", key=f"pool_{idx}", use_container_width=True):
+                        from modules.github_utils import toggle_job_pooling_status
+                        if toggle_job_pooling_status(row['Job Position'], "Pooled"):
+                            st.rerun()
+            
+            with col_actions:
+                btn_edit, btn_del = st.columns(2)
+                with btn_edit:
+                    if st.button("Edit", key=f"edit_{idx}", use_container_width=True):
+                        st.session_state[f"editing_{idx}"] = not st.session_state.get(f"editing_{idx}", False)
                         st.rerun()
-
-                with col2:
-                    if st.button(f"Delete", key=f"delete_{idx}", type="secondary", use_container_width=True):
+                with btn_del:
+                    if st.button("Delete", key=f"delete_{idx}", use_container_width=True):
                         if delete_job_position_from_github(row['Job Position']):
-                            st.success(f"Job position '{row['Job Position']}' deleted successfully!")
+                            st.success(f"'{row['Job Position']}' deleted!")
                             time.sleep(1)
                             st.rerun()
-                        else:
-                            st.error("Failed to delete job position")
-                
-                with col3:
-                    # Pooling toggle button
-                    if is_pooled:
-                        if st.button(f"Unpool", key=f"unpool_{idx}", type="primary", use_container_width=True):
-                            from modules.github_utils import toggle_job_pooling_status
-                            if toggle_job_pooling_status(row['Job Position'], ""):
-                                st.success(f"Position '{row['Job Position']}' removed from pooling!")
-                                time.sleep(1)
-                                st.rerun()
-                            else:
-                                st.error("Failed to update pooling status")
-                    else:
-                        if st.button(f"Pool", key=f"pool_{idx}", use_container_width=True):
-                            from modules.github_utils import toggle_job_pooling_status
-                            if toggle_job_pooling_status(row['Job Position'], "Pooled"):
-                                st.success(f"Position '{row['Job Position']}' moved to pooling!")
-                                time.sleep(1)
-                                st.rerun()
-                            else:
-                                st.error("Failed to update pooling status")
-
-                # Edit form (shown when edit button is clicked)
-                if st.session_state.get(f"editing_{idx}", False):
-                    st.markdown("---")
-                    st.markdown("#### Edit Job Position")
-
+            
+            # Edit form (inline, shown when edit button is clicked)
+            if st.session_state.get(f"editing_{idx}", False):
+                with st.container():
+                    st.markdown(f"##### Edit: {row['Job Position']}")
                     edit_col1, edit_col2 = st.columns([1, 1])
-                    
                     with edit_col1:
-                        edit_job_position = st.text_input(
-                            "Job Position",
-                            value=row['Job Position'],
-                            key=f"edit_pos_{idx}"
-                        )
-                    
+                        edit_job_position = st.text_input("Job Position", value=row['Job Position'], key=f"edit_pos_{idx}")
                     with edit_col2:
-                        edit_job_id = st.text_input(
-                            "Job ID (Kalibrr)",
-                            value=row.get('Job ID', ''),
-                            key=f"edit_id_{idx}"
-                        )
-                    
-                    edit_job_description = st.text_area(
-                        "Job Description",
-                        value=row['Job Description'],
-                        height=200,
-                        key=f"edit_desc_{idx}"
-                    )
-
-                    col_save, col_cancel = st.columns([1, 1])
-
+                        edit_job_id = st.text_input("Job ID (Kalibrr)", value=row.get('Job ID', ''), key=f"edit_id_{idx}")
+                    edit_job_description = st.text_area("Job Description", value=row['Job Description'], height=200, key=f"edit_desc_{idx}")
+                    col_save, col_cancel, _ = st.columns([1, 1, 4])
                     with col_save:
-                        if st.button("Save Changes", key=f"save_{idx}", type="primary"):
+                        if st.button("Save", key=f"save_{idx}", type="primary", use_container_width=True):
                             if not edit_job_position.strip() or not edit_job_description.strip():
                                 st.warning("Please provide both Job Position and Job Description.")
                             elif not edit_job_id.strip():
                                 st.warning("Please provide Job ID from Kalibrr.")
                             else:
-                                if update_job_position_in_github(
-                                    row['Job Position'],
-                                    edit_job_position.strip(),
-                                    edit_job_description.strip(),
-                                    edit_job_id.strip()
-                                ):
-                                    st.success(f"Job position updated successfully!")
+                                if update_job_position_in_github(row['Job Position'], edit_job_position.strip(), edit_job_description.strip(), edit_job_id.strip()):
+                                    st.success("Updated!")
                                     st.session_state[f"editing_{idx}"] = False
                                     time.sleep(1)
                                     st.rerun()
-                                else:
-                                    st.error("Failed to update job position")
-
                     with col_cancel:
-                        if st.button("Cancel", key=f"cancel_{idx}"):
+                        if st.button("Cancel", key=f"cancel_{idx}", use_container_width=True):
                             st.session_state[f"editing_{idx}"] = False
                             st.rerun()
+                    st.markdown("---")
     else:
         st.info("ℹ️ No job positions saved yet. Add your first job position above!")
 
