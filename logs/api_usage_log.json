@@ -1316,14 +1316,14 @@
     ]
   },
   "2026-02-26": {
-    "total": 7,
+    "total": 8,
     "streamlit": 2,
-    "github_action": 5,
-    "successful": 7,
+    "github_action": 6,
+    "successful": 8,
     "failed": 0,
     "positions": {
       "Account Executive Japanese Client": 3,
-      "Freelance Data Scanner": 4
+      "Freelance Data Scanner": 5
     },
     "entries": [
       {
@@ -1372,6 +1372,13 @@
         "timestamp": "2026-02-26 04:31:18",
         "source": "github_action",
         "candidate": "Novina Eryani",
+        "position": "Freelance Data Scanner",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-26 04:31:56",
+        "source": "github_action",
+        "candidate": "Giann Anika  Rozadio",
         "position": "Freelance Data Scanner",
         "success": true
       }
