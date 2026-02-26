@@ -1316,23 +1316,16 @@
     ]
   },
   "2026-02-26": {
-    "total": 140,
+    "total": 141,
     "streamlit": 2,
-    "github_action": 138,
-    "successful": 140,
+    "github_action": 139,
+    "successful": 141,
     "failed": 0,
     "positions": {
       "Account Executive Japanese Client": 3,
-      "Freelance Data Scanner": 137
+      "Freelance Data Scanner": 138
     },
     "entries": [
-      {
-        "timestamp": "2026-02-26 04:52:29",
-        "source": "github_action",
-        "candidate": "Almira Dea Dara Ninggar",
-        "position": "Freelance Data Scanner",
-        "success": true
-      },
       {
         "timestamp": "2026-02-26 04:53:08",
         "source": "github_action",
@@ -2023,6 +2016,13 @@
         "timestamp": "2026-02-26 05:56:01",
         "source": "github_action",
         "candidate": "Intan Fitaloka",
+        "position": "Freelance Data Scanner",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-26 05:56:45",
+        "source": "github_action",
+        "candidate": "Nindya Christy H",
         "position": "Freelance Data Scanner",
         "success": true
       }
