@@ -1316,23 +1316,16 @@
     ]
   },
   "2026-02-26": {
-    "total": 221,
+    "total": 222,
     "streamlit": 2,
-    "github_action": 219,
-    "successful": 221,
+    "github_action": 220,
+    "successful": 222,
     "failed": 0,
     "positions": {
       "Account Executive Japanese Client": 3,
-      "Freelance Data Scanner": 218
+      "Freelance Data Scanner": 219
     },
     "entries": [
-      {
-        "timestamp": "2026-02-26 05:44:54",
-        "source": "github_action",
-        "candidate": "Putri Devi Yorarizka",
-        "position": "Freelance Data Scanner",
-        "success": true
-      },
       {
         "timestamp": "2026-02-26 05:45:38",
         "source": "github_action",
@@ -2023,6 +2016,13 @@
         "timestamp": "2026-02-26 06:47:41",
         "source": "github_action",
         "candidate": "Kania  Deandra",
+        "position": "Freelance Data Scanner",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-26 06:47:46",
+        "source": "github_action",
+        "candidate": "Annisa Firdaus Damayanti",
         "position": "Freelance Data Scanner",
         "success": true
       }
