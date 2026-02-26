@@ -1316,23 +1316,16 @@
     ]
   },
   "2026-02-26": {
-    "total": 197,
+    "total": 198,
     "streamlit": 2,
-    "github_action": 195,
-    "successful": 197,
+    "github_action": 196,
+    "successful": 198,
     "failed": 0,
     "positions": {
       "Account Executive Japanese Client": 3,
-      "Freelance Data Scanner": 194
+      "Freelance Data Scanner": 195
     },
     "entries": [
-      {
-        "timestamp": "2026-02-26 05:31:05",
-        "source": "github_action",
-        "candidate": "Rida Maulida Putri",
-        "position": "Freelance Data Scanner",
-        "success": true
-      },
       {
         "timestamp": "2026-02-26 05:31:46",
         "source": "github_action",
@@ -2023,6 +2016,13 @@
         "timestamp": "2026-02-26 06:32:11",
         "source": "github_action",
         "candidate": "Jimson Carl Hayag",
+        "position": "Freelance Data Scanner",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-26 06:32:56",
+        "source": "github_action",
+        "candidate": "Zamzam Miftahul Faoz",
         "position": "Freelance Data Scanner",
         "success": true
       }
