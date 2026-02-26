@@ -1316,23 +1316,16 @@
     ]
   },
   "2026-02-26": {
-    "total": 230,
+    "total": 231,
     "streamlit": 2,
-    "github_action": 228,
-    "successful": 230,
+    "github_action": 229,
+    "successful": 231,
     "failed": 0,
     "positions": {
       "Account Executive Japanese Client": 3,
-      "Freelance Data Scanner": 227
+      "Freelance Data Scanner": 228
     },
     "entries": [
-      {
-        "timestamp": "2026-02-26 05:50:30",
-        "source": "github_action",
-        "candidate": "Muhammad Daffa Farras",
-        "position": "Freelance Data Scanner",
-        "success": true
-      },
       {
         "timestamp": "2026-02-26 05:51:11",
         "source": "github_action",
@@ -2023,6 +2016,13 @@
         "timestamp": "2026-02-26 06:53:10",
         "source": "github_action",
         "candidate": "Rafi Krisfiani",
+        "position": "Freelance Data Scanner",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-26 06:53:45",
+        "source": "github_action",
+        "candidate": "Listi Yani",
         "position": "Freelance Data Scanner",
         "success": true
       }
