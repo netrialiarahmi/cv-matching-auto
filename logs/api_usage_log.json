@@ -1316,23 +1316,16 @@
     ]
   },
   "2026-02-26": {
-    "total": 267,
+    "total": 268,
     "streamlit": 2,
-    "github_action": 265,
-    "successful": 267,
+    "github_action": 266,
+    "successful": 268,
     "failed": 0,
     "positions": {
       "Account Executive Japanese Client": 3,
-      "Freelance Data Scanner": 264
+      "Freelance Data Scanner": 265
     },
     "entries": [
-      {
-        "timestamp": "2026-02-26 06:12:57",
-        "source": "github_action",
-        "candidate": "Triadi Setiawan",
-        "position": "Freelance Data Scanner",
-        "success": true
-      },
       {
         "timestamp": "2026-02-26 06:13:38",
         "source": "github_action",
@@ -2023,6 +2016,13 @@
         "timestamp": "2026-02-26 07:15:04",
         "source": "github_action",
         "candidate": "IMAN FIRMANSYAH",
+        "position": "Freelance Data Scanner",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-26 07:15:51",
+        "source": "github_action",
+        "candidate": "Theresia Avila Dyagris",
         "position": "Freelance Data Scanner",
         "success": true
       }
