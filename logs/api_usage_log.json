@@ -1316,14 +1316,14 @@
     ]
   },
   "2026-02-26": {
-    "total": 9,
+    "total": 10,
     "streamlit": 2,
-    "github_action": 7,
-    "successful": 9,
+    "github_action": 8,
+    "successful": 10,
     "failed": 0,
     "positions": {
       "Account Executive Japanese Client": 3,
-      "Freelance Data Scanner": 6
+      "Freelance Data Scanner": 7
     },
     "entries": [
       {
@@ -1386,6 +1386,13 @@
         "timestamp": "2026-02-26 04:32:39",
         "source": "github_action",
         "candidate": "NADIA APRILIA KURNIA",
+        "position": "Freelance Data Scanner",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-26 04:33:19",
+        "source": "github_action",
+        "candidate": "Putra Nada",
         "position": "Freelance Data Scanner",
         "success": true
       }
