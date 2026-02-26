@@ -1316,23 +1316,16 @@
     ]
   },
   "2026-02-26": {
-    "total": 158,
+    "total": 159,
     "streamlit": 2,
-    "github_action": 156,
-    "successful": 158,
+    "github_action": 157,
+    "successful": 159,
     "failed": 0,
     "positions": {
       "Account Executive Japanese Client": 3,
-      "Freelance Data Scanner": 155
+      "Freelance Data Scanner": 156
     },
     "entries": [
-      {
-        "timestamp": "2026-02-26 05:05:50",
-        "source": "github_action",
-        "candidate": "Raden Ayu Andiny Kurniawati",
-        "position": "Freelance Data Scanner",
-        "success": true
-      },
       {
         "timestamp": "2026-02-26 05:06:33",
         "source": "github_action",
@@ -2023,6 +2016,13 @@
         "timestamp": "2026-02-26 06:06:35",
         "source": "github_action",
         "candidate": "Sani Mutia",
+        "position": "Freelance Data Scanner",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-26 06:07:14",
+        "source": "github_action",
+        "candidate": "anis octaviana",
         "position": "Freelance Data Scanner",
         "success": true
       }
