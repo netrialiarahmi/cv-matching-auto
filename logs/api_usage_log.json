@@ -1316,13 +1316,14 @@
     ]
   },
   "2026-02-26": {
-    "total": 3,
+    "total": 4,
     "streamlit": 2,
-    "github_action": 1,
-    "successful": 3,
+    "github_action": 2,
+    "successful": 4,
     "failed": 0,
     "positions": {
-      "Account Executive Japanese Client": 3
+      "Account Executive Japanese Client": 3,
+      "Freelance Data Scanner": 1
     },
     "entries": [
       {
@@ -1344,6 +1345,13 @@
         "source": "github_action",
         "candidate": "8014 Duwi Anjar Ariwibowo",
         "position": "Account Executive Japanese Client",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-26 04:29:51",
+        "source": "github_action",
+        "candidate": "Aldira Nur Khalisah",
+        "position": "Freelance Data Scanner",
         "success": true
       }
     ]
