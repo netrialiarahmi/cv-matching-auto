@@ -1316,23 +1316,16 @@
     ]
   },
   "2026-02-26": {
-    "total": 101,
+    "total": 102,
     "streamlit": 2,
-    "github_action": 99,
-    "successful": 101,
+    "github_action": 100,
+    "successful": 102,
     "failed": 0,
     "positions": {
       "Account Executive Japanese Client": 3,
-      "Freelance Data Scanner": 98
+      "Freelance Data Scanner": 99
     },
     "entries": [
-      {
-        "timestamp": "2026-02-26 02:23:56",
-        "source": "streamlit",
-        "candidate": "Anggia Dian Mayana",
-        "position": "Account Executive Japanese Client",
-        "success": true
-      },
       {
         "timestamp": "2026-02-26 04:29:07",
         "source": "github_action",
@@ -2023,6 +2016,13 @@
         "timestamp": "2026-02-26 05:32:33",
         "source": "github_action",
         "candidate": "Anita Wijayanti",
+        "position": "Freelance Data Scanner",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-26 05:33:16",
+        "source": "github_action",
+        "candidate": "Bobby Setiasa M",
         "position": "Freelance Data Scanner",
         "success": true
       }
