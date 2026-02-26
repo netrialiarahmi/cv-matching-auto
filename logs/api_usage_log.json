@@ -1316,23 +1316,16 @@
     ]
   },
   "2026-02-26": {
-    "total": 418,
+    "total": 419,
     "streamlit": 2,
-    "github_action": 416,
-    "successful": 418,
+    "github_action": 417,
+    "successful": 419,
     "failed": 0,
     "positions": {
       "Account Executive Japanese Client": 3,
-      "Freelance Data Scanner": 415
+      "Freelance Data Scanner": 416
     },
     "entries": [
-      {
-        "timestamp": "2026-02-26 07:49:57",
-        "source": "github_action",
-        "candidate": "Lorena Talita Laura Wowor",
-        "position": "Freelance Data Scanner",
-        "success": true
-      },
       {
         "timestamp": "2026-02-26 07:50:40",
         "source": "github_action",
@@ -2023,6 +2016,13 @@
         "timestamp": "2026-02-26 08:53:12",
         "source": "github_action",
         "candidate": "Rocky Agsalino Akbar",
+        "position": "Freelance Data Scanner",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-26 08:53:16",
+        "source": "github_action",
+        "candidate": "Fajar Choiry",
         "position": "Freelance Data Scanner",
         "success": true
       }
