@@ -1316,23 +1316,16 @@
     ]
   },
   "2026-02-26": {
-    "total": 206,
+    "total": 207,
     "streamlit": 2,
-    "github_action": 204,
-    "successful": 206,
+    "github_action": 205,
+    "successful": 207,
     "failed": 0,
     "positions": {
       "Account Executive Japanese Client": 3,
-      "Freelance Data Scanner": 203
+      "Freelance Data Scanner": 204
     },
     "entries": [
-      {
-        "timestamp": "2026-02-26 05:37:04",
-        "source": "github_action",
-        "candidate": "Yoga Nugraha",
-        "position": "Freelance Data Scanner",
-        "success": true
-      },
       {
         "timestamp": "2026-02-26 05:37:44",
         "source": "github_action",
@@ -2023,6 +2016,13 @@
         "timestamp": "2026-02-26 06:38:36",
         "source": "github_action",
         "candidate": "Martha Deawita Sinaga",
+        "position": "Freelance Data Scanner",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-26 06:39:16",
+        "source": "github_action",
+        "candidate": "Adityo Nurbagus",
         "position": "Freelance Data Scanner",
         "success": true
       }
