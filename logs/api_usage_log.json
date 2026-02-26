@@ -1316,23 +1316,16 @@
     ]
   },
   "2026-02-26": {
-    "total": 391,
+    "total": 392,
     "streamlit": 2,
-    "github_action": 389,
-    "successful": 391,
+    "github_action": 390,
+    "successful": 392,
     "failed": 0,
     "positions": {
       "Account Executive Japanese Client": 3,
-      "Freelance Data Scanner": 388
+      "Freelance Data Scanner": 389
     },
     "entries": [
-      {
-        "timestamp": "2026-02-26 07:32:35",
-        "source": "github_action",
-        "candidate": "Dyah Ayu Kusumaningrum",
-        "position": "Freelance Data Scanner",
-        "success": true
-      },
       {
         "timestamp": "2026-02-26 07:33:18",
         "source": "github_action",
@@ -2023,6 +2016,13 @@
         "timestamp": "2026-02-26 08:35:37",
         "source": "github_action",
         "candidate": "Sulis Tianawati",
+        "position": "Freelance Data Scanner",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-26 08:36:19",
+        "source": "github_action",
+        "candidate": "Talenta Naibaho",
         "position": "Freelance Data Scanner",
         "success": true
       }
