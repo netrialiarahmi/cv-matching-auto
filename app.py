@@ -863,25 +863,36 @@ if selected == "Job Management":
         if "Pooling Status" not in jobs_df.columns:
             jobs_df["Pooling Status"] = ""
         
+        # Sort: Active first (alphabetical), then Pooled (alphabetical)
+        jobs_df['_is_pooled'] = jobs_df['Pooling Status'].fillna('').apply(lambda x: 1 if x == 'Pooled' else 0)
+        jobs_df = jobs_df.sort_values(['_is_pooled', 'Job Position'], ascending=[True, True]).reset_index(drop=True)
+        
+        # Count summary
+        n_active = len(jobs_df[jobs_df['_is_pooled'] == 0])
+        n_pooled = len(jobs_df[jobs_df['_is_pooled'] == 1])
+        st.caption(f"{len(jobs_df)} positions — {n_active} active, {n_pooled} pooled")
+        
         # Display each job position with edit, delete, and pooling buttons
         for idx, row in jobs_df.iterrows():
             pooling_status = row.get('Pooling Status', '')
             is_pooled = pooling_status == "Pooled"
             job_id = row.get('Job ID', 'N/A')
             
-            # Show pooling indicator in expander title
-            title_prefix = "[Pooled] " if is_pooled else ""
-            with st.expander(f"{title_prefix}{row['Job Position']}", expanded=False):
-                col_info1, col_info2 = st.columns(2)
-                with col_info1:
+            with st.expander(row['Job Position'], expanded=False):
+                # Status badge + info row
+                status_col, info_col1, info_col2 = st.columns([1, 2, 2])
+                with status_col:
+                    if is_pooled:
+                        st.info("Pooled")
+                    else:
+                        st.success("Active")
+                with info_col1:
                     st.markdown(f"**Date Created:** {row['Date Created']}")
                     last_modified = row.get('Last Modified', '')
                     if last_modified and last_modified != '':
                         st.markdown(f"**Last Modified:** {last_modified}")
-                with col_info2:
+                with info_col2:
                     st.markdown(f"**Job ID:** `{job_id}`")
-                if is_pooled:
-                    st.markdown("**Status:** **In Pooling** (Not visible in Dashboard)")
                 st.markdown("**Job Description:**")
                 st.text_area("Job Description", value=row['Job Description'], height=150, disabled=True, key=f"view_desc_{idx}", label_visibility="collapsed")
 
