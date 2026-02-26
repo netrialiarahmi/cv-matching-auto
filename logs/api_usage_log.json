@@ -1316,23 +1316,16 @@
     ]
   },
   "2026-02-26": {
-    "total": 402,
+    "total": 403,
     "streamlit": 2,
-    "github_action": 400,
-    "successful": 402,
+    "github_action": 401,
+    "successful": 403,
     "failed": 0,
     "positions": {
       "Account Executive Japanese Client": 3,
-      "Freelance Data Scanner": 399
+      "Freelance Data Scanner": 400
     },
     "entries": [
-      {
-        "timestamp": "2026-02-26 07:40:04",
-        "source": "github_action",
-        "candidate": "ALJEAN G. MATABA",
-        "position": "Freelance Data Scanner",
-        "success": true
-      },
       {
         "timestamp": "2026-02-26 07:40:46",
         "source": "github_action",
@@ -2023,6 +2016,13 @@
         "timestamp": "2026-02-26 08:43:51",
         "source": "github_action",
         "candidate": "Seftian  Risandi",
+        "position": "Freelance Data Scanner",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-26 08:44:34",
+        "source": "github_action",
+        "candidate": "SATRIA NUGRAHA",
         "position": "Freelance Data Scanner",
         "success": true
       }
