@@ -1316,14 +1316,14 @@
     ]
   },
   "2026-02-26": {
-    "total": 29,
+    "total": 30,
     "streamlit": 2,
-    "github_action": 27,
-    "successful": 29,
+    "github_action": 28,
+    "successful": 30,
     "failed": 0,
     "positions": {
       "Account Executive Japanese Client": 3,
-      "Freelance Data Scanner": 26
+      "Freelance Data Scanner": 27
     },
     "entries": [
       {
@@ -1526,6 +1526,13 @@
         "timestamp": "2026-02-26 04:44:43",
         "source": "github_action",
         "candidate": "Andi nur safitri",
+        "position": "Freelance Data Scanner",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-26 04:45:22",
+        "source": "github_action",
+        "candidate": "Khanza Pavita Harsono",
         "position": "Freelance Data Scanner",
         "success": true
       }
