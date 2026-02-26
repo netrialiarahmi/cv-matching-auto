@@ -1316,23 +1316,16 @@
     ]
   },
   "2026-02-26": {
-    "total": 291,
+    "total": 292,
     "streamlit": 2,
-    "github_action": 289,
-    "successful": 291,
+    "github_action": 290,
+    "successful": 292,
     "failed": 0,
     "positions": {
       "Account Executive Japanese Client": 3,
-      "Freelance Data Scanner": 288
+      "Freelance Data Scanner": 289
     },
     "entries": [
-      {
-        "timestamp": "2026-02-26 06:28:51",
-        "source": "github_action",
-        "candidate": "Wasni S.Pd",
-        "position": "Freelance Data Scanner",
-        "success": true
-      },
       {
         "timestamp": "2026-02-26 06:29:28",
         "source": "github_action",
@@ -2023,6 +2016,13 @@
         "timestamp": "2026-02-26 07:31:52",
         "source": "github_action",
         "candidate": "Geraldi Yoas",
+        "position": "Freelance Data Scanner",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-26 07:32:35",
+        "source": "github_action",
+        "candidate": "Dyah Ayu Kusumaningrum",
         "position": "Freelance Data Scanner",
         "success": true
       }
