@@ -30,6 +30,7 @@ logs/
 
 # Output files (using GitHub for storage)
 output/
+!output/cv/.gitkeep
 *.csv
 !requirements.txt
 !sample_candidate_template.csv

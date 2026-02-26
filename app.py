@@ -41,7 +41,7 @@ REJECTION_REASONS = [
 REJECTION_REASON_CV_SCREENING = "Tidak lolos CV screening"
 
 # --- Page Config ---
-logo = Image.open("cqdybkxstovyrla2dje3.webp")
+logo = Image.open("logo.webp")
 st.set_page_config(
     page_title="Kompas.com CV Matching System",
     page_icon=logo,
@@ -1840,7 +1840,7 @@ elif selected == "Dashboard":
         return False
 
     # --- Display candidates with expanders ---
-    st.markdown("### **Candidate Details**")
+    st.markdown(f"**Showing {len(df_filtered)} candidate(s)**")
 
     for idx, row in df_sorted.iterrows():
         # Handle NaN values properly for candidate name
@@ -1876,60 +1876,67 @@ elif selected == "Dashboard":
         
         # Display candidate details in expander (no checkbox)
         with st.expander("View Details", expanded=False):
-            col1, col2 = st.columns([1, 1])
+            # Score + Basic Info in a compact layout
+            info_col1, info_col2, info_col3 = st.columns([1, 2, 2])
 
-            with col1:
-                st.markdown("### Score")
-                st.metric("Match Score", f"{row.get('Match Score', 0)}")
+            # Helper function to get non-NaN value
+            def get_value(key, default='N/A'):
+                val = row.get(key, default)
+                return val if pd.notna(val) and str(val).strip() else default
 
-                st.markdown("### Basic Info")
-                # Helper function to get non-NaN value
-                def get_value(key, default='N/A'):
-                    val = row.get(key, default)
-                    return val if pd.notna(val) and str(val).strip() else default
+            with info_col1:
+                st.metric("Score", f"{row.get('Match Score', 0)}")
 
+            with info_col2:
                 if "Candidate Email" in row:
-                    st.text(f"Email: {get_value('Candidate Email')}")
-                    st.text(f"Phone: {get_value('Phone')}")
-                st.text(f"Job: {get_value('Latest Job Title')}")
-                st.text(f"Company: {get_value('Latest Company')}")
-                st.text(f"Education: {get_value('Education')}")
-                st.text(f"University: {get_value('University')}")
+                    st.markdown(f"**Email:** {get_value('Candidate Email')}")
+                    st.markdown(f"**Phone:** {get_value('Phone')}")
+                st.markdown(f"**Job:** {get_value('Latest Job Title')}")
 
-            with col2:
-                st.markdown("### Strengths")
+            with info_col3:
+                st.markdown(f"**Company:** {get_value('Latest Company')}")
+                st.markdown(f"**Education:** {get_value('Education')}")
+                st.markdown(f"**University:** {get_value('University')}")
+
+            # Strengths / Weaknesses / Gaps — 3 columns
+            eval_col1, eval_col2, eval_col3 = st.columns(3)
+
+            with eval_col1:
+                st.markdown("**Strengths**")
                 strengths = str(row.get("Strengths", "")) if pd.notna(row.get("Strengths")) else ""
                 if strengths and strengths.strip():
-                    for strength in strengths.split(", "):
-                        if strength.strip():
-                            st.markdown(f"- {strength.strip()}")
+                    for s in strengths.split(", "):
+                        if s.strip():
+                            st.markdown(f"- {s.strip()}")
                 else:
-                    st.text("No strengths listed")
+                    st.caption("No strengths listed")
 
-                st.markdown("### ⚠️ Weaknesses")
+            with eval_col2:
+                st.markdown("**Weaknesses**")
                 weaknesses = str(row.get("Weaknesses", "")) if pd.notna(row.get("Weaknesses")) else ""
                 if weaknesses and weaknesses.strip():
-                    for weakness in weaknesses.split(", "):
-                        if weakness.strip():
-                            st.markdown(f"- {weakness.strip()}")
+                    for w in weaknesses.split(", "):
+                        if w.strip():
+                            st.markdown(f"- {w.strip()}")
                 else:
-                    st.text("No weaknesses listed")
+                    st.caption("No weaknesses listed")
 
-                st.markdown("### 🔴 Gaps")
+            with eval_col3:
+                st.markdown("**Gaps**")
                 gaps = str(row.get("Gaps", "")) if pd.notna(row.get("Gaps")) else ""
                 if gaps and gaps.strip():
-                    for gap in gaps.split(", "):
-                        if gap.strip():
-                            st.markdown(f"- {gap.strip()}")
+                    for g in gaps.split(", "):
+                        if g.strip():
+                            st.markdown(f"- {g.strip()}")
                 else:
-                    st.text("No gaps identified")
+                    st.caption("No gaps identified")
 
-            st.markdown("### 🤖 AI Summary")
+            # AI Summary
             ai_summary = row.get("AI Summary")
             if pd.notna(ai_summary) and str(ai_summary).strip():
-                st.info(ai_summary)
+                st.markdown(f"**Summary:** {ai_summary}")
             else:
-                st.info("No summary available")
+                st.caption("No summary available")
 
             # Links section
             kalibrr_profile = row.get("Kalibrr Profile")
@@ -1943,17 +1950,17 @@ elif selected == "Dashboard":
             )
 
             if has_links:
-                st.markdown("### 🔗 Links")
-                link_cols = st.columns(3)
+                links_parts = []
                 if pd.notna(kalibrr_profile) and str(kalibrr_profile).strip():
-                    link_cols[0].markdown(f"[👤 Kalibrr Profile]({kalibrr_profile})")
+                    links_parts.append(f"[Kalibrr Profile]({kalibrr_profile})")
                 if pd.notna(application_link) and str(application_link).strip():
-                    link_cols[1].markdown(f"[📝 Application]({application_link})")
+                    links_parts.append(f"[Application]({application_link})")
                 if pd.notna(resume_link) and str(resume_link).strip():
-                    link_cols[2].markdown(f"[📄 Resume]({resume_link})")
+                    links_parts.append(f"[Resume/CV]({resume_link})")
+                st.markdown(" | ".join(links_parts))
 
             # --- Candidate Status Section ---
-            st.markdown("### Candidate Status")
+            st.markdown("---")
             current_status = row.get("Candidate Status", "")
             if pd.isna(current_status):
                 current_status = ""
@@ -1976,7 +1983,6 @@ elif selected == "Dashboard":
             
             # Stage 1: Initial CV Screening (OK / Reject)
             if current_status == "":
-                st.markdown("#### Candidate Status")
                 st.info("Status: Pending Review")
                 
                 btn_col1, btn_col2, btn_col3 = st.columns(3)
@@ -2007,10 +2013,9 @@ elif selected == "Dashboard":
             
             # Stage 2: Show OK status and interview options
             elif current_status == "OK" and current_interview_status == "":
-                st.markdown("#### Candidate Status")
                 st.success("Status: OK (Passed CV Screening)")
                 
-                st.markdown("#### Initial Interview Result")
+                st.markdown("**Interview Result:**")
                 
                 # Pass Interview button
                 if st.button("Pass Interview", key=f"lanjut_{unique_key}", type="primary", use_container_width=True):
@@ -2046,36 +2051,33 @@ elif selected == "Dashboard":
             
             # Stage 3: Show final status for completed candidates
             elif current_status == "Rejected":
-                st.markdown("#### Candidate Status")
                 rejection_display = f" - Reason: {current_rejection_reason}" if current_rejection_reason else ""
                 st.error(f"Status: Rejected{rejection_display}")
             
             elif current_status == "OK" and current_interview_status == "Lanjut":
-                st.markdown("#### Candidate Status")
-                st.success("Status: OK → Passed Interview")
+                st.success("Status: OK - Passed Interview")
             
             elif current_status == "OK" and current_interview_status == "Rejected":
-                st.markdown("#### Candidate Status")
                 rejection_display = f" - Reason: {current_rejection_reason}" if current_rejection_reason else ""
-                st.error(f"Status: OK → Rejected at Interview{rejection_display}")
+                st.error(f"Status: OK - Rejected at Interview{rejection_display}")
             
             # Reset button - available after any status is set
             if current_status:
                 st.markdown("---")
-                if st.button("🔄 Reset Status", key=f"reset_{unique_key}", use_container_width=False):
-                    with st.spinner("💾 Mereset status..."):
+                if st.button("Reset Status", key=f"reset_{unique_key}", use_container_width=False):
+                    with st.spinner("Mereset status..."):
                         if update_candidate_status_in_df(df_full, candidate_email, candidate_name, "", False, selected_job, "", ""):
                             clear_results_cache()
-                            st.info(f"🔄 {candidate_name} status direset!")
+                            st.info(f"{candidate_name} status direset")
                             time.sleep(0.5)
                             st.rerun()
                         else:
-                            st.error("❌ Gagal mereset status")
+                            st.error("Gagal mereset status")
 
     st.divider()
 
     # --- Summary Table ---
-    st.subheader("📊 Summary Table (All Candidates)")
+    st.subheader("Summary Table")
 
     # Create a display dataframe with cleaned values
     df_display = df_sorted.copy()
