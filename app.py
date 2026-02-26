@@ -1881,37 +1881,43 @@ elif selected == "Dashboard":
                 val = row.get(key, default)
                 return val if pd.notna(val) and str(val).strip() else default
 
-            # --- Compact header: Score + Info in one row ---
+            # --- Score Badge + Info (Card Style) ---
             score_val = int(row.get('Match Score', 0))
-            score_color = "#10b981" if score_val >= 70 else "#f59e0b" if score_val >= 50 else "#ef4444"
-            
-            info_parts = []
-            if "Candidate Email" in row:
-                email_val = get_value('Candidate Email')
-                phone_val = get_value('Phone')
-                if email_val != 'N/A':
-                    info_parts.append(f"**Email:** {email_val}")
-                if phone_val != 'N/A':
-                    info_parts.append(f"**Phone:** {phone_val}")
-            info_parts.append(f"**Job:** {get_value('Latest Job Title')}")
-            info_parts.append(f"**Company:** {get_value('Latest Company')}")
-            info_parts.append(f"**Education:** {get_value('Education')} — {get_value('University')}")
-            
-            st.markdown(
-                f'<div style="display:flex;align-items:flex-start;gap:24px;margin-bottom:12px;">'
-                f'<div style="min-width:64px;text-align:center;padding:8px 16px;border-radius:10px;'
-                f'background:{score_color}15;border:2px solid {score_color};">'
-                f'<div style="font-size:28px;font-weight:700;color:{score_color};">{score_val}</div>'
-                f'<div style="font-size:11px;color:#6b7280;font-weight:500;">SCORE</div></div>'
-                f'<div style="font-size:14px;line-height:1.8;">{" &nbsp;·&nbsp; ".join(info_parts)}</div>'
-                f'</div>', unsafe_allow_html=True
-            )
 
-            # --- Evaluation: Strengths | Weaknesses + Gaps (2 columns) ---
+            # Score badge using st.columns (no raw HTML)
+            badge_col, info_col = st.columns([1, 5])
+            with badge_col:
+                if score_val >= 70:
+                    st.success(f"Score: **{score_val}**")
+                elif score_val >= 50:
+                    st.warning(f"Score: **{score_val}**")
+                else:
+                    st.error(f"Score: **{score_val}**")
+
+            with info_col:
+                # Row 1: Contact
+                contact_parts = []
+                if "Candidate Email" in row:
+                    email_val = get_value('Candidate Email')
+                    phone_val = get_value('Phone')
+                    if email_val != 'N/A':
+                        contact_parts.append(f"**Email:** {email_val}")
+                    if phone_val != 'N/A':
+                        contact_parts.append(f"**Phone:** {phone_val}")
+                if contact_parts:
+                    st.markdown(" · ".join(contact_parts))
+
+                # Row 2: Job + Company
+                st.markdown(f"**Job:** {get_value('Latest Job Title')} · **Company:** {get_value('Latest Company')}")
+
+                # Row 3: Education
+                st.markdown(f"**Education:** {get_value('Education')} · **University:** {get_value('University')}")
+
+            # --- Evaluation: Strengths | Weaknesses | Gaps (3 columns) ---
             st.markdown("---")
-            left_col, right_col = st.columns(2)
+            eval_col1, eval_col2, eval_col3 = st.columns(3)
 
-            with left_col:
+            with eval_col1:
                 st.markdown("**Strengths**")
                 strengths = str(row.get("Strengths", "")) if pd.notna(row.get("Strengths")) else ""
                 if strengths and strengths.strip():
@@ -1921,7 +1927,7 @@ elif selected == "Dashboard":
                 else:
                     st.caption("—")
 
-            with right_col:
+            with eval_col2:
                 st.markdown("**Weaknesses**")
                 weaknesses = str(row.get("Weaknesses", "")) if pd.notna(row.get("Weaknesses")) else ""
                 if weaknesses and weaknesses.strip():
@@ -1930,13 +1936,16 @@ elif selected == "Dashboard":
                             st.markdown(f"- {w.strip()}")
                 else:
                     st.caption("—")
-                
+
+            with eval_col3:
+                st.markdown("**Gaps**")
                 gaps = str(row.get("Gaps", "")) if pd.notna(row.get("Gaps")) else ""
                 if gaps and gaps.strip():
-                    st.markdown("**Gaps**")
                     for g in gaps.split(", "):
                         if g.strip():
                             st.markdown(f"- {g.strip()}")
+                else:
+                    st.caption("—")
 
             # --- Summary ---
             ai_summary = row.get("AI Summary")
@@ -1956,6 +1965,7 @@ elif selected == "Dashboard":
             )
 
             if has_links:
+                st.markdown("---")
                 links_parts = []
                 if pd.notna(kalibrr_profile) and str(kalibrr_profile).strip():
                     links_parts.append(f"[Kalibrr Profile]({kalibrr_profile})")
