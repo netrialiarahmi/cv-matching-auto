@@ -1316,23 +1316,16 @@
     ]
   },
   "2026-02-26": {
-    "total": 412,
+    "total": 413,
     "streamlit": 2,
-    "github_action": 410,
-    "successful": 412,
+    "github_action": 411,
+    "successful": 413,
     "failed": 0,
     "positions": {
       "Account Executive Japanese Client": 3,
-      "Freelance Data Scanner": 409
+      "Freelance Data Scanner": 410
     },
     "entries": [
-      {
-        "timestamp": "2026-02-26 07:46:17",
-        "source": "github_action",
-        "candidate": "Kharisma Maharani",
-        "position": "Freelance Data Scanner",
-        "success": true
-      },
       {
         "timestamp": "2026-02-26 07:46:19",
         "source": "github_action",
@@ -2023,6 +2016,13 @@
         "timestamp": "2026-02-26 08:49:42",
         "source": "github_action",
         "candidate": "maretha mamex",
+        "position": "Freelance Data Scanner",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-26 08:50:19",
+        "source": "github_action",
+        "candidate": "Heru J",
         "position": "Freelance Data Scanner",
         "success": true
       }
