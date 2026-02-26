@@ -1316,23 +1316,16 @@
     ]
   },
   "2026-02-26": {
-    "total": 311,
+    "total": 312,
     "streamlit": 2,
-    "github_action": 309,
-    "successful": 311,
+    "github_action": 310,
+    "successful": 312,
     "failed": 0,
     "positions": {
       "Account Executive Japanese Client": 3,
-      "Freelance Data Scanner": 308
+      "Freelance Data Scanner": 309
     },
     "entries": [
-      {
-        "timestamp": "2026-02-26 06:41:58",
-        "source": "github_action",
-        "candidate": "594_Rosita Putri",
-        "position": "Freelance Data Scanner",
-        "success": true
-      },
       {
         "timestamp": "2026-02-26 06:42:38",
         "source": "github_action",
@@ -2023,6 +2016,13 @@
         "timestamp": "2026-02-26 07:44:49",
         "source": "github_action",
         "candidate": "Rony Ito Hutabalian",
+        "position": "Freelance Data Scanner",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-26 07:45:35",
+        "source": "github_action",
+        "candidate": "Priscilla Pakpahan",
         "position": "Freelance Data Scanner",
         "success": true
       }
