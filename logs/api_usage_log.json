@@ -1316,23 +1316,16 @@
     ]
   },
   "2026-02-26": {
-    "total": 220,
+    "total": 221,
     "streamlit": 2,
-    "github_action": 218,
-    "successful": 220,
+    "github_action": 219,
+    "successful": 221,
     "failed": 0,
     "positions": {
       "Account Executive Japanese Client": 3,
-      "Freelance Data Scanner": 217
+      "Freelance Data Scanner": 218
     },
     "entries": [
-      {
-        "timestamp": "2026-02-26 05:44:11",
-        "source": "github_action",
-        "candidate": "Achmad Fauri",
-        "position": "Freelance Data Scanner",
-        "success": true
-      },
       {
         "timestamp": "2026-02-26 05:44:54",
         "source": "github_action",
@@ -2023,6 +2016,13 @@
         "timestamp": "2026-02-26 06:46:57",
         "source": "github_action",
         "candidate": "Erlyn Cruz",
+        "position": "Freelance Data Scanner",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-26 06:47:41",
+        "source": "github_action",
+        "candidate": "Kania  Deandra",
         "position": "Freelance Data Scanner",
         "success": true
       }
