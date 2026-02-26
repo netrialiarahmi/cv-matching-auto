@@ -1316,23 +1316,16 @@
     ]
   },
   "2026-02-26": {
-    "total": 354,
+    "total": 355,
     "streamlit": 2,
-    "github_action": 352,
-    "successful": 354,
+    "github_action": 353,
+    "successful": 355,
     "failed": 0,
     "positions": {
       "Account Executive Japanese Client": 3,
-      "Freelance Data Scanner": 351
+      "Freelance Data Scanner": 352
     },
     "entries": [
-      {
-        "timestamp": "2026-02-26 07:08:27",
-        "source": "github_action",
-        "candidate": "Yogatama AP",
-        "position": "Freelance Data Scanner",
-        "success": true
-      },
       {
         "timestamp": "2026-02-26 07:09:11",
         "source": "github_action",
@@ -2023,6 +2016,13 @@
         "timestamp": "2026-02-26 08:13:07",
         "source": "github_action",
         "candidate": "Andreina Henjelita Elika Paendong",
+        "position": "Freelance Data Scanner",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-26 08:13:55",
+        "source": "github_action",
+        "candidate": "Marshanda Vahira Fitri",
         "position": "Freelance Data Scanner",
         "success": true
       }
