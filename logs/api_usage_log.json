@@ -1316,23 +1316,16 @@
     ]
   },
   "2026-02-26": {
-    "total": 199,
+    "total": 200,
     "streamlit": 2,
-    "github_action": 197,
-    "successful": 199,
+    "github_action": 198,
+    "successful": 200,
     "failed": 0,
     "positions": {
       "Account Executive Japanese Client": 3,
-      "Freelance Data Scanner": 196
+      "Freelance Data Scanner": 197
     },
     "entries": [
-      {
-        "timestamp": "2026-02-26 05:31:47",
-        "source": "github_action",
-        "candidate": "Dede Mufliha",
-        "position": "Freelance Data Scanner",
-        "success": true
-      },
       {
         "timestamp": "2026-02-26 05:32:33",
         "source": "github_action",
@@ -2023,6 +2016,13 @@
         "timestamp": "2026-02-26 06:33:36",
         "source": "github_action",
         "candidate": "Sofi Laila Rahma",
+        "position": "Freelance Data Scanner",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-26 06:34:25",
+        "source": "github_action",
+        "candidate": "Dayu Wedastuti",
         "position": "Freelance Data Scanner",
         "success": true
       }
