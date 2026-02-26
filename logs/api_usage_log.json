@@ -1316,23 +1316,16 @@
     ]
   },
   "2026-02-26": {
-    "total": 102,
+    "total": 103,
     "streamlit": 2,
-    "github_action": 100,
-    "successful": 102,
+    "github_action": 101,
+    "successful": 103,
     "failed": 0,
     "positions": {
       "Account Executive Japanese Client": 3,
-      "Freelance Data Scanner": 99
+      "Freelance Data Scanner": 100
     },
     "entries": [
-      {
-        "timestamp": "2026-02-26 04:29:07",
-        "source": "github_action",
-        "candidate": "8014 Duwi Anjar Ariwibowo",
-        "position": "Account Executive Japanese Client",
-        "success": true
-      },
       {
         "timestamp": "2026-02-26 04:29:51",
         "source": "github_action",
@@ -2023,6 +2016,13 @@
         "timestamp": "2026-02-26 05:33:16",
         "source": "github_action",
         "candidate": "Bobby Setiasa M",
+        "position": "Freelance Data Scanner",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-26 05:34:11",
+        "source": "github_action",
+        "candidate": "Ema Viranda",
         "position": "Freelance Data Scanner",
         "success": true
       }
