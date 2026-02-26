@@ -1316,23 +1316,16 @@
     ]
   },
   "2026-02-26": {
-    "total": 383,
+    "total": 384,
     "streamlit": 2,
-    "github_action": 381,
-    "successful": 383,
+    "github_action": 382,
+    "successful": 384,
     "failed": 0,
     "positions": {
       "Account Executive Japanese Client": 3,
-      "Freelance Data Scanner": 380
+      "Freelance Data Scanner": 381
     },
     "entries": [
-      {
-        "timestamp": "2026-02-26 07:27:05",
-        "source": "github_action",
-        "candidate": "Stefanus Rio Ridwan",
-        "position": "Freelance Data Scanner",
-        "success": true
-      },
       {
         "timestamp": "2026-02-26 07:27:42",
         "source": "github_action",
@@ -2023,6 +2016,13 @@
         "timestamp": "2026-02-26 08:30:35",
         "source": "github_action",
         "candidate": "Salsabila Firdaus",
+        "position": "Freelance Data Scanner",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-26 08:31:18",
+        "source": "github_action",
+        "candidate": "Yoga Pradana",
         "position": "Freelance Data Scanner",
         "success": true
       }
