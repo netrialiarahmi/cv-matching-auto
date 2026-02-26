@@ -1316,14 +1316,14 @@
     ]
   },
   "2026-02-26": {
-    "total": 61,
+    "total": 62,
     "streamlit": 2,
-    "github_action": 59,
-    "successful": 61,
+    "github_action": 60,
+    "successful": 62,
     "failed": 0,
     "positions": {
       "Account Executive Japanese Client": 3,
-      "Freelance Data Scanner": 58
+      "Freelance Data Scanner": 59
     },
     "entries": [
       {
@@ -1750,6 +1750,13 @@
         "timestamp": "2026-02-26 05:07:13",
         "source": "github_action",
         "candidate": "Sabila Astari",
+        "position": "Freelance Data Scanner",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-26 05:07:55",
+        "source": "github_action",
+        "candidate": "Muhamamd Rafi  Azis",
         "position": "Freelance Data Scanner",
         "success": true
       }
