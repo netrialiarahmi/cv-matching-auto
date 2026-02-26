@@ -1316,23 +1316,16 @@
     ]
   },
   "2026-02-26": {
-    "total": 339,
+    "total": 340,
     "streamlit": 2,
-    "github_action": 337,
-    "successful": 339,
+    "github_action": 338,
+    "successful": 340,
     "failed": 0,
     "positions": {
       "Account Executive Japanese Client": 3,
-      "Freelance Data Scanner": 336
+      "Freelance Data Scanner": 337
     },
     "entries": [
-      {
-        "timestamp": "2026-02-26 06:59:28",
-        "source": "github_action",
-        "candidate": "Satya Subakti",
-        "position": "Freelance Data Scanner",
-        "success": true
-      },
       {
         "timestamp": "2026-02-26 07:00:05",
         "source": "github_action",
@@ -2023,6 +2016,13 @@
         "timestamp": "2026-02-26 08:03:15",
         "source": "github_action",
         "candidate": "Tasneem Laquian",
+        "position": "Freelance Data Scanner",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-26 08:03:58",
+        "source": "github_action",
+        "candidate": "Hana Daniela Hernando Falces",
         "position": "Freelance Data Scanner",
         "success": true
       }
