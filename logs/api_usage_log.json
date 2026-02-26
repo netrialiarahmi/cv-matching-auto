@@ -1316,23 +1316,16 @@
     ]
   },
   "2026-02-26": {
-    "total": 161,
+    "total": 162,
     "streamlit": 2,
-    "github_action": 159,
-    "successful": 161,
+    "github_action": 160,
+    "successful": 162,
     "failed": 0,
     "positions": {
       "Account Executive Japanese Client": 3,
-      "Freelance Data Scanner": 158
+      "Freelance Data Scanner": 159
     },
     "entries": [
-      {
-        "timestamp": "2026-02-26 05:07:55",
-        "source": "github_action",
-        "candidate": "Muhamamd Rafi  Azis",
-        "position": "Freelance Data Scanner",
-        "success": true
-      },
       {
         "timestamp": "2026-02-26 05:08:33",
         "source": "github_action",
@@ -2023,6 +2016,13 @@
         "timestamp": "2026-02-26 06:08:41",
         "source": "github_action",
         "candidate": "PUTRI KUSUMAWATI ANGGRAINI",
+        "position": "Freelance Data Scanner",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-26 06:09:18",
+        "source": "github_action",
+        "candidate": "Jace Mercado",
         "position": "Freelance Data Scanner",
         "success": true
       }
