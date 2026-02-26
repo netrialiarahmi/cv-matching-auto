@@ -872,27 +872,31 @@ if selected == "Job Management":
         n_pooled = len(jobs_df[jobs_df['_is_pooled'] == 1])
         st.caption(f"{len(jobs_df)} positions — {n_active} active, {n_pooled} pooled")
         
-        # Display each job position with edit, delete, and pooling buttons
+        # Plain table overview
+        table_df = jobs_df[['Job Position', 'Pooling Status', 'Job ID', 'Date Created']].copy()
+        table_df['Status'] = table_df['Pooling Status'].apply(lambda x: 'Pooled' if x == 'Pooled' else 'Active')
+        table_df = table_df[['Job Position', 'Status', 'Job ID', 'Date Created']]
+        table_df.index = range(1, len(table_df) + 1)
+        st.dataframe(
+            table_df,
+            use_container_width=True,
+            hide_index=False,
+            column_config={
+                "Job Position": st.column_config.TextColumn("Position", width="large"),
+                "Status": st.column_config.TextColumn("Status", width="small"),
+                "Job ID": st.column_config.TextColumn("Job ID", width="small"),
+                "Date Created": st.column_config.TextColumn("Created", width="small"),
+            }
+        )
+        
+        # Expanders for actions (Edit / Delete / Pool)
+        st.markdown("#### Manage Positions")
         for idx, row in jobs_df.iterrows():
             pooling_status = row.get('Pooling Status', '')
             is_pooled = pooling_status == "Pooled"
             job_id = row.get('Job ID', 'N/A')
             
             with st.expander(row['Job Position'], expanded=False):
-                # Status badge + info row
-                status_col, info_col1, info_col2 = st.columns([1, 2, 2])
-                with status_col:
-                    if is_pooled:
-                        st.info("Pooled")
-                    else:
-                        st.success("Active")
-                with info_col1:
-                    st.markdown(f"**Date Created:** {row['Date Created']}")
-                    last_modified = row.get('Last Modified', '')
-                    if last_modified and last_modified != '':
-                        st.markdown(f"**Last Modified:** {last_modified}")
-                with info_col2:
-                    st.markdown(f"**Job ID:** `{job_id}`")
                 st.markdown("**Job Description:**")
                 st.text_area("Job Description", value=row['Job Description'], height=150, disabled=True, key=f"view_desc_{idx}", label_visibility="collapsed")
 
