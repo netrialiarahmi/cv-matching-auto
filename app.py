@@ -885,7 +885,12 @@ if selected == "Job Management":
         for idx, row in jobs_df.iterrows():
             pooling_status = row.get('Pooling Status', '')
             is_pooled = pooling_status == "Pooled"
-            job_id = row.get('Job ID', 'N/A')
+            job_id_raw = row.get('Job ID', 'N/A')
+            # Convert to int if numeric
+            try:
+                job_id = str(int(float(job_id_raw)))
+            except (ValueError, TypeError):
+                job_id = str(job_id_raw)
             
             col_pos, col_desc, col_id, col_status, col_actions = st.columns([3, 4, 2, 2, 3])
             
@@ -898,7 +903,7 @@ if selected == "Job Management":
                 st.caption(preview)
             
             with col_id:
-                st.code(str(job_id), language=None)
+                st.code(job_id, language=None)
             
             with col_status:
                 if is_pooled:
