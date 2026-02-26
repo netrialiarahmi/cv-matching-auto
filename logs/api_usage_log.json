@@ -1316,14 +1316,14 @@
     ]
   },
   "2026-02-26": {
-    "total": 23,
+    "total": 24,
     "streamlit": 2,
-    "github_action": 21,
-    "successful": 23,
+    "github_action": 22,
+    "successful": 24,
     "failed": 0,
     "positions": {
       "Account Executive Japanese Client": 3,
-      "Freelance Data Scanner": 20
+      "Freelance Data Scanner": 21
     },
     "entries": [
       {
@@ -1484,6 +1484,13 @@
         "timestamp": "2026-02-26 04:41:02",
         "source": "github_action",
         "candidate": "Kharisma Qaulam",
+        "position": "Freelance Data Scanner",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-26 04:41:41",
+        "source": "github_action",
+        "candidate": "Santri Aswinto  Nomleni",
         "position": "Freelance Data Scanner",
         "success": true
       }
