@@ -1316,14 +1316,14 @@
     ]
   },
   "2026-02-26": {
-    "total": 31,
+    "total": 32,
     "streamlit": 2,
-    "github_action": 29,
-    "successful": 31,
+    "github_action": 30,
+    "successful": 32,
     "failed": 0,
     "positions": {
       "Account Executive Japanese Client": 3,
-      "Freelance Data Scanner": 28
+      "Freelance Data Scanner": 29
     },
     "entries": [
       {
@@ -1540,6 +1540,13 @@
         "timestamp": "2026-02-26 04:46:04",
         "source": "github_action",
         "candidate": "Jepri supriyadi",
+        "position": "Freelance Data Scanner",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-26 04:46:46",
+        "source": "github_action",
+        "candidate": "Lailan Aprina",
         "position": "Freelance Data Scanner",
         "success": true
       }
