@@ -24,8 +24,10 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          # For workflow_run, checkout the exact commit produced by the export workflow
-          ref: ${{ github.event_name == 'workflow_run' && github.event.workflow_run.head_sha || github.ref }}
+          # Always checkout latest commit on the branch (after dashboard export has pushed)
+          # Note: workflow_run.head_sha is the commit BEFORE dashboard runs, not the one it creates
+          ref: ${{ env.TARGET_BRANCH }}
+          fetch-depth: 1
       
       - name: Set up Python
         uses: actions/setup-python@v5
