@@ -1316,23 +1316,16 @@
     ]
   },
   "2026-02-26": {
-    "total": 110,
+    "total": 111,
     "streamlit": 2,
-    "github_action": 108,
-    "successful": 110,
+    "github_action": 109,
+    "successful": 111,
     "failed": 0,
     "positions": {
       "Account Executive Japanese Client": 3,
-      "Freelance Data Scanner": 107
+      "Freelance Data Scanner": 108
     },
     "entries": [
-      {
-        "timestamp": "2026-02-26 04:34:00",
-        "source": "github_action",
-        "candidate": "Ignatius Dimas Adi Suarjaya",
-        "position": "Freelance Data Scanner",
-        "success": true
-      },
       {
         "timestamp": "2026-02-26 04:34:42",
         "source": "github_action",
@@ -2023,6 +2016,13 @@
         "timestamp": "2026-02-26 05:39:09",
         "source": "github_action",
         "candidate": "Delal salsabila",
+        "position": "Freelance Data Scanner",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-26 05:39:55",
+        "source": "github_action",
+        "candidate": "Choirun Anwar",
         "position": "Freelance Data Scanner",
         "success": true
       }
