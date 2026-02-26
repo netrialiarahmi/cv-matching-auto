@@ -1921,9 +1921,9 @@ elif selected == "Dashboard":
                 st.markdown("**Strengths**")
                 strengths = str(row.get("Strengths", "")) if pd.notna(row.get("Strengths")) else ""
                 if strengths and strengths.strip():
-                    for s in strengths.split(", "):
+                    for s in re.split(r'\.[;,]\s+', strengths.strip()):
                         if s.strip():
-                            st.markdown(f"- {s.strip()}")
+                            st.markdown(f"- {s.strip().rstrip('.')}")
                 else:
                     st.caption("—")
 
@@ -1931,9 +1931,9 @@ elif selected == "Dashboard":
                 st.markdown("**Weaknesses**")
                 weaknesses = str(row.get("Weaknesses", "")) if pd.notna(row.get("Weaknesses")) else ""
                 if weaknesses and weaknesses.strip():
-                    for w in weaknesses.split(", "):
+                    for w in re.split(r'\.[;,]\s+', weaknesses.strip()):
                         if w.strip():
-                            st.markdown(f"- {w.strip()}")
+                            st.markdown(f"- {w.strip().rstrip('.')}")
                 else:
                     st.caption("—")
 
@@ -1941,9 +1941,9 @@ elif selected == "Dashboard":
                 st.markdown("**Gaps**")
                 gaps = str(row.get("Gaps", "")) if pd.notna(row.get("Gaps")) else ""
                 if gaps and gaps.strip():
-                    for g in gaps.split(", "):
+                    for g in re.split(r'\.[;,]\s+', gaps.strip()):
                         if g.strip():
-                            st.markdown(f"- {g.strip()}")
+                            st.markdown(f"- {g.strip().rstrip('.')}")
                 else:
                     st.caption("—")
 
