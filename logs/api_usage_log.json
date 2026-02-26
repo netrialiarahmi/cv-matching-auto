@@ -1316,23 +1316,16 @@
     ]
   },
   "2026-02-26": {
-    "total": 326,
+    "total": 327,
     "streamlit": 2,
-    "github_action": 324,
-    "successful": 326,
+    "github_action": 325,
+    "successful": 327,
     "failed": 0,
     "positions": {
       "Account Executive Japanese Client": 3,
-      "Freelance Data Scanner": 323
+      "Freelance Data Scanner": 324
     },
     "entries": [
-      {
-        "timestamp": "2026-02-26 06:51:01",
-        "source": "github_action",
-        "candidate": "Gusti Ayu Chintya Artania Pratiwi",
-        "position": "Freelance Data Scanner",
-        "success": true
-      },
       {
         "timestamp": "2026-02-26 06:51:45",
         "source": "github_action",
@@ -2023,6 +2016,13 @@
         "timestamp": "2026-02-26 07:54:56",
         "source": "github_action",
         "candidate": "Dwi Rahmahwati",
+        "position": "Freelance Data Scanner",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-26 07:55:33",
+        "source": "github_action",
+        "candidate": "Patricia Medina",
         "position": "Freelance Data Scanner",
         "success": true
       }
