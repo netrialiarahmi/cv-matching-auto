@@ -1316,23 +1316,16 @@
     ]
   },
   "2026-02-26": {
-    "total": 393,
+    "total": 394,
     "streamlit": 2,
-    "github_action": 391,
-    "successful": 393,
+    "github_action": 392,
+    "successful": 394,
     "failed": 0,
     "positions": {
       "Account Executive Japanese Client": 3,
-      "Freelance Data Scanner": 390
+      "Freelance Data Scanner": 391
     },
     "entries": [
-      {
-        "timestamp": "2026-02-26 07:33:58",
-        "source": "github_action",
-        "candidate": "Nurjannah Putri Iinaas",
-        "position": "Freelance Data Scanner",
-        "success": true
-      },
       {
         "timestamp": "2026-02-26 07:34:40",
         "source": "github_action",
@@ -2023,6 +2016,13 @@
         "timestamp": "2026-02-26 08:37:09",
         "source": "github_action",
         "candidate": "Mochammad Afdhal Virgieawan",
+        "position": "Freelance Data Scanner",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-26 08:37:55",
+        "source": "github_action",
+        "candidate": "ILHAM  KURNIAWAN  PUTRA YOWA",
         "position": "Freelance Data Scanner",
         "success": true
       }
