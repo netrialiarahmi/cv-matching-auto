@@ -1316,23 +1316,16 @@
     ]
   },
   "2026-02-26": {
-    "total": 410,
+    "total": 411,
     "streamlit": 2,
-    "github_action": 408,
-    "successful": 410,
+    "github_action": 409,
+    "successful": 411,
     "failed": 0,
     "positions": {
       "Account Executive Japanese Client": 3,
-      "Freelance Data Scanner": 407
+      "Freelance Data Scanner": 408
     },
     "entries": [
-      {
-        "timestamp": "2026-02-26 07:44:49",
-        "source": "github_action",
-        "candidate": "Rony Ito Hutabalian",
-        "position": "Freelance Data Scanner",
-        "success": true
-      },
       {
         "timestamp": "2026-02-26 07:45:35",
         "source": "github_action",
@@ -2023,6 +2016,13 @@
         "timestamp": "2026-02-26 08:48:55",
         "source": "github_action",
         "candidate": "Jeremy Tumbur Mamompar",
+        "position": "Freelance Data Scanner",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-26 08:49:39",
+        "source": "github_action",
+        "candidate": "Devin Ananda Dwiardi Saputra",
         "position": "Freelance Data Scanner",
         "success": true
       }
