@@ -1316,23 +1316,16 @@
     ]
   },
   "2026-02-26": {
-    "total": 178,
+    "total": 179,
     "streamlit": 2,
-    "github_action": 176,
-    "successful": 178,
+    "github_action": 177,
+    "successful": 179,
     "failed": 0,
     "positions": {
       "Account Executive Japanese Client": 3,
-      "Freelance Data Scanner": 175
+      "Freelance Data Scanner": 176
     },
     "entries": [
-      {
-        "timestamp": "2026-02-26 05:18:16",
-        "source": "github_action",
-        "candidate": "Dena Laksmita",
-        "position": "Freelance Data Scanner",
-        "success": true
-      },
       {
         "timestamp": "2026-02-26 05:19:03",
         "source": "github_action",
@@ -2023,6 +2016,13 @@
         "timestamp": "2026-02-26 06:19:46",
         "source": "github_action",
         "candidate": "Hendri Alfiki",
+        "position": "Freelance Data Scanner",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-26 06:20:27",
+        "source": "github_action",
+        "candidate": "Fanisa Rachmawati",
         "position": "Freelance Data Scanner",
         "success": true
       }
