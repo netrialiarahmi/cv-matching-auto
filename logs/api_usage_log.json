@@ -1316,23 +1316,16 @@
     ]
   },
   "2026-02-26": {
-    "total": 119,
+    "total": 120,
     "streamlit": 2,
-    "github_action": 117,
-    "successful": 119,
+    "github_action": 118,
+    "successful": 120,
     "failed": 0,
     "positions": {
       "Account Executive Japanese Client": 3,
-      "Freelance Data Scanner": 116
+      "Freelance Data Scanner": 117
     },
     "entries": [
-      {
-        "timestamp": "2026-02-26 04:39:44",
-        "source": "github_action",
-        "candidate": "Indah Setia Ningrum",
-        "position": "Freelance Data Scanner",
-        "success": true
-      },
       {
         "timestamp": "2026-02-26 04:39:46",
         "source": "github_action",
@@ -2023,6 +2016,13 @@
         "timestamp": "2026-02-26 05:43:31",
         "source": "github_action",
         "candidate": "Riris Febriani",
+        "position": "Freelance Data Scanner",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-26 05:44:09",
+        "source": "github_action",
+        "candidate": "Khansa Tsabatia",
         "position": "Freelance Data Scanner",
         "success": true
       }
