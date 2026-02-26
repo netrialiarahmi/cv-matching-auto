@@ -1316,23 +1316,16 @@
     ]
   },
   "2026-02-26": {
-    "total": 288,
+    "total": 289,
     "streamlit": 2,
-    "github_action": 286,
-    "successful": 288,
+    "github_action": 287,
+    "successful": 289,
     "failed": 0,
     "positions": {
       "Account Executive Japanese Client": 3,
-      "Freelance Data Scanner": 285
+      "Freelance Data Scanner": 286
     },
     "entries": [
-      {
-        "timestamp": "2026-02-26 06:27:33",
-        "source": "github_action",
-        "candidate": "Muhammad Ridzky Abidzar Yahya",
-        "position": "Freelance Data Scanner",
-        "success": true
-      },
       {
         "timestamp": "2026-02-26 06:27:35",
         "source": "github_action",
@@ -2023,6 +2016,13 @@
         "timestamp": "2026-02-26 07:29:47",
         "source": "github_action",
         "candidate": "Reza Puspita",
+        "position": "Freelance Data Scanner",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-26 07:30:33",
+        "source": "github_action",
+        "candidate": "Cindy Rachmadhani",
         "position": "Freelance Data Scanner",
         "success": true
       }
