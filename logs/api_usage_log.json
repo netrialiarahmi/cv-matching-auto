@@ -1316,23 +1316,16 @@
     ]
   },
   "2026-02-26": {
-    "total": 124,
+    "total": 125,
     "streamlit": 2,
-    "github_action": 122,
-    "successful": 124,
+    "github_action": 123,
+    "successful": 125,
     "failed": 0,
     "positions": {
       "Account Executive Japanese Client": 3,
-      "Freelance Data Scanner": 121
+      "Freelance Data Scanner": 122
     },
     "entries": [
-      {
-        "timestamp": "2026-02-26 04:42:26",
-        "source": "github_action",
-        "candidate": "Alifa Yudianto",
-        "position": "Freelance Data Scanner",
-        "success": true
-      },
       {
         "timestamp": "2026-02-26 04:43:12",
         "source": "github_action",
@@ -2023,6 +2016,13 @@
         "timestamp": "2026-02-26 05:46:17",
         "source": "github_action",
         "candidate": "Moh Romadhani  Firdaus",
+        "position": "Freelance Data Scanner",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-26 05:46:56",
+        "source": "github_action",
+        "candidate": "Nadya Muliawati",
         "position": "Freelance Data Scanner",
         "success": true
       }
