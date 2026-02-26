@@ -1316,14 +1316,14 @@
     ]
   },
   "2026-02-26": {
-    "total": 64,
+    "total": 65,
     "streamlit": 2,
-    "github_action": 62,
-    "successful": 64,
+    "github_action": 63,
+    "successful": 65,
     "failed": 0,
     "positions": {
       "Account Executive Japanese Client": 3,
-      "Freelance Data Scanner": 61
+      "Freelance Data Scanner": 62
     },
     "entries": [
       {
@@ -1771,6 +1771,13 @@
         "timestamp": "2026-02-26 05:09:14",
         "source": "github_action",
         "candidate": "Eneng Amalia Tasrifah",
+        "position": "Freelance Data Scanner",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-26 05:09:57",
+        "source": "github_action",
+        "candidate": "Jandri Dwiputra Mona",
         "position": "Freelance Data Scanner",
         "success": true
       }
