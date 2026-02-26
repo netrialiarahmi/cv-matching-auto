@@ -1316,23 +1316,16 @@
     ]
   },
   "2026-02-26": {
-    "total": 411,
+    "total": 412,
     "streamlit": 2,
-    "github_action": 409,
-    "successful": 411,
+    "github_action": 410,
+    "successful": 412,
     "failed": 0,
     "positions": {
       "Account Executive Japanese Client": 3,
-      "Freelance Data Scanner": 408
+      "Freelance Data Scanner": 409
     },
     "entries": [
-      {
-        "timestamp": "2026-02-26 07:45:35",
-        "source": "github_action",
-        "candidate": "Priscilla Pakpahan",
-        "position": "Freelance Data Scanner",
-        "success": true
-      },
       {
         "timestamp": "2026-02-26 07:46:17",
         "source": "github_action",
@@ -2023,6 +2016,13 @@
         "timestamp": "2026-02-26 08:49:39",
         "source": "github_action",
         "candidate": "Devin Ananda Dwiardi Saputra",
+        "position": "Freelance Data Scanner",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-26 08:49:42",
+        "source": "github_action",
+        "candidate": "maretha mamex",
         "position": "Freelance Data Scanner",
         "success": true
       }
