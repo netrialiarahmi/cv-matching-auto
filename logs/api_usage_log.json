@@ -1316,23 +1316,16 @@
     ]
   },
   "2026-02-26": {
-    "total": 360,
+    "total": 361,
     "streamlit": 2,
-    "github_action": 358,
-    "successful": 360,
+    "github_action": 359,
+    "successful": 361,
     "failed": 0,
     "positions": {
       "Account Executive Japanese Client": 3,
-      "Freelance Data Scanner": 357
+      "Freelance Data Scanner": 358
     },
     "entries": [
-      {
-        "timestamp": "2026-02-26 07:11:23",
-        "source": "github_action",
-        "candidate": "Felita Delfina",
-        "position": "Freelance Data Scanner",
-        "success": true
-      },
       {
         "timestamp": "2026-02-26 07:12:02",
         "source": "github_action",
@@ -2023,6 +2016,13 @@
         "timestamp": "2026-02-26 08:17:31",
         "source": "github_action",
         "candidate": "Aura Juliza Putri",
+        "position": "Freelance Data Scanner",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-26 08:18:13",
+        "source": "github_action",
+        "candidate": "Yusuf Rana Sujani",
         "position": "Freelance Data Scanner",
         "success": true
       }
