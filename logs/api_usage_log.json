@@ -1316,23 +1316,16 @@
     ]
   },
   "2026-02-26": {
-    "total": 351,
+    "total": 352,
     "streamlit": 2,
-    "github_action": 349,
-    "successful": 351,
+    "github_action": 350,
+    "successful": 352,
     "failed": 0,
     "positions": {
       "Account Executive Japanese Client": 3,
-      "Freelance Data Scanner": 348
+      "Freelance Data Scanner": 349
     },
     "entries": [
-      {
-        "timestamp": "2026-02-26 07:07:06",
-        "source": "github_action",
-        "candidate": "Achry Rafly Fadlillah",
-        "position": "Freelance Data Scanner",
-        "success": true
-      },
       {
         "timestamp": "2026-02-26 07:07:44",
         "source": "github_action",
@@ -2023,6 +2016,13 @@
         "timestamp": "2026-02-26 08:11:07",
         "source": "github_action",
         "candidate": "Naura Fathiahaq Nabila",
+        "position": "Freelance Data Scanner",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-26 08:11:43",
+        "source": "github_action",
+        "candidate": "Desky Sofisha",
         "position": "Freelance Data Scanner",
         "success": true
       }
