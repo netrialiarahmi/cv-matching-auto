@@ -1316,23 +1316,16 @@
     ]
   },
   "2026-02-26": {
-    "total": 272,
+    "total": 273,
     "streamlit": 2,
-    "github_action": 270,
-    "successful": 272,
+    "github_action": 271,
+    "successful": 273,
     "failed": 0,
     "positions": {
       "Account Executive Japanese Client": 3,
-      "Freelance Data Scanner": 269
+      "Freelance Data Scanner": 270
     },
     "entries": [
-      {
-        "timestamp": "2026-02-26 06:16:21",
-        "source": "github_action",
-        "candidate": "Nafisatul Itsna Mardhiyyah",
-        "position": "Freelance Data Scanner",
-        "success": true
-      },
       {
         "timestamp": "2026-02-26 06:17:05",
         "source": "github_action",
@@ -2023,6 +2016,13 @@
         "timestamp": "2026-02-26 07:18:37",
         "source": "github_action",
         "candidate": "Mega Purnama",
+        "position": "Freelance Data Scanner",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-26 07:19:20",
+        "source": "github_action",
+        "candidate": "Afra Mahendra Prasetyawati",
         "position": "Freelance Data Scanner",
         "success": true
       }
