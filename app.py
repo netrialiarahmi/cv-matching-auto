@@ -1876,32 +1876,42 @@ elif selected == "Dashboard":
         
         # Display candidate details in expander (no checkbox)
         with st.expander("View Details", expanded=False):
-            # Score + Basic Info in a compact layout
-            info_col1, info_col2, info_col3 = st.columns([1, 2, 2])
-
             # Helper function to get non-NaN value
             def get_value(key, default='N/A'):
                 val = row.get(key, default)
                 return val if pd.notna(val) and str(val).strip() else default
 
-            with info_col1:
-                st.metric("Score", f"{row.get('Match Score', 0)}")
+            # --- Compact header: Score + Info in one row ---
+            score_val = int(row.get('Match Score', 0))
+            score_color = "#10b981" if score_val >= 70 else "#f59e0b" if score_val >= 50 else "#ef4444"
+            
+            info_parts = []
+            if "Candidate Email" in row:
+                email_val = get_value('Candidate Email')
+                phone_val = get_value('Phone')
+                if email_val != 'N/A':
+                    info_parts.append(f"**Email:** {email_val}")
+                if phone_val != 'N/A':
+                    info_parts.append(f"**Phone:** {phone_val}")
+            info_parts.append(f"**Job:** {get_value('Latest Job Title')}")
+            info_parts.append(f"**Company:** {get_value('Latest Company')}")
+            info_parts.append(f"**Education:** {get_value('Education')} — {get_value('University')}")
+            
+            st.markdown(
+                f'<div style="display:flex;align-items:flex-start;gap:24px;margin-bottom:12px;">'
+                f'<div style="min-width:64px;text-align:center;padding:8px 16px;border-radius:10px;'
+                f'background:{score_color}15;border:2px solid {score_color};">'
+                f'<div style="font-size:28px;font-weight:700;color:{score_color};">{score_val}</div>'
+                f'<div style="font-size:11px;color:#6b7280;font-weight:500;">SCORE</div></div>'
+                f'<div style="font-size:14px;line-height:1.8;">{" &nbsp;·&nbsp; ".join(info_parts)}</div>'
+                f'</div>', unsafe_allow_html=True
+            )
 
-            with info_col2:
-                if "Candidate Email" in row:
-                    st.markdown(f"**Email:** {get_value('Candidate Email')}")
-                    st.markdown(f"**Phone:** {get_value('Phone')}")
-                st.markdown(f"**Job:** {get_value('Latest Job Title')}")
+            # --- Evaluation: Strengths | Weaknesses + Gaps (2 columns) ---
+            st.markdown("---")
+            left_col, right_col = st.columns(2)
 
-            with info_col3:
-                st.markdown(f"**Company:** {get_value('Latest Company')}")
-                st.markdown(f"**Education:** {get_value('Education')}")
-                st.markdown(f"**University:** {get_value('University')}")
-
-            # Strengths / Weaknesses / Gaps — 3 columns
-            eval_col1, eval_col2, eval_col3 = st.columns(3)
-
-            with eval_col1:
+            with left_col:
                 st.markdown("**Strengths**")
                 strengths = str(row.get("Strengths", "")) if pd.notna(row.get("Strengths")) else ""
                 if strengths and strengths.strip():
@@ -1909,9 +1919,9 @@ elif selected == "Dashboard":
                         if s.strip():
                             st.markdown(f"- {s.strip()}")
                 else:
-                    st.caption("No strengths listed")
+                    st.caption("—")
 
-            with eval_col2:
+            with right_col:
                 st.markdown("**Weaknesses**")
                 weaknesses = str(row.get("Weaknesses", "")) if pd.notna(row.get("Weaknesses")) else ""
                 if weaknesses and weaknesses.strip():
@@ -1919,26 +1929,22 @@ elif selected == "Dashboard":
                         if w.strip():
                             st.markdown(f"- {w.strip()}")
                 else:
-                    st.caption("No weaknesses listed")
-
-            with eval_col3:
-                st.markdown("**Gaps**")
+                    st.caption("—")
+                
                 gaps = str(row.get("Gaps", "")) if pd.notna(row.get("Gaps")) else ""
                 if gaps and gaps.strip():
+                    st.markdown("**Gaps**")
                     for g in gaps.split(", "):
                         if g.strip():
                             st.markdown(f"- {g.strip()}")
-                else:
-                    st.caption("No gaps identified")
 
-            # AI Summary
+            # --- Summary ---
             ai_summary = row.get("AI Summary")
             if pd.notna(ai_summary) and str(ai_summary).strip():
+                st.markdown("---")
                 st.markdown(f"**Summary:** {ai_summary}")
-            else:
-                st.caption("No summary available")
 
-            # Links section
+            # --- Links ---
             kalibrr_profile = row.get("Kalibrr Profile")
             application_link = row.get("Application Link")
             resume_link = row.get("Resume Link")
@@ -1957,7 +1963,7 @@ elif selected == "Dashboard":
                     links_parts.append(f"[Application]({application_link})")
                 if pd.notna(resume_link) and str(resume_link).strip():
                     links_parts.append(f"[Resume/CV]({resume_link})")
-                st.markdown(" | ".join(links_parts))
+                st.markdown(" · ".join(links_parts))
 
             # --- Candidate Status Section ---
             st.markdown("---")
