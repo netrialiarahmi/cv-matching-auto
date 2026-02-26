@@ -1316,23 +1316,16 @@
     ]
   },
   "2026-02-26": {
-    "total": 195,
+    "total": 196,
     "streamlit": 2,
-    "github_action": 193,
-    "successful": 195,
+    "github_action": 194,
+    "successful": 196,
     "failed": 0,
     "positions": {
       "Account Executive Japanese Client": 3,
-      "Freelance Data Scanner": 192
+      "Freelance Data Scanner": 193
     },
     "entries": [
-      {
-        "timestamp": "2026-02-26 05:29:42",
-        "source": "github_action",
-        "candidate": "Andikha Pramadhan",
-        "position": "Freelance Data Scanner",
-        "success": true
-      },
       {
         "timestamp": "2026-02-26 05:30:25",
         "source": "github_action",
@@ -2023,6 +2016,13 @@
         "timestamp": "2026-02-26 06:30:49",
         "source": "github_action",
         "candidate": "John Blanco",
+        "position": "Freelance Data Scanner",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-26 06:31:33",
+        "source": "github_action",
+        "candidate": "Hanifah Dwi Kurniasih",
         "position": "Freelance Data Scanner",
         "success": true
       }
