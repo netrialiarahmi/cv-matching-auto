@@ -1316,14 +1316,14 @@
     ]
   },
   "2026-02-26": {
-    "total": 68,
+    "total": 69,
     "streamlit": 2,
-    "github_action": 66,
-    "successful": 68,
+    "github_action": 67,
+    "successful": 69,
     "failed": 0,
     "positions": {
       "Account Executive Japanese Client": 3,
-      "Freelance Data Scanner": 65
+      "Freelance Data Scanner": 66
     },
     "entries": [
       {
@@ -1799,6 +1799,13 @@
         "timestamp": "2026-02-26 05:11:21",
         "source": "github_action",
         "candidate": "Putri Anisa",
+        "position": "Freelance Data Scanner",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-26 05:12:03",
+        "source": "github_action",
+        "candidate": "Nur Adi Kurniawan",
         "position": "Freelance Data Scanner",
         "success": true
       }
