@@ -1316,23 +1316,16 @@
     ]
   },
   "2026-02-26": {
-    "total": 286,
+    "total": 287,
     "streamlit": 2,
-    "github_action": 284,
-    "successful": 286,
+    "github_action": 285,
+    "successful": 287,
     "failed": 0,
     "positions": {
       "Account Executive Japanese Client": 3,
-      "Freelance Data Scanner": 283
+      "Freelance Data Scanner": 284
     },
     "entries": [
-      {
-        "timestamp": "2026-02-26 06:26:08",
-        "source": "github_action",
-        "candidate": "Margareta Berty Wahyuni",
-        "position": "Freelance Data Scanner",
-        "success": true
-      },
       {
         "timestamp": "2026-02-26 06:26:49",
         "source": "github_action",
@@ -2023,6 +2016,13 @@
         "timestamp": "2026-02-26 07:28:25",
         "source": "github_action",
         "candidate": "Bagus Setya Aji",
+        "position": "Freelance Data Scanner",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-26 07:29:05",
+        "source": "github_action",
+        "candidate": "Rheza Tedjo",
         "position": "Freelance Data Scanner",
         "success": true
       }
