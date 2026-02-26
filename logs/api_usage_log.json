@@ -1316,23 +1316,16 @@
     ]
   },
   "2026-02-26": {
-    "total": 389,
+    "total": 390,
     "streamlit": 2,
-    "github_action": 387,
-    "successful": 389,
+    "github_action": 388,
+    "successful": 390,
     "failed": 0,
     "positions": {
       "Account Executive Japanese Client": 3,
-      "Freelance Data Scanner": 386
+      "Freelance Data Scanner": 387
     },
     "entries": [
-      {
-        "timestamp": "2026-02-26 07:31:15",
-        "source": "github_action",
-        "candidate": "Zainab Hanun Azizah",
-        "position": "Freelance Data Scanner",
-        "success": true
-      },
       {
         "timestamp": "2026-02-26 07:31:52",
         "source": "github_action",
@@ -2023,6 +2016,13 @@
         "timestamp": "2026-02-26 08:34:52",
         "source": "github_action",
         "candidate": "Bintan Sania",
+        "position": "Freelance Data Scanner",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-26 08:35:34",
+        "source": "github_action",
+        "candidate": "Kharisma Sekar",
         "position": "Freelance Data Scanner",
         "success": true
       }
