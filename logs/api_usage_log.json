@@ -1316,23 +1316,16 @@
     ]
   },
   "2026-02-26": {
-    "total": 254,
+    "total": 255,
     "streamlit": 2,
-    "github_action": 252,
-    "successful": 254,
+    "github_action": 253,
+    "successful": 255,
     "failed": 0,
     "positions": {
       "Account Executive Japanese Client": 3,
-      "Freelance Data Scanner": 251
+      "Freelance Data Scanner": 252
     },
     "entries": [
-      {
-        "timestamp": "2026-02-26 06:05:09",
-        "source": "github_action",
-        "candidate": "Muhammad Rofiq Fitriansyach",
-        "position": "Freelance Data Scanner",
-        "success": true
-      },
       {
         "timestamp": "2026-02-26 06:05:53",
         "source": "github_action",
@@ -2023,6 +2016,13 @@
         "timestamp": "2026-02-26 07:08:25",
         "source": "github_action",
         "candidate": "Rizky Romadhon",
+        "position": "Freelance Data Scanner",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-26 07:08:27",
+        "source": "github_action",
+        "candidate": "Yogatama AP",
         "position": "Freelance Data Scanner",
         "success": true
       }
