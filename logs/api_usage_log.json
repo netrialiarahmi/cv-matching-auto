@@ -1316,23 +1316,16 @@
     ]
   },
   "2026-02-26": {
-    "total": 216,
+    "total": 217,
     "streamlit": 2,
-    "github_action": 214,
-    "successful": 216,
+    "github_action": 215,
+    "successful": 217,
     "failed": 0,
     "positions": {
       "Account Executive Japanese Client": 3,
-      "Freelance Data Scanner": 213
+      "Freelance Data Scanner": 214
     },
     "entries": [
-      {
-        "timestamp": "2026-02-26 05:42:46",
-        "source": "github_action",
-        "candidate": "basyir iskandarsyah",
-        "position": "Freelance Data Scanner",
-        "success": true
-      },
       {
         "timestamp": "2026-02-26 05:43:28",
         "source": "github_action",
@@ -2023,6 +2016,13 @@
         "timestamp": "2026-02-26 06:44:45",
         "source": "github_action",
         "candidate": "riska savery",
+        "position": "Freelance Data Scanner",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-26 06:45:29",
+        "source": "github_action",
+        "candidate": "Devita Pebi",
         "position": "Freelance Data Scanner",
         "success": true
       }
