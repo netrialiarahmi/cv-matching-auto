@@ -1316,14 +1316,14 @@
     ]
   },
   "2026-02-26": {
-    "total": 4,
+    "total": 5,
     "streamlit": 2,
-    "github_action": 2,
-    "successful": 4,
+    "github_action": 3,
+    "successful": 5,
     "failed": 0,
     "positions": {
       "Account Executive Japanese Client": 3,
-      "Freelance Data Scanner": 1
+      "Freelance Data Scanner": 2
     },
     "entries": [
       {
@@ -1351,6 +1351,13 @@
         "timestamp": "2026-02-26 04:29:51",
         "source": "github_action",
         "candidate": "Aldira Nur Khalisah",
+        "position": "Freelance Data Scanner",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-26 04:29:54",
+        "source": "github_action",
+        "candidate": "Nida Pratiwi",
         "position": "Freelance Data Scanner",
         "success": true
       }
