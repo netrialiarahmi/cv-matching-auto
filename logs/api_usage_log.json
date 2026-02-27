@@ -1316,457 +1316,16 @@
     ]
   },
   "2026-02-26": {
-    "total": 368,
+    "total": 431,
     "streamlit": 2,
-    "github_action": 366,
-    "successful": 368,
+    "github_action": 429,
+    "successful": 431,
     "failed": 0,
     "positions": {
       "Account Executive Japanese Client": 3,
-      "Freelance Data Scanner": 365
+      "Freelance Data Scanner": 428
     },
     "entries": [
-      {
-        "timestamp": "2026-02-26 07:16:35",
-        "source": "github_action",
-        "candidate": "Ignes Katarina",
-        "position": "Freelance Data Scanner",
-        "success": true
-      },
-      {
-        "timestamp": "2026-02-26 07:17:16",
-        "source": "github_action",
-        "candidate": "Dede Amalia",
-        "position": "Freelance Data Scanner",
-        "success": true
-      },
-      {
-        "timestamp": "2026-02-26 07:17:59",
-        "source": "github_action",
-        "candidate": "arhafid rizqon annafiian",
-        "position": "Freelance Data Scanner",
-        "success": true
-      },
-      {
-        "timestamp": "2026-02-26 07:18:37",
-        "source": "github_action",
-        "candidate": "Mega Purnama",
-        "position": "Freelance Data Scanner",
-        "success": true
-      },
-      {
-        "timestamp": "2026-02-26 07:19:20",
-        "source": "github_action",
-        "candidate": "Afra Mahendra Prasetyawati",
-        "position": "Freelance Data Scanner",
-        "success": true
-      },
-      {
-        "timestamp": "2026-02-26 07:20:02",
-        "source": "github_action",
-        "candidate": "rasya az zahra",
-        "position": "Freelance Data Scanner",
-        "success": true
-      },
-      {
-        "timestamp": "2026-02-26 07:20:45",
-        "source": "github_action",
-        "candidate": "Haekal Maliki",
-        "position": "Freelance Data Scanner",
-        "success": true
-      },
-      {
-        "timestamp": "2026-02-26 07:21:29",
-        "source": "github_action",
-        "candidate": "Aisyah Iranti Putri",
-        "position": "Freelance Data Scanner",
-        "success": true
-      },
-      {
-        "timestamp": "2026-02-26 07:22:08",
-        "source": "github_action",
-        "candidate": "Rara Ayu Puspita Dewi",
-        "position": "Freelance Data Scanner",
-        "success": true
-      },
-      {
-        "timestamp": "2026-02-26 07:22:50",
-        "source": "github_action",
-        "candidate": "Avan Difantara",
-        "position": "Freelance Data Scanner",
-        "success": true
-      },
-      {
-        "timestamp": "2026-02-26 07:23:33",
-        "source": "github_action",
-        "candidate": "Abdul Rahim",
-        "position": "Freelance Data Scanner",
-        "success": true
-      },
-      {
-        "timestamp": "2026-02-26 07:24:13",
-        "source": "github_action",
-        "candidate": "Zada Ramadhana",
-        "position": "Freelance Data Scanner",
-        "success": true
-      },
-      {
-        "timestamp": "2026-02-26 07:24:57",
-        "source": "github_action",
-        "candidate": "FARHAN ABDUL AZIZ",
-        "position": "Freelance Data Scanner",
-        "success": true
-      },
-      {
-        "timestamp": "2026-02-26 07:25:38",
-        "source": "github_action",
-        "candidate": "Alya Zahra",
-        "position": "Freelance Data Scanner",
-        "success": true
-      },
-      {
-        "timestamp": "2026-02-26 07:26:24",
-        "source": "github_action",
-        "candidate": "Alya Fatimah  Rodja",
-        "position": "Freelance Data Scanner",
-        "success": true
-      },
-      {
-        "timestamp": "2026-02-26 07:27:05",
-        "source": "github_action",
-        "candidate": "Stefanus Rio Ridwan",
-        "position": "Freelance Data Scanner",
-        "success": true
-      },
-      {
-        "timestamp": "2026-02-26 07:27:42",
-        "source": "github_action",
-        "candidate": "Dea Audina",
-        "position": "Freelance Data Scanner",
-        "success": true
-      },
-      {
-        "timestamp": "2026-02-26 07:28:25",
-        "source": "github_action",
-        "candidate": "Bagus Setya Aji",
-        "position": "Freelance Data Scanner",
-        "success": true
-      },
-      {
-        "timestamp": "2026-02-26 07:29:05",
-        "source": "github_action",
-        "candidate": "Rheza Tedjo",
-        "position": "Freelance Data Scanner",
-        "success": true
-      },
-      {
-        "timestamp": "2026-02-26 07:29:47",
-        "source": "github_action",
-        "candidate": "Reza Puspita",
-        "position": "Freelance Data Scanner",
-        "success": true
-      },
-      {
-        "timestamp": "2026-02-26 07:30:33",
-        "source": "github_action",
-        "candidate": "Cindy Rachmadhani",
-        "position": "Freelance Data Scanner",
-        "success": true
-      },
-      {
-        "timestamp": "2026-02-26 07:31:15",
-        "source": "github_action",
-        "candidate": "Zainab Hanun Azizah",
-        "position": "Freelance Data Scanner",
-        "success": true
-      },
-      {
-        "timestamp": "2026-02-26 07:31:52",
-        "source": "github_action",
-        "candidate": "Geraldi Yoas",
-        "position": "Freelance Data Scanner",
-        "success": true
-      },
-      {
-        "timestamp": "2026-02-26 07:32:35",
-        "source": "github_action",
-        "candidate": "Dyah Ayu Kusumaningrum",
-        "position": "Freelance Data Scanner",
-        "success": true
-      },
-      {
-        "timestamp": "2026-02-26 07:33:18",
-        "source": "github_action",
-        "candidate": "muhammad falah",
-        "position": "Freelance Data Scanner",
-        "success": true
-      },
-      {
-        "timestamp": "2026-02-26 07:33:58",
-        "source": "github_action",
-        "candidate": "Nurjannah Putri Iinaas",
-        "position": "Freelance Data Scanner",
-        "success": true
-      },
-      {
-        "timestamp": "2026-02-26 07:34:40",
-        "source": "github_action",
-        "candidate": "Elfira Yolanda",
-        "position": "Freelance Data Scanner",
-        "success": true
-      },
-      {
-        "timestamp": "2026-02-26 07:35:21",
-        "source": "github_action",
-        "candidate": "Nazwa Nabilla",
-        "position": "Freelance Data Scanner",
-        "success": true
-      },
-      {
-        "timestamp": "2026-02-26 07:36:04",
-        "source": "github_action",
-        "candidate": "Maulana Iskandar",
-        "position": "Freelance Data Scanner",
-        "success": true
-      },
-      {
-        "timestamp": "2026-02-26 07:36:43",
-        "source": "github_action",
-        "candidate": "Mikey Ripoll",
-        "position": "Freelance Data Scanner",
-        "success": true
-      },
-      {
-        "timestamp": "2026-02-26 07:37:20",
-        "source": "github_action",
-        "candidate": "Juan Ezra",
-        "position": "Freelance Data Scanner",
-        "success": true
-      },
-      {
-        "timestamp": "2026-02-26 07:38:01",
-        "source": "github_action",
-        "candidate": "Adelia Sadiya Wardoyo",
-        "position": "Freelance Data Scanner",
-        "success": true
-      },
-      {
-        "timestamp": "2026-02-26 07:38:45",
-        "source": "github_action",
-        "candidate": "Mutiara Mega Amelia",
-        "position": "Freelance Data Scanner",
-        "success": true
-      },
-      {
-        "timestamp": "2026-02-26 07:39:23",
-        "source": "github_action",
-        "candidate": "Kintan Rahmadini",
-        "position": "Freelance Data Scanner",
-        "success": true
-      },
-      {
-        "timestamp": "2026-02-26 07:40:04",
-        "source": "github_action",
-        "candidate": "ALJEAN G. MATABA",
-        "position": "Freelance Data Scanner",
-        "success": true
-      },
-      {
-        "timestamp": "2026-02-26 07:40:46",
-        "source": "github_action",
-        "candidate": "farell micaro",
-        "position": "Freelance Data Scanner",
-        "success": true
-      },
-      {
-        "timestamp": "2026-02-26 07:41:24",
-        "source": "github_action",
-        "candidate": "Jason Nathanael",
-        "position": "Freelance Data Scanner",
-        "success": true
-      },
-      {
-        "timestamp": "2026-02-26 07:42:07",
-        "source": "github_action",
-        "candidate": "Karen Jastillana",
-        "position": "Freelance Data Scanner",
-        "success": true
-      },
-      {
-        "timestamp": "2026-02-26 07:42:44",
-        "source": "github_action",
-        "candidate": "rizka humaida juliantana",
-        "position": "Freelance Data Scanner",
-        "success": true
-      },
-      {
-        "timestamp": "2026-02-26 07:43:22",
-        "source": "github_action",
-        "candidate": "Ainun Jariyah",
-        "position": "Freelance Data Scanner",
-        "success": true
-      },
-      {
-        "timestamp": "2026-02-26 07:44:01",
-        "source": "github_action",
-        "candidate": "Wilhelmia Ali",
-        "position": "Freelance Data Scanner",
-        "success": true
-      },
-      {
-        "timestamp": "2026-02-26 07:44:47",
-        "source": "github_action",
-        "candidate": "Yovenda Elgin Eksalan",
-        "position": "Freelance Data Scanner",
-        "success": true
-      },
-      {
-        "timestamp": "2026-02-26 07:44:49",
-        "source": "github_action",
-        "candidate": "Rony Ito Hutabalian",
-        "position": "Freelance Data Scanner",
-        "success": true
-      },
-      {
-        "timestamp": "2026-02-26 07:45:35",
-        "source": "github_action",
-        "candidate": "Priscilla Pakpahan",
-        "position": "Freelance Data Scanner",
-        "success": true
-      },
-      {
-        "timestamp": "2026-02-26 07:46:17",
-        "source": "github_action",
-        "candidate": "Kharisma Maharani",
-        "position": "Freelance Data Scanner",
-        "success": true
-      },
-      {
-        "timestamp": "2026-02-26 07:46:19",
-        "source": "github_action",
-        "candidate": "Ara Ayasya",
-        "position": "Freelance Data Scanner",
-        "success": true
-      },
-      {
-        "timestamp": "2026-02-26 07:47:04",
-        "source": "github_action",
-        "candidate": "Brilian Catur Ajisaka",
-        "position": "Freelance Data Scanner",
-        "success": true
-      },
-      {
-        "timestamp": "2026-02-26 07:47:47",
-        "source": "github_action",
-        "candidate": "Kiki Dwi",
-        "position": "Freelance Data Scanner",
-        "success": true
-      },
-      {
-        "timestamp": "2026-02-26 07:48:25",
-        "source": "github_action",
-        "candidate": "Arbi  Nurhidayatullah",
-        "position": "Freelance Data Scanner",
-        "success": true
-      },
-      {
-        "timestamp": "2026-02-26 07:49:11",
-        "source": "github_action",
-        "candidate": "Athaya Fajriah",
-        "position": "Freelance Data Scanner",
-        "success": true
-      },
-      {
-        "timestamp": "2026-02-26 07:49:57",
-        "source": "github_action",
-        "candidate": "Lorena Talita Laura Wowor",
-        "position": "Freelance Data Scanner",
-        "success": true
-      },
-      {
-        "timestamp": "2026-02-26 07:50:40",
-        "source": "github_action",
-        "candidate": "Yudha Farendra Suhari",
-        "position": "Freelance Data Scanner",
-        "success": true
-      },
-      {
-        "timestamp": "2026-02-26 07:51:20",
-        "source": "github_action",
-        "candidate": "Ed Osida",
-        "position": "Freelance Data Scanner",
-        "success": true
-      },
-      {
-        "timestamp": "2026-02-26 07:52:03",
-        "source": "github_action",
-        "candidate": "Rizka Aprelia",
-        "position": "Freelance Data Scanner",
-        "success": true
-      },
-      {
-        "timestamp": "2026-02-26 07:52:47",
-        "source": "github_action",
-        "candidate": "Salsa Dina Aisya",
-        "position": "Freelance Data Scanner",
-        "success": true
-      },
-      {
-        "timestamp": "2026-02-26 07:53:30",
-        "source": "github_action",
-        "candidate": "Lutfi Erfaningrum",
-        "position": "Freelance Data Scanner",
-        "success": true
-      },
-      {
-        "timestamp": "2026-02-26 07:54:15",
-        "source": "github_action",
-        "candidate": "Novara Puspa Phinastika",
-        "position": "Freelance Data Scanner",
-        "success": true
-      },
-      {
-        "timestamp": "2026-02-26 07:54:56",
-        "source": "github_action",
-        "candidate": "Dwi Rahmahwati",
-        "position": "Freelance Data Scanner",
-        "success": true
-      },
-      {
-        "timestamp": "2026-02-26 07:55:33",
-        "source": "github_action",
-        "candidate": "Patricia Medina",
-        "position": "Freelance Data Scanner",
-        "success": true
-      },
-      {
-        "timestamp": "2026-02-26 07:56:17",
-        "source": "github_action",
-        "candidate": "Raisya Gita Amalia",
-        "position": "Freelance Data Scanner",
-        "success": true
-      },
-      {
-        "timestamp": "2026-02-26 07:56:55",
-        "source": "github_action",
-        "candidate": "Muhamad Ridwan Ashofa",
-        "position": "Freelance Data Scanner",
-        "success": true
-      },
-      {
-        "timestamp": "2026-02-26 07:56:58",
-        "source": "github_action",
-        "candidate": "Sheronif Kurniawan",
-        "position": "Freelance Data Scanner",
-        "success": true
-      },
-      {
-        "timestamp": "2026-02-26 07:57:44",
-        "source": "github_action",
-        "candidate": "Moch. Nasrullah Hasani",
-        "position": "Freelance Data Scanner",
-        "success": true
-      },
       {
         "timestamp": "2026-02-26 07:58:27",
         "source": "github_action",
@@ -2023,6 +1582,447 @@
         "timestamp": "2026-02-26 08:20:28",
         "source": "github_action",
         "candidate": "Yohanes Notburga",
+        "position": "Freelance Data Scanner",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-26 08:21:11",
+        "source": "github_action",
+        "candidate": "Alfonsus Antero Arnayusrendito",
+        "position": "Freelance Data Scanner",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-26 08:21:56",
+        "source": "github_action",
+        "candidate": "Elita Osyefani",
+        "position": "Freelance Data Scanner",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-26 08:22:36",
+        "source": "github_action",
+        "candidate": "Restu Al Jannah Sri Maharani Herlambang",
+        "position": "Freelance Data Scanner",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-26 08:23:21",
+        "source": "github_action",
+        "candidate": "Henny Puspitasari",
+        "position": "Freelance Data Scanner",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-26 08:23:57",
+        "source": "github_action",
+        "candidate": "Athena Navarrete",
+        "position": "Freelance Data Scanner",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-26 08:24:41",
+        "source": "github_action",
+        "candidate": "ALVIN CUANICO",
+        "position": "Freelance Data Scanner",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-26 08:25:23",
+        "source": "github_action",
+        "candidate": "Yosiana Maria",
+        "position": "Freelance Data Scanner",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-26 08:26:10",
+        "source": "github_action",
+        "candidate": "A. M. Ihram Hadist  Ichwal",
+        "position": "Freelance Data Scanner",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-26 08:26:57",
+        "source": "github_action",
+        "candidate": "Ian Barus",
+        "position": "Freelance Data Scanner",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-26 08:27:37",
+        "source": "github_action",
+        "candidate": "Aisyah Aulia",
+        "position": "Freelance Data Scanner",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-26 08:28:26",
+        "source": "github_action",
+        "candidate": "Mizamil SH,MH",
+        "position": "Freelance Data Scanner",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-26 08:29:08",
+        "source": "github_action",
+        "candidate": "Syafitri Nur Rahma",
+        "position": "Freelance Data Scanner",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-26 08:29:51",
+        "source": "github_action",
+        "candidate": "Indri Maimun Zahra",
+        "position": "Freelance Data Scanner",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-26 08:29:54",
+        "source": "github_action",
+        "candidate": "Hang Izzamuddien Alaydrus",
+        "position": "Freelance Data Scanner",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-26 08:30:35",
+        "source": "github_action",
+        "candidate": "Salsabila Firdaus",
+        "position": "Freelance Data Scanner",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-26 08:31:18",
+        "source": "github_action",
+        "candidate": "Yoga Pradana",
+        "position": "Freelance Data Scanner",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-26 08:32:00",
+        "source": "github_action",
+        "candidate": "Rifky Pratama",
+        "position": "Freelance Data Scanner",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-26 08:32:42",
+        "source": "github_action",
+        "candidate": "Ammalia Tyas Suci",
+        "position": "Freelance Data Scanner",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-26 08:33:23",
+        "source": "github_action",
+        "candidate": "Fallah Ridho Ramadhan",
+        "position": "Freelance Data Scanner",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-26 08:34:05",
+        "source": "github_action",
+        "candidate": "FADLIKA GAUTAMA",
+        "position": "Freelance Data Scanner",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-26 08:34:52",
+        "source": "github_action",
+        "candidate": "Bintan Sania",
+        "position": "Freelance Data Scanner",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-26 08:35:34",
+        "source": "github_action",
+        "candidate": "Kharisma Sekar",
+        "position": "Freelance Data Scanner",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-26 08:35:37",
+        "source": "github_action",
+        "candidate": "Sulis Tianawati",
+        "position": "Freelance Data Scanner",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-26 08:36:19",
+        "source": "github_action",
+        "candidate": "Talenta Naibaho",
+        "position": "Freelance Data Scanner",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-26 08:37:09",
+        "source": "github_action",
+        "candidate": "Mochammad Afdhal Virgieawan",
+        "position": "Freelance Data Scanner",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-26 08:37:55",
+        "source": "github_action",
+        "candidate": "ILHAM  KURNIAWAN  PUTRA YOWA",
+        "position": "Freelance Data Scanner",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-26 08:38:43",
+        "source": "github_action",
+        "candidate": "St Julaeha",
+        "position": "Freelance Data Scanner",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-26 08:39:24",
+        "source": "github_action",
+        "candidate": "Richard Rolando",
+        "position": "Freelance Data Scanner",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-26 08:40:14",
+        "source": "github_action",
+        "candidate": "Nabila Rizki",
+        "position": "Freelance Data Scanner",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-26 08:41:00",
+        "source": "github_action",
+        "candidate": "Rizki Aditama",
+        "position": "Freelance Data Scanner",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-26 08:41:41",
+        "source": "github_action",
+        "candidate": "Chatryn Simorangkir",
+        "position": "Freelance Data Scanner",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-26 08:42:25",
+        "source": "github_action",
+        "candidate": "Gema Ramadhan",
+        "position": "Freelance Data Scanner",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-26 08:43:08",
+        "source": "github_action",
+        "candidate": "Amalia Sabila",
+        "position": "Freelance Data Scanner",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-26 08:43:51",
+        "source": "github_action",
+        "candidate": "Seftian  Risandi",
+        "position": "Freelance Data Scanner",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-26 08:44:34",
+        "source": "github_action",
+        "candidate": "SATRIA NUGRAHA",
+        "position": "Freelance Data Scanner",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-26 08:45:22",
+        "source": "github_action",
+        "candidate": "Elzah Bilqis Tenia Saputri",
+        "position": "Freelance Data Scanner",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-26 08:46:01",
+        "source": "github_action",
+        "candidate": "JESTER JOHN MENDOZA",
+        "position": "Freelance Data Scanner",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-26 08:46:45",
+        "source": "github_action",
+        "candidate": "Putri Dwi Juniyanti",
+        "position": "Freelance Data Scanner",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-26 08:47:27",
+        "source": "github_action",
+        "candidate": "Nur Sofi Sely Oktavia",
+        "position": "Freelance Data Scanner",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-26 08:48:10",
+        "source": "github_action",
+        "candidate": "Sucses Riko Manurung",
+        "position": "Freelance Data Scanner",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-26 08:48:14",
+        "source": "github_action",
+        "candidate": "JAYCEL NAZ-ANCHUELO",
+        "position": "Freelance Data Scanner",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-26 08:48:55",
+        "source": "github_action",
+        "candidate": "Jeremy Tumbur Mamompar",
+        "position": "Freelance Data Scanner",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-26 08:49:39",
+        "source": "github_action",
+        "candidate": "Devin Ananda Dwiardi Saputra",
+        "position": "Freelance Data Scanner",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-26 08:49:42",
+        "source": "github_action",
+        "candidate": "maretha mamex",
+        "position": "Freelance Data Scanner",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-26 08:50:19",
+        "source": "github_action",
+        "candidate": "Heru J",
+        "position": "Freelance Data Scanner",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-26 08:51:00",
+        "source": "github_action",
+        "candidate": "Rizky Aditya Afriandino",
+        "position": "Freelance Data Scanner",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-26 08:51:43",
+        "source": "github_action",
+        "candidate": "Suma Raharyo",
+        "position": "Freelance Data Scanner",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-26 08:51:45",
+        "source": "github_action",
+        "candidate": "Krishna Buana",
+        "position": "Freelance Data Scanner",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-26 08:52:28",
+        "source": "github_action",
+        "candidate": "Nurviana Ramadhani Kurnia",
+        "position": "Freelance Data Scanner",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-26 08:53:12",
+        "source": "github_action",
+        "candidate": "Rocky Agsalino Akbar",
+        "position": "Freelance Data Scanner",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-26 08:53:16",
+        "source": "github_action",
+        "candidate": "Fajar Choiry",
+        "position": "Freelance Data Scanner",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-26 08:54:02",
+        "source": "github_action",
+        "candidate": "Ernisa Deshela Selviani",
+        "position": "Freelance Data Scanner",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-26 08:54:49",
+        "source": "github_action",
+        "candidate": "Maura Fadhila Ariyanto",
+        "position": "Freelance Data Scanner",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-26 08:54:52",
+        "source": "github_action",
+        "candidate": "Tri Mulyani",
+        "position": "Freelance Data Scanner",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-26 08:54:55",
+        "source": "github_action",
+        "candidate": "Dela Puspita",
+        "position": "Freelance Data Scanner",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-26 08:55:39",
+        "source": "github_action",
+        "candidate": "Ahdra Tsaqofa",
+        "position": "Freelance Data Scanner",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-26 08:56:24",
+        "source": "github_action",
+        "candidate": "Annisa Anggraeni",
+        "position": "Freelance Data Scanner",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-26 08:57:06",
+        "source": "github_action",
+        "candidate": "Delia Fitri Setiani",
+        "position": "Freelance Data Scanner",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-26 08:57:53",
+        "source": "github_action",
+        "candidate": "Melda Amelia Putri",
+        "position": "Freelance Data Scanner",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-26 08:58:43",
+        "source": "github_action",
+        "candidate": "Najla Sunanto",
+        "position": "Freelance Data Scanner",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-26 08:59:29",
+        "source": "github_action",
+        "candidate": "putri takkira",
+        "position": "Freelance Data Scanner",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-26 09:00:12",
+        "source": "github_action",
+        "candidate": "Alya Fauzia Azizah",
+        "position": "Freelance Data Scanner",
+        "success": true
+      },
+      {
+        "timestamp": "2026-02-26 09:01:02",
+        "source": "github_action",
+        "candidate": "lfa Nafila Azizah",
         "position": "Freelance Data Scanner",
         "success": true
       }
