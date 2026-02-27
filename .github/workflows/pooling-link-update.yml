@@ -2,8 +2,8 @@ name: Pooling CV Link Update
 
 on:
   schedule:
-    # Run every day at 00:00 UTC (07:00 WIB) - pooling runs first (faster)
-    - cron: '0 0 * * *'
+    # Run every day at 00:07 UTC (07:07 WIB) - pooling runs first (faster)
+    - cron: '7 0 * * *'
   workflow_dispatch:  # Allow manual triggering
 
 concurrency:
