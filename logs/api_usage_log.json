@@ -2029,13 +2029,13 @@
     ]
   },
   "2026-03-17": {
-    "total": 2,
-    "streamlit": 2,
+    "total": 3,
+    "streamlit": 3,
     "github_action": 0,
-    "successful": 2,
+    "successful": 3,
     "failed": 0,
     "positions": {
-      "Business Development Analyst": 2
+      "Business Development Analyst": 3
     },
     "entries": [
       {
@@ -2049,6 +2049,13 @@
         "timestamp": "2026-03-17 09:14:48",
         "source": "streamlit",
         "candidate": "ANGGUN MAY ZAHRA",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-03-17 09:36:33",
+        "source": "streamlit",
+        "candidate": "FATHIA FAUZIAH ASSHANTI",
         "position": "Business Development Analyst",
         "success": true
       }
