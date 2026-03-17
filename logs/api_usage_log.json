@@ -2029,13 +2029,13 @@
     ]
   },
   "2026-03-17": {
-    "total": 3,
-    "streamlit": 3,
+    "total": 4,
+    "streamlit": 4,
     "github_action": 0,
-    "successful": 3,
+    "successful": 4,
     "failed": 0,
     "positions": {
-      "Business Development Analyst": 3
+      "Business Development Analyst": 4
     },
     "entries": [
       {
@@ -2056,6 +2056,13 @@
         "timestamp": "2026-03-17 09:36:33",
         "source": "streamlit",
         "candidate": "FATHIA FAUZIAH ASSHANTI",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-03-17 09:38:34",
+        "source": "streamlit",
+        "candidate": "Ladia Aisah Andriana",
         "position": "Business Development Analyst",
         "success": true
       }
