@@ -2029,19 +2029,26 @@
     ]
   },
   "2026-03-17": {
-    "total": 1,
-    "streamlit": 1,
+    "total": 2,
+    "streamlit": 2,
     "github_action": 0,
-    "successful": 1,
+    "successful": 2,
     "failed": 0,
     "positions": {
-      "Business Development Analyst": 1
+      "Business Development Analyst": 2
     },
     "entries": [
       {
         "timestamp": "2026-03-17 08:59:34",
         "source": "streamlit",
         "candidate": "Resume_Mega Dewi (Nov 2025)",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-03-17 09:14:48",
+        "source": "streamlit",
+        "candidate": "ANGGUN MAY ZAHRA",
         "position": "Business Development Analyst",
         "success": true
       }
