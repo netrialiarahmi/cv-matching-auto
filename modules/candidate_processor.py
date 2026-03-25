@@ -300,7 +300,18 @@ def extract_resume_from_url(url, max_retries=1):
                 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
                 'Accept': 'application/pdf,*/*'
             }
-            response = requests.get(url, headers=headers, timeout=30)
+            
+            # Add Kalibrr auth cookies for kalibrr.com URLs
+            cookies = {}
+            if 'kalibrr.com' in url:
+                kaid = os.getenv("KAID", "")
+                kb = os.getenv("KB", "")
+                if kaid:
+                    cookies["kaid"] = kaid
+                if kb:
+                    cookies["kb"] = kb
+            
+            response = requests.get(url, headers=headers, cookies=cookies, timeout=30)
             if response.status_code == 200:
                 pdf_file = BytesIO(response.content)
                 # Create a file-like object that mimics uploaded_file

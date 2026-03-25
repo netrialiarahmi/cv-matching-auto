@@ -2,7 +2,7 @@ import streamlit as st
 from streamlit_option_menu import option_menu
 import pandas as pd
 from modules.extractor import extract_text_from_pdf
-from modules.scorer import score_with_openrouter, get_openrouter_client, extract_candidate_name_from_cv, extract_candidate_info_from_cv, score_table_data, _get_model_name, call_api_with_retry
+from modules.scorer import score_with_openrouter, get_gemini_client, extract_candidate_name_from_cv, extract_candidate_info_from_cv, score_candidate_pipeline, _get_model_name, call_api_with_retry
 from modules.github_utils import (
     save_results_to_github,
     load_results_from_github,
@@ -13,7 +13,8 @@ from modules.github_utils import (
     delete_job_position_from_github,
     update_job_position_in_github,
     update_results_in_github,
-    get_results_filename
+    get_results_filename,
+    parse_kalibrr_date
 )
 from modules.candidate_processor import (
     parse_candidate_csv,
@@ -734,7 +735,7 @@ def evaluate_recruiter_feedback(feedback_text):
     if not feedback_text.strip():
         return 0
 
-    client = get_openrouter_client()
+    client = get_gemini_client()
     prompt = f"""
 You are an HR evaluator AI.
 Rate the recruiter feedback below from 0–100 based on its positivity and hiring confidence.
@@ -1327,8 +1328,8 @@ elif selected == "Screening":
                             gaps = []
                             
                             if cv_text.strip():
-                                cv_score, summary, strengths, weaknesses, gaps = score_with_openrouter(
-                                    cv_text, selected_job, job_info['Job Description']
+                                cv_score, summary, strengths, weaknesses, gaps, _info = score_candidate_pipeline(
+                                    cv_text, "", selected_job, job_info['Job Description']
                                 )
                             
                             candidate_result = {
@@ -1354,6 +1355,7 @@ elif selected == "Screening":
                                 "Candidate Status": "",
                                 "Interview Status": "",
                                 "Rejection Reason": "",
+                                "Date Applied": "",
                                 "Date Processed": datetime.now().strftime("%Y-%m-%d %H:%M:%S")
                             }
                             
@@ -1489,12 +1491,10 @@ elif selected == "Screening":
                                 }
                                 
                                 if cv_text.strip():
-                                    # Extract score and evaluation
-                                    cv_score, summary, strengths, weaknesses, gaps = score_with_openrouter(
-                                        cv_text, selected_job, job_info['Job Description']
+                                    # Use new pipeline: Extract & Classify → Evaluate & Score → Ceiling
+                                    cv_score, summary, strengths, weaknesses, gaps, candidate_info = score_candidate_pipeline(
+                                        cv_text, "", selected_job, job_info['Job Description']
                                     )
-                                    # Extract candidate info from CV
-                                    candidate_info = extract_candidate_info_from_cv(cv_text)
                                 
                                 candidate_result = {
                                     "Candidate Name": candidate_name,
@@ -1519,6 +1519,11 @@ elif selected == "Screening":
                                     "Candidate Status": "",
                                     "Interview Status": "",
                                     "Rejection Reason": "",
+                                    "Date Applied": parse_kalibrr_date(
+                                        row.get("Date Application Started (mm/dd/yy hr:mn)") or
+                                        row.get("Tanggal Mulai Melamar") or
+                                        row.get("application.created_at") or ""
+                                    ),
                                     "Date Processed": datetime.now().strftime("%Y-%m-%d %H:%M:%S")
                                 }
                                 
@@ -1695,7 +1700,7 @@ elif selected == "Dashboard":
     
     with filter_col3:
         # Sort options
-        sort_options = ["Score (High to Low)", "Score (Low to High)", "Name (A-Z)", "Name (Z-A)"]
+        sort_options = ["Score (High to Low)", "Score (Low to High)", "Name (A-Z)", "Name (Z-A)", "Latest Applied"]
         selected_sort = st.selectbox("Sort by", sort_options, key="dashboard_sort")
     
     # Search box
@@ -1753,6 +1758,8 @@ elif selected == "Dashboard":
         df_filtered = df_filtered.sort_values(by="Candidate Name", ascending=True)
     elif selected_sort == "Name (Z-A)":
         df_filtered = df_filtered.sort_values(by="Candidate Name", ascending=False)
+    elif selected_sort == "Latest Applied":
+        df_filtered = df_filtered.sort_values(by="Date Applied", ascending=False, na_position="last")
     
     df_filtered = df_filtered.reset_index(drop=True)
     df_sorted = df_filtered
@@ -2211,7 +2218,7 @@ elif selected == "Pooling":
     
     with filter_col3:
         # Sort options
-        sort_options = ["Score (High to Low)", "Score (Low to High)", "Name (A-Z)", "Name (Z-A)"]
+        sort_options = ["Score (High to Low)", "Score (Low to High)", "Name (A-Z)", "Name (Z-A)", "Latest Applied"]
         selected_sort = st.selectbox("Sort by", sort_options, key="pooling_sort")
     
     # Search box
@@ -2267,6 +2274,8 @@ elif selected == "Pooling":
         df_filtered = df_filtered.sort_values(by="Candidate Name", ascending=True)
     elif selected_sort == "Name (Z-A)":
         df_filtered = df_filtered.sort_values(by="Candidate Name", ascending=False)
+    elif selected_sort == "Latest Applied":
+        df_filtered = df_filtered.sort_values(by="Date Applied", ascending=False, na_position="last")
     
     df_filtered = df_filtered.reset_index(drop=True)
     
@@ -2523,8 +2532,9 @@ elif selected == "Usage Log":
         st.markdown("### Estimated API Costs")
         st.info("""
         **Cost Estimation Guide:**
-        - Gemini 2.5 Pro (via OpenRouter): ~$0.001 - $0.003 per CV processed
-        - Monthly total estimation based on usage patterns
+        - Gemini 2.5 Flash (extraction): ~$0.0003 per CV
+        - Gemini 2.5 Pro (scoring): ~$0.001 - $0.003 per CV
+        - Total: ~$0.001 - $0.003 per CV processed (2 API calls)
         
         *Note: Actual costs may vary based on CV length and API response complexity.*
         """)

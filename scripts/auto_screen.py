@@ -31,11 +31,12 @@ from modules.candidate_processor import (
     extract_resume_from_url
 )
 from modules.extractor import extract_text_from_pdf
-from modules.scorer import score_with_openrouter, extract_candidate_info_from_cv
+from modules.scorer import score_candidate_pipeline
 from modules.github_utils import (
     load_job_positions_from_github,
     load_results_from_github,
-    save_results_to_github
+    save_results_to_github,
+    parse_kalibrr_date
 )
 from modules.usage_logger import log_cv_processing, print_daily_summary
 import requests
@@ -43,11 +44,10 @@ import requests
 
 def fetch_candidates_from_sheet_csv(csv_url):
     """
-    Fetch candidates from pre-exported CSV URL in sheet_positions.csv.
-    This reads the CSV that was already exported by weekly-export workflow.
+    Fetch candidates from CSV (local file path or remote URL).
     
     Args:
-        csv_url: Direct URL to CSV file from File Storage column
+        csv_url: Local file path or direct URL to CSV file
         
     Returns:
         DataFrame or None
@@ -55,10 +55,20 @@ def fetch_candidates_from_sheet_csv(csv_url):
     import pandas as pd
     
     if not csv_url or pd.isna(csv_url) or str(csv_url).strip() == '':
-        print(f"   ⚠️  No CSV URL provided")
+        print(f"   ⚠️  No CSV URL/path provided")
         return None
     
+    csv_url = str(csv_url).strip()
+    
     try:
+        # Check if it's a local file path
+        if os.path.isfile(csv_url):
+            print(f"   Loading CSV from local file: {csv_url}")
+            df = pd.read_csv(csv_url)
+            print(f"   ✅ Successfully loaded {len(df)} candidates from local CSV")
+            return df
+        
+        # Otherwise treat as URL
         print(f"   Downloading CSV from File Storage...")
         response = requests.get(csv_url, timeout=30)
         response.raise_for_status()
@@ -70,7 +80,7 @@ def fetch_candidates_from_sheet_csv(csv_url):
         print(f"   ✅ Successfully loaded {len(df)} candidates from CSV")
         return df
     except Exception as e:
-        print(f"   ❌ Error downloading CSV: {str(e)}")
+        print(f"   ❌ Error loading CSV: {str(e)}")
         return None
 
 
@@ -295,6 +305,19 @@ def screen_position(position_name, job_description, job_id, csv_url=None):
         print(f"📋 Loading candidates from sheet_positions.csv...")
         candidates_df = fetch_candidates_from_sheet_csv(csv_url)
         
+        # Fallback: if remote URL failed, try local CSV in kalibrr_exports/
+        if (candidates_df is None or candidates_df.empty) and csv_url and not os.path.isfile(str(csv_url)):
+            safe_name = (position_name
+                         .replace(" ", "_")
+                         .replace(".", "")
+                         .replace("/", "_")
+                         .replace("(", "")
+                         .replace(")", ""))
+            local_csv = os.path.join('kalibrr_exports', f'{safe_name}.csv')
+            if os.path.isfile(local_csv):
+                print(f"   📂 Remote URL failed, falling back to local CSV: {local_csv}")
+                candidates_df = fetch_candidates_from_sheet_csv(local_csv)
+        
         if candidates_df is None or candidates_df.empty:
             print(f"⏭️  No candidates found for this position")
             return 0
@@ -457,13 +480,11 @@ def screen_position(position_name, job_description, job_id, csv_url=None):
                 
                 if cv_text.strip():
                     try:
-                        # Extract score and evaluation
-                        cv_score, summary, strengths, weaknesses, gaps = score_with_openrouter(
-                            cv_text, position_name, job_description
+                        # Use new 3-step pipeline: Extract & Classify (Flash) → Evaluate & Score (Pro) → Ceiling
+                        cv_score, summary, strengths, weaknesses, gaps, candidate_info = score_candidate_pipeline(
+                            cv_text, context, position_name, job_description
                         )
                         print(f"       ✓ AI Score: {cv_score}/100")
-                        # Extract candidate info from CV
-                        candidate_info = extract_candidate_info_from_cv(cv_text)
                         print(f"       ✓ Extracted candidate info from CV")
                     except Exception as e:
                         print(f"       ❌ AI scoring error: {str(e)}")
@@ -493,6 +514,11 @@ def screen_position(position_name, job_description, job_id, csv_url=None):
                     "Candidate Status": "",
                     "Interview Status": "",
                     "Rejection Reason": "",
+                    "Date Applied": parse_kalibrr_date(
+                        candidate.get("Date Application Started (mm/dd/yy hr:mn)") or
+                        candidate.get("Tanggal Mulai Melamar") or
+                        candidate.get("application.created_at") or ""
+                    ),
                     "Date Processed": datetime.now().strftime("%Y-%m-%d %H:%M:%S")
                 }
                 
@@ -558,9 +584,9 @@ def main():
     print("="*70)
     
     # Check for required API keys
-    if not os.getenv("GEMINI_API_KEY") and not os.getenv("OPENROUTER_API_KEY"):
+    if not os.getenv("GEMINI_API_KEY"):
         print("❌ ERROR: No API key found!")
-        print("   Please set GEMINI_API_KEY or OPENROUTER_API_KEY environment variable")
+        print("   Please set GEMINI_API_KEY environment variable")
         return 1
     
     # 1. Load job positions
@@ -635,9 +661,21 @@ def main():
             if not match.empty:
                 csv_url = match.iloc[0].get('File Storage')
         
-        if not csv_url or pd.isna(csv_url):
-            print(f"\n⚠️  Skipping '{position_name}' - No File Storage URL in sheet_positions.csv")
-            continue
+        # Fallback: check for local CSV in kalibrr_exports/
+        if not csv_url or pd.isna(csv_url) or str(csv_url).strip() == '':
+            safe_name = (position_name
+                         .replace(" ", "_")
+                         .replace(".", "")
+                         .replace("/", "_")
+                         .replace("(", "")
+                         .replace(")", ""))
+            local_csv = os.path.join('kalibrr_exports', f'{safe_name}.csv')
+            if os.path.isfile(local_csv):
+                csv_url = local_csv
+                print(f"   📂 Using local CSV: {local_csv}")
+            else:
+                print(f"\n⚠️  Skipping '{position_name}' - No File Storage URL or local CSV")
+                continue
         
         try:
             screened = screen_position(position_name, job_description, job_id, csv_url)

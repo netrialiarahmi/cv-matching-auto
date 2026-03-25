@@ -18,7 +18,7 @@ This application automates the candidate screening process by integrating multip
 - Added local filesystem fallback for improved availability when GitHub API is unavailable
 - Resolved API authentication issues for Gemini API integration
 - Integrated Google Sheets File Storage column for dynamic candidate data retrieval
-- Implemented flexible API key management supporting both OpenRouter and Gemini APIs
+- Implemented flexible API key management for Gemini API
 - Streamlined scoring methodology to use single Match Score metric
 - Removed manual processing triggers in favor of automatic background processing
 
@@ -160,10 +160,8 @@ pip install -r requirements.txt
 
 2. Configure Streamlit secrets (`.streamlit/secrets.toml`):
 ```toml
-# API Key (use one of these)
-OPENROUTER_API_KEY = "your-openrouter-api-key"  # Uses OpenRouter API (google/gemini-2.5-pro)
-# OR
-GEMINI_API_KEY = "your-gemini-api-key"  # Uses Gemini API directly (gemini-2.0-flash-exp)
+# Gemini API Key (required)
+GEMINI_API_KEY = "your-gemini-api-key"
 
 # GitHub configuration
 GITHUB_TOKEN = "your-github-token"
@@ -171,9 +169,11 @@ GITHUB_REPO = "username/repo-name"
 GITHUB_BRANCH = "main"
 ```
 
-**Note:** The system automatically detects which API key is available and uses the appropriate endpoint:
-- `OPENROUTER_API_KEY` → OpenRouter API at `https://openrouter.ai/api/v1`
-- `GEMINI_API_KEY` → Gemini API at `https://generativelanguage.googleapis.com/v1beta`
+**Models used:**
+- `gemini-2.5-flash` — Fast extraction and classification (Step 1)
+- `gemini-2.5-pro` — Deep evaluation and scoring (Step 2)
+
+See [docs/SCORING_PIPELINE.md](docs/SCORING_PIPELINE.md) for full pipeline architecture.
 
 3. (Optional) Configure Google Sheets URL:
    - The Google Sheets URL is configured in `modules/candidate_processor.py`
@@ -367,7 +367,7 @@ cv-matching-auto/
 ├── modules/
 │   ├── __init__.py
 │   ├── extractor.py               # PDF text extraction
-│   ├── scorer.py                  # AI scoring with OpenRouter
+│   ├── scorer.py                  # AI scoring pipeline (Gemini Flash + Pro)
 │   ├── github_utils.py            # GitHub integration for storage
 │   ├── candidate_processor.py     # CSV parsing and candidate data processing
 │   └── utils.py                   # Utility functions

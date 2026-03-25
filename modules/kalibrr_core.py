@@ -3,8 +3,8 @@ Shared Kalibrr export core module.
 
 Provides reusable functions for:
 - Loading positions from job_positions.csv (filtered by Pooling Status)
-- Kalibrr browser automation (export candidates via Playwright)
-- Updating sheet_positions.csv with File Storage URLs
+- Kalibrr API-based export (capturing kb-csrf header via Playwright)
+- Updating sheet_positions.csv with local CSV paths
 
 Used by:
 - scripts/kalibrr_export_pooling.py
@@ -14,8 +14,10 @@ Used by:
 import os
 import sys
 import asyncio
+import json
 import re
 import time
+from datetime import datetime
 from pathlib import Path
 from io import StringIO
 import requests
@@ -169,24 +171,86 @@ def update_sheet_positions_csv(export_results):
 
 
 # ======================================
-# NETWORK LOG HELPERS
+# COLUMN NORMALIZATION (API → Kalibrr UI CSV format)
 # ======================================
-def extract_upload_id_from_network(logs):
-    """Extract upload ID from Kalibrr network request logs."""
-    for entry in logs:
-        if "candidate_uploads" in entry:
-            m = re.search(r"candidate_uploads/(\d+)", entry)
-            if m:
-                return m.group(1)
-    return None
+COLUMN_RENAME = {
+    "first_name": "First Name",
+    "last_name": "Last Name",
+    "email": "Email Address",
+    "mobile_number": "Mobile Number",
+    "resume": "Link Resume",
+    "education_level": "Latest Educational Attainment",
+    "education_school": "Latest School/University",
+    "education_fields": "Latest Major/Course",
+    "relevant_work.job_title": "Latest Job Title",
+    "relevant_work.company_name": "Latest Company",
+}
+
+
+def _iso_to_kalibrr_date(iso_str):
+    """Convert ISO 8601 date to Kalibrr's mm/dd/yy HH:MM format.
+    
+    Example: '2025-09-29T05:26:25.017968+00:00' → '09/29/25 05:26'
+    """
+    if not iso_str or not isinstance(iso_str, str):
+        return ""
+    try:
+        # Parse ISO 8601 — handle timezone offset
+        dt_str = iso_str.split(".")[0].split("+")[0]  # Strip microseconds and tz
+        dt = datetime.strptime(dt_str, "%Y-%m-%dT%H:%M:%S")
+        return dt.strftime("%m/%d/%y %H:%M")
+    except (ValueError, IndexError):
+        return str(iso_str)
+
+
+def _normalize_export_df(df, job_id):
+    """Normalize API export DataFrame to match Kalibrr UI CSV column format.
+    
+    Renames columns to match what the pipeline expects,
+    converts ISO dates, and constructs profile/application URLs.
+    """
+    # Rename columns to match Kalibrr UI export format
+    df = df.rename(columns=COLUMN_RENAME)
+    
+    # Convert relative resume paths to full URLs
+    if "Link Resume" in df.columns:
+        df["Link Resume"] = df["Link Resume"].apply(
+            lambda r: f"https://www.kalibrr.com{r}" if isinstance(r, str) and r.startswith("/api/") else r
+        )
+    
+    # Convert application.created_at ISO → mm/dd/yy HH:MM format
+    if "application.created_at" in df.columns:
+        df["Date Application Started (mm/dd/yy hr:mn)"] = df["application.created_at"].apply(_iso_to_kalibrr_date)
+    
+    # Construct Kalibrr profile URL from user_id
+    if "id" in df.columns:
+        df["Link Profil Kalibrr"] = df["id"].apply(
+            lambda uid: f"https://www.kalibrr.com/profile/{uid}" if pd.notna(uid) else ""
+        )
+    
+    # Construct job application link from user_id + job_id
+    if "id" in df.columns:
+        df["Link Aplikasi Pekerjaan"] = df["id"].apply(
+            lambda uid: f"https://www.kalibrr.com/ats/candidates/{uid}?job_id={job_id}" if pd.notna(uid) else ""
+        )
+    
+    # Construct combined "Nama" field
+    if "First Name" in df.columns and "Last Name" in df.columns:
+        df["Nama"] = (df["First Name"].fillna("") + " " + df["Last Name"].fillna("")).str.strip()
+    
+    return df
 
 
 # ======================================
-# KALIBRR EXPORT (Playwright)
+# KALIBRR EXPORT (API-based via Playwright)
 # ======================================
 async def export_position(playwright, position_name, job_id, kaid, kb):
     """
-    Export candidate CSV from Kalibrr ATS for a single position.
+    Export candidate data from Kalibrr ATS for a single position using the API.
+
+    Uses Playwright to load the ATS page, captures the kb-csrf header from
+    intercepted POST requests, then paginates the /api/ats/candidates endpoint.
+    Results are normalized to match the Kalibrr UI CSV export format.
 
     Args:
         playwright: Playwright instance
@@ -196,250 +260,173 @@ async def export_position(playwright, position_name, job_id, kaid, kb):
         kb: KB cookie value
 
     Returns:
-        Tuple of (upload_id, csv_url) or (None, None) on failure
+        Tuple of (candidate_count_str, csv_path_str) on success,
+        or (None, None) on failure.
     """
-    url = f"https://www.kalibrr.com/ats/candidates?job_id={job_id}&state_id=19"
+    state_id = 19  # "New Applicant" / "Applications" state
+    url = f"https://www.kalibrr.com/ats/candidates?job_id={job_id}&state_id={state_id}"
     print(f"\n=== Memproses {position_name} ===")
     print(f"URL: {url}")
 
     browser = await playwright.chromium.launch(headless=True)
     context = await browser.new_context()
 
-    # cookies login
+    # Inject auth cookies
     await context.add_cookies([
         {"name": "kaid", "value": kaid, "domain": "www.kalibrr.com", "path": "/"},
         {"name": "kb", "value": kb, "domain": "www.kalibrr.com", "path": "/"},
     ])
 
     page = await context.new_page()
-    network_logs = []
 
-    page.on("request", lambda req: network_logs.append(req.url))
-    page.on("response", lambda res: network_logs.append(res.url))
+    # ---- Capture POST request headers (to discover kb-csrf) ----
+    captured_headers = {}
+    post_url = None
+    post_body = None
 
-    # Load page
+    async def capture_request(request):
+        nonlocal captured_headers, post_url, post_body
+        if "/api/ats/candidates" in request.url and request.method == "POST":
+            try:
+                headers = await request.all_headers()
+                captured_headers = headers
+                post_url = request.url
+                post_body = request.post_data
+            except Exception:
+                pass
+
+    page.on("request", capture_request)
+
+    # Load ATS page to trigger the initial API request
     try:
         await page.goto(url, timeout=60000, wait_until="networkidle")
     except Exception as e:
-        print(f"⚠️  Page load lambat, mencoba lanjut dengan domcontentloaded: {e}")
+        print(f"⚠️  Page load lambat: {e}")
         try:
             await page.goto(url, timeout=60000, wait_until="domcontentloaded")
         except Exception as e2:
-            print(f"❌ Gagal load page sama sekali: {e2}")
+            print(f"❌ Gagal load page: {e2}")
             await browser.close()
             return None, None
 
-    await page.wait_for_timeout(3000)
-
-    # Check URL and page title
-    current_url = page.url
-    page_title = await page.title()
-    print(f"📍 Current URL: {current_url}")
-    print(f"📄 Page title: {page_title}")
+    await page.wait_for_timeout(5000)
 
     # Check for login redirect
+    current_url = page.url
     if "login" in current_url.lower() or "signin" in current_url.lower():
         print("❌ Cookies expired — redirect ke halaman login!")
         print("   Mohon update KAID dan KB di .env / GitHub Secrets")
-        debug_path = EXPORT_DIR / f"debug_login_required_{job_id}.png"
-        await page.screenshot(path=str(debug_path))
-        print(f"📸 Screenshot: {debug_path}")
         await browser.close()
         return None, None
 
-    # Check for error page
-    if "error" in page_title.lower() or "not found" in page_title.lower():
-        print(f"❌ Halaman error: {page_title}")
-        debug_path = EXPORT_DIR / f"debug_error_{job_id}.png"
-        await page.screenshot(path=str(debug_path))
-        print(f"📸 Screenshot: {debug_path}")
+    # Verify we captured the kb-csrf header
+    if not captured_headers:
+        print("❌ Tidak ada POST request yang ter-capture. kb-csrf header tidak ditemukan.")
         await browser.close()
         return None, None
 
-    # === Find and click export button ===
-    labels = [
-        "EXPORT ALL CANDIDATES",
-        "Export All Candidates",
-        "Unduh semua kandidat",
-        "UNDUH SEMUA KANDIDAT",
-        "Export",
-        "EXPORT",
-        "Download",
-        "DOWNLOAD",
-    ]
+    csrf_value = captured_headers.get("kb-csrf", "")
+    if csrf_value:
+        print(f"✓ kb-csrf header captured: {csrf_value[:20]}...")
+    else:
+        print("⚠️  kb-csrf header kosong, tetap mencoba paginate...")
 
-    button_selectors = [
-        'button:has-text("Export")',
-        'button:has-text("EXPORT")',
-        'button:has-text("Download")',
-        'button:has-text("Unduh")',
-        '[data-testid*="export"]',
-        '[data-testid*="download"]',
-        '[data-testid*="Export"]',
-        '[data-testid*="Download"]',
-        '[aria-label*="export"]',
-        '[aria-label*="Export"]',
-        '[aria-label*="download"]',
-        '[aria-label*="Download"]',
-        'a:has-text("Export")',
-        'a:has-text("Download")',
-        '.export-button',
-        '#export-button',
-        'button[class*="export"]',
-        'button[class*="Export"]',
-        'button[class*="download"]',
-        'button[class*="Download"]',
-        '[role="button"]:has-text("Export")',
-        '[role="button"]:has-text("Download")',
-    ]
+    # ---- Build replay headers (skip HTTP/2 pseudo-headers) ----
+    replay_headers = {}
+    for k, v in captured_headers.items():
+        if not k.startswith(":"):
+            replay_headers[k] = v
 
-    clicked = False
-    print("Menunggu tombol export muncul (max 200 detik)...")
+    # ---- Paginate the API ----
+    payload = json.loads(post_body) if post_body else {
+        "limit": 30, "offset": 0,
+        "sort_field": "relevance", "sort_direction": "desc",
+        "job_id": int(job_id), "state_id": state_id, "filters": {}
+    }
 
-    debug_path = EXPORT_DIR / f"debug_page_{job_id}_start.png"
-    await page.screenshot(path=str(debug_path))
-    print(f"📸 Debug screenshot awal: {debug_path}")
+    all_candidates = []
+    offset = 0
+    limit = 100
+    total = None
+    api_url = post_url or "https://www.kalibrr.com/api/ats/candidates"
 
-    for attempt in range(200):
-        # Try text labels first
-        for label in labels:
-            try:
-                locator = page.get_by_text(label, exact=False)
-                if await locator.count() > 0:
-                    await locator.first.click(timeout=1000)
-                    clicked = True
-                    print(f"✓ Tombol ditemukan (by text) setelah {attempt+1} detik: {label}")
-                    break
-            except Exception:
-                pass
-
-        if clicked:
-            break
-
-        # Try CSS/XPath selectors
-        for selector in button_selectors:
-            try:
-                locator = page.locator(selector)
-                if await locator.count() > 0:
-                    await locator.first.click(timeout=1000)
-                    clicked = True
-                    print(f"✓ Tombol ditemukan (by selector) setelah {attempt+1} detik: {selector}")
-                    break
-            except Exception:
-                pass
-
-        if clicked:
-            break
-
-        if (attempt + 1) % 10 == 0:
-            print(f"  ... masih menunggu ({attempt+1}/200 detik)")
-            if (attempt + 1) % 30 == 0:
-                debug_path = EXPORT_DIR / f"debug_page_{job_id}_{attempt+1}s.png"
-                await page.screenshot(path=str(debug_path))
-                print(f"📸 Debug screenshot: {debug_path}")
-
-        await asyncio.sleep(1)
-
-    if not clicked:
-        debug_path = EXPORT_DIR / f"debug_page_{job_id}_failed.png"
-        await page.screenshot(path=str(debug_path), full_page=True)
-        print(f"📸 Debug screenshot (failed): {debug_path}")
+    print(f"📥 Memulai pagination API...")
+    while True:
+        payload["offset"] = offset
+        payload["limit"] = limit
 
         try:
-            page_title = await page.title()
-            print(f"📄 Page title: {page_title}")
-            print(f"📍 Current URL: {page.url}")
-
-            button_locators = await page.locator('button:visible').all()
-            if button_locators:
-                button_texts = []
-                for btn in button_locators[:10]:
-                    try:
-                        text = await btn.text_content()
-                        if text and text.strip():
-                            button_texts.append(text.strip()[:50])
-                    except Exception:
-                        pass
-                if button_texts:
-                    print(f"📋 Visible buttons on page: {button_texts}")
-
-            link_locators = await page.locator('a:visible').all()
-            if link_locators:
-                link_texts = []
-                for link in link_locators[:10]:
-                    try:
-                        text = await link.text_content()
-                        if text and text.strip() and len(text.strip()) < 100:
-                            link_texts.append(text.strip()[:50])
-                    except Exception:
-                        pass
-                if link_texts:
-                    print(f"📋 Visible links on page: {link_texts}")
+            resp = await context.request.post(
+                api_url,
+                headers=replay_headers,
+                data=json.dumps(payload),
+            )
         except Exception as e:
-            print(f"⚠️ Could not get page info: {e}")
-
-        print("❌ Gagal menemukan tombol download setelah 200 detik.")
-        await browser.close()
-        return None, None
-
-    # === Wait for upload_id ===
-    print("Menunggu upload_id keluar...")
-    upload_id = None
-
-    for _ in range(200):
-        upload_id = extract_upload_id_from_network(network_logs)
-        if upload_id:
+            print(f"   ❌ Request error at offset {offset}: {e}")
             break
-        await asyncio.sleep(1)
 
-    if not upload_id:
-        print("Upload ID tidak ditemukan setelah 200 detik.")
-        await browser.close()
-        return None, None
+        if resp.status != 200:
+            body_text = await resp.text()
+            print(f"   ❌ HTTP {resp.status} at offset {offset}: {body_text[:200]}")
+            break
 
-    print("Upload ID:", upload_id)
+        data = await resp.json()
+        count = data.get("count", 0)
+        objects = data.get("objects", [])
 
-    # === Fetch CSV URL from API ===
-    print("Mengambil CSV URL dari API...")
-    api_url = f"https://www.kalibrr.com/api/candidate_uploads/{upload_id}?url_only=true"
+        if total is None:
+            total = count
+            print(f"   Total candidates pada server: {total}")
 
-    csv_url = None
-    for attempt in range(30):
-        try:
-            res = await page.request.get(api_url)
-            csv_url = (await res.text()).replace('"', "").strip()
+        if not objects:
+            break
 
-            if csv_url and csv_url.startswith("https://storage.googleapis.com"):
-                print(f"✓ CSV URL didapat setelah {attempt+1} detik")
-                break
-            else:
-                csv_url = None
-        except Exception:
-            pass
+        all_candidates.extend(objects)
+        offset += len(objects)
+        print(f"   Fetched {len(all_candidates)}/{total}")
 
-        if (attempt + 1) % 5 == 0:
-            print(f"  ... masih menunggu CSV ready ({attempt+1}/30 detik)")
+        if len(all_candidates) >= total:
+            break
 
-        await asyncio.sleep(1)
+        await asyncio.sleep(0.5)
 
-    if not csv_url:
-        print("❌ Gagal mendapatkan CSV URL dari API setelah 30 detik")
-        await browser.close()
-        return None, None
-
-    print("CSV URL:", csv_url)
-
-    # === Download CSV ===
-    csv_bytes = await page.request.get(csv_url)
-    data = await csv_bytes.body()
-
-    filename = f"{position_name}.csv".replace(" ", "_")
-    path = EXPORT_DIR / filename
-
-    with open(path, "wb") as f:
-        f.write(data)
-
-    print("Saved:", path)
     await browser.close()
 
-    return upload_id, csv_url
+    if not all_candidates:
+        print(f"❌ Tidak ada candidate yang berhasil diambil untuk {position_name}")
+        return None, None
+
+    print(f"✓ Total fetched: {len(all_candidates)} candidates")
+
+    # ---- Flatten nested JSON to flat dict ----
+    rows = []
+    for c in all_candidates:
+        row = {}
+        for k, v in c.items():
+            if isinstance(v, dict):
+                for k2, v2 in v.items():
+                    if not isinstance(v2, (dict, list)):
+                        row[f"{k}.{k2}"] = v2
+            elif isinstance(v, list):
+                row[k] = json.dumps(v, default=str) if v else ""
+            else:
+                row[k] = v
+        rows.append(row)
+
+    df = pd.DataFrame(rows)
+
+    # ---- Normalize columns to match Kalibrr UI CSV format ----
+    df = _normalize_export_df(df, job_id)
+
+    # ---- Save CSV ----
+    safe_name = (position_name
+                 .replace(" ", "_")
+                 .replace(".", "")
+                 .replace("/", "_")
+                 .replace("(", "")
+                 .replace(")", ""))
+    csv_path = EXPORT_DIR / f"{safe_name}.csv"
+    df.to_csv(csv_path, index=False)
+
+    print(f"✅ Saved: {csv_path} ({len(df)} rows, {len(df.columns)} columns)")
+    return str(len(df)), str(csv_path)

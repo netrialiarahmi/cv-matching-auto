@@ -90,8 +90,50 @@ RESULTS_COLUMNS = [
     "Match Score", "AI Summary", "Strengths", "Weaknesses", "Gaps",
     "Latest Job Title", "Latest Company", "Education", "University", "Major",
     "Kalibrr Profile", "Application Link", "Resume Link",
-    "Recruiter Feedback", "Shortlisted", "Candidate Status", "Interview Status", "Rejection Reason", "Date Processed"
+    "Recruiter Feedback", "Shortlisted", "Candidate Status", "Interview Status", "Rejection Reason",
+    "Date Applied", "Date Processed"
 ]
+
+
+def parse_kalibrr_date(raw_date):
+    """Parse Kalibrr date format (mm/dd/yy hr:mn) to YYYY-MM-DD HH:MM.
+    
+    Handles:
+    - English: 'Date Application Started (mm/dd/yy hr:mn)' e.g. '01/11/26 09:43'
+    - Already normalized: 'YYYY-MM-DD HH:MM' passthrough
+    - Empty/NaN: returns ''
+    """
+    if not raw_date or (isinstance(raw_date, float) and pd.isna(raw_date)):
+        return ""
+    raw_date = str(raw_date).strip()
+    if not raw_date:
+        return ""
+    # ISO 8601 format from API: '2025-09-29T05:26:25.017968+00:00' → 'YYYY-MM-DD HH:MM'
+    if 'T' in raw_date and len(raw_date) > 19 and raw_date[4] == '-':
+        try:
+            dt_str = raw_date.split('.')[0].split('+')[0].rstrip('Z')
+            from datetime import datetime as dt
+            parsed = dt.strptime(dt_str, "%Y-%m-%dT%H:%M:%S")
+            return parsed.strftime("%Y-%m-%d %H:%M")
+        except ValueError:
+            pass
+    # Already in YYYY-MM-DD format — passthrough
+    if len(raw_date) >= 10 and raw_date[4] == '-' and raw_date[7] == '-':
+        return raw_date
+    # Kalibrr format: mm/dd/yy hr:mn
+    try:
+        from datetime import datetime as dt
+        parsed = dt.strptime(raw_date, "%m/%d/%y %H:%M")
+        return parsed.strftime("%Y-%m-%d %H:%M")
+    except ValueError:
+        pass
+    # Fallback: try mm/dd/yy without time
+    try:
+        from datetime import datetime as dt
+        parsed = dt.strptime(raw_date, "%m/%d/%y")
+        return parsed.strftime("%Y-%m-%d")
+    except ValueError:
+        return raw_date  # Return as-is if unparseable
 
 # Network timeout for GitHub API requests (in seconds)
 GITHUB_TIMEOUT = 30
@@ -284,6 +326,14 @@ def save_results_to_github(df, path=None, job_position=None, max_retries=3):
                 # Apply deduplication to remove duplicates (handles both merged and new-only data)
                 # Keep 'first' to preserve existing records and their shortlist status
                 df = _deduplicate_candidates(df)
+                
+                # Sort by Date Applied (latest first), then Date Processed as fallback
+                if "Date Applied" in df.columns:
+                    df = df.sort_values(
+                        by=["Date Applied", "Date Processed"],
+                        ascending=[False, False],
+                        na_position="last"
+                    ).reset_index(drop=True)
             elif r.status_code == 401:
                 _log_error(f"❌ GitHub authentication failed: {r.status_code} - {r.text}")
                 return False

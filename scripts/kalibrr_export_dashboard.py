@@ -74,15 +74,15 @@ async def main():
 
     async with async_playwright() as pw:
         for p in positions_to_export:
-            upload_id, csv_url = await export_position(
+            count, csv_path = await export_position(
                 pw, p["name"], p["job_id"], KAID, KB
             )
-            if upload_id and csv_url:
+            if count and csv_path:
                 export_results.append([
                     p["name"],
                     str(p["job_id"]),
-                    str(upload_id),
-                    csv_url,
+                    str(count),
+                    csv_path,
                 ])
 
     if not export_results:

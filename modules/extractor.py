@@ -1,6 +1,37 @@
 import fitz  # PyMuPDF
 import sys
 import os
+import re
+
+
+def clean_cv_text(raw_text):
+    """Clean extracted CV text by removing common PDF noise while preserving structure."""
+    if not raw_text:
+        return ""
+    
+    text = raw_text
+    
+    # Remove non-printable characters (keep newlines, tabs, spaces)
+    text = re.sub(r'[^\x09\x0a\x0d\x20-\x7e\x80-\xff]', '', text)
+    
+    # Remove common page number patterns
+    text = re.sub(r'\n\s*(?:Page|Halaman|Hal\.?)\s*\d+\s*(?:of|dari)?\s*\d*\s*\n', '\n', text, flags=re.IGNORECASE)
+    text = re.sub(r'\n\s*-?\s*\d+\s*-?\s*\n', '\n', text)  # Standalone page numbers like "- 2 -"
+    
+    # Remove excessive decorators (repeated ===, ---, ***, ___)
+    text = re.sub(r'[=]{4,}', '', text)
+    text = re.sub(r'[-]{4,}', '', text)
+    text = re.sub(r'[*]{4,}', '', text)
+    text = re.sub(r'[_]{4,}', '', text)
+    
+    # Collapse 3+ blank lines to 2
+    text = re.sub(r'\n{3,}', '\n\n', text)
+    
+    # Strip trailing whitespace per line
+    text = re.sub(r'[ \t]+\n', '\n', text)
+    
+    return text.strip()
+
 
 def extract_text_from_pdf(uploaded_file, timeout_seconds=30):
     """Extract plain text from a PDF file stream with timeout.
@@ -43,4 +74,4 @@ def extract_text_from_pdf(uploaded_file, timeout_seconds=30):
         os.close(devnull)
         os.close(old_stderr)
     
-    return text.strip()
+    return clean_cv_text(text)
