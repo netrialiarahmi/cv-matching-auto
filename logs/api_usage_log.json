@@ -2068,76 +2068,748 @@
       }
     ]
   },
-  "2026-03-27": {
-    "total": 9,
-    "streamlit": 9,
-    "github_action": 0,
-    "successful": 9,
-    "failed": 0,
+  "2026-03-25": {
+    "total": 3,
+    "streamlit": 0,
+    "github_action": 3,
+    "successful": 0,
+    "failed": 3,
     "positions": {
-      "Data Analyst (Business Intelligence)": 9
+      "Account Executive Pasangiklan.com": 3
     },
     "entries": [
       {
-        "timestamp": "2026-03-27 05:03:04",
-        "source": "streamlit",
-        "candidate": "Jenrico Ervian",
+        "timestamp": "2026-03-25 17:26:59",
+        "source": "github_action",
+        "candidate": "Lidya Virginia",
+        "position": "Account Executive Pasangiklan.com",
+        "success": false
+      },
+      {
+        "timestamp": "2026-03-25 17:28:14",
+        "source": "github_action",
+        "candidate": "Lidya Virginia",
+        "position": "Account Executive Pasangiklan.com",
+        "success": false
+      },
+      {
+        "timestamp": "2026-03-25 17:28:53",
+        "source": "github_action",
+        "candidate": "Albertus Danar Adikristanto",
+        "position": "Account Executive Pasangiklan.com",
+        "success": false
+      }
+    ]
+  },
+  "2026-03-27": {
+    "total": 142,
+    "streamlit": 0,
+    "github_action": 142,
+    "successful": 140,
+    "failed": 2,
+    "positions": {
+      "Account Executive Pasangiklan.com": 2,
+      "Data Analyst KG Media": 32,
+      "Data Analyst (Business Intelligence)": 108
+    },
+    "entries": [
+      {
+        "timestamp": "2026-03-27 13:45:41",
+        "source": "github_action",
+        "candidate": "Rahel Tricia Sunardi",
         "position": "Data Analyst (Business Intelligence)",
         "success": true
       },
       {
-        "timestamp": "2026-03-27 05:03:38",
-        "source": "streamlit",
-        "candidate": "Muhammad Nashih Amien",
+        "timestamp": "2026-03-27 13:46:55",
+        "source": "github_action",
+        "candidate": "Alfini Ridatillah",
         "position": "Data Analyst (Business Intelligence)",
         "success": true
       },
       {
-        "timestamp": "2026-03-27 05:04:22",
-        "source": "streamlit",
-        "candidate": "Gysella Zevanya",
+        "timestamp": "2026-03-27 13:48:03",
+        "source": "github_action",
+        "candidate": "TIFFANY YAUWIRA",
         "position": "Data Analyst (Business Intelligence)",
         "success": true
       },
       {
-        "timestamp": "2026-03-27 05:04:53",
-        "source": "streamlit",
-        "candidate": "Amaliya Khamdanah",
+        "timestamp": "2026-03-27 13:48:41",
+        "source": "github_action",
+        "candidate": "Aisya Putri Syanurli",
         "position": "Data Analyst (Business Intelligence)",
         "success": true
       },
       {
-        "timestamp": "2026-03-27 05:05:23",
-        "source": "streamlit",
-        "candidate": "Muhammad Farid Muzayyani",
+        "timestamp": "2026-03-27 13:49:22",
+        "source": "github_action",
+        "candidate": "Titik dewi Kholisoh",
         "position": "Data Analyst (Business Intelligence)",
         "success": true
       },
       {
-        "timestamp": "2026-03-27 05:05:54",
-        "source": "streamlit",
-        "candidate": "Nabila Irdha C",
+        "timestamp": "2026-03-27 13:50:13",
+        "source": "github_action",
+        "candidate": "Adina Damayanti",
         "position": "Data Analyst (Business Intelligence)",
         "success": true
       },
       {
-        "timestamp": "2026-03-27 05:06:31",
-        "source": "streamlit",
-        "candidate": "Mochammad Shaffa Prawiranegara",
+        "timestamp": "2026-03-27 13:50:54",
+        "source": "github_action",
+        "candidate": "Arshad nan",
         "position": "Data Analyst (Business Intelligence)",
         "success": true
       },
       {
-        "timestamp": "2026-03-27 05:07:04",
-        "source": "streamlit",
-        "candidate": "Dara Febriyanti",
+        "timestamp": "2026-03-27 13:52:06",
+        "source": "github_action",
+        "candidate": "Melzha  Amanda",
         "position": "Data Analyst (Business Intelligence)",
         "success": true
       },
       {
-        "timestamp": "2026-03-27 05:20:14",
-        "source": "streamlit",
-        "candidate": "Khairunnisa Lestari",
+        "timestamp": "2026-03-27 13:52:54",
+        "source": "github_action",
+        "candidate": "Raiza Hannifah",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-03-27 13:53:30",
+        "source": "github_action",
+        "candidate": "Muhammad Fatoni",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-03-27 13:54:06",
+        "source": "github_action",
+        "candidate": "Muhammad Dzikri Ardlian",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-03-27 13:55:17",
+        "source": "github_action",
+        "candidate": "Muhammad Al - Abrour",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-03-27 13:55:59",
+        "source": "github_action",
+        "candidate": "ronaldo khan",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-03-27 13:56:54",
+        "source": "github_action",
+        "candidate": "Fatur Rozak",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-03-27 13:57:30",
+        "source": "github_action",
+        "candidate": "Aditya Fikri Heristyanto",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-03-27 13:58:37",
+        "source": "github_action",
+        "candidate": "Kevin Monica Shandy",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-03-27 13:59:53",
+        "source": "github_action",
+        "candidate": "Zaki Abiyu Aqilah",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-03-27 14:01:09",
+        "source": "github_action",
+        "candidate": "Eka Pramudianzah",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-03-27 14:01:52",
+        "source": "github_action",
+        "candidate": "Muhammad Hidayatullah",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-03-27 14:03:05",
+        "source": "github_action",
+        "candidate": "Fauzan Purwono",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-03-27 14:03:53",
+        "source": "github_action",
+        "candidate": "Yosafat Kevin Sirumapea",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-03-27 14:05:12",
+        "source": "github_action",
+        "candidate": "Alvin Muhammad Habieb",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-03-27 14:05:54",
+        "source": "github_action",
+        "candidate": "Ilham Akbar",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-03-27 14:06:33",
+        "source": "github_action",
+        "candidate": "Bianca Surja",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-03-27 14:07:13",
+        "source": "github_action",
+        "candidate": "Muhammad Naufal Taqiyuddin",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-03-27 14:08:14",
+        "source": "github_action",
+        "candidate": "Kevin Adi Nugraha",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-03-27 14:08:55",
+        "source": "github_action",
+        "candidate": "Abdurrachman Muhammad Hattami",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-03-27 14:09:40",
+        "source": "github_action",
+        "candidate": "Farah Tri Nurul Hayati",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-03-27 14:11:04",
+        "source": "github_action",
+        "candidate": "Nida Febiana",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-03-27 14:12:31",
+        "source": "github_action",
+        "candidate": "raihan syarief",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-03-27 14:13:02",
+        "source": "github_action",
+        "candidate": "Daniela Aedo",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-03-27 14:13:57",
+        "source": "github_action",
+        "candidate": "Muhammad Hilmy Naufal",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-03-27 14:14:54",
+        "source": "github_action",
+        "candidate": "Hayat Mazhar Fana",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-03-27 14:16:12",
+        "source": "github_action",
+        "candidate": "Adzra Sajida",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-03-27 14:17:19",
+        "source": "github_action",
+        "candidate": "Bryan Saragih",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-03-27 14:17:59",
+        "source": "github_action",
+        "candidate": "Sherly Yulianty",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-03-27 14:18:39",
+        "source": "github_action",
+        "candidate": "Christian Johan",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-03-27 14:19:51",
+        "source": "github_action",
+        "candidate": "R. Faiq Aulia Rahman",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-03-27 14:21:00",
+        "source": "github_action",
+        "candidate": "Nurfian Dwi Noviani",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-03-27 14:21:37",
+        "source": "github_action",
+        "candidate": "IMAM CATUR",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-03-27 14:22:13",
+        "source": "github_action",
+        "candidate": "Sinta Priyastiwi",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-03-27 14:23:11",
+        "source": "github_action",
+        "candidate": "Raffi Ramadhya Alamsyah",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-03-27 14:23:47",
+        "source": "github_action",
+        "candidate": "Edward Wiguna",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-03-27 14:24:44",
+        "source": "github_action",
+        "candidate": "indah puspita",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-03-27 14:26:07",
+        "source": "github_action",
+        "candidate": "Hotlas Septiani Silaen",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-03-27 14:27:22",
+        "source": "github_action",
+        "candidate": "M. Gio Vandy Harahap",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-03-27 14:28:17",
+        "source": "github_action",
+        "candidate": "Puspa Dewi Kurniawati",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-03-27 14:29:02",
+        "source": "github_action",
+        "candidate": "Mauliddino Rizky Pratama",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-03-27 14:30:02",
+        "source": "github_action",
+        "candidate": "Ghania Aisyah",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-03-27 14:30:40",
+        "source": "github_action",
+        "candidate": "Mezky Yandito",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-03-27 14:31:44",
+        "source": "github_action",
+        "candidate": "Angelita Immanuela",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-03-27 14:32:51",
+        "source": "github_action",
+        "candidate": "Azalea Putri Herawati",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-03-27 14:34:00",
+        "source": "github_action",
+        "candidate": "Yusna Millaturrosyidah",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-03-27 14:35:36",
+        "source": "github_action",
+        "candidate": "A. Nicholas  Caryndra",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-03-27 14:36:51",
+        "source": "github_action",
+        "candidate": "Teresa Olivia Luhur",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-03-27 14:37:57",
+        "source": "github_action",
+        "candidate": "Kenrick Saputra Tedja",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-03-27 14:39:19",
+        "source": "github_action",
+        "candidate": "Ghifari Ismail",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-03-27 14:40:52",
+        "source": "github_action",
+        "candidate": "Risti Yulianti Khoeriyah",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-03-27 14:42:04",
+        "source": "github_action",
+        "candidate": "Lorentz Putra",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-03-27 14:43:35",
+        "source": "github_action",
+        "candidate": "Azhura Chisha Maye",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-03-27 14:44:22",
+        "source": "github_action",
+        "candidate": "Yoga Pamungkas Setiawan",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-03-27 14:45:42",
+        "source": "github_action",
+        "candidate": "Citta Trinastiti",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-03-27 14:46:40",
+        "source": "github_action",
+        "candidate": "SURYADI --",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-03-27 14:47:26",
+        "source": "github_action",
+        "candidate": "Febrianti Puspa Ningrum",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-03-27 14:48:18",
+        "source": "github_action",
+        "candidate": "Reisha Anugerah Dei",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-03-27 14:49:18",
+        "source": "github_action",
+        "candidate": "Junita Putri Amar",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-03-27 14:50:11",
+        "source": "github_action",
+        "candidate": "Desvin Sitohang",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-03-27 14:52:13",
+        "source": "github_action",
+        "candidate": "Prily Mustika Yana",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-03-27 14:53:07",
+        "source": "github_action",
+        "candidate": "Binta Zulfia",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-03-27 14:54:27",
+        "source": "github_action",
+        "candidate": "Endah Kristianti",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-03-27 14:55:04",
+        "source": "github_action",
+        "candidate": "Alif Nurhadi",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-03-27 14:56:25",
+        "source": "github_action",
+        "candidate": "Rizky Nurbayani Muhari",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-03-27 14:56:42",
+        "source": "github_action",
+        "candidate": "Gilang Ramadhan",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-03-27 14:57:38",
+        "source": "github_action",
+        "candidate": "Reinhat Sitanggang",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-03-27 14:59:14",
+        "source": "github_action",
+        "candidate": "008_Desi Fitriani",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-03-27 15:00:34",
+        "source": "github_action",
+        "candidate": "Dhelia Artasevia",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-03-27 15:01:20",
+        "source": "github_action",
+        "candidate": "Vivi Indah Pratiwi",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-03-27 15:02:28",
+        "source": "github_action",
+        "candidate": "Septian Caesar",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-03-27 15:03:30",
+        "source": "github_action",
+        "candidate": "alief riansyah",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-03-27 15:04:48",
+        "source": "github_action",
+        "candidate": "Arini Arumsari",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-03-27 15:04:53",
+        "source": "github_action",
+        "candidate": "Destia Larasasti Tobing",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-03-27 15:06:03",
+        "source": "github_action",
+        "candidate": "Saddam Fachriza",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-03-27 15:07:19",
+        "source": "github_action",
+        "candidate": "Mufti S Zamzami",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-03-27 15:08:33",
+        "source": "github_action",
+        "candidate": "Kharen Abdul Jabar",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-03-27 15:10:20",
+        "source": "github_action",
+        "candidate": "Siska N S",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-03-27 15:11:05",
+        "source": "github_action",
+        "candidate": "Gaizkia Adeline",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-03-27 15:12:54",
+        "source": "github_action",
+        "candidate": "Alyssa  Wulan Sari",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-03-27 15:14:18",
+        "source": "github_action",
+        "candidate": "C_Muhammad Hafizh Hariyanto",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-03-27 15:15:47",
+        "source": "github_action",
+        "candidate": "firman brilian",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-03-27 15:17:25",
+        "source": "github_action",
+        "candidate": "Leonard Febrianto",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-03-27 15:18:04",
+        "source": "github_action",
+        "candidate": "FIFIN FELANI",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-03-27 15:19:46",
+        "source": "github_action",
+        "candidate": "Dinda Anasta Sabillaa",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-03-27 15:20:31",
+        "source": "github_action",
+        "candidate": "Sarah Nabilah Yasmin",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-03-27 15:21:17",
+        "source": "github_action",
+        "candidate": "Duli Tabita",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-03-27 15:22:01",
+        "source": "github_action",
+        "candidate": "Fajri Nur Winda",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-03-27 15:23:27",
+        "source": "github_action",
+        "candidate": "Bryant Steven Aritonang",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-03-27 15:24:36",
+        "source": "github_action",
+        "candidate": "Vanessa Olivia Rose",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-03-27 15:26:08",
+        "source": "github_action",
+        "candidate": "Syafa Rossita",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-03-27 15:27:25",
+        "source": "github_action",
+        "candidate": "iim mafahir",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-03-27 15:28:13",
+        "source": "github_action",
+        "candidate": "Yasmin Ulayya",
         "position": "Data Analyst (Business Intelligence)",
         "success": true
       }

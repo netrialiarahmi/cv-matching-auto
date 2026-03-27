@@ -164,6 +164,9 @@ def _try_parse_json(text: str):
         return None
     s = _strip_code_fences(text).strip()
 
+    # 0) Strip thinking blocks from Gemini 2.5 models (<think>...</think>)
+    s = re.sub(r'<think>.*?</think>', '', s, flags=re.DOTALL).strip()
+
     # 1) Try direct parse
     try:
         return json.loads(s)
@@ -697,40 +700,54 @@ Return ONLY a valid JSON object:
 
 Return JSON only:"""
 
-    try:
-        response = call_api_with_retry(
-            client,
-            model=_get_model_name("extract"),
-            messages=[
-                {"role": "system", "content": "You are a precise data extraction and classification assistant. Return only valid JSON."},
-                {"role": "user", "content": prompt}
-            ],
-            temperature=0.1,
-            response_format={"type": "json_object"},
-            max_tokens=3000
-        )
-        
-        output = response.choices[0].message.content
-        data = _try_parse_json(output)
-        
-        if isinstance(data, dict):
-            # Ensure required fields exist
-            data.setdefault("candidate_name", "")
-            data.setdefault("latest_job_title", "")
-            data.setdefault("latest_company", "")
-            data.setdefault("education", {"degree": "", "university": "", "major": ""})
-            data.setdefault("is_preferred_university", False)
-            data.setdefault("work_experiences", [])
-            data.setdefault("total_relevant_years", 0)
-            data.setdefault("role_function_match", "different")
-            data.setdefault("industry_match", "different")
-            return data
-        
-        return None
-        
-    except Exception as e:
-        _log_info(f"ℹ️ Step 1 (extract & classify) failed: {e}")
-        return None
+    # Retry Step 1 up to 2 attempts before giving up
+    last_error = None
+    for step1_attempt in range(2):
+        try:
+            response = call_api_with_retry(
+                client,
+                model=_get_model_name("extract"),
+                messages=[
+                    {"role": "system", "content": "You are a precise data extraction and classification assistant. Return only valid JSON."},
+                    {"role": "user", "content": prompt}
+                ],
+                temperature=0.1,
+                response_format={"type": "json_object"},
+                max_tokens=3000
+            )
+            
+            output = response.choices[0].message.content
+            data = _try_parse_json(output)
+            
+            if isinstance(data, dict):
+                # Ensure required fields exist
+                data.setdefault("candidate_name", "")
+                data.setdefault("latest_job_title", "")
+                data.setdefault("latest_company", "")
+                data.setdefault("education", {"degree": "", "university": "", "major": ""})
+                data.setdefault("is_preferred_university", False)
+                data.setdefault("work_experiences", [])
+                data.setdefault("total_relevant_years", 0)
+                data.setdefault("role_function_match", "different")
+                data.setdefault("industry_match", "different")
+                return data
+            
+            # JSON parsed but not a dict — retry
+            last_error = f"Parsed output is {type(data).__name__}, not dict. Raw: {repr(output[:200])}"
+            if step1_attempt == 0:
+                _log_info(f"ℹ️ Step 1 JSON parse issue, retrying... ({last_error})")
+                time.sleep(REQUEST_DELAY)
+                continue
+            
+        except Exception as e:
+            last_error = str(e)
+            if step1_attempt == 0:
+                _log_info(f"ℹ️ Step 1 attempt {step1_attempt+1} failed: {e}. Retrying...")
+                time.sleep(REQUEST_DELAY)
+                continue
+    
+    _log_info(f"ℹ️ Step 1 (extract & classify) failed after 2 attempts: {last_error}")
+    return None
 
 
 def evaluate_and_score(classified_data, job_position, job_description):

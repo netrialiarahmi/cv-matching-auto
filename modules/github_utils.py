@@ -228,6 +228,27 @@ def get_results_filename(job_position):
     return f"{RESULTS_DIR}/results_{safe_name}.csv"
 
 
+def _save_results_locally(df, path):
+    """Save results to a local CSV file (fallback when GitHub is unavailable)."""
+    try:
+        os.makedirs(os.path.dirname(path), exist_ok=True)
+        if os.path.exists(path):
+            old_df = pd.read_csv(path)
+            df = pd.concat([old_df, df], ignore_index=True)
+            df = _deduplicate_candidates(df)
+            if "Date Applied" in df.columns:
+                df = df.sort_values(
+                    by=["Date Applied", "Date Processed"],
+                    ascending=[False, False],
+                    na_position="last"
+                ).reset_index(drop=True)
+        df.to_csv(path, index=False)
+        return True
+    except Exception as e:
+        _log_error(f"❌ Local save failed: {e}")
+        return False
+
+
 def save_results_to_github(df, path=None, job_position=None, max_retries=3):
     """Save or update results in GitHub repo, storing each job position in a separate file.
     
@@ -272,8 +293,8 @@ def save_results_to_github(df, path=None, job_position=None, max_retries=3):
     branch = _get_config("GITHUB_BRANCH", "main")
 
     if not token:
-        _log_error("❌ Missing GITHUB_TOKEN in Streamlit secrets.")
-        return False
+        # No GitHub token — save locally instead
+        return _save_results_locally(df, path)
 
     headers = {
         "Authorization": f"token {token}",
@@ -335,8 +356,8 @@ def save_results_to_github(df, path=None, job_position=None, max_retries=3):
                         na_position="last"
                     ).reset_index(drop=True)
             elif r.status_code == 401:
-                _log_error(f"❌ GitHub authentication failed: {r.status_code} - {r.text}")
-                return False
+                _log_warning(f"⚠️ GitHub auth failed, saving locally instead.")
+                return _save_results_locally(df, path)
             elif r.status_code != 404:
                 # 404 is expected for new files, other errors should be reported
                 if attempt == max_retries - 1:
