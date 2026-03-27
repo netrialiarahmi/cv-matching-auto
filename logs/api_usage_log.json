@@ -2069,13 +2069,13 @@
     ]
   },
   "2026-03-27": {
-    "total": 5,
-    "streamlit": 5,
+    "total": 6,
+    "streamlit": 6,
     "github_action": 0,
-    "successful": 5,
+    "successful": 6,
     "failed": 0,
     "positions": {
-      "Data Analyst (Business Intelligence)": 5
+      "Data Analyst (Business Intelligence)": 6
     },
     "entries": [
       {
@@ -2110,6 +2110,13 @@
         "timestamp": "2026-03-27 05:05:23",
         "source": "streamlit",
         "candidate": "Muhammad Farid Muzayyani",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-03-27 05:05:54",
+        "source": "streamlit",
+        "candidate": "Nabila Irdha C",
         "position": "Data Analyst (Business Intelligence)",
         "success": true
       }
