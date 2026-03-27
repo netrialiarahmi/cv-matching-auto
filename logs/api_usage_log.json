@@ -2069,13 +2069,13 @@
     ]
   },
   "2026-03-27": {
-    "total": 3,
-    "streamlit": 3,
+    "total": 4,
+    "streamlit": 4,
     "github_action": 0,
-    "successful": 3,
+    "successful": 4,
     "failed": 0,
     "positions": {
-      "Data Analyst (Business Intelligence)": 3
+      "Data Analyst (Business Intelligence)": 4
     },
     "entries": [
       {
@@ -2096,6 +2096,13 @@
         "timestamp": "2026-03-27 05:04:22",
         "source": "streamlit",
         "candidate": "Gysella Zevanya",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-03-27 05:04:53",
+        "source": "streamlit",
+        "candidate": "Amaliya Khamdanah",
         "position": "Data Analyst (Business Intelligence)",
         "success": true
       }
