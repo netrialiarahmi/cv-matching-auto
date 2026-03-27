@@ -2069,13 +2069,13 @@
     ]
   },
   "2026-03-27": {
-    "total": 6,
-    "streamlit": 6,
+    "total": 7,
+    "streamlit": 7,
     "github_action": 0,
-    "successful": 6,
+    "successful": 7,
     "failed": 0,
     "positions": {
-      "Data Analyst (Business Intelligence)": 6
+      "Data Analyst (Business Intelligence)": 7
     },
     "entries": [
       {
@@ -2117,6 +2117,13 @@
         "timestamp": "2026-03-27 05:05:54",
         "source": "streamlit",
         "candidate": "Nabila Irdha C",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-03-27 05:06:31",
+        "source": "streamlit",
+        "candidate": "Mochammad Shaffa Prawiranegara",
         "position": "Data Analyst (Business Intelligence)",
         "success": true
       }
