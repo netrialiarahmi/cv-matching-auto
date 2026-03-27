@@ -2069,13 +2069,13 @@
     ]
   },
   "2026-03-27": {
-    "total": 8,
-    "streamlit": 8,
+    "total": 9,
+    "streamlit": 9,
     "github_action": 0,
-    "successful": 8,
+    "successful": 9,
     "failed": 0,
     "positions": {
-      "Data Analyst (Business Intelligence)": 8
+      "Data Analyst (Business Intelligence)": 9
     },
     "entries": [
       {
@@ -2131,6 +2131,13 @@
         "timestamp": "2026-03-27 05:07:04",
         "source": "streamlit",
         "candidate": "Dara Febriyanti",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-03-27 05:20:14",
+        "source": "streamlit",
+        "candidate": "Khairunnisa Lestari",
         "position": "Data Analyst (Business Intelligence)",
         "success": true
       }
