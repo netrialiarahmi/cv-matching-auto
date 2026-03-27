@@ -2069,13 +2069,13 @@
     ]
   },
   "2026-03-27": {
-    "total": 2,
-    "streamlit": 2,
+    "total": 3,
+    "streamlit": 3,
     "github_action": 0,
-    "successful": 2,
+    "successful": 3,
     "failed": 0,
     "positions": {
-      "Data Analyst (Business Intelligence)": 2
+      "Data Analyst (Business Intelligence)": 3
     },
     "entries": [
       {
@@ -2089,6 +2089,13 @@
         "timestamp": "2026-03-27 05:03:38",
         "source": "streamlit",
         "candidate": "Muhammad Nashih Amien",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-03-27 05:04:22",
+        "source": "streamlit",
+        "candidate": "Gysella Zevanya",
         "position": "Data Analyst (Business Intelligence)",
         "success": true
       }
