@@ -2069,13 +2069,13 @@
     ]
   },
   "2026-03-27": {
-    "total": 7,
-    "streamlit": 7,
+    "total": 8,
+    "streamlit": 8,
     "github_action": 0,
-    "successful": 7,
+    "successful": 8,
     "failed": 0,
     "positions": {
-      "Data Analyst (Business Intelligence)": 7
+      "Data Analyst (Business Intelligence)": 8
     },
     "entries": [
       {
@@ -2124,6 +2124,13 @@
         "timestamp": "2026-03-27 05:06:31",
         "source": "streamlit",
         "candidate": "Mochammad Shaffa Prawiranegara",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-03-27 05:07:04",
+        "source": "streamlit",
+        "candidate": "Dara Febriyanti",
         "position": "Data Analyst (Business Intelligence)",
         "success": true
       }
