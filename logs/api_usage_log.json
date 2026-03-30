@@ -2816,27 +2816,716 @@
     ]
   },
   "2026-03-30": {
-    "total": 2,
+    "total": 288,
     "streamlit": 2,
-    "github_action": 0,
-    "successful": 2,
+    "github_action": 286,
+    "successful": 288,
     "failed": 0,
     "positions": {
-      "Data Analyst (Business Intelligence)": 2
+      "Data Analyst (Business Intelligence)": 71,
+      "Account Executive VCBL": 22,
+      "Account Executive Pasangiklan.com": 25,
+      "Business Development Analyst": 170
     },
     "entries": [
       {
-        "timestamp": "2026-03-30 04:14:21",
-        "source": "streamlit",
-        "candidate": "Jonathan Marjono",
-        "position": "Data Analyst (Business Intelligence)",
+        "timestamp": "2026-03-30 12:45:16",
+        "source": "github_action",
+        "candidate": "Gabriella Sitepu",
+        "position": "Business Development Analyst",
         "success": true
       },
       {
-        "timestamp": "2026-03-30 04:15:23",
-        "source": "streamlit",
-        "candidate": "destu syah",
-        "position": "Data Analyst (Business Intelligence)",
+        "timestamp": "2026-03-30 12:45:48",
+        "source": "github_action",
+        "candidate": "Wizart Anggoro",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-03-30 12:46:26",
+        "source": "github_action",
+        "candidate": "Achmad Abimanyu Djunaidi",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-03-30 12:47:04",
+        "source": "github_action",
+        "candidate": "Harya Adhi Pramana",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-03-30 12:47:44",
+        "source": "github_action",
+        "candidate": "Muhammad Dzikri Ardlian",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-03-30 12:48:18",
+        "source": "github_action",
+        "candidate": "Ricky Akbar Pratama",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-03-30 12:48:53",
+        "source": "github_action",
+        "candidate": "Dira Maida Abiwardani",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-03-30 12:49:30",
+        "source": "github_action",
+        "candidate": "Riyaldi Narendra",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-03-30 12:50:11",
+        "source": "github_action",
+        "candidate": "Eni Rahmawati",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-03-30 12:51:02",
+        "source": "github_action",
+        "candidate": "DHIKA PRATAMA",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-03-30 12:51:42",
+        "source": "github_action",
+        "candidate": "Agnes Shindisari",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-03-30 12:52:09",
+        "source": "github_action",
+        "candidate": "Ramadhani rava yurizki",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-03-30 12:52:59",
+        "source": "github_action",
+        "candidate": "Muhammad Rizky",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-03-30 12:53:26",
+        "source": "github_action",
+        "candidate": "Yanfa Fauzan",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-03-30 12:54:03",
+        "source": "github_action",
+        "candidate": "Viviana Adiningtyas",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-03-30 12:54:38",
+        "source": "github_action",
+        "candidate": "Amalia Frachmadiany",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-03-30 12:54:40",
+        "source": "github_action",
+        "candidate": "felicia audrey",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-03-30 12:55:15",
+        "source": "github_action",
+        "candidate": "Verinda Ega Dwiputri",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-03-30 12:55:59",
+        "source": "github_action",
+        "candidate": "Meidiva Wibisono",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-03-30 12:56:48",
+        "source": "github_action",
+        "candidate": "Joshua Ongko Halim",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-03-30 12:57:24",
+        "source": "github_action",
+        "candidate": "Fida Muthi Khairina",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-03-30 12:58:06",
+        "source": "github_action",
+        "candidate": "Debby Ganesha",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-03-30 12:58:42",
+        "source": "github_action",
+        "candidate": "T. Siti Annastasya",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-03-30 12:59:20",
+        "source": "github_action",
+        "candidate": "Adelia Fitri",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-03-30 12:59:22",
+        "source": "github_action",
+        "candidate": "Aditya Yudistira",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-03-30 12:59:26",
+        "source": "github_action",
+        "candidate": "Rachmat Syaifullah",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-03-30 13:00:05",
+        "source": "github_action",
+        "candidate": "Rangga Firmansyah",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-03-30 13:00:40",
+        "source": "github_action",
+        "candidate": "Salsabila  Kurnia Putri",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-03-30 13:01:13",
+        "source": "github_action",
+        "candidate": "Fadila Mawardah",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-03-30 13:01:41",
+        "source": "github_action",
+        "candidate": "Widi  Syifa",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-03-30 13:02:17",
+        "source": "github_action",
+        "candidate": "Fadhli Hatta",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-03-30 13:02:49",
+        "source": "github_action",
+        "candidate": "Tobias Kristianto",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-03-30 13:03:32",
+        "source": "github_action",
+        "candidate": "Ananda Yoga Pramudya",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-03-30 13:04:15",
+        "source": "github_action",
+        "candidate": "Edo Mashanriza Landaoe",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-03-30 13:04:55",
+        "source": "github_action",
+        "candidate": "Resa Riyanti",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-03-30 13:05:29",
+        "source": "github_action",
+        "candidate": "Adhitya Putra",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-03-30 13:06:03",
+        "source": "github_action",
+        "candidate": "Rotua Valentina Siagian",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-03-30 13:06:49",
+        "source": "github_action",
+        "candidate": "R. Faiq Aulia Rahman",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-03-30 13:07:26",
+        "source": "github_action",
+        "candidate": "Tika Resmitasari",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-03-30 13:07:58",
+        "source": "github_action",
+        "candidate": "Muhammad Hawari Al Amiin",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-03-30 13:08:39",
+        "source": "github_action",
+        "candidate": "Feby Lyvia",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-03-30 13:09:09",
+        "source": "github_action",
+        "candidate": "Hafizah Aulia",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-03-30 13:09:40",
+        "source": "github_action",
+        "candidate": "Fizar Anugerah",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-03-30 13:10:29",
+        "source": "github_action",
+        "candidate": "Renny Anggraini",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-03-30 13:10:53",
+        "source": "github_action",
+        "candidate": "Diki  Anshori",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-03-30 13:11:35",
+        "source": "github_action",
+        "candidate": "Adityo Fachrul",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-03-30 13:11:37",
+        "source": "github_action",
+        "candidate": "Diah  Purwati",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-03-30 13:11:40",
+        "source": "github_action",
+        "candidate": "Yeni Pujita Astuti",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-03-30 13:12:06",
+        "source": "github_action",
+        "candidate": "Robecca Ester Mariana",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-03-30 13:12:54",
+        "source": "github_action",
+        "candidate": "Bryan Saragih",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-03-30 13:13:39",
+        "source": "github_action",
+        "candidate": "Muthiah Ari Setyanti",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-03-30 13:14:20",
+        "source": "github_action",
+        "candidate": "Sherly Amora Jofipasi",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-03-30 13:14:58",
+        "source": "github_action",
+        "candidate": "Muhammad Ravel Satria",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-03-30 13:15:55",
+        "source": "github_action",
+        "candidate": "tandya vera",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-03-30 13:16:39",
+        "source": "github_action",
+        "candidate": "Galih Budi",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-03-30 13:17:19",
+        "source": "github_action",
+        "candidate": "Sageri Fikri Ramadhan",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-03-30 13:17:56",
+        "source": "github_action",
+        "candidate": "Anggita Erlina",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-03-30 13:18:45",
+        "source": "github_action",
+        "candidate": "Bernard Halim Santosa",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-03-30 13:19:22",
+        "source": "github_action",
+        "candidate": "Anggun Ayu Lestari",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-03-30 13:20:02",
+        "source": "github_action",
+        "candidate": "Shafira Jasmine Angesti",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-03-30 13:20:50",
+        "source": "github_action",
+        "candidate": "Febriana Nur Safitri",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-03-30 13:21:29",
+        "source": "github_action",
+        "candidate": "Ryan Afrizal",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-03-30 13:22:07",
+        "source": "github_action",
+        "candidate": "Angelita Immanuela",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-03-30 13:22:59",
+        "source": "github_action",
+        "candidate": "Syahrul Robbiansyah",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-03-30 13:23:41",
+        "source": "github_action",
+        "candidate": "Nathasya Marlinang Caroline",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-03-30 13:24:14",
+        "source": "github_action",
+        "candidate": "Deon Natanael Malau",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-03-30 13:24:48",
+        "source": "github_action",
+        "candidate": "Lorentz Putra",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-03-30 13:25:21",
+        "source": "github_action",
+        "candidate": "Muhammad Faadihilah",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-03-30 13:25:57",
+        "source": "github_action",
+        "candidate": "Marie Theressa Plate",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-03-30 13:26:27",
+        "source": "github_action",
+        "candidate": "Febrianti Puspa Ningrum",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-03-30 13:26:57",
+        "source": "github_action",
+        "candidate": "Fadillah Ria Kusuma",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-03-30 13:27:28",
+        "source": "github_action",
+        "candidate": "freddy andreas",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-03-30 13:28:13",
+        "source": "github_action",
+        "candidate": "Ayu Siti Hajar",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-03-30 13:28:43",
+        "source": "github_action",
+        "candidate": "Ibnu Sina",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-03-30 13:29:12",
+        "source": "github_action",
+        "candidate": "Delsa Saskia",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-03-30 13:30:02",
+        "source": "github_action",
+        "candidate": "Devi Retnasari",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-03-30 13:30:38",
+        "source": "github_action",
+        "candidate": "Putri Aisy",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-03-30 13:31:11",
+        "source": "github_action",
+        "candidate": "Rangga Ardiya Putra",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-03-30 13:31:54",
+        "source": "github_action",
+        "candidate": "Alifya Zhafira Ananda",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-03-30 13:32:42",
+        "source": "github_action",
+        "candidate": "Desty Fauziah Ramadhani",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-03-30 13:33:18",
+        "source": "github_action",
+        "candidate": "Nabila Aprilia Firdaus",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-03-30 13:33:54",
+        "source": "github_action",
+        "candidate": "Annisa Aprilia",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-03-30 13:34:26",
+        "source": "github_action",
+        "candidate": "vidia tasya kurniawati",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-03-30 13:35:01",
+        "source": "github_action",
+        "candidate": "Fajri Nur Winda",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-03-30 13:35:37",
+        "source": "github_action",
+        "candidate": "Seanand Sonia",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-03-30 13:36:14",
+        "source": "github_action",
+        "candidate": "Alvin Triyanto",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-03-30 13:37:09",
+        "source": "github_action",
+        "candidate": "Agnesa Nafasyari",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-03-30 13:37:49",
+        "source": "github_action",
+        "candidate": "Kharen Abdul Jabar",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-03-30 13:38:26",
+        "source": "github_action",
+        "candidate": "Putra Adji Setiawan",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-03-30 13:39:07",
+        "source": "github_action",
+        "candidate": "nana ariadi",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-03-30 13:39:44",
+        "source": "github_action",
+        "candidate": "Bryan Ramadhani Amanda",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-03-30 13:40:27",
+        "source": "github_action",
+        "candidate": "Lowdy Filan Arsyandi",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-03-30 13:41:04",
+        "source": "github_action",
+        "candidate": "DOROTHY BEATRIX SARAGIH",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-03-30 13:41:44",
+        "source": "github_action",
+        "candidate": "Zakiyah Nurseha",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-03-30 13:42:17",
+        "source": "github_action",
+        "candidate": "Valenscky Heriyanto",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-03-30 13:42:46",
+        "source": "github_action",
+        "candidate": "Fauzan Annur",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-03-30 13:43:45",
+        "source": "github_action",
+        "candidate": "Gilang Nugroho",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-03-30 13:44:25",
+        "source": "github_action",
+        "candidate": "YASHINTA CITRA FADIA PUTRI JOVANKA",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-03-30 13:45:09",
+        "source": "github_action",
+        "candidate": "Unggul Achmad Mujaddid",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-03-30 13:45:48",
+        "source": "github_action",
+        "candidate": "Laurensia Puspita",
+        "position": "Business Development Analyst",
         "success": true
       }
     ]
