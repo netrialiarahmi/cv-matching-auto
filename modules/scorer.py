@@ -183,6 +183,24 @@ def _try_parse_json(text: str):
         except Exception:
             pass
 
+    # 3) Try to repair truncated JSON (response cut off by max_tokens)
+    if start != -1:
+        truncated = s[start:]
+        # Close any open strings, arrays, objects
+        open_braces = truncated.count('{') - truncated.count('}')
+        open_brackets = truncated.count('[') - truncated.count(']')
+        # If inside a string value, close it
+        quote_count = truncated.count('"') - truncated.count('\\"')
+        repair = truncated
+        if quote_count % 2 != 0:
+            repair += '"'
+        repair += ']' * max(0, open_brackets)
+        repair += '}' * max(0, open_braces)
+        try:
+            return json.loads(repair)
+        except Exception:
+            pass
+
     return None
 
 def _ensure_list_str(value):
@@ -713,7 +731,7 @@ Return JSON only:"""
                 ],
                 temperature=0.1,
                 response_format={"type": "json_object"},
-                max_tokens=3000
+                max_tokens=8192
             )
             
             output = response.choices[0].message.content
