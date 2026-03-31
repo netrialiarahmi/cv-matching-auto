@@ -332,8 +332,10 @@ def screen_position(position_name, job_description, job_id, csv_url=None):
         processed_emails = set()
         if existing_results is not None and not existing_results.empty:
             # Build set of processed candidate emails (case-insensitive)
+            # Ensure column is string type before using .str accessor
+            email_col = existing_results["Candidate Email"].astype(str).replace('nan', pd.NA)
             processed_emails = set(
-                existing_results[existing_results["Candidate Email"].notna()]["Candidate Email"].str.lower()
+                email_col[email_col.notna()].str.lower()
             )
             print(f"   Found {len(processed_emails)} already-processed candidates")
         else:

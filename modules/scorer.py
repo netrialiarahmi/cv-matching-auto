@@ -186,10 +186,10 @@ def _try_parse_json(text: str):
     # 3) Try to repair truncated JSON (response cut off by max_tokens)
     if start != -1:
         truncated = s[start:]
-        # Close any open strings, arrays, objects
+
+        # Strategy A: Simple close — close open quotes, brackets, braces
         open_braces = truncated.count('{') - truncated.count('}')
         open_brackets = truncated.count('[') - truncated.count(']')
-        # If inside a string value, close it
         quote_count = truncated.count('"') - truncated.count('\\"')
         repair = truncated
         if quote_count % 2 != 0:
@@ -200,6 +200,35 @@ def _try_parse_json(text: str):
             return json.loads(repair)
         except Exception:
             pass
+
+        # Strategy B: Truncate to last complete comma-separated entry, then close.
+        # This handles cases like: ..."degree": "Bachelors", "univers  (key without value)
+        last_comma = truncated.rfind(',')
+        if last_comma > 0:
+            attempt = truncated[:last_comma].rstrip()
+            ob = attempt.count('{') - attempt.count('}')
+            olb = attempt.count('[') - attempt.count(']')
+            attempt += ']' * max(0, olb)
+            attempt += '}' * max(0, ob)
+            try:
+                return json.loads(attempt)
+            except Exception:
+                pass
+
+        # Strategy C: Line-by-line truncation — remove lines from end until parseable
+        lines = truncated.split('\n')
+        for i in range(len(lines) - 1, 0, -1):
+            attempt = '\n'.join(lines[:i]).rstrip().rstrip(',')
+            ob = attempt.count('{') - attempt.count('}')
+            olb = attempt.count('[') - attempt.count(']')
+            if ob <= 0 and olb <= 0:
+                continue
+            attempt += ']' * max(0, olb)
+            attempt += '}' * max(0, ob)
+            try:
+                return json.loads(attempt)
+            except Exception:
+                continue
 
     return None
 
@@ -718,9 +747,10 @@ Return ONLY a valid JSON object:
 
 Return JSON only:"""
 
-    # Retry Step 1 up to 2 attempts before giving up
+    # Retry Step 1 up to 3 attempts before giving up
     last_error = None
-    for step1_attempt in range(2):
+    max_tokens_step1 = 8192
+    for step1_attempt in range(3):
         try:
             response = call_api_with_retry(
                 client,
@@ -731,10 +761,17 @@ Return JSON only:"""
                 ],
                 temperature=0.1,
                 response_format={"type": "json_object"},
-                max_tokens=8192
+                max_tokens=max_tokens_step1
             )
             
+            # Check if response was truncated
+            finish_reason = getattr(response.choices[0], 'finish_reason', None)
             output = response.choices[0].message.content
+            
+            if finish_reason and finish_reason not in ('stop', 'STOP'):
+                _log_info(f"ℹ️ Step 1 response may be truncated (finish_reason={finish_reason}), will retry with higher max_tokens...")
+                max_tokens_step1 = min(max_tokens_step1 * 2, 65536)
+            
             data = _try_parse_json(output)
             
             if isinstance(data, dict):
@@ -751,20 +788,21 @@ Return JSON only:"""
                 return data
             
             # JSON parsed but not a dict — retry
-            last_error = f"Parsed output is {type(data).__name__}, not dict. Raw: {repr(output[:200])}"
-            if step1_attempt == 0:
+            raw_preview = repr(output[:200]) if output else "None"
+            last_error = f"Parsed output is {type(data).__name__}, not dict. Raw: {raw_preview}"
+            if step1_attempt < 2:
                 _log_info(f"ℹ️ Step 1 JSON parse issue, retrying... ({last_error})")
                 time.sleep(REQUEST_DELAY)
                 continue
             
         except Exception as e:
             last_error = str(e)
-            if step1_attempt == 0:
+            if step1_attempt < 2:
                 _log_info(f"ℹ️ Step 1 attempt {step1_attempt+1} failed: {e}. Retrying...")
                 time.sleep(REQUEST_DELAY)
                 continue
     
-    _log_info(f"ℹ️ Step 1 (extract & classify) failed after 2 attempts: {last_error}")
+    _log_info(f"ℹ️ Step 1 (extract & classify) failed after 3 attempts: {last_error}")
     return None
 
 
