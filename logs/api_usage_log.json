@@ -4244,14 +4244,14 @@
     ]
   },
   "2026-04-01": {
-    "total": 53,
-    "streamlit": 53,
+    "total": 54,
+    "streamlit": 54,
     "github_action": 0,
-    "successful": 53,
+    "successful": 54,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 16,
-      "Strategic Planner KG Media": 37
+      "Strategic Planner KG Media": 38
     },
     "entries": [
       {
@@ -4622,6 +4622,13 @@
         "timestamp": "2026-04-01 10:03:29",
         "source": "streamlit",
         "candidate": "Siti Kurnia Kodijah",
+        "position": "Strategic Planner KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-01 10:04:10",
+        "source": "streamlit",
+        "candidate": "Annisa Yuliharza",
         "position": "Strategic Planner KG Media",
         "success": true
       }
