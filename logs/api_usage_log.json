@@ -4244,13 +4244,13 @@
     ]
   },
   "2026-04-01": {
-    "total": 4,
-    "streamlit": 4,
+    "total": 5,
+    "streamlit": 5,
     "github_action": 0,
-    "successful": 4,
+    "successful": 5,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 4
+      "Marketing Communication Officer KG Media": 5
     },
     "entries": [
       {
@@ -4278,6 +4278,13 @@
         "timestamp": "2026-04-01 09:20:47",
         "source": "streamlit",
         "candidate": "Cesario Budhi",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-01 09:21:30",
+        "source": "streamlit",
+        "candidate": "Deara Anisa Permatasari",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
