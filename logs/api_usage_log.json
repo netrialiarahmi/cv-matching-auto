@@ -4244,14 +4244,14 @@
     ]
   },
   "2026-04-01": {
-    "total": 20,
-    "streamlit": 20,
+    "total": 21,
+    "streamlit": 21,
     "github_action": 0,
-    "successful": 20,
+    "successful": 21,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 16,
-      "Strategic Planner KG Media": 4
+      "Strategic Planner KG Media": 5
     },
     "entries": [
       {
@@ -4391,6 +4391,13 @@
         "timestamp": "2026-04-01 09:39:50",
         "source": "streamlit",
         "candidate": "M.G. Beniqno Abdillah",
+        "position": "Strategic Planner KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-01 09:40:30",
+        "source": "streamlit",
+        "candidate": "Angga saputra",
         "position": "Strategic Planner KG Media",
         "success": true
       }
