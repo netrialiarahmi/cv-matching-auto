@@ -4244,14 +4244,14 @@
     ]
   },
   "2026-04-01": {
-    "total": 44,
-    "streamlit": 44,
+    "total": 45,
+    "streamlit": 45,
     "github_action": 0,
-    "successful": 44,
+    "successful": 45,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 16,
-      "Strategic Planner KG Media": 28
+      "Strategic Planner KG Media": 29
     },
     "entries": [
       {
@@ -4559,6 +4559,13 @@
         "timestamp": "2026-04-01 09:56:05",
         "source": "streamlit",
         "candidate": "Audiva Asmara",
+        "position": "Strategic Planner KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-01 09:57:05",
+        "source": "streamlit",
+        "candidate": "Btari Gaia Kaila Suryanto",
         "position": "Strategic Planner KG Media",
         "success": true
       }
