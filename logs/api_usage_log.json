@@ -4244,14 +4244,14 @@
     ]
   },
   "2026-04-01": {
-    "total": 22,
-    "streamlit": 22,
+    "total": 23,
+    "streamlit": 23,
     "github_action": 0,
-    "successful": 22,
+    "successful": 23,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 16,
-      "Strategic Planner KG Media": 6
+      "Strategic Planner KG Media": 7
     },
     "entries": [
       {
@@ -4405,6 +4405,13 @@
         "timestamp": "2026-04-01 09:41:12",
         "source": "streamlit",
         "candidate": "Zaid M Arsyad",
+        "position": "Strategic Planner KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-01 09:42:09",
+        "source": "streamlit",
+        "candidate": "Farhan Afif Kusumah",
         "position": "Strategic Planner KG Media",
         "success": true
       }
