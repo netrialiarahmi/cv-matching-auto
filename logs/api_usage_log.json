@@ -4244,14 +4244,14 @@
     ]
   },
   "2026-04-01": {
-    "total": 42,
-    "streamlit": 42,
+    "total": 43,
+    "streamlit": 43,
     "github_action": 0,
-    "successful": 42,
+    "successful": 43,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 16,
-      "Strategic Planner KG Media": 26
+      "Strategic Planner KG Media": 27
     },
     "entries": [
       {
@@ -4545,6 +4545,13 @@
         "timestamp": "2026-04-01 09:54:57",
         "source": "streamlit",
         "candidate": "Tiwi Berliani",
+        "position": "Strategic Planner KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-01 09:55:26",
+        "source": "streamlit",
+        "candidate": "Fairuz Az Zahra",
         "position": "Strategic Planner KG Media",
         "success": true
       }
