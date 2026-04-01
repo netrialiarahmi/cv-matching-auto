@@ -4244,14 +4244,14 @@
     ]
   },
   "2026-04-01": {
-    "total": 39,
-    "streamlit": 39,
+    "total": 40,
+    "streamlit": 40,
     "github_action": 0,
-    "successful": 39,
+    "successful": 40,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 16,
-      "Strategic Planner KG Media": 23
+      "Strategic Planner KG Media": 24
     },
     "entries": [
       {
@@ -4524,6 +4524,13 @@
         "timestamp": "2026-04-01 09:52:51",
         "source": "streamlit",
         "candidate": "Wulan Septya Zulmawati",
+        "position": "Strategic Planner KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-01 09:53:34",
+        "source": "streamlit",
+        "candidate": "Muhammad Fauzan Yuzril",
         "position": "Strategic Planner KG Media",
         "success": true
       }
