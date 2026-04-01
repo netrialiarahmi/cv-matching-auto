@@ -4244,14 +4244,14 @@
     ]
   },
   "2026-04-01": {
-    "total": 56,
-    "streamlit": 56,
+    "total": 57,
+    "streamlit": 57,
     "github_action": 0,
-    "successful": 56,
+    "successful": 57,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 16,
-      "Strategic Planner KG Media": 40
+      "Strategic Planner KG Media": 41
     },
     "entries": [
       {
@@ -4643,6 +4643,13 @@
         "timestamp": "2026-04-01 10:05:52",
         "source": "streamlit",
         "candidate": "Prastika Dewi Untari",
+        "position": "Strategic Planner KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-01 10:06:39",
+        "source": "streamlit",
+        "candidate": "Adrian Bagaskara Harya Putra",
         "position": "Strategic Planner KG Media",
         "success": true
       }
