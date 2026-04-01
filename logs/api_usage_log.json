@@ -4244,13 +4244,14 @@
     ]
   },
   "2026-04-01": {
-    "total": 16,
-    "streamlit": 16,
+    "total": 17,
+    "streamlit": 17,
     "github_action": 0,
-    "successful": 16,
+    "successful": 17,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 16
+      "Marketing Communication Officer KG Media": 16,
+      "Strategic Planner KG Media": 1
     },
     "entries": [
       {
@@ -4363,6 +4364,13 @@
         "source": "streamlit",
         "candidate": "Azizah widya Lestari",
         "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-01 09:37:24",
+        "source": "streamlit",
+        "candidate": "Muhammad Pedro Ferdiansyah",
+        "position": "Strategic Planner KG Media",
         "success": true
       }
     ]
