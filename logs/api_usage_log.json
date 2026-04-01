@@ -4244,14 +4244,14 @@
     ]
   },
   "2026-04-01": {
-    "total": 55,
-    "streamlit": 55,
+    "total": 56,
+    "streamlit": 56,
     "github_action": 0,
-    "successful": 55,
+    "successful": 56,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 16,
-      "Strategic Planner KG Media": 39
+      "Strategic Planner KG Media": 40
     },
     "entries": [
       {
@@ -4636,6 +4636,13 @@
         "timestamp": "2026-04-01 10:04:57",
         "source": "streamlit",
         "candidate": "Tya Nur Aini",
+        "position": "Strategic Planner KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-01 10:05:52",
+        "source": "streamlit",
+        "candidate": "Prastika Dewi Untari",
         "position": "Strategic Planner KG Media",
         "success": true
       }
