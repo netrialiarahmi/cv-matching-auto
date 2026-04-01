@@ -4244,14 +4244,14 @@
     ]
   },
   "2026-04-01": {
-    "total": 31,
-    "streamlit": 31,
+    "total": 32,
+    "streamlit": 32,
     "github_action": 0,
-    "successful": 31,
+    "successful": 32,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 16,
-      "Strategic Planner KG Media": 15
+      "Strategic Planner KG Media": 16
     },
     "entries": [
       {
@@ -4468,6 +4468,13 @@
         "timestamp": "2026-04-01 09:47:57",
         "source": "streamlit",
         "candidate": "Faris Wiranto",
+        "position": "Strategic Planner KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-01 09:48:29",
+        "source": "streamlit",
+        "candidate": "Dhimas risang sri  arya naratama",
         "position": "Strategic Planner KG Media",
         "success": true
       }
