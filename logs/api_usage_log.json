@@ -4244,13 +4244,13 @@
     ]
   },
   "2026-04-01": {
-    "total": 10,
-    "streamlit": 10,
+    "total": 11,
+    "streamlit": 11,
     "github_action": 0,
-    "successful": 10,
+    "successful": 11,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 10
+      "Marketing Communication Officer KG Media": 11
     },
     "entries": [
       {
@@ -4320,6 +4320,13 @@
         "timestamp": "2026-04-01 09:24:25",
         "source": "streamlit",
         "candidate": "Hikma Nurma Indah",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-01 09:25:07",
+        "source": "streamlit",
+        "candidate": "Anggita Putri Meiliani",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
