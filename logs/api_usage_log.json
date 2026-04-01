@@ -4244,13 +4244,13 @@
     ]
   },
   "2026-04-01": {
-    "total": 2,
-    "streamlit": 2,
+    "total": 3,
+    "streamlit": 3,
     "github_action": 0,
-    "successful": 2,
+    "successful": 3,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 2
+      "Marketing Communication Officer KG Media": 3
     },
     "entries": [
       {
@@ -4264,6 +4264,13 @@
         "timestamp": "2026-04-01 09:19:23",
         "source": "streamlit",
         "candidate": "Dhenis Prasetyo",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-01 09:20:03",
+        "source": "streamlit",
+        "candidate": "Nareswari Nursetya Putri",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
