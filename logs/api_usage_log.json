@@ -4244,14 +4244,14 @@
     ]
   },
   "2026-04-01": {
-    "total": 17,
-    "streamlit": 17,
+    "total": 18,
+    "streamlit": 18,
     "github_action": 0,
-    "successful": 17,
+    "successful": 18,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 16,
-      "Strategic Planner KG Media": 1
+      "Strategic Planner KG Media": 2
     },
     "entries": [
       {
@@ -4370,6 +4370,13 @@
         "timestamp": "2026-04-01 09:37:24",
         "source": "streamlit",
         "candidate": "Muhammad Pedro Ferdiansyah",
+        "position": "Strategic Planner KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-01 09:38:18",
+        "source": "streamlit",
+        "candidate": "ameera danish",
         "position": "Strategic Planner KG Media",
         "success": true
       }
