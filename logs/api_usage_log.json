@@ -4244,13 +4244,13 @@
     ]
   },
   "2026-04-01": {
-    "total": 5,
-    "streamlit": 5,
+    "total": 6,
+    "streamlit": 6,
     "github_action": 0,
-    "successful": 5,
+    "successful": 6,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 5
+      "Marketing Communication Officer KG Media": 6
     },
     "entries": [
       {
@@ -4285,6 +4285,13 @@
         "timestamp": "2026-04-01 09:21:30",
         "source": "streamlit",
         "candidate": "Deara Anisa Permatasari",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-01 09:22:17",
+        "source": "streamlit",
+        "candidate": "Kalila Anafah",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
