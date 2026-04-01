@@ -4244,14 +4244,14 @@
     ]
   },
   "2026-04-01": {
-    "total": 27,
-    "streamlit": 27,
+    "total": 28,
+    "streamlit": 28,
     "github_action": 0,
-    "successful": 27,
+    "successful": 28,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 16,
-      "Strategic Planner KG Media": 11
+      "Strategic Planner KG Media": 12
     },
     "entries": [
       {
@@ -4440,6 +4440,13 @@
         "timestamp": "2026-04-01 09:44:59",
         "source": "streamlit",
         "candidate": "Riri Dwi Lestari",
+        "position": "Strategic Planner KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-01 09:45:43",
+        "source": "streamlit",
+        "candidate": "Riyadh Attar",
         "position": "Strategic Planner KG Media",
         "success": true
       }
