@@ -4244,14 +4244,14 @@
     ]
   },
   "2026-04-01": {
-    "total": 57,
-    "streamlit": 57,
+    "total": 58,
+    "streamlit": 58,
     "github_action": 0,
-    "successful": 57,
+    "successful": 58,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 16,
-      "Strategic Planner KG Media": 41
+      "Strategic Planner KG Media": 42
     },
     "entries": [
       {
@@ -4650,6 +4650,13 @@
         "timestamp": "2026-04-01 10:06:39",
         "source": "streamlit",
         "candidate": "Adrian Bagaskara Harya Putra",
+        "position": "Strategic Planner KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-01 10:07:19",
+        "source": "streamlit",
+        "candidate": "Maria Octaviani",
         "position": "Strategic Planner KG Media",
         "success": true
       }
