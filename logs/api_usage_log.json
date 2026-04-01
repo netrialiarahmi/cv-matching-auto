@@ -4244,14 +4244,14 @@
     ]
   },
   "2026-04-01": {
-    "total": 29,
-    "streamlit": 29,
+    "total": 30,
+    "streamlit": 30,
     "github_action": 0,
-    "successful": 29,
+    "successful": 30,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 16,
-      "Strategic Planner KG Media": 13
+      "Strategic Planner KG Media": 14
     },
     "entries": [
       {
@@ -4454,6 +4454,13 @@
         "timestamp": "2026-04-01 09:46:36",
         "source": "streamlit",
         "candidate": "MUHAMAD TAMIR",
+        "position": "Strategic Planner KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-01 09:47:16",
+        "source": "streamlit",
+        "candidate": "Daffa Lucky Muafi",
         "position": "Strategic Planner KG Media",
         "success": true
       }
