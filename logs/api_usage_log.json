@@ -4244,14 +4244,14 @@
     ]
   },
   "2026-04-01": {
-    "total": 21,
-    "streamlit": 21,
+    "total": 22,
+    "streamlit": 22,
     "github_action": 0,
-    "successful": 21,
+    "successful": 22,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 16,
-      "Strategic Planner KG Media": 5
+      "Strategic Planner KG Media": 6
     },
     "entries": [
       {
@@ -4398,6 +4398,13 @@
         "timestamp": "2026-04-01 09:40:30",
         "source": "streamlit",
         "candidate": "Angga saputra",
+        "position": "Strategic Planner KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-01 09:41:12",
+        "source": "streamlit",
+        "candidate": "Zaid M Arsyad",
         "position": "Strategic Planner KG Media",
         "success": true
       }
