@@ -4244,14 +4244,14 @@
     ]
   },
   "2026-04-01": {
-    "total": 62,
-    "streamlit": 62,
+    "total": 63,
+    "streamlit": 63,
     "github_action": 0,
-    "successful": 62,
+    "successful": 63,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 16,
-      "Strategic Planner KG Media": 46
+      "Strategic Planner KG Media": 47
     },
     "entries": [
       {
@@ -4685,6 +4685,13 @@
         "timestamp": "2026-04-01 10:10:12",
         "source": "streamlit",
         "candidate": "Andreas Yesaya Kainde",
+        "position": "Strategic Planner KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-01 10:11:03",
+        "source": "streamlit",
+        "candidate": "M Daniel Rexa Faraz",
         "position": "Strategic Planner KG Media",
         "success": true
       }
