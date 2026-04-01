@@ -4244,14 +4244,14 @@
     ]
   },
   "2026-04-01": {
-    "total": 60,
-    "streamlit": 60,
+    "total": 61,
+    "streamlit": 61,
     "github_action": 0,
-    "successful": 60,
+    "successful": 61,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 16,
-      "Strategic Planner KG Media": 44
+      "Strategic Planner KG Media": 45
     },
     "entries": [
       {
@@ -4671,6 +4671,13 @@
         "timestamp": "2026-04-01 10:08:39",
         "source": "streamlit",
         "candidate": "Tsaniasnaini Habibah",
+        "position": "Strategic Planner KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-01 10:09:21",
+        "source": "streamlit",
+        "candidate": "Hanifah Dwi Kurniasih",
         "position": "Strategic Planner KG Media",
         "success": true
       }
