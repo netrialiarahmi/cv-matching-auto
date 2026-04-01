@@ -4244,14 +4244,14 @@
     ]
   },
   "2026-04-01": {
-    "total": 38,
-    "streamlit": 38,
+    "total": 39,
+    "streamlit": 39,
     "github_action": 0,
-    "successful": 38,
+    "successful": 39,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 16,
-      "Strategic Planner KG Media": 22
+      "Strategic Planner KG Media": 23
     },
     "entries": [
       {
@@ -4517,6 +4517,13 @@
         "timestamp": "2026-04-01 09:52:05",
         "source": "streamlit",
         "candidate": "Indra Gunawan",
+        "position": "Strategic Planner KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-01 09:52:51",
+        "source": "streamlit",
+        "candidate": "Wulan Septya Zulmawati",
         "position": "Strategic Planner KG Media",
         "success": true
       }
