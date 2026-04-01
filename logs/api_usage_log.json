@@ -4244,14 +4244,14 @@
     ]
   },
   "2026-04-01": {
-    "total": 47,
-    "streamlit": 47,
+    "total": 48,
+    "streamlit": 48,
     "github_action": 0,
-    "successful": 47,
+    "successful": 48,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 16,
-      "Strategic Planner KG Media": 31
+      "Strategic Planner KG Media": 32
     },
     "entries": [
       {
@@ -4580,6 +4580,13 @@
         "timestamp": "2026-04-01 09:58:43",
         "source": "streamlit",
         "candidate": "Dwi Satrio Anindito",
+        "position": "Strategic Planner KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-01 09:59:43",
+        "source": "streamlit",
+        "candidate": "Maritza dwi Zahrani",
         "position": "Strategic Planner KG Media",
         "success": true
       }
