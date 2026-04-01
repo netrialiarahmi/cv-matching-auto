@@ -4244,13 +4244,13 @@
     ]
   },
   "2026-04-01": {
-    "total": 6,
-    "streamlit": 6,
+    "total": 7,
+    "streamlit": 7,
     "github_action": 0,
-    "successful": 6,
+    "successful": 7,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 6
+      "Marketing Communication Officer KG Media": 7
     },
     "entries": [
       {
@@ -4292,6 +4292,13 @@
         "timestamp": "2026-04-01 09:22:17",
         "source": "streamlit",
         "candidate": "Kalila Anafah",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-01 09:22:50",
+        "source": "streamlit",
+        "candidate": "Vincentius Salvatore Aldrich Johari Putra",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
