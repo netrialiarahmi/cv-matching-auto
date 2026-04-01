@@ -4244,14 +4244,14 @@
     ]
   },
   "2026-04-01": {
-    "total": 18,
-    "streamlit": 18,
+    "total": 19,
+    "streamlit": 19,
     "github_action": 0,
-    "successful": 18,
+    "successful": 19,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 16,
-      "Strategic Planner KG Media": 2
+      "Strategic Planner KG Media": 3
     },
     "entries": [
       {
@@ -4377,6 +4377,13 @@
         "timestamp": "2026-04-01 09:38:18",
         "source": "streamlit",
         "candidate": "ameera danish",
+        "position": "Strategic Planner KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-01 09:39:03",
+        "source": "streamlit",
+        "candidate": "adam hy",
         "position": "Strategic Planner KG Media",
         "success": true
       }
