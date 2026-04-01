@@ -4244,14 +4244,14 @@
     ]
   },
   "2026-04-01": {
-    "total": 46,
-    "streamlit": 46,
+    "total": 47,
+    "streamlit": 47,
     "github_action": 0,
-    "successful": 46,
+    "successful": 47,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 16,
-      "Strategic Planner KG Media": 30
+      "Strategic Planner KG Media": 31
     },
     "entries": [
       {
@@ -4573,6 +4573,13 @@
         "timestamp": "2026-04-01 09:58:05",
         "source": "streamlit",
         "candidate": "Aulyani al adawiyah",
+        "position": "Strategic Planner KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-01 09:58:43",
+        "source": "streamlit",
+        "candidate": "Dwi Satrio Anindito",
         "position": "Strategic Planner KG Media",
         "success": true
       }
