@@ -4244,14 +4244,14 @@
     ]
   },
   "2026-04-01": {
-    "total": 43,
-    "streamlit": 43,
+    "total": 44,
+    "streamlit": 44,
     "github_action": 0,
-    "successful": 43,
+    "successful": 44,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 16,
-      "Strategic Planner KG Media": 27
+      "Strategic Planner KG Media": 28
     },
     "entries": [
       {
@@ -4552,6 +4552,13 @@
         "timestamp": "2026-04-01 09:55:26",
         "source": "streamlit",
         "candidate": "Fairuz Az Zahra",
+        "position": "Strategic Planner KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-01 09:56:05",
+        "source": "streamlit",
+        "candidate": "Audiva Asmara",
         "position": "Strategic Planner KG Media",
         "success": true
       }
