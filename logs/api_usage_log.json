@@ -4244,13 +4244,13 @@
     ]
   },
   "2026-04-01": {
-    "total": 11,
-    "streamlit": 11,
+    "total": 12,
+    "streamlit": 12,
     "github_action": 0,
-    "successful": 11,
+    "successful": 12,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 11
+      "Marketing Communication Officer KG Media": 12
     },
     "entries": [
       {
@@ -4327,6 +4327,13 @@
         "timestamp": "2026-04-01 09:25:07",
         "source": "streamlit",
         "candidate": "Anggita Putri Meiliani",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-01 09:25:44",
+        "source": "streamlit",
+        "candidate": "Devin Ananda Dwiardi Saputra",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
