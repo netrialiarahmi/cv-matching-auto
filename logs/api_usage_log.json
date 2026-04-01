@@ -4244,14 +4244,14 @@
     ]
   },
   "2026-04-01": {
-    "total": 34,
-    "streamlit": 34,
+    "total": 35,
+    "streamlit": 35,
     "github_action": 0,
-    "successful": 34,
+    "successful": 35,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 16,
-      "Strategic Planner KG Media": 18
+      "Strategic Planner KG Media": 19
     },
     "entries": [
       {
@@ -4489,6 +4489,13 @@
         "timestamp": "2026-04-01 09:49:17",
         "source": "streamlit",
         "candidate": "Hana Fathina Chaniago",
+        "position": "Strategic Planner KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-01 09:50:05",
+        "source": "streamlit",
+        "candidate": "Miftahul  Jannah",
         "position": "Strategic Planner KG Media",
         "success": true
       }
