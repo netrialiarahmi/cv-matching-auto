@@ -4244,14 +4244,14 @@
     ]
   },
   "2026-04-01": {
-    "total": 36,
-    "streamlit": 36,
+    "total": 37,
+    "streamlit": 37,
     "github_action": 0,
-    "successful": 36,
+    "successful": 37,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 16,
-      "Strategic Planner KG Media": 20
+      "Strategic Planner KG Media": 21
     },
     "entries": [
       {
@@ -4503,6 +4503,13 @@
         "timestamp": "2026-04-01 09:51:02",
         "source": "streamlit",
         "candidate": "Irma  Masyitoh",
+        "position": "Strategic Planner KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-01 09:52:02",
+        "source": "streamlit",
+        "candidate": "Titi nan",
         "position": "Strategic Planner KG Media",
         "success": true
       }
