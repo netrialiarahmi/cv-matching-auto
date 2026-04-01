@@ -4244,14 +4244,14 @@
     ]
   },
   "2026-04-01": {
-    "total": 30,
-    "streamlit": 30,
+    "total": 31,
+    "streamlit": 31,
     "github_action": 0,
-    "successful": 30,
+    "successful": 31,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 16,
-      "Strategic Planner KG Media": 14
+      "Strategic Planner KG Media": 15
     },
     "entries": [
       {
@@ -4461,6 +4461,13 @@
         "timestamp": "2026-04-01 09:47:16",
         "source": "streamlit",
         "candidate": "Daffa Lucky Muafi",
+        "position": "Strategic Planner KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-01 09:47:57",
+        "source": "streamlit",
+        "candidate": "Faris Wiranto",
         "position": "Strategic Planner KG Media",
         "success": true
       }
