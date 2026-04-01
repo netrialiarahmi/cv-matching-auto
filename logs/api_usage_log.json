@@ -4244,14 +4244,14 @@
     ]
   },
   "2026-04-01": {
-    "total": 24,
-    "streamlit": 24,
+    "total": 25,
+    "streamlit": 25,
     "github_action": 0,
-    "successful": 24,
+    "successful": 25,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 16,
-      "Strategic Planner KG Media": 8
+      "Strategic Planner KG Media": 9
     },
     "entries": [
       {
@@ -4419,6 +4419,13 @@
         "timestamp": "2026-04-01 09:42:43",
         "source": "streamlit",
         "candidate": "Banendra Iqbal Prahadipta",
+        "position": "Strategic Planner KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-01 09:43:24",
+        "source": "streamlit",
+        "candidate": "Fidia Handayani",
         "position": "Strategic Planner KG Media",
         "success": true
       }
