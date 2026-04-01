@@ -4244,14 +4244,14 @@
     ]
   },
   "2026-04-01": {
-    "total": 58,
-    "streamlit": 58,
+    "total": 59,
+    "streamlit": 59,
     "github_action": 0,
-    "successful": 58,
+    "successful": 59,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 16,
-      "Strategic Planner KG Media": 42
+      "Strategic Planner KG Media": 43
     },
     "entries": [
       {
@@ -4657,6 +4657,13 @@
         "timestamp": "2026-04-01 10:07:19",
         "source": "streamlit",
         "candidate": "Maria Octaviani",
+        "position": "Strategic Planner KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-01 10:08:03",
+        "source": "streamlit",
+        "candidate": "KURNIA AGUSTIN",
         "position": "Strategic Planner KG Media",
         "success": true
       }
