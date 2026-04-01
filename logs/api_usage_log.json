@@ -4244,14 +4244,14 @@
     ]
   },
   "2026-04-01": {
-    "total": 32,
-    "streamlit": 32,
+    "total": 33,
+    "streamlit": 33,
     "github_action": 0,
-    "successful": 32,
+    "successful": 33,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 16,
-      "Strategic Planner KG Media": 16
+      "Strategic Planner KG Media": 17
     },
     "entries": [
       {
@@ -4475,6 +4475,13 @@
         "timestamp": "2026-04-01 09:48:29",
         "source": "streamlit",
         "candidate": "Dhimas risang sri  arya naratama",
+        "position": "Strategic Planner KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-01 09:49:13",
+        "source": "streamlit",
+        "candidate": "R. Faiq Aulia Rahman",
         "position": "Strategic Planner KG Media",
         "success": true
       }
