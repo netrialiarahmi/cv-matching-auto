@@ -4244,14 +4244,14 @@
     ]
   },
   "2026-04-01": {
-    "total": 49,
-    "streamlit": 49,
+    "total": 50,
+    "streamlit": 50,
     "github_action": 0,
-    "successful": 49,
+    "successful": 50,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 16,
-      "Strategic Planner KG Media": 33
+      "Strategic Planner KG Media": 34
     },
     "entries": [
       {
@@ -4594,6 +4594,13 @@
         "timestamp": "2026-04-01 10:00:32",
         "source": "streamlit",
         "candidate": "Riris Restina Femilia",
+        "position": "Strategic Planner KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-01 10:01:13",
+        "source": "streamlit",
+        "candidate": "Zalfa Jihan Kinanti",
         "position": "Strategic Planner KG Media",
         "success": true
       }
