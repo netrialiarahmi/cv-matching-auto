@@ -4244,14 +4244,14 @@
     ]
   },
   "2026-04-01": {
-    "total": 41,
-    "streamlit": 41,
+    "total": 42,
+    "streamlit": 42,
     "github_action": 0,
-    "successful": 41,
+    "successful": 42,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 16,
-      "Strategic Planner KG Media": 25
+      "Strategic Planner KG Media": 26
     },
     "entries": [
       {
@@ -4538,6 +4538,13 @@
         "timestamp": "2026-04-01 09:54:13",
         "source": "streamlit",
         "candidate": "Rafi Ichsan",
+        "position": "Strategic Planner KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-01 09:54:57",
+        "source": "streamlit",
+        "candidate": "Tiwi Berliani",
         "position": "Strategic Planner KG Media",
         "success": true
       }
