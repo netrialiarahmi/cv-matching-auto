@@ -4244,13 +4244,13 @@
     ]
   },
   "2026-04-01": {
-    "total": 12,
-    "streamlit": 12,
+    "total": 13,
+    "streamlit": 13,
     "github_action": 0,
-    "successful": 12,
+    "successful": 13,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 12
+      "Marketing Communication Officer KG Media": 13
     },
     "entries": [
       {
@@ -4334,6 +4334,13 @@
         "timestamp": "2026-04-01 09:25:44",
         "source": "streamlit",
         "candidate": "Devin Ananda Dwiardi Saputra",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-01 09:26:36",
+        "source": "streamlit",
+        "candidate": "Rahmat  Khairurizqi",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
