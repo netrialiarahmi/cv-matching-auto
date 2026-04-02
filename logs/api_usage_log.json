@@ -4698,13 +4698,13 @@
     ]
   },
   "2026-04-02": {
-    "total": 34,
-    "streamlit": 34,
+    "total": 35,
+    "streamlit": 35,
     "github_action": 0,
-    "successful": 34,
+    "successful": 35,
     "failed": 0,
     "positions": {
-      "Strategic Planner KG Media": 34
+      "Strategic Planner KG Media": 35
     },
     "entries": [
       {
@@ -4942,6 +4942,13 @@
         "timestamp": "2026-04-02 08:05:39",
         "source": "streamlit",
         "candidate": "Nashwa  Natania",
+        "position": "Strategic Planner KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-02 08:06:23",
+        "source": "streamlit",
+        "candidate": "Erika Choirunisa",
         "position": "Strategic Planner KG Media",
         "success": true
       }
