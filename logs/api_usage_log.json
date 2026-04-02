@@ -4698,13 +4698,13 @@
     ]
   },
   "2026-04-02": {
-    "total": 3,
-    "streamlit": 3,
+    "total": 4,
+    "streamlit": 4,
     "github_action": 0,
-    "successful": 3,
+    "successful": 4,
     "failed": 0,
     "positions": {
-      "Strategic Planner KG Media": 3
+      "Strategic Planner KG Media": 4
     },
     "entries": [
       {
@@ -4725,6 +4725,13 @@
         "timestamp": "2026-04-02 07:44:11",
         "source": "streamlit",
         "candidate": "Chantika Chairunisa",
+        "position": "Strategic Planner KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-02 07:44:54",
+        "source": "streamlit",
+        "candidate": "Anzilna Rif'atul Nabella",
         "position": "Strategic Planner KG Media",
         "success": true
       }
