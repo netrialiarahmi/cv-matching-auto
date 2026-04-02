@@ -4698,13 +4698,13 @@
     ]
   },
   "2026-04-02": {
-    "total": 25,
-    "streamlit": 25,
+    "total": 26,
+    "streamlit": 26,
     "github_action": 0,
-    "successful": 25,
+    "successful": 26,
     "failed": 0,
     "positions": {
-      "Strategic Planner KG Media": 25
+      "Strategic Planner KG Media": 26
     },
     "entries": [
       {
@@ -4879,6 +4879,13 @@
         "timestamp": "2026-04-02 07:58:44",
         "source": "streamlit",
         "candidate": "Agnes Debora  Zega",
+        "position": "Strategic Planner KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-02 07:59:21",
+        "source": "streamlit",
+        "candidate": "Naufal  Hudaya",
         "position": "Strategic Planner KG Media",
         "success": true
       }
