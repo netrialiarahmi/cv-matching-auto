@@ -4698,13 +4698,13 @@
     ]
   },
   "2026-04-02": {
-    "total": 26,
-    "streamlit": 26,
+    "total": 27,
+    "streamlit": 27,
     "github_action": 0,
-    "successful": 26,
+    "successful": 27,
     "failed": 0,
     "positions": {
-      "Strategic Planner KG Media": 26
+      "Strategic Planner KG Media": 27
     },
     "entries": [
       {
@@ -4886,6 +4886,13 @@
         "timestamp": "2026-04-02 07:59:21",
         "source": "streamlit",
         "candidate": "Naufal  Hudaya",
+        "position": "Strategic Planner KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-02 08:00:03",
+        "source": "streamlit",
+        "candidate": "Adhitya Nur Taufiq",
         "position": "Strategic Planner KG Media",
         "success": true
       }
