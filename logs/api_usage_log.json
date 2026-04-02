@@ -4698,13 +4698,13 @@
     ]
   },
   "2026-04-02": {
-    "total": 35,
-    "streamlit": 35,
+    "total": 36,
+    "streamlit": 36,
     "github_action": 0,
-    "successful": 35,
+    "successful": 36,
     "failed": 0,
     "positions": {
-      "Strategic Planner KG Media": 35
+      "Strategic Planner KG Media": 36
     },
     "entries": [
       {
@@ -4949,6 +4949,13 @@
         "timestamp": "2026-04-02 08:06:23",
         "source": "streamlit",
         "candidate": "Erika Choirunisa",
+        "position": "Strategic Planner KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-02 08:06:25",
+        "source": "streamlit",
+        "candidate": "Rufaidah Anshoriyah",
         "position": "Strategic Planner KG Media",
         "success": true
       }
