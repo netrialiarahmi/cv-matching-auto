@@ -4698,13 +4698,13 @@
     ]
   },
   "2026-04-02": {
-    "total": 13,
-    "streamlit": 13,
+    "total": 14,
+    "streamlit": 14,
     "github_action": 0,
-    "successful": 13,
+    "successful": 14,
     "failed": 0,
     "positions": {
-      "Strategic Planner KG Media": 13
+      "Strategic Planner KG Media": 14
     },
     "entries": [
       {
@@ -4795,6 +4795,13 @@
         "timestamp": "2026-04-02 07:51:27",
         "source": "streamlit",
         "candidate": "Gaswara Utama",
+        "position": "Strategic Planner KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-02 07:51:29",
+        "source": "streamlit",
+        "candidate": "Amelia Putri",
         "position": "Strategic Planner KG Media",
         "success": true
       }
