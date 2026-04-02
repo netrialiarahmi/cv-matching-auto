@@ -4698,13 +4698,13 @@
     ]
   },
   "2026-04-02": {
-    "total": 32,
-    "streamlit": 32,
+    "total": 33,
+    "streamlit": 33,
     "github_action": 0,
-    "successful": 32,
+    "successful": 33,
     "failed": 0,
     "positions": {
-      "Strategic Planner KG Media": 32
+      "Strategic Planner KG Media": 33
     },
     "entries": [
       {
@@ -4928,6 +4928,13 @@
         "timestamp": "2026-04-02 08:03:53",
         "source": "streamlit",
         "candidate": "Deidra Marsya",
+        "position": "Strategic Planner KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-02 08:04:56",
+        "source": "streamlit",
+        "candidate": "Destriyanti Sagita",
         "position": "Strategic Planner KG Media",
         "success": true
       }
