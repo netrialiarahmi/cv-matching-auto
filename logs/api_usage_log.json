@@ -4698,19 +4698,26 @@
     ]
   },
   "2026-04-02": {
-    "total": 1,
-    "streamlit": 1,
+    "total": 2,
+    "streamlit": 2,
     "github_action": 0,
-    "successful": 1,
+    "successful": 2,
     "failed": 0,
     "positions": {
-      "Strategic Planner KG Media": 1
+      "Strategic Planner KG Media": 2
     },
     "entries": [
       {
         "timestamp": "2026-04-02 07:42:40",
         "source": "streamlit",
         "candidate": "Ghaitsa Najah Faridah",
+        "position": "Strategic Planner KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-02 07:43:27",
+        "source": "streamlit",
+        "candidate": "Sheren Aliya Dewi",
         "position": "Strategic Planner KG Media",
         "success": true
       }
