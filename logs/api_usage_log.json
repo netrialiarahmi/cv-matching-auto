@@ -4698,13 +4698,13 @@
     ]
   },
   "2026-04-02": {
-    "total": 33,
-    "streamlit": 33,
+    "total": 34,
+    "streamlit": 34,
     "github_action": 0,
-    "successful": 33,
+    "successful": 34,
     "failed": 0,
     "positions": {
-      "Strategic Planner KG Media": 33
+      "Strategic Planner KG Media": 34
     },
     "entries": [
       {
@@ -4935,6 +4935,13 @@
         "timestamp": "2026-04-02 08:04:56",
         "source": "streamlit",
         "candidate": "Destriyanti Sagita",
+        "position": "Strategic Planner KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-02 08:05:39",
+        "source": "streamlit",
+        "candidate": "Nashwa  Natania",
         "position": "Strategic Planner KG Media",
         "success": true
       }
