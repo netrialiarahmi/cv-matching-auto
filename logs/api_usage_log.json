@@ -4698,13 +4698,13 @@
     ]
   },
   "2026-04-02": {
-    "total": 10,
-    "streamlit": 10,
+    "total": 11,
+    "streamlit": 11,
     "github_action": 0,
-    "successful": 10,
+    "successful": 11,
     "failed": 0,
     "positions": {
-      "Strategic Planner KG Media": 10
+      "Strategic Planner KG Media": 11
     },
     "entries": [
       {
@@ -4774,6 +4774,13 @@
         "timestamp": "2026-04-02 07:49:16",
         "source": "streamlit",
         "candidate": "Siti Nurjanah Nurjanah",
+        "position": "Strategic Planner KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-02 07:50:01",
+        "source": "streamlit",
+        "candidate": "Ardissa Anggraini Putri",
         "position": "Strategic Planner KG Media",
         "success": true
       }
