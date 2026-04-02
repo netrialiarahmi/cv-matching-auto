@@ -4698,13 +4698,13 @@
     ]
   },
   "2026-04-02": {
-    "total": 37,
-    "streamlit": 37,
+    "total": 38,
+    "streamlit": 38,
     "github_action": 0,
-    "successful": 37,
+    "successful": 38,
     "failed": 0,
     "positions": {
-      "Strategic Planner KG Media": 37
+      "Strategic Planner KG Media": 38
     },
     "entries": [
       {
@@ -4963,6 +4963,13 @@
         "timestamp": "2026-04-02 08:07:02",
         "source": "streamlit",
         "candidate": "ananda santria pratama",
+        "position": "Strategic Planner KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-02 08:07:45",
+        "source": "streamlit",
+        "candidate": "Bryan Saragih",
         "position": "Strategic Planner KG Media",
         "success": true
       }
