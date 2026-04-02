@@ -4698,13 +4698,13 @@
     ]
   },
   "2026-04-02": {
-    "total": 41,
-    "streamlit": 41,
+    "total": 42,
+    "streamlit": 42,
     "github_action": 0,
-    "successful": 41,
+    "successful": 42,
     "failed": 0,
     "positions": {
-      "Strategic Planner KG Media": 41
+      "Strategic Planner KG Media": 42
     },
     "entries": [
       {
@@ -4991,6 +4991,13 @@
         "timestamp": "2026-04-02 08:10:09",
         "source": "streamlit",
         "candidate": "Fildza Salma Malahati",
+        "position": "Strategic Planner KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-02 08:10:47",
+        "source": "streamlit",
+        "candidate": "Anisa Jamalenda",
         "position": "Strategic Planner KG Media",
         "success": true
       }
