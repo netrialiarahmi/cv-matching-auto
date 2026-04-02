@@ -4698,13 +4698,13 @@
     ]
   },
   "2026-04-02": {
-    "total": 28,
-    "streamlit": 28,
+    "total": 29,
+    "streamlit": 29,
     "github_action": 0,
-    "successful": 28,
+    "successful": 29,
     "failed": 0,
     "positions": {
-      "Strategic Planner KG Media": 28
+      "Strategic Planner KG Media": 29
     },
     "entries": [
       {
@@ -4900,6 +4900,13 @@
         "timestamp": "2026-04-02 08:00:36",
         "source": "streamlit",
         "candidate": "Pratiwi Rahmadanti",
+        "position": "Strategic Planner KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-02 08:01:21",
+        "source": "streamlit",
+        "candidate": "Naura Chairunnisa",
         "position": "Strategic Planner KG Media",
         "success": true
       }
