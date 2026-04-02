@@ -4698,13 +4698,13 @@
     ]
   },
   "2026-04-02": {
-    "total": 19,
-    "streamlit": 19,
+    "total": 20,
+    "streamlit": 20,
     "github_action": 0,
-    "successful": 19,
+    "successful": 20,
     "failed": 0,
     "positions": {
-      "Strategic Planner KG Media": 19
+      "Strategic Planner KG Media": 20
     },
     "entries": [
       {
@@ -4837,6 +4837,13 @@
         "timestamp": "2026-04-02 07:55:29",
         "source": "streamlit",
         "candidate": "Muktafa Hadi Yahya",
+        "position": "Strategic Planner KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-02 07:56:10",
+        "source": "streamlit",
+        "candidate": "Taufik abdul  rahman",
         "position": "Strategic Planner KG Media",
         "success": true
       }
