@@ -4698,13 +4698,13 @@
     ]
   },
   "2026-04-02": {
-    "total": 15,
-    "streamlit": 15,
+    "total": 16,
+    "streamlit": 16,
     "github_action": 0,
-    "successful": 15,
+    "successful": 16,
     "failed": 0,
     "positions": {
-      "Strategic Planner KG Media": 15
+      "Strategic Planner KG Media": 16
     },
     "entries": [
       {
@@ -4809,6 +4809,13 @@
         "timestamp": "2026-04-02 07:52:15",
         "source": "streamlit",
         "candidate": "Nada Putri",
+        "position": "Strategic Planner KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-02 07:53:16",
+        "source": "streamlit",
+        "candidate": "Donvito Moerdani",
         "position": "Strategic Planner KG Media",
         "success": true
       }
