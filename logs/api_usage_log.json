@@ -4698,13 +4698,13 @@
     ]
   },
   "2026-04-02": {
-    "total": 7,
-    "streamlit": 7,
+    "total": 8,
+    "streamlit": 8,
     "github_action": 0,
-    "successful": 7,
+    "successful": 8,
     "failed": 0,
     "positions": {
-      "Strategic Planner KG Media": 7
+      "Strategic Planner KG Media": 8
     },
     "entries": [
       {
@@ -4753,6 +4753,13 @@
         "timestamp": "2026-04-02 07:47:01",
         "source": "streamlit",
         "candidate": "Yulaichah .",
+        "position": "Strategic Planner KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-02 07:47:42",
+        "source": "streamlit",
+        "candidate": "Hafidh Muhammad Ibnu Sina",
         "position": "Strategic Planner KG Media",
         "success": true
       }
