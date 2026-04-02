@@ -4698,13 +4698,13 @@
     ]
   },
   "2026-04-02": {
-    "total": 18,
-    "streamlit": 18,
+    "total": 19,
+    "streamlit": 19,
     "github_action": 0,
-    "successful": 18,
+    "successful": 19,
     "failed": 0,
     "positions": {
-      "Strategic Planner KG Media": 18
+      "Strategic Planner KG Media": 19
     },
     "entries": [
       {
@@ -4830,6 +4830,13 @@
         "timestamp": "2026-04-02 07:54:43",
         "source": "streamlit",
         "candidate": "Elia Ari Yabes Syalom",
+        "position": "Strategic Planner KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-02 07:55:29",
+        "source": "streamlit",
+        "candidate": "Muktafa Hadi Yahya",
         "position": "Strategic Planner KG Media",
         "success": true
       }
