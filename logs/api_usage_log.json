@@ -4698,13 +4698,13 @@
     ]
   },
   "2026-04-02": {
-    "total": 9,
-    "streamlit": 9,
+    "total": 10,
+    "streamlit": 10,
     "github_action": 0,
-    "successful": 9,
+    "successful": 10,
     "failed": 0,
     "positions": {
-      "Strategic Planner KG Media": 9
+      "Strategic Planner KG Media": 10
     },
     "entries": [
       {
@@ -4767,6 +4767,13 @@
         "timestamp": "2026-04-02 07:48:19",
         "source": "streamlit",
         "candidate": "Ibrahim Hanif Nugraha",
+        "position": "Strategic Planner KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-02 07:49:16",
+        "source": "streamlit",
+        "candidate": "Siti Nurjanah Nurjanah",
         "position": "Strategic Planner KG Media",
         "success": true
       }
