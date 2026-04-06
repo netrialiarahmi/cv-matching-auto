@@ -5004,22 +5004,15 @@
     ]
   },
   "2026-04-06": {
-    "total": 151,
-    "streamlit": 151,
+    "total": 152,
+    "streamlit": 152,
     "github_action": 0,
-    "successful": 151,
+    "successful": 152,
     "failed": 0,
     "positions": {
-      "Reporter Megapolitan": 151
+      "Reporter Megapolitan": 152
     },
     "entries": [
-      {
-        "timestamp": "2026-04-06 04:18:20",
-        "source": "streamlit",
-        "candidate": "Nanda Tsani Azizah",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-06 04:18:49",
         "source": "streamlit",
@@ -5710,6 +5703,13 @@
         "timestamp": "2026-04-06 07:23:41",
         "source": "streamlit",
         "candidate": "Indah Putri",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-06 07:24:11",
+        "source": "streamlit",
+        "candidate": "Muhamad Fikri Islahhudin",
         "position": "Reporter Megapolitan",
         "success": true
       }
