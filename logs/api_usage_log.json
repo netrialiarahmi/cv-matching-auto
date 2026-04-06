@@ -5004,22 +5004,15 @@
     ]
   },
   "2026-04-06": {
-    "total": 213,
-    "streamlit": 213,
+    "total": 214,
+    "streamlit": 214,
     "github_action": 0,
-    "successful": 213,
+    "successful": 214,
     "failed": 0,
     "positions": {
-      "Reporter Megapolitan": 213
+      "Reporter Megapolitan": 214
     },
     "entries": [
-      {
-        "timestamp": "2026-04-06 06:14:55",
-        "source": "streamlit",
-        "candidate": "Jacko Agun",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-06 06:15:34",
         "source": "streamlit",
@@ -5710,6 +5703,13 @@
         "timestamp": "2026-04-06 08:08:28",
         "source": "streamlit",
         "candidate": "Qanish nan",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-06 08:08:31",
+        "source": "streamlit",
+        "candidate": "Wildan Alghofari",
         "position": "Reporter Megapolitan",
         "success": true
       }
