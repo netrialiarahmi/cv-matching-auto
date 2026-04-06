@@ -5004,22 +5004,15 @@
     ]
   },
   "2026-04-06": {
-    "total": 111,
-    "streamlit": 111,
+    "total": 112,
+    "streamlit": 112,
     "github_action": 0,
-    "successful": 111,
+    "successful": 112,
     "failed": 0,
     "positions": {
-      "Reporter Megapolitan": 111
+      "Reporter Megapolitan": 112
     },
     "entries": [
-      {
-        "timestamp": "2026-04-06 03:51:15",
-        "source": "streamlit",
-        "candidate": "Fathianada Anggitha Supriadi",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-06 03:51:57",
         "source": "streamlit",
@@ -5710,6 +5703,13 @@
         "timestamp": "2026-04-06 06:13:05",
         "source": "streamlit",
         "candidate": "Adella Andhi",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-06 06:13:37",
+        "source": "streamlit",
+        "candidate": "Ecik Saliman",
         "position": "Reporter Megapolitan",
         "success": true
       }
