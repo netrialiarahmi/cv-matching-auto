@@ -5004,22 +5004,15 @@
     ]
   },
   "2026-04-06": {
-    "total": 106,
-    "streamlit": 106,
+    "total": 107,
+    "streamlit": 107,
     "github_action": 0,
-    "successful": 106,
+    "successful": 107,
     "failed": 0,
     "positions": {
-      "Reporter Megapolitan": 106
+      "Reporter Megapolitan": 107
     },
     "entries": [
-      {
-        "timestamp": "2026-04-06 03:47:38",
-        "source": "streamlit",
-        "candidate": "Oktiarani Berta",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-06 03:48:18",
         "source": "streamlit",
@@ -5710,6 +5703,13 @@
         "timestamp": "2026-04-06 06:09:53",
         "source": "streamlit",
         "candidate": "Wahyu Setiawan",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-06 06:10:33",
+        "source": "streamlit",
+        "candidate": "Anggara Purissta Putra",
         "position": "Reporter Megapolitan",
         "success": true
       }
