@@ -5004,22 +5004,15 @@
     ]
   },
   "2026-04-06": {
-    "total": 100,
-    "streamlit": 100,
+    "total": 101,
+    "streamlit": 101,
     "github_action": 0,
-    "successful": 100,
+    "successful": 101,
     "failed": 0,
     "positions": {
-      "Reporter Megapolitan": 100
+      "Reporter Megapolitan": 101
     },
     "entries": [
-      {
-        "timestamp": "2026-04-06 03:06:11",
-        "source": "streamlit",
-        "candidate": "Ervira Octaviola Kurniawan",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-06 03:22:08",
         "source": "streamlit",
@@ -5710,6 +5703,13 @@
         "timestamp": "2026-04-06 06:06:01",
         "source": "streamlit",
         "candidate": "hairul sandim",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-06 06:06:40",
+        "source": "streamlit",
+        "candidate": "Sarah Almira",
         "position": "Reporter Megapolitan",
         "success": true
       }
