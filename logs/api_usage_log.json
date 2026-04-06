@@ -5004,22 +5004,15 @@
     ]
   },
   "2026-04-06": {
-    "total": 214,
-    "streamlit": 214,
+    "total": 215,
+    "streamlit": 215,
     "github_action": 0,
-    "successful": 214,
+    "successful": 215,
     "failed": 0,
     "positions": {
-      "Reporter Megapolitan": 214
+      "Reporter Megapolitan": 215
     },
     "entries": [
-      {
-        "timestamp": "2026-04-06 06:15:34",
-        "source": "streamlit",
-        "candidate": "Gregorius Bramantyo",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-06 06:15:37",
         "source": "streamlit",
@@ -5710,6 +5703,13 @@
         "timestamp": "2026-04-06 08:08:31",
         "source": "streamlit",
         "candidate": "Wildan Alghofari",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-06 08:09:07",
+        "source": "streamlit",
+        "candidate": "Jurnalia Sibunga",
         "position": "Reporter Megapolitan",
         "success": true
       }
