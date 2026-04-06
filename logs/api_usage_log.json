@@ -5004,22 +5004,15 @@
     ]
   },
   "2026-04-06": {
-    "total": 200,
-    "streamlit": 200,
+    "total": 201,
+    "streamlit": 201,
     "github_action": 0,
-    "successful": 200,
+    "successful": 201,
     "failed": 0,
     "positions": {
-      "Reporter Megapolitan": 200
+      "Reporter Megapolitan": 201
     },
     "entries": [
-      {
-        "timestamp": "2026-04-06 06:06:40",
-        "source": "streamlit",
-        "candidate": "Sarah Almira",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-06 06:07:18",
         "source": "streamlit",
@@ -5710,6 +5703,13 @@
         "timestamp": "2026-04-06 08:01:48",
         "source": "streamlit",
         "candidate": "Lula Wahyu Anindita",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-06 08:01:50",
+        "source": "streamlit",
+        "candidate": "Fawwaz Azmi Iltizam",
         "position": "Reporter Megapolitan",
         "success": true
       }
