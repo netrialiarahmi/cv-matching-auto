@@ -5004,22 +5004,15 @@
     ]
   },
   "2026-04-06": {
-    "total": 156,
-    "streamlit": 156,
+    "total": 157,
+    "streamlit": 157,
     "github_action": 0,
-    "successful": 156,
+    "successful": 157,
     "failed": 0,
     "positions": {
-      "Reporter Megapolitan": 156
+      "Reporter Megapolitan": 157
     },
     "entries": [
-      {
-        "timestamp": "2026-04-06 04:20:48",
-        "source": "streamlit",
-        "candidate": "Zakariya Robbani",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-06 04:21:35",
         "source": "streamlit",
@@ -5710,6 +5703,13 @@
         "timestamp": "2026-04-06 07:27:16",
         "source": "streamlit",
         "candidate": "Anjani Nuraini Al Sannia",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-06 07:27:49",
+        "source": "streamlit",
+        "candidate": "fajar algi",
         "position": "Reporter Megapolitan",
         "success": true
       }
