@@ -5004,22 +5004,15 @@
     ]
   },
   "2026-04-06": {
-    "total": 155,
-    "streamlit": 155,
+    "total": 156,
+    "streamlit": 156,
     "github_action": 0,
-    "successful": 155,
+    "successful": 156,
     "failed": 0,
     "positions": {
-      "Reporter Megapolitan": 155
+      "Reporter Megapolitan": 156
     },
     "entries": [
-      {
-        "timestamp": "2026-04-06 04:20:10",
-        "source": "streamlit",
-        "candidate": "Farhan Nuzhadiwa",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-06 04:20:48",
         "source": "streamlit",
@@ -5710,6 +5703,13 @@
         "timestamp": "2026-04-06 07:26:36",
         "source": "streamlit",
         "candidate": "Siti Hazar Fauziah",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-06 07:27:16",
+        "source": "streamlit",
+        "candidate": "Anjani Nuraini Al Sannia",
         "position": "Reporter Megapolitan",
         "success": true
       }
