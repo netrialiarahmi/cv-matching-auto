@@ -5004,22 +5004,15 @@
     ]
   },
   "2026-04-06": {
-    "total": 158,
-    "streamlit": 158,
+    "total": 159,
+    "streamlit": 159,
     "github_action": 0,
-    "successful": 158,
+    "successful": 159,
     "failed": 0,
     "positions": {
-      "Reporter Megapolitan": 158
+      "Reporter Megapolitan": 159
     },
     "entries": [
-      {
-        "timestamp": "2026-04-06 04:22:16",
-        "source": "streamlit",
-        "candidate": "Muhammad Matchless Solahuddin",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-06 04:22:52",
         "source": "streamlit",
@@ -5710,6 +5703,13 @@
         "timestamp": "2026-04-06 07:28:26",
         "source": "streamlit",
         "candidate": "Dinda Syafitri",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-06 07:28:28",
+        "source": "streamlit",
+        "candidate": "Aditya Nugraha",
         "position": "Reporter Megapolitan",
         "success": true
       }
