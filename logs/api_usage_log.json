@@ -5004,22 +5004,15 @@
     ]
   },
   "2026-04-06": {
-    "total": 116,
-    "streamlit": 116,
+    "total": 117,
+    "streamlit": 117,
     "github_action": 0,
-    "successful": 116,
+    "successful": 117,
     "failed": 0,
     "positions": {
-      "Reporter Megapolitan": 116
+      "Reporter Megapolitan": 117
     },
     "entries": [
-      {
-        "timestamp": "2026-04-06 03:54:25",
-        "source": "streamlit",
-        "candidate": "Reza Adyatama",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-06 03:54:28",
         "source": "streamlit",
@@ -5710,6 +5703,13 @@
         "timestamp": "2026-04-06 06:15:37",
         "source": "streamlit",
         "candidate": "Suharno Suharno",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-06 06:16:22",
+        "source": "streamlit",
+        "candidate": "Fathia Putri Dayinta",
         "position": "Reporter Megapolitan",
         "success": true
       }
