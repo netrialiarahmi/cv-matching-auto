@@ -5004,22 +5004,15 @@
     ]
   },
   "2026-04-06": {
-    "total": 134,
-    "streamlit": 134,
+    "total": 135,
+    "streamlit": 135,
     "github_action": 0,
-    "successful": 134,
+    "successful": 135,
     "failed": 0,
     "positions": {
-      "Reporter Megapolitan": 134
+      "Reporter Megapolitan": 135
     },
     "entries": [
-      {
-        "timestamp": "2026-04-06 04:10:03",
-        "source": "streamlit",
-        "candidate": "Nasywa Syawaliya Azzah",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-06 04:10:52",
         "source": "streamlit",
@@ -5710,6 +5703,13 @@
         "timestamp": "2026-04-06 06:25:41",
         "source": "streamlit",
         "candidate": "Davina Aulia Sekarjagad",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-06 06:26:15",
+        "source": "streamlit",
+        "candidate": "Alvin Setiawan",
         "position": "Reporter Megapolitan",
         "success": true
       }
