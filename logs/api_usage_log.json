@@ -5004,22 +5004,15 @@
     ]
   },
   "2026-04-06": {
-    "total": 193,
-    "streamlit": 193,
+    "total": 194,
+    "streamlit": 194,
     "github_action": 0,
-    "successful": 193,
+    "successful": 194,
     "failed": 0,
     "positions": {
-      "Reporter Megapolitan": 193
+      "Reporter Megapolitan": 194
     },
     "entries": [
-      {
-        "timestamp": "2026-04-06 05:07:15",
-        "source": "streamlit",
-        "candidate": "Rio Valentino",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-06 06:03:04",
         "source": "streamlit",
@@ -5710,6 +5703,13 @@
         "timestamp": "2026-04-06 07:57:40",
         "source": "streamlit",
         "candidate": "Putra Agustinus",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-06 07:58:11",
+        "source": "streamlit",
+        "candidate": "angistya pinakesti",
         "position": "Reporter Megapolitan",
         "success": true
       }
