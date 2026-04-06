@@ -5004,22 +5004,15 @@
     ]
   },
   "2026-04-06": {
-    "total": 185,
-    "streamlit": 185,
+    "total": 186,
+    "streamlit": 186,
     "github_action": 0,
-    "successful": 185,
+    "successful": 186,
     "failed": 0,
     "positions": {
-      "Reporter Megapolitan": 185
+      "Reporter Megapolitan": 186
     },
     "entries": [
-      {
-        "timestamp": "2026-04-06 05:02:50",
-        "source": "streamlit",
-        "candidate": "Albinus Anwar Judat",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-06 05:03:24",
         "source": "streamlit",
@@ -5710,6 +5703,13 @@
         "timestamp": "2026-04-06 07:43:24",
         "source": "streamlit",
         "candidate": "Amisha Destira elianza",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-06 07:44:01",
+        "source": "streamlit",
+        "candidate": "Nanda Rahman Rahimi Dhilsi",
         "position": "Reporter Megapolitan",
         "success": true
       }
