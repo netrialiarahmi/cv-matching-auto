@@ -5004,22 +5004,15 @@
     ]
   },
   "2026-04-06": {
-    "total": 164,
-    "streamlit": 164,
+    "total": 165,
+    "streamlit": 165,
     "github_action": 0,
-    "successful": 164,
+    "successful": 165,
     "failed": 0,
     "positions": {
-      "Reporter Megapolitan": 164
+      "Reporter Megapolitan": 165
     },
     "entries": [
-      {
-        "timestamp": "2026-04-06 04:51:19",
-        "source": "streamlit",
-        "candidate": "Amanda Rae Irawan",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-06 04:51:51",
         "source": "streamlit",
@@ -5710,6 +5703,13 @@
         "timestamp": "2026-04-06 07:31:46",
         "source": "streamlit",
         "candidate": "Narti Oktavia",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-06 07:32:13",
+        "source": "streamlit",
+        "candidate": "Annisa Desrima Madrin",
         "position": "Reporter Megapolitan",
         "success": true
       }
