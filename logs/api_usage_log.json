@@ -5004,22 +5004,15 @@
     ]
   },
   "2026-04-06": {
-    "total": 122,
-    "streamlit": 122,
+    "total": 123,
+    "streamlit": 123,
     "github_action": 0,
-    "successful": 122,
+    "successful": 123,
     "failed": 0,
     "positions": {
-      "Reporter Megapolitan": 122
+      "Reporter Megapolitan": 123
     },
     "entries": [
-      {
-        "timestamp": "2026-04-06 04:02:57",
-        "source": "streamlit",
-        "candidate": "Sarah Wulandari",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-06 04:03:46",
         "source": "streamlit",
@@ -5710,6 +5703,13 @@
         "timestamp": "2026-04-06 06:19:08",
         "source": "streamlit",
         "candidate": "Geni Al Aziz",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-06 06:20:00",
+        "source": "streamlit",
+        "candidate": "Nabillah Syidah",
         "position": "Reporter Megapolitan",
         "success": true
       }
