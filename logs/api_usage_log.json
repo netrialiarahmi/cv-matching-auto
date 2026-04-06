@@ -5004,22 +5004,15 @@
     ]
   },
   "2026-04-06": {
-    "total": 217,
-    "streamlit": 217,
+    "total": 218,
+    "streamlit": 218,
     "github_action": 0,
-    "successful": 217,
+    "successful": 218,
     "failed": 0,
     "positions": {
-      "Reporter Megapolitan": 217
+      "Reporter Megapolitan": 218
     },
     "entries": [
-      {
-        "timestamp": "2026-04-06 06:17:13",
-        "source": "streamlit",
-        "candidate": "Muhamad Wildan",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-06 06:17:15",
         "source": "streamlit",
@@ -5710,6 +5703,13 @@
         "timestamp": "2026-04-06 08:10:23",
         "source": "streamlit",
         "candidate": "Isnu Fhadillah",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-06 08:10:58",
+        "source": "streamlit",
+        "candidate": "Muhammad Arief  Adhistyo Hidayat",
         "position": "Reporter Megapolitan",
         "success": true
       }
