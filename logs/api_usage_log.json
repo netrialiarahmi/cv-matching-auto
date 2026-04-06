@@ -5004,22 +5004,15 @@
     ]
   },
   "2026-04-06": {
-    "total": 157,
-    "streamlit": 157,
+    "total": 158,
+    "streamlit": 158,
     "github_action": 0,
-    "successful": 157,
+    "successful": 158,
     "failed": 0,
     "positions": {
-      "Reporter Megapolitan": 157
+      "Reporter Megapolitan": 158
     },
     "entries": [
-      {
-        "timestamp": "2026-04-06 04:21:35",
-        "source": "streamlit",
-        "candidate": "Raphaella Ade Siallagan",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-06 04:22:16",
         "source": "streamlit",
@@ -5710,6 +5703,13 @@
         "timestamp": "2026-04-06 07:27:49",
         "source": "streamlit",
         "candidate": "fajar algi",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-06 07:28:26",
+        "source": "streamlit",
+        "candidate": "Dinda Syafitri",
         "position": "Reporter Megapolitan",
         "success": true
       }
