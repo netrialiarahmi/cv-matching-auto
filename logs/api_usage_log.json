@@ -5004,22 +5004,15 @@
     ]
   },
   "2026-04-06": {
-    "total": 173,
-    "streamlit": 173,
+    "total": 174,
+    "streamlit": 174,
     "github_action": 0,
-    "successful": 173,
+    "successful": 174,
     "failed": 0,
     "positions": {
-      "Reporter Megapolitan": 173
+      "Reporter Megapolitan": 174
     },
     "entries": [
-      {
-        "timestamp": "2026-04-06 04:56:40",
-        "source": "streamlit",
-        "candidate": "Annisa Firdaus Damayanti",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-06 04:57:20",
         "source": "streamlit",
@@ -5710,6 +5703,13 @@
         "timestamp": "2026-04-06 07:36:56",
         "source": "streamlit",
         "candidate": "neysa  amalia",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-06 07:37:32",
+        "source": "streamlit",
+        "candidate": "Della Al Bilatri Wahyu Santoso",
         "position": "Reporter Megapolitan",
         "success": true
       }
