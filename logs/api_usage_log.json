@@ -5004,22 +5004,15 @@
     ]
   },
   "2026-04-06": {
-    "total": 171,
-    "streamlit": 171,
+    "total": 172,
+    "streamlit": 172,
     "github_action": 0,
-    "successful": 171,
+    "successful": 172,
     "failed": 0,
     "positions": {
-      "Reporter Megapolitan": 171
+      "Reporter Megapolitan": 172
     },
     "entries": [
-      {
-        "timestamp": "2026-04-06 04:55:10",
-        "source": "streamlit",
-        "candidate": "Ahmad Khoirul Anam",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-06 04:55:49",
         "source": "streamlit",
@@ -5710,6 +5703,13 @@
         "timestamp": "2026-04-06 07:35:27",
         "source": "streamlit",
         "candidate": "Putra Nada",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-06 07:36:00",
+        "source": "streamlit",
+        "candidate": "Adley  Ramli Elhasain",
         "position": "Reporter Megapolitan",
         "success": true
       }
