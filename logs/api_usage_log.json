@@ -5004,22 +5004,15 @@
     ]
   },
   "2026-04-06": {
-    "total": 136,
-    "streamlit": 136,
+    "total": 137,
+    "streamlit": 137,
     "github_action": 0,
-    "successful": 136,
+    "successful": 137,
     "failed": 0,
     "positions": {
-      "Reporter Megapolitan": 136
+      "Reporter Megapolitan": 137
     },
     "entries": [
-      {
-        "timestamp": "2026-04-06 04:10:56",
-        "source": "streamlit",
-        "candidate": "Wildan Adil Hilba",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-06 04:11:30",
         "source": "streamlit",
@@ -5710,6 +5703,13 @@
         "timestamp": "2026-04-06 06:26:52",
         "source": "streamlit",
         "candidate": "Reza SyahFahlevi",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-06 06:27:26",
+        "source": "streamlit",
+        "candidate": "Harrist Riansyah",
         "position": "Reporter Megapolitan",
         "success": true
       }
