@@ -5004,22 +5004,15 @@
     ]
   },
   "2026-04-06": {
-    "total": 139,
-    "streamlit": 139,
+    "total": 140,
+    "streamlit": 140,
     "github_action": 0,
-    "successful": 139,
+    "successful": 140,
     "failed": 0,
     "positions": {
-      "Reporter Megapolitan": 139
+      "Reporter Megapolitan": 140
     },
     "entries": [
-      {
-        "timestamp": "2026-04-06 04:12:11",
-        "source": "streamlit",
-        "candidate": "Razaqa Hariz",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-06 04:12:53",
         "source": "streamlit",
@@ -5710,6 +5703,13 @@
         "timestamp": "2026-04-06 06:29:47",
         "source": "streamlit",
         "candidate": "Melody Azelia Maharani",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-06 06:30:20",
+        "source": "streamlit",
+        "candidate": "Aura Antari",
         "position": "Reporter Megapolitan",
         "success": true
       }
