@@ -5004,22 +5004,15 @@
     ]
   },
   "2026-04-06": {
-    "total": 219,
-    "streamlit": 219,
+    "total": 220,
+    "streamlit": 220,
     "github_action": 0,
-    "successful": 219,
+    "successful": 220,
     "failed": 0,
     "positions": {
-      "Reporter Megapolitan": 219
+      "Reporter Megapolitan": 220
     },
     "entries": [
-      {
-        "timestamp": "2026-04-06 06:17:57",
-        "source": "streamlit",
-        "candidate": "Herlin  Pratiwi",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-06 06:18:36",
         "source": "streamlit",
@@ -5710,6 +5703,13 @@
         "timestamp": "2026-04-06 08:11:00",
         "source": "streamlit",
         "candidate": "Indriyani Indriyani",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-06 08:11:45",
+        "source": "streamlit",
+        "candidate": "Daffa Lucky Muafi",
         "position": "Reporter Megapolitan",
         "success": true
       }
