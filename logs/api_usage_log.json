@@ -5004,13 +5004,13 @@
     ]
   },
   "2026-04-06": {
-    "total": 96,
-    "streamlit": 96,
+    "total": 97,
+    "streamlit": 97,
     "github_action": 0,
-    "successful": 96,
+    "successful": 97,
     "failed": 0,
     "positions": {
-      "Reporter Megapolitan": 96
+      "Reporter Megapolitan": 97
     },
     "entries": [
       {
@@ -5682,6 +5682,13 @@
         "timestamp": "2026-04-06 06:03:48",
         "source": "streamlit",
         "candidate": "Choirun Nisa",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-06 06:03:51",
+        "source": "streamlit",
+        "candidate": "Raka Adeansyah",
         "position": "Reporter Megapolitan",
         "success": true
       }
