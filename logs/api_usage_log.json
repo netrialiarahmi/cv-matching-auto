@@ -5004,22 +5004,15 @@
     ]
   },
   "2026-04-06": {
-    "total": 201,
-    "streamlit": 201,
+    "total": 202,
+    "streamlit": 202,
     "github_action": 0,
-    "successful": 201,
+    "successful": 202,
     "failed": 0,
     "positions": {
-      "Reporter Megapolitan": 201
+      "Reporter Megapolitan": 202
     },
     "entries": [
-      {
-        "timestamp": "2026-04-06 06:07:18",
-        "source": "streamlit",
-        "candidate": "Prie Supriyanto",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-06 06:07:49",
         "source": "streamlit",
@@ -5710,6 +5703,13 @@
         "timestamp": "2026-04-06 08:01:50",
         "source": "streamlit",
         "candidate": "Fawwaz Azmi Iltizam",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-06 08:02:28",
+        "source": "streamlit",
+        "candidate": "Amanda Eka Yurita",
         "position": "Reporter Megapolitan",
         "success": true
       }
