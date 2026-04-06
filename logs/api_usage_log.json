@@ -5004,22 +5004,15 @@
     ]
   },
   "2026-04-06": {
-    "total": 215,
-    "streamlit": 215,
+    "total": 216,
+    "streamlit": 216,
     "github_action": 0,
-    "successful": 215,
+    "successful": 216,
     "failed": 0,
     "positions": {
-      "Reporter Megapolitan": 215
+      "Reporter Megapolitan": 216
     },
     "entries": [
-      {
-        "timestamp": "2026-04-06 06:15:37",
-        "source": "streamlit",
-        "candidate": "Suharno Suharno",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-06 06:16:22",
         "source": "streamlit",
@@ -5710,6 +5703,13 @@
         "timestamp": "2026-04-06 08:09:07",
         "source": "streamlit",
         "candidate": "Jurnalia Sibunga",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-06 08:09:47",
+        "source": "streamlit",
+        "candidate": "Habibah Habibah",
         "position": "Reporter Megapolitan",
         "success": true
       }
