@@ -5004,13 +5004,13 @@
     ]
   },
   "2026-04-06": {
-    "total": 51,
-    "streamlit": 51,
+    "total": 52,
+    "streamlit": 52,
     "github_action": 0,
-    "successful": 51,
+    "successful": 52,
     "failed": 0,
     "positions": {
-      "Reporter Megapolitan": 51
+      "Reporter Megapolitan": 52
     },
     "entries": [
       {
@@ -5367,6 +5367,13 @@
         "timestamp": "2026-04-06 04:17:40",
         "source": "streamlit",
         "candidate": "Muhamad Arrigo",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-06 04:18:20",
+        "source": "streamlit",
+        "candidate": "Nanda Tsani Azizah",
         "position": "Reporter Megapolitan",
         "success": true
       }
