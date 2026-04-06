@@ -5004,22 +5004,15 @@
     ]
   },
   "2026-04-06": {
-    "total": 206,
-    "streamlit": 206,
+    "total": 207,
+    "streamlit": 207,
     "github_action": 0,
-    "successful": 206,
+    "successful": 207,
     "failed": 0,
     "positions": {
-      "Reporter Megapolitan": 206
+      "Reporter Megapolitan": 207
     },
     "entries": [
-      {
-        "timestamp": "2026-04-06 06:10:33",
-        "source": "streamlit",
-        "candidate": "Anggara Purissta Putra",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-06 06:11:19",
         "source": "streamlit",
@@ -5710,6 +5703,13 @@
         "timestamp": "2026-04-06 08:04:15",
         "source": "streamlit",
         "candidate": "Anisah Faiq Yudaisnani",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-06 08:04:59",
+        "source": "streamlit",
+        "candidate": "Mutia Choerunissa",
         "position": "Reporter Megapolitan",
         "success": true
       }
