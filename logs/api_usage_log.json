@@ -5004,22 +5004,15 @@
     ]
   },
   "2026-04-06": {
-    "total": 180,
-    "streamlit": 180,
+    "total": 181,
+    "streamlit": 181,
     "github_action": 0,
-    "successful": 180,
+    "successful": 181,
     "failed": 0,
     "positions": {
-      "Reporter Megapolitan": 180
+      "Reporter Megapolitan": 181
     },
     "entries": [
-      {
-        "timestamp": "2026-04-06 05:00:17",
-        "source": "streamlit",
-        "candidate": "vindra argha pratama",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-06 05:01:01",
         "source": "streamlit",
@@ -5710,6 +5703,13 @@
         "timestamp": "2026-04-06 07:41:01",
         "source": "streamlit",
         "candidate": "Muhammad Naufal Hanif",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-06 07:41:40",
+        "source": "streamlit",
+        "candidate": "KURNIA AGUSTIN",
         "position": "Reporter Megapolitan",
         "success": true
       }
