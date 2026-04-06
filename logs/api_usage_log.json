@@ -5004,22 +5004,15 @@
     ]
   },
   "2026-04-06": {
-    "total": 183,
-    "streamlit": 183,
+    "total": 184,
+    "streamlit": 184,
     "github_action": 0,
-    "successful": 183,
+    "successful": 184,
     "failed": 0,
     "positions": {
-      "Reporter Megapolitan": 183
+      "Reporter Megapolitan": 184
     },
     "entries": [
-      {
-        "timestamp": "2026-04-06 05:01:41",
-        "source": "streamlit",
-        "candidate": "Dimas Haikal",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-06 05:02:17",
         "source": "streamlit",
@@ -5710,6 +5703,13 @@
         "timestamp": "2026-04-06 07:42:47",
         "source": "streamlit",
         "candidate": "Muhammad Iqbal",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-06 07:43:21",
+        "source": "streamlit",
+        "candidate": "Regina Mahal Fitrah",
         "position": "Reporter Megapolitan",
         "success": true
       }
