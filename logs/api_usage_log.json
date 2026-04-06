@@ -5004,13 +5004,13 @@
     ]
   },
   "2026-04-06": {
-    "total": 7,
-    "streamlit": 7,
+    "total": 8,
+    "streamlit": 8,
     "github_action": 0,
-    "successful": 7,
+    "successful": 8,
     "failed": 0,
     "positions": {
-      "Reporter Megapolitan": 7
+      "Reporter Megapolitan": 8
     },
     "entries": [
       {
@@ -5059,6 +5059,13 @@
         "timestamp": "2026-04-06 03:47:38",
         "source": "streamlit",
         "candidate": "Oktiarani Berta",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-06 03:48:18",
+        "source": "streamlit",
+        "candidate": "Miftahula Rizqin",
         "position": "Reporter Megapolitan",
         "success": true
       }
