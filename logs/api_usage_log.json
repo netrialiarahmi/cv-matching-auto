@@ -5004,22 +5004,15 @@
     ]
   },
   "2026-04-06": {
-    "total": 161,
-    "streamlit": 161,
+    "total": 162,
+    "streamlit": 162,
     "github_action": 0,
-    "successful": 161,
+    "successful": 162,
     "failed": 0,
     "positions": {
-      "Reporter Megapolitan": 161
+      "Reporter Megapolitan": 162
     },
     "entries": [
-      {
-        "timestamp": "2026-04-06 04:24:08",
-        "source": "streamlit",
-        "candidate": "Muhamad Farhan",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-06 04:24:54",
         "source": "streamlit",
@@ -5710,6 +5703,13 @@
         "timestamp": "2026-04-06 07:29:51",
         "source": "streamlit",
         "candidate": "Imam Rachmawan",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-06 07:30:25",
+        "source": "streamlit",
+        "candidate": "Fath Tazkya Ernest Jamila",
         "position": "Reporter Megapolitan",
         "success": true
       }
