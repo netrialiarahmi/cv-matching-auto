@@ -5004,22 +5004,15 @@
     ]
   },
   "2026-04-06": {
-    "total": 105,
-    "streamlit": 105,
+    "total": 106,
+    "streamlit": 106,
     "github_action": 0,
-    "successful": 105,
+    "successful": 106,
     "failed": 0,
     "positions": {
-      "Reporter Megapolitan": 105
+      "Reporter Megapolitan": 106
     },
     "entries": [
-      {
-        "timestamp": "2026-04-06 03:47:05",
-        "source": "streamlit",
-        "candidate": "Mizar Safari Maasily",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-06 03:47:38",
         "source": "streamlit",
@@ -5710,6 +5703,13 @@
         "timestamp": "2026-04-06 06:09:06",
         "source": "streamlit",
         "candidate": "Nur Faizah Al Bahriyatul Baqiroh",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-06 06:09:53",
+        "source": "streamlit",
+        "candidate": "Wahyu Setiawan",
         "position": "Reporter Megapolitan",
         "success": true
       }
