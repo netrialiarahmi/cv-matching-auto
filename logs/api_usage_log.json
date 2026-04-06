@@ -5004,22 +5004,15 @@
     ]
   },
   "2026-04-06": {
-    "total": 204,
-    "streamlit": 204,
+    "total": 205,
+    "streamlit": 205,
     "github_action": 0,
-    "successful": 204,
+    "successful": 205,
     "failed": 0,
     "positions": {
-      "Reporter Megapolitan": 204
+      "Reporter Megapolitan": 205
     },
     "entries": [
-      {
-        "timestamp": "2026-04-06 06:09:06",
-        "source": "streamlit",
-        "candidate": "Nur Faizah Al Bahriyatul Baqiroh",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-06 06:09:53",
         "source": "streamlit",
@@ -5710,6 +5703,13 @@
         "timestamp": "2026-04-06 08:03:12",
         "source": "streamlit",
         "candidate": "Ahmad Diponegoro",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-06 08:03:46",
+        "source": "streamlit",
+        "candidate": "neng Halima",
         "position": "Reporter Megapolitan",
         "success": true
       }
