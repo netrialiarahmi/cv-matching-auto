@@ -5004,22 +5004,15 @@
     ]
   },
   "2026-04-06": {
-    "total": 187,
-    "streamlit": 187,
+    "total": 188,
+    "streamlit": 188,
     "github_action": 0,
-    "successful": 187,
+    "successful": 188,
     "failed": 0,
     "positions": {
-      "Reporter Megapolitan": 187
+      "Reporter Megapolitan": 188
     },
     "entries": [
-      {
-        "timestamp": "2026-04-06 05:03:26",
-        "source": "streamlit",
-        "candidate": "Giffar Rivana",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-06 05:04:04",
         "source": "streamlit",
@@ -5710,6 +5703,13 @@
         "timestamp": "2026-04-06 07:44:36",
         "source": "streamlit",
         "candidate": "Aldan Risky I F P",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-06 07:45:12",
+        "source": "streamlit",
+        "candidate": "Ocean Odeda Ramadhan",
         "position": "Reporter Megapolitan",
         "success": true
       }
