@@ -5004,13 +5004,13 @@
     ]
   },
   "2026-04-06": {
-    "total": 74,
-    "streamlit": 74,
+    "total": 75,
+    "streamlit": 75,
     "github_action": 0,
-    "successful": 74,
+    "successful": 75,
     "failed": 0,
     "positions": {
-      "Reporter Megapolitan": 74
+      "Reporter Megapolitan": 75
     },
     "entries": [
       {
@@ -5528,6 +5528,13 @@
         "timestamp": "2026-04-06 04:56:40",
         "source": "streamlit",
         "candidate": "Annisa Firdaus Damayanti",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-06 04:57:20",
+        "source": "streamlit",
+        "candidate": "Rafki Fachrizal",
         "position": "Reporter Megapolitan",
         "success": true
       }
