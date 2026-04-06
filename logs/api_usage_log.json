@@ -5004,22 +5004,15 @@
     ]
   },
   "2026-04-06": {
-    "total": 169,
-    "streamlit": 169,
+    "total": 170,
+    "streamlit": 170,
     "github_action": 0,
-    "successful": 169,
+    "successful": 170,
     "failed": 0,
     "positions": {
-      "Reporter Megapolitan": 169
+      "Reporter Megapolitan": 170
     },
     "entries": [
-      {
-        "timestamp": "2026-04-06 04:53:50",
-        "source": "streamlit",
-        "candidate": "Citra Regina Sinaga",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-06 04:54:29",
         "source": "streamlit",
@@ -5710,6 +5703,13 @@
         "timestamp": "2026-04-06 07:34:06",
         "source": "streamlit",
         "candidate": "Sabrina  Ariani",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-06 07:34:45",
+        "source": "streamlit",
+        "candidate": "Dovalent Vandeva Derico Laksana",
         "position": "Reporter Megapolitan",
         "success": true
       }
