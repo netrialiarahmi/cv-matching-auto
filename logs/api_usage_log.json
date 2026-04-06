@@ -5004,22 +5004,15 @@
     ]
   },
   "2026-04-06": {
-    "total": 110,
-    "streamlit": 110,
+    "total": 111,
+    "streamlit": 111,
     "github_action": 0,
-    "successful": 110,
+    "successful": 111,
     "failed": 0,
     "positions": {
-      "Reporter Megapolitan": 110
+      "Reporter Megapolitan": 111
     },
     "entries": [
-      {
-        "timestamp": "2026-04-06 03:50:23",
-        "source": "streamlit",
-        "candidate": "Toni Hermawan",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-06 03:51:15",
         "source": "streamlit",
@@ -5710,6 +5703,13 @@
         "timestamp": "2026-04-06 06:12:33",
         "source": "streamlit",
         "candidate": "Safira Tri Cahya",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-06 06:13:05",
+        "source": "streamlit",
+        "candidate": "Adella Andhi",
         "position": "Reporter Megapolitan",
         "success": true
       }
