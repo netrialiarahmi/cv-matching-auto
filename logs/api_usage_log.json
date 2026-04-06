@@ -5004,22 +5004,15 @@
     ]
   },
   "2026-04-06": {
-    "total": 216,
-    "streamlit": 216,
+    "total": 217,
+    "streamlit": 217,
     "github_action": 0,
-    "successful": 216,
+    "successful": 217,
     "failed": 0,
     "positions": {
-      "Reporter Megapolitan": 216
+      "Reporter Megapolitan": 217
     },
     "entries": [
-      {
-        "timestamp": "2026-04-06 06:16:22",
-        "source": "streamlit",
-        "candidate": "Fathia Putri Dayinta",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-06 06:17:13",
         "source": "streamlit",
@@ -5710,6 +5703,13 @@
         "timestamp": "2026-04-06 08:09:47",
         "source": "streamlit",
         "candidate": "Habibah Habibah",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-06 08:10:23",
+        "source": "streamlit",
+        "candidate": "Isnu Fhadillah",
         "position": "Reporter Megapolitan",
         "success": true
       }
