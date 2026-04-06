@@ -5004,22 +5004,15 @@
     ]
   },
   "2026-04-06": {
-    "total": 172,
-    "streamlit": 172,
+    "total": 173,
+    "streamlit": 173,
     "github_action": 0,
-    "successful": 172,
+    "successful": 173,
     "failed": 0,
     "positions": {
-      "Reporter Megapolitan": 172
+      "Reporter Megapolitan": 173
     },
     "entries": [
-      {
-        "timestamp": "2026-04-06 04:55:49",
-        "source": "streamlit",
-        "candidate": "ALSHA MAULIDA Alwahdy",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-06 04:56:40",
         "source": "streamlit",
@@ -5710,6 +5703,13 @@
         "timestamp": "2026-04-06 07:36:00",
         "source": "streamlit",
         "candidate": "Adley  Ramli Elhasain",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-06 07:36:56",
+        "source": "streamlit",
+        "candidate": "neysa  amalia",
         "position": "Reporter Megapolitan",
         "success": true
       }
