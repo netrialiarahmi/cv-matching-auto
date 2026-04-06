@@ -5004,22 +5004,15 @@
     ]
   },
   "2026-04-06": {
-    "total": 186,
-    "streamlit": 186,
+    "total": 187,
+    "streamlit": 187,
     "github_action": 0,
-    "successful": 186,
+    "successful": 187,
     "failed": 0,
     "positions": {
-      "Reporter Megapolitan": 186
+      "Reporter Megapolitan": 187
     },
     "entries": [
-      {
-        "timestamp": "2026-04-06 05:03:24",
-        "source": "streamlit",
-        "candidate": "kevin saputra",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-06 05:03:26",
         "source": "streamlit",
@@ -5710,6 +5703,13 @@
         "timestamp": "2026-04-06 07:44:01",
         "source": "streamlit",
         "candidate": "Nanda Rahman Rahimi Dhilsi",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-06 07:44:36",
+        "source": "streamlit",
+        "candidate": "Aldan Risky I F P",
         "position": "Reporter Megapolitan",
         "success": true
       }
