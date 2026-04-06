@@ -5004,22 +5004,15 @@
     ]
   },
   "2026-04-06": {
-    "total": 188,
-    "streamlit": 188,
+    "total": 189,
+    "streamlit": 189,
     "github_action": 0,
-    "successful": 188,
+    "successful": 189,
     "failed": 0,
     "positions": {
-      "Reporter Megapolitan": 188
+      "Reporter Megapolitan": 189
     },
     "entries": [
-      {
-        "timestamp": "2026-04-06 05:04:04",
-        "source": "streamlit",
-        "candidate": "Mulka Sriwijaya Kusumah",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-06 05:04:43",
         "source": "streamlit",
@@ -5710,6 +5703,13 @@
         "timestamp": "2026-04-06 07:45:12",
         "source": "streamlit",
         "candidate": "Ocean Odeda Ramadhan",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-06 07:45:52",
+        "source": "streamlit",
+        "candidate": "Harits Arrazie",
         "position": "Reporter Megapolitan",
         "success": true
       }
