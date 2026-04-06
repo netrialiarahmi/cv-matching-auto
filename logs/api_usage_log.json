@@ -5004,22 +5004,15 @@
     ]
   },
   "2026-04-06": {
-    "total": 210,
-    "streamlit": 210,
+    "total": 211,
+    "streamlit": 211,
     "github_action": 0,
-    "successful": 210,
+    "successful": 211,
     "failed": 0,
     "positions": {
-      "Reporter Megapolitan": 210
+      "Reporter Megapolitan": 211
     },
     "entries": [
-      {
-        "timestamp": "2026-04-06 06:13:05",
-        "source": "streamlit",
-        "candidate": "Adella Andhi",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-06 06:13:37",
         "source": "streamlit",
@@ -5710,6 +5703,13 @@
         "timestamp": "2026-04-06 08:06:27",
         "source": "streamlit",
         "candidate": "Fajar Ramadhan",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-06 08:07:11",
+        "source": "streamlit",
+        "candidate": "hanum aja",
         "position": "Reporter Megapolitan",
         "success": true
       }
