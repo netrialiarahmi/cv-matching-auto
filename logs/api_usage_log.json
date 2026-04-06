@@ -5004,22 +5004,15 @@
     ]
   },
   "2026-04-06": {
-    "total": 159,
-    "streamlit": 159,
+    "total": 160,
+    "streamlit": 160,
     "github_action": 0,
-    "successful": 159,
+    "successful": 160,
     "failed": 0,
     "positions": {
-      "Reporter Megapolitan": 159
+      "Reporter Megapolitan": 160
     },
     "entries": [
-      {
-        "timestamp": "2026-04-06 04:22:52",
-        "source": "streamlit",
-        "candidate": "Haikal Sujono",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-06 04:23:17",
         "source": "streamlit",
@@ -5710,6 +5703,13 @@
         "timestamp": "2026-04-06 07:28:28",
         "source": "streamlit",
         "candidate": "Aditya Nugraha",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-06 07:29:13",
+        "source": "streamlit",
+        "candidate": "Athaya Ramadhan",
         "position": "Reporter Megapolitan",
         "success": true
       }
