@@ -5004,22 +5004,15 @@
     ]
   },
   "2026-04-06": {
-    "total": 118,
-    "streamlit": 118,
+    "total": 119,
+    "streamlit": 119,
     "github_action": 0,
-    "successful": 118,
+    "successful": 119,
     "failed": 0,
     "positions": {
-      "Reporter Megapolitan": 118
+      "Reporter Megapolitan": 119
     },
     "entries": [
-      {
-        "timestamp": "2026-04-06 03:55:02",
-        "source": "streamlit",
-        "candidate": "Asep Rosidin",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-06 03:55:05",
         "source": "streamlit",
@@ -5710,6 +5703,13 @@
         "timestamp": "2026-04-06 06:17:13",
         "source": "streamlit",
         "candidate": "Muhamad Wildan",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-06 06:17:15",
+        "source": "streamlit",
+        "candidate": "fauzan nugraha",
         "position": "Reporter Megapolitan",
         "success": true
       }
