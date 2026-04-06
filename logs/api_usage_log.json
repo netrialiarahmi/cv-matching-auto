@@ -5004,22 +5004,15 @@
     ]
   },
   "2026-04-06": {
-    "total": 181,
-    "streamlit": 181,
+    "total": 182,
+    "streamlit": 182,
     "github_action": 0,
-    "successful": 181,
+    "successful": 182,
     "failed": 0,
     "positions": {
-      "Reporter Megapolitan": 181
+      "Reporter Megapolitan": 182
     },
     "entries": [
-      {
-        "timestamp": "2026-04-06 05:01:01",
-        "source": "streamlit",
-        "candidate": "Raihan Fadilah",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-06 05:01:39",
         "source": "streamlit",
@@ -5710,6 +5703,13 @@
         "timestamp": "2026-04-06 07:41:40",
         "source": "streamlit",
         "candidate": "KURNIA AGUSTIN",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-06 07:42:17",
+        "source": "streamlit",
+        "candidate": "Fidela Ardelia",
         "position": "Reporter Megapolitan",
         "success": true
       }
