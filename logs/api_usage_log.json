@@ -5004,22 +5004,15 @@
     ]
   },
   "2026-04-06": {
-    "total": 127,
-    "streamlit": 127,
+    "total": 128,
+    "streamlit": 128,
     "github_action": 0,
-    "successful": 127,
+    "successful": 128,
     "failed": 0,
     "positions": {
-      "Reporter Megapolitan": 127
+      "Reporter Megapolitan": 128
     },
     "entries": [
-      {
-        "timestamp": "2026-04-06 04:06:24",
-        "source": "streamlit",
-        "candidate": "Rachelyn Maharani",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-06 04:07:03",
         "source": "streamlit",
@@ -5710,6 +5703,13 @@
         "timestamp": "2026-04-06 06:21:52",
         "source": "streamlit",
         "candidate": "Sardo Wibowo",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-06 06:21:56",
+        "source": "streamlit",
+        "candidate": "widiya ningsih",
         "position": "Reporter Megapolitan",
         "success": true
       }
