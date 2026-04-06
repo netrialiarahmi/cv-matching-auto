@@ -5004,22 +5004,15 @@
     ]
   },
   "2026-04-06": {
-    "total": 101,
-    "streamlit": 101,
+    "total": 102,
+    "streamlit": 102,
     "github_action": 0,
-    "successful": 101,
+    "successful": 102,
     "failed": 0,
     "positions": {
-      "Reporter Megapolitan": 101
+      "Reporter Megapolitan": 102
     },
     "entries": [
-      {
-        "timestamp": "2026-04-06 03:22:08",
-        "source": "streamlit",
-        "candidate": "Tiara Damayanti",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-06 03:22:43",
         "source": "streamlit",
@@ -5710,6 +5703,13 @@
         "timestamp": "2026-04-06 06:06:40",
         "source": "streamlit",
         "candidate": "Sarah Almira",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-06 06:07:18",
+        "source": "streamlit",
+        "candidate": "Prie Supriyanto",
         "position": "Reporter Megapolitan",
         "success": true
       }
