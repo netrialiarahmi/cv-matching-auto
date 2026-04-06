@@ -5004,22 +5004,15 @@
     ]
   },
   "2026-04-06": {
-    "total": 104,
-    "streamlit": 104,
+    "total": 105,
+    "streamlit": 105,
     "github_action": 0,
-    "successful": 104,
+    "successful": 105,
     "failed": 0,
     "positions": {
-      "Reporter Megapolitan": 104
+      "Reporter Megapolitan": 105
     },
     "entries": [
-      {
-        "timestamp": "2026-04-06 03:46:29",
-        "source": "streamlit",
-        "candidate": "Eliza Chandra",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-06 03:47:05",
         "source": "streamlit",
@@ -5710,6 +5703,13 @@
         "timestamp": "2026-04-06 06:08:25",
         "source": "streamlit",
         "candidate": "Ahmad Abdul Mugits Burhanudin",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-06 06:09:06",
+        "source": "streamlit",
+        "candidate": "Nur Faizah Al Bahriyatul Baqiroh",
         "position": "Reporter Megapolitan",
         "success": true
       }
