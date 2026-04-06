@@ -5004,13 +5004,13 @@
     ]
   },
   "2026-04-06": {
-    "total": 95,
-    "streamlit": 95,
+    "total": 96,
+    "streamlit": 96,
     "github_action": 0,
-    "successful": 95,
+    "successful": 96,
     "failed": 0,
     "positions": {
-      "Reporter Megapolitan": 95
+      "Reporter Megapolitan": 96
     },
     "entries": [
       {
@@ -5675,6 +5675,13 @@
         "timestamp": "2026-04-06 06:03:04",
         "source": "streamlit",
         "candidate": "Dara Maharani",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-06 06:03:48",
+        "source": "streamlit",
+        "candidate": "Choirun Nisa",
         "position": "Reporter Megapolitan",
         "success": true
       }
