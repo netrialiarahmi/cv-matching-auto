@@ -5004,22 +5004,15 @@
     ]
   },
   "2026-04-06": {
-    "total": 140,
-    "streamlit": 140,
+    "total": 141,
+    "streamlit": 141,
     "github_action": 0,
-    "successful": 140,
+    "successful": 141,
     "failed": 0,
     "positions": {
-      "Reporter Megapolitan": 140
+      "Reporter Megapolitan": 141
     },
     "entries": [
-      {
-        "timestamp": "2026-04-06 04:12:53",
-        "source": "streamlit",
-        "candidate": "Muhamad Bilal Alghifari",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-06 04:13:31",
         "source": "streamlit",
@@ -5710,6 +5703,13 @@
         "timestamp": "2026-04-06 06:30:20",
         "source": "streamlit",
         "candidate": "Aura Antari",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-06 06:31:02",
+        "source": "streamlit",
+        "candidate": "Lutfan Faizi",
         "position": "Reporter Megapolitan",
         "success": true
       }
