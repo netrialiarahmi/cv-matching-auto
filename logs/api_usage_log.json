@@ -5004,22 +5004,15 @@
     ]
   },
   "2026-04-06": {
-    "total": 184,
-    "streamlit": 184,
+    "total": 185,
+    "streamlit": 185,
     "github_action": 0,
-    "successful": 184,
+    "successful": 185,
     "failed": 0,
     "positions": {
-      "Reporter Megapolitan": 184
+      "Reporter Megapolitan": 185
     },
     "entries": [
-      {
-        "timestamp": "2026-04-06 05:02:17",
-        "source": "streamlit",
-        "candidate": "Alif Rizqi Akbar Yunanto",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-06 05:02:50",
         "source": "streamlit",
@@ -5710,6 +5703,13 @@
         "timestamp": "2026-04-06 07:43:21",
         "source": "streamlit",
         "candidate": "Regina Mahal Fitrah",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-06 07:43:24",
+        "source": "streamlit",
+        "candidate": "Amisha Destira elianza",
         "position": "Reporter Megapolitan",
         "success": true
       }
