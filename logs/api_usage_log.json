@@ -5004,22 +5004,15 @@
     ]
   },
   "2026-04-06": {
-    "total": 149,
-    "streamlit": 149,
+    "total": 150,
+    "streamlit": 150,
     "github_action": 0,
-    "successful": 149,
+    "successful": 150,
     "failed": 0,
     "positions": {
-      "Reporter Megapolitan": 149
+      "Reporter Megapolitan": 150
     },
     "entries": [
-      {
-        "timestamp": "2026-04-06 04:17:10",
-        "source": "streamlit",
-        "candidate": "Rayhan SA",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-06 04:17:40",
         "source": "streamlit",
@@ -5710,6 +5703,13 @@
         "timestamp": "2026-04-06 07:22:30",
         "source": "streamlit",
         "candidate": "Tresye Alfa Ega  Turang",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-06 07:23:02",
+        "source": "streamlit",
+        "candidate": "Ghifarra Ayudiani",
         "position": "Reporter Megapolitan",
         "success": true
       }
