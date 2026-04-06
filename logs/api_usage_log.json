@@ -5004,22 +5004,15 @@
     ]
   },
   "2026-04-06": {
-    "total": 114,
-    "streamlit": 114,
+    "total": 115,
+    "streamlit": 115,
     "github_action": 0,
-    "successful": 114,
+    "successful": 115,
     "failed": 0,
     "positions": {
-      "Reporter Megapolitan": 114
+      "Reporter Megapolitan": 115
     },
     "entries": [
-      {
-        "timestamp": "2026-04-06 03:53:11",
-        "source": "streamlit",
-        "candidate": "Trisha Dantiani Husada",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-06 03:53:49",
         "source": "streamlit",
@@ -5710,6 +5703,13 @@
         "timestamp": "2026-04-06 06:14:55",
         "source": "streamlit",
         "candidate": "Jacko Agun",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-06 06:15:34",
+        "source": "streamlit",
+        "candidate": "Gregorius Bramantyo",
         "position": "Reporter Megapolitan",
         "success": true
       }
