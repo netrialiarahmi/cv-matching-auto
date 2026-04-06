@@ -5004,22 +5004,15 @@
     ]
   },
   "2026-04-06": {
-    "total": 133,
-    "streamlit": 133,
+    "total": 134,
+    "streamlit": 134,
     "github_action": 0,
-    "successful": 133,
+    "successful": 134,
     "failed": 0,
     "positions": {
-      "Reporter Megapolitan": 133
+      "Reporter Megapolitan": 134
     },
     "entries": [
-      {
-        "timestamp": "2026-04-06 04:09:34",
-        "source": "streamlit",
-        "candidate": "Wimby Safitri",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-06 04:10:03",
         "source": "streamlit",
@@ -5710,6 +5703,13 @@
         "timestamp": "2026-04-06 06:24:57",
         "source": "streamlit",
         "candidate": "Cecilia Situmorang",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-06 06:25:41",
+        "source": "streamlit",
+        "candidate": "Davina Aulia Sekarjagad",
         "position": "Reporter Megapolitan",
         "success": true
       }
