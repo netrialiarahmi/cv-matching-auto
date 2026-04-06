@@ -5004,22 +5004,15 @@
     ]
   },
   "2026-04-06": {
-    "total": 126,
-    "streamlit": 126,
+    "total": 127,
+    "streamlit": 127,
     "github_action": 0,
-    "successful": 126,
+    "successful": 127,
     "failed": 0,
     "positions": {
-      "Reporter Megapolitan": 126
+      "Reporter Megapolitan": 127
     },
     "entries": [
-      {
-        "timestamp": "2026-04-06 04:05:40",
-        "source": "streamlit",
-        "candidate": "Ayudya  Winessa",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-06 04:06:24",
         "source": "streamlit",
@@ -5710,6 +5703,13 @@
         "timestamp": "2026-04-06 06:21:15",
         "source": "streamlit",
         "candidate": "Dimas Candra",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-06 06:21:52",
+        "source": "streamlit",
+        "candidate": "Sardo Wibowo",
         "position": "Reporter Megapolitan",
         "success": true
       }
