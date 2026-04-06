@@ -5004,22 +5004,15 @@
     ]
   },
   "2026-04-06": {
-    "total": 117,
-    "streamlit": 117,
+    "total": 118,
+    "streamlit": 118,
     "github_action": 0,
-    "successful": 117,
+    "successful": 118,
     "failed": 0,
     "positions": {
-      "Reporter Megapolitan": 117
+      "Reporter Megapolitan": 118
     },
     "entries": [
-      {
-        "timestamp": "2026-04-06 03:54:28",
-        "source": "streamlit",
-        "candidate": "Hana Fathina Chaniago",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-06 03:55:02",
         "source": "streamlit",
@@ -5710,6 +5703,13 @@
         "timestamp": "2026-04-06 06:16:22",
         "source": "streamlit",
         "candidate": "Fathia Putri Dayinta",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-06 06:17:13",
+        "source": "streamlit",
+        "candidate": "Muhamad Wildan",
         "position": "Reporter Megapolitan",
         "success": true
       }
