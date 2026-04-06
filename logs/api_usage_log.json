@@ -5004,22 +5004,15 @@
     ]
   },
   "2026-04-06": {
-    "total": 177,
-    "streamlit": 177,
+    "total": 178,
+    "streamlit": 178,
     "github_action": 0,
-    "successful": 177,
+    "successful": 178,
     "failed": 0,
     "positions": {
-      "Reporter Megapolitan": 177
+      "Reporter Megapolitan": 178
     },
     "entries": [
-      {
-        "timestamp": "2026-04-06 04:58:09",
-        "source": "streamlit",
-        "candidate": "Sasa Rahmadhani",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-06 04:58:45",
         "source": "streamlit",
@@ -5710,6 +5703,13 @@
         "timestamp": "2026-04-06 07:39:01",
         "source": "streamlit",
         "candidate": "Muhammad rizki",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-06 07:39:36",
+        "source": "streamlit",
+        "candidate": "addiana  nikmatus sholikha",
         "position": "Reporter Megapolitan",
         "success": true
       }
