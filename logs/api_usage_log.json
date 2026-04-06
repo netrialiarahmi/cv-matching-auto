@@ -5004,22 +5004,15 @@
     ]
   },
   "2026-04-06": {
-    "total": 120,
-    "streamlit": 120,
+    "total": 121,
+    "streamlit": 121,
     "github_action": 0,
-    "successful": 120,
+    "successful": 121,
     "failed": 0,
     "positions": {
-      "Reporter Megapolitan": 120
+      "Reporter Megapolitan": 121
     },
     "entries": [
-      {
-        "timestamp": "2026-04-06 03:55:08",
-        "source": "streamlit",
-        "candidate": "Ahmad Tarmidzi",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-06 03:55:53",
         "source": "streamlit",
@@ -5710,6 +5703,13 @@
         "timestamp": "2026-04-06 06:17:57",
         "source": "streamlit",
         "candidate": "Herlin  Pratiwi",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-06 06:18:36",
+        "source": "streamlit",
+        "candidate": "Muhammad Nadhif Firdausi",
         "position": "Reporter Megapolitan",
         "success": true
       }
