@@ -5004,22 +5004,15 @@
     ]
   },
   "2026-04-06": {
-    "total": 209,
-    "streamlit": 209,
+    "total": 210,
+    "streamlit": 210,
     "github_action": 0,
-    "successful": 209,
+    "successful": 210,
     "failed": 0,
     "positions": {
-      "Reporter Megapolitan": 209
+      "Reporter Megapolitan": 210
     },
     "entries": [
-      {
-        "timestamp": "2026-04-06 06:12:33",
-        "source": "streamlit",
-        "candidate": "Safira Tri Cahya",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-06 06:13:05",
         "source": "streamlit",
@@ -5710,6 +5703,13 @@
         "timestamp": "2026-04-06 08:06:22",
         "source": "streamlit",
         "candidate": "gaby gabrielle",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-06 08:06:27",
+        "source": "streamlit",
+        "candidate": "Fajar Ramadhan",
         "position": "Reporter Megapolitan",
         "success": true
       }
