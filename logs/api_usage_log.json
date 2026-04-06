@@ -5004,22 +5004,15 @@
     ]
   },
   "2026-04-06": {
-    "total": 175,
-    "streamlit": 175,
+    "total": 176,
+    "streamlit": 176,
     "github_action": 0,
-    "successful": 175,
+    "successful": 176,
     "failed": 0,
     "positions": {
-      "Reporter Megapolitan": 175
+      "Reporter Megapolitan": 176
     },
     "entries": [
-      {
-        "timestamp": "2026-04-06 04:57:23",
-        "source": "streamlit",
-        "candidate": "Muhammad Rifal",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-06 04:57:25",
         "source": "streamlit",
@@ -5710,6 +5703,13 @@
         "timestamp": "2026-04-06 07:38:00",
         "source": "streamlit",
         "candidate": "Imaddudin Ahmad Juanda",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-06 07:38:26",
+        "source": "streamlit",
+        "candidate": "Andika Yudhistira",
         "position": "Reporter Megapolitan",
         "success": true
       }
