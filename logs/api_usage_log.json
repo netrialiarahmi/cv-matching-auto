@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 160,
+    "total": 161,
     "streamlit": 0,
-    "github_action": 160,
-    "successful": 160,
+    "github_action": 161,
+    "successful": 161,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 160
+      "Account Executive VCBL": 161
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 12:00:32",
-        "source": "github_action",
-        "candidate": "Devit werus siahaan",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 12:00:35",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 12:49:28",
         "source": "github_action",
         "candidate": "At Thariq Aleeyah Tsamara",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 12:50:01",
+        "source": "github_action",
+        "candidate": "Insyirah Ayu Ardila",
         "position": "Account Executive VCBL",
         "success": true
       }
