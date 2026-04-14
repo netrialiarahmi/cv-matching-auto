@@ -5716,13 +5716,13 @@
     ]
   },
   "2026-04-14": {
-    "total": 75,
+    "total": 76,
     "streamlit": 0,
-    "github_action": 75,
-    "successful": 75,
+    "github_action": 76,
+    "successful": 76,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 75
+      "Account Executive VCBL": 76
     },
     "entries": [
       {
@@ -6247,6 +6247,13 @@
         "timestamp": "2026-04-14 12:07:14",
         "source": "github_action",
         "candidate": "neng Halima",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 12:07:41",
+        "source": "github_action",
+        "candidate": "Adam Naufal Setiawan",
         "position": "Account Executive VCBL",
         "success": true
       }
