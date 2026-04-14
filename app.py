@@ -1649,6 +1649,10 @@ elif selected == "Dashboard":
         df["Interview Status"] = df["Interview Status"].fillna("").astype(str)
         df.loc[~df["Interview Status"].isin(["", "Lanjut", "Rejected"]), "Interview Status"] = ""
 
+    # Clean up Rejection Reason column - ensure string dtype (prevents float64 error on assignment)
+    if "Rejection Reason" in df.columns:
+        df["Rejection Reason"] = df["Rejection Reason"].fillna("").astype(str)
+
     # Convert numeric columns
     numeric_cols = ["Match Score"]
     for col in numeric_cols:

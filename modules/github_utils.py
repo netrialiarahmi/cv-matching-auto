@@ -317,9 +317,9 @@ def save_results_to_github(df, path=None, job_position=None, max_retries=3):
                 # Handle large files (>1MB) using raw URL instead of Contents API
                 # GitHub Contents API excludes content field for files >1MB
                 if file_size > GITHUB_CONTENTS_API_SIZE_LIMIT or "content" not in content:
-                    # Use raw.githubusercontent.com for large files
+                    # Use raw.githubusercontent.com for large files (with auth for private repos)
                     raw_url = f"https://raw.githubusercontent.com/{repo}/{branch}/{path}"
-                    r_raw = requests.get(raw_url, timeout=GITHUB_TIMEOUT)
+                    r_raw = requests.get(raw_url, headers=headers, timeout=GITHUB_TIMEOUT)
                     if r_raw.status_code == 200:
                         existing_csv = r_raw.text
                     else:
@@ -446,9 +446,9 @@ def load_results_from_github(path="results.csv"):
                 # GitHub Contents API has a size limit for inline content
                 # For files larger than this, download via raw URL instead
                 if file_size > GITHUB_CONTENTS_API_SIZE_LIMIT:
-                    # Use raw.githubusercontent.com for large files (no auth needed for public repos)
+                    # Use raw.githubusercontent.com for large files (with auth for private repos)
                     raw_url = f"https://raw.githubusercontent.com/{repo}/{branch}/{path}"
-                    r_raw = requests.get(raw_url, timeout=GITHUB_TIMEOUT)
+                    r_raw = requests.get(raw_url, headers=headers, timeout=GITHUB_TIMEOUT)
                     if r_raw.status_code == 200:
                         try:
                             df = pd.read_csv(StringIO(r_raw.text))
@@ -785,9 +785,9 @@ def load_job_positions_from_github(path="job_positions.csv"):
                 # GitHub Contents API has a size limit for inline content
                 # For files larger than this, download via raw URL instead
                 if file_size > GITHUB_CONTENTS_API_SIZE_LIMIT:
-                    # Use raw.githubusercontent.com for large files (no auth needed for public repos)
+                    # Use raw.githubusercontent.com for large files (with auth for private repos)
                     raw_url = f"https://raw.githubusercontent.com/{repo}/{branch}/{path}"
-                    r_raw = requests.get(raw_url, timeout=GITHUB_TIMEOUT)
+                    r_raw = requests.get(raw_url, headers=headers, timeout=GITHUB_TIMEOUT)
                     if r_raw.status_code == 200:
                         try:
                             df = pd.read_csv(StringIO(r_raw.text))
