@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 347,
+    "total": 348,
     "streamlit": 0,
-    "github_action": 347,
-    "successful": 347,
+    "github_action": 348,
+    "successful": 348,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 347
+      "Account Executive VCBL": 348
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 13:33:17",
-        "source": "github_action",
-        "candidate": "Aprina Septauli Manurung",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 13:33:49",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 14:19:02",
         "source": "github_action",
         "candidate": "Andi P Hamzah Pansuri MH",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 14:19:29",
+        "source": "github_action",
+        "candidate": "Muhamad Umbara Fajri",
         "position": "Account Executive VCBL",
         "success": true
       }
