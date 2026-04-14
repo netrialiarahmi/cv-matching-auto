@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 207,
+    "total": 208,
     "streamlit": 0,
-    "github_action": 207,
-    "successful": 207,
+    "github_action": 208,
+    "successful": 208,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 207
+      "Account Executive VCBL": 208
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 12:24:06",
-        "source": "github_action",
-        "candidate": "Mita Nurbaiti",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 12:24:39",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 13:13:08",
         "source": "github_action",
         "candidate": "Reynaldi Rizky Aulia Bassar",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 13:13:46",
+        "source": "github_action",
+        "candidate": "Faruqi Al Ghifari",
         "position": "Account Executive VCBL",
         "success": true
       }
