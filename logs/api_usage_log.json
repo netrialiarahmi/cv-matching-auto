@@ -5716,13 +5716,13 @@
     ]
   },
   "2026-04-14": {
-    "total": 33,
+    "total": 34,
     "streamlit": 0,
-    "github_action": 33,
-    "successful": 33,
+    "github_action": 34,
+    "successful": 34,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 33
+      "Account Executive VCBL": 34
     },
     "entries": [
       {
@@ -5953,6 +5953,13 @@
         "timestamp": "2026-04-14 11:46:23",
         "source": "github_action",
         "candidate": "Kristi Ayu",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 11:46:51",
+        "source": "github_action",
+        "candidate": "Gusti Fadillah",
         "position": "Account Executive VCBL",
         "success": true
       }
