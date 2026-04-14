@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 209,
+    "total": 210,
     "streamlit": 0,
-    "github_action": 209,
-    "successful": 209,
+    "github_action": 210,
+    "successful": 210,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 209
+      "Account Executive VCBL": 210
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 12:25:17",
-        "source": "github_action",
-        "candidate": "Adinda Maharani",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 12:25:49",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 13:14:17",
         "source": "github_action",
         "candidate": "Riza Daelami",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 13:14:49",
+        "source": "github_action",
+        "candidate": "Abdullah imam makarim destiawan",
         "position": "Account Executive VCBL",
         "success": true
       }
