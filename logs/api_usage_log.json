@@ -5716,13 +5716,13 @@
     ]
   },
   "2026-04-14": {
-    "total": 70,
+    "total": 71,
     "streamlit": 0,
-    "github_action": 70,
-    "successful": 70,
+    "github_action": 71,
+    "successful": 71,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 70
+      "Account Executive VCBL": 71
     },
     "entries": [
       {
@@ -6212,6 +6212,13 @@
         "timestamp": "2026-04-14 12:04:32",
         "source": "github_action",
         "candidate": "Faris Fadhilah",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 12:05:02",
+        "source": "github_action",
+        "candidate": "Jocelin Andiana",
         "position": "Account Executive VCBL",
         "success": true
       }
