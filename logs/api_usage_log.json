@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 172,
+    "total": 173,
     "streamlit": 0,
-    "github_action": 172,
-    "successful": 172,
+    "github_action": 173,
+    "successful": 173,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 172
+      "Account Executive VCBL": 173
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 12:06:11",
-        "source": "github_action",
-        "candidate": "Refaldo Refaldo",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 12:06:45",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 12:55:23",
         "source": "github_action",
         "candidate": "Sidiq Yogha Nariza",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 12:55:54",
+        "source": "github_action",
+        "candidate": "Hasna Muti Andini",
         "position": "Account Executive VCBL",
         "success": true
       }
