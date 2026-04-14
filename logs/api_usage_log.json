@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 341,
+    "total": 342,
     "streamlit": 0,
-    "github_action": 341,
-    "successful": 341,
+    "github_action": 342,
+    "successful": 342,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 341
+      "Account Executive VCBL": 342
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 13:30:56",
-        "source": "github_action",
-        "candidate": "David Martino Arreltama",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 13:30:59",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 14:15:49",
         "source": "github_action",
         "candidate": "Gina Agustiani",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 14:16:25",
+        "source": "github_action",
+        "candidate": "Kiki Gunawanti Khaerani Asri",
         "position": "Account Executive VCBL",
         "success": true
       }
