@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 342,
+    "total": 343,
     "streamlit": 0,
-    "github_action": 342,
-    "successful": 342,
+    "github_action": 343,
+    "successful": 343,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 342
+      "Account Executive VCBL": 343
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 13:30:59",
-        "source": "github_action",
-        "candidate": "ardhi purnomo",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 13:31:33",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 14:16:25",
         "source": "github_action",
         "candidate": "Kiki Gunawanti Khaerani Asri",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 14:16:57",
+        "source": "github_action",
+        "candidate": "Yudith Maura",
         "position": "Account Executive VCBL",
         "success": true
       }
