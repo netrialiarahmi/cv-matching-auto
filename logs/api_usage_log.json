@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 430,
+    "total": 431,
     "streamlit": 0,
-    "github_action": 430,
-    "successful": 430,
+    "github_action": 431,
+    "successful": 431,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 430
+      "Account Executive VCBL": 431
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 14:10:44",
-        "source": "github_action",
-        "candidate": "Muhammad Rosikhul Ilmi",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 14:11:16",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 14:55:08",
         "source": "github_action",
         "candidate": "Muhammad Fadhlurrahman Alifiansyah",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 14:55:34",
+        "source": "github_action",
+        "candidate": "Basilius Laia",
         "position": "Account Executive VCBL",
         "success": true
       }
