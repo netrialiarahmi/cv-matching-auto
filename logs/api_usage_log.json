@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 147,
+    "total": 148,
     "streamlit": 0,
-    "github_action": 147,
-    "successful": 147,
+    "github_action": 148,
+    "successful": 148,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 147
+      "Account Executive VCBL": 148
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 11:54:07",
-        "source": "github_action",
-        "candidate": "Putri Acika",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 11:54:36",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 12:43:52",
         "source": "github_action",
         "candidate": "Suryani Safitri",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 12:44:22",
+        "source": "github_action",
+        "candidate": "ALFA SANDI  SAPUTRA",
         "position": "Account Executive VCBL",
         "success": true
       }
