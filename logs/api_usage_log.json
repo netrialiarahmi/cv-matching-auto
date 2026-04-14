@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 289,
+    "total": 290,
     "streamlit": 0,
-    "github_action": 289,
-    "successful": 289,
+    "github_action": 290,
+    "successful": 290,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 289
+      "Account Executive VCBL": 290
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 13:03:53",
-        "source": "github_action",
-        "candidate": "Ricki Indra Permana Putra",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 13:04:38",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 13:52:20",
         "source": "github_action",
         "candidate": "Ajeng Fitri Nurahman Hakim",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 13:52:24",
+        "source": "github_action",
+        "candidate": "Inessa Ardia Putri",
         "position": "Account Executive VCBL",
         "success": true
       }
