@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 364,
+    "total": 365,
     "streamlit": 0,
-    "github_action": 364,
-    "successful": 364,
+    "github_action": 365,
+    "successful": 365,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 364
+      "Account Executive VCBL": 365
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 13:41:25",
-        "source": "github_action",
-        "candidate": "Widitra Rama",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 13:41:58",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 14:27:11",
         "source": "github_action",
         "candidate": "Lizia Nur Faiziah",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 14:27:46",
+        "source": "github_action",
+        "candidate": "Viona Mahardika Harjuni",
         "position": "Account Executive VCBL",
         "success": true
       }
