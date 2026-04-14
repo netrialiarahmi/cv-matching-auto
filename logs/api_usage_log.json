@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 232,
+    "total": 233,
     "streamlit": 0,
-    "github_action": 232,
-    "successful": 232,
+    "github_action": 233,
+    "successful": 233,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 232
+      "Account Executive VCBL": 233
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 12:36:54",
-        "source": "github_action",
-        "candidate": "Danielle Loise Dwi Putri Br. Sinurat",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 12:37:26",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 13:25:34",
         "source": "github_action",
         "candidate": "Margie Soetrisno",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 13:26:08",
+        "source": "github_action",
+        "candidate": "Rifqi Soeleiman",
         "position": "Account Executive VCBL",
         "success": true
       }
