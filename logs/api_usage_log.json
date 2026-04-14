@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 164,
+    "total": 165,
     "streamlit": 0,
-    "github_action": 164,
-    "successful": 164,
+    "github_action": 165,
+    "successful": 165,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 164
+      "Account Executive VCBL": 165
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 12:02:00",
-        "source": "github_action",
-        "candidate": "Muhammad Rafi Fauzi",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 12:02:33",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 12:51:37",
         "source": "github_action",
         "candidate": "Dwi Sandyka Radia Ramadan",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 12:52:08",
+        "source": "github_action",
+        "candidate": "Ardianto Pujo Wibowo",
         "position": "Account Executive VCBL",
         "success": true
       }
