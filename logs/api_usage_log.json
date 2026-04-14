@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 243,
+    "total": 244,
     "streamlit": 0,
-    "github_action": 243,
-    "successful": 243,
+    "github_action": 244,
+    "successful": 244,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 243
+      "Account Executive VCBL": 244
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 12:42:43",
-        "source": "github_action",
-        "candidate": "Ilham Rahmatulloh",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 12:43:15",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 13:30:59",
         "source": "github_action",
         "candidate": "ardhi purnomo",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 13:31:33",
+        "source": "github_action",
+        "candidate": "Huriyatul Hanna",
         "position": "Account Executive VCBL",
         "success": true
       }
