@@ -5716,13 +5716,13 @@
     ]
   },
   "2026-04-14": {
-    "total": 81,
+    "total": 82,
     "streamlit": 0,
-    "github_action": 81,
-    "successful": 81,
+    "github_action": 82,
+    "successful": 82,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 81
+      "Account Executive VCBL": 82
     },
     "entries": [
       {
@@ -6289,6 +6289,13 @@
         "timestamp": "2026-04-14 12:10:01",
         "source": "github_action",
         "candidate": "Zakiyah Nurseha",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 12:10:30",
+        "source": "github_action",
+        "candidate": "M Fitra Rachmandani",
         "position": "Account Executive VCBL",
         "success": true
       }
