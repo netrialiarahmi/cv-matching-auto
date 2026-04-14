@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 406,
+    "total": 407,
     "streamlit": 0,
-    "github_action": 406,
-    "successful": 406,
+    "github_action": 407,
+    "successful": 407,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 406
+      "Account Executive VCBL": 407
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 14:00:41",
-        "source": "github_action",
-        "candidate": "Dhianya Putri Shafiya Wicaksono",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 14:00:44",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 14:46:39",
         "source": "github_action",
         "candidate": "Syeira Aprillia Purwitasari",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 14:47:12",
+        "source": "github_action",
+        "candidate": "Nabila Retno",
         "position": "Account Executive VCBL",
         "success": true
       }
