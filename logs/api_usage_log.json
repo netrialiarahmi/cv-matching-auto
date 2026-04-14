@@ -5716,13 +5716,13 @@
     ]
   },
   "2026-04-14": {
-    "total": 53,
+    "total": 54,
     "streamlit": 0,
-    "github_action": 53,
-    "successful": 53,
+    "github_action": 54,
+    "successful": 54,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 53
+      "Account Executive VCBL": 54
     },
     "entries": [
       {
@@ -6093,6 +6093,13 @@
         "timestamp": "2026-04-14 11:56:32",
         "source": "github_action",
         "candidate": "Shabrina Fatika Syahrin",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 11:57:02",
+        "source": "github_action",
+        "candidate": "Giffa Noviandi",
         "position": "Account Executive VCBL",
         "success": true
       }
