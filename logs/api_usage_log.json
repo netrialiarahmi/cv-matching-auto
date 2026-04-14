@@ -5716,23 +5716,16 @@
     ]
   },
   "2026-04-14": {
-    "total": 617,
+    "total": 618,
     "streamlit": 0,
-    "github_action": 617,
-    "successful": 617,
+    "github_action": 618,
+    "successful": 618,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 451,
-      "Account Executive Pasangiklan.com": 166
+      "Account Executive Pasangiklan.com": 167
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 15:37:41",
-        "source": "github_action",
-        "candidate": "Rantas Prahara",
-        "position": "Account Executive Pasangiklan.com",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 15:37:57",
         "source": "github_action",
@@ -6423,6 +6416,13 @@
         "timestamp": "2026-04-14 16:27:15",
         "source": "github_action",
         "candidate": "Muhammad  Iqbal Ramadhan",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 16:27:49",
+        "source": "github_action",
+        "candidate": "Elfrida Fiola Siregar siregar",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
