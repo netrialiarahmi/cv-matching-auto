@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 450,
+    "total": 451,
     "streamlit": 0,
-    "github_action": 450,
-    "successful": 450,
+    "github_action": 451,
+    "successful": 451,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 450
+      "Account Executive VCBL": 451
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 14:20:53",
-        "source": "github_action",
-        "candidate": "Aldhi Krisna Randha",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 14:21:23",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 15:04:02",
         "source": "github_action",
         "candidate": "Kristian Rifaldi",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 15:04:05",
+        "source": "github_action",
+        "candidate": "Fanzz Store",
         "position": "Account Executive VCBL",
         "success": true
       }
