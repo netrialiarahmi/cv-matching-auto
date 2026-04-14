@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 282,
+    "total": 283,
     "streamlit": 0,
-    "github_action": 282,
-    "successful": 282,
+    "github_action": 283,
+    "successful": 283,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 282
+      "Account Executive VCBL": 283
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 13:01:06",
-        "source": "github_action",
-        "candidate": "muhammad ariel rafdi",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 13:01:39",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 13:48:47",
         "source": "github_action",
         "candidate": "Reyhan Dzaky",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 13:49:21",
+        "source": "github_action",
+        "candidate": "Muhamad Tegar Dwi Prasetyo",
         "position": "Account Executive VCBL",
         "success": true
       }
