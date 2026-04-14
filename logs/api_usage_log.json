@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 414,
+    "total": 415,
     "streamlit": 0,
-    "github_action": 414,
-    "successful": 414,
+    "github_action": 415,
+    "successful": 415,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 414
+      "Account Executive VCBL": 415
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 14:04:03",
-        "source": "github_action",
-        "candidate": "Beatrix Gotama",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 14:04:24",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 14:49:17",
         "source": "github_action",
         "candidate": "Hermes  Buana",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 14:49:21",
+        "source": "github_action",
+        "candidate": "Firli Amalya",
         "position": "Account Executive VCBL",
         "success": true
       }
