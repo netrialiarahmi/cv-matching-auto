@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 199,
+    "total": 200,
     "streamlit": 0,
-    "github_action": 199,
-    "successful": 199,
+    "github_action": 200,
+    "successful": 200,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 199
+      "Account Executive VCBL": 200
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 12:19:47",
-        "source": "github_action",
-        "candidate": "Kania Adhisty",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 12:20:18",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 13:08:43",
         "source": "github_action",
         "candidate": "Anthony Sugianto",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 13:09:24",
+        "source": "github_action",
+        "candidate": "Amadhea Putri Namira",
         "position": "Account Executive VCBL",
         "success": true
       }
