@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 110,
+    "total": 111,
     "streamlit": 0,
-    "github_action": 110,
-    "successful": 110,
+    "github_action": 111,
+    "successful": 111,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 110
+      "Account Executive VCBL": 111
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 11:34:40",
-        "source": "github_action",
-        "candidate": "Anggita Nathania",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 11:35:13",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 12:25:17",
         "source": "github_action",
         "candidate": "Adinda Maharani",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 12:25:49",
+        "source": "github_action",
+        "candidate": "Febriana Trie Anisa",
         "position": "Account Executive VCBL",
         "success": true
       }
