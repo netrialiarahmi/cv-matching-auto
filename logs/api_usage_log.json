@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 152,
+    "total": 153,
     "streamlit": 0,
-    "github_action": 152,
-    "successful": 152,
+    "github_action": 153,
+    "successful": 153,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 152
+      "Account Executive VCBL": 153
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 11:56:32",
-        "source": "github_action",
-        "candidate": "Shabrina Fatika Syahrin",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 11:57:02",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 12:46:40",
         "source": "github_action",
         "candidate": "Danti Maharani",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 12:47:14",
+        "source": "github_action",
+        "candidate": "Angela Christine",
         "position": "Account Executive VCBL",
         "success": true
       }
