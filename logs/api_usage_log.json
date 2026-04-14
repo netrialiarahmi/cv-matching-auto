@@ -5716,13 +5716,13 @@
     ]
   },
   "2026-04-14": {
-    "total": 38,
+    "total": 39,
     "streamlit": 0,
-    "github_action": 38,
-    "successful": 38,
+    "github_action": 39,
+    "successful": 39,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 38
+      "Account Executive VCBL": 39
     },
     "entries": [
       {
@@ -5988,6 +5988,13 @@
         "timestamp": "2026-04-14 11:48:56",
         "source": "github_action",
         "candidate": "Firman Fathurahman",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 11:49:29",
+        "source": "github_action",
+        "candidate": "Denune Gentastilar Wangsemukti",
         "position": "Account Executive VCBL",
         "success": true
       }
