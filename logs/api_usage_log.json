@@ -5716,23 +5716,16 @@
     ]
   },
   "2026-04-14": {
-    "total": 721,
+    "total": 722,
     "streamlit": 0,
-    "github_action": 721,
-    "successful": 721,
+    "github_action": 722,
+    "successful": 722,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 451,
-      "Account Executive Pasangiklan.com": 270
+      "Account Executive Pasangiklan.com": 271
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 16:29:41",
-        "source": "github_action",
-        "candidate": "indra suryapratama",
-        "position": "Account Executive Pasangiklan.com",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 16:30:10",
         "source": "github_action",
@@ -6423,6 +6416,13 @@
         "timestamp": "2026-04-14 17:18:47",
         "source": "github_action",
         "candidate": "MUHAMMAD ISLAM",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 17:19:19",
+        "source": "github_action",
+        "candidate": "caswita dewi",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
