@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 313,
+    "total": 314,
     "streamlit": 0,
-    "github_action": 313,
-    "successful": 313,
+    "github_action": 314,
+    "successful": 314,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 313
+      "Account Executive VCBL": 314
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 13:16:51",
-        "source": "github_action",
-        "candidate": "Rachma Ama",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 13:17:26",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 14:03:24",
         "source": "github_action",
         "candidate": "Mei liya Wulan dari",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 14:03:42",
+        "source": "github_action",
+        "candidate": "Grace Horstefanny",
         "position": "Account Executive VCBL",
         "success": true
       }
