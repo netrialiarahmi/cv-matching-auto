@@ -5716,13 +5716,13 @@
     ]
   },
   "2026-04-14": {
-    "total": 34,
+    "total": 35,
     "streamlit": 0,
-    "github_action": 34,
-    "successful": 34,
+    "github_action": 35,
+    "successful": 35,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 34
+      "Account Executive VCBL": 35
     },
     "entries": [
       {
@@ -5960,6 +5960,13 @@
         "timestamp": "2026-04-14 11:46:51",
         "source": "github_action",
         "candidate": "Gusti Fadillah",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 11:47:21",
+        "source": "github_action",
+        "candidate": "Anggit Widiyaningsih",
         "position": "Account Executive VCBL",
         "success": true
       }
