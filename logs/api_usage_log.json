@@ -5716,13 +5716,13 @@
     ]
   },
   "2026-04-14": {
-    "total": 82,
+    "total": 83,
     "streamlit": 0,
-    "github_action": 82,
-    "successful": 82,
+    "github_action": 83,
+    "successful": 83,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 82
+      "Account Executive VCBL": 83
     },
     "entries": [
       {
@@ -6296,6 +6296,13 @@
         "timestamp": "2026-04-14 12:10:30",
         "source": "github_action",
         "candidate": "M Fitra Rachmandani",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 12:11:06",
+        "source": "github_action",
+        "candidate": "Fadillah Triyadi",
         "position": "Account Executive VCBL",
         "success": true
       }
