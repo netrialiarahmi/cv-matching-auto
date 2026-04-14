@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 233,
+    "total": 234,
     "streamlit": 0,
-    "github_action": 233,
-    "successful": 233,
+    "github_action": 234,
+    "successful": 234,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 233
+      "Account Executive VCBL": 234
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 12:37:26",
-        "source": "github_action",
-        "candidate": "Yosabel Wijaya",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 12:37:59",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 13:26:08",
         "source": "github_action",
         "candidate": "Rifqi Soeleiman",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 13:26:42",
+        "source": "github_action",
+        "candidate": "Amelia Putri R",
         "position": "Account Executive VCBL",
         "success": true
       }
