@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 228,
+    "total": 229,
     "streamlit": 0,
-    "github_action": 228,
-    "successful": 228,
+    "github_action": 229,
+    "successful": 229,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 228
+      "Account Executive VCBL": 229
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 12:35:15",
-        "source": "github_action",
-        "candidate": "Nurul Anissa",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 12:35:49",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 13:23:53",
         "source": "github_action",
         "candidate": "SUTAN ANANDA RIESLY FAJAR MAULANA",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 13:23:57",
+        "source": "github_action",
+        "candidate": "Aulia Aisyatu Zakia",
         "position": "Account Executive VCBL",
         "success": true
       }
