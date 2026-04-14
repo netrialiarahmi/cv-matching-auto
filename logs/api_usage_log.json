@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 218,
+    "total": 219,
     "streamlit": 0,
-    "github_action": 218,
-    "successful": 218,
+    "github_action": 219,
+    "successful": 219,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 218
+      "Account Executive VCBL": 219
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 12:29:42",
-        "source": "github_action",
-        "candidate": "Ramadhany Hadi Pratama",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 12:30:19",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 13:19:09",
         "source": "github_action",
         "candidate": "Salma Alika",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 13:19:36",
+        "source": "github_action",
+        "candidate": "ragil dwi saputra",
         "position": "Account Executive VCBL",
         "success": true
       }
