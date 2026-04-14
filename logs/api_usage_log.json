@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 337,
+    "total": 338,
     "streamlit": 0,
-    "github_action": 337,
-    "successful": 337,
+    "github_action": 338,
+    "successful": 338,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 337
+      "Account Executive VCBL": 338
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 13:28:54",
-        "source": "github_action",
-        "candidate": "Hilbram Syahrul",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 13:29:23",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 14:13:44",
         "source": "github_action",
         "candidate": "Sumita Suci Damayanti",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 14:14:17",
+        "source": "github_action",
+        "candidate": "Yanina Turbana",
         "position": "Account Executive VCBL",
         "success": true
       }
