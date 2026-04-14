@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 162,
+    "total": 163,
     "streamlit": 0,
-    "github_action": 162,
-    "successful": 162,
+    "github_action": 163,
+    "successful": 163,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 162
+      "Account Executive VCBL": 163
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 12:01:01",
-        "source": "github_action",
-        "candidate": "Natasya Gita Cinta",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 12:01:31",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 12:50:31",
         "source": "github_action",
         "candidate": "juno ongko",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 12:51:06",
+        "source": "github_action",
+        "candidate": "Daffa Sandya Affansyah",
         "position": "Account Executive VCBL",
         "success": true
       }
