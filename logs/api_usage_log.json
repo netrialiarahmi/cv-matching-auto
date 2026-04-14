@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 236,
+    "total": 237,
     "streamlit": 0,
-    "github_action": 236,
-    "successful": 236,
+    "github_action": 237,
+    "successful": 237,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 236
+      "Account Executive VCBL": 237
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 12:39:00",
-        "source": "github_action",
-        "candidate": "Virli Putra",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 12:39:30",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 13:27:45",
         "source": "github_action",
         "candidate": "felix fernando",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 13:28:21",
+        "source": "github_action",
+        "candidate": "Rahmavita Naripati",
         "position": "Account Executive VCBL",
         "success": true
       }
