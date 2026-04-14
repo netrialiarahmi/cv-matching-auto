@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 197,
+    "total": 198,
     "streamlit": 0,
-    "github_action": 197,
-    "successful": 197,
+    "github_action": 198,
+    "successful": 198,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 197
+      "Account Executive VCBL": 198
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 12:18:43",
-        "source": "github_action",
-        "candidate": "Adrian Mufti",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 12:19:15",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 13:07:41",
         "source": "github_action",
         "candidate": "MUHAMMAD ISLAM",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 13:08:08",
+        "source": "github_action",
+        "candidate": "Vanya Soraya Irsanti",
         "position": "Account Executive VCBL",
         "success": true
       }
