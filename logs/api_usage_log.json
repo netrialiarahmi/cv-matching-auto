@@ -5716,13 +5716,13 @@
     ]
   },
   "2026-04-14": {
-    "total": 11,
+    "total": 12,
     "streamlit": 0,
-    "github_action": 11,
-    "successful": 11,
+    "github_action": 12,
+    "successful": 12,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 11
+      "Account Executive VCBL": 12
     },
     "entries": [
       {
@@ -5799,6 +5799,13 @@
         "timestamp": "2026-04-14 11:34:40",
         "source": "github_action",
         "candidate": "Anggita Nathania",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 11:35:13",
+        "source": "github_action",
+        "candidate": "Febrina Ulhaq",
         "position": "Account Executive VCBL",
         "success": true
       }
