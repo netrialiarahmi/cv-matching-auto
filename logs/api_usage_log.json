@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 384,
+    "total": 385,
     "streamlit": 0,
-    "github_action": 384,
-    "successful": 384,
+    "github_action": 385,
+    "successful": 385,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 384
+      "Account Executive VCBL": 385
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 13:50:21",
-        "source": "github_action",
-        "candidate": "Muhamad Ramdan",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 13:50:49",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 14:35:53",
         "source": "github_action",
         "candidate": "Cenwi Agnes Vanecia Putri",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 14:36:22",
+        "source": "github_action",
+        "candidate": "Monicha Elisabeth Simanjuntak",
         "position": "Account Executive VCBL",
         "success": true
       }
