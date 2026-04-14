@@ -5716,23 +5716,16 @@
     ]
   },
   "2026-04-14": {
-    "total": 460,
+    "total": 461,
     "streamlit": 0,
-    "github_action": 460,
-    "successful": 460,
+    "github_action": 461,
+    "successful": 461,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 451,
-      "Account Executive Pasangiklan.com": 9
+      "Account Executive Pasangiklan.com": 10
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 14:25:45",
-        "source": "github_action",
-        "candidate": "Dhea amara shezikya",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 14:26:13",
         "source": "github_action",
@@ -6423,6 +6416,13 @@
         "timestamp": "2026-04-14 15:08:06",
         "source": "github_action",
         "candidate": "Darma wansah",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 15:08:41",
+        "source": "github_action",
+        "candidate": "Jaka Swandana",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
