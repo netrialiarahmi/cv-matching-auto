@@ -5716,23 +5716,16 @@
     ]
   },
   "2026-04-14": {
-    "total": 704,
+    "total": 705,
     "streamlit": 0,
-    "github_action": 704,
-    "successful": 704,
+    "github_action": 705,
+    "successful": 705,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 451,
-      "Account Executive Pasangiklan.com": 253
+      "Account Executive Pasangiklan.com": 254
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 16:21:16",
-        "source": "github_action",
-        "candidate": "Desy Safitri",
-        "position": "Account Executive Pasangiklan.com",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 16:21:48",
         "source": "github_action",
@@ -6423,6 +6416,13 @@
         "timestamp": "2026-04-14 17:09:55",
         "source": "github_action",
         "candidate": "Andhira Juanita Pasya",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 17:10:25",
+        "source": "github_action",
+        "candidate": "Nisa Nur Amalia",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
