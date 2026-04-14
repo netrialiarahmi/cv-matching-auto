@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 154,
+    "total": 155,
     "streamlit": 0,
-    "github_action": 154,
-    "successful": 154,
+    "github_action": 155,
+    "successful": 155,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 154
+      "Account Executive VCBL": 155
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 11:57:31",
-        "source": "github_action",
-        "candidate": "Ruth Santy Siregar",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 11:57:57",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 12:47:45",
         "source": "github_action",
         "candidate": "Elfrida Fiola Siregar siregar",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 12:48:18",
+        "source": "github_action",
+        "candidate": "Amelia Riyanti",
         "position": "Account Executive VCBL",
         "success": true
       }
