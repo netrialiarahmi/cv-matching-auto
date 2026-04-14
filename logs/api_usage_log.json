@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 229,
+    "total": 230,
     "streamlit": 0,
-    "github_action": 229,
-    "successful": 229,
+    "github_action": 230,
+    "successful": 230,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 229
+      "Account Executive VCBL": 230
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 12:35:49",
-        "source": "github_action",
-        "candidate": "Greg Kristamulyana",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 12:36:18",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 13:23:57",
         "source": "github_action",
         "candidate": "Aulia Aisyatu Zakia",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 13:24:26",
+        "source": "github_action",
+        "candidate": "Oryza Zaidandio",
         "position": "Account Executive VCBL",
         "success": true
       }
