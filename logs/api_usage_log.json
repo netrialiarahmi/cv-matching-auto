@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 273,
+    "total": 274,
     "streamlit": 0,
-    "github_action": 273,
-    "successful": 273,
+    "github_action": 274,
+    "successful": 274,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 273
+      "Account Executive VCBL": 274
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 12:56:25",
-        "source": "github_action",
-        "candidate": "Matin Muhammad",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 12:56:54",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 13:44:45",
         "source": "github_action",
         "candidate": "Alif Rizky Fadhillah",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 13:45:16",
+        "source": "github_action",
+        "candidate": "Sherina Agustina",
         "position": "Account Executive VCBL",
         "success": true
       }
