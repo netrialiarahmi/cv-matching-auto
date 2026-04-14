@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 438,
+    "total": 439,
     "streamlit": 0,
-    "github_action": 438,
-    "successful": 438,
+    "github_action": 439,
+    "successful": 439,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 438
+      "Account Executive VCBL": 439
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 14:14:43",
-        "source": "github_action",
-        "candidate": "Timotius Ardi Pradana",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 14:15:14",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 14:58:30",
         "source": "github_action",
         "candidate": "Nurul rajab",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 14:59:05",
+        "source": "github_action",
+        "candidate": "Sentiana  Marbun",
         "position": "Account Executive VCBL",
         "success": true
       }
