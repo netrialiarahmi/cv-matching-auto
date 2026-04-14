@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 378,
+    "total": 379,
     "streamlit": 0,
-    "github_action": 378,
-    "successful": 378,
+    "github_action": 379,
+    "successful": 379,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 378
+      "Account Executive VCBL": 379
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 13:47:19",
-        "source": "github_action",
-        "candidate": "Mayangsari Karina Putri",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 13:47:46",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 14:33:06",
         "source": "github_action",
         "candidate": "Rizki Eka Oktavianto",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 14:33:36",
+        "source": "github_action",
+        "candidate": "Rini R",
         "position": "Account Executive VCBL",
         "success": true
       }
