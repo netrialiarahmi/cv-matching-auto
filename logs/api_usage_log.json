@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 392,
+    "total": 393,
     "streamlit": 0,
-    "github_action": 392,
-    "successful": 392,
+    "github_action": 393,
+    "successful": 393,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 392
+      "Account Executive VCBL": 393
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 13:53:47",
-        "source": "github_action",
-        "candidate": "Jamil Saepul Azis",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 13:54:22",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 14:39:47",
         "source": "github_action",
         "candidate": "Aisyah, S.M.",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 14:40:17",
+        "source": "github_action",
+        "candidate": "Besta Aulina Zaqiah",
         "position": "Account Executive VCBL",
         "success": true
       }
