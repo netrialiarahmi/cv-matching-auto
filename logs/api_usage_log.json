@@ -5716,23 +5716,16 @@
     ]
   },
   "2026-04-14": {
-    "total": 474,
+    "total": 475,
     "streamlit": 0,
-    "github_action": 474,
-    "successful": 474,
+    "github_action": 475,
+    "successful": 475,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 451,
-      "Account Executive Pasangiklan.com": 23
+      "Account Executive Pasangiklan.com": 24
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 14:32:02",
-        "source": "github_action",
-        "candidate": "Pankratius Tri Lucianto",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 14:32:05",
         "source": "github_action",
@@ -6423,6 +6416,13 @@
         "timestamp": "2026-04-14 15:15:41",
         "source": "github_action",
         "candidate": "Puteri Natasya",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 15:16:07",
+        "source": "github_action",
+        "candidate": "Kristi Ayu",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
