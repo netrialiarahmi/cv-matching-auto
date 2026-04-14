@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 184,
+    "total": 185,
     "streamlit": 0,
-    "github_action": 184,
-    "successful": 184,
+    "github_action": 185,
+    "successful": 185,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 184
+      "Account Executive VCBL": 185
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 12:12:02",
-        "source": "github_action",
-        "candidate": "Abdillah Adriansyah",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 12:12:29",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 13:01:39",
         "source": "github_action",
         "candidate": "M Fadhil Ramadhan",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 13:02:05",
+        "source": "github_action",
+        "candidate": "Hafidh Muhammad Ibnu Sina",
         "position": "Account Executive VCBL",
         "success": true
       }
