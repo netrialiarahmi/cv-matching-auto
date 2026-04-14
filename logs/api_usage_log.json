@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 227,
+    "total": 228,
     "streamlit": 0,
-    "github_action": 227,
-    "successful": 227,
+    "github_action": 228,
+    "successful": 228,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 227
+      "Account Executive VCBL": 228
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 12:34:33",
-        "source": "github_action",
-        "candidate": "Rio Aurelio",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 12:35:15",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 13:23:21",
         "source": "github_action",
         "candidate": "Windi Helvira",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 13:23:53",
+        "source": "github_action",
+        "candidate": "SUTAN ANANDA RIESLY FAJAR MAULANA",
         "position": "Account Executive VCBL",
         "success": true
       }
