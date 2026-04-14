@@ -5716,23 +5716,16 @@
     ]
   },
   "2026-04-14": {
-    "total": 652,
+    "total": 653,
     "streamlit": 0,
-    "github_action": 652,
-    "successful": 652,
+    "github_action": 653,
+    "successful": 653,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 451,
-      "Account Executive Pasangiklan.com": 201
+      "Account Executive Pasangiklan.com": 202
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 15:55:29",
-        "source": "github_action",
-        "candidate": "Muhammad Reza Muzaky",
-        "position": "Account Executive Pasangiklan.com",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 15:55:47",
         "source": "github_action",
@@ -6423,6 +6416,13 @@
         "timestamp": "2026-04-14 16:44:30",
         "source": "github_action",
         "candidate": "Priscillia Manda",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 16:45:03",
+        "source": "github_action",
+        "candidate": "Rifqi Ali Rahman",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
