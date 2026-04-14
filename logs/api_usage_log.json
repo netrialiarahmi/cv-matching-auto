@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 102,
+    "total": 103,
     "streamlit": 0,
-    "github_action": 102,
-    "successful": 102,
+    "github_action": 103,
+    "successful": 103,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 102
+      "Account Executive VCBL": 103
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 11:30:14",
-        "source": "github_action",
-        "candidate": "Ta Fang",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 11:30:45",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 12:20:50",
         "source": "github_action",
         "candidate": "Mutiah Munawar",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 12:21:20",
+        "source": "github_action",
+        "candidate": "Muhammad Fahransyah",
         "position": "Account Executive VCBL",
         "success": true
       }
