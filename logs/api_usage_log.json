@@ -5716,23 +5716,16 @@
     ]
   },
   "2026-04-14": {
-    "total": 539,
+    "total": 540,
     "streamlit": 0,
-    "github_action": 539,
-    "successful": 539,
+    "github_action": 540,
+    "successful": 540,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 451,
-      "Account Executive Pasangiklan.com": 88
+      "Account Executive Pasangiklan.com": 89
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 14:59:09",
-        "source": "github_action",
-        "candidate": "Puspita Sarii",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 14:59:41",
         "source": "github_action",
@@ -6423,6 +6416,13 @@
         "timestamp": "2026-04-14 15:48:33",
         "source": "github_action",
         "candidate": "Muhammad Ravel Satria",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 15:48:52",
+        "source": "github_action",
+        "candidate": "Duwi Adinda Safitra",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
