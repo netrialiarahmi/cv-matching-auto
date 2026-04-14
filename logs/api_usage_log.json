@@ -5716,13 +5716,13 @@
     ]
   },
   "2026-04-14": {
-    "total": 44,
+    "total": 45,
     "streamlit": 0,
-    "github_action": 44,
-    "successful": 44,
+    "github_action": 45,
+    "successful": 45,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 44
+      "Account Executive VCBL": 45
     },
     "entries": [
       {
@@ -6030,6 +6030,13 @@
         "timestamp": "2026-04-14 11:52:04",
         "source": "github_action",
         "candidate": "Hardian Mendel",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 11:52:34",
+        "source": "github_action",
+        "candidate": "Akbar Adzani",
         "position": "Account Executive VCBL",
         "success": true
       }
