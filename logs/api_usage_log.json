@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 231,
+    "total": 232,
     "streamlit": 0,
-    "github_action": 231,
-    "successful": 231,
+    "github_action": 232,
+    "successful": 232,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 231
+      "Account Executive VCBL": 232
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 12:36:21",
-        "source": "github_action",
-        "candidate": "nur triantoro",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 12:36:54",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 13:24:55",
         "source": "github_action",
         "candidate": "Rizki Muhammad Ramadiansyah",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 13:25:34",
+        "source": "github_action",
+        "candidate": "Margie Soetrisno",
         "position": "Account Executive VCBL",
         "success": true
       }
