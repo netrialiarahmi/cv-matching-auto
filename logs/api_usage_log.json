@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 412,
+    "total": 413,
     "streamlit": 0,
-    "github_action": 412,
-    "successful": 412,
+    "github_action": 413,
+    "successful": 413,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 412
+      "Account Executive VCBL": 413
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 14:03:24",
-        "source": "github_action",
-        "candidate": "Mei liya Wulan dari",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 14:03:42",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 14:48:18",
         "source": "github_action",
         "candidate": "Juanina Gomes",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 14:48:49",
+        "source": "github_action",
+        "candidate": "Hanny Nuraeni Maharani",
         "position": "Account Executive VCBL",
         "success": true
       }
