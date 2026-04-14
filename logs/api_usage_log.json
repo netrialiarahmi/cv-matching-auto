@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 288,
+    "total": 289,
     "streamlit": 0,
-    "github_action": 288,
-    "successful": 288,
+    "github_action": 289,
+    "successful": 289,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 288
+      "Account Executive VCBL": 289
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 13:03:49",
-        "source": "github_action",
-        "candidate": "Parto  Simanihuruk",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 13:03:53",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 13:51:53",
         "source": "github_action",
         "candidate": "Aufa Sofyan",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 13:52:20",
+        "source": "github_action",
+        "candidate": "Ajeng Fitri Nurahman Hakim",
         "position": "Account Executive VCBL",
         "success": true
       }
