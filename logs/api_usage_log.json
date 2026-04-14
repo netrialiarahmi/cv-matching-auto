@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 370,
+    "total": 371,
     "streamlit": 0,
-    "github_action": 370,
-    "successful": 370,
+    "github_action": 371,
+    "successful": 371,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 370
+      "Account Executive VCBL": 371
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 13:43:41",
-        "source": "github_action",
-        "candidate": "Hafizh Jawas",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 13:44:03",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 14:29:47",
         "source": "github_action",
         "candidate": "Aflaha Fathuroh",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 14:30:20",
+        "source": "github_action",
+        "candidate": "Deanna Zerlina",
         "position": "Account Executive VCBL",
         "success": true
       }
