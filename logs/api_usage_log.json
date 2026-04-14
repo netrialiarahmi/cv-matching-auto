@@ -5716,13 +5716,13 @@
     ]
   },
   "2026-04-14": {
-    "total": 92,
+    "total": 93,
     "streamlit": 0,
-    "github_action": 92,
-    "successful": 92,
+    "github_action": 93,
+    "successful": 93,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 92
+      "Account Executive VCBL": 93
     },
     "entries": [
       {
@@ -6366,6 +6366,13 @@
         "timestamp": "2026-04-14 12:15:23",
         "source": "github_action",
         "candidate": "chantika kesuma",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 12:15:51",
+        "source": "github_action",
+        "candidate": "Marselina Utami",
         "position": "Account Executive VCBL",
         "success": true
       }
