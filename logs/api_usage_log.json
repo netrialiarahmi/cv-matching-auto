@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 440,
+    "total": 441,
     "streamlit": 0,
-    "github_action": 440,
-    "successful": 440,
+    "github_action": 441,
+    "successful": 441,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 440
+      "Account Executive VCBL": 441
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 14:15:49",
-        "source": "github_action",
-        "candidate": "Gina Agustiani",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 14:16:25",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 14:59:09",
         "source": "github_action",
         "candidate": "Puspita Sarii",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 14:59:41",
+        "source": "github_action",
+        "candidate": "Khofifah Rini",
         "position": "Account Executive VCBL",
         "success": true
       }
