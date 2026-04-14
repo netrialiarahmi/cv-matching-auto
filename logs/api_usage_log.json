@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 354,
+    "total": 355,
     "streamlit": 0,
-    "github_action": 354,
-    "successful": 354,
+    "github_action": 355,
+    "successful": 355,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 354
+      "Account Executive VCBL": 355
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 13:37:07",
-        "source": "github_action",
-        "candidate": "Flavius Anggara",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 13:37:38",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 14:22:20",
         "source": "github_action",
         "candidate": "syifin al mufti",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 14:22:48",
+        "source": "github_action",
+        "candidate": "irfan sianturi",
         "position": "Account Executive VCBL",
         "success": true
       }
