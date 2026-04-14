@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 130,
+    "total": 131,
     "streamlit": 0,
-    "github_action": 130,
-    "successful": 130,
+    "github_action": 131,
+    "successful": 131,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 130
+      "Account Executive VCBL": 131
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 11:45:10",
-        "source": "github_action",
-        "candidate": "Muhammad Feyzel Khalfani Putra Ardanesworo",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 11:45:48",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 12:35:49",
         "source": "github_action",
         "candidate": "Greg Kristamulyana",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 12:36:18",
+        "source": "github_action",
+        "candidate": "Ilham Aprilano",
         "position": "Account Executive VCBL",
         "success": true
       }
