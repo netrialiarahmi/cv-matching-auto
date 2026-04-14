@@ -5716,23 +5716,16 @@
     ]
   },
   "2026-04-14": {
-    "total": 718,
+    "total": 719,
     "streamlit": 0,
-    "github_action": 718,
-    "successful": 718,
+    "github_action": 719,
+    "successful": 719,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 451,
-      "Account Executive Pasangiklan.com": 267
+      "Account Executive Pasangiklan.com": 268
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 16:28:04",
-        "source": "github_action",
-        "candidate": "Kgs Abdul Rasyid",
-        "position": "Account Executive Pasangiklan.com",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 16:28:35",
         "source": "github_action",
@@ -6423,6 +6416,13 @@
         "timestamp": "2026-04-14 17:17:17",
         "source": "github_action",
         "candidate": "Razi Muhammad",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 17:17:50",
+        "source": "github_action",
+        "candidate": "Fadrin Fadhlan",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
