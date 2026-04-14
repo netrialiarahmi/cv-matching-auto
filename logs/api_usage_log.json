@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 161,
+    "total": 162,
     "streamlit": 0,
-    "github_action": 161,
-    "successful": 161,
+    "github_action": 162,
+    "successful": 162,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 161
+      "Account Executive VCBL": 162
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 12:00:35",
-        "source": "github_action",
-        "candidate": "Bagas Indra Pratama",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 12:01:01",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 12:50:01",
         "source": "github_action",
         "candidate": "Insyirah Ayu Ardila",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 12:50:31",
+        "source": "github_action",
+        "candidate": "juno ongko",
         "position": "Account Executive VCBL",
         "success": true
       }
