@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 107,
+    "total": 108,
     "streamlit": 0,
-    "github_action": 107,
-    "successful": 107,
+    "github_action": 108,
+    "successful": 108,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 107
+      "Account Executive VCBL": 108
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 11:33:02",
-        "source": "github_action",
-        "candidate": "Farah Nurfiyanti",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 11:33:35",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 12:23:35",
         "source": "github_action",
         "candidate": "TEUKU FADRIANSYAH ACBAR RIZA",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 12:24:06",
+        "source": "github_action",
+        "candidate": "Mita Nurbaiti",
         "position": "Account Executive VCBL",
         "success": true
       }
