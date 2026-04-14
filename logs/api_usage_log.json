@@ -5716,13 +5716,13 @@
     ]
   },
   "2026-04-14": {
-    "total": 77,
+    "total": 78,
     "streamlit": 0,
-    "github_action": 77,
-    "successful": 77,
+    "github_action": 78,
+    "successful": 78,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 77
+      "Account Executive VCBL": 78
     },
     "entries": [
       {
@@ -6261,6 +6261,13 @@
         "timestamp": "2026-04-14 12:08:08",
         "source": "github_action",
         "candidate": "INDIRA MAHARANI",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 12:08:36",
+        "source": "github_action",
+        "candidate": "Deni Nurhidayat",
         "position": "Account Executive VCBL",
         "success": true
       }
