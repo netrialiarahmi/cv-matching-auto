@@ -5716,23 +5716,16 @@
     ]
   },
   "2026-04-14": {
-    "total": 649,
+    "total": 650,
     "streamlit": 0,
-    "github_action": 649,
-    "successful": 649,
+    "github_action": 650,
+    "successful": 650,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 451,
-      "Account Executive Pasangiklan.com": 198
+      "Account Executive Pasangiklan.com": 199
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 15:54:02",
-        "source": "github_action",
-        "candidate": "Nabila Febrini",
-        "position": "Account Executive Pasangiklan.com",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 15:54:24",
         "source": "github_action",
@@ -6423,6 +6416,13 @@
         "timestamp": "2026-04-14 16:43:22",
         "source": "github_action",
         "candidate": "Sarah Alika",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 16:43:52",
+        "source": "github_action",
+        "candidate": "Aurelia Librinaningrum",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
