@@ -5716,13 +5716,13 @@
     ]
   },
   "2026-04-14": {
-    "total": 67,
+    "total": 68,
     "streamlit": 0,
-    "github_action": 67,
-    "successful": 67,
+    "github_action": 68,
+    "successful": 68,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 67
+      "Account Executive VCBL": 68
     },
     "entries": [
       {
@@ -6191,6 +6191,13 @@
         "timestamp": "2026-04-14 12:03:00",
         "source": "github_action",
         "candidate": "Somba  Setiawan",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 12:03:30",
+        "source": "github_action",
+        "candidate": "Vandeniar Kennindya",
         "position": "Account Executive VCBL",
         "success": true
       }
