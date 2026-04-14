@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 132,
+    "total": 133,
     "streamlit": 0,
-    "github_action": 132,
-    "successful": 132,
+    "github_action": 133,
+    "successful": 133,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 132
+      "Account Executive VCBL": 133
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 11:46:23",
-        "source": "github_action",
-        "candidate": "Kristi Ayu",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 11:46:51",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 12:36:21",
         "source": "github_action",
         "candidate": "nur triantoro",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 12:36:54",
+        "source": "github_action",
+        "candidate": "Danielle Loise Dwi Putri Br. Sinurat",
         "position": "Account Executive VCBL",
         "success": true
       }
