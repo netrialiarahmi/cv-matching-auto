@@ -5716,13 +5716,13 @@
     ]
   },
   "2026-04-14": {
-    "total": 87,
+    "total": 88,
     "streamlit": 0,
-    "github_action": 87,
-    "successful": 87,
+    "github_action": 88,
+    "successful": 88,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 87
+      "Account Executive VCBL": 88
     },
     "entries": [
       {
@@ -6331,6 +6331,13 @@
         "timestamp": "2026-04-14 12:12:54",
         "source": "github_action",
         "candidate": "Kurnia Brahmantara",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 12:13:25",
+        "source": "github_action",
+        "candidate": "M. AKMAL  EFFENDI",
         "position": "Account Executive VCBL",
         "success": true
       }
