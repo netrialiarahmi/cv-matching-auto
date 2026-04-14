@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 424,
+    "total": 425,
     "streamlit": 0,
-    "github_action": 424,
-    "successful": 424,
+    "github_action": 425,
+    "successful": 425,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 424
+      "Account Executive VCBL": 425
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 14:08:04",
-        "source": "github_action",
-        "candidate": "Puji lestari",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 14:08:33",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 14:52:47",
         "source": "github_action",
         "candidate": "Nailah Zahra",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 14:53:15",
+        "source": "github_action",
+        "candidate": "nur aini sari",
         "position": "Account Executive VCBL",
         "success": true
       }
