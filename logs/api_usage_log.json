@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 189,
+    "total": 190,
     "streamlit": 0,
-    "github_action": 189,
-    "successful": 189,
+    "github_action": 190,
+    "successful": 190,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 189
+      "Account Executive VCBL": 190
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 12:14:27",
-        "source": "github_action",
-        "candidate": "Andri Widhiyanto",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 12:14:57",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 13:03:49",
         "source": "github_action",
         "candidate": "Parto  Simanihuruk",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 13:03:53",
+        "source": "github_action",
+        "candidate": "Ricki Indra Permana Putra",
         "position": "Account Executive VCBL",
         "success": true
       }
