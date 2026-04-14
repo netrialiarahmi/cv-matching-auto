@@ -5716,13 +5716,13 @@
     ]
   },
   "2026-04-14": {
-    "total": 25,
+    "total": 26,
     "streamlit": 0,
-    "github_action": 25,
-    "successful": 25,
+    "github_action": 26,
+    "successful": 26,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 25
+      "Account Executive VCBL": 26
     },
     "entries": [
       {
@@ -5897,6 +5897,13 @@
         "timestamp": "2026-04-14 11:41:52",
         "source": "github_action",
         "candidate": "Andrian Tantya",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 11:42:26",
+        "source": "github_action",
+        "candidate": "iqbal muhammad",
         "position": "Account Executive VCBL",
         "success": true
       }
