@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 367,
+    "total": 368,
     "streamlit": 0,
-    "github_action": 367,
-    "successful": 367,
+    "github_action": 368,
+    "successful": 368,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 367
+      "Account Executive VCBL": 368
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 13:43:02",
-        "source": "github_action",
-        "candidate": "Fatmawati",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 13:43:22",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 14:28:31",
         "source": "github_action",
         "candidate": "Vikri Haekal Maulana",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 14:28:59",
+        "source": "github_action",
+        "candidate": "Jemy kartika Putra",
         "position": "Account Executive VCBL",
         "success": true
       }
