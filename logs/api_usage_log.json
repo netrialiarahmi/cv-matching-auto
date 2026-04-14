@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 171,
+    "total": 172,
     "streamlit": 0,
-    "github_action": 171,
-    "successful": 171,
+    "github_action": 172,
+    "successful": 172,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 171
+      "Account Executive VCBL": 172
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 12:05:41",
-        "source": "github_action",
-        "candidate": "Faradila Shavira",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 12:06:11",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 12:55:20",
         "source": "github_action",
         "candidate": "Pinkan Maliha Yasmin",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 12:55:23",
+        "source": "github_action",
+        "candidate": "Sidiq Yogha Nariza",
         "position": "Account Executive VCBL",
         "success": true
       }
