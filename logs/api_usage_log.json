@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 121,
+    "total": 122,
     "streamlit": 0,
-    "github_action": 121,
-    "successful": 121,
+    "github_action": 122,
+    "successful": 122,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 121
+      "Account Executive VCBL": 122
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 11:40:19",
-        "source": "github_action",
-        "candidate": "Haris Pramajakti",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 11:40:50",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 12:30:52",
         "source": "github_action",
         "candidate": "Adelia Citra Larasati",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 12:31:27",
+        "source": "github_action",
+        "candidate": "Ilham Putra",
         "position": "Account Executive VCBL",
         "success": true
       }
