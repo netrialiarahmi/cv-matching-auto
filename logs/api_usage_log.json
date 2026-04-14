@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 297,
+    "total": 298,
     "streamlit": 0,
-    "github_action": 297,
-    "successful": 297,
+    "github_action": 298,
+    "successful": 298,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 297
+      "Account Executive VCBL": 298
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 13:08:08",
-        "source": "github_action",
-        "candidate": "Vanya Soraya Irsanti",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 13:08:43",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 13:55:53",
         "source": "github_action",
         "candidate": "Rozzie D. A. Wiraraja",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 13:56:25",
+        "source": "github_action",
+        "candidate": "Tracy Silalahi",
         "position": "Account Executive VCBL",
         "success": true
       }
