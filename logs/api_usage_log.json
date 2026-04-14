@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 447,
+    "total": 448,
     "streamlit": 0,
-    "github_action": 447,
-    "successful": 447,
+    "github_action": 448,
+    "successful": 448,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 447
+      "Account Executive VCBL": 448
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 14:19:29",
-        "source": "github_action",
-        "candidate": "Muhamad Umbara Fajri",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 14:19:57",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 15:03:12",
         "source": "github_action",
         "candidate": "Aditia Sebayang",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 15:03:42",
+        "source": "github_action",
+        "candidate": "Rengga Saputra",
         "position": "Account Executive VCBL",
         "success": true
       }
