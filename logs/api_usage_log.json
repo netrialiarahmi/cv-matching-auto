@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 319,
+    "total": 320,
     "streamlit": 0,
-    "github_action": 319,
-    "successful": 319,
+    "github_action": 320,
+    "successful": 320,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 319
+      "Account Executive VCBL": 320
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 13:20:14",
-        "source": "github_action",
-        "candidate": "Lowdy Filan Arsyandi",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 13:20:47",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 14:05:37",
         "source": "github_action",
         "candidate": "Atsiilah Pratiwi",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 14:06:03",
+        "source": "github_action",
+        "candidate": "Aulia Shobrina",
         "position": "Account Executive VCBL",
         "success": true
       }
