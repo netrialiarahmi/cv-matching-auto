@@ -5716,23 +5716,16 @@
     ]
   },
   "2026-04-14": {
-    "total": 710,
+    "total": 711,
     "streamlit": 0,
-    "github_action": 710,
-    "successful": 710,
+    "github_action": 711,
+    "successful": 711,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 451,
-      "Account Executive Pasangiklan.com": 259
+      "Account Executive Pasangiklan.com": 260
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 16:23:55",
-        "source": "github_action",
-        "candidate": "renus riyoko",
-        "position": "Account Executive Pasangiklan.com",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 16:24:28",
         "source": "github_action",
@@ -6423,6 +6416,13 @@
         "timestamp": "2026-04-14 17:13:05",
         "source": "github_action",
         "candidate": "Elsa Alvionita",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 17:13:08",
+        "source": "github_action",
+        "candidate": "Airell Reinhard",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
