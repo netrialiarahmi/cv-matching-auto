@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 101,
+    "total": 102,
     "streamlit": 0,
-    "github_action": 101,
-    "successful": 101,
+    "github_action": 102,
+    "successful": 102,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 101
+      "Account Executive VCBL": 102
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 11:29:52",
-        "source": "github_action",
-        "candidate": "Sheryl Hermione",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 11:30:14",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 12:20:18",
         "source": "github_action",
         "candidate": "Annisa Rahma nan",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 12:20:50",
+        "source": "github_action",
+        "candidate": "Mutiah Munawar",
         "position": "Account Executive VCBL",
         "success": true
       }
