@@ -428,5 +428,8 @@ async def export_position(playwright, position_name, job_id, kaid, kb):
     csv_path = EXPORT_DIR / f"{safe_name}.csv"
     df.to_csv(csv_path, index=False)
 
+    # Return relative path (relative to project root) for portability across environments
+    relative_csv_path = csv_path.relative_to(PROJECT_ROOT)
+
     print(f"✅ Saved: {csv_path} ({len(df)} rows, {len(df.columns)} columns)")
-    return str(len(df)), str(csv_path)
+    return str(len(df)), str(relative_csv_path)

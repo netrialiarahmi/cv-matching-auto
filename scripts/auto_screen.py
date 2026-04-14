@@ -42,12 +42,16 @@ from modules.usage_logger import log_cv_processing, print_daily_summary
 import requests
 
 
+# Project root directory (for resolving relative paths)
+PROJECT_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+
+
 def fetch_candidates_from_sheet_csv(csv_url):
     """
     Fetch candidates from CSV (local file path or remote URL).
     
     Args:
-        csv_url: Local file path or direct URL to CSV file
+        csv_url: Local file path (absolute or relative to project root) or direct URL to CSV file
         
     Returns:
         DataFrame or None
@@ -61,24 +65,42 @@ def fetch_candidates_from_sheet_csv(csv_url):
     csv_url = str(csv_url).strip()
     
     try:
-        # Check if it's a local file path
-        if os.path.isfile(csv_url):
-            print(f"   Loading CSV from local file: {csv_url}")
-            df = pd.read_csv(csv_url)
+        # Check if it's a URL (starts with http/https)
+        if csv_url.startswith('http://') or csv_url.startswith('https://'):
+            print(f"   Downloading CSV from File Storage...")
+            response = requests.get(csv_url, timeout=30)
+            response.raise_for_status()
+            
+            from io import StringIO
+            csv_content = StringIO(response.text)
+            df = pd.read_csv(csv_content)
+            
+            print(f"   ✅ Successfully loaded {len(df)} candidates from CSV")
+            return df
+        
+        # It's a local file path — resolve relative to project root
+        file_path = csv_url
+        if not os.path.isabs(file_path):
+            file_path = os.path.join(PROJECT_ROOT, file_path)
+        
+        if os.path.isfile(file_path):
+            print(f"   Loading CSV from local file: {file_path}")
+            df = pd.read_csv(file_path)
             print(f"   ✅ Successfully loaded {len(df)} candidates from local CSV")
             return df
         
-        # Otherwise treat as URL
-        print(f"   Downloading CSV from File Storage...")
-        response = requests.get(csv_url, timeout=30)
-        response.raise_for_status()
+        # If absolute path failed, try extracting just the kalibrr_exports/... part
+        if 'kalibrr_exports' in csv_url:
+            relative_part = csv_url[csv_url.index('kalibrr_exports'):]
+            resolved = os.path.join(PROJECT_ROOT, relative_part)
+            if os.path.isfile(resolved):
+                print(f"   Loading CSV from resolved path: {resolved}")
+                df = pd.read_csv(resolved)
+                print(f"   ✅ Successfully loaded {len(df)} candidates from local CSV")
+                return df
         
-        from io import StringIO
-        csv_content = StringIO(response.text)
-        df = pd.read_csv(csv_content)
-        
-        print(f"   ✅ Successfully loaded {len(df)} candidates from CSV")
-        return df
+        print(f"   ❌ File not found: {file_path}")
+        return None
     except Exception as e:
         print(f"   ❌ Error loading CSV: {str(e)}")
         return None
@@ -305,17 +327,17 @@ def screen_position(position_name, job_description, job_id, csv_url=None):
         print(f"📋 Loading candidates from sheet_positions.csv...")
         candidates_df = fetch_candidates_from_sheet_csv(csv_url)
         
-        # Fallback: if remote URL failed, try local CSV in kalibrr_exports/
-        if (candidates_df is None or candidates_df.empty) and csv_url and not os.path.isfile(str(csv_url)):
+        # Fallback: if CSV load failed, try local CSV in kalibrr_exports/
+        if candidates_df is None or candidates_df.empty:
             safe_name = (position_name
                          .replace(" ", "_")
                          .replace(".", "")
                          .replace("/", "_")
                          .replace("(", "")
                          .replace(")", ""))
-            local_csv = os.path.join('kalibrr_exports', f'{safe_name}.csv')
+            local_csv = os.path.join(PROJECT_ROOT, 'kalibrr_exports', f'{safe_name}.csv')
             if os.path.isfile(local_csv):
-                print(f"   📂 Remote URL failed, falling back to local CSV: {local_csv}")
+                print(f"   📂 Falling back to local CSV: {local_csv}")
                 candidates_df = fetch_candidates_from_sheet_csv(local_csv)
         
         if candidates_df is None or candidates_df.empty:
@@ -671,7 +693,7 @@ def main():
                          .replace("/", "_")
                          .replace("(", "")
                          .replace(")", ""))
-            local_csv = os.path.join('kalibrr_exports', f'{safe_name}.csv')
+            local_csv = os.path.join(PROJECT_ROOT, 'kalibrr_exports', f'{safe_name}.csv')
             if os.path.isfile(local_csv):
                 csv_url = local_csv
                 print(f"   📂 Using local CSV: {local_csv}")
