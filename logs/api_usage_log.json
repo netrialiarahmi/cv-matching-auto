@@ -5716,23 +5716,16 @@
     ]
   },
   "2026-04-14": {
-    "total": 566,
+    "total": 567,
     "streamlit": 0,
-    "github_action": 566,
-    "successful": 566,
+    "github_action": 567,
+    "successful": 567,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 451,
-      "Account Executive Pasangiklan.com": 115
+      "Account Executive Pasangiklan.com": 116
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 15:12:16",
-        "source": "github_action",
-        "candidate": "Fajar Nopridatama",
-        "position": "Account Executive Pasangiklan.com",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 15:12:37",
         "source": "github_action",
@@ -6423,6 +6416,13 @@
         "timestamp": "2026-04-14 16:02:06",
         "source": "github_action",
         "candidate": "Muh Nofal Pamungkas Wibisana",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 16:02:37",
+        "source": "github_action",
+        "candidate": "Mahsa Aulianti Putri",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
