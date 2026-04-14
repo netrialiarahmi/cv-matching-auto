@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 388,
+    "total": 389,
     "streamlit": 0,
-    "github_action": 388,
-    "successful": 388,
+    "github_action": 389,
+    "successful": 389,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 388
+      "Account Executive VCBL": 389
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 13:52:20",
-        "source": "github_action",
-        "candidate": "Ajeng Fitri Nurahman Hakim",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 13:52:24",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 14:37:51",
         "source": "github_action",
         "candidate": "Devira Yuristia",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 14:38:20",
+        "source": "github_action",
+        "candidate": "Rizky Adriyanto",
         "position": "Account Executive VCBL",
         "success": true
       }
