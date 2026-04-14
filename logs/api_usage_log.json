@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 142,
+    "total": 143,
     "streamlit": 0,
-    "github_action": 142,
-    "successful": 142,
+    "github_action": 143,
+    "successful": 143,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 142
+      "Account Executive VCBL": 143
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 11:51:31",
-        "source": "github_action",
-        "candidate": "Prisca Salsabilla",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 11:52:04",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 12:41:41",
         "source": "github_action",
         "candidate": "Mohammed ata saubilhaqy",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 12:42:12",
+        "source": "github_action",
+        "candidate": "Deswita Maharani",
         "position": "Account Executive VCBL",
         "success": true
       }
