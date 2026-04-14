@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 329,
+    "total": 330,
     "streamlit": 0,
-    "github_action": 329,
-    "successful": 329,
+    "github_action": 330,
+    "successful": 330,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 329
+      "Account Executive VCBL": 330
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 13:24:26",
-        "source": "github_action",
-        "candidate": "Oryza Zaidandio",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 13:24:55",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 14:09:44",
         "source": "github_action",
         "candidate": "Adam Rizki Ramadhan",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 14:10:14",
+        "source": "github_action",
+        "candidate": "Kholid Kika Ansori",
         "position": "Account Executive VCBL",
         "success": true
       }
