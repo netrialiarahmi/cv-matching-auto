@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 186,
+    "total": 187,
     "streamlit": 0,
-    "github_action": 186,
-    "successful": 186,
+    "github_action": 187,
+    "successful": 187,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 186
+      "Account Executive VCBL": 187
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 12:12:54",
-        "source": "github_action",
-        "candidate": "Kurnia Brahmantara",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 12:13:25",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 13:02:08",
         "source": "github_action",
         "candidate": "Dwi Syahra",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 13:02:41",
+        "source": "github_action",
+        "candidate": "Jaka Perdana",
         "position": "Account Executive VCBL",
         "success": true
       }
