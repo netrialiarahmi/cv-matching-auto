@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 133,
+    "total": 134,
     "streamlit": 0,
-    "github_action": 133,
-    "successful": 133,
+    "github_action": 134,
+    "successful": 134,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 133
+      "Account Executive VCBL": 134
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 11:46:51",
-        "source": "github_action",
-        "candidate": "Gusti Fadillah",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 11:47:21",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 12:36:54",
         "source": "github_action",
         "candidate": "Danielle Loise Dwi Putri Br. Sinurat",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 12:37:26",
+        "source": "github_action",
+        "candidate": "Yosabel Wijaya",
         "position": "Account Executive VCBL",
         "success": true
       }
