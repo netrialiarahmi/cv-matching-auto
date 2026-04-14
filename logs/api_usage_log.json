@@ -5716,23 +5716,16 @@
     ]
   },
   "2026-04-14": {
-    "total": 693,
+    "total": 694,
     "streamlit": 0,
-    "github_action": 693,
-    "successful": 693,
+    "github_action": 694,
+    "successful": 694,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 451,
-      "Account Executive Pasangiklan.com": 242
+      "Account Executive Pasangiklan.com": 243
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 16:15:43",
-        "source": "github_action",
-        "candidate": "Hikmah  Liani",
-        "position": "Account Executive Pasangiklan.com",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 16:16:19",
         "source": "github_action",
@@ -6423,6 +6416,13 @@
         "timestamp": "2026-04-14 17:04:57",
         "source": "github_action",
         "candidate": "raihan achyar",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 17:05:31",
+        "source": "github_action",
+        "candidate": "Dita Aura Fitri Gunawan",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
