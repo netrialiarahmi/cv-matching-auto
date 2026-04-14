@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 212,
+    "total": 213,
     "streamlit": 0,
-    "github_action": 212,
-    "successful": 212,
+    "github_action": 213,
+    "successful": 213,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 212
+      "Account Executive VCBL": 213
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 12:26:27",
-        "source": "github_action",
-        "candidate": "Hapsari Kusumastuti",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 12:27:02",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 13:15:51",
         "source": "github_action",
         "candidate": "Angelica Ersalina",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 13:16:20",
+        "source": "github_action",
+        "candidate": "Muhammad Izza Lathiif",
         "position": "Account Executive VCBL",
         "success": true
       }
