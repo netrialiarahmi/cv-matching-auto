@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 178,
+    "total": 179,
     "streamlit": 0,
-    "github_action": 178,
-    "successful": 178,
+    "github_action": 179,
+    "successful": 179,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 178
+      "Account Executive VCBL": 179
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 12:09:05",
-        "source": "github_action",
-        "candidate": "Tamara Rudang Astari Sinaga",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 12:09:32",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 12:58:26",
         "source": "github_action",
         "candidate": "Helena Caesaria",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 12:58:56",
+        "source": "github_action",
+        "candidate": "camila chairunnisa",
         "position": "Account Executive VCBL",
         "success": true
       }
