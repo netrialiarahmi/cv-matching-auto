@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 368,
+    "total": 369,
     "streamlit": 0,
-    "github_action": 368,
-    "successful": 368,
+    "github_action": 369,
+    "successful": 369,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 368
+      "Account Executive VCBL": 369
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 13:43:22",
-        "source": "github_action",
-        "candidate": "Felix Bernardo",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 13:43:38",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 14:28:59",
         "source": "github_action",
         "candidate": "Jemy kartika Putra",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 14:29:29",
+        "source": "github_action",
+        "candidate": "DEVI AYU RAHMATIKA",
         "position": "Account Executive VCBL",
         "success": true
       }
