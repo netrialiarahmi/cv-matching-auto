@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 125,
+    "total": 126,
     "streamlit": 0,
-    "github_action": 125,
-    "successful": 125,
+    "github_action": 126,
+    "successful": 126,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 125
+      "Account Executive VCBL": 126
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 11:42:26",
-        "source": "github_action",
-        "candidate": "iqbal muhammad",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 11:43:00",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 12:33:10",
         "source": "github_action",
         "candidate": "Atikah Syakurah",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 12:33:40",
+        "source": "github_action",
+        "candidate": "Faisal Marwan",
         "position": "Account Executive VCBL",
         "success": true
       }
