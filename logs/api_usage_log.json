@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 410,
+    "total": 411,
     "streamlit": 0,
-    "github_action": 410,
-    "successful": 410,
+    "github_action": 411,
+    "successful": 411,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 410
+      "Account Executive VCBL": 411
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 14:02:27",
-        "source": "github_action",
-        "candidate": "Arum widya",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 14:02:53",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 14:48:12",
         "source": "github_action",
         "candidate": "Sheila Pradhita",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 14:48:15",
+        "source": "github_action",
+        "candidate": "Laksa Wingga",
         "position": "Account Executive VCBL",
         "success": true
       }
