@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 306,
+    "total": 307,
     "streamlit": 0,
-    "github_action": 306,
-    "successful": 306,
+    "github_action": 307,
+    "successful": 307,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 306
+      "Account Executive VCBL": 307
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 13:13:08",
-        "source": "github_action",
-        "candidate": "Reynaldi Rizky Aulia Bassar",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 13:13:46",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 14:00:18",
         "source": "github_action",
         "candidate": "Anastasya Theresia Bidara",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 14:00:41",
+        "source": "github_action",
+        "candidate": "Dhianya Putri Shafiya Wicaksono",
         "position": "Account Executive VCBL",
         "success": true
       }
