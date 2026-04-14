@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 259,
+    "total": 260,
     "streamlit": 0,
-    "github_action": 259,
-    "successful": 259,
+    "github_action": 260,
+    "successful": 260,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 259
+      "Account Executive VCBL": 260
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 12:49:28",
-        "source": "github_action",
-        "candidate": "At Thariq Aleeyah Tsamara",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 12:50:01",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 13:39:16",
         "source": "github_action",
         "candidate": "Rully Anggi Akbar Akbar",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 13:39:20",
+        "source": "github_action",
+        "candidate": "Rani Nur Afifah",
         "position": "Account Executive VCBL",
         "success": true
       }
