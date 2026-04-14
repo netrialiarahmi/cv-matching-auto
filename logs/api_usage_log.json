@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 365,
+    "total": 366,
     "streamlit": 0,
-    "github_action": 365,
-    "successful": 365,
+    "github_action": 366,
+    "successful": 366,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 365
+      "Account Executive VCBL": 366
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 13:41:58",
-        "source": "github_action",
-        "candidate": "Mohamad Dani Setiawardi",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 13:42:28",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 14:27:46",
         "source": "github_action",
         "candidate": "Viona Mahardika Harjuni",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 14:28:14",
+        "source": "github_action",
+        "candidate": "Muhammad Fikri",
         "position": "Account Executive VCBL",
         "success": true
       }
