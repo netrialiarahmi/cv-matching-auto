@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 238,
+    "total": 239,
     "streamlit": 0,
-    "github_action": 238,
-    "successful": 238,
+    "github_action": 239,
+    "successful": 239,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 238
+      "Account Executive VCBL": 239
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 12:40:04",
-        "source": "github_action",
-        "candidate": "Wati Sitohang",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 12:40:33",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 13:28:54",
         "source": "github_action",
         "candidate": "Hilbram Syahrul",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 13:29:23",
+        "source": "github_action",
+        "candidate": "Aqsya Shaqilla",
         "position": "Account Executive VCBL",
         "success": true
       }
