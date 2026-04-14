@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 429,
+    "total": 430,
     "streamlit": 0,
-    "github_action": 429,
-    "successful": 429,
+    "github_action": 430,
+    "successful": 430,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 429
+      "Account Executive VCBL": 430
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 14:10:14",
-        "source": "github_action",
-        "candidate": "Kholid Kika Ansori",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 14:10:44",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 14:54:35",
         "source": "github_action",
         "candidate": "Haris Agus nandar",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 14:55:08",
+        "source": "github_action",
+        "candidate": "Muhammad Fadhlurrahman Alifiansyah",
         "position": "Account Executive VCBL",
         "success": true
       }
