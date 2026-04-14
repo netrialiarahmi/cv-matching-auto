@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 442,
+    "total": 443,
     "streamlit": 0,
-    "github_action": 442,
-    "successful": 442,
+    "github_action": 443,
+    "successful": 443,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 442
+      "Account Executive VCBL": 443
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 14:16:57",
-        "source": "github_action",
-        "candidate": "Yudith Maura",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 14:17:32",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 15:00:20",
         "source": "github_action",
         "candidate": "Hafizh Zaffan",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 15:00:55",
+        "source": "github_action",
+        "candidate": "Mohamad Haikal Jordani",
         "position": "Account Executive VCBL",
         "success": true
       }
