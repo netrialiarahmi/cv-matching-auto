@@ -5716,13 +5716,13 @@
     ]
   },
   "2026-04-14": {
-    "total": 28,
+    "total": 29,
     "streamlit": 0,
-    "github_action": 28,
-    "successful": 28,
+    "github_action": 29,
+    "successful": 29,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 28
+      "Account Executive VCBL": 29
     },
     "entries": [
       {
@@ -5918,6 +5918,13 @@
         "timestamp": "2026-04-14 11:43:37",
         "source": "github_action",
         "candidate": "anira putri",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 11:44:08",
+        "source": "github_action",
+        "candidate": "Frisky Adventius Zendrato",
         "position": "Account Executive VCBL",
         "success": true
       }
