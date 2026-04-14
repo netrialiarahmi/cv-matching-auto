@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 173,
+    "total": 174,
     "streamlit": 0,
-    "github_action": 173,
-    "successful": 173,
+    "github_action": 174,
+    "successful": 174,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 173
+      "Account Executive VCBL": 174
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 12:06:45",
-        "source": "github_action",
-        "candidate": "Dicky Andhyka Priambudi",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 12:07:14",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 12:55:54",
         "source": "github_action",
         "candidate": "Hasna Muti Andini",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 12:56:25",
+        "source": "github_action",
+        "candidate": "Matin Muhammad",
         "position": "Account Executive VCBL",
         "success": true
       }
