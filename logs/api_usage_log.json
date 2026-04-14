@@ -5716,13 +5716,13 @@
     ]
   },
   "2026-04-14": {
-    "total": 76,
+    "total": 77,
     "streamlit": 0,
-    "github_action": 76,
-    "successful": 76,
+    "github_action": 77,
+    "successful": 77,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 76
+      "Account Executive VCBL": 77
     },
     "entries": [
       {
@@ -6254,6 +6254,13 @@
         "timestamp": "2026-04-14 12:07:41",
         "source": "github_action",
         "candidate": "Adam Naufal Setiawan",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 12:08:08",
+        "source": "github_action",
+        "candidate": "INDIRA MAHARANI",
         "position": "Account Executive VCBL",
         "success": true
       }
