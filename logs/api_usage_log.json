@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 225,
+    "total": 226,
     "streamlit": 0,
-    "github_action": 225,
-    "successful": 225,
+    "github_action": 226,
+    "successful": 226,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 225
+      "Account Executive VCBL": 226
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 12:33:40",
-        "source": "github_action",
-        "candidate": "Faisal Marwan",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 12:34:14",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 13:22:48",
         "source": "github_action",
         "candidate": "Muhammad Kevandra",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 13:22:52",
+        "source": "github_action",
+        "candidate": "raihan achyar",
         "position": "Account Executive VCBL",
         "success": true
       }
