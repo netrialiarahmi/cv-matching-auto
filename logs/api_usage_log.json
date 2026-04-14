@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 266,
+    "total": 267,
     "streamlit": 0,
-    "github_action": 266,
-    "successful": 266,
+    "github_action": 267,
+    "successful": 267,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 266
+      "Account Executive VCBL": 267
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 12:53:06",
-        "source": "github_action",
-        "candidate": "Jamaluddin An-Nashar",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 12:53:44",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 13:41:58",
         "source": "github_action",
         "candidate": "Mohamad Dani Setiawardi",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 13:42:28",
+        "source": "github_action",
+        "candidate": "Ramadhan Aldiansyah",
         "position": "Account Executive VCBL",
         "success": true
       }
