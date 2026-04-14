@@ -5716,13 +5716,13 @@
     ]
   },
   "2026-04-14": {
-    "total": 69,
+    "total": 70,
     "streamlit": 0,
-    "github_action": 69,
-    "successful": 69,
+    "github_action": 70,
+    "successful": 70,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 69
+      "Account Executive VCBL": 70
     },
     "entries": [
       {
@@ -6205,6 +6205,13 @@
         "timestamp": "2026-04-14 12:04:00",
         "source": "github_action",
         "candidate": "Rania Prabandari",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 12:04:32",
+        "source": "github_action",
+        "candidate": "Faris Fadhilah",
         "position": "Account Executive VCBL",
         "success": true
       }
