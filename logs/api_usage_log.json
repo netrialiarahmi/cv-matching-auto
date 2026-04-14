@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 285,
+    "total": 286,
     "streamlit": 0,
-    "github_action": 285,
-    "successful": 285,
+    "github_action": 286,
+    "successful": 286,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 285
+      "Account Executive VCBL": 286
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 13:02:08",
-        "source": "github_action",
-        "candidate": "Dwi Syahra",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 13:02:41",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 13:50:21",
         "source": "github_action",
         "candidate": "Muhamad Ramdan",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 13:50:49",
+        "source": "github_action",
+        "candidate": "Ravena Ophellia Ditya Medina",
         "position": "Account Executive VCBL",
         "success": true
       }
