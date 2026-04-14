@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 136,
+    "total": 137,
     "streamlit": 0,
-    "github_action": 136,
-    "successful": 136,
+    "github_action": 137,
+    "successful": 137,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 136
+      "Account Executive VCBL": 137
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 11:48:26",
-        "source": "github_action",
-        "candidate": "Henri Hartantyo",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 11:48:56",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 12:38:28",
         "source": "github_action",
         "candidate": "Muhammad Haidar Farid",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 12:39:00",
+        "source": "github_action",
+        "candidate": "Virli Putra",
         "position": "Account Executive VCBL",
         "success": true
       }
