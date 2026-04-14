@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 135,
+    "total": 136,
     "streamlit": 0,
-    "github_action": 135,
-    "successful": 135,
+    "github_action": 136,
+    "successful": 136,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 135
+      "Account Executive VCBL": 136
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 11:47:53",
-        "source": "github_action",
-        "candidate": "Faris Anwar Munawar",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 11:48:26",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 12:37:59",
         "source": "github_action",
         "candidate": "Ayu Amrita Trihadiono Putri",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 12:38:28",
+        "source": "github_action",
+        "candidate": "Muhammad Haidar Farid",
         "position": "Account Executive VCBL",
         "success": true
       }
