@@ -5716,19 +5716,26 @@
     ]
   },
   "2026-04-14": {
-    "total": 1,
+    "total": 2,
     "streamlit": 0,
-    "github_action": 1,
-    "successful": 1,
+    "github_action": 2,
+    "successful": 2,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 1
+      "Account Executive VCBL": 2
     },
     "entries": [
       {
         "timestamp": "2026-04-14 11:29:19",
         "source": "github_action",
         "candidate": "Firli Hasbi",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 11:29:52",
+        "source": "github_action",
+        "candidate": "Sheryl Hermione",
         "position": "Account Executive VCBL",
         "success": true
       }
