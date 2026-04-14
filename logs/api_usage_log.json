@@ -5716,23 +5716,16 @@
     ]
   },
   "2026-04-14": {
-    "total": 648,
+    "total": 649,
     "streamlit": 0,
-    "github_action": 648,
-    "successful": 648,
+    "github_action": 649,
+    "successful": 649,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 451,
-      "Account Executive Pasangiklan.com": 197
+      "Account Executive Pasangiklan.com": 198
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 15:53:30",
-        "source": "github_action",
-        "candidate": "Hans Darryl",
-        "position": "Account Executive Pasangiklan.com",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 15:54:02",
         "source": "github_action",
@@ -6423,6 +6416,13 @@
         "timestamp": "2026-04-14 16:43:03",
         "source": "github_action",
         "candidate": "Rifaldita Yunika",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 16:43:22",
+        "source": "github_action",
+        "candidate": "Sarah Alika",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
