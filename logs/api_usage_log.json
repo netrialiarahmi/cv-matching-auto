@@ -5716,13 +5716,13 @@
     ]
   },
   "2026-04-14": {
-    "total": 9,
+    "total": 10,
     "streamlit": 0,
-    "github_action": 9,
-    "successful": 9,
+    "github_action": 10,
+    "successful": 10,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 9
+      "Account Executive VCBL": 10
     },
     "entries": [
       {
@@ -5785,6 +5785,13 @@
         "timestamp": "2026-04-14 11:33:35",
         "source": "github_action",
         "candidate": "Arij Dawaman",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 11:34:08",
+        "source": "github_action",
+        "candidate": "Mohamad Irsahdulrizal",
         "position": "Account Executive VCBL",
         "success": true
       }
