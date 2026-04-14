@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 163,
+    "total": 164,
     "streamlit": 0,
-    "github_action": 163,
-    "successful": 163,
+    "github_action": 164,
+    "successful": 164,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 163
+      "Account Executive VCBL": 164
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 12:01:31",
-        "source": "github_action",
-        "candidate": "Ady Ramzy",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 12:02:00",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 12:51:06",
         "source": "github_action",
         "candidate": "Daffa Sandya Affansyah",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 12:51:37",
+        "source": "github_action",
+        "candidate": "Dwi Sandyka Radia Ramadan",
         "position": "Account Executive VCBL",
         "success": true
       }
