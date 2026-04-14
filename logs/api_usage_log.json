@@ -5716,23 +5716,16 @@
     ]
   },
   "2026-04-14": {
-    "total": 637,
+    "total": 638,
     "streamlit": 0,
-    "github_action": 637,
-    "successful": 637,
+    "github_action": 638,
+    "successful": 638,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 451,
-      "Account Executive Pasangiklan.com": 186
+      "Account Executive Pasangiklan.com": 187
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 15:48:02",
-        "source": "github_action",
-        "candidate": "Iqbal  Aulia Ahsan",
-        "position": "Account Executive Pasangiklan.com",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 15:48:33",
         "source": "github_action",
@@ -6423,6 +6416,13 @@
         "timestamp": "2026-04-14 16:37:13",
         "source": "github_action",
         "candidate": "Sony Putra",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 16:37:44",
+        "source": "github_action",
+        "candidate": "Yogi Pradana",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
