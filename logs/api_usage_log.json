@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 138,
+    "total": 139,
     "streamlit": 0,
-    "github_action": 138,
-    "successful": 138,
+    "github_action": 139,
+    "successful": 139,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 138
+      "Account Executive VCBL": 139
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 11:49:29",
-        "source": "github_action",
-        "candidate": "Denune Gentastilar Wangsemukti",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 11:49:58",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 12:39:30",
         "source": "github_action",
         "candidate": "Galang Aryo Pangestu",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 12:40:04",
+        "source": "github_action",
+        "candidate": "Wati Sitohang",
         "position": "Account Executive VCBL",
         "success": true
       }
