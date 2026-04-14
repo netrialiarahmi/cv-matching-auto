@@ -5716,23 +5716,16 @@
     ]
   },
   "2026-04-14": {
-    "total": 488,
+    "total": 489,
     "streamlit": 0,
-    "github_action": 488,
-    "successful": 488,
+    "github_action": 489,
+    "successful": 489,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 451,
-      "Account Executive Pasangiklan.com": 37
+      "Account Executive Pasangiklan.com": 38
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 14:38:20",
-        "source": "github_action",
-        "candidate": "Rizky Adriyanto",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 14:38:52",
         "source": "github_action",
@@ -6423,6 +6416,13 @@
         "timestamp": "2026-04-14 15:22:45",
         "source": "github_action",
         "candidate": "Anas Tasya Wibowo",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 15:23:14",
+        "source": "github_action",
+        "candidate": "Muhammad Fathan",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
