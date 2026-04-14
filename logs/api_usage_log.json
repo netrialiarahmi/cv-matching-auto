@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 114,
+    "total": 115,
     "streamlit": 0,
-    "github_action": 114,
-    "successful": 114,
+    "github_action": 115,
+    "successful": 115,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 114
+      "Account Executive VCBL": 115
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 11:36:42",
-        "source": "github_action",
-        "candidate": "Damian Axeline",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 11:37:15",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 12:27:02",
         "source": "github_action",
         "candidate": "Dyo Prana Bhaskara",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 12:27:36",
+        "source": "github_action",
+        "candidate": "Nindya Priska Permata",
         "position": "Account Executive VCBL",
         "success": true
       }
