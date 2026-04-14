@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 346,
+    "total": 347,
     "streamlit": 0,
-    "github_action": 346,
-    "successful": 346,
+    "github_action": 347,
+    "successful": 347,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 346
+      "Account Executive VCBL": 347
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 13:32:44",
-        "source": "github_action",
-        "candidate": "ANDARI EKA NUR ALLIFAH",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 13:33:17",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 14:18:31",
         "source": "github_action",
         "candidate": "Salma Firda Sabila",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 14:19:02",
+        "source": "github_action",
+        "candidate": "Andi P Hamzah Pansuri MH",
         "position": "Account Executive VCBL",
         "success": true
       }
