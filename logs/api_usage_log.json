@@ -5716,13 +5716,13 @@
     ]
   },
   "2026-04-14": {
-    "total": 90,
+    "total": 91,
     "streamlit": 0,
-    "github_action": 90,
-    "successful": 90,
+    "github_action": 91,
+    "successful": 91,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 90
+      "Account Executive VCBL": 91
     },
     "entries": [
       {
@@ -6352,6 +6352,13 @@
         "timestamp": "2026-04-14 12:14:27",
         "source": "github_action",
         "candidate": "Andri Widhiyanto",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 12:14:57",
+        "source": "github_action",
+        "candidate": "Marcellino Faisal Ronald, S.M.",
         "position": "Account Executive VCBL",
         "success": true
       }
