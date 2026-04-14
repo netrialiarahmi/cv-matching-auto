@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 345,
+    "total": 346,
     "streamlit": 0,
-    "github_action": 345,
-    "successful": 345,
+    "github_action": 346,
+    "successful": 346,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 345
+      "Account Executive VCBL": 346
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 13:32:40",
-        "source": "github_action",
-        "candidate": "Michelle Anastasya supriyadi",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 13:32:44",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 14:18:03",
         "source": "github_action",
         "candidate": "Nachita   Putri Madina",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 14:18:31",
+        "source": "github_action",
+        "candidate": "Salma Firda Sabila",
         "position": "Account Executive VCBL",
         "success": true
       }
