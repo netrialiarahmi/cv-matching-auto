@@ -29,6 +29,28 @@ jobs:
           ref: ${{ env.TARGET_BRANCH }}
           fetch-depth: 1
       
+      - name: Download kalibrr exports from dashboard workflow
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_REPO: ${{ github.repository }}
+        run: |
+          mkdir -p kalibrr_exports
+          if [ "${{ github.event_name }}" = "workflow_run" ]; then
+            RUN_ID="${{ github.event.workflow_run.id }}"
+          else
+            # Manual trigger: find latest successful dashboard-export run
+            RUN_ID=$(gh run list --repo "$GH_REPO" --workflow="dashboard-export.yml" --status=success --limit=1 --json databaseId --jq '.[0].databaseId')
+          fi
+          if [ -n "$RUN_ID" ] && [ "$RUN_ID" != "null" ]; then
+            echo "Downloading artifacts from run $RUN_ID"
+            gh run download "$RUN_ID" --repo "$GH_REPO" --pattern "dashboard-exports-*" --dir /tmp/kalibrr_artifacts/ || true
+            find /tmp/kalibrr_artifacts -name "*.csv" -exec mv {} kalibrr_exports/ \; 2>/dev/null || true
+            echo "Files in kalibrr_exports/:"
+            ls kalibrr_exports/ 2>/dev/null || echo "(empty)"
+          else
+            echo "Warning: No run ID available, skipping artifact download"
+          fi
+
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
