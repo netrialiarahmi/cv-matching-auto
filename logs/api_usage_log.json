@@ -5716,23 +5716,16 @@
     ]
   },
   "2026-04-14": {
-    "total": 475,
+    "total": 476,
     "streamlit": 0,
-    "github_action": 475,
-    "successful": 475,
+    "github_action": 476,
+    "successful": 476,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 451,
-      "Account Executive Pasangiklan.com": 24
+      "Account Executive Pasangiklan.com": 25
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 14:32:05",
-        "source": "github_action",
-        "candidate": "Inka Piola Naretin Rahayu",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 14:32:35",
         "source": "github_action",
@@ -6423,6 +6416,13 @@
         "timestamp": "2026-04-14 15:16:07",
         "source": "github_action",
         "candidate": "Kristi Ayu",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 15:16:47",
+        "source": "github_action",
+        "candidate": "Andrian Tantya",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
