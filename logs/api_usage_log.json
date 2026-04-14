@@ -5716,23 +5716,16 @@
     ]
   },
   "2026-04-14": {
-    "total": 510,
+    "total": 511,
     "streamlit": 0,
-    "github_action": 510,
-    "successful": 510,
+    "github_action": 511,
+    "successful": 511,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 451,
-      "Account Executive Pasangiklan.com": 59
+      "Account Executive Pasangiklan.com": 60
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 14:48:15",
-        "source": "github_action",
-        "candidate": "Laksa Wingga",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 14:48:18",
         "source": "github_action",
@@ -6423,6 +6416,13 @@
         "timestamp": "2026-04-14 15:33:51",
         "source": "github_action",
         "candidate": "RISKI AZIZAH FEBIANTI",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 15:34:25",
+        "source": "github_action",
+        "candidate": "Daffa Alif Nabil",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
