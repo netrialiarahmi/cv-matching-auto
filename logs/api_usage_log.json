@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 190,
+    "total": 191,
     "streamlit": 0,
-    "github_action": 190,
-    "successful": 190,
+    "github_action": 191,
+    "successful": 191,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 190
+      "Account Executive VCBL": 191
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 12:14:57",
-        "source": "github_action",
-        "candidate": "Marcellino Faisal Ronald, S.M.",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 12:15:23",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 13:03:53",
         "source": "github_action",
         "candidate": "Ricki Indra Permana Putra",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 13:04:38",
+        "source": "github_action",
+        "candidate": "Safira Amanda Prasanti",
         "position": "Account Executive VCBL",
         "success": true
       }
