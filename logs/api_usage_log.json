@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 423,
+    "total": 424,
     "streamlit": 0,
-    "github_action": 423,
-    "successful": 423,
+    "github_action": 424,
+    "successful": 424,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 423
+      "Account Executive VCBL": 424
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 14:07:30",
-        "source": "github_action",
-        "candidate": "Dinda Azaria Rowi",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 14:08:04",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 14:52:17",
         "source": "github_action",
         "candidate": "Angelina Juliet",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 14:52:47",
+        "source": "github_action",
+        "candidate": "Nailah Zahra",
         "position": "Account Executive VCBL",
         "success": true
       }
