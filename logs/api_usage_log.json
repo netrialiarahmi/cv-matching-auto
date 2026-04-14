@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 260,
+    "total": 261,
     "streamlit": 0,
-    "github_action": 260,
-    "successful": 260,
+    "github_action": 261,
+    "successful": 261,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 260
+      "Account Executive VCBL": 261
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 12:50:01",
-        "source": "github_action",
-        "candidate": "Insyirah Ayu Ardila",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 12:50:31",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 13:39:20",
         "source": "github_action",
         "candidate": "Rani Nur Afifah",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 13:39:49",
+        "source": "github_action",
+        "candidate": "Bariq Iqbal Agia Putra",
         "position": "Account Executive VCBL",
         "success": true
       }
