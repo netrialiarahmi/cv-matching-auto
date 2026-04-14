@@ -5716,23 +5716,16 @@
     ]
   },
   "2026-04-14": {
-    "total": 538,
+    "total": 539,
     "streamlit": 0,
-    "github_action": 538,
-    "successful": 538,
+    "github_action": 539,
+    "successful": 539,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 451,
-      "Account Executive Pasangiklan.com": 87
+      "Account Executive Pasangiklan.com": 88
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 14:59:05",
-        "source": "github_action",
-        "candidate": "Sentiana  Marbun",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 14:59:09",
         "source": "github_action",
@@ -6423,6 +6416,13 @@
         "timestamp": "2026-04-14 15:48:02",
         "source": "github_action",
         "candidate": "Iqbal  Aulia Ahsan",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 15:48:33",
+        "source": "github_action",
+        "candidate": "Muhammad Ravel Satria",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
