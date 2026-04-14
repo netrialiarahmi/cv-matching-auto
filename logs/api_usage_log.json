@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 279,
+    "total": 280,
     "streamlit": 0,
-    "github_action": 279,
-    "successful": 279,
+    "github_action": 280,
+    "successful": 280,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 279
+      "Account Executive VCBL": 280
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 12:59:32",
-        "source": "github_action",
-        "candidate": "Vito Maulana",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 13:00:01",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 13:47:19",
         "source": "github_action",
         "candidate": "Mayangsari Karina Putri",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 13:47:46",
+        "source": "github_action",
+        "candidate": "Marsal AK Donny",
         "position": "Account Executive VCBL",
         "success": true
       }
