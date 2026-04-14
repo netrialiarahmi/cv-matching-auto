@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 394,
+    "total": 395,
     "streamlit": 0,
-    "github_action": 394,
-    "successful": 394,
+    "github_action": 395,
+    "successful": 395,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 394
+      "Account Executive VCBL": 395
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 13:54:54",
-        "source": "github_action",
-        "candidate": "Khillad Pratama",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 13:55:23",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 14:40:49",
         "source": "github_action",
         "candidate": "Nurulita Hidayah",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 14:41:25",
+        "source": "github_action",
+        "candidate": "M Noor Farchan",
         "position": "Account Executive VCBL",
         "success": true
       }
