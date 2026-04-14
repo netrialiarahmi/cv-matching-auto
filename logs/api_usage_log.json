@@ -5716,23 +5716,16 @@
     ]
   },
   "2026-04-14": {
-    "total": 729,
+    "total": 730,
     "streamlit": 0,
-    "github_action": 729,
-    "successful": 729,
+    "github_action": 730,
+    "successful": 730,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 451,
-      "Account Executive Pasangiklan.com": 278
+      "Account Executive Pasangiklan.com": 279
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 16:33:43",
-        "source": "github_action",
-        "candidate": "Aprianto Arohim  Nugraha",
-        "position": "Account Executive Pasangiklan.com",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 16:34:19",
         "source": "github_action",
@@ -6423,6 +6416,13 @@
         "timestamp": "2026-04-14 17:24:08",
         "source": "github_action",
         "candidate": "Fazlur Rahman",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 17:24:33",
+        "source": "github_action",
+        "candidate": "Ikhsan Al Fajar",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
