@@ -5716,23 +5716,16 @@
     ]
   },
   "2026-04-14": {
-    "total": 670,
+    "total": 671,
     "streamlit": 0,
-    "github_action": 670,
-    "successful": 670,
+    "github_action": 671,
+    "successful": 671,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 451,
-      "Account Executive Pasangiklan.com": 219
+      "Account Executive Pasangiklan.com": 220
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 16:04:33",
-        "source": "github_action",
-        "candidate": "Akmal maulana Sidik",
-        "position": "Account Executive Pasangiklan.com",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 16:04:48",
         "source": "github_action",
@@ -6423,6 +6416,13 @@
         "timestamp": "2026-04-14 16:53:33",
         "source": "github_action",
         "candidate": "Akbar Riki",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 16:54:17",
+        "source": "github_action",
+        "candidate": "Mohamad Ricky Afeiro",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
