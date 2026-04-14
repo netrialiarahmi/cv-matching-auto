@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 275,
+    "total": 276,
     "streamlit": 0,
-    "github_action": 275,
-    "successful": 275,
+    "github_action": 276,
+    "successful": 276,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 275
+      "Account Executive VCBL": 276
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 12:57:23",
-        "source": "github_action",
-        "candidate": "Suharto Putra",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 12:57:53",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 13:45:49",
         "source": "github_action",
         "candidate": "Ernestine Jessica",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 13:46:18",
+        "source": "github_action",
+        "candidate": "Aprilia Finanda",
         "position": "Account Executive VCBL",
         "success": true
       }
