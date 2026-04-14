@@ -5716,13 +5716,13 @@
     ]
   },
   "2026-04-14": {
-    "total": 49,
+    "total": 50,
     "streamlit": 0,
-    "github_action": 49,
-    "successful": 49,
+    "github_action": 50,
+    "successful": 50,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 49
+      "Account Executive VCBL": 50
     },
     "entries": [
       {
@@ -6065,6 +6065,13 @@
         "timestamp": "2026-04-14 11:54:36",
         "source": "github_action",
         "candidate": "hanif fais",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 11:55:04",
+        "source": "github_action",
+        "candidate": "Muhamad Mufti Sugiharto",
         "position": "Account Executive VCBL",
         "success": true
       }
