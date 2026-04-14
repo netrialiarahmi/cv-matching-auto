@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 391,
+    "total": 392,
     "streamlit": 0,
-    "github_action": 391,
-    "successful": 391,
+    "github_action": 392,
+    "successful": 392,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 391
+      "Account Executive VCBL": 392
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 13:53:29",
-        "source": "github_action",
-        "candidate": "Safira Melya Ramadhayanti",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 13:53:47",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 14:39:20",
         "source": "github_action",
         "candidate": "Tya Afifah",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 14:39:47",
+        "source": "github_action",
+        "candidate": "Aisyah, S.M.",
         "position": "Account Executive VCBL",
         "success": true
       }
