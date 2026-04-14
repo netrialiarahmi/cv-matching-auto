@@ -5716,23 +5716,16 @@
     ]
   },
   "2026-04-14": {
-    "total": 506,
+    "total": 507,
     "streamlit": 0,
-    "github_action": 506,
-    "successful": 506,
+    "github_action": 507,
+    "successful": 507,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 451,
-      "Account Executive Pasangiklan.com": 55
+      "Account Executive Pasangiklan.com": 56
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 14:47:12",
-        "source": "github_action",
-        "candidate": "Nabila Retno",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 14:47:15",
         "source": "github_action",
@@ -6423,6 +6416,13 @@
         "timestamp": "2026-04-14 15:31:52",
         "source": "github_action",
         "candidate": "Nanda Alif",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 15:32:22",
+        "source": "github_action",
+        "candidate": "Regina Sophia",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
