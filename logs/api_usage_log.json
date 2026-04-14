@@ -5716,13 +5716,13 @@
     ]
   },
   "2026-04-14": {
-    "total": 23,
+    "total": 24,
     "streamlit": 0,
-    "github_action": 23,
-    "successful": 23,
+    "github_action": 24,
+    "successful": 24,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 23
+      "Account Executive VCBL": 24
     },
     "entries": [
       {
@@ -5883,6 +5883,13 @@
         "timestamp": "2026-04-14 11:40:50",
         "source": "github_action",
         "candidate": "Yefta Febrianto",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 11:41:20",
+        "source": "github_action",
+        "candidate": "Irdan Syahril",
         "position": "Account Executive VCBL",
         "success": true
       }
