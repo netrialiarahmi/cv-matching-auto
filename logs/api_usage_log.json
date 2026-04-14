@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 281,
+    "total": 282,
     "streamlit": 0,
-    "github_action": 281,
-    "successful": 281,
+    "github_action": 282,
+    "successful": 282,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 281
+      "Account Executive VCBL": 282
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 13:00:32",
-        "source": "github_action",
-        "candidate": "Fathurreza Febrian",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 13:01:06",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 13:48:17",
         "source": "github_action",
         "candidate": "Azka Putrie",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 13:48:47",
+        "source": "github_action",
+        "candidate": "Reyhan Dzaky",
         "position": "Account Executive VCBL",
         "success": true
       }
