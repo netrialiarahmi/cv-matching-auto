@@ -5716,23 +5716,16 @@
     ]
   },
   "2026-04-14": {
-    "total": 537,
+    "total": 538,
     "streamlit": 0,
-    "github_action": 537,
-    "successful": 537,
+    "github_action": 538,
+    "successful": 538,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 451,
-      "Account Executive Pasangiklan.com": 86
+      "Account Executive Pasangiklan.com": 87
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 14:58:30",
-        "source": "github_action",
-        "candidate": "Nurul rajab",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 14:59:05",
         "source": "github_action",
@@ -6423,6 +6416,13 @@
         "timestamp": "2026-04-14 15:47:27",
         "source": "github_action",
         "candidate": "Rosnia Komala Dewi",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 15:48:02",
+        "source": "github_action",
+        "candidate": "Iqbal  Aulia Ahsan",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
