@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 320,
+    "total": 321,
     "streamlit": 0,
-    "github_action": 320,
-    "successful": 320,
+    "github_action": 321,
+    "successful": 321,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 320
+      "Account Executive VCBL": 321
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 13:20:47",
-        "source": "github_action",
-        "candidate": "Ayu Siti Hajar",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 13:21:15",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 14:06:03",
         "source": "github_action",
         "candidate": "Aulia Shobrina",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 14:06:23",
+        "source": "github_action",
+        "candidate": "Joy Andrew Pradika",
         "position": "Account Executive VCBL",
         "success": true
       }
