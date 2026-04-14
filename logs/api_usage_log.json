@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 396,
+    "total": 397,
     "streamlit": 0,
-    "github_action": 396,
-    "successful": 396,
+    "github_action": 397,
+    "successful": 397,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 396
+      "Account Executive VCBL": 397
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 13:55:53",
-        "source": "github_action",
-        "candidate": "Rozzie D. A. Wiraraja",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 13:56:25",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 14:41:56",
         "source": "github_action",
         "candidate": "Chendri Yunan",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 14:42:12",
+        "source": "github_action",
+        "candidate": "Delia Amalia",
         "position": "Account Executive VCBL",
         "success": true
       }
