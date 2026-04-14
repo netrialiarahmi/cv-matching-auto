@@ -5716,23 +5716,16 @@
     ]
   },
   "2026-04-14": {
-    "total": 618,
+    "total": 619,
     "streamlit": 0,
-    "github_action": 618,
-    "successful": 618,
+    "github_action": 619,
+    "successful": 619,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 451,
-      "Account Executive Pasangiklan.com": 167
+      "Account Executive Pasangiklan.com": 168
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 15:37:57",
-        "source": "github_action",
-        "candidate": "Putri Ratna Komalasari",
-        "position": "Account Executive Pasangiklan.com",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 15:38:33",
         "source": "github_action",
@@ -6423,6 +6416,13 @@
         "timestamp": "2026-04-14 16:27:49",
         "source": "github_action",
         "candidate": "Elfrida Fiola Siregar siregar",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 16:28:04",
+        "source": "github_action",
+        "candidate": "Kgs Abdul Rasyid",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
