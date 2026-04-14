@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 244,
+    "total": 245,
     "streamlit": 0,
-    "github_action": 244,
-    "successful": 244,
+    "github_action": 245,
+    "successful": 245,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 244
+      "Account Executive VCBL": 245
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 12:43:15",
-        "source": "github_action",
-        "candidate": "Mohammad Farhan Saputra",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 12:43:18",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 13:31:33",
         "source": "github_action",
         "candidate": "Huriyatul Hanna",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 13:32:07",
+        "source": "github_action",
+        "candidate": "Muhammad Daffa Farras",
         "position": "Account Executive VCBL",
         "success": true
       }
