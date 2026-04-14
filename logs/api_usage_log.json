@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 350,
+    "total": 351,
     "streamlit": 0,
-    "github_action": 350,
-    "successful": 350,
+    "github_action": 351,
+    "successful": 351,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 350
+      "Account Executive VCBL": 351
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 13:34:57",
-        "source": "github_action",
-        "candidate": "Naila Asyrofa Khilyah",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 13:35:29",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 14:20:25",
         "source": "github_action",
         "candidate": "Ihksa Munawwaroh",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 14:20:53",
+        "source": "github_action",
+        "candidate": "Aldhi Krisna Randha",
         "position": "Account Executive VCBL",
         "success": true
       }
