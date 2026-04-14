@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 188,
+    "total": 189,
     "streamlit": 0,
-    "github_action": 188,
-    "successful": 188,
+    "github_action": 189,
+    "successful": 189,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 188
+      "Account Executive VCBL": 189
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 12:13:59",
-        "source": "github_action",
-        "candidate": "Yeremia Yusak",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 12:14:27",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 13:03:18",
         "source": "github_action",
         "candidate": "Ibnu Adyan",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 13:03:49",
+        "source": "github_action",
+        "candidate": "Parto  Simanihuruk",
         "position": "Account Executive VCBL",
         "success": true
       }
