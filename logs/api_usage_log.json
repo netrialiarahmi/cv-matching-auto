@@ -5716,23 +5716,16 @@
     ]
   },
   "2026-04-14": {
-    "total": 645,
+    "total": 646,
     "streamlit": 0,
-    "github_action": 645,
-    "successful": 645,
+    "github_action": 646,
+    "successful": 646,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 451,
-      "Account Executive Pasangiklan.com": 194
+      "Account Executive Pasangiklan.com": 195
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 15:52:04",
-        "source": "github_action",
-        "candidate": "Salsa Nurfadhilah",
-        "position": "Account Executive Pasangiklan.com",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 15:52:24",
         "source": "github_action",
@@ -6423,6 +6416,13 @@
         "timestamp": "2026-04-14 16:41:31",
         "source": "github_action",
         "candidate": "Hanum Aufa Rafida",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 16:41:53",
+        "source": "github_action",
+        "candidate": "Megantoro Razak",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
