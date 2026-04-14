@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 234,
+    "total": 235,
     "streamlit": 0,
-    "github_action": 234,
-    "successful": 234,
+    "github_action": 235,
+    "successful": 235,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 234
+      "Account Executive VCBL": 235
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 12:37:59",
-        "source": "github_action",
-        "candidate": "Ayu Amrita Trihadiono Putri",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 12:38:28",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 13:26:42",
         "source": "github_action",
         "candidate": "Amelia Putri R",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 13:27:11",
+        "source": "github_action",
+        "candidate": "AYU SETIANI",
         "position": "Account Executive VCBL",
         "success": true
       }
