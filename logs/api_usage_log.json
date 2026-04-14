@@ -5716,13 +5716,13 @@
     ]
   },
   "2026-04-14": {
-    "total": 72,
+    "total": 73,
     "streamlit": 0,
-    "github_action": 72,
-    "successful": 72,
+    "github_action": 73,
+    "successful": 73,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 72
+      "Account Executive VCBL": 73
     },
     "entries": [
       {
@@ -6226,6 +6226,13 @@
         "timestamp": "2026-04-14 12:05:41",
         "source": "github_action",
         "candidate": "Faradila Shavira",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 12:06:11",
+        "source": "github_action",
+        "candidate": "Refaldo Refaldo",
         "position": "Account Executive VCBL",
         "success": true
       }
