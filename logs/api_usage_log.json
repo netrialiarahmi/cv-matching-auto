@@ -5716,13 +5716,13 @@
     ]
   },
   "2026-04-14": {
-    "total": 47,
+    "total": 48,
     "streamlit": 0,
-    "github_action": 47,
-    "successful": 47,
+    "github_action": 48,
+    "successful": 48,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 47
+      "Account Executive VCBL": 48
     },
     "entries": [
       {
@@ -6051,6 +6051,13 @@
         "timestamp": "2026-04-14 11:53:41",
         "source": "github_action",
         "candidate": "Muhammad Fahmi",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 11:54:07",
+        "source": "github_action",
+        "candidate": "Putri Acika",
         "position": "Account Executive VCBL",
         "success": true
       }
