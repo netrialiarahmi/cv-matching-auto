@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 348,
+    "total": 349,
     "streamlit": 0,
-    "github_action": 348,
-    "successful": 348,
+    "github_action": 349,
+    "successful": 349,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 348
+      "Account Executive VCBL": 349
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 13:33:49",
-        "source": "github_action",
-        "candidate": "Agus Nur Habib",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 13:34:24",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 14:19:29",
         "source": "github_action",
         "candidate": "Muhamad Umbara Fajri",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 14:19:57",
+        "source": "github_action",
+        "candidate": "Indah Ayu",
         "position": "Account Executive VCBL",
         "success": true
       }
