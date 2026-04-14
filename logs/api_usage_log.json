@@ -5716,13 +5716,13 @@
     ]
   },
   "2026-04-14": {
-    "total": 57,
+    "total": 58,
     "streamlit": 0,
-    "github_action": 57,
-    "successful": 57,
+    "github_action": 58,
+    "successful": 58,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 57
+      "Account Executive VCBL": 58
     },
     "entries": [
       {
@@ -6121,6 +6121,13 @@
         "timestamp": "2026-04-14 11:58:32",
         "source": "github_action",
         "candidate": "Muhammad Ananda Yuriko",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 11:59:04",
+        "source": "github_action",
+        "candidate": "Hasbiallah Ansor",
         "position": "Account Executive VCBL",
         "success": true
       }
