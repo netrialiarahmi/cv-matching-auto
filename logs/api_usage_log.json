@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 203,
+    "total": 204,
     "streamlit": 0,
-    "github_action": 203,
-    "successful": 203,
+    "github_action": 204,
+    "successful": 204,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 203
+      "Account Executive VCBL": 204
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 12:21:49",
-        "source": "github_action",
-        "candidate": "Tri Agusnia Wati",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 12:22:23",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 13:11:06",
         "source": "github_action",
         "candidate": "Dhinda Khaira Ummah",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 13:11:35",
+        "source": "github_action",
+        "candidate": "Muhammad Arrumi Fayyad",
         "position": "Account Executive VCBL",
         "success": true
       }
