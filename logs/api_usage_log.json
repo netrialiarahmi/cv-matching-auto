@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 253,
+    "total": 254,
     "streamlit": 0,
-    "github_action": 253,
-    "successful": 253,
+    "github_action": 254,
+    "successful": 254,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 253
+      "Account Executive VCBL": 254
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 12:47:45",
-        "source": "github_action",
-        "candidate": "Elfrida Fiola Siregar siregar",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 12:48:18",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 13:35:59",
         "source": "github_action",
         "candidate": "Muhammad Eka Putra",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 13:36:37",
+        "source": "github_action",
+        "candidate": "Listianova Nurrochmah",
         "position": "Account Executive VCBL",
         "success": true
       }
