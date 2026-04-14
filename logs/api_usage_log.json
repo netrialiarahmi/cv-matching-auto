@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 401,
+    "total": 402,
     "streamlit": 0,
-    "github_action": 401,
-    "successful": 401,
+    "github_action": 402,
+    "successful": 402,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 401
+      "Account Executive VCBL": 402
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 13:58:23",
-        "source": "github_action",
-        "candidate": "Iqbal Fathurrahman",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 13:58:45",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 14:44:07",
         "source": "github_action",
         "candidate": "Farul Fahrijal",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 14:44:36",
+        "source": "github_action",
+        "candidate": "Devi Putri Pranata",
         "position": "Account Executive VCBL",
         "success": true
       }
