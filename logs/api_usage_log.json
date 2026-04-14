@@ -5716,23 +5716,16 @@
     ]
   },
   "2026-04-14": {
-    "total": 454,
+    "total": 455,
     "streamlit": 0,
-    "github_action": 454,
-    "successful": 454,
+    "github_action": 455,
+    "successful": 455,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 451,
-      "Account Executive Pasangiklan.com": 3
+      "Account Executive Pasangiklan.com": 4
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 14:22:48",
-        "source": "github_action",
-        "candidate": "irfan sianturi",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 14:23:19",
         "source": "github_action",
@@ -6423,6 +6416,13 @@
         "timestamp": "2026-04-14 15:05:46",
         "source": "github_action",
         "candidate": "Rayhan Izdihar",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 15:06:05",
+        "source": "github_action",
+        "candidate": "Wildha Ainun Ritonga",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
