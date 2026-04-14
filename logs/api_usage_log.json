@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 373,
+    "total": 374,
     "streamlit": 0,
-    "github_action": 373,
-    "successful": 373,
+    "github_action": 374,
+    "successful": 374,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 373
+      "Account Executive VCBL": 374
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 13:45:16",
-        "source": "github_action",
-        "candidate": "Sherina Agustina",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 13:45:49",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 14:31:16",
         "source": "github_action",
         "candidate": "Devianna Felicia Veronica",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 14:31:44",
+        "source": "github_action",
+        "candidate": "adisa rafina",
         "position": "Account Executive VCBL",
         "success": true
       }
