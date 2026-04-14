@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 327,
+    "total": 328,
     "streamlit": 0,
-    "github_action": 327,
-    "successful": 327,
+    "github_action": 328,
+    "successful": 328,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 327
+      "Account Executive VCBL": 328
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 13:23:53",
-        "source": "github_action",
-        "candidate": "SUTAN ANANDA RIESLY FAJAR MAULANA",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 13:23:57",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 14:08:54",
         "source": "github_action",
         "candidate": "Wira Laksana",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 14:09:24",
+        "source": "github_action",
+        "candidate": "Widya Adiyatma",
         "position": "Account Executive VCBL",
         "success": true
       }
