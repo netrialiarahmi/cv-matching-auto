@@ -5716,13 +5716,13 @@
     ]
   },
   "2026-04-14": {
-    "total": 4,
+    "total": 5,
     "streamlit": 0,
-    "github_action": 4,
-    "successful": 4,
+    "github_action": 5,
+    "successful": 5,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 4
+      "Account Executive VCBL": 5
     },
     "entries": [
       {
@@ -5750,6 +5750,13 @@
         "timestamp": "2026-04-14 11:30:45",
         "source": "github_action",
         "candidate": "Dhiya Indah Mawaddah",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 11:31:21",
+        "source": "github_action",
+        "candidate": "Syarief Hidayatullah",
         "position": "Account Executive VCBL",
         "success": true
       }
