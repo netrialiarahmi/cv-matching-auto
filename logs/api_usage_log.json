@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 200,
+    "total": 201,
     "streamlit": 0,
-    "github_action": 200,
-    "successful": 200,
+    "github_action": 201,
+    "successful": 201,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 200
+      "Account Executive VCBL": 201
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 12:20:18",
-        "source": "github_action",
-        "candidate": "Annisa Rahma nan",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 12:20:50",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 13:09:24",
         "source": "github_action",
         "candidate": "Amadhea Putri Namira",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 13:09:53",
+        "source": "github_action",
+        "candidate": "Amyra Amalia Aqila",
         "position": "Account Executive VCBL",
         "success": true
       }
