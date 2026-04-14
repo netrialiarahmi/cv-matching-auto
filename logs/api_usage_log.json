@@ -5716,23 +5716,16 @@
     ]
   },
   "2026-04-14": {
-    "total": 557,
+    "total": 558,
     "streamlit": 0,
-    "github_action": 557,
-    "successful": 557,
+    "github_action": 558,
+    "successful": 558,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 451,
-      "Account Executive Pasangiklan.com": 106
+      "Account Executive Pasangiklan.com": 107
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 15:07:38",
-        "source": "github_action",
-        "candidate": "Kiel Geraldo",
-        "position": "Account Executive Pasangiklan.com",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 15:08:03",
         "source": "github_action",
@@ -6423,6 +6416,13 @@
         "timestamp": "2026-04-14 15:57:18",
         "source": "github_action",
         "candidate": "Muhammad Luthfi Andriana",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 15:57:51",
+        "source": "github_action",
+        "candidate": "Yeremia Sihaloho",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
