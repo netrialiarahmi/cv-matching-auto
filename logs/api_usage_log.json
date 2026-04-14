@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 352,
+    "total": 353,
     "streamlit": 0,
-    "github_action": 352,
-    "successful": 352,
+    "github_action": 353,
+    "successful": 353,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 352
+      "Account Executive VCBL": 353
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 13:35:59",
-        "source": "github_action",
-        "candidate": "Muhammad Eka Putra",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 13:36:37",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 14:21:23",
         "source": "github_action",
         "candidate": "Yonathan Reno Pamungkas",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 14:21:51",
+        "source": "github_action",
+        "candidate": "Ayub Ezra Royani Sianturi",
         "position": "Account Executive VCBL",
         "success": true
       }
