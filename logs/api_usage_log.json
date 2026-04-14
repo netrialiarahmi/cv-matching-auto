@@ -5716,13 +5716,13 @@
     ]
   },
   "2026-04-14": {
-    "total": 78,
+    "total": 79,
     "streamlit": 0,
-    "github_action": 78,
-    "successful": 78,
+    "github_action": 79,
+    "successful": 79,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 78
+      "Account Executive VCBL": 79
     },
     "entries": [
       {
@@ -6268,6 +6268,13 @@
         "timestamp": "2026-04-14 12:08:36",
         "source": "github_action",
         "candidate": "Deni Nurhidayat",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 12:09:05",
+        "source": "github_action",
+        "candidate": "Tamara Rudang Astari Sinaga",
         "position": "Account Executive VCBL",
         "success": true
       }
