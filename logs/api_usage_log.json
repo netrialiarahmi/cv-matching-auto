@@ -5716,23 +5716,16 @@
     ]
   },
   "2026-04-14": {
-    "total": 559,
+    "total": 560,
     "streamlit": 0,
-    "github_action": 559,
-    "successful": 559,
+    "github_action": 560,
+    "successful": 560,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 451,
-      "Account Executive Pasangiklan.com": 108
+      "Account Executive Pasangiklan.com": 109
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 15:08:06",
-        "source": "github_action",
-        "candidate": "Darma wansah",
-        "position": "Account Executive Pasangiklan.com",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 15:08:41",
         "source": "github_action",
@@ -6423,6 +6416,13 @@
         "timestamp": "2026-04-14 15:58:10",
         "source": "github_action",
         "candidate": "Oktiana Ni'maturrahmah  Putri",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 15:58:51",
+        "source": "github_action",
+        "candidate": "Lilis Risnawati",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
