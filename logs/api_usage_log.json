@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 210,
+    "total": 211,
     "streamlit": 0,
-    "github_action": 210,
-    "successful": 210,
+    "github_action": 211,
+    "successful": 211,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 210
+      "Account Executive VCBL": 211
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 12:25:49",
-        "source": "github_action",
-        "candidate": "Febriana Trie Anisa",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 12:26:24",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 13:14:49",
         "source": "github_action",
         "candidate": "Abdullah imam makarim destiawan",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 13:15:19",
+        "source": "github_action",
+        "candidate": "Cindy Regina Anastasia",
         "position": "Account Executive VCBL",
         "success": true
       }
