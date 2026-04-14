@@ -5716,13 +5716,13 @@
     ]
   },
   "2026-04-14": {
-    "total": 12,
+    "total": 13,
     "streamlit": 0,
-    "github_action": 12,
-    "successful": 12,
+    "github_action": 13,
+    "successful": 13,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 12
+      "Account Executive VCBL": 13
     },
     "entries": [
       {
@@ -5806,6 +5806,13 @@
         "timestamp": "2026-04-14 11:35:13",
         "source": "github_action",
         "candidate": "Febrina Ulhaq",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 11:35:41",
+        "source": "github_action",
+        "candidate": "Emel Maure",
         "position": "Account Executive VCBL",
         "success": true
       }
