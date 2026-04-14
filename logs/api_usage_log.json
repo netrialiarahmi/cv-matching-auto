@@ -5716,23 +5716,16 @@
     ]
   },
   "2026-04-14": {
-    "total": 500,
+    "total": 501,
     "streamlit": 0,
-    "github_action": 500,
-    "successful": 500,
+    "github_action": 501,
+    "successful": 501,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 451,
-      "Account Executive Pasangiklan.com": 49
+      "Account Executive Pasangiklan.com": 50
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 14:44:07",
-        "source": "github_action",
-        "candidate": "Farul Fahrijal",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 14:44:36",
         "source": "github_action",
@@ -6423,6 +6416,13 @@
         "timestamp": "2026-04-14 15:28:46",
         "source": "github_action",
         "candidate": "Nadya Rachma Ayu",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 15:29:17",
+        "source": "github_action",
+        "candidate": "Isti Bakhitah Sabila",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
