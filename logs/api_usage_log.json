@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 193,
+    "total": 194,
     "streamlit": 0,
-    "github_action": 193,
-    "successful": 193,
+    "github_action": 194,
+    "successful": 194,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 193
+      "Account Executive VCBL": 194
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 12:16:19",
-        "source": "github_action",
-        "candidate": "Linda Delani",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 12:16:51",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 13:05:47",
         "source": "github_action",
         "candidate": "Golda  Meiyer",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 13:06:21",
+        "source": "github_action",
+        "candidate": "Mia Nurjanah",
         "position": "Account Executive VCBL",
         "success": true
       }
