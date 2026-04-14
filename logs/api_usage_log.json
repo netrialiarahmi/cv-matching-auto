@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 309,
+    "total": 310,
     "streamlit": 0,
-    "github_action": 309,
-    "successful": 309,
+    "github_action": 310,
+    "successful": 310,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 309
+      "Account Executive VCBL": 310
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 13:14:49",
-        "source": "github_action",
-        "candidate": "Abdullah imam makarim destiawan",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 13:15:19",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 14:01:23",
         "source": "github_action",
         "candidate": "Wahyu Puji astuti",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 14:01:56",
+        "source": "github_action",
+        "candidate": "wahdudin",
         "position": "Account Executive VCBL",
         "success": true
       }
