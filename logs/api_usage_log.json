@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 363,
+    "total": 364,
     "streamlit": 0,
-    "github_action": 363,
-    "successful": 363,
+    "github_action": 364,
+    "successful": 364,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 363
+      "Account Executive VCBL": 364
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 13:41:04",
-        "source": "github_action",
-        "candidate": "Kurnia Ariati",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 13:41:25",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 14:26:42",
         "source": "github_action",
         "candidate": "Alief Martin",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 14:27:11",
+        "source": "github_action",
+        "candidate": "Lizia Nur Faiziah",
         "position": "Account Executive VCBL",
         "success": true
       }
