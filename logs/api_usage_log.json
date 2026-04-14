@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 246,
+    "total": 247,
     "streamlit": 0,
-    "github_action": 246,
-    "successful": 246,
+    "github_action": 247,
+    "successful": 247,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 246
+      "Account Executive VCBL": 247
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 12:43:52",
-        "source": "github_action",
-        "candidate": "Suryani Safitri",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 12:44:22",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 13:32:40",
         "source": "github_action",
         "candidate": "Michelle Anastasya supriyadi",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 13:32:44",
+        "source": "github_action",
+        "candidate": "ANDARI EKA NUR ALLIFAH",
         "position": "Account Executive VCBL",
         "success": true
       }
