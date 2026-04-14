@@ -5716,13 +5716,13 @@
     ]
   },
   "2026-04-14": {
-    "total": 37,
+    "total": 38,
     "streamlit": 0,
-    "github_action": 37,
-    "successful": 37,
+    "github_action": 38,
+    "successful": 38,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 37
+      "Account Executive VCBL": 38
     },
     "entries": [
       {
@@ -5981,6 +5981,13 @@
         "timestamp": "2026-04-14 11:48:26",
         "source": "github_action",
         "candidate": "Henri Hartantyo",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 11:48:56",
+        "source": "github_action",
+        "candidate": "Firman Fathurahman",
         "position": "Account Executive VCBL",
         "success": true
       }
