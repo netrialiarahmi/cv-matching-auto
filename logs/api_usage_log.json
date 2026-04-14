@@ -5716,23 +5716,16 @@
     ]
   },
   "2026-04-14": {
-    "total": 556,
+    "total": 557,
     "streamlit": 0,
-    "github_action": 556,
-    "successful": 556,
+    "github_action": 557,
+    "successful": 557,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 451,
-      "Account Executive Pasangiklan.com": 105
+      "Account Executive Pasangiklan.com": 106
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 15:07:09",
-        "source": "github_action",
-        "candidate": "Fia Darojaty",
-        "position": "Account Executive Pasangiklan.com",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 15:07:38",
         "source": "github_action",
@@ -6423,6 +6416,13 @@
         "timestamp": "2026-04-14 15:56:49",
         "source": "github_action",
         "candidate": "ummiyati hamzah",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 15:57:18",
+        "source": "github_action",
+        "candidate": "Muhammad Luthfi Andriana",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
