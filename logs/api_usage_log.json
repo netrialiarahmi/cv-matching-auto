@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 134,
+    "total": 135,
     "streamlit": 0,
-    "github_action": 134,
-    "successful": 134,
+    "github_action": 135,
+    "successful": 135,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 134
+      "Account Executive VCBL": 135
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 11:47:21",
-        "source": "github_action",
-        "candidate": "Anggit Widiyaningsih",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 11:47:53",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 12:37:26",
         "source": "github_action",
         "candidate": "Yosabel Wijaya",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 12:37:59",
+        "source": "github_action",
+        "candidate": "Ayu Amrita Trihadiono Putri",
         "position": "Account Executive VCBL",
         "success": true
       }
