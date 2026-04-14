@@ -5716,23 +5716,16 @@
     ]
   },
   "2026-04-14": {
-    "total": 515,
+    "total": 516,
     "streamlit": 0,
-    "github_action": 515,
-    "successful": 515,
+    "github_action": 516,
+    "successful": 516,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 451,
-      "Account Executive Pasangiklan.com": 64
+      "Account Executive Pasangiklan.com": 65
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 14:49:52",
-        "source": "github_action",
-        "candidate": "Nidia Wihidih",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 14:50:17",
         "source": "github_action",
@@ -6423,6 +6416,13 @@
         "timestamp": "2026-04-14 15:36:10",
         "source": "github_action",
         "candidate": "Garneda Puspa Pinandhita",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 15:36:31",
+        "source": "github_action",
+        "candidate": "rifka yane",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
