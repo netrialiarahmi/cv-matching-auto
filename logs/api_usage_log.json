@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 143,
+    "total": 144,
     "streamlit": 0,
-    "github_action": 143,
-    "successful": 143,
+    "github_action": 144,
+    "successful": 144,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 143
+      "Account Executive VCBL": 144
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 11:52:04",
-        "source": "github_action",
-        "candidate": "Hardian Mendel",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 11:52:34",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 12:42:12",
         "source": "github_action",
         "candidate": "Deswita Maharani",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 12:42:43",
+        "source": "github_action",
+        "candidate": "Ilham Rahmatulloh",
         "position": "Account Executive VCBL",
         "success": true
       }
