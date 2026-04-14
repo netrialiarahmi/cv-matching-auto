@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 296,
+    "total": 297,
     "streamlit": 0,
-    "github_action": 296,
-    "successful": 296,
+    "github_action": 297,
+    "successful": 297,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 296
+      "Account Executive VCBL": 297
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 13:07:41",
-        "source": "github_action",
-        "candidate": "MUHAMMAD ISLAM",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 13:08:08",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 13:55:23",
         "source": "github_action",
         "candidate": "Putri Nur Farida",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 13:55:53",
+        "source": "github_action",
+        "candidate": "Rozzie D. A. Wiraraja",
         "position": "Account Executive VCBL",
         "success": true
       }
