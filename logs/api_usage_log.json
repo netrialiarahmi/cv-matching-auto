@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 156,
+    "total": 157,
     "streamlit": 0,
-    "github_action": 156,
-    "successful": 156,
+    "github_action": 157,
+    "successful": 157,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 156
+      "Account Executive VCBL": 157
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 11:58:32",
-        "source": "github_action",
-        "candidate": "Muhammad Ananda Yuriko",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 11:59:04",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 12:48:21",
         "source": "github_action",
         "candidate": "REHAN PAGADILA",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 12:48:51",
+        "source": "github_action",
+        "candidate": "Faiz Ardana Sani",
         "position": "Account Executive VCBL",
         "success": true
       }
