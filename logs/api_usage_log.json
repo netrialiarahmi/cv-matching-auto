@@ -5716,23 +5716,16 @@
     ]
   },
   "2026-04-14": {
-    "total": 599,
+    "total": 600,
     "streamlit": 0,
-    "github_action": 599,
-    "successful": 599,
+    "github_action": 600,
+    "successful": 600,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 451,
-      "Account Executive Pasangiklan.com": 148
+      "Account Executive Pasangiklan.com": 149
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 15:28:46",
-        "source": "github_action",
-        "candidate": "Nadya Rachma Ayu",
-        "position": "Account Executive Pasangiklan.com",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 15:29:17",
         "source": "github_action",
@@ -6423,6 +6416,13 @@
         "timestamp": "2026-04-14 16:18:13",
         "source": "github_action",
         "candidate": "Gibran Bening",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 16:18:44",
+        "source": "github_action",
+        "candidate": "Katharina Yuanita",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
