@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 314,
+    "total": 315,
     "streamlit": 0,
-    "github_action": 314,
-    "successful": 314,
+    "github_action": 315,
+    "successful": 315,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 314
+      "Account Executive VCBL": 315
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 13:17:26",
-        "source": "github_action",
-        "candidate": "Farid Abdullah",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 13:18:00",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 14:03:42",
         "source": "github_action",
         "candidate": "Grace Horstefanny",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 14:04:03",
+        "source": "github_action",
+        "candidate": "Beatrix Gotama",
         "position": "Account Executive VCBL",
         "success": true
       }
