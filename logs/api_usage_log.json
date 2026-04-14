@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 206,
+    "total": 207,
     "streamlit": 0,
-    "github_action": 206,
-    "successful": 206,
+    "github_action": 207,
+    "successful": 207,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 206
+      "Account Executive VCBL": 207
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 12:23:35",
-        "source": "github_action",
-        "candidate": "TEUKU FADRIANSYAH ACBAR RIZA",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 12:24:06",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 13:12:34",
         "source": "github_action",
         "candidate": "Aurelia Alexa",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 13:13:08",
+        "source": "github_action",
+        "candidate": "Reynaldi Rizky Aulia Bassar",
         "position": "Account Executive VCBL",
         "success": true
       }
