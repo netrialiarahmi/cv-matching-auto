@@ -5716,13 +5716,13 @@
     ]
   },
   "2026-04-14": {
-    "total": 63,
+    "total": 64,
     "streamlit": 0,
-    "github_action": 63,
-    "successful": 63,
+    "github_action": 64,
+    "successful": 64,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 63
+      "Account Executive VCBL": 64
     },
     "entries": [
       {
@@ -6163,6 +6163,13 @@
         "timestamp": "2026-04-14 12:01:01",
         "source": "github_action",
         "candidate": "Natasya Gita Cinta",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 12:01:31",
+        "source": "github_action",
+        "candidate": "Ady Ramzy",
         "position": "Account Executive VCBL",
         "success": true
       }
