@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 187,
+    "total": 188,
     "streamlit": 0,
-    "github_action": 187,
-    "successful": 187,
+    "github_action": 188,
+    "successful": 188,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 187
+      "Account Executive VCBL": 188
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 12:13:25",
-        "source": "github_action",
-        "candidate": "M. AKMAL  EFFENDI",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 12:13:59",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 13:02:41",
         "source": "github_action",
         "candidate": "Jaka Perdana",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 13:03:18",
+        "source": "github_action",
+        "candidate": "Ibnu Adyan",
         "position": "Account Executive VCBL",
         "success": true
       }
