@@ -5716,13 +5716,13 @@
     ]
   },
   "2026-04-14": {
-    "total": 48,
+    "total": 49,
     "streamlit": 0,
-    "github_action": 48,
-    "successful": 48,
+    "github_action": 49,
+    "successful": 49,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 48
+      "Account Executive VCBL": 49
     },
     "entries": [
       {
@@ -6058,6 +6058,13 @@
         "timestamp": "2026-04-14 11:54:07",
         "source": "github_action",
         "candidate": "Putri Acika",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 11:54:36",
+        "source": "github_action",
+        "candidate": "hanif fais",
         "position": "Account Executive VCBL",
         "success": true
       }
