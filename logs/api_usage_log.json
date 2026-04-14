@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 248,
+    "total": 249,
     "streamlit": 0,
-    "github_action": 248,
-    "successful": 248,
+    "github_action": 249,
+    "successful": 249,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 248
+      "Account Executive VCBL": 249
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 12:44:55",
-        "source": "github_action",
-        "candidate": "Christian Aldy",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 12:45:31",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 13:33:17",
         "source": "github_action",
         "candidate": "Aprina Septauli Manurung",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 13:33:49",
+        "source": "github_action",
+        "candidate": "Agus Nur Habib",
         "position": "Account Executive VCBL",
         "success": true
       }
