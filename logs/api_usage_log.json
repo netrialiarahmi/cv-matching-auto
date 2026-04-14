@@ -5716,23 +5716,16 @@
     ]
   },
   "2026-04-14": {
-    "total": 668,
+    "total": 669,
     "streamlit": 0,
-    "github_action": 668,
-    "successful": 668,
+    "github_action": 669,
+    "successful": 669,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 451,
-      "Account Executive Pasangiklan.com": 217
+      "Account Executive Pasangiklan.com": 218
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 16:03:45",
-        "source": "github_action",
-        "candidate": "andhika ramadhan",
-        "position": "Account Executive Pasangiklan.com",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 16:04:05",
         "source": "github_action",
@@ -6423,6 +6416,13 @@
         "timestamp": "2026-04-14 16:52:32",
         "source": "github_action",
         "candidate": "Amelia .",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 16:53:06",
+        "source": "github_action",
+        "candidate": "Daniella Ginting",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
