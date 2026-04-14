@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 325,
+    "total": 326,
     "streamlit": 0,
-    "github_action": 325,
-    "successful": 325,
+    "github_action": 326,
+    "successful": 326,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 325
+      "Account Executive VCBL": 326
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 13:22:52",
-        "source": "github_action",
-        "candidate": "raihan achyar",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 13:23:21",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 14:08:04",
         "source": "github_action",
         "candidate": "Puji lestari",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 14:08:33",
+        "source": "github_action",
+        "candidate": "Ocha Fatirr",
         "position": "Account Executive VCBL",
         "success": true
       }
