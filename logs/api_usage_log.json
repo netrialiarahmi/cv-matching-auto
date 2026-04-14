@@ -5716,22 +5716,16 @@
     ]
   },
   "2026-04-14": {
-    "total": 451,
+    "total": 452,
     "streamlit": 0,
-    "github_action": 451,
-    "successful": 451,
+    "github_action": 452,
+    "successful": 452,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 451
+      "Account Executive VCBL": 451,
+      "Account Executive Pasangiklan.com": 1
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 14:21:23",
-        "source": "github_action",
-        "candidate": "Yonathan Reno Pamungkas",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 14:21:51",
         "source": "github_action",
@@ -6423,6 +6417,13 @@
         "source": "github_action",
         "candidate": "Fanzz Store",
         "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 15:04:39",
+        "source": "github_action",
+        "candidate": "Lidya Virginia",
+        "position": "Account Executive Pasangiklan.com",
         "success": true
       }
     ]
