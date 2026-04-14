@@ -5716,13 +5716,13 @@
     ]
   },
   "2026-04-14": {
-    "total": 26,
+    "total": 27,
     "streamlit": 0,
-    "github_action": 26,
-    "successful": 26,
+    "github_action": 27,
+    "successful": 27,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 26
+      "Account Executive VCBL": 27
     },
     "entries": [
       {
@@ -5904,6 +5904,13 @@
         "timestamp": "2026-04-14 11:42:26",
         "source": "github_action",
         "candidate": "iqbal muhammad",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 11:43:00",
+        "source": "github_action",
+        "candidate": "Ade lorina  Banjarnahor",
         "position": "Account Executive VCBL",
         "success": true
       }
