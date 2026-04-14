@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 170,
+    "total": 171,
     "streamlit": 0,
-    "github_action": 170,
-    "successful": 170,
+    "github_action": 171,
+    "successful": 171,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 170
+      "Account Executive VCBL": 171
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 12:05:02",
-        "source": "github_action",
-        "candidate": "Jocelin Andiana",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 12:05:41",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 12:54:45",
         "source": "github_action",
         "candidate": "dicky candra darmawan",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 12:55:20",
+        "source": "github_action",
+        "candidate": "Pinkan Maliha Yasmin",
         "position": "Account Executive VCBL",
         "success": true
       }
