@@ -5716,13 +5716,13 @@
     ]
   },
   "2026-04-14": {
-    "total": 15,
+    "total": 16,
     "streamlit": 0,
-    "github_action": 15,
-    "successful": 15,
+    "github_action": 16,
+    "successful": 16,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 15
+      "Account Executive VCBL": 16
     },
     "entries": [
       {
@@ -5827,6 +5827,13 @@
         "timestamp": "2026-04-14 11:36:42",
         "source": "github_action",
         "candidate": "Damian Axeline",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 11:37:15",
+        "source": "github_action",
+        "candidate": "Nurulizzah Sekarkinasih",
         "position": "Account Executive VCBL",
         "success": true
       }
