@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 250,
+    "total": 251,
     "streamlit": 0,
-    "github_action": 250,
-    "successful": 250,
+    "github_action": 251,
+    "successful": 251,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 250
+      "Account Executive VCBL": 251
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 12:46:03",
-        "source": "github_action",
-        "candidate": "Amanda Patricia Hutauruk",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 12:46:40",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 13:34:24",
         "source": "github_action",
         "candidate": "Sindy Rosita",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 13:34:57",
+        "source": "github_action",
+        "candidate": "Naila Asyrofa Khilyah",
         "position": "Account Executive VCBL",
         "success": true
       }
