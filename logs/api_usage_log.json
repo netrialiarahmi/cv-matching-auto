@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 239,
+    "total": 240,
     "streamlit": 0,
-    "github_action": 239,
-    "successful": 239,
+    "github_action": 240,
+    "successful": 240,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 239
+      "Account Executive VCBL": 240
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 12:40:33",
-        "source": "github_action",
-        "candidate": "Adhitya Nur Taufiq",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 12:41:12",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 13:29:23",
         "source": "github_action",
         "candidate": "Aqsya Shaqilla",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 13:29:53",
+        "source": "github_action",
+        "candidate": "Taufik Hidayat",
         "position": "Account Executive VCBL",
         "success": true
       }
