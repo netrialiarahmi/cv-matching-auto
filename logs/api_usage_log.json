@@ -5716,23 +5716,16 @@
     ]
   },
   "2026-04-14": {
-    "total": 661,
+    "total": 662,
     "streamlit": 0,
-    "github_action": 661,
-    "successful": 661,
+    "github_action": 662,
+    "successful": 662,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 451,
-      "Account Executive Pasangiklan.com": 210
+      "Account Executive Pasangiklan.com": 211
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 15:59:58",
-        "source": "github_action",
-        "candidate": "Ihkrom Widya",
-        "position": "Account Executive Pasangiklan.com",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 16:00:30",
         "source": "github_action",
@@ -6423,6 +6416,13 @@
         "timestamp": "2026-04-14 16:48:57",
         "source": "github_action",
         "candidate": "Isnasha  Surwiyanta",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 16:49:29",
+        "source": "github_action",
+        "candidate": "Putri Amanda Faizal",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
