@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 137,
+    "total": 138,
     "streamlit": 0,
-    "github_action": 137,
-    "successful": 137,
+    "github_action": 138,
+    "successful": 138,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 137
+      "Account Executive VCBL": 138
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 11:48:56",
-        "source": "github_action",
-        "candidate": "Firman Fathurahman",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 11:49:29",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 12:39:00",
         "source": "github_action",
         "candidate": "Virli Putra",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 12:39:30",
+        "source": "github_action",
+        "candidate": "Galang Aryo Pangestu",
         "position": "Account Executive VCBL",
         "success": true
       }
