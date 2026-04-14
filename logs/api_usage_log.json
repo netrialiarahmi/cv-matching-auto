@@ -5716,23 +5716,16 @@
     ]
   },
   "2026-04-14": {
-    "total": 550,
+    "total": 551,
     "streamlit": 0,
-    "github_action": 550,
-    "successful": 550,
+    "github_action": 551,
+    "successful": 551,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 451,
-      "Account Executive Pasangiklan.com": 99
+      "Account Executive Pasangiklan.com": 100
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 15:04:05",
-        "source": "github_action",
-        "candidate": "Fanzz Store",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 15:04:39",
         "source": "github_action",
@@ -6423,6 +6416,13 @@
         "timestamp": "2026-04-14 15:54:02",
         "source": "github_action",
         "candidate": "Nabila Febrini",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 15:54:24",
+        "source": "github_action",
+        "candidate": "Danang Agung Indriatno",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
