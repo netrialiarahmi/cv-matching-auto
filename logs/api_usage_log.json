@@ -5716,23 +5716,16 @@
     ]
   },
   "2026-04-14": {
-    "total": 509,
+    "total": 510,
     "streamlit": 0,
-    "github_action": 509,
-    "successful": 509,
+    "github_action": 510,
+    "successful": 510,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 451,
-      "Account Executive Pasangiklan.com": 58
+      "Account Executive Pasangiklan.com": 59
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 14:48:12",
-        "source": "github_action",
-        "candidate": "Sheila Pradhita",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 14:48:15",
         "source": "github_action",
@@ -6423,6 +6416,13 @@
         "timestamp": "2026-04-14 15:33:22",
         "source": "github_action",
         "candidate": "Hashfi Erlingga Prawira",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 15:33:51",
+        "source": "github_action",
+        "candidate": "RISKI AZIZAH FEBIANTI",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
