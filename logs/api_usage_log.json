@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 402,
+    "total": 403,
     "streamlit": 0,
-    "github_action": 402,
-    "successful": 402,
+    "github_action": 403,
+    "successful": 403,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 402
+      "Account Executive VCBL": 403
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 13:58:45",
-        "source": "github_action",
-        "candidate": "Amalia Frachmadiany",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 13:59:12",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 14:44:36",
         "source": "github_action",
         "candidate": "Devi Putri Pranata",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 14:45:05",
+        "source": "github_action",
+        "candidate": "Muhammad Ala adiyat",
         "position": "Account Executive VCBL",
         "success": true
       }
