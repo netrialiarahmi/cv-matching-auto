@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 399,
+    "total": 400,
     "streamlit": 0,
-    "github_action": 399,
-    "successful": 399,
+    "github_action": 400,
+    "successful": 400,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 399
+      "Account Executive VCBL": 400
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 13:57:24",
-        "source": "github_action",
-        "candidate": "Taufan Rahsobudi",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 13:57:53",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 14:43:13",
         "source": "github_action",
         "candidate": "Wulandari Wahyu Dwina Putri",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 14:43:38",
+        "source": "github_action",
+        "candidate": "Septie sukmaya",
         "position": "Account Executive VCBL",
         "success": true
       }
