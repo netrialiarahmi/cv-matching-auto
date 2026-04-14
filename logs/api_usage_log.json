@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 126,
+    "total": 127,
     "streamlit": 0,
-    "github_action": 126,
-    "successful": 126,
+    "github_action": 127,
+    "successful": 127,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 126
+      "Account Executive VCBL": 127
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 11:43:00",
-        "source": "github_action",
-        "candidate": "Ade lorina  Banjarnahor",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 11:43:37",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 12:33:40",
         "source": "github_action",
         "candidate": "Faisal Marwan",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 12:34:14",
+        "source": "github_action",
+        "candidate": "Hendra Renaldy",
         "position": "Account Executive VCBL",
         "success": true
       }
