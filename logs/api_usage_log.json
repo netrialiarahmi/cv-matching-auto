@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 129,
+    "total": 130,
     "streamlit": 0,
-    "github_action": 129,
-    "successful": 129,
+    "github_action": 130,
+    "successful": 130,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 129
+      "Account Executive VCBL": 130
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 11:44:38",
-        "source": "github_action",
-        "candidate": "reni evitasari",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 11:45:10",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 12:35:15",
         "source": "github_action",
         "candidate": "Nurul Anissa",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 12:35:49",
+        "source": "github_action",
+        "candidate": "Greg Kristamulyana",
         "position": "Account Executive VCBL",
         "success": true
       }
