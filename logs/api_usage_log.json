@@ -5716,13 +5716,13 @@
     ]
   },
   "2026-04-14": {
-    "total": 74,
+    "total": 75,
     "streamlit": 0,
-    "github_action": 74,
-    "successful": 74,
+    "github_action": 75,
+    "successful": 75,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 74
+      "Account Executive VCBL": 75
     },
     "entries": [
       {
@@ -6240,6 +6240,13 @@
         "timestamp": "2026-04-14 12:06:45",
         "source": "github_action",
         "candidate": "Dicky Andhyka Priambudi",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 12:07:14",
+        "source": "github_action",
+        "candidate": "neng Halima",
         "position": "Account Executive VCBL",
         "success": true
       }
