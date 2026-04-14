@@ -5716,23 +5716,16 @@
     ]
   },
   "2026-04-14": {
-    "total": 577,
+    "total": 578,
     "streamlit": 0,
-    "github_action": 577,
-    "successful": 577,
+    "github_action": 578,
+    "successful": 578,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 451,
-      "Account Executive Pasangiklan.com": 126
+      "Account Executive Pasangiklan.com": 127
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 15:17:50",
-        "source": "github_action",
-        "candidate": "Irsan Amulya",
-        "position": "Account Executive Pasangiklan.com",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 15:18:07",
         "source": "github_action",
@@ -6423,6 +6416,13 @@
         "timestamp": "2026-04-14 16:07:25",
         "source": "github_action",
         "candidate": "Alryandi Herlembang Siregar",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 16:07:59",
+        "source": "github_action",
+        "candidate": "Ali Nawawi",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
