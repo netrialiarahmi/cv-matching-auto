@@ -5716,23 +5716,16 @@
     ]
   },
   "2026-04-14": {
-    "total": 495,
+    "total": 496,
     "streamlit": 0,
-    "github_action": 495,
-    "successful": 495,
+    "github_action": 496,
+    "successful": 496,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 451,
-      "Account Executive Pasangiklan.com": 44
+      "Account Executive Pasangiklan.com": 45
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 14:41:56",
-        "source": "github_action",
-        "candidate": "Chendri Yunan",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 14:42:12",
         "source": "github_action",
@@ -6423,6 +6416,13 @@
         "timestamp": "2026-04-14 15:26:12",
         "source": "github_action",
         "candidate": "Zidan Kurnia",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 15:26:43",
+        "source": "github_action",
+        "candidate": "Muhammad Adel Hilmi Halwanu",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
