@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 168,
+    "total": 169,
     "streamlit": 0,
-    "github_action": 168,
-    "successful": 168,
+    "github_action": 169,
+    "successful": 169,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 168
+      "Account Executive VCBL": 169
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 12:04:00",
-        "source": "github_action",
-        "candidate": "Rania Prabandari",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 12:04:32",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 12:53:44",
         "source": "github_action",
         "candidate": "Gita Aurelia",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 12:54:13",
+        "source": "github_action",
+        "candidate": "Yogi Pradana",
         "position": "Account Executive VCBL",
         "success": true
       }
