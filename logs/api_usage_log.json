@@ -5716,13 +5716,13 @@
     ]
   },
   "2026-04-14": {
-    "total": 64,
+    "total": 65,
     "streamlit": 0,
-    "github_action": 64,
-    "successful": 64,
+    "github_action": 65,
+    "successful": 65,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 64
+      "Account Executive VCBL": 65
     },
     "entries": [
       {
@@ -6170,6 +6170,13 @@
         "timestamp": "2026-04-14 12:01:31",
         "source": "github_action",
         "candidate": "Ady Ramzy",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 12:02:00",
+        "source": "github_action",
+        "candidate": "Muhammad Rafi Fauzi",
         "position": "Account Executive VCBL",
         "success": true
       }
