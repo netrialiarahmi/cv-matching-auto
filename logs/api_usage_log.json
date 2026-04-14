@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 149,
+    "total": 150,
     "streamlit": 0,
-    "github_action": 149,
-    "successful": 149,
+    "github_action": 150,
+    "successful": 150,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 149
+      "Account Executive VCBL": 150
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 11:55:04",
-        "source": "github_action",
-        "candidate": "Muhamad Mufti Sugiharto",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 11:55:32",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 12:44:55",
         "source": "github_action",
         "candidate": "Christian Aldy",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 12:45:31",
+        "source": "github_action",
+        "candidate": "Reyzha Putra",
         "position": "Account Executive VCBL",
         "success": true
       }
