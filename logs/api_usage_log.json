@@ -5716,23 +5716,16 @@
     ]
   },
   "2026-04-14": {
-    "total": 579,
+    "total": 580,
     "streamlit": 0,
-    "github_action": 579,
-    "successful": 579,
+    "github_action": 580,
+    "successful": 580,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 451,
-      "Account Executive Pasangiklan.com": 128
+      "Account Executive Pasangiklan.com": 129
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 15:18:38",
-        "source": "github_action",
-        "candidate": "Fatimah Nurhasanah",
-        "position": "Account Executive Pasangiklan.com",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 15:19:09",
         "source": "github_action",
@@ -6423,6 +6416,13 @@
         "timestamp": "2026-04-14 16:08:31",
         "source": "github_action",
         "candidate": "Sandy Wibisono",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 16:09:10",
+        "source": "github_action",
+        "candidate": "Adhitia Liani Azhari",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
