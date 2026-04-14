@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 407,
+    "total": 408,
     "streamlit": 0,
-    "github_action": 407,
-    "successful": 407,
+    "github_action": 408,
+    "successful": 408,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 407
+      "Account Executive VCBL": 408
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 14:00:44",
-        "source": "github_action",
-        "candidate": "Agil Sundana",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 14:01:23",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 14:47:12",
         "source": "github_action",
         "candidate": "Nabila Retno",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 14:47:15",
+        "source": "github_action",
+        "candidate": "aldi rivaldi",
         "position": "Account Executive VCBL",
         "success": true
       }
