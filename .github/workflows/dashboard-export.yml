@@ -48,7 +48,9 @@ jobs:
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add sheet_positions.csv results/*.csv kalibrr_exports/*.csv
+          git add sheet_positions.csv 2>/dev/null || true
+          git add results/*.csv 2>/dev/null || true
+          git add kalibrr_exports/*.csv 2>/dev/null || true
           if git diff --staged --quiet; then
             echo "No changes to commit"
           else
@@ -57,8 +59,10 @@ jobs:
               echo "Merge conflict detected, resolving automatically..."
               git checkout --ours sheet_positions.csv 2>/dev/null || true
               find results -maxdepth 1 -name 'results*.csv' -type f -exec git checkout --ours {} \; 2>/dev/null || true
+              find kalibrr_exports -maxdepth 1 -name '*.csv' -type f -exec git checkout --ours {} \; 2>/dev/null || true
               git add sheet_positions.csv
               find results -maxdepth 1 -name 'results*.csv' -type f -exec git add {} \;
+              find kalibrr_exports -maxdepth 1 -name '*.csv' -type f -exec git add {} \; 2>/dev/null || true
               git -c core.editor=: merge --continue || {
                 echo "Auto-merge failed, aborting merge"
                 git merge --abort
