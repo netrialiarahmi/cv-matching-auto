@@ -5716,23 +5716,16 @@
     ]
   },
   "2026-04-14": {
-    "total": 644,
+    "total": 645,
     "streamlit": 0,
-    "github_action": 644,
-    "successful": 644,
+    "github_action": 645,
+    "successful": 645,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 451,
-      "Account Executive Pasangiklan.com": 193
+      "Account Executive Pasangiklan.com": 194
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 15:51:33",
-        "source": "github_action",
-        "candidate": "Tiara Putri Rahmadin",
-        "position": "Account Executive Pasangiklan.com",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 15:52:04",
         "source": "github_action",
@@ -6423,6 +6416,13 @@
         "timestamp": "2026-04-14 16:40:55",
         "source": "github_action",
         "candidate": "Petrus Herman Prasetiyo",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 16:41:31",
+        "source": "github_action",
+        "candidate": "Hanum Aufa Rafida",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
