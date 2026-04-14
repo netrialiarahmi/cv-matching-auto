@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 237,
+    "total": 238,
     "streamlit": 0,
-    "github_action": 237,
-    "successful": 237,
+    "github_action": 238,
+    "successful": 238,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 237
+      "Account Executive VCBL": 238
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 12:39:30",
-        "source": "github_action",
-        "candidate": "Galang Aryo Pangestu",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 12:40:04",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 13:28:21",
         "source": "github_action",
         "candidate": "Rahmavita Naripati",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 13:28:54",
+        "source": "github_action",
+        "candidate": "Hilbram Syahrul",
         "position": "Account Executive VCBL",
         "success": true
       }
