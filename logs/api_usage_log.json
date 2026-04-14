@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 177,
+    "total": 178,
     "streamlit": 0,
-    "github_action": 177,
-    "successful": 177,
+    "github_action": 178,
+    "successful": 178,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 177
+      "Account Executive VCBL": 178
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 12:08:36",
-        "source": "github_action",
-        "candidate": "Deni Nurhidayat",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 12:09:05",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 12:57:53",
         "source": "github_action",
         "candidate": "Lutfiyah Nur Kamaliya",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 12:58:26",
+        "source": "github_action",
+        "candidate": "Helena Caesaria",
         "position": "Account Executive VCBL",
         "success": true
       }
