@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 444,
+    "total": 445,
     "streamlit": 0,
-    "github_action": 444,
-    "successful": 444,
+    "github_action": 445,
+    "successful": 445,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 444
+      "Account Executive VCBL": 445
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 14:18:03",
-        "source": "github_action",
-        "candidate": "Nachita   Putri Madina",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 14:18:31",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 15:01:17",
         "source": "github_action",
         "candidate": "suci Wulandari",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 15:02:13",
+        "source": "github_action",
+        "candidate": "Herawati Anisha",
         "position": "Account Executive VCBL",
         "success": true
       }
