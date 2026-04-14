@@ -1610,7 +1610,12 @@ elif selected == "Dashboard":
     selected_job = st.selectbox("Pilih posisi untuk melihat hasil screening", job_positions)
     
     # Load results only for the selected position (efficient - loads single file)
-    df = load_results_for_position(selected_job)
+    # Check session state first for freshly saved data (avoids CDN cache delay on raw.githubusercontent.com)
+    _fresh_key = f"_fresh_results_{selected_job}"
+    if _fresh_key in st.session_state:
+        df = st.session_state.pop(_fresh_key)
+    else:
+        df = load_results_for_position(selected_job)
     
     # Check for errors (None means authentication/connection error)
     if df is None:
@@ -1829,7 +1834,12 @@ elif selected == "Dashboard":
             df_to_update.loc[mask, "Shortlisted"] = new_shortlisted
             df_to_update.loc[mask, "Rejection Reason"] = rejection_reason
             df_to_update.loc[mask, "Interview Status"] = interview_status
-            return update_results_in_github(df_to_update, job_position=job_position)
+            result = update_results_in_github(df_to_update, job_position=job_position)
+            if result:
+                # Store updated df in session state so the next rerun uses it
+                # instead of fetching from GitHub's CDN cache (which may be stale)
+                st.session_state[f"_fresh_results_{job_position}"] = df_to_update.copy()
+            return result
         return False
 
     # --- Display candidates with expanders ---
