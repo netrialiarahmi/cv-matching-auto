@@ -5716,13 +5716,13 @@
     ]
   },
   "2026-04-14": {
-    "total": 21,
+    "total": 22,
     "streamlit": 0,
-    "github_action": 21,
-    "successful": 21,
+    "github_action": 22,
+    "successful": 22,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 21
+      "Account Executive VCBL": 22
     },
     "entries": [
       {
@@ -5869,6 +5869,13 @@
         "timestamp": "2026-04-14 11:39:46",
         "source": "github_action",
         "candidate": "Alfi Ubaidillah",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 11:40:19",
+        "source": "github_action",
+        "candidate": "Haris Pramajakti",
         "position": "Account Executive VCBL",
         "success": true
       }
