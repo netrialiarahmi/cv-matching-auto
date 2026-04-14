@@ -5716,23 +5716,16 @@
     ]
   },
   "2026-04-14": {
-    "total": 521,
+    "total": 522,
     "streamlit": 0,
-    "github_action": 521,
-    "successful": 521,
+    "github_action": 522,
+    "successful": 522,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 451,
-      "Account Executive Pasangiklan.com": 70
+      "Account Executive Pasangiklan.com": 71
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 14:52:14",
-        "source": "github_action",
-        "candidate": "Vebby Br Ginting",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 14:52:17",
         "source": "github_action",
@@ -6423,6 +6416,13 @@
         "timestamp": "2026-04-14 15:39:08",
         "source": "github_action",
         "candidate": "Bian Shafi Muhammad",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 15:39:41",
+        "source": "github_action",
+        "candidate": "Vivin Vindiarti",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
