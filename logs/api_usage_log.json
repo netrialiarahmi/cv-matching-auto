@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 375,
+    "total": 376,
     "streamlit": 0,
-    "github_action": 375,
-    "successful": 375,
+    "github_action": 376,
+    "successful": 376,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 375
+      "Account Executive VCBL": 376
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 13:46:18",
-        "source": "github_action",
-        "candidate": "Aprilia Finanda",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 13:46:22",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 14:32:02",
         "source": "github_action",
         "candidate": "Pankratius Tri Lucianto",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 14:32:05",
+        "source": "github_action",
+        "candidate": "Inka Piola Naretin Rahayu",
         "position": "Account Executive VCBL",
         "success": true
       }
