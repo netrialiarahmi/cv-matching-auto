@@ -5716,13 +5716,13 @@
     ]
   },
   "2026-04-14": {
-    "total": 84,
+    "total": 85,
     "streamlit": 0,
-    "github_action": 84,
-    "successful": 84,
+    "github_action": 85,
+    "successful": 85,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 84
+      "Account Executive VCBL": 85
     },
     "entries": [
       {
@@ -6310,6 +6310,13 @@
         "timestamp": "2026-04-14 12:11:33",
         "source": "github_action",
         "candidate": "ardi setyawan",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 12:12:02",
+        "source": "github_action",
+        "candidate": "Abdillah Adriansyah",
         "position": "Account Executive VCBL",
         "success": true
       }
