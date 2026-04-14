@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 123,
+    "total": 124,
     "streamlit": 0,
-    "github_action": 123,
-    "successful": 123,
+    "github_action": 124,
+    "successful": 124,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 123
+      "Account Executive VCBL": 124
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 11:41:20",
-        "source": "github_action",
-        "candidate": "Irdan Syahril",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 11:41:52",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 12:31:58",
         "source": "github_action",
         "candidate": "Anindya Latifah",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 12:32:35",
+        "source": "github_action",
+        "candidate": "Nabila  Maulina Nasution",
         "position": "Account Executive VCBL",
         "success": true
       }
