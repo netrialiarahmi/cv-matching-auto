@@ -5716,13 +5716,13 @@
     ]
   },
   "2026-04-14": {
-    "total": 88,
+    "total": 89,
     "streamlit": 0,
-    "github_action": 88,
-    "successful": 88,
+    "github_action": 89,
+    "successful": 89,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 88
+      "Account Executive VCBL": 89
     },
     "entries": [
       {
@@ -6338,6 +6338,13 @@
         "timestamp": "2026-04-14 12:13:25",
         "source": "github_action",
         "candidate": "M. AKMAL  EFFENDI",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 12:13:59",
+        "source": "github_action",
+        "candidate": "Yeremia Yusak",
         "position": "Account Executive VCBL",
         "success": true
       }
