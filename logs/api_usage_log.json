@@ -5716,23 +5716,16 @@
     ]
   },
   "2026-04-14": {
-    "total": 558,
+    "total": 559,
     "streamlit": 0,
-    "github_action": 558,
-    "successful": 558,
+    "github_action": 559,
+    "successful": 559,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 451,
-      "Account Executive Pasangiklan.com": 107
+      "Account Executive Pasangiklan.com": 108
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 15:08:03",
-        "source": "github_action",
-        "candidate": "Muhammad Aldi Hamdani",
-        "position": "Account Executive Pasangiklan.com",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 15:08:06",
         "source": "github_action",
@@ -6423,6 +6416,13 @@
         "timestamp": "2026-04-14 15:57:51",
         "source": "github_action",
         "candidate": "Yeremia Sihaloho",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 15:58:10",
+        "source": "github_action",
+        "candidate": "Oktiana Ni'maturrahmah  Putri",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
