@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 328,
+    "total": 329,
     "streamlit": 0,
-    "github_action": 328,
-    "successful": 328,
+    "github_action": 329,
+    "successful": 329,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 328
+      "Account Executive VCBL": 329
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 13:23:57",
-        "source": "github_action",
-        "candidate": "Aulia Aisyatu Zakia",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 13:24:26",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 14:09:24",
         "source": "github_action",
         "candidate": "Widya Adiyatma",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 14:09:44",
+        "source": "github_action",
+        "candidate": "Adam Rizki Ramadhan",
         "position": "Account Executive VCBL",
         "success": true
       }
