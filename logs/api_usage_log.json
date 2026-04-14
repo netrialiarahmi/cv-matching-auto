@@ -5716,23 +5716,16 @@
     ]
   },
   "2026-04-14": {
-    "total": 549,
+    "total": 550,
     "streamlit": 0,
-    "github_action": 549,
-    "successful": 549,
+    "github_action": 550,
+    "successful": 550,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 451,
-      "Account Executive Pasangiklan.com": 98
+      "Account Executive Pasangiklan.com": 99
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 15:04:02",
-        "source": "github_action",
-        "candidate": "Kristian Rifaldi",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 15:04:05",
         "source": "github_action",
@@ -6423,6 +6416,13 @@
         "timestamp": "2026-04-14 15:53:30",
         "source": "github_action",
         "candidate": "Hans Darryl",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 15:54:02",
+        "source": "github_action",
+        "candidate": "Nabila Febrini",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
