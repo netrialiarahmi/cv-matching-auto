@@ -5716,13 +5716,13 @@
     ]
   },
   "2026-04-14": {
-    "total": 91,
+    "total": 92,
     "streamlit": 0,
-    "github_action": 91,
-    "successful": 91,
+    "github_action": 92,
+    "successful": 92,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 91
+      "Account Executive VCBL": 92
     },
     "entries": [
       {
@@ -6359,6 +6359,13 @@
         "timestamp": "2026-04-14 12:14:57",
         "source": "github_action",
         "candidate": "Marcellino Faisal Ronald, S.M.",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 12:15:23",
+        "source": "github_action",
+        "candidate": "chantika kesuma",
         "position": "Account Executive VCBL",
         "success": true
       }
