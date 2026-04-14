@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 284,
+    "total": 285,
     "streamlit": 0,
-    "github_action": 284,
-    "successful": 284,
+    "github_action": 285,
+    "successful": 285,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 284
+      "Account Executive VCBL": 285
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 13:02:05",
-        "source": "github_action",
-        "candidate": "Hafidh Muhammad Ibnu Sina",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 13:02:08",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 13:49:53",
         "source": "github_action",
         "candidate": "NOVI RIYANTI",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 13:50:21",
+        "source": "github_action",
+        "candidate": "Muhamad Ramdan",
         "position": "Account Executive VCBL",
         "success": true
       }
