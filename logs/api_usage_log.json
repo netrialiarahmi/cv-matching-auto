@@ -5716,23 +5716,16 @@
     ]
   },
   "2026-04-14": {
-    "total": 552,
+    "total": 553,
     "streamlit": 0,
-    "github_action": 552,
-    "successful": 552,
+    "github_action": 553,
+    "successful": 553,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 451,
-      "Account Executive Pasangiklan.com": 101
+      "Account Executive Pasangiklan.com": 102
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 15:05:11",
-        "source": "github_action",
-        "candidate": "Albertus Danar Adikristanto",
-        "position": "Account Executive Pasangiklan.com",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 15:05:46",
         "source": "github_action",
@@ -6423,6 +6416,13 @@
         "timestamp": "2026-04-14 15:55:04",
         "source": "github_action",
         "candidate": "Dea Arneta",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 15:55:29",
+        "source": "github_action",
+        "candidate": "Muhammad Reza Muzaky",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
