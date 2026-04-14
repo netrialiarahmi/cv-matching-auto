@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 376,
+    "total": 377,
     "streamlit": 0,
-    "github_action": 376,
-    "successful": 376,
+    "github_action": 377,
+    "successful": 377,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 376
+      "Account Executive VCBL": 377
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 13:46:22",
-        "source": "github_action",
-        "candidate": "Gilang Rizky Akbar",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 13:46:40",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 14:32:05",
         "source": "github_action",
         "candidate": "Inka Piola Naretin Rahayu",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 14:32:35",
+        "source": "github_action",
+        "candidate": "Ivander Epriano Sebastian",
         "position": "Account Executive VCBL",
         "success": true
       }
