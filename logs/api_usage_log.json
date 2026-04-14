@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 340,
+    "total": 341,
     "streamlit": 0,
-    "github_action": 340,
-    "successful": 340,
+    "github_action": 341,
+    "successful": 341,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 340
+      "Account Executive VCBL": 341
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 13:30:24",
-        "source": "github_action",
-        "candidate": "Bayu Indra Wibowo",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 13:30:56",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 14:15:14",
         "source": "github_action",
         "candidate": "Raesha Mutia",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 14:15:49",
+        "source": "github_action",
+        "candidate": "Gina Agustiani",
         "position": "Account Executive VCBL",
         "success": true
       }
