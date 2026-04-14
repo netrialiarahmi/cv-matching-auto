@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 153,
+    "total": 154,
     "streamlit": 0,
-    "github_action": 153,
-    "successful": 153,
+    "github_action": 154,
+    "successful": 154,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 153
+      "Account Executive VCBL": 154
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 11:57:02",
-        "source": "github_action",
-        "candidate": "Giffa Noviandi",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 11:57:31",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 12:47:14",
         "source": "github_action",
         "candidate": "Angela Christine",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 12:47:45",
+        "source": "github_action",
+        "candidate": "Elfrida Fiola Siregar siregar",
         "position": "Account Executive VCBL",
         "success": true
       }
