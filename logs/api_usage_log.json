@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 176,
+    "total": 177,
     "streamlit": 0,
-    "github_action": 176,
-    "successful": 176,
+    "github_action": 177,
+    "successful": 177,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 176
+      "Account Executive VCBL": 177
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 12:08:08",
-        "source": "github_action",
-        "candidate": "INDIRA MAHARANI",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 12:08:36",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 12:57:23",
         "source": "github_action",
         "candidate": "Suharto Putra",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 12:57:53",
+        "source": "github_action",
+        "candidate": "Lutfiyah Nur Kamaliya",
         "position": "Account Executive VCBL",
         "success": true
       }
