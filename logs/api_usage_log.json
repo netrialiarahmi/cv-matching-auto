@@ -5716,13 +5716,13 @@
     ]
   },
   "2026-04-14": {
-    "total": 80,
+    "total": 81,
     "streamlit": 0,
-    "github_action": 80,
-    "successful": 80,
+    "github_action": 81,
+    "successful": 81,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 80
+      "Account Executive VCBL": 81
     },
     "entries": [
       {
@@ -6282,6 +6282,13 @@
         "timestamp": "2026-04-14 12:09:32",
         "source": "github_action",
         "candidate": "Reni Mahardika",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 12:10:01",
+        "source": "github_action",
+        "candidate": "Zakiyah Nurseha",
         "position": "Account Executive VCBL",
         "success": true
       }
