@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 106,
+    "total": 107,
     "streamlit": 0,
-    "github_action": 106,
-    "successful": 106,
+    "github_action": 107,
+    "successful": 107,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 106
+      "Account Executive VCBL": 107
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 11:32:25",
-        "source": "github_action",
-        "candidate": "Devy Ayu Puspita",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 11:33:02",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 12:23:01",
         "source": "github_action",
         "candidate": "Reeno Farel  Putra Pujiono",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 12:23:35",
+        "source": "github_action",
+        "candidate": "TEUKU FADRIANSYAH ACBAR RIZA",
         "position": "Account Executive VCBL",
         "success": true
       }
