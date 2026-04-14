@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 304,
+    "total": 305,
     "streamlit": 0,
-    "github_action": 304,
-    "successful": 304,
+    "github_action": 305,
+    "successful": 305,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 304
+      "Account Executive VCBL": 305
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 13:12:07",
-        "source": "github_action",
-        "candidate": "Naufal Idris Budisusilo",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 13:12:34",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 13:59:12",
         "source": "github_action",
         "candidate": "Andinna  Putri",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 13:59:39",
+        "source": "github_action",
+        "candidate": "Raihan Isbintara",
         "position": "Account Executive VCBL",
         "success": true
       }
