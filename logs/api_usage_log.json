@@ -5716,23 +5716,16 @@
     ]
   },
   "2026-04-14": {
-    "total": 609,
+    "total": 610,
     "streamlit": 0,
-    "github_action": 609,
-    "successful": 609,
+    "github_action": 610,
+    "successful": 610,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 451,
-      "Account Executive Pasangiklan.com": 158
+      "Account Executive Pasangiklan.com": 159
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 15:33:51",
-        "source": "github_action",
-        "candidate": "RISKI AZIZAH FEBIANTI",
-        "position": "Account Executive Pasangiklan.com",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 15:34:25",
         "source": "github_action",
@@ -6423,6 +6416,13 @@
         "timestamp": "2026-04-14 16:22:50",
         "source": "github_action",
         "candidate": "Agus Nur Habib",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 16:23:21",
+        "source": "github_action",
+        "candidate": "ayu soraya",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
