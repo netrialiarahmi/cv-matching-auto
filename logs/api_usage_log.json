@@ -5716,13 +5716,13 @@
     ]
   },
   "2026-04-14": {
-    "total": 97,
+    "total": 98,
     "streamlit": 0,
-    "github_action": 97,
-    "successful": 97,
+    "github_action": 98,
+    "successful": 98,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 97
+      "Account Executive VCBL": 98
     },
     "entries": [
       {
@@ -6401,6 +6401,13 @@
         "timestamp": "2026-04-14 12:18:11",
         "source": "github_action",
         "candidate": "Rendi Dwidi",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 12:18:43",
+        "source": "github_action",
+        "candidate": "Adrian Mufti",
         "position": "Account Executive VCBL",
         "success": true
       }
