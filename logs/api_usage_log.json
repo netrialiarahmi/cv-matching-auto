@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 409,
+    "total": 410,
     "streamlit": 0,
-    "github_action": 409,
-    "successful": 409,
+    "github_action": 410,
+    "successful": 410,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 409
+      "Account Executive VCBL": 410
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 14:01:56",
-        "source": "github_action",
-        "candidate": "wahdudin",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 14:02:27",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 14:47:45",
         "source": "github_action",
         "candidate": "Muhammad lazuardy",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 14:48:12",
+        "source": "github_action",
+        "candidate": "Sheila Pradhita",
         "position": "Account Executive VCBL",
         "success": true
       }
