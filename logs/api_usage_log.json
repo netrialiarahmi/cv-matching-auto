@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 360,
+    "total": 361,
     "streamlit": 0,
-    "github_action": 360,
-    "successful": 360,
+    "github_action": 361,
+    "successful": 361,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 360
+      "Account Executive VCBL": 361
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 13:39:49",
-        "source": "github_action",
-        "candidate": "Bariq Iqbal Agia Putra",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 13:40:20",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 14:25:16",
         "source": "github_action",
         "candidate": "Adani Laila Putri",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 14:25:45",
+        "source": "github_action",
+        "candidate": "Dhea amara shezikya",
         "position": "Account Executive VCBL",
         "success": true
       }
