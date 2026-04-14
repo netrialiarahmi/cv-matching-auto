@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 351,
+    "total": 352,
     "streamlit": 0,
-    "github_action": 351,
-    "successful": 351,
+    "github_action": 352,
+    "successful": 352,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 351
+      "Account Executive VCBL": 352
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 13:35:29",
-        "source": "github_action",
-        "candidate": "Reza Sabela",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 13:35:59",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 14:20:53",
         "source": "github_action",
         "candidate": "Aldhi Krisna Randha",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 14:21:23",
+        "source": "github_action",
+        "candidate": "Yonathan Reno Pamungkas",
         "position": "Account Executive VCBL",
         "success": true
       }
