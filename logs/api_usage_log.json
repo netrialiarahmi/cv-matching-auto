@@ -5716,23 +5716,16 @@
     ]
   },
   "2026-04-14": {
-    "total": 492,
+    "total": 493,
     "streamlit": 0,
-    "github_action": 492,
-    "successful": 492,
+    "github_action": 493,
+    "successful": 493,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 451,
-      "Account Executive Pasangiklan.com": 41
+      "Account Executive Pasangiklan.com": 42
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 14:40:17",
-        "source": "github_action",
-        "candidate": "Besta Aulina Zaqiah",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 14:40:49",
         "source": "github_action",
@@ -6423,6 +6416,13 @@
         "timestamp": "2026-04-14 15:24:42",
         "source": "github_action",
         "candidate": "Fabian Aditama",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 15:25:12",
+        "source": "github_action",
+        "candidate": "Ihsan Rizki Mansis",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
