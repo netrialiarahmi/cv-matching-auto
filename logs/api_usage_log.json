@@ -5716,13 +5716,13 @@
     ]
   },
   "2026-04-14": {
-    "total": 56,
+    "total": 57,
     "streamlit": 0,
-    "github_action": 56,
-    "successful": 56,
+    "github_action": 57,
+    "successful": 57,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 56
+      "Account Executive VCBL": 57
     },
     "entries": [
       {
@@ -6114,6 +6114,13 @@
         "timestamp": "2026-04-14 11:57:57",
         "source": "github_action",
         "candidate": "Daffa Lucky Muafi",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 11:58:32",
+        "source": "github_action",
+        "candidate": "Muhammad Ananda Yuriko",
         "position": "Account Executive VCBL",
         "success": true
       }
