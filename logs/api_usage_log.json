@@ -5716,13 +5716,13 @@
     ]
   },
   "2026-04-14": {
-    "total": 59,
+    "total": 60,
     "streamlit": 0,
-    "github_action": 59,
-    "successful": 59,
+    "github_action": 60,
+    "successful": 60,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 59
+      "Account Executive VCBL": 60
     },
     "entries": [
       {
@@ -6135,6 +6135,13 @@
         "timestamp": "2026-04-14 11:59:32",
         "source": "github_action",
         "candidate": "Putra Nada",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 12:00:02",
+        "source": "github_action",
+        "candidate": "Muhamad indra Prabu",
         "position": "Account Executive VCBL",
         "success": true
       }
