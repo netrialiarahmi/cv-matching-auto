@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 256,
+    "total": 257,
     "streamlit": 0,
-    "github_action": 256,
-    "successful": 256,
+    "github_action": 257,
+    "successful": 257,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 256
+      "Account Executive VCBL": 257
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 12:48:51",
-        "source": "github_action",
-        "candidate": "Faiz Ardana Sani",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 12:48:54",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 13:37:38",
         "source": "github_action",
         "candidate": "Gracela Neoh",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 13:38:11",
+        "source": "github_action",
+        "candidate": "Satria Gunawan",
         "position": "Account Executive VCBL",
         "success": true
       }
