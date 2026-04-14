@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 321,
+    "total": 322,
     "streamlit": 0,
-    "github_action": 321,
-    "successful": 321,
+    "github_action": 322,
+    "successful": 322,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 321
+      "Account Executive VCBL": 322
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 13:21:15",
-        "source": "github_action",
-        "candidate": "Annisa Wardhatul",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 13:21:49",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 14:06:23",
         "source": "github_action",
         "candidate": "Joy Andrew Pradika",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 14:06:52",
+        "source": "github_action",
+        "candidate": "Aqil Mufid",
         "position": "Account Executive VCBL",
         "success": true
       }
