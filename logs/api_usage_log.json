@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 267,
+    "total": 268,
     "streamlit": 0,
-    "github_action": 267,
-    "successful": 267,
+    "github_action": 268,
+    "successful": 268,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 267
+      "Account Executive VCBL": 268
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 12:53:44",
-        "source": "github_action",
-        "candidate": "Gita Aurelia",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 12:54:13",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 13:42:28",
         "source": "github_action",
         "candidate": "Ramadhan Aldiansyah",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 13:43:02",
+        "source": "github_action",
+        "candidate": "Fatmawati",
         "position": "Account Executive VCBL",
         "success": true
       }
