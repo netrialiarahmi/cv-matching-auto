@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 293,
+    "total": 294,
     "streamlit": 0,
-    "github_action": 293,
-    "successful": 293,
+    "github_action": 294,
+    "successful": 294,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 293
+      "Account Executive VCBL": 294
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 13:06:21",
-        "source": "github_action",
-        "candidate": "Mia Nurjanah",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 13:06:41",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 13:53:47",
         "source": "github_action",
         "candidate": "Jamil Saepul Azis",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 13:54:22",
+        "source": "github_action",
+        "candidate": "Vika Resi",
         "position": "Account Executive VCBL",
         "success": true
       }
