@@ -5716,23 +5716,16 @@
     ]
   },
   "2026-04-14": {
-    "total": 632,
+    "total": 633,
     "streamlit": 0,
-    "github_action": 632,
-    "successful": 632,
+    "github_action": 633,
+    "successful": 633,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 451,
-      "Account Executive Pasangiklan.com": 181
+      "Account Executive Pasangiklan.com": 182
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 15:45:23",
-        "source": "github_action",
-        "candidate": "emil fawwaz",
-        "position": "Account Executive Pasangiklan.com",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 15:45:50",
         "source": "github_action",
@@ -6423,6 +6416,13 @@
         "timestamp": "2026-04-14 16:34:56",
         "source": "github_action",
         "candidate": "Oki Yafie Firdaus",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 16:35:28",
+        "source": "github_action",
+        "candidate": "Diza Muzdhalifa",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
