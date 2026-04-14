@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 270,
+    "total": 271,
     "streamlit": 0,
-    "github_action": 270,
-    "successful": 270,
+    "github_action": 271,
+    "successful": 271,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 270
+      "Account Executive VCBL": 271
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 12:55:20",
-        "source": "github_action",
-        "candidate": "Pinkan Maliha Yasmin",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 12:55:23",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 13:43:38",
         "source": "github_action",
         "candidate": "yohan wahyudi",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 13:43:41",
+        "source": "github_action",
+        "candidate": "Hafizh Jawas",
         "position": "Account Executive VCBL",
         "success": true
       }
