@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 150,
+    "total": 151,
     "streamlit": 0,
-    "github_action": 150,
-    "successful": 150,
+    "github_action": 151,
+    "successful": 151,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 150
+      "Account Executive VCBL": 151
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 11:55:32",
-        "source": "github_action",
-        "candidate": "Lathifa Dinar",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 11:56:02",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 12:45:31",
         "source": "github_action",
         "candidate": "Reyzha Putra",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 12:46:03",
+        "source": "github_action",
+        "candidate": "Amanda Patricia Hutauruk",
         "position": "Account Executive VCBL",
         "success": true
       }
