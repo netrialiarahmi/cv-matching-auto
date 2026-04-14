@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 201,
+    "total": 202,
     "streamlit": 0,
-    "github_action": 201,
-    "successful": 201,
+    "github_action": 202,
+    "successful": 202,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 201
+      "Account Executive VCBL": 202
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 12:20:50",
-        "source": "github_action",
-        "candidate": "Mutiah Munawar",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 12:21:20",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 13:09:53",
         "source": "github_action",
         "candidate": "Amyra Amalia Aqila",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 13:10:27",
+        "source": "github_action",
+        "candidate": "Nisa Nur Amalia",
         "position": "Account Executive VCBL",
         "success": true
       }
