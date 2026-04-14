@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 359,
+    "total": 360,
     "streamlit": 0,
-    "github_action": 359,
-    "successful": 359,
+    "github_action": 360,
+    "successful": 360,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 359
+      "Account Executive VCBL": 360
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 13:39:20",
-        "source": "github_action",
-        "candidate": "Rani Nur Afifah",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 13:39:49",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 14:24:46",
         "source": "github_action",
         "candidate": "Natasya Verlina",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 14:25:16",
+        "source": "github_action",
+        "candidate": "Adani Laila Putri",
         "position": "Account Executive VCBL",
         "success": true
       }
