@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 439,
+    "total": 440,
     "streamlit": 0,
-    "github_action": 439,
-    "successful": 439,
+    "github_action": 440,
+    "successful": 440,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 439
+      "Account Executive VCBL": 440
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 14:15:14",
-        "source": "github_action",
-        "candidate": "Raesha Mutia",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 14:15:49",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 14:59:05",
         "source": "github_action",
         "candidate": "Sentiana  Marbun",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 14:59:09",
+        "source": "github_action",
+        "candidate": "Puspita Sarii",
         "position": "Account Executive VCBL",
         "success": true
       }
