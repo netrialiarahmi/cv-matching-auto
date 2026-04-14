@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 216,
+    "total": 217,
     "streamlit": 0,
-    "github_action": 216,
-    "successful": 216,
+    "github_action": 217,
+    "successful": 217,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 216
+      "Account Executive VCBL": 217
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 12:28:39",
-        "source": "github_action",
-        "candidate": "yasmin iffah",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 12:29:10",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 13:18:00",
         "source": "github_action",
         "candidate": "Dedi Kurniawan",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 13:18:35",
+        "source": "github_action",
+        "candidate": "Visiana Futura Cemerlang",
         "position": "Account Executive VCBL",
         "success": true
       }
