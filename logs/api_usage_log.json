@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 159,
+    "total": 160,
     "streamlit": 0,
-    "github_action": 159,
-    "successful": 159,
+    "github_action": 160,
+    "successful": 160,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 159
+      "Account Executive VCBL": 160
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 12:00:02",
-        "source": "github_action",
-        "candidate": "Muhamad indra Prabu",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 12:00:32",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 12:48:57",
         "source": "github_action",
         "candidate": "ALIFA RAHMADANI",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 12:49:28",
+        "source": "github_action",
+        "candidate": "At Thariq Aleeyah Tsamara",
         "position": "Account Executive VCBL",
         "success": true
       }
