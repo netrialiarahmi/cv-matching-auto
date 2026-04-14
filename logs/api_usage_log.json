@@ -5716,23 +5716,16 @@
     ]
   },
   "2026-04-14": {
-    "total": 610,
+    "total": 611,
     "streamlit": 0,
-    "github_action": 610,
-    "successful": 610,
+    "github_action": 611,
+    "successful": 611,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 451,
-      "Account Executive Pasangiklan.com": 159
+      "Account Executive Pasangiklan.com": 160
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 15:34:25",
-        "source": "github_action",
-        "candidate": "Daffa Alif Nabil",
-        "position": "Account Executive Pasangiklan.com",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 15:34:57",
         "source": "github_action",
@@ -6423,6 +6416,13 @@
         "timestamp": "2026-04-14 16:23:21",
         "source": "github_action",
         "candidate": "ayu soraya",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 16:23:55",
+        "source": "github_action",
+        "candidate": "renus riyoko",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
