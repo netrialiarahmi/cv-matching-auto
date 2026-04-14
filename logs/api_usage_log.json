@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 214,
+    "total": 215,
     "streamlit": 0,
-    "github_action": 214,
-    "successful": 214,
+    "github_action": 215,
+    "successful": 215,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 214
+      "Account Executive VCBL": 215
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 12:27:36",
-        "source": "github_action",
-        "candidate": "Nindya Priska Permata",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 12:28:09",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 13:16:51",
         "source": "github_action",
         "candidate": "Rachma Ama",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 13:17:26",
+        "source": "github_action",
+        "candidate": "Farid Abdullah",
         "position": "Account Executive VCBL",
         "success": true
       }
