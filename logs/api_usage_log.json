@@ -5716,13 +5716,13 @@
     ]
   },
   "2026-04-14": {
-    "total": 60,
+    "total": 61,
     "streamlit": 0,
-    "github_action": 60,
-    "successful": 60,
+    "github_action": 61,
+    "successful": 61,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 60
+      "Account Executive VCBL": 61
     },
     "entries": [
       {
@@ -6142,6 +6142,13 @@
         "timestamp": "2026-04-14 12:00:02",
         "source": "github_action",
         "candidate": "Muhamad indra Prabu",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 12:00:32",
+        "source": "github_action",
+        "candidate": "Devit werus siahaan",
         "position": "Account Executive VCBL",
         "success": true
       }
