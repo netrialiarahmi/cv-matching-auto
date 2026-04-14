@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 295,
+    "total": 296,
     "streamlit": 0,
-    "github_action": 295,
-    "successful": 295,
+    "github_action": 296,
+    "successful": 296,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 295
+      "Account Executive VCBL": 296
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 13:07:13",
-        "source": "github_action",
-        "candidate": "Syarif Antoni",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 13:07:41",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 13:54:54",
         "source": "github_action",
         "candidate": "Khillad Pratama",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 13:55:23",
+        "source": "github_action",
+        "candidate": "Putri Nur Farida",
         "position": "Account Executive VCBL",
         "success": true
       }
