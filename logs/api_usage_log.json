@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 158,
+    "total": 159,
     "streamlit": 0,
-    "github_action": 158,
-    "successful": 158,
+    "github_action": 159,
+    "successful": 159,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 158
+      "Account Executive VCBL": 159
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 11:59:32",
-        "source": "github_action",
-        "candidate": "Putra Nada",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 12:00:02",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 12:48:54",
         "source": "github_action",
         "candidate": "Korin Indriani",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 12:48:57",
+        "source": "github_action",
+        "candidate": "ALIFA RAHMADANI",
         "position": "Account Executive VCBL",
         "success": true
       }
