@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 361,
+    "total": 362,
     "streamlit": 0,
-    "github_action": 361,
-    "successful": 361,
+    "github_action": 362,
+    "successful": 362,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 361
+      "Account Executive VCBL": 362
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 13:40:20",
-        "source": "github_action",
-        "candidate": "Salsa  Danisaskiya",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 13:40:48",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 14:25:45",
         "source": "github_action",
         "candidate": "Dhea amara shezikya",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 14:26:13",
+        "source": "github_action",
+        "candidate": "Zalsa Satyo  Putri Utomo",
         "position": "Account Executive VCBL",
         "success": true
       }
