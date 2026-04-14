@@ -5716,13 +5716,13 @@
     ]
   },
   "2026-04-14": {
-    "total": 93,
+    "total": 94,
     "streamlit": 0,
-    "github_action": 93,
-    "successful": 93,
+    "github_action": 94,
+    "successful": 94,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 93
+      "Account Executive VCBL": 94
     },
     "entries": [
       {
@@ -6373,6 +6373,13 @@
         "timestamp": "2026-04-14 12:15:51",
         "source": "github_action",
         "candidate": "Marselina Utami",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 12:16:19",
+        "source": "github_action",
+        "candidate": "Linda Delani",
         "position": "Account Executive VCBL",
         "success": true
       }
