@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 222,
+    "total": 223,
     "streamlit": 0,
-    "github_action": 222,
-    "successful": 222,
+    "github_action": 223,
+    "successful": 223,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 222
+      "Account Executive VCBL": 223
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 12:31:58",
-        "source": "github_action",
-        "candidate": "Anindya Latifah",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 12:32:35",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 13:21:15",
         "source": "github_action",
         "candidate": "Annisa Wardhatul",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 13:21:49",
+        "source": "github_action",
+        "candidate": "Muhammad Irwan",
         "position": "Account Executive VCBL",
         "success": true
       }
