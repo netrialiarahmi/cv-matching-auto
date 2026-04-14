@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 300,
+    "total": 301,
     "streamlit": 0,
-    "github_action": 300,
-    "successful": 300,
+    "github_action": 301,
+    "successful": 301,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 300
+      "Account Executive VCBL": 301
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 13:09:53",
-        "source": "github_action",
-        "candidate": "Amyra Amalia Aqila",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 13:10:27",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 13:57:24",
         "source": "github_action",
         "candidate": "Taufan Rahsobudi",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 13:57:53",
+        "source": "github_action",
+        "candidate": "Yoshika sinaga",
         "position": "Account Executive VCBL",
         "success": true
       }
