@@ -5716,13 +5716,13 @@
     ]
   },
   "2026-04-14": {
-    "total": 99,
+    "total": 100,
     "streamlit": 0,
-    "github_action": 99,
-    "successful": 99,
+    "github_action": 100,
+    "successful": 100,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 99
+      "Account Executive VCBL": 100
     },
     "entries": [
       {
@@ -6415,6 +6415,13 @@
         "timestamp": "2026-04-14 12:19:15",
         "source": "github_action",
         "candidate": "Qolbi Yonanda",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 12:19:47",
+        "source": "github_action",
+        "candidate": "Kania Adhisty",
         "position": "Account Executive VCBL",
         "success": true
       }
