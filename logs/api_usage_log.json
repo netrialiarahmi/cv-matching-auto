@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 255,
+    "total": 256,
     "streamlit": 0,
-    "github_action": 255,
-    "successful": 255,
+    "github_action": 256,
+    "successful": 256,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 255
+      "Account Executive VCBL": 256
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 12:48:21",
-        "source": "github_action",
-        "candidate": "REHAN PAGADILA",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 12:48:51",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 13:37:07",
         "source": "github_action",
         "candidate": "Flavius Anggara",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 13:37:38",
+        "source": "github_action",
+        "candidate": "Gracela Neoh",
         "position": "Account Executive VCBL",
         "success": true
       }
