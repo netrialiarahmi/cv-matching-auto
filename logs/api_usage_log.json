@@ -5716,23 +5716,16 @@
     ]
   },
   "2026-04-14": {
-    "total": 455,
+    "total": 456,
     "streamlit": 0,
-    "github_action": 455,
-    "successful": 455,
+    "github_action": 456,
+    "successful": 456,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 451,
-      "Account Executive Pasangiklan.com": 4
+      "Account Executive Pasangiklan.com": 5
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 14:23:19",
-        "source": "github_action",
-        "candidate": "Athaya Ramadhan",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 14:23:47",
         "source": "github_action",
@@ -6423,6 +6416,13 @@
         "timestamp": "2026-04-14 15:06:05",
         "source": "github_action",
         "candidate": "Wildha Ainun Ritonga",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 15:06:37",
+        "source": "github_action",
+        "candidate": "Muhammad Farhan",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
