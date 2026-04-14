@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 366,
+    "total": 367,
     "streamlit": 0,
-    "github_action": 366,
-    "successful": 366,
+    "github_action": 367,
+    "successful": 367,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 366
+      "Account Executive VCBL": 367
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 13:42:28",
-        "source": "github_action",
-        "candidate": "Ramadhan Aldiansyah",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 13:43:02",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 14:28:14",
         "source": "github_action",
         "candidate": "Muhammad Fikri",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 14:28:31",
+        "source": "github_action",
+        "candidate": "Vikri Haekal Maulana",
         "position": "Account Executive VCBL",
         "success": true
       }
