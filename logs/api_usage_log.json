@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 118,
+    "total": 119,
     "streamlit": 0,
-    "github_action": 118,
-    "successful": 118,
+    "github_action": 119,
+    "successful": 119,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 118
+      "Account Executive VCBL": 119
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 11:38:44",
-        "source": "github_action",
-        "candidate": "Rahman Putra Fireza",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 11:39:14",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 12:29:10",
         "source": "github_action",
         "candidate": "Annisa Ramadhiyani",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 12:29:42",
+        "source": "github_action",
+        "candidate": "Ramadhany Hadi Pratama",
         "position": "Account Executive VCBL",
         "success": true
       }
