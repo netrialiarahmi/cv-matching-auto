@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 257,
+    "total": 258,
     "streamlit": 0,
-    "github_action": 257,
-    "successful": 257,
+    "github_action": 258,
+    "successful": 258,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 257
+      "Account Executive VCBL": 258
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 12:48:54",
-        "source": "github_action",
-        "candidate": "Korin Indriani",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 12:48:57",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 13:38:11",
         "source": "github_action",
         "candidate": "Satria Gunawan",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 13:38:48",
+        "source": "github_action",
+        "candidate": "Genta Unggul Ananta Asyrofle",
         "position": "Account Executive VCBL",
         "success": true
       }
