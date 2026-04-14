@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 307,
+    "total": 308,
     "streamlit": 0,
-    "github_action": 307,
-    "successful": 307,
+    "github_action": 308,
+    "successful": 308,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 307
+      "Account Executive VCBL": 308
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 13:13:46",
-        "source": "github_action",
-        "candidate": "Faruqi Al Ghifari",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 13:14:17",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 14:00:41",
         "source": "github_action",
         "candidate": "Dhianya Putri Shafiya Wicaksono",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 14:00:44",
+        "source": "github_action",
+        "candidate": "Agil Sundana",
         "position": "Account Executive VCBL",
         "success": true
       }
