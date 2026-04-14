@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 421,
+    "total": 422,
     "streamlit": 0,
-    "github_action": 421,
-    "successful": 421,
+    "github_action": 422,
+    "successful": 422,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 421
+      "Account Executive VCBL": 422
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 14:06:52",
-        "source": "github_action",
-        "candidate": "Aqil Mufid",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 14:06:56",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 14:51:47",
         "source": "github_action",
         "candidate": "Divia  Magdalena",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 14:52:14",
+        "source": "github_action",
+        "candidate": "Vebby Br Ginting",
         "position": "Account Executive VCBL",
         "success": true
       }
