@@ -5716,13 +5716,13 @@
     ]
   },
   "2026-04-14": {
-    "total": 30,
+    "total": 31,
     "streamlit": 0,
-    "github_action": 30,
-    "successful": 30,
+    "github_action": 31,
+    "successful": 31,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 30
+      "Account Executive VCBL": 31
     },
     "entries": [
       {
@@ -5932,6 +5932,13 @@
         "timestamp": "2026-04-14 11:44:38",
         "source": "github_action",
         "candidate": "reni evitasari",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 11:45:10",
+        "source": "github_action",
+        "candidate": "Muhammad Feyzel Khalfani Putra Ardanesworo",
         "position": "Account Executive VCBL",
         "success": true
       }
