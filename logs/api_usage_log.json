@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 335,
+    "total": 336,
     "streamlit": 0,
-    "github_action": 335,
-    "successful": 335,
+    "github_action": 336,
+    "successful": 336,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 335
+      "Account Executive VCBL": 336
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 13:27:45",
-        "source": "github_action",
-        "candidate": "felix fernando",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 13:28:21",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 14:12:54",
         "source": "github_action",
         "candidate": "Puguh C., S.T., S.H. ( Bachelor of Engineering and Law )",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 14:13:26",
+        "source": "github_action",
+        "candidate": "Rifqi Favian Satriawan",
         "position": "Account Executive VCBL",
         "success": true
       }
