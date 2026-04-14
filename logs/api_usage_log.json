@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 427,
+    "total": 428,
     "streamlit": 0,
-    "github_action": 427,
-    "successful": 427,
+    "github_action": 428,
+    "successful": 428,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 427
+      "Account Executive VCBL": 428
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 14:09:24",
-        "source": "github_action",
-        "candidate": "Widya Adiyatma",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 14:09:44",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 14:54:04",
         "source": "github_action",
         "candidate": "Adika Yudhistira",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 14:54:32",
+        "source": "github_action",
+        "candidate": "adira mulya",
         "position": "Account Executive VCBL",
         "success": true
       }
