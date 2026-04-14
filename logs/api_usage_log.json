@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 397,
+    "total": 398,
     "streamlit": 0,
-    "github_action": 397,
-    "successful": 397,
+    "github_action": 398,
+    "successful": 398,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 397
+      "Account Executive VCBL": 398
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 13:56:25",
-        "source": "github_action",
-        "candidate": "Tracy Silalahi",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 13:56:54",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 14:42:12",
         "source": "github_action",
         "candidate": "Delia Amalia",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 14:42:43",
+        "source": "github_action",
+        "candidate": "Sondang Zefanya Febee Asima",
         "position": "Account Executive VCBL",
         "success": true
       }
