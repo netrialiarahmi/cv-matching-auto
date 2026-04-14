@@ -5716,23 +5716,16 @@
     ]
   },
   "2026-04-14": {
-    "total": 702,
+    "total": 703,
     "streamlit": 0,
-    "github_action": 702,
-    "successful": 702,
+    "github_action": 703,
+    "successful": 703,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 451,
-      "Account Executive Pasangiklan.com": 251
+      "Account Executive Pasangiklan.com": 252
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 16:20:21",
-        "source": "github_action",
-        "candidate": "Rizal Albana",
-        "position": "Account Executive Pasangiklan.com",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 16:20:44",
         "source": "github_action",
@@ -6423,6 +6416,13 @@
         "timestamp": "2026-04-14 17:09:21",
         "source": "github_action",
         "candidate": "Avivi Hilwana. A",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 17:09:52",
+        "source": "github_action",
+        "candidate": "Muhammad Rifqi Febrian",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
