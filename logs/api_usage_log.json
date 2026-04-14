@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 286,
+    "total": 287,
     "streamlit": 0,
-    "github_action": 286,
-    "successful": 286,
+    "github_action": 287,
+    "successful": 287,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 286
+      "Account Executive VCBL": 287
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 13:02:41",
-        "source": "github_action",
-        "candidate": "Jaka Perdana",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 13:03:18",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 13:50:49",
         "source": "github_action",
         "candidate": "Ravena Ophellia Ditya Medina",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 13:51:21",
+        "source": "github_action",
+        "candidate": "Amelia Intan",
         "position": "Account Executive VCBL",
         "success": true
       }
