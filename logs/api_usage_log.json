@@ -5716,23 +5716,16 @@
     ]
   },
   "2026-04-14": {
-    "total": 494,
+    "total": 495,
     "streamlit": 0,
-    "github_action": 494,
-    "successful": 494,
+    "github_action": 495,
+    "successful": 495,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 451,
-      "Account Executive Pasangiklan.com": 43
+      "Account Executive Pasangiklan.com": 44
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 14:41:25",
-        "source": "github_action",
-        "candidate": "M Noor Farchan",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 14:41:56",
         "source": "github_action",
@@ -6423,6 +6416,13 @@
         "timestamp": "2026-04-14 15:25:43",
         "source": "github_action",
         "candidate": "Diffa Dhiya Damayanti",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 15:26:12",
+        "source": "github_action",
+        "candidate": "Zidan Kurnia",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
