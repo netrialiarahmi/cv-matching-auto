@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 433,
+    "total": 434,
     "streamlit": 0,
-    "github_action": 433,
-    "successful": 433,
+    "github_action": 434,
+    "successful": 434,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 433
+      "Account Executive VCBL": 434
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 14:12:24",
-        "source": "github_action",
-        "candidate": "Sergie Loudryana Febrianto",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 14:12:54",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 14:56:06",
         "source": "github_action",
         "candidate": "Lia Amelia",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 14:56:35",
+        "source": "github_action",
+        "candidate": "Nadya Putri",
         "position": "Account Executive VCBL",
         "success": true
       }
