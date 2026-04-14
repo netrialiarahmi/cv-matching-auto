@@ -5716,23 +5716,16 @@
     ]
   },
   "2026-04-14": {
-    "total": 651,
+    "total": 652,
     "streamlit": 0,
-    "github_action": 651,
-    "successful": 651,
+    "github_action": 652,
+    "successful": 652,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 451,
-      "Account Executive Pasangiklan.com": 200
+      "Account Executive Pasangiklan.com": 201
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 15:55:04",
-        "source": "github_action",
-        "candidate": "Dea Arneta",
-        "position": "Account Executive Pasangiklan.com",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 15:55:29",
         "source": "github_action",
@@ -6423,6 +6416,13 @@
         "timestamp": "2026-04-14 16:44:27",
         "source": "github_action",
         "candidate": "rama aldhanish",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 16:44:30",
+        "source": "github_action",
+        "candidate": "Priscillia Manda",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
