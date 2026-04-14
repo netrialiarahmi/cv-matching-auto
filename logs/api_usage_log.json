@@ -5716,23 +5716,16 @@
     ]
   },
   "2026-04-14": {
-    "total": 541,
+    "total": 542,
     "streamlit": 0,
-    "github_action": 541,
-    "successful": 541,
+    "github_action": 542,
+    "successful": 542,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 451,
-      "Account Executive Pasangiklan.com": 90
+      "Account Executive Pasangiklan.com": 91
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 15:00:20",
-        "source": "github_action",
-        "candidate": "Hafizh Zaffan",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 15:00:55",
         "source": "github_action",
@@ -6423,6 +6416,13 @@
         "timestamp": "2026-04-14 15:49:22",
         "source": "github_action",
         "candidate": "Erika Christy",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 15:49:54",
+        "source": "github_action",
+        "candidate": "Dedet widodo",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
