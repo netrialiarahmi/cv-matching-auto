@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 426,
+    "total": 427,
     "streamlit": 0,
-    "github_action": 426,
-    "successful": 426,
+    "github_action": 427,
+    "successful": 427,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 426
+      "Account Executive VCBL": 427
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 14:08:54",
-        "source": "github_action",
-        "candidate": "Wira Laksana",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 14:09:24",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 14:53:33",
         "source": "github_action",
         "candidate": "Muhamad Arya Windu Santoso",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 14:54:04",
+        "source": "github_action",
+        "candidate": "Adika Yudhistira",
         "position": "Account Executive VCBL",
         "success": true
       }
