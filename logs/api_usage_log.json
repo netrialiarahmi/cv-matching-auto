@@ -5716,13 +5716,13 @@
     ]
   },
   "2026-04-14": {
-    "total": 10,
+    "total": 11,
     "streamlit": 0,
-    "github_action": 10,
-    "successful": 10,
+    "github_action": 11,
+    "successful": 11,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 10
+      "Account Executive VCBL": 11
     },
     "entries": [
       {
@@ -5792,6 +5792,13 @@
         "timestamp": "2026-04-14 11:34:08",
         "source": "github_action",
         "candidate": "Mohamad Irsahdulrizal",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 11:34:40",
+        "source": "github_action",
+        "candidate": "Anggita Nathania",
         "position": "Account Executive VCBL",
         "success": true
       }
