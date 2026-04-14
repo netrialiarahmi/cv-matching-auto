@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 262,
+    "total": 263,
     "streamlit": 0,
-    "github_action": 262,
-    "successful": 262,
+    "github_action": 263,
+    "successful": 263,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 262
+      "Account Executive VCBL": 263
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 12:51:06",
-        "source": "github_action",
-        "candidate": "Daffa Sandya Affansyah",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 12:51:37",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 13:40:20",
         "source": "github_action",
         "candidate": "Salsa  Danisaskiya",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 13:40:48",
+        "source": "github_action",
+        "candidate": "Bintang Febioni",
         "position": "Account Executive VCBL",
         "success": true
       }
