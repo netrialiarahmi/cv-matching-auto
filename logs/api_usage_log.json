@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 235,
+    "total": 236,
     "streamlit": 0,
-    "github_action": 235,
-    "successful": 235,
+    "github_action": 236,
+    "successful": 236,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 235
+      "Account Executive VCBL": 236
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 12:38:28",
-        "source": "github_action",
-        "candidate": "Muhammad Haidar Farid",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 12:39:00",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 13:27:11",
         "source": "github_action",
         "candidate": "AYU SETIANI",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 13:27:45",
+        "source": "github_action",
+        "candidate": "felix fernando",
         "position": "Account Executive VCBL",
         "success": true
       }
