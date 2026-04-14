@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 425,
+    "total": 426,
     "streamlit": 0,
-    "github_action": 425,
-    "successful": 425,
+    "github_action": 426,
+    "successful": 426,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 425
+      "Account Executive VCBL": 426
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 14:08:33",
-        "source": "github_action",
-        "candidate": "Ocha Fatirr",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 14:08:54",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 14:53:15",
         "source": "github_action",
         "candidate": "nur aini sari",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 14:53:33",
+        "source": "github_action",
+        "candidate": "Muhamad Arya Windu Santoso",
         "position": "Account Executive VCBL",
         "success": true
       }
