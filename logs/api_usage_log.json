@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 303,
+    "total": 304,
     "streamlit": 0,
-    "github_action": 303,
-    "successful": 303,
+    "github_action": 304,
+    "successful": 304,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 303
+      "Account Executive VCBL": 304
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 13:11:35",
-        "source": "github_action",
-        "candidate": "Muhammad Arrumi Fayyad",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 13:12:07",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 13:58:45",
         "source": "github_action",
         "candidate": "Amalia Frachmadiany",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 13:59:12",
+        "source": "github_action",
+        "candidate": "Andinna  Putri",
         "position": "Account Executive VCBL",
         "success": true
       }
