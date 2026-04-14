@@ -5716,13 +5716,13 @@
     ]
   },
   "2026-04-14": {
-    "total": 95,
+    "total": 96,
     "streamlit": 0,
-    "github_action": 95,
-    "successful": 95,
+    "github_action": 96,
+    "successful": 96,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 95
+      "Account Executive VCBL": 96
     },
     "entries": [
       {
@@ -6387,6 +6387,13 @@
         "timestamp": "2026-04-14 12:16:51",
         "source": "github_action",
         "candidate": "Ferel Hutagalung",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 12:17:26",
+        "source": "github_action",
+        "candidate": "Arvina Sinta Nur Kharisma",
         "position": "Account Executive VCBL",
         "success": true
       }
