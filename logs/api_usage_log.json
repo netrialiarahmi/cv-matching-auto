@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 131,
+    "total": 132,
     "streamlit": 0,
-    "github_action": 131,
-    "successful": 131,
+    "github_action": 132,
+    "successful": 132,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 131
+      "Account Executive VCBL": 132
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 11:45:48",
-        "source": "github_action",
-        "candidate": "bayu pratama",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 11:46:23",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 12:36:18",
         "source": "github_action",
         "candidate": "Ilham Aprilano",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 12:36:21",
+        "source": "github_action",
+        "candidate": "nur triantoro",
         "position": "Account Executive VCBL",
         "success": true
       }
