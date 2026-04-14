@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 332,
+    "total": 333,
     "streamlit": 0,
-    "github_action": 332,
-    "successful": 332,
+    "github_action": 333,
+    "successful": 333,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 332
+      "Account Executive VCBL": 333
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 13:26:08",
-        "source": "github_action",
-        "candidate": "Rifqi Soeleiman",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 13:26:42",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 14:11:16",
         "source": "github_action",
         "candidate": "sofa rina",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 14:11:52",
+        "source": "github_action",
+        "candidate": "Ayu Irene Oktalina",
         "position": "Account Executive VCBL",
         "success": true
       }
