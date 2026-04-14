@@ -45,6 +45,7 @@ import re
 
 
 # Constants
+PROJECT_ROOT = Path(__file__).resolve().parent.parent
 SHEET_POSITIONS_FILE = "sheet_positions.csv"
 JOB_POSITIONS_FILE = "job_positions.csv"
 RESULTS_DIR = "results"
@@ -66,20 +67,45 @@ def load_sheet_positions():
 
 
 def fetch_candidates_from_file_storage(file_storage_url, max_retries=3):
-    """Download and parse candidate CSV from File Storage URL."""
+    """Download and parse candidate CSV from File Storage URL or local path."""
+    url = str(file_storage_url).strip()
+
+    # ── Local file path (relative or absolute, or stale absolute from old runner) ──
+    if not url.startswith("http://") and not url.startswith("https://"):
+        # Resolve relative path against project root
+        file_path = Path(url)
+        if not file_path.is_absolute():
+            file_path = PROJECT_ROOT / file_path
+
+        # Fallback: stale absolute path from a different runner environment
+        if not file_path.exists() and "kalibrr_exports" in url:
+            relative_part = url[url.index("kalibrr_exports"):]
+            file_path = PROJECT_ROOT / relative_part
+
+        if file_path.exists():
+            try:
+                df = pd.read_csv(file_path)
+                return df
+            except Exception as e:
+                print(f"⚠️ Error reading local CSV {file_path}: {e}")
+                return None
+
+        print(f"⚠️ Local file not found: {file_path}")
+        return None
+
+    # ── Remote URL ──
     for attempt in range(max_retries):
         try:
             headers = {
                 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36',
                 'Accept': 'text/csv,application/csv,text/plain,*/*'
             }
-            response = requests.get(str(file_storage_url).strip(), headers=headers, timeout=30)
+            response = requests.get(url, headers=headers, timeout=30)
             
             if response.status_code != 200:
                 if attempt < max_retries - 1:
                     time.sleep(2)
                     continue
-                # Show status code for debugging
                 print(f"⚠️ HTTP {response.status_code} - URL may have expired")
                 return None
             
