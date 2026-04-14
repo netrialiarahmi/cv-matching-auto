@@ -5716,13 +5716,13 @@
     ]
   },
   "2026-04-14": {
-    "total": 6,
+    "total": 7,
     "streamlit": 0,
-    "github_action": 6,
-    "successful": 6,
+    "github_action": 7,
+    "successful": 7,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 6
+      "Account Executive VCBL": 7
     },
     "entries": [
       {
@@ -5764,6 +5764,13 @@
         "timestamp": "2026-04-14 11:31:53",
         "source": "github_action",
         "candidate": "Aisen Odnikana",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 11:32:25",
+        "source": "github_action",
+        "candidate": "Devy Ayu Puspita",
         "position": "Account Executive VCBL",
         "success": true
       }
