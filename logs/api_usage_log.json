@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 369,
+    "total": 370,
     "streamlit": 0,
-    "github_action": 369,
-    "successful": 369,
+    "github_action": 370,
+    "successful": 370,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 369
+      "Account Executive VCBL": 370
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 13:43:38",
-        "source": "github_action",
-        "candidate": "yohan wahyudi",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 13:43:41",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 14:29:29",
         "source": "github_action",
         "candidate": "DEVI AYU RAHMATIKA",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 14:29:47",
+        "source": "github_action",
+        "candidate": "Aflaha Fathuroh",
         "position": "Account Executive VCBL",
         "success": true
       }
