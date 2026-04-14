@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 385,
+    "total": 386,
     "streamlit": 0,
-    "github_action": 385,
-    "successful": 385,
+    "github_action": 386,
+    "successful": 386,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 385
+      "Account Executive VCBL": 386
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 13:50:49",
-        "source": "github_action",
-        "candidate": "Ravena Ophellia Ditya Medina",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 13:51:21",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 14:36:22",
         "source": "github_action",
         "candidate": "Monicha Elisabeth Simanjuntak",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 14:36:52",
+        "source": "github_action",
+        "candidate": "8014 Duwi Anjar Ariwibowo",
         "position": "Account Executive VCBL",
         "success": true
       }
