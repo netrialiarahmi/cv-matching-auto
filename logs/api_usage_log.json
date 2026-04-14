@@ -5716,23 +5716,16 @@
     ]
   },
   "2026-04-14": {
-    "total": 726,
+    "total": 727,
     "streamlit": 0,
-    "github_action": 726,
-    "successful": 726,
+    "github_action": 727,
+    "successful": 727,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 451,
-      "Account Executive Pasangiklan.com": 275
+      "Account Executive Pasangiklan.com": 276
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 16:32:07",
-        "source": "github_action",
-        "candidate": "Dinda Tresya  Cantika",
-        "position": "Account Executive Pasangiklan.com",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 16:32:39",
         "source": "github_action",
@@ -6423,6 +6416,13 @@
         "timestamp": "2026-04-14 17:21:33",
         "source": "github_action",
         "candidate": "Oktaviani  Pratiwi",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 17:23:04",
+        "source": "github_action",
+        "candidate": "Hana Marselia Sihombing",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
