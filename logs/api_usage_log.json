@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 254,
+    "total": 255,
     "streamlit": 0,
-    "github_action": 254,
-    "successful": 254,
+    "github_action": 255,
+    "successful": 255,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 254
+      "Account Executive VCBL": 255
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 12:48:18",
-        "source": "github_action",
-        "candidate": "Amelia Riyanti",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 12:48:21",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 13:36:37",
         "source": "github_action",
         "candidate": "Listianova Nurrochmah",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 13:37:07",
+        "source": "github_action",
+        "candidate": "Flavius Anggara",
         "position": "Account Executive VCBL",
         "success": true
       }
