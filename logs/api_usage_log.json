@@ -5716,13 +5716,13 @@
     ]
   },
   "2026-04-14": {
-    "total": 42,
+    "total": 43,
     "streamlit": 0,
-    "github_action": 42,
-    "successful": 42,
+    "github_action": 43,
+    "successful": 43,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 42
+      "Account Executive VCBL": 43
     },
     "entries": [
       {
@@ -6016,6 +6016,13 @@
         "timestamp": "2026-04-14 11:51:00",
         "source": "github_action",
         "candidate": "Diva Berlian Maahirah",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 11:51:31",
+        "source": "github_action",
+        "candidate": "Prisca Salsabilla",
         "position": "Account Executive VCBL",
         "success": true
       }
