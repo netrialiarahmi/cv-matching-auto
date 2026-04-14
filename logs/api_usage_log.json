@@ -5716,23 +5716,16 @@
     ]
   },
   "2026-04-14": {
-    "total": 512,
+    "total": 513,
     "streamlit": 0,
-    "github_action": 512,
-    "successful": 512,
+    "github_action": 513,
+    "successful": 513,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 451,
-      "Account Executive Pasangiklan.com": 61
+      "Account Executive Pasangiklan.com": 62
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 14:48:49",
-        "source": "github_action",
-        "candidate": "Hanny Nuraeni Maharani",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 14:49:17",
         "source": "github_action",
@@ -6423,6 +6416,13 @@
         "timestamp": "2026-04-14 15:34:57",
         "source": "github_action",
         "candidate": "Lingga Apriyanto Perkoso",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 15:35:14",
+        "source": "github_action",
+        "candidate": "Cori Jonar Natanail",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
