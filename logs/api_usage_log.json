@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 408,
+    "total": 409,
     "streamlit": 0,
-    "github_action": 408,
-    "successful": 408,
+    "github_action": 409,
+    "successful": 409,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 408
+      "Account Executive VCBL": 409
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 14:01:23",
-        "source": "github_action",
-        "candidate": "Wahyu Puji astuti",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 14:01:56",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 14:47:15",
         "source": "github_action",
         "candidate": "aldi rivaldi",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 14:47:45",
+        "source": "github_action",
+        "candidate": "Muhammad lazuardy",
         "position": "Account Executive VCBL",
         "success": true
       }
