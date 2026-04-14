@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 379,
+    "total": 380,
     "streamlit": 0,
-    "github_action": 379,
-    "successful": 379,
+    "github_action": 380,
+    "successful": 380,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 379
+      "Account Executive VCBL": 380
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 13:47:46",
-        "source": "github_action",
-        "candidate": "Marsal AK Donny",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 13:48:17",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 14:33:36",
         "source": "github_action",
         "candidate": "Rini R",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 14:34:03",
+        "source": "github_action",
+        "candidate": "Gabrielle Havana Putri",
         "position": "Account Executive VCBL",
         "success": true
       }
