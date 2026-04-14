@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 217,
+    "total": 218,
     "streamlit": 0,
-    "github_action": 217,
-    "successful": 217,
+    "github_action": 218,
+    "successful": 218,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 217
+      "Account Executive VCBL": 218
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 12:29:10",
-        "source": "github_action",
-        "candidate": "Annisa Ramadhiyani",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 12:29:42",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 13:18:35",
         "source": "github_action",
         "candidate": "Visiana Futura Cemerlang",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 13:19:09",
+        "source": "github_action",
+        "candidate": "Salma Alika",
         "position": "Account Executive VCBL",
         "success": true
       }
