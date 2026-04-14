@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 334,
+    "total": 335,
     "streamlit": 0,
-    "github_action": 334,
-    "successful": 334,
+    "github_action": 335,
+    "successful": 335,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 334
+      "Account Executive VCBL": 335
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 13:27:11",
-        "source": "github_action",
-        "candidate": "AYU SETIANI",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 13:27:45",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 14:12:24",
         "source": "github_action",
         "candidate": "Sergie Loudryana Febrianto",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 14:12:54",
+        "source": "github_action",
+        "candidate": "Puguh C., S.T., S.H. ( Bachelor of Engineering and Law )",
         "position": "Account Executive VCBL",
         "success": true
       }
