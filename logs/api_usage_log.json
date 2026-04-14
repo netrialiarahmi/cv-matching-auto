@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 191,
+    "total": 192,
     "streamlit": 0,
-    "github_action": 191,
-    "successful": 191,
+    "github_action": 192,
+    "successful": 192,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 191
+      "Account Executive VCBL": 192
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 12:15:23",
-        "source": "github_action",
-        "candidate": "chantika kesuma",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 12:15:51",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 13:04:38",
         "source": "github_action",
         "candidate": "Safira Amanda Prasanti",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 13:05:12",
+        "source": "github_action",
+        "candidate": "Reyhan Nafisa",
         "position": "Account Executive VCBL",
         "success": true
       }
