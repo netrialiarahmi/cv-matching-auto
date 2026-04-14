@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 312,
+    "total": 313,
     "streamlit": 0,
-    "github_action": 312,
-    "successful": 312,
+    "github_action": 313,
+    "successful": 313,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 312
+      "Account Executive VCBL": 313
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 13:16:20",
-        "source": "github_action",
-        "candidate": "Muhammad Izza Lathiif",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 13:16:51",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 14:02:53",
         "source": "github_action",
         "candidate": "Faudilla Nurin Asfar",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 14:03:24",
+        "source": "github_action",
+        "candidate": "Mei liya Wulan dari",
         "position": "Account Executive VCBL",
         "success": true
       }
