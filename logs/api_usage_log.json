@@ -5716,13 +5716,13 @@
     ]
   },
   "2026-04-14": {
-    "total": 8,
+    "total": 9,
     "streamlit": 0,
-    "github_action": 8,
-    "successful": 8,
+    "github_action": 9,
+    "successful": 9,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 8
+      "Account Executive VCBL": 9
     },
     "entries": [
       {
@@ -5778,6 +5778,13 @@
         "timestamp": "2026-04-14 11:33:02",
         "source": "github_action",
         "candidate": "Farah Nurfiyanti",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 11:33:35",
+        "source": "github_action",
+        "candidate": "Arij Dawaman",
         "position": "Account Executive VCBL",
         "success": true
       }
