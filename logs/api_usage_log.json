@@ -5716,23 +5716,16 @@
     ]
   },
   "2026-04-14": {
-    "total": 526,
+    "total": 527,
     "streamlit": 0,
-    "github_action": 526,
-    "successful": 526,
+    "github_action": 527,
+    "successful": 527,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 451,
-      "Account Executive Pasangiklan.com": 75
+      "Account Executive Pasangiklan.com": 76
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 14:54:04",
-        "source": "github_action",
-        "candidate": "Adika Yudhistira",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 14:54:32",
         "source": "github_action",
@@ -6423,6 +6416,13 @@
         "timestamp": "2026-04-14 15:41:39",
         "source": "github_action",
         "candidate": "shavira istieananda",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 15:42:11",
+        "source": "github_action",
+        "candidate": "Bonita Dwi wardhani",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
