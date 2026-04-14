@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 195,
+    "total": 196,
     "streamlit": 0,
-    "github_action": 195,
-    "successful": 195,
+    "github_action": 196,
+    "successful": 196,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 195
+      "Account Executive VCBL": 196
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 12:17:26",
-        "source": "github_action",
-        "candidate": "Arvina Sinta Nur Kharisma",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 12:18:11",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 13:06:41",
         "source": "github_action",
         "candidate": "Dwiky Satria",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 13:07:13",
+        "source": "github_action",
+        "candidate": "Syarif Antoni",
         "position": "Account Executive VCBL",
         "success": true
       }
