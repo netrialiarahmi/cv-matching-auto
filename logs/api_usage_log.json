@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 336,
+    "total": 337,
     "streamlit": 0,
-    "github_action": 336,
-    "successful": 336,
+    "github_action": 337,
+    "successful": 337,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 336
+      "Account Executive VCBL": 337
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 13:28:21",
-        "source": "github_action",
-        "candidate": "Rahmavita Naripati",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 13:28:54",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 14:13:26",
         "source": "github_action",
         "candidate": "Rifqi Favian Satriawan",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 14:13:44",
+        "source": "github_action",
+        "candidate": "Sumita Suci Damayanti",
         "position": "Account Executive VCBL",
         "success": true
       }
