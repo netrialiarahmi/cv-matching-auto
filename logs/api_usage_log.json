@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 434,
+    "total": 435,
     "streamlit": 0,
-    "github_action": 434,
-    "successful": 434,
+    "github_action": 435,
+    "successful": 435,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 434
+      "Account Executive VCBL": 435
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 14:12:54",
-        "source": "github_action",
-        "candidate": "Puguh C., S.T., S.H. ( Bachelor of Engineering and Law )",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 14:13:26",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 14:56:35",
         "source": "github_action",
         "candidate": "Nadya Putri",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 14:57:06",
+        "source": "github_action",
+        "candidate": "Badriah Daulay",
         "position": "Account Executive VCBL",
         "success": true
       }
