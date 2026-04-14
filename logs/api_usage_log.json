@@ -5716,23 +5716,16 @@
     ]
   },
   "2026-04-14": {
-    "total": 696,
+    "total": 697,
     "streamlit": 0,
-    "github_action": 696,
-    "successful": 696,
+    "github_action": 697,
+    "successful": 697,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 451,
-      "Account Executive Pasangiklan.com": 245
+      "Account Executive Pasangiklan.com": 246
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 16:17:15",
-        "source": "github_action",
-        "candidate": "Rendi Ramadiansyah Saepudin",
-        "position": "Account Executive Pasangiklan.com",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 16:17:45",
         "source": "github_action",
@@ -6423,6 +6416,13 @@
         "timestamp": "2026-04-14 17:06:23",
         "source": "github_action",
         "candidate": "Safitri Eka Lestari",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 17:06:55",
+        "source": "github_action",
+        "candidate": "Altaft alfarizki",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
