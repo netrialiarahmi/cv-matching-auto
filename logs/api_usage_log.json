@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 280,
+    "total": 281,
     "streamlit": 0,
-    "github_action": 280,
-    "successful": 280,
+    "github_action": 281,
+    "successful": 281,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 280
+      "Account Executive VCBL": 281
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 13:00:01",
-        "source": "github_action",
-        "candidate": "Rifdah Luthfiah",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 13:00:32",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 13:47:46",
         "source": "github_action",
         "candidate": "Marsal AK Donny",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 13:48:17",
+        "source": "github_action",
+        "candidate": "Azka Putrie",
         "position": "Account Executive VCBL",
         "success": true
       }
