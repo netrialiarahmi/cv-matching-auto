@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 139,
+    "total": 140,
     "streamlit": 0,
-    "github_action": 139,
-    "successful": 139,
+    "github_action": 140,
+    "successful": 140,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 139
+      "Account Executive VCBL": 140
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 11:49:58",
-        "source": "github_action",
-        "candidate": "Kenny febrian",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 11:50:29",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 12:40:04",
         "source": "github_action",
         "candidate": "Wati Sitohang",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 12:40:33",
+        "source": "github_action",
+        "candidate": "Adhitya Nur Taufiq",
         "position": "Account Executive VCBL",
         "success": true
       }
