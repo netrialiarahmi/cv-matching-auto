@@ -5716,23 +5716,16 @@
     ]
   },
   "2026-04-14": {
-    "total": 689,
+    "total": 690,
     "streamlit": 0,
-    "github_action": 689,
-    "successful": 689,
+    "github_action": 690,
+    "successful": 690,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 451,
-      "Account Executive Pasangiklan.com": 238
+      "Account Executive Pasangiklan.com": 239
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 16:14:04",
-        "source": "github_action",
-        "candidate": "Faris Sayyid Quthub",
-        "position": "Account Executive Pasangiklan.com",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 16:14:06",
         "source": "github_action",
@@ -6423,6 +6416,13 @@
         "timestamp": "2026-04-14 17:03:14",
         "source": "github_action",
         "candidate": "Rieztanadya Mulia  Usman",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 17:03:47",
+        "source": "github_action",
+        "candidate": "RISKA RAHMAWATI",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
