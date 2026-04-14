@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 117,
+    "total": 118,
     "streamlit": 0,
-    "github_action": 117,
-    "successful": 117,
+    "github_action": 118,
+    "successful": 118,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 117
+      "Account Executive VCBL": 118
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 11:38:15",
-        "source": "github_action",
-        "candidate": "Muhammad Fathan",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 11:38:44",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 12:28:39",
         "source": "github_action",
         "candidate": "yasmin iffah",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 12:29:10",
+        "source": "github_action",
+        "candidate": "Annisa Ramadhiyani",
         "position": "Account Executive VCBL",
         "success": true
       }
