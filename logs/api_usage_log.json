@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 315,
+    "total": 316,
     "streamlit": 0,
-    "github_action": 315,
-    "successful": 315,
+    "github_action": 316,
+    "successful": 316,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 315
+      "Account Executive VCBL": 316
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 13:18:00",
-        "source": "github_action",
-        "candidate": "Dedi Kurniawan",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 13:18:35",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 14:04:03",
         "source": "github_action",
         "candidate": "Beatrix Gotama",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 14:04:24",
+        "source": "github_action",
+        "candidate": "Fikam Syah",
         "position": "Account Executive VCBL",
         "success": true
       }
