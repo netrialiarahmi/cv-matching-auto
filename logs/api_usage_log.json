@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 205,
+    "total": 206,
     "streamlit": 0,
-    "github_action": 205,
-    "successful": 205,
+    "github_action": 206,
+    "successful": 206,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 205
+      "Account Executive VCBL": 206
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 12:23:01",
-        "source": "github_action",
-        "candidate": "Reeno Farel  Putra Pujiono",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 12:23:35",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 13:12:07",
         "source": "github_action",
         "candidate": "Naufal Idris Budisusilo",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 13:12:34",
+        "source": "github_action",
+        "candidate": "Aurelia Alexa",
         "position": "Account Executive VCBL",
         "success": true
       }
