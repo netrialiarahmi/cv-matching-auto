@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 377,
+    "total": 378,
     "streamlit": 0,
-    "github_action": 377,
-    "successful": 377,
+    "github_action": 378,
+    "successful": 378,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 377
+      "Account Executive VCBL": 378
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 13:46:40",
-        "source": "github_action",
-        "candidate": "Galang Akbar Wibisono",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 13:47:19",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 14:32:35",
         "source": "github_action",
         "candidate": "Ivander Epriano Sebastian",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 14:33:06",
+        "source": "github_action",
+        "candidate": "Rizki Eka Oktavianto",
         "position": "Account Executive VCBL",
         "success": true
       }
