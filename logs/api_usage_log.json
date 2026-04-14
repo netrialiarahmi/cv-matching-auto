@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 111,
+    "total": 112,
     "streamlit": 0,
-    "github_action": 111,
-    "successful": 111,
+    "github_action": 112,
+    "successful": 112,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 111
+      "Account Executive VCBL": 112
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 11:35:13",
-        "source": "github_action",
-        "candidate": "Febrina Ulhaq",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 11:35:41",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 12:25:49",
         "source": "github_action",
         "candidate": "Febriana Trie Anisa",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 12:26:24",
+        "source": "github_action",
+        "candidate": "Edlina Hurin Urba Karina",
         "position": "Account Executive VCBL",
         "success": true
       }
