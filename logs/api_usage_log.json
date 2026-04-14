@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 119,
+    "total": 120,
     "streamlit": 0,
-    "github_action": 119,
-    "successful": 119,
+    "github_action": 120,
+    "successful": 120,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 119
+      "Account Executive VCBL": 120
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 11:39:14",
-        "source": "github_action",
-        "candidate": "Arnoldus Boly Peran",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 11:39:46",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 12:29:42",
         "source": "github_action",
         "candidate": "Ramadhany Hadi Pratama",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 12:30:19",
+        "source": "github_action",
+        "candidate": "Efriza Rachima Putra",
         "position": "Account Executive VCBL",
         "success": true
       }
