@@ -5716,23 +5716,16 @@
     ]
   },
   "2026-04-14": {
-    "total": 482,
+    "total": 483,
     "streamlit": 0,
-    "github_action": 482,
-    "successful": 482,
+    "github_action": 483,
+    "successful": 483,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 451,
-      "Account Executive Pasangiklan.com": 31
+      "Account Executive Pasangiklan.com": 32
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 14:35:33",
-        "source": "github_action",
-        "candidate": "Brian Chung",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 14:35:53",
         "source": "github_action",
@@ -6423,6 +6416,13 @@
         "timestamp": "2026-04-14 15:19:41",
         "source": "github_action",
         "candidate": "Yogie Pratama",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 15:20:13",
+        "source": "github_action",
+        "candidate": "Isnaeni Nurhamidah",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
