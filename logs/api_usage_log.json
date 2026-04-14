@@ -5716,23 +5716,16 @@
     ]
   },
   "2026-04-14": {
-    "total": 638,
+    "total": 639,
     "streamlit": 0,
-    "github_action": 638,
-    "successful": 638,
+    "github_action": 639,
+    "successful": 639,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 451,
-      "Account Executive Pasangiklan.com": 187
+      "Account Executive Pasangiklan.com": 188
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 15:48:33",
-        "source": "github_action",
-        "candidate": "Muhammad Ravel Satria",
-        "position": "Account Executive Pasangiklan.com",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 15:48:52",
         "source": "github_action",
@@ -6423,6 +6416,13 @@
         "timestamp": "2026-04-14 16:37:44",
         "source": "github_action",
         "candidate": "Yogi Pradana",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 16:38:13",
+        "source": "github_action",
+        "candidate": "Jeff Putra",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
