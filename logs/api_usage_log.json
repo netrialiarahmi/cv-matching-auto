@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 183,
+    "total": 184,
     "streamlit": 0,
-    "github_action": 183,
-    "successful": 183,
+    "github_action": 184,
+    "successful": 184,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 183
+      "Account Executive VCBL": 184
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 12:11:33",
-        "source": "github_action",
-        "candidate": "ardi setyawan",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 12:12:02",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 13:01:06",
         "source": "github_action",
         "candidate": "muhammad ariel rafdi",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 13:01:39",
+        "source": "github_action",
+        "candidate": "M Fadhil Ramadhan",
         "position": "Account Executive VCBL",
         "success": true
       }
