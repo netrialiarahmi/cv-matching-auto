@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 165,
+    "total": 166,
     "streamlit": 0,
-    "github_action": 165,
-    "successful": 165,
+    "github_action": 166,
+    "successful": 166,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 165
+      "Account Executive VCBL": 166
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 12:02:33",
-        "source": "github_action",
-        "candidate": "Fahmi Nurkholiq",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 12:03:00",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 12:52:08",
         "source": "github_action",
         "candidate": "Ardianto Pujo Wibowo",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 12:52:37",
+        "source": "github_action",
+        "candidate": "Iqbal Fakhriza",
         "position": "Account Executive VCBL",
         "success": true
       }
