@@ -5716,23 +5716,16 @@
     ]
   },
   "2026-04-14": {
-    "total": 677,
+    "total": 678,
     "streamlit": 0,
-    "github_action": 677,
-    "successful": 677,
+    "github_action": 678,
+    "successful": 678,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 451,
-      "Account Executive Pasangiklan.com": 226
+      "Account Executive Pasangiklan.com": 227
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 16:07:59",
-        "source": "github_action",
-        "candidate": "Ali Nawawi",
-        "position": "Account Executive Pasangiklan.com",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 16:08:31",
         "source": "github_action",
@@ -6423,6 +6416,13 @@
         "timestamp": "2026-04-14 16:57:24",
         "source": "github_action",
         "candidate": "Muhammad Aryanugraha",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 16:57:55",
+        "source": "github_action",
+        "candidate": "Michelle Anastasya supriyadi",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
