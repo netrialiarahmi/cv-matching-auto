@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 116,
+    "total": 117,
     "streamlit": 0,
-    "github_action": 116,
-    "successful": 116,
+    "github_action": 117,
+    "successful": 117,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 116
+      "Account Executive VCBL": 117
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 11:37:48",
-        "source": "github_action",
-        "candidate": "Zahratul Jannah",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 11:38:15",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 12:28:09",
         "source": "github_action",
         "candidate": "Muhammad Arya Wirawan",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 12:28:39",
+        "source": "github_action",
+        "candidate": "yasmin iffah",
         "position": "Account Executive VCBL",
         "success": true
       }
