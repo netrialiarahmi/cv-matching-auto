@@ -5716,23 +5716,16 @@
     ]
   },
   "2026-04-14": {
-    "total": 600,
+    "total": 601,
     "streamlit": 0,
-    "github_action": 600,
-    "successful": 600,
+    "github_action": 601,
+    "successful": 601,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 451,
-      "Account Executive Pasangiklan.com": 149
+      "Account Executive Pasangiklan.com": 150
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 15:29:17",
-        "source": "github_action",
-        "candidate": "Isti Bakhitah Sabila",
-        "position": "Account Executive Pasangiklan.com",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 15:29:47",
         "source": "github_action",
@@ -6423,6 +6416,13 @@
         "timestamp": "2026-04-14 16:18:44",
         "source": "github_action",
         "candidate": "Katharina Yuanita",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 16:19:16",
+        "source": "github_action",
+        "candidate": "Faisal Marwan",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
