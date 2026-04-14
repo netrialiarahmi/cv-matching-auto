@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 269,
+    "total": 270,
     "streamlit": 0,
-    "github_action": 269,
-    "successful": 269,
+    "github_action": 270,
+    "successful": 270,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 269
+      "Account Executive VCBL": 270
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 12:54:45",
-        "source": "github_action",
-        "candidate": "dicky candra darmawan",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 12:55:20",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 13:43:22",
         "source": "github_action",
         "candidate": "Felix Bernardo",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 13:43:38",
+        "source": "github_action",
+        "candidate": "yohan wahyudi",
         "position": "Account Executive VCBL",
         "success": true
       }
