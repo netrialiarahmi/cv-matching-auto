@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 437,
+    "total": 438,
     "streamlit": 0,
-    "github_action": 437,
-    "successful": 437,
+    "github_action": 438,
+    "successful": 438,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 437
+      "Account Executive VCBL": 438
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 14:14:17",
-        "source": "github_action",
-        "candidate": "Yanina Turbana",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 14:14:43",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 14:58:02",
         "source": "github_action",
         "candidate": "Ridha Lestari",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 14:58:30",
+        "source": "github_action",
+        "candidate": "Nurul rajab",
         "position": "Account Executive VCBL",
         "success": true
       }
