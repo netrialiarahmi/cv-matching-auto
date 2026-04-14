@@ -5716,13 +5716,13 @@
     ]
   },
   "2026-04-14": {
-    "total": 54,
+    "total": 55,
     "streamlit": 0,
-    "github_action": 54,
-    "successful": 54,
+    "github_action": 55,
+    "successful": 55,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 54
+      "Account Executive VCBL": 55
     },
     "entries": [
       {
@@ -6100,6 +6100,13 @@
         "timestamp": "2026-04-14 11:57:02",
         "source": "github_action",
         "candidate": "Giffa Noviandi",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 11:57:31",
+        "source": "github_action",
+        "candidate": "Ruth Santy Siregar",
         "position": "Account Executive VCBL",
         "success": true
       }
