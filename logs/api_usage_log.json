@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 169,
+    "total": 170,
     "streamlit": 0,
-    "github_action": 169,
-    "successful": 169,
+    "github_action": 170,
+    "successful": 170,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 169
+      "Account Executive VCBL": 170
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 12:04:32",
-        "source": "github_action",
-        "candidate": "Faris Fadhilah",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 12:05:02",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 12:54:13",
         "source": "github_action",
         "candidate": "Yogi Pradana",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 12:54:45",
+        "source": "github_action",
+        "candidate": "dicky candra darmawan",
         "position": "Account Executive VCBL",
         "success": true
       }
