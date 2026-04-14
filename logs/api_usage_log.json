@@ -5716,23 +5716,16 @@
     ]
   },
   "2026-04-14": {
-    "total": 601,
+    "total": 602,
     "streamlit": 0,
-    "github_action": 601,
-    "successful": 601,
+    "github_action": 602,
+    "successful": 602,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 451,
-      "Account Executive Pasangiklan.com": 150
+      "Account Executive Pasangiklan.com": 151
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 15:29:47",
-        "source": "github_action",
-        "candidate": "Usman Nurul Qur'an",
-        "position": "Account Executive Pasangiklan.com",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 15:30:19",
         "source": "github_action",
@@ -6423,6 +6416,13 @@
         "timestamp": "2026-04-14 16:19:16",
         "source": "github_action",
         "candidate": "Faisal Marwan",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 16:19:47",
+        "source": "github_action",
+        "candidate": "Nindya Priska Permata",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
