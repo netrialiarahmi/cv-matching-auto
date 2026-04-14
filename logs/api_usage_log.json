@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 362,
+    "total": 363,
     "streamlit": 0,
-    "github_action": 362,
-    "successful": 362,
+    "github_action": 363,
+    "successful": 363,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 362
+      "Account Executive VCBL": 363
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 13:40:48",
-        "source": "github_action",
-        "candidate": "Bintang Febioni",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 13:41:04",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 14:26:13",
         "source": "github_action",
         "candidate": "Zalsa Satyo  Putri Utomo",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 14:26:42",
+        "source": "github_action",
+        "candidate": "Alief Martin",
         "position": "Account Executive VCBL",
         "success": true
       }
