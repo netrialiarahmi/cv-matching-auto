@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 374,
+    "total": 375,
     "streamlit": 0,
-    "github_action": 374,
-    "successful": 374,
+    "github_action": 375,
+    "successful": 375,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 374
+      "Account Executive VCBL": 375
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 13:45:49",
-        "source": "github_action",
-        "candidate": "Ernestine Jessica",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 13:46:18",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 14:31:44",
         "source": "github_action",
         "candidate": "adisa rafina",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 14:32:02",
+        "source": "github_action",
+        "candidate": "Pankratius Tri Lucianto",
         "position": "Account Executive VCBL",
         "success": true
       }
