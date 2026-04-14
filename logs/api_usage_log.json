@@ -5716,13 +5716,13 @@
     ]
   },
   "2026-04-14": {
-    "total": 46,
+    "total": 47,
     "streamlit": 0,
-    "github_action": 46,
-    "successful": 46,
+    "github_action": 47,
+    "successful": 47,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 46
+      "Account Executive VCBL": 47
     },
     "entries": [
       {
@@ -6044,6 +6044,13 @@
         "timestamp": "2026-04-14 11:53:05",
         "source": "github_action",
         "candidate": "Muhammad Firdaus",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 11:53:41",
+        "source": "github_action",
+        "candidate": "Muhammad Fahmi",
         "position": "Account Executive VCBL",
         "success": true
       }
