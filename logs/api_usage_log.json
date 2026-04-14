@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 261,
+    "total": 262,
     "streamlit": 0,
-    "github_action": 261,
-    "successful": 261,
+    "github_action": 262,
+    "successful": 262,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 261
+      "Account Executive VCBL": 262
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 12:50:31",
-        "source": "github_action",
-        "candidate": "juno ongko",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 12:51:06",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 13:39:49",
         "source": "github_action",
         "candidate": "Bariq Iqbal Agia Putra",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 13:40:20",
+        "source": "github_action",
+        "candidate": "Salsa  Danisaskiya",
         "position": "Account Executive VCBL",
         "success": true
       }
