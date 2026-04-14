@@ -5716,23 +5716,16 @@
     ]
   },
   "2026-04-14": {
-    "total": 650,
+    "total": 651,
     "streamlit": 0,
-    "github_action": 650,
-    "successful": 650,
+    "github_action": 651,
+    "successful": 651,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 451,
-      "Account Executive Pasangiklan.com": 199
+      "Account Executive Pasangiklan.com": 200
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 15:54:24",
-        "source": "github_action",
-        "candidate": "Danang Agung Indriatno",
-        "position": "Account Executive Pasangiklan.com",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 15:55:04",
         "source": "github_action",
@@ -6423,6 +6416,13 @@
         "timestamp": "2026-04-14 16:43:52",
         "source": "github_action",
         "candidate": "Aurelia Librinaningrum",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 16:44:27",
+        "source": "github_action",
+        "candidate": "rama aldhanish",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
