@@ -5716,23 +5716,16 @@
     ]
   },
   "2026-04-14": {
-    "total": 489,
+    "total": 490,
     "streamlit": 0,
-    "github_action": 489,
-    "successful": 489,
+    "github_action": 490,
+    "successful": 490,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 451,
-      "Account Executive Pasangiklan.com": 38
+      "Account Executive Pasangiklan.com": 39
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 14:38:52",
-        "source": "github_action",
-        "candidate": "Priskila Debra Manik",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 14:39:20",
         "source": "github_action",
@@ -6423,6 +6416,13 @@
         "timestamp": "2026-04-14 15:23:14",
         "source": "github_action",
         "candidate": "Muhammad Fathan",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 15:23:52",
+        "source": "github_action",
+        "candidate": "Elsa Nanda Shafira",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
