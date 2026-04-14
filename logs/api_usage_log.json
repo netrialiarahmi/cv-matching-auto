@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 448,
+    "total": 449,
     "streamlit": 0,
-    "github_action": 448,
-    "successful": 448,
+    "github_action": 449,
+    "successful": 449,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 448
+      "Account Executive VCBL": 449
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 14:19:57",
-        "source": "github_action",
-        "candidate": "Indah Ayu",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 14:20:25",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 15:03:42",
         "source": "github_action",
         "candidate": "Rengga Saputra",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 15:03:59",
+        "source": "github_action",
+        "candidate": "Renita  Nabila Primandani",
         "position": "Account Executive VCBL",
         "success": true
       }
