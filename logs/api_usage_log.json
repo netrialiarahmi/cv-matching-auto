@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 185,
+    "total": 186,
     "streamlit": 0,
-    "github_action": 185,
-    "successful": 185,
+    "github_action": 186,
+    "successful": 186,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 185
+      "Account Executive VCBL": 186
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 12:12:29",
-        "source": "github_action",
-        "candidate": "selviana eka putri",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 12:12:54",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 13:02:05",
         "source": "github_action",
         "candidate": "Hafidh Muhammad Ibnu Sina",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 13:02:08",
+        "source": "github_action",
+        "candidate": "Dwi Syahra",
         "position": "Account Executive VCBL",
         "success": true
       }
