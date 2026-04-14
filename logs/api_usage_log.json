@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 405,
+    "total": 406,
     "streamlit": 0,
-    "github_action": 405,
-    "successful": 405,
+    "github_action": 406,
+    "successful": 406,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 405
+      "Account Executive VCBL": 406
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 14:00:18",
-        "source": "github_action",
-        "candidate": "Anastasya Theresia Bidara",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 14:00:41",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 14:46:10",
         "source": "github_action",
         "candidate": "Destry Lia",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 14:46:39",
+        "source": "github_action",
+        "candidate": "Syeira Aprillia Purwitasari",
         "position": "Account Executive VCBL",
         "success": true
       }
