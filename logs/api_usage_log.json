@@ -5716,23 +5716,16 @@
     ]
   },
   "2026-04-14": {
-    "total": 658,
+    "total": 659,
     "streamlit": 0,
-    "github_action": 658,
-    "successful": 658,
+    "github_action": 659,
+    "successful": 659,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 451,
-      "Account Executive Pasangiklan.com": 207
+      "Account Executive Pasangiklan.com": 208
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 15:58:10",
-        "source": "github_action",
-        "candidate": "Oktiana Ni'maturrahmah  Putri",
-        "position": "Account Executive Pasangiklan.com",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 15:58:51",
         "source": "github_action",
@@ -6423,6 +6416,13 @@
         "timestamp": "2026-04-14 16:47:26",
         "source": "github_action",
         "candidate": "Rivaldo Septian",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 16:47:58",
+        "source": "github_action",
+        "candidate": "Faisal Haris",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
