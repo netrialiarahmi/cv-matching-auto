@@ -5716,13 +5716,13 @@
     ]
   },
   "2026-04-14": {
-    "total": 73,
+    "total": 74,
     "streamlit": 0,
-    "github_action": 73,
-    "successful": 73,
+    "github_action": 74,
+    "successful": 74,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 73
+      "Account Executive VCBL": 74
     },
     "entries": [
       {
@@ -6233,6 +6233,13 @@
         "timestamp": "2026-04-14 12:06:11",
         "source": "github_action",
         "candidate": "Refaldo Refaldo",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 12:06:45",
+        "source": "github_action",
+        "candidate": "Dicky Andhyka Priambudi",
         "position": "Account Executive VCBL",
         "success": true
       }
