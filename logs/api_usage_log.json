@@ -5716,13 +5716,13 @@
     ]
   },
   "2026-04-14": {
-    "total": 2,
+    "total": 3,
     "streamlit": 0,
-    "github_action": 2,
-    "successful": 2,
+    "github_action": 3,
+    "successful": 3,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 2
+      "Account Executive VCBL": 3
     },
     "entries": [
       {
@@ -5736,6 +5736,13 @@
         "timestamp": "2026-04-14 11:29:52",
         "source": "github_action",
         "candidate": "Sheryl Hermione",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 11:30:14",
+        "source": "github_action",
+        "candidate": "Ta Fang",
         "position": "Account Executive VCBL",
         "success": true
       }
