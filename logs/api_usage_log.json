@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 100,
+    "total": 101,
     "streamlit": 0,
-    "github_action": 100,
-    "successful": 100,
+    "github_action": 101,
+    "successful": 101,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 100
+      "Account Executive VCBL": 101
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 11:29:19",
-        "source": "github_action",
-        "candidate": "Firli Hasbi",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 11:29:52",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 12:19:47",
         "source": "github_action",
         "candidate": "Kania Adhisty",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 12:20:18",
+        "source": "github_action",
+        "candidate": "Annisa Rahma nan",
         "position": "Account Executive VCBL",
         "success": true
       }
