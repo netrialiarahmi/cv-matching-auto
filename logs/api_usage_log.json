@@ -5716,13 +5716,13 @@
     ]
   },
   "2026-04-14": {
-    "total": 22,
+    "total": 23,
     "streamlit": 0,
-    "github_action": 22,
-    "successful": 22,
+    "github_action": 23,
+    "successful": 23,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 22
+      "Account Executive VCBL": 23
     },
     "entries": [
       {
@@ -5876,6 +5876,13 @@
         "timestamp": "2026-04-14 11:40:19",
         "source": "github_action",
         "candidate": "Haris Pramajakti",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 11:40:50",
+        "source": "github_action",
+        "candidate": "Yefta Febrianto",
         "position": "Account Executive VCBL",
         "success": true
       }
