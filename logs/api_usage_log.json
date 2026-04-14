@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 432,
+    "total": 433,
     "streamlit": 0,
-    "github_action": 432,
-    "successful": 432,
+    "github_action": 433,
+    "successful": 433,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 432
+      "Account Executive VCBL": 433
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 14:11:52",
-        "source": "github_action",
-        "candidate": "Ayu Irene Oktalina",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 14:12:24",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 14:55:38",
         "source": "github_action",
         "candidate": "Tri Wahyu Ramadhani",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 14:56:06",
+        "source": "github_action",
+        "candidate": "Lia Amelia",
         "position": "Account Executive VCBL",
         "success": true
       }
