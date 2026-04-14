@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 220,
+    "total": 221,
     "streamlit": 0,
-    "github_action": 220,
-    "successful": 220,
+    "github_action": 221,
+    "successful": 221,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 220
+      "Account Executive VCBL": 221
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 12:30:52",
-        "source": "github_action",
-        "candidate": "Adelia Citra Larasati",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 12:31:27",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 13:20:14",
         "source": "github_action",
         "candidate": "Lowdy Filan Arsyandi",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 13:20:47",
+        "source": "github_action",
+        "candidate": "Ayu Siti Hajar",
         "position": "Account Executive VCBL",
         "success": true
       }
