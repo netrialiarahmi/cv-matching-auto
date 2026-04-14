@@ -5716,23 +5716,16 @@
     ]
   },
   "2026-04-14": {
-    "total": 586,
+    "total": 587,
     "streamlit": 0,
-    "github_action": 586,
-    "successful": 586,
+    "github_action": 587,
+    "successful": 587,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 451,
-      "Account Executive Pasangiklan.com": 135
+      "Account Executive Pasangiklan.com": 136
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 15:22:09",
-        "source": "github_action",
-        "candidate": "Manda Indurasmi",
-        "position": "Account Executive Pasangiklan.com",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 15:22:45",
         "source": "github_action",
@@ -6423,6 +6416,13 @@
         "timestamp": "2026-04-14 16:12:03",
         "source": "github_action",
         "candidate": "Handaru Dharmawan",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 16:12:36",
+        "source": "github_action",
+        "candidate": "Kharisma Manyania Putri",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
