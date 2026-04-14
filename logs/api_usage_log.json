@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 276,
+    "total": 277,
     "streamlit": 0,
-    "github_action": 276,
-    "successful": 276,
+    "github_action": 277,
+    "successful": 277,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 276
+      "Account Executive VCBL": 277
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 12:57:53",
-        "source": "github_action",
-        "candidate": "Lutfiyah Nur Kamaliya",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 12:58:26",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 13:46:18",
         "source": "github_action",
         "candidate": "Aprilia Finanda",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 13:46:22",
+        "source": "github_action",
+        "candidate": "Gilang Rizky Akbar",
         "position": "Account Executive VCBL",
         "success": true
       }
