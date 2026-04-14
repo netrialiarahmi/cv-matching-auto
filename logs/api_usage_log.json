@@ -5716,13 +5716,13 @@
     ]
   },
   "2026-04-14": {
-    "total": 71,
+    "total": 72,
     "streamlit": 0,
-    "github_action": 71,
-    "successful": 71,
+    "github_action": 72,
+    "successful": 72,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 71
+      "Account Executive VCBL": 72
     },
     "entries": [
       {
@@ -6219,6 +6219,13 @@
         "timestamp": "2026-04-14 12:05:02",
         "source": "github_action",
         "candidate": "Jocelin Andiana",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 12:05:41",
+        "source": "github_action",
+        "candidate": "Faradila Shavira",
         "position": "Account Executive VCBL",
         "success": true
       }
