@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 326,
+    "total": 327,
     "streamlit": 0,
-    "github_action": 326,
-    "successful": 326,
+    "github_action": 327,
+    "successful": 327,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 326
+      "Account Executive VCBL": 327
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 13:23:21",
-        "source": "github_action",
-        "candidate": "Windi Helvira",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 13:23:53",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 14:08:33",
         "source": "github_action",
         "candidate": "Ocha Fatirr",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 14:08:54",
+        "source": "github_action",
+        "candidate": "Wira Laksana",
         "position": "Account Executive VCBL",
         "success": true
       }
