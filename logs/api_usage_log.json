@@ -5716,23 +5716,16 @@
     ]
   },
   "2026-04-14": {
-    "total": 555,
+    "total": 556,
     "streamlit": 0,
-    "github_action": 555,
-    "successful": 555,
+    "github_action": 556,
+    "successful": 556,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 451,
-      "Account Executive Pasangiklan.com": 104
+      "Account Executive Pasangiklan.com": 105
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 15:06:37",
-        "source": "github_action",
-        "candidate": "Muhammad Farhan",
-        "position": "Account Executive Pasangiklan.com",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 15:07:09",
         "source": "github_action",
@@ -6423,6 +6416,13 @@
         "timestamp": "2026-04-14 15:56:20",
         "source": "github_action",
         "candidate": "Krisna Putra",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 15:56:49",
+        "source": "github_action",
+        "candidate": "ummiyati hamzah",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
