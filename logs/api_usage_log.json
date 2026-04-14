@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 271,
+    "total": 272,
     "streamlit": 0,
-    "github_action": 271,
-    "successful": 271,
+    "github_action": 272,
+    "successful": 272,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 271
+      "Account Executive VCBL": 272
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 12:55:23",
-        "source": "github_action",
-        "candidate": "Sidiq Yogha Nariza",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 12:55:54",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 13:43:41",
         "source": "github_action",
         "candidate": "Hafizh Jawas",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 13:44:03",
+        "source": "github_action",
+        "candidate": "Toddy Ezra Anugerah",
         "position": "Account Executive VCBL",
         "success": true
       }
