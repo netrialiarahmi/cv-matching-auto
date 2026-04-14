@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 449,
+    "total": 450,
     "streamlit": 0,
-    "github_action": 449,
-    "successful": 449,
+    "github_action": 450,
+    "successful": 450,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 449
+      "Account Executive VCBL": 450
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 14:20:25",
-        "source": "github_action",
-        "candidate": "Ihksa Munawwaroh",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 14:20:53",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 15:03:59",
         "source": "github_action",
         "candidate": "Renita  Nabila Primandani",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 15:04:02",
+        "source": "github_action",
+        "candidate": "Kristian Rifaldi",
         "position": "Account Executive VCBL",
         "success": true
       }
