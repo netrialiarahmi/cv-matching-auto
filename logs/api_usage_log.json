@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 219,
+    "total": 220,
     "streamlit": 0,
-    "github_action": 219,
-    "successful": 219,
+    "github_action": 220,
+    "successful": 220,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 219
+      "Account Executive VCBL": 220
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 12:30:19",
-        "source": "github_action",
-        "candidate": "Efriza Rachima Putra",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 12:30:52",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 13:19:36",
         "source": "github_action",
         "candidate": "ragil dwi saputra",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 13:20:14",
+        "source": "github_action",
+        "candidate": "Lowdy Filan Arsyandi",
         "position": "Account Executive VCBL",
         "success": true
       }
