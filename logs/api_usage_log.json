@@ -5716,13 +5716,13 @@
     ]
   },
   "2026-04-14": {
-    "total": 27,
+    "total": 28,
     "streamlit": 0,
-    "github_action": 27,
-    "successful": 27,
+    "github_action": 28,
+    "successful": 28,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 27
+      "Account Executive VCBL": 28
     },
     "entries": [
       {
@@ -5911,6 +5911,13 @@
         "timestamp": "2026-04-14 11:43:00",
         "source": "github_action",
         "candidate": "Ade lorina  Banjarnahor",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 11:43:37",
+        "source": "github_action",
+        "candidate": "anira putri",
         "position": "Account Executive VCBL",
         "success": true
       }
