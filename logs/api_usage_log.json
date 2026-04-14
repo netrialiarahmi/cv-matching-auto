@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 395,
+    "total": 396,
     "streamlit": 0,
-    "github_action": 395,
-    "successful": 395,
+    "github_action": 396,
+    "successful": 396,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 395
+      "Account Executive VCBL": 396
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 13:55:23",
-        "source": "github_action",
-        "candidate": "Putri Nur Farida",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 13:55:53",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 14:41:25",
         "source": "github_action",
         "candidate": "M Noor Farchan",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 14:41:56",
+        "source": "github_action",
+        "candidate": "Chendri Yunan",
         "position": "Account Executive VCBL",
         "success": true
       }
