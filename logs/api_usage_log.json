@@ -5716,23 +5716,16 @@
     ]
   },
   "2026-04-14": {
-    "total": 562,
+    "total": 563,
     "streamlit": 0,
-    "github_action": 562,
-    "successful": 562,
+    "github_action": 563,
+    "successful": 563,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 451,
-      "Account Executive Pasangiklan.com": 111
+      "Account Executive Pasangiklan.com": 112
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 15:09:52",
-        "source": "github_action",
-        "candidate": "Octria Vesensia",
-        "position": "Account Executive Pasangiklan.com",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 15:10:25",
         "source": "github_action",
@@ -6423,6 +6416,13 @@
         "timestamp": "2026-04-14 15:59:58",
         "source": "github_action",
         "candidate": "Ihkrom Widya",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 16:00:30",
+        "source": "github_action",
+        "candidate": "Firman Sakti Rizaldy",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
