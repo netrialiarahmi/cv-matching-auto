@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 240,
+    "total": 241,
     "streamlit": 0,
-    "github_action": 240,
-    "successful": 240,
+    "github_action": 241,
+    "successful": 241,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 240
+      "Account Executive VCBL": 241
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 12:41:12",
-        "source": "github_action",
-        "candidate": "agnes jesica",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 12:41:41",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 13:29:53",
         "source": "github_action",
         "candidate": "Taufik Hidayat",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 13:30:24",
+        "source": "github_action",
+        "candidate": "Bayu Indra Wibowo",
         "position": "Account Executive VCBL",
         "success": true
       }
