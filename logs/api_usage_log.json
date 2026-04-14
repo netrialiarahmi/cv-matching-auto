@@ -5716,23 +5716,16 @@
     ]
   },
   "2026-04-14": {
-    "total": 687,
+    "total": 688,
     "streamlit": 0,
-    "github_action": 687,
-    "successful": 687,
+    "github_action": 688,
+    "successful": 688,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 451,
-      "Account Executive Pasangiklan.com": 236
+      "Account Executive Pasangiklan.com": 237
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 16:12:53",
-        "source": "github_action",
-        "candidate": "yasmin iffah",
-        "position": "Account Executive Pasangiklan.com",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 16:13:27",
         "source": "github_action",
@@ -6423,6 +6416,13 @@
         "timestamp": "2026-04-14 17:02:11",
         "source": "github_action",
         "candidate": "Pusfita Mawarni",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 17:02:42",
+        "source": "github_action",
+        "candidate": "Kaila Syuja Taris Wijaya",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
