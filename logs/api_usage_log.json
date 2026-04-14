@@ -5716,23 +5716,16 @@
     ]
   },
   "2026-04-14": {
-    "total": 665,
+    "total": 666,
     "streamlit": 0,
-    "github_action": 665,
-    "successful": 665,
+    "github_action": 666,
+    "successful": 666,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 451,
-      "Account Executive Pasangiklan.com": 214
+      "Account Executive Pasangiklan.com": 215
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 16:02:06",
-        "source": "github_action",
-        "candidate": "Muh Nofal Pamungkas Wibisana",
-        "position": "Account Executive Pasangiklan.com",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 16:02:37",
         "source": "github_action",
@@ -6423,6 +6416,13 @@
         "timestamp": "2026-04-14 16:51:03",
         "source": "github_action",
         "candidate": "Leonie Isabel",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 16:51:34",
+        "source": "github_action",
+        "candidate": "Sarwah Syakirah Marsuki",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
