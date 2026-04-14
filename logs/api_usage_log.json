@@ -5716,23 +5716,16 @@
     ]
   },
   "2026-04-14": {
-    "total": 664,
+    "total": 665,
     "streamlit": 0,
-    "github_action": 664,
-    "successful": 664,
+    "github_action": 665,
+    "successful": 665,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 451,
-      "Account Executive Pasangiklan.com": 213
+      "Account Executive Pasangiklan.com": 214
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 16:01:31",
-        "source": "github_action",
-        "candidate": "Sri Wulan Handayani Tjhin",
-        "position": "Account Executive Pasangiklan.com",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 16:02:06",
         "source": "github_action",
@@ -6423,6 +6416,13 @@
         "timestamp": "2026-04-14 16:50:34",
         "source": "github_action",
         "candidate": "Reski Hasisah",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 16:51:03",
+        "source": "github_action",
+        "candidate": "Leonie Isabel",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
