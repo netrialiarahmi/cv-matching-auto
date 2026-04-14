@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 221,
+    "total": 222,
     "streamlit": 0,
-    "github_action": 221,
-    "successful": 221,
+    "github_action": 222,
+    "successful": 222,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 221
+      "Account Executive VCBL": 222
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 12:31:27",
-        "source": "github_action",
-        "candidate": "Ilham Putra",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 12:31:58",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 13:20:47",
         "source": "github_action",
         "candidate": "Ayu Siti Hajar",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 13:21:15",
+        "source": "github_action",
+        "candidate": "Annisa Wardhatul",
         "position": "Account Executive VCBL",
         "success": true
       }
