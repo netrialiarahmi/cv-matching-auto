@@ -5716,23 +5716,16 @@
     ]
   },
   "2026-04-14": {
-    "total": 624,
+    "total": 625,
     "streamlit": 0,
-    "github_action": 624,
-    "successful": 624,
+    "github_action": 625,
+    "successful": 625,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 451,
-      "Account Executive Pasangiklan.com": 173
+      "Account Executive Pasangiklan.com": 174
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 15:41:10",
-        "source": "github_action",
-        "candidate": "Ariestanengsih Hermanto",
-        "position": "Account Executive Pasangiklan.com",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 15:41:39",
         "source": "github_action",
@@ -6423,6 +6416,13 @@
         "timestamp": "2026-04-14 16:30:44",
         "source": "github_action",
         "candidate": "Yudi Eko Prasetyo",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 16:31:00",
+        "source": "github_action",
+        "candidate": "risqi saputra",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
