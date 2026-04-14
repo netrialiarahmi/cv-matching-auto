@@ -5716,13 +5716,13 @@
     ]
   },
   "2026-04-14": {
-    "total": 24,
+    "total": 25,
     "streamlit": 0,
-    "github_action": 24,
-    "successful": 24,
+    "github_action": 25,
+    "successful": 25,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 24
+      "Account Executive VCBL": 25
     },
     "entries": [
       {
@@ -5890,6 +5890,13 @@
         "timestamp": "2026-04-14 11:41:20",
         "source": "github_action",
         "candidate": "Irdan Syahril",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 11:41:52",
+        "source": "github_action",
+        "candidate": "Andrian Tantya",
         "position": "Account Executive VCBL",
         "success": true
       }
