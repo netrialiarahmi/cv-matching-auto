@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 263,
+    "total": 264,
     "streamlit": 0,
-    "github_action": 263,
-    "successful": 263,
+    "github_action": 264,
+    "successful": 264,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 263
+      "Account Executive VCBL": 264
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 12:51:37",
-        "source": "github_action",
-        "candidate": "Dwi Sandyka Radia Ramadan",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 12:52:08",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 13:40:48",
         "source": "github_action",
         "candidate": "Bintang Febioni",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 13:41:04",
+        "source": "github_action",
+        "candidate": "Kurnia Ariati",
         "position": "Account Executive VCBL",
         "success": true
       }
