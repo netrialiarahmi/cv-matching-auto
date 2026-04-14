@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 372,
+    "total": 373,
     "streamlit": 0,
-    "github_action": 372,
-    "successful": 372,
+    "github_action": 373,
+    "successful": 373,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 372
+      "Account Executive VCBL": 373
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 13:44:45",
-        "source": "github_action",
-        "candidate": "Alif Rizky Fadhillah",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 13:45:16",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 14:30:49",
         "source": "github_action",
         "candidate": "Reri Oktasari",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 14:31:16",
+        "source": "github_action",
+        "candidate": "Devianna Felicia Veronica",
         "position": "Account Executive VCBL",
         "success": true
       }
