@@ -5716,22 +5716,15 @@
     ]
   },
   "2026-04-14": {
-    "total": 318,
+    "total": 319,
     "streamlit": 0,
-    "github_action": 318,
-    "successful": 318,
+    "github_action": 319,
+    "successful": 319,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 318
+      "Account Executive VCBL": 319
     },
     "entries": [
-      {
-        "timestamp": "2026-04-14 13:19:36",
-        "source": "github_action",
-        "candidate": "ragil dwi saputra",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-14 13:20:14",
         "source": "github_action",
@@ -6422,6 +6415,13 @@
         "timestamp": "2026-04-14 14:05:09",
         "source": "github_action",
         "candidate": "Qinar Biran",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 14:05:37",
+        "source": "github_action",
+        "candidate": "Atsiilah Pratiwi",
         "position": "Account Executive VCBL",
         "success": true
       }
