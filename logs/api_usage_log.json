@@ -5716,13 +5716,13 @@
     ]
   },
   "2026-04-14": {
-    "total": 16,
+    "total": 17,
     "streamlit": 0,
-    "github_action": 16,
-    "successful": 16,
+    "github_action": 17,
+    "successful": 17,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 16
+      "Account Executive VCBL": 17
     },
     "entries": [
       {
@@ -5834,6 +5834,13 @@
         "timestamp": "2026-04-14 11:37:15",
         "source": "github_action",
         "candidate": "Nurulizzah Sekarkinasih",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-14 11:37:48",
+        "source": "github_action",
+        "candidate": "Zahratul Jannah",
         "position": "Account Executive VCBL",
         "success": true
       }
