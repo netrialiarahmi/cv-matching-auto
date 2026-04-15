@@ -1,9 +1,9 @@
 import streamlit as st
 from streamlit_option_menu import option_menu
 import pandas as pd
-from modules.extractor import extract_text_from_pdf
-from modules.scorer import score_with_openrouter, get_gemini_client, extract_candidate_name_from_cv, extract_candidate_info_from_cv, score_candidate_pipeline, _get_model_name, call_api_with_retry
-from modules.github_utils import (
+from src.services.extractor import extract_text_from_pdf
+from src.pipelines.scorer import score_with_openrouter, get_gemini_client, extract_candidate_name_from_cv, extract_candidate_info_from_cv, score_candidate_pipeline, _get_model_name, call_api_with_retry
+from src.repositories.github_utils import (
     save_results_to_github,
     load_results_from_github,
     load_results_for_position,
@@ -16,7 +16,7 @@ from modules.github_utils import (
     get_results_filename,
     parse_kalibrr_date
 )
-from modules.candidate_processor import (
+from src.services.candidate_processor import (
     parse_candidate_csv,
     extract_resume_from_url,
     build_candidate_context,
@@ -24,7 +24,7 @@ from modules.candidate_processor import (
     _get_column_value,
     fetch_candidates_from_google_sheets
 )
-from modules.usage_logger import log_cv_processing, print_daily_summary, get_daily_summary
+from src.utils.usage_logger import log_cv_processing, print_daily_summary, get_daily_summary
 from PIL import Image
 from datetime import datetime
 import io
@@ -909,12 +909,12 @@ if selected == "Job Management":
             with col_status:
                 if is_pooled:
                     if st.button("Pooled", key=f"unpool_{idx}", type="primary", use_container_width=True):
-                        from modules.github_utils import toggle_job_pooling_status
+                        from src.repositories.github_utils import toggle_job_pooling_status
                         if toggle_job_pooling_status(row['Job Position'], ""):
                             st.rerun()
                 else:
                     if st.button("Active", key=f"pool_{idx}", use_container_width=True):
-                        from modules.github_utils import toggle_job_pooling_status
+                        from src.repositories.github_utils import toggle_job_pooling_status
                         if toggle_job_pooling_status(row['Job Position'], "Pooled"):
                             st.rerun()
             
@@ -2451,7 +2451,7 @@ elif selected == "Usage Log":
     st.markdown("<h2 style='text-align:center;color:#0b3d91;'>API Usage Log</h2>", unsafe_allow_html=True)
     
     # Get today's summary
-    from modules.usage_logger import load_usage_log, get_monthly_summary
+    from src.utils.usage_logger import load_usage_log, get_monthly_summary
     
     today = datetime.now().strftime("%Y-%m-%d")
     today_summary = get_daily_summary(today)

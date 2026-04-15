@@ -34,7 +34,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GH_REPO: ${{ github.repository }}
         run: |
-          mkdir -p kalibrr_exports
+          mkdir -p data/raw
           if [ "${{ github.event_name }}" = "workflow_run" ]; then
             RUN_ID="${{ github.event.workflow_run.id }}"
           else
@@ -44,9 +44,9 @@ jobs:
           if [ -n "$RUN_ID" ] && [ "$RUN_ID" != "null" ]; then
             echo "Downloading artifacts from run $RUN_ID"
             gh run download "$RUN_ID" --repo "$GH_REPO" --pattern "dashboard-exports-*" --dir /tmp/kalibrr_artifacts/ || true
-            find /tmp/kalibrr_artifacts -name "*.csv" -exec mv {} kalibrr_exports/ \; 2>/dev/null || true
-            echo "Files in kalibrr_exports/:"
-            ls kalibrr_exports/ 2>/dev/null || echo "(empty)"
+            find /tmp/kalibrr_artifacts -name "*.csv" -exec mv {} data/raw/ \; 2>/dev/null || true
+            echo "Files in data/raw/:"
+            ls data/raw/ 2>/dev/null || echo "(empty)"
           else
             echo "Warning: No run ID available, skipping artifact download"
           fi
@@ -73,7 +73,7 @@ jobs:
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add results/*.csv
+          git add data/processed/*.csv
           git add logs/*.json 2>/dev/null || true
           if git diff --staged --quiet; then
             echo "No new candidates screened"
@@ -83,8 +83,8 @@ jobs:
             git pull --no-rebase origin ${{ env.TARGET_BRANCH }} || {
               echo "Merge conflict detected, resolving automatically..."
               # For CSV result files, prefer our version (the latest screening data)
-              find results -maxdepth 1 -name 'results*.csv' -type f -exec git checkout --ours {} \; 2>/dev/null || true
-              find results -maxdepth 1 -name 'results*.csv' -type f -exec git add {} \;
+              find data/processed -maxdepth 1 -name 'results*.csv' -type f -exec git checkout --ours {} \; 2>/dev/null || true
+              find data/processed -maxdepth 1 -name 'results*.csv' -type f -exec git add {} \;
               # Complete the merge
               git -c core.editor=: merge --continue || {
                 echo "Auto-merge failed, aborting merge"

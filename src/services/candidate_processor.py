@@ -1,0 +1,429 @@
+import pandas as pd
+import requests
+from io import BytesIO
+import re
+import os
+import sys
+
+# Optional streamlit import - not available in GitHub Actions
+try:
+    import streamlit as st
+    HAS_STREAMLIT = True
+except ImportError:
+    HAS_STREAMLIT = False
+
+from src.services.extractor import extract_text_from_pdf
+
+# Logging helper functions for dual-mode operation
+def _log_error(message):
+    """Log error message - uses st.error in Streamlit, prints to stderr otherwise"""
+    if HAS_STREAMLIT:
+        _log_error(message)
+    else:
+        print(message, file=sys.stderr)
+
+def _log_warning(message):
+    """Log warning message - uses st.warning in Streamlit, prints to stderr otherwise"""
+    if HAS_STREAMLIT:
+        _log_warning(message)
+    else:
+        print(message, file=sys.stderr)
+
+# Google Sheets CSV URL
+GOOGLE_SHEETS_URL = "https://docs.google.com/spreadsheets/d/e/2PACX-1vRKC_5lHg9yJgGoBlkH0A-fjpjpiYu4MzO4ieEdSId5wAKS7bsLDdplXWx8944xFlHf2f9lVcUYzVcr/pub?output=csv"
+
+# Local cached positions file (synced weekly from Google Sheets)
+SHEET_POSITIONS_FILE = "sheet_positions.csv"
+
+
+def _load_cached_sheet_positions():
+    """
+    Load cached sheet positions from local CSV file.
+    This file is synced weekly from Google Sheets via GitHub Actions.
+    
+    Returns:
+        DataFrame or None if file doesn't exist
+    """
+    if not os.path.exists(SHEET_POSITIONS_FILE):
+        return None
+    
+    try:
+        return pd.read_csv(SHEET_POSITIONS_FILE)
+    except Exception:
+        return None
+
+
+def _normalize_position_name(name):
+    """
+    Normalize position name for flexible matching.
+    Handles variations like "KOMPAS.com" vs "KOMPAScom".
+    
+    Args:
+        name (str): Position name to normalize. Can also be None or NaN.
+        
+    Returns:
+        str: Normalized name (lowercase, alphanumeric and spaces only).
+             Returns empty string for None/NaN inputs.
+    """
+    if pd.isna(name):
+        return ""
+    # Convert to lowercase
+    name = str(name).lower().strip()
+    # Remove special characters, keeping only letters, numbers, and spaces
+    name = re.sub(r'[^a-z0-9\s]', '', name)
+    # Collapse multiple spaces
+    name = re.sub(r'\s+', ' ', name)
+    return name
+
+
+def fetch_candidates_from_google_sheets(job_position_name, max_retries=3):
+    """
+    Fetch candidate data from Google Sheets by:
+    1. Loading the sheet to get the File Storage URL for the job position
+    2. Downloading the CSV from the File Storage URL
+    3. Returning the candidate data from that CSV
+    
+    Falls back to cached sheet_positions.csv if:
+    - Google Sheets is unavailable, or
+    - Google Sheets has the position but File Storage URL is empty
+    
+    Args:
+        job_position_name: The job position name to filter candidates by.
+        max_retries: Maximum number of retry attempts on failure.
+        
+    Returns:
+        DataFrame with candidates from the File Storage CSV, or None if fetch fails.
+    """
+    import time
+    
+    sheet_df = None
+    use_cached = False
+    
+    for attempt in range(max_retries):
+        try:
+            # Step 1: Fetch the main sheet to get File Storage URLs
+            response = requests.get(GOOGLE_SHEETS_URL, timeout=30)
+            
+            if response.status_code != 200:
+                if attempt < max_retries - 1:
+                    time.sleep(2)
+                    continue
+                # Try cached file as fallback after all retries exhausted
+                break
+                
+            # Parse the sheet content
+            sheet_df = pd.read_csv(BytesIO(response.content))
+            
+            if sheet_df.empty:
+                # Google Sheets is empty, trying cached file
+                break
+            
+            # Successfully fetched from Google Sheets
+            break
+            
+        except requests.exceptions.Timeout:
+            if attempt < max_retries - 1:
+                time.sleep(3)
+                continue
+            break
+        except requests.exceptions.RequestException:
+            if attempt < max_retries - 1:
+                time.sleep(2)
+                continue
+            break
+        except Exception:
+            break
+    
+    # If Google Sheets failed, try cached file
+    if sheet_df is None or sheet_df.empty:
+        sheet_df = _load_cached_sheet_positions()
+        if sheet_df is not None and not sheet_df.empty:
+            use_cached = True
+        else:
+            return None
+    
+    # Step 2: Find the row matching the job position name
+    # Look for columns that might contain position name
+    # Expected format: Nama Posisi, JOB_ID, UPLOAD_ID, File Storage
+    position_column = None
+    if "Nama Posisi" in sheet_df.columns:
+        position_column = "Nama Posisi"
+    elif "Job Position" in sheet_df.columns:
+        position_column = "Job Position"
+    elif "Position" in sheet_df.columns:
+        position_column = "Position"
+    
+    if position_column is None:
+        # If no position column, can't match
+        return None
+    
+    # Find matching row using flexible matching
+    # Filter out NaN values first before string operations
+    valid_positions = sheet_df[position_column].notna()
+    
+    # Normalize the target position name for flexible matching
+    normalized_target = _normalize_position_name(job_position_name)
+    
+    # Find matching row by normalizing each position on-the-fly (more efficient)
+    matching_mask = valid_positions & sheet_df[position_column].apply(
+        lambda x: _normalize_position_name(x) == normalized_target
+    )
+    matching_rows = sheet_df[matching_mask]
+    
+    if matching_rows.empty:
+        return None
+    
+    # Step 3: Get the File Storage URL from the matching row
+    file_storage_column = None
+    if "File Storage" in sheet_df.columns:
+        file_storage_column = "File Storage"
+    elif "file_storage" in sheet_df.columns:
+        file_storage_column = "file_storage"
+    
+    if file_storage_column is None:
+        # No data source column found
+        return None
+    
+    # Get the first matching row's File Storage URL
+    file_storage_url = matching_rows.iloc[0][file_storage_column]
+    
+    if pd.isna(file_storage_url) or not str(file_storage_url).strip():
+        # If we haven't tried cached file yet, try it as fallback
+        if not use_cached:
+            cached_df = _load_cached_sheet_positions()
+            if cached_df is not None and not cached_df.empty:
+                # Try to find position in cached file
+                cached_position_column = None
+                if "Nama Posisi" in cached_df.columns:
+                    cached_position_column = "Nama Posisi"
+                elif "Job Position" in cached_df.columns:
+                    cached_position_column = "Job Position"
+                elif "Position" in cached_df.columns:
+                    cached_position_column = "Position"
+                
+                if cached_position_column:
+                    cached_valid = cached_df[cached_position_column].notna()
+                    # Reuse normalized_target from earlier in the function
+                    cached_matching = cached_valid & cached_df[cached_position_column].apply(
+                        lambda x: _normalize_position_name(x) == normalized_target
+                    )
+                    cached_rows = cached_df[cached_matching]
+                    
+                    if not cached_rows.empty:
+                        cached_fs_column = None
+                        if "File Storage" in cached_df.columns:
+                            cached_fs_column = "File Storage"
+                        elif "file_storage" in cached_df.columns:
+                            cached_fs_column = "file_storage"
+                        
+                        if cached_fs_column:
+                            cached_url = cached_rows.iloc[0][cached_fs_column]
+                            if pd.notna(cached_url) and str(cached_url).strip():
+                                file_storage_url = cached_url
+        
+        # If still no URL, show error
+        if pd.isna(file_storage_url) or not str(file_storage_url).strip():
+            # No File Storage URL found
+            return None
+    
+    # Step 4: Download the CSV from the File Storage URL (with retry)
+    # Don't display the URL to users for security
+    
+    for attempt in range(max_retries):
+        try:
+            # Add proper headers for Google Storage API
+            headers = {
+                'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
+                'Accept': 'text/csv,application/csv,text/plain,*/*'
+            }
+            csv_response = requests.get(str(file_storage_url).strip(), headers=headers, timeout=60)
+            
+            if csv_response.status_code != 200:
+                if attempt < max_retries - 1:
+                    time.sleep(2)
+                    continue
+                return None
+            
+            # Parse the candidate CSV data
+            candidates_df = pd.read_csv(BytesIO(csv_response.content))
+            
+            if candidates_df.empty:
+                return None
+            
+            return candidates_df
+            
+        except requests.exceptions.Timeout:
+            if attempt < max_retries - 1:
+                time.sleep(3)
+                continue
+            return None
+        except requests.exceptions.RequestException:
+            if attempt < max_retries - 1:
+                time.sleep(2)
+                continue
+            return None
+        except Exception:
+            return None
+    
+    return None
+
+
+def parse_candidate_csv(uploaded_file):
+    """Parse uploaded candidate CSV file and return DataFrame."""
+    try:
+        df = pd.read_csv(uploaded_file)
+        return df
+    except Exception as e:
+        _log_error(f"❌ Failed to parse CSV: {e}")
+        return None
+
+
+def extract_resume_from_url(url, max_retries=1):
+    """Download and extract text from resume URL (PDF) with minimal retry.
+    
+    Args:
+        url: URL to the resume PDF
+        max_retries: Maximum number of retry attempts on failure (default 1 for speed)
+    
+    Returns:
+        str: Extracted text from the PDF, or empty string on failure
+    """
+    if pd.isna(url) or not url.strip():
+        return ""
+    
+    import time
+    
+    for attempt in range(max_retries):
+        try:
+            # Add proper headers for better compatibility
+            headers = {
+                'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
+                'Accept': 'application/pdf,*/*'
+            }
+            
+            # Add Kalibrr auth cookies for kalibrr.com URLs
+            cookies = {}
+            if 'kalibrr.com' in url:
+                kaid = os.getenv("KAID", "")
+                kb = os.getenv("KB", "")
+                if kaid:
+                    cookies["kaid"] = kaid
+                if kb:
+                    cookies["kb"] = kb
+            
+            response = requests.get(url, headers=headers, cookies=cookies, timeout=30)
+            if response.status_code == 200:
+                pdf_file = BytesIO(response.content)
+                # Create a file-like object that mimics uploaded_file
+                class PDFFile:
+                    def __init__(self, content):
+                        self.content = content
+                    def read(self):
+                        return self.content
+                
+                pdf_obj = PDFFile(response.content)
+                text = extract_text_from_pdf(pdf_obj)
+                return text
+            elif response.status_code == 429:  # Too many requests
+                if attempt < max_retries - 1:
+                    time.sleep(2)  # Wait 2 seconds before retrying
+                    continue
+                else:
+                    return ""
+            else:
+                # Don't retry on other HTTP errors - fail fast
+                return ""
+        except requests.exceptions.Timeout:
+            # Don't retry on timeout - fail fast
+            return ""
+        except requests.exceptions.RequestException as e:
+            # Don't retry on network errors - fail fast
+            return ""
+        except Exception as e:
+            # Non-network errors (like PDF parsing errors) should not retry
+            return ""
+    
+    return ""
+
+
+def _get_column_value(row, english_name, indonesian_name, default=''):
+    """Get column value supporting both English and Indonesian column names."""
+    # Try English name first (new format)
+    if english_name in row and pd.notna(row.get(english_name)):
+        return row.get(english_name, default)
+    # Fallback to Indonesian name (old format)
+    return row.get(indonesian_name, default)
+
+
+def build_candidate_context(row):
+    """Build additional context from candidate CSV data for re-ranking."""
+    context_parts = []
+    
+    # Basic info - support both English and Indonesian column names
+    first_name = _get_column_value(row, "First Name", "Nama Depan")
+    last_name = _get_column_value(row, "Last Name", "Nama Belakang")
+    
+    if first_name:
+        context_parts.append(f"Name: {first_name} {last_name}")
+    
+    # Work experience
+    work_exp = []
+    latest_job = _get_column_value(row, "Latest Job Title", "Jabatan Pekerjaan Terakhir")
+    if latest_job:
+        latest_company = _get_column_value(row, "Latest Company", "Perusahaan Terakhir", 'N/A')
+        start_period = _get_column_value(row, "Latest Job Starting Period", "Periode Mulai Kerja", 'N/A')
+        end_period = _get_column_value(row, "Latest Job Ending Period", "Periode Akhir Kerja", 'N/A')
+        work_exp.append(f"- {latest_job} at {latest_company} ({start_period} - {end_period})")
+        
+        job_desc = _get_column_value(row, "Latest Job Description", "Deskripsi Pekerjaan")
+        if job_desc:
+            work_exp.append(f"  Description: {job_desc}")
+    
+    prev_job_1 = _get_column_value(row, "Previous Job Title (1)", "Jabatan Pekerjaan Sebelumnya (1)")
+    if prev_job_1:
+        prev_company_1 = _get_column_value(row, "Previous Company (1)", "Perusahaan Sebelumnya (1)", 'N/A')
+        prev_start_1 = _get_column_value(row, "Previous Job Starting Period (1)", "Periode Mulai Kerja (1)", 'N/A')
+        prev_end_1 = _get_column_value(row, "Previous Job Ending Period (1)", "Periode Akhir Kerja (1)", 'N/A')
+        work_exp.append(f"- {prev_job_1} at {prev_company_1} ({prev_start_1} - {prev_end_1})")
+    
+    prev_job_2 = _get_column_value(row, "Previous Job Title (2)", "Jabatan Pekerjaan Sebelumnya (2)")
+    if prev_job_2:
+        prev_company_2 = _get_column_value(row, "Previous Company (2)", "Perusahaan Sebelumnya (2)", 'N/A')
+        prev_start_2 = _get_column_value(row, "Previous Job Starting Period (2)", "Periode Mulai Kerja (2)", 'N/A')
+        prev_end_2 = _get_column_value(row, "Previous Job Ending Period (2)", "Periode Akhir Kerja (2)", 'N/A')
+        work_exp.append(f"- {prev_job_2} at {prev_company_2} ({prev_start_2} - {prev_end_2})")
+    
+    if work_exp:
+        context_parts.append("Work Experience:")
+        context_parts.extend(work_exp)
+    
+    # Education
+    education = []
+    latest_edu = _get_column_value(row, "Latest Educational Attainment", "Tingkat Pendidikan Tertinggi")
+    if latest_edu:
+        latest_school = _get_column_value(row, "Latest School/University", "Sekolah/Universitas", 'N/A')
+        latest_major = _get_column_value(row, "Latest Major/Course", "Jurusan/Program Studi", 'N/A')
+        edu_start = _get_column_value(row, "Latest Education Starting Period", "Periode Mulai Studi", 'N/A')
+        edu_end = _get_column_value(row, "Latest Education Ending Period", "Periode Akhir Studi", 'N/A')
+        education.append(f"- {latest_edu} - {latest_major} at {latest_school} ({edu_start} - {edu_end})")
+    
+    prev_edu_1 = _get_column_value(row, "Previous Educational Attainment (1)", "Tingkat Pendidikan Sebelumnya (1)")
+    if prev_edu_1:
+        prev_school_1 = _get_column_value(row, "Previous School/University (1)", "Sekolah/Universitas (1)", 'N/A')
+        prev_major_1 = _get_column_value(row, "Previous Major/Course (1)", "Jurusan/Program Studi (1)", 'N/A')
+        education.append(f"- {prev_edu_1} - {prev_major_1} at {prev_school_1}")
+    
+    if education:
+        context_parts.append("Education:")
+        context_parts.extend(education)
+    
+    return "\n".join(context_parts)
+
+
+def get_candidate_identifier(row):
+    """Generate unique identifier for candidate to avoid duplicates."""
+    email = _get_column_value(row, "Email Address", "Alamat Email", "").strip()
+    first_name = _get_column_value(row, "First Name", "Nama Depan")
+    last_name = _get_column_value(row, "Last Name", "Nama Belakang")
+    name = f"{first_name} {last_name}".strip()
+    return f"{email}_{name}" if email else name

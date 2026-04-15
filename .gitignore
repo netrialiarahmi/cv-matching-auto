@@ -30,15 +30,16 @@ logs/
 
 # Output files (using GitHub for storage)
 output/
-!output/cv/.gitkeep
+outputs/cv/
 *.csv
 !requirements.txt
 !sample_candidate_template.csv
-!job_positions.csv
-!sheet_positions.csv
-!results/*.csv
+!data/job_positions.csv
+!data/sheet_positions.csv
+!data/processed/*.csv
+!data/raw/*.csv
 
-# Kalibrr Export
+# Kalibrr Export (migrated to data/raw/)
 kalibrr_exports/
 playwright_google_data/
 .env

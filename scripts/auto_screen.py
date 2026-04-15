@@ -24,21 +24,21 @@ import traceback
 # Add project root to Python path
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-from modules.candidate_processor import (
+from src.services.candidate_processor import (
     fetch_candidates_from_google_sheets,
     build_candidate_context,
     get_candidate_identifier,
     extract_resume_from_url
 )
-from modules.extractor import extract_text_from_pdf
-from modules.scorer import score_candidate_pipeline
-from modules.github_utils import (
+from src.services.extractor import extract_text_from_pdf
+from src.pipelines.scorer import score_candidate_pipeline
+from src.repositories.github_utils import (
     load_job_positions_from_github,
     load_results_from_github,
     save_results_to_github,
     parse_kalibrr_date
 )
-from modules.usage_logger import log_cv_processing, print_daily_summary
+from src.utils.usage_logger import log_cv_processing, print_daily_summary
 import requests
 
 
@@ -89,9 +89,17 @@ def fetch_candidates_from_sheet_csv(csv_url):
             print(f"   ✅ Successfully loaded {len(df)} candidates from local CSV")
             return df
         
-        # If absolute path failed, try extracting just the kalibrr_exports/... part
+        # If absolute path failed, try extracting just the data/raw/... part
         if 'kalibrr_exports' in csv_url:
-            relative_part = csv_url[csv_url.index('kalibrr_exports'):]
+            relative_part = csv_url[csv_url.index('kalibrr_exports'):].replace('kalibrr_exports', 'data/raw', 1)
+            resolved = os.path.join(PROJECT_ROOT, relative_part)
+            if os.path.isfile(resolved):
+                print(f"   Loading CSV from resolved path: {resolved}")
+                df = pd.read_csv(resolved)
+                print(f"   ✅ Successfully loaded {len(df)} candidates from local CSV")
+                return df
+        if 'data/raw' in csv_url:
+            relative_part = csv_url[csv_url.index('data/raw'):]
             resolved = os.path.join(PROJECT_ROOT, relative_part)
             if os.path.isfile(resolved):
                 print(f"   Loading CSV from resolved path: {resolved}")
@@ -302,7 +310,7 @@ def get_results_filename(job_position):
                  .replace("/", "_")
                  .replace("\\", "_")
                  .replace(" ", "_"))
-    return f"results/results_{safe_name}.csv"
+    return f"data/processed/results_{safe_name}.csv"
 
 
 def screen_position(position_name, job_description, job_id, csv_url=None):
@@ -335,10 +343,10 @@ def screen_position(position_name, job_description, job_id, csv_url=None):
                          .replace("/", "_")
                          .replace("(", "")
                          .replace(")", ""))
-            local_csv = os.path.join(PROJECT_ROOT, 'kalibrr_exports', f'{safe_name}.csv')
-            if os.path.isfile(local_csv):
-                print(f"   📂 Falling back to local CSV: {local_csv}")
-                candidates_df = fetch_candidates_from_sheet_csv(local_csv)
+            local_csv_screen = os.path.join(PROJECT_ROOT, 'data', 'raw', f'{safe_name}.csv')
+            if os.path.isfile(local_csv_screen):
+                print(f"   📂 Falling back to local CSV: {local_csv_screen}")
+                candidates_df = fetch_candidates_from_sheet_csv(local_csv_screen)
         
         if candidates_df is None or candidates_df.empty:
             print(f"⏭️  No candidates found for this position")
@@ -651,10 +659,10 @@ def main():
     # 3. Load sheet_positions.csv to get File Storage URLs
     print(f"\n📊 Loading sheet_positions.csv for CSV URLs...")
     try:
-        sheet_df = pd.read_csv('sheet_positions.csv')
-        print(f"   Loaded {len(sheet_df)} positions from sheet_positions.csv\n")
+        sheet_df = pd.read_csv(os.path.join(PROJECT_ROOT, 'data', 'sheet_positions.csv'))
+        print(f"   Loaded {len(sheet_df)} positions from data/sheet_positions.csv\n")
     except Exception as e:
-        print(f"   ⚠️  Could not load sheet_positions.csv: {e}")
+        print(f"   ⚠️  Could not load data/sheet_positions.csv: {e}")
         print(f"   Will proceed without File Storage URLs\n")
         sheet_df = None
     
@@ -693,10 +701,10 @@ def main():
                          .replace("/", "_")
                          .replace("(", "")
                          .replace(")", ""))
-            local_csv = os.path.join(PROJECT_ROOT, 'kalibrr_exports', f'{safe_name}.csv')
-            if os.path.isfile(local_csv):
-                csv_url = local_csv
-                print(f"   📂 Using local CSV: {local_csv}")
+            local_csv_main = os.path.join(PROJECT_ROOT, 'data', 'raw', f'{safe_name}.csv')
+            if os.path.isfile(local_csv_main):
+                csv_url = local_csv_main
+                print(f"   📂 Using local CSV: {local_csv_main}")
             else:
                 print(f"\n⚠️  Skipping '{position_name}' - No File Storage URL or local CSV")
                 continue

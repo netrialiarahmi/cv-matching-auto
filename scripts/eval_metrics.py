@@ -2,7 +2,7 @@ import pandas as pd
 import glob
 from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score, confusion_matrix, classification_report
 
-RESULTS_DIR = "../results/"
+RESULTS_DIR = "../data/processed/"
 
 files = glob.glob(f"{RESULTS_DIR}/results_*.csv")
 all_dfs = []

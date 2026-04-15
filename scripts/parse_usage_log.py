@@ -14,7 +14,7 @@ from collections import defaultdict
 
 def load_log():
     """Load the JSON log file"""
-    log_path = 'logs/api_usage_log.json'
+    log_path = 'logs/api_usage_log.json'  # relative to project root
     
     if not os.path.exists(log_path):
         print(f"❌ Log file not found: {log_path}")

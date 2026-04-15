@@ -18,7 +18,7 @@ import asyncio
 # Add project root to Python path
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-from modules.kalibrr_core import (
+from src.services.kalibrr_core import (
     load_positions_from_job_csv,
     load_existing_file_storage,
     update_sheet_positions_csv,

@@ -46,9 +46,9 @@ import re
 
 # Constants
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
-SHEET_POSITIONS_FILE = "sheet_positions.csv"
-JOB_POSITIONS_FILE = "job_positions.csv"
-RESULTS_DIR = "results"
+SHEET_POSITIONS_FILE = PROJECT_ROOT / "data" / "sheet_positions.csv"
+JOB_POSITIONS_FILE = PROJECT_ROOT / "data" / "job_positions.csv"
+RESULTS_DIR = "data/processed"
 
 
 def load_sheet_positions():

@@ -48,21 +48,21 @@ jobs:
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add sheet_positions.csv 2>/dev/null || true
-          git add results/*.csv 2>/dev/null || true
-          git add kalibrr_exports/*.csv 2>/dev/null || true
+          git add data/sheet_positions.csv 2>/dev/null || true
+          git add data/processed/*.csv 2>/dev/null || true
+          git add data/raw/*.csv 2>/dev/null || true
           if git diff --staged --quiet; then
             echo "No changes to commit"
           else
             git commit -m "📊 Update dashboard positions and CV links - $(date +'%Y-%m-%d %H:%M UTC')"
             git pull --no-rebase origin ${{ github.ref_name }} || {
               echo "Merge conflict detected, resolving automatically..."
-              git checkout --ours sheet_positions.csv 2>/dev/null || true
-              find results -maxdepth 1 -name 'results*.csv' -type f -exec git checkout --ours {} \; 2>/dev/null || true
-              find kalibrr_exports -maxdepth 1 -name '*.csv' -type f -exec git checkout --ours {} \; 2>/dev/null || true
-              git add sheet_positions.csv
-              find results -maxdepth 1 -name 'results*.csv' -type f -exec git add {} \;
-              find kalibrr_exports -maxdepth 1 -name '*.csv' -type f -exec git add {} \; 2>/dev/null || true
+              git checkout --ours data/sheet_positions.csv 2>/dev/null || true
+              find data/processed -maxdepth 1 -name 'results*.csv' -type f -exec git checkout --ours {} \; 2>/dev/null || true
+              find data/raw -maxdepth 1 -name '*.csv' -type f -exec git checkout --ours {} \; 2>/dev/null || true
+              git add data/sheet_positions.csv
+              find data/processed -maxdepth 1 -name 'results*.csv' -type f -exec git add {} \;
+              find data/raw -maxdepth 1 -name '*.csv' -type f -exec git add {} \; 2>/dev/null || true
               git -c core.editor=: merge --continue || {
                 echo "Auto-merge failed, aborting merge"
                 git merge --abort
@@ -77,5 +77,5 @@ jobs:
         if: always()
         with:
           name: dashboard-exports-${{ github.run_number }}
-          path: kalibrr_exports/
+          path: data/raw/
           retention-days: 30
