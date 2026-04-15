@@ -4,15 +4,15 @@ Account Executive Japanese Client,261684,137,kalibrr_exports/Account_Executive_J
 Software Engineer,262597,235,kalibrr_exports/Software_Engineer.csv
 Accounting Staff,262696,1540,kalibrr_exports/Accounting_Staff.csv
 Freelance Data Scanner,264098,19606767,
-Account Executive VCBL,259102,620,kalibrr_exports/Account_Executive_VCBL.csv
-Account Executive Pasangiklan.com,256571,423,kalibrr_exports/Account_Executive_Pasangiklancom.csv
-Business Development Analyst,265100,411,kalibrr_exports/Business_Development_Analyst.csv
-Data Analyst (Business Intelligence),265246,597,kalibrr_exports/Data_Analyst_Business_Intelligence.csv
-Sustainability Officer KG Media,265471,187,kalibrr_exports/Sustainability_Officer_KG_Media.csv
-Marketing Communication Officer KG Media,265541,830,kalibrr_exports/Marketing_Communication_Officer_KG_Media.csv
-Strategic Planner KG Media,264624,170,kalibrr_exports/Strategic_Planner_KG_Media.csv
+Account Executive VCBL,259102,623,data/raw/Account_Executive_VCBL.csv
+Account Executive Pasangiklan.com,256571,423,data/raw/Account_Executive_Pasangiklancom.csv
+Business Development Analyst,265100,424,data/raw/Business_Development_Analyst.csv
+Data Analyst (Business Intelligence),265246,601,data/raw/Data_Analyst_Business_Intelligence.csv
+Sustainability Officer KG Media,265471,191,data/raw/Sustainability_Officer_KG_Media.csv
+Marketing Communication Officer KG Media,265541,851,data/raw/Marketing_Communication_Officer_KG_Media.csv
+Strategic Planner KG Media,264624,171,data/raw/Strategic_Planner_KG_Media.csv
 Procurement Event Officer,262981,1805,kalibrr_exports/Procurement_Event_Officer.csv
 Content Creator,261126,2950,kalibrr_exports/Content_Creator.csv
-Reporter Megapolitan,264515,470,kalibrr_exports/Reporter_Megapolitan.csv
-Reporter Nasional,264516,496,kalibrr_exports/Reporter_Nasional.csv
-Content Writer Homey,264510,310,kalibrr_exports/Content_Writer_Homey.csv
+Reporter Megapolitan,264515,478,data/raw/Reporter_Megapolitan.csv
+Reporter Nasional,264516,506,data/raw/Reporter_Nasional.csv
+Content Writer Homey,264510,320,data/raw/Content_Writer_Homey.csv
