@@ -6429,23 +6429,16 @@
     ]
   },
   "2026-04-16": {
-    "total": 557,
+    "total": 558,
     "streamlit": 0,
-    "github_action": 557,
-    "successful": 557,
+    "github_action": 558,
+    "successful": 558,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
-      "Account Executive Pasangiklan.com": 267
+      "Account Executive Pasangiklan.com": 268
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 07:51:46",
-        "source": "github_action",
-        "candidate": "Kgs Abdul Rasyid",
-        "position": "Account Executive Pasangiklan.com",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 07:52:17",
         "source": "github_action",
@@ -7136,6 +7129,13 @@
         "timestamp": "2026-04-16 08:39:57",
         "source": "github_action",
         "candidate": "Azka Putri",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 08:40:27",
+        "source": "github_action",
+        "candidate": "Avony  Carlos",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
