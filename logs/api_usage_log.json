@@ -6429,22 +6429,15 @@
     ]
   },
   "2026-04-16": {
-    "total": 169,
+    "total": 170,
     "streamlit": 0,
-    "github_action": 169,
-    "successful": 169,
+    "github_action": 170,
+    "successful": 170,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 169
+      "Account Executive VCBL": 170
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 04:52:33",
-        "source": "github_action",
-        "candidate": "Farid Abdullah",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 04:53:03",
         "source": "github_action",
@@ -7135,6 +7128,13 @@
         "timestamp": "2026-04-16 05:35:09",
         "source": "github_action",
         "candidate": "Joy Andrew Pradika",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 05:35:36",
+        "source": "github_action",
+        "candidate": "Aqil Mufid",
         "position": "Account Executive VCBL",
         "success": true
       }
