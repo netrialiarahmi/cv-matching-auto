@@ -6429,23 +6429,16 @@
     ]
   },
   "2026-04-16": {
-    "total": 442,
+    "total": 443,
     "streamlit": 0,
-    "github_action": 442,
-    "successful": 442,
+    "github_action": 443,
+    "successful": 443,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
-      "Account Executive Pasangiklan.com": 152
+      "Account Executive Pasangiklan.com": 153
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 06:54:47",
-        "source": "github_action",
-        "candidate": "Muhammad Fahmi",
-        "position": "Account Executive Pasangiklan.com",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 06:55:17",
         "source": "github_action",
@@ -7136,6 +7129,13 @@
         "timestamp": "2026-04-16 07:43:55",
         "source": "github_action",
         "candidate": "Rizal Albana",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 07:44:27",
+        "source": "github_action",
+        "candidate": "Maria Brigita Ajeng Wulan Sari",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
