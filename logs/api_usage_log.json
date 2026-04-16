@@ -6429,23 +6429,16 @@
     ]
   },
   "2026-04-16": {
-    "total": 330,
+    "total": 331,
     "streamlit": 0,
-    "github_action": 330,
-    "successful": 330,
+    "github_action": 331,
+    "successful": 331,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
-      "Account Executive Pasangiklan.com": 40
+      "Account Executive Pasangiklan.com": 41
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 06:03:52",
-        "source": "github_action",
-        "candidate": "nisrina naila",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 06:04:19",
         "source": "github_action",
@@ -7136,6 +7129,13 @@
         "timestamp": "2026-04-16 06:47:51",
         "source": "github_action",
         "candidate": "Syahla Irawati",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 06:48:20",
+        "source": "github_action",
+        "candidate": "Fabian Aditama",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
