@@ -6429,24 +6429,17 @@
     ]
   },
   "2026-04-16": {
-    "total": 764,
+    "total": 765,
     "streamlit": 0,
-    "github_action": 764,
-    "successful": 764,
+    "github_action": 765,
+    "successful": 765,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
       "Account Executive Pasangiklan.com": 423,
-      "Business Development Analyst": 51
+      "Business Development Analyst": 52
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 09:31:59",
-        "source": "github_action",
-        "candidate": "Achmad Kautsar Azmi Saddad",
-        "position": "Account Executive Pasangiklan.com",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 09:32:25",
         "source": "github_action",
@@ -7137,6 +7130,13 @@
         "timestamp": "2026-04-16 10:20:24",
         "source": "github_action",
         "candidate": "Satria Wibowo",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 10:20:54",
+        "source": "github_action",
+        "candidate": "Akmal Aminullah",
         "position": "Business Development Analyst",
         "success": true
       }
