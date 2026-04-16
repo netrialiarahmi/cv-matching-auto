@@ -6429,23 +6429,16 @@
     ]
   },
   "2026-04-16": {
-    "total": 459,
+    "total": 460,
     "streamlit": 0,
-    "github_action": 459,
-    "successful": 459,
+    "github_action": 460,
+    "successful": 460,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
-      "Account Executive Pasangiklan.com": 169
+      "Account Executive Pasangiklan.com": 170
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 07:03:22",
-        "source": "github_action",
-        "candidate": "Bian Shafi Muhammad",
-        "position": "Account Executive Pasangiklan.com",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 07:03:56",
         "source": "github_action",
@@ -7136,6 +7129,13 @@
         "timestamp": "2026-04-16 07:52:17",
         "source": "github_action",
         "candidate": "Biyan Ramanda",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 07:52:46",
+        "source": "github_action",
+        "candidate": "Martin suryanto",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
