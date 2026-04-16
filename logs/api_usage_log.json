@@ -6429,22 +6429,15 @@
     ]
   },
   "2026-04-16": {
-    "total": 105,
+    "total": 106,
     "streamlit": 0,
-    "github_action": 105,
-    "successful": 105,
+    "github_action": 106,
+    "successful": 106,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 105
+      "Account Executive VCBL": 106
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 04:24:48",
-        "source": "github_action",
-        "candidate": "Farid Hidayat Putra",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 04:25:19",
         "source": "github_action",
@@ -7135,6 +7128,13 @@
         "timestamp": "2026-04-16 05:07:34",
         "source": "github_action",
         "candidate": "Listianova Nurrochmah",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 05:08:00",
+        "source": "github_action",
+        "candidate": "Flavius Anggara",
         "position": "Account Executive VCBL",
         "success": true
       }
