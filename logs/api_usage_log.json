@@ -6429,22 +6429,15 @@
     ]
   },
   "2026-04-16": {
-    "total": 115,
+    "total": 116,
     "streamlit": 0,
-    "github_action": 115,
-    "successful": 115,
+    "github_action": 116,
+    "successful": 116,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 115
+      "Account Executive VCBL": 116
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 04:29:09",
-        "source": "github_action",
-        "candidate": "Faiz Ardana Sani",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 04:29:12",
         "source": "github_action",
@@ -7135,6 +7128,13 @@
         "timestamp": "2026-04-16 05:11:44",
         "source": "github_action",
         "candidate": "Widitra Rama",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 05:12:12",
+        "source": "github_action",
+        "candidate": "Mohamad Dani Setiawardi",
         "position": "Account Executive VCBL",
         "success": true
       }
