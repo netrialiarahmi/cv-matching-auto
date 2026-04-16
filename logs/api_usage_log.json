@@ -6429,22 +6429,15 @@
     ]
   },
   "2026-04-16": {
-    "total": 164,
+    "total": 165,
     "streamlit": 0,
-    "github_action": 164,
-    "successful": 164,
+    "github_action": 165,
+    "successful": 165,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 164
+      "Account Executive VCBL": 165
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 04:50:26",
-        "source": "github_action",
-        "candidate": "Abdullah imam makarim destiawan",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 04:50:49",
         "source": "github_action",
@@ -7135,6 +7128,13 @@
         "timestamp": "2026-04-16 05:33:05",
         "source": "github_action",
         "candidate": "Fikam Syah",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 05:33:30",
+        "source": "github_action",
+        "candidate": "Suryansyah Alimas",
         "position": "Account Executive VCBL",
         "success": true
       }
