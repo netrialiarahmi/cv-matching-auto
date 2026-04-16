@@ -6429,23 +6429,16 @@
     ]
   },
   "2026-04-16": {
-    "total": 334,
+    "total": 335,
     "streamlit": 0,
-    "github_action": 334,
-    "successful": 334,
+    "github_action": 335,
+    "successful": 335,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
-      "Account Executive Pasangiklan.com": 44
+      "Account Executive Pasangiklan.com": 45
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 06:05:45",
-        "source": "github_action",
-        "candidate": "Aisyah, S.M.",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 06:06:09",
         "source": "github_action",
@@ -7136,6 +7129,13 @@
         "timestamp": "2026-04-16 06:49:54",
         "source": "github_action",
         "candidate": "Zidan Kurnia",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 06:50:25",
+        "source": "github_action",
+        "candidate": "Muhammad Adel Hilmi Halwanu",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
