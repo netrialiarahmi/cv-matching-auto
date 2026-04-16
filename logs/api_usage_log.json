@@ -6429,22 +6429,15 @@
     ]
   },
   "2026-04-16": {
-    "total": 159,
+    "total": 160,
     "streamlit": 0,
-    "github_action": 159,
-    "successful": 159,
+    "github_action": 160,
+    "successful": 160,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 159
+      "Account Executive VCBL": 160
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 04:48:03",
-        "source": "github_action",
-        "candidate": "Muhammad Arrumi Fayyad",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 04:48:34",
         "source": "github_action",
@@ -7135,6 +7128,13 @@
         "timestamp": "2026-04-16 05:30:54",
         "source": "github_action",
         "candidate": "Arum widya",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 05:31:21",
+        "source": "github_action",
+        "candidate": "Faudilla Nurin Asfar",
         "position": "Account Executive VCBL",
         "success": true
       }
