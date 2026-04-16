@@ -6429,22 +6429,15 @@
     ]
   },
   "2026-04-16": {
-    "total": 187,
+    "total": 188,
     "streamlit": 0,
-    "github_action": 187,
-    "successful": 187,
+    "github_action": 188,
+    "successful": 188,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 187
+      "Account Executive VCBL": 188
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 05:00:12",
-        "source": "github_action",
-        "candidate": "AYU SETIANI",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 05:00:40",
         "source": "github_action",
@@ -7135,6 +7128,13 @@
         "timestamp": "2026-04-16 05:43:15",
         "source": "github_action",
         "candidate": "Gina Agustiani",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 05:43:45",
+        "source": "github_action",
+        "candidate": "Kiki Gunawanti Khaerani Asri",
         "position": "Account Executive VCBL",
         "success": true
       }
