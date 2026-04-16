@@ -6429,23 +6429,16 @@
     ]
   },
   "2026-04-16": {
-    "total": 581,
+    "total": 582,
     "streamlit": 0,
-    "github_action": 581,
-    "successful": 581,
+    "github_action": 582,
+    "successful": 582,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
-      "Account Executive Pasangiklan.com": 291
+      "Account Executive Pasangiklan.com": 292
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 08:03:40",
-        "source": "github_action",
-        "candidate": "Dinda Wulandari",
-        "position": "Account Executive Pasangiklan.com",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 08:04:10",
         "source": "github_action",
@@ -7136,6 +7129,13 @@
         "timestamp": "2026-04-16 08:52:20",
         "source": "github_action",
         "candidate": "Novan Pramb",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 08:52:48",
+        "source": "github_action",
+        "candidate": "Atalarik Rifki",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
