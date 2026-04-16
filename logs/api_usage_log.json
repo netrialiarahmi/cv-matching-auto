@@ -6429,24 +6429,17 @@
     ]
   },
   "2026-04-16": {
-    "total": 714,
+    "total": 715,
     "streamlit": 0,
-    "github_action": 714,
-    "successful": 714,
+    "github_action": 715,
+    "successful": 715,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
       "Account Executive Pasangiklan.com": 423,
-      "Business Development Analyst": 1
+      "Business Development Analyst": 2
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 09:08:33",
-        "source": "github_action",
-        "candidate": "Dina Annisa",
-        "position": "Account Executive Pasangiklan.com",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 09:09:01",
         "source": "github_action",
@@ -7137,6 +7130,13 @@
         "timestamp": "2026-04-16 09:54:34",
         "source": "github_action",
         "candidate": "Yuke Luviana",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 09:55:07",
+        "source": "github_action",
+        "candidate": "Hagie Pradivio",
         "position": "Business Development Analyst",
         "success": true
       }
