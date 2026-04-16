@@ -6429,23 +6429,16 @@
     ]
   },
   "2026-04-16": {
-    "total": 586,
+    "total": 587,
     "streamlit": 0,
-    "github_action": 586,
-    "successful": 586,
+    "github_action": 587,
+    "successful": 587,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
-      "Account Executive Pasangiklan.com": 296
+      "Account Executive Pasangiklan.com": 297
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 08:06:13",
-        "source": "github_action",
-        "candidate": "Rifaldita Yunika",
-        "position": "Account Executive Pasangiklan.com",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 08:06:45",
         "source": "github_action",
@@ -7136,6 +7129,13 @@
         "timestamp": "2026-04-16 08:54:45",
         "source": "github_action",
         "candidate": "Aldianto Reza",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 08:55:17",
+        "source": "github_action",
+        "candidate": "Nabila Khoirunnisa",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
