@@ -6429,23 +6429,16 @@
     ]
   },
   "2026-04-16": {
-    "total": 427,
+    "total": 428,
     "streamlit": 0,
-    "github_action": 427,
-    "successful": 427,
+    "github_action": 428,
+    "successful": 428,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
-      "Account Executive Pasangiklan.com": 137
+      "Account Executive Pasangiklan.com": 138
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 06:46:46",
-        "source": "github_action",
-        "candidate": "Muhammad Fathan",
-        "position": "Account Executive Pasangiklan.com",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 06:47:16",
         "source": "github_action",
@@ -7136,6 +7129,13 @@
         "timestamp": "2026-04-16 07:36:41",
         "source": "github_action",
         "candidate": "yasmin iffah",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 07:37:10",
+        "source": "github_action",
+        "candidate": "Muhammad Irwan",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
