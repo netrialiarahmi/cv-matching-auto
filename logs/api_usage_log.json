@@ -6429,23 +6429,16 @@
     ]
   },
   "2026-04-16": {
-    "total": 412,
+    "total": 413,
     "streamlit": 0,
-    "github_action": 412,
-    "successful": 412,
+    "github_action": 413,
+    "successful": 413,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
-      "Account Executive Pasangiklan.com": 122
+      "Account Executive Pasangiklan.com": 123
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 06:38:48",
-        "source": "github_action",
-        "candidate": "Puteri Natasya",
-        "position": "Account Executive Pasangiklan.com",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 06:39:19",
         "source": "github_action",
@@ -7136,6 +7129,13 @@
         "timestamp": "2026-04-16 07:29:07",
         "source": "github_action",
         "candidate": "Belia Kharisma Balqis Trismara",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 07:29:34",
+        "source": "github_action",
+        "candidate": "Giorgio Geraldo",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
