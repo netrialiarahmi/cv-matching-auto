@@ -6429,23 +6429,16 @@
     ]
   },
   "2026-04-16": {
-    "total": 705,
+    "total": 706,
     "streamlit": 0,
-    "github_action": 705,
-    "successful": 705,
+    "github_action": 706,
+    "successful": 706,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
-      "Account Executive Pasangiklan.com": 415
+      "Account Executive Pasangiklan.com": 416
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 09:04:33",
-        "source": "github_action",
-        "candidate": "Nadya Aras Cahyani",
-        "position": "Account Executive Pasangiklan.com",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 09:04:50",
         "source": "github_action",
@@ -7136,6 +7129,13 @@
         "timestamp": "2026-04-16 09:50:24",
         "source": "github_action",
         "candidate": "Aisyah harahap",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 09:50:52",
+        "source": "github_action",
+        "candidate": "Safrani Atifia",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
