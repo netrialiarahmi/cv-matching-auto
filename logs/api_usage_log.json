@@ -6429,23 +6429,16 @@
     ]
   },
   "2026-04-16": {
-    "total": 371,
+    "total": 372,
     "streamlit": 0,
-    "github_action": 371,
-    "successful": 371,
+    "github_action": 372,
+    "successful": 372,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
-      "Account Executive Pasangiklan.com": 81
+      "Account Executive Pasangiklan.com": 82
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 06:19:50",
-        "source": "github_action",
-        "candidate": "Tri Wahyu Ramadhani",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 06:20:17",
         "source": "github_action",
@@ -7136,6 +7129,13 @@
         "timestamp": "2026-04-16 07:08:59",
         "source": "github_action",
         "candidate": "Muhammad Abdillah Aqiel Rosyada",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 07:09:31",
+        "source": "github_action",
+        "candidate": "emil fawwaz",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
