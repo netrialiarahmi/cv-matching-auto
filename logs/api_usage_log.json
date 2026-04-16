@@ -6429,22 +6429,15 @@
     ]
   },
   "2026-04-16": {
-    "total": 135,
+    "total": 136,
     "streamlit": 0,
-    "github_action": 135,
-    "successful": 135,
+    "github_action": 136,
+    "successful": 136,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 135
+      "Account Executive VCBL": 136
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 04:37:29",
-        "source": "github_action",
-        "candidate": "camila chairunnisa",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 04:37:53",
         "source": "github_action",
@@ -7135,6 +7128,13 @@
         "timestamp": "2026-04-16 05:20:39",
         "source": "github_action",
         "candidate": "Amelia Intan",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 05:21:10",
+        "source": "github_action",
+        "candidate": "Aufa Sofyan",
         "position": "Account Executive VCBL",
         "success": true
       }
