@@ -6429,22 +6429,15 @@
     ]
   },
   "2026-04-16": {
-    "total": 246,
+    "total": 247,
     "streamlit": 0,
-    "github_action": 246,
-    "successful": 246,
+    "github_action": 247,
+    "successful": 247,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 246
+      "Account Executive VCBL": 247
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 05:25:44",
-        "source": "github_action",
-        "candidate": "Taufan Rahsobudi",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 05:26:11",
         "source": "github_action",
@@ -7135,6 +7128,13 @@
         "timestamp": "2026-04-16 06:11:00",
         "source": "github_action",
         "candidate": "Muhammad  Yusuf",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 06:11:28",
+        "source": "github_action",
+        "candidate": "Destry Lia",
         "position": "Account Executive VCBL",
         "success": true
       }
