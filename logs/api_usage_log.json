@@ -6429,24 +6429,17 @@
     ]
   },
   "2026-04-16": {
-    "total": 734,
+    "total": 735,
     "streamlit": 0,
-    "github_action": 734,
-    "successful": 734,
+    "github_action": 735,
+    "successful": 735,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
       "Account Executive Pasangiklan.com": 423,
-      "Business Development Analyst": 21
+      "Business Development Analyst": 22
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 09:17:52",
-        "source": "github_action",
-        "candidate": "TIARA DWI SETIANINGRUM",
-        "position": "Account Executive Pasangiklan.com",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 09:17:54",
         "source": "github_action",
@@ -7137,6 +7130,13 @@
         "timestamp": "2026-04-16 10:04:40",
         "source": "github_action",
         "candidate": "Fahmi Rahmat",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 10:05:18",
+        "source": "github_action",
+        "candidate": "Fransiska Malita",
         "position": "Business Development Analyst",
         "success": true
       }
