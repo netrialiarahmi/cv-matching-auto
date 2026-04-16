@@ -6429,23 +6429,16 @@
     ]
   },
   "2026-04-16": {
-    "total": 634,
+    "total": 635,
     "streamlit": 0,
-    "github_action": 634,
-    "successful": 634,
+    "github_action": 635,
+    "successful": 635,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
-      "Account Executive Pasangiklan.com": 344
+      "Account Executive Pasangiklan.com": 345
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 08:29:30",
-        "source": "github_action",
-        "candidate": "Dita Aura Fitri Gunawan",
-        "position": "Account Executive Pasangiklan.com",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 08:30:02",
         "source": "github_action",
@@ -7136,6 +7129,13 @@
         "timestamp": "2026-04-16 09:17:25",
         "source": "github_action",
         "candidate": "Puguh C., S.T., S.H. ( Bachelor of Engineering and Law )",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 09:17:52",
+        "source": "github_action",
+        "candidate": "TIARA DWI SETIANINGRUM",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
