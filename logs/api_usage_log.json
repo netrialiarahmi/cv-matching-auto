@@ -6429,23 +6429,16 @@
     ]
   },
   "2026-04-16": {
-    "total": 708,
+    "total": 709,
     "streamlit": 0,
-    "github_action": 708,
-    "successful": 708,
+    "github_action": 709,
+    "successful": 709,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
-      "Account Executive Pasangiklan.com": 418
+      "Account Executive Pasangiklan.com": 419
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 09:05:51",
-        "source": "github_action",
-        "candidate": "Muhammad Al Giffari",
-        "position": "Account Executive Pasangiklan.com",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 09:06:21",
         "source": "github_action",
@@ -7136,6 +7129,13 @@
         "timestamp": "2026-04-16 09:51:49",
         "source": "github_action",
         "candidate": "Sania  Zamiah Audina",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 09:52:14",
+        "source": "github_action",
+        "candidate": "Helvina Oktavihana",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
