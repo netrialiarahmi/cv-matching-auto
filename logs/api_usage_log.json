@@ -6429,23 +6429,16 @@
     ]
   },
   "2026-04-16": {
-    "total": 569,
+    "total": 570,
     "streamlit": 0,
-    "github_action": 569,
-    "successful": 569,
+    "github_action": 570,
+    "successful": 570,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
-      "Account Executive Pasangiklan.com": 279
+      "Account Executive Pasangiklan.com": 280
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 07:57:53",
-        "source": "github_action",
-        "candidate": "Rania Kemala  Ayu",
-        "position": "Account Executive Pasangiklan.com",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 07:58:25",
         "source": "github_action",
@@ -7136,6 +7129,13 @@
         "timestamp": "2026-04-16 08:46:07",
         "source": "github_action",
         "candidate": "Fazlur Rahman",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 08:46:34",
+        "source": "github_action",
+        "candidate": "Ikhsan Al Fajar",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
