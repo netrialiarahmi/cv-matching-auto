@@ -6429,13 +6429,14 @@
     ]
   },
   "2026-04-16": {
-    "total": 60,
-    "streamlit": 0,
+    "total": 61,
+    "streamlit": 1,
     "github_action": 60,
-    "successful": 60,
+    "successful": 61,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 60
+      "Account Executive VCBL": 60,
+      "Reporter Megapolitan": 1
     },
     "entries": [
       {
@@ -6856,6 +6857,13 @@
         "source": "github_action",
         "candidate": "Muhammad Arrumi Fayyad",
         "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 04:48:26",
+        "source": "streamlit",
+        "candidate": "Natasya R",
+        "position": "Reporter Megapolitan",
         "success": true
       }
     ]
