@@ -6429,23 +6429,16 @@
     ]
   },
   "2026-04-16": {
-    "total": 679,
+    "total": 680,
     "streamlit": 0,
-    "github_action": 679,
-    "successful": 679,
+    "github_action": 680,
+    "successful": 680,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
-      "Account Executive Pasangiklan.com": 389
+      "Account Executive Pasangiklan.com": 390
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 08:51:50",
-        "source": "github_action",
-        "candidate": "Endyardho Ramadhan",
-        "position": "Account Executive Pasangiklan.com",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 08:52:20",
         "source": "github_action",
@@ -7136,6 +7129,13 @@
         "timestamp": "2026-04-16 09:38:51",
         "source": "github_action",
         "candidate": "Masniari Nur Afifah Purba",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 09:39:18",
+        "source": "github_action",
+        "candidate": "TALITA SILVIA PUTRI MUSTIKA",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
