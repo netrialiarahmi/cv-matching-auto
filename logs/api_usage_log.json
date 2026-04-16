@@ -6429,22 +6429,15 @@
     ]
   },
   "2026-04-16": {
-    "total": 118,
+    "total": 119,
     "streamlit": 0,
-    "github_action": 118,
-    "successful": 118,
+    "github_action": 119,
+    "successful": 119,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 118
+      "Account Executive VCBL": 119
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 04:29:43",
-        "source": "github_action",
-        "candidate": "At Thariq Aleeyah Tsamara",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 04:30:10",
         "source": "github_action",
@@ -7135,6 +7128,13 @@
         "timestamp": "2026-04-16 05:13:10",
         "source": "github_action",
         "candidate": "Fatmawati",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 05:13:40",
+        "source": "github_action",
+        "candidate": "Felix Bernardo",
         "position": "Account Executive VCBL",
         "success": true
       }
