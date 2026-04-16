@@ -6429,23 +6429,16 @@
     ]
   },
   "2026-04-16": {
-    "total": 499,
+    "total": 500,
     "streamlit": 0,
-    "github_action": 499,
-    "successful": 499,
+    "github_action": 500,
+    "successful": 500,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
-      "Account Executive Pasangiklan.com": 209
+      "Account Executive Pasangiklan.com": 210
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 07:23:24",
-        "source": "github_action",
-        "candidate": "Oinike Theresia",
-        "position": "Account Executive Pasangiklan.com",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 07:23:56",
         "source": "github_action",
@@ -7136,6 +7129,13 @@
         "timestamp": "2026-04-16 08:12:02",
         "source": "github_action",
         "candidate": "Faisal Haris",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 08:12:34",
+        "source": "github_action",
+        "candidate": "Zairofi  Al Daustha",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
