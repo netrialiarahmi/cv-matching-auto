@@ -6429,23 +6429,16 @@
     ]
   },
   "2026-04-16": {
-    "total": 350,
+    "total": 351,
     "streamlit": 0,
-    "github_action": 350,
-    "successful": 350,
+    "github_action": 351,
+    "successful": 351,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
-      "Account Executive Pasangiklan.com": 60
+      "Account Executive Pasangiklan.com": 61
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 06:12:52",
-        "source": "github_action",
-        "candidate": "Muhammad lazuardy",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 06:13:20",
         "source": "github_action",
@@ -7136,6 +7129,13 @@
         "timestamp": "2026-04-16 06:58:18",
         "source": "github_action",
         "candidate": "Daffa Alif Nabil",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 06:58:49",
+        "source": "github_action",
+        "candidate": "Lingga Apriyanto Perkoso",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
