@@ -6429,23 +6429,16 @@
     ]
   },
   "2026-04-16": {
-    "total": 514,
+    "total": 515,
     "streamlit": 0,
-    "github_action": 514,
-    "successful": 514,
+    "github_action": 515,
+    "successful": 515,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
-      "Account Executive Pasangiklan.com": 224
+      "Account Executive Pasangiklan.com": 225
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 07:30:26",
-        "source": "github_action",
-        "candidate": "Abdillah Muchtar",
-        "position": "Account Executive Pasangiklan.com",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 07:30:55",
         "source": "github_action",
@@ -7136,6 +7129,13 @@
         "timestamp": "2026-04-16 08:19:43",
         "source": "github_action",
         "candidate": "Cynthia Cecilia",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 08:20:26",
+        "source": "github_action",
+        "candidate": "Anthony Sugianto",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
