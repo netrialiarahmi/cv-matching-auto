@@ -6429,22 +6429,15 @@
     ]
   },
   "2026-04-16": {
-    "total": 222,
+    "total": 223,
     "streamlit": 0,
-    "github_action": 222,
-    "successful": 222,
+    "github_action": 223,
+    "successful": 223,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 222
+      "Account Executive VCBL": 223
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 05:15:15",
-        "source": "github_action",
-        "candidate": "Alif Rizky Fadhillah",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 05:15:43",
         "source": "github_action",
@@ -7135,6 +7128,13 @@
         "timestamp": "2026-04-16 05:59:43",
         "source": "github_action",
         "candidate": "Ivander Epriano Sebastian",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 06:00:11",
+        "source": "github_action",
+        "candidate": "Rini R",
         "position": "Account Executive VCBL",
         "success": true
       }
