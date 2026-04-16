@@ -6429,23 +6429,16 @@
     ]
   },
   "2026-04-16": {
-    "total": 631,
+    "total": 632,
     "streamlit": 0,
-    "github_action": 631,
-    "successful": 631,
+    "github_action": 632,
+    "successful": 632,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
-      "Account Executive Pasangiklan.com": 341
+      "Account Executive Pasangiklan.com": 342
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 08:28:39",
-        "source": "github_action",
-        "candidate": "Pratiwi Rahmadanti",
-        "position": "Account Executive Pasangiklan.com",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 08:28:59",
         "source": "github_action",
@@ -7136,6 +7129,13 @@
         "timestamp": "2026-04-16 09:16:20",
         "source": "github_action",
         "candidate": "Muhammad Ilyas",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 09:16:37",
+        "source": "github_action",
+        "candidate": "Ahmad Rizqy Shubri",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
