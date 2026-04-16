@@ -6429,23 +6429,16 @@
     ]
   },
   "2026-04-16": {
-    "total": 584,
+    "total": 585,
     "streamlit": 0,
-    "github_action": 584,
-    "successful": 584,
+    "github_action": 585,
+    "successful": 585,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
-      "Account Executive Pasangiklan.com": 294
+      "Account Executive Pasangiklan.com": 295
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 08:05:10",
-        "source": "github_action",
-        "candidate": "Megantoro Razak",
-        "position": "Account Executive Pasangiklan.com",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 08:05:37",
         "source": "github_action",
@@ -7136,6 +7129,13 @@
         "timestamp": "2026-04-16 08:53:43",
         "source": "github_action",
         "candidate": "Chinta Apriliani Putri",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 08:54:11",
+        "source": "github_action",
+        "candidate": "Fahmy Maulana Syahren",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
