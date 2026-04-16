@@ -6429,23 +6429,16 @@
     ]
   },
   "2026-04-16": {
-    "total": 602,
+    "total": 603,
     "streamlit": 0,
-    "github_action": 602,
-    "successful": 602,
+    "github_action": 603,
+    "successful": 603,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
-      "Account Executive Pasangiklan.com": 312
+      "Account Executive Pasangiklan.com": 313
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 08:13:52",
-        "source": "github_action",
-        "candidate": "Rizky Noor Prathama",
-        "position": "Account Executive Pasangiklan.com",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 08:14:24",
         "source": "github_action",
@@ -7136,6 +7129,13 @@
         "timestamp": "2026-04-16 09:03:00",
         "source": "github_action",
         "candidate": "Nadya Angelica",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 09:03:34",
+        "source": "github_action",
+        "candidate": "Galih Fadli",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
