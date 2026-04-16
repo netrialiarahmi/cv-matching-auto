@@ -6429,13 +6429,13 @@
     ]
   },
   "2026-04-16": {
-    "total": 5,
+    "total": 6,
     "streamlit": 0,
-    "github_action": 5,
-    "successful": 5,
+    "github_action": 6,
+    "successful": 6,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 5
+      "Account Executive VCBL": 6
     },
     "entries": [
       {
@@ -6470,6 +6470,13 @@
         "timestamp": "2026-04-16 04:24:46",
         "source": "github_action",
         "candidate": "Mohammad Farhan Saputra",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 04:24:48",
+        "source": "github_action",
+        "candidate": "Farid Hidayat Putra",
         "position": "Account Executive VCBL",
         "success": true
       }
