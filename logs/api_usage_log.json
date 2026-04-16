@@ -6429,22 +6429,15 @@
     ]
   },
   "2026-04-16": {
-    "total": 268,
+    "total": 269,
     "streamlit": 0,
-    "github_action": 268,
-    "successful": 268,
+    "github_action": 269,
+    "successful": 269,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 268
+      "Account Executive VCBL": 269
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 05:35:09",
-        "source": "github_action",
-        "candidate": "Joy Andrew Pradika",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 05:35:36",
         "source": "github_action",
@@ -7135,6 +7128,13 @@
         "timestamp": "2026-04-16 06:18:50",
         "source": "github_action",
         "candidate": "adira mulya",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 06:18:52",
+        "source": "github_action",
+        "candidate": "Haris Agus nandar",
         "position": "Account Executive VCBL",
         "success": true
       }
