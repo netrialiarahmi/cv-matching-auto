@@ -6429,22 +6429,15 @@
     ]
   },
   "2026-04-16": {
-    "total": 147,
+    "total": 148,
     "streamlit": 0,
-    "github_action": 147,
-    "successful": 147,
+    "github_action": 148,
+    "successful": 148,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 147
+      "Account Executive VCBL": 148
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 04:42:12",
-        "source": "github_action",
-        "candidate": "Reyhan Nafisa",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 04:42:43",
         "source": "github_action",
@@ -7135,6 +7128,13 @@
         "timestamp": "2026-04-16 05:25:44",
         "source": "github_action",
         "candidate": "Taufan Rahsobudi",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 05:26:11",
+        "source": "github_action",
+        "candidate": "MARLINDA MARLINDA",
         "position": "Account Executive VCBL",
         "success": true
       }
