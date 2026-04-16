@@ -6429,22 +6429,15 @@
     ]
   },
   "2026-04-16": {
-    "total": 272,
+    "total": 273,
     "streamlit": 0,
-    "github_action": 272,
-    "successful": 272,
+    "github_action": 273,
+    "successful": 273,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 272
+      "Account Executive VCBL": 273
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 05:37:06",
-        "source": "github_action",
-        "candidate": "Ocha Fatirr",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 05:37:32",
         "source": "github_action",
@@ -7135,6 +7128,13 @@
         "timestamp": "2026-04-16 06:19:50",
         "source": "github_action",
         "candidate": "Tri Wahyu Ramadhani",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 06:20:17",
+        "source": "github_action",
+        "candidate": "Lia Amelia",
         "position": "Account Executive VCBL",
         "success": true
       }
