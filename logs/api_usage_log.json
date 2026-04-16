@@ -6429,22 +6429,15 @@
     ]
   },
   "2026-04-16": {
-    "total": 283,
+    "total": 284,
     "streamlit": 0,
-    "github_action": 283,
-    "successful": 283,
+    "github_action": 284,
+    "successful": 284,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 283
+      "Account Executive VCBL": 284
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 05:42:08",
-        "source": "github_action",
-        "candidate": "Yanina Turbana",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 05:42:36",
         "source": "github_action",
@@ -7135,6 +7128,13 @@
         "timestamp": "2026-04-16 06:24:46",
         "source": "github_action",
         "candidate": "Mohamad Haikal Jordani",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 06:25:12",
+        "source": "github_action",
+        "candidate": "suci Wulandari",
         "position": "Account Executive VCBL",
         "success": true
       }
