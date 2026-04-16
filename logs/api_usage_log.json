@@ -6429,24 +6429,17 @@
     ]
   },
   "2026-04-16": {
-    "total": 716,
+    "total": 717,
     "streamlit": 0,
-    "github_action": 716,
-    "successful": 716,
+    "github_action": 717,
+    "successful": 717,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
       "Account Executive Pasangiklan.com": 423,
-      "Business Development Analyst": 3
+      "Business Development Analyst": 4
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 09:09:35",
-        "source": "github_action",
-        "candidate": "David Halomoan Simbolon",
-        "position": "Account Executive Pasangiklan.com",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 09:09:52",
         "source": "github_action",
@@ -7137,6 +7130,13 @@
         "timestamp": "2026-04-16 09:55:41",
         "source": "github_action",
         "candidate": "Ajeng Ayuningtyas",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 09:56:08",
+        "source": "github_action",
+        "candidate": "Ilham Putra",
         "position": "Business Development Analyst",
         "success": true
       }
