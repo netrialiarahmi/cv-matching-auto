@@ -6429,22 +6429,15 @@
     ]
   },
   "2026-04-16": {
-    "total": 270,
+    "total": 271,
     "streamlit": 0,
-    "github_action": 270,
-    "successful": 270,
+    "github_action": 271,
+    "successful": 271,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 270
+      "Account Executive VCBL": 271
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 05:36:05",
-        "source": "github_action",
-        "candidate": "Dinda Azaria Rowi",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 05:36:39",
         "source": "github_action",
@@ -7135,6 +7128,13 @@
         "timestamp": "2026-04-16 06:19:21",
         "source": "github_action",
         "candidate": "Muhammad Fadhlurrahman Alifiansyah",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 06:19:47",
+        "source": "github_action",
+        "candidate": "Basilius Laia",
         "position": "Account Executive VCBL",
         "success": true
       }
