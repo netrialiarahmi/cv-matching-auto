@@ -6429,23 +6429,16 @@
     ]
   },
   "2026-04-16": {
-    "total": 342,
+    "total": 343,
     "streamlit": 0,
-    "github_action": 342,
-    "successful": 342,
+    "github_action": 343,
+    "successful": 343,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
-      "Account Executive Pasangiklan.com": 52
+      "Account Executive Pasangiklan.com": 53
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 06:09:35",
-        "source": "github_action",
-        "candidate": "Farul Fahrijal",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 06:10:03",
         "source": "github_action",
@@ -7136,6 +7129,13 @@
         "timestamp": "2026-04-16 06:54:13",
         "source": "github_action",
         "candidate": "Yoda NovalRidho",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 06:54:47",
+        "source": "github_action",
+        "candidate": "Muhammad Fahmi",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
