@@ -6429,23 +6429,16 @@
     ]
   },
   "2026-04-16": {
-    "total": 446,
+    "total": 447,
     "streamlit": 0,
-    "github_action": 446,
-    "successful": 446,
+    "github_action": 447,
+    "successful": 447,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
-      "Account Executive Pasangiklan.com": 156
+      "Account Executive Pasangiklan.com": 157
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 06:56:45",
-        "source": "github_action",
-        "candidate": "Sri Dewi Nur Pasha",
-        "position": "Account Executive Pasangiklan.com",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 06:57:18",
         "source": "github_action",
@@ -7136,6 +7129,13 @@
         "timestamp": "2026-04-16 07:46:08",
         "source": "github_action",
         "candidate": "Josia  Gultom",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 07:46:10",
+        "source": "github_action",
+        "candidate": "Andes Pratama Mardias",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
