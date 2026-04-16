@@ -6429,22 +6429,15 @@
     ]
   },
   "2026-04-16": {
-    "total": 227,
+    "total": 228,
     "streamlit": 0,
-    "github_action": 227,
-    "successful": 227,
+    "github_action": 228,
+    "successful": 228,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 227
+      "Account Executive VCBL": 228
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 05:17:10",
-        "source": "github_action",
-        "candidate": "Mayangsari Karina Putri",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 05:17:46",
         "source": "github_action",
@@ -7135,6 +7128,13 @@
         "timestamp": "2026-04-16 06:02:01",
         "source": "github_action",
         "candidate": "Brian Chung",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 06:02:29",
+        "source": "github_action",
+        "candidate": "Cenwi Agnes Vanecia Putri",
         "position": "Account Executive VCBL",
         "success": true
       }
