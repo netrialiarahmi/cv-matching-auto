@@ -6429,22 +6429,15 @@
     ]
   },
   "2026-04-16": {
-    "total": 203,
+    "total": 204,
     "streamlit": 0,
-    "github_action": 203,
-    "successful": 203,
+    "github_action": 204,
+    "successful": 204,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 203
+      "Account Executive VCBL": 204
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 05:07:01",
-        "source": "github_action",
-        "candidate": "Muhammad Eka Putra",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 05:07:34",
         "source": "github_action",
@@ -7135,6 +7128,13 @@
         "timestamp": "2026-04-16 05:51:04",
         "source": "github_action",
         "candidate": "Gery Mustawaa",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 05:51:34",
+        "source": "github_action",
+        "candidate": "Natasya Verlina",
         "position": "Account Executive VCBL",
         "success": true
       }
