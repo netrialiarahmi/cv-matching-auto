@@ -205,10 +205,10 @@ def update_cv_links_for_position(position_name, file_storage_url):
         email = get_column_value(row, "Email Address", "Alamat Email", "").strip()
         resume_link = get_column_value(row, "Resume Link", "Link Resume", "")
         
-        if email and resume_link:
+        if email:
             email_to_resume_link[email.lower()] = resume_link
     
-    print(f"📋 Found {len(email_to_resume_link)} candidates with resume links in fresh data")
+    print(f"📋 Found {len(email_to_resume_link)} candidates in fresh data")
     
     # Verify Resume Link column exists in existing results
     if "Resume Link" not in existing_results.columns:
@@ -216,7 +216,7 @@ def update_cv_links_for_position(position_name, file_storage_url):
         print(f"   Available columns: {list(existing_results.columns)}")
         return 0
     
-    # Update resume links in existing results
+    # Update resume links in existing results — always overwrite from fresh data
     updated_count = 0
     
     for idx, row in existing_results.iterrows():
@@ -226,10 +226,12 @@ def update_cv_links_for_position(position_name, file_storage_url):
             new_resume_link = email_to_resume_link[candidate_email]
             old_resume_link = row.get("Resume Link", "")
             
-            # Only update if the link has changed
-            if new_resume_link != old_resume_link:
-                existing_results.at[idx, "Resume Link"] = new_resume_link
-                updated_count += 1
+            # Always update from fresh data
+            existing_results.at[idx, "Resume Link"] = new_resume_link
+            updated_count += 1
+            
+            # Only log when the link actually changed
+            if str(new_resume_link) != str(old_resume_link):
                 candidate_name = row.get('Candidate Name', 'Unknown')
                 print(f"  ✓ Updated resume link for: {candidate_name}")
                 print(f"    Old: {_truncate_str(old_resume_link, 80)}")
@@ -238,16 +240,13 @@ def update_cv_links_for_position(position_name, file_storage_url):
     # Save updated results back to file
     if updated_count > 0:
         try:
-            # Save ALL existing columns (preserve any additional columns that might exist)
             existing_results.to_csv(results_file, index=False)
-            
-            print(f"💾 Saved {updated_count} updated resume link(s) to {results_file}")
-            print(f"   Updated column: Resume Link")
+            print(f"💾 Saved {updated_count} resume link(s) to {results_file}")
         except Exception as e:
             print(f"❌ Error saving results: {e}")
             return 0
     else:
-        print(f"ℹ️ No resume links needed updating for {position_name}")
+        print(f"ℹ️ No matching candidates found in fresh data for {position_name}")
     
     return updated_count
 
