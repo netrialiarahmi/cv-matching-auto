@@ -6429,24 +6429,17 @@
     ]
   },
   "2026-04-16": {
-    "total": 757,
+    "total": 758,
     "streamlit": 0,
-    "github_action": 757,
-    "successful": 757,
+    "github_action": 758,
+    "successful": 758,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
       "Account Executive Pasangiklan.com": 423,
-      "Business Development Analyst": 44
+      "Business Development Analyst": 45
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 09:28:39",
-        "source": "github_action",
-        "candidate": "Aura Pallomitha",
-        "position": "Account Executive Pasangiklan.com",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 09:29:08",
         "source": "github_action",
@@ -7137,6 +7130,13 @@
         "timestamp": "2026-04-16 10:16:44",
         "source": "github_action",
         "candidate": "Rayhan Naufal Haytami",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 10:17:21",
+        "source": "github_action",
+        "candidate": "Rayhan Putra",
         "position": "Business Development Analyst",
         "success": true
       }
