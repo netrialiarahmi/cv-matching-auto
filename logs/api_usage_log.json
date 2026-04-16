@@ -6429,22 +6429,15 @@
     ]
   },
   "2026-04-16": {
-    "total": 200,
+    "total": 201,
     "streamlit": 0,
-    "github_action": 200,
-    "successful": 200,
+    "github_action": 201,
+    "successful": 201,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 200
+      "Account Executive VCBL": 201
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 05:05:31",
-        "source": "github_action",
-        "candidate": "Agus Nur Habib",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 05:06:00",
         "source": "github_action",
@@ -7135,6 +7128,13 @@
         "timestamp": "2026-04-16 05:49:41",
         "source": "github_action",
         "candidate": "Athaya Ramadhan",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 05:50:09",
+        "source": "github_action",
+        "candidate": "Aminah Fitriani Wiryono",
         "position": "Account Executive VCBL",
         "success": true
       }
