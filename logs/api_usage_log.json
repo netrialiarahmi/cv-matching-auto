@@ -6429,22 +6429,15 @@
     ]
   },
   "2026-04-16": {
-    "total": 181,
+    "total": 182,
     "streamlit": 0,
-    "github_action": 181,
-    "successful": 181,
+    "github_action": 182,
+    "successful": 182,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 181
+      "Account Executive VCBL": 182
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 04:57:48",
-        "source": "github_action",
-        "candidate": "SUTAN ANANDA RIESLY FAJAR MAULANA",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 04:57:51",
         "source": "github_action",
@@ -7135,6 +7128,13 @@
         "timestamp": "2026-04-16 05:40:41",
         "source": "github_action",
         "candidate": "Puguh C., S.T., S.H. ( Bachelor of Engineering and Law )",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 05:41:09",
+        "source": "github_action",
+        "candidate": "Rifqi Favian Satriawan",
         "position": "Account Executive VCBL",
         "success": true
       }
