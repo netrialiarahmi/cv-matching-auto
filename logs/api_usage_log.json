@@ -6429,13 +6429,14 @@
     ]
   },
   "2026-04-16": {
-    "total": 23,
-    "streamlit": 0,
+    "total": 24,
+    "streamlit": 1,
     "github_action": 23,
-    "successful": 23,
+    "successful": 24,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 23
+      "Account Executive VCBL": 23,
+      "Marketing Communication Officer KG Media": 1
     },
     "entries": [
       {
@@ -6597,6 +6598,13 @@
         "source": "github_action",
         "candidate": "Daffa Sandya Affansyah",
         "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 04:31:57",
+        "source": "streamlit",
+        "candidate": "Miriam Levi",
+        "position": "Marketing Communication Officer KG Media",
         "success": true
       }
     ]
