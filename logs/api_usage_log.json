@@ -6429,23 +6429,16 @@
     ]
   },
   "2026-04-16": {
-    "total": 542,
+    "total": 543,
     "streamlit": 0,
-    "github_action": 542,
-    "successful": 542,
+    "github_action": 543,
+    "successful": 543,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
-      "Account Executive Pasangiklan.com": 252
+      "Account Executive Pasangiklan.com": 253
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 07:44:27",
-        "source": "github_action",
-        "candidate": "Maria Brigita Ajeng Wulan Sari",
-        "position": "Account Executive Pasangiklan.com",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 07:44:57",
         "source": "github_action",
@@ -7136,6 +7129,13 @@
         "timestamp": "2026-04-16 08:33:04",
         "source": "github_action",
         "candidate": "Deonesia L. Gildamurti",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 08:33:34",
+        "source": "github_action",
+        "candidate": "Avivi Hilwana. A",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
