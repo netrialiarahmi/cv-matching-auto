@@ -6429,23 +6429,16 @@
     ]
   },
   "2026-04-16": {
-    "total": 462,
+    "total": 463,
     "streamlit": 0,
-    "github_action": 462,
-    "successful": 462,
+    "github_action": 463,
+    "successful": 463,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
-      "Account Executive Pasangiklan.com": 172
+      "Account Executive Pasangiklan.com": 173
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 07:05:02",
-        "source": "github_action",
-        "candidate": "Giovansa Aliff",
-        "position": "Account Executive Pasangiklan.com",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 07:05:30",
         "source": "github_action",
@@ -7136,6 +7129,13 @@
         "timestamp": "2026-04-16 07:53:47",
         "source": "github_action",
         "candidate": "Rafi Erhaga Purba",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 07:54:21",
+        "source": "github_action",
+        "candidate": "Yudi Eko Prasetyo",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
