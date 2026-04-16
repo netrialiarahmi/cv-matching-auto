@@ -6429,22 +6429,15 @@
     ]
   },
   "2026-04-16": {
-    "total": 263,
+    "total": 264,
     "streamlit": 0,
-    "github_action": 263,
-    "successful": 263,
+    "github_action": 264,
+    "successful": 264,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 263
+      "Account Executive VCBL": 264
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 05:33:05",
-        "source": "github_action",
-        "candidate": "Fikam Syah",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 05:33:30",
         "source": "github_action",
@@ -7135,6 +7128,13 @@
         "timestamp": "2026-04-16 06:16:58",
         "source": "github_action",
         "candidate": "Vebby Br Ginting",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 06:17:01",
+        "source": "github_action",
+        "candidate": "Angelina Juliet",
         "position": "Account Executive VCBL",
         "success": true
       }
