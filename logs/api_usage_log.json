@@ -6429,22 +6429,15 @@
     ]
   },
   "2026-04-16": {
-    "total": 192,
+    "total": 193,
     "streamlit": 0,
-    "github_action": 192,
-    "successful": 192,
+    "github_action": 193,
+    "successful": 193,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 192
+      "Account Executive VCBL": 193
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 05:02:36",
-        "source": "github_action",
-        "candidate": "Taufik Hidayat",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 05:03:06",
         "source": "github_action",
@@ -7135,6 +7128,13 @@
         "timestamp": "2026-04-16 05:45:52",
         "source": "github_action",
         "candidate": "Andi P Hamzah Pansuri MH",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 05:46:22",
+        "source": "github_action",
+        "candidate": "Muhamad Umbara Fajri",
         "position": "Account Executive VCBL",
         "success": true
       }
