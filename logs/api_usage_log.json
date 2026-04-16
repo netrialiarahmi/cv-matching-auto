@@ -6429,24 +6429,17 @@
     ]
   },
   "2026-04-16": {
-    "total": 719,
+    "total": 720,
     "streamlit": 0,
-    "github_action": 719,
-    "successful": 719,
+    "github_action": 720,
+    "successful": 720,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
       "Account Executive Pasangiklan.com": 423,
-      "Business Development Analyst": 6
+      "Business Development Analyst": 7
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 09:10:52",
-        "source": "github_action",
-        "candidate": "Ariella Zefanya",
-        "position": "Account Executive Pasangiklan.com",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 09:11:25",
         "source": "github_action",
@@ -7137,6 +7130,13 @@
         "timestamp": "2026-04-16 09:57:12",
         "source": "github_action",
         "candidate": "guruh haryo",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 09:57:42",
+        "source": "github_action",
+        "candidate": "Onisa Nainggolan",
         "position": "Business Development Analyst",
         "success": true
       }
