@@ -6429,22 +6429,15 @@
     ]
   },
   "2026-04-16": {
-    "total": 142,
+    "total": 143,
     "streamlit": 0,
-    "github_action": 142,
-    "successful": 142,
+    "github_action": 143,
+    "successful": 143,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 142
+      "Account Executive VCBL": 143
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 04:40:12",
-        "source": "github_action",
-        "candidate": "Dwi Syahra",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 04:40:40",
         "source": "github_action",
@@ -7135,6 +7128,13 @@
         "timestamp": "2026-04-16 05:23:28",
         "source": "github_action",
         "candidate": "Vika Resi",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 05:23:54",
+        "source": "github_action",
+        "candidate": "Khillad Pratama",
         "position": "Account Executive VCBL",
         "success": true
       }
