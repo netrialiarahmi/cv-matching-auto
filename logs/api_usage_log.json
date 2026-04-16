@@ -6429,22 +6429,15 @@
     ]
   },
   "2026-04-16": {
-    "total": 189,
+    "total": 190,
     "streamlit": 0,
-    "github_action": 189,
-    "successful": 189,
+    "github_action": 190,
+    "successful": 190,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 189
+      "Account Executive VCBL": 190
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 05:01:10",
-        "source": "github_action",
-        "candidate": "Rahmavita Naripati",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 05:01:38",
         "source": "github_action",
@@ -7135,6 +7128,13 @@
         "timestamp": "2026-04-16 05:44:19",
         "source": "github_action",
         "candidate": "Yudith Maura",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 05:44:51",
+        "source": "github_action",
+        "candidate": "Nachita   Putri Madina",
         "position": "Account Executive VCBL",
         "success": true
       }
