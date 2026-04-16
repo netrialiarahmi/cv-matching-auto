@@ -6429,22 +6429,15 @@
     ]
   },
   "2026-04-16": {
-    "total": 123,
+    "total": 124,
     "streamlit": 0,
-    "github_action": 123,
-    "successful": 123,
+    "github_action": 124,
+    "successful": 124,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 123
+      "Account Executive VCBL": 124
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 04:32:03",
-        "source": "github_action",
-        "candidate": "Dwi Sandyka Radia Ramadan",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 04:32:31",
         "source": "github_action",
@@ -7135,6 +7128,13 @@
         "timestamp": "2026-04-16 05:15:15",
         "source": "github_action",
         "candidate": "Alif Rizky Fadhillah",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 05:15:43",
+        "source": "github_action",
+        "candidate": "Sherina Agustina",
         "position": "Account Executive VCBL",
         "success": true
       }
