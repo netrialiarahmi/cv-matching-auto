@@ -6429,23 +6429,16 @@
     ]
   },
   "2026-04-16": {
-    "total": 432,
+    "total": 433,
     "streamlit": 0,
-    "github_action": 432,
-    "successful": 432,
+    "github_action": 433,
+    "successful": 433,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
-      "Account Executive Pasangiklan.com": 142
+      "Account Executive Pasangiklan.com": 143
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 06:49:25",
-        "source": "github_action",
-        "candidate": "Diffa Dhiya Damayanti",
-        "position": "Account Executive Pasangiklan.com",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 06:49:54",
         "source": "github_action",
@@ -7136,6 +7129,13 @@
         "timestamp": "2026-04-16 07:38:48",
         "source": "github_action",
         "candidate": "Rida Aulia  Novi Arisanty",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 07:39:15",
+        "source": "github_action",
+        "candidate": "Hikmah  Liani",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
