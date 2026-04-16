@@ -6429,23 +6429,16 @@
     ]
   },
   "2026-04-16": {
-    "total": 656,
+    "total": 657,
     "streamlit": 0,
-    "github_action": 656,
-    "successful": 656,
+    "github_action": 657,
+    "successful": 657,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
-      "Account Executive Pasangiklan.com": 366
+      "Account Executive Pasangiklan.com": 367
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 08:39:57",
-        "source": "github_action",
-        "candidate": "Azka Putri",
-        "position": "Account Executive Pasangiklan.com",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 08:40:27",
         "source": "github_action",
@@ -7136,6 +7129,13 @@
         "timestamp": "2026-04-16 09:27:42",
         "source": "github_action",
         "candidate": "rahmat tri satria",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 09:28:15",
+        "source": "github_action",
+        "candidate": "Kelvin Suhartono",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
