@@ -6429,22 +6429,15 @@
     ]
   },
   "2026-04-16": {
-    "total": 153,
+    "total": 154,
     "streamlit": 0,
-    "github_action": 153,
-    "successful": 153,
+    "github_action": 154,
+    "successful": 154,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 153
+      "Account Executive VCBL": 154
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 04:45:10",
-        "source": "github_action",
-        "candidate": "Vanya Soraya Irsanti",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 04:45:38",
         "source": "github_action",
@@ -7135,6 +7128,13 @@
         "timestamp": "2026-04-16 05:28:27",
         "source": "github_action",
         "candidate": "Andinna  Putri",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 05:28:54",
+        "source": "github_action",
+        "candidate": "Raihan Isbintara",
         "position": "Account Executive VCBL",
         "success": true
       }
