@@ -6429,24 +6429,17 @@
     ]
   },
   "2026-04-16": {
-    "total": 749,
+    "total": 750,
     "streamlit": 0,
-    "github_action": 749,
-    "successful": 749,
+    "github_action": 750,
+    "successful": 750,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
       "Account Executive Pasangiklan.com": 423,
-      "Business Development Analyst": 36
+      "Business Development Analyst": 37
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 09:24:49",
-        "source": "github_action",
-        "candidate": "Gabrielle Chrestella",
-        "position": "Account Executive Pasangiklan.com",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 09:25:18",
         "source": "github_action",
@@ -7137,6 +7130,13 @@
         "timestamp": "2026-04-16 10:12:48",
         "source": "github_action",
         "candidate": "Yohanna Budi Prasetiya",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 10:13:23",
+        "source": "github_action",
+        "candidate": "cecep aris afandi andi",
         "position": "Business Development Analyst",
         "success": true
       }
