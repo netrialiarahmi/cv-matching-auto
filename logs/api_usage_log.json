@@ -6429,23 +6429,16 @@
     ]
   },
   "2026-04-16": {
-    "total": 328,
+    "total": 329,
     "streamlit": 0,
-    "github_action": 328,
-    "successful": 328,
+    "github_action": 329,
+    "successful": 329,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
-      "Account Executive Pasangiklan.com": 38
+      "Account Executive Pasangiklan.com": 39
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 06:02:54",
-        "source": "github_action",
-        "candidate": "Monicha Elisabeth Simanjuntak",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 06:03:23",
         "source": "github_action",
@@ -7136,6 +7129,13 @@
         "timestamp": "2026-04-16 06:46:46",
         "source": "github_action",
         "candidate": "Muhammad Fathan",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 06:47:16",
+        "source": "github_action",
+        "candidate": "Elsa Nanda Shafira",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
