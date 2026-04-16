@@ -6429,23 +6429,16 @@
     ]
   },
   "2026-04-16": {
-    "total": 436,
+    "total": 437,
     "streamlit": 0,
-    "github_action": 436,
-    "successful": 436,
+    "github_action": 437,
+    "successful": 437,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
-      "Account Executive Pasangiklan.com": 146
+      "Account Executive Pasangiklan.com": 147
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 06:51:30",
-        "source": "github_action",
-        "candidate": "Lovindo Nulova",
-        "position": "Account Executive Pasangiklan.com",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 06:52:06",
         "source": "github_action",
@@ -7136,6 +7129,13 @@
         "timestamp": "2026-04-16 07:40:48",
         "source": "github_action",
         "candidate": "Rendi Ramadiansyah Saepudin",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 07:41:17",
+        "source": "github_action",
+        "candidate": "Ferel Hutagalung",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
