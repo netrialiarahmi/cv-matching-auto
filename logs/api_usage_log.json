@@ -6429,14 +6429,13 @@
     ]
   },
   "2026-04-16": {
-    "total": 15,
-    "streamlit": 1,
-    "github_action": 14,
-    "successful": 15,
+    "total": 16,
+    "streamlit": 0,
+    "github_action": 16,
+    "successful": 16,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 14,
-      "Marketing Communication Officer KG Media": 1
+      "Account Executive VCBL": 16
     },
     "entries": [
       {
@@ -6538,10 +6537,17 @@
         "success": true
       },
       {
-        "timestamp": "2026-04-16 04:28:49",
-        "source": "streamlit",
-        "candidate": "Farhan Akbar",
-        "position": "Marketing Communication Officer KG Media",
+        "timestamp": "2026-04-16 04:28:40",
+        "source": "github_action",
+        "candidate": "REHAN PAGADILA",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 04:29:09",
+        "source": "github_action",
+        "candidate": "Faiz Ardana Sani",
+        "position": "Account Executive VCBL",
         "success": true
       }
     ]
