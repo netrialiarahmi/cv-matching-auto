@@ -6429,22 +6429,15 @@
     ]
   },
   "2026-04-16": {
-    "total": 217,
+    "total": 218,
     "streamlit": 0,
-    "github_action": 217,
-    "successful": 217,
+    "github_action": 218,
+    "successful": 218,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 217
+      "Account Executive VCBL": 218
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 05:13:10",
-        "source": "github_action",
-        "candidate": "Fatmawati",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 05:13:40",
         "source": "github_action",
@@ -7135,6 +7128,13 @@
         "timestamp": "2026-04-16 05:57:41",
         "source": "github_action",
         "candidate": "Reri Oktasari",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 05:58:12",
+        "source": "github_action",
+        "candidate": "Devianna Felicia Veronica",
         "position": "Account Executive VCBL",
         "success": true
       }
