@@ -6429,24 +6429,17 @@
     ]
   },
   "2026-04-16": {
-    "total": 727,
+    "total": 728,
     "streamlit": 0,
-    "github_action": 727,
-    "successful": 727,
+    "github_action": 728,
+    "successful": 728,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
       "Account Executive Pasangiklan.com": 423,
-      "Business Development Analyst": 14
+      "Business Development Analyst": 15
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 09:14:40",
-        "source": "github_action",
-        "candidate": "Mahisa Gesty  Anggasani",
-        "position": "Account Executive Pasangiklan.com",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 09:15:19",
         "source": "github_action",
@@ -7137,6 +7130,13 @@
         "timestamp": "2026-04-16 10:01:20",
         "source": "github_action",
         "candidate": "Putri Hernawati",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 10:01:23",
+        "source": "github_action",
+        "candidate": "Sri Cintia Dewi",
         "position": "Business Development Analyst",
         "success": true
       }
