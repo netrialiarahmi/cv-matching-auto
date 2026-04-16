@@ -6429,23 +6429,16 @@
     ]
   },
   "2026-04-16": {
-    "total": 464,
+    "total": 465,
     "streamlit": 0,
-    "github_action": 464,
-    "successful": 464,
+    "github_action": 465,
+    "successful": 465,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
-      "Account Executive Pasangiklan.com": 174
+      "Account Executive Pasangiklan.com": 175
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 07:05:57",
-        "source": "github_action",
-        "candidate": "shavira istieananda",
-        "position": "Account Executive Pasangiklan.com",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 07:06:30",
         "source": "github_action",
@@ -7136,6 +7129,13 @@
         "timestamp": "2026-04-16 07:54:51",
         "source": "github_action",
         "candidate": "risqi saputra",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 07:55:20",
+        "source": "github_action",
+        "candidate": "ARIQ SATRIA SUPANGKAT",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
