@@ -6429,23 +6429,16 @@
     ]
   },
   "2026-04-16": {
-    "total": 511,
+    "total": 512,
     "streamlit": 0,
-    "github_action": 511,
-    "successful": 511,
+    "github_action": 512,
+    "successful": 512,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
-      "Account Executive Pasangiklan.com": 221
+      "Account Executive Pasangiklan.com": 222
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 07:29:07",
-        "source": "github_action",
-        "candidate": "Belia Kharisma Balqis Trismara",
-        "position": "Account Executive Pasangiklan.com",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 07:29:34",
         "source": "github_action",
@@ -7136,6 +7129,13 @@
         "timestamp": "2026-04-16 08:18:02",
         "source": "github_action",
         "candidate": "Mohamad Ricky Afeiro",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 08:18:32",
+        "source": "github_action",
+        "candidate": "Ali Haadi",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
