@@ -6429,23 +6429,16 @@
     ]
   },
   "2026-04-16": {
-    "total": 620,
+    "total": 621,
     "streamlit": 0,
-    "github_action": 620,
-    "successful": 620,
+    "github_action": 621,
+    "successful": 621,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
-      "Account Executive Pasangiklan.com": 330
+      "Account Executive Pasangiklan.com": 331
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 08:23:11",
-        "source": "github_action",
-        "candidate": "juno ongko",
-        "position": "Account Executive Pasangiklan.com",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 08:23:45",
         "source": "github_action",
@@ -7136,6 +7129,13 @@
         "timestamp": "2026-04-16 09:10:52",
         "source": "github_action",
         "candidate": "Ariella Zefanya",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 09:11:25",
+        "source": "github_action",
+        "candidate": "Ropiah  Napilah",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
