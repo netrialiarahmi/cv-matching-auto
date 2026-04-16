@@ -6429,22 +6429,15 @@
     ]
   },
   "2026-04-16": {
-    "total": 228,
+    "total": 229,
     "streamlit": 0,
-    "github_action": 228,
-    "successful": 228,
+    "github_action": 229,
+    "successful": 229,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 228
+      "Account Executive VCBL": 229
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 05:17:46",
-        "source": "github_action",
-        "candidate": "Marsal AK Donny",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 05:18:12",
         "source": "github_action",
@@ -7135,6 +7128,13 @@
         "timestamp": "2026-04-16 06:02:29",
         "source": "github_action",
         "candidate": "Cenwi Agnes Vanecia Putri",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 06:02:54",
+        "source": "github_action",
+        "candidate": "Monicha Elisabeth Simanjuntak",
         "position": "Account Executive VCBL",
         "success": true
       }
