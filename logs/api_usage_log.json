@@ -6429,22 +6429,15 @@
     ]
   },
   "2026-04-16": {
-    "total": 201,
+    "total": 202,
     "streamlit": 0,
-    "github_action": 201,
-    "successful": 201,
+    "github_action": 202,
+    "successful": 202,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 201
+      "Account Executive VCBL": 202
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 05:06:00",
-        "source": "github_action",
-        "candidate": "Sindy Rosita",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 05:06:31",
         "source": "github_action",
@@ -7135,6 +7128,13 @@
         "timestamp": "2026-04-16 05:50:09",
         "source": "github_action",
         "candidate": "Aminah Fitriani Wiryono",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 05:50:36",
+        "source": "github_action",
+        "candidate": "Reski Gunawan",
         "position": "Account Executive VCBL",
         "success": true
       }
