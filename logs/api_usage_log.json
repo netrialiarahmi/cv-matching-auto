@@ -6429,23 +6429,16 @@
     ]
   },
   "2026-04-16": {
-    "total": 306,
+    "total": 307,
     "streamlit": 0,
-    "github_action": 306,
-    "successful": 306,
+    "github_action": 307,
+    "successful": 307,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
-      "Account Executive Pasangiklan.com": 16
+      "Account Executive Pasangiklan.com": 17
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 05:53:00",
-        "source": "github_action",
-        "candidate": "Zalsa Satyo  Putri Utomo",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 05:53:32",
         "source": "github_action",
@@ -7136,6 +7129,13 @@
         "timestamp": "2026-04-16 06:35:13",
         "source": "github_action",
         "candidate": "Fajar Nopridatama",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 06:35:46",
+        "source": "github_action",
+        "candidate": "Rizki Amba Artanto",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
