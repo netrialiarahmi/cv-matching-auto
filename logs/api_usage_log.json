@@ -6429,23 +6429,16 @@
     ]
   },
   "2026-04-16": {
-    "total": 697,
+    "total": 698,
     "streamlit": 0,
-    "github_action": 697,
-    "successful": 697,
+    "github_action": 698,
+    "successful": 698,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
-      "Account Executive Pasangiklan.com": 407
+      "Account Executive Pasangiklan.com": 408
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 09:00:56",
-        "source": "github_action",
-        "candidate": "Orelia  Putri",
-        "position": "Account Executive Pasangiklan.com",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 09:01:31",
         "source": "github_action",
@@ -7136,6 +7129,13 @@
         "timestamp": "2026-04-16 09:47:08",
         "source": "github_action",
         "candidate": "Reka Mauria Pribadi, S.H.,M.M",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 09:47:34",
+        "source": "github_action",
+        "candidate": "Faisa Avila Widhihadella",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
