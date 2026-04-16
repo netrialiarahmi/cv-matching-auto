@@ -6429,23 +6429,16 @@
     ]
   },
   "2026-04-16": {
-    "total": 689,
+    "total": 690,
     "streamlit": 0,
-    "github_action": 689,
-    "successful": 689,
+    "github_action": 690,
+    "successful": 690,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
-      "Account Executive Pasangiklan.com": 399
+      "Account Executive Pasangiklan.com": 400
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 08:56:45",
-        "source": "github_action",
-        "candidate": "Sulthan Muchammad Akbar",
-        "position": "Account Executive Pasangiklan.com",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 08:57:14",
         "source": "github_action",
@@ -7136,6 +7129,13 @@
         "timestamp": "2026-04-16 09:43:18",
         "source": "github_action",
         "candidate": "Epi Affifah",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 09:43:43",
+        "source": "github_action",
+        "candidate": "Sardo Wibowo",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
