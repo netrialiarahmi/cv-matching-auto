@@ -6429,23 +6429,16 @@
     ]
   },
   "2026-04-16": {
-    "total": 627,
+    "total": 628,
     "streamlit": 0,
-    "github_action": 627,
-    "successful": 627,
+    "github_action": 628,
+    "successful": 628,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
-      "Account Executive Pasangiklan.com": 337
+      "Account Executive Pasangiklan.com": 338
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 08:26:36",
-        "source": "github_action",
-        "candidate": "Pusfita Mawarni",
-        "position": "Account Executive Pasangiklan.com",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 08:27:07",
         "source": "github_action",
@@ -7136,6 +7129,13 @@
         "timestamp": "2026-04-16 09:14:20",
         "source": "github_action",
         "candidate": "Sheva Ardhiansyah",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 09:14:40",
+        "source": "github_action",
+        "candidate": "Mahisa Gesty  Anggasani",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
