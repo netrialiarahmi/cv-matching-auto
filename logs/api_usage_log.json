@@ -6429,23 +6429,16 @@
     ]
   },
   "2026-04-16": {
-    "total": 433,
+    "total": 434,
     "streamlit": 0,
-    "github_action": 433,
-    "successful": 433,
+    "github_action": 434,
+    "successful": 434,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
-      "Account Executive Pasangiklan.com": 143
+      "Account Executive Pasangiklan.com": 144
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 06:49:54",
-        "source": "github_action",
-        "candidate": "Zidan Kurnia",
-        "position": "Account Executive Pasangiklan.com",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 06:50:25",
         "source": "github_action",
@@ -7136,6 +7129,13 @@
         "timestamp": "2026-04-16 07:39:15",
         "source": "github_action",
         "candidate": "Hikmah  Liani",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 07:39:45",
+        "source": "github_action",
+        "candidate": "Riza Daelami",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
