@@ -6429,23 +6429,16 @@
     ]
   },
   "2026-04-16": {
-    "total": 539,
+    "total": 540,
     "streamlit": 0,
-    "github_action": 539,
-    "successful": 539,
+    "github_action": 540,
+    "successful": 540,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
-      "Account Executive Pasangiklan.com": 249
+      "Account Executive Pasangiklan.com": 250
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 07:42:51",
-        "source": "github_action",
-        "candidate": "Faisal Marwan",
-        "position": "Account Executive Pasangiklan.com",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 07:43:25",
         "source": "github_action",
@@ -7136,6 +7129,13 @@
         "timestamp": "2026-04-16 08:31:34",
         "source": "github_action",
         "candidate": "siril fuad",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 08:32:03",
+        "source": "github_action",
+        "candidate": "Fakhri Nan Arif Meivetra",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
