@@ -6429,23 +6429,16 @@
     ]
   },
   "2026-04-16": {
-    "total": 340,
+    "total": 341,
     "streamlit": 0,
-    "github_action": 340,
-    "successful": 340,
+    "github_action": 341,
+    "successful": 341,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
-      "Account Executive Pasangiklan.com": 50
+      "Account Executive Pasangiklan.com": 51
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 06:08:31",
-        "source": "github_action",
-        "candidate": "Sondang Zefanya Febee Asima",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 06:09:08",
         "source": "github_action",
@@ -7136,6 +7129,13 @@
         "timestamp": "2026-04-16 06:53:11",
         "source": "github_action",
         "candidate": "Isti Bakhitah Sabila",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 06:53:42",
+        "source": "github_action",
+        "candidate": "Usman Nurul Qur'an",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
