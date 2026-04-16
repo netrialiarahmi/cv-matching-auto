@@ -6429,23 +6429,16 @@
     ]
   },
   "2026-04-16": {
-    "total": 428,
+    "total": 429,
     "streamlit": 0,
-    "github_action": 428,
-    "successful": 428,
+    "github_action": 429,
+    "successful": 429,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
-      "Account Executive Pasangiklan.com": 138
+      "Account Executive Pasangiklan.com": 139
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 06:47:16",
-        "source": "github_action",
-        "candidate": "Elsa Nanda Shafira",
-        "position": "Account Executive Pasangiklan.com",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 06:47:51",
         "source": "github_action",
@@ -7136,6 +7129,13 @@
         "timestamp": "2026-04-16 07:37:10",
         "source": "github_action",
         "candidate": "Muhammad Irwan",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 07:37:44",
+        "source": "github_action",
+        "candidate": "Faris Sayyid Quthub",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
