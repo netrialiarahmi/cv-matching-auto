@@ -6429,23 +6429,16 @@
     ]
   },
   "2026-04-16": {
-    "total": 434,
+    "total": 435,
     "streamlit": 0,
-    "github_action": 434,
-    "successful": 434,
+    "github_action": 435,
+    "successful": 435,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
-      "Account Executive Pasangiklan.com": 144
+      "Account Executive Pasangiklan.com": 145
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 06:50:25",
-        "source": "github_action",
-        "candidate": "Muhammad Adel Hilmi Halwanu",
-        "position": "Account Executive Pasangiklan.com",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 06:50:59",
         "source": "github_action",
@@ -7136,6 +7129,13 @@
         "timestamp": "2026-04-16 07:39:45",
         "source": "github_action",
         "candidate": "Riza Daelami",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 07:40:16",
+        "source": "github_action",
+        "candidate": "Abdullah imam makarim destiawan",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
