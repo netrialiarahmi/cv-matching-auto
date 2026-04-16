@@ -6429,23 +6429,16 @@
     ]
   },
   "2026-04-16": {
-    "total": 320,
+    "total": 321,
     "streamlit": 0,
-    "github_action": 320,
-    "successful": 320,
+    "github_action": 321,
+    "successful": 321,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
-      "Account Executive Pasangiklan.com": 30
+      "Account Executive Pasangiklan.com": 31
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 05:59:13",
-        "source": "github_action",
-        "candidate": "Inka Piola Naretin Rahayu",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 05:59:43",
         "source": "github_action",
@@ -7136,6 +7129,13 @@
         "timestamp": "2026-04-16 06:42:29",
         "source": "github_action",
         "candidate": "Rofaldi lazuardiyan",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 06:43:01",
+        "source": "github_action",
+        "candidate": "Yogie Pratama",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
