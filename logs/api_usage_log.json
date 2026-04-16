@@ -6429,23 +6429,16 @@
     ]
   },
   "2026-04-16": {
-    "total": 485,
+    "total": 486,
     "streamlit": 0,
-    "github_action": 485,
-    "successful": 485,
+    "github_action": 486,
+    "successful": 486,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
-      "Account Executive Pasangiklan.com": 195
+      "Account Executive Pasangiklan.com": 196
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 07:16:29",
-        "source": "github_action",
-        "candidate": "Afrizal Naufal Ghani",
-        "position": "Account Executive Pasangiklan.com",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 07:16:55",
         "source": "github_action",
@@ -7136,6 +7129,13 @@
         "timestamp": "2026-04-16 08:05:10",
         "source": "github_action",
         "candidate": "Megantoro Razak",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 08:05:37",
+        "source": "github_action",
+        "candidate": "Eko Danang Cahyanto",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
