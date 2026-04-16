@@ -6429,23 +6429,16 @@
     ]
   },
   "2026-04-16": {
-    "total": 475,
+    "total": 476,
     "streamlit": 0,
-    "github_action": 475,
-    "successful": 475,
+    "github_action": 476,
+    "successful": 476,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
-      "Account Executive Pasangiklan.com": 185
+      "Account Executive Pasangiklan.com": 186
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 07:11:29",
-        "source": "github_action",
-        "candidate": "Rosnia Komala Dewi",
-        "position": "Account Executive Pasangiklan.com",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 07:11:54",
         "source": "github_action",
@@ -7136,6 +7129,13 @@
         "timestamp": "2026-04-16 08:00:02",
         "source": "github_action",
         "candidate": "Erasmus Humanika",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 08:00:30",
+        "source": "github_action",
+        "candidate": "Sony Putra",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
