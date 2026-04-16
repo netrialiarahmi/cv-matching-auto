@@ -6429,22 +6429,15 @@
     ]
   },
   "2026-04-16": {
-    "total": 127,
+    "total": 128,
     "streamlit": 0,
-    "github_action": 127,
-    "successful": 127,
+    "github_action": 128,
+    "successful": 128,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 127
+      "Account Executive VCBL": 128
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 04:33:58",
-        "source": "github_action",
-        "candidate": "Yogi Pradana",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 04:34:31",
         "source": "github_action",
@@ -7135,6 +7128,13 @@
         "timestamp": "2026-04-16 05:16:40",
         "source": "github_action",
         "candidate": "Galang Akbar Wibisono",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 05:17:10",
+        "source": "github_action",
+        "candidate": "Mayangsari Karina Putri",
         "position": "Account Executive VCBL",
         "success": true
       }
