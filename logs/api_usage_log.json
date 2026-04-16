@@ -6429,22 +6429,15 @@
     ]
   },
   "2026-04-16": {
-    "total": 103,
+    "total": 104,
     "streamlit": 0,
-    "github_action": 103,
-    "successful": 103,
+    "github_action": 104,
+    "successful": 104,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 103
+      "Account Executive VCBL": 104
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 04:24:14",
-        "source": "github_action",
-        "candidate": "Ilham Rahmatulloh",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 04:24:46",
         "source": "github_action",
@@ -7135,6 +7128,13 @@
         "timestamp": "2026-04-16 05:06:31",
         "source": "github_action",
         "candidate": "Naila Asyrofa Khilyah",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 05:07:01",
+        "source": "github_action",
+        "candidate": "Muhammad Eka Putra",
         "position": "Account Executive VCBL",
         "success": true
       }
