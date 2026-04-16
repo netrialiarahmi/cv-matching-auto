@@ -6429,23 +6429,16 @@
     ]
   },
   "2026-04-16": {
-    "total": 666,
+    "total": 667,
     "streamlit": 0,
-    "github_action": 666,
-    "successful": 666,
+    "github_action": 667,
+    "successful": 667,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
-      "Account Executive Pasangiklan.com": 376
+      "Account Executive Pasangiklan.com": 377
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 08:45:03",
-        "source": "github_action",
-        "candidate": "Hana Marselia Sihombing",
-        "position": "Account Executive Pasangiklan.com",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 08:45:35",
         "source": "github_action",
@@ -7136,6 +7129,13 @@
         "timestamp": "2026-04-16 09:32:25",
         "source": "github_action",
         "candidate": "Rizka Aulia Putri",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 09:32:54",
+        "source": "github_action",
+        "candidate": "Frikel Adila Mender",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
