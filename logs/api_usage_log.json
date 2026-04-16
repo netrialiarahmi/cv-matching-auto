@@ -6429,22 +6429,15 @@
     ]
   },
   "2026-04-16": {
-    "total": 255,
+    "total": 256,
     "streamlit": 0,
-    "github_action": 255,
-    "successful": 255,
+    "github_action": 256,
+    "successful": 256,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 255
+      "Account Executive VCBL": 256
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 05:29:50",
-        "source": "github_action",
-        "candidate": "Dhianya Putri Shafiya Wicaksono",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 05:29:52",
         "source": "github_action",
@@ -7135,6 +7128,13 @@
         "timestamp": "2026-04-16 06:13:51",
         "source": "github_action",
         "candidate": "Hermes  Buana",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 06:13:54",
+        "source": "github_action",
+        "candidate": "Firli Amalya",
         "position": "Account Executive VCBL",
         "success": true
       }
