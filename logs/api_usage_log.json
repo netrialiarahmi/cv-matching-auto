@@ -6429,23 +6429,16 @@
     ]
   },
   "2026-04-16": {
-    "total": 393,
+    "total": 394,
     "streamlit": 0,
-    "github_action": 393,
-    "successful": 393,
+    "github_action": 394,
+    "successful": 394,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
-      "Account Executive Pasangiklan.com": 103
+      "Account Executive Pasangiklan.com": 104
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 06:29:31",
-        "source": "github_action",
-        "candidate": "Wildha Ainun Ritonga",
-        "position": "Account Executive Pasangiklan.com",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 06:30:00",
         "source": "github_action",
@@ -7136,6 +7129,13 @@
         "timestamp": "2026-04-16 07:19:50",
         "source": "github_action",
         "candidate": "Aristya Bhaskoro",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 07:20:24",
+        "source": "github_action",
+        "candidate": "Krisna Putra",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
