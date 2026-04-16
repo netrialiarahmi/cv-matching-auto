@@ -6429,22 +6429,15 @@
     ]
   },
   "2026-04-16": {
-    "total": 183,
+    "total": 184,
     "streamlit": 0,
-    "github_action": 183,
-    "successful": 183,
+    "github_action": 184,
+    "successful": 184,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 183
+      "Account Executive VCBL": 184
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 04:58:17",
-        "source": "github_action",
-        "candidate": "Oryza Zaidandio",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 04:58:43",
         "source": "github_action",
@@ -7135,6 +7128,13 @@
         "timestamp": "2026-04-16 05:41:38",
         "source": "github_action",
         "candidate": "Sumita Suci Damayanti",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 05:42:08",
+        "source": "github_action",
+        "candidate": "Yanina Turbana",
         "position": "Account Executive VCBL",
         "success": true
       }
