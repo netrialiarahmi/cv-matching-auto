@@ -6429,23 +6429,16 @@
     ]
   },
   "2026-04-16": {
-    "total": 599,
+    "total": 600,
     "streamlit": 0,
-    "github_action": 599,
-    "successful": 599,
+    "github_action": 600,
+    "successful": 600,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
-      "Account Executive Pasangiklan.com": 309
+      "Account Executive Pasangiklan.com": 310
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 08:12:34",
-        "source": "github_action",
-        "candidate": "Zairofi  Al Daustha",
-        "position": "Account Executive Pasangiklan.com",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 08:13:04",
         "source": "github_action",
@@ -7136,6 +7129,13 @@
         "timestamp": "2026-04-16 09:01:31",
         "source": "github_action",
         "candidate": "Ramadhan Aldiansyah",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 09:01:58",
+        "source": "github_action",
+        "candidate": "Muhammad Rafee Ramadhani",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
