@@ -6429,24 +6429,17 @@
     ]
   },
   "2026-04-16": {
-    "total": 739,
+    "total": 740,
     "streamlit": 0,
-    "github_action": 739,
-    "successful": 739,
+    "github_action": 740,
+    "successful": 740,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
       "Account Executive Pasangiklan.com": 423,
-      "Business Development Analyst": 26
+      "Business Development Analyst": 27
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 09:19:51",
-        "source": "github_action",
-        "candidate": "faransa lechany",
-        "position": "Account Executive Pasangiklan.com",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 09:20:20",
         "source": "github_action",
@@ -7137,6 +7130,13 @@
         "timestamp": "2026-04-16 10:07:27",
         "source": "github_action",
         "candidate": "Sandi Mayyoga",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 10:07:56",
+        "source": "github_action",
+        "candidate": "Firly Ramadhan",
         "position": "Business Development Analyst",
         "success": true
       }
