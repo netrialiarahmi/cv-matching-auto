@@ -6429,22 +6429,15 @@
     ]
   },
   "2026-04-16": {
-    "total": 277,
+    "total": 278,
     "streamlit": 0,
-    "github_action": 277,
-    "successful": 277,
+    "github_action": 278,
+    "successful": 278,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 277
+      "Account Executive VCBL": 278
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 05:39:20",
-        "source": "github_action",
-        "candidate": "Muhammad Rosikhul Ilmi",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 05:39:46",
         "source": "github_action",
@@ -7135,6 +7128,13 @@
         "timestamp": "2026-04-16 06:22:04",
         "source": "github_action",
         "candidate": "Ridha Lestari",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 06:22:32",
+        "source": "github_action",
+        "candidate": "Yoanda Adzra nabilasya",
         "position": "Account Executive VCBL",
         "success": true
       }
