@@ -6429,23 +6429,16 @@
     ]
   },
   "2026-04-16": {
-    "total": 469,
+    "total": 470,
     "streamlit": 0,
-    "github_action": 469,
-    "successful": 469,
+    "github_action": 470,
+    "successful": 470,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
-      "Account Executive Pasangiklan.com": 179
+      "Account Executive Pasangiklan.com": 180
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 07:08:33",
-        "source": "github_action",
-        "candidate": "Ismail Shabri",
-        "position": "Account Executive Pasangiklan.com",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 07:08:59",
         "source": "github_action",
@@ -7136,6 +7129,13 @@
         "timestamp": "2026-04-16 07:57:22",
         "source": "github_action",
         "candidate": "Aprianto Arohim  Nugraha",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 07:57:53",
+        "source": "github_action",
+        "candidate": "Rania Kemala  Ayu",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
