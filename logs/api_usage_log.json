@@ -6429,22 +6429,15 @@
     ]
   },
   "2026-04-16": {
-    "total": 282,
+    "total": 283,
     "streamlit": 0,
-    "github_action": 282,
-    "successful": 282,
+    "github_action": 283,
+    "successful": 283,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 282
+      "Account Executive VCBL": 283
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 05:41:38",
-        "source": "github_action",
-        "candidate": "Sumita Suci Damayanti",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 05:42:08",
         "source": "github_action",
@@ -7135,6 +7128,13 @@
         "timestamp": "2026-04-16 06:24:19",
         "source": "github_action",
         "candidate": "Hafizh Zaffan",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 06:24:46",
+        "source": "github_action",
+        "candidate": "Mohamad Haikal Jordani",
         "position": "Account Executive VCBL",
         "success": true
       }
