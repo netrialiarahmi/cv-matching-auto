@@ -6429,23 +6429,16 @@
     ]
   },
   "2026-04-16": {
-    "total": 302,
+    "total": 303,
     "streamlit": 0,
-    "github_action": 302,
-    "successful": 302,
+    "github_action": 303,
+    "successful": 303,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
-      "Account Executive Pasangiklan.com": 12
+      "Account Executive Pasangiklan.com": 13
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 05:51:04",
-        "source": "github_action",
-        "candidate": "Gery Mustawaa",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 05:51:34",
         "source": "github_action",
@@ -7136,6 +7129,13 @@
         "timestamp": "2026-04-16 06:33:02",
         "source": "github_action",
         "candidate": "Octria Vesensia",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 06:33:35",
+        "source": "github_action",
+        "candidate": "Hadyan Juliansjach",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
