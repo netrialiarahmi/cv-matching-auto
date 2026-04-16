@@ -6429,24 +6429,17 @@
     ]
   },
   "2026-04-16": {
-    "total": 718,
+    "total": 719,
     "streamlit": 0,
-    "github_action": 718,
-    "successful": 718,
+    "github_action": 719,
+    "successful": 719,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
       "Account Executive Pasangiklan.com": 423,
-      "Business Development Analyst": 5
+      "Business Development Analyst": 6
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 09:10:22",
-        "source": "github_action",
-        "candidate": "Gracela Neoh",
-        "position": "Account Executive Pasangiklan.com",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 09:10:52",
         "source": "github_action",
@@ -7137,6 +7130,13 @@
         "timestamp": "2026-04-16 09:56:40",
         "source": "github_action",
         "candidate": "Raditya Ari Vernandito",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 09:57:12",
+        "source": "github_action",
+        "candidate": "guruh haryo",
         "position": "Business Development Analyst",
         "success": true
       }
