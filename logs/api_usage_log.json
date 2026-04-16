@@ -6429,22 +6429,15 @@
     ]
   },
   "2026-04-16": {
-    "total": 213,
+    "total": 214,
     "streamlit": 0,
-    "github_action": 213,
-    "successful": 213,
+    "github_action": 214,
+    "successful": 214,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 213
+      "Account Executive VCBL": 214
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 05:11:18",
-        "source": "github_action",
-        "candidate": "Kurnia Ariati",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 05:11:44",
         "source": "github_action",
@@ -7135,6 +7128,13 @@
         "timestamp": "2026-04-16 05:55:49",
         "source": "github_action",
         "candidate": "Jemy kartika Putra",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 05:56:18",
+        "source": "github_action",
+        "candidate": "DEVI AYU RAHMATIKA",
         "position": "Account Executive VCBL",
         "success": true
       }
