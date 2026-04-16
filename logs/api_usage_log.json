@@ -6429,13 +6429,14 @@
     ]
   },
   "2026-04-16": {
-    "total": 20,
-    "streamlit": 0,
+    "total": 21,
+    "streamlit": 1,
     "github_action": 20,
-    "successful": 20,
+    "successful": 21,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 20
+      "Account Executive VCBL": 20,
+      "Marketing Communication Officer KG Media": 1
     },
     "entries": [
       {
@@ -6576,6 +6577,13 @@
         "source": "github_action",
         "candidate": "Insyirah Ayu Ardila",
         "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 04:30:15",
+        "source": "streamlit",
+        "candidate": "Farida Yulistiana",
+        "position": "Marketing Communication Officer KG Media",
         "success": true
       }
     ]
