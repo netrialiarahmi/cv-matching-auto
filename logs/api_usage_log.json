@@ -6429,24 +6429,17 @@
     ]
   },
   "2026-04-16": {
-    "total": 763,
+    "total": 764,
     "streamlit": 0,
-    "github_action": 763,
-    "successful": 763,
+    "github_action": 764,
+    "successful": 764,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
       "Account Executive Pasangiklan.com": 423,
-      "Business Development Analyst": 50
+      "Business Development Analyst": 51
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 09:31:28",
-        "source": "github_action",
-        "candidate": "putri andriani",
-        "position": "Account Executive Pasangiklan.com",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 09:31:59",
         "source": "github_action",
@@ -7137,6 +7130,13 @@
         "timestamp": "2026-04-16 10:19:55",
         "source": "github_action",
         "candidate": "Aldila Viddy Raihan Rosandya",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 10:20:24",
+        "source": "github_action",
+        "candidate": "Satria Wibowo",
         "position": "Business Development Analyst",
         "success": true
       }
