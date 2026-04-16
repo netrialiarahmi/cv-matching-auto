@@ -6429,23 +6429,16 @@
     ]
   },
   "2026-04-16": {
-    "total": 402,
+    "total": 403,
     "streamlit": 0,
-    "github_action": 402,
-    "successful": 402,
+    "github_action": 403,
+    "successful": 403,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
-      "Account Executive Pasangiklan.com": 112
+      "Account Executive Pasangiklan.com": 113
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 06:33:35",
-        "source": "github_action",
-        "candidate": "Hadyan Juliansjach",
-        "position": "Account Executive Pasangiklan.com",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 06:34:09",
         "source": "github_action",
@@ -7136,6 +7129,13 @@
         "timestamp": "2026-04-16 07:24:23",
         "source": "github_action",
         "candidate": "Firman Sakti Rizaldy",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 07:24:54",
+        "source": "github_action",
+        "candidate": "Muh Rasikh Undipa Akbar",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
