@@ -6429,22 +6429,15 @@
     ]
   },
   "2026-04-16": {
-    "total": 172,
+    "total": 173,
     "streamlit": 0,
-    "github_action": 172,
-    "successful": 172,
+    "github_action": 173,
+    "successful": 173,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 172
+      "Account Executive VCBL": 173
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 04:54:02",
-        "source": "github_action",
-        "candidate": "Salma Alika",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 04:54:35",
         "source": "github_action",
@@ -7135,6 +7128,13 @@
         "timestamp": "2026-04-16 05:36:39",
         "source": "github_action",
         "candidate": "Puji lestari",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 05:37:06",
+        "source": "github_action",
+        "candidate": "Ocha Fatirr",
         "position": "Account Executive VCBL",
         "success": true
       }
