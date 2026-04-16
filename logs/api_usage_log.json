@@ -6429,22 +6429,15 @@
     ]
   },
   "2026-04-16": {
-    "total": 193,
+    "total": 194,
     "streamlit": 0,
-    "github_action": 193,
-    "successful": 193,
+    "github_action": 194,
+    "successful": 194,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 193
+      "Account Executive VCBL": 194
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 05:03:06",
-        "source": "github_action",
-        "candidate": "David Martino Arreltama",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 05:03:09",
         "source": "github_action",
@@ -7135,6 +7128,13 @@
         "timestamp": "2026-04-16 05:46:22",
         "source": "github_action",
         "candidate": "Muhamad Umbara Fajri",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 05:46:47",
+        "source": "github_action",
+        "candidate": "Indah Ayu",
         "position": "Account Executive VCBL",
         "success": true
       }
