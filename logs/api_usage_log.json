@@ -6429,23 +6429,16 @@
     ]
   },
   "2026-04-16": {
-    "total": 311,
+    "total": 312,
     "streamlit": 0,
-    "github_action": 311,
-    "successful": 311,
+    "github_action": 312,
+    "successful": 312,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
-      "Account Executive Pasangiklan.com": 21
+      "Account Executive Pasangiklan.com": 22
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 05:55:21",
-        "source": "github_action",
-        "candidate": "Vikri Haekal Maulana",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 05:55:49",
         "source": "github_action",
@@ -7136,6 +7129,13 @@
         "timestamp": "2026-04-16 06:37:49",
         "source": "github_action",
         "candidate": "iqbal muhammad",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 06:38:18",
+        "source": "github_action",
+        "candidate": "Muhammad Nawawi",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
