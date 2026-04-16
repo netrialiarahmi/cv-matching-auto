@@ -6429,13 +6429,13 @@
     ]
   },
   "2026-04-16": {
-    "total": 95,
+    "total": 96,
     "streamlit": 0,
-    "github_action": 95,
-    "successful": 95,
+    "github_action": 96,
+    "successful": 96,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 95
+      "Account Executive VCBL": 96
     },
     "entries": [
       {
@@ -7100,6 +7100,13 @@
         "timestamp": "2026-04-16 05:03:09",
         "source": "github_action",
         "candidate": "ardhi purnomo",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 05:03:35",
+        "source": "github_action",
+        "candidate": "Huriyatul Hanna",
         "position": "Account Executive VCBL",
         "success": true
       }
