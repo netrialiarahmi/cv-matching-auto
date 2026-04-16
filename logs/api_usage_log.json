@@ -6429,22 +6429,15 @@
     ]
   },
   "2026-04-16": {
-    "total": 160,
+    "total": 161,
     "streamlit": 0,
-    "github_action": 160,
-    "successful": 160,
+    "github_action": 161,
+    "successful": 161,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 160
+      "Account Executive VCBL": 161
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 04:48:34",
-        "source": "github_action",
-        "candidate": "Naufal Idris Budisusilo",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 04:49:01",
         "source": "github_action",
@@ -7135,6 +7128,13 @@
         "timestamp": "2026-04-16 05:31:21",
         "source": "github_action",
         "candidate": "Faudilla Nurin Asfar",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 05:31:49",
+        "source": "github_action",
+        "candidate": "Mei liya Wulan dari",
         "position": "Account Executive VCBL",
         "success": true
       }
