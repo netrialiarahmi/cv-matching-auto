@@ -6429,23 +6429,16 @@
     ]
   },
   "2026-04-16": {
-    "total": 387,
+    "total": 388,
     "streamlit": 0,
-    "github_action": 387,
-    "successful": 387,
+    "github_action": 388,
+    "successful": 388,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
-      "Account Executive Pasangiklan.com": 97
+      "Account Executive Pasangiklan.com": 98
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 06:26:59",
-        "source": "github_action",
-        "candidate": "Rengga Saputra",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 06:27:29",
         "source": "github_action",
@@ -7136,6 +7129,13 @@
         "timestamp": "2026-04-16 07:16:55",
         "source": "github_action",
         "candidate": "tavera permatasari",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 07:17:25",
+        "source": "github_action",
+        "candidate": "Hans Darryl",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
