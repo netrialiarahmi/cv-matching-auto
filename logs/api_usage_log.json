@@ -6429,22 +6429,15 @@
     ]
   },
   "2026-04-16": {
-    "total": 195,
+    "total": 196,
     "streamlit": 0,
-    "github_action": 195,
-    "successful": 195,
+    "github_action": 196,
+    "successful": 196,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 195
+      "Account Executive VCBL": 196
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 05:03:35",
-        "source": "github_action",
-        "candidate": "Huriyatul Hanna",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 05:04:04",
         "source": "github_action",
@@ -7135,6 +7128,13 @@
         "timestamp": "2026-04-16 05:47:16",
         "source": "github_action",
         "candidate": "Ihksa Munawwaroh",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 05:47:48",
+        "source": "github_action",
+        "candidate": "Aldhi Krisna Randha",
         "position": "Account Executive VCBL",
         "success": true
       }
