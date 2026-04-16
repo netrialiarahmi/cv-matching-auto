@@ -6429,13 +6429,13 @@
     ]
   },
   "2026-04-16": {
-    "total": 37,
+    "total": 38,
     "streamlit": 0,
-    "github_action": 37,
-    "successful": 37,
+    "github_action": 38,
+    "successful": 38,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 37
+      "Account Executive VCBL": 38
     },
     "entries": [
       {
@@ -6694,6 +6694,13 @@
         "timestamp": "2026-04-16 04:37:53",
         "source": "github_action",
         "candidate": "Vito Maulana",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 04:38:21",
+        "source": "github_action",
+        "candidate": "Rifdah Luthfiah",
         "position": "Account Executive VCBL",
         "success": true
       }
