@@ -6429,24 +6429,17 @@
     ]
   },
   "2026-04-16": {
-    "total": 755,
+    "total": 756,
     "streamlit": 0,
-    "github_action": 755,
-    "successful": 755,
+    "github_action": 756,
+    "successful": 756,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
       "Account Executive Pasangiklan.com": 423,
-      "Business Development Analyst": 42
+      "Business Development Analyst": 43
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 09:27:42",
-        "source": "github_action",
-        "candidate": "rahmat tri satria",
-        "position": "Account Executive Pasangiklan.com",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 09:28:15",
         "source": "github_action",
@@ -7137,6 +7130,13 @@
         "timestamp": "2026-04-16 10:15:46",
         "source": "github_action",
         "candidate": "Nurul Hadi",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 10:16:14",
+        "source": "github_action",
+        "candidate": "Muhammad Farhan Faturrachman",
         "position": "Business Development Analyst",
         "success": true
       }
