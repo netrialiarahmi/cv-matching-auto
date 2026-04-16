@@ -6429,22 +6429,15 @@
     ]
   },
   "2026-04-16": {
-    "total": 109,
+    "total": 110,
     "streamlit": 0,
-    "github_action": 109,
-    "successful": 109,
+    "github_action": 110,
+    "successful": 110,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 109
+      "Account Executive VCBL": 110
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 04:26:49",
-        "source": "github_action",
-        "candidate": "Reyzha Putra",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 04:27:15",
         "source": "github_action",
@@ -7135,6 +7128,13 @@
         "timestamp": "2026-04-16 05:09:26",
         "source": "github_action",
         "candidate": "Genta Unggul Ananta Asyrofle",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 05:09:53",
+        "source": "github_action",
+        "candidate": "Rully Anggi Akbar Akbar",
         "position": "Account Executive VCBL",
         "success": true
       }
