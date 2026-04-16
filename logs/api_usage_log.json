@@ -6429,23 +6429,16 @@
     ]
   },
   "2026-04-16": {
-    "total": 706,
+    "total": 707,
     "streamlit": 0,
-    "github_action": 706,
-    "successful": 706,
+    "github_action": 707,
+    "successful": 707,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
-      "Account Executive Pasangiklan.com": 416
+      "Account Executive Pasangiklan.com": 417
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 09:04:50",
-        "source": "github_action",
-        "candidate": "Salsa  Danisaskiya",
-        "position": "Account Executive Pasangiklan.com",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 09:05:20",
         "source": "github_action",
@@ -7136,6 +7129,13 @@
         "timestamp": "2026-04-16 09:50:52",
         "source": "github_action",
         "candidate": "Safrani Atifia",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 09:51:22",
+        "source": "github_action",
+        "candidate": "Raafi Kurnia Desita",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
