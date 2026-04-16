@@ -6429,22 +6429,15 @@
     ]
   },
   "2026-04-16": {
-    "total": 139,
+    "total": 140,
     "streamlit": 0,
-    "github_action": 139,
-    "successful": 139,
+    "github_action": 140,
+    "successful": 140,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 139
+      "Account Executive VCBL": 140
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 04:39:15",
-        "source": "github_action",
-        "candidate": "muhammad ariel rafdi",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 04:39:44",
         "source": "github_action",
@@ -7135,6 +7128,13 @@
         "timestamp": "2026-04-16 05:21:59",
         "source": "github_action",
         "candidate": "Ine Safitri",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 05:22:29",
+        "source": "github_action",
+        "candidate": "Safira Melya Ramadhayanti",
         "position": "Account Executive VCBL",
         "success": true
       }
