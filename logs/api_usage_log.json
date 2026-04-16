@@ -6429,13 +6429,13 @@
     ]
   },
   "2026-04-16": {
-    "total": 32,
+    "total": 33,
     "streamlit": 0,
-    "github_action": 32,
-    "successful": 32,
+    "github_action": 33,
+    "successful": 33,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 32
+      "Account Executive VCBL": 33
     },
     "entries": [
       {
@@ -6659,6 +6659,13 @@
         "timestamp": "2026-04-16 04:35:28",
         "source": "github_action",
         "candidate": "Matin Muhammad",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 04:35:58",
+        "source": "github_action",
+        "candidate": "Fiorentina Cahaya Rizki",
         "position": "Account Executive VCBL",
         "success": true
       }
