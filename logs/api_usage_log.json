@@ -6429,23 +6429,16 @@
     ]
   },
   "2026-04-16": {
-    "total": 301,
+    "total": 302,
     "streamlit": 0,
-    "github_action": 301,
-    "successful": 301,
+    "github_action": 302,
+    "successful": 302,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
-      "Account Executive Pasangiklan.com": 11
+      "Account Executive Pasangiklan.com": 12
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 05:50:36",
-        "source": "github_action",
-        "candidate": "Reski Gunawan",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 05:51:04",
         "source": "github_action",
@@ -7136,6 +7129,13 @@
         "timestamp": "2026-04-16 06:32:31",
         "source": "github_action",
         "candidate": "Muhammad Raushan Fikri",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 06:33:02",
+        "source": "github_action",
+        "candidate": "Octria Vesensia",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
