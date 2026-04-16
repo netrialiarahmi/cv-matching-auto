@@ -6429,24 +6429,17 @@
     ]
   },
   "2026-04-16": {
-    "total": 765,
+    "total": 766,
     "streamlit": 0,
-    "github_action": 765,
-    "successful": 765,
+    "github_action": 766,
+    "successful": 766,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
       "Account Executive Pasangiklan.com": 423,
-      "Business Development Analyst": 52
+      "Business Development Analyst": 53
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 09:32:25",
-        "source": "github_action",
-        "candidate": "Rizka Aulia Putri",
-        "position": "Account Executive Pasangiklan.com",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 09:32:54",
         "source": "github_action",
@@ -7137,6 +7130,13 @@
         "timestamp": "2026-04-16 10:20:54",
         "source": "github_action",
         "candidate": "Akmal Aminullah",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 10:21:26",
+        "source": "github_action",
+        "candidate": "Rivaldo Haryono",
         "position": "Business Development Analyst",
         "success": true
       }
