@@ -6429,24 +6429,17 @@
     ]
   },
   "2026-04-16": {
-    "total": 725,
+    "total": 726,
     "streamlit": 0,
-    "github_action": 725,
-    "successful": 725,
+    "github_action": 726,
+    "successful": 726,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
       "Account Executive Pasangiklan.com": 423,
-      "Business Development Analyst": 12
+      "Business Development Analyst": 13
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 09:13:48",
-        "source": "github_action",
-        "candidate": "Sivie Putriayu Novanti",
-        "position": "Account Executive Pasangiklan.com",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 09:14:20",
         "source": "github_action",
@@ -7137,6 +7130,13 @@
         "timestamp": "2026-04-16 10:00:20",
         "source": "github_action",
         "candidate": "Reza Vallevi",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 10:00:50",
+        "source": "github_action",
+        "candidate": "Roychan Idris",
         "position": "Business Development Analyst",
         "success": true
       }
