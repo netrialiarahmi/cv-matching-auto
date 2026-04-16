@@ -6429,22 +6429,15 @@
     ]
   },
   "2026-04-16": {
-    "total": 126,
+    "total": 127,
     "streamlit": 0,
-    "github_action": 126,
-    "successful": 126,
+    "github_action": 127,
+    "successful": 127,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 126
+      "Account Executive VCBL": 127
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 04:33:32",
-        "source": "github_action",
-        "candidate": "Gita Aurelia",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 04:33:58",
         "source": "github_action",
@@ -7135,6 +7128,13 @@
         "timestamp": "2026-04-16 05:16:11",
         "source": "github_action",
         "candidate": "Gilang Rizky Akbar",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 05:16:40",
+        "source": "github_action",
+        "candidate": "Galang Akbar Wibisono",
         "position": "Account Executive VCBL",
         "success": true
       }
