@@ -6429,23 +6429,16 @@
     ]
   },
   "2026-04-16": {
-    "total": 370,
+    "total": 371,
     "streamlit": 0,
-    "github_action": 370,
-    "successful": 370,
+    "github_action": 371,
+    "successful": 371,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
-      "Account Executive Pasangiklan.com": 80
+      "Account Executive Pasangiklan.com": 81
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 06:19:47",
-        "source": "github_action",
-        "candidate": "Basilius Laia",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 06:19:50",
         "source": "github_action",
@@ -7136,6 +7129,13 @@
         "timestamp": "2026-04-16 07:08:33",
         "source": "github_action",
         "candidate": "Ismail Shabri",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 07:08:59",
+        "source": "github_action",
+        "candidate": "Muhammad Abdillah Aqiel Rosyada",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
