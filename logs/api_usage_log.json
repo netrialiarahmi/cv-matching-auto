@@ -6429,13 +6429,13 @@
     ]
   },
   "2026-04-16": {
-    "total": 51,
+    "total": 52,
     "streamlit": 0,
-    "github_action": 51,
-    "successful": 51,
+    "github_action": 52,
+    "successful": 52,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 51
+      "Account Executive VCBL": 52
     },
     "entries": [
       {
@@ -6792,6 +6792,13 @@
         "timestamp": "2026-04-16 04:43:44",
         "source": "github_action",
         "candidate": "Dwiky Satria",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 04:44:17",
+        "source": "github_action",
+        "candidate": "Syarif Antoni",
         "position": "Account Executive VCBL",
         "success": true
       }
