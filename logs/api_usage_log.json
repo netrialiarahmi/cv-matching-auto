@@ -6429,23 +6429,16 @@
     ]
   },
   "2026-04-16": {
-    "total": 537,
+    "total": 538,
     "streamlit": 0,
-    "github_action": 537,
-    "successful": 537,
+    "github_action": 538,
+    "successful": 538,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
-      "Account Executive Pasangiklan.com": 247
+      "Account Executive Pasangiklan.com": 248
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 07:41:48",
-        "source": "github_action",
-        "candidate": "Gibran Bening",
-        "position": "Account Executive Pasangiklan.com",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 07:42:19",
         "source": "github_action",
@@ -7136,6 +7129,13 @@
         "timestamp": "2026-04-16 08:30:32",
         "source": "github_action",
         "candidate": "Safitri Eka Lestari",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 08:31:04",
+        "source": "github_action",
+        "candidate": "Altaft alfarizki",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
