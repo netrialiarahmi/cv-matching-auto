@@ -6429,13 +6429,13 @@
     ]
   },
   "2026-04-16": {
-    "total": 27,
+    "total": 28,
     "streamlit": 0,
-    "github_action": 27,
-    "successful": 27,
+    "github_action": 28,
+    "successful": 28,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 27
+      "Account Executive VCBL": 28
     },
     "entries": [
       {
@@ -6624,6 +6624,13 @@
         "timestamp": "2026-04-16 04:33:32",
         "source": "github_action",
         "candidate": "Gita Aurelia",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 04:33:58",
+        "source": "github_action",
+        "candidate": "Yogi Pradana",
         "position": "Account Executive VCBL",
         "success": true
       }
