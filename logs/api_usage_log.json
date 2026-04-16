@@ -6429,23 +6429,16 @@
     ]
   },
   "2026-04-16": {
-    "total": 296,
+    "total": 297,
     "streamlit": 0,
-    "github_action": 296,
-    "successful": 296,
+    "github_action": 297,
+    "successful": 297,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
-      "Account Executive Pasangiklan.com": 6
+      "Account Executive Pasangiklan.com": 7
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 05:48:17",
-        "source": "github_action",
-        "candidate": "Yonathan Reno Pamungkas",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 05:48:47",
         "source": "github_action",
@@ -7136,6 +7129,13 @@
         "timestamp": "2026-04-16 06:30:29",
         "source": "github_action",
         "candidate": "Fia Darojaty",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 06:30:58",
+        "source": "github_action",
+        "candidate": "Kiel Geraldo",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
