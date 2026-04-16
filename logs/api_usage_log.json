@@ -6429,23 +6429,16 @@
     ]
   },
   "2026-04-16": {
-    "total": 380,
+    "total": 381,
     "streamlit": 0,
-    "github_action": 380,
-    "successful": 380,
+    "github_action": 381,
+    "successful": 381,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
-      "Account Executive Pasangiklan.com": 90
+      "Account Executive Pasangiklan.com": 91
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 06:23:52",
-        "source": "github_action",
-        "candidate": "Khofifah Rini",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 06:24:19",
         "source": "github_action",
@@ -7136,6 +7129,13 @@
         "timestamp": "2026-04-16 07:13:24",
         "source": "github_action",
         "candidate": "Erika Christy",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 07:13:54",
+        "source": "github_action",
+        "candidate": "Dedet widodo",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
