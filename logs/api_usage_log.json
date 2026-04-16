@@ -6429,13 +6429,13 @@
     ]
   },
   "2026-04-16": {
-    "total": 59,
+    "total": 60,
     "streamlit": 0,
-    "github_action": 59,
-    "successful": 59,
+    "github_action": 60,
+    "successful": 60,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 59
+      "Account Executive VCBL": 60
     },
     "entries": [
       {
@@ -6848,6 +6848,13 @@
         "timestamp": "2026-04-16 04:47:38",
         "source": "github_action",
         "candidate": "Dhinda Khaira Ummah",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 04:48:03",
+        "source": "github_action",
+        "candidate": "Muhammad Arrumi Fayyad",
         "position": "Account Executive VCBL",
         "success": true
       }
