@@ -6429,23 +6429,16 @@
     ]
   },
   "2026-04-16": {
-    "total": 525,
+    "total": 526,
     "streamlit": 0,
-    "github_action": 525,
-    "successful": 525,
+    "github_action": 526,
+    "successful": 526,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
-      "Account Executive Pasangiklan.com": 235
+      "Account Executive Pasangiklan.com": 236
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 07:36:11",
-        "source": "github_action",
-        "candidate": "Kharisma Manyania Putri",
-        "position": "Account Executive Pasangiklan.com",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 07:36:41",
         "source": "github_action",
@@ -7136,6 +7129,13 @@
         "timestamp": "2026-04-16 08:25:03",
         "source": "github_action",
         "candidate": "Masiroh",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 08:25:32",
+        "source": "github_action",
+        "candidate": "Nabila Fikria Santoso",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
