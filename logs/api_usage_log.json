@@ -6429,22 +6429,15 @@
     ]
   },
   "2026-04-16": {
-    "total": 260,
+    "total": 261,
     "streamlit": 0,
-    "github_action": 260,
-    "successful": 260,
+    "github_action": 261,
+    "successful": 261,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 260
+      "Account Executive VCBL": 261
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 05:31:49",
-        "source": "github_action",
-        "candidate": "Mei liya Wulan dari",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 05:32:15",
         "source": "github_action",
@@ -7135,6 +7128,13 @@
         "timestamp": "2026-04-16 06:15:40",
         "source": "github_action",
         "candidate": "MUT MA",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 06:16:07",
+        "source": "github_action",
+        "candidate": "g indosat",
         "position": "Account Executive VCBL",
         "success": true
       }
