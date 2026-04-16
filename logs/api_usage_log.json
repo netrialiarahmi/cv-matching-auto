@@ -6429,23 +6429,16 @@
     ]
   },
   "2026-04-16": {
-    "total": 573,
+    "total": 574,
     "streamlit": 0,
-    "github_action": 573,
-    "successful": 573,
+    "github_action": 574,
+    "successful": 574,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
-      "Account Executive Pasangiklan.com": 283
+      "Account Executive Pasangiklan.com": 284
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 07:59:30",
-        "source": "github_action",
-        "candidate": "Marshanda Rachma Putri Andini",
-        "position": "Account Executive Pasangiklan.com",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 08:00:02",
         "source": "github_action",
@@ -7136,6 +7129,13 @@
         "timestamp": "2026-04-16 08:48:05",
         "source": "github_action",
         "candidate": "Awalul Rohmah Reziq Nelsya",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 08:48:40",
+        "source": "github_action",
+        "candidate": "Reyzha Putra",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
