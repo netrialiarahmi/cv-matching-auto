@@ -6429,22 +6429,15 @@
     ]
   },
   "2026-04-16": {
-    "total": 145,
+    "total": 146,
     "streamlit": 0,
-    "github_action": 145,
-    "successful": 145,
+    "github_action": 146,
+    "successful": 146,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 145
+      "Account Executive VCBL": 146
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 04:41:14",
-        "source": "github_action",
-        "candidate": "Ricki Indra Permana Putra",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 04:41:46",
         "source": "github_action",
@@ -7135,6 +7128,13 @@
         "timestamp": "2026-04-16 05:24:47",
         "source": "github_action",
         "candidate": "Tracy Silalahi",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 05:25:14",
+        "source": "github_action",
+        "candidate": "Aisa Nisarizulma",
         "position": "Account Executive VCBL",
         "success": true
       }
