@@ -6429,23 +6429,16 @@
     ]
   },
   "2026-04-16": {
-    "total": 662,
+    "total": 663,
     "streamlit": 0,
-    "github_action": 662,
-    "successful": 662,
+    "github_action": 663,
+    "successful": 663,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
-      "Account Executive Pasangiklan.com": 372
+      "Account Executive Pasangiklan.com": 373
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 08:43:13",
-        "source": "github_action",
-        "candidate": "caswita dewi",
-        "position": "Account Executive Pasangiklan.com",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 08:43:29",
         "source": "github_action",
@@ -7136,6 +7129,13 @@
         "timestamp": "2026-04-16 09:30:31",
         "source": "github_action",
         "candidate": "Ulan Kurniawati",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 09:31:02",
+        "source": "github_action",
+        "candidate": "Enrico Batahi Haposan",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
