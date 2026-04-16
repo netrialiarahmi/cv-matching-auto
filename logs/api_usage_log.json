@@ -6429,23 +6429,16 @@
     ]
   },
   "2026-04-16": {
-    "total": 526,
+    "total": 527,
     "streamlit": 0,
-    "github_action": 526,
-    "successful": 526,
+    "github_action": 527,
+    "successful": 527,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
-      "Account Executive Pasangiklan.com": 236
+      "Account Executive Pasangiklan.com": 237
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 07:36:41",
-        "source": "github_action",
-        "candidate": "yasmin iffah",
-        "position": "Account Executive Pasangiklan.com",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 07:37:10",
         "source": "github_action",
@@ -7136,6 +7129,13 @@
         "timestamp": "2026-04-16 08:25:32",
         "source": "github_action",
         "candidate": "Nabila Fikria Santoso",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 08:26:08",
+        "source": "github_action",
+        "candidate": "Ruth Natalina",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
