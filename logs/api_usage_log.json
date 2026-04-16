@@ -6429,23 +6429,16 @@
     ]
   },
   "2026-04-16": {
-    "total": 430,
+    "total": 431,
     "streamlit": 0,
-    "github_action": 430,
-    "successful": 430,
+    "github_action": 431,
+    "successful": 431,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
-      "Account Executive Pasangiklan.com": 140
+      "Account Executive Pasangiklan.com": 141
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 06:48:20",
-        "source": "github_action",
-        "candidate": "Fabian Aditama",
-        "position": "Account Executive Pasangiklan.com",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 06:48:52",
         "source": "github_action",
@@ -7136,6 +7129,13 @@
         "timestamp": "2026-04-16 07:37:46",
         "source": "github_action",
         "candidate": "Miftah Faiz",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 07:38:16",
+        "source": "github_action",
+        "candidate": "Lily Sp",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
