@@ -6429,23 +6429,16 @@
     ]
   },
   "2026-04-16": {
-    "total": 329,
+    "total": 330,
     "streamlit": 0,
-    "github_action": 329,
-    "successful": 329,
+    "github_action": 330,
+    "successful": 330,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
-      "Account Executive Pasangiklan.com": 39
+      "Account Executive Pasangiklan.com": 40
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 06:03:23",
-        "source": "github_action",
-        "candidate": "8014 Duwi Anjar Ariwibowo",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 06:03:52",
         "source": "github_action",
@@ -7136,6 +7129,13 @@
         "timestamp": "2026-04-16 06:47:16",
         "source": "github_action",
         "candidate": "Elsa Nanda Shafira",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 06:47:51",
+        "source": "github_action",
+        "candidate": "Syahla Irawati",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
