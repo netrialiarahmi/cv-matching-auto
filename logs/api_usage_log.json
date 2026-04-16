@@ -6429,13 +6429,13 @@
     ]
   },
   "2026-04-16": {
-    "total": 54,
+    "total": 55,
     "streamlit": 0,
-    "github_action": 54,
-    "successful": 54,
+    "github_action": 55,
+    "successful": 55,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 54
+      "Account Executive VCBL": 55
     },
     "entries": [
       {
@@ -6813,6 +6813,13 @@
         "timestamp": "2026-04-16 04:45:10",
         "source": "github_action",
         "candidate": "Vanya Soraya Irsanti",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 04:45:38",
+        "source": "github_action",
+        "candidate": "dicky candra darmawan",
         "position": "Account Executive VCBL",
         "success": true
       }
