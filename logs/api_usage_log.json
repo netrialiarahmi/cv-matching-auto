@@ -6429,22 +6429,15 @@
     ]
   },
   "2026-04-16": {
-    "total": 130,
+    "total": 131,
     "streamlit": 0,
-    "github_action": 130,
-    "successful": 130,
+    "github_action": 131,
+    "successful": 131,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 130
+      "Account Executive VCBL": 131
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 04:35:02",
-        "source": "github_action",
-        "candidate": "Hasna Muti Andini",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 04:35:28",
         "source": "github_action",
@@ -7135,6 +7128,13 @@
         "timestamp": "2026-04-16 05:18:12",
         "source": "github_action",
         "candidate": "Azka Putrie",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 05:18:42",
+        "source": "github_action",
+        "candidate": "Reyhan Dzaky",
         "position": "Account Executive VCBL",
         "success": true
       }
