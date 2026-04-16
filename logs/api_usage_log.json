@@ -6429,22 +6429,15 @@
     ]
   },
   "2026-04-16": {
-    "total": 264,
+    "total": 265,
     "streamlit": 0,
-    "github_action": 264,
-    "successful": 264,
+    "github_action": 265,
+    "successful": 265,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 264
+      "Account Executive VCBL": 265
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 05:33:30",
-        "source": "github_action",
-        "candidate": "Suryansyah Alimas",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 05:33:55",
         "source": "github_action",
@@ -7135,6 +7128,13 @@
         "timestamp": "2026-04-16 06:17:01",
         "source": "github_action",
         "candidate": "Angelina Juliet",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 06:17:30",
+        "source": "github_action",
+        "candidate": "Nailah Zahra",
         "position": "Account Executive VCBL",
         "success": true
       }
