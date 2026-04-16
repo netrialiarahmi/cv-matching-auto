@@ -6429,22 +6429,15 @@
     ]
   },
   "2026-04-16": {
-    "total": 261,
+    "total": 262,
     "streamlit": 0,
-    "github_action": 261,
-    "successful": 261,
+    "github_action": 262,
+    "successful": 262,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 261
+      "Account Executive VCBL": 262
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 05:32:15",
-        "source": "github_action",
-        "candidate": "Grace Horstefanny",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 05:32:40",
         "source": "github_action",
@@ -7135,6 +7128,13 @@
         "timestamp": "2026-04-16 06:16:07",
         "source": "github_action",
         "candidate": "g indosat",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 06:16:33",
+        "source": "github_action",
+        "candidate": "Divia  Magdalena",
         "position": "Account Executive VCBL",
         "success": true
       }
