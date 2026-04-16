@@ -6430,13 +6430,12 @@
   },
   "2026-04-16": {
     "total": 14,
-    "streamlit": 1,
-    "github_action": 13,
+    "streamlit": 0,
+    "github_action": 14,
     "successful": 14,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 13,
-      "Marketing Communication Officer KG Media": 1
+      "Account Executive VCBL": 14
     },
     "entries": [
       {
@@ -6531,10 +6530,10 @@
         "success": true
       },
       {
-        "timestamp": "2026-04-16 04:28:18",
-        "source": "streamlit",
-        "candidate": "Natasya R",
-        "position": "Marketing Communication Officer KG Media",
+        "timestamp": "2026-04-16 04:28:38",
+        "source": "github_action",
+        "candidate": "Amelia Riyanti",
+        "position": "Account Executive VCBL",
         "success": true
       }
     ]
