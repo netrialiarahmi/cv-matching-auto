@@ -6429,22 +6429,15 @@
     ]
   },
   "2026-04-16": {
-    "total": 257,
+    "total": 258,
     "streamlit": 0,
-    "github_action": 257,
-    "successful": 257,
+    "github_action": 258,
+    "successful": 258,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 257
+      "Account Executive VCBL": 258
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 05:30:22",
-        "source": "github_action",
-        "candidate": "wahdudin",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 05:30:54",
         "source": "github_action",
@@ -7135,6 +7128,13 @@
         "timestamp": "2026-04-16 06:14:22",
         "source": "github_action",
         "candidate": "Nidia Wihidih",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 06:14:44",
+        "source": "github_action",
+        "candidate": "Kaisa Agni",
         "position": "Account Executive VCBL",
         "success": true
       }
