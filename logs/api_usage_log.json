@@ -6429,22 +6429,15 @@
     ]
   },
   "2026-04-16": {
-    "total": 133,
+    "total": 134,
     "streamlit": 0,
-    "github_action": 133,
-    "successful": 133,
+    "github_action": 134,
+    "successful": 134,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 133
+      "Account Executive VCBL": 134
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 04:36:25",
-        "source": "github_action",
-        "candidate": "Suharto Putra",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 04:36:56",
         "source": "github_action",
@@ -7135,6 +7128,13 @@
         "timestamp": "2026-04-16 05:19:41",
         "source": "github_action",
         "candidate": "NOVI RIYANTI",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 05:20:07",
+        "source": "github_action",
+        "candidate": "Muhamad Ramdan",
         "position": "Account Executive VCBL",
         "success": true
       }
