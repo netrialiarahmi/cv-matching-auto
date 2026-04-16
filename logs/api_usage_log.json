@@ -6429,22 +6429,15 @@
     ]
   },
   "2026-04-16": {
-    "total": 254,
+    "total": 255,
     "streamlit": 0,
-    "github_action": 254,
-    "successful": 254,
+    "github_action": 255,
+    "successful": 255,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 254
+      "Account Executive VCBL": 255
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 05:29:22",
-        "source": "github_action",
-        "candidate": "Anastasya Theresia Bidara",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 05:29:50",
         "source": "github_action",
@@ -7135,6 +7128,13 @@
         "timestamp": "2026-04-16 06:13:25",
         "source": "github_action",
         "candidate": "Juanina Gomes",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 06:13:51",
+        "source": "github_action",
+        "candidate": "Hermes  Buana",
         "position": "Account Executive VCBL",
         "success": true
       }
