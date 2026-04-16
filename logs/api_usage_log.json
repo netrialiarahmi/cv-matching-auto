@@ -6429,23 +6429,16 @@
     ]
   },
   "2026-04-16": {
-    "total": 409,
+    "total": 410,
     "streamlit": 0,
-    "github_action": 409,
-    "successful": 409,
+    "github_action": 410,
+    "successful": 410,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
-      "Account Executive Pasangiklan.com": 119
+      "Account Executive Pasangiklan.com": 120
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 06:37:17",
-        "source": "github_action",
-        "candidate": "Sinthya Desty Rahmadhania",
-        "position": "Account Executive Pasangiklan.com",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 06:37:49",
         "source": "github_action",
@@ -7136,6 +7129,13 @@
         "timestamp": "2026-04-16 07:27:43",
         "source": "github_action",
         "candidate": "Rizki Arvian",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 07:28:09",
+        "source": "github_action",
+        "candidate": "Akmal maulana Sidik",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
