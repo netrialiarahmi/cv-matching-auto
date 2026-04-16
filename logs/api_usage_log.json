@@ -6429,23 +6429,16 @@
     ]
   },
   "2026-04-16": {
-    "total": 676,
+    "total": 677,
     "streamlit": 0,
-    "github_action": 676,
-    "successful": 676,
+    "github_action": 677,
+    "successful": 677,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
-      "Account Executive Pasangiklan.com": 386
+      "Account Executive Pasangiklan.com": 387
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 08:50:12",
-        "source": "github_action",
-        "candidate": "Syamil Satria",
-        "position": "Account Executive Pasangiklan.com",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 08:50:41",
         "source": "github_action",
@@ -7136,6 +7129,13 @@
         "timestamp": "2026-04-16 09:37:13",
         "source": "github_action",
         "candidate": "Amelia Hanis",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 09:37:52",
+        "source": "github_action",
+        "candidate": "Siti Fakhriyatussyah Aribah",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
