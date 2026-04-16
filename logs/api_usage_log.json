@@ -6429,23 +6429,16 @@
     ]
   },
   "2026-04-16": {
-    "total": 324,
+    "total": 325,
     "streamlit": 0,
-    "github_action": 324,
-    "successful": 324,
+    "github_action": 325,
+    "successful": 325,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
-      "Account Executive Pasangiklan.com": 34
+      "Account Executive Pasangiklan.com": 35
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 06:01:07",
-        "source": "github_action",
-        "candidate": "salma nisha",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 06:01:33",
         "source": "github_action",
@@ -7136,6 +7129,13 @@
         "timestamp": "2026-04-16 06:44:36",
         "source": "github_action",
         "candidate": "R. Aldi Pradana Kemal Putra",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 06:45:13",
+        "source": "github_action",
+        "candidate": "Apriza Nabila Rahimin",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
