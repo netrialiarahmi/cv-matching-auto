@@ -6429,22 +6429,15 @@
     ]
   },
   "2026-04-16": {
-    "total": 168,
+    "total": 169,
     "streamlit": 0,
-    "github_action": 168,
-    "successful": 168,
+    "github_action": 169,
+    "successful": 169,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 168
+      "Account Executive VCBL": 169
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 04:52:09",
-        "source": "github_action",
-        "candidate": "Rachma Ama",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 04:52:33",
         "source": "github_action",
@@ -7135,6 +7128,13 @@
         "timestamp": "2026-04-16 05:34:46",
         "source": "github_action",
         "candidate": "Aulia Shobrina",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 05:35:09",
+        "source": "github_action",
+        "candidate": "Joy Andrew Pradika",
         "position": "Account Executive VCBL",
         "success": true
       }
