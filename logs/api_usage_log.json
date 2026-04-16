@@ -6429,23 +6429,16 @@
     ]
   },
   "2026-04-16": {
-    "total": 392,
+    "total": 393,
     "streamlit": 0,
-    "github_action": 392,
-    "successful": 392,
+    "github_action": 393,
+    "successful": 393,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
-      "Account Executive Pasangiklan.com": 102
+      "Account Executive Pasangiklan.com": 103
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 06:29:02",
-        "source": "github_action",
-        "candidate": "Rayhan Izdihar",
-        "position": "Account Executive Pasangiklan.com",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 06:29:31",
         "source": "github_action",
@@ -7136,6 +7129,13 @@
         "timestamp": "2026-04-16 07:19:25",
         "source": "github_action",
         "candidate": "Muhammad Reza Muzaky",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 07:19:50",
+        "source": "github_action",
+        "candidate": "Aristya Bhaskoro",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
