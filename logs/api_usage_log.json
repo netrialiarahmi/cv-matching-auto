@@ -6429,13 +6429,13 @@
     ]
   },
   "2026-04-16": {
-    "total": 85,
+    "total": 86,
     "streamlit": 0,
-    "github_action": 85,
-    "successful": 85,
+    "github_action": 86,
+    "successful": 86,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 85
+      "Account Executive VCBL": 86
     },
     "entries": [
       {
@@ -7030,6 +7030,13 @@
         "timestamp": "2026-04-16 04:58:43",
         "source": "github_action",
         "candidate": "Margie Soetrisno",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 04:59:12",
+        "source": "github_action",
+        "candidate": "Rifqi Soeleiman",
         "position": "Account Executive VCBL",
         "success": true
       }
