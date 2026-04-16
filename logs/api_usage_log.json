@@ -6429,23 +6429,16 @@
     ]
   },
   "2026-04-16": {
-    "total": 502,
+    "total": 503,
     "streamlit": 0,
-    "github_action": 502,
-    "successful": 502,
+    "github_action": 503,
+    "successful": 503,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
-      "Account Executive Pasangiklan.com": 212
+      "Account Executive Pasangiklan.com": 213
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 07:24:54",
-        "source": "github_action",
-        "candidate": "Muh Rasikh Undipa Akbar",
-        "position": "Account Executive Pasangiklan.com",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 07:25:21",
         "source": "github_action",
@@ -7136,6 +7129,13 @@
         "timestamp": "2026-04-16 08:13:21",
         "source": "github_action",
         "candidate": "Putri Amanda Faizal",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 08:13:52",
+        "source": "github_action",
+        "candidate": "Rizky Noor Prathama",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
