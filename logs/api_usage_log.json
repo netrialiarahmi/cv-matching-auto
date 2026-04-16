@@ -6429,22 +6429,15 @@
     ]
   },
   "2026-04-16": {
-    "total": 163,
+    "total": 164,
     "streamlit": 0,
-    "github_action": 163,
-    "successful": 163,
+    "github_action": 164,
+    "successful": 164,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 163
+      "Account Executive VCBL": 164
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 04:49:55",
-        "source": "github_action",
-        "candidate": "Faruqi Al Ghifari",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 04:50:26",
         "source": "github_action",
@@ -7135,6 +7128,13 @@
         "timestamp": "2026-04-16 05:32:40",
         "source": "github_action",
         "candidate": "Beatrix Gotama",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 05:33:05",
+        "source": "github_action",
+        "candidate": "Fikam Syah",
         "position": "Account Executive VCBL",
         "success": true
       }
