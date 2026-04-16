@@ -6429,23 +6429,16 @@
     ]
   },
   "2026-04-16": {
-    "total": 406,
+    "total": 407,
     "streamlit": 0,
-    "github_action": 406,
-    "successful": 406,
+    "github_action": 407,
+    "successful": 407,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
-      "Account Executive Pasangiklan.com": 116
+      "Account Executive Pasangiklan.com": 117
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 06:35:46",
-        "source": "github_action",
-        "candidate": "Rizki Amba Artanto",
-        "position": "Account Executive Pasangiklan.com",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 06:36:17",
         "source": "github_action",
@@ -7136,6 +7129,13 @@
         "timestamp": "2026-04-16 07:26:19",
         "source": "github_action",
         "candidate": "Mahsa Aulianti Putri",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 07:26:46",
+        "source": "github_action",
+        "candidate": "Dede Sulaiman",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
