@@ -6429,22 +6429,15 @@
     ]
   },
   "2026-04-16": {
-    "total": 235,
+    "total": 236,
     "streamlit": 0,
-    "github_action": 235,
-    "successful": 235,
+    "github_action": 236,
+    "successful": 236,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 235
+      "Account Executive VCBL": 236
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 05:21:10",
-        "source": "github_action",
-        "candidate": "Aufa Sofyan",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 05:21:33",
         "source": "github_action",
@@ -7135,6 +7128,13 @@
         "timestamp": "2026-04-16 06:05:45",
         "source": "github_action",
         "candidate": "Aisyah, S.M.",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 06:06:09",
+        "source": "github_action",
+        "candidate": "Besta Aulina Zaqiah",
         "position": "Account Executive VCBL",
         "success": true
       }
