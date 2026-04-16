@@ -6429,23 +6429,16 @@
     ]
   },
   "2026-04-16": {
-    "total": 465,
+    "total": 466,
     "streamlit": 0,
-    "github_action": 465,
-    "successful": 465,
+    "github_action": 466,
+    "successful": 466,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
-      "Account Executive Pasangiklan.com": 175
+      "Account Executive Pasangiklan.com": 176
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 07:06:30",
-        "source": "github_action",
-        "candidate": "Bonita Dwi wardhani",
-        "position": "Account Executive Pasangiklan.com",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 07:07:03",
         "source": "github_action",
@@ -7136,6 +7129,13 @@
         "timestamp": "2026-04-16 07:55:20",
         "source": "github_action",
         "candidate": "ARIQ SATRIA SUPANGKAT",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 07:55:52",
+        "source": "github_action",
+        "candidate": "Dinda Tresya  Cantika",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
