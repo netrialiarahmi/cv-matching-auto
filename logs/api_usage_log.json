@@ -6429,23 +6429,16 @@
     ]
   },
   "2026-04-16": {
-    "total": 684,
+    "total": 685,
     "streamlit": 0,
-    "github_action": 684,
-    "successful": 684,
+    "github_action": 685,
+    "successful": 685,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
-      "Account Executive Pasangiklan.com": 394
+      "Account Executive Pasangiklan.com": 395
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 08:54:11",
-        "source": "github_action",
-        "candidate": "Fahmy Maulana Syahren",
-        "position": "Account Executive Pasangiklan.com",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 08:54:45",
         "source": "github_action",
@@ -7136,6 +7129,13 @@
         "timestamp": "2026-04-16 09:41:07",
         "source": "github_action",
         "candidate": "Leo Macol  Hasiholan Malau",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 09:41:34",
+        "source": "github_action",
+        "candidate": "Lisa Mutia",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
