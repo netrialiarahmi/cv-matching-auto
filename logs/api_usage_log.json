@@ -6429,23 +6429,16 @@
     ]
   },
   "2026-04-16": {
-    "total": 520,
+    "total": 521,
     "streamlit": 0,
-    "github_action": 520,
-    "successful": 520,
+    "github_action": 521,
+    "successful": 521,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
-      "Account Executive Pasangiklan.com": 230
+      "Account Executive Pasangiklan.com": 231
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 07:33:34",
-        "source": "github_action",
-        "candidate": "Jaka Perdana",
-        "position": "Account Executive Pasangiklan.com",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 07:34:04",
         "source": "github_action",
@@ -7136,6 +7129,13 @@
         "timestamp": "2026-04-16 08:22:40",
         "source": "github_action",
         "candidate": "Syafira Akhtari",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 08:23:11",
+        "source": "github_action",
+        "candidate": "juno ongko",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
