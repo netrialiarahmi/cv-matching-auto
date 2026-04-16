@@ -6429,23 +6429,16 @@
     ]
   },
   "2026-04-16": {
-    "total": 675,
+    "total": 676,
     "streamlit": 0,
-    "github_action": 675,
-    "successful": 675,
+    "github_action": 676,
+    "successful": 676,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
-      "Account Executive Pasangiklan.com": 385
+      "Account Executive Pasangiklan.com": 386
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 08:49:42",
-        "source": "github_action",
-        "candidate": "Syah buddin",
-        "position": "Account Executive Pasangiklan.com",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 08:50:12",
         "source": "github_action",
@@ -7136,6 +7129,13 @@
         "timestamp": "2026-04-16 09:36:42",
         "source": "github_action",
         "candidate": "Melia Zahara Edward",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 09:37:13",
+        "source": "github_action",
+        "candidate": "Amelia Hanis",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
