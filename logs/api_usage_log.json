@@ -6429,22 +6429,15 @@
     ]
   },
   "2026-04-16": {
-    "total": 114,
+    "total": 115,
     "streamlit": 0,
-    "github_action": 114,
-    "successful": 114,
+    "github_action": 115,
+    "successful": 115,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 114
+      "Account Executive VCBL": 115
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 04:28:40",
-        "source": "github_action",
-        "candidate": "REHAN PAGADILA",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 04:29:09",
         "source": "github_action",
@@ -7135,6 +7128,13 @@
         "timestamp": "2026-04-16 05:11:18",
         "source": "github_action",
         "candidate": "Kurnia Ariati",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 05:11:44",
+        "source": "github_action",
+        "candidate": "Widitra Rama",
         "position": "Account Executive VCBL",
         "success": true
       }
