@@ -6429,23 +6429,16 @@
     ]
   },
   "2026-04-16": {
-    "total": 373,
+    "total": 374,
     "streamlit": 0,
-    "github_action": 373,
-    "successful": 373,
+    "github_action": 374,
+    "successful": 374,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
-      "Account Executive Pasangiklan.com": 83
+      "Account Executive Pasangiklan.com": 84
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 06:20:44",
-        "source": "github_action",
-        "candidate": "Nadya Putri",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 06:21:09",
         "source": "github_action",
@@ -7136,6 +7129,13 @@
         "timestamp": "2026-04-16 07:09:59",
         "source": "github_action",
         "candidate": "Imam Saputra",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 07:10:27",
+        "source": "github_action",
+        "candidate": "Bilal Awaludin",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
