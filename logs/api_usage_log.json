@@ -6429,22 +6429,15 @@
     ]
   },
   "2026-04-16": {
-    "total": 230,
+    "total": 231,
     "streamlit": 0,
-    "github_action": 230,
-    "successful": 230,
+    "github_action": 231,
+    "successful": 231,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 230
+      "Account Executive VCBL": 231
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 05:18:42",
-        "source": "github_action",
-        "candidate": "Reyhan Dzaky",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 05:19:13",
         "source": "github_action",
@@ -7135,6 +7128,13 @@
         "timestamp": "2026-04-16 06:03:23",
         "source": "github_action",
         "candidate": "8014 Duwi Anjar Ariwibowo",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 06:03:52",
+        "source": "github_action",
+        "candidate": "nisrina naila",
         "position": "Account Executive VCBL",
         "success": true
       }
