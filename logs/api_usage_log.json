@@ -6429,22 +6429,15 @@
     ]
   },
   "2026-04-16": {
-    "total": 137,
+    "total": 138,
     "streamlit": 0,
-    "github_action": 137,
-    "successful": 137,
+    "github_action": 138,
+    "successful": 138,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 137
+      "Account Executive VCBL": 138
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 04:38:21",
-        "source": "github_action",
-        "candidate": "Rifdah Luthfiah",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 04:38:49",
         "source": "github_action",
@@ -7135,6 +7128,13 @@
         "timestamp": "2026-04-16 05:21:33",
         "source": "github_action",
         "candidate": "Ajeng Fitri Nurahman Hakim",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 05:21:35",
+        "source": "github_action",
+        "candidate": "Inessa Ardia Putri",
         "position": "Account Executive VCBL",
         "success": true
       }
