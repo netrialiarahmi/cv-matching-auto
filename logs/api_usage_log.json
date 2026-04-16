@@ -6429,22 +6429,15 @@
     ]
   },
   "2026-04-16": {
-    "total": 256,
+    "total": 257,
     "streamlit": 0,
-    "github_action": 256,
-    "successful": 256,
+    "github_action": 257,
+    "successful": 257,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 256
+      "Account Executive VCBL": 257
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 05:29:52",
-        "source": "github_action",
-        "candidate": "Agil Sundana",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 05:30:22",
         "source": "github_action",
@@ -7135,6 +7128,13 @@
         "timestamp": "2026-04-16 06:13:54",
         "source": "github_action",
         "candidate": "Firli Amalya",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 06:14:22",
+        "source": "github_action",
+        "candidate": "Nidia Wihidih",
         "position": "Account Executive VCBL",
         "success": true
       }
