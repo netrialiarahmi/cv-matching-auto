@@ -6429,23 +6429,16 @@
     ]
   },
   "2026-04-16": {
-    "total": 357,
+    "total": 358,
     "streamlit": 0,
-    "github_action": 357,
-    "successful": 357,
+    "github_action": 358,
+    "successful": 358,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
-      "Account Executive Pasangiklan.com": 67
+      "Account Executive Pasangiklan.com": 68
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 06:14:44",
-        "source": "github_action",
-        "candidate": "Kaisa Agni",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 06:15:12",
         "source": "github_action",
@@ -7136,6 +7129,13 @@
         "timestamp": "2026-04-16 07:01:49",
         "source": "github_action",
         "candidate": "Rantas Prahara",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 07:02:19",
+        "source": "github_action",
+        "candidate": "Putri Ratna Komalasari",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
