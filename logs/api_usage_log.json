@@ -6429,23 +6429,16 @@
     ]
   },
   "2026-04-16": {
-    "total": 411,
+    "total": 412,
     "streamlit": 0,
-    "github_action": 411,
-    "successful": 411,
+    "github_action": 412,
+    "successful": 412,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
-      "Account Executive Pasangiklan.com": 121
+      "Account Executive Pasangiklan.com": 122
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 06:38:18",
-        "source": "github_action",
-        "candidate": "Muhammad Nawawi",
-        "position": "Account Executive Pasangiklan.com",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 06:38:48",
         "source": "github_action",
@@ -7136,6 +7129,13 @@
         "timestamp": "2026-04-16 07:28:39",
         "source": "github_action",
         "candidate": "Hilkia Handika Lethulur",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 07:29:07",
+        "source": "github_action",
+        "candidate": "Belia Kharisma Balqis Trismara",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
