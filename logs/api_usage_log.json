@@ -6429,23 +6429,16 @@
     ]
   },
   "2026-04-16": {
-    "total": 385,
+    "total": 386,
     "streamlit": 0,
-    "github_action": 385,
-    "successful": 385,
+    "github_action": 386,
+    "successful": 386,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
-      "Account Executive Pasangiklan.com": 95
+      "Account Executive Pasangiklan.com": 96
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 06:26:04",
-        "source": "github_action",
-        "candidate": "GABRIELLE PUTRA",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 06:26:32",
         "source": "github_action",
@@ -7136,6 +7129,13 @@
         "timestamp": "2026-04-16 07:15:58",
         "source": "github_action",
         "candidate": "Salsa Nurfadhilah",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 07:16:29",
+        "source": "github_action",
+        "candidate": "Afrizal Naufal Ghani",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
