@@ -6429,22 +6429,15 @@
     ]
   },
   "2026-04-16": {
-    "total": 134,
+    "total": 135,
     "streamlit": 0,
-    "github_action": 134,
-    "successful": 134,
+    "github_action": 135,
+    "successful": 135,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 134
+      "Account Executive VCBL": 135
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 04:36:56",
-        "source": "github_action",
-        "candidate": "Helena Caesaria",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 04:37:29",
         "source": "github_action",
@@ -7135,6 +7128,13 @@
         "timestamp": "2026-04-16 05:20:07",
         "source": "github_action",
         "candidate": "Muhamad Ramdan",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 05:20:39",
+        "source": "github_action",
+        "candidate": "Amelia Intan",
         "position": "Account Executive VCBL",
         "success": true
       }
