@@ -6429,22 +6429,15 @@
     ]
   },
   "2026-04-16": {
-    "total": 243,
+    "total": 244,
     "streamlit": 0,
-    "github_action": 243,
-    "successful": 243,
+    "github_action": 244,
+    "successful": 244,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 243
+      "Account Executive VCBL": 244
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 05:24:23",
-        "source": "github_action",
-        "candidate": "Putri Nur Farida",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 05:24:47",
         "source": "github_action",
@@ -7135,6 +7128,13 @@
         "timestamp": "2026-04-16 06:09:35",
         "source": "github_action",
         "candidate": "Farul Fahrijal",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 06:10:03",
+        "source": "github_action",
+        "candidate": "Devi Putri Pranata",
         "position": "Account Executive VCBL",
         "success": true
       }
