@@ -6429,23 +6429,16 @@
     ]
   },
   "2026-04-16": {
-    "total": 658,
+    "total": 659,
     "streamlit": 0,
-    "github_action": 658,
-    "successful": 658,
+    "github_action": 659,
+    "successful": 659,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
-      "Account Executive Pasangiklan.com": 368
+      "Account Executive Pasangiklan.com": 369
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 08:40:55",
-        "source": "github_action",
-        "candidate": "Razi Muhammad",
-        "position": "Account Executive Pasangiklan.com",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 08:41:26",
         "source": "github_action",
@@ -7136,6 +7129,13 @@
         "timestamp": "2026-04-16 09:28:39",
         "source": "github_action",
         "candidate": "Aura Pallomitha",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 09:29:08",
+        "source": "github_action",
+        "candidate": "Qeis Rakan Aqil",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
