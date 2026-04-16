@@ -6429,22 +6429,15 @@
     ]
   },
   "2026-04-16": {
-    "total": 151,
+    "total": 152,
     "streamlit": 0,
-    "github_action": 151,
-    "successful": 151,
+    "github_action": 152,
+    "successful": 152,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 151
+      "Account Executive VCBL": 152
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 04:44:17",
-        "source": "github_action",
-        "candidate": "Syarif Antoni",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 04:44:47",
         "source": "github_action",
@@ -7135,6 +7128,13 @@
         "timestamp": "2026-04-16 05:27:35",
         "source": "github_action",
         "candidate": "Iqbal Fathurrahman",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 05:28:02",
+        "source": "github_action",
+        "candidate": "Amalia Frachmadiany",
         "position": "Account Executive VCBL",
         "success": true
       }
