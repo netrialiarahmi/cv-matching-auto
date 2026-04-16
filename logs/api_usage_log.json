@@ -6429,22 +6429,15 @@
     ]
   },
   "2026-04-16": {
-    "total": 281,
+    "total": 282,
     "streamlit": 0,
-    "github_action": 281,
-    "successful": 281,
+    "github_action": 282,
+    "successful": 282,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 281
+      "Account Executive VCBL": 282
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 05:41:09",
-        "source": "github_action",
-        "candidate": "Rifqi Favian Satriawan",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 05:41:38",
         "source": "github_action",
@@ -7135,6 +7128,13 @@
         "timestamp": "2026-04-16 06:23:52",
         "source": "github_action",
         "candidate": "Khofifah Rini",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 06:24:19",
+        "source": "github_action",
+        "candidate": "Hafizh Zaffan",
         "position": "Account Executive VCBL",
         "success": true
       }
