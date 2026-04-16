@@ -6429,23 +6429,16 @@
     ]
   },
   "2026-04-16": {
-    "total": 303,
+    "total": 304,
     "streamlit": 0,
-    "github_action": 303,
-    "successful": 303,
+    "github_action": 304,
+    "successful": 304,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
-      "Account Executive Pasangiklan.com": 13
+      "Account Executive Pasangiklan.com": 14
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 05:51:34",
-        "source": "github_action",
-        "candidate": "Natasya Verlina",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 05:52:07",
         "source": "github_action",
@@ -7136,6 +7129,13 @@
         "timestamp": "2026-04-16 06:33:35",
         "source": "github_action",
         "candidate": "Hadyan Juliansjach",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 06:34:09",
+        "source": "github_action",
+        "candidate": "Kiagus Ahmad Rifqi",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
