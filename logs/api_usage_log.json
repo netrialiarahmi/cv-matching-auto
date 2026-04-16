@@ -6429,23 +6429,16 @@
     ]
   },
   "2026-04-16": {
-    "total": 381,
+    "total": 382,
     "streamlit": 0,
-    "github_action": 381,
-    "successful": 381,
+    "github_action": 382,
+    "successful": 382,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
-      "Account Executive Pasangiklan.com": 91
+      "Account Executive Pasangiklan.com": 92
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 06:24:19",
-        "source": "github_action",
-        "candidate": "Hafizh Zaffan",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 06:24:46",
         "source": "github_action",
@@ -7136,6 +7129,13 @@
         "timestamp": "2026-04-16 07:13:54",
         "source": "github_action",
         "candidate": "Dedet widodo",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 07:14:22",
+        "source": "github_action",
+        "candidate": "Olifia Virginia Antula",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
