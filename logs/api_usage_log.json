@@ -6429,13 +6429,13 @@
     ]
   },
   "2026-04-16": {
-    "total": 42,
+    "total": 43,
     "streamlit": 0,
-    "github_action": 42,
-    "successful": 42,
+    "github_action": 43,
+    "successful": 43,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 42
+      "Account Executive VCBL": 43
     },
     "entries": [
       {
@@ -6729,6 +6729,13 @@
         "timestamp": "2026-04-16 04:40:09",
         "source": "github_action",
         "candidate": "Hafidh Muhammad Ibnu Sina",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 04:40:12",
+        "source": "github_action",
+        "candidate": "Dwi Syahra",
         "position": "Account Executive VCBL",
         "success": true
       }
