@@ -6429,13 +6429,13 @@
     ]
   },
   "2026-04-16": {
-    "total": 74,
+    "total": 75,
     "streamlit": 0,
-    "github_action": 74,
-    "successful": 74,
+    "github_action": 75,
+    "successful": 75,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 74
+      "Account Executive VCBL": 75
     },
     "entries": [
       {
@@ -6953,6 +6953,13 @@
         "timestamp": "2026-04-16 04:54:35",
         "source": "github_action",
         "candidate": "Lowdy Filan Arsyandi",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 04:55:02",
+        "source": "github_action",
+        "candidate": "Ayu Siti Hajar",
         "position": "Account Executive VCBL",
         "success": true
       }
