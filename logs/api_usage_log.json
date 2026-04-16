@@ -6429,23 +6429,16 @@
     ]
   },
   "2026-04-16": {
-    "total": 447,
+    "total": 448,
     "streamlit": 0,
-    "github_action": 447,
-    "successful": 447,
+    "github_action": 448,
+    "successful": 448,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
-      "Account Executive Pasangiklan.com": 157
+      "Account Executive Pasangiklan.com": 158
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 06:57:18",
-        "source": "github_action",
-        "candidate": "Hashfi Erlingga Prawira",
-        "position": "Account Executive Pasangiklan.com",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 06:57:50",
         "source": "github_action",
@@ -7136,6 +7129,13 @@
         "timestamp": "2026-04-16 07:46:10",
         "source": "github_action",
         "candidate": "Andes Pratama Mardias",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 07:46:43",
+        "source": "github_action",
+        "candidate": "Agus Nur Habib",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
