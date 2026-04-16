@@ -6429,22 +6429,15 @@
     ]
   },
   "2026-04-16": {
-    "total": 197,
+    "total": 198,
     "streamlit": 0,
-    "github_action": 197,
-    "successful": 197,
+    "github_action": 198,
+    "successful": 198,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 197
+      "Account Executive VCBL": 198
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 05:04:27",
-        "source": "github_action",
-        "candidate": "Michelle Anastasya supriyadi",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 05:04:30",
         "source": "github_action",
@@ -7135,6 +7128,13 @@
         "timestamp": "2026-04-16 05:48:17",
         "source": "github_action",
         "candidate": "Yonathan Reno Pamungkas",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 05:48:47",
+        "source": "github_action",
+        "candidate": "Ayub Ezra Royani Sianturi",
         "position": "Account Executive VCBL",
         "success": true
       }
