@@ -6429,22 +6429,15 @@
     ]
   },
   "2026-04-16": {
-    "total": 258,
+    "total": 259,
     "streamlit": 0,
-    "github_action": 258,
-    "successful": 258,
+    "github_action": 259,
+    "successful": 259,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 258
+      "Account Executive VCBL": 259
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 05:30:54",
-        "source": "github_action",
-        "candidate": "Arum widya",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 05:31:21",
         "source": "github_action",
@@ -7135,6 +7128,13 @@
         "timestamp": "2026-04-16 06:14:44",
         "source": "github_action",
         "candidate": "Kaisa Agni",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 06:15:12",
+        "source": "github_action",
+        "candidate": "Dava Andriano",
         "position": "Account Executive VCBL",
         "success": true
       }
