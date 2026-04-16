@@ -6429,22 +6429,15 @@
     ]
   },
   "2026-04-16": {
-    "total": 101,
+    "total": 102,
     "streamlit": 0,
-    "github_action": 101,
-    "successful": 101,
+    "github_action": 102,
+    "successful": 102,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 101
+      "Account Executive VCBL": 102
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 04:23:19",
-        "source": "github_action",
-        "candidate": "Syafira Akhtari",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 04:23:46",
         "source": "github_action",
@@ -7135,6 +7128,13 @@
         "timestamp": "2026-04-16 05:05:31",
         "source": "github_action",
         "candidate": "Agus Nur Habib",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 05:06:00",
+        "source": "github_action",
+        "candidate": "Sindy Rosita",
         "position": "Account Executive VCBL",
         "success": true
       }
