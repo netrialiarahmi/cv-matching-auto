@@ -6429,22 +6429,15 @@
     ]
   },
   "2026-04-16": {
-    "total": 178,
+    "total": 179,
     "streamlit": 0,
-    "github_action": 178,
-    "successful": 178,
+    "github_action": 179,
+    "successful": 179,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 178
+      "Account Executive VCBL": 179
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 04:56:48",
-        "source": "github_action",
-        "candidate": "Muhammad Kevandra",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 04:56:50",
         "source": "github_action",
@@ -7135,6 +7128,13 @@
         "timestamp": "2026-04-16 05:39:20",
         "source": "github_action",
         "candidate": "Muhammad Rosikhul Ilmi",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 05:39:46",
+        "source": "github_action",
+        "candidate": "sofa rina",
         "position": "Account Executive VCBL",
         "success": true
       }
