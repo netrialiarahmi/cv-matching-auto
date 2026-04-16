@@ -6429,22 +6429,15 @@
     ]
   },
   "2026-04-16": {
-    "total": 226,
+    "total": 227,
     "streamlit": 0,
-    "github_action": 226,
-    "successful": 226,
+    "github_action": 227,
+    "successful": 227,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 226
+      "Account Executive VCBL": 227
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 05:16:40",
-        "source": "github_action",
-        "candidate": "Galang Akbar Wibisono",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 05:17:10",
         "source": "github_action",
@@ -7135,6 +7128,13 @@
         "timestamp": "2026-04-16 06:01:33",
         "source": "github_action",
         "candidate": "Muhammad Ariananda",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 06:02:01",
+        "source": "github_action",
+        "candidate": "Brian Chung",
         "position": "Account Executive VCBL",
         "success": true
       }
