@@ -6430,13 +6430,12 @@
   },
   "2026-04-16": {
     "total": 34,
-    "streamlit": 1,
-    "github_action": 33,
+    "streamlit": 0,
+    "github_action": 34,
     "successful": 34,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 33,
-      "Marketing Communication Officer KG Media": 1
+      "Account Executive VCBL": 34
     },
     "entries": [
       {
@@ -6671,10 +6670,10 @@
         "success": true
       },
       {
-        "timestamp": "2026-04-16 04:36:07",
-        "source": "streamlit",
-        "candidate": "Regina Nur Fitriyaningsih",
-        "position": "Marketing Communication Officer KG Media",
+        "timestamp": "2026-04-16 04:36:25",
+        "source": "github_action",
+        "candidate": "Suharto Putra",
+        "position": "Account Executive VCBL",
         "success": true
       }
     ]
