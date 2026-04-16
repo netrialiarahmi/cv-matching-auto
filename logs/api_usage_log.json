@@ -6429,23 +6429,16 @@
     ]
   },
   "2026-04-16": {
-    "total": 536,
+    "total": 537,
     "streamlit": 0,
-    "github_action": 536,
-    "successful": 536,
+    "github_action": 537,
+    "successful": 537,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
-      "Account Executive Pasangiklan.com": 246
+      "Account Executive Pasangiklan.com": 247
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 07:41:17",
-        "source": "github_action",
-        "candidate": "Ferel Hutagalung",
-        "position": "Account Executive Pasangiklan.com",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 07:41:48",
         "source": "github_action",
@@ -7136,6 +7129,13 @@
         "timestamp": "2026-04-16 08:30:02",
         "source": "github_action",
         "candidate": "Shakila Mutiara Asthi Sepnita Asyril",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 08:30:32",
+        "source": "github_action",
+        "candidate": "Safitri Eka Lestari",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
