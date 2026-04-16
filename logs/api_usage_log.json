@@ -6429,24 +6429,17 @@
     ]
   },
   "2026-04-16": {
-    "total": 736,
+    "total": 737,
     "streamlit": 0,
-    "github_action": 736,
-    "successful": 736,
+    "github_action": 737,
+    "successful": 737,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
       "Account Executive Pasangiklan.com": 423,
-      "Business Development Analyst": 23
+      "Business Development Analyst": 24
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 09:18:24",
-        "source": "github_action",
-        "candidate": "Rama Santosa",
-        "position": "Account Executive Pasangiklan.com",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 09:18:51",
         "source": "github_action",
@@ -7137,6 +7130,13 @@
         "timestamp": "2026-04-16 10:05:52",
         "source": "github_action",
         "candidate": "Syaillendra Ardifasalma",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 10:06:24",
+        "source": "github_action",
+        "candidate": "akmal putra utomo",
         "position": "Business Development Analyst",
         "success": true
       }
