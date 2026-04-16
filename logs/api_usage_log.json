@@ -6429,23 +6429,16 @@
     ]
   },
   "2026-04-16": {
-    "total": 694,
+    "total": 695,
     "streamlit": 0,
-    "github_action": 694,
-    "successful": 694,
+    "github_action": 695,
+    "successful": 695,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
-      "Account Executive Pasangiklan.com": 404
+      "Account Executive Pasangiklan.com": 405
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 08:59:26",
-        "source": "github_action",
-        "candidate": "Yogi Nugroho",
-        "position": "Account Executive Pasangiklan.com",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 08:59:56",
         "source": "github_action",
@@ -7136,6 +7129,13 @@
         "timestamp": "2026-04-16 09:45:41",
         "source": "github_action",
         "candidate": "M. Rizky Yuliandri",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 09:46:10",
+        "source": "github_action",
+        "candidate": "Mulkan Aulia fauzan",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
