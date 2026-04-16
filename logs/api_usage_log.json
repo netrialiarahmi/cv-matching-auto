@@ -6429,23 +6429,16 @@
     ]
   },
   "2026-04-16": {
-    "total": 540,
+    "total": 541,
     "streamlit": 0,
-    "github_action": 540,
-    "successful": 540,
+    "github_action": 541,
+    "successful": 541,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
-      "Account Executive Pasangiklan.com": 250
+      "Account Executive Pasangiklan.com": 251
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 07:43:25",
-        "source": "github_action",
-        "candidate": "Nindya Priska Permata",
-        "position": "Account Executive Pasangiklan.com",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 07:43:55",
         "source": "github_action",
@@ -7136,6 +7129,13 @@
         "timestamp": "2026-04-16 08:32:03",
         "source": "github_action",
         "candidate": "Fakhri Nan Arif Meivetra",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 08:32:32",
+        "source": "github_action",
+        "candidate": "Angellie Larasati",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
