@@ -6429,23 +6429,16 @@
     ]
   },
   "2026-04-16": {
-    "total": 641,
+    "total": 642,
     "streamlit": 0,
-    "github_action": 641,
-    "successful": 641,
+    "github_action": 642,
+    "successful": 642,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
-      "Account Executive Pasangiklan.com": 351
+      "Account Executive Pasangiklan.com": 352
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 08:33:04",
-        "source": "github_action",
-        "candidate": "Deonesia L. Gildamurti",
-        "position": "Account Executive Pasangiklan.com",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 08:33:34",
         "source": "github_action",
@@ -7136,6 +7129,13 @@
         "timestamp": "2026-04-16 09:20:20",
         "source": "github_action",
         "candidate": "Muhammad Dwiki Fajar",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 09:20:48",
+        "source": "github_action",
+        "candidate": "Nessi Rosalinda  Sihombing",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
