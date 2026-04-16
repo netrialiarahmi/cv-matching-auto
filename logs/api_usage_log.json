@@ -6429,24 +6429,17 @@
     ]
   },
   "2026-04-16": {
-    "total": 735,
+    "total": 736,
     "streamlit": 0,
-    "github_action": 735,
-    "successful": 735,
+    "github_action": 736,
+    "successful": 736,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
       "Account Executive Pasangiklan.com": 423,
-      "Business Development Analyst": 22
+      "Business Development Analyst": 23
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 09:17:54",
-        "source": "github_action",
-        "candidate": "Syadza Fatina Oktafiarani",
-        "position": "Account Executive Pasangiklan.com",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 09:18:24",
         "source": "github_action",
@@ -7137,6 +7130,13 @@
         "timestamp": "2026-04-16 10:05:18",
         "source": "github_action",
         "candidate": "Fransiska Malita",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 10:05:52",
+        "source": "github_action",
+        "candidate": "Syaillendra Ardifasalma",
         "position": "Business Development Analyst",
         "success": true
       }
