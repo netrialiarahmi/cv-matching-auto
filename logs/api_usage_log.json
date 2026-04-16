@@ -6429,24 +6429,17 @@
     ]
   },
   "2026-04-16": {
-    "total": 728,
+    "total": 729,
     "streamlit": 0,
-    "github_action": 728,
-    "successful": 728,
+    "github_action": 729,
+    "successful": 729,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
       "Account Executive Pasangiklan.com": 423,
-      "Business Development Analyst": 15
+      "Business Development Analyst": 16
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 09:15:19",
-        "source": "github_action",
-        "candidate": "Alifia Ikhram Shafanissa",
-        "position": "Account Executive Pasangiklan.com",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 09:15:51",
         "source": "github_action",
@@ -7137,6 +7130,13 @@
         "timestamp": "2026-04-16 10:01:23",
         "source": "github_action",
         "candidate": "Sri Cintia Dewi",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 10:01:57",
+        "source": "github_action",
+        "candidate": "Muhammad Shodiqin",
         "position": "Business Development Analyst",
         "success": true
       }
