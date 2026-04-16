@@ -6429,22 +6429,15 @@
     ]
   },
   "2026-04-16": {
-    "total": 171,
+    "total": 172,
     "streamlit": 0,
-    "github_action": 171,
-    "successful": 171,
+    "github_action": 172,
+    "successful": 172,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 171
+      "Account Executive VCBL": 172
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 04:53:34",
-        "source": "github_action",
-        "candidate": "Visiana Futura Cemerlang",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 04:54:02",
         "source": "github_action",
@@ -7135,6 +7128,13 @@
         "timestamp": "2026-04-16 05:36:05",
         "source": "github_action",
         "candidate": "Dinda Azaria Rowi",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 05:36:39",
+        "source": "github_action",
+        "candidate": "Puji lestari",
         "position": "Account Executive VCBL",
         "success": true
       }
