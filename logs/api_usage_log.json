@@ -6429,23 +6429,16 @@
     ]
   },
   "2026-04-16": {
-    "total": 470,
+    "total": 471,
     "streamlit": 0,
-    "github_action": 470,
-    "successful": 470,
+    "github_action": 471,
+    "successful": 471,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
-      "Account Executive Pasangiklan.com": 180
+      "Account Executive Pasangiklan.com": 181
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 07:08:59",
-        "source": "github_action",
-        "candidate": "Muhammad Abdillah Aqiel Rosyada",
-        "position": "Account Executive Pasangiklan.com",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 07:09:31",
         "source": "github_action",
@@ -7136,6 +7129,13 @@
         "timestamp": "2026-04-16 07:57:53",
         "source": "github_action",
         "candidate": "Rania Kemala  Ayu",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 07:58:25",
+        "source": "github_action",
+        "candidate": "Oki Yafie Firdaus",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
