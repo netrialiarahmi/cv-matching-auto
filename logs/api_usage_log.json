@@ -6429,23 +6429,16 @@
     ]
   },
   "2026-04-16": {
-    "total": 616,
+    "total": 617,
     "streamlit": 0,
-    "github_action": 616,
-    "successful": 616,
+    "github_action": 617,
+    "successful": 617,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
-      "Account Executive Pasangiklan.com": 326
+      "Account Executive Pasangiklan.com": 327
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 08:21:11",
-        "source": "github_action",
-        "candidate": "Muhammad Aryanugraha",
-        "position": "Account Executive Pasangiklan.com",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 08:21:42",
         "source": "github_action",
@@ -7136,6 +7129,13 @@
         "timestamp": "2026-04-16 09:09:01",
         "source": "github_action",
         "candidate": "Yose Amru Rizal",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 09:09:35",
+        "source": "github_action",
+        "candidate": "David Halomoan Simbolon",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
