@@ -6429,23 +6429,16 @@
     ]
   },
   "2026-04-16": {
-    "total": 532,
+    "total": 533,
     "streamlit": 0,
-    "github_action": 532,
-    "successful": 532,
+    "github_action": 533,
+    "successful": 533,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
-      "Account Executive Pasangiklan.com": 242
+      "Account Executive Pasangiklan.com": 243
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 07:39:15",
-        "source": "github_action",
-        "candidate": "Hikmah  Liani",
-        "position": "Account Executive Pasangiklan.com",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 07:39:45",
         "source": "github_action",
@@ -7136,6 +7129,13 @@
         "timestamp": "2026-04-16 08:28:39",
         "source": "github_action",
         "candidate": "Pratiwi Rahmadanti",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 08:28:59",
+        "source": "github_action",
+        "candidate": "Felice Sekar Haryuningtyas",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
