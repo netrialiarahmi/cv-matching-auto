@@ -6429,23 +6429,16 @@
     ]
   },
   "2026-04-16": {
-    "total": 335,
+    "total": 336,
     "streamlit": 0,
-    "github_action": 335,
-    "successful": 335,
+    "github_action": 336,
+    "successful": 336,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
-      "Account Executive Pasangiklan.com": 45
+      "Account Executive Pasangiklan.com": 46
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 06:06:09",
-        "source": "github_action",
-        "candidate": "Besta Aulina Zaqiah",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 06:06:38",
         "source": "github_action",
@@ -7136,6 +7129,13 @@
         "timestamp": "2026-04-16 06:50:25",
         "source": "github_action",
         "candidate": "Muhammad Adel Hilmi Halwanu",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 06:50:59",
+        "source": "github_action",
+        "candidate": "Sekar Putri Ramadani",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
