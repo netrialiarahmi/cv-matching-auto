@@ -6429,22 +6429,15 @@
     ]
   },
   "2026-04-16": {
-    "total": 285,
+    "total": 286,
     "streamlit": 0,
-    "github_action": 285,
-    "successful": 285,
+    "github_action": 286,
+    "successful": 286,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 285
+      "Account Executive VCBL": 286
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 05:42:47",
-        "source": "github_action",
-        "candidate": "Raesha Mutia",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 05:43:15",
         "source": "github_action",
@@ -7135,6 +7128,13 @@
         "timestamp": "2026-04-16 06:25:37",
         "source": "github_action",
         "candidate": "Herawati Anisha",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 06:26:04",
+        "source": "github_action",
+        "candidate": "GABRIELLE PUTRA",
         "position": "Account Executive VCBL",
         "success": true
       }
