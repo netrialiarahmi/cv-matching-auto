@@ -6429,13 +6429,13 @@
     ]
   },
   "2026-04-16": {
-    "total": 34,
+    "total": 35,
     "streamlit": 0,
-    "github_action": 34,
-    "successful": 34,
+    "github_action": 35,
+    "successful": 35,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 34
+      "Account Executive VCBL": 35
     },
     "entries": [
       {
@@ -6673,6 +6673,13 @@
         "timestamp": "2026-04-16 04:36:25",
         "source": "github_action",
         "candidate": "Suharto Putra",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 04:36:56",
+        "source": "github_action",
+        "candidate": "Helena Caesaria",
         "position": "Account Executive VCBL",
         "success": true
       }
