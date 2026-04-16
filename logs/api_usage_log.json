@@ -6429,23 +6429,16 @@
     ]
   },
   "2026-04-16": {
-    "total": 351,
+    "total": 352,
     "streamlit": 0,
-    "github_action": 351,
-    "successful": 351,
+    "github_action": 352,
+    "successful": 352,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
-      "Account Executive Pasangiklan.com": 61
+      "Account Executive Pasangiklan.com": 62
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 06:13:20",
-        "source": "github_action",
-        "candidate": "Sheila Pradhita",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 06:13:23",
         "source": "github_action",
@@ -7136,6 +7129,13 @@
         "timestamp": "2026-04-16 06:58:49",
         "source": "github_action",
         "candidate": "Lingga Apriyanto Perkoso",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 06:59:17",
+        "source": "github_action",
+        "candidate": "Cori Jonar Natanail",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
