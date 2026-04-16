@@ -6429,23 +6429,16 @@
     ]
   },
   "2026-04-16": {
-    "total": 624,
+    "total": 625,
     "streamlit": 0,
-    "github_action": 624,
-    "successful": 624,
+    "github_action": 625,
+    "successful": 625,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
-      "Account Executive Pasangiklan.com": 334
+      "Account Executive Pasangiklan.com": 335
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 08:25:03",
-        "source": "github_action",
-        "candidate": "Masiroh",
-        "position": "Account Executive Pasangiklan.com",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 08:25:32",
         "source": "github_action",
@@ -7136,6 +7129,13 @@
         "timestamp": "2026-04-16 09:12:58",
         "source": "github_action",
         "candidate": "Fadilah Bayu Widodo",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 09:13:31",
+        "source": "github_action",
+        "candidate": "Sherina Agustina",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
