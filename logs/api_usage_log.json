@@ -6429,24 +6429,17 @@
     ]
   },
   "2026-04-16": {
-    "total": 741,
+    "total": 742,
     "streamlit": 0,
-    "github_action": 741,
-    "successful": 741,
+    "github_action": 742,
+    "successful": 742,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
       "Account Executive Pasangiklan.com": 423,
-      "Business Development Analyst": 28
+      "Business Development Analyst": 29
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 09:20:48",
-        "source": "github_action",
-        "candidate": "Nessi Rosalinda  Sihombing",
-        "position": "Account Executive Pasangiklan.com",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 09:21:21",
         "source": "github_action",
@@ -7137,6 +7130,13 @@
         "timestamp": "2026-04-16 10:08:29",
         "source": "github_action",
         "candidate": "Mohamad Dani Setiawardi",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 10:09:03",
+        "source": "github_action",
+        "candidate": "Muhammad H. Firdausy",
         "position": "Business Development Analyst",
         "success": true
       }
