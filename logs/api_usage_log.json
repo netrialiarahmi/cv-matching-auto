@@ -6429,13 +6429,13 @@
     ]
   },
   "2026-04-16": {
-    "total": 64,
+    "total": 65,
     "streamlit": 0,
-    "github_action": 64,
-    "successful": 64,
+    "github_action": 65,
+    "successful": 65,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 64
+      "Account Executive VCBL": 65
     },
     "entries": [
       {
@@ -6883,6 +6883,13 @@
         "timestamp": "2026-04-16 04:49:55",
         "source": "github_action",
         "candidate": "Faruqi Al Ghifari",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 04:50:26",
+        "source": "github_action",
+        "candidate": "Abdullah imam makarim destiawan",
         "position": "Account Executive VCBL",
         "success": true
       }
