@@ -6429,23 +6429,16 @@
     ]
   },
   "2026-04-16": {
-    "total": 308,
+    "total": 309,
     "streamlit": 0,
-    "github_action": 308,
-    "successful": 308,
+    "github_action": 309,
+    "successful": 309,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
-      "Account Executive Pasangiklan.com": 18
+      "Account Executive Pasangiklan.com": 19
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 05:53:57",
-        "source": "github_action",
-        "candidate": "Syahda Zalenina",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 05:54:26",
         "source": "github_action",
@@ -7136,6 +7129,13 @@
         "timestamp": "2026-04-16 06:36:17",
         "source": "github_action",
         "candidate": "Azizil Jabarri",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 06:36:44",
+        "source": "github_action",
+        "candidate": "Salma Tazkiani",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
