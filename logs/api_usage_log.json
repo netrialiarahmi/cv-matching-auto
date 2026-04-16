@@ -6429,23 +6429,16 @@
     ]
   },
   "2026-04-16": {
-    "total": 492,
+    "total": 493,
     "streamlit": 0,
-    "github_action": 492,
-    "successful": 492,
+    "github_action": 493,
+    "successful": 493,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
-      "Account Executive Pasangiklan.com": 202
+      "Account Executive Pasangiklan.com": 203
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 07:19:50",
-        "source": "github_action",
-        "candidate": "Aristya Bhaskoro",
-        "position": "Account Executive Pasangiklan.com",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 07:20:24",
         "source": "github_action",
@@ -7136,6 +7129,13 @@
         "timestamp": "2026-04-16 08:08:21",
         "source": "github_action",
         "candidate": "Rifqi Ali Rahman",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 08:08:51",
+        "source": "github_action",
+        "candidate": "Mirari Yovanda",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
