@@ -6429,23 +6429,16 @@
     ]
   },
   "2026-04-16": {
-    "total": 549,
+    "total": 550,
     "streamlit": 0,
-    "github_action": 549,
-    "successful": 549,
+    "github_action": 550,
+    "successful": 550,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
-      "Account Executive Pasangiklan.com": 259
+      "Account Executive Pasangiklan.com": 260
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 07:47:38",
-        "source": "github_action",
-        "candidate": "renus riyoko",
-        "position": "Account Executive Pasangiklan.com",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 07:48:07",
         "source": "github_action",
@@ -7136,6 +7129,13 @@
         "timestamp": "2026-04-16 08:36:21",
         "source": "github_action",
         "candidate": "Diah Wulandari",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 08:36:51",
+        "source": "github_action",
+        "candidate": "Latifa Danirmala",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
