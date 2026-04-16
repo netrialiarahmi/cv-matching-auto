@@ -6429,13 +6429,13 @@
     ]
   },
   "2026-04-16": {
-    "total": 73,
+    "total": 74,
     "streamlit": 0,
-    "github_action": 73,
-    "successful": 73,
+    "github_action": 74,
+    "successful": 74,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 73
+      "Account Executive VCBL": 74
     },
     "entries": [
       {
@@ -6946,6 +6946,13 @@
         "timestamp": "2026-04-16 04:54:02",
         "source": "github_action",
         "candidate": "Salma Alika",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 04:54:35",
+        "source": "github_action",
+        "candidate": "Lowdy Filan Arsyandi",
         "position": "Account Executive VCBL",
         "success": true
       }
