@@ -6429,24 +6429,17 @@
     ]
   },
   "2026-04-16": {
-    "total": 745,
+    "total": 746,
     "streamlit": 0,
-    "github_action": 745,
-    "successful": 745,
+    "github_action": 746,
+    "successful": 746,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
       "Account Executive Pasangiklan.com": 423,
-      "Business Development Analyst": 32
+      "Business Development Analyst": 33
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 09:22:50",
-        "source": "github_action",
-        "candidate": "Padang Ghalu",
-        "position": "Account Executive Pasangiklan.com",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 09:23:14",
         "source": "github_action",
@@ -7137,6 +7130,13 @@
         "timestamp": "2026-04-16 10:10:46",
         "source": "github_action",
         "candidate": "Faqih Wasim Ahmad",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 10:11:16",
+        "source": "github_action",
+        "candidate": "wahyu wiguna rismanto",
         "position": "Business Development Analyst",
         "success": true
       }
