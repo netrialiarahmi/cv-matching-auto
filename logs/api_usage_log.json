@@ -6429,22 +6429,15 @@
     ]
   },
   "2026-04-16": {
-    "total": 271,
+    "total": 272,
     "streamlit": 0,
-    "github_action": 271,
-    "successful": 271,
+    "github_action": 272,
+    "successful": 272,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 271
+      "Account Executive VCBL": 272
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 05:36:39",
-        "source": "github_action",
-        "candidate": "Puji lestari",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 05:37:06",
         "source": "github_action",
@@ -7135,6 +7128,13 @@
         "timestamp": "2026-04-16 06:19:47",
         "source": "github_action",
         "candidate": "Basilius Laia",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 06:19:50",
+        "source": "github_action",
+        "candidate": "Tri Wahyu Ramadhani",
         "position": "Account Executive VCBL",
         "success": true
       }
