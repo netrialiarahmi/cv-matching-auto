@@ -6429,23 +6429,16 @@
     ]
   },
   "2026-04-16": {
-    "total": 548,
+    "total": 549,
     "streamlit": 0,
-    "github_action": 548,
-    "successful": 548,
+    "github_action": 549,
+    "successful": 549,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
-      "Account Executive Pasangiklan.com": 258
+      "Account Executive Pasangiklan.com": 259
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 07:47:11",
-        "source": "github_action",
-        "candidate": "ayu soraya",
-        "position": "Account Executive Pasangiklan.com",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 07:47:38",
         "source": "github_action",
@@ -7136,6 +7129,13 @@
         "timestamp": "2026-04-16 08:35:51",
         "source": "github_action",
         "candidate": "s s",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 08:36:21",
+        "source": "github_action",
+        "candidate": "Diah Wulandari",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
