@@ -6430,13 +6430,12 @@
   },
   "2026-04-16": {
     "total": 21,
-    "streamlit": 1,
-    "github_action": 20,
+    "streamlit": 0,
+    "github_action": 21,
     "successful": 21,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 20,
-      "Marketing Communication Officer KG Media": 1
+      "Account Executive VCBL": 21
     },
     "entries": [
       {
@@ -6580,10 +6579,10 @@
         "success": true
       },
       {
-        "timestamp": "2026-04-16 04:30:15",
-        "source": "streamlit",
-        "candidate": "Farida Yulistiana",
-        "position": "Marketing Communication Officer KG Media",
+        "timestamp": "2026-04-16 04:30:37",
+        "source": "github_action",
+        "candidate": "Doni Wenfery Simorangkir",
+        "position": "Account Executive VCBL",
         "success": true
       }
     ]
