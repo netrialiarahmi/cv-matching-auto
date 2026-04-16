@@ -6429,23 +6429,16 @@
     ]
   },
   "2026-04-16": {
-    "total": 304,
+    "total": 305,
     "streamlit": 0,
-    "github_action": 304,
-    "successful": 304,
+    "github_action": 305,
+    "successful": 305,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
-      "Account Executive Pasangiklan.com": 14
+      "Account Executive Pasangiklan.com": 15
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 05:52:07",
-        "source": "github_action",
-        "candidate": "Adani Laila Putri",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 05:52:41",
         "source": "github_action",
@@ -7136,6 +7129,13 @@
         "timestamp": "2026-04-16 06:34:09",
         "source": "github_action",
         "candidate": "Kiagus Ahmad Rifqi",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 06:34:43",
+        "source": "github_action",
+        "candidate": "Petty Angelina",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
