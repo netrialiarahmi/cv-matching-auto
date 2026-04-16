@@ -6429,23 +6429,16 @@
     ]
   },
   "2026-04-16": {
-    "total": 415,
+    "total": 416,
     "streamlit": 0,
-    "github_action": 415,
-    "successful": 415,
+    "github_action": 416,
+    "successful": 416,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
-      "Account Executive Pasangiklan.com": 125
+      "Account Executive Pasangiklan.com": 126
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 06:40:23",
-        "source": "github_action",
-        "candidate": "Rifki Eka Maulana",
-        "position": "Account Executive Pasangiklan.com",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 06:40:56",
         "source": "github_action",
@@ -7136,6 +7129,13 @@
         "timestamp": "2026-04-16 07:30:26",
         "source": "github_action",
         "candidate": "Abdillah Muchtar",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 07:30:55",
+        "source": "github_action",
+        "candidate": "Alryandi Herlembang Siregar",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
