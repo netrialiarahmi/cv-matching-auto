@@ -6429,23 +6429,16 @@
     ]
   },
   "2026-04-16": {
-    "total": 607,
+    "total": 608,
     "streamlit": 0,
-    "github_action": 607,
-    "successful": 607,
+    "github_action": 608,
+    "successful": 608,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
-      "Account Executive Pasangiklan.com": 317
+      "Account Executive Pasangiklan.com": 318
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 08:16:28",
-        "source": "github_action",
-        "candidate": "Amelia .",
-        "position": "Account Executive Pasangiklan.com",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 08:17:01",
         "source": "github_action",
@@ -7136,6 +7129,13 @@
         "timestamp": "2026-04-16 09:04:50",
         "source": "github_action",
         "candidate": "Salsa  Danisaskiya",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 09:05:20",
+        "source": "github_action",
+        "candidate": "Muhammad Azmi",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
