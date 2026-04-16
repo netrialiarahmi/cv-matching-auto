@@ -6429,23 +6429,16 @@
     ]
   },
   "2026-04-16": {
-    "total": 701,
+    "total": 702,
     "streamlit": 0,
-    "github_action": 701,
-    "successful": 701,
+    "github_action": 702,
+    "successful": 702,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
-      "Account Executive Pasangiklan.com": 411
+      "Account Executive Pasangiklan.com": 412
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 09:03:00",
-        "source": "github_action",
-        "candidate": "Nadya Angelica",
-        "position": "Account Executive Pasangiklan.com",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 09:03:34",
         "source": "github_action",
@@ -7136,6 +7129,13 @@
         "timestamp": "2026-04-16 09:48:52",
         "source": "github_action",
         "candidate": "Sophia Eunike",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 09:49:20",
+        "source": "github_action",
+        "candidate": "Muhammad Fikri",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
