@@ -6429,23 +6429,16 @@
     ]
   },
   "2026-04-16": {
-    "total": 611,
+    "total": 612,
     "streamlit": 0,
-    "github_action": 611,
-    "successful": 611,
+    "github_action": 612,
+    "successful": 612,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
-      "Account Executive Pasangiklan.com": 321
+      "Account Executive Pasangiklan.com": 322
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 08:18:32",
-        "source": "github_action",
-        "candidate": "Ali Haadi",
-        "position": "Account Executive Pasangiklan.com",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 08:19:10",
         "source": "github_action",
@@ -7136,6 +7129,13 @@
         "timestamp": "2026-04-16 09:06:42",
         "source": "github_action",
         "candidate": "Fazlur Rahman",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 09:07:12",
+        "source": "github_action",
+        "candidate": "Muhammad Daffa Farras",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
