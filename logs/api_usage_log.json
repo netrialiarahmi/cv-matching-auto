@@ -6429,23 +6429,16 @@
     ]
   },
   "2026-04-16": {
-    "total": 606,
+    "total": 607,
     "streamlit": 0,
-    "github_action": 606,
-    "successful": 606,
+    "github_action": 607,
+    "successful": 607,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
-      "Account Executive Pasangiklan.com": 316
+      "Account Executive Pasangiklan.com": 317
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 08:15:57",
-        "source": "github_action",
-        "candidate": "Alya Andira",
-        "position": "Account Executive Pasangiklan.com",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 08:16:28",
         "source": "github_action",
@@ -7136,6 +7129,13 @@
         "timestamp": "2026-04-16 09:04:33",
         "source": "github_action",
         "candidate": "Nadya Aras Cahyani",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 09:04:50",
+        "source": "github_action",
+        "candidate": "Salsa  Danisaskiya",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
