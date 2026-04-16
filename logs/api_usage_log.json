@@ -6429,23 +6429,16 @@
     ]
   },
   "2026-04-16": {
-    "total": 655,
+    "total": 656,
     "streamlit": 0,
-    "github_action": 655,
-    "successful": 655,
+    "github_action": 656,
+    "successful": 656,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
-      "Account Executive Pasangiklan.com": 365
+      "Account Executive Pasangiklan.com": 366
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 08:39:28",
-        "source": "github_action",
-        "candidate": "Giovanni Angelica Gunawan",
-        "position": "Account Executive Pasangiklan.com",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 08:39:57",
         "source": "github_action",
@@ -7136,6 +7129,13 @@
         "timestamp": "2026-04-16 09:27:14",
         "source": "github_action",
         "candidate": "Nofa Rahmadini",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 09:27:42",
+        "source": "github_action",
+        "candidate": "rahmat tri satria",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
