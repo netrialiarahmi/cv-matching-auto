@@ -6429,22 +6429,15 @@
     ]
   },
   "2026-04-16": {
-    "total": 141,
+    "total": 142,
     "streamlit": 0,
-    "github_action": 141,
-    "successful": 141,
+    "github_action": 142,
+    "successful": 142,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 141
+      "Account Executive VCBL": 142
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 04:40:09",
-        "source": "github_action",
-        "candidate": "Hafidh Muhammad Ibnu Sina",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 04:40:12",
         "source": "github_action",
@@ -7135,6 +7128,13 @@
         "timestamp": "2026-04-16 05:22:57",
         "source": "github_action",
         "candidate": "Jamil Saepul Azis",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 05:23:28",
+        "source": "github_action",
+        "candidate": "Vika Resi",
         "position": "Account Executive VCBL",
         "success": true
       }
