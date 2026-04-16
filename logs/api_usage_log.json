@@ -6429,22 +6429,15 @@
     ]
   },
   "2026-04-16": {
-    "total": 110,
+    "total": 111,
     "streamlit": 0,
-    "github_action": 110,
-    "successful": 110,
+    "github_action": 111,
+    "successful": 111,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 110
+      "Account Executive VCBL": 111
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 04:27:15",
-        "source": "github_action",
-        "candidate": "Amanda Patricia Hutauruk",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 04:27:43",
         "source": "github_action",
@@ -7135,6 +7128,13 @@
         "timestamp": "2026-04-16 05:09:53",
         "source": "github_action",
         "candidate": "Rully Anggi Akbar Akbar",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 05:09:56",
+        "source": "github_action",
+        "candidate": "Rani Nur Afifah",
         "position": "Account Executive VCBL",
         "success": true
       }
