@@ -6429,24 +6429,17 @@
     ]
   },
   "2026-04-16": {
-    "total": 743,
+    "total": 744,
     "streamlit": 0,
-    "github_action": 743,
-    "successful": 743,
+    "github_action": 744,
+    "successful": 744,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
       "Account Executive Pasangiklan.com": 423,
-      "Business Development Analyst": 30
+      "Business Development Analyst": 31
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 09:21:49",
-        "source": "github_action",
-        "candidate": "Achmad Ghaniy Nuurrochman",
-        "position": "Account Executive Pasangiklan.com",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 09:22:20",
         "source": "github_action",
@@ -7137,6 +7130,13 @@
         "timestamp": "2026-04-16 10:09:47",
         "source": "github_action",
         "candidate": "FELIA RACHMILA",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 10:10:20",
+        "source": "github_action",
+        "candidate": "Henry Aldebaran",
         "position": "Business Development Analyst",
         "success": true
       }
