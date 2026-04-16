@@ -6429,23 +6429,16 @@
     ]
   },
   "2026-04-16": {
-    "total": 529,
+    "total": 530,
     "streamlit": 0,
-    "github_action": 529,
-    "successful": 529,
+    "github_action": 530,
+    "successful": 530,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
-      "Account Executive Pasangiklan.com": 239
+      "Account Executive Pasangiklan.com": 240
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 07:37:46",
-        "source": "github_action",
-        "candidate": "Miftah Faiz",
-        "position": "Account Executive Pasangiklan.com",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 07:38:16",
         "source": "github_action",
@@ -7136,6 +7129,13 @@
         "timestamp": "2026-04-16 08:27:07",
         "source": "github_action",
         "candidate": "Kaila Syuja Taris Wijaya",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 08:27:36",
+        "source": "github_action",
+        "candidate": "Rieztanadya Mulia  Usman",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
