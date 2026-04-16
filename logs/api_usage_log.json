@@ -6429,23 +6429,16 @@
     ]
   },
   "2026-04-16": {
-    "total": 332,
+    "total": 333,
     "streamlit": 0,
-    "github_action": 332,
-    "successful": 332,
+    "github_action": 333,
+    "successful": 333,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
-      "Account Executive Pasangiklan.com": 42
+      "Account Executive Pasangiklan.com": 43
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 06:04:47",
-        "source": "github_action",
-        "candidate": "Priskila Debra Manik",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 06:05:17",
         "source": "github_action",
@@ -7136,6 +7129,13 @@
         "timestamp": "2026-04-16 06:48:52",
         "source": "github_action",
         "candidate": "Ihsan Rizki Mansis",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 06:49:25",
+        "source": "github_action",
+        "candidate": "Diffa Dhiya Damayanti",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
