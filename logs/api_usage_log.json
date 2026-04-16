@@ -6429,23 +6429,16 @@
     ]
   },
   "2026-04-16": {
-    "total": 383,
+    "total": 384,
     "streamlit": 0,
-    "github_action": 383,
-    "successful": 383,
+    "github_action": 384,
+    "successful": 384,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
-      "Account Executive Pasangiklan.com": 93
+      "Account Executive Pasangiklan.com": 94
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 06:25:12",
-        "source": "github_action",
-        "candidate": "suci Wulandari",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 06:25:37",
         "source": "github_action",
@@ -7136,6 +7129,13 @@
         "timestamp": "2026-04-16 07:14:54",
         "source": "github_action",
         "candidate": "Mega Adilla S H",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 07:15:24",
+        "source": "github_action",
+        "candidate": "Tiara Putri Rahmadin",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
