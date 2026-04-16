@@ -6429,23 +6429,16 @@
     ]
   },
   "2026-04-16": {
-    "total": 363,
+    "total": 364,
     "streamlit": 0,
-    "github_action": 363,
-    "successful": 363,
+    "github_action": 364,
+    "successful": 364,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
-      "Account Executive Pasangiklan.com": 73
+      "Account Executive Pasangiklan.com": 74
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 06:17:01",
-        "source": "github_action",
-        "candidate": "Angelina Juliet",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 06:17:30",
         "source": "github_action",
@@ -7136,6 +7129,13 @@
         "timestamp": "2026-04-16 07:05:02",
         "source": "github_action",
         "candidate": "Giovansa Aliff",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 07:05:30",
+        "source": "github_action",
+        "candidate": "Ariestanengsih Hermanto",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
