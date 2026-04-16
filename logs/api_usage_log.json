@@ -6429,22 +6429,15 @@
     ]
   },
   "2026-04-16": {
-    "total": 158,
+    "total": 159,
     "streamlit": 0,
-    "github_action": 158,
-    "successful": 158,
+    "github_action": 159,
+    "successful": 159,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 158
+      "Account Executive VCBL": 159
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 04:47:38",
-        "source": "github_action",
-        "candidate": "Dhinda Khaira Ummah",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 04:48:03",
         "source": "github_action",
@@ -7135,6 +7128,13 @@
         "timestamp": "2026-04-16 05:30:22",
         "source": "github_action",
         "candidate": "wahdudin",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 05:30:54",
+        "source": "github_action",
+        "candidate": "Arum widya",
         "position": "Account Executive VCBL",
         "success": true
       }
