@@ -6429,22 +6429,15 @@
     ]
   },
   "2026-04-16": {
-    "total": 205,
+    "total": 206,
     "streamlit": 0,
-    "github_action": 205,
-    "successful": 205,
+    "github_action": 206,
+    "successful": 206,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 205
+      "Account Executive VCBL": 206
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 05:08:00",
-        "source": "github_action",
-        "candidate": "Flavius Anggara",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 05:08:30",
         "source": "github_action",
@@ -7135,6 +7128,13 @@
         "timestamp": "2026-04-16 05:52:07",
         "source": "github_action",
         "candidate": "Adani Laila Putri",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 05:52:41",
+        "source": "github_action",
+        "candidate": "Dhea amara shezikya",
         "position": "Account Executive VCBL",
         "success": true
       }
