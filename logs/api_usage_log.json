@@ -6429,22 +6429,15 @@
     ]
   },
   "2026-04-16": {
-    "total": 149,
+    "total": 150,
     "streamlit": 0,
-    "github_action": 149,
-    "successful": 149,
+    "github_action": 150,
+    "successful": 150,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 149
+      "Account Executive VCBL": 150
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 04:43:15",
-        "source": "github_action",
-        "candidate": "Mia Nurjanah",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 04:43:44",
         "source": "github_action",
@@ -7135,6 +7128,13 @@
         "timestamp": "2026-04-16 05:26:39",
         "source": "github_action",
         "candidate": "Yoshika sinaga",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 05:27:07",
+        "source": "github_action",
+        "candidate": "Fadli Rahman",
         "position": "Account Executive VCBL",
         "success": true
       }
