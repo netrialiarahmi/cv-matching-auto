@@ -6429,22 +6429,15 @@
     ]
   },
   "2026-04-16": {
-    "total": 107,
+    "total": 108,
     "streamlit": 0,
-    "github_action": 107,
-    "successful": 107,
+    "github_action": 108,
+    "successful": 108,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 107
+      "Account Executive VCBL": 108
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 04:25:46",
-        "source": "github_action",
-        "candidate": "ALFA SANDI  SAPUTRA",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 04:26:16",
         "source": "github_action",
@@ -7135,6 +7128,13 @@
         "timestamp": "2026-04-16 05:08:30",
         "source": "github_action",
         "candidate": "Gracela Neoh",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 05:08:58",
+        "source": "github_action",
+        "candidate": "Satria Gunawan",
         "position": "Account Executive VCBL",
         "success": true
       }
