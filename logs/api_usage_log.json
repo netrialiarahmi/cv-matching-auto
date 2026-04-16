@@ -6429,23 +6429,16 @@
     ]
   },
   "2026-04-16": {
-    "total": 663,
+    "total": 664,
     "streamlit": 0,
-    "github_action": 663,
-    "successful": 663,
+    "github_action": 664,
+    "successful": 664,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
-      "Account Executive Pasangiklan.com": 373
+      "Account Executive Pasangiklan.com": 374
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 08:43:29",
-        "source": "github_action",
-        "candidate": "Rizky Ramadhan",
-        "position": "Account Executive Pasangiklan.com",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 08:44:02",
         "source": "github_action",
@@ -7136,6 +7129,13 @@
         "timestamp": "2026-04-16 09:31:02",
         "source": "github_action",
         "candidate": "Enrico Batahi Haposan",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 09:31:28",
+        "source": "github_action",
+        "candidate": "putri andriani",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
