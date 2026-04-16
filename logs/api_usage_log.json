@@ -6429,23 +6429,16 @@
     ]
   },
   "2026-04-16": {
-    "total": 553,
+    "total": 554,
     "streamlit": 0,
-    "github_action": 553,
-    "successful": 553,
+    "github_action": 554,
+    "successful": 554,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
-      "Account Executive Pasangiklan.com": 263
+      "Account Executive Pasangiklan.com": 264
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 07:49:39",
-        "source": "github_action",
-        "candidate": "Arya Riyanto",
-        "position": "Account Executive Pasangiklan.com",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 07:50:08",
         "source": "github_action",
@@ -7136,6 +7129,13 @@
         "timestamp": "2026-04-16 08:37:43",
         "source": "github_action",
         "candidate": "Khaira Wirasmo",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 08:38:20",
+        "source": "github_action",
+        "candidate": "Christine Maretha C. Pardede",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
