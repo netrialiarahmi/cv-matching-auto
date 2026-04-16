@@ -6429,23 +6429,16 @@
     ]
   },
   "2026-04-16": {
-    "total": 362,
+    "total": 363,
     "streamlit": 0,
-    "github_action": 362,
-    "successful": 362,
+    "github_action": 363,
+    "successful": 363,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
-      "Account Executive Pasangiklan.com": 72
+      "Account Executive Pasangiklan.com": 73
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 06:16:58",
-        "source": "github_action",
-        "candidate": "Vebby Br Ginting",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 06:17:01",
         "source": "github_action",
@@ -7136,6 +7129,13 @@
         "timestamp": "2026-04-16 07:04:31",
         "source": "github_action",
         "candidate": "Frisky Adventius Zendrato",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 07:05:02",
+        "source": "github_action",
+        "candidate": "Giovansa Aliff",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
