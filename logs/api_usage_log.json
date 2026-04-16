@@ -6429,24 +6429,17 @@
     ]
   },
   "2026-04-16": {
-    "total": 747,
+    "total": 748,
     "streamlit": 0,
-    "github_action": 747,
-    "successful": 747,
+    "github_action": 748,
+    "successful": 748,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
       "Account Executive Pasangiklan.com": 423,
-      "Business Development Analyst": 34
+      "Business Development Analyst": 35
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 09:23:43",
-        "source": "github_action",
-        "candidate": "Almira Aloudia Husni",
-        "position": "Account Executive Pasangiklan.com",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 09:24:15",
         "source": "github_action",
@@ -7137,6 +7130,13 @@
         "timestamp": "2026-04-16 10:11:50",
         "source": "github_action",
         "candidate": "Damar Aji Kuncoro",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 10:12:20",
+        "source": "github_action",
+        "candidate": "Ari Sudewa",
         "position": "Business Development Analyst",
         "success": true
       }
