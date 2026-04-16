@@ -6430,13 +6430,12 @@
   },
   "2026-04-16": {
     "total": 22,
-    "streamlit": 1,
-    "github_action": 21,
+    "streamlit": 0,
+    "github_action": 22,
     "successful": 22,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 21,
-      "Marketing Communication Officer KG Media": 1
+      "Account Executive VCBL": 22
     },
     "entries": [
       {
@@ -6587,10 +6586,10 @@
         "success": true
       },
       {
-        "timestamp": "2026-04-16 04:30:56",
-        "source": "streamlit",
-        "candidate": "Arsyi Leganisa",
-        "position": "Marketing Communication Officer KG Media",
+        "timestamp": "2026-04-16 04:31:04",
+        "source": "github_action",
+        "candidate": "juno ongko",
+        "position": "Account Executive VCBL",
         "success": true
       }
     ]
