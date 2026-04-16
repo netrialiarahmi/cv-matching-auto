@@ -6429,22 +6429,15 @@
     ]
   },
   "2026-04-16": {
-    "total": 196,
+    "total": 197,
     "streamlit": 0,
-    "github_action": 196,
-    "successful": 196,
+    "github_action": 197,
+    "successful": 197,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 196
+      "Account Executive VCBL": 197
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 05:04:04",
-        "source": "github_action",
-        "candidate": "Muhammad Daffa Farras",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 05:04:27",
         "source": "github_action",
@@ -7135,6 +7128,13 @@
         "timestamp": "2026-04-16 05:47:48",
         "source": "github_action",
         "candidate": "Aldhi Krisna Randha",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 05:48:17",
+        "source": "github_action",
+        "candidate": "Yonathan Reno Pamungkas",
         "position": "Account Executive VCBL",
         "success": true
       }
