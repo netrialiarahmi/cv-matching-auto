@@ -6429,24 +6429,17 @@
     ]
   },
   "2026-04-16": {
-    "total": 738,
+    "total": 739,
     "streamlit": 0,
-    "github_action": 738,
-    "successful": 738,
+    "github_action": 739,
+    "successful": 739,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
       "Account Executive Pasangiklan.com": 423,
-      "Business Development Analyst": 25
+      "Business Development Analyst": 26
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 09:19:22",
-        "source": "github_action",
-        "candidate": "Althayra Muhamad Daffadin",
-        "position": "Account Executive Pasangiklan.com",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 09:19:51",
         "source": "github_action",
@@ -7137,6 +7130,13 @@
         "timestamp": "2026-04-16 10:06:56",
         "source": "github_action",
         "candidate": "Agung Pramono",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 10:07:27",
+        "source": "github_action",
+        "candidate": "Sandi Mayyoga",
         "position": "Business Development Analyst",
         "success": true
       }
