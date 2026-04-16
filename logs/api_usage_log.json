@@ -6429,22 +6429,15 @@
     ]
   },
   "2026-04-16": {
-    "total": 262,
+    "total": 263,
     "streamlit": 0,
-    "github_action": 262,
-    "successful": 262,
+    "github_action": 263,
+    "successful": 263,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 262
+      "Account Executive VCBL": 263
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 05:32:40",
-        "source": "github_action",
-        "candidate": "Beatrix Gotama",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 05:33:05",
         "source": "github_action",
@@ -7135,6 +7128,13 @@
         "timestamp": "2026-04-16 06:16:33",
         "source": "github_action",
         "candidate": "Divia  Magdalena",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 06:16:58",
+        "source": "github_action",
+        "candidate": "Vebby Br Ginting",
         "position": "Account Executive VCBL",
         "success": true
       }
