@@ -6429,24 +6429,17 @@
     ]
   },
   "2026-04-16": {
-    "total": 762,
+    "total": 763,
     "streamlit": 0,
-    "github_action": 762,
-    "successful": 762,
+    "github_action": 763,
+    "successful": 763,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
       "Account Executive Pasangiklan.com": 423,
-      "Business Development Analyst": 49
+      "Business Development Analyst": 50
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 09:31:02",
-        "source": "github_action",
-        "candidate": "Enrico Batahi Haposan",
-        "position": "Account Executive Pasangiklan.com",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 09:31:28",
         "source": "github_action",
@@ -7137,6 +7130,13 @@
         "timestamp": "2026-04-16 10:19:21",
         "source": "github_action",
         "candidate": "Anastasya .",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 10:19:55",
+        "source": "github_action",
+        "candidate": "Aldila Viddy Raihan Rosandya",
         "position": "Business Development Analyst",
         "success": true
       }
