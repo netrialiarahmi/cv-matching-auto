@@ -6429,22 +6429,15 @@
     ]
   },
   "2026-04-16": {
-    "total": 185,
+    "total": 186,
     "streamlit": 0,
-    "github_action": 185,
-    "successful": 185,
+    "github_action": 186,
+    "successful": 186,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 185
+      "Account Executive VCBL": 186
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 04:59:12",
-        "source": "github_action",
-        "candidate": "Rifqi Soeleiman",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 04:59:46",
         "source": "github_action",
@@ -7135,6 +7128,13 @@
         "timestamp": "2026-04-16 05:42:36",
         "source": "github_action",
         "candidate": "Timotius Ardi Pradana",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 05:42:47",
+        "source": "github_action",
+        "candidate": "Raesha Mutia",
         "position": "Account Executive VCBL",
         "success": true
       }
