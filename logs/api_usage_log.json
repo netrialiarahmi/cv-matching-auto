@@ -6429,22 +6429,15 @@
     ]
   },
   "2026-04-16": {
-    "total": 248,
+    "total": 249,
     "streamlit": 0,
-    "github_action": 248,
-    "successful": 248,
+    "github_action": 249,
+    "successful": 249,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 248
+      "Account Executive VCBL": 249
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 05:26:39",
-        "source": "github_action",
-        "candidate": "Yoshika sinaga",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 05:27:07",
         "source": "github_action",
@@ -7135,6 +7128,13 @@
         "timestamp": "2026-04-16 06:11:54",
         "source": "github_action",
         "candidate": "Syeira Aprillia Purwitasari",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 06:12:22",
+        "source": "github_action",
+        "candidate": "Nabila Retno",
         "position": "Account Executive VCBL",
         "success": true
       }
