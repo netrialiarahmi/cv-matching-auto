@@ -6429,22 +6429,15 @@
     ]
   },
   "2026-04-16": {
-    "total": 180,
+    "total": 181,
     "streamlit": 0,
-    "github_action": 180,
-    "successful": 180,
+    "github_action": 181,
+    "successful": 181,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 180
+      "Account Executive VCBL": 181
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 04:57:18",
-        "source": "github_action",
-        "candidate": "Windi Helvira",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 04:57:48",
         "source": "github_action",
@@ -7135,6 +7128,13 @@
         "timestamp": "2026-04-16 05:40:16",
         "source": "github_action",
         "candidate": "Ayu Irene Oktalina",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 05:40:41",
+        "source": "github_action",
+        "candidate": "Puguh C., S.T., S.H. ( Bachelor of Engineering and Law )",
         "position": "Account Executive VCBL",
         "success": true
       }
