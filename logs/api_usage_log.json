@@ -6429,22 +6429,15 @@
     ]
   },
   "2026-04-16": {
-    "total": 111,
+    "total": 112,
     "streamlit": 0,
-    "github_action": 111,
-    "successful": 111,
+    "github_action": 112,
+    "successful": 112,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 111
+      "Account Executive VCBL": 112
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 04:27:43",
-        "source": "github_action",
-        "candidate": "Danti Maharani",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 04:28:11",
         "source": "github_action",
@@ -7135,6 +7128,13 @@
         "timestamp": "2026-04-16 05:09:56",
         "source": "github_action",
         "candidate": "Rani Nur Afifah",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 05:10:25",
+        "source": "github_action",
+        "candidate": "Bariq Iqbal Agia Putra",
         "position": "Account Executive VCBL",
         "success": true
       }
