@@ -6429,23 +6429,16 @@
     ]
   },
   "2026-04-16": {
-    "total": 580,
+    "total": 581,
     "streamlit": 0,
-    "github_action": 580,
-    "successful": 580,
+    "github_action": 581,
+    "successful": 581,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
-      "Account Executive Pasangiklan.com": 290
+      "Account Executive Pasangiklan.com": 291
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 08:03:10",
-        "source": "github_action",
-        "candidate": "Deby Nurjihan",
-        "position": "Account Executive Pasangiklan.com",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 08:03:40",
         "source": "github_action",
@@ -7136,6 +7129,13 @@
         "timestamp": "2026-04-16 08:51:50",
         "source": "github_action",
         "candidate": "Endyardho Ramadhan",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 08:52:20",
+        "source": "github_action",
+        "candidate": "Novan Pramb",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
