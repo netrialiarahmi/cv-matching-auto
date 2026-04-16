@@ -6429,23 +6429,16 @@
     ]
   },
   "2026-04-16": {
-    "total": 300,
+    "total": 301,
     "streamlit": 0,
-    "github_action": 300,
-    "successful": 300,
+    "github_action": 301,
+    "successful": 301,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
-      "Account Executive Pasangiklan.com": 10
+      "Account Executive Pasangiklan.com": 11
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 05:50:09",
-        "source": "github_action",
-        "candidate": "Aminah Fitriani Wiryono",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 05:50:36",
         "source": "github_action",
@@ -7136,6 +7129,13 @@
         "timestamp": "2026-04-16 06:32:01",
         "source": "github_action",
         "candidate": "Jaka Swandana",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 06:32:31",
+        "source": "github_action",
+        "candidate": "Muhammad Raushan Fikri",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
