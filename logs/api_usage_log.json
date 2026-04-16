@@ -6429,23 +6429,16 @@
     ]
   },
   "2026-04-16": {
-    "total": 417,
+    "total": 418,
     "streamlit": 0,
-    "github_action": 417,
-    "successful": 417,
+    "github_action": 418,
+    "successful": 418,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
-      "Account Executive Pasangiklan.com": 127
+      "Account Executive Pasangiklan.com": 128
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 06:41:28",
-        "source": "github_action",
-        "candidate": "Asep Yusuf Hamdani",
-        "position": "Account Executive Pasangiklan.com",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 06:42:01",
         "source": "github_action",
@@ -7136,6 +7129,13 @@
         "timestamp": "2026-04-16 07:31:25",
         "source": "github_action",
         "candidate": "Ali Nawawi",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 07:31:58",
+        "source": "github_action",
+        "candidate": "Sandy Wibisono",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
