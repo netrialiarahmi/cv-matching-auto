@@ -6429,23 +6429,16 @@
     ]
   },
   "2026-04-16": {
-    "total": 711,
+    "total": 712,
     "streamlit": 0,
-    "github_action": 711,
-    "successful": 711,
+    "github_action": 712,
+    "successful": 712,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
-      "Account Executive Pasangiklan.com": 421
+      "Account Executive Pasangiklan.com": 422
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 09:07:12",
-        "source": "github_action",
-        "candidate": "Muhammad Daffa Farras",
-        "position": "Account Executive Pasangiklan.com",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 09:07:41",
         "source": "github_action",
@@ -7136,6 +7129,13 @@
         "timestamp": "2026-04-16 09:53:11",
         "source": "github_action",
         "candidate": "Nauroh Fidiyah Aprinda",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 09:53:36",
+        "source": "github_action",
+        "candidate": "Bella Dwi Cahyani",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
