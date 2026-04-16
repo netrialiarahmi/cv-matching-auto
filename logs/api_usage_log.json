@@ -6429,22 +6429,15 @@
     ]
   },
   "2026-04-16": {
-    "total": 150,
+    "total": 151,
     "streamlit": 0,
-    "github_action": 150,
-    "successful": 150,
+    "github_action": 151,
+    "successful": 151,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 150
+      "Account Executive VCBL": 151
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 04:43:44",
-        "source": "github_action",
-        "candidate": "Dwiky Satria",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 04:44:17",
         "source": "github_action",
@@ -7135,6 +7128,13 @@
         "timestamp": "2026-04-16 05:27:07",
         "source": "github_action",
         "candidate": "Fadli Rahman",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 05:27:35",
+        "source": "github_action",
+        "candidate": "Iqbal Fathurrahman",
         "position": "Account Executive VCBL",
         "success": true
       }
