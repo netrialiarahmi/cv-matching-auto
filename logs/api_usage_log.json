@@ -6429,24 +6429,17 @@
     ]
   },
   "2026-04-16": {
-    "total": 758,
+    "total": 759,
     "streamlit": 0,
-    "github_action": 758,
-    "successful": 758,
+    "github_action": 759,
+    "successful": 759,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
       "Account Executive Pasangiklan.com": 423,
-      "Business Development Analyst": 45
+      "Business Development Analyst": 46
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 09:29:08",
-        "source": "github_action",
-        "candidate": "Qeis Rakan Aqil",
-        "position": "Account Executive Pasangiklan.com",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 09:29:34",
         "source": "github_action",
@@ -7137,6 +7130,13 @@
         "timestamp": "2026-04-16 10:17:21",
         "source": "github_action",
         "candidate": "Rayhan Putra",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 10:17:50",
+        "source": "github_action",
+        "candidate": "Kadek Nia Widiartini",
         "position": "Business Development Analyst",
         "success": true
       }
