@@ -6429,24 +6429,17 @@
     ]
   },
   "2026-04-16": {
-    "total": 737,
+    "total": 738,
     "streamlit": 0,
-    "github_action": 737,
-    "successful": 737,
+    "github_action": 738,
+    "successful": 738,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
       "Account Executive Pasangiklan.com": 423,
-      "Business Development Analyst": 24
+      "Business Development Analyst": 25
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 09:18:51",
-        "source": "github_action",
-        "candidate": "Muhammad Zahid Abdullah",
-        "position": "Account Executive Pasangiklan.com",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 09:19:22",
         "source": "github_action",
@@ -7137,6 +7130,13 @@
         "timestamp": "2026-04-16 10:06:24",
         "source": "github_action",
         "candidate": "akmal putra utomo",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 10:06:56",
+        "source": "github_action",
+        "candidate": "Agung Pramono",
         "position": "Business Development Analyst",
         "success": true
       }
