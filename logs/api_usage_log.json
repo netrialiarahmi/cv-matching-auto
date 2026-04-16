@@ -6429,23 +6429,16 @@
     ]
   },
   "2026-04-16": {
-    "total": 312,
+    "total": 313,
     "streamlit": 0,
-    "github_action": 312,
-    "successful": 312,
+    "github_action": 313,
+    "successful": 313,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
-      "Account Executive Pasangiklan.com": 22
+      "Account Executive Pasangiklan.com": 23
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 05:55:49",
-        "source": "github_action",
-        "candidate": "Jemy kartika Putra",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 05:56:18",
         "source": "github_action",
@@ -7136,6 +7129,13 @@
         "timestamp": "2026-04-16 06:38:18",
         "source": "github_action",
         "candidate": "Muhammad Nawawi",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 06:38:48",
+        "source": "github_action",
+        "candidate": "Puteri Natasya",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
