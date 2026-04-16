@@ -6429,23 +6429,16 @@
     ]
   },
   "2026-04-16": {
-    "total": 361,
+    "total": 362,
     "streamlit": 0,
-    "github_action": 361,
-    "successful": 361,
+    "github_action": 362,
+    "successful": 362,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
-      "Account Executive Pasangiklan.com": 71
+      "Account Executive Pasangiklan.com": 72
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 06:16:33",
-        "source": "github_action",
-        "candidate": "Divia  Magdalena",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 06:16:58",
         "source": "github_action",
@@ -7136,6 +7129,13 @@
         "timestamp": "2026-04-16 07:03:56",
         "source": "github_action",
         "candidate": "Vivin Vindiarti",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 07:04:31",
+        "source": "github_action",
+        "candidate": "Frisky Adventius Zendrato",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
