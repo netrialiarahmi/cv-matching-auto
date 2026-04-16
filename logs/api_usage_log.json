@@ -6429,22 +6429,15 @@
     ]
   },
   "2026-04-16": {
-    "total": 219,
+    "total": 220,
     "streamlit": 0,
-    "github_action": 219,
-    "successful": 219,
+    "github_action": 220,
+    "successful": 220,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 219
+      "Account Executive VCBL": 220
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 05:14:12",
-        "source": "github_action",
-        "candidate": "yohan wahyudi",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 05:14:14",
         "source": "github_action",
@@ -7135,6 +7128,13 @@
         "timestamp": "2026-04-16 05:58:41",
         "source": "github_action",
         "candidate": "adisa rafina",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 05:59:11",
+        "source": "github_action",
+        "candidate": "Pankratius Tri Lucianto",
         "position": "Account Executive VCBL",
         "success": true
       }
