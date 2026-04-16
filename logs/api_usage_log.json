@@ -6429,22 +6429,15 @@
     ]
   },
   "2026-04-16": {
-    "total": 253,
+    "total": 254,
     "streamlit": 0,
-    "github_action": 253,
-    "successful": 253,
+    "github_action": 254,
+    "successful": 254,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 253
+      "Account Executive VCBL": 254
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 05:28:54",
-        "source": "github_action",
-        "candidate": "Raihan Isbintara",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 05:29:22",
         "source": "github_action",
@@ -7135,6 +7128,13 @@
         "timestamp": "2026-04-16 06:13:23",
         "source": "github_action",
         "candidate": "Laksa Wingga",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 06:13:25",
+        "source": "github_action",
+        "candidate": "Juanina Gomes",
         "position": "Account Executive VCBL",
         "success": true
       }
