@@ -6429,22 +6429,15 @@
     ]
   },
   "2026-04-16": {
-    "total": 245,
+    "total": 246,
     "streamlit": 0,
-    "github_action": 245,
-    "successful": 245,
+    "github_action": 246,
+    "successful": 246,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 245
+      "Account Executive VCBL": 246
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 05:25:14",
-        "source": "github_action",
-        "candidate": "Aisa Nisarizulma",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 05:25:44",
         "source": "github_action",
@@ -7135,6 +7128,13 @@
         "timestamp": "2026-04-16 06:10:33",
         "source": "github_action",
         "candidate": "Muhammad Ala adiyat",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 06:11:00",
+        "source": "github_action",
+        "candidate": "Muhammad  Yusuf",
         "position": "Account Executive VCBL",
         "success": true
       }
