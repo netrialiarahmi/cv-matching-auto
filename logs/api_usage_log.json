@@ -6429,13 +6429,13 @@
     ]
   },
   "2026-04-16": {
-    "total": 4,
+    "total": 5,
     "streamlit": 0,
-    "github_action": 4,
-    "successful": 4,
+    "github_action": 5,
+    "successful": 5,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 4
+      "Account Executive VCBL": 5
     },
     "entries": [
       {
@@ -6463,6 +6463,13 @@
         "timestamp": "2026-04-16 04:24:14",
         "source": "github_action",
         "candidate": "Ilham Rahmatulloh",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 04:24:46",
+        "source": "github_action",
+        "candidate": "Mohammad Farhan Saputra",
         "position": "Account Executive VCBL",
         "success": true
       }
