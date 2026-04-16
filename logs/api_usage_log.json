@@ -6429,22 +6429,15 @@
     ]
   },
   "2026-04-16": {
-    "total": 208,
+    "total": 209,
     "streamlit": 0,
-    "github_action": 208,
-    "successful": 208,
+    "github_action": 209,
+    "successful": 209,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 208
+      "Account Executive VCBL": 209
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 05:09:26",
-        "source": "github_action",
-        "candidate": "Genta Unggul Ananta Asyrofle",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 05:09:53",
         "source": "github_action",
@@ -7135,6 +7128,13 @@
         "timestamp": "2026-04-16 05:53:32",
         "source": "github_action",
         "candidate": "Alief Martin",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 05:53:57",
+        "source": "github_action",
+        "candidate": "Syahda Zalenina",
         "position": "Account Executive VCBL",
         "success": true
       }
