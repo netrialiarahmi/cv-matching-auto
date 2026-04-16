@@ -6429,24 +6429,17 @@
     ]
   },
   "2026-04-16": {
-    "total": 750,
+    "total": 751,
     "streamlit": 0,
-    "github_action": 750,
-    "successful": 750,
+    "github_action": 751,
+    "successful": 751,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
       "Account Executive Pasangiklan.com": 423,
-      "Business Development Analyst": 37
+      "Business Development Analyst": 38
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 09:25:18",
-        "source": "github_action",
-        "candidate": "Benedita Caroline",
-        "position": "Account Executive Pasangiklan.com",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 09:25:52",
         "source": "github_action",
@@ -7137,6 +7130,13 @@
         "timestamp": "2026-04-16 10:13:23",
         "source": "github_action",
         "candidate": "cecep aris afandi andi",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 10:13:50",
+        "source": "github_action",
+        "candidate": "I Gusti Agung Sanjaya Setyanegara",
         "position": "Business Development Analyst",
         "success": true
       }
