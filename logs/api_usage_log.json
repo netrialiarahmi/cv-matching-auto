@@ -6429,23 +6429,16 @@
     ]
   },
   "2026-04-16": {
-    "total": 677,
+    "total": 678,
     "streamlit": 0,
-    "github_action": 677,
-    "successful": 677,
+    "github_action": 678,
+    "successful": 678,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
-      "Account Executive Pasangiklan.com": 387
+      "Account Executive Pasangiklan.com": 388
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 08:50:41",
-        "source": "github_action",
-        "candidate": "Angie Ridhiana",
-        "position": "Account Executive Pasangiklan.com",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 08:51:16",
         "source": "github_action",
@@ -7136,6 +7129,13 @@
         "timestamp": "2026-04-16 09:37:52",
         "source": "github_action",
         "candidate": "Siti Fakhriyatussyah Aribah",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 09:38:22",
+        "source": "github_action",
+        "candidate": "Lalu Muhammad Hafid Naufal",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
