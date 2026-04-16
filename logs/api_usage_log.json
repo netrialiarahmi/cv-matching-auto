@@ -6429,22 +6429,15 @@
     ]
   },
   "2026-04-16": {
-    "total": 162,
+    "total": 163,
     "streamlit": 0,
-    "github_action": 162,
-    "successful": 162,
+    "github_action": 163,
+    "successful": 163,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 162
+      "Account Executive VCBL": 163
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 04:49:27",
-        "source": "github_action",
-        "candidate": "Reynaldi Rizky Aulia Bassar",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 04:49:55",
         "source": "github_action",
@@ -7135,6 +7128,13 @@
         "timestamp": "2026-04-16 05:32:15",
         "source": "github_action",
         "candidate": "Grace Horstefanny",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 05:32:40",
+        "source": "github_action",
+        "candidate": "Beatrix Gotama",
         "position": "Account Executive VCBL",
         "success": true
       }
