@@ -6429,22 +6429,15 @@
     ]
   },
   "2026-04-16": {
-    "total": 273,
+    "total": 274,
     "streamlit": 0,
-    "github_action": 273,
-    "successful": 273,
+    "github_action": 274,
+    "successful": 274,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 273
+      "Account Executive VCBL": 274
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 05:37:32",
-        "source": "github_action",
-        "candidate": "Wira Laksana",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 05:37:59",
         "source": "github_action",
@@ -7135,6 +7128,13 @@
         "timestamp": "2026-04-16 06:20:17",
         "source": "github_action",
         "candidate": "Lia Amelia",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 06:20:44",
+        "source": "github_action",
+        "candidate": "Nadya Putri",
         "position": "Account Executive VCBL",
         "success": true
       }
