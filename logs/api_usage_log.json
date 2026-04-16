@@ -6430,13 +6430,12 @@
   },
   "2026-04-16": {
     "total": 19,
-    "streamlit": 1,
-    "github_action": 18,
+    "streamlit": 0,
+    "github_action": 19,
     "successful": 19,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 18,
-      "Marketing Communication Officer KG Media": 1
+      "Account Executive VCBL": 19
     },
     "entries": [
       {
@@ -6566,10 +6565,10 @@
         "success": true
       },
       {
-        "timestamp": "2026-04-16 04:29:38",
-        "source": "streamlit",
-        "candidate": "Yehezkiel Marfin",
-        "position": "Marketing Communication Officer KG Media",
+        "timestamp": "2026-04-16 04:29:43",
+        "source": "github_action",
+        "candidate": "At Thariq Aleeyah Tsamara",
+        "position": "Account Executive VCBL",
         "success": true
       }
     ]
