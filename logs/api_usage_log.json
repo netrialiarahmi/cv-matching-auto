@@ -6429,22 +6429,15 @@
     ]
   },
   "2026-04-16": {
-    "total": 223,
+    "total": 224,
     "streamlit": 0,
-    "github_action": 223,
-    "successful": 223,
+    "github_action": 224,
+    "successful": 224,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 223
+      "Account Executive VCBL": 224
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 05:15:43",
-        "source": "github_action",
-        "candidate": "Sherina Agustina",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 05:16:08",
         "source": "github_action",
@@ -7135,6 +7128,13 @@
         "timestamp": "2026-04-16 06:00:11",
         "source": "github_action",
         "candidate": "Rini R",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 06:00:37",
+        "source": "github_action",
+        "candidate": "Gabrielle Havana Putri",
         "position": "Account Executive VCBL",
         "success": true
       }
