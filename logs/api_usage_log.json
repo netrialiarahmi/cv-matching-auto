@@ -6429,23 +6429,16 @@
     ]
   },
   "2026-04-16": {
-    "total": 482,
+    "total": 483,
     "streamlit": 0,
-    "github_action": 482,
-    "successful": 482,
+    "github_action": 483,
+    "successful": 483,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
-      "Account Executive Pasangiklan.com": 192
+      "Account Executive Pasangiklan.com": 193
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 07:14:54",
-        "source": "github_action",
-        "candidate": "Mega Adilla S H",
-        "position": "Account Executive Pasangiklan.com",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 07:15:24",
         "source": "github_action",
@@ -7136,6 +7129,13 @@
         "timestamp": "2026-04-16 08:03:40",
         "source": "github_action",
         "candidate": "Dinda Wulandari",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 08:04:10",
+        "source": "github_action",
+        "candidate": "Petrus Herman Prasetiyo",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
