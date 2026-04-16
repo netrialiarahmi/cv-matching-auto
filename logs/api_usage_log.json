@@ -6429,13 +6429,13 @@
     ]
   },
   "2026-04-16": {
-    "total": 70,
+    "total": 71,
     "streamlit": 0,
-    "github_action": 70,
-    "successful": 70,
+    "github_action": 71,
+    "successful": 71,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 70
+      "Account Executive VCBL": 71
     },
     "entries": [
       {
@@ -6925,6 +6925,13 @@
         "timestamp": "2026-04-16 04:52:33",
         "source": "github_action",
         "candidate": "Farid Abdullah",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 04:53:03",
+        "source": "github_action",
+        "candidate": "Dedi Kurniawan",
         "position": "Account Executive VCBL",
         "success": true
       }
