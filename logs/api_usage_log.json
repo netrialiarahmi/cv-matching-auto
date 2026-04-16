@@ -6429,23 +6429,16 @@
     ]
   },
   "2026-04-16": {
-    "total": 451,
+    "total": 452,
     "streamlit": 0,
-    "github_action": 451,
-    "successful": 451,
+    "github_action": 452,
+    "successful": 452,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
-      "Account Executive Pasangiklan.com": 161
+      "Account Executive Pasangiklan.com": 162
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 06:59:17",
-        "source": "github_action",
-        "candidate": "Cori Jonar Natanail",
-        "position": "Account Executive Pasangiklan.com",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 06:59:45",
         "source": "github_action",
@@ -7136,6 +7129,13 @@
         "timestamp": "2026-04-16 07:48:07",
         "source": "github_action",
         "candidate": "Muhamad ikhsan Maulana",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 07:48:35",
+        "source": "github_action",
+        "candidate": "Wendra Lim",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
