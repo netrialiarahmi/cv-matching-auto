@@ -6429,23 +6429,16 @@
     ]
   },
   "2026-04-16": {
-    "total": 600,
+    "total": 601,
     "streamlit": 0,
-    "github_action": 600,
-    "successful": 600,
+    "github_action": 601,
+    "successful": 601,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
-      "Account Executive Pasangiklan.com": 310
+      "Account Executive Pasangiklan.com": 311
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 08:13:04",
-        "source": "github_action",
-        "candidate": "Isnasha  Surwiyanta",
-        "position": "Account Executive Pasangiklan.com",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 08:13:21",
         "source": "github_action",
@@ -7136,6 +7129,13 @@
         "timestamp": "2026-04-16 09:01:58",
         "source": "github_action",
         "candidate": "Muhammad Rafee Ramadhani",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 09:02:31",
+        "source": "github_action",
+        "candidate": "Jheremy Putra",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
