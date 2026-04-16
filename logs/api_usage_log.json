@@ -6429,22 +6429,15 @@
     ]
   },
   "2026-04-16": {
-    "total": 250,
+    "total": 251,
     "streamlit": 0,
-    "github_action": 250,
-    "successful": 250,
+    "github_action": 251,
+    "successful": 251,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 250
+      "Account Executive VCBL": 251
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 05:27:35",
-        "source": "github_action",
-        "candidate": "Iqbal Fathurrahman",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 05:28:02",
         "source": "github_action",
@@ -7135,6 +7128,13 @@
         "timestamp": "2026-04-16 06:12:25",
         "source": "github_action",
         "candidate": "aldi rivaldi",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 06:12:52",
+        "source": "github_action",
+        "candidate": "Muhammad lazuardy",
         "position": "Account Executive VCBL",
         "success": true
       }
