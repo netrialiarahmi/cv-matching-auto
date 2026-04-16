@@ -6429,23 +6429,16 @@
     ]
   },
   "2026-04-16": {
-    "total": 595,
+    "total": 596,
     "streamlit": 0,
-    "github_action": 595,
-    "successful": 595,
+    "github_action": 596,
+    "successful": 596,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
-      "Account Executive Pasangiklan.com": 305
+      "Account Executive Pasangiklan.com": 306
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 08:10:26",
-        "source": "github_action",
-        "candidate": "Rico Ramanda",
-        "position": "Account Executive Pasangiklan.com",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 08:10:58",
         "source": "github_action",
@@ -7136,6 +7129,13 @@
         "timestamp": "2026-04-16 08:59:26",
         "source": "github_action",
         "candidate": "Yogi Nugroho",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 08:59:56",
+        "source": "github_action",
+        "candidate": "Elita Putri",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
