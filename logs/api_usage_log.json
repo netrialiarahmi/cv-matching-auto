@@ -6429,22 +6429,15 @@
     ]
   },
   "2026-04-16": {
-    "total": 156,
+    "total": 157,
     "streamlit": 0,
-    "github_action": 156,
-    "successful": 156,
+    "github_action": 157,
+    "successful": 157,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 156
+      "Account Executive VCBL": 157
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 04:46:40",
-        "source": "github_action",
-        "candidate": "Amyra Amalia Aqila",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 04:47:07",
         "source": "github_action",
@@ -7135,6 +7128,13 @@
         "timestamp": "2026-04-16 05:29:50",
         "source": "github_action",
         "candidate": "Dhianya Putri Shafiya Wicaksono",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 05:29:52",
+        "source": "github_action",
+        "candidate": "Agil Sundana",
         "position": "Account Executive VCBL",
         "success": true
       }
