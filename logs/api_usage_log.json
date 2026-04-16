@@ -6429,23 +6429,16 @@
     ]
   },
   "2026-04-16": {
-    "total": 386,
+    "total": 387,
     "streamlit": 0,
-    "github_action": 386,
-    "successful": 386,
+    "github_action": 387,
+    "successful": 387,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
-      "Account Executive Pasangiklan.com": 96
+      "Account Executive Pasangiklan.com": 97
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 06:26:32",
-        "source": "github_action",
-        "candidate": "Aditia Sebayang",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 06:26:59",
         "source": "github_action",
@@ -7136,6 +7129,13 @@
         "timestamp": "2026-04-16 07:16:29",
         "source": "github_action",
         "candidate": "Afrizal Naufal Ghani",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 07:16:55",
+        "source": "github_action",
+        "candidate": "tavera permatasari",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
