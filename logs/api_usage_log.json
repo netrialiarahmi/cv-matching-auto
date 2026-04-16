@@ -6429,22 +6429,15 @@
     ]
   },
   "2026-04-16": {
-    "total": 190,
+    "total": 191,
     "streamlit": 0,
-    "github_action": 190,
-    "successful": 190,
+    "github_action": 191,
+    "successful": 191,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 190
+      "Account Executive VCBL": 191
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 05:01:38",
-        "source": "github_action",
-        "candidate": "Hilbram Syahrul",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 05:02:06",
         "source": "github_action",
@@ -7135,6 +7128,13 @@
         "timestamp": "2026-04-16 05:44:51",
         "source": "github_action",
         "candidate": "Nachita   Putri Madina",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 05:45:20",
+        "source": "github_action",
+        "candidate": "Salma Firda Sabila",
         "position": "Account Executive VCBL",
         "success": true
       }
