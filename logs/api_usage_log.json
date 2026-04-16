@@ -6429,13 +6429,14 @@
     ]
   },
   "2026-04-16": {
-    "total": 21,
-    "streamlit": 0,
+    "total": 22,
+    "streamlit": 1,
     "github_action": 21,
-    "successful": 21,
+    "successful": 22,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 21
+      "Account Executive VCBL": 21,
+      "Marketing Communication Officer KG Media": 1
     },
     "entries": [
       {
@@ -6583,6 +6584,13 @@
         "source": "github_action",
         "candidate": "Doni Wenfery Simorangkir",
         "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 04:30:56",
+        "source": "streamlit",
+        "candidate": "Arsyi Leganisa",
+        "position": "Marketing Communication Officer KG Media",
         "success": true
       }
     ]
