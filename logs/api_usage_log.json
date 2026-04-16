@@ -6429,23 +6429,16 @@
     ]
   },
   "2026-04-16": {
-    "total": 341,
+    "total": 342,
     "streamlit": 0,
-    "github_action": 341,
-    "successful": 341,
+    "github_action": 342,
+    "successful": 342,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
-      "Account Executive Pasangiklan.com": 51
+      "Account Executive Pasangiklan.com": 52
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 06:09:08",
-        "source": "github_action",
-        "candidate": "Wulandari Wahyu Dwina Putri",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 06:09:35",
         "source": "github_action",
@@ -7136,6 +7129,13 @@
         "timestamp": "2026-04-16 06:53:42",
         "source": "github_action",
         "candidate": "Usman Nurul Qur'an",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 06:54:13",
+        "source": "github_action",
+        "candidate": "Yoda NovalRidho",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
