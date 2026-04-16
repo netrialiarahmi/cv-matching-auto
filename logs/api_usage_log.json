@@ -6429,23 +6429,16 @@
     ]
   },
   "2026-04-16": {
-    "total": 338,
+    "total": 339,
     "streamlit": 0,
-    "github_action": 338,
-    "successful": 338,
+    "github_action": 339,
+    "successful": 339,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
-      "Account Executive Pasangiklan.com": 48
+      "Account Executive Pasangiklan.com": 49
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 06:07:36",
-        "source": "github_action",
-        "candidate": "Chendri Yunan",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 06:08:04",
         "source": "github_action",
@@ -7136,6 +7129,13 @@
         "timestamp": "2026-04-16 06:52:06",
         "source": "github_action",
         "candidate": "Ahmad Burhanuddin Syah",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 06:52:39",
+        "source": "github_action",
+        "candidate": "Nadya Rachma Ayu",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
