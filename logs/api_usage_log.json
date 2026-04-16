@@ -6429,22 +6429,15 @@
     ]
   },
   "2026-04-16": {
-    "total": 221,
+    "total": 222,
     "streamlit": 0,
-    "github_action": 221,
-    "successful": 221,
+    "github_action": 222,
+    "successful": 222,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 221
+      "Account Executive VCBL": 222
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 05:14:49",
-        "source": "github_action",
-        "candidate": "Toddy Ezra Anugerah",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 05:15:15",
         "source": "github_action",
@@ -7135,6 +7128,13 @@
         "timestamp": "2026-04-16 05:59:13",
         "source": "github_action",
         "candidate": "Inka Piola Naretin Rahayu",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 05:59:43",
+        "source": "github_action",
+        "candidate": "Ivander Epriano Sebastian",
         "position": "Account Executive VCBL",
         "success": true
       }
