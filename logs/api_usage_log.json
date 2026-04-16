@@ -6429,13 +6429,13 @@
     ]
   },
   "2026-04-16": {
-    "total": 29,
+    "total": 30,
     "streamlit": 0,
-    "github_action": 29,
-    "successful": 29,
+    "github_action": 30,
+    "successful": 30,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 29
+      "Account Executive VCBL": 30
     },
     "entries": [
       {
@@ -6638,6 +6638,13 @@
         "timestamp": "2026-04-16 04:34:31",
         "source": "github_action",
         "candidate": "Pinkan Maliha Yasmin",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 04:34:34",
+        "source": "github_action",
+        "candidate": "Sidiq Yogha Nariza",
         "position": "Account Executive VCBL",
         "success": true
       }
