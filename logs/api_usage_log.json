@@ -6429,23 +6429,16 @@
     ]
   },
   "2026-04-16": {
-    "total": 313,
+    "total": 314,
     "streamlit": 0,
-    "github_action": 313,
-    "successful": 313,
+    "github_action": 314,
+    "successful": 314,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
-      "Account Executive Pasangiklan.com": 23
+      "Account Executive Pasangiklan.com": 24
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 05:56:18",
-        "source": "github_action",
-        "candidate": "DEVI AYU RAHMATIKA",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 05:56:48",
         "source": "github_action",
@@ -7136,6 +7129,13 @@
         "timestamp": "2026-04-16 06:38:48",
         "source": "github_action",
         "candidate": "Puteri Natasya",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 06:39:19",
+        "source": "github_action",
+        "candidate": "Kristi Ayu",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
