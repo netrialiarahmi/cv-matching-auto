@@ -33,7 +33,7 @@ def _log_warning(message):
 GOOGLE_SHEETS_URL = "https://docs.google.com/spreadsheets/d/e/2PACX-1vRKC_5lHg9yJgGoBlkH0A-fjpjpiYu4MzO4ieEdSId5wAKS7bsLDdplXWx8944xFlHf2f9lVcUYzVcr/pub?output=csv"
 
 # Local cached positions file (synced weekly from Google Sheets)
-SHEET_POSITIONS_FILE = "sheet_positions.csv"
+SHEET_POSITIONS_FILE = os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))), "data", "sheet_positions.csv")
 
 
 def _load_cached_sheet_positions():

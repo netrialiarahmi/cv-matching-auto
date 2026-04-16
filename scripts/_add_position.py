@@ -34,7 +34,7 @@ row = [
     ''        # Last Modified
 ]
 
-with open('job_positions.csv', 'a', newline='') as f:
+with open('data/job_positions.csv', 'a', newline='') as f:
     writer = csv.writer(f)
     writer.writerow(row)
 
@@ -45,10 +45,10 @@ sheet_row = [
     'Data Analyst KG Media',
     '265246',
     '',
-    'kalibrr_exports/Data_Analyst_KG_Media.csv'
+    'data/raw/Data_Analyst_KG_Media.csv'
 ]
 
-with open('sheet_positions.csv', 'a', newline='') as f:
+with open('data/sheet_positions.csv', 'a', newline='') as f:
     writer = csv.writer(f)
     writer.writerow(sheet_row)
 

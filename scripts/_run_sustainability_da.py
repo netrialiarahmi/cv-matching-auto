@@ -7,11 +7,11 @@ load_dotenv()
 import pandas as pd
 from scripts.auto_screen import screen_position
 
-jobs_df = pd.read_csv('job_positions.csv')
+jobs_df = pd.read_csv('data/job_positions.csv')
 
 positions_to_run = [
-    ('Sustainability Officer KG Media', 'kalibrr_exports/Sustainability_Officer_KG_Media.csv'),
-    ('Data Analyst (Business Intelligence)', 'kalibrr_exports/Data_Analyst_KG_Media.csv'),
+    ('Sustainability Officer KG Media', 'data/raw/Sustainability_Officer_KG_Media.csv'),
+    ('Data Analyst (Business Intelligence)', 'data/raw/Data_Analyst_KG_Media.csv'),
 ]
 
 for pos_name, csv_path in positions_to_run:

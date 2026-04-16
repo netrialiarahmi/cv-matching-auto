@@ -13,12 +13,12 @@ from src.pipelines.scorer import score_candidate_pipeline
 from src.repositories.github_utils import parse_kalibrr_date
 
 # Load CSV
-csv_path = 'kalibrr_exports/Account_Executive_Pasangiklancom.csv'
+csv_path = 'data/raw/Account_Executive_Pasangiklancom.csv'
 df = pd.read_csv(csv_path)
 print(f"Loaded {len(df)} candidates from {csv_path}")
 
 # Get job description 
-jobs_df = pd.read_csv('job_positions.csv')
+jobs_df = pd.read_csv('data/job_positions.csv')
 row = jobs_df[jobs_df['Job Position'].str.contains('Pasangiklan', na=False)].iloc[0]
 position_name = row['Job Position']
 job_description = row['Job Description']

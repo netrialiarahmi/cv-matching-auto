@@ -650,7 +650,7 @@ def clear_results_cache():
     load_results_for_position.clear()
 
 
-def save_job_positions_to_github(df, path="job_positions.csv"):
+def save_job_positions_to_github(df, path="data/job_positions.csv"):
     """Save or update job_positions.csv in GitHub repo.
     
     Returns:
@@ -760,7 +760,7 @@ def save_job_positions_to_github(df, path="job_positions.csv"):
         return False
 
 
-def load_job_positions_from_github(path="job_positions.csv"):
+def load_job_positions_from_github(path="data/job_positions.csv"):
     """Load job_positions.csv from GitHub repo, with fallback to local file."""
     token = _get_config("GITHUB_TOKEN")
     repo = _get_config("GITHUB_REPO", "netrialiarahmi/cv-matching-auto")
@@ -837,7 +837,7 @@ def load_job_positions_from_github(path="job_positions.csv"):
         return pd.DataFrame(columns=["Job Position", "Job Description", "Date Created"])
 
 
-def delete_job_position_from_github(job_position, path="job_positions.csv"):
+def delete_job_position_from_github(job_position, path="data/job_positions.csv"):
     """Delete a specific job position from GitHub repo.
     
     Args:
@@ -1026,7 +1026,7 @@ def update_results_in_github(df, path=None, job_position=None, max_retries=3, si
     return False
 
 
-def update_job_position_in_github(old_position, new_position, new_description, new_job_id=None, path="job_positions.csv"):
+def update_job_position_in_github(old_position, new_position, new_description, new_job_id=None, path="data/job_positions.csv"):
     """Update a specific job position in GitHub repo.
     
     Args:
@@ -1108,7 +1108,7 @@ def update_job_position_in_github(old_position, new_position, new_description, n
         return False
 
 
-def toggle_job_pooling_status(job_position, pooling_status, path="job_positions.csv"):
+def toggle_job_pooling_status(job_position, pooling_status, path="data/job_positions.csv"):
     """Toggle pooling status for a specific job position.
     
     Args:

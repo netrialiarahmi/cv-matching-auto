@@ -132,8 +132,8 @@ def download_csv(csv_url, upload_id):
         return 1
     
     safe_name = POSITION.replace(" ", "_").replace(".", "").replace("/", "_")
-    filepath = f"kalibrr_exports/{safe_name}.csv"
-    os.makedirs("kalibrr_exports", exist_ok=True)
+    filepath = f"data/raw/{safe_name}.csv"
+    os.makedirs("data/raw", exist_ok=True)
     with open(filepath, "w") as f:
         f.write(r.text)
     
@@ -142,7 +142,7 @@ def download_csv(csv_url, upload_id):
     print(f"Columns: {list(df.columns)[:8]}...")
     
     # Update sheet_positions.csv
-    sheet_path = "sheet_positions.csv"
+    sheet_path = "data/sheet_positions.csv"
     if os.path.exists(sheet_path):
         sheet_df = pd.read_csv(sheet_path)
     else:

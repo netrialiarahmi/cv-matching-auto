@@ -79,7 +79,10 @@ def fetch_candidates_from_file_storage(file_storage_url, max_retries=3):
 
         # Fallback: stale absolute path from a different runner environment
         if not file_path.exists() and "kalibrr_exports" in url:
-            relative_part = url[url.index("kalibrr_exports"):]
+            relative_part = url[url.index("kalibrr_exports"):].replace("kalibrr_exports", "data/raw", 1)
+            file_path = PROJECT_ROOT / relative_part
+        if not file_path.exists() and "data/raw" in url:
+            relative_part = url[url.index("data/raw"):]
             file_path = PROJECT_ROOT / relative_part
 
         if file_path.exists():

@@ -9,7 +9,7 @@ os.chdir(WORKDIR)
 # 1. Read the remote results from GitHub
 print("=== Step 1: Read remote results ===")
 remote_csv = subprocess.run(
-    ["git", "show", "origin/main:results/results_Data_Analyst_Business_Intelligence.csv"],
+    ["git", "show", "origin/main:data/processed/results_Data_Analyst_Business_Intelligence.csv"],
     capture_output=True, text=True
 ).stdout
 
@@ -20,7 +20,7 @@ print(f"Remote emails: {remote_df['Candidate Email'].tolist()}")
 
 # 2. Read local results
 print("\n=== Step 2: Read local results ===")
-local_df = pd.read_csv("results/results_Data_Analyst_KG_Media.csv")
+local_df = pd.read_csv("data/processed/results_Data_Analyst_KG_Media.csv")
 print(f"Local candidates: {len(local_df)}")
 print(f"Local emails (first 5): {local_df['Candidate Email'].head().tolist()}")
 
@@ -42,18 +42,18 @@ if "Date Applied" in merged.columns:
     merged = merged.sort_values(by=["Date Applied"], ascending=[False], na_position="last").reset_index(drop=True)
 
 # 5. Save to the correct filename
-output_path = "results/results_Data_Analyst_Business_Intelligence.csv"
+output_path = "data/processed/results_Data_Analyst_Business_Intelligence.csv"
 merged.to_csv(output_path, index=False)
 print(f"\n=== Step 4: Saved merged results to {output_path} ===")
 print(f"Total candidates: {len(merged)}")
 
 # 6. Remove the old local-only results file
-if os.path.exists("results/results_Data_Analyst_KG_Media.csv"):
-    os.remove("results/results_Data_Analyst_KG_Media.csv")
-    print("Removed results/results_Data_Analyst_KG_Media.csv (merged into correct file)")
+if os.path.exists("data/processed/results_Data_Analyst_KG_Media.csv"):
+    os.remove("data/processed/results_Data_Analyst_KG_Media.csv")
+    print("Removed data/processed/results_Data_Analyst_KG_Media.csv (merged into correct file)")
 
 # 7. How many candidates still need processing?
-export_df = pd.read_csv("kalibrr_exports/Data_Analyst_KG_Media.csv")
+export_df = pd.read_csv("data/raw/Data_Analyst_KG_Media.csv")
 all_emails = set(export_df["Email Address"].dropna().str.lower())
 processed_emails = set(merged["Candidate Email"].dropna().str.lower())
 remaining = all_emails - processed_emails

@@ -207,8 +207,8 @@ async def main():
             
             df = pd.DataFrame(rows)
             safe_name = POSITION.replace(" ", "_").replace(".", "").replace("/", "_")
-            filepath = os.path.join("kalibrr_exports", f"{safe_name}.csv")
-            os.makedirs("kalibrr_exports", exist_ok=True)
+            filepath = os.path.join("data", "raw", f"{safe_name}.csv")
+            os.makedirs(os.path.join("data", "raw"), exist_ok=True)
             df.to_csv(filepath, index=False)
             print(f"\nSaved: {filepath} ({len(df)} rows, {len(df.columns)} columns)")
             print(f"Columns: {list(df.columns)}")
