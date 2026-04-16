@@ -6429,23 +6429,16 @@
     ]
   },
   "2026-04-16": {
-    "total": 347,
+    "total": 348,
     "streamlit": 0,
-    "github_action": 347,
-    "successful": 347,
+    "github_action": 348,
+    "successful": 348,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
-      "Account Executive Pasangiklan.com": 57
+      "Account Executive Pasangiklan.com": 58
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 06:11:54",
-        "source": "github_action",
-        "candidate": "Syeira Aprillia Purwitasari",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 06:12:22",
         "source": "github_action",
@@ -7136,6 +7129,13 @@
         "timestamp": "2026-04-16 06:56:45",
         "source": "github_action",
         "candidate": "Sri Dewi Nur Pasha",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 06:57:18",
+        "source": "github_action",
+        "candidate": "Hashfi Erlingga Prawira",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
