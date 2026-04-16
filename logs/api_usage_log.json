@@ -6429,23 +6429,16 @@
     ]
   },
   "2026-04-16": {
-    "total": 696,
+    "total": 697,
     "streamlit": 0,
-    "github_action": 696,
-    "successful": 696,
+    "github_action": 697,
+    "successful": 697,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
-      "Account Executive Pasangiklan.com": 406
+      "Account Executive Pasangiklan.com": 407
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 09:00:29",
-        "source": "github_action",
-        "candidate": "Hasna Rania",
-        "position": "Account Executive Pasangiklan.com",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 09:00:56",
         "source": "github_action",
@@ -7136,6 +7129,13 @@
         "timestamp": "2026-04-16 09:46:39",
         "source": "github_action",
         "candidate": "Lala Arsela Meithasyana",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 09:47:08",
+        "source": "github_action",
+        "candidate": "Reka Mauria Pribadi, S.H.,M.M",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
