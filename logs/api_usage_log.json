@@ -6429,23 +6429,16 @@
     ]
   },
   "2026-04-16": {
-    "total": 564,
+    "total": 565,
     "streamlit": 0,
-    "github_action": 564,
-    "successful": 564,
+    "github_action": 565,
+    "successful": 565,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
-      "Account Executive Pasangiklan.com": 274
+      "Account Executive Pasangiklan.com": 275
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 07:55:20",
-        "source": "github_action",
-        "candidate": "ARIQ SATRIA SUPANGKAT",
-        "position": "Account Executive Pasangiklan.com",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 07:55:52",
         "source": "github_action",
@@ -7136,6 +7129,13 @@
         "timestamp": "2026-04-16 08:43:29",
         "source": "github_action",
         "candidate": "Rizky Ramadhan",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 08:44:02",
+        "source": "github_action",
+        "candidate": "Pinkan Maliha Yasmin",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
