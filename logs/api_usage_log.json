@@ -6429,23 +6429,16 @@
     ]
   },
   "2026-04-16": {
-    "total": 400,
+    "total": 401,
     "streamlit": 0,
-    "github_action": 400,
-    "successful": 400,
+    "github_action": 401,
+    "successful": 401,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
-      "Account Executive Pasangiklan.com": 110
+      "Account Executive Pasangiklan.com": 111
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 06:32:31",
-        "source": "github_action",
-        "candidate": "Muhammad Raushan Fikri",
-        "position": "Account Executive Pasangiklan.com",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 06:33:02",
         "source": "github_action",
@@ -7136,6 +7129,13 @@
         "timestamp": "2026-04-16 07:23:24",
         "source": "github_action",
         "candidate": "Oinike Theresia",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 07:23:56",
+        "source": "github_action",
+        "candidate": "Ihkrom Widya",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
