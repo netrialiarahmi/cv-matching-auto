@@ -6429,23 +6429,16 @@
     ]
   },
   "2026-04-16": {
-    "total": 322,
+    "total": 323,
     "streamlit": 0,
-    "github_action": 322,
-    "successful": 322,
+    "github_action": 323,
+    "successful": 323,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
-      "Account Executive Pasangiklan.com": 32
+      "Account Executive Pasangiklan.com": 33
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 06:00:11",
-        "source": "github_action",
-        "candidate": "Rini R",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 06:00:37",
         "source": "github_action",
@@ -7136,6 +7129,13 @@
         "timestamp": "2026-04-16 06:43:34",
         "source": "github_action",
         "candidate": "Isnaeni Nurhamidah",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 06:44:06",
+        "source": "github_action",
+        "candidate": "Rakha Addha Prasetya",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
