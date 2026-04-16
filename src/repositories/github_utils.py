@@ -681,6 +681,11 @@ def save_job_positions_to_github(df, path="data/job_positions.csv"):
         try:
             old_df = pd.read_csv(StringIO(existing_csv))
             
+            # Ensure string columns to avoid float64 dtype issues
+            for col in ["Job ID", "Pooling Status", "Last Modified"]:
+                if col in old_df.columns:
+                    old_df[col] = old_df[col].fillna("").astype(str)
+            
             # Ensure Job ID column exists in both dataframes
             if "Job ID" not in old_df.columns:
                 old_df["Job ID"] = ""
@@ -877,6 +882,11 @@ def delete_job_position_from_github(job_position, path="data/job_positions.csv")
         _log_error(f"❌ Cannot delete from empty file")
         return False
     
+    # Ensure string columns to avoid float64 dtype issues
+    for col in ["Job ID", "Pooling Status", "Last Modified"]:
+        if col in df.columns:
+            df[col] = df[col].fillna("").astype(str)
+    
     # Remove the job position
     df = df[df["Job Position"] != job_position]
     
@@ -1069,6 +1079,11 @@ def update_job_position_in_github(old_position, new_position, new_description, n
         _log_error(f"❌ Cannot update from empty file")
         return False
     
+    # Ensure string columns to avoid float64 dtype issues with pandas 2.x
+    for col in ["Job Position", "Job Description", "Job ID", "Pooling Status", "Last Modified"]:
+        if col in df.columns:
+            df[col] = df[col].fillna("").astype(str)
+    
     # Update the job position
     mask = df["Job Position"] == old_position
     if mask.sum() == 0:
@@ -1149,6 +1164,11 @@ def toggle_job_pooling_status(job_position, pooling_status, path="data/job_posit
     except pd.errors.EmptyDataError:
         _log_error("❌ Job positions file is empty")
         return False
+    
+    # Ensure string columns to avoid float64 dtype issues
+    for col in ["Job ID", "Pooling Status", "Last Modified"]:
+        if col in df.columns:
+            df[col] = df[col].fillna("").astype(str)
     
     # Ensure Pooling Status column exists
     if "Pooling Status" not in df.columns:
