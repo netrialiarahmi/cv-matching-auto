@@ -6429,13 +6429,13 @@
     ]
   },
   "2026-04-16": {
-    "total": 36,
+    "total": 37,
     "streamlit": 0,
-    "github_action": 36,
-    "successful": 36,
+    "github_action": 37,
+    "successful": 37,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 36
+      "Account Executive VCBL": 37
     },
     "entries": [
       {
@@ -6687,6 +6687,13 @@
         "timestamp": "2026-04-16 04:37:29",
         "source": "github_action",
         "candidate": "camila chairunnisa",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 04:37:53",
+        "source": "github_action",
+        "candidate": "Vito Maulana",
         "position": "Account Executive VCBL",
         "success": true
       }
