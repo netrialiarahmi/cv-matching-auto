@@ -6429,23 +6429,16 @@
     ]
   },
   "2026-04-16": {
-    "total": 618,
+    "total": 619,
     "streamlit": 0,
-    "github_action": 618,
-    "successful": 618,
+    "github_action": 619,
+    "successful": 619,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
-      "Account Executive Pasangiklan.com": 328
+      "Account Executive Pasangiklan.com": 329
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 08:22:03",
-        "source": "github_action",
-        "candidate": "Zahra  Putri",
-        "position": "Account Executive Pasangiklan.com",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 08:22:40",
         "source": "github_action",
@@ -7136,6 +7129,13 @@
         "timestamp": "2026-04-16 09:09:52",
         "source": "github_action",
         "candidate": "Prampal Roshan",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 09:10:22",
+        "source": "github_action",
+        "candidate": "Gracela Neoh",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
