@@ -6429,22 +6429,15 @@
     ]
   },
   "2026-04-16": {
-    "total": 229,
+    "total": 230,
     "streamlit": 0,
-    "github_action": 229,
-    "successful": 229,
+    "github_action": 230,
+    "successful": 230,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 229
+      "Account Executive VCBL": 230
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 05:18:12",
-        "source": "github_action",
-        "candidate": "Azka Putrie",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 05:18:42",
         "source": "github_action",
@@ -7135,6 +7128,13 @@
         "timestamp": "2026-04-16 06:02:54",
         "source": "github_action",
         "candidate": "Monicha Elisabeth Simanjuntak",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 06:03:23",
+        "source": "github_action",
+        "candidate": "8014 Duwi Anjar Ariwibowo",
         "position": "Account Executive VCBL",
         "success": true
       }
