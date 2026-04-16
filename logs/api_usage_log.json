@@ -6429,23 +6429,16 @@
     ]
   },
   "2026-04-16": {
-    "total": 368,
+    "total": 369,
     "streamlit": 0,
-    "github_action": 368,
-    "successful": 368,
+    "github_action": 369,
+    "successful": 369,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
-      "Account Executive Pasangiklan.com": 78
+      "Account Executive Pasangiklan.com": 79
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 06:18:52",
-        "source": "github_action",
-        "candidate": "Haris Agus nandar",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 06:19:21",
         "source": "github_action",
@@ -7136,6 +7129,13 @@
         "timestamp": "2026-04-16 07:07:32",
         "source": "github_action",
         "candidate": "Rahmatul Alfajri",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 07:08:03",
+        "source": "github_action",
+        "candidate": "Thoriq Muhammad Junaidi",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
