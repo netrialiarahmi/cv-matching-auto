@@ -6429,22 +6429,15 @@
     ]
   },
   "2026-04-16": {
-    "total": 218,
+    "total": 219,
     "streamlit": 0,
-    "github_action": 218,
-    "successful": 218,
+    "github_action": 219,
+    "successful": 219,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 218
+      "Account Executive VCBL": 219
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 05:13:40",
-        "source": "github_action",
-        "candidate": "Felix Bernardo",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 05:14:12",
         "source": "github_action",
@@ -7135,6 +7128,13 @@
         "timestamp": "2026-04-16 05:58:12",
         "source": "github_action",
         "candidate": "Devianna Felicia Veronica",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 05:58:41",
+        "source": "github_action",
+        "candidate": "adisa rafina",
         "position": "Account Executive VCBL",
         "success": true
       }
