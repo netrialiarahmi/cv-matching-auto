@@ -6429,23 +6429,16 @@
     ]
   },
   "2026-04-16": {
-    "total": 653,
+    "total": 654,
     "streamlit": 0,
-    "github_action": 653,
-    "successful": 653,
+    "github_action": 654,
+    "successful": 654,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
-      "Account Executive Pasangiklan.com": 363
+      "Account Executive Pasangiklan.com": 364
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 08:38:20",
-        "source": "github_action",
-        "candidate": "Christine Maretha C. Pardede",
-        "position": "Account Executive Pasangiklan.com",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 08:38:50",
         "source": "github_action",
@@ -7136,6 +7129,13 @@
         "timestamp": "2026-04-16 09:26:18",
         "source": "github_action",
         "candidate": "Muhammad Rizal Putra Pradana",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 09:26:48",
+        "source": "github_action",
+        "candidate": "Putri Ayak",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
