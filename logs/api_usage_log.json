@@ -6429,23 +6429,16 @@
     ]
   },
   "2026-04-16": {
-    "total": 636,
+    "total": 637,
     "streamlit": 0,
-    "github_action": 636,
-    "successful": 636,
+    "github_action": 637,
+    "successful": 637,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
-      "Account Executive Pasangiklan.com": 346
+      "Account Executive Pasangiklan.com": 347
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 08:30:32",
-        "source": "github_action",
-        "candidate": "Safitri Eka Lestari",
-        "position": "Account Executive Pasangiklan.com",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 08:31:04",
         "source": "github_action",
@@ -7136,6 +7129,13 @@
         "timestamp": "2026-04-16 09:17:54",
         "source": "github_action",
         "candidate": "Syadza Fatina Oktafiarani",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 09:18:24",
+        "source": "github_action",
+        "candidate": "Rama Santosa",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
