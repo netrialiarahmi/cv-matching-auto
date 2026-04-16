@@ -6429,22 +6429,15 @@
     ]
   },
   "2026-04-16": {
-    "total": 198,
+    "total": 199,
     "streamlit": 0,
-    "github_action": 198,
-    "successful": 198,
+    "github_action": 199,
+    "successful": 199,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 198
+      "Account Executive VCBL": 199
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 05:04:30",
-        "source": "github_action",
-        "candidate": "ANDARI EKA NUR ALLIFAH",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 05:04:56",
         "source": "github_action",
@@ -7135,6 +7128,13 @@
         "timestamp": "2026-04-16 05:48:47",
         "source": "github_action",
         "candidate": "Ayub Ezra Royani Sianturi",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 05:49:13",
+        "source": "github_action",
+        "candidate": "syifin al mufti",
         "position": "Account Executive VCBL",
         "success": true
       }
