@@ -6429,23 +6429,16 @@
     ]
   },
   "2026-04-16": {
-    "total": 410,
+    "total": 411,
     "streamlit": 0,
-    "github_action": 410,
-    "successful": 410,
+    "github_action": 411,
+    "successful": 411,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
-      "Account Executive Pasangiklan.com": 120
+      "Account Executive Pasangiklan.com": 121
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 06:37:49",
-        "source": "github_action",
-        "candidate": "iqbal muhammad",
-        "position": "Account Executive Pasangiklan.com",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 06:38:18",
         "source": "github_action",
@@ -7136,6 +7129,13 @@
         "timestamp": "2026-04-16 07:28:09",
         "source": "github_action",
         "candidate": "Akmal maulana Sidik",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 07:28:39",
+        "source": "github_action",
+        "candidate": "Hilkia Handika Lethulur",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
