@@ -6429,23 +6429,16 @@
     ]
   },
   "2026-04-16": {
-    "total": 615,
+    "total": 616,
     "streamlit": 0,
-    "github_action": 615,
-    "successful": 615,
+    "github_action": 616,
+    "successful": 616,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
-      "Account Executive Pasangiklan.com": 325
+      "Account Executive Pasangiklan.com": 326
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 08:20:41",
-        "source": "github_action",
-        "candidate": "Rani Tamara",
-        "position": "Account Executive Pasangiklan.com",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 08:21:11",
         "source": "github_action",
@@ -7136,6 +7129,13 @@
         "timestamp": "2026-04-16 09:08:33",
         "source": "github_action",
         "candidate": "Dina Annisa",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 09:09:01",
+        "source": "github_action",
+        "candidate": "Yose Amru Rizal",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
