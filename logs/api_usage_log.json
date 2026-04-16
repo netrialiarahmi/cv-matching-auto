@@ -6429,23 +6429,16 @@
     ]
   },
   "2026-04-16": {
-    "total": 382,
+    "total": 383,
     "streamlit": 0,
-    "github_action": 382,
-    "successful": 382,
+    "github_action": 383,
+    "successful": 383,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
-      "Account Executive Pasangiklan.com": 92
+      "Account Executive Pasangiklan.com": 93
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 06:24:46",
-        "source": "github_action",
-        "candidate": "Mohamad Haikal Jordani",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 06:25:12",
         "source": "github_action",
@@ -7136,6 +7129,13 @@
         "timestamp": "2026-04-16 07:14:22",
         "source": "github_action",
         "candidate": "Olifia Virginia Antula",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 07:14:54",
+        "source": "github_action",
+        "candidate": "Mega Adilla S H",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
