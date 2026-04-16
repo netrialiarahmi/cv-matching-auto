@@ -6429,23 +6429,16 @@
     ]
   },
   "2026-04-16": {
-    "total": 437,
+    "total": 438,
     "streamlit": 0,
-    "github_action": 437,
-    "successful": 437,
+    "github_action": 438,
+    "successful": 438,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
-      "Account Executive Pasangiklan.com": 147
+      "Account Executive Pasangiklan.com": 148
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 06:52:06",
-        "source": "github_action",
-        "candidate": "Ahmad Burhanuddin Syah",
-        "position": "Account Executive Pasangiklan.com",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 06:52:39",
         "source": "github_action",
@@ -7136,6 +7129,13 @@
         "timestamp": "2026-04-16 07:41:17",
         "source": "github_action",
         "candidate": "Ferel Hutagalung",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 07:41:48",
+        "source": "github_action",
+        "candidate": "Gibran Bening",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
