@@ -6429,23 +6429,16 @@
     ]
   },
   "2026-04-16": {
-    "total": 560,
+    "total": 561,
     "streamlit": 0,
-    "github_action": 560,
-    "successful": 560,
+    "github_action": 561,
+    "successful": 561,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
-      "Account Executive Pasangiklan.com": 270
+      "Account Executive Pasangiklan.com": 271
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 07:53:16",
-        "source": "github_action",
-        "candidate": "indra suryapratama",
-        "position": "Account Executive Pasangiklan.com",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 07:53:47",
         "source": "github_action",
@@ -7136,6 +7129,13 @@
         "timestamp": "2026-04-16 08:41:26",
         "source": "github_action",
         "candidate": "Fadrin Fadhlan",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 08:42:01",
+        "source": "github_action",
+        "candidate": "Judho Ario Bimo",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
