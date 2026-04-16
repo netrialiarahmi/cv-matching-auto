@@ -6429,23 +6429,17 @@
     ]
   },
   "2026-04-16": {
-    "total": 713,
+    "total": 714,
     "streamlit": 0,
-    "github_action": 713,
-    "successful": 713,
+    "github_action": 714,
+    "successful": 714,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
-      "Account Executive Pasangiklan.com": 423
+      "Account Executive Pasangiklan.com": 423,
+      "Business Development Analyst": 1
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 09:08:07",
-        "source": "github_action",
-        "candidate": "Ajeng Fitri Nurahman Hakim",
-        "position": "Account Executive Pasangiklan.com",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 09:08:33",
         "source": "github_action",
@@ -7137,6 +7131,13 @@
         "source": "github_action",
         "candidate": "Rais Azizul Hakim Fadlilah",
         "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 09:54:34",
+        "source": "github_action",
+        "candidate": "Yuke Luviana",
+        "position": "Business Development Analyst",
         "success": true
       }
     ]
