@@ -6429,24 +6429,17 @@
     ]
   },
   "2026-04-16": {
-    "total": 715,
+    "total": 716,
     "streamlit": 0,
-    "github_action": 715,
-    "successful": 715,
+    "github_action": 716,
+    "successful": 716,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
       "Account Executive Pasangiklan.com": 423,
-      "Business Development Analyst": 2
+      "Business Development Analyst": 3
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 09:09:01",
-        "source": "github_action",
-        "candidate": "Yose Amru Rizal",
-        "position": "Account Executive Pasangiklan.com",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 09:09:35",
         "source": "github_action",
@@ -7137,6 +7130,13 @@
         "timestamp": "2026-04-16 09:55:07",
         "source": "github_action",
         "candidate": "Hagie Pradivio",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 09:55:41",
+        "source": "github_action",
+        "candidate": "Ajeng Ayuningtyas",
         "position": "Business Development Analyst",
         "success": true
       }
