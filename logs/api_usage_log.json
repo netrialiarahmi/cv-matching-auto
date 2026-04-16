@@ -6429,22 +6429,15 @@
     ]
   },
   "2026-04-16": {
-    "total": 288,
+    "total": 289,
     "streamlit": 0,
-    "github_action": 288,
-    "successful": 288,
+    "github_action": 289,
+    "successful": 289,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 288
+      "Account Executive VCBL": 289
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 05:44:19",
-        "source": "github_action",
-        "candidate": "Yudith Maura",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 05:44:51",
         "source": "github_action",
@@ -7135,6 +7128,13 @@
         "timestamp": "2026-04-16 06:26:59",
         "source": "github_action",
         "candidate": "Rengga Saputra",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 06:27:29",
+        "source": "github_action",
+        "candidate": "Renita  Nabila Primandani",
         "position": "Account Executive VCBL",
         "success": true
       }
