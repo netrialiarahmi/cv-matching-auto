@@ -6429,24 +6429,17 @@
     ]
   },
   "2026-04-16": {
-    "total": 760,
+    "total": 761,
     "streamlit": 0,
-    "github_action": 760,
-    "successful": 760,
+    "github_action": 761,
+    "successful": 761,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
       "Account Executive Pasangiklan.com": 423,
-      "Business Development Analyst": 47
+      "Business Development Analyst": 48
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 09:30:00",
-        "source": "github_action",
-        "candidate": "Muhammad Fajar Alamsyah",
-        "position": "Account Executive Pasangiklan.com",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 09:30:31",
         "source": "github_action",
@@ -7137,6 +7130,13 @@
         "timestamp": "2026-04-16 10:18:21",
         "source": "github_action",
         "candidate": "5_Ega Ariyakudu",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 10:18:52",
+        "source": "github_action",
+        "candidate": "Putra Lubis",
         "position": "Business Development Analyst",
         "success": true
       }
