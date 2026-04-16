@@ -6429,23 +6429,16 @@
     ]
   },
   "2026-04-16": {
-    "total": 421,
+    "total": 422,
     "streamlit": 0,
-    "github_action": 421,
-    "successful": 421,
+    "github_action": 422,
+    "successful": 422,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
-      "Account Executive Pasangiklan.com": 131
+      "Account Executive Pasangiklan.com": 132
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 06:43:34",
-        "source": "github_action",
-        "candidate": "Isnaeni Nurhamidah",
-        "position": "Account Executive Pasangiklan.com",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 06:44:06",
         "source": "github_action",
@@ -7136,6 +7129,13 @@
         "timestamp": "2026-04-16 07:33:34",
         "source": "github_action",
         "candidate": "Jaka Perdana",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 07:34:04",
+        "source": "github_action",
+        "candidate": "Tjahyo Utomo Raharjo",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
