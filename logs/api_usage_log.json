@@ -6429,24 +6429,17 @@
     ]
   },
   "2026-04-16": {
-    "total": 761,
+    "total": 762,
     "streamlit": 0,
-    "github_action": 761,
-    "successful": 761,
+    "github_action": 762,
+    "successful": 762,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
       "Account Executive Pasangiklan.com": 423,
-      "Business Development Analyst": 48
+      "Business Development Analyst": 49
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 09:30:31",
-        "source": "github_action",
-        "candidate": "Ulan Kurniawati",
-        "position": "Account Executive Pasangiklan.com",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 09:31:02",
         "source": "github_action",
@@ -7137,6 +7130,13 @@
         "timestamp": "2026-04-16 10:18:52",
         "source": "github_action",
         "candidate": "Putra Lubis",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 10:19:21",
+        "source": "github_action",
+        "candidate": "Anastasya .",
         "position": "Business Development Analyst",
         "success": true
       }
