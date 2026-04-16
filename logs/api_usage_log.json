@@ -6429,23 +6429,16 @@
     ]
   },
   "2026-04-16": {
-    "total": 608,
+    "total": 609,
     "streamlit": 0,
-    "github_action": 608,
-    "successful": 608,
+    "github_action": 609,
+    "successful": 609,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
-      "Account Executive Pasangiklan.com": 318
+      "Account Executive Pasangiklan.com": 319
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 08:17:01",
-        "source": "github_action",
-        "candidate": "Daniella Ginting",
-        "position": "Account Executive Pasangiklan.com",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 08:17:29",
         "source": "github_action",
@@ -7136,6 +7129,13 @@
         "timestamp": "2026-04-16 09:05:20",
         "source": "github_action",
         "candidate": "Muhammad Azmi",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 09:05:51",
+        "source": "github_action",
+        "candidate": "Muhammad Al Giffari",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
