@@ -6429,23 +6429,16 @@
     ]
   },
   "2026-04-16": {
-    "total": 407,
+    "total": 408,
     "streamlit": 0,
-    "github_action": 407,
-    "successful": 407,
+    "github_action": 408,
+    "successful": 408,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
-      "Account Executive Pasangiklan.com": 117
+      "Account Executive Pasangiklan.com": 118
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 06:36:17",
-        "source": "github_action",
-        "candidate": "Azizil Jabarri",
-        "position": "Account Executive Pasangiklan.com",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 06:36:44",
         "source": "github_action",
@@ -7136,6 +7129,13 @@
         "timestamp": "2026-04-16 07:26:46",
         "source": "github_action",
         "candidate": "Dede Sulaiman",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 07:27:17",
+        "source": "github_action",
+        "candidate": "andhika ramadhan",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
