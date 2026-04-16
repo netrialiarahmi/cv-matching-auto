@@ -6429,23 +6429,16 @@
     ]
   },
   "2026-04-16": {
-    "total": 372,
+    "total": 373,
     "streamlit": 0,
-    "github_action": 372,
-    "successful": 372,
+    "github_action": 373,
+    "successful": 373,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
-      "Account Executive Pasangiklan.com": 82
+      "Account Executive Pasangiklan.com": 83
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 06:20:17",
-        "source": "github_action",
-        "candidate": "Lia Amelia",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 06:20:44",
         "source": "github_action",
@@ -7136,6 +7129,13 @@
         "timestamp": "2026-04-16 07:09:31",
         "source": "github_action",
         "candidate": "emil fawwaz",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 07:09:59",
+        "source": "github_action",
+        "candidate": "Imam Saputra",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
