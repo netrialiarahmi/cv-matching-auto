@@ -6429,23 +6429,16 @@
     ]
   },
   "2026-04-16": {
-    "total": 637,
+    "total": 638,
     "streamlit": 0,
-    "github_action": 637,
-    "successful": 637,
+    "github_action": 638,
+    "successful": 638,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
-      "Account Executive Pasangiklan.com": 347
+      "Account Executive Pasangiklan.com": 348
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 08:31:04",
-        "source": "github_action",
-        "candidate": "Altaft alfarizki",
-        "position": "Account Executive Pasangiklan.com",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 08:31:34",
         "source": "github_action",
@@ -7136,6 +7129,13 @@
         "timestamp": "2026-04-16 09:18:24",
         "source": "github_action",
         "candidate": "Rama Santosa",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 09:18:51",
+        "source": "github_action",
+        "candidate": "Muhammad Zahid Abdullah",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
