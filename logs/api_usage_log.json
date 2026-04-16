@@ -6429,23 +6429,16 @@
     ]
   },
   "2026-04-16": {
-    "total": 685,
+    "total": 686,
     "streamlit": 0,
-    "github_action": 685,
-    "successful": 685,
+    "github_action": 686,
+    "successful": 686,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
-      "Account Executive Pasangiklan.com": 395
+      "Account Executive Pasangiklan.com": 396
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 08:54:45",
-        "source": "github_action",
-        "candidate": "Aldianto Reza",
-        "position": "Account Executive Pasangiklan.com",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 08:55:17",
         "source": "github_action",
@@ -7136,6 +7129,13 @@
         "timestamp": "2026-04-16 09:41:34",
         "source": "github_action",
         "candidate": "Lisa Mutia",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 09:42:02",
+        "source": "github_action",
+        "candidate": "Netri Alia Rahmi",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
