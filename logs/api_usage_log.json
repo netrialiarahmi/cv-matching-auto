@@ -6429,24 +6429,17 @@
     ]
   },
   "2026-04-16": {
-    "total": 723,
+    "total": 724,
     "streamlit": 0,
-    "github_action": 723,
-    "successful": 723,
+    "github_action": 724,
+    "successful": 724,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
       "Account Executive Pasangiklan.com": 423,
-      "Business Development Analyst": 10
+      "Business Development Analyst": 11
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 09:12:58",
-        "source": "github_action",
-        "candidate": "Fadilah Bayu Widodo",
-        "position": "Account Executive Pasangiklan.com",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 09:13:31",
         "source": "github_action",
@@ -7137,6 +7130,13 @@
         "timestamp": "2026-04-16 09:59:20",
         "source": "github_action",
         "candidate": "Agnes Christina Lasromaito Purba",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 09:59:49",
+        "source": "github_action",
+        "candidate": "Muhammad Rifqi Elnanza Alba",
         "position": "Business Development Analyst",
         "success": true
       }
