@@ -6429,23 +6429,16 @@
     ]
   },
   "2026-04-16": {
-    "total": 345,
+    "total": 346,
     "streamlit": 0,
-    "github_action": 345,
-    "successful": 345,
+    "github_action": 346,
+    "successful": 346,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
-      "Account Executive Pasangiklan.com": 55
+      "Account Executive Pasangiklan.com": 56
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 06:11:00",
-        "source": "github_action",
-        "candidate": "Muhammad  Yusuf",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 06:11:28",
         "source": "github_action",
@@ -7136,6 +7129,13 @@
         "timestamp": "2026-04-16 06:55:47",
         "source": "github_action",
         "candidate": "Nanda Alif",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 06:56:18",
+        "source": "github_action",
+        "candidate": "Regina Sophia",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
