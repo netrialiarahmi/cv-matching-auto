@@ -6429,22 +6429,15 @@
     ]
   },
   "2026-04-16": {
-    "total": 212,
+    "total": 213,
     "streamlit": 0,
-    "github_action": 212,
-    "successful": 212,
+    "github_action": 213,
+    "successful": 213,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 212
+      "Account Executive VCBL": 213
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 05:10:49",
-        "source": "github_action",
-        "candidate": "Salsa  Danisaskiya",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 05:11:18",
         "source": "github_action",
@@ -7135,6 +7128,13 @@
         "timestamp": "2026-04-16 05:55:21",
         "source": "github_action",
         "candidate": "Vikri Haekal Maulana",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 05:55:49",
+        "source": "github_action",
+        "candidate": "Jemy kartika Putra",
         "position": "Account Executive VCBL",
         "success": true
       }
