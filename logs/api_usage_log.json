@@ -6429,13 +6429,13 @@
     ]
   },
   "2026-04-16": {
-    "total": 11,
+    "total": 12,
     "streamlit": 0,
-    "github_action": 11,
-    "successful": 11,
+    "github_action": 12,
+    "successful": 12,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 11
+      "Account Executive VCBL": 12
     },
     "entries": [
       {
@@ -6512,6 +6512,13 @@
         "timestamp": "2026-04-16 04:27:15",
         "source": "github_action",
         "candidate": "Amanda Patricia Hutauruk",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 04:27:43",
+        "source": "github_action",
+        "candidate": "Danti Maharani",
         "position": "Account Executive VCBL",
         "success": true
       }
