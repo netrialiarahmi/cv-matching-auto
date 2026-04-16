@@ -6429,23 +6429,16 @@
     ]
   },
   "2026-04-16": {
-    "total": 292,
+    "total": 293,
     "streamlit": 0,
-    "github_action": 292,
-    "successful": 292,
+    "github_action": 293,
+    "successful": 293,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
-      "Account Executive Pasangiklan.com": 2
+      "Account Executive Pasangiklan.com": 3
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 05:46:22",
-        "source": "github_action",
-        "candidate": "Muhamad Umbara Fajri",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 05:46:47",
         "source": "github_action",
@@ -7136,6 +7129,13 @@
         "timestamp": "2026-04-16 06:28:31",
         "source": "github_action",
         "candidate": "Albertus Danar Adikristanto",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 06:29:02",
+        "source": "github_action",
+        "candidate": "Rayhan Izdihar",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
