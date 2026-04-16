@@ -6429,22 +6429,15 @@
     ]
   },
   "2026-04-16": {
-    "total": 104,
+    "total": 105,
     "streamlit": 0,
-    "github_action": 104,
-    "successful": 104,
+    "github_action": 105,
+    "successful": 105,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 104
+      "Account Executive VCBL": 105
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 04:24:46",
-        "source": "github_action",
-        "candidate": "Mohammad Farhan Saputra",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 04:24:48",
         "source": "github_action",
@@ -7135,6 +7128,13 @@
         "timestamp": "2026-04-16 05:07:01",
         "source": "github_action",
         "candidate": "Muhammad Eka Putra",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 05:07:34",
+        "source": "github_action",
+        "candidate": "Listianova Nurrochmah",
         "position": "Account Executive VCBL",
         "success": true
       }
