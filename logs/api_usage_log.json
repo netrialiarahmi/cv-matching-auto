@@ -6429,23 +6429,16 @@
     ]
   },
   "2026-04-16": {
-    "total": 346,
+    "total": 347,
     "streamlit": 0,
-    "github_action": 346,
-    "successful": 346,
+    "github_action": 347,
+    "successful": 347,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
-      "Account Executive Pasangiklan.com": 56
+      "Account Executive Pasangiklan.com": 57
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 06:11:28",
-        "source": "github_action",
-        "candidate": "Destry Lia",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 06:11:54",
         "source": "github_action",
@@ -7136,6 +7129,13 @@
         "timestamp": "2026-04-16 06:56:18",
         "source": "github_action",
         "candidate": "Regina Sophia",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 06:56:45",
+        "source": "github_action",
+        "candidate": "Sri Dewi Nur Pasha",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
