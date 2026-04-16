@@ -6429,22 +6429,15 @@
     ]
   },
   "2026-04-16": {
-    "total": 122,
+    "total": 123,
     "streamlit": 0,
-    "github_action": 122,
-    "successful": 122,
+    "github_action": 123,
+    "successful": 123,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 122
+      "Account Executive VCBL": 123
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 04:31:35",
-        "source": "github_action",
-        "candidate": "Daffa Sandya Affansyah",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 04:32:03",
         "source": "github_action",
@@ -7135,6 +7128,13 @@
         "timestamp": "2026-04-16 05:14:49",
         "source": "github_action",
         "candidate": "Toddy Ezra Anugerah",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 05:15:15",
+        "source": "github_action",
+        "candidate": "Alif Rizky Fadhillah",
         "position": "Account Executive VCBL",
         "success": true
       }
