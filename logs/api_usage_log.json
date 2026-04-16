@@ -6429,23 +6429,16 @@
     ]
   },
   "2026-04-16": {
-    "total": 317,
+    "total": 318,
     "streamlit": 0,
-    "github_action": 317,
-    "successful": 317,
+    "github_action": 318,
+    "successful": 318,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
-      "Account Executive Pasangiklan.com": 27
+      "Account Executive Pasangiklan.com": 28
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 05:58:12",
-        "source": "github_action",
-        "candidate": "Devianna Felicia Veronica",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 05:58:41",
         "source": "github_action",
@@ -7136,6 +7129,13 @@
         "timestamp": "2026-04-16 06:40:56",
         "source": "github_action",
         "candidate": "Irsan Amulya",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 06:41:28",
+        "source": "github_action",
+        "candidate": "Asep Yusuf Hamdani",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
