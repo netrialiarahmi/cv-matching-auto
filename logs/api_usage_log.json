@@ -6429,23 +6429,16 @@
     ]
   },
   "2026-04-16": {
-    "total": 642,
+    "total": 643,
     "streamlit": 0,
-    "github_action": 642,
-    "successful": 642,
+    "github_action": 643,
+    "successful": 643,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
-      "Account Executive Pasangiklan.com": 352
+      "Account Executive Pasangiklan.com": 353
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 08:33:34",
-        "source": "github_action",
-        "candidate": "Avivi Hilwana. A",
-        "position": "Account Executive Pasangiklan.com",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 08:34:12",
         "source": "github_action",
@@ -7136,6 +7129,13 @@
         "timestamp": "2026-04-16 09:20:48",
         "source": "github_action",
         "candidate": "Nessi Rosalinda  Sihombing",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 09:21:21",
+        "source": "github_action",
+        "candidate": "Devin Ananda Dwiardi Saputra",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
