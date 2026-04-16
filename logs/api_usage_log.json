@@ -6429,24 +6429,17 @@
     ]
   },
   "2026-04-16": {
-    "total": 752,
+    "total": 753,
     "streamlit": 0,
-    "github_action": 752,
-    "successful": 752,
+    "github_action": 753,
+    "successful": 753,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
       "Account Executive Pasangiklan.com": 423,
-      "Business Development Analyst": 39
+      "Business Development Analyst": 40
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 09:26:18",
-        "source": "github_action",
-        "candidate": "Muhammad Rizal Putra Pradana",
-        "position": "Account Executive Pasangiklan.com",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 09:26:48",
         "source": "github_action",
@@ -7137,6 +7130,13 @@
         "timestamp": "2026-04-16 10:14:21",
         "source": "github_action",
         "candidate": "DEVI AYU RAHMATIKA",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 10:14:48",
+        "source": "github_action",
+        "candidate": "Alfredo Julian Saputra",
         "position": "Business Development Analyst",
         "success": true
       }
