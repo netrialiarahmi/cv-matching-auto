@@ -6429,13 +6429,13 @@
     ]
   },
   "2026-04-16": {
-    "total": 22,
+    "total": 23,
     "streamlit": 0,
-    "github_action": 22,
-    "successful": 22,
+    "github_action": 23,
+    "successful": 23,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 22
+      "Account Executive VCBL": 23
     },
     "entries": [
       {
@@ -6589,6 +6589,13 @@
         "timestamp": "2026-04-16 04:31:04",
         "source": "github_action",
         "candidate": "juno ongko",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 04:31:35",
+        "source": "github_action",
+        "candidate": "Daffa Sandya Affansyah",
         "position": "Account Executive VCBL",
         "success": true
       }
