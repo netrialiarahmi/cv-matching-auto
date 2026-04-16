@@ -6429,23 +6429,16 @@
     ]
   },
   "2026-04-16": {
-    "total": 364,
+    "total": 365,
     "streamlit": 0,
-    "github_action": 364,
-    "successful": 364,
+    "github_action": 365,
+    "successful": 365,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
-      "Account Executive Pasangiklan.com": 74
+      "Account Executive Pasangiklan.com": 75
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 06:17:30",
-        "source": "github_action",
-        "candidate": "Nailah Zahra",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 06:17:57",
         "source": "github_action",
@@ -7136,6 +7129,13 @@
         "timestamp": "2026-04-16 07:05:30",
         "source": "github_action",
         "candidate": "Ariestanengsih Hermanto",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 07:05:57",
+        "source": "github_action",
+        "candidate": "shavira istieananda",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
