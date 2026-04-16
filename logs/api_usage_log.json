@@ -6429,23 +6429,16 @@
     ]
   },
   "2026-04-16": {
-    "total": 651,
+    "total": 652,
     "streamlit": 0,
-    "github_action": 651,
-    "successful": 651,
+    "github_action": 652,
+    "successful": 652,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
-      "Account Executive Pasangiklan.com": 361
+      "Account Executive Pasangiklan.com": 362
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 08:37:13",
-        "source": "github_action",
-        "candidate": "Airell Reinhard",
-        "position": "Account Executive Pasangiklan.com",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 08:37:43",
         "source": "github_action",
@@ -7136,6 +7129,13 @@
         "timestamp": "2026-04-16 09:25:18",
         "source": "github_action",
         "candidate": "Benedita Caroline",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 09:25:52",
+        "source": "github_action",
+        "candidate": "Taufan Rahsobudi",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
