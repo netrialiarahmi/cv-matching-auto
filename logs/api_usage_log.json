@@ -6429,23 +6429,16 @@
     ]
   },
   "2026-04-16": {
-    "total": 413,
+    "total": 414,
     "streamlit": 0,
-    "github_action": 413,
-    "successful": 413,
+    "github_action": 414,
+    "successful": 414,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
-      "Account Executive Pasangiklan.com": 123
+      "Account Executive Pasangiklan.com": 124
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 06:39:19",
-        "source": "github_action",
-        "candidate": "Kristi Ayu",
-        "position": "Account Executive Pasangiklan.com",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 06:39:50",
         "source": "github_action",
@@ -7136,6 +7129,13 @@
         "timestamp": "2026-04-16 07:29:34",
         "source": "github_action",
         "candidate": "Giorgio Geraldo",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 07:30:01",
+        "source": "github_action",
+        "candidate": "Maisy Sopiani",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
