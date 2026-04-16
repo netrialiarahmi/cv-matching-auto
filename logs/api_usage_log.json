@@ -6429,13 +6429,13 @@
     ]
   },
   "2026-04-16": {
-    "total": 14,
+    "total": 15,
     "streamlit": 0,
-    "github_action": 14,
-    "successful": 14,
+    "github_action": 15,
+    "successful": 15,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 14
+      "Account Executive VCBL": 15
     },
     "entries": [
       {
@@ -6533,6 +6533,13 @@
         "timestamp": "2026-04-16 04:28:38",
         "source": "github_action",
         "candidate": "Amelia Riyanti",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 04:28:40",
+        "source": "github_action",
+        "candidate": "REHAN PAGADILA",
         "position": "Account Executive VCBL",
         "success": true
       }
