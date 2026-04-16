@@ -6429,22 +6429,15 @@
     ]
   },
   "2026-04-16": {
-    "total": 209,
+    "total": 210,
     "streamlit": 0,
-    "github_action": 209,
-    "successful": 209,
+    "github_action": 210,
+    "successful": 210,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 209
+      "Account Executive VCBL": 210
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 05:09:53",
-        "source": "github_action",
-        "candidate": "Rully Anggi Akbar Akbar",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 05:09:56",
         "source": "github_action",
@@ -7135,6 +7128,13 @@
         "timestamp": "2026-04-16 05:53:57",
         "source": "github_action",
         "candidate": "Syahda Zalenina",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 05:54:26",
+        "source": "github_action",
+        "candidate": "Lizia Nur Faiziah",
         "position": "Account Executive VCBL",
         "success": true
       }
