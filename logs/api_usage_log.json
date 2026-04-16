@@ -6429,23 +6429,16 @@
     ]
   },
   "2026-04-16": {
-    "total": 594,
+    "total": 595,
     "streamlit": 0,
-    "github_action": 594,
-    "successful": 594,
+    "github_action": 595,
+    "successful": 595,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
-      "Account Executive Pasangiklan.com": 304
+      "Account Executive Pasangiklan.com": 305
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 08:09:54",
-        "source": "github_action",
-        "candidate": "NOVI ANDRA",
-        "position": "Account Executive Pasangiklan.com",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 08:10:26",
         "source": "github_action",
@@ -7136,6 +7129,13 @@
         "timestamp": "2026-04-16 08:58:54",
         "source": "github_action",
         "candidate": "ghina whp",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 08:59:26",
+        "source": "github_action",
+        "candidate": "Yogi Nugroho",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
