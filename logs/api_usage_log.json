@@ -6429,22 +6429,15 @@
     ]
   },
   "2026-04-16": {
-    "total": 240,
+    "total": 241,
     "streamlit": 0,
-    "github_action": 240,
-    "successful": 240,
+    "github_action": 241,
+    "successful": 241,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 240
+      "Account Executive VCBL": 241
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 05:22:57",
-        "source": "github_action",
-        "candidate": "Jamil Saepul Azis",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 05:23:28",
         "source": "github_action",
@@ -7135,6 +7128,13 @@
         "timestamp": "2026-04-16 06:08:04",
         "source": "github_action",
         "candidate": "Delia Amalia",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 06:08:31",
+        "source": "github_action",
+        "candidate": "Sondang Zefanya Febee Asima",
         "position": "Account Executive VCBL",
         "success": true
       }
