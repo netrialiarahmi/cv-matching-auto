@@ -6429,23 +6429,16 @@
     ]
   },
   "2026-04-16": {
-    "total": 635,
+    "total": 636,
     "streamlit": 0,
-    "github_action": 635,
-    "successful": 635,
+    "github_action": 636,
+    "successful": 636,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
-      "Account Executive Pasangiklan.com": 345
+      "Account Executive Pasangiklan.com": 346
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 08:30:02",
-        "source": "github_action",
-        "candidate": "Shakila Mutiara Asthi Sepnita Asyril",
-        "position": "Account Executive Pasangiklan.com",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 08:30:32",
         "source": "github_action",
@@ -7136,6 +7129,13 @@
         "timestamp": "2026-04-16 09:17:52",
         "source": "github_action",
         "candidate": "TIARA DWI SETIANINGRUM",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 09:17:54",
+        "source": "github_action",
+        "candidate": "Syadza Fatina Oktafiarani",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
