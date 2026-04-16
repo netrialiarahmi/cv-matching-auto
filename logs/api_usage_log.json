@@ -6429,22 +6429,15 @@
     ]
   },
   "2026-04-16": {
-    "total": 224,
+    "total": 225,
     "streamlit": 0,
-    "github_action": 224,
-    "successful": 224,
+    "github_action": 225,
+    "successful": 225,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 224
+      "Account Executive VCBL": 225
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 05:16:08",
-        "source": "github_action",
-        "candidate": "Aprilia Finanda",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 05:16:11",
         "source": "github_action",
@@ -7135,6 +7128,13 @@
         "timestamp": "2026-04-16 06:00:37",
         "source": "github_action",
         "candidate": "Gabrielle Havana Putri",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 06:01:07",
+        "source": "github_action",
+        "candidate": "salma nisha",
         "position": "Account Executive VCBL",
         "success": true
       }
