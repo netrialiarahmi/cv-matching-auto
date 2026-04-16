@@ -6429,22 +6429,15 @@
     ]
   },
   "2026-04-16": {
-    "total": 206,
+    "total": 207,
     "streamlit": 0,
-    "github_action": 206,
-    "successful": 206,
+    "github_action": 207,
+    "successful": 207,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 206
+      "Account Executive VCBL": 207
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 05:08:30",
-        "source": "github_action",
-        "candidate": "Gracela Neoh",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 05:08:58",
         "source": "github_action",
@@ -7135,6 +7128,13 @@
         "timestamp": "2026-04-16 05:52:41",
         "source": "github_action",
         "candidate": "Dhea amara shezikya",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 05:53:00",
+        "source": "github_action",
+        "candidate": "Zalsa Satyo  Putri Utomo",
         "position": "Account Executive VCBL",
         "success": true
       }
