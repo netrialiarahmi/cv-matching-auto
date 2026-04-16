@@ -6429,22 +6429,15 @@
     ]
   },
   "2026-04-16": {
-    "total": 204,
+    "total": 205,
     "streamlit": 0,
-    "github_action": 204,
-    "successful": 204,
+    "github_action": 205,
+    "successful": 205,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 204
+      "Account Executive VCBL": 205
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 05:07:34",
-        "source": "github_action",
-        "candidate": "Listianova Nurrochmah",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 05:08:00",
         "source": "github_action",
@@ -7135,6 +7128,13 @@
         "timestamp": "2026-04-16 05:51:34",
         "source": "github_action",
         "candidate": "Natasya Verlina",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 05:52:07",
+        "source": "github_action",
+        "candidate": "Adani Laila Putri",
         "position": "Account Executive VCBL",
         "success": true
       }
