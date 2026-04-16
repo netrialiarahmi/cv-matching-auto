@@ -6429,23 +6429,16 @@
     ]
   },
   "2026-04-16": {
-    "total": 399,
+    "total": 400,
     "streamlit": 0,
-    "github_action": 399,
-    "successful": 399,
+    "github_action": 400,
+    "successful": 400,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
-      "Account Executive Pasangiklan.com": 109
+      "Account Executive Pasangiklan.com": 110
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 06:32:01",
-        "source": "github_action",
-        "candidate": "Jaka Swandana",
-        "position": "Account Executive Pasangiklan.com",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 06:32:31",
         "source": "github_action",
@@ -7136,6 +7129,13 @@
         "timestamp": "2026-04-16 07:22:49",
         "source": "github_action",
         "candidate": "Lilis Risnawati",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 07:23:24",
+        "source": "github_action",
+        "candidate": "Oinike Theresia",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
