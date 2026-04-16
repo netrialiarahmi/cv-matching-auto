@@ -6429,23 +6429,16 @@
     ]
   },
   "2026-04-16": {
-    "total": 534,
+    "total": 535,
     "streamlit": 0,
-    "github_action": 534,
-    "successful": 534,
+    "github_action": 535,
+    "successful": 535,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
-      "Account Executive Pasangiklan.com": 244
+      "Account Executive Pasangiklan.com": 245
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 07:40:16",
-        "source": "github_action",
-        "candidate": "Abdullah imam makarim destiawan",
-        "position": "Account Executive Pasangiklan.com",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 07:40:48",
         "source": "github_action",
@@ -7136,6 +7129,13 @@
         "timestamp": "2026-04-16 08:29:01",
         "source": "github_action",
         "candidate": "raihan achyar",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 08:29:30",
+        "source": "github_action",
+        "candidate": "Dita Aura Fitri Gunawan",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
