@@ -6429,22 +6429,15 @@
     ]
   },
   "2026-04-16": {
-    "total": 157,
+    "total": 158,
     "streamlit": 0,
-    "github_action": 157,
-    "successful": 157,
+    "github_action": 158,
+    "successful": 158,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 157
+      "Account Executive VCBL": 158
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 04:47:07",
-        "source": "github_action",
-        "candidate": "Nisa Nur Amalia",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 04:47:38",
         "source": "github_action",
@@ -7135,6 +7128,13 @@
         "timestamp": "2026-04-16 05:29:52",
         "source": "github_action",
         "candidate": "Agil Sundana",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 05:30:22",
+        "source": "github_action",
+        "candidate": "wahdudin",
         "position": "Account Executive VCBL",
         "success": true
       }
