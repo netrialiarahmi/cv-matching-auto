@@ -6429,22 +6429,15 @@
     ]
   },
   "2026-04-16": {
-    "total": 129,
+    "total": 130,
     "streamlit": 0,
-    "github_action": 129,
-    "successful": 129,
+    "github_action": 130,
+    "successful": 130,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 129
+      "Account Executive VCBL": 130
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 04:34:34",
-        "source": "github_action",
-        "candidate": "Sidiq Yogha Nariza",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 04:35:02",
         "source": "github_action",
@@ -7135,6 +7128,13 @@
         "timestamp": "2026-04-16 05:17:46",
         "source": "github_action",
         "candidate": "Marsal AK Donny",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 05:18:12",
+        "source": "github_action",
+        "candidate": "Azka Putrie",
         "position": "Account Executive VCBL",
         "success": true
       }
