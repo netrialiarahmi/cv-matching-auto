@@ -6429,23 +6429,16 @@
     ]
   },
   "2026-04-16": {
-    "total": 626,
+    "total": 627,
     "streamlit": 0,
-    "github_action": 626,
-    "successful": 626,
+    "github_action": 627,
+    "successful": 627,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
-      "Account Executive Pasangiklan.com": 336
+      "Account Executive Pasangiklan.com": 337
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 08:26:08",
-        "source": "github_action",
-        "candidate": "Ruth Natalina",
-        "position": "Account Executive Pasangiklan.com",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 08:26:36",
         "source": "github_action",
@@ -7136,6 +7129,13 @@
         "timestamp": "2026-04-16 09:13:48",
         "source": "github_action",
         "candidate": "Sivie Putriayu Novanti",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 09:14:20",
+        "source": "github_action",
+        "candidate": "Sheva Ardhiansyah",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
