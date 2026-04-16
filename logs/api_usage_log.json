@@ -6429,13 +6429,13 @@
     ]
   },
   "2026-04-16": {
-    "total": 65,
+    "total": 66,
     "streamlit": 0,
-    "github_action": 65,
-    "successful": 65,
+    "github_action": 66,
+    "successful": 66,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 65
+      "Account Executive VCBL": 66
     },
     "entries": [
       {
@@ -6890,6 +6890,13 @@
         "timestamp": "2026-04-16 04:50:26",
         "source": "github_action",
         "candidate": "Abdullah imam makarim destiawan",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 04:50:49",
+        "source": "github_action",
+        "candidate": "Cindy Regina Anastasia",
         "position": "Account Executive VCBL",
         "success": true
       }
