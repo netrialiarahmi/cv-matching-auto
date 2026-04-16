@@ -6429,22 +6429,15 @@
     ]
   },
   "2026-04-16": {
-    "total": 155,
+    "total": 156,
     "streamlit": 0,
-    "github_action": 155,
-    "successful": 155,
+    "github_action": 156,
+    "successful": 156,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 155
+      "Account Executive VCBL": 156
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 04:46:11",
-        "source": "github_action",
-        "candidate": "Amadhea Putri Namira",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 04:46:40",
         "source": "github_action",
@@ -7135,6 +7128,13 @@
         "timestamp": "2026-04-16 05:29:22",
         "source": "github_action",
         "candidate": "Anastasya Theresia Bidara",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 05:29:50",
+        "source": "github_action",
+        "candidate": "Dhianya Putri Shafiya Wicaksono",
         "position": "Account Executive VCBL",
         "success": true
       }
