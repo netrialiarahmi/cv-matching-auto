@@ -6429,22 +6429,15 @@
     ]
   },
   "2026-04-16": {
-    "total": 276,
+    "total": 277,
     "streamlit": 0,
-    "github_action": 276,
-    "successful": 276,
+    "github_action": 277,
+    "successful": 277,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 276
+      "Account Executive VCBL": 277
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 05:38:53",
-        "source": "github_action",
-        "candidate": "Kholid Kika Ansori",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 05:39:20",
         "source": "github_action",
@@ -7135,6 +7128,13 @@
         "timestamp": "2026-04-16 06:21:36",
         "source": "github_action",
         "candidate": "Wan Sima Maharani",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 06:22:04",
+        "source": "github_action",
+        "candidate": "Ridha Lestari",
         "position": "Account Executive VCBL",
         "success": true
       }
