@@ -6429,24 +6429,17 @@
     ]
   },
   "2026-04-16": {
-    "total": 733,
+    "total": 734,
     "streamlit": 0,
-    "github_action": 733,
-    "successful": 733,
+    "github_action": 734,
+    "successful": 734,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
       "Account Executive Pasangiklan.com": 423,
-      "Business Development Analyst": 20
+      "Business Development Analyst": 21
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 09:17:25",
-        "source": "github_action",
-        "candidate": "Puguh C., S.T., S.H. ( Bachelor of Engineering and Law )",
-        "position": "Account Executive Pasangiklan.com",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 09:17:52",
         "source": "github_action",
@@ -7137,6 +7130,13 @@
         "timestamp": "2026-04-16 10:04:13",
         "source": "github_action",
         "candidate": "RENDY WIDJAYA",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 10:04:40",
+        "source": "github_action",
+        "candidate": "Fahmi Rahmat",
         "position": "Business Development Analyst",
         "success": true
       }
