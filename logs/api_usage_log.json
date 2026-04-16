@@ -6429,23 +6429,16 @@
     ]
   },
   "2026-04-16": {
-    "total": 297,
+    "total": 298,
     "streamlit": 0,
-    "github_action": 297,
-    "successful": 297,
+    "github_action": 298,
+    "successful": 298,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
-      "Account Executive Pasangiklan.com": 7
+      "Account Executive Pasangiklan.com": 8
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 05:48:47",
-        "source": "github_action",
-        "candidate": "Ayub Ezra Royani Sianturi",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 05:49:13",
         "source": "github_action",
@@ -7136,6 +7129,13 @@
         "timestamp": "2026-04-16 06:30:58",
         "source": "github_action",
         "candidate": "Kiel Geraldo",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 06:31:31",
+        "source": "github_action",
+        "candidate": "Muhammad Aldi Hamdani",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
