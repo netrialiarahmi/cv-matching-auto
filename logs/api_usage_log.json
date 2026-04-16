@@ -6429,23 +6429,16 @@
     ]
   },
   "2026-04-16": {
-    "total": 555,
+    "total": 556,
     "streamlit": 0,
-    "github_action": 555,
-    "successful": 555,
+    "github_action": 556,
+    "successful": 556,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
-      "Account Executive Pasangiklan.com": 265
+      "Account Executive Pasangiklan.com": 266
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 07:50:39",
-        "source": "github_action",
-        "candidate": "Muhammad  Iqbal Ramadhan",
-        "position": "Account Executive Pasangiklan.com",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 07:51:17",
         "source": "github_action",
@@ -7136,6 +7129,13 @@
         "timestamp": "2026-04-16 08:38:50",
         "source": "github_action",
         "candidate": "Vyrna Nastiti",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 08:39:28",
+        "source": "github_action",
+        "candidate": "Giovanni Angelica Gunawan",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
