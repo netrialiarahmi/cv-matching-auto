@@ -6429,13 +6429,14 @@
     ]
   },
   "2026-04-16": {
-    "total": 18,
-    "streamlit": 0,
+    "total": 19,
+    "streamlit": 1,
     "github_action": 18,
-    "successful": 18,
+    "successful": 19,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 18
+      "Account Executive VCBL": 18,
+      "Marketing Communication Officer KG Media": 1
     },
     "entries": [
       {
@@ -6562,6 +6563,13 @@
         "source": "github_action",
         "candidate": "ALIFA RAHMADANI",
         "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 04:29:38",
+        "source": "streamlit",
+        "candidate": "Yehezkiel Marfin",
+        "position": "Marketing Communication Officer KG Media",
         "success": true
       }
     ]
