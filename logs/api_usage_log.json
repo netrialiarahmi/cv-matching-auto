@@ -6429,23 +6429,16 @@
     ]
   },
   "2026-04-16": {
-    "total": 668,
+    "total": 669,
     "streamlit": 0,
-    "github_action": 668,
-    "successful": 668,
+    "github_action": 669,
+    "successful": 669,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
-      "Account Executive Pasangiklan.com": 378
+      "Account Executive Pasangiklan.com": 379
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 08:46:07",
-        "source": "github_action",
-        "candidate": "Fazlur Rahman",
-        "position": "Account Executive Pasangiklan.com",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 08:46:34",
         "source": "github_action",
@@ -7136,6 +7129,13 @@
         "timestamp": "2026-04-16 09:33:22",
         "source": "github_action",
         "candidate": "Ranti Naomi  Sinaga",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 09:33:47",
+        "source": "github_action",
+        "candidate": "Chilla Apriliyanti Angelina",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
