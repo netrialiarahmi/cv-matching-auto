@@ -6429,22 +6429,15 @@
     ]
   },
   "2026-04-16": {
-    "total": 252,
+    "total": 253,
     "streamlit": 0,
-    "github_action": 252,
-    "successful": 252,
+    "github_action": 253,
+    "successful": 253,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 252
+      "Account Executive VCBL": 253
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 05:28:27",
-        "source": "github_action",
-        "candidate": "Andinna  Putri",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 05:28:54",
         "source": "github_action",
@@ -7135,6 +7128,13 @@
         "timestamp": "2026-04-16 06:13:20",
         "source": "github_action",
         "candidate": "Sheila Pradhita",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 06:13:23",
+        "source": "github_action",
+        "candidate": "Laksa Wingga",
         "position": "Account Executive VCBL",
         "success": true
       }
