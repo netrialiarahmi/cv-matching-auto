@@ -6429,23 +6429,16 @@
     ]
   },
   "2026-04-16": {
-    "total": 309,
+    "total": 310,
     "streamlit": 0,
-    "github_action": 309,
-    "successful": 309,
+    "github_action": 310,
+    "successful": 310,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
-      "Account Executive Pasangiklan.com": 19
+      "Account Executive Pasangiklan.com": 20
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 05:54:26",
-        "source": "github_action",
-        "candidate": "Lizia Nur Faiziah",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 05:54:56",
         "source": "github_action",
@@ -7136,6 +7129,13 @@
         "timestamp": "2026-04-16 06:36:44",
         "source": "github_action",
         "candidate": "Salma Tazkiani",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 06:37:17",
+        "source": "github_action",
+        "candidate": "Sinthya Desty Rahmadhania",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
