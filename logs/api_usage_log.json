@@ -6429,22 +6429,15 @@
     ]
   },
   "2026-04-16": {
-    "total": 241,
+    "total": 242,
     "streamlit": 0,
-    "github_action": 241,
-    "successful": 241,
+    "github_action": 242,
+    "successful": 242,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 241
+      "Account Executive VCBL": 242
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 05:23:28",
-        "source": "github_action",
-        "candidate": "Vika Resi",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 05:23:54",
         "source": "github_action",
@@ -7135,6 +7128,13 @@
         "timestamp": "2026-04-16 06:08:31",
         "source": "github_action",
         "candidate": "Sondang Zefanya Febee Asima",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 06:09:08",
+        "source": "github_action",
+        "candidate": "Wulandari Wahyu Dwina Putri",
         "position": "Account Executive VCBL",
         "success": true
       }
