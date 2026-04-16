@@ -6429,24 +6429,17 @@
     ]
   },
   "2026-04-16": {
-    "total": 744,
+    "total": 745,
     "streamlit": 0,
-    "github_action": 744,
-    "successful": 744,
+    "github_action": 745,
+    "successful": 745,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
       "Account Executive Pasangiklan.com": 423,
-      "Business Development Analyst": 31
+      "Business Development Analyst": 32
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 09:22:20",
-        "source": "github_action",
-        "candidate": "Kurnia Sandi",
-        "position": "Account Executive Pasangiklan.com",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 09:22:50",
         "source": "github_action",
@@ -7137,6 +7130,13 @@
         "timestamp": "2026-04-16 10:10:20",
         "source": "github_action",
         "candidate": "Henry Aldebaran",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 10:10:46",
+        "source": "github_action",
+        "candidate": "Faqih Wasim Ahmad",
         "position": "Business Development Analyst",
         "success": true
       }
