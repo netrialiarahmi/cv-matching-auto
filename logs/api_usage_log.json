@@ -6429,24 +6429,17 @@
     ]
   },
   "2026-04-16": {
-    "total": 731,
+    "total": 732,
     "streamlit": 0,
-    "github_action": 731,
-    "successful": 731,
+    "github_action": 732,
+    "successful": 732,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
       "Account Executive Pasangiklan.com": 423,
-      "Business Development Analyst": 18
+      "Business Development Analyst": 19
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 09:16:37",
-        "source": "github_action",
-        "candidate": "Ahmad Rizqy Shubri",
-        "position": "Account Executive Pasangiklan.com",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 09:16:55",
         "source": "github_action",
@@ -7137,6 +7130,13 @@
         "timestamp": "2026-04-16 10:03:00",
         "source": "github_action",
         "candidate": "Muhammad Althaf Suwanda",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 10:03:38",
+        "source": "github_action",
+        "candidate": "Ghaisani Nabilah Putri",
         "position": "Business Development Analyst",
         "success": true
       }
