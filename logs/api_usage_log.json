@@ -6429,23 +6429,16 @@
     ]
   },
   "2026-04-16": {
-    "total": 650,
+    "total": 651,
     "streamlit": 0,
-    "github_action": 650,
-    "successful": 650,
+    "github_action": 651,
+    "successful": 651,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
-      "Account Executive Pasangiklan.com": 360
+      "Account Executive Pasangiklan.com": 361
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 08:37:10",
-        "source": "github_action",
-        "candidate": "Elsa Alvionita",
-        "position": "Account Executive Pasangiklan.com",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 08:37:13",
         "source": "github_action",
@@ -7136,6 +7129,13 @@
         "timestamp": "2026-04-16 09:24:49",
         "source": "github_action",
         "candidate": "Gabrielle Chrestella",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 09:25:18",
+        "source": "github_action",
+        "candidate": "Benedita Caroline",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
