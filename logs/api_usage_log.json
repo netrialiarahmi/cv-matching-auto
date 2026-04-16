@@ -6429,23 +6429,16 @@
     ]
   },
   "2026-04-16": {
-    "total": 327,
+    "total": 328,
     "streamlit": 0,
-    "github_action": 327,
-    "successful": 327,
+    "github_action": 328,
+    "successful": 328,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
-      "Account Executive Pasangiklan.com": 37
+      "Account Executive Pasangiklan.com": 38
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 06:02:29",
-        "source": "github_action",
-        "candidate": "Cenwi Agnes Vanecia Putri",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 06:02:54",
         "source": "github_action",
@@ -7136,6 +7129,13 @@
         "timestamp": "2026-04-16 06:46:15",
         "source": "github_action",
         "candidate": "Anas Tasya Wibowo",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 06:46:46",
+        "source": "github_action",
+        "candidate": "Muhammad Fathan",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
