@@ -6429,23 +6429,16 @@
     ]
   },
   "2026-04-16": {
-    "total": 494,
+    "total": 495,
     "streamlit": 0,
-    "github_action": 494,
-    "successful": 494,
+    "github_action": 495,
+    "successful": 495,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
-      "Account Executive Pasangiklan.com": 204
+      "Account Executive Pasangiklan.com": 205
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 07:20:54",
-        "source": "github_action",
-        "candidate": "ummiyati hamzah",
-        "position": "Account Executive Pasangiklan.com",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 07:21:23",
         "source": "github_action",
@@ -7136,6 +7129,13 @@
         "timestamp": "2026-04-16 08:09:20",
         "source": "github_action",
         "candidate": "Ahmad Zaky",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 08:09:54",
+        "source": "github_action",
+        "candidate": "NOVI ANDRA",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
