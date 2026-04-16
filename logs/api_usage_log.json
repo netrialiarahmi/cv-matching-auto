@@ -6429,23 +6429,16 @@
     ]
   },
   "2026-04-16": {
-    "total": 323,
+    "total": 324,
     "streamlit": 0,
-    "github_action": 323,
-    "successful": 323,
+    "github_action": 324,
+    "successful": 324,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
-      "Account Executive Pasangiklan.com": 33
+      "Account Executive Pasangiklan.com": 34
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 06:00:37",
-        "source": "github_action",
-        "candidate": "Gabrielle Havana Putri",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 06:01:07",
         "source": "github_action",
@@ -7136,6 +7129,13 @@
         "timestamp": "2026-04-16 06:44:06",
         "source": "github_action",
         "candidate": "Rakha Addha Prasetya",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 06:44:36",
+        "source": "github_action",
+        "candidate": "R. Aldi Pradana Kemal Putra",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
