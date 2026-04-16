@@ -6429,23 +6429,16 @@
     ]
   },
   "2026-04-16": {
-    "total": 352,
+    "total": 353,
     "streamlit": 0,
-    "github_action": 352,
-    "successful": 352,
+    "github_action": 353,
+    "successful": 353,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
-      "Account Executive Pasangiklan.com": 62
+      "Account Executive Pasangiklan.com": 63
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 06:13:23",
-        "source": "github_action",
-        "candidate": "Laksa Wingga",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 06:13:25",
         "source": "github_action",
@@ -7136,6 +7129,13 @@
         "timestamp": "2026-04-16 06:59:17",
         "source": "github_action",
         "candidate": "Cori Jonar Natanail",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 06:59:45",
+        "source": "github_action",
+        "candidate": "Dinda Putri Ramadhani",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
