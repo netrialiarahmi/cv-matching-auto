@@ -6429,23 +6429,16 @@
     ]
   },
   "2026-04-16": {
-    "total": 622,
+    "total": 623,
     "streamlit": 0,
-    "github_action": 622,
-    "successful": 622,
+    "github_action": 623,
+    "successful": 623,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
-      "Account Executive Pasangiklan.com": 332
+      "Account Executive Pasangiklan.com": 333
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 08:24:16",
-        "source": "github_action",
-        "candidate": "Ziyad Ul Qoyyim",
-        "position": "Account Executive Pasangiklan.com",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 08:24:44",
         "source": "github_action",
@@ -7136,6 +7129,13 @@
         "timestamp": "2026-04-16 09:11:59",
         "source": "github_action",
         "candidate": "Andhika  Pratama",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 09:12:27",
+        "source": "github_action",
+        "candidate": "Annisa Putri Luthfiyani",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
