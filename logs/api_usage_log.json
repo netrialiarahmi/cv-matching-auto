@@ -6429,23 +6429,16 @@
     ]
   },
   "2026-04-16": {
-    "total": 527,
+    "total": 528,
     "streamlit": 0,
-    "github_action": 527,
-    "successful": 527,
+    "github_action": 528,
+    "successful": 528,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
-      "Account Executive Pasangiklan.com": 237
+      "Account Executive Pasangiklan.com": 238
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 07:37:10",
-        "source": "github_action",
-        "candidate": "Muhammad Irwan",
-        "position": "Account Executive Pasangiklan.com",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 07:37:44",
         "source": "github_action",
@@ -7136,6 +7129,13 @@
         "timestamp": "2026-04-16 08:26:08",
         "source": "github_action",
         "candidate": "Ruth Natalina",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 08:26:36",
+        "source": "github_action",
+        "candidate": "Pusfita Mawarni",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
