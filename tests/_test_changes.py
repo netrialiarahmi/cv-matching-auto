@@ -59,7 +59,7 @@ print('auto_screen import: OK')
 
 # 6. Test local file reading in fetch_candidates_from_sheet_csv
 import os
-csv_path = 'kalibrr_exports/Account_Executive_Pasangiklancom.csv'
+csv_path = 'data/raw/Account_Executive_Pasangiklancom.csv'
 if os.path.isfile(csv_path):
     df = fetch_candidates_from_sheet_csv(csv_path)
     assert df is not None, "Failed to load local CSV"

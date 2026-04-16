@@ -8,7 +8,7 @@ import pandas as pd
 from scripts.auto_screen import screen_position
 
 # Load job_positions.csv to get job description
-jobs_df = pd.read_csv('job_positions.csv')
+jobs_df = pd.read_csv('data/job_positions.csv')
 match = jobs_df[jobs_df['Job Position'] == 'Data Analyst (Business Intelligence)']
 
 if match.empty:
@@ -19,7 +19,7 @@ row = match.iloc[0]
 position_name = row['Job Position']
 job_description = row['Job Description']
 job_id = row.get('Job ID', '265246')
-csv_url = 'kalibrr_exports/Data_Analyst_KG_Media.csv'
+csv_url = 'data/raw/Data_Analyst_KG_Media.csv'
 
 print(f"Position: {position_name}")
 print(f"Job ID: {job_id}")

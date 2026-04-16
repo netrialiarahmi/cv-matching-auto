@@ -2,7 +2,7 @@
 import pandas as pd
 from src.services.kalibrr_core import _normalize_export_df
 
-csv_path = 'kalibrr_exports/Account_Executive_Japanese_Client.csv'
+csv_path = 'data/raw/Account_Executive_Japanese_Client.csv'
 df = pd.read_csv(csv_path)
 print(f'Before: {df.shape}')
 print(f'Columns (first 20): {list(df.columns[:20])}')
@@ -15,7 +15,7 @@ print(f'Has "Link Resume": {has_link_resume}')
 
 if not has_first_name or not has_link_resume:
     # Need to find the job_id for this position
-    jobs = pd.read_csv('job_positions.csv')
+    jobs = pd.read_csv('data/job_positions.csv')
     match = jobs[jobs['Job Position'] == 'Account Executive Japanese Client']
     if not match.empty:
         job_id = int(match.iloc[0]['Job ID'])
