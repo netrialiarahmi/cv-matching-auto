@@ -6429,13 +6429,14 @@
     ]
   },
   "2026-04-16": {
-    "total": 13,
-    "streamlit": 0,
+    "total": 14,
+    "streamlit": 1,
     "github_action": 13,
-    "successful": 13,
+    "successful": 14,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 13
+      "Account Executive VCBL": 13,
+      "Marketing Communication Officer KG Media": 1
     },
     "entries": [
       {
@@ -6527,6 +6528,13 @@
         "source": "github_action",
         "candidate": "Elfrida Fiola Siregar siregar",
         "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 04:28:18",
+        "source": "streamlit",
+        "candidate": "Natasya R",
+        "position": "Marketing Communication Officer KG Media",
         "success": true
       }
     ]
