@@ -6429,23 +6429,16 @@
     ]
   },
   "2026-04-16": {
-    "total": 623,
+    "total": 624,
     "streamlit": 0,
-    "github_action": 623,
-    "successful": 623,
+    "github_action": 624,
+    "successful": 624,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
-      "Account Executive Pasangiklan.com": 333
+      "Account Executive Pasangiklan.com": 334
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 08:24:44",
-        "source": "github_action",
-        "candidate": "Novita Intaniasari Bisa Lebang",
-        "position": "Account Executive Pasangiklan.com",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 08:25:03",
         "source": "github_action",
@@ -7136,6 +7129,13 @@
         "timestamp": "2026-04-16 09:12:27",
         "source": "github_action",
         "candidate": "Annisa Putri Luthfiyani",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 09:12:58",
+        "source": "github_action",
+        "candidate": "Fadilah Bayu Widodo",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
