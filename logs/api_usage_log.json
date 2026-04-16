@@ -6429,22 +6429,15 @@
     ]
   },
   "2026-04-16": {
-    "total": 120,
+    "total": 121,
     "streamlit": 0,
-    "github_action": 120,
-    "successful": 120,
+    "github_action": 121,
+    "successful": 121,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 120
+      "Account Executive VCBL": 121
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 04:30:37",
-        "source": "github_action",
-        "candidate": "Doni Wenfery Simorangkir",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 04:31:04",
         "source": "github_action",
@@ -7135,6 +7128,13 @@
         "timestamp": "2026-04-16 05:14:12",
         "source": "github_action",
         "candidate": "yohan wahyudi",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 05:14:14",
+        "source": "github_action",
+        "candidate": "Hafizh Jawas",
         "position": "Account Executive VCBL",
         "success": true
       }
