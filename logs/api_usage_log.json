@@ -6429,23 +6429,16 @@
     ]
   },
   "2026-04-16": {
-    "total": 480,
+    "total": 481,
     "streamlit": 0,
-    "github_action": 480,
-    "successful": 480,
+    "github_action": 481,
+    "successful": 481,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
-      "Account Executive Pasangiklan.com": 190
+      "Account Executive Pasangiklan.com": 191
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 07:13:54",
-        "source": "github_action",
-        "candidate": "Dedet widodo",
-        "position": "Account Executive Pasangiklan.com",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 07:14:22",
         "source": "github_action",
@@ -7136,6 +7129,13 @@
         "timestamp": "2026-04-16 08:02:37",
         "source": "github_action",
         "candidate": "Tariska Salsabila",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 08:03:10",
+        "source": "github_action",
+        "candidate": "Deby Nurjihan",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
