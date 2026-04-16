@@ -6429,23 +6429,16 @@
     ]
   },
   "2026-04-16": {
-    "total": 343,
+    "total": 344,
     "streamlit": 0,
-    "github_action": 343,
-    "successful": 343,
+    "github_action": 344,
+    "successful": 344,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
-      "Account Executive Pasangiklan.com": 53
+      "Account Executive Pasangiklan.com": 54
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 06:10:03",
-        "source": "github_action",
-        "candidate": "Devi Putri Pranata",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 06:10:33",
         "source": "github_action",
@@ -7136,6 +7129,13 @@
         "timestamp": "2026-04-16 06:54:47",
         "source": "github_action",
         "candidate": "Muhammad Fahmi",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 06:55:17",
+        "source": "github_action",
+        "candidate": "Ilham Daiya",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
