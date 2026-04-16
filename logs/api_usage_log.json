@@ -6429,22 +6429,15 @@
     ]
   },
   "2026-04-16": {
-    "total": 249,
+    "total": 250,
     "streamlit": 0,
-    "github_action": 249,
-    "successful": 249,
+    "github_action": 250,
+    "successful": 250,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 249
+      "Account Executive VCBL": 250
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 05:27:07",
-        "source": "github_action",
-        "candidate": "Fadli Rahman",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 05:27:35",
         "source": "github_action",
@@ -7135,6 +7128,13 @@
         "timestamp": "2026-04-16 06:12:22",
         "source": "github_action",
         "candidate": "Nabila Retno",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 06:12:25",
+        "source": "github_action",
+        "candidate": "aldi rivaldi",
         "position": "Account Executive VCBL",
         "success": true
       }
