@@ -6429,23 +6429,16 @@
     ]
   },
   "2026-04-16": {
-    "total": 629,
+    "total": 630,
     "streamlit": 0,
-    "github_action": 629,
-    "successful": 629,
+    "github_action": 630,
+    "successful": 630,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 290,
-      "Account Executive Pasangiklan.com": 339
+      "Account Executive Pasangiklan.com": 340
     },
     "entries": [
-      {
-        "timestamp": "2026-04-16 08:27:36",
-        "source": "github_action",
-        "candidate": "Rieztanadya Mulia  Usman",
-        "position": "Account Executive Pasangiklan.com",
-        "success": true
-      },
       {
         "timestamp": "2026-04-16 08:28:09",
         "source": "github_action",
@@ -7136,6 +7129,13 @@
         "timestamp": "2026-04-16 09:15:19",
         "source": "github_action",
         "candidate": "Alifia Ikhram Shafanissa",
+        "position": "Account Executive Pasangiklan.com",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-16 09:15:51",
+        "source": "github_action",
+        "candidate": "Listianova Nurrochmah",
         "position": "Account Executive Pasangiklan.com",
         "success": true
       }
