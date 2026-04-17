@@ -7143,27 +7143,20 @@
     ]
   },
   "2026-04-17": {
-    "total": 638,
+    "total": 639,
     "streamlit": 0,
-    "github_action": 638,
-    "successful": 638,
+    "github_action": 639,
+    "successful": 639,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 200,
       "Reporter Megapolitan": 200,
-      "Sustainability Officer KG Media": 107,
+      "Sustainability Officer KG Media": 108,
       "Strategic Planner KG Media": 88,
       "Reporter Nasional": 12
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 06:16:11",
-        "source": "github_action",
-        "candidate": "Moh Reynaldi Risahondua",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 06:18:28",
         "source": "github_action",
@@ -7854,6 +7847,13 @@
         "timestamp": "2026-04-17 07:39:05",
         "source": "github_action",
         "candidate": "Lewina Blesmira Saragi",
+        "position": "Sustainability Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 07:39:33",
+        "source": "github_action",
+        "candidate": "Shimma  Dyanna",
         "position": "Sustainability Officer KG Media",
         "success": true
       }
