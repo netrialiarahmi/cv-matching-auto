@@ -7143,10 +7143,10 @@
     ]
   },
   "2026-04-17": {
-    "total": 918,
+    "total": 919,
     "streamlit": 0,
-    "github_action": 918,
-    "successful": 918,
+    "github_action": 919,
+    "successful": 919,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
@@ -7155,16 +7155,9 @@
       "Sustainability Officer KG Media": 200,
       "Strategic Planner KG Media": 90,
       "Reporter Nasional": 112,
-      "Content Writer Homey": 85
+      "Content Writer Homey": 86
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 09:09:00",
-        "source": "github_action",
-        "candidate": "Masyita Deta Rahadiani",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 09:09:31",
         "source": "github_action",
@@ -7855,6 +7848,13 @@
         "timestamp": "2026-04-17 09:56:50",
         "source": "github_action",
         "candidate": "Naufal Refrizal",
+        "position": "Content Writer Homey",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 09:57:20",
+        "source": "github_action",
+        "candidate": "Mahatma Fattah Rama Romansa",
         "position": "Content Writer Homey",
         "success": true
       }
