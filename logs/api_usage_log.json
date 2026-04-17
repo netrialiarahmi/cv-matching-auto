@@ -7143,10 +7143,10 @@
     ]
   },
   "2026-04-17": {
-    "total": 897,
+    "total": 898,
     "streamlit": 0,
-    "github_action": 897,
-    "successful": 897,
+    "github_action": 898,
+    "successful": 898,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
@@ -7155,16 +7155,9 @@
       "Sustainability Officer KG Media": 200,
       "Strategic Planner KG Media": 90,
       "Reporter Nasional": 112,
-      "Content Writer Homey": 64
+      "Content Writer Homey": 65
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 08:58:26",
-        "source": "github_action",
-        "candidate": "Alvin Anis",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 08:58:53",
         "source": "github_action",
@@ -7855,6 +7848,13 @@
         "timestamp": "2026-04-17 09:46:22",
         "source": "github_action",
         "candidate": "Muhamad Rakan Syaifullah",
+        "position": "Content Writer Homey",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 09:46:52",
+        "source": "github_action",
+        "candidate": "Muhamad Ansor Mubarok",
         "position": "Content Writer Homey",
         "success": true
       }
