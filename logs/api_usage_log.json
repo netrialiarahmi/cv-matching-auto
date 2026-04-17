@@ -7143,27 +7143,20 @@
     ]
   },
   "2026-04-17": {
-    "total": 494,
+    "total": 495,
     "streamlit": 0,
-    "github_action": 494,
-    "successful": 494,
+    "github_action": 495,
+    "successful": 495,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
-      "Marketing Communication Officer KG Media": 163,
+      "Marketing Communication Officer KG Media": 164,
       "Reporter Megapolitan": 100,
       "Sustainability Officer KG Media": 100,
       "Strategic Planner KG Media": 88,
       "Reporter Nasional": 12
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 03:47:56",
-        "source": "github_action",
-        "candidate": "Elsa risqillah Denira",
-        "position": "Strategic Planner KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 03:48:28",
         "source": "github_action",
@@ -7854,6 +7847,13 @@
         "timestamp": "2026-04-17 04:36:28",
         "source": "github_action",
         "candidate": "Althea Aisya",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 04:37:02",
+        "source": "github_action",
+        "candidate": "Mewika Mewika",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
