@@ -7143,10 +7143,10 @@
     ]
   },
   "2026-04-17": {
-    "total": 441,
+    "total": 442,
     "streamlit": 0,
-    "github_action": 441,
-    "successful": 441,
+    "github_action": 442,
+    "successful": 442,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
@@ -7154,16 +7154,9 @@
       "Reporter Megapolitan": 100,
       "Sustainability Officer KG Media": 100,
       "Strategic Planner KG Media": 88,
-      "Reporter Nasional": 22
+      "Reporter Nasional": 23
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 03:21:05",
-        "source": "github_action",
-        "candidate": "Akbar Adzani",
-        "position": "Strategic Planner KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 03:21:34",
         "source": "github_action",
@@ -7854,6 +7847,13 @@
         "timestamp": "2026-04-17 04:08:38",
         "source": "github_action",
         "candidate": "Fajar Hendra Jaya",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 04:09:08",
+        "source": "github_action",
+        "candidate": "Muhammad Fauzan Mubarak",
         "position": "Reporter Nasional",
         "success": true
       }
