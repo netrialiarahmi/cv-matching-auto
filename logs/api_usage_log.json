@@ -7143,23 +7143,16 @@
     ]
   },
   "2026-04-17": {
-    "total": 110,
+    "total": 111,
     "streamlit": 0,
-    "github_action": 110,
-    "successful": 110,
+    "github_action": 111,
+    "successful": 111,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
-      "Marketing Communication Officer KG Media": 79
+      "Marketing Communication Officer KG Media": 80
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 00:42:46",
-        "source": "github_action",
-        "candidate": "Danti Maharani",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 00:43:12",
         "source": "github_action",
@@ -7850,6 +7843,13 @@
         "timestamp": "2026-04-17 01:31:34",
         "source": "github_action",
         "candidate": "Tri Buana Sentiagi",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 01:32:13",
+        "source": "github_action",
+        "candidate": "Zaid M Arsyad",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
