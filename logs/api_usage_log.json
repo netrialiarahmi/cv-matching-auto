@@ -7143,34 +7143,20 @@
     ]
   },
   "2026-04-17": {
-    "total": 432,
+    "total": 434,
     "streamlit": 0,
-    "github_action": 432,
-    "successful": 432,
+    "github_action": 434,
+    "successful": 434,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
-      "Marketing Communication Officer KG Media": 101,
+      "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
       "Sustainability Officer KG Media": 100,
       "Strategic Planner KG Media": 88,
-      "Reporter Nasional": 12
+      "Reporter Nasional": 15
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 03:17:00",
-        "source": "github_action",
-        "candidate": "Dwinastiti Gustira",
-        "position": "Strategic Planner KG Media",
-        "success": true
-      },
-      {
-        "timestamp": "2026-04-17 03:17:32",
-        "source": "github_action",
-        "candidate": "Raidilla Artia",
-        "position": "Strategic Planner KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 03:18:03",
         "source": "github_action",
@@ -7851,10 +7837,24 @@
         "success": true
       },
       {
-        "timestamp": "2026-04-17 04:05:21",
+        "timestamp": "2026-04-17 04:04:48",
         "source": "github_action",
-        "candidate": "Ian Puja Pratama",
-        "position": "Marketing Communication Officer KG Media",
+        "candidate": "Syahril wahyu Firmansyah",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 04:04:50",
+        "source": "github_action",
+        "candidate": "Wildan Alghofari",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 04:05:24",
+        "source": "github_action",
+        "candidate": "Arfiah Arifin",
+        "position": "Reporter Nasional",
         "success": true
       }
     ]
