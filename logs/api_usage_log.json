@@ -7143,10 +7143,10 @@
     ]
   },
   "2026-04-17": {
-    "total": 735,
+    "total": 736,
     "streamlit": 0,
-    "github_action": 735,
-    "successful": 735,
+    "github_action": 736,
+    "successful": 736,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
@@ -7154,16 +7154,9 @@
       "Reporter Megapolitan": 200,
       "Sustainability Officer KG Media": 200,
       "Strategic Planner KG Media": 90,
-      "Reporter Nasional": 14
+      "Reporter Nasional": 15
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 07:38:05",
-        "source": "github_action",
-        "candidate": "Aqilla Fadia Wahono",
-        "position": "Sustainability Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 07:38:34",
         "source": "github_action",
@@ -7854,6 +7847,13 @@
         "timestamp": "2026-04-17 08:27:35",
         "source": "github_action",
         "candidate": "Afifah Dwi Marhaeni",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 08:28:02",
+        "source": "github_action",
+        "candidate": "Sinar Hayati Marega",
         "position": "Reporter Nasional",
         "success": true
       }
