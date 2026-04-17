@@ -7143,24 +7143,17 @@
     ]
   },
   "2026-04-17": {
-    "total": 188,
+    "total": 189,
     "streamlit": 0,
-    "github_action": 188,
-    "successful": 188,
+    "github_action": 189,
+    "successful": 189,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Megapolitan": 57
+      "Reporter Megapolitan": 58
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 01:20:50",
-        "source": "github_action",
-        "candidate": "Anwar Fajar",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 01:21:22",
         "source": "github_action",
@@ -7851,6 +7844,13 @@
         "timestamp": "2026-04-17 02:09:14",
         "source": "github_action",
         "candidate": "Aulia Vinka Dinda Pratiwi S. I. Kom",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 02:09:40",
+        "source": "github_action",
+        "candidate": "Muhammad Rayana Zakariyya",
         "position": "Reporter Megapolitan",
         "success": true
       }
