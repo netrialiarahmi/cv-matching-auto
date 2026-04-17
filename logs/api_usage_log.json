@@ -7143,26 +7143,19 @@
     ]
   },
   "2026-04-17": {
-    "total": 414,
+    "total": 415,
     "streamlit": 0,
-    "github_action": 414,
-    "successful": 414,
+    "github_action": 415,
+    "successful": 415,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
       "Sustainability Officer KG Media": 100,
-      "Strategic Planner KG Media": 83
+      "Strategic Planner KG Media": 84
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 03:08:54",
-        "source": "github_action",
-        "candidate": "Maghfira Syahruni",
-        "position": "Sustainability Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 03:09:26",
         "source": "github_action",
@@ -7853,6 +7846,13 @@
         "timestamp": "2026-04-17 03:56:02",
         "source": "github_action",
         "candidate": "Irma Anisa Putri",
+        "position": "Strategic Planner KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 03:56:28",
+        "source": "github_action",
+        "candidate": "Zani  Fazri Mia",
         "position": "Strategic Planner KG Media",
         "success": true
       }
