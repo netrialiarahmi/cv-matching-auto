@@ -7143,10 +7143,10 @@
     ]
   },
   "2026-04-17": {
-    "total": 777,
+    "total": 778,
     "streamlit": 0,
-    "github_action": 777,
-    "successful": 777,
+    "github_action": 778,
+    "successful": 778,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
@@ -7154,16 +7154,9 @@
       "Reporter Megapolitan": 200,
       "Sustainability Officer KG Media": 200,
       "Strategic Planner KG Media": 90,
-      "Reporter Nasional": 56
+      "Reporter Nasional": 57
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 07:59:17",
-        "source": "github_action",
-        "candidate": "Bryan Saragih",
-        "position": "Sustainability Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 07:59:20",
         "source": "github_action",
@@ -7854,6 +7847,13 @@
         "timestamp": "2026-04-17 08:48:22",
         "source": "github_action",
         "candidate": "Reza SyahFahlevi",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 08:48:50",
+        "source": "github_action",
+        "candidate": "Yolanda Pradita",
         "position": "Reporter Nasional",
         "success": true
       }
