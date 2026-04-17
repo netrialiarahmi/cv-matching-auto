@@ -7143,10 +7143,10 @@
     ]
   },
   "2026-04-17": {
-    "total": 914,
+    "total": 915,
     "streamlit": 0,
-    "github_action": 914,
-    "successful": 914,
+    "github_action": 915,
+    "successful": 915,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
@@ -7155,16 +7155,9 @@
       "Sustainability Officer KG Media": 200,
       "Strategic Planner KG Media": 90,
       "Reporter Nasional": 112,
-      "Content Writer Homey": 81
+      "Content Writer Homey": 82
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 09:07:27",
-        "source": "github_action",
-        "candidate": "Nik Nik Fadlah",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 09:07:31",
         "source": "github_action",
@@ -7855,6 +7848,13 @@
         "timestamp": "2026-04-17 09:54:46",
         "source": "github_action",
         "candidate": "Destriyanti Sagita",
+        "position": "Content Writer Homey",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 09:55:14",
+        "source": "github_action",
+        "candidate": "Alifa Puteri Safarani",
         "position": "Content Writer Homey",
         "success": true
       }
