@@ -7143,26 +7143,19 @@
     ]
   },
   "2026-04-17": {
-    "total": 374,
+    "total": 375,
     "streamlit": 0,
-    "github_action": 374,
-    "successful": 374,
+    "github_action": 375,
+    "successful": 375,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
       "Sustainability Officer KG Media": 100,
-      "Strategic Planner KG Media": 43
+      "Strategic Planner KG Media": 44
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 02:50:12",
-        "source": "github_action",
-        "candidate": "Marcellino Faisal Ronald, S.M.",
-        "position": "Sustainability Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 02:50:45",
         "source": "github_action",
@@ -7853,6 +7846,13 @@
         "timestamp": "2026-04-17 03:37:04",
         "source": "github_action",
         "candidate": "Nicander Wijaya",
+        "position": "Strategic Planner KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 03:37:39",
+        "source": "github_action",
+        "candidate": "Fransiscus  Krisna",
         "position": "Strategic Planner KG Media",
         "success": true
       }
