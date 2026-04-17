@@ -7143,27 +7143,20 @@
     ]
   },
   "2026-04-17": {
-    "total": 558,
+    "total": 559,
     "streamlit": 0,
-    "github_action": 558,
-    "successful": 558,
+    "github_action": 559,
+    "successful": 559,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 200,
-      "Reporter Megapolitan": 127,
+      "Reporter Megapolitan": 128,
       "Sustainability Officer KG Media": 100,
       "Strategic Planner KG Media": 88,
       "Reporter Nasional": 12
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 04:17:46",
-        "source": "github_action",
-        "candidate": "Farhan Afif Kusumah",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 04:18:12",
         "source": "github_action",
@@ -7854,6 +7847,13 @@
         "timestamp": "2026-04-17 06:57:38",
         "source": "github_action",
         "candidate": "Aldina Nasution",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 06:59:55",
+        "source": "github_action",
+        "candidate": "DINA SETYA RAHAYU",
         "position": "Reporter Megapolitan",
         "success": true
       }
