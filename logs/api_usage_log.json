@@ -7143,26 +7143,19 @@
     ]
   },
   "2026-04-17": {
-    "total": 366,
+    "total": 367,
     "streamlit": 0,
-    "github_action": 366,
-    "successful": 366,
+    "github_action": 367,
+    "successful": 367,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
       "Sustainability Officer KG Media": 100,
-      "Strategic Planner KG Media": 35
+      "Strategic Planner KG Media": 36
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 02:46:24",
-        "source": "github_action",
-        "candidate": "Juan Yosef",
-        "position": "Sustainability Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 02:46:51",
         "source": "github_action",
@@ -7853,6 +7846,13 @@
         "timestamp": "2026-04-17 03:32:50",
         "source": "github_action",
         "candidate": "Vito Maulana",
+        "position": "Strategic Planner KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 03:33:22",
+        "source": "github_action",
+        "candidate": "Tri Endah Lestari",
         "position": "Strategic Planner KG Media",
         "success": true
       }
