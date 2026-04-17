@@ -7143,14 +7143,14 @@
     ]
   },
   "2026-04-17": {
-    "total": 46,
+    "total": 47,
     "streamlit": 0,
-    "github_action": 46,
-    "successful": 46,
+    "github_action": 47,
+    "successful": 47,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
-      "Marketing Communication Officer KG Media": 15
+      "Marketing Communication Officer KG Media": 16
     },
     "entries": [
       {
@@ -7472,6 +7472,13 @@
         "timestamp": "2026-04-17 00:58:57",
         "source": "github_action",
         "candidate": "Annisa Putri Permatasari",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 00:59:27",
+        "source": "github_action",
+        "candidate": "Dwinastiti Gustira",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
