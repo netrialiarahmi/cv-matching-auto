@@ -7143,24 +7143,17 @@
     ]
   },
   "2026-04-17": {
-    "total": 135,
+    "total": 136,
     "streamlit": 0,
-    "github_action": 135,
-    "successful": 135,
+    "github_action": 136,
+    "successful": 136,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Megapolitan": 4
+      "Reporter Megapolitan": 5
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 00:54:13",
-        "source": "github_action",
-        "candidate": "Silfi Sri Herliani",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 00:54:41",
         "source": "github_action",
@@ -7851,6 +7844,13 @@
         "timestamp": "2026-04-17 01:44:00",
         "source": "github_action",
         "candidate": "Dwi Utari",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 01:44:32",
+        "source": "github_action",
+        "candidate": "Asep Rosidin",
         "position": "Reporter Megapolitan",
         "success": true
       }
