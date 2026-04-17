@@ -7143,10 +7143,10 @@
     ]
   },
   "2026-04-17": {
-    "total": 788,
+    "total": 789,
     "streamlit": 0,
-    "github_action": 788,
-    "successful": 788,
+    "github_action": 789,
+    "successful": 789,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
@@ -7154,16 +7154,9 @@
       "Reporter Megapolitan": 200,
       "Sustainability Officer KG Media": 200,
       "Strategic Planner KG Media": 90,
-      "Reporter Nasional": 67
+      "Reporter Nasional": 68
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 08:03:42",
-        "source": "github_action",
-        "candidate": "Rizky Muhammad",
-        "position": "Sustainability Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 08:04:16",
         "source": "github_action",
@@ -7854,6 +7847,13 @@
         "timestamp": "2026-04-17 08:53:26",
         "source": "github_action",
         "candidate": "Indah Putri",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 08:53:54",
+        "source": "github_action",
+        "candidate": "Hilda Shakira",
         "position": "Reporter Nasional",
         "success": true
       }
