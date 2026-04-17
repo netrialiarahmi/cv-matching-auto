@@ -7143,24 +7143,17 @@
     ]
   },
   "2026-04-17": {
-    "total": 155,
+    "total": 156,
     "streamlit": 0,
-    "github_action": 155,
-    "successful": 155,
+    "github_action": 156,
+    "successful": 156,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Megapolitan": 24
+      "Reporter Megapolitan": 25
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 01:04:12",
-        "source": "github_action",
-        "candidate": "Rizka Ananda Rumiris Panjaitan",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 01:04:40",
         "source": "github_action",
@@ -7851,6 +7844,13 @@
         "timestamp": "2026-04-17 01:53:37",
         "source": "github_action",
         "candidate": "Reza Adyatama",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 01:54:08",
+        "source": "github_action",
+        "candidate": "Fathianada Anggitha Supriadi",
         "position": "Reporter Megapolitan",
         "success": true
       }
