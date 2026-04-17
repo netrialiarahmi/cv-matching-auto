@@ -7143,26 +7143,19 @@
     ]
   },
   "2026-04-17": {
-    "total": 390,
+    "total": 391,
     "streamlit": 0,
-    "github_action": 390,
-    "successful": 390,
+    "github_action": 391,
+    "successful": 391,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
       "Sustainability Officer KG Media": 100,
-      "Strategic Planner KG Media": 59
+      "Strategic Planner KG Media": 60
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 02:57:01",
-        "source": "github_action",
-        "candidate": "Gazala Savana Putra",
-        "position": "Sustainability Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 02:57:31",
         "source": "github_action",
@@ -7853,6 +7846,13 @@
         "timestamp": "2026-04-17 03:45:33",
         "source": "github_action",
         "candidate": "Muhamad Rakan Syaifullah",
+        "position": "Strategic Planner KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 03:46:04",
+        "source": "github_action",
+        "candidate": "Nisya agrisnaa",
         "position": "Strategic Planner KG Media",
         "success": true
       }
