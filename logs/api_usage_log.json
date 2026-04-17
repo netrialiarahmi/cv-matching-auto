@@ -7143,10 +7143,10 @@
     ]
   },
   "2026-04-17": {
-    "total": 809,
+    "total": 810,
     "streamlit": 0,
-    "github_action": 809,
-    "successful": 809,
+    "github_action": 810,
+    "successful": 810,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
@@ -7154,16 +7154,9 @@
       "Reporter Megapolitan": 200,
       "Sustainability Officer KG Media": 200,
       "Strategic Planner KG Media": 90,
-      "Reporter Nasional": 88
+      "Reporter Nasional": 89
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 08:15:14",
-        "source": "github_action",
-        "candidate": "Dimas Rahmanda",
-        "position": "Sustainability Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 08:15:47",
         "source": "github_action",
@@ -7854,6 +7847,13 @@
         "timestamp": "2026-04-17 09:04:16",
         "source": "github_action",
         "candidate": "Febi Dena Ashari",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 09:04:49",
+        "source": "github_action",
+        "candidate": "Annisa Firdaus Damayanti",
         "position": "Reporter Nasional",
         "success": true
       }
