@@ -7143,10 +7143,10 @@
     ]
   },
   "2026-04-17": {
-    "total": 759,
+    "total": 760,
     "streamlit": 0,
-    "github_action": 759,
-    "successful": 759,
+    "github_action": 760,
+    "successful": 760,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
@@ -7154,16 +7154,9 @@
       "Reporter Megapolitan": 200,
       "Sustainability Officer KG Media": 200,
       "Strategic Planner KG Media": 90,
-      "Reporter Nasional": 38
+      "Reporter Nasional": 39
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 07:50:11",
-        "source": "github_action",
-        "candidate": "Fatima Nur Azizia",
-        "position": "Sustainability Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 07:50:45",
         "source": "github_action",
@@ -7854,6 +7847,13 @@
         "timestamp": "2026-04-17 08:39:51",
         "source": "github_action",
         "candidate": "Suharno Suharno",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 08:39:55",
+        "source": "github_action",
+        "candidate": "Ahmad Diponegoro",
         "position": "Reporter Nasional",
         "success": true
       }
