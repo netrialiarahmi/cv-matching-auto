@@ -7143,26 +7143,19 @@
     ]
   },
   "2026-04-17": {
-    "total": 400,
+    "total": 401,
     "streamlit": 0,
-    "github_action": 400,
-    "successful": 400,
+    "github_action": 401,
+    "successful": 401,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
       "Sustainability Officer KG Media": 100,
-      "Strategic Planner KG Media": 69
+      "Strategic Planner KG Media": 70
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 03:02:04",
-        "source": "github_action",
-        "candidate": "Febiana Nur Azizah",
-        "position": "Sustainability Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 03:02:36",
         "source": "github_action",
@@ -7853,6 +7846,13 @@
         "timestamp": "2026-04-17 03:50:31",
         "source": "github_action",
         "candidate": "Luna  Yudanti",
+        "position": "Strategic Planner KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 03:51:01",
+        "source": "github_action",
+        "candidate": "Desti Syarifah",
         "position": "Strategic Planner KG Media",
         "success": true
       }
