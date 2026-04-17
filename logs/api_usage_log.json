@@ -7143,10 +7143,10 @@
     ]
   },
   "2026-04-17": {
-    "total": 772,
+    "total": 773,
     "streamlit": 0,
-    "github_action": 772,
-    "successful": 772,
+    "github_action": 773,
+    "successful": 773,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
@@ -7154,16 +7154,9 @@
       "Reporter Megapolitan": 200,
       "Sustainability Officer KG Media": 200,
       "Strategic Planner KG Media": 90,
-      "Reporter Nasional": 51
+      "Reporter Nasional": 52
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 07:56:32",
-        "source": "github_action",
-        "candidate": "Rahmadhani Aulia",
-        "position": "Sustainability Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 07:57:04",
         "source": "github_action",
@@ -7854,6 +7847,13 @@
         "timestamp": "2026-04-17 08:46:05",
         "source": "github_action",
         "candidate": "Fattan Ichlasul Jahid",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 08:46:39",
+        "source": "github_action",
+        "candidate": "Aurelia Febriananda Putri",
         "position": "Reporter Nasional",
         "success": true
       }
