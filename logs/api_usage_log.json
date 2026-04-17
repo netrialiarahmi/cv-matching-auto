@@ -7143,10 +7143,10 @@
     ]
   },
   "2026-04-17": {
-    "total": 783,
+    "total": 784,
     "streamlit": 0,
-    "github_action": 783,
-    "successful": 783,
+    "github_action": 784,
+    "successful": 784,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
@@ -7154,16 +7154,9 @@
       "Reporter Megapolitan": 200,
       "Sustainability Officer KG Media": 200,
       "Strategic Planner KG Media": 90,
-      "Reporter Nasional": 62
+      "Reporter Nasional": 63
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 08:01:37",
-        "source": "github_action",
-        "candidate": "Destya Aulia Hafifah",
-        "position": "Sustainability Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 08:02:12",
         "source": "github_action",
@@ -7854,6 +7847,13 @@
         "timestamp": "2026-04-17 08:50:57",
         "source": "github_action",
         "candidate": "Lita Gabriella",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 08:51:27",
+        "source": "github_action",
+        "candidate": "Sakinah Khairiah Sipahutar",
         "position": "Reporter Nasional",
         "success": true
       }
