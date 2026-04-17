@@ -7143,10 +7143,10 @@
     ]
   },
   "2026-04-17": {
-    "total": 757,
+    "total": 758,
     "streamlit": 0,
-    "github_action": 757,
-    "successful": 757,
+    "github_action": 758,
+    "successful": 758,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
@@ -7154,16 +7154,9 @@
       "Reporter Megapolitan": 200,
       "Sustainability Officer KG Media": 200,
       "Strategic Planner KG Media": 90,
-      "Reporter Nasional": 36
+      "Reporter Nasional": 37
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 07:49:07",
-        "source": "github_action",
-        "candidate": "Christopher Abimanyu",
-        "position": "Sustainability Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 07:49:38",
         "source": "github_action",
@@ -7854,6 +7847,13 @@
         "timestamp": "2026-04-17 08:38:52",
         "source": "github_action",
         "candidate": "neysa  amalia",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 08:39:20",
+        "source": "github_action",
+        "candidate": "Chrystina Yohana Limas",
         "position": "Reporter Nasional",
         "success": true
       }
