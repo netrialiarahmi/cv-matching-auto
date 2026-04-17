@@ -7143,24 +7143,17 @@
     ]
   },
   "2026-04-17": {
-    "total": 208,
+    "total": 209,
     "streamlit": 0,
-    "github_action": 208,
-    "successful": 208,
+    "github_action": 209,
+    "successful": 209,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Megapolitan": 77
+      "Reporter Megapolitan": 78
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 01:31:02",
-        "source": "github_action",
-        "candidate": "Anita Prameswari",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 01:31:34",
         "source": "github_action",
@@ -7851,6 +7844,13 @@
         "timestamp": "2026-04-17 02:17:59",
         "source": "github_action",
         "candidate": "Muhamad Farhan",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 02:18:25",
+        "source": "github_action",
+        "candidate": "Rina Marlina Marlina",
         "position": "Reporter Megapolitan",
         "success": true
       }
