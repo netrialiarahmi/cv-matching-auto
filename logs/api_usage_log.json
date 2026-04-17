@@ -7143,27 +7143,20 @@
     ]
   },
   "2026-04-17": {
-    "total": 716,
+    "total": 717,
     "streamlit": 0,
-    "github_action": 716,
-    "successful": 716,
+    "github_action": 717,
+    "successful": 717,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 200,
       "Reporter Megapolitan": 200,
-      "Sustainability Officer KG Media": 185,
+      "Sustainability Officer KG Media": 186,
       "Strategic Planner KG Media": 88,
       "Reporter Nasional": 12
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 07:28:55",
-        "source": "github_action",
-        "candidate": "Pujo Siswanto",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 07:28:58",
         "source": "github_action",
@@ -7854,6 +7847,13 @@
         "timestamp": "2026-04-17 08:18:32",
         "source": "github_action",
         "candidate": "Maghfira Syahruni",
+        "position": "Sustainability Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 08:19:08",
+        "source": "github_action",
+        "candidate": "Pandu Askaria",
         "position": "Sustainability Officer KG Media",
         "success": true
       }
