@@ -7143,24 +7143,17 @@
     ]
   },
   "2026-04-17": {
-    "total": 183,
+    "total": 184,
     "streamlit": 0,
-    "github_action": 183,
-    "successful": 183,
+    "github_action": 184,
+    "successful": 184,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Megapolitan": 52
+      "Reporter Megapolitan": 53
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 01:18:20",
-        "source": "github_action",
-        "candidate": "Igham Widi Hadiansyah",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 01:18:52",
         "source": "github_action",
@@ -7851,6 +7844,13 @@
         "timestamp": "2026-04-17 02:06:35",
         "source": "github_action",
         "candidate": "Andi Novriansyah Saputra",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 02:07:03",
+        "source": "github_action",
+        "candidate": "Dina Rochmaningsih",
         "position": "Reporter Megapolitan",
         "success": true
       }
