@@ -7143,24 +7143,17 @@
     ]
   },
   "2026-04-17": {
-    "total": 145,
+    "total": 146,
     "streamlit": 0,
-    "github_action": 145,
-    "successful": 145,
+    "github_action": 146,
+    "successful": 146,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Megapolitan": 14
+      "Reporter Megapolitan": 15
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 00:58:57",
-        "source": "github_action",
-        "candidate": "Annisa Putri Permatasari",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 00:59:27",
         "source": "github_action",
@@ -7851,6 +7844,13 @@
         "timestamp": "2026-04-17 01:48:53",
         "source": "github_action",
         "candidate": "Kurnia Permata",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 01:49:24",
+        "source": "github_action",
+        "candidate": "Syahril wahyu Firmansyah",
         "position": "Reporter Megapolitan",
         "success": true
       }
