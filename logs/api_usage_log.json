@@ -7143,26 +7143,19 @@
     ]
   },
   "2026-04-17": {
-    "total": 373,
+    "total": 374,
     "streamlit": 0,
-    "github_action": 373,
-    "successful": 373,
+    "github_action": 374,
+    "successful": 374,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
       "Sustainability Officer KG Media": 100,
-      "Strategic Planner KG Media": 42
+      "Strategic Planner KG Media": 43
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 02:49:45",
-        "source": "github_action",
-        "candidate": "Uswatun Hasanah",
-        "position": "Sustainability Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 02:50:12",
         "source": "github_action",
@@ -7853,6 +7846,13 @@
         "timestamp": "2026-04-17 03:36:27",
         "source": "github_action",
         "candidate": "Omar Pradana",
+        "position": "Strategic Planner KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 03:37:04",
+        "source": "github_action",
+        "candidate": "Nicander Wijaya",
         "position": "Strategic Planner KG Media",
         "success": true
       }
