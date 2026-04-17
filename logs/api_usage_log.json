@@ -7143,26 +7143,19 @@
     ]
   },
   "2026-04-17": {
-    "total": 415,
+    "total": 416,
     "streamlit": 0,
-    "github_action": 415,
-    "successful": 415,
+    "github_action": 416,
+    "successful": 416,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
       "Sustainability Officer KG Media": 100,
-      "Strategic Planner KG Media": 84
+      "Strategic Planner KG Media": 85
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 03:09:26",
-        "source": "github_action",
-        "candidate": "Pandu Askaria",
-        "position": "Sustainability Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 03:09:28",
         "source": "github_action",
@@ -7853,6 +7846,13 @@
         "timestamp": "2026-04-17 03:56:28",
         "source": "github_action",
         "candidate": "Zani  Fazri Mia",
+        "position": "Strategic Planner KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 03:56:55",
+        "source": "github_action",
+        "candidate": "imam sopani",
         "position": "Strategic Planner KG Media",
         "success": true
       }
