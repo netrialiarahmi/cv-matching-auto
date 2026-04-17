@@ -7143,10 +7143,10 @@
     ]
   },
   "2026-04-17": {
-    "total": 804,
+    "total": 805,
     "streamlit": 0,
-    "github_action": 804,
-    "successful": 804,
+    "github_action": 805,
+    "successful": 805,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
@@ -7154,16 +7154,9 @@
       "Reporter Megapolitan": 200,
       "Sustainability Officer KG Media": 200,
       "Strategic Planner KG Media": 90,
-      "Reporter Nasional": 83
+      "Reporter Nasional": 84
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 08:12:34",
-        "source": "github_action",
-        "candidate": "Tsania Anggita Yudistya",
-        "position": "Sustainability Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 08:13:03",
         "source": "github_action",
@@ -7854,6 +7847,13 @@
         "timestamp": "2026-04-17 09:01:33",
         "source": "github_action",
         "candidate": "Salsyabila Sukmaningrum",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 09:02:06",
+        "source": "github_action",
+        "candidate": "Nur Aini Rasyid",
         "position": "Reporter Nasional",
         "success": true
       }
