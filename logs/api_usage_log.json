@@ -7143,24 +7143,17 @@
     ]
   },
   "2026-04-17": {
-    "total": 181,
+    "total": 182,
     "streamlit": 0,
-    "github_action": 181,
-    "successful": 181,
+    "github_action": 182,
+    "successful": 182,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Megapolitan": 50
+      "Reporter Megapolitan": 51
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 01:17:23",
-        "source": "github_action",
-        "candidate": "Alaine Alaine",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 01:17:50",
         "source": "github_action",
@@ -7851,6 +7844,13 @@
         "timestamp": "2026-04-17 02:05:31",
         "source": "github_action",
         "candidate": "Rachel Oswandi",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 02:06:02",
+        "source": "github_action",
+        "candidate": "Hani Safanja",
         "position": "Reporter Megapolitan",
         "success": true
       }
