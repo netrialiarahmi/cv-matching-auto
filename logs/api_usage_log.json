@@ -7143,26 +7143,19 @@
     ]
   },
   "2026-04-17": {
-    "total": 418,
+    "total": 419,
     "streamlit": 0,
-    "github_action": 418,
-    "successful": 418,
+    "github_action": 419,
+    "successful": 419,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
       "Sustainability Officer KG Media": 100,
-      "Strategic Planner KG Media": 87
+      "Strategic Planner KG Media": 88
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 03:10:26",
-        "source": "github_action",
-        "candidate": "Ahmad Ramdani",
-        "position": "Sustainability Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 03:10:54",
         "source": "github_action",
@@ -7853,6 +7846,13 @@
         "timestamp": "2026-04-17 03:57:49",
         "source": "github_action",
         "candidate": "Ecik Saliman",
+        "position": "Strategic Planner KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 03:58:21",
+        "source": "github_action",
+        "candidate": "Michael Guntur Panca Danuriko",
         "position": "Strategic Planner KG Media",
         "success": true
       }
