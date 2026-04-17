@@ -7143,24 +7143,17 @@
     ]
   },
   "2026-04-17": {
-    "total": 149,
+    "total": 150,
     "streamlit": 0,
-    "github_action": 149,
-    "successful": 149,
+    "github_action": 150,
+    "successful": 150,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Megapolitan": 18
+      "Reporter Megapolitan": 19
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 01:01:07",
-        "source": "github_action",
-        "candidate": "Jesika Gloria",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 01:01:40",
         "source": "github_action",
@@ -7851,6 +7844,13 @@
         "timestamp": "2026-04-17 01:50:46",
         "source": "github_action",
         "candidate": "Ikbal Tawakal",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 01:51:14",
+        "source": "github_action",
+        "candidate": "Nadine Dwi Fahira",
         "position": "Reporter Megapolitan",
         "success": true
       }
