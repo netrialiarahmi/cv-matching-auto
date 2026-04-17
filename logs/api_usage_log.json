@@ -7143,24 +7143,18 @@
     ]
   },
   "2026-04-17": {
-    "total": 231,
+    "total": 232,
     "streamlit": 0,
-    "github_action": 231,
-    "successful": 231,
+    "github_action": 232,
+    "successful": 232,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Megapolitan": 100
+      "Reporter Megapolitan": 100,
+      "Sustainability Officer KG Media": 1
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 01:42:29",
-        "source": "github_action",
-        "candidate": "Gregorius Manurung",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 01:43:02",
         "source": "github_action",
@@ -7852,6 +7846,13 @@
         "source": "github_action",
         "candidate": "Prie Supriyanto",
         "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 02:29:31",
+        "source": "github_action",
+        "candidate": "Muhammad Ardhanie Amrullah",
+        "position": "Sustainability Officer KG Media",
         "success": true
       }
     ]
