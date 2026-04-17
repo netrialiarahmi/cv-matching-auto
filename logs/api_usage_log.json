@@ -7143,25 +7143,18 @@
     ]
   },
   "2026-04-17": {
-    "total": 236,
+    "total": 237,
     "streamlit": 0,
-    "github_action": 236,
-    "successful": 236,
+    "github_action": 237,
+    "successful": 237,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
-      "Sustainability Officer KG Media": 5
+      "Sustainability Officer KG Media": 6
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 01:45:00",
-        "source": "github_action",
-        "candidate": "Toni Hermawan",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 01:45:28",
         "source": "github_action",
@@ -7852,6 +7845,13 @@
         "timestamp": "2026-04-17 02:31:38",
         "source": "github_action",
         "candidate": "Aqilla Fadia Wahono",
+        "position": "Sustainability Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 02:32:09",
+        "source": "github_action",
+        "candidate": "Evan Agustian Lukius",
         "position": "Sustainability Officer KG Media",
         "success": true
       }
