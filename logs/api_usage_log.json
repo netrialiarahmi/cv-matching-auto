@@ -7143,26 +7143,19 @@
     ]
   },
   "2026-04-17": {
-    "total": 401,
+    "total": 402,
     "streamlit": 0,
-    "github_action": 401,
-    "successful": 401,
+    "github_action": 402,
+    "successful": 402,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
       "Sustainability Officer KG Media": 100,
-      "Strategic Planner KG Media": 70
+      "Strategic Planner KG Media": 71
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 03:02:36",
-        "source": "github_action",
-        "candidate": "Beauty Keren",
-        "position": "Sustainability Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 03:03:07",
         "source": "github_action",
@@ -7853,6 +7846,13 @@
         "timestamp": "2026-04-17 03:51:01",
         "source": "github_action",
         "candidate": "Desti Syarifah",
+        "position": "Strategic Planner KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 03:51:36",
+        "source": "github_action",
+        "candidate": "Yoga Nugraha",
         "position": "Strategic Planner KG Media",
         "success": true
       }
