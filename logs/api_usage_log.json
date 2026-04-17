@@ -7143,27 +7143,20 @@
     ]
   },
   "2026-04-17": {
-    "total": 650,
+    "total": 651,
     "streamlit": 0,
-    "github_action": 650,
-    "successful": 650,
+    "github_action": 651,
+    "successful": 651,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 200,
       "Reporter Megapolitan": 200,
-      "Sustainability Officer KG Media": 119,
+      "Sustainability Officer KG Media": 120,
       "Strategic Planner KG Media": 88,
       "Reporter Nasional": 12
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 06:41:30",
-        "source": "github_action",
-        "candidate": "Tevin Heikal",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 06:43:49",
         "source": "github_action",
@@ -7854,6 +7847,13 @@
         "timestamp": "2026-04-17 07:45:00",
         "source": "github_action",
         "candidate": "Rian Palimirmo Adi",
+        "position": "Sustainability Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 07:45:32",
+        "source": "github_action",
+        "candidate": "Gregorius Naralatu Dharana",
         "position": "Sustainability Officer KG Media",
         "success": true
       }
