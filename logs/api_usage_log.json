@@ -7143,10 +7143,10 @@
     ]
   },
   "2026-04-17": {
-    "total": 882,
+    "total": 883,
     "streamlit": 0,
-    "github_action": 882,
-    "successful": 882,
+    "github_action": 883,
+    "successful": 883,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
@@ -7155,16 +7155,9 @@
       "Sustainability Officer KG Media": 200,
       "Strategic Planner KG Media": 90,
       "Reporter Nasional": 112,
-      "Content Writer Homey": 49
+      "Content Writer Homey": 50
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 08:50:57",
-        "source": "github_action",
-        "candidate": "Lita Gabriella",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 08:51:27",
         "source": "github_action",
@@ -7855,6 +7848,13 @@
         "timestamp": "2026-04-17 09:39:18",
         "source": "github_action",
         "candidate": "Rezah  Anifa",
+        "position": "Content Writer Homey",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 09:39:50",
+        "source": "github_action",
+        "candidate": "Sepriana Novalina Tinambunan",
         "position": "Content Writer Homey",
         "success": true
       }
