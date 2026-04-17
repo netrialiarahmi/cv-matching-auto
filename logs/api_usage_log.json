@@ -7143,26 +7143,19 @@
     ]
   },
   "2026-04-17": {
-    "total": 335,
+    "total": 336,
     "streamlit": 0,
-    "github_action": 335,
-    "successful": 335,
+    "github_action": 336,
+    "successful": 336,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
       "Sustainability Officer KG Media": 100,
-      "Strategic Planner KG Media": 4
+      "Strategic Planner KG Media": 5
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 02:31:38",
-        "source": "github_action",
-        "candidate": "Aqilla Fadia Wahono",
-        "position": "Sustainability Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 02:32:09",
         "source": "github_action",
@@ -7853,6 +7846,13 @@
         "timestamp": "2026-04-17 03:18:03",
         "source": "github_action",
         "candidate": "Adinda  Saskya",
+        "position": "Strategic Planner KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 03:18:37",
+        "source": "github_action",
+        "candidate": "Tevin Heikal",
         "position": "Strategic Planner KG Media",
         "success": true
       }
