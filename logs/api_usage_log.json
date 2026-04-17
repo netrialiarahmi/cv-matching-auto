@@ -7143,26 +7143,19 @@
     ]
   },
   "2026-04-17": {
-    "total": 386,
+    "total": 387,
     "streamlit": 0,
-    "github_action": 386,
-    "successful": 386,
+    "github_action": 387,
+    "successful": 387,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
       "Sustainability Officer KG Media": 100,
-      "Strategic Planner KG Media": 55
+      "Strategic Planner KG Media": 56
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 02:55:28",
-        "source": "github_action",
-        "candidate": "Gusti Farhan",
-        "position": "Sustainability Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 02:55:30",
         "source": "github_action",
@@ -7853,6 +7846,13 @@
         "timestamp": "2026-04-17 03:43:30",
         "source": "github_action",
         "candidate": "Andi Hanifah Oktariani",
+        "position": "Strategic Planner KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 03:44:04",
+        "source": "github_action",
+        "candidate": "Dira Maulida",
         "position": "Strategic Planner KG Media",
         "success": true
       }
