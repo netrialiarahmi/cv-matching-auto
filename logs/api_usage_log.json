@@ -7143,24 +7143,17 @@
     ]
   },
   "2026-04-17": {
-    "total": 167,
+    "total": 168,
     "streamlit": 0,
-    "github_action": 167,
-    "successful": 167,
+    "github_action": 168,
+    "successful": 168,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Megapolitan": 36
+      "Reporter Megapolitan": 37
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 01:10:05",
-        "source": "github_action",
-        "candidate": "Anjanni Dewi",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 01:10:37",
         "source": "github_action",
@@ -7851,6 +7844,13 @@
         "timestamp": "2026-04-17 01:58:50",
         "source": "github_action",
         "candidate": "Azzahra Aulia Nada",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 01:59:21",
+        "source": "github_action",
+        "candidate": "Alysa Reyhan Maharani",
         "position": "Reporter Megapolitan",
         "success": true
       }
