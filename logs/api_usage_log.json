@@ -7143,27 +7143,20 @@
     ]
   },
   "2026-04-17": {
-    "total": 582,
+    "total": 583,
     "streamlit": 0,
-    "github_action": 582,
-    "successful": 582,
+    "github_action": 583,
+    "successful": 583,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 200,
-      "Reporter Megapolitan": 151,
+      "Reporter Megapolitan": 152,
       "Sustainability Officer KG Media": 100,
       "Strategic Planner KG Media": 88,
       "Reporter Nasional": 12
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 04:29:42",
-        "source": "github_action",
-        "candidate": "Abrian Rizki Seto",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 04:30:12",
         "source": "github_action",
@@ -7854,6 +7847,13 @@
         "timestamp": "2026-04-17 07:11:09",
         "source": "github_action",
         "candidate": "Angel Rinella",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 07:11:37",
+        "source": "github_action",
+        "candidate": "Muhjid Bagus Oqsaberi",
         "position": "Reporter Megapolitan",
         "success": true
       }
