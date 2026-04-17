@@ -7143,26 +7143,19 @@
     ]
   },
   "2026-04-17": {
-    "total": 361,
+    "total": 362,
     "streamlit": 0,
-    "github_action": 361,
-    "successful": 361,
+    "github_action": 362,
+    "successful": 362,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
       "Sustainability Officer KG Media": 100,
-      "Strategic Planner KG Media": 30
+      "Strategic Planner KG Media": 31
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 02:44:05",
-        "source": "github_action",
-        "candidate": "Azka Dyera Nurrizky",
-        "position": "Sustainability Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 02:44:31",
         "source": "github_action",
@@ -7853,6 +7846,13 @@
         "timestamp": "2026-04-17 03:30:19",
         "source": "github_action",
         "candidate": "Gilang Anjar Rinaldy",
+        "position": "Strategic Planner KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 03:30:47",
+        "source": "github_action",
+        "candidate": "Hikma Nurma Indah",
         "position": "Strategic Planner KG Media",
         "success": true
       }
