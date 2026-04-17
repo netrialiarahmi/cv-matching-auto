@@ -7143,25 +7143,18 @@
     ]
   },
   "2026-04-17": {
-    "total": 311,
+    "total": 312,
     "streamlit": 0,
-    "github_action": 311,
-    "successful": 311,
+    "github_action": 312,
+    "successful": 312,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
-      "Sustainability Officer KG Media": 80
+      "Sustainability Officer KG Media": 81
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 02:19:53",
-        "source": "github_action",
-        "candidate": "Tsabita Sirly Kamaliya",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 02:20:23",
         "source": "github_action",
@@ -7852,6 +7845,13 @@
         "timestamp": "2026-04-17 03:07:00",
         "source": "github_action",
         "candidate": "Elisabet Caroline",
+        "position": "Sustainability Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 03:07:29",
+        "source": "github_action",
+        "candidate": "Risky Lucky Romadhon",
         "position": "Sustainability Officer KG Media",
         "success": true
       }
