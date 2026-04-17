@@ -7143,25 +7143,18 @@
     ]
   },
   "2026-04-17": {
-    "total": 249,
+    "total": 250,
     "streamlit": 0,
-    "github_action": 249,
-    "successful": 249,
+    "github_action": 250,
+    "successful": 250,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
-      "Sustainability Officer KG Media": 18
+      "Sustainability Officer KG Media": 19
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 01:51:14",
-        "source": "github_action",
-        "candidate": "Nadine Dwi Fahira",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 01:51:40",
         "source": "github_action",
@@ -7852,6 +7845,13 @@
         "timestamp": "2026-04-17 02:37:54",
         "source": "github_action",
         "candidate": "Tahany Hafiza",
+        "position": "Sustainability Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 02:38:24",
+        "source": "github_action",
+        "candidate": "Rian Palimirmo Adi",
         "position": "Sustainability Officer KG Media",
         "success": true
       }
