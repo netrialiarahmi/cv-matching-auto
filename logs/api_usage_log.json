@@ -7143,27 +7143,20 @@
     ]
   },
   "2026-04-17": {
-    "total": 666,
+    "total": 667,
     "streamlit": 0,
-    "github_action": 666,
-    "successful": 666,
+    "github_action": 667,
+    "successful": 667,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 200,
       "Reporter Megapolitan": 200,
-      "Sustainability Officer KG Media": 135,
+      "Sustainability Officer KG Media": 136,
       "Strategic Planner KG Media": 88,
       "Reporter Nasional": 12
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 07:03:28",
-        "source": "github_action",
-        "candidate": "Tsabita Sirly Kamaliya",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 07:03:56",
         "source": "github_action",
@@ -7854,6 +7847,13 @@
         "timestamp": "2026-04-17 07:53:13",
         "source": "github_action",
         "candidate": "Octria Vesensia",
+        "position": "Sustainability Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 07:53:42",
+        "source": "github_action",
+        "candidate": "Juan Yosef",
         "position": "Sustainability Officer KG Media",
         "success": true
       }
