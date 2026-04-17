@@ -7143,10 +7143,10 @@
     ]
   },
   "2026-04-17": {
-    "total": 871,
+    "total": 872,
     "streamlit": 0,
-    "github_action": 871,
-    "successful": 871,
+    "github_action": 872,
+    "successful": 872,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
@@ -7155,16 +7155,9 @@
       "Sustainability Officer KG Media": 200,
       "Strategic Planner KG Media": 90,
       "Reporter Nasional": 112,
-      "Content Writer Homey": 38
+      "Content Writer Homey": 39
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 08:46:05",
-        "source": "github_action",
-        "candidate": "Fattan Ichlasul Jahid",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 08:46:39",
         "source": "github_action",
@@ -7855,6 +7848,13 @@
         "timestamp": "2026-04-17 09:34:40",
         "source": "github_action",
         "candidate": "Renaldi Saputra",
+        "position": "Content Writer Homey",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 09:35:07",
+        "source": "github_action",
+        "candidate": "Tegar Widodo",
         "position": "Content Writer Homey",
         "success": true
       }
