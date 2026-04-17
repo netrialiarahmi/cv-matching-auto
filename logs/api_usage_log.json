@@ -7143,10 +7143,10 @@
     ]
   },
   "2026-04-17": {
-    "total": 786,
+    "total": 787,
     "streamlit": 0,
-    "github_action": 786,
-    "successful": 786,
+    "github_action": 787,
+    "successful": 787,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
@@ -7154,16 +7154,9 @@
       "Reporter Megapolitan": 200,
       "Sustainability Officer KG Media": 200,
       "Strategic Planner KG Media": 90,
-      "Reporter Nasional": 65
+      "Reporter Nasional": 66
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 08:03:09",
-        "source": "github_action",
-        "candidate": "Suci Rachmawati",
-        "position": "Sustainability Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 08:03:39",
         "source": "github_action",
@@ -7854,6 +7847,13 @@
         "timestamp": "2026-04-17 08:52:28",
         "source": "github_action",
         "candidate": "Naufal Refrizal",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 08:52:57",
+        "source": "github_action",
+        "candidate": "Rafki Fachrizal",
         "position": "Reporter Nasional",
         "success": true
       }
