@@ -7143,24 +7143,17 @@
     ]
   },
   "2026-04-17": {
-    "total": 210,
+    "total": 211,
     "streamlit": 0,
-    "github_action": 210,
-    "successful": 210,
+    "github_action": 211,
+    "successful": 211,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Megapolitan": 79
+      "Reporter Megapolitan": 80
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 01:32:13",
-        "source": "github_action",
-        "candidate": "Zaid M Arsyad",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 01:32:41",
         "source": "github_action",
@@ -7851,6 +7844,13 @@
         "timestamp": "2026-04-17 02:18:53",
         "source": "github_action",
         "candidate": "Diva Mawarni Permana",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 02:19:23",
+        "source": "github_action",
+        "candidate": "Sasa Rahmadhani",
         "position": "Reporter Megapolitan",
         "success": true
       }
