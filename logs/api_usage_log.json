@@ -7143,10 +7143,10 @@
     ]
   },
   "2026-04-17": {
-    "total": 755,
+    "total": 756,
     "streamlit": 0,
-    "github_action": 755,
-    "successful": 755,
+    "github_action": 756,
+    "successful": 756,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
@@ -7154,16 +7154,9 @@
       "Reporter Megapolitan": 200,
       "Sustainability Officer KG Media": 200,
       "Strategic Planner KG Media": 90,
-      "Reporter Nasional": 34
+      "Reporter Nasional": 35
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 07:48:05",
-        "source": "github_action",
-        "candidate": "Atika Rahayu Puteri",
-        "position": "Sustainability Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 07:48:36",
         "source": "github_action",
@@ -7854,6 +7847,13 @@
         "timestamp": "2026-04-17 08:37:49",
         "source": "github_action",
         "candidate": "Lutfan Faizi",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 08:38:20",
+        "source": "github_action",
+        "candidate": "Alfandi Khuzaeri",
         "position": "Reporter Nasional",
         "success": true
       }
