@@ -7143,10 +7143,10 @@
     ]
   },
   "2026-04-17": {
-    "total": 925,
+    "total": 926,
     "streamlit": 0,
-    "github_action": 925,
-    "successful": 925,
+    "github_action": 926,
+    "successful": 926,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
@@ -7155,16 +7155,9 @@
       "Sustainability Officer KG Media": 200,
       "Strategic Planner KG Media": 90,
       "Reporter Nasional": 112,
-      "Content Writer Homey": 92
+      "Content Writer Homey": 93
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 09:12:17",
-        "source": "github_action",
-        "candidate": "Azka Putrie",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 09:12:49",
         "source": "github_action",
@@ -7855,6 +7848,13 @@
         "timestamp": "2026-04-17 10:00:32",
         "source": "github_action",
         "candidate": "Hafiz Ahmad",
+        "position": "Content Writer Homey",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 10:00:59",
+        "source": "github_action",
+        "candidate": "Dzika Fajar Alfian  Ramadhani",
         "position": "Content Writer Homey",
         "success": true
       }
