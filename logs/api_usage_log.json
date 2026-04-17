@@ -7143,25 +7143,18 @@
     ]
   },
   "2026-04-17": {
-    "total": 322,
+    "total": 323,
     "streamlit": 0,
-    "github_action": 322,
-    "successful": 322,
+    "github_action": 323,
+    "successful": 323,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
-      "Sustainability Officer KG Media": 91
+      "Sustainability Officer KG Media": 92
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 02:25:33",
-        "source": "github_action",
-        "candidate": "Putri Mutia Rahman",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 02:26:02",
         "source": "github_action",
@@ -7852,6 +7845,13 @@
         "timestamp": "2026-04-17 03:11:53",
         "source": "github_action",
         "candidate": "Alvita Zahra",
+        "position": "Sustainability Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 03:12:25",
+        "source": "github_action",
+        "candidate": "Selma Adalia Surya",
         "position": "Sustainability Officer KG Media",
         "success": true
       }
