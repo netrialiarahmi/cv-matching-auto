@@ -7143,10 +7143,10 @@
     ]
   },
   "2026-04-17": {
-    "total": 472,
+    "total": 473,
     "streamlit": 0,
-    "github_action": 472,
-    "successful": 472,
+    "github_action": 473,
+    "successful": 473,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
@@ -7154,16 +7154,9 @@
       "Reporter Megapolitan": 100,
       "Sustainability Officer KG Media": 100,
       "Strategic Planner KG Media": 88,
-      "Reporter Nasional": 53
+      "Reporter Nasional": 54
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 03:36:27",
-        "source": "github_action",
-        "candidate": "Omar Pradana",
-        "position": "Strategic Planner KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 03:37:04",
         "source": "github_action",
@@ -7854,6 +7847,13 @@
         "timestamp": "2026-04-17 04:23:27",
         "source": "github_action",
         "candidate": "Muhamad Rafi Amanullah",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 04:23:30",
+        "source": "github_action",
+        "candidate": "M Sahrul Fikri Samson",
         "position": "Reporter Nasional",
         "success": true
       }
