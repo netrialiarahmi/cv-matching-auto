@@ -7143,23 +7143,16 @@
     ]
   },
   "2026-04-17": {
-    "total": 119,
+    "total": 120,
     "streamlit": 0,
-    "github_action": 119,
-    "successful": 119,
+    "github_action": 120,
+    "successful": 120,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
-      "Marketing Communication Officer KG Media": 88
+      "Marketing Communication Officer KG Media": 89
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 00:45:46",
-        "source": "github_action",
-        "candidate": "Doni Wenfery Simorangkir",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 00:46:16",
         "source": "github_action",
@@ -7850,6 +7843,13 @@
         "timestamp": "2026-04-17 01:35:44",
         "source": "github_action",
         "candidate": "Savira Kirana",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 01:36:15",
+        "source": "github_action",
+        "candidate": "Choirunnisa Salsabiela",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
