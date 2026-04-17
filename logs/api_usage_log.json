@@ -7143,27 +7143,20 @@
     ]
   },
   "2026-04-17": {
-    "total": 683,
+    "total": 684,
     "streamlit": 0,
-    "github_action": 683,
-    "successful": 683,
+    "github_action": 684,
+    "successful": 684,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 200,
       "Reporter Megapolitan": 200,
-      "Sustainability Officer KG Media": 152,
+      "Sustainability Officer KG Media": 153,
       "Strategic Planner KG Media": 88,
       "Reporter Nasional": 12
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 07:12:11",
-        "source": "github_action",
-        "candidate": "Rahel  Siregar",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 07:12:42",
         "source": "github_action",
@@ -7854,6 +7847,13 @@
         "timestamp": "2026-04-17 08:01:34",
         "source": "github_action",
         "candidate": "Fayza Lugina",
+        "position": "Sustainability Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 08:01:37",
+        "source": "github_action",
+        "candidate": "Destya Aulia Hafifah",
         "position": "Sustainability Officer KG Media",
         "success": true
       }
