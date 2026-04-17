@@ -7143,14 +7143,14 @@
     ]
   },
   "2026-04-17": {
-    "total": 54,
+    "total": 55,
     "streamlit": 0,
-    "github_action": 54,
-    "successful": 54,
+    "github_action": 55,
+    "successful": 55,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
-      "Marketing Communication Officer KG Media": 23
+      "Marketing Communication Officer KG Media": 24
     },
     "entries": [
       {
@@ -7528,6 +7528,13 @@
         "timestamp": "2026-04-17 01:03:12",
         "source": "github_action",
         "candidate": "Silmi Lestari",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 01:03:44",
+        "source": "github_action",
+        "candidate": "Boy Fauzan Zefany",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
