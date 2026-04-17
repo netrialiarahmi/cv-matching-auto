@@ -7143,14 +7143,14 @@
     ]
   },
   "2026-04-17": {
-    "total": 65,
+    "total": 66,
     "streamlit": 0,
-    "github_action": 65,
-    "successful": 65,
+    "github_action": 66,
+    "successful": 66,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
-      "Marketing Communication Officer KG Media": 34
+      "Marketing Communication Officer KG Media": 35
     },
     "entries": [
       {
@@ -7605,6 +7605,13 @@
         "timestamp": "2026-04-17 01:08:39",
         "source": "github_action",
         "candidate": "Tegar Ramadhan",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 01:09:08",
+        "source": "github_action",
+        "candidate": "Weny Welyani",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
