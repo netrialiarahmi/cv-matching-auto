@@ -7143,14 +7143,14 @@
     ]
   },
   "2026-04-17": {
-    "total": 78,
+    "total": 79,
     "streamlit": 0,
-    "github_action": 78,
-    "successful": 78,
+    "github_action": 79,
+    "successful": 79,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
-      "Marketing Communication Officer KG Media": 47
+      "Marketing Communication Officer KG Media": 48
     },
     "entries": [
       {
@@ -7696,6 +7696,13 @@
         "timestamp": "2026-04-17 01:15:24",
         "source": "github_action",
         "candidate": "Madani Prima Permana",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 01:15:52",
+        "source": "github_action",
+        "candidate": "zaki ramadhan",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
