@@ -7143,24 +7143,17 @@
     ]
   },
   "2026-04-17": {
-    "total": 191,
+    "total": 192,
     "streamlit": 0,
-    "github_action": 191,
-    "successful": 191,
+    "github_action": 192,
+    "successful": 192,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Megapolitan": 60
+      "Reporter Megapolitan": 61
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 01:22:30",
-        "source": "github_action",
-        "candidate": "Aulia Vinka Dinda Pratiwi S. I. Kom",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 01:23:05",
         "source": "github_action",
@@ -7851,6 +7844,13 @@
         "timestamp": "2026-04-17 02:10:41",
         "source": "github_action",
         "candidate": "Aldina Nasution",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 02:11:10",
+        "source": "github_action",
+        "candidate": "Ayudya  Winessa",
         "position": "Reporter Megapolitan",
         "success": true
       }
