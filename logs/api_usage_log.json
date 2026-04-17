@@ -7143,13 +7143,13 @@
     ]
   },
   "2026-04-17": {
-    "total": 3,
+    "total": 4,
     "streamlit": 0,
-    "github_action": 3,
-    "successful": 3,
+    "github_action": 4,
+    "successful": 4,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 3
+      "Account Executive VCBL": 4
     },
     "entries": [
       {
@@ -7170,6 +7170,13 @@
         "timestamp": "2026-04-17 00:39:10",
         "source": "github_action",
         "candidate": "Jethro Giovanni Saputra",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 00:39:41",
+        "source": "github_action",
+        "candidate": "Ilham Rahmatulloh",
         "position": "Account Executive VCBL",
         "success": true
       }
