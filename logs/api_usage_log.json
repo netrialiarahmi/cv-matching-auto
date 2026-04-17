@@ -7143,27 +7143,20 @@
     ]
   },
   "2026-04-17": {
-    "total": 560,
+    "total": 561,
     "streamlit": 0,
-    "github_action": 560,
-    "successful": 560,
+    "github_action": 561,
+    "successful": 561,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 200,
-      "Reporter Megapolitan": 129,
+      "Reporter Megapolitan": 130,
       "Sustainability Officer KG Media": 100,
       "Strategic Planner KG Media": 88,
       "Reporter Nasional": 12
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 04:18:39",
-        "source": "github_action",
-        "candidate": "lina Desyiriana",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 04:19:07",
         "source": "github_action",
@@ -7854,6 +7847,13 @@
         "timestamp": "2026-04-17 07:00:22",
         "source": "github_action",
         "candidate": "Diva Salsabila",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 07:00:50",
+        "source": "github_action",
+        "candidate": "Ardan Fitriansyah",
         "position": "Reporter Megapolitan",
         "success": true
       }
