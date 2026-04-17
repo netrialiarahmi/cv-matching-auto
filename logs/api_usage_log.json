@@ -7143,23 +7143,16 @@
     ]
   },
   "2026-04-17": {
-    "total": 118,
+    "total": 119,
     "streamlit": 0,
-    "github_action": 118,
-    "successful": 118,
+    "github_action": 119,
+    "successful": 119,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
-      "Marketing Communication Officer KG Media": 87
+      "Marketing Communication Officer KG Media": 88
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 00:45:19",
-        "source": "github_action",
-        "candidate": "Insyirah Ayu Ardila",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 00:45:46",
         "source": "github_action",
@@ -7850,6 +7843,13 @@
         "timestamp": "2026-04-17 01:35:13",
         "source": "github_action",
         "candidate": "Wildan Alghofari",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 01:35:44",
+        "source": "github_action",
+        "candidate": "Savira Kirana",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
