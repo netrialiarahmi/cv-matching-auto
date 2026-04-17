@@ -7143,10 +7143,10 @@
     ]
   },
   "2026-04-17": {
-    "total": 886,
+    "total": 887,
     "streamlit": 0,
-    "github_action": 886,
-    "successful": 886,
+    "github_action": 887,
+    "successful": 887,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
@@ -7155,16 +7155,9 @@
       "Sustainability Officer KG Media": 200,
       "Strategic Planner KG Media": 90,
       "Reporter Nasional": 112,
-      "Content Writer Homey": 53
+      "Content Writer Homey": 54
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 08:52:57",
-        "source": "github_action",
-        "candidate": "Rafki Fachrizal",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 08:53:26",
         "source": "github_action",
@@ -7855,6 +7848,13 @@
         "timestamp": "2026-04-17 09:41:22",
         "source": "github_action",
         "candidate": "Rizki Gojali",
+        "position": "Content Writer Homey",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 09:41:51",
+        "source": "github_action",
+        "candidate": "Tevin Heikal",
         "position": "Content Writer Homey",
         "success": true
       }
