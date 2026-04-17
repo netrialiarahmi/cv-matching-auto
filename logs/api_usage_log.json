@@ -7143,24 +7143,17 @@
     ]
   },
   "2026-04-17": {
-    "total": 139,
+    "total": 140,
     "streamlit": 0,
-    "github_action": 139,
-    "successful": 139,
+    "github_action": 140,
+    "successful": 140,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Megapolitan": 8
+      "Reporter Megapolitan": 9
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 00:56:18",
-        "source": "github_action",
-        "candidate": "Veronika Amasyitha Shafha Elvetta",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 00:56:51",
         "source": "github_action",
@@ -7851,6 +7844,13 @@
         "timestamp": "2026-04-17 01:45:59",
         "source": "github_action",
         "candidate": "Wais Al Mukhlis",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 01:46:26",
+        "source": "github_action",
+        "candidate": "M. Nabil Mamnun",
         "position": "Reporter Megapolitan",
         "success": true
       }
