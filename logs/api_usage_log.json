@@ -7143,24 +7143,17 @@
     ]
   },
   "2026-04-17": {
-    "total": 227,
+    "total": 228,
     "streamlit": 0,
-    "github_action": 227,
-    "successful": 227,
+    "github_action": 228,
+    "successful": 228,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Megapolitan": 96
+      "Reporter Megapolitan": 97
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 01:40:24",
-        "source": "github_action",
-        "candidate": "Muhammad Fauzan Yuzril",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 01:40:56",
         "source": "github_action",
@@ -7851,6 +7844,13 @@
         "timestamp": "2026-04-17 02:27:05",
         "source": "github_action",
         "candidate": "Dian Saputra",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 02:27:35",
+        "source": "github_action",
+        "candidate": "Fajar Gumilar",
         "position": "Reporter Megapolitan",
         "success": true
       }
