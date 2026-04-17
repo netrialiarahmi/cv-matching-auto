@@ -7143,24 +7143,17 @@
     ]
   },
   "2026-04-17": {
-    "total": 168,
+    "total": 169,
     "streamlit": 0,
-    "github_action": 168,
-    "successful": 168,
+    "github_action": 169,
+    "successful": 169,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Megapolitan": 37
+      "Reporter Megapolitan": 38
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 01:10:37",
-        "source": "github_action",
-        "candidate": "Naufal Fadhil",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 01:11:10",
         "source": "github_action",
@@ -7851,6 +7844,13 @@
         "timestamp": "2026-04-17 01:59:21",
         "source": "github_action",
         "candidate": "Alysa Reyhan Maharani",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 01:59:51",
+        "source": "github_action",
+        "candidate": "Adinda Nurul Hikmi",
         "position": "Reporter Megapolitan",
         "success": true
       }
