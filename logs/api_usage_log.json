@@ -7143,27 +7143,20 @@
     ]
   },
   "2026-04-17": {
-    "total": 705,
+    "total": 706,
     "streamlit": 0,
-    "github_action": 705,
-    "successful": 705,
+    "github_action": 706,
+    "successful": 706,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 200,
       "Reporter Megapolitan": 200,
-      "Sustainability Officer KG Media": 174,
+      "Sustainability Officer KG Media": 175,
       "Strategic Planner KG Media": 88,
       "Reporter Nasional": 12
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 07:23:25",
-        "source": "github_action",
-        "candidate": "Moh. Ikhsani",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 07:24:03",
         "source": "github_action",
@@ -7854,6 +7847,13 @@
         "timestamp": "2026-04-17 08:12:34",
         "source": "github_action",
         "candidate": "Tsania Anggita Yudistya",
+        "position": "Sustainability Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 08:13:03",
+        "source": "github_action",
+        "candidate": "Gusti Izza",
         "position": "Sustainability Officer KG Media",
         "success": true
       }
