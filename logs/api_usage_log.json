@@ -7143,10 +7143,10 @@
     ]
   },
   "2026-04-17": {
-    "total": 779,
+    "total": 780,
     "streamlit": 0,
-    "github_action": 779,
-    "successful": 779,
+    "github_action": 780,
+    "successful": 780,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
@@ -7154,16 +7154,9 @@
       "Reporter Megapolitan": 200,
       "Sustainability Officer KG Media": 200,
       "Strategic Planner KG Media": 90,
-      "Reporter Nasional": 58
+      "Reporter Nasional": 59
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 07:59:52",
-        "source": "github_action",
-        "candidate": "Rizky Fuji Munfariz",
-        "position": "Sustainability Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 08:00:27",
         "source": "github_action",
@@ -7854,6 +7847,13 @@
         "timestamp": "2026-04-17 08:49:27",
         "source": "github_action",
         "candidate": "Ika Amiliya Nurhidayah",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 08:49:58",
+        "source": "github_action",
+        "candidate": "Renaldi Saputra",
         "position": "Reporter Nasional",
         "success": true
       }
