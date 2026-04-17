@@ -7143,24 +7143,17 @@
     ]
   },
   "2026-04-17": {
-    "total": 221,
+    "total": 222,
     "streamlit": 0,
-    "github_action": 221,
-    "successful": 221,
+    "github_action": 222,
+    "successful": 222,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Megapolitan": 90
+      "Reporter Megapolitan": 91
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 01:37:19",
-        "source": "github_action",
-        "candidate": "Tevin Heikal",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 01:37:49",
         "source": "github_action",
@@ -7851,6 +7844,13 @@
         "timestamp": "2026-04-17 02:24:20",
         "source": "github_action",
         "candidate": "Wahyu Setiawan",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 02:24:52",
+        "source": "github_action",
+        "candidate": "Natasa Alifah",
         "position": "Reporter Megapolitan",
         "success": true
       }
