@@ -7143,23 +7143,16 @@
     ]
   },
   "2026-04-17": {
-    "total": 108,
+    "total": 109,
     "streamlit": 0,
-    "github_action": 108,
-    "successful": 108,
+    "github_action": 109,
+    "successful": 109,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
-      "Marketing Communication Officer KG Media": 77
+      "Marketing Communication Officer KG Media": 78
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 00:41:44",
-        "source": "github_action",
-        "candidate": "Christian Aldy",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 00:42:16",
         "source": "github_action",
@@ -7850,6 +7843,13 @@
         "timestamp": "2026-04-17 01:30:31",
         "source": "github_action",
         "candidate": "Meutia  Nurilmi Trijayanti",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 01:31:02",
+        "source": "github_action",
+        "candidate": "Anita Prameswari",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
