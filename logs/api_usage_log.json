@@ -7143,23 +7143,16 @@
     ]
   },
   "2026-04-17": {
-    "total": 111,
+    "total": 112,
     "streamlit": 0,
-    "github_action": 111,
-    "successful": 111,
+    "github_action": 112,
+    "successful": 112,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
-      "Marketing Communication Officer KG Media": 80
+      "Marketing Communication Officer KG Media": 81
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 00:43:12",
-        "source": "github_action",
-        "candidate": "Elfrida Fiola Siregar siregar",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 00:43:43",
         "source": "github_action",
@@ -7850,6 +7843,13 @@
         "timestamp": "2026-04-17 01:32:13",
         "source": "github_action",
         "candidate": "Zaid M Arsyad",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 01:32:41",
+        "source": "github_action",
+        "candidate": "Riri Dwi Lestari",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
