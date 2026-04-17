@@ -7143,23 +7143,16 @@
     ]
   },
   "2026-04-17": {
-    "total": 124,
+    "total": 125,
     "streamlit": 0,
-    "github_action": 124,
-    "successful": 124,
+    "github_action": 125,
+    "successful": 125,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
-      "Marketing Communication Officer KG Media": 93
+      "Marketing Communication Officer KG Media": 94
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 00:48:28",
-        "source": "github_action",
-        "candidate": "Gita Aurelia",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 00:48:54",
         "source": "github_action",
@@ -7850,6 +7843,13 @@
         "timestamp": "2026-04-17 01:38:22",
         "source": "github_action",
         "candidate": "Nazlan Syahputra",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 01:38:51",
+        "source": "github_action",
+        "candidate": "Dhimas risang sri  arya naratama",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
