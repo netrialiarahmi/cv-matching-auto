@@ -7143,24 +7143,17 @@
     ]
   },
   "2026-04-17": {
-    "total": 153,
+    "total": 154,
     "streamlit": 0,
-    "github_action": 153,
-    "successful": 153,
+    "github_action": 154,
+    "successful": 154,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Megapolitan": 22
+      "Reporter Megapolitan": 23
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 01:03:12",
-        "source": "github_action",
-        "candidate": "Silmi Lestari",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 01:03:44",
         "source": "github_action",
@@ -7851,6 +7844,13 @@
         "timestamp": "2026-04-17 01:52:40",
         "source": "github_action",
         "candidate": "Audya Febryannanda Putri",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 01:53:09",
+        "source": "github_action",
+        "candidate": "Priscilla Waworuntu Pangakuang",
         "position": "Reporter Megapolitan",
         "success": true
       }
