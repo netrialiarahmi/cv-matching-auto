@@ -7143,27 +7143,20 @@
     ]
   },
   "2026-04-17": {
-    "total": 722,
+    "total": 723,
     "streamlit": 0,
-    "github_action": 722,
-    "successful": 722,
+    "github_action": 723,
+    "successful": 723,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 200,
       "Reporter Megapolitan": 200,
-      "Sustainability Officer KG Media": 191,
+      "Sustainability Officer KG Media": 192,
       "Strategic Planner KG Media": 88,
       "Reporter Nasional": 12
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 07:31:29",
-        "source": "github_action",
-        "candidate": "Muhammad Farrel Shiham Ramadani",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 07:32:00",
         "source": "github_action",
@@ -7854,6 +7847,13 @@
         "timestamp": "2026-04-17 08:21:15",
         "source": "github_action",
         "candidate": "Sarah Ilham",
+        "position": "Sustainability Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 08:21:44",
+        "source": "github_action",
+        "candidate": "Alvita Zahra",
         "position": "Sustainability Officer KG Media",
         "success": true
       }
