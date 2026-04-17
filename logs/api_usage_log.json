@@ -7143,26 +7143,19 @@
     ]
   },
   "2026-04-17": {
-    "total": 356,
+    "total": 357,
     "streamlit": 0,
-    "github_action": 356,
-    "successful": 356,
+    "github_action": 357,
+    "successful": 357,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
       "Sustainability Officer KG Media": 100,
-      "Strategic Planner KG Media": 25
+      "Strategic Planner KG Media": 26
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 02:41:46",
-        "source": "github_action",
-        "candidate": "Andre Yosua Pangaribuan",
-        "position": "Sustainability Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 02:42:13",
         "source": "github_action",
@@ -7853,6 +7846,13 @@
         "timestamp": "2026-04-17 03:28:14",
         "source": "github_action",
         "candidate": "Hizkia Arsenio Christianto Alvarel",
+        "position": "Strategic Planner KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 03:28:43",
+        "source": "github_action",
+        "candidate": "Syarif Antoni",
         "position": "Strategic Planner KG Media",
         "success": true
       }
