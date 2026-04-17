@@ -7143,10 +7143,10 @@
     ]
   },
   "2026-04-17": {
-    "total": 768,
+    "total": 769,
     "streamlit": 0,
-    "github_action": 768,
-    "successful": 768,
+    "github_action": 769,
+    "successful": 769,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
@@ -7154,16 +7154,9 @@
       "Reporter Megapolitan": 200,
       "Sustainability Officer KG Media": 200,
       "Strategic Planner KG Media": 90,
-      "Reporter Nasional": 47
+      "Reporter Nasional": 48
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 07:54:38",
-        "source": "github_action",
-        "candidate": "Raymundus Hamis",
-        "position": "Sustainability Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 07:55:04",
         "source": "github_action",
@@ -7854,6 +7847,13 @@
         "timestamp": "2026-04-17 08:44:00",
         "source": "github_action",
         "candidate": "Putri Hesti Lestari",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 08:44:39",
+        "source": "github_action",
+        "candidate": "Fitria Humaira",
         "position": "Reporter Nasional",
         "success": true
       }
