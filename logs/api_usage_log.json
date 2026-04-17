@@ -7143,25 +7143,18 @@
     ]
   },
   "2026-04-17": {
-    "total": 283,
+    "total": 284,
     "streamlit": 0,
-    "github_action": 283,
-    "successful": 283,
+    "github_action": 284,
+    "successful": 284,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
-      "Sustainability Officer KG Media": 52
+      "Sustainability Officer KG Media": 53
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 02:07:03",
-        "source": "github_action",
-        "candidate": "Dina Rochmaningsih",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 02:07:35",
         "source": "github_action",
@@ -7852,6 +7845,13 @@
         "timestamp": "2026-04-17 02:53:30",
         "source": "github_action",
         "candidate": "Destya Aulia Hafifah",
+        "position": "Sustainability Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 02:54:04",
+        "source": "github_action",
+        "candidate": "Ruth Elsamo Christine  Pasaribu",
         "position": "Sustainability Officer KG Media",
         "success": true
       }
