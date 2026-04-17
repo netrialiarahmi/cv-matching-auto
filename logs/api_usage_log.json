@@ -7143,24 +7143,17 @@
     ]
   },
   "2026-04-17": {
-    "total": 184,
+    "total": 185,
     "streamlit": 0,
-    "github_action": 184,
-    "successful": 184,
+    "github_action": 185,
+    "successful": 185,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Megapolitan": 53
+      "Reporter Megapolitan": 54
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 01:18:52",
-        "source": "github_action",
-        "candidate": "Rifqi Rizaldi",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 01:19:22",
         "source": "github_action",
@@ -7851,6 +7844,13 @@
         "timestamp": "2026-04-17 02:07:03",
         "source": "github_action",
         "candidate": "Dina Rochmaningsih",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 02:07:35",
+        "source": "github_action",
+        "candidate": "Miftahula Rizqin",
         "position": "Reporter Megapolitan",
         "success": true
       }
