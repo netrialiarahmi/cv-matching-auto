@@ -7143,27 +7143,20 @@
     ]
   },
   "2026-04-17": {
-    "total": 445,
+    "total": 446,
     "streamlit": 0,
-    "github_action": 445,
-    "successful": 445,
+    "github_action": 446,
+    "successful": 446,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
-      "Marketing Communication Officer KG Media": 114,
+      "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
       "Sustainability Officer KG Media": 100,
       "Strategic Planner KG Media": 88,
-      "Reporter Nasional": 12
+      "Reporter Nasional": 27
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 03:23:00",
-        "source": "github_action",
-        "candidate": "Fazdillah Reza Kaspuri",
-        "position": "Strategic Planner KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 03:23:27",
         "source": "github_action",
@@ -7760,101 +7753,108 @@
         "success": true
       },
       {
-        "timestamp": "2026-04-17 04:05:21",
+        "timestamp": "2026-04-17 04:04:48",
         "source": "github_action",
-        "candidate": "Ian Puja Pratama",
-        "position": "Marketing Communication Officer KG Media",
+        "candidate": "Syahril wahyu Firmansyah",
+        "position": "Reporter Nasional",
         "success": true
       },
       {
-        "timestamp": "2026-04-17 04:05:26",
+        "timestamp": "2026-04-17 04:04:50",
         "source": "github_action",
-        "candidate": "Denissa Puteri",
-        "position": "Marketing Communication Officer KG Media",
+        "candidate": "Wildan Alghofari",
+        "position": "Reporter Nasional",
         "success": true
       },
       {
-        "timestamp": "2026-04-17 04:05:56",
+        "timestamp": "2026-04-17 04:05:24",
         "source": "github_action",
-        "candidate": "Rizqiyani Asri Firdaus",
-        "position": "Marketing Communication Officer KG Media",
+        "candidate": "Arfiah Arifin",
+        "position": "Reporter Nasional",
         "success": true
       },
       {
-        "timestamp": "2026-04-17 04:06:23",
+        "timestamp": "2026-04-17 04:05:51",
         "source": "github_action",
-        "candidate": "Kezia Natasha",
-        "position": "Marketing Communication Officer KG Media",
+        "candidate": "Syukur Alfajri",
+        "position": "Reporter Nasional",
         "success": true
       },
       {
-        "timestamp": "2026-04-17 04:06:25",
+        "timestamp": "2026-04-17 04:06:20",
         "source": "github_action",
-        "candidate": "Silfi Sri Herliani",
-        "position": "Marketing Communication Officer KG Media",
+        "candidate": "Rini Anjusari",
+        "position": "Reporter Nasional",
         "success": true
       },
       {
-        "timestamp": "2026-04-17 04:06:56",
+        "timestamp": "2026-04-17 04:06:51",
         "source": "github_action",
-        "candidate": "Putri Yohana",
-        "position": "Marketing Communication Officer KG Media",
+        "candidate": "Muhammad Nadhif Firdausi",
+        "position": "Reporter Nasional",
         "success": true
       },
       {
-        "timestamp": "2026-04-17 04:07:28",
+        "timestamp": "2026-04-17 04:07:23",
         "source": "github_action",
-        "candidate": "Nadila Moezbar",
-        "position": "Marketing Communication Officer KG Media",
+        "candidate": "Moh Reynaldi Risahondua",
+        "position": "Reporter Nasional",
         "success": true
       },
       {
-        "timestamp": "2026-04-17 04:08:03",
+        "timestamp": "2026-04-17 04:07:46",
         "source": "github_action",
-        "candidate": "Veronika Amasyitha Shafha Elvetta",
-        "position": "Marketing Communication Officer KG Media",
+        "candidate": "Putri Mauliza",
+        "position": "Reporter Nasional",
         "success": true
       },
       {
-        "timestamp": "2026-04-17 04:08:34",
+        "timestamp": "2026-04-17 04:08:15",
         "source": "github_action",
-        "candidate": "Puspa Aprilia",
-        "position": "Marketing Communication Officer KG Media",
+        "candidate": "neng Halima",
+        "position": "Reporter Nasional",
         "success": true
       },
       {
-        "timestamp": "2026-04-17 04:09:11",
+        "timestamp": "2026-04-17 04:08:38",
         "source": "github_action",
-        "candidate": "Arina Qinthara",
-        "position": "Marketing Communication Officer KG Media",
+        "candidate": "Fajar Hendra Jaya",
+        "position": "Reporter Nasional",
         "success": true
       },
       {
-        "timestamp": "2026-04-17 04:09:43",
+        "timestamp": "2026-04-17 04:09:08",
         "source": "github_action",
-        "candidate": "Dhiya Indah Mawaddah",
-        "position": "Marketing Communication Officer KG Media",
+        "candidate": "Muhammad Fauzan Mubarak",
+        "position": "Reporter Nasional",
         "success": true
       },
       {
-        "timestamp": "2026-04-17 04:09:45",
+        "timestamp": "2026-04-17 04:09:37",
         "source": "github_action",
-        "candidate": "hagadzka al ghafiqi",
-        "position": "Marketing Communication Officer KG Media",
+        "candidate": "Muhammad Jihad",
+        "position": "Reporter Nasional",
         "success": true
       },
       {
-        "timestamp": "2026-04-17 04:10:14",
+        "timestamp": "2026-04-17 04:10:08",
         "source": "github_action",
-        "candidate": "Fahdina Ghina Aliya",
-        "position": "Marketing Communication Officer KG Media",
+        "candidate": "Henrikus Ezra Rahardi",
+        "position": "Reporter Nasional",
         "success": true
       },
       {
-        "timestamp": "2026-04-17 04:10:42",
+        "timestamp": "2026-04-17 04:10:35",
         "source": "github_action",
-        "candidate": "Annisa Putri Permatasari",
-        "position": "Marketing Communication Officer KG Media",
+        "candidate": "Hana Fathina Chaniago",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 04:11:06",
+        "source": "github_action",
+        "candidate": "Aqilah Nabilah",
+        "position": "Reporter Nasional",
         "success": true
       }
     ]
