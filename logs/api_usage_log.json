@@ -7143,10 +7143,10 @@
     ]
   },
   "2026-04-17": {
-    "total": 493,
+    "total": 494,
     "streamlit": 0,
-    "github_action": 493,
-    "successful": 493,
+    "github_action": 494,
+    "successful": 494,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
@@ -7154,16 +7154,9 @@
       "Reporter Megapolitan": 100,
       "Sustainability Officer KG Media": 100,
       "Strategic Planner KG Media": 88,
-      "Reporter Nasional": 74
+      "Reporter Nasional": 75
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 03:47:30",
-        "source": "github_action",
-        "candidate": "Roychan Idris",
-        "position": "Strategic Planner KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 03:47:56",
         "source": "github_action",
@@ -7854,6 +7847,13 @@
         "timestamp": "2026-04-17 04:33:18",
         "source": "github_action",
         "candidate": "Muhammad Naufal Putranryo",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 04:33:21",
+        "source": "github_action",
+        "candidate": "WAHYU HIDAYAT",
         "position": "Reporter Nasional",
         "success": true
       }
