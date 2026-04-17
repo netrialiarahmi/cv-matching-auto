@@ -7143,13 +7143,13 @@
     ]
   },
   "2026-04-17": {
-    "total": 23,
+    "total": 24,
     "streamlit": 0,
-    "github_action": 23,
-    "successful": 23,
+    "github_action": 24,
+    "successful": 24,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 23
+      "Account Executive VCBL": 24
     },
     "entries": [
       {
@@ -7310,6 +7310,13 @@
         "timestamp": "2026-04-17 00:47:24",
         "source": "github_action",
         "candidate": "Dwi Sandyka Radia Ramadan",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 00:48:00",
+        "source": "github_action",
+        "candidate": "Jamaluddin An-Nashar",
         "position": "Account Executive VCBL",
         "success": true
       }
