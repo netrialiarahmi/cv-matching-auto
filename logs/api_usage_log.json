@@ -7143,14 +7143,14 @@
     ]
   },
   "2026-04-17": {
-    "total": 85,
+    "total": 86,
     "streamlit": 0,
-    "github_action": 85,
-    "successful": 85,
+    "github_action": 86,
+    "successful": 86,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
-      "Marketing Communication Officer KG Media": 54
+      "Marketing Communication Officer KG Media": 55
     },
     "entries": [
       {
@@ -7745,6 +7745,13 @@
         "timestamp": "2026-04-17 01:18:52",
         "source": "github_action",
         "candidate": "Rifqi Rizaldi",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 01:19:22",
+        "source": "github_action",
+        "candidate": "Inan tri r",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
