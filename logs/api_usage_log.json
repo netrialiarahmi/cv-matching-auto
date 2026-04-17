@@ -7143,26 +7143,19 @@
     ]
   },
   "2026-04-17": {
-    "total": 405,
+    "total": 406,
     "streamlit": 0,
-    "github_action": 405,
-    "successful": 405,
+    "github_action": 406,
+    "successful": 406,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
       "Sustainability Officer KG Media": 100,
-      "Strategic Planner KG Media": 74
+      "Strategic Planner KG Media": 75
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 03:04:30",
-        "source": "github_action",
-        "candidate": "Rifdah Z",
-        "position": "Sustainability Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 03:05:07",
         "source": "github_action",
@@ -7853,6 +7846,13 @@
         "timestamp": "2026-04-17 03:53:08",
         "source": "github_action",
         "candidate": "Mayang Apriliani",
+        "position": "Strategic Planner KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 03:53:37",
+        "source": "github_action",
+        "candidate": "Latifah Sayyidah",
         "position": "Strategic Planner KG Media",
         "success": true
       }
