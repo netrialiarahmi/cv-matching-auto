@@ -7143,26 +7143,19 @@
     ]
   },
   "2026-04-17": {
-    "total": 358,
+    "total": 359,
     "streamlit": 0,
-    "github_action": 358,
-    "successful": 358,
+    "github_action": 359,
+    "successful": 359,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
       "Sustainability Officer KG Media": 100,
-      "Strategic Planner KG Media": 27
+      "Strategic Planner KG Media": 28
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 02:42:39",
-        "source": "github_action",
-        "candidate": "Mizar Safari Maasily",
-        "position": "Sustainability Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 02:43:10",
         "source": "github_action",
@@ -7853,6 +7846,13 @@
         "timestamp": "2026-04-17 03:29:14",
         "source": "github_action",
         "candidate": "Putera Patria",
+        "position": "Strategic Planner KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 03:29:16",
+        "source": "github_action",
+        "candidate": "Kurnia Mangayun",
         "position": "Strategic Planner KG Media",
         "success": true
       }
