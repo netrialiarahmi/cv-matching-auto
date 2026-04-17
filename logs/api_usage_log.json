@@ -7143,26 +7143,19 @@
     ]
   },
   "2026-04-17": {
-    "total": 398,
+    "total": 399,
     "streamlit": 0,
-    "github_action": 398,
-    "successful": 398,
+    "github_action": 399,
+    "successful": 399,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
       "Sustainability Officer KG Media": 100,
-      "Strategic Planner KG Media": 67
+      "Strategic Planner KG Media": 68
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 03:01:02",
-        "source": "github_action",
-        "candidate": "Nurul Rahma",
-        "position": "Sustainability Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 03:01:32",
         "source": "github_action",
@@ -7853,6 +7846,13 @@
         "timestamp": "2026-04-17 03:49:24",
         "source": "github_action",
         "candidate": "Belva Ananda Shara",
+        "position": "Strategic Planner KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 03:49:58",
+        "source": "github_action",
+        "candidate": "Lita Cecillya",
         "position": "Strategic Planner KG Media",
         "success": true
       }
