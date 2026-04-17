@@ -7143,24 +7143,17 @@
     ]
   },
   "2026-04-17": {
-    "total": 226,
+    "total": 227,
     "streamlit": 0,
-    "github_action": 226,
-    "successful": 226,
+    "github_action": 227,
+    "successful": 227,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Megapolitan": 95
+      "Reporter Megapolitan": 96
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 01:39:50",
-        "source": "github_action",
-        "candidate": "Lizet Novalinda",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 01:40:24",
         "source": "github_action",
@@ -7851,6 +7844,13 @@
         "timestamp": "2026-04-17 02:26:35",
         "source": "github_action",
         "candidate": "fauzan nugraha",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 02:27:05",
+        "source": "github_action",
+        "candidate": "Dian Saputra",
         "position": "Reporter Megapolitan",
         "success": true
       }
