@@ -7143,10 +7143,10 @@
     ]
   },
   "2026-04-17": {
-    "total": 743,
+    "total": 744,
     "streamlit": 0,
-    "github_action": 743,
-    "successful": 743,
+    "github_action": 744,
+    "successful": 744,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
@@ -7154,16 +7154,9 @@
       "Reporter Megapolitan": 200,
       "Sustainability Officer KG Media": 200,
       "Strategic Planner KG Media": 90,
-      "Reporter Nasional": 22
+      "Reporter Nasional": 23
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 07:42:13",
-        "source": "github_action",
-        "candidate": "Mochamad Satrio Andhito",
-        "position": "Sustainability Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 07:42:43",
         "source": "github_action",
@@ -7854,6 +7847,13 @@
         "timestamp": "2026-04-17 08:31:38",
         "source": "github_action",
         "candidate": "Elizabeth Sarah",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 08:32:07",
+        "source": "github_action",
+        "candidate": "Indra Santoso",
         "position": "Reporter Nasional",
         "success": true
       }
