@@ -7143,23 +7143,16 @@
     ]
   },
   "2026-04-17": {
-    "total": 117,
+    "total": 118,
     "streamlit": 0,
-    "github_action": 117,
-    "successful": 117,
+    "github_action": 118,
+    "successful": 118,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
-      "Marketing Communication Officer KG Media": 86
+      "Marketing Communication Officer KG Media": 87
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 00:44:50",
-        "source": "github_action",
-        "candidate": "At Thariq Aleeyah Tsamara",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 00:45:19",
         "source": "github_action",
@@ -7850,6 +7843,13 @@
         "timestamp": "2026-04-17 01:35:11",
         "source": "github_action",
         "candidate": "Dzil Iqbal",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 01:35:13",
+        "source": "github_action",
+        "candidate": "Wildan Alghofari",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
