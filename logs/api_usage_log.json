@@ -7143,24 +7143,17 @@
     ]
   },
   "2026-04-17": {
-    "total": 218,
+    "total": 219,
     "streamlit": 0,
-    "github_action": 218,
-    "successful": 218,
+    "github_action": 219,
+    "successful": 219,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Megapolitan": 87
+      "Reporter Megapolitan": 88
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 01:35:44",
-        "source": "github_action",
-        "candidate": "Savira Kirana",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 01:36:15",
         "source": "github_action",
@@ -7851,6 +7844,13 @@
         "timestamp": "2026-04-17 02:22:43",
         "source": "github_action",
         "candidate": "Zakariya Robbani",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 02:23:16",
+        "source": "github_action",
+        "candidate": "Daffa Andarifka Syaifullah",
         "position": "Reporter Megapolitan",
         "success": true
       }
