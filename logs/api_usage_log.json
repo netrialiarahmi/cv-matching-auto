@@ -7143,10 +7143,10 @@
     ]
   },
   "2026-04-17": {
-    "total": 749,
+    "total": 750,
     "streamlit": 0,
-    "github_action": 749,
-    "successful": 749,
+    "github_action": 750,
+    "successful": 750,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
@@ -7154,16 +7154,9 @@
       "Reporter Megapolitan": 200,
       "Sustainability Officer KG Media": 200,
       "Strategic Planner KG Media": 90,
-      "Reporter Nasional": 28
+      "Reporter Nasional": 29
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 07:45:00",
-        "source": "github_action",
-        "candidate": "Rian Palimirmo Adi",
-        "position": "Sustainability Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 07:45:32",
         "source": "github_action",
@@ -7854,6 +7847,13 @@
         "timestamp": "2026-04-17 08:34:33",
         "source": "github_action",
         "candidate": "Muchammad Achmad Afifuddin",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 08:35:07",
+        "source": "github_action",
+        "candidate": "Safina Rifat",
         "position": "Reporter Nasional",
         "success": true
       }
