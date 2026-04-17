@@ -7143,24 +7143,17 @@
     ]
   },
   "2026-04-17": {
-    "total": 170,
+    "total": 171,
     "streamlit": 0,
-    "github_action": 170,
-    "successful": 170,
+    "github_action": 171,
+    "successful": 171,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Megapolitan": 39
+      "Reporter Megapolitan": 40
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 01:11:42",
-        "source": "github_action",
-        "candidate": "Nanda Pasaribu",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 01:12:15",
         "source": "github_action",
@@ -7851,6 +7844,13 @@
         "timestamp": "2026-04-17 01:59:54",
         "source": "github_action",
         "candidate": "Wildan Alghofari",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 02:00:27",
+        "source": "github_action",
+        "candidate": "Angeline Nanda Kusumah",
         "position": "Reporter Megapolitan",
         "success": true
       }
