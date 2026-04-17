@@ -7143,27 +7143,20 @@
     ]
   },
   "2026-04-17": {
-    "total": 664,
+    "total": 665,
     "streamlit": 0,
-    "github_action": 664,
-    "successful": 664,
+    "github_action": 665,
+    "successful": 665,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 200,
       "Reporter Megapolitan": 200,
-      "Sustainability Officer KG Media": 133,
+      "Sustainability Officer KG Media": 134,
       "Strategic Planner KG Media": 88,
       "Reporter Nasional": 12
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 07:02:26",
-        "source": "github_action",
-        "candidate": "Rina Marlina Marlina",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 07:03:00",
         "source": "github_action",
@@ -7854,6 +7847,13 @@
         "timestamp": "2026-04-17 07:52:15",
         "source": "github_action",
         "candidate": "Gert Antonio Tobing",
+        "position": "Sustainability Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 07:52:46",
+        "source": "github_action",
+        "candidate": "Yasmin Indah Hasari",
         "position": "Sustainability Officer KG Media",
         "success": true
       }
