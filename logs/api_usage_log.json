@@ -7143,26 +7143,19 @@
     ]
   },
   "2026-04-17": {
-    "total": 372,
+    "total": 373,
     "streamlit": 0,
-    "github_action": 372,
-    "successful": 372,
+    "github_action": 373,
+    "successful": 373,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
       "Sustainability Officer KG Media": 100,
-      "Strategic Planner KG Media": 41
+      "Strategic Planner KG Media": 42
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 02:49:15",
-        "source": "github_action",
-        "candidate": "Rahmadhani Aulia",
-        "position": "Sustainability Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 02:49:45",
         "source": "github_action",
@@ -7853,6 +7846,13 @@
         "timestamp": "2026-04-17 03:35:54",
         "source": "github_action",
         "candidate": "Mira  Andiani",
+        "position": "Strategic Planner KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 03:36:27",
+        "source": "github_action",
+        "candidate": "Omar Pradana",
         "position": "Strategic Planner KG Media",
         "success": true
       }
