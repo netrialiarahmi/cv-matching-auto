@@ -7143,27 +7143,20 @@
     ]
   },
   "2026-04-17": {
-    "total": 485,
+    "total": 486,
     "streamlit": 0,
-    "github_action": 485,
-    "successful": 485,
+    "github_action": 486,
+    "successful": 486,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
-      "Marketing Communication Officer KG Media": 154,
+      "Marketing Communication Officer KG Media": 155,
       "Reporter Megapolitan": 100,
       "Sustainability Officer KG Media": 100,
       "Strategic Planner KG Media": 88,
       "Reporter Nasional": 12
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 03:43:30",
-        "source": "github_action",
-        "candidate": "Andi Hanifah Oktariani",
-        "position": "Strategic Planner KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 03:44:04",
         "source": "github_action",
@@ -7854,6 +7847,13 @@
         "timestamp": "2026-04-17 04:30:43",
         "source": "github_action",
         "candidate": "Anwar Fajar",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 04:31:13",
+        "source": "github_action",
+        "candidate": "Yuliani Hema",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
