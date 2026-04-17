@@ -7143,24 +7143,17 @@
     ]
   },
   "2026-04-17": {
-    "total": 161,
+    "total": 162,
     "streamlit": 0,
-    "github_action": 161,
-    "successful": 161,
+    "github_action": 162,
+    "successful": 162,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Megapolitan": 30
+      "Reporter Megapolitan": 31
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 01:07:12",
-        "source": "github_action",
-        "candidate": "Farhan Afif Kusumah",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 01:07:38",
         "source": "github_action",
@@ -7851,6 +7844,13 @@
         "timestamp": "2026-04-17 01:56:26",
         "source": "github_action",
         "candidate": "Rachelyn Maharani",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 01:56:56",
+        "source": "github_action",
+        "candidate": "Sidik Permana",
         "position": "Reporter Megapolitan",
         "success": true
       }
