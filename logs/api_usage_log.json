@@ -7143,24 +7143,17 @@
     ]
   },
   "2026-04-17": {
-    "total": 176,
+    "total": 177,
     "streamlit": 0,
-    "github_action": 176,
-    "successful": 176,
+    "github_action": 177,
+    "successful": 177,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Megapolitan": 45
+      "Reporter Megapolitan": 46
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 01:14:53",
-        "source": "github_action",
-        "candidate": "Andhika Putri",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 01:15:24",
         "source": "github_action",
@@ -7851,6 +7844,13 @@
         "timestamp": "2026-04-17 02:02:50",
         "source": "github_action",
         "candidate": "Harits Arrazie",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 02:03:18",
+        "source": "github_action",
+        "candidate": "Oktiarani Berta",
         "position": "Reporter Megapolitan",
         "success": true
       }
