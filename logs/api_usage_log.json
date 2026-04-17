@@ -7143,10 +7143,10 @@
     ]
   },
   "2026-04-17": {
-    "total": 802,
+    "total": 803,
     "streamlit": 0,
-    "github_action": 802,
-    "successful": 802,
+    "github_action": 803,
+    "successful": 803,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
@@ -7154,16 +7154,9 @@
       "Reporter Megapolitan": 200,
       "Sustainability Officer KG Media": 200,
       "Strategic Planner KG Media": 90,
-      "Reporter Nasional": 81
+      "Reporter Nasional": 82
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 08:11:28",
-        "source": "github_action",
-        "candidate": "Beauty Keren",
-        "position": "Sustainability Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 08:11:59",
         "source": "github_action",
@@ -7854,6 +7847,13 @@
         "timestamp": "2026-04-17 09:00:27",
         "source": "github_action",
         "candidate": "Siti Zahwa Humaira",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 09:00:58",
+        "source": "github_action",
+        "candidate": "jennifer patricia",
         "position": "Reporter Nasional",
         "success": true
       }
