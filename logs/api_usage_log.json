@@ -7143,10 +7143,10 @@
     ]
   },
   "2026-04-17": {
-    "total": 754,
+    "total": 755,
     "streamlit": 0,
-    "github_action": 754,
-    "successful": 754,
+    "github_action": 755,
+    "successful": 755,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
@@ -7154,16 +7154,9 @@
       "Reporter Megapolitan": 200,
       "Sustainability Officer KG Media": 200,
       "Strategic Planner KG Media": 90,
-      "Reporter Nasional": 33
+      "Reporter Nasional": 34
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 07:47:33",
-        "source": "github_action",
-        "candidate": "Wihda Aufi Nur Salsabila",
-        "position": "Sustainability Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 07:48:05",
         "source": "github_action",
@@ -7854,6 +7847,13 @@
         "timestamp": "2026-04-17 08:37:23",
         "source": "github_action",
         "candidate": "Muhammad Fachri Darmawan",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 08:37:49",
+        "source": "github_action",
+        "candidate": "Lutfan Faizi",
         "position": "Reporter Nasional",
         "success": true
       }
