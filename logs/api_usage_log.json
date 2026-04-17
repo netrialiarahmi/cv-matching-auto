@@ -7143,25 +7143,18 @@
     ]
   },
   "2026-04-17": {
-    "total": 299,
+    "total": 300,
     "streamlit": 0,
-    "github_action": 299,
-    "successful": 299,
+    "github_action": 300,
+    "successful": 300,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
-      "Sustainability Officer KG Media": 68
+      "Sustainability Officer KG Media": 69
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 02:14:53",
-        "source": "github_action",
-        "candidate": "Farhan Nuzhadiwa",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 02:14:55",
         "source": "github_action",
@@ -7852,6 +7845,13 @@
         "timestamp": "2026-04-17 03:01:02",
         "source": "github_action",
         "candidate": "Nurul Rahma",
+        "position": "Sustainability Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 03:01:32",
+        "source": "github_action",
+        "candidate": "Mustika Rini",
         "position": "Sustainability Officer KG Media",
         "success": true
       }
