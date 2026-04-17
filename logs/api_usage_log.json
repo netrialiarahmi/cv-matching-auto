@@ -7143,14 +7143,14 @@
     ]
   },
   "2026-04-17": {
-    "total": 41,
+    "total": 42,
     "streamlit": 0,
-    "github_action": 41,
-    "successful": 41,
+    "github_action": 42,
+    "successful": 42,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
-      "Marketing Communication Officer KG Media": 10
+      "Marketing Communication Officer KG Media": 11
     },
     "entries": [
       {
@@ -7437,6 +7437,13 @@
         "timestamp": "2026-04-17 00:56:51",
         "source": "github_action",
         "candidate": "Puspa Aprilia",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 00:57:22",
+        "source": "github_action",
+        "candidate": "Arina Qinthara",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
