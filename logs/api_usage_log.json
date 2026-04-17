@@ -7143,27 +7143,20 @@
     ]
   },
   "2026-04-17": {
-    "total": 580,
+    "total": 581,
     "streamlit": 0,
-    "github_action": 580,
-    "successful": 580,
+    "github_action": 581,
+    "successful": 581,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 200,
-      "Reporter Megapolitan": 149,
+      "Reporter Megapolitan": 150,
       "Sustainability Officer KG Media": 100,
       "Strategic Planner KG Media": 88,
       "Reporter Nasional": 12
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 04:28:43",
-        "source": "github_action",
-        "candidate": "Rifqi Rizaldi",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 04:29:11",
         "source": "github_action",
@@ -7854,6 +7847,13 @@
         "timestamp": "2026-04-17 07:10:07",
         "source": "github_action",
         "candidate": "putri rahmawati",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 07:10:41",
+        "source": "github_action",
+        "candidate": "Yolanda Pradita",
         "position": "Reporter Megapolitan",
         "success": true
       }
