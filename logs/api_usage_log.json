@@ -7143,24 +7143,17 @@
     ]
   },
   "2026-04-17": {
-    "total": 202,
+    "total": 203,
     "streamlit": 0,
-    "github_action": 202,
-    "successful": 202,
+    "github_action": 203,
+    "successful": 203,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Megapolitan": 71
+      "Reporter Megapolitan": 72
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 01:28:03",
-        "source": "github_action",
-        "candidate": "Dhenis Prasetyo",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 01:28:31",
         "source": "github_action",
@@ -7851,6 +7844,13 @@
         "timestamp": "2026-04-17 02:14:58",
         "source": "github_action",
         "candidate": "Sidney Alvionita Saputra",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 02:15:32",
+        "source": "github_action",
+        "candidate": "Jacko Agun",
         "position": "Reporter Megapolitan",
         "success": true
       }
