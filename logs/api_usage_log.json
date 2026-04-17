@@ -7143,14 +7143,14 @@
     ]
   },
   "2026-04-17": {
-    "total": 91,
+    "total": 92,
     "streamlit": 0,
-    "github_action": 91,
-    "successful": 91,
+    "github_action": 92,
+    "successful": 92,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
-      "Marketing Communication Officer KG Media": 60
+      "Marketing Communication Officer KG Media": 61
     },
     "entries": [
       {
@@ -7787,6 +7787,13 @@
         "timestamp": "2026-04-17 01:21:53",
         "source": "github_action",
         "candidate": "Naufal Ryanda Putra",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 01:22:30",
+        "source": "github_action",
+        "candidate": "Aulia Vinka Dinda Pratiwi S. I. Kom",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
