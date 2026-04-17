@@ -7143,24 +7143,17 @@
     ]
   },
   "2026-04-17": {
-    "total": 137,
+    "total": 138,
     "streamlit": 0,
-    "github_action": 137,
-    "successful": 137,
+    "github_action": 138,
+    "successful": 138,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Megapolitan": 6
+      "Reporter Megapolitan": 7
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 00:55:13",
-        "source": "github_action",
-        "candidate": "Nadila Moezbar",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 00:55:46",
         "source": "github_action",
@@ -7851,6 +7844,13 @@
         "timestamp": "2026-04-17 01:45:00",
         "source": "github_action",
         "candidate": "Toni Hermawan",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 01:45:28",
+        "source": "github_action",
+        "candidate": "Medina Sylvia Riyanto",
         "position": "Reporter Megapolitan",
         "success": true
       }
