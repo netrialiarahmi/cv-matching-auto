@@ -7143,24 +7143,17 @@
     ]
   },
   "2026-04-17": {
-    "total": 192,
+    "total": 193,
     "streamlit": 0,
-    "github_action": 192,
-    "successful": 192,
+    "github_action": 193,
+    "successful": 193,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Megapolitan": 61
+      "Reporter Megapolitan": 62
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 01:23:05",
-        "source": "github_action",
-        "candidate": "Kinsky Gisela Mentari",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 01:23:36",
         "source": "github_action",
@@ -7851,6 +7844,13 @@
         "timestamp": "2026-04-17 02:11:10",
         "source": "github_action",
         "candidate": "Ayudya  Winessa",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 02:11:35",
+        "source": "github_action",
+        "candidate": "Muhammad Alfani Alfi",
         "position": "Reporter Megapolitan",
         "success": true
       }
