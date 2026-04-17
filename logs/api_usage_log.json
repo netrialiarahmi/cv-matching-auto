@@ -7143,10 +7143,10 @@
     ]
   },
   "2026-04-17": {
-    "total": 744,
+    "total": 745,
     "streamlit": 0,
-    "github_action": 744,
-    "successful": 744,
+    "github_action": 745,
+    "successful": 745,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
@@ -7154,16 +7154,9 @@
       "Reporter Megapolitan": 200,
       "Sustainability Officer KG Media": 200,
       "Strategic Planner KG Media": 90,
-      "Reporter Nasional": 23
+      "Reporter Nasional": 24
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 07:42:43",
-        "source": "github_action",
-        "candidate": "Fauziah Maretha Aulia",
-        "position": "Sustainability Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 07:43:18",
         "source": "github_action",
@@ -7854,6 +7847,13 @@
         "timestamp": "2026-04-17 08:32:07",
         "source": "github_action",
         "candidate": "Indra Santoso",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 08:32:36",
+        "source": "github_action",
+        "candidate": "Desty  Hardyati",
         "position": "Reporter Nasional",
         "success": true
       }
