@@ -7143,24 +7143,17 @@
     ]
   },
   "2026-04-17": {
-    "total": 174,
+    "total": 175,
     "streamlit": 0,
-    "github_action": 174,
-    "successful": 174,
+    "github_action": 175,
+    "successful": 175,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Megapolitan": 43
+      "Reporter Megapolitan": 44
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 01:13:54",
-        "source": "github_action",
-        "candidate": "Felicia Nafirstya Deyzitta",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 01:14:22",
         "source": "github_action",
@@ -7851,6 +7844,13 @@
         "timestamp": "2026-04-17 02:02:00",
         "source": "github_action",
         "candidate": "Woro Rn",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 02:02:31",
+        "source": "github_action",
+        "candidate": "Muhammad Refi Sandi",
         "position": "Reporter Megapolitan",
         "success": true
       }
