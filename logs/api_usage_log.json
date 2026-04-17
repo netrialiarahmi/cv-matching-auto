@@ -7143,27 +7143,20 @@
     ]
   },
   "2026-04-17": {
-    "total": 684,
+    "total": 685,
     "streamlit": 0,
-    "github_action": 684,
-    "successful": 684,
+    "github_action": 685,
+    "successful": 685,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 200,
       "Reporter Megapolitan": 200,
-      "Sustainability Officer KG Media": 153,
+      "Sustainability Officer KG Media": 154,
       "Strategic Planner KG Media": 88,
       "Reporter Nasional": 12
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 07:12:42",
-        "source": "github_action",
-        "candidate": "Decy Kalangit",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 07:13:13",
         "source": "github_action",
@@ -7854,6 +7847,13 @@
         "timestamp": "2026-04-17 08:01:37",
         "source": "github_action",
         "candidate": "Destya Aulia Hafifah",
+        "position": "Sustainability Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 08:02:12",
+        "source": "github_action",
+        "candidate": "Ruth Elsamo Christine  Pasaribu",
         "position": "Sustainability Officer KG Media",
         "success": true
       }
