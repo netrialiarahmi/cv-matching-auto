@@ -7143,10 +7143,10 @@
     ]
   },
   "2026-04-17": {
-    "total": 894,
+    "total": 895,
     "streamlit": 0,
-    "github_action": 894,
-    "successful": 894,
+    "github_action": 895,
+    "successful": 895,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
@@ -7155,16 +7155,9 @@
       "Sustainability Officer KG Media": 200,
       "Strategic Planner KG Media": 90,
       "Reporter Nasional": 112,
-      "Content Writer Homey": 61
+      "Content Writer Homey": 62
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 08:56:57",
-        "source": "github_action",
-        "candidate": "Desti Pratiwi",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 08:57:27",
         "source": "github_action",
@@ -7855,6 +7848,13 @@
         "timestamp": "2026-04-17 09:44:54",
         "source": "github_action",
         "candidate": "Nasywa Kharima",
+        "position": "Content Writer Homey",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 09:45:19",
+        "source": "github_action",
+        "candidate": "Fauziah Sabtuanisa",
         "position": "Content Writer Homey",
         "success": true
       }
