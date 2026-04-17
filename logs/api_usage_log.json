@@ -7143,10 +7143,10 @@
     ]
   },
   "2026-04-17": {
-    "total": 817,
+    "total": 818,
     "streamlit": 0,
-    "github_action": 817,
-    "successful": 817,
+    "github_action": 818,
+    "successful": 818,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
@@ -7154,16 +7154,9 @@
       "Reporter Megapolitan": 200,
       "Sustainability Officer KG Media": 200,
       "Strategic Planner KG Media": 90,
-      "Reporter Nasional": 96
+      "Reporter Nasional": 97
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 08:19:11",
-        "source": "github_action",
-        "candidate": "Diniya Khalila",
-        "position": "Sustainability Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 08:19:41",
         "source": "github_action",
@@ -7854,6 +7847,13 @@
         "timestamp": "2026-04-17 09:08:01",
         "source": "github_action",
         "candidate": "Matthew Sihotang",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 09:08:31",
+        "source": "github_action",
+        "candidate": "Iman Firmansyah",
         "position": "Reporter Nasional",
         "success": true
       }
