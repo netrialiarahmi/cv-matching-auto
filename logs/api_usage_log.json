@@ -7143,25 +7143,18 @@
     ]
   },
   "2026-04-17": {
-    "total": 244,
+    "total": 245,
     "streamlit": 0,
-    "github_action": 244,
-    "successful": 244,
+    "github_action": 245,
+    "successful": 245,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
-      "Sustainability Officer KG Media": 13
+      "Sustainability Officer KG Media": 14
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 01:48:53",
-        "source": "github_action",
-        "candidate": "Kurnia Permata",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 01:49:24",
         "source": "github_action",
@@ -7852,6 +7845,13 @@
         "timestamp": "2026-04-17 02:35:45",
         "source": "github_action",
         "candidate": "Mochamad Satrio Andhito",
+        "position": "Sustainability Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 02:36:15",
+        "source": "github_action",
+        "candidate": "Fauziah Maretha Aulia",
         "position": "Sustainability Officer KG Media",
         "success": true
       }
