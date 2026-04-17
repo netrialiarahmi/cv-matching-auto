@@ -7143,24 +7143,17 @@
     ]
   },
   "2026-04-17": {
-    "total": 143,
+    "total": 144,
     "streamlit": 0,
-    "github_action": 143,
-    "successful": 143,
+    "github_action": 144,
+    "successful": 144,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Megapolitan": 12
+      "Reporter Megapolitan": 13
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 00:57:56",
-        "source": "github_action",
-        "candidate": "hagadzka al ghafiqi",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 00:58:25",
         "source": "github_action",
@@ -7851,6 +7844,13 @@
         "timestamp": "2026-04-17 01:47:55",
         "source": "github_action",
         "candidate": "Moh Reynaldi Risahondua",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 01:48:25",
+        "source": "github_action",
+        "candidate": "Sarah Wulandari",
         "position": "Reporter Megapolitan",
         "success": true
       }
