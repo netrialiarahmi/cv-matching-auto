@@ -7143,26 +7143,19 @@
     ]
   },
   "2026-04-17": {
-    "total": 381,
+    "total": 382,
     "streamlit": 0,
-    "github_action": 381,
-    "successful": 381,
+    "github_action": 382,
+    "successful": 382,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
       "Sustainability Officer KG Media": 100,
-      "Strategic Planner KG Media": 50
+      "Strategic Planner KG Media": 51
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 02:53:28",
-        "source": "github_action",
-        "candidate": "Fayza Lugina",
-        "position": "Sustainability Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 02:53:30",
         "source": "github_action",
@@ -7853,6 +7846,13 @@
         "timestamp": "2026-04-17 03:40:43",
         "source": "github_action",
         "candidate": "Davin Rahman",
+        "position": "Strategic Planner KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 03:41:13",
+        "source": "github_action",
+        "candidate": "thifal dwi",
         "position": "Strategic Planner KG Media",
         "success": true
       }
