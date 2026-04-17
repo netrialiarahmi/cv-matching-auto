@@ -7143,25 +7143,18 @@
     ]
   },
   "2026-04-17": {
-    "total": 268,
+    "total": 269,
     "streamlit": 0,
-    "github_action": 268,
-    "successful": 268,
+    "github_action": 269,
+    "successful": 269,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
-      "Sustainability Officer KG Media": 37
+      "Sustainability Officer KG Media": 38
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 01:59:51",
-        "source": "github_action",
-        "candidate": "Adinda Nurul Hikmi",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 01:59:54",
         "source": "github_action",
@@ -7852,6 +7845,13 @@
         "timestamp": "2026-04-17 02:46:51",
         "source": "github_action",
         "candidate": "Rafid Hidayat",
+        "position": "Sustainability Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 02:47:18",
+        "source": "github_action",
+        "candidate": "Raymundus Hamis",
         "position": "Sustainability Officer KG Media",
         "success": true
       }
