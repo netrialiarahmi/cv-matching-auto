@@ -7143,14 +7143,14 @@
     ]
   },
   "2026-04-17": {
-    "total": 44,
+    "total": 45,
     "streamlit": 0,
-    "github_action": 44,
-    "successful": 44,
+    "github_action": 45,
+    "successful": 45,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
-      "Marketing Communication Officer KG Media": 13
+      "Marketing Communication Officer KG Media": 14
     },
     "entries": [
       {
@@ -7458,6 +7458,13 @@
         "timestamp": "2026-04-17 00:57:56",
         "source": "github_action",
         "candidate": "hagadzka al ghafiqi",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 00:58:25",
+        "source": "github_action",
+        "candidate": "Fahdina Ghina Aliya",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
