@@ -7143,10 +7143,10 @@
     ]
   },
   "2026-04-17": {
-    "total": 852,
+    "total": 853,
     "streamlit": 0,
-    "github_action": 852,
-    "successful": 852,
+    "github_action": 853,
+    "successful": 853,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
@@ -7155,16 +7155,9 @@
       "Sustainability Officer KG Media": 200,
       "Strategic Planner KG Media": 90,
       "Reporter Nasional": 112,
-      "Content Writer Homey": 19
+      "Content Writer Homey": 20
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 08:36:51",
-        "source": "github_action",
-        "candidate": "Tiyo Bayu Nugroho",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 08:37:23",
         "source": "github_action",
@@ -7855,6 +7848,13 @@
         "timestamp": "2026-04-17 09:25:42",
         "source": "github_action",
         "candidate": "egi apriyanti",
+        "position": "Content Writer Homey",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 09:25:45",
+        "source": "github_action",
+        "candidate": "Pradika Restu Pasya Wibowo",
         "position": "Content Writer Homey",
         "success": true
       }
