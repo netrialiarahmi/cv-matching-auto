@@ -7143,26 +7143,19 @@
     ]
   },
   "2026-04-17": {
-    "total": 341,
+    "total": 342,
     "streamlit": 0,
-    "github_action": 341,
-    "successful": 341,
+    "github_action": 342,
+    "successful": 342,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
       "Sustainability Officer KG Media": 100,
-      "Strategic Planner KG Media": 10
+      "Strategic Planner KG Media": 11
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 02:34:44",
-        "source": "github_action",
-        "candidate": "Siva  Aripin",
-        "position": "Sustainability Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 02:35:13",
         "source": "github_action",
@@ -7853,6 +7846,13 @@
         "timestamp": "2026-04-17 03:20:34",
         "source": "github_action",
         "candidate": "Arnoldus Boly Peran",
+        "position": "Strategic Planner KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 03:21:05",
+        "source": "github_action",
+        "candidate": "Akbar Adzani",
         "position": "Strategic Planner KG Media",
         "success": true
       }
