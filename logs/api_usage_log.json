@@ -7143,25 +7143,18 @@
     ]
   },
   "2026-04-17": {
-    "total": 306,
+    "total": 307,
     "streamlit": 0,
-    "github_action": 306,
-    "successful": 306,
+    "github_action": 307,
+    "successful": 307,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
-      "Sustainability Officer KG Media": 75
+      "Sustainability Officer KG Media": 76
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 02:17:32",
-        "source": "github_action",
-        "candidate": "Anggara Purissta Putra",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 02:17:59",
         "source": "github_action",
@@ -7852,6 +7845,13 @@
         "timestamp": "2026-04-17 03:04:30",
         "source": "github_action",
         "candidate": "Rifdah Z",
+        "position": "Sustainability Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 03:05:07",
+        "source": "github_action",
+        "candidate": "Aryo Wicaksono",
         "position": "Sustainability Officer KG Media",
         "success": true
       }
