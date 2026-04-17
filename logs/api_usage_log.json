@@ -7143,10 +7143,10 @@
     ]
   },
   "2026-04-17": {
-    "total": 911,
+    "total": 912,
     "streamlit": 0,
-    "github_action": 911,
-    "successful": 911,
+    "github_action": 912,
+    "successful": 912,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
@@ -7155,16 +7155,9 @@
       "Sustainability Officer KG Media": 200,
       "Strategic Planner KG Media": 90,
       "Reporter Nasional": 112,
-      "Content Writer Homey": 78
+      "Content Writer Homey": 79
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 09:05:51",
-        "source": "github_action",
-        "candidate": "Choirun Nisa",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 09:06:24",
         "source": "github_action",
@@ -7855,6 +7848,13 @@
         "timestamp": "2026-04-17 09:53:12",
         "source": "github_action",
         "candidate": "Masyita Deta Rahadiani",
+        "position": "Content Writer Homey",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 09:53:45",
+        "source": "github_action",
+        "candidate": "Achbar Farizqy",
         "position": "Content Writer Homey",
         "success": true
       }
