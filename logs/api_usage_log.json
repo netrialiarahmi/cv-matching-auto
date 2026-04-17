@@ -7143,25 +7143,18 @@
     ]
   },
   "2026-04-17": {
-    "total": 295,
+    "total": 296,
     "streamlit": 0,
-    "github_action": 295,
-    "successful": 295,
+    "github_action": 296,
+    "successful": 296,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
-      "Sustainability Officer KG Media": 64
+      "Sustainability Officer KG Media": 65
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 02:12:55",
-        "source": "github_action",
-        "candidate": "Adjeng Indi",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 02:13:21",
         "source": "github_action",
@@ -7852,6 +7845,13 @@
         "timestamp": "2026-04-17 02:59:03",
         "source": "github_action",
         "candidate": "Ananda Rilo Ramadhandi",
+        "position": "Sustainability Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 02:59:31",
+        "source": "github_action",
+        "candidate": "Rafiqo Fadhlullah",
         "position": "Sustainability Officer KG Media",
         "success": true
       }
