@@ -7143,13 +7143,13 @@
     ]
   },
   "2026-04-17": {
-    "total": 16,
+    "total": 17,
     "streamlit": 0,
-    "github_action": 16,
-    "successful": 16,
+    "github_action": 17,
+    "successful": 17,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 16
+      "Account Executive VCBL": 17
     },
     "entries": [
       {
@@ -7261,6 +7261,13 @@
         "timestamp": "2026-04-17 00:44:17",
         "source": "github_action",
         "candidate": "Korin Indriani",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 00:44:20",
+        "source": "github_action",
+        "candidate": "ALIFA RAHMADANI",
         "position": "Account Executive VCBL",
         "success": true
       }
