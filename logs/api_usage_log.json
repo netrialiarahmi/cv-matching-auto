@@ -7143,24 +7143,17 @@
     ]
   },
   "2026-04-17": {
-    "total": 216,
+    "total": 217,
     "streamlit": 0,
-    "github_action": 216,
-    "successful": 216,
+    "github_action": 217,
+    "successful": 217,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Megapolitan": 85
+      "Reporter Megapolitan": 86
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 01:35:11",
-        "source": "github_action",
-        "candidate": "Dzil Iqbal",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 01:35:13",
         "source": "github_action",
@@ -7851,6 +7844,13 @@
         "timestamp": "2026-04-17 02:21:50",
         "source": "github_action",
         "candidate": "Kahfi Fathia",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 02:22:15",
+        "source": "github_action",
+        "candidate": "Muhammad Raka Adeansyah",
         "position": "Reporter Megapolitan",
         "success": true
       }
