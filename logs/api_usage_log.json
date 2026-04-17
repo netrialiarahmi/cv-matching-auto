@@ -7143,14 +7143,14 @@
     ]
   },
   "2026-04-17": {
-    "total": 53,
+    "total": 54,
     "streamlit": 0,
-    "github_action": 53,
-    "successful": 53,
+    "github_action": 54,
+    "successful": 54,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
-      "Marketing Communication Officer KG Media": 22
+      "Marketing Communication Officer KG Media": 23
     },
     "entries": [
       {
@@ -7521,6 +7521,13 @@
         "timestamp": "2026-04-17 01:02:42",
         "source": "github_action",
         "candidate": "Ikhsanul Amal",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 01:03:12",
+        "source": "github_action",
+        "candidate": "Silmi Lestari",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
