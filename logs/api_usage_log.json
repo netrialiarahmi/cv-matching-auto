@@ -7143,26 +7143,19 @@
     ]
   },
   "2026-04-17": {
-    "total": 375,
+    "total": 376,
     "streamlit": 0,
-    "github_action": 375,
-    "successful": 375,
+    "github_action": 376,
+    "successful": 376,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
       "Sustainability Officer KG Media": 100,
-      "Strategic Planner KG Media": 44
+      "Strategic Planner KG Media": 45
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 02:50:45",
-        "source": "github_action",
-        "candidate": "Arvian Messianik",
-        "position": "Sustainability Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 02:51:18",
         "source": "github_action",
@@ -7853,6 +7846,13 @@
         "timestamp": "2026-04-17 03:37:39",
         "source": "github_action",
         "candidate": "Fransiscus  Krisna",
+        "position": "Strategic Planner KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 03:38:11",
+        "source": "github_action",
+        "candidate": "Gilbert Donovan Wahyutama",
         "position": "Strategic Planner KG Media",
         "success": true
       }
