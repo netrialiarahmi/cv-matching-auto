@@ -7143,10 +7143,10 @@
     ]
   },
   "2026-04-17": {
-    "total": 863,
+    "total": 864,
     "streamlit": 0,
-    "github_action": 863,
-    "successful": 863,
+    "github_action": 864,
+    "successful": 864,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
@@ -7155,16 +7155,9 @@
       "Sustainability Officer KG Media": 200,
       "Strategic Planner KG Media": 90,
       "Reporter Nasional": 112,
-      "Content Writer Homey": 30
+      "Content Writer Homey": 31
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 08:42:02",
-        "source": "github_action",
-        "candidate": "ika arlina utari",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 08:42:28",
         "source": "github_action",
@@ -7855,6 +7848,13 @@
         "timestamp": "2026-04-17 09:31:08",
         "source": "github_action",
         "candidate": "Amallia Putri Budi Utami",
+        "position": "Content Writer Homey",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 09:31:40",
+        "source": "github_action",
+        "candidate": "Ahmad Khoirul Anam",
         "position": "Content Writer Homey",
         "success": true
       }
