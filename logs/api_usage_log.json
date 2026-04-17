@@ -7143,10 +7143,10 @@
     ]
   },
   "2026-04-17": {
-    "total": 812,
+    "total": 813,
     "streamlit": 0,
-    "github_action": 812,
-    "successful": 812,
+    "github_action": 813,
+    "successful": 813,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
@@ -7154,16 +7154,9 @@
       "Reporter Megapolitan": 200,
       "Sustainability Officer KG Media": 200,
       "Strategic Planner KG Media": 90,
-      "Reporter Nasional": 91
+      "Reporter Nasional": 92
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 08:16:46",
-        "source": "github_action",
-        "candidate": "Risky Lucky Romadhon",
-        "position": "Sustainability Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 08:17:14",
         "source": "github_action",
@@ -7854,6 +7847,13 @@
         "timestamp": "2026-04-17 09:05:51",
         "source": "github_action",
         "candidate": "Choirun Nisa",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 09:06:24",
+        "source": "github_action",
+        "candidate": "Swastika Swasikananda",
         "position": "Reporter Nasional",
         "success": true
       }
