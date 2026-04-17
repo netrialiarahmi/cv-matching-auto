@@ -7143,23 +7143,17 @@
     ]
   },
   "2026-04-17": {
-    "total": 131,
+    "total": 132,
     "streamlit": 0,
-    "github_action": 131,
-    "successful": 131,
+    "github_action": 132,
+    "successful": 132,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
-      "Marketing Communication Officer KG Media": 100
+      "Marketing Communication Officer KG Media": 100,
+      "Reporter Megapolitan": 1
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 00:53:11",
-        "source": "github_action",
-        "candidate": "Ian Puja Pratama",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 00:53:13",
         "source": "github_action",
@@ -7851,6 +7845,13 @@
         "source": "github_action",
         "candidate": "Irma  Masyitoh",
         "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 01:42:29",
+        "source": "github_action",
+        "candidate": "Gregorius Manurung",
+        "position": "Reporter Megapolitan",
         "success": true
       }
     ]
