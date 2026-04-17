@@ -7143,10 +7143,10 @@
     ]
   },
   "2026-04-17": {
-    "total": 429,
+    "total": 430,
     "streamlit": 0,
-    "github_action": 429,
-    "successful": 429,
+    "github_action": 430,
+    "successful": 430,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
@@ -7154,16 +7154,9 @@
       "Reporter Megapolitan": 100,
       "Sustainability Officer KG Media": 100,
       "Strategic Planner KG Media": 88,
-      "Reporter Nasional": 10
+      "Reporter Nasional": 11
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 03:15:18",
-        "source": "github_action",
-        "candidate": "Dhita Grace Marceline",
-        "position": "Sustainability Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 03:15:51",
         "source": "github_action",
@@ -7854,6 +7847,13 @@
         "timestamp": "2026-04-17 04:03:19",
         "source": "github_action",
         "candidate": "Priscilla Waworuntu Pangakuang",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 04:03:47",
+        "source": "github_action",
+        "candidate": "Reza Adyatama",
         "position": "Reporter Nasional",
         "success": true
       }
