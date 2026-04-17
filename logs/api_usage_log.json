@@ -7143,24 +7143,17 @@
     ]
   },
   "2026-04-17": {
-    "total": 222,
+    "total": 223,
     "streamlit": 0,
-    "github_action": 222,
-    "successful": 222,
+    "github_action": 223,
+    "successful": 223,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Megapolitan": 91
+      "Reporter Megapolitan": 92
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 01:37:49",
-        "source": "github_action",
-        "candidate": "khansa Rania Bakhita",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 01:38:22",
         "source": "github_action",
@@ -7851,6 +7844,13 @@
         "timestamp": "2026-04-17 02:24:52",
         "source": "github_action",
         "candidate": "Natasa Alifah",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 02:25:33",
+        "source": "github_action",
+        "candidate": "Putri Mutia Rahman",
         "position": "Reporter Megapolitan",
         "success": true
       }
