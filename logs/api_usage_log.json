@@ -7143,26 +7143,19 @@
     ]
   },
   "2026-04-17": {
-    "total": 399,
+    "total": 400,
     "streamlit": 0,
-    "github_action": 399,
-    "successful": 399,
+    "github_action": 400,
+    "successful": 400,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
       "Sustainability Officer KG Media": 100,
-      "Strategic Planner KG Media": 68
+      "Strategic Planner KG Media": 69
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 03:01:32",
-        "source": "github_action",
-        "candidate": "Mustika Rini",
-        "position": "Sustainability Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 03:02:04",
         "source": "github_action",
@@ -7853,6 +7846,13 @@
         "timestamp": "2026-04-17 03:49:58",
         "source": "github_action",
         "candidate": "Lita Cecillya",
+        "position": "Strategic Planner KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 03:50:31",
+        "source": "github_action",
+        "candidate": "Luna  Yudanti",
         "position": "Strategic Planner KG Media",
         "success": true
       }
