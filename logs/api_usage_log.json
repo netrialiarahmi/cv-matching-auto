@@ -7143,24 +7143,17 @@
     ]
   },
   "2026-04-17": {
-    "total": 132,
+    "total": 133,
     "streamlit": 0,
-    "github_action": 132,
-    "successful": 132,
+    "github_action": 133,
+    "successful": 133,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Megapolitan": 1
+      "Reporter Megapolitan": 2
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 00:53:13",
-        "source": "github_action",
-        "candidate": "Denissa Puteri",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 00:53:45",
         "source": "github_action",
@@ -7851,6 +7844,13 @@
         "timestamp": "2026-04-17 01:42:29",
         "source": "github_action",
         "candidate": "Gregorius Manurung",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 01:43:02",
+        "source": "github_action",
+        "candidate": "Farie judhistira",
         "position": "Reporter Megapolitan",
         "success": true
       }
