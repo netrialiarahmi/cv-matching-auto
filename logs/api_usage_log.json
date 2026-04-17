@@ -7143,27 +7143,20 @@
     ]
   },
   "2026-04-17": {
-    "total": 693,
+    "total": 694,
     "streamlit": 0,
-    "github_action": 693,
-    "successful": 693,
+    "github_action": 694,
+    "successful": 694,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 200,
       "Reporter Megapolitan": 200,
-      "Sustainability Officer KG Media": 162,
+      "Sustainability Officer KG Media": 163,
       "Strategic Planner KG Media": 88,
       "Reporter Nasional": 12
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 07:17:24",
-        "source": "github_action",
-        "candidate": "Rachel Immanuela",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 07:17:51",
         "source": "github_action",
@@ -7854,6 +7847,13 @@
         "timestamp": "2026-04-17 08:05:55",
         "source": "github_action",
         "candidate": "Andini Sekar Pramesthi",
+        "position": "Sustainability Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 08:06:33",
+        "source": "github_action",
+        "candidate": "Yesa Diansari Amalia Magdalena",
         "position": "Sustainability Officer KG Media",
         "success": true
       }
