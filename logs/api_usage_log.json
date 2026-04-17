@@ -7143,25 +7143,18 @@
     ]
   },
   "2026-04-17": {
-    "total": 239,
+    "total": 240,
     "streamlit": 0,
-    "github_action": 239,
-    "successful": 239,
+    "github_action": 240,
+    "successful": 240,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
-      "Sustainability Officer KG Media": 8
+      "Sustainability Officer KG Media": 9
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 01:46:26",
-        "source": "github_action",
-        "candidate": "M. Nabil Mamnun",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 01:46:52",
         "source": "github_action",
@@ -7852,6 +7845,13 @@
         "timestamp": "2026-04-17 02:33:08",
         "source": "github_action",
         "candidate": "Shimma  Dyanna",
+        "position": "Sustainability Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 02:33:37",
+        "source": "github_action",
+        "candidate": "Fazdillah Reza Kaspuri",
         "position": "Sustainability Officer KG Media",
         "success": true
       }
