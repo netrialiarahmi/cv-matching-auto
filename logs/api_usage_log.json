@@ -7143,14 +7143,14 @@
     ]
   },
   "2026-04-17": {
-    "total": 49,
+    "total": 50,
     "streamlit": 0,
-    "github_action": 49,
-    "successful": 49,
+    "github_action": 50,
+    "successful": 50,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
-      "Marketing Communication Officer KG Media": 18
+      "Marketing Communication Officer KG Media": 19
     },
     "entries": [
       {
@@ -7493,6 +7493,13 @@
         "timestamp": "2026-04-17 01:00:32",
         "source": "github_action",
         "candidate": "Rizqi Khasna K",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 01:01:07",
+        "source": "github_action",
+        "candidate": "Jesika Gloria",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
