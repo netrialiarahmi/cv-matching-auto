@@ -7143,10 +7143,10 @@
     ]
   },
   "2026-04-17": {
-    "total": 825,
+    "total": 826,
     "streamlit": 0,
-    "github_action": 825,
-    "successful": 825,
+    "github_action": 826,
+    "successful": 826,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
@@ -7154,16 +7154,9 @@
       "Reporter Megapolitan": 200,
       "Sustainability Officer KG Media": 200,
       "Strategic Planner KG Media": 90,
-      "Reporter Nasional": 104
+      "Reporter Nasional": 105
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 08:23:23",
-        "source": "github_action",
-        "candidate": "Cinta Maharani",
-        "position": "Sustainability Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 08:23:59",
         "source": "github_action",
@@ -7854,6 +7847,13 @@
         "timestamp": "2026-04-17 09:11:45",
         "source": "github_action",
         "candidate": "Indah Permata Hati",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 09:12:17",
+        "source": "github_action",
+        "candidate": "Azka Putrie",
         "position": "Reporter Nasional",
         "success": true
       }
