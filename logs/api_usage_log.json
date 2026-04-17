@@ -7143,14 +7143,14 @@
     ]
   },
   "2026-04-17": {
-    "total": 64,
+    "total": 65,
     "streamlit": 0,
-    "github_action": 64,
-    "successful": 64,
+    "github_action": 65,
+    "successful": 65,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
-      "Marketing Communication Officer KG Media": 33
+      "Marketing Communication Officer KG Media": 34
     },
     "entries": [
       {
@@ -7598,6 +7598,13 @@
         "timestamp": "2026-04-17 01:08:07",
         "source": "github_action",
         "candidate": "lina Desyiriana",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 01:08:39",
+        "source": "github_action",
+        "candidate": "Tegar Ramadhan",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
