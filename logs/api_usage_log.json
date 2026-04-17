@@ -7143,14 +7143,14 @@
     ]
   },
   "2026-04-17": {
-    "total": 45,
+    "total": 46,
     "streamlit": 0,
-    "github_action": 45,
-    "successful": 45,
+    "github_action": 46,
+    "successful": 46,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
-      "Marketing Communication Officer KG Media": 14
+      "Marketing Communication Officer KG Media": 15
     },
     "entries": [
       {
@@ -7465,6 +7465,13 @@
         "timestamp": "2026-04-17 00:58:25",
         "source": "github_action",
         "candidate": "Fahdina Ghina Aliya",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 00:58:57",
+        "source": "github_action",
+        "candidate": "Annisa Putri Permatasari",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
