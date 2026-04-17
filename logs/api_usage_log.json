@@ -7143,14 +7143,14 @@
     ]
   },
   "2026-04-17": {
-    "total": 99,
+    "total": 100,
     "streamlit": 0,
-    "github_action": 99,
-    "successful": 99,
+    "github_action": 100,
+    "successful": 100,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
-      "Marketing Communication Officer KG Media": 68
+      "Marketing Communication Officer KG Media": 69
     },
     "entries": [
       {
@@ -7843,6 +7843,13 @@
         "timestamp": "2026-04-17 01:26:07",
         "source": "github_action",
         "candidate": "Mohammad Aditya Putratama Bahri",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 01:26:39",
+        "source": "github_action",
+        "candidate": "Muhammad Bozyar Zulkarnain",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
