@@ -7143,27 +7143,20 @@
     ]
   },
   "2026-04-17": {
-    "total": 616,
+    "total": 617,
     "streamlit": 0,
-    "github_action": 616,
-    "successful": 616,
+    "github_action": 617,
+    "successful": 617,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 200,
-      "Reporter Megapolitan": 185,
+      "Reporter Megapolitan": 186,
       "Sustainability Officer KG Media": 100,
       "Strategic Planner KG Media": 88,
       "Reporter Nasional": 12
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 05:25:31",
-        "source": "github_action",
-        "candidate": "Muhammad Cipta Fikri Apriyadi",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 05:27:49",
         "source": "github_action",
@@ -7854,6 +7847,13 @@
         "timestamp": "2026-04-17 07:28:25",
         "source": "github_action",
         "candidate": "Arryiend Shinichi Coren Khrisna",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 07:28:55",
+        "source": "github_action",
+        "candidate": "Pujo Siswanto",
         "position": "Reporter Megapolitan",
         "success": true
       }
