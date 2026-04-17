@@ -7143,25 +7143,18 @@
     ]
   },
   "2026-04-17": {
-    "total": 302,
+    "total": 303,
     "streamlit": 0,
-    "github_action": 302,
-    "successful": 302,
+    "github_action": 303,
+    "successful": 303,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
-      "Sustainability Officer KG Media": 71
+      "Sustainability Officer KG Media": 72
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 02:15:32",
-        "source": "github_action",
-        "candidate": "Jacko Agun",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 02:16:01",
         "source": "github_action",
@@ -7852,6 +7845,13 @@
         "timestamp": "2026-04-17 03:02:36",
         "source": "github_action",
         "candidate": "Beauty Keren",
+        "position": "Sustainability Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 03:03:07",
+        "source": "github_action",
+        "candidate": "Putri Safitri",
         "position": "Sustainability Officer KG Media",
         "success": true
       }
