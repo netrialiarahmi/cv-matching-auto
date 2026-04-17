@@ -7143,26 +7143,19 @@
     ]
   },
   "2026-04-17": {
-    "total": 351,
+    "total": 352,
     "streamlit": 0,
-    "github_action": 351,
-    "successful": 351,
+    "github_action": 352,
+    "successful": 352,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
       "Sustainability Officer KG Media": 100,
-      "Strategic Planner KG Media": 20
+      "Strategic Planner KG Media": 21
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 02:39:28",
-        "source": "github_action",
-        "candidate": "Rasianna  Agustina Agnes Br Sinaga Mandalahi",
-        "position": "Sustainability Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 02:39:54",
         "source": "github_action",
@@ -7853,6 +7846,13 @@
         "timestamp": "2026-04-17 03:25:28",
         "source": "github_action",
         "candidate": "Ferdinand Leonardi",
+        "position": "Strategic Planner KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 03:26:04",
+        "source": "github_action",
+        "candidate": "Fathurreza Febrian",
         "position": "Strategic Planner KG Media",
         "success": true
       }
