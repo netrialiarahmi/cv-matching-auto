@@ -7143,27 +7143,20 @@
     ]
   },
   "2026-04-17": {
-    "total": 577,
+    "total": 578,
     "streamlit": 0,
-    "github_action": 577,
-    "successful": 577,
+    "github_action": 578,
+    "successful": 578,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 200,
-      "Reporter Megapolitan": 146,
+      "Reporter Megapolitan": 147,
       "Sustainability Officer KG Media": 100,
       "Strategic Planner KG Media": 88,
       "Reporter Nasional": 12
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 04:27:13",
-        "source": "github_action",
-        "candidate": "Alaine Alaine",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 04:27:41",
         "source": "github_action",
@@ -7854,6 +7847,13 @@
         "timestamp": "2026-04-17 07:08:35",
         "source": "github_action",
         "candidate": "Miftah Dwi Kharunia",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 07:09:06",
+        "source": "github_action",
+        "candidate": "Hijfa Azzahra",
         "position": "Reporter Megapolitan",
         "success": true
       }
