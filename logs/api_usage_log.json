@@ -7143,26 +7143,19 @@
     ]
   },
   "2026-04-17": {
-    "total": 355,
+    "total": 356,
     "streamlit": 0,
-    "github_action": 355,
-    "successful": 355,
+    "github_action": 356,
+    "successful": 356,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
       "Sustainability Officer KG Media": 100,
-      "Strategic Planner KG Media": 24
+      "Strategic Planner KG Media": 25
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 02:41:17",
-        "source": "github_action",
-        "candidate": "Atika Rahayu Puteri",
-        "position": "Sustainability Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 02:41:46",
         "source": "github_action",
@@ -7853,6 +7846,13 @@
         "timestamp": "2026-04-17 03:27:36",
         "source": "github_action",
         "candidate": "Arvy Tazkia Azzahra",
+        "position": "Strategic Planner KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 03:28:14",
+        "source": "github_action",
+        "candidate": "Hizkia Arsenio Christianto Alvarel",
         "position": "Strategic Planner KG Media",
         "success": true
       }
