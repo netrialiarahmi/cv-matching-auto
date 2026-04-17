@@ -7143,10 +7143,10 @@
     ]
   },
   "2026-04-17": {
-    "total": 819,
+    "total": 820,
     "streamlit": 0,
-    "github_action": 819,
-    "successful": 819,
+    "github_action": 820,
+    "successful": 820,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
@@ -7154,16 +7154,9 @@
       "Reporter Megapolitan": 200,
       "Sustainability Officer KG Media": 200,
       "Strategic Planner KG Media": 90,
-      "Reporter Nasional": 98
+      "Reporter Nasional": 99
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 08:20:14",
-        "source": "github_action",
-        "candidate": "Ahmad Ramdani",
-        "position": "Sustainability Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 08:20:44",
         "source": "github_action",
@@ -7854,6 +7847,13 @@
         "timestamp": "2026-04-17 09:09:00",
         "source": "github_action",
         "candidate": "Masyita Deta Rahadiani",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 09:09:31",
+        "source": "github_action",
+        "candidate": "Fathan  Arya",
         "position": "Reporter Nasional",
         "success": true
       }
