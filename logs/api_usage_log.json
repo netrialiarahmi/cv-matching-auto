@@ -7143,24 +7143,17 @@
     ]
   },
   "2026-04-17": {
-    "total": 200,
+    "total": 201,
     "streamlit": 0,
-    "github_action": 200,
-    "successful": 200,
+    "github_action": 201,
+    "successful": 201,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Megapolitan": 69
+      "Reporter Megapolitan": 70
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 01:27:08",
-        "source": "github_action",
-        "candidate": "MICHELLE PAPILAYA",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 01:27:35",
         "source": "github_action",
@@ -7851,6 +7844,13 @@
         "timestamp": "2026-04-17 02:14:53",
         "source": "github_action",
         "candidate": "Farhan Nuzhadiwa",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 02:14:55",
+        "source": "github_action",
+        "candidate": "Alif Bintang",
         "position": "Reporter Megapolitan",
         "success": true
       }
