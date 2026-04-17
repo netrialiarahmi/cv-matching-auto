@@ -7143,10 +7143,10 @@
     ]
   },
   "2026-04-17": {
-    "total": 531,
+    "total": 532,
     "streamlit": 0,
-    "github_action": 531,
-    "successful": 531,
+    "github_action": 532,
+    "successful": 532,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
@@ -7155,16 +7155,9 @@
       "Sustainability Officer KG Media": 100,
       "Strategic Planner KG Media": 88,
       "Reporter Nasional": 100,
-      "Content Writer Homey": 12
+      "Content Writer Homey": 13
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 04:04:48",
-        "source": "github_action",
-        "candidate": "Syahril wahyu Firmansyah",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 04:04:50",
         "source": "github_action",
@@ -7855,6 +7848,13 @@
         "timestamp": "2026-04-17 05:54:12",
         "source": "github_action",
         "candidate": "neng Halima",
+        "position": "Content Writer Homey",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 05:54:14",
+        "source": "github_action",
+        "candidate": "Niha Nurazizah",
         "position": "Content Writer Homey",
         "success": true
       }
