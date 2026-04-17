@@ -7143,13 +7143,13 @@
     ]
   },
   "2026-04-17": {
-    "total": 20,
+    "total": 21,
     "streamlit": 0,
-    "github_action": 20,
-    "successful": 20,
+    "github_action": 21,
+    "successful": 21,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 20
+      "Account Executive VCBL": 21
     },
     "entries": [
       {
@@ -7289,6 +7289,13 @@
         "timestamp": "2026-04-17 00:45:46",
         "source": "github_action",
         "candidate": "Doni Wenfery Simorangkir",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 00:46:16",
+        "source": "github_action",
+        "candidate": "juno ongko",
         "position": "Account Executive VCBL",
         "success": true
       }
