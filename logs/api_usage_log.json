@@ -7143,26 +7143,19 @@
     ]
   },
   "2026-04-17": {
-    "total": 359,
+    "total": 360,
     "streamlit": 0,
-    "github_action": 359,
-    "successful": 359,
+    "github_action": 360,
+    "successful": 360,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
       "Sustainability Officer KG Media": 100,
-      "Strategic Planner KG Media": 28
+      "Strategic Planner KG Media": 29
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 02:43:10",
-        "source": "github_action",
-        "candidate": "Fatima Nur Azizia",
-        "position": "Sustainability Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 02:43:35",
         "source": "github_action",
@@ -7853,6 +7846,13 @@
         "timestamp": "2026-04-17 03:29:16",
         "source": "github_action",
         "candidate": "Kurnia Mangayun",
+        "position": "Strategic Planner KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 03:29:44",
+        "source": "github_action",
+        "candidate": "Anggita Putri Meiliani",
         "position": "Strategic Planner KG Media",
         "success": true
       }
