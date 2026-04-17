@@ -7143,14 +7143,14 @@
     ]
   },
   "2026-04-17": {
-    "total": 93,
+    "total": 94,
     "streamlit": 0,
-    "github_action": 93,
-    "successful": 93,
+    "github_action": 94,
+    "successful": 94,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
-      "Marketing Communication Officer KG Media": 62
+      "Marketing Communication Officer KG Media": 63
     },
     "entries": [
       {
@@ -7801,6 +7801,13 @@
         "timestamp": "2026-04-17 01:23:05",
         "source": "github_action",
         "candidate": "Kinsky Gisela Mentari",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 01:23:36",
+        "source": "github_action",
+        "candidate": "Mutiara Risdiyafani",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
