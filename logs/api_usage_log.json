@@ -7143,23 +7143,16 @@
     ]
   },
   "2026-04-17": {
-    "total": 116,
+    "total": 117,
     "streamlit": 0,
-    "github_action": 116,
-    "successful": 116,
+    "github_action": 117,
+    "successful": 117,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
-      "Marketing Communication Officer KG Media": 85
+      "Marketing Communication Officer KG Media": 86
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 00:44:20",
-        "source": "github_action",
-        "candidate": "ALIFA RAHMADANI",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 00:44:50",
         "source": "github_action",
@@ -7850,6 +7843,13 @@
         "timestamp": "2026-04-17 01:34:40",
         "source": "github_action",
         "candidate": "Imam Saputra",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 01:35:11",
+        "source": "github_action",
+        "candidate": "Dzil Iqbal",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
