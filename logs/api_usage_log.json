@@ -7143,27 +7143,20 @@
     ]
   },
   "2026-04-17": {
-    "total": 607,
+    "total": 608,
     "streamlit": 0,
-    "github_action": 607,
-    "successful": 607,
+    "github_action": 608,
+    "successful": 608,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 200,
-      "Reporter Megapolitan": 176,
+      "Reporter Megapolitan": 177,
       "Sustainability Officer KG Media": 100,
       "Strategic Planner KG Media": 88,
       "Reporter Nasional": 12
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 05:06:55",
-        "source": "github_action",
-        "candidate": "Riri Dwi Lestari",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 05:09:14",
         "source": "github_action",
@@ -7854,6 +7847,13 @@
         "timestamp": "2026-04-17 07:24:03",
         "source": "github_action",
         "candidate": "Salsyabila Sukmaningrum",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 07:24:32",
+        "source": "github_action",
+        "candidate": "Iqbal Firman",
         "position": "Reporter Megapolitan",
         "success": true
       }
