@@ -7143,10 +7143,10 @@
     ]
   },
   "2026-04-17": {
-    "total": 872,
+    "total": 873,
     "streamlit": 0,
-    "github_action": 872,
-    "successful": 872,
+    "github_action": 873,
+    "successful": 873,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
@@ -7155,16 +7155,9 @@
       "Sustainability Officer KG Media": 200,
       "Strategic Planner KG Media": 90,
       "Reporter Nasional": 112,
-      "Content Writer Homey": 39
+      "Content Writer Homey": 40
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 08:46:39",
-        "source": "github_action",
-        "candidate": "Aurelia Febriananda Putri",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 08:46:42",
         "source": "github_action",
@@ -7855,6 +7848,13 @@
         "timestamp": "2026-04-17 09:35:07",
         "source": "github_action",
         "candidate": "Tegar Widodo",
+        "position": "Content Writer Homey",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 09:35:35",
+        "source": "github_action",
+        "candidate": "Rheza Dio Primananda",
         "position": "Content Writer Homey",
         "success": true
       }
