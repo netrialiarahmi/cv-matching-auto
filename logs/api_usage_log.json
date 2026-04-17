@@ -7143,10 +7143,10 @@
     ]
   },
   "2026-04-17": {
-    "total": 549,
+    "total": 550,
     "streamlit": 0,
-    "github_action": 549,
-    "successful": 549,
+    "github_action": 550,
+    "successful": 550,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
@@ -7155,16 +7155,9 @@
       "Sustainability Officer KG Media": 100,
       "Strategic Planner KG Media": 88,
       "Reporter Nasional": 100,
-      "Content Writer Homey": 30
+      "Content Writer Homey": 31
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 04:13:04",
-        "source": "github_action",
-        "candidate": "Rahmat Jiwandono",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 04:13:31",
         "source": "github_action",
@@ -7855,6 +7848,13 @@
         "timestamp": "2026-04-17 06:24:32",
         "source": "github_action",
         "candidate": "M. Ghaniey Al Rasyid",
+        "position": "Content Writer Homey",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 06:24:34",
+        "source": "github_action",
+        "candidate": "Rianti Wulandari",
         "position": "Content Writer Homey",
         "success": true
       }
