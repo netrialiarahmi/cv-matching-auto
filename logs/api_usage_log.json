@@ -7143,10 +7143,10 @@
     ]
   },
   "2026-04-17": {
-    "total": 843,
+    "total": 844,
     "streamlit": 0,
-    "github_action": 843,
-    "successful": 843,
+    "github_action": 844,
+    "successful": 844,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
@@ -7155,16 +7155,9 @@
       "Sustainability Officer KG Media": 200,
       "Strategic Planner KG Media": 90,
       "Reporter Nasional": 112,
-      "Content Writer Homey": 10
+      "Content Writer Homey": 11
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 08:32:07",
-        "source": "github_action",
-        "candidate": "Indra Santoso",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 08:32:36",
         "source": "github_action",
@@ -7855,6 +7848,13 @@
         "timestamp": "2026-04-17 09:21:10",
         "source": "github_action",
         "candidate": "Nur Faizah Al Bahriyatul Baqiroh",
+        "position": "Content Writer Homey",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 09:21:39",
+        "source": "github_action",
+        "candidate": "Rolista S.Pd",
         "position": "Content Writer Homey",
         "success": true
       }
