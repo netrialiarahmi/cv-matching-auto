@@ -7143,10 +7143,10 @@
     ]
   },
   "2026-04-17": {
-    "total": 824,
+    "total": 825,
     "streamlit": 0,
-    "github_action": 824,
-    "successful": 824,
+    "github_action": 825,
+    "successful": 825,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
@@ -7154,16 +7154,9 @@
       "Reporter Megapolitan": 200,
       "Sustainability Officer KG Media": 200,
       "Strategic Planner KG Media": 90,
-      "Reporter Nasional": 103
+      "Reporter Nasional": 104
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 08:22:51",
-        "source": "github_action",
-        "candidate": "Nabilah Sabitah Azalia",
-        "position": "Sustainability Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 08:23:23",
         "source": "github_action",
@@ -7854,6 +7847,13 @@
         "timestamp": "2026-04-17 09:11:10",
         "source": "github_action",
         "candidate": "Bintang Raditya",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 09:11:45",
+        "source": "github_action",
+        "candidate": "Indah Permata Hati",
         "position": "Reporter Nasional",
         "success": true
       }
