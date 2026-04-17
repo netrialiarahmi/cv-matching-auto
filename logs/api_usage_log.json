@@ -7143,14 +7143,14 @@
     ]
   },
   "2026-04-17": {
-    "total": 36,
+    "total": 37,
     "streamlit": 0,
-    "github_action": 36,
-    "successful": 36,
+    "github_action": 37,
+    "successful": 37,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
-      "Marketing Communication Officer KG Media": 5
+      "Marketing Communication Officer KG Media": 6
     },
     "entries": [
       {
@@ -7402,6 +7402,13 @@
         "timestamp": "2026-04-17 00:54:13",
         "source": "github_action",
         "candidate": "Silfi Sri Herliani",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 00:54:41",
+        "source": "github_action",
+        "candidate": "Putri Yohana",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
