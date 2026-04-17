@@ -7143,25 +7143,18 @@
     ]
   },
   "2026-04-17": {
-    "total": 294,
+    "total": 295,
     "streamlit": 0,
-    "github_action": 294,
-    "successful": 294,
+    "github_action": 295,
+    "successful": 295,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
-      "Sustainability Officer KG Media": 63
+      "Sustainability Officer KG Media": 64
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 02:12:28",
-        "source": "github_action",
-        "candidate": "Diva Salsabila",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 02:12:55",
         "source": "github_action",
@@ -7852,6 +7845,13 @@
         "timestamp": "2026-04-17 02:58:34",
         "source": "github_action",
         "candidate": "Fadhila  Amaliyah",
+        "position": "Sustainability Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 02:59:03",
+        "source": "github_action",
+        "candidate": "Ananda Rilo Ramadhandi",
         "position": "Sustainability Officer KG Media",
         "success": true
       }
