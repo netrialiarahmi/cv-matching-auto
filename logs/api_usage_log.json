@@ -7143,27 +7143,20 @@
     ]
   },
   "2026-04-17": {
-    "total": 569,
+    "total": 570,
     "streamlit": 0,
-    "github_action": 569,
-    "successful": 569,
+    "github_action": 570,
+    "successful": 570,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 200,
-      "Reporter Megapolitan": 138,
+      "Reporter Megapolitan": 139,
       "Sustainability Officer KG Media": 100,
       "Strategic Planner KG Media": 88,
       "Reporter Nasional": 12
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 04:23:12",
-        "source": "github_action",
-        "candidate": "Aditya Dwi Prasetyo",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 04:23:44",
         "source": "github_action",
@@ -7854,6 +7847,13 @@
         "timestamp": "2026-04-17 07:04:23",
         "source": "github_action",
         "candidate": "Muhammad Raka Adeansyah",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 07:04:55",
+        "source": "github_action",
+        "candidate": "Daffa Andarifka Syaifullah",
         "position": "Reporter Megapolitan",
         "success": true
       }
