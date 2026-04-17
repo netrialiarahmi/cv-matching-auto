@@ -7143,25 +7143,18 @@
     ]
   },
   "2026-04-17": {
-    "total": 291,
+    "total": 292,
     "streamlit": 0,
-    "github_action": 291,
-    "successful": 291,
+    "github_action": 292,
+    "successful": 292,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
-      "Sustainability Officer KG Media": 60
+      "Sustainability Officer KG Media": 61
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 02:11:10",
-        "source": "github_action",
-        "candidate": "Ayudya  Winessa",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 02:11:35",
         "source": "github_action",
@@ -7852,6 +7845,13 @@
         "timestamp": "2026-04-17 02:57:01",
         "source": "github_action",
         "candidate": "Gazala Savana Putra",
+        "position": "Sustainability Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 02:57:31",
+        "source": "github_action",
+        "candidate": "Andini Sekar Pramesthi",
         "position": "Sustainability Officer KG Media",
         "success": true
       }
