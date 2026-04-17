@@ -7143,10 +7143,10 @@
     ]
   },
   "2026-04-17": {
-    "total": 810,
+    "total": 811,
     "streamlit": 0,
-    "github_action": 810,
-    "successful": 810,
+    "github_action": 811,
+    "successful": 811,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
@@ -7154,16 +7154,9 @@
       "Reporter Megapolitan": 200,
       "Sustainability Officer KG Media": 200,
       "Strategic Planner KG Media": 90,
-      "Reporter Nasional": 89
+      "Reporter Nasional": 90
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 08:15:47",
-        "source": "github_action",
-        "candidate": "Salsabilla Fitri Ayu",
-        "position": "Sustainability Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 08:16:15",
         "source": "github_action",
@@ -7854,6 +7847,13 @@
         "timestamp": "2026-04-17 09:04:49",
         "source": "github_action",
         "candidate": "Annisa Firdaus Damayanti",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 09:05:20",
+        "source": "github_action",
+        "candidate": "Tsabita Sirly Kamaliya",
         "position": "Reporter Nasional",
         "success": true
       }
