@@ -7143,14 +7143,14 @@
     ]
   },
   "2026-04-17": {
-    "total": 52,
+    "total": 53,
     "streamlit": 0,
-    "github_action": 52,
-    "successful": 52,
+    "github_action": 53,
+    "successful": 53,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
-      "Marketing Communication Officer KG Media": 21
+      "Marketing Communication Officer KG Media": 22
     },
     "entries": [
       {
@@ -7514,6 +7514,13 @@
         "timestamp": "2026-04-17 01:02:12",
         "source": "github_action",
         "candidate": "Ramadhani Eka Saputra",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 01:02:42",
+        "source": "github_action",
+        "candidate": "Ikhsanul Amal",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
