@@ -7143,27 +7143,20 @@
     ]
   },
   "2026-04-17": {
-    "total": 695,
+    "total": 696,
     "streamlit": 0,
-    "github_action": 695,
-    "successful": 695,
+    "github_action": 696,
+    "successful": 696,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 200,
       "Reporter Megapolitan": 200,
-      "Sustainability Officer KG Media": 164,
+      "Sustainability Officer KG Media": 165,
       "Strategic Planner KG Media": 88,
       "Reporter Nasional": 12
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 07:18:24",
-        "source": "github_action",
-        "candidate": "Michael Gono ate",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 07:18:50",
         "source": "github_action",
@@ -7854,6 +7847,13 @@
         "timestamp": "2026-04-17 08:07:06",
         "source": "github_action",
         "candidate": "Fadhila  Amaliyah",
+        "position": "Sustainability Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 08:07:39",
+        "source": "github_action",
+        "candidate": "Ananda Rilo Ramadhandi",
         "position": "Sustainability Officer KG Media",
         "success": true
       }
