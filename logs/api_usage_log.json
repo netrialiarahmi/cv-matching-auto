@@ -7143,25 +7143,18 @@
     ]
   },
   "2026-04-17": {
-    "total": 265,
+    "total": 266,
     "streamlit": 0,
-    "github_action": 265,
-    "successful": 265,
+    "github_action": 266,
+    "successful": 266,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
-      "Sustainability Officer KG Media": 34
+      "Sustainability Officer KG Media": 35
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 01:58:23",
-        "source": "github_action",
-        "candidate": "Dicky Aditya Wijaya",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 01:58:50",
         "source": "github_action",
@@ -7852,6 +7845,13 @@
         "timestamp": "2026-04-17 02:45:29",
         "source": "github_action",
         "candidate": "Yasmin Indah Hasari",
+        "position": "Sustainability Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 02:45:57",
+        "source": "github_action",
+        "candidate": "Octria Vesensia",
         "position": "Sustainability Officer KG Media",
         "success": true
       }
