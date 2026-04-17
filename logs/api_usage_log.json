@@ -7143,24 +7143,17 @@
     ]
   },
   "2026-04-17": {
-    "total": 151,
+    "total": 152,
     "streamlit": 0,
-    "github_action": 151,
-    "successful": 151,
+    "github_action": 152,
+    "successful": 152,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Megapolitan": 20
+      "Reporter Megapolitan": 21
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 01:02:12",
-        "source": "github_action",
-        "candidate": "Ramadhani Eka Saputra",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 01:02:42",
         "source": "github_action",
@@ -7851,6 +7844,13 @@
         "timestamp": "2026-04-17 01:51:40",
         "source": "github_action",
         "candidate": "Hana Fathina Chaniago",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 01:52:08",
+        "source": "github_action",
+        "candidate": "Muhammad Jihad",
         "position": "Reporter Megapolitan",
         "success": true
       }
