@@ -7143,10 +7143,10 @@
     ]
   },
   "2026-04-17": {
-    "total": 917,
+    "total": 918,
     "streamlit": 0,
-    "github_action": 917,
-    "successful": 917,
+    "github_action": 918,
+    "successful": 918,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
@@ -7155,16 +7155,9 @@
       "Sustainability Officer KG Media": 200,
       "Strategic Planner KG Media": 90,
       "Reporter Nasional": 112,
-      "Content Writer Homey": 84
+      "Content Writer Homey": 85
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 09:08:31",
-        "source": "github_action",
-        "candidate": "Iman Firmansyah",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 09:09:00",
         "source": "github_action",
@@ -7855,6 +7848,13 @@
         "timestamp": "2026-04-17 09:56:16",
         "source": "github_action",
         "candidate": "Ervira Octaviola Kurniawan",
+        "position": "Content Writer Homey",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 09:56:50",
+        "source": "github_action",
+        "candidate": "Naufal Refrizal",
         "position": "Content Writer Homey",
         "success": true
       }
