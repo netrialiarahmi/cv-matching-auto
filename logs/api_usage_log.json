@@ -7143,25 +7143,18 @@
     ]
   },
   "2026-04-17": {
-    "total": 257,
+    "total": 258,
     "streamlit": 0,
-    "github_action": 257,
-    "successful": 257,
+    "github_action": 258,
+    "successful": 258,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
-      "Sustainability Officer KG Media": 26
+      "Sustainability Officer KG Media": 27
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 01:55:05",
-        "source": "github_action",
-        "candidate": "Muhammad Zamir",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 01:55:34",
         "source": "github_action",
@@ -7852,6 +7845,13 @@
         "timestamp": "2026-04-17 02:41:46",
         "source": "github_action",
         "candidate": "Andre Yosua Pangaribuan",
+        "position": "Sustainability Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 02:42:13",
+        "source": "github_action",
+        "candidate": "Christopher Abimanyu",
         "position": "Sustainability Officer KG Media",
         "success": true
       }
