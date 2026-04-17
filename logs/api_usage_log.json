@@ -7143,27 +7143,20 @@
     ]
   },
   "2026-04-17": {
-    "total": 654,
+    "total": 655,
     "streamlit": 0,
-    "github_action": 654,
-    "successful": 654,
+    "github_action": 655,
+    "successful": 655,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 200,
       "Reporter Megapolitan": 200,
-      "Sustainability Officer KG Media": 123,
+      "Sustainability Officer KG Media": 124,
       "Strategic Planner KG Media": 88,
       "Reporter Nasional": 12
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 06:50:42",
-        "source": "github_action",
-        "candidate": "Dina Rochmaningsih",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 06:53:04",
         "source": "github_action",
@@ -7854,6 +7847,13 @@
         "timestamp": "2026-04-17 07:47:03",
         "source": "github_action",
         "candidate": "Binta Zulfia",
+        "position": "Sustainability Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 07:47:33",
+        "source": "github_action",
+        "candidate": "Wihda Aufi Nur Salsabila",
         "position": "Sustainability Officer KG Media",
         "success": true
       }
