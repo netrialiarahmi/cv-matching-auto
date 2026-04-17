@@ -7143,10 +7143,10 @@
     ]
   },
   "2026-04-17": {
-    "total": 827,
+    "total": 828,
     "streamlit": 0,
-    "github_action": 827,
-    "successful": 827,
+    "github_action": 828,
+    "successful": 828,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
@@ -7154,16 +7154,9 @@
       "Reporter Megapolitan": 200,
       "Sustainability Officer KG Media": 200,
       "Strategic Planner KG Media": 90,
-      "Reporter Nasional": 106
+      "Reporter Nasional": 107
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 08:24:35",
-        "source": "github_action",
-        "candidate": "Muhammad Fadlurrohman ash raffi",
-        "position": "Sustainability Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 08:24:37",
         "source": "github_action",
@@ -7854,6 +7847,13 @@
         "timestamp": "2026-04-17 09:12:49",
         "source": "github_action",
         "candidate": "Viola Esa Novrani",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 09:13:22",
+        "source": "github_action",
+        "candidate": "Denisa Tristianty",
         "position": "Reporter Nasional",
         "success": true
       }
