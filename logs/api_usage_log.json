@@ -7143,23 +7143,16 @@
     ]
   },
   "2026-04-17": {
-    "total": 101,
+    "total": 102,
     "streamlit": 0,
-    "github_action": 101,
-    "successful": 101,
+    "github_action": 102,
+    "successful": 102,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
-      "Marketing Communication Officer KG Media": 70
+      "Marketing Communication Officer KG Media": 71
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 00:38:42",
-        "source": "github_action",
-        "candidate": "Syafira Akhtari",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 00:39:10",
         "source": "github_action",
@@ -7850,6 +7843,13 @@
         "timestamp": "2026-04-17 01:27:08",
         "source": "github_action",
         "candidate": "MICHELLE PAPILAYA",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 01:27:35",
+        "source": "github_action",
+        "candidate": "Gita Cita Pertiwi",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
