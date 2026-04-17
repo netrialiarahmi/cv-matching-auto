@@ -7143,25 +7143,18 @@
     ]
   },
   "2026-04-17": {
-    "total": 316,
+    "total": 317,
     "streamlit": 0,
-    "github_action": 316,
-    "successful": 316,
+    "github_action": 317,
+    "successful": 317,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
-      "Sustainability Officer KG Media": 85
+      "Sustainability Officer KG Media": 86
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 02:22:15",
-        "source": "github_action",
-        "candidate": "Muhammad Raka Adeansyah",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 02:22:43",
         "source": "github_action",
@@ -7852,6 +7845,13 @@
         "timestamp": "2026-04-17 03:09:26",
         "source": "github_action",
         "candidate": "Pandu Askaria",
+        "position": "Sustainability Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 03:09:28",
+        "source": "github_action",
+        "candidate": "Diniya Khalila",
         "position": "Sustainability Officer KG Media",
         "success": true
       }
