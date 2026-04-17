@@ -7143,10 +7143,10 @@
     ]
   },
   "2026-04-17": {
-    "total": 542,
+    "total": 543,
     "streamlit": 0,
-    "github_action": 542,
-    "successful": 542,
+    "github_action": 543,
+    "successful": 543,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
@@ -7155,16 +7155,9 @@
       "Sustainability Officer KG Media": 100,
       "Strategic Planner KG Media": 88,
       "Reporter Nasional": 100,
-      "Content Writer Homey": 23
+      "Content Writer Homey": 24
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 04:09:37",
-        "source": "github_action",
-        "candidate": "Muhammad Jihad",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 04:10:08",
         "source": "github_action",
@@ -7855,6 +7848,13 @@
         "timestamp": "2026-04-17 06:10:41",
         "source": "github_action",
         "candidate": "fauzan nugraha",
+        "position": "Content Writer Homey",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 06:10:43",
+        "source": "github_action",
+        "candidate": "Amira Talida",
         "position": "Content Writer Homey",
         "success": true
       }
