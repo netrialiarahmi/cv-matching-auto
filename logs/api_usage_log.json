@@ -7143,27 +7143,20 @@
     ]
   },
   "2026-04-17": {
-    "total": 561,
+    "total": 562,
     "streamlit": 0,
-    "github_action": 561,
-    "successful": 561,
+    "github_action": 562,
+    "successful": 562,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 200,
-      "Reporter Megapolitan": 130,
+      "Reporter Megapolitan": 131,
       "Sustainability Officer KG Media": 100,
       "Strategic Planner KG Media": 88,
       "Reporter Nasional": 12
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 04:19:07",
-        "source": "github_action",
-        "candidate": "Tegar Ramadhan",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 04:19:38",
         "source": "github_action",
@@ -7854,6 +7847,13 @@
         "timestamp": "2026-04-17 07:00:50",
         "source": "github_action",
         "candidate": "Ardan Fitriansyah",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 07:01:24",
+        "source": "github_action",
+        "candidate": "michael matthew",
         "position": "Reporter Megapolitan",
         "success": true
       }
