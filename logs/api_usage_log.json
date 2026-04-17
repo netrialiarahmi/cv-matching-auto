@@ -7143,25 +7143,18 @@
     ]
   },
   "2026-04-17": {
-    "total": 251,
+    "total": 252,
     "streamlit": 0,
-    "github_action": 251,
-    "successful": 251,
+    "github_action": 252,
+    "successful": 252,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
-      "Sustainability Officer KG Media": 20
+      "Sustainability Officer KG Media": 21
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 01:52:08",
-        "source": "github_action",
-        "candidate": "Muhammad Jihad",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 01:52:40",
         "source": "github_action",
@@ -7852,6 +7845,13 @@
         "timestamp": "2026-04-17 02:38:55",
         "source": "github_action",
         "candidate": "Gregorius Naralatu Dharana",
+        "position": "Sustainability Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 02:39:28",
+        "source": "github_action",
+        "candidate": "Rasianna  Agustina Agnes Br Sinaga Mandalahi",
         "position": "Sustainability Officer KG Media",
         "success": true
       }
