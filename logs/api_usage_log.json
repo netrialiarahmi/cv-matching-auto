@@ -7143,24 +7143,17 @@
     ]
   },
   "2026-04-17": {
-    "total": 178,
+    "total": 179,
     "streamlit": 0,
-    "github_action": 178,
-    "successful": 178,
+    "github_action": 179,
+    "successful": 179,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Megapolitan": 47
+      "Reporter Megapolitan": 48
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 01:15:52",
-        "source": "github_action",
-        "candidate": "zaki ramadhan",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 01:16:21",
         "source": "github_action",
@@ -7851,6 +7844,13 @@
         "timestamp": "2026-04-17 02:04:02",
         "source": "github_action",
         "candidate": "Mutiara Dwi",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 02:04:30",
+        "source": "github_action",
+        "candidate": "Arfiah Arifin",
         "position": "Reporter Megapolitan",
         "success": true
       }
