@@ -7143,27 +7143,20 @@
     ]
   },
   "2026-04-17": {
-    "total": 676,
+    "total": 677,
     "streamlit": 0,
-    "github_action": 676,
-    "successful": 676,
+    "github_action": 677,
+    "successful": 677,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 200,
       "Reporter Megapolitan": 200,
-      "Sustainability Officer KG Media": 145,
+      "Sustainability Officer KG Media": 146,
       "Strategic Planner KG Media": 88,
       "Reporter Nasional": 12
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 07:08:35",
-        "source": "github_action",
-        "candidate": "Miftah Dwi Kharunia",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 07:09:06",
         "source": "github_action",
@@ -7854,6 +7847,13 @@
         "timestamp": "2026-04-17 07:58:12",
         "source": "github_action",
         "candidate": "Arvian Messianik",
+        "position": "Sustainability Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 07:58:46",
+        "source": "github_action",
+        "candidate": "Eri Naufal  Nasrullah",
         "position": "Sustainability Officer KG Media",
         "success": true
       }
