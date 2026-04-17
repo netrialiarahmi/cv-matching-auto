@@ -7143,25 +7143,18 @@
     ]
   },
   "2026-04-17": {
-    "total": 324,
+    "total": 325,
     "streamlit": 0,
-    "github_action": 324,
-    "successful": 324,
+    "github_action": 325,
+    "successful": 325,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
-      "Sustainability Officer KG Media": 93
+      "Sustainability Officer KG Media": 94
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 02:26:33",
-        "source": "github_action",
-        "candidate": "Suharno Suharno",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 02:26:35",
         "source": "github_action",
@@ -7852,6 +7845,13 @@
         "timestamp": "2026-04-17 03:12:58",
         "source": "github_action",
         "candidate": "Yulaichah .",
+        "position": "Sustainability Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 03:13:24",
+        "source": "github_action",
+        "candidate": "Muhammad Rafi Wicaksono",
         "position": "Sustainability Officer KG Media",
         "success": true
       }
