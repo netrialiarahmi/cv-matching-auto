@@ -7143,23 +7143,16 @@
     ]
   },
   "2026-04-17": {
-    "total": 125,
+    "total": 126,
     "streamlit": 0,
-    "github_action": 125,
-    "successful": 125,
+    "github_action": 126,
+    "successful": 126,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
-      "Marketing Communication Officer KG Media": 94
+      "Marketing Communication Officer KG Media": 95
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 00:48:54",
-        "source": "github_action",
-        "candidate": "Yogi Pradana",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 00:49:25",
         "source": "github_action",
@@ -7850,6 +7843,13 @@
         "timestamp": "2026-04-17 01:38:51",
         "source": "github_action",
         "candidate": "Dhimas risang sri  arya naratama",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 01:39:22",
+        "source": "github_action",
+        "candidate": "brian adityatama",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
