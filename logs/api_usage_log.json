@@ -7143,24 +7143,17 @@
     ]
   },
   "2026-04-17": {
-    "total": 159,
+    "total": 160,
     "streamlit": 0,
-    "github_action": 159,
-    "successful": 159,
+    "github_action": 160,
+    "successful": 160,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Megapolitan": 28
+      "Reporter Megapolitan": 29
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 01:06:11",
-        "source": "github_action",
-        "candidate": "Lutfya Buatika Inka",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 01:06:41",
         "source": "github_action",
@@ -7851,6 +7844,13 @@
         "timestamp": "2026-04-17 01:55:34",
         "source": "github_action",
         "candidate": "Rizqy Putra",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 01:56:02",
+        "source": "github_action",
+        "candidate": "Mizar Safari Maasily",
         "position": "Reporter Megapolitan",
         "success": true
       }
