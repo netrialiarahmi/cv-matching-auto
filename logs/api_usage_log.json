@@ -7143,26 +7143,19 @@
     ]
   },
   "2026-04-17": {
-    "total": 339,
+    "total": 340,
     "streamlit": 0,
-    "github_action": 339,
-    "successful": 339,
+    "github_action": 340,
+    "successful": 340,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
       "Sustainability Officer KG Media": 100,
-      "Strategic Planner KG Media": 8
+      "Strategic Planner KG Media": 9
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 02:33:37",
-        "source": "github_action",
-        "candidate": "Fazdillah Reza Kaspuri",
-        "position": "Sustainability Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 02:34:10",
         "source": "github_action",
@@ -7853,6 +7846,13 @@
         "timestamp": "2026-04-17 03:19:41",
         "source": "github_action",
         "candidate": "Wildan Alghofari",
+        "position": "Strategic Planner KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 03:20:09",
+        "source": "github_action",
+        "candidate": "Dicky Aditya Wijaya",
         "position": "Strategic Planner KG Media",
         "success": true
       }
