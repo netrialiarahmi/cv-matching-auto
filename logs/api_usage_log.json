@@ -7143,14 +7143,14 @@
     ]
   },
   "2026-04-17": {
-    "total": 76,
+    "total": 77,
     "streamlit": 0,
-    "github_action": 76,
-    "successful": 76,
+    "github_action": 77,
+    "successful": 77,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
-      "Marketing Communication Officer KG Media": 45
+      "Marketing Communication Officer KG Media": 46
     },
     "entries": [
       {
@@ -7682,6 +7682,13 @@
         "timestamp": "2026-04-17 01:14:22",
         "source": "github_action",
         "candidate": "gaby gabrielle",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 01:14:53",
+        "source": "github_action",
+        "candidate": "Andhika Putri",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
