@@ -7143,26 +7143,19 @@
     ]
   },
   "2026-04-17": {
-    "total": 342,
+    "total": 343,
     "streamlit": 0,
-    "github_action": 342,
-    "successful": 342,
+    "github_action": 343,
+    "successful": 343,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
       "Sustainability Officer KG Media": 100,
-      "Strategic Planner KG Media": 11
+      "Strategic Planner KG Media": 12
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 02:35:13",
-        "source": "github_action",
-        "candidate": "Maureen Weismann",
-        "position": "Sustainability Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 02:35:45",
         "source": "github_action",
@@ -7853,6 +7846,13 @@
         "timestamp": "2026-04-17 03:21:05",
         "source": "github_action",
         "candidate": "Akbar Adzani",
+        "position": "Strategic Planner KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 03:21:34",
+        "source": "github_action",
+        "candidate": "Angeline Nanda Kusumah",
         "position": "Strategic Planner KG Media",
         "success": true
       }
