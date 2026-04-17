@@ -7143,27 +7143,20 @@
     ]
   },
   "2026-04-17": {
-    "total": 587,
+    "total": 588,
     "streamlit": 0,
-    "github_action": 587,
-    "successful": 587,
+    "github_action": 588,
+    "successful": 588,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 200,
-      "Reporter Megapolitan": 156,
+      "Reporter Megapolitan": 157,
       "Sustainability Officer KG Media": 100,
       "Strategic Planner KG Media": 88,
       "Reporter Nasional": 12
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 04:32:11",
-        "source": "github_action",
-        "candidate": "Naufal Ryanda Putra",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 04:32:40",
         "source": "github_action",
@@ -7854,6 +7847,13 @@
         "timestamp": "2026-04-17 07:13:41",
         "source": "github_action",
         "candidate": "Hafidah Esa Anggraini",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 07:14:10",
+        "source": "github_action",
+        "candidate": "Dhea Najla Rifdah Zen",
         "position": "Reporter Megapolitan",
         "success": true
       }
