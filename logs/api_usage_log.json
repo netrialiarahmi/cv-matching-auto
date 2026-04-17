@@ -7143,27 +7143,20 @@
     ]
   },
   "2026-04-17": {
-    "total": 653,
+    "total": 654,
     "streamlit": 0,
-    "github_action": 653,
-    "successful": 653,
+    "github_action": 654,
+    "successful": 654,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 200,
       "Reporter Megapolitan": 200,
-      "Sustainability Officer KG Media": 122,
+      "Sustainability Officer KG Media": 123,
       "Strategic Planner KG Media": 88,
       "Reporter Nasional": 12
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 06:48:25",
-        "source": "github_action",
-        "candidate": "Andi Novriansyah Saputra",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 06:50:42",
         "source": "github_action",
@@ -7854,6 +7847,13 @@
         "timestamp": "2026-04-17 07:46:35",
         "source": "github_action",
         "candidate": "Nur Angga Saputro",
+        "position": "Sustainability Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 07:47:03",
+        "source": "github_action",
+        "candidate": "Binta Zulfia",
         "position": "Sustainability Officer KG Media",
         "success": true
       }
