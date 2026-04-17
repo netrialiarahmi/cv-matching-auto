@@ -7143,24 +7143,17 @@
     ]
   },
   "2026-04-17": {
-    "total": 206,
+    "total": 207,
     "streamlit": 0,
-    "github_action": 206,
-    "successful": 206,
+    "github_action": 207,
+    "successful": 207,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Megapolitan": 75
+      "Reporter Megapolitan": 76
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 01:30:00",
-        "source": "github_action",
-        "candidate": "Caesarea Rachman",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 01:30:31",
         "source": "github_action",
@@ -7851,6 +7844,13 @@
         "timestamp": "2026-04-17 02:16:59",
         "source": "github_action",
         "candidate": "azka nurzaman",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 02:17:32",
+        "source": "github_action",
+        "candidate": "Anggara Purissta Putra",
         "position": "Reporter Megapolitan",
         "success": true
       }
