@@ -7143,25 +7143,18 @@
     ]
   },
   "2026-04-17": {
-    "total": 269,
+    "total": 270,
     "streamlit": 0,
-    "github_action": 269,
-    "successful": 269,
+    "github_action": 270,
+    "successful": 270,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
-      "Sustainability Officer KG Media": 38
+      "Sustainability Officer KG Media": 39
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 01:59:54",
-        "source": "github_action",
-        "candidate": "Wildan Alghofari",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 02:00:27",
         "source": "github_action",
@@ -7852,6 +7845,13 @@
         "timestamp": "2026-04-17 02:47:18",
         "source": "github_action",
         "candidate": "Raymundus Hamis",
+        "position": "Sustainability Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 02:47:46",
+        "source": "github_action",
+        "candidate": "Sasra adilla",
         "position": "Sustainability Officer KG Media",
         "success": true
       }
