@@ -7143,24 +7143,17 @@
     ]
   },
   "2026-04-17": {
-    "total": 144,
+    "total": 145,
     "streamlit": 0,
-    "github_action": 144,
-    "successful": 144,
+    "github_action": 145,
+    "successful": 145,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Megapolitan": 13
+      "Reporter Megapolitan": 14
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 00:58:25",
-        "source": "github_action",
-        "candidate": "Fahdina Ghina Aliya",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 00:58:57",
         "source": "github_action",
@@ -7851,6 +7844,13 @@
         "timestamp": "2026-04-17 01:48:25",
         "source": "github_action",
         "candidate": "Sarah Wulandari",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 01:48:53",
+        "source": "github_action",
+        "candidate": "Kurnia Permata",
         "position": "Reporter Megapolitan",
         "success": true
       }
