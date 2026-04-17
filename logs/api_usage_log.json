@@ -7143,10 +7143,10 @@
     ]
   },
   "2026-04-17": {
-    "total": 821,
+    "total": 822,
     "streamlit": 0,
-    "github_action": 821,
-    "successful": 821,
+    "github_action": 822,
+    "successful": 822,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
@@ -7154,16 +7154,9 @@
       "Reporter Megapolitan": 200,
       "Sustainability Officer KG Media": 200,
       "Strategic Planner KG Media": 90,
-      "Reporter Nasional": 100
+      "Reporter Nasional": 101
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 08:21:15",
-        "source": "github_action",
-        "candidate": "Sarah Ilham",
-        "position": "Sustainability Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 08:21:44",
         "source": "github_action",
@@ -7854,6 +7847,13 @@
         "timestamp": "2026-04-17 09:10:07",
         "source": "github_action",
         "candidate": "RIANDITA AMALIA",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 09:10:11",
+        "source": "github_action",
+        "candidate": "Asprila_maharani Maharani",
         "position": "Reporter Nasional",
         "success": true
       }
