@@ -7143,10 +7143,10 @@
     ]
   },
   "2026-04-17": {
-    "total": 854,
+    "total": 855,
     "streamlit": 0,
-    "github_action": 854,
-    "successful": 854,
+    "github_action": 855,
+    "successful": 855,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
@@ -7155,16 +7155,9 @@
       "Sustainability Officer KG Media": 200,
       "Strategic Planner KG Media": 90,
       "Reporter Nasional": 112,
-      "Content Writer Homey": 21
+      "Content Writer Homey": 22
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 08:37:49",
-        "source": "github_action",
-        "candidate": "Lutfan Faizi",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 08:38:20",
         "source": "github_action",
@@ -7855,6 +7848,13 @@
         "timestamp": "2026-04-17 09:26:18",
         "source": "github_action",
         "candidate": "neysa  amalia",
+        "position": "Content Writer Homey",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 09:26:50",
+        "source": "github_action",
+        "candidate": "Muhammad Rizqan Alfarisi",
         "position": "Content Writer Homey",
         "success": true
       }
