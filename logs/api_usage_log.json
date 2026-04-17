@@ -7143,25 +7143,18 @@
     ]
   },
   "2026-04-17": {
-    "total": 292,
+    "total": 293,
     "streamlit": 0,
-    "github_action": 292,
-    "successful": 292,
+    "github_action": 293,
+    "successful": 293,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
-      "Sustainability Officer KG Media": 61
+      "Sustainability Officer KG Media": 62
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 02:11:35",
-        "source": "github_action",
-        "candidate": "Muhammad Alfani Alfi",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 02:12:03",
         "source": "github_action",
@@ -7852,6 +7845,13 @@
         "timestamp": "2026-04-17 02:57:31",
         "source": "github_action",
         "candidate": "Andini Sekar Pramesthi",
+        "position": "Sustainability Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 02:58:04",
+        "source": "github_action",
+        "candidate": "Yesa Diansari Amalia Magdalena",
         "position": "Sustainability Officer KG Media",
         "success": true
       }
