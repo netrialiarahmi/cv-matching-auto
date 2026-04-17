@@ -7143,25 +7143,18 @@
     ]
   },
   "2026-04-17": {
-    "total": 326,
+    "total": 327,
     "streamlit": 0,
-    "github_action": 326,
-    "successful": 326,
+    "github_action": 327,
+    "successful": 327,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
-      "Sustainability Officer KG Media": 95
+      "Sustainability Officer KG Media": 96
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 02:27:05",
-        "source": "github_action",
-        "candidate": "Dian Saputra",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 02:27:35",
         "source": "github_action",
@@ -7852,6 +7845,13 @@
         "timestamp": "2026-04-17 03:13:51",
         "source": "github_action",
         "candidate": "Amos Christian Simanjuntak",
+        "position": "Sustainability Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 03:13:53",
+        "source": "github_action",
+        "candidate": "Restu Margirizki",
         "position": "Sustainability Officer KG Media",
         "success": true
       }
