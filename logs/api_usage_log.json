@@ -7143,26 +7143,19 @@
     ]
   },
   "2026-04-17": {
-    "total": 347,
+    "total": 348,
     "streamlit": 0,
-    "github_action": 347,
-    "successful": 347,
+    "github_action": 348,
+    "successful": 348,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
       "Sustainability Officer KG Media": 100,
-      "Strategic Planner KG Media": 16
+      "Strategic Planner KG Media": 17
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 02:37:25",
-        "source": "github_action",
-        "candidate": "Ajeng Pramesthi Rinjani",
-        "position": "Sustainability Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 02:37:54",
         "source": "github_action",
@@ -7853,6 +7846,13 @@
         "timestamp": "2026-04-17 03:23:27",
         "source": "github_action",
         "candidate": "Priska Ezrahayu",
+        "position": "Strategic Planner KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 03:23:54",
+        "source": "github_action",
+        "candidate": "Putri Salsabila Eryadi",
         "position": "Strategic Planner KG Media",
         "success": true
       }
