@@ -7143,24 +7143,17 @@
     ]
   },
   "2026-04-17": {
-    "total": 175,
+    "total": 176,
     "streamlit": 0,
-    "github_action": 175,
-    "successful": 175,
+    "github_action": 176,
+    "successful": 176,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Megapolitan": 44
+      "Reporter Megapolitan": 45
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 01:14:22",
-        "source": "github_action",
-        "candidate": "gaby gabrielle",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 01:14:53",
         "source": "github_action",
@@ -7851,6 +7844,13 @@
         "timestamp": "2026-04-17 02:02:31",
         "source": "github_action",
         "candidate": "Muhammad Refi Sandi",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 02:02:50",
+        "source": "github_action",
+        "candidate": "Harits Arrazie",
         "position": "Reporter Megapolitan",
         "success": true
       }
