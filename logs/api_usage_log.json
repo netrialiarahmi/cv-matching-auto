@@ -7143,26 +7143,20 @@
     ]
   },
   "2026-04-17": {
-    "total": 419,
+    "total": 420,
     "streamlit": 0,
-    "github_action": 419,
-    "successful": 419,
+    "github_action": 420,
+    "successful": 420,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
       "Sustainability Officer KG Media": 100,
-      "Strategic Planner KG Media": 88
+      "Strategic Planner KG Media": 88,
+      "Reporter Nasional": 1
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 03:10:54",
-        "source": "github_action",
-        "candidate": "Meli Mariana Sitinjak",
-        "position": "Sustainability Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 03:11:24",
         "source": "github_action",
@@ -7854,6 +7848,13 @@
         "source": "github_action",
         "candidate": "Michael Guntur Panca Danuriko",
         "position": "Strategic Planner KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 03:58:48",
+        "source": "github_action",
+        "candidate": "Ihsan Wafi",
+        "position": "Reporter Nasional",
         "success": true
       }
     ]
