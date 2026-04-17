@@ -7143,24 +7143,17 @@
     ]
   },
   "2026-04-17": {
-    "total": 193,
+    "total": 194,
     "streamlit": 0,
-    "github_action": 193,
-    "successful": 193,
+    "github_action": 194,
+    "successful": 194,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Megapolitan": 62
+      "Reporter Megapolitan": 63
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 01:23:36",
-        "source": "github_action",
-        "candidate": "Mutiara Risdiyafani",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 01:24:07",
         "source": "github_action",
@@ -7851,6 +7844,13 @@
         "timestamp": "2026-04-17 02:11:35",
         "source": "github_action",
         "candidate": "Muhammad Alfani Alfi",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 02:12:03",
+        "source": "github_action",
+        "candidate": "DINA SETYA RAHAYU",
         "position": "Reporter Megapolitan",
         "success": true
       }
