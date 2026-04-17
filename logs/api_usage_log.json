@@ -7143,10 +7143,10 @@
     ]
   },
   "2026-04-17": {
-    "total": 838,
+    "total": 839,
     "streamlit": 0,
-    "github_action": 838,
-    "successful": 838,
+    "github_action": 839,
+    "successful": 839,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
@@ -7155,16 +7155,9 @@
       "Sustainability Officer KG Media": 200,
       "Strategic Planner KG Media": 90,
       "Reporter Nasional": 112,
-      "Content Writer Homey": 5
+      "Content Writer Homey": 6
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 08:29:39",
-        "source": "github_action",
-        "candidate": "Salsabila Jasmine Prasetya  Oemardi",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 08:30:08",
         "source": "github_action",
@@ -7855,6 +7848,13 @@
         "timestamp": "2026-04-17 09:18:45",
         "source": "github_action",
         "candidate": "Alfiyanti Alimia",
+        "position": "Content Writer Homey",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 09:19:14",
+        "source": "github_action",
+        "candidate": "Selli Nisrina",
         "position": "Content Writer Homey",
         "success": true
       }
