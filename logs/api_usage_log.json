@@ -7143,27 +7143,20 @@
     ]
   },
   "2026-04-17": {
-    "total": 731,
+    "total": 732,
     "streamlit": 0,
-    "github_action": 731,
-    "successful": 731,
+    "github_action": 732,
+    "successful": 732,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 200,
       "Reporter Megapolitan": 200,
       "Sustainability Officer KG Media": 200,
-      "Strategic Planner KG Media": 88,
+      "Strategic Planner KG Media": 89,
       "Reporter Nasional": 12
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 07:36:00",
-        "source": "github_action",
-        "candidate": "Muhammad Ardhanie Amrullah",
-        "position": "Sustainability Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 07:36:31",
         "source": "github_action",
@@ -7855,6 +7848,13 @@
         "source": "github_action",
         "candidate": "Ricky Iman Ma'rufi",
         "position": "Sustainability Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 08:26:05",
+        "source": "github_action",
+        "candidate": "Mohammad Farhan Saputra",
+        "position": "Strategic Planner KG Media",
         "success": true
       }
     ]
