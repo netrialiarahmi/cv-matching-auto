@@ -7143,10 +7143,10 @@
     ]
   },
   "2026-04-17": {
-    "total": 805,
+    "total": 806,
     "streamlit": 0,
-    "github_action": 805,
-    "successful": 805,
+    "github_action": 806,
+    "successful": 806,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
@@ -7154,16 +7154,9 @@
       "Reporter Megapolitan": 200,
       "Sustainability Officer KG Media": 200,
       "Strategic Planner KG Media": 90,
-      "Reporter Nasional": 84
+      "Reporter Nasional": 85
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 08:13:03",
-        "source": "github_action",
-        "candidate": "Gusti Izza",
-        "position": "Sustainability Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 08:13:31",
         "source": "github_action",
@@ -7854,6 +7847,13 @@
         "timestamp": "2026-04-17 09:02:06",
         "source": "github_action",
         "candidate": "Nur Aini Rasyid",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 09:02:41",
+        "source": "github_action",
+        "candidate": "Diva Mawarni Permana",
         "position": "Reporter Nasional",
         "success": true
       }
