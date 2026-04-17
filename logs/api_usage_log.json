@@ -7143,27 +7143,20 @@
     ]
   },
   "2026-04-17": {
-    "total": 566,
+    "total": 567,
     "streamlit": 0,
-    "github_action": 566,
-    "successful": 566,
+    "github_action": 567,
+    "successful": 567,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 200,
-      "Reporter Megapolitan": 135,
+      "Reporter Megapolitan": 136,
       "Sustainability Officer KG Media": 100,
       "Strategic Planner KG Media": 88,
       "Reporter Nasional": 12
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 04:21:40",
-        "source": "github_action",
-        "candidate": "Muhammad Rayana Zakariyya",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 04:22:12",
         "source": "github_action",
@@ -7854,6 +7847,13 @@
         "timestamp": "2026-04-17 07:03:00",
         "source": "github_action",
         "candidate": "Diva Mawarni Permana",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 07:03:28",
+        "source": "github_action",
+        "candidate": "Tsabita Sirly Kamaliya",
         "position": "Reporter Megapolitan",
         "success": true
       }
