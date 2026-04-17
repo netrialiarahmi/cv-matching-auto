@@ -7143,13 +7143,13 @@
     ]
   },
   "2026-04-17": {
-    "total": 28,
+    "total": 29,
     "streamlit": 0,
-    "github_action": 28,
-    "successful": 28,
+    "github_action": 29,
+    "successful": 29,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 28
+      "Account Executive VCBL": 29
     },
     "entries": [
       {
@@ -7345,6 +7345,13 @@
         "timestamp": "2026-04-17 00:49:27",
         "source": "github_action",
         "candidate": "Sidiq Yogha Nariza",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 00:49:56",
+        "source": "github_action",
+        "candidate": "Hasna Muti Andini",
         "position": "Account Executive VCBL",
         "success": true
       }
