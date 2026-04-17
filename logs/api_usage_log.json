@@ -7143,25 +7143,18 @@
     ]
   },
   "2026-04-17": {
-    "total": 232,
+    "total": 233,
     "streamlit": 0,
-    "github_action": 232,
-    "successful": 232,
+    "github_action": 233,
+    "successful": 233,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
-      "Sustainability Officer KG Media": 1
+      "Sustainability Officer KG Media": 2
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 01:43:02",
-        "source": "github_action",
-        "candidate": "Farie judhistira",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 01:43:31",
         "source": "github_action",
@@ -7852,6 +7845,13 @@
         "timestamp": "2026-04-17 02:29:31",
         "source": "github_action",
         "candidate": "Muhammad Ardhanie Amrullah",
+        "position": "Sustainability Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 02:30:00",
+        "source": "github_action",
+        "candidate": "Yoga Fauzan Renardi",
         "position": "Sustainability Officer KG Media",
         "success": true
       }
