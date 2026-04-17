@@ -7143,27 +7143,20 @@
     ]
   },
   "2026-04-17": {
-    "total": 629,
+    "total": 630,
     "streamlit": 0,
-    "github_action": 629,
-    "successful": 629,
+    "github_action": 630,
+    "successful": 630,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 200,
-      "Reporter Megapolitan": 198,
+      "Reporter Megapolitan": 199,
       "Sustainability Officer KG Media": 100,
       "Strategic Planner KG Media": 88,
       "Reporter Nasional": 12
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 05:55:29",
-        "source": "github_action",
-        "candidate": "Siva  Aripin",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 05:57:44",
         "source": "github_action",
@@ -7854,6 +7847,13 @@
         "timestamp": "2026-04-17 07:34:36",
         "source": "github_action",
         "candidate": "Qonitah Khairunnisa",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 07:35:04",
+        "source": "github_action",
+        "candidate": "Ikhbal Rizki",
         "position": "Reporter Megapolitan",
         "success": true
       }
