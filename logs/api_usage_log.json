@@ -7143,26 +7143,19 @@
     ]
   },
   "2026-04-17": {
-    "total": 378,
+    "total": 379,
     "streamlit": 0,
-    "github_action": 378,
-    "successful": 378,
+    "github_action": 379,
+    "successful": 379,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
       "Sustainability Officer KG Media": 100,
-      "Strategic Planner KG Media": 47
+      "Strategic Planner KG Media": 48
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 02:51:54",
-        "source": "github_action",
-        "candidate": "Rizky Fuji Munfariz",
-        "position": "Sustainability Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 02:52:28",
         "source": "github_action",
@@ -7853,6 +7846,13 @@
         "timestamp": "2026-04-17 03:39:09",
         "source": "github_action",
         "candidate": "Alidha Nurhalima",
+        "position": "Strategic Planner KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 03:39:41",
+        "source": "github_action",
+        "candidate": "Eric Giovanni Thenu",
         "position": "Strategic Planner KG Media",
         "success": true
       }
