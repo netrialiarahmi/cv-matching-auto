@@ -7143,25 +7143,18 @@
     ]
   },
   "2026-04-17": {
-    "total": 273,
+    "total": 274,
     "streamlit": 0,
-    "github_action": 273,
-    "successful": 273,
+    "github_action": 274,
+    "successful": 274,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
-      "Sustainability Officer KG Media": 42
+      "Sustainability Officer KG Media": 43
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 02:02:00",
-        "source": "github_action",
-        "candidate": "Woro Rn",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 02:02:31",
         "source": "github_action",
@@ -7852,6 +7845,13 @@
         "timestamp": "2026-04-17 02:49:15",
         "source": "github_action",
         "candidate": "Rahmadhani Aulia",
+        "position": "Sustainability Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 02:49:45",
+        "source": "github_action",
+        "candidate": "Uswatun Hasanah",
         "position": "Sustainability Officer KG Media",
         "success": true
       }
