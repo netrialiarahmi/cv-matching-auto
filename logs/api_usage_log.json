@@ -7143,26 +7143,19 @@
     ]
   },
   "2026-04-17": {
-    "total": 397,
+    "total": 398,
     "streamlit": 0,
-    "github_action": 397,
-    "successful": 397,
+    "github_action": 398,
+    "successful": 398,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
       "Sustainability Officer KG Media": 100,
-      "Strategic Planner KG Media": 66
+      "Strategic Planner KG Media": 67
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 03:00:29",
-        "source": "github_action",
-        "candidate": "Ardhana Evano Dhiyaul Haq",
-        "position": "Sustainability Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 03:01:02",
         "source": "github_action",
@@ -7853,6 +7846,13 @@
         "timestamp": "2026-04-17 03:48:59",
         "source": "github_action",
         "candidate": "Alyaa Hasna Syifa",
+        "position": "Strategic Planner KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 03:49:24",
+        "source": "github_action",
+        "candidate": "Belva Ananda Shara",
         "position": "Strategic Planner KG Media",
         "success": true
       }
