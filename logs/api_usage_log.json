@@ -7143,10 +7143,10 @@
     ]
   },
   "2026-04-17": {
-    "total": 737,
+    "total": 738,
     "streamlit": 0,
-    "github_action": 737,
-    "successful": 737,
+    "github_action": 738,
+    "successful": 738,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
@@ -7154,16 +7154,9 @@
       "Reporter Megapolitan": 200,
       "Sustainability Officer KG Media": 200,
       "Strategic Planner KG Media": 90,
-      "Reporter Nasional": 16
+      "Reporter Nasional": 17
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 07:39:05",
-        "source": "github_action",
-        "candidate": "Lewina Blesmira Saragi",
-        "position": "Sustainability Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 07:39:33",
         "source": "github_action",
@@ -7854,6 +7847,13 @@
         "timestamp": "2026-04-17 08:28:33",
         "source": "github_action",
         "candidate": "Asma Ningrum",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 08:29:08",
+        "source": "github_action",
+        "candidate": "Dedes Baehaki Ramdhany",
         "position": "Reporter Nasional",
         "success": true
       }
