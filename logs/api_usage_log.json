@@ -7143,25 +7143,18 @@
     ]
   },
   "2026-04-17": {
-    "total": 252,
+    "total": 253,
     "streamlit": 0,
-    "github_action": 252,
-    "successful": 252,
+    "github_action": 253,
+    "successful": 253,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
-      "Sustainability Officer KG Media": 21
+      "Sustainability Officer KG Media": 22
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 01:52:40",
-        "source": "github_action",
-        "candidate": "Audya Febryannanda Putri",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 01:53:09",
         "source": "github_action",
@@ -7852,6 +7845,13 @@
         "timestamp": "2026-04-17 02:39:28",
         "source": "github_action",
         "candidate": "Rasianna  Agustina Agnes Br Sinaga Mandalahi",
+        "position": "Sustainability Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 02:39:54",
+        "source": "github_action",
+        "candidate": "Nur Angga Saputro",
         "position": "Sustainability Officer KG Media",
         "success": true
       }
