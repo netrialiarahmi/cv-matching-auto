@@ -7143,10 +7143,10 @@
     ]
   },
   "2026-04-17": {
-    "total": 428,
+    "total": 429,
     "streamlit": 0,
-    "github_action": 428,
-    "successful": 428,
+    "github_action": 429,
+    "successful": 429,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
@@ -7154,16 +7154,9 @@
       "Reporter Megapolitan": 100,
       "Sustainability Officer KG Media": 100,
       "Strategic Planner KG Media": 88,
-      "Reporter Nasional": 9
+      "Reporter Nasional": 10
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 03:14:53",
-        "source": "github_action",
-        "candidate": "Aurellia Putri",
-        "position": "Sustainability Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 03:15:18",
         "source": "github_action",
@@ -7854,6 +7847,13 @@
         "timestamp": "2026-04-17 04:02:50",
         "source": "github_action",
         "candidate": "Mizar Safari Maasily",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 04:03:19",
+        "source": "github_action",
+        "candidate": "Priscilla Waworuntu Pangakuang",
         "position": "Reporter Nasional",
         "success": true
       }
