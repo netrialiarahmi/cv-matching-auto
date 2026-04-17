@@ -7143,14 +7143,14 @@
     ]
   },
   "2026-04-17": {
-    "total": 73,
+    "total": 74,
     "streamlit": 0,
-    "github_action": 73,
-    "successful": 73,
+    "github_action": 74,
+    "successful": 74,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
-      "Marketing Communication Officer KG Media": 42
+      "Marketing Communication Officer KG Media": 43
     },
     "entries": [
       {
@@ -7661,6 +7661,13 @@
         "timestamp": "2026-04-17 01:12:47",
         "source": "github_action",
         "candidate": "Muhammad Feyzel Khalfani Putra Ardanesworo",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 01:13:23",
+        "source": "github_action",
+        "candidate": "Aditya Dwi Prasetyo",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
