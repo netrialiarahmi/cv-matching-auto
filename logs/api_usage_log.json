@@ -7143,26 +7143,19 @@
     ]
   },
   "2026-04-17": {
-    "total": 371,
+    "total": 372,
     "streamlit": 0,
-    "github_action": 371,
-    "successful": 371,
+    "github_action": 372,
+    "successful": 372,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
       "Sustainability Officer KG Media": 100,
-      "Strategic Planner KG Media": 40
+      "Strategic Planner KG Media": 41
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 02:48:49",
-        "source": "github_action",
-        "candidate": "Muhammad Rasya Hadziq",
-        "position": "Sustainability Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 02:49:15",
         "source": "github_action",
@@ -7853,6 +7846,13 @@
         "timestamp": "2026-04-17 03:35:27",
         "source": "github_action",
         "candidate": "Adithya Satya",
+        "position": "Strategic Planner KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 03:35:54",
+        "source": "github_action",
+        "candidate": "Mira  Andiani",
         "position": "Strategic Planner KG Media",
         "success": true
       }
