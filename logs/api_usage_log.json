@@ -7143,23 +7143,16 @@
     ]
   },
   "2026-04-17": {
-    "total": 100,
+    "total": 101,
     "streamlit": 0,
-    "github_action": 100,
-    "successful": 100,
+    "github_action": 101,
+    "successful": 101,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
-      "Marketing Communication Officer KG Media": 69
+      "Marketing Communication Officer KG Media": 70
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 00:38:11",
-        "source": "github_action",
-        "candidate": "Aqila Amalia",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 00:38:42",
         "source": "github_action",
@@ -7850,6 +7843,13 @@
         "timestamp": "2026-04-17 01:26:39",
         "source": "github_action",
         "candidate": "Muhammad Bozyar Zulkarnain",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 01:27:08",
+        "source": "github_action",
+        "candidate": "MICHELLE PAPILAYA",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
