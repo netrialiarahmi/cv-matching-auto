@@ -7143,26 +7143,19 @@
     ]
   },
   "2026-04-17": {
-    "total": 370,
+    "total": 371,
     "streamlit": 0,
-    "github_action": 370,
-    "successful": 370,
+    "github_action": 371,
+    "successful": 371,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
       "Sustainability Officer KG Media": 100,
-      "Strategic Planner KG Media": 39
+      "Strategic Planner KG Media": 40
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 02:48:17",
-        "source": "github_action",
-        "candidate": "Febryanto Yudha Wijaya",
-        "position": "Sustainability Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 02:48:49",
         "source": "github_action",
@@ -7853,6 +7846,13 @@
         "timestamp": "2026-04-17 03:34:55",
         "source": "github_action",
         "candidate": "Brian Firnandi Supriyatmono",
+        "position": "Strategic Planner KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 03:35:27",
+        "source": "github_action",
+        "candidate": "Adithya Satya",
         "position": "Strategic Planner KG Media",
         "success": true
       }
