@@ -7143,10 +7143,10 @@
     ]
   },
   "2026-04-17": {
-    "total": 792,
+    "total": 793,
     "streamlit": 0,
-    "github_action": 792,
-    "successful": 792,
+    "github_action": 793,
+    "successful": 793,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
@@ -7154,16 +7154,9 @@
       "Reporter Megapolitan": 200,
       "Sustainability Officer KG Media": 200,
       "Strategic Planner KG Media": 90,
-      "Reporter Nasional": 71
+      "Reporter Nasional": 72
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 08:05:55",
-        "source": "github_action",
-        "candidate": "Andini Sekar Pramesthi",
-        "position": "Sustainability Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 08:06:33",
         "source": "github_action",
@@ -7854,6 +7847,13 @@
         "timestamp": "2026-04-17 08:55:28",
         "source": "github_action",
         "candidate": "Adira Putri Aliffa",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 08:55:57",
+        "source": "github_action",
+        "candidate": "Nadya Vitri",
         "position": "Reporter Nasional",
         "success": true
       }
