@@ -7143,10 +7143,10 @@
     ]
   },
   "2026-04-17": {
-    "total": 848,
+    "total": 849,
     "streamlit": 0,
-    "github_action": 848,
-    "successful": 848,
+    "github_action": 849,
+    "successful": 849,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
@@ -7155,16 +7155,9 @@
       "Sustainability Officer KG Media": 200,
       "Strategic Planner KG Media": 90,
       "Reporter Nasional": 112,
-      "Content Writer Homey": 15
+      "Content Writer Homey": 16
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 08:34:33",
-        "source": "github_action",
-        "candidate": "Muchammad Achmad Afifuddin",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 08:35:07",
         "source": "github_action",
@@ -7855,6 +7848,13 @@
         "timestamp": "2026-04-17 09:23:31",
         "source": "github_action",
         "candidate": "Ahmad Diponegoro",
+        "position": "Content Writer Homey",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 09:24:00",
+        "source": "github_action",
+        "candidate": "Noviana  Firdausi",
         "position": "Content Writer Homey",
         "success": true
       }
