@@ -7143,10 +7143,10 @@
     ]
   },
   "2026-04-17": {
-    "total": 424,
+    "total": 425,
     "streamlit": 0,
-    "github_action": 424,
-    "successful": 424,
+    "github_action": 425,
+    "successful": 425,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
@@ -7154,16 +7154,9 @@
       "Reporter Megapolitan": 100,
       "Sustainability Officer KG Media": 100,
       "Strategic Planner KG Media": 88,
-      "Reporter Nasional": 5
+      "Reporter Nasional": 6
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 03:13:24",
-        "source": "github_action",
-        "candidate": "Muhammad Rafi Wicaksono",
-        "position": "Sustainability Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 03:13:51",
         "source": "github_action",
@@ -7854,6 +7847,13 @@
         "timestamp": "2026-04-17 04:00:45",
         "source": "github_action",
         "candidate": "Ervira Octaviola Kurniawan",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 04:01:16",
+        "source": "github_action",
+        "candidate": "Cindy Rebecca Christine",
         "position": "Reporter Nasional",
         "success": true
       }
