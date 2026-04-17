@@ -7143,26 +7143,19 @@
     ]
   },
   "2026-04-17": {
-    "total": 406,
+    "total": 407,
     "streamlit": 0,
-    "github_action": 406,
-    "successful": 406,
+    "github_action": 407,
+    "successful": 407,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
       "Sustainability Officer KG Media": 100,
-      "Strategic Planner KG Media": 75
+      "Strategic Planner KG Media": 76
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 03:05:07",
-        "source": "github_action",
-        "candidate": "Aryo Wicaksono",
-        "position": "Sustainability Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 03:05:38",
         "source": "github_action",
@@ -7853,6 +7846,13 @@
         "timestamp": "2026-04-17 03:53:37",
         "source": "github_action",
         "candidate": "Latifah Sayyidah",
+        "position": "Strategic Planner KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 03:54:04",
+        "source": "github_action",
+        "candidate": "Devin Ananda Dwiardi Saputra",
         "position": "Strategic Planner KG Media",
         "success": true
       }
