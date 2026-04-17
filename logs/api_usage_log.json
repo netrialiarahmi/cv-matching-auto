@@ -7143,10 +7143,10 @@
     ]
   },
   "2026-04-17": {
-    "total": 931,
+    "total": 932,
     "streamlit": 0,
-    "github_action": 931,
-    "successful": 931,
+    "github_action": 932,
+    "successful": 932,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
@@ -7155,16 +7155,9 @@
       "Sustainability Officer KG Media": 200,
       "Strategic Planner KG Media": 90,
       "Reporter Nasional": 112,
-      "Content Writer Homey": 98
+      "Content Writer Homey": 99
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 09:15:33",
-        "source": "github_action",
-        "candidate": "Fathan Alamsyah",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 09:16:09",
         "source": "github_action",
@@ -7855,6 +7848,13 @@
         "timestamp": "2026-04-17 10:03:22",
         "source": "github_action",
         "candidate": "Khanisa Azahra",
+        "position": "Content Writer Homey",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 10:03:51",
+        "source": "github_action",
+        "candidate": "Nadia Ayu Larasati",
         "position": "Content Writer Homey",
         "success": true
       }
