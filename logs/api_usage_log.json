@@ -7143,10 +7143,10 @@
     ]
   },
   "2026-04-17": {
-    "total": 822,
+    "total": 823,
     "streamlit": 0,
-    "github_action": 822,
-    "successful": 822,
+    "github_action": 823,
+    "successful": 823,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
@@ -7154,16 +7154,9 @@
       "Reporter Megapolitan": 200,
       "Sustainability Officer KG Media": 200,
       "Strategic Planner KG Media": 90,
-      "Reporter Nasional": 101
+      "Reporter Nasional": 102
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 08:21:44",
-        "source": "github_action",
-        "candidate": "Alvita Zahra",
-        "position": "Sustainability Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 08:22:17",
         "source": "github_action",
@@ -7854,6 +7847,13 @@
         "timestamp": "2026-04-17 09:10:11",
         "source": "github_action",
         "candidate": "Asprila_maharani Maharani",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 09:10:39",
+        "source": "github_action",
+        "candidate": "Iqbal Firman",
         "position": "Reporter Nasional",
         "success": true
       }
