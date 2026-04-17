@@ -7143,26 +7143,19 @@
     ]
   },
   "2026-04-17": {
-    "total": 344,
+    "total": 345,
     "streamlit": 0,
-    "github_action": 344,
-    "successful": 344,
+    "github_action": 345,
+    "successful": 345,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
       "Sustainability Officer KG Media": 100,
-      "Strategic Planner KG Media": 13
+      "Strategic Planner KG Media": 14
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 02:36:15",
-        "source": "github_action",
-        "candidate": "Fauziah Maretha Aulia",
-        "position": "Sustainability Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 02:36:52",
         "source": "github_action",
@@ -7853,6 +7846,13 @@
         "timestamp": "2026-04-17 03:22:02",
         "source": "github_action",
         "candidate": "Alvie Dian Verina",
+        "position": "Strategic Planner KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 03:22:33",
+        "source": "github_action",
+        "candidate": "Lucy Rizky Prasiska",
         "position": "Strategic Planner KG Media",
         "success": true
       }
