@@ -7143,24 +7143,17 @@
     ]
   },
   "2026-04-17": {
-    "total": 185,
+    "total": 186,
     "streamlit": 0,
-    "github_action": 185,
-    "successful": 185,
+    "github_action": 186,
+    "successful": 186,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Megapolitan": 54
+      "Reporter Megapolitan": 55
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 01:19:22",
-        "source": "github_action",
-        "candidate": "Inan tri r",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 01:19:48",
         "source": "github_action",
@@ -7851,6 +7844,13 @@
         "timestamp": "2026-04-17 02:07:35",
         "source": "github_action",
         "candidate": "Miftahula Rizqin",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 02:08:06",
+        "source": "github_action",
+        "candidate": "Kylla Rizkia Rahma Putri",
         "position": "Reporter Megapolitan",
         "success": true
       }
