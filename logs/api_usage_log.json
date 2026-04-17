@@ -7143,27 +7143,20 @@
     ]
   },
   "2026-04-17": {
-    "total": 641,
+    "total": 642,
     "streamlit": 0,
-    "github_action": 641,
-    "successful": 641,
+    "github_action": 642,
+    "successful": 642,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 200,
       "Reporter Megapolitan": 200,
-      "Sustainability Officer KG Media": 110,
+      "Sustainability Officer KG Media": 111,
       "Strategic Planner KG Media": 88,
       "Reporter Nasional": 12
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 06:23:07",
-        "source": "github_action",
-        "candidate": "Muhammad Jihad",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 06:25:25",
         "source": "github_action",
@@ -7854,6 +7847,13 @@
         "timestamp": "2026-04-17 07:40:40",
         "source": "github_action",
         "candidate": "Ghulandito  Wijanarko",
+        "position": "Sustainability Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 07:41:13",
+        "source": "github_action",
+        "candidate": "Siva  Aripin",
         "position": "Sustainability Officer KG Media",
         "success": true
       }
