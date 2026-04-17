@@ -7143,25 +7143,18 @@
     ]
   },
   "2026-04-17": {
-    "total": 288,
+    "total": 289,
     "streamlit": 0,
-    "github_action": 288,
-    "successful": 288,
+    "github_action": 289,
+    "successful": 289,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
-      "Sustainability Officer KG Media": 57
+      "Sustainability Officer KG Media": 58
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 02:09:40",
-        "source": "github_action",
-        "candidate": "Muhammad Rayana Zakariyya",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 02:10:12",
         "source": "github_action",
@@ -7852,6 +7845,13 @@
         "timestamp": "2026-04-17 02:55:30",
         "source": "github_action",
         "candidate": "Rizky Muhammad",
+        "position": "Sustainability Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 02:56:00",
+        "source": "github_action",
+        "candidate": "Tiara Amelia",
         "position": "Sustainability Officer KG Media",
         "success": true
       }
