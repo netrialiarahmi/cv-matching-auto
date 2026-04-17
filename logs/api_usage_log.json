@@ -7143,25 +7143,18 @@
     ]
   },
   "2026-04-17": {
-    "total": 308,
+    "total": 309,
     "streamlit": 0,
-    "github_action": 308,
-    "successful": 308,
+    "github_action": 309,
+    "successful": 309,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
-      "Sustainability Officer KG Media": 77
+      "Sustainability Officer KG Media": 78
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 02:18:25",
-        "source": "github_action",
-        "candidate": "Rina Marlina Marlina",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 02:18:53",
         "source": "github_action",
@@ -7852,6 +7845,13 @@
         "timestamp": "2026-04-17 03:05:38",
         "source": "github_action",
         "candidate": "Qanitah Raniah",
+        "position": "Sustainability Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 03:06:06",
+        "source": "github_action",
+        "candidate": "Dimas Rahmanda",
         "position": "Sustainability Officer KG Media",
         "success": true
       }
