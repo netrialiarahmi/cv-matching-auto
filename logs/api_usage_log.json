@@ -7143,14 +7143,14 @@
     ]
   },
   "2026-04-17": {
-    "total": 86,
+    "total": 87,
     "streamlit": 0,
-    "github_action": 86,
-    "successful": 86,
+    "github_action": 87,
+    "successful": 87,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
-      "Marketing Communication Officer KG Media": 55
+      "Marketing Communication Officer KG Media": 56
     },
     "entries": [
       {
@@ -7752,6 +7752,13 @@
         "timestamp": "2026-04-17 01:19:22",
         "source": "github_action",
         "candidate": "Inan tri r",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 01:19:48",
+        "source": "github_action",
+        "candidate": "Abrian Rizki Seto",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
