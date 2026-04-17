@@ -7143,23 +7143,16 @@
     ]
   },
   "2026-04-17": {
-    "total": 115,
+    "total": 116,
     "streamlit": 0,
-    "github_action": 115,
-    "successful": 115,
+    "github_action": 116,
+    "successful": 116,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
-      "Marketing Communication Officer KG Media": 84
+      "Marketing Communication Officer KG Media": 85
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 00:44:17",
-        "source": "github_action",
-        "candidate": "Korin Indriani",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 00:44:20",
         "source": "github_action",
@@ -7850,6 +7843,13 @@
         "timestamp": "2026-04-17 01:34:12",
         "source": "github_action",
         "candidate": "Anggita Putri Ramadanti",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 01:34:40",
+        "source": "github_action",
+        "candidate": "Imam Saputra",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
