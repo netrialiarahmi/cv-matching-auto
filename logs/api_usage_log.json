@@ -7143,27 +7143,20 @@
     ]
   },
   "2026-04-17": {
-    "total": 674,
+    "total": 675,
     "streamlit": 0,
-    "github_action": 674,
-    "successful": 674,
+    "github_action": 675,
+    "successful": 675,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 200,
       "Reporter Megapolitan": 200,
-      "Sustainability Officer KG Media": 143,
+      "Sustainability Officer KG Media": 144,
       "Strategic Planner KG Media": 88,
       "Reporter Nasional": 12
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 07:07:23",
-        "source": "github_action",
-        "candidate": "Andien  Destiani Ramadhani",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 07:07:55",
         "source": "github_action",
@@ -7854,6 +7847,13 @@
         "timestamp": "2026-04-17 07:57:04",
         "source": "github_action",
         "candidate": "Uswatun Hasanah",
+        "position": "Sustainability Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 07:57:33",
+        "source": "github_action",
+        "candidate": "Marcellino Faisal Ronald, S.M.",
         "position": "Sustainability Officer KG Media",
         "success": true
       }
