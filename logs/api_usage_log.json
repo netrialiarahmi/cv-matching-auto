@@ -7143,10 +7143,10 @@
     ]
   },
   "2026-04-17": {
-    "total": 875,
+    "total": 876,
     "streamlit": 0,
-    "github_action": 875,
-    "successful": 875,
+    "github_action": 876,
+    "successful": 876,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
@@ -7155,16 +7155,9 @@
       "Sustainability Officer KG Media": 200,
       "Strategic Planner KG Media": 90,
       "Reporter Nasional": 112,
-      "Content Writer Homey": 42
+      "Content Writer Homey": 43
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 08:47:51",
-        "source": "github_action",
-        "candidate": "Tania Desna putri",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 08:48:22",
         "source": "github_action",
@@ -7855,6 +7848,13 @@
         "timestamp": "2026-04-17 09:36:33",
         "source": "github_action",
         "candidate": "Reza Alfis Syahfar",
+        "position": "Content Writer Homey",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 09:36:36",
+        "source": "github_action",
+        "candidate": "Mutia Rif'at  Arifin",
         "position": "Content Writer Homey",
         "success": true
       }
