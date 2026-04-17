@@ -7143,27 +7143,20 @@
     ]
   },
   "2026-04-17": {
-    "total": 592,
+    "total": 593,
     "streamlit": 0,
-    "github_action": 592,
-    "successful": 592,
+    "github_action": 593,
+    "successful": 593,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 200,
-      "Reporter Megapolitan": 161,
+      "Reporter Megapolitan": 162,
       "Sustainability Officer KG Media": 100,
       "Strategic Planner KG Media": 88,
       "Reporter Nasional": 12
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 04:35:54",
-        "source": "github_action",
-        "candidate": "Zahra Melina Zukhruf",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 04:36:28",
         "source": "github_action",
@@ -7854,6 +7847,13 @@
         "timestamp": "2026-04-17 07:16:11",
         "source": "github_action",
         "candidate": "Kevin Zentha",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 07:16:40",
+        "source": "github_action",
+        "candidate": "Eggi Tanoto",
         "position": "Reporter Megapolitan",
         "success": true
       }
