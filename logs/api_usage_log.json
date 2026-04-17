@@ -7143,14 +7143,14 @@
     ]
   },
   "2026-04-17": {
-    "total": 89,
+    "total": 90,
     "streamlit": 0,
-    "github_action": 89,
-    "successful": 89,
+    "github_action": 90,
+    "successful": 90,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
-      "Marketing Communication Officer KG Media": 58
+      "Marketing Communication Officer KG Media": 59
     },
     "entries": [
       {
@@ -7773,6 +7773,13 @@
         "timestamp": "2026-04-17 01:20:50",
         "source": "github_action",
         "candidate": "Anwar Fajar",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 01:21:22",
+        "source": "github_action",
+        "candidate": "Haniah Nurul Izza Izza",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
