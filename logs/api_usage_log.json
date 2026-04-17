@@ -7143,10 +7143,10 @@
     ]
   },
   "2026-04-17": {
-    "total": 877,
+    "total": 878,
     "streamlit": 0,
-    "github_action": 877,
-    "successful": 877,
+    "github_action": 878,
+    "successful": 878,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
@@ -7155,16 +7155,9 @@
       "Sustainability Officer KG Media": 200,
       "Strategic Planner KG Media": 90,
       "Reporter Nasional": 112,
-      "Content Writer Homey": 44
+      "Content Writer Homey": 45
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 08:48:50",
-        "source": "github_action",
-        "candidate": "Yolanda Pradita",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 08:49:27",
         "source": "github_action",
@@ -7855,6 +7848,13 @@
         "timestamp": "2026-04-17 09:36:39",
         "source": "github_action",
         "candidate": "Axel Hans Kristian",
+        "position": "Content Writer Homey",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 09:37:08",
+        "source": "github_action",
+        "candidate": "Ken Devina",
         "position": "Content Writer Homey",
         "success": true
       }
