@@ -7143,23 +7143,16 @@
     ]
   },
   "2026-04-17": {
-    "total": 130,
+    "total": 131,
     "streamlit": 0,
-    "github_action": 130,
-    "successful": 130,
+    "github_action": 131,
+    "successful": 131,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
-      "Marketing Communication Officer KG Media": 99
+      "Marketing Communication Officer KG Media": 100
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 00:50:52",
-        "source": "github_action",
-        "candidate": "Fiorentina Cahaya Rizki",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 00:53:11",
         "source": "github_action",
@@ -7850,6 +7843,13 @@
         "timestamp": "2026-04-17 01:41:27",
         "source": "github_action",
         "candidate": "Resty Kurniati Putri",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 01:42:00",
+        "source": "github_action",
+        "candidate": "Irma  Masyitoh",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
