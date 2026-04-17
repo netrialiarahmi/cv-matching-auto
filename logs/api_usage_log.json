@@ -7143,26 +7143,19 @@
     ]
   },
   "2026-04-17": {
-    "total": 391,
+    "total": 392,
     "streamlit": 0,
-    "github_action": 391,
-    "successful": 391,
+    "github_action": 392,
+    "successful": 392,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
       "Sustainability Officer KG Media": 100,
-      "Strategic Planner KG Media": 60
+      "Strategic Planner KG Media": 61
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 02:57:31",
-        "source": "github_action",
-        "candidate": "Andini Sekar Pramesthi",
-        "position": "Sustainability Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 02:58:04",
         "source": "github_action",
@@ -7853,6 +7846,13 @@
         "timestamp": "2026-04-17 03:46:04",
         "source": "github_action",
         "candidate": "Nisya agrisnaa",
+        "position": "Strategic Planner KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 03:46:33",
+        "source": "github_action",
+        "candidate": "Fendi Gimantara",
         "position": "Strategic Planner KG Media",
         "success": true
       }
