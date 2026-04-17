@@ -7143,10 +7143,10 @@
     ]
   },
   "2026-04-17": {
-    "total": 425,
+    "total": 426,
     "streamlit": 0,
-    "github_action": 425,
-    "successful": 425,
+    "github_action": 426,
+    "successful": 426,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
@@ -7154,16 +7154,9 @@
       "Reporter Megapolitan": 100,
       "Sustainability Officer KG Media": 100,
       "Strategic Planner KG Media": 88,
-      "Reporter Nasional": 6
+      "Reporter Nasional": 7
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 03:13:51",
-        "source": "github_action",
-        "candidate": "Amos Christian Simanjuntak",
-        "position": "Sustainability Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 03:13:53",
         "source": "github_action",
@@ -7854,6 +7847,13 @@
         "timestamp": "2026-04-17 04:01:16",
         "source": "github_action",
         "candidate": "Cindy Rebecca Christine",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 04:01:46",
+        "source": "github_action",
+        "candidate": "Alysa Reyhan Maharani",
         "position": "Reporter Nasional",
         "success": true
       }
