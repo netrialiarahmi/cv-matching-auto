@@ -7143,27 +7143,20 @@
     ]
   },
   "2026-04-17": {
-    "total": 435,
+    "total": 436,
     "streamlit": 0,
-    "github_action": 435,
-    "successful": 435,
+    "github_action": 436,
+    "successful": 436,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
-      "Marketing Communication Officer KG Media": 104,
+      "Marketing Communication Officer KG Media": 105,
       "Reporter Megapolitan": 100,
       "Sustainability Officer KG Media": 100,
       "Strategic Planner KG Media": 88,
       "Reporter Nasional": 12
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 03:18:37",
-        "source": "github_action",
-        "candidate": "Tevin Heikal",
-        "position": "Strategic Planner KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 03:19:07",
         "source": "github_action",
@@ -7854,6 +7847,13 @@
         "timestamp": "2026-04-17 04:06:23",
         "source": "github_action",
         "candidate": "Kezia Natasha",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 04:06:25",
+        "source": "github_action",
+        "candidate": "Silfi Sri Herliani",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
