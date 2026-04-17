@@ -7143,10 +7143,10 @@
     ]
   },
   "2026-04-17": {
-    "total": 748,
+    "total": 749,
     "streamlit": 0,
-    "github_action": 748,
-    "successful": 748,
+    "github_action": 749,
+    "successful": 749,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
@@ -7154,16 +7154,9 @@
       "Reporter Megapolitan": 200,
       "Sustainability Officer KG Media": 200,
       "Strategic Planner KG Media": 90,
-      "Reporter Nasional": 27
+      "Reporter Nasional": 28
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 07:44:23",
-        "source": "github_action",
-        "candidate": "Tahany Hafiza",
-        "position": "Sustainability Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 07:45:00",
         "source": "github_action",
@@ -7854,6 +7847,13 @@
         "timestamp": "2026-04-17 08:34:06",
         "source": "github_action",
         "candidate": "Yoana Lestonac Elita",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 08:34:33",
+        "source": "github_action",
+        "candidate": "Muchammad Achmad Afifuddin",
         "position": "Reporter Nasional",
         "success": true
       }
