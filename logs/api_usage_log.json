@@ -7143,27 +7143,20 @@
     ]
   },
   "2026-04-17": {
-    "total": 726,
+    "total": 727,
     "streamlit": 0,
-    "github_action": 726,
-    "successful": 726,
+    "github_action": 727,
+    "successful": 727,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 200,
       "Reporter Megapolitan": 200,
-      "Sustainability Officer KG Media": 195,
+      "Sustainability Officer KG Media": 196,
       "Strategic Planner KG Media": 88,
       "Reporter Nasional": 12
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 07:33:33",
-        "source": "github_action",
-        "candidate": "Ivan  Dwi Pratama",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 07:34:04",
         "source": "github_action",
@@ -7854,6 +7847,13 @@
         "timestamp": "2026-04-17 08:23:23",
         "source": "github_action",
         "candidate": "Cinta Maharani",
+        "position": "Sustainability Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 08:23:59",
+        "source": "github_action",
+        "candidate": "Ayu Putri",
         "position": "Sustainability Officer KG Media",
         "success": true
       }
