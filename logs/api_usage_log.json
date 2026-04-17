@@ -7143,14 +7143,14 @@
     ]
   },
   "2026-04-17": {
-    "total": 79,
+    "total": 80,
     "streamlit": 0,
-    "github_action": 79,
-    "successful": 79,
+    "github_action": 80,
+    "successful": 80,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
-      "Marketing Communication Officer KG Media": 48
+      "Marketing Communication Officer KG Media": 49
     },
     "entries": [
       {
@@ -7703,6 +7703,13 @@
         "timestamp": "2026-04-17 01:15:52",
         "source": "github_action",
         "candidate": "zaki ramadhan",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 01:16:21",
+        "source": "github_action",
+        "candidate": "shaffa shabila",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
