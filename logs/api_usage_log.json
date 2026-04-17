@@ -7143,13 +7143,13 @@
     ]
   },
   "2026-04-17": {
-    "total": 10,
+    "total": 11,
     "streamlit": 0,
-    "github_action": 10,
-    "successful": 10,
+    "github_action": 11,
+    "successful": 11,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 10
+      "Account Executive VCBL": 11
     },
     "entries": [
       {
@@ -7219,6 +7219,13 @@
         "timestamp": "2026-04-17 00:42:16",
         "source": "github_action",
         "candidate": "Reyzha Putra",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 00:42:46",
+        "source": "github_action",
+        "candidate": "Danti Maharani",
         "position": "Account Executive VCBL",
         "success": true
       }
