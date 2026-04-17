@@ -7143,14 +7143,14 @@
     ]
   },
   "2026-04-17": {
-    "total": 42,
+    "total": 43,
     "streamlit": 0,
-    "github_action": 42,
-    "successful": 42,
+    "github_action": 43,
+    "successful": 43,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
-      "Marketing Communication Officer KG Media": 11
+      "Marketing Communication Officer KG Media": 12
     },
     "entries": [
       {
@@ -7444,6 +7444,13 @@
         "timestamp": "2026-04-17 00:57:22",
         "source": "github_action",
         "candidate": "Arina Qinthara",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 00:57:54",
+        "source": "github_action",
+        "candidate": "Dhiya Indah Mawaddah",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
