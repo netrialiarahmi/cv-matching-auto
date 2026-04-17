@@ -7143,24 +7143,17 @@
     ]
   },
   "2026-04-17": {
-    "total": 213,
+    "total": 214,
     "streamlit": 0,
-    "github_action": 213,
-    "successful": 213,
+    "github_action": 214,
+    "successful": 214,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Megapolitan": 82
+      "Reporter Megapolitan": 83
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 01:33:44",
-        "source": "github_action",
-        "candidate": "maharani zahra",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 01:34:12",
         "source": "github_action",
@@ -7851,6 +7844,13 @@
         "timestamp": "2026-04-17 02:20:23",
         "source": "github_action",
         "candidate": "Ilham Syakur Fidina",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 02:20:55",
+        "source": "github_action",
+        "candidate": "Fadya  Jasmin Malihah",
         "position": "Reporter Megapolitan",
         "success": true
       }
