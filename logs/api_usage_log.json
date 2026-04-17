@@ -7143,25 +7143,18 @@
     ]
   },
   "2026-04-17": {
-    "total": 318,
+    "total": 319,
     "streamlit": 0,
-    "github_action": 318,
-    "successful": 318,
+    "github_action": 319,
+    "successful": 319,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
-      "Sustainability Officer KG Media": 87
+      "Sustainability Officer KG Media": 88
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 02:23:16",
-        "source": "github_action",
-        "candidate": "Daffa Andarifka Syaifullah",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 02:23:48",
         "source": "github_action",
@@ -7852,6 +7845,13 @@
         "timestamp": "2026-04-17 03:09:56",
         "source": "github_action",
         "candidate": "Aisyah Putri Zahirah",
+        "position": "Sustainability Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 03:10:26",
+        "source": "github_action",
+        "candidate": "Ahmad Ramdani",
         "position": "Sustainability Officer KG Media",
         "success": true
       }
