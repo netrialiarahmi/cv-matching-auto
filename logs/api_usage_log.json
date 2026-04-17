@@ -7143,14 +7143,14 @@
     ]
   },
   "2026-04-17": {
-    "total": 96,
+    "total": 97,
     "streamlit": 0,
-    "github_action": 96,
-    "successful": 96,
+    "github_action": 97,
+    "successful": 97,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
-      "Marketing Communication Officer KG Media": 65
+      "Marketing Communication Officer KG Media": 66
     },
     "entries": [
       {
@@ -7822,6 +7822,13 @@
         "timestamp": "2026-04-17 01:24:36",
         "source": "github_action",
         "candidate": "Zahra Melina Zukhruf",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 01:25:07",
+        "source": "github_action",
+        "candidate": "Althea Aisya",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
