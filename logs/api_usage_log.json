@@ -7143,27 +7143,20 @@
     ]
   },
   "2026-04-17": {
-    "total": 603,
+    "total": 604,
     "streamlit": 0,
-    "github_action": 603,
-    "successful": 603,
+    "github_action": 604,
+    "successful": 604,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 200,
-      "Reporter Megapolitan": 172,
+      "Reporter Megapolitan": 173,
       "Sustainability Officer KG Media": 100,
       "Strategic Planner KG Media": 88,
       "Reporter Nasional": 12
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 04:57:45",
-        "source": "github_action",
-        "candidate": "Meutia  Nurilmi Trijayanti",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 05:00:05",
         "source": "github_action",
@@ -7854,6 +7847,13 @@
         "timestamp": "2026-04-17 07:21:53",
         "source": "github_action",
         "candidate": "Pandi Ramedhan",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 07:22:26",
+        "source": "github_action",
+        "candidate": "Renaldi Saputra",
         "position": "Reporter Megapolitan",
         "success": true
       }
