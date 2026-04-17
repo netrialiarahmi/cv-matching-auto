@@ -7143,27 +7143,20 @@
     ]
   },
   "2026-04-17": {
-    "total": 570,
+    "total": 571,
     "streamlit": 0,
-    "github_action": 570,
-    "successful": 570,
+    "github_action": 571,
+    "successful": 571,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 200,
-      "Reporter Megapolitan": 139,
+      "Reporter Megapolitan": 140,
       "Sustainability Officer KG Media": 100,
       "Strategic Planner KG Media": 88,
       "Reporter Nasional": 12
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 04:23:44",
-        "source": "github_action",
-        "candidate": "Felicia Nafirstya Deyzitta",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 04:24:15",
         "source": "github_action",
@@ -7854,6 +7847,13 @@
         "timestamp": "2026-04-17 07:04:55",
         "source": "github_action",
         "candidate": "Daffa Andarifka Syaifullah",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 07:05:22",
+        "source": "github_action",
+        "candidate": "Natasa Alifah",
         "position": "Reporter Megapolitan",
         "success": true
       }
