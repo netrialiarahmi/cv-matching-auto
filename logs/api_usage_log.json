@@ -7143,23 +7143,16 @@
     ]
   },
   "2026-04-17": {
-    "total": 105,
+    "total": 106,
     "streamlit": 0,
-    "github_action": 105,
-    "successful": 105,
+    "github_action": 106,
+    "successful": 106,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
-      "Marketing Communication Officer KG Media": 74
+      "Marketing Communication Officer KG Media": 75
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 00:40:13",
-        "source": "github_action",
-        "candidate": "Farid Hidayat Putra",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 00:40:41",
         "source": "github_action",
@@ -7850,6 +7843,13 @@
         "timestamp": "2026-04-17 01:28:59",
         "source": "github_action",
         "candidate": "Deandra Adira Wuryandari",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 01:29:30",
+        "source": "github_action",
+        "candidate": "Intania  Raihan",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
