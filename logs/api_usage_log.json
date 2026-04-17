@@ -7143,14 +7143,14 @@
     ]
   },
   "2026-04-17": {
-    "total": 70,
+    "total": 71,
     "streamlit": 0,
-    "github_action": 70,
-    "successful": 70,
+    "github_action": 71,
+    "successful": 71,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
-      "Marketing Communication Officer KG Media": 39
+      "Marketing Communication Officer KG Media": 40
     },
     "entries": [
       {
@@ -7640,6 +7640,13 @@
         "timestamp": "2026-04-17 01:11:10",
         "source": "github_action",
         "candidate": "Muhammad Rayana Zakariyya",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 01:11:42",
+        "source": "github_action",
+        "candidate": "Nanda Pasaribu",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
