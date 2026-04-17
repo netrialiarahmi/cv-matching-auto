@@ -7143,25 +7143,18 @@
     ]
   },
   "2026-04-17": {
-    "total": 289,
+    "total": 290,
     "streamlit": 0,
-    "github_action": 289,
-    "successful": 289,
+    "github_action": 290,
+    "successful": 290,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
-      "Sustainability Officer KG Media": 58
+      "Sustainability Officer KG Media": 59
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 02:10:12",
-        "source": "github_action",
-        "candidate": "Tiara Damayanti",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 02:10:41",
         "source": "github_action",
@@ -7852,6 +7845,13 @@
         "timestamp": "2026-04-17 02:56:00",
         "source": "github_action",
         "candidate": "Tiara Amelia",
+        "position": "Sustainability Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 02:56:33",
+        "source": "github_action",
+        "candidate": "Indira Maia Khalishah",
         "position": "Sustainability Officer KG Media",
         "success": true
       }
