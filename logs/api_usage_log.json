@@ -7143,10 +7143,10 @@
     ]
   },
   "2026-04-17": {
-    "total": 807,
+    "total": 808,
     "streamlit": 0,
-    "github_action": 807,
-    "successful": 807,
+    "github_action": 808,
+    "successful": 808,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
@@ -7154,16 +7154,9 @@
       "Reporter Megapolitan": 200,
       "Sustainability Officer KG Media": 200,
       "Strategic Planner KG Media": 90,
-      "Reporter Nasional": 86
+      "Reporter Nasional": 87
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 08:14:06",
-        "source": "github_action",
-        "candidate": "Aryo Wicaksono",
-        "position": "Sustainability Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 08:14:43",
         "source": "github_action",
@@ -7854,6 +7847,13 @@
         "timestamp": "2026-04-17 09:03:13",
         "source": "github_action",
         "candidate": "Hilal Hilal",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 09:03:43",
+        "source": "github_action",
+        "candidate": "Aulyani al adawiyah",
         "position": "Reporter Nasional",
         "success": true
       }
