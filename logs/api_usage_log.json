@@ -7143,24 +7143,17 @@
     ]
   },
   "2026-04-17": {
-    "total": 171,
+    "total": 172,
     "streamlit": 0,
-    "github_action": 171,
-    "successful": 171,
+    "github_action": 172,
+    "successful": 172,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Megapolitan": 40
+      "Reporter Megapolitan": 41
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 01:12:15",
-        "source": "github_action",
-        "candidate": "Shofa Yusriyyah",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 01:12:47",
         "source": "github_action",
@@ -7851,6 +7844,13 @@
         "timestamp": "2026-04-17 02:00:27",
         "source": "github_action",
         "candidate": "Angeline Nanda Kusumah",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 02:01:01",
+        "source": "github_action",
+        "candidate": "Tevin Heikal",
         "position": "Reporter Megapolitan",
         "success": true
       }
