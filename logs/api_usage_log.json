@@ -7143,10 +7143,10 @@
     ]
   },
   "2026-04-17": {
-    "total": 431,
+    "total": 432,
     "streamlit": 0,
-    "github_action": 431,
-    "successful": 431,
+    "github_action": 432,
+    "successful": 432,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
@@ -7154,16 +7154,9 @@
       "Reporter Megapolitan": 100,
       "Sustainability Officer KG Media": 100,
       "Strategic Planner KG Media": 88,
-      "Reporter Nasional": 12
+      "Reporter Nasional": 13
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 03:16:24",
-        "source": "github_action",
-        "candidate": "Titi nan",
-        "position": "Strategic Planner KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 03:17:00",
         "source": "github_action",
@@ -7854,6 +7847,13 @@
         "timestamp": "2026-04-17 04:04:20",
         "source": "github_action",
         "candidate": "Trisha Dantiani Husada",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 04:04:48",
+        "source": "github_action",
+        "candidate": "Syahril wahyu Firmansyah",
         "position": "Reporter Nasional",
         "success": true
       }
