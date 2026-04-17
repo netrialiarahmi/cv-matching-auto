@@ -7143,25 +7143,18 @@
     ]
   },
   "2026-04-17": {
-    "total": 301,
+    "total": 302,
     "streamlit": 0,
-    "github_action": 301,
-    "successful": 301,
+    "github_action": 302,
+    "successful": 302,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
-      "Sustainability Officer KG Media": 70
+      "Sustainability Officer KG Media": 71
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 02:14:58",
-        "source": "github_action",
-        "candidate": "Sidney Alvionita Saputra",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 02:15:32",
         "source": "github_action",
@@ -7852,6 +7845,13 @@
         "timestamp": "2026-04-17 03:02:04",
         "source": "github_action",
         "candidate": "Febiana Nur Azizah",
+        "position": "Sustainability Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 03:02:36",
+        "source": "github_action",
+        "candidate": "Beauty Keren",
         "position": "Sustainability Officer KG Media",
         "success": true
       }
