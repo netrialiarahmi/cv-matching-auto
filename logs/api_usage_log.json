@@ -7143,27 +7143,20 @@
     ]
   },
   "2026-04-17": {
-    "total": 728,
+    "total": 729,
     "streamlit": 0,
-    "github_action": 728,
-    "successful": 728,
+    "github_action": 729,
+    "successful": 729,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 200,
       "Reporter Megapolitan": 200,
-      "Sustainability Officer KG Media": 197,
+      "Sustainability Officer KG Media": 198,
       "Strategic Planner KG Media": 88,
       "Reporter Nasional": 12
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 07:34:36",
-        "source": "github_action",
-        "candidate": "Qonitah Khairunnisa",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 07:35:04",
         "source": "github_action",
@@ -7854,6 +7847,13 @@
         "timestamp": "2026-04-17 08:24:35",
         "source": "github_action",
         "candidate": "Muhammad Fadlurrohman ash raffi",
+        "position": "Sustainability Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 08:24:37",
+        "source": "github_action",
+        "candidate": "Avatari Khumaira Hadi",
         "position": "Sustainability Officer KG Media",
         "success": true
       }
