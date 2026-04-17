@@ -7143,25 +7143,18 @@
     ]
   },
   "2026-04-17": {
-    "total": 284,
+    "total": 285,
     "streamlit": 0,
-    "github_action": 284,
-    "successful": 284,
+    "github_action": 285,
+    "successful": 285,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
-      "Sustainability Officer KG Media": 53
+      "Sustainability Officer KG Media": 54
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 02:07:35",
-        "source": "github_action",
-        "candidate": "Miftahula Rizqin",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 02:08:06",
         "source": "github_action",
@@ -7852,6 +7845,13 @@
         "timestamp": "2026-04-17 02:54:04",
         "source": "github_action",
         "candidate": "Ruth Elsamo Christine  Pasaribu",
+        "position": "Sustainability Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 02:54:30",
+        "source": "github_action",
+        "candidate": "Satria  Tama",
         "position": "Sustainability Officer KG Media",
         "success": true
       }
