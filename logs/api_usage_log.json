@@ -7143,14 +7143,14 @@
     ]
   },
   "2026-04-17": {
-    "total": 88,
+    "total": 89,
     "streamlit": 0,
-    "github_action": 88,
-    "successful": 88,
+    "github_action": 89,
+    "successful": 89,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
-      "Marketing Communication Officer KG Media": 57
+      "Marketing Communication Officer KG Media": 58
     },
     "entries": [
       {
@@ -7766,6 +7766,13 @@
         "timestamp": "2026-04-17 01:20:16",
         "source": "github_action",
         "candidate": "Imelda Aulia Arif",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 01:20:50",
+        "source": "github_action",
+        "candidate": "Anwar Fajar",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
