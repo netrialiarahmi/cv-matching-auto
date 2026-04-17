@@ -7143,23 +7143,16 @@
     ]
   },
   "2026-04-17": {
-    "total": 102,
+    "total": 103,
     "streamlit": 0,
-    "github_action": 102,
-    "successful": 102,
+    "github_action": 103,
+    "successful": 103,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
-      "Marketing Communication Officer KG Media": 71
+      "Marketing Communication Officer KG Media": 72
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 00:39:10",
-        "source": "github_action",
-        "candidate": "Jethro Giovanni Saputra",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 00:39:41",
         "source": "github_action",
@@ -7850,6 +7843,13 @@
         "timestamp": "2026-04-17 01:27:35",
         "source": "github_action",
         "candidate": "Gita Cita Pertiwi",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 01:28:03",
+        "source": "github_action",
+        "candidate": "Dhenis Prasetyo",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
