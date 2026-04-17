@@ -7143,24 +7143,17 @@
     ]
   },
   "2026-04-17": {
-    "total": 182,
+    "total": 183,
     "streamlit": 0,
-    "github_action": 182,
-    "successful": 182,
+    "github_action": 183,
+    "successful": 183,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Megapolitan": 51
+      "Reporter Megapolitan": 52
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 01:17:50",
-        "source": "github_action",
-        "candidate": "Desvita N.",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 01:18:20",
         "source": "github_action",
@@ -7851,6 +7844,13 @@
         "timestamp": "2026-04-17 02:06:02",
         "source": "github_action",
         "candidate": "Hani Safanja",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 02:06:35",
+        "source": "github_action",
+        "candidate": "Andi Novriansyah Saputra",
         "position": "Reporter Megapolitan",
         "success": true
       }
