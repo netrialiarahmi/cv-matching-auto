@@ -7143,10 +7143,10 @@
     ]
   },
   "2026-04-17": {
-    "total": 733,
+    "total": 734,
     "streamlit": 0,
-    "github_action": 733,
-    "successful": 733,
+    "github_action": 734,
+    "successful": 734,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
@@ -7154,16 +7154,9 @@
       "Reporter Megapolitan": 200,
       "Sustainability Officer KG Media": 200,
       "Strategic Planner KG Media": 90,
-      "Reporter Nasional": 12
+      "Reporter Nasional": 13
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 07:37:02",
-        "source": "github_action",
-        "candidate": "Hafizh Aliyyuddin Irawan",
-        "position": "Sustainability Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 07:37:35",
         "source": "github_action",
@@ -7855,6 +7848,13 @@
         "source": "github_action",
         "candidate": "Nadia Azzahra wibowo",
         "position": "Strategic Planner KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 08:27:03",
+        "source": "github_action",
+        "candidate": "Muh Afif Amnur",
+        "position": "Reporter Nasional",
         "success": true
       }
     ]
