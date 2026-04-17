@@ -7143,10 +7143,10 @@
     ]
   },
   "2026-04-17": {
-    "total": 888,
+    "total": 889,
     "streamlit": 0,
-    "github_action": 888,
-    "successful": 888,
+    "github_action": 889,
+    "successful": 889,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
@@ -7155,16 +7155,9 @@
       "Sustainability Officer KG Media": 200,
       "Strategic Planner KG Media": 90,
       "Reporter Nasional": 112,
-      "Content Writer Homey": 55
+      "Content Writer Homey": 56
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 08:53:54",
-        "source": "github_action",
-        "candidate": "Hilda Shakira",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 08:54:23",
         "source": "github_action",
@@ -7855,6 +7848,13 @@
         "timestamp": "2026-04-17 09:42:23",
         "source": "github_action",
         "candidate": "Fikma Khairunnisa",
+        "position": "Content Writer Homey",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 09:42:48",
+        "source": "github_action",
+        "candidate": "Fikri Yatin Rizka",
         "position": "Content Writer Homey",
         "success": true
       }
