@@ -7143,25 +7143,18 @@
     ]
   },
   "2026-04-17": {
-    "total": 309,
+    "total": 310,
     "streamlit": 0,
-    "github_action": 309,
-    "successful": 309,
+    "github_action": 310,
+    "successful": 310,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
-      "Sustainability Officer KG Media": 78
+      "Sustainability Officer KG Media": 79
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 02:18:53",
-        "source": "github_action",
-        "candidate": "Diva Mawarni Permana",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 02:19:23",
         "source": "github_action",
@@ -7852,6 +7845,13 @@
         "timestamp": "2026-04-17 03:06:06",
         "source": "github_action",
         "candidate": "Dimas Rahmanda",
+        "position": "Sustainability Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 03:06:33",
+        "source": "github_action",
+        "candidate": "Salsabilla Fitri Ayu",
         "position": "Sustainability Officer KG Media",
         "success": true
       }
