@@ -7143,10 +7143,10 @@
     ]
   },
   "2026-04-17": {
-    "total": 775,
+    "total": 776,
     "streamlit": 0,
-    "github_action": 775,
-    "successful": 775,
+    "github_action": 776,
+    "successful": 776,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
@@ -7154,16 +7154,9 @@
       "Reporter Megapolitan": 200,
       "Sustainability Officer KG Media": 200,
       "Strategic Planner KG Media": 90,
-      "Reporter Nasional": 54
+      "Reporter Nasional": 55
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 07:58:12",
-        "source": "github_action",
-        "candidate": "Arvian Messianik",
-        "position": "Sustainability Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 07:58:46",
         "source": "github_action",
@@ -7854,6 +7847,13 @@
         "timestamp": "2026-04-17 08:47:18",
         "source": "github_action",
         "candidate": "Nur Faizah Al Bahriyatul Baqiroh",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 08:47:51",
+        "source": "github_action",
+        "candidate": "Tania Desna putri",
         "position": "Reporter Nasional",
         "success": true
       }
