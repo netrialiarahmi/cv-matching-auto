@@ -7143,24 +7143,17 @@
     ]
   },
   "2026-04-17": {
-    "total": 195,
+    "total": 196,
     "streamlit": 0,
-    "github_action": 195,
-    "successful": 195,
+    "github_action": 196,
+    "successful": 196,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Megapolitan": 64
+      "Reporter Megapolitan": 65
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 01:24:36",
-        "source": "github_action",
-        "candidate": "Zahra Melina Zukhruf",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 01:25:07",
         "source": "github_action",
@@ -7851,6 +7844,13 @@
         "timestamp": "2026-04-17 02:12:28",
         "source": "github_action",
         "candidate": "Diva Salsabila",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 02:12:55",
+        "source": "github_action",
+        "candidate": "Adjeng Indi",
         "position": "Reporter Megapolitan",
         "success": true
       }
