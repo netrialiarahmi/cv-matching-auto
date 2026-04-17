@@ -7143,24 +7143,17 @@
     ]
   },
   "2026-04-17": {
-    "total": 209,
+    "total": 210,
     "streamlit": 0,
-    "github_action": 209,
-    "successful": 209,
+    "github_action": 210,
+    "successful": 210,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Megapolitan": 78
+      "Reporter Megapolitan": 79
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 01:31:34",
-        "source": "github_action",
-        "candidate": "Tri Buana Sentiagi",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 01:32:13",
         "source": "github_action",
@@ -7851,6 +7844,13 @@
         "timestamp": "2026-04-17 02:18:25",
         "source": "github_action",
         "candidate": "Rina Marlina Marlina",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 02:18:53",
+        "source": "github_action",
+        "candidate": "Diva Mawarni Permana",
         "position": "Reporter Megapolitan",
         "success": true
       }
