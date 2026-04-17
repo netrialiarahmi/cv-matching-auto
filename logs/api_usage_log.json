@@ -7143,24 +7143,17 @@
     ]
   },
   "2026-04-17": {
-    "total": 189,
+    "total": 190,
     "streamlit": 0,
-    "github_action": 189,
-    "successful": 189,
+    "github_action": 190,
+    "successful": 190,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Megapolitan": 58
+      "Reporter Megapolitan": 59
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 01:21:22",
-        "source": "github_action",
-        "candidate": "Haniah Nurul Izza Izza",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 01:21:53",
         "source": "github_action",
@@ -7851,6 +7844,13 @@
         "timestamp": "2026-04-17 02:09:40",
         "source": "github_action",
         "candidate": "Muhammad Rayana Zakariyya",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 02:10:12",
+        "source": "github_action",
+        "candidate": "Tiara Damayanti",
         "position": "Reporter Megapolitan",
         "success": true
       }
