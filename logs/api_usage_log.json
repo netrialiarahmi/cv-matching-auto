@@ -7143,10 +7143,10 @@
     ]
   },
   "2026-04-17": {
-    "total": 796,
+    "total": 797,
     "streamlit": 0,
-    "github_action": 796,
-    "successful": 796,
+    "github_action": 797,
+    "successful": 797,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
@@ -7154,16 +7154,9 @@
       "Reporter Megapolitan": 200,
       "Sustainability Officer KG Media": 200,
       "Strategic Planner KG Media": 90,
-      "Reporter Nasional": 75
+      "Reporter Nasional": 76
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 08:08:08",
-        "source": "github_action",
-        "candidate": "Rafiqo Fadhlullah",
-        "position": "Sustainability Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 08:08:42",
         "source": "github_action",
@@ -7854,6 +7847,13 @@
         "timestamp": "2026-04-17 08:57:27",
         "source": "github_action",
         "candidate": "Eggi Tanoto",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 08:57:55",
+        "source": "github_action",
+        "candidate": "Muhammad Rizki Ardiansyah",
         "position": "Reporter Nasional",
         "success": true
       }
