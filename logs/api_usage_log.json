@@ -7143,27 +7143,20 @@
     ]
   },
   "2026-04-17": {
-    "total": 584,
+    "total": 585,
     "streamlit": 0,
-    "github_action": 584,
-    "successful": 584,
+    "github_action": 585,
+    "successful": 585,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 200,
-      "Reporter Megapolitan": 153,
+      "Reporter Megapolitan": 154,
       "Sustainability Officer KG Media": 100,
       "Strategic Planner KG Media": 88,
       "Reporter Nasional": 12
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 04:30:43",
-        "source": "github_action",
-        "candidate": "Anwar Fajar",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 04:31:13",
         "source": "github_action",
@@ -7854,6 +7847,13 @@
         "timestamp": "2026-04-17 07:12:11",
         "source": "github_action",
         "candidate": "Rahel  Siregar",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 07:12:42",
+        "source": "github_action",
+        "candidate": "Decy Kalangit",
         "position": "Reporter Megapolitan",
         "success": true
       }
