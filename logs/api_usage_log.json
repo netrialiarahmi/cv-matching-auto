@@ -7143,10 +7143,10 @@
     ]
   },
   "2026-04-17": {
-    "total": 426,
+    "total": 427,
     "streamlit": 0,
-    "github_action": 426,
-    "successful": 426,
+    "github_action": 427,
+    "successful": 427,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
@@ -7154,16 +7154,9 @@
       "Reporter Megapolitan": 100,
       "Sustainability Officer KG Media": 100,
       "Strategic Planner KG Media": 88,
-      "Reporter Nasional": 7
+      "Reporter Nasional": 8
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 03:13:53",
-        "source": "github_action",
-        "candidate": "Restu Margirizki",
-        "position": "Sustainability Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 03:14:23",
         "source": "github_action",
@@ -7854,6 +7847,13 @@
         "timestamp": "2026-04-17 04:01:46",
         "source": "github_action",
         "candidate": "Alysa Reyhan Maharani",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 04:02:17",
+        "source": "github_action",
+        "candidate": "Fikma Khairunnisa",
         "position": "Reporter Nasional",
         "success": true
       }
