@@ -7143,23 +7143,16 @@
     ]
   },
   "2026-04-17": {
-    "total": 104,
+    "total": 105,
     "streamlit": 0,
-    "github_action": 104,
-    "successful": 104,
+    "github_action": 105,
+    "successful": 105,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
-      "Marketing Communication Officer KG Media": 73
+      "Marketing Communication Officer KG Media": 74
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 00:40:11",
-        "source": "github_action",
-        "candidate": "Mohammad Farhan Saputra",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 00:40:13",
         "source": "github_action",
@@ -7850,6 +7843,13 @@
         "timestamp": "2026-04-17 01:28:31",
         "source": "github_action",
         "candidate": "Jacqueline Manullang",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 01:28:59",
+        "source": "github_action",
+        "candidate": "Deandra Adira Wuryandari",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
