@@ -7143,27 +7143,20 @@
     ]
   },
   "2026-04-17": {
-    "total": 721,
+    "total": 722,
     "streamlit": 0,
-    "github_action": 721,
-    "successful": 721,
+    "github_action": 722,
+    "successful": 722,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 200,
       "Reporter Megapolitan": 200,
-      "Sustainability Officer KG Media": 190,
+      "Sustainability Officer KG Media": 191,
       "Strategic Planner KG Media": 88,
       "Reporter Nasional": 12
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 07:30:58",
-        "source": "github_action",
-        "candidate": "Rizky Ari Gunawan",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 07:31:29",
         "source": "github_action",
@@ -7854,6 +7847,13 @@
         "timestamp": "2026-04-17 08:20:44",
         "source": "github_action",
         "candidate": "Meli Mariana Sitinjak",
+        "position": "Sustainability Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 08:21:15",
+        "source": "github_action",
+        "candidate": "Sarah Ilham",
         "position": "Sustainability Officer KG Media",
         "success": true
       }
