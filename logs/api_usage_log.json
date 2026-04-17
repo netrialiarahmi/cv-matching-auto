@@ -7143,26 +7143,19 @@
     ]
   },
   "2026-04-17": {
-    "total": 407,
+    "total": 408,
     "streamlit": 0,
-    "github_action": 407,
-    "successful": 407,
+    "github_action": 408,
+    "successful": 408,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
       "Sustainability Officer KG Media": 100,
-      "Strategic Planner KG Media": 76
+      "Strategic Planner KG Media": 77
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 03:05:38",
-        "source": "github_action",
-        "candidate": "Qanitah Raniah",
-        "position": "Sustainability Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 03:06:06",
         "source": "github_action",
@@ -7853,6 +7846,13 @@
         "timestamp": "2026-04-17 03:54:04",
         "source": "github_action",
         "candidate": "Devin Ananda Dwiardi Saputra",
+        "position": "Strategic Planner KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 03:54:06",
+        "source": "github_action",
+        "candidate": "Kevin Jeremia Lubis",
         "position": "Strategic Planner KG Media",
         "success": true
       }
