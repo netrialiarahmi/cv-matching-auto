@@ -7143,24 +7143,17 @@
     ]
   },
   "2026-04-17": {
-    "total": 134,
+    "total": 135,
     "streamlit": 0,
-    "github_action": 134,
-    "successful": 134,
+    "github_action": 135,
+    "successful": 135,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Megapolitan": 3
+      "Reporter Megapolitan": 4
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 00:54:11",
-        "source": "github_action",
-        "candidate": "Kezia Natasha",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 00:54:13",
         "source": "github_action",
@@ -7851,6 +7844,13 @@
         "timestamp": "2026-04-17 01:43:31",
         "source": "github_action",
         "candidate": "Fitya Nabila Rabbani",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 01:44:00",
+        "source": "github_action",
+        "candidate": "Dwi Utari",
         "position": "Reporter Megapolitan",
         "success": true
       }
