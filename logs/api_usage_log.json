@@ -7143,25 +7143,18 @@
     ]
   },
   "2026-04-17": {
-    "total": 290,
+    "total": 291,
     "streamlit": 0,
-    "github_action": 290,
-    "successful": 290,
+    "github_action": 291,
+    "successful": 291,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
-      "Sustainability Officer KG Media": 59
+      "Sustainability Officer KG Media": 60
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 02:10:41",
-        "source": "github_action",
-        "candidate": "Aldina Nasution",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 02:11:10",
         "source": "github_action",
@@ -7852,6 +7845,13 @@
         "timestamp": "2026-04-17 02:56:33",
         "source": "github_action",
         "candidate": "Indira Maia Khalishah",
+        "position": "Sustainability Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 02:57:01",
+        "source": "github_action",
+        "candidate": "Gazala Savana Putra",
         "position": "Sustainability Officer KG Media",
         "success": true
       }
