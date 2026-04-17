@@ -7143,27 +7143,20 @@
     ]
   },
   "2026-04-17": {
-    "total": 573,
+    "total": 574,
     "streamlit": 0,
-    "github_action": 573,
-    "successful": 573,
+    "github_action": 574,
+    "successful": 574,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 200,
-      "Reporter Megapolitan": 142,
+      "Reporter Megapolitan": 143,
       "Sustainability Officer KG Media": 100,
       "Strategic Planner KG Media": 88,
       "Reporter Nasional": 12
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 04:25:13",
-        "source": "github_action",
-        "candidate": "Madani Prima Permana",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 04:25:45",
         "source": "github_action",
@@ -7854,6 +7847,13 @@
         "timestamp": "2026-04-17 07:06:22",
         "source": "github_action",
         "candidate": "Dian Saputra",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 07:06:54",
+        "source": "github_action",
+        "candidate": "Muhammad Shaddam Rizqullah",
         "position": "Reporter Megapolitan",
         "success": true
       }
