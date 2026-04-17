@@ -7143,23 +7143,16 @@
     ]
   },
   "2026-04-17": {
-    "total": 112,
+    "total": 113,
     "streamlit": 0,
-    "github_action": 112,
-    "successful": 112,
+    "github_action": 113,
+    "successful": 113,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
-      "Marketing Communication Officer KG Media": 81
+      "Marketing Communication Officer KG Media": 82
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 00:43:43",
-        "source": "github_action",
-        "candidate": "Amelia Riyanti",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 00:43:45",
         "source": "github_action",
@@ -7850,6 +7843,13 @@
         "timestamp": "2026-04-17 01:32:41",
         "source": "github_action",
         "candidate": "Riri Dwi Lestari",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 01:33:12",
+        "source": "github_action",
+        "candidate": "Azkanita Mahdia, S.I.kom",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
