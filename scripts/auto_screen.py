@@ -45,6 +45,23 @@ import requests
 # Project root directory (for resolving relative paths)
 PROJECT_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
+# Maximum number of new candidates to screen per position per run
+MAX_CANDIDATES_PER_POSITION = 100
+
+# Priority order for screening (processed first to last)
+# Positions not in this list will be processed after all priority positions
+PRIORITY_ORDER = [
+    "Marketing Communication Officer KG Media",
+    "Reporter Megapolitan",
+    "Sustainability Officer KG Media",
+    "Strategic Planner KG Media",
+    "Reporter Nasional",
+    "Content Writer Homey",
+    "Data Analyst (Business Intelligence)",
+    "Business Development Analyst",
+    "Account Executive VCBL",
+]
+
 
 def fetch_candidates_from_sheet_csv(csv_url):
     """
@@ -437,8 +454,15 @@ def screen_position(position_name, job_description, job_id, csv_url=None):
             print(f"\n✅ All {len(candidates_df)} candidates already analyzed (no new candidates to screen)")
             return 0
         
-        print(f"\n🚀 Starting screening for {len(new_candidates)} new candidates")
-        print(f"   ({len(skipped_candidates)} already analyzed, {len(new_candidates)} remaining)\n")
+        # Cap at MAX_CANDIDATES_PER_POSITION per run
+        total_new = len(new_candidates)
+        if total_new > MAX_CANDIDATES_PER_POSITION:
+            new_candidates = new_candidates[:MAX_CANDIDATES_PER_POSITION]
+            print(f"\n🚀 Starting screening for {len(new_candidates)} new candidates (capped from {total_new})")
+            print(f"   ({len(skipped_candidates)} already analyzed, {total_new - MAX_CANDIDATES_PER_POSITION} deferred to next run)\n")
+        else:
+            print(f"\n🚀 Starting screening for {len(new_candidates)} new candidates")
+            print(f"   ({len(skipped_candidates)} already analyzed, {len(new_candidates)} remaining)\n")
         
         # 4. Process each new candidate
         results = []
@@ -655,6 +679,24 @@ def main():
     print(f"✅ Will screen {len(active_positions)} active positions")
     if pooled_count > 0:
         print(f"   (Skipping {pooled_count} pooled position(s))")
+    
+    # Sort active positions by priority order
+    def _priority_key(row):
+        name = row['Job Position']
+        try:
+            return PRIORITY_ORDER.index(name)
+        except ValueError:
+            return len(PRIORITY_ORDER)  # non-priority positions go last
+    
+    active_positions = active_positions.iloc[
+        sorted(range(len(active_positions)), key=lambda i: _priority_key(active_positions.iloc[i]))
+    ].reset_index(drop=True)
+    
+    print("📋 Screening order:")
+    for i, row in active_positions.iterrows():
+        name = row['Job Position']
+        marker = "⭐" if name in PRIORITY_ORDER else "  "
+        print(f"   {marker} {i+1}. {name}")
     
     # 3. Load sheet_positions.csv to get File Storage URLs
     print(f"\n📊 Loading sheet_positions.csv for CSV URLs...")
