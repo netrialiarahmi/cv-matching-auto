@@ -7143,24 +7143,17 @@
     ]
   },
   "2026-04-17": {
-    "total": 212,
+    "total": 213,
     "streamlit": 0,
-    "github_action": 212,
-    "successful": 212,
+    "github_action": 213,
+    "successful": 213,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Megapolitan": 81
+      "Reporter Megapolitan": 82
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 01:33:12",
-        "source": "github_action",
-        "candidate": "Azkanita Mahdia, S.I.kom",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 01:33:44",
         "source": "github_action",
@@ -7851,6 +7844,13 @@
         "timestamp": "2026-04-17 02:19:53",
         "source": "github_action",
         "candidate": "Tsabita Sirly Kamaliya",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 02:20:23",
+        "source": "github_action",
+        "candidate": "Ilham Syakur Fidina",
         "position": "Reporter Megapolitan",
         "success": true
       }
