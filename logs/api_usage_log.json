@@ -7143,14 +7143,14 @@
     ]
   },
   "2026-04-17": {
-    "total": 47,
+    "total": 48,
     "streamlit": 0,
-    "github_action": 47,
-    "successful": 47,
+    "github_action": 48,
+    "successful": 48,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
-      "Marketing Communication Officer KG Media": 16
+      "Marketing Communication Officer KG Media": 17
     },
     "entries": [
       {
@@ -7479,6 +7479,13 @@
         "timestamp": "2026-04-17 00:59:27",
         "source": "github_action",
         "candidate": "Dwinastiti Gustira",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 01:00:01",
+        "source": "github_action",
+        "candidate": "dhabith aufa",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
