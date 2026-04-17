@@ -7143,26 +7143,19 @@
     ]
   },
   "2026-04-17": {
-    "total": 409,
+    "total": 410,
     "streamlit": 0,
-    "github_action": 409,
-    "successful": 409,
+    "github_action": 410,
+    "successful": 410,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
       "Sustainability Officer KG Media": 100,
-      "Strategic Planner KG Media": 78
+      "Strategic Planner KG Media": 79
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 03:06:33",
-        "source": "github_action",
-        "candidate": "Salsabilla Fitri Ayu",
-        "position": "Sustainability Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 03:07:00",
         "source": "github_action",
@@ -7853,6 +7846,13 @@
         "timestamp": "2026-04-17 03:54:32",
         "source": "github_action",
         "candidate": "Kuni Faizatunisa Isnaini",
+        "position": "Strategic Planner KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 03:54:34",
+        "source": "github_action",
+        "candidate": "M. Sulthon Roofiif",
         "position": "Strategic Planner KG Media",
         "success": true
       }
