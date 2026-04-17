@@ -7143,14 +7143,14 @@
     ]
   },
   "2026-04-17": {
-    "total": 38,
+    "total": 39,
     "streamlit": 0,
-    "github_action": 38,
-    "successful": 38,
+    "github_action": 39,
+    "successful": 39,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
-      "Marketing Communication Officer KG Media": 7
+      "Marketing Communication Officer KG Media": 8
     },
     "entries": [
       {
@@ -7416,6 +7416,13 @@
         "timestamp": "2026-04-17 00:55:13",
         "source": "github_action",
         "candidate": "Nadila Moezbar",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 00:55:46",
+        "source": "github_action",
+        "candidate": "Aldwin Amoza Ahmadani",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
