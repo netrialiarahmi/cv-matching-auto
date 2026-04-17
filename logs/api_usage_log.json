@@ -7143,14 +7143,14 @@
     ]
   },
   "2026-04-17": {
-    "total": 63,
+    "total": 64,
     "streamlit": 0,
-    "github_action": 63,
-    "successful": 63,
+    "github_action": 64,
+    "successful": 64,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
-      "Marketing Communication Officer KG Media": 32
+      "Marketing Communication Officer KG Media": 33
     },
     "entries": [
       {
@@ -7591,6 +7591,13 @@
         "timestamp": "2026-04-17 01:07:38",
         "source": "github_action",
         "candidate": "Fadel Muhamad Gardea",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 01:08:07",
+        "source": "github_action",
+        "candidate": "lina Desyiriana",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
