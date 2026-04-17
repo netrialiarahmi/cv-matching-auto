@@ -7143,26 +7143,19 @@
     ]
   },
   "2026-04-17": {
-    "total": 368,
+    "total": 369,
     "streamlit": 0,
-    "github_action": 368,
-    "successful": 368,
+    "github_action": 369,
+    "successful": 369,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
       "Sustainability Officer KG Media": 100,
-      "Strategic Planner KG Media": 37
+      "Strategic Planner KG Media": 38
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 02:47:18",
-        "source": "github_action",
-        "candidate": "Raymundus Hamis",
-        "position": "Sustainability Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 02:47:46",
         "source": "github_action",
@@ -7853,6 +7846,13 @@
         "timestamp": "2026-04-17 03:33:57",
         "source": "github_action",
         "candidate": "jennifer patricia",
+        "position": "Strategic Planner KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 03:34:24",
+        "source": "github_action",
+        "candidate": "Rifdah Khairunnisa",
         "position": "Strategic Planner KG Media",
         "success": true
       }
