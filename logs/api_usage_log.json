@@ -7143,25 +7143,18 @@
     ]
   },
   "2026-04-17": {
-    "total": 321,
+    "total": 322,
     "streamlit": 0,
-    "github_action": 321,
-    "successful": 321,
+    "github_action": 322,
+    "successful": 322,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
-      "Sustainability Officer KG Media": 90
+      "Sustainability Officer KG Media": 91
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 02:24:52",
-        "source": "github_action",
-        "candidate": "Natasa Alifah",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 02:25:33",
         "source": "github_action",
@@ -7852,6 +7845,13 @@
         "timestamp": "2026-04-17 03:11:24",
         "source": "github_action",
         "candidate": "Sarah Ilham",
+        "position": "Sustainability Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 03:11:53",
+        "source": "github_action",
+        "candidate": "Alvita Zahra",
         "position": "Sustainability Officer KG Media",
         "success": true
       }
