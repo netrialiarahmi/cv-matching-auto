@@ -7143,10 +7143,10 @@
     ]
   },
   "2026-04-17": {
-    "total": 763,
+    "total": 764,
     "streamlit": 0,
-    "github_action": 763,
-    "successful": 763,
+    "github_action": 764,
+    "successful": 764,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
@@ -7154,16 +7154,9 @@
       "Reporter Megapolitan": 200,
       "Sustainability Officer KG Media": 200,
       "Strategic Planner KG Media": 90,
-      "Reporter Nasional": 42
+      "Reporter Nasional": 43
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 07:52:15",
-        "source": "github_action",
-        "candidate": "Gert Antonio Tobing",
-        "position": "Sustainability Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 07:52:46",
         "source": "github_action",
@@ -7854,6 +7847,13 @@
         "timestamp": "2026-04-17 08:41:32",
         "source": "github_action",
         "candidate": "Silfani Alfadiyah",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 08:42:02",
+        "source": "github_action",
+        "candidate": "ika arlina utari",
         "position": "Reporter Nasional",
         "success": true
       }
