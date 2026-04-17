@@ -7143,26 +7143,19 @@
     ]
   },
   "2026-04-17": {
-    "total": 413,
+    "total": 414,
     "streamlit": 0,
-    "github_action": 413,
-    "successful": 413,
+    "github_action": 414,
+    "successful": 414,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
       "Sustainability Officer KG Media": 100,
-      "Strategic Planner KG Media": 82
+      "Strategic Planner KG Media": 83
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 03:08:28",
-        "source": "github_action",
-        "candidate": "Aditya Rizky",
-        "position": "Sustainability Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 03:08:54",
         "source": "github_action",
@@ -7853,6 +7846,13 @@
         "timestamp": "2026-04-17 03:55:34",
         "source": "github_action",
         "candidate": "Devianna Felicia Veronica",
+        "position": "Strategic Planner KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 03:56:02",
+        "source": "github_action",
+        "candidate": "Irma Anisa Putri",
         "position": "Strategic Planner KG Media",
         "success": true
       }
