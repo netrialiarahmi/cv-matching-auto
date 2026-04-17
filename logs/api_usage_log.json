@@ -7143,10 +7143,10 @@
     ]
   },
   "2026-04-17": {
-    "total": 823,
+    "total": 824,
     "streamlit": 0,
-    "github_action": 823,
-    "successful": 823,
+    "github_action": 824,
+    "successful": 824,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
@@ -7154,16 +7154,9 @@
       "Reporter Megapolitan": 200,
       "Sustainability Officer KG Media": 200,
       "Strategic Planner KG Media": 90,
-      "Reporter Nasional": 102
+      "Reporter Nasional": 103
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 08:22:17",
-        "source": "github_action",
-        "candidate": "Selma Adalia Surya",
-        "position": "Sustainability Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 08:22:51",
         "source": "github_action",
@@ -7854,6 +7847,13 @@
         "timestamp": "2026-04-17 09:10:39",
         "source": "github_action",
         "candidate": "Iqbal Firman",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 09:11:10",
+        "source": "github_action",
+        "candidate": "Bintang Raditya",
         "position": "Reporter Nasional",
         "success": true
       }
