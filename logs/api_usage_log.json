@@ -7143,10 +7143,10 @@
     ]
   },
   "2026-04-17": {
-    "total": 923,
+    "total": 924,
     "streamlit": 0,
-    "github_action": 923,
-    "successful": 923,
+    "github_action": 924,
+    "successful": 924,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
@@ -7155,16 +7155,9 @@
       "Sustainability Officer KG Media": 200,
       "Strategic Planner KG Media": 90,
       "Reporter Nasional": 112,
-      "Content Writer Homey": 90
+      "Content Writer Homey": 91
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 09:11:10",
-        "source": "github_action",
-        "candidate": "Bintang Raditya",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 09:11:45",
         "source": "github_action",
@@ -7855,6 +7848,13 @@
         "timestamp": "2026-04-17 09:59:28",
         "source": "github_action",
         "candidate": "Salsabila Adha",
+        "position": "Content Writer Homey",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 10:00:01",
+        "source": "github_action",
+        "candidate": "Faozan Tri Nugroho",
         "position": "Content Writer Homey",
         "success": true
       }
