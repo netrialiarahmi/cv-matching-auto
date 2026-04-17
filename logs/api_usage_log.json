@@ -7143,26 +7143,19 @@
     ]
   },
   "2026-04-17": {
-    "total": 353,
+    "total": 354,
     "streamlit": 0,
-    "github_action": 353,
-    "successful": 353,
+    "github_action": 354,
+    "successful": 354,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
       "Sustainability Officer KG Media": 100,
-      "Strategic Planner KG Media": 22
+      "Strategic Planner KG Media": 23
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 02:40:22",
-        "source": "github_action",
-        "candidate": "Binta Zulfia",
-        "position": "Sustainability Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 02:40:52",
         "source": "github_action",
@@ -7853,6 +7846,13 @@
         "timestamp": "2026-04-17 03:26:36",
         "source": "github_action",
         "candidate": "Angela Natalia Marito Hadamaean",
+        "position": "Strategic Planner KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 03:27:08",
+        "source": "github_action",
+        "candidate": "Moses Korano",
         "position": "Strategic Planner KG Media",
         "success": true
       }
