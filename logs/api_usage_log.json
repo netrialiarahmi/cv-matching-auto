@@ -7143,24 +7143,17 @@
     ]
   },
   "2026-04-17": {
-    "total": 197,
+    "total": 198,
     "streamlit": 0,
-    "github_action": 197,
-    "successful": 197,
+    "github_action": 198,
+    "successful": 198,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Megapolitan": 66
+      "Reporter Megapolitan": 67
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 01:25:37",
-        "source": "github_action",
-        "candidate": "Mewika Mewika",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 01:26:07",
         "source": "github_action",
@@ -7851,6 +7844,13 @@
         "timestamp": "2026-04-17 02:13:21",
         "source": "github_action",
         "candidate": "Ardan Fitriansyah",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 02:13:53",
+        "source": "github_action",
+        "candidate": "michael matthew",
         "position": "Reporter Megapolitan",
         "success": true
       }
