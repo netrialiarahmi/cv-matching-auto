@@ -7143,25 +7143,18 @@
     ]
   },
   "2026-04-17": {
-    "total": 323,
+    "total": 324,
     "streamlit": 0,
-    "github_action": 323,
-    "successful": 323,
+    "github_action": 324,
+    "successful": 324,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
-      "Sustainability Officer KG Media": 92
+      "Sustainability Officer KG Media": 93
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 02:26:02",
-        "source": "github_action",
-        "candidate": "Alya Hafilah",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 02:26:33",
         "source": "github_action",
@@ -7852,6 +7845,13 @@
         "timestamp": "2026-04-17 03:12:25",
         "source": "github_action",
         "candidate": "Selma Adalia Surya",
+        "position": "Sustainability Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 03:12:58",
+        "source": "github_action",
+        "candidate": "Yulaichah .",
         "position": "Sustainability Officer KG Media",
         "success": true
       }
