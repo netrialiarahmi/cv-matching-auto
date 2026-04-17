@@ -7143,10 +7143,10 @@
     ]
   },
   "2026-04-17": {
-    "total": 815,
+    "total": 816,
     "streamlit": 0,
-    "github_action": 815,
-    "successful": 815,
+    "github_action": 816,
+    "successful": 816,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
@@ -7154,16 +7154,9 @@
       "Reporter Megapolitan": 200,
       "Sustainability Officer KG Media": 200,
       "Strategic Planner KG Media": 90,
-      "Reporter Nasional": 94
+      "Reporter Nasional": 95
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 08:18:32",
-        "source": "github_action",
-        "candidate": "Maghfira Syahruni",
-        "position": "Sustainability Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 08:19:08",
         "source": "github_action",
@@ -7854,6 +7847,13 @@
         "timestamp": "2026-04-17 09:07:27",
         "source": "github_action",
         "candidate": "Nik Nik Fadlah",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 09:07:31",
+        "source": "github_action",
+        "candidate": "Fadli Parangin angin",
         "position": "Reporter Nasional",
         "success": true
       }
