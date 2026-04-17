@@ -7143,24 +7143,17 @@
     ]
   },
   "2026-04-17": {
-    "total": 133,
+    "total": 134,
     "streamlit": 0,
-    "github_action": 133,
-    "successful": 133,
+    "github_action": 134,
+    "successful": 134,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Megapolitan": 2
+      "Reporter Megapolitan": 3
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 00:53:45",
-        "source": "github_action",
-        "candidate": "Rizqiyani Asri Firdaus",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 00:54:11",
         "source": "github_action",
@@ -7851,6 +7844,13 @@
         "timestamp": "2026-04-17 01:43:02",
         "source": "github_action",
         "candidate": "Farie judhistira",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 01:43:31",
+        "source": "github_action",
+        "candidate": "Fitya Nabila Rabbani",
         "position": "Reporter Megapolitan",
         "success": true
       }
