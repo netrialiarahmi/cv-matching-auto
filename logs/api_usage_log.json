@@ -7143,10 +7143,10 @@
     ]
   },
   "2026-04-17": {
-    "total": 781,
+    "total": 782,
     "streamlit": 0,
-    "github_action": 781,
-    "successful": 781,
+    "github_action": 782,
+    "successful": 782,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
@@ -7154,16 +7154,9 @@
       "Reporter Megapolitan": 200,
       "Sustainability Officer KG Media": 200,
       "Strategic Planner KG Media": 90,
-      "Reporter Nasional": 60
+      "Reporter Nasional": 61
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 08:01:01",
-        "source": "github_action",
-        "candidate": "Muhammad Hilmi Faiz",
-        "position": "Sustainability Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 08:01:34",
         "source": "github_action",
@@ -7854,6 +7847,13 @@
         "timestamp": "2026-04-17 08:50:02",
         "source": "github_action",
         "candidate": "fauzan nugraha",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 08:50:29",
+        "source": "github_action",
+        "candidate": "Fikri Rahmat Utama",
         "position": "Reporter Nasional",
         "success": true
       }
