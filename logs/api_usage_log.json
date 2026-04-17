@@ -7143,27 +7143,20 @@
     ]
   },
   "2026-04-17": {
-    "total": 556,
+    "total": 557,
     "streamlit": 0,
-    "github_action": 556,
-    "successful": 556,
+    "github_action": 557,
+    "successful": 557,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 200,
-      "Reporter Megapolitan": 125,
+      "Reporter Megapolitan": 126,
       "Sustainability Officer KG Media": 100,
       "Strategic Planner KG Media": 88,
       "Reporter Nasional": 12
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 04:16:46",
-        "source": "github_action",
-        "candidate": "Lutfya Buatika Inka",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 04:17:14",
         "source": "github_action",
@@ -7854,6 +7847,13 @@
         "timestamp": "2026-04-17 06:53:04",
         "source": "github_action",
         "candidate": "Aulia Vinka Dinda Pratiwi S. I. Kom",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 06:55:22",
+        "source": "github_action",
+        "candidate": "Muhammad Rayana Zakariyya",
         "position": "Reporter Megapolitan",
         "success": true
       }
