@@ -7143,26 +7143,19 @@
     ]
   },
   "2026-04-17": {
-    "total": 387,
+    "total": 388,
     "streamlit": 0,
-    "github_action": 387,
-    "successful": 387,
+    "github_action": 388,
+    "successful": 388,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
       "Sustainability Officer KG Media": 100,
-      "Strategic Planner KG Media": 56
+      "Strategic Planner KG Media": 57
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 02:55:30",
-        "source": "github_action",
-        "candidate": "Rizky Muhammad",
-        "position": "Sustainability Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 02:56:00",
         "source": "github_action",
@@ -7853,6 +7846,13 @@
         "timestamp": "2026-04-17 03:44:04",
         "source": "github_action",
         "candidate": "Dira Maulida",
+        "position": "Strategic Planner KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 03:44:35",
+        "source": "github_action",
+        "candidate": "Halim Zunurain",
         "position": "Strategic Planner KG Media",
         "success": true
       }
