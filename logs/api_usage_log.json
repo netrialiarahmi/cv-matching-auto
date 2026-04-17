@@ -7143,14 +7143,14 @@
     ]
   },
   "2026-04-17": {
-    "total": 80,
+    "total": 81,
     "streamlit": 0,
-    "github_action": 80,
-    "successful": 80,
+    "github_action": 81,
+    "successful": 81,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
-      "Marketing Communication Officer KG Media": 49
+      "Marketing Communication Officer KG Media": 50
     },
     "entries": [
       {
@@ -7710,6 +7710,13 @@
         "timestamp": "2026-04-17 01:16:21",
         "source": "github_action",
         "candidate": "shaffa shabila",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 01:16:52",
+        "source": "github_action",
+        "candidate": "Muhammad Zakiey Azhar",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
