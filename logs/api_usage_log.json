@@ -7143,24 +7143,17 @@
     ]
   },
   "2026-04-17": {
-    "total": 173,
+    "total": 174,
     "streamlit": 0,
-    "github_action": 173,
-    "successful": 173,
+    "github_action": 174,
+    "successful": 174,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Megapolitan": 42
+      "Reporter Megapolitan": 43
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 01:13:23",
-        "source": "github_action",
-        "candidate": "Aditya Dwi Prasetyo",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 01:13:54",
         "source": "github_action",
@@ -7851,6 +7844,13 @@
         "timestamp": "2026-04-17 02:01:29",
         "source": "github_action",
         "candidate": "Ervira Octaviola Kurniawan",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 02:02:00",
+        "source": "github_action",
+        "candidate": "Woro Rn",
         "position": "Reporter Megapolitan",
         "success": true
       }
