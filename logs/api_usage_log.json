@@ -7143,27 +7143,20 @@
     ]
   },
   "2026-04-17": {
-    "total": 718,
+    "total": 719,
     "streamlit": 0,
-    "github_action": 718,
-    "successful": 718,
+    "github_action": 719,
+    "successful": 719,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 200,
       "Reporter Megapolitan": 200,
-      "Sustainability Officer KG Media": 187,
+      "Sustainability Officer KG Media": 188,
       "Strategic Planner KG Media": 88,
       "Reporter Nasional": 12
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 07:29:31",
-        "source": "github_action",
-        "candidate": "Nova Dwi Pamungkas",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 07:30:00",
         "source": "github_action",
@@ -7854,6 +7847,13 @@
         "timestamp": "2026-04-17 08:19:11",
         "source": "github_action",
         "candidate": "Diniya Khalila",
+        "position": "Sustainability Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 08:19:41",
+        "source": "github_action",
+        "candidate": "Aisyah Putri Zahirah",
         "position": "Sustainability Officer KG Media",
         "success": true
       }
