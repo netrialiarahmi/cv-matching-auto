@@ -7143,14 +7143,14 @@
     ]
   },
   "2026-04-17": {
-    "total": 83,
+    "total": 84,
     "streamlit": 0,
-    "github_action": 83,
-    "successful": 83,
+    "github_action": 84,
+    "successful": 84,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
-      "Marketing Communication Officer KG Media": 52
+      "Marketing Communication Officer KG Media": 53
     },
     "entries": [
       {
@@ -7731,6 +7731,13 @@
         "timestamp": "2026-04-17 01:17:50",
         "source": "github_action",
         "candidate": "Desvita N.",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 01:18:20",
+        "source": "github_action",
+        "candidate": "Igham Widi Hadiansyah",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
