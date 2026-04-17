@@ -7143,27 +7143,20 @@
     ]
   },
   "2026-04-17": {
-    "total": 562,
+    "total": 563,
     "streamlit": 0,
-    "github_action": 562,
-    "successful": 562,
+    "github_action": 563,
+    "successful": 563,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 200,
-      "Reporter Megapolitan": 131,
+      "Reporter Megapolitan": 132,
       "Sustainability Officer KG Media": 100,
       "Strategic Planner KG Media": 88,
       "Reporter Nasional": 12
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 04:19:38",
-        "source": "github_action",
-        "candidate": "Weny Welyani",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 04:20:10",
         "source": "github_action",
@@ -7854,6 +7847,13 @@
         "timestamp": "2026-04-17 07:01:24",
         "source": "github_action",
         "candidate": "michael matthew",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 07:01:27",
+        "source": "github_action",
+        "candidate": "Sidney Alvionita Saputra",
         "position": "Reporter Megapolitan",
         "success": true
       }
