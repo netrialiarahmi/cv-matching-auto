@@ -7143,10 +7143,10 @@
     ]
   },
   "2026-04-17": {
-    "total": 905,
+    "total": 906,
     "streamlit": 0,
-    "github_action": 905,
-    "successful": 905,
+    "github_action": 906,
+    "successful": 906,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
@@ -7155,16 +7155,9 @@
       "Sustainability Officer KG Media": 200,
       "Strategic Planner KG Media": 90,
       "Reporter Nasional": 112,
-      "Content Writer Homey": 72
+      "Content Writer Homey": 73
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 09:02:41",
-        "source": "github_action",
-        "candidate": "Diva Mawarni Permana",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 09:03:13",
         "source": "github_action",
@@ -7855,6 +7848,13 @@
         "timestamp": "2026-04-17 09:49:58",
         "source": "github_action",
         "candidate": "Alfi Yuda",
+        "position": "Content Writer Homey",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 09:50:36",
+        "source": "github_action",
+        "candidate": "Faiqotul Himma",
         "position": "Content Writer Homey",
         "success": true
       }
