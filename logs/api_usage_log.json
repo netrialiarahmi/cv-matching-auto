@@ -7143,10 +7143,10 @@
     ]
   },
   "2026-04-17": {
-    "total": 895,
+    "total": 896,
     "streamlit": 0,
-    "github_action": 895,
-    "successful": 895,
+    "github_action": 896,
+    "successful": 896,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
@@ -7155,16 +7155,9 @@
       "Sustainability Officer KG Media": 200,
       "Strategic Planner KG Media": 90,
       "Reporter Nasional": 112,
-      "Content Writer Homey": 62
+      "Content Writer Homey": 63
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 08:57:27",
-        "source": "github_action",
-        "candidate": "Eggi Tanoto",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 08:57:55",
         "source": "github_action",
@@ -7855,6 +7848,13 @@
         "timestamp": "2026-04-17 09:45:19",
         "source": "github_action",
         "candidate": "Fauziah Sabtuanisa",
+        "position": "Content Writer Homey",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 09:45:53",
+        "source": "github_action",
+        "candidate": "Alfia Nur Fadhila",
         "position": "Content Writer Homey",
         "success": true
       }
