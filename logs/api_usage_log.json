@@ -7143,24 +7143,17 @@
     ]
   },
   "2026-04-17": {
-    "total": 220,
+    "total": 221,
     "streamlit": 0,
-    "github_action": 220,
-    "successful": 220,
+    "github_action": 221,
+    "successful": 221,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Megapolitan": 89
+      "Reporter Megapolitan": 90
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 01:36:44",
-        "source": "github_action",
-        "candidate": "Muhammad Cipta Fikri Apriyadi",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 01:37:19",
         "source": "github_action",
@@ -7851,6 +7844,13 @@
         "timestamp": "2026-04-17 02:23:48",
         "source": "github_action",
         "candidate": "Nabillah Syidah",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 02:24:20",
+        "source": "github_action",
+        "candidate": "Wahyu Setiawan",
         "position": "Reporter Megapolitan",
         "success": true
       }
