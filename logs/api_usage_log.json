@@ -7143,14 +7143,14 @@
     ]
   },
   "2026-04-17": {
-    "total": 97,
+    "total": 98,
     "streamlit": 0,
-    "github_action": 97,
-    "successful": 97,
+    "github_action": 98,
+    "successful": 98,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
-      "Marketing Communication Officer KG Media": 66
+      "Marketing Communication Officer KG Media": 67
     },
     "entries": [
       {
@@ -7829,6 +7829,13 @@
         "timestamp": "2026-04-17 01:25:07",
         "source": "github_action",
         "candidate": "Althea Aisya",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 01:25:37",
+        "source": "github_action",
+        "candidate": "Mewika Mewika",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
