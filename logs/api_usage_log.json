@@ -7143,24 +7143,17 @@
     ]
   },
   "2026-04-17": {
-    "total": 150,
+    "total": 151,
     "streamlit": 0,
-    "github_action": 150,
-    "successful": 150,
+    "github_action": 151,
+    "successful": 151,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Megapolitan": 19
+      "Reporter Megapolitan": 20
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 01:01:40",
-        "source": "github_action",
-        "candidate": "Miriam Levi",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 01:02:12",
         "source": "github_action",
@@ -7851,6 +7844,13 @@
         "timestamp": "2026-04-17 01:51:14",
         "source": "github_action",
         "candidate": "Nadine Dwi Fahira",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 01:51:40",
+        "source": "github_action",
+        "candidate": "Hana Fathina Chaniago",
         "position": "Reporter Megapolitan",
         "success": true
       }
