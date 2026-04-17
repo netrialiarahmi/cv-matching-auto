@@ -7143,23 +7143,16 @@
     ]
   },
   "2026-04-17": {
-    "total": 129,
+    "total": 130,
     "streamlit": 0,
-    "github_action": 129,
-    "successful": 129,
+    "github_action": 130,
+    "successful": 130,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
-      "Marketing Communication Officer KG Media": 98
+      "Marketing Communication Officer KG Media": 99
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 00:50:26",
-        "source": "github_action",
-        "candidate": "Matin Muhammad",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 00:50:52",
         "source": "github_action",
@@ -7850,6 +7843,13 @@
         "timestamp": "2026-04-17 01:40:56",
         "source": "github_action",
         "candidate": "Juan Yosef",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 01:41:27",
+        "source": "github_action",
+        "candidate": "Resty Kurniati Putri",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
