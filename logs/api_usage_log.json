@@ -7143,26 +7143,19 @@
     ]
   },
   "2026-04-17": {
-    "total": 411,
+    "total": 412,
     "streamlit": 0,
-    "github_action": 411,
-    "successful": 411,
+    "github_action": 412,
+    "successful": 412,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
       "Sustainability Officer KG Media": 100,
-      "Strategic Planner KG Media": 80
+      "Strategic Planner KG Media": 81
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 03:07:29",
-        "source": "github_action",
-        "candidate": "Risky Lucky Romadhon",
-        "position": "Sustainability Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 03:07:56",
         "source": "github_action",
@@ -7853,6 +7846,13 @@
         "timestamp": "2026-04-17 03:55:05",
         "source": "github_action",
         "candidate": "Muhammad Yafa  Atsari",
+        "position": "Strategic Planner KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 03:55:07",
+        "source": "github_action",
+        "candidate": "Agie Satria Chandra",
         "position": "Strategic Planner KG Media",
         "success": true
       }
