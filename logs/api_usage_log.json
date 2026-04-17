@@ -7143,27 +7143,20 @@
     ]
   },
   "2026-04-17": {
-    "total": 671,
+    "total": 672,
     "streamlit": 0,
-    "github_action": 671,
-    "successful": 671,
+    "github_action": 672,
+    "successful": 672,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 200,
       "Reporter Megapolitan": 200,
-      "Sustainability Officer KG Media": 140,
+      "Sustainability Officer KG Media": 141,
       "Strategic Planner KG Media": 88,
       "Reporter Nasional": 12
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 07:05:53",
-        "source": "github_action",
-        "candidate": "Putri Mutia Rahman",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 07:06:22",
         "source": "github_action",
@@ -7854,6 +7847,13 @@
         "timestamp": "2026-04-17 07:55:31",
         "source": "github_action",
         "candidate": "Febryanto Yudha Wijaya",
+        "position": "Sustainability Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 07:56:02",
+        "source": "github_action",
+        "candidate": "Muhammad Rasya Hadziq",
         "position": "Sustainability Officer KG Media",
         "success": true
       }
