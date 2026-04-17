@@ -7143,26 +7143,19 @@
     ]
   },
   "2026-04-17": {
-    "total": 385,
+    "total": 386,
     "streamlit": 0,
-    "github_action": 385,
-    "successful": 385,
+    "github_action": 386,
+    "successful": 386,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
       "Sustainability Officer KG Media": 100,
-      "Strategic Planner KG Media": 54
+      "Strategic Planner KG Media": 55
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 02:54:57",
-        "source": "github_action",
-        "candidate": "Suci Rachmawati",
-        "position": "Sustainability Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 02:55:28",
         "source": "github_action",
@@ -7853,6 +7846,13 @@
         "timestamp": "2026-04-17 03:42:58",
         "source": "github_action",
         "candidate": "Anita Zachrah",
+        "position": "Strategic Planner KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 03:43:30",
+        "source": "github_action",
+        "candidate": "Andi Hanifah Oktariani",
         "position": "Strategic Planner KG Media",
         "success": true
       }
