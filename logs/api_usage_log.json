@@ -7143,26 +7143,19 @@
     ]
   },
   "2026-04-17": {
-    "total": 346,
+    "total": 347,
     "streamlit": 0,
-    "github_action": 346,
-    "successful": 346,
+    "github_action": 347,
+    "successful": 347,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
       "Sustainability Officer KG Media": 100,
-      "Strategic Planner KG Media": 15
+      "Strategic Planner KG Media": 16
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 02:37:23",
-        "source": "github_action",
-        "candidate": "Ririn Puspitasari",
-        "position": "Sustainability Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 02:37:25",
         "source": "github_action",
@@ -7853,6 +7846,13 @@
         "timestamp": "2026-04-17 03:23:00",
         "source": "github_action",
         "candidate": "Fazdillah Reza Kaspuri",
+        "position": "Strategic Planner KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 03:23:27",
+        "source": "github_action",
+        "candidate": "Priska Ezrahayu",
         "position": "Strategic Planner KG Media",
         "success": true
       }
