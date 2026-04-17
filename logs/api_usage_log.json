@@ -7143,25 +7143,18 @@
     ]
   },
   "2026-04-17": {
-    "total": 258,
+    "total": 259,
     "streamlit": 0,
-    "github_action": 258,
-    "successful": 258,
+    "github_action": 259,
+    "successful": 259,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
-      "Sustainability Officer KG Media": 27
+      "Sustainability Officer KG Media": 28
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 01:55:34",
-        "source": "github_action",
-        "candidate": "Rizqy Putra",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 01:56:02",
         "source": "github_action",
@@ -7852,6 +7845,13 @@
         "timestamp": "2026-04-17 02:42:13",
         "source": "github_action",
         "candidate": "Christopher Abimanyu",
+        "position": "Sustainability Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 02:42:39",
+        "source": "github_action",
+        "candidate": "Mizar Safari Maasily",
         "position": "Sustainability Officer KG Media",
         "success": true
       }
