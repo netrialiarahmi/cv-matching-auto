@@ -7143,10 +7143,10 @@
     ]
   },
   "2026-04-17": {
-    "total": 785,
+    "total": 786,
     "streamlit": 0,
-    "github_action": 785,
-    "successful": 785,
+    "github_action": 786,
+    "successful": 786,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
@@ -7154,16 +7154,9 @@
       "Reporter Megapolitan": 200,
       "Sustainability Officer KG Media": 200,
       "Strategic Planner KG Media": 90,
-      "Reporter Nasional": 64
+      "Reporter Nasional": 65
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 08:02:42",
-        "source": "github_action",
-        "candidate": "Satria  Tama",
-        "position": "Sustainability Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 08:03:09",
         "source": "github_action",
@@ -7854,6 +7847,13 @@
         "timestamp": "2026-04-17 08:51:58",
         "source": "github_action",
         "candidate": "Rafly  Hardiana",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 08:52:28",
+        "source": "github_action",
+        "candidate": "Naufal Refrizal",
         "position": "Reporter Nasional",
         "success": true
       }
