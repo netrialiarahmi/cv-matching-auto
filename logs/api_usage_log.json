@@ -7143,25 +7143,18 @@
     ]
   },
   "2026-04-17": {
-    "total": 275,
+    "total": 276,
     "streamlit": 0,
-    "github_action": 275,
-    "successful": 275,
+    "github_action": 276,
+    "successful": 276,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
-      "Sustainability Officer KG Media": 44
+      "Sustainability Officer KG Media": 45
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 02:02:50",
-        "source": "github_action",
-        "candidate": "Harits Arrazie",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 02:03:18",
         "source": "github_action",
@@ -7852,6 +7845,13 @@
         "timestamp": "2026-04-17 02:50:12",
         "source": "github_action",
         "candidate": "Marcellino Faisal Ronald, S.M.",
+        "position": "Sustainability Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 02:50:45",
+        "source": "github_action",
+        "candidate": "Arvian Messianik",
         "position": "Sustainability Officer KG Media",
         "success": true
       }
