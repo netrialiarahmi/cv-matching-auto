@@ -7143,14 +7143,14 @@
     ]
   },
   "2026-04-17": {
-    "total": 33,
+    "total": 34,
     "streamlit": 0,
-    "github_action": 33,
-    "successful": 33,
+    "github_action": 34,
+    "successful": 34,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
-      "Marketing Communication Officer KG Media": 2
+      "Marketing Communication Officer KG Media": 3
     },
     "entries": [
       {
@@ -7381,6 +7381,13 @@
         "timestamp": "2026-04-17 00:53:13",
         "source": "github_action",
         "candidate": "Denissa Puteri",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 00:53:45",
+        "source": "github_action",
+        "candidate": "Rizqiyani Asri Firdaus",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
