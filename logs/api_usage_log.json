@@ -7143,14 +7143,14 @@
     ]
   },
   "2026-04-17": {
-    "total": 69,
+    "total": 70,
     "streamlit": 0,
-    "github_action": 69,
-    "successful": 69,
+    "github_action": 70,
+    "successful": 70,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
-      "Marketing Communication Officer KG Media": 38
+      "Marketing Communication Officer KG Media": 39
     },
     "entries": [
       {
@@ -7633,6 +7633,13 @@
         "timestamp": "2026-04-17 01:10:37",
         "source": "github_action",
         "candidate": "Naufal Fadhil",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 01:11:10",
+        "source": "github_action",
+        "candidate": "Muhammad Rayana Zakariyya",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
