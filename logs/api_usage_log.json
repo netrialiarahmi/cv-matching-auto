@@ -7143,10 +7143,10 @@
     ]
   },
   "2026-04-17": {
-    "total": 774,
+    "total": 775,
     "streamlit": 0,
-    "github_action": 774,
-    "successful": 774,
+    "github_action": 775,
+    "successful": 775,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
@@ -7154,16 +7154,9 @@
       "Reporter Megapolitan": 200,
       "Sustainability Officer KG Media": 200,
       "Strategic Planner KG Media": 90,
-      "Reporter Nasional": 53
+      "Reporter Nasional": 54
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 07:57:33",
-        "source": "github_action",
-        "candidate": "Marcellino Faisal Ronald, S.M.",
-        "position": "Sustainability Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 07:58:12",
         "source": "github_action",
@@ -7854,6 +7847,13 @@
         "timestamp": "2026-04-17 08:46:42",
         "source": "github_action",
         "candidate": "Frisna silvilia berutu Frisna",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 08:47:18",
+        "source": "github_action",
+        "candidate": "Nur Faizah Al Bahriyatul Baqiroh",
         "position": "Reporter Nasional",
         "success": true
       }
