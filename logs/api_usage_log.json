@@ -7143,24 +7143,17 @@
     ]
   },
   "2026-04-17": {
-    "total": 225,
+    "total": 226,
     "streamlit": 0,
-    "github_action": 225,
-    "successful": 225,
+    "github_action": 226,
+    "successful": 226,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Megapolitan": 94
+      "Reporter Megapolitan": 95
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 01:39:22",
-        "source": "github_action",
-        "candidate": "brian adityatama",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 01:39:50",
         "source": "github_action",
@@ -7851,6 +7844,13 @@
         "timestamp": "2026-04-17 02:26:33",
         "source": "github_action",
         "candidate": "Suharno Suharno",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 02:26:35",
+        "source": "github_action",
+        "candidate": "fauzan nugraha",
         "position": "Reporter Megapolitan",
         "success": true
       }
