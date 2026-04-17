@@ -7143,13 +7143,13 @@
     ]
   },
   "2026-04-17": {
-    "total": 15,
+    "total": 16,
     "streamlit": 0,
-    "github_action": 15,
-    "successful": 15,
+    "github_action": 16,
+    "successful": 16,
     "failed": 0,
     "positions": {
-      "Account Executive VCBL": 15
+      "Account Executive VCBL": 16
     },
     "entries": [
       {
@@ -7254,6 +7254,13 @@
         "timestamp": "2026-04-17 00:44:15",
         "source": "github_action",
         "candidate": "Faiz Ardana Sani",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 00:44:17",
+        "source": "github_action",
+        "candidate": "Korin Indriani",
         "position": "Account Executive VCBL",
         "success": true
       }
