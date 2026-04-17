@@ -7143,27 +7143,20 @@
     ]
   },
   "2026-04-17": {
-    "total": 601,
+    "total": 602,
     "streamlit": 0,
-    "github_action": 601,
-    "successful": 601,
+    "github_action": 602,
+    "successful": 602,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 200,
-      "Reporter Megapolitan": 170,
+      "Reporter Megapolitan": 171,
       "Sustainability Officer KG Media": 100,
       "Strategic Planner KG Media": 88,
       "Reporter Nasional": 12
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 04:53:08",
-        "source": "github_action",
-        "candidate": "Intania  Raihan",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 04:55:28",
         "source": "github_action",
@@ -7854,6 +7847,13 @@
         "timestamp": "2026-04-17 07:20:56",
         "source": "github_action",
         "candidate": "Keisya Permana",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 07:21:24",
+        "source": "github_action",
+        "candidate": "Muhammad Guruh Nuary",
         "position": "Reporter Megapolitan",
         "success": true
       }
