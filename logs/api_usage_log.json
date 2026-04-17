@@ -7143,25 +7143,18 @@
     ]
   },
   "2026-04-17": {
-    "total": 314,
+    "total": 315,
     "streamlit": 0,
-    "github_action": 314,
-    "successful": 314,
+    "github_action": 315,
+    "successful": 315,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
-      "Sustainability Officer KG Media": 83
+      "Sustainability Officer KG Media": 84
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 02:21:25",
-        "source": "github_action",
-        "candidate": "Athaya Ramadhan",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 02:21:50",
         "source": "github_action",
@@ -7852,6 +7845,13 @@
         "timestamp": "2026-04-17 03:08:28",
         "source": "github_action",
         "candidate": "Aditya Rizky",
+        "position": "Sustainability Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 03:08:54",
+        "source": "github_action",
+        "candidate": "Maghfira Syahruni",
         "position": "Sustainability Officer KG Media",
         "success": true
       }
