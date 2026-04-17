@@ -7143,25 +7143,18 @@
     ]
   },
   "2026-04-17": {
-    "total": 234,
+    "total": 235,
     "streamlit": 0,
-    "github_action": 234,
-    "successful": 234,
+    "github_action": 235,
+    "successful": 235,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
-      "Sustainability Officer KG Media": 3
+      "Sustainability Officer KG Media": 4
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 01:44:00",
-        "source": "github_action",
-        "candidate": "Dwi Utari",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 01:44:32",
         "source": "github_action",
@@ -7852,6 +7845,13 @@
         "timestamp": "2026-04-17 02:30:34",
         "source": "github_action",
         "candidate": "Hafizh Aliyyuddin Irawan",
+        "position": "Sustainability Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 02:31:05",
+        "source": "github_action",
+        "candidate": "Aqshal Abiyoga Muhammad",
         "position": "Sustainability Officer KG Media",
         "success": true
       }
