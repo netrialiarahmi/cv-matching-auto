@@ -7143,10 +7143,10 @@
     ]
   },
   "2026-04-17": {
-    "total": 899,
+    "total": 900,
     "streamlit": 0,
-    "github_action": 899,
-    "successful": 899,
+    "github_action": 900,
+    "successful": 900,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
@@ -7155,16 +7155,9 @@
       "Sustainability Officer KG Media": 200,
       "Strategic Planner KG Media": 90,
       "Reporter Nasional": 112,
-      "Content Writer Homey": 66
+      "Content Writer Homey": 67
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 08:59:25",
-        "source": "github_action",
-        "candidate": "Khansa Nabila",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 08:59:57",
         "source": "github_action",
@@ -7855,6 +7848,13 @@
         "timestamp": "2026-04-17 09:47:23",
         "source": "github_action",
         "candidate": "Muhammad rizki",
+        "position": "Content Writer Homey",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 09:47:25",
+        "source": "github_action",
+        "candidate": "Frisna silvilia berutu Frisna",
         "position": "Content Writer Homey",
         "success": true
       }
