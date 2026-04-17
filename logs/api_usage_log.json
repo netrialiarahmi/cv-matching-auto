@@ -7143,27 +7143,20 @@
     ]
   },
   "2026-04-17": {
-    "total": 680,
+    "total": 681,
     "streamlit": 0,
-    "github_action": 680,
-    "successful": 680,
+    "github_action": 681,
+    "successful": 681,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 200,
       "Reporter Megapolitan": 200,
-      "Sustainability Officer KG Media": 149,
+      "Sustainability Officer KG Media": 150,
       "Strategic Planner KG Media": 88,
       "Reporter Nasional": 12
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 07:10:41",
-        "source": "github_action",
-        "candidate": "Yolanda Pradita",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 07:11:09",
         "source": "github_action",
@@ -7854,6 +7847,13 @@
         "timestamp": "2026-04-17 07:59:52",
         "source": "github_action",
         "candidate": "Rizky Fuji Munfariz",
+        "position": "Sustainability Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 08:00:27",
+        "source": "github_action",
+        "candidate": "Kynan Reihan",
         "position": "Sustainability Officer KG Media",
         "success": true
       }
