@@ -7143,14 +7143,14 @@
     ]
   },
   "2026-04-17": {
-    "total": 66,
+    "total": 67,
     "streamlit": 0,
-    "github_action": 66,
-    "successful": 66,
+    "github_action": 67,
+    "successful": 67,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
-      "Marketing Communication Officer KG Media": 35
+      "Marketing Communication Officer KG Media": 36
     },
     "entries": [
       {
@@ -7612,6 +7612,13 @@
         "timestamp": "2026-04-17 01:09:08",
         "source": "github_action",
         "candidate": "Weny Welyani",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 01:09:40",
+        "source": "github_action",
+        "candidate": "vania maudyna",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
