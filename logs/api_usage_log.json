@@ -7143,14 +7143,14 @@
     ]
   },
   "2026-04-17": {
-    "total": 34,
+    "total": 35,
     "streamlit": 0,
-    "github_action": 34,
-    "successful": 34,
+    "github_action": 35,
+    "successful": 35,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
-      "Marketing Communication Officer KG Media": 3
+      "Marketing Communication Officer KG Media": 4
     },
     "entries": [
       {
@@ -7388,6 +7388,13 @@
         "timestamp": "2026-04-17 00:53:45",
         "source": "github_action",
         "candidate": "Rizqiyani Asri Firdaus",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 00:54:11",
+        "source": "github_action",
+        "candidate": "Kezia Natasha",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
