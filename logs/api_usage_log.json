@@ -7143,24 +7143,17 @@
     ]
   },
   "2026-04-17": {
-    "total": 204,
+    "total": 205,
     "streamlit": 0,
-    "github_action": 204,
-    "successful": 204,
+    "github_action": 205,
+    "successful": 205,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Megapolitan": 73
+      "Reporter Megapolitan": 74
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 01:28:59",
-        "source": "github_action",
-        "candidate": "Deandra Adira Wuryandari",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 01:29:30",
         "source": "github_action",
@@ -7851,6 +7844,13 @@
         "timestamp": "2026-04-17 02:16:01",
         "source": "github_action",
         "candidate": "Anjani Nuraini Al Sannia",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 02:16:29",
+        "source": "github_action",
+        "candidate": "egi apriyanti",
         "position": "Reporter Megapolitan",
         "success": true
       }
