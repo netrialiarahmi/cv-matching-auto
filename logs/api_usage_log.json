@@ -7143,27 +7143,20 @@
     ]
   },
   "2026-04-17": {
-    "total": 648,
+    "total": 649,
     "streamlit": 0,
-    "github_action": 648,
-    "successful": 648,
+    "github_action": 649,
+    "successful": 649,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 200,
       "Reporter Megapolitan": 200,
-      "Sustainability Officer KG Media": 117,
+      "Sustainability Officer KG Media": 118,
       "Strategic Planner KG Media": 88,
       "Reporter Nasional": 12
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 06:36:56",
-        "source": "github_action",
-        "candidate": "Azzahra Aulia Nada",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 06:39:13",
         "source": "github_action",
@@ -7854,6 +7847,13 @@
         "timestamp": "2026-04-17 07:43:54",
         "source": "github_action",
         "candidate": "Ajeng Pramesthi Rinjani",
+        "position": "Sustainability Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 07:44:23",
+        "source": "github_action",
+        "candidate": "Tahany Hafiza",
         "position": "Sustainability Officer KG Media",
         "success": true
       }
