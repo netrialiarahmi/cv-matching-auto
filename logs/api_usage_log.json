@@ -7143,27 +7143,20 @@
     ]
   },
   "2026-04-17": {
-    "total": 572,
+    "total": 573,
     "streamlit": 0,
-    "github_action": 572,
-    "successful": 572,
+    "github_action": 573,
+    "successful": 573,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 200,
-      "Reporter Megapolitan": 141,
+      "Reporter Megapolitan": 142,
       "Sustainability Officer KG Media": 100,
       "Strategic Planner KG Media": 88,
       "Reporter Nasional": 12
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 04:24:45",
-        "source": "github_action",
-        "candidate": "Andhika Putri",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 04:25:13",
         "source": "github_action",
@@ -7854,6 +7847,13 @@
         "timestamp": "2026-04-17 07:05:53",
         "source": "github_action",
         "candidate": "Putri Mutia Rahman",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 07:06:22",
+        "source": "github_action",
+        "candidate": "Dian Saputra",
         "position": "Reporter Megapolitan",
         "success": true
       }
