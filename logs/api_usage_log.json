@@ -7143,14 +7143,14 @@
     ]
   },
   "2026-04-17": {
-    "total": 81,
+    "total": 82,
     "streamlit": 0,
-    "github_action": 81,
-    "successful": 81,
+    "github_action": 82,
+    "successful": 82,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
-      "Marketing Communication Officer KG Media": 50
+      "Marketing Communication Officer KG Media": 51
     },
     "entries": [
       {
@@ -7717,6 +7717,13 @@
         "timestamp": "2026-04-17 01:16:52",
         "source": "github_action",
         "candidate": "Muhammad Zakiey Azhar",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 01:17:23",
+        "source": "github_action",
+        "candidate": "Alaine Alaine",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
