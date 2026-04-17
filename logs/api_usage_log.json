@@ -7143,26 +7143,19 @@
     ]
   },
   "2026-04-17": {
-    "total": 349,
+    "total": 350,
     "streamlit": 0,
-    "github_action": 349,
-    "successful": 349,
+    "github_action": 350,
+    "successful": 350,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
       "Sustainability Officer KG Media": 100,
-      "Strategic Planner KG Media": 18
+      "Strategic Planner KG Media": 19
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 02:38:24",
-        "source": "github_action",
-        "candidate": "Rian Palimirmo Adi",
-        "position": "Sustainability Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 02:38:55",
         "source": "github_action",
@@ -7853,6 +7846,13 @@
         "timestamp": "2026-04-17 03:24:20",
         "source": "github_action",
         "candidate": "Andri Widhiyanto",
+        "position": "Strategic Planner KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 03:24:50",
+        "source": "github_action",
+        "candidate": "Jeremy Randolph",
         "position": "Strategic Planner KG Media",
         "success": true
       }
