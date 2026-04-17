@@ -7143,26 +7143,19 @@
     ]
   },
   "2026-04-17": {
-    "total": 364,
+    "total": 365,
     "streamlit": 0,
-    "github_action": 364,
-    "successful": 364,
+    "github_action": 365,
+    "successful": 365,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
       "Sustainability Officer KG Media": 100,
-      "Strategic Planner KG Media": 33
+      "Strategic Planner KG Media": 34
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 02:45:29",
-        "source": "github_action",
-        "candidate": "Yasmin Indah Hasari",
-        "position": "Sustainability Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 02:45:57",
         "source": "github_action",
@@ -7853,6 +7846,13 @@
         "timestamp": "2026-04-17 03:31:51",
         "source": "github_action",
         "candidate": "Alfa Ruhma",
+        "position": "Strategic Planner KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 03:32:19",
+        "source": "github_action",
+        "candidate": "Kristine  Theresia",
         "position": "Strategic Planner KG Media",
         "success": true
       }
