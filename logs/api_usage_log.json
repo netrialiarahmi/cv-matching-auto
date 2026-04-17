@@ -7143,24 +7143,17 @@
     ]
   },
   "2026-04-17": {
-    "total": 158,
+    "total": 159,
     "streamlit": 0,
-    "github_action": 158,
-    "successful": 158,
+    "github_action": 159,
+    "successful": 159,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Megapolitan": 27
+      "Reporter Megapolitan": 28
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 01:05:39",
-        "source": "github_action",
-        "candidate": "Gilang Bilal Nuriksa",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 01:06:11",
         "source": "github_action",
@@ -7851,6 +7844,13 @@
         "timestamp": "2026-04-17 01:55:05",
         "source": "github_action",
         "candidate": "Muhammad Zamir",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 01:55:34",
+        "source": "github_action",
+        "candidate": "Rizqy Putra",
         "position": "Reporter Megapolitan",
         "success": true
       }
