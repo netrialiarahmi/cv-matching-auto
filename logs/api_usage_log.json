@@ -7143,25 +7143,18 @@
     ]
   },
   "2026-04-17": {
-    "total": 271,
+    "total": 272,
     "streamlit": 0,
-    "github_action": 271,
-    "successful": 271,
+    "github_action": 272,
+    "successful": 272,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
-      "Sustainability Officer KG Media": 40
+      "Sustainability Officer KG Media": 41
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 02:01:01",
-        "source": "github_action",
-        "candidate": "Tevin Heikal",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 02:01:29",
         "source": "github_action",
@@ -7852,6 +7845,13 @@
         "timestamp": "2026-04-17 02:48:17",
         "source": "github_action",
         "candidate": "Febryanto Yudha Wijaya",
+        "position": "Sustainability Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 02:48:49",
+        "source": "github_action",
+        "candidate": "Muhammad Rasya Hadziq",
         "position": "Sustainability Officer KG Media",
         "success": true
       }
