@@ -7143,14 +7143,14 @@
     ]
   },
   "2026-04-17": {
-    "total": 82,
+    "total": 83,
     "streamlit": 0,
-    "github_action": 82,
-    "successful": 82,
+    "github_action": 83,
+    "successful": 83,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
-      "Marketing Communication Officer KG Media": 51
+      "Marketing Communication Officer KG Media": 52
     },
     "entries": [
       {
@@ -7724,6 +7724,13 @@
         "timestamp": "2026-04-17 01:17:23",
         "source": "github_action",
         "candidate": "Alaine Alaine",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 01:17:50",
+        "source": "github_action",
+        "candidate": "Desvita N.",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
