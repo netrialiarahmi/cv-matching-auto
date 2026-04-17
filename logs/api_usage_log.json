@@ -7143,23 +7143,16 @@
     ]
   },
   "2026-04-17": {
-    "total": 106,
+    "total": 107,
     "streamlit": 0,
-    "github_action": 106,
-    "successful": 106,
+    "github_action": 107,
+    "successful": 107,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
-      "Marketing Communication Officer KG Media": 75
+      "Marketing Communication Officer KG Media": 76
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 00:40:41",
-        "source": "github_action",
-        "candidate": "Suryani Safitri",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 00:41:06",
         "source": "github_action",
@@ -7850,6 +7843,13 @@
         "timestamp": "2026-04-17 01:29:30",
         "source": "github_action",
         "candidate": "Intania  Raihan",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 01:30:00",
+        "source": "github_action",
+        "candidate": "Caesarea Rachman",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
