@@ -7143,26 +7143,19 @@
     ]
   },
   "2026-04-17": {
-    "total": 352,
+    "total": 353,
     "streamlit": 0,
-    "github_action": 352,
-    "successful": 352,
+    "github_action": 353,
+    "successful": 353,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
       "Sustainability Officer KG Media": 100,
-      "Strategic Planner KG Media": 21
+      "Strategic Planner KG Media": 22
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 02:39:54",
-        "source": "github_action",
-        "candidate": "Nur Angga Saputro",
-        "position": "Sustainability Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 02:40:22",
         "source": "github_action",
@@ -7853,6 +7846,13 @@
         "timestamp": "2026-04-17 03:26:04",
         "source": "github_action",
         "candidate": "Fathurreza Febrian",
+        "position": "Strategic Planner KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 03:26:36",
+        "source": "github_action",
+        "candidate": "Angela Natalia Marito Hadamaean",
         "position": "Strategic Planner KG Media",
         "success": true
       }
