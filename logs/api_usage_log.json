@@ -7143,27 +7143,20 @@
     ]
   },
   "2026-04-17": {
-    "total": 623,
+    "total": 624,
     "streamlit": 0,
-    "github_action": 623,
-    "successful": 623,
+    "github_action": 624,
+    "successful": 624,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 200,
-      "Reporter Megapolitan": 192,
+      "Reporter Megapolitan": 193,
       "Sustainability Officer KG Media": 100,
       "Strategic Planner KG Media": 88,
       "Reporter Nasional": 12
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 05:41:43",
-        "source": "github_action",
-        "candidate": "Lizet Novalinda",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 05:44:02",
         "source": "github_action",
@@ -7854,6 +7847,13 @@
         "timestamp": "2026-04-17 07:31:29",
         "source": "github_action",
         "candidate": "Muhammad Farrel Shiham Ramadani",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 07:32:00",
+        "source": "github_action",
+        "candidate": "Farin Alfarizi Hasbi",
         "position": "Reporter Megapolitan",
         "success": true
       }
