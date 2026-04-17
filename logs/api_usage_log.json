@@ -7143,27 +7143,20 @@
     ]
   },
   "2026-04-17": {
-    "total": 625,
+    "total": 626,
     "streamlit": 0,
-    "github_action": 625,
-    "successful": 625,
+    "github_action": 626,
+    "successful": 626,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 200,
-      "Reporter Megapolitan": 194,
+      "Reporter Megapolitan": 195,
       "Sustainability Officer KG Media": 100,
       "Strategic Planner KG Media": 88,
       "Reporter Nasional": 12
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 05:46:19",
-        "source": "github_action",
-        "candidate": "Juan Yosef",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 05:48:38",
         "source": "github_action",
@@ -7854,6 +7847,13 @@
         "timestamp": "2026-04-17 07:32:30",
         "source": "github_action",
         "candidate": "Elsa Tania",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 07:33:03",
+        "source": "github_action",
+        "candidate": "Haidar Satrio Ilham",
         "position": "Reporter Megapolitan",
         "success": true
       }
