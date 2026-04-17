@@ -7143,27 +7143,20 @@
     ]
   },
   "2026-04-17": {
-    "total": 670,
+    "total": 671,
     "streamlit": 0,
-    "github_action": 670,
-    "successful": 670,
+    "github_action": 671,
+    "successful": 671,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 200,
       "Reporter Megapolitan": 200,
-      "Sustainability Officer KG Media": 139,
+      "Sustainability Officer KG Media": 140,
       "Strategic Planner KG Media": 88,
       "Reporter Nasional": 12
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 07:05:22",
-        "source": "github_action",
-        "candidate": "Natasa Alifah",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 07:05:53",
         "source": "github_action",
@@ -7854,6 +7847,13 @@
         "timestamp": "2026-04-17 07:55:04",
         "source": "github_action",
         "candidate": "Sasra adilla",
+        "position": "Sustainability Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 07:55:31",
+        "source": "github_action",
+        "candidate": "Febryanto Yudha Wijaya",
         "position": "Sustainability Officer KG Media",
         "success": true
       }
