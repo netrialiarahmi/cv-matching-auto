@@ -7143,25 +7143,18 @@
     ]
   },
   "2026-04-17": {
-    "total": 285,
+    "total": 286,
     "streamlit": 0,
-    "github_action": 285,
-    "successful": 285,
+    "github_action": 286,
+    "successful": 286,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
-      "Sustainability Officer KG Media": 54
+      "Sustainability Officer KG Media": 55
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 02:08:06",
-        "source": "github_action",
-        "candidate": "Kylla Rizkia Rahma Putri",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 02:08:42",
         "source": "github_action",
@@ -7852,6 +7845,13 @@
         "timestamp": "2026-04-17 02:54:30",
         "source": "github_action",
         "candidate": "Satria  Tama",
+        "position": "Sustainability Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 02:54:57",
+        "source": "github_action",
+        "candidate": "Suci Rachmawati",
         "position": "Sustainability Officer KG Media",
         "success": true
       }
