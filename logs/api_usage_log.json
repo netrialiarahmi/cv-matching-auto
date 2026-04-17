@@ -7143,26 +7143,19 @@
     ]
   },
   "2026-04-17": {
-    "total": 376,
+    "total": 377,
     "streamlit": 0,
-    "github_action": 376,
-    "successful": 376,
+    "github_action": 377,
+    "successful": 377,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
       "Sustainability Officer KG Media": 100,
-      "Strategic Planner KG Media": 45
+      "Strategic Planner KG Media": 46
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 02:51:18",
-        "source": "github_action",
-        "candidate": "Bryan Saragih",
-        "position": "Sustainability Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 02:51:21",
         "source": "github_action",
@@ -7853,6 +7846,13 @@
         "timestamp": "2026-04-17 03:38:11",
         "source": "github_action",
         "candidate": "Gilbert Donovan Wahyutama",
+        "position": "Strategic Planner KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 03:38:39",
+        "source": "github_action",
+        "candidate": "Laila Wakhidatus Sholikhah",
         "position": "Strategic Planner KG Media",
         "success": true
       }
