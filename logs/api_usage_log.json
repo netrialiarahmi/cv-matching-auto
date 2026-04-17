@@ -7143,27 +7143,20 @@
     ]
   },
   "2026-04-17": {
-    "total": 574,
+    "total": 575,
     "streamlit": 0,
-    "github_action": 574,
-    "successful": 574,
+    "github_action": 575,
+    "successful": 575,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 200,
-      "Reporter Megapolitan": 143,
+      "Reporter Megapolitan": 144,
       "Sustainability Officer KG Media": 100,
       "Strategic Planner KG Media": 88,
       "Reporter Nasional": 12
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 04:25:45",
-        "source": "github_action",
-        "candidate": "zaki ramadhan",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 04:26:15",
         "source": "github_action",
@@ -7854,6 +7847,13 @@
         "timestamp": "2026-04-17 07:06:54",
         "source": "github_action",
         "candidate": "Muhammad Shaddam Rizqullah",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 07:07:23",
+        "source": "github_action",
+        "candidate": "Andien  Destiani Ramadhani",
         "position": "Reporter Megapolitan",
         "success": true
       }
