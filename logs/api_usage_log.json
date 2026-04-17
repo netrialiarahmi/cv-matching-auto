@@ -7143,26 +7143,19 @@
     ]
   },
   "2026-04-17": {
-    "total": 337,
+    "total": 338,
     "streamlit": 0,
-    "github_action": 337,
-    "successful": 337,
+    "github_action": 338,
+    "successful": 338,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
       "Sustainability Officer KG Media": 100,
-      "Strategic Planner KG Media": 6
+      "Strategic Planner KG Media": 7
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 02:32:40",
-        "source": "github_action",
-        "candidate": "Lewina Blesmira Saragi",
-        "position": "Sustainability Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 02:33:08",
         "source": "github_action",
@@ -7853,6 +7846,13 @@
         "timestamp": "2026-04-17 03:19:07",
         "source": "github_action",
         "candidate": "Madani Prima Permana",
+        "position": "Strategic Planner KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 03:19:39",
+        "source": "github_action",
+        "candidate": "Mutiara Risdiyafani",
         "position": "Strategic Planner KG Media",
         "success": true
       }
