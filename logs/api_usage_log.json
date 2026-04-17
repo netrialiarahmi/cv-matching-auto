@@ -7143,25 +7143,18 @@
     ]
   },
   "2026-04-17": {
-    "total": 280,
+    "total": 281,
     "streamlit": 0,
-    "github_action": 280,
-    "successful": 280,
+    "github_action": 281,
+    "successful": 281,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
-      "Sustainability Officer KG Media": 49
+      "Sustainability Officer KG Media": 50
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 02:05:31",
-        "source": "github_action",
-        "candidate": "Rachel Oswandi",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 02:06:02",
         "source": "github_action",
@@ -7852,6 +7845,13 @@
         "timestamp": "2026-04-17 02:52:28",
         "source": "github_action",
         "candidate": "Kynan Reihan",
+        "position": "Sustainability Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 02:52:57",
+        "source": "github_action",
+        "candidate": "Muhammad Hilmi Faiz",
         "position": "Sustainability Officer KG Media",
         "success": true
       }
