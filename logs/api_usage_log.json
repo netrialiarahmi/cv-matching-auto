@@ -7143,24 +7143,17 @@
     ]
   },
   "2026-04-17": {
-    "total": 164,
+    "total": 165,
     "streamlit": 0,
-    "github_action": 164,
-    "successful": 164,
+    "github_action": 165,
+    "successful": 165,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Megapolitan": 33
+      "Reporter Megapolitan": 34
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 01:08:39",
-        "source": "github_action",
-        "candidate": "Tegar Ramadhan",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 01:09:08",
         "source": "github_action",
@@ -7851,6 +7844,13 @@
         "timestamp": "2026-04-17 01:57:27",
         "source": "github_action",
         "candidate": "Andhika Buana",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 01:57:56",
+        "source": "github_action",
+        "candidate": "Dewi Suci Rahmadhani",
         "position": "Reporter Megapolitan",
         "success": true
       }
