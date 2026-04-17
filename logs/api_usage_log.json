@@ -7143,27 +7143,20 @@
     ]
   },
   "2026-04-17": {
-    "total": 642,
+    "total": 643,
     "streamlit": 0,
-    "github_action": 642,
-    "successful": 642,
+    "github_action": 643,
+    "successful": 643,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 200,
       "Reporter Megapolitan": 200,
-      "Sustainability Officer KG Media": 111,
+      "Sustainability Officer KG Media": 112,
       "Strategic Planner KG Media": 88,
       "Reporter Nasional": 12
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 06:25:25",
-        "source": "github_action",
-        "candidate": "Audya Febryannanda Putri",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 06:27:42",
         "source": "github_action",
@@ -7854,6 +7847,13 @@
         "timestamp": "2026-04-17 07:41:13",
         "source": "github_action",
         "candidate": "Siva  Aripin",
+        "position": "Sustainability Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 07:41:43",
+        "source": "github_action",
+        "candidate": "Maureen Weismann",
         "position": "Sustainability Officer KG Media",
         "success": true
       }
