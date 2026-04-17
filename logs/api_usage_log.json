@@ -7143,25 +7143,18 @@
     ]
   },
   "2026-04-17": {
-    "total": 313,
+    "total": 314,
     "streamlit": 0,
-    "github_action": 313,
-    "successful": 313,
+    "github_action": 314,
+    "successful": 314,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
-      "Sustainability Officer KG Media": 82
+      "Sustainability Officer KG Media": 83
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 02:20:55",
-        "source": "github_action",
-        "candidate": "Fadya  Jasmin Malihah",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 02:21:25",
         "source": "github_action",
@@ -7852,6 +7845,13 @@
         "timestamp": "2026-04-17 03:07:56",
         "source": "github_action",
         "candidate": "Rizki pirdaus",
+        "position": "Sustainability Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 03:08:28",
+        "source": "github_action",
+        "candidate": "Aditya Rizky",
         "position": "Sustainability Officer KG Media",
         "success": true
       }
