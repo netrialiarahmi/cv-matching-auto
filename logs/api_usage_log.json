@@ -7143,24 +7143,17 @@
     ]
   },
   "2026-04-17": {
-    "total": 156,
+    "total": 157,
     "streamlit": 0,
-    "github_action": 156,
-    "successful": 156,
+    "github_action": 157,
+    "successful": 157,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Megapolitan": 25
+      "Reporter Megapolitan": 26
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 01:04:40",
-        "source": "github_action",
-        "candidate": "Zaidan Nabiel",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 01:05:09",
         "source": "github_action",
@@ -7851,6 +7844,13 @@
         "timestamp": "2026-04-17 01:54:08",
         "source": "github_action",
         "candidate": "Fathianada Anggitha Supriadi",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 01:54:37",
+        "source": "github_action",
+        "candidate": "Ahmad Tarmidzi",
         "position": "Reporter Megapolitan",
         "success": true
       }
