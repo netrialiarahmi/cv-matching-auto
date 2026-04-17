@@ -7143,25 +7143,18 @@
     ]
   },
   "2026-04-17": {
-    "total": 237,
+    "total": 238,
     "streamlit": 0,
-    "github_action": 237,
-    "successful": 237,
+    "github_action": 238,
+    "successful": 238,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
-      "Sustainability Officer KG Media": 6
+      "Sustainability Officer KG Media": 7
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 01:45:28",
-        "source": "github_action",
-        "candidate": "Medina Sylvia Riyanto",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 01:45:59",
         "source": "github_action",
@@ -7852,6 +7845,13 @@
         "timestamp": "2026-04-17 02:32:09",
         "source": "github_action",
         "candidate": "Evan Agustian Lukius",
+        "position": "Sustainability Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 02:32:40",
+        "source": "github_action",
+        "candidate": "Lewina Blesmira Saragi",
         "position": "Sustainability Officer KG Media",
         "success": true
       }
