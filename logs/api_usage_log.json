@@ -7143,10 +7143,10 @@
     ]
   },
   "2026-04-17": {
-    "total": 865,
+    "total": 866,
     "streamlit": 0,
-    "github_action": 865,
-    "successful": 865,
+    "github_action": 866,
+    "successful": 866,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
@@ -7155,16 +7155,9 @@
       "Sustainability Officer KG Media": 200,
       "Strategic Planner KG Media": 90,
       "Reporter Nasional": 112,
-      "Content Writer Homey": 32
+      "Content Writer Homey": 33
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 08:42:59",
-        "source": "github_action",
-        "candidate": "Astrid Paramitha",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 08:43:31",
         "source": "github_action",
@@ -7855,6 +7848,13 @@
         "timestamp": "2026-04-17 09:31:43",
         "source": "github_action",
         "candidate": "Aji Pangestu",
+        "position": "Content Writer Homey",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 09:32:15",
+        "source": "github_action",
+        "candidate": "Rizkia Choerunnisa",
         "position": "Content Writer Homey",
         "success": true
       }
