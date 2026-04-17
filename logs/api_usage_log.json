@@ -7143,27 +7143,20 @@
     ]
   },
   "2026-04-17": {
-    "total": 636,
+    "total": 637,
     "streamlit": 0,
-    "github_action": 636,
-    "successful": 636,
+    "github_action": 637,
+    "successful": 637,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 200,
       "Reporter Megapolitan": 200,
-      "Sustainability Officer KG Media": 105,
+      "Sustainability Officer KG Media": 106,
       "Strategic Planner KG Media": 88,
       "Reporter Nasional": 12
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 06:11:35",
-        "source": "github_action",
-        "candidate": "M. Nabil Mamnun",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 06:13:51",
         "source": "github_action",
@@ -7854,6 +7847,13 @@
         "timestamp": "2026-04-17 07:38:05",
         "source": "github_action",
         "candidate": "Aqilla Fadia Wahono",
+        "position": "Sustainability Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 07:38:34",
+        "source": "github_action",
+        "candidate": "Evan Agustian Lukius",
         "position": "Sustainability Officer KG Media",
         "success": true
       }
