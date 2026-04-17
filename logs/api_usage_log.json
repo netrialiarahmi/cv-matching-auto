@@ -7143,23 +7143,16 @@
     ]
   },
   "2026-04-17": {
-    "total": 114,
+    "total": 115,
     "streamlit": 0,
-    "github_action": 114,
-    "successful": 114,
+    "github_action": 115,
+    "successful": 115,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
-      "Marketing Communication Officer KG Media": 83
+      "Marketing Communication Officer KG Media": 84
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 00:44:15",
-        "source": "github_action",
-        "candidate": "Faiz Ardana Sani",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 00:44:17",
         "source": "github_action",
@@ -7850,6 +7843,13 @@
         "timestamp": "2026-04-17 01:33:44",
         "source": "github_action",
         "candidate": "maharani zahra",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 01:34:12",
+        "source": "github_action",
+        "candidate": "Anggita Putri Ramadanti",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
