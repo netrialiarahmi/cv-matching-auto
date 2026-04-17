@@ -7143,26 +7143,19 @@
     ]
   },
   "2026-04-17": {
-    "total": 395,
+    "total": 396,
     "streamlit": 0,
-    "github_action": 395,
-    "successful": 395,
+    "github_action": 396,
+    "successful": 396,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
       "Sustainability Officer KG Media": 100,
-      "Strategic Planner KG Media": 64
+      "Strategic Planner KG Media": 65
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 02:59:31",
-        "source": "github_action",
-        "candidate": "Rafiqo Fadhlullah",
-        "position": "Sustainability Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 02:59:58",
         "source": "github_action",
@@ -7853,6 +7846,13 @@
         "timestamp": "2026-04-17 03:47:56",
         "source": "github_action",
         "candidate": "Elsa risqillah Denira",
+        "position": "Strategic Planner KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 03:48:28",
+        "source": "github_action",
+        "candidate": "Putra Lubis",
         "position": "Strategic Planner KG Media",
         "success": true
       }
