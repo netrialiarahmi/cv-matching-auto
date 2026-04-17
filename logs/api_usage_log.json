@@ -7143,10 +7143,10 @@
     ]
   },
   "2026-04-17": {
-    "total": 866,
+    "total": 867,
     "streamlit": 0,
-    "github_action": 866,
-    "successful": 866,
+    "github_action": 867,
+    "successful": 867,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
@@ -7155,16 +7155,9 @@
       "Sustainability Officer KG Media": 200,
       "Strategic Planner KG Media": 90,
       "Reporter Nasional": 112,
-      "Content Writer Homey": 33
+      "Content Writer Homey": 34
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 08:43:31",
-        "source": "github_action",
-        "candidate": "Filza Fitriadhi",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 08:44:00",
         "source": "github_action",
@@ -7855,6 +7848,13 @@
         "timestamp": "2026-04-17 09:32:15",
         "source": "github_action",
         "candidate": "Rizkia Choerunnisa",
+        "position": "Content Writer Homey",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 09:32:45",
+        "source": "github_action",
+        "candidate": "WILHELMINA ALEXANDRA VALMAY PUTRI ABERTH",
         "position": "Content Writer Homey",
         "success": true
       }
