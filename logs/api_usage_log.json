@@ -7143,25 +7143,19 @@
     ]
   },
   "2026-04-17": {
-    "total": 331,
+    "total": 332,
     "streamlit": 0,
-    "github_action": 331,
-    "successful": 331,
+    "github_action": 332,
+    "successful": 332,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
-      "Sustainability Officer KG Media": 100
+      "Sustainability Officer KG Media": 100,
+      "Strategic Planner KG Media": 1
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 02:29:31",
-        "source": "github_action",
-        "candidate": "Muhammad Ardhanie Amrullah",
-        "position": "Sustainability Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 02:30:00",
         "source": "github_action",
@@ -7853,6 +7847,13 @@
         "source": "github_action",
         "candidate": "Nabila Ilya Ainayya",
         "position": "Sustainability Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 03:16:24",
+        "source": "github_action",
+        "candidate": "Titi nan",
+        "position": "Strategic Planner KG Media",
         "success": true
       }
     ]
