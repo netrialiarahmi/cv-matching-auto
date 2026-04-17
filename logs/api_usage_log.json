@@ -7143,27 +7143,20 @@
     ]
   },
   "2026-04-17": {
-    "total": 442,
+    "total": 443,
     "streamlit": 0,
-    "github_action": 442,
-    "successful": 442,
+    "github_action": 443,
+    "successful": 443,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
-      "Marketing Communication Officer KG Media": 111,
+      "Marketing Communication Officer KG Media": 112,
       "Reporter Megapolitan": 100,
       "Sustainability Officer KG Media": 100,
       "Strategic Planner KG Media": 88,
       "Reporter Nasional": 12
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 03:21:34",
-        "source": "github_action",
-        "candidate": "Angeline Nanda Kusumah",
-        "position": "Strategic Planner KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 03:22:02",
         "source": "github_action",
@@ -7854,6 +7847,13 @@
         "timestamp": "2026-04-17 04:09:43",
         "source": "github_action",
         "candidate": "Dhiya Indah Mawaddah",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 04:09:45",
+        "source": "github_action",
+        "candidate": "hagadzka al ghafiqi",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
