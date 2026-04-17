@@ -7143,24 +7143,17 @@
     ]
   },
   "2026-04-17": {
-    "total": 229,
+    "total": 230,
     "streamlit": 0,
-    "github_action": 229,
-    "successful": 229,
+    "github_action": 230,
+    "successful": 230,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Megapolitan": 98
+      "Reporter Megapolitan": 99
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 01:41:27",
-        "source": "github_action",
-        "candidate": "Resty Kurniati Putri",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 01:42:00",
         "source": "github_action",
@@ -7851,6 +7844,13 @@
         "timestamp": "2026-04-17 02:28:08",
         "source": "github_action",
         "candidate": "Muhammad Shaddam Rizqullah",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 02:28:37",
+        "source": "github_action",
+        "candidate": "Reyvan Andrian Kristiandi",
         "position": "Reporter Megapolitan",
         "success": true
       }
