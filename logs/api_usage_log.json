@@ -7143,24 +7143,17 @@
     ]
   },
   "2026-04-17": {
-    "total": 146,
+    "total": 147,
     "streamlit": 0,
-    "github_action": 146,
-    "successful": 146,
+    "github_action": 147,
+    "successful": 147,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Megapolitan": 15
+      "Reporter Megapolitan": 16
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 00:59:27",
-        "source": "github_action",
-        "candidate": "Dwinastiti Gustira",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 01:00:01",
         "source": "github_action",
@@ -7851,6 +7844,13 @@
         "timestamp": "2026-04-17 01:49:24",
         "source": "github_action",
         "candidate": "Syahril wahyu Firmansyah",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 01:49:51",
+        "source": "github_action",
+        "candidate": "Trisha Dantiani Husada",
         "position": "Reporter Megapolitan",
         "success": true
       }
