@@ -7143,25 +7143,18 @@
     ]
   },
   "2026-04-17": {
-    "total": 329,
+    "total": 330,
     "streamlit": 0,
-    "github_action": 329,
-    "successful": 329,
+    "github_action": 330,
+    "successful": 330,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
-      "Sustainability Officer KG Media": 98
+      "Sustainability Officer KG Media": 99
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 02:28:37",
-        "source": "github_action",
-        "candidate": "Reyvan Andrian Kristiandi",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 02:29:05",
         "source": "github_action",
@@ -7852,6 +7845,13 @@
         "timestamp": "2026-04-17 03:14:53",
         "source": "github_action",
         "candidate": "Aurellia Putri",
+        "position": "Sustainability Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 03:15:18",
+        "source": "github_action",
+        "candidate": "Dhita Grace Marceline",
         "position": "Sustainability Officer KG Media",
         "success": true
       }
