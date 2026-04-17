@@ -7143,26 +7143,19 @@
     ]
   },
   "2026-04-17": {
-    "total": 388,
+    "total": 389,
     "streamlit": 0,
-    "github_action": 388,
-    "successful": 388,
+    "github_action": 389,
+    "successful": 389,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
       "Sustainability Officer KG Media": 100,
-      "Strategic Planner KG Media": 57
+      "Strategic Planner KG Media": 58
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 02:56:00",
-        "source": "github_action",
-        "candidate": "Tiara Amelia",
-        "position": "Sustainability Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 02:56:33",
         "source": "github_action",
@@ -7853,6 +7846,13 @@
         "timestamp": "2026-04-17 03:44:35",
         "source": "github_action",
         "candidate": "Halim Zunurain",
+        "position": "Strategic Planner KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 03:45:05",
+        "source": "github_action",
+        "candidate": "Adzra Hanifah Nabila",
         "position": "Strategic Planner KG Media",
         "success": true
       }
