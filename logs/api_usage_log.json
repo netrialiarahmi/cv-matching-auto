@@ -7143,24 +7143,17 @@
     ]
   },
   "2026-04-17": {
-    "total": 160,
+    "total": 161,
     "streamlit": 0,
-    "github_action": 160,
-    "successful": 160,
+    "github_action": 161,
+    "successful": 161,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Megapolitan": 29
+      "Reporter Megapolitan": 30
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 01:06:41",
-        "source": "github_action",
-        "candidate": "Nila Maharani Chaniago",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 01:07:12",
         "source": "github_action",
@@ -7851,6 +7844,13 @@
         "timestamp": "2026-04-17 01:56:02",
         "source": "github_action",
         "candidate": "Mizar Safari Maasily",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 01:56:26",
+        "source": "github_action",
+        "candidate": "Rachelyn Maharani",
         "position": "Reporter Megapolitan",
         "success": true
       }
