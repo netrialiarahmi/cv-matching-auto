@@ -7143,14 +7143,14 @@
     ]
   },
   "2026-04-17": {
-    "total": 62,
+    "total": 63,
     "streamlit": 0,
-    "github_action": 62,
-    "successful": 62,
+    "github_action": 63,
+    "successful": 63,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
-      "Marketing Communication Officer KG Media": 31
+      "Marketing Communication Officer KG Media": 32
     },
     "entries": [
       {
@@ -7584,6 +7584,13 @@
         "timestamp": "2026-04-17 01:07:12",
         "source": "github_action",
         "candidate": "Farhan Afif Kusumah",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 01:07:38",
+        "source": "github_action",
+        "candidate": "Fadel Muhamad Gardea",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
