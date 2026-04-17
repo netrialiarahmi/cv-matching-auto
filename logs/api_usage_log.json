@@ -7143,14 +7143,14 @@
     ]
   },
   "2026-04-17": {
-    "total": 72,
+    "total": 73,
     "streamlit": 0,
-    "github_action": 72,
-    "successful": 72,
+    "github_action": 73,
+    "successful": 73,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
-      "Marketing Communication Officer KG Media": 41
+      "Marketing Communication Officer KG Media": 42
     },
     "entries": [
       {
@@ -7654,6 +7654,13 @@
         "timestamp": "2026-04-17 01:12:15",
         "source": "github_action",
         "candidate": "Shofa Yusriyyah",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 01:12:47",
+        "source": "github_action",
+        "candidate": "Muhammad Feyzel Khalfani Putra Ardanesworo",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
