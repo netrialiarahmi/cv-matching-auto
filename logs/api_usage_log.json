@@ -7143,10 +7143,10 @@
     ]
   },
   "2026-04-17": {
-    "total": 901,
+    "total": 902,
     "streamlit": 0,
-    "github_action": 901,
-    "successful": 901,
+    "github_action": 902,
+    "successful": 902,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
@@ -7155,16 +7155,9 @@
       "Sustainability Officer KG Media": 200,
       "Strategic Planner KG Media": 90,
       "Reporter Nasional": 112,
-      "Content Writer Homey": 68
+      "Content Writer Homey": 69
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 09:00:27",
-        "source": "github_action",
-        "candidate": "Siti Zahwa Humaira",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 09:00:58",
         "source": "github_action",
@@ -7855,6 +7848,13 @@
         "timestamp": "2026-04-17 09:47:57",
         "source": "github_action",
         "candidate": "Ronny Saragih",
+        "position": "Content Writer Homey",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 09:48:28",
+        "source": "github_action",
+        "candidate": "Nazlan Syahputra",
         "position": "Content Writer Homey",
         "success": true
       }
