@@ -7143,24 +7143,17 @@
     ]
   },
   "2026-04-17": {
-    "total": 187,
+    "total": 188,
     "streamlit": 0,
-    "github_action": 187,
-    "successful": 187,
+    "github_action": 188,
+    "successful": 188,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Megapolitan": 56
+      "Reporter Megapolitan": 57
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 01:20:16",
-        "source": "github_action",
-        "candidate": "Imelda Aulia Arif",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 01:20:50",
         "source": "github_action",
@@ -7851,6 +7844,13 @@
         "timestamp": "2026-04-17 02:08:42",
         "source": "github_action",
         "candidate": "Alvin Pasza Bagaskara",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 02:09:14",
+        "source": "github_action",
+        "candidate": "Aulia Vinka Dinda Pratiwi S. I. Kom",
         "position": "Reporter Megapolitan",
         "success": true
       }
