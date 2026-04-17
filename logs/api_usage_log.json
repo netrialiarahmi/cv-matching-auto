@@ -7143,14 +7143,14 @@
     ]
   },
   "2026-04-17": {
-    "total": 75,
+    "total": 76,
     "streamlit": 0,
-    "github_action": 75,
-    "successful": 75,
+    "github_action": 76,
+    "successful": 76,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
-      "Marketing Communication Officer KG Media": 44
+      "Marketing Communication Officer KG Media": 45
     },
     "entries": [
       {
@@ -7675,6 +7675,13 @@
         "timestamp": "2026-04-17 01:13:54",
         "source": "github_action",
         "candidate": "Felicia Nafirstya Deyzitta",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 01:14:22",
+        "source": "github_action",
+        "candidate": "gaby gabrielle",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
