@@ -7143,14 +7143,14 @@
     ]
   },
   "2026-04-17": {
-    "total": 57,
+    "total": 58,
     "streamlit": 0,
-    "github_action": 57,
-    "successful": 57,
+    "github_action": 58,
+    "successful": 58,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
-      "Marketing Communication Officer KG Media": 26
+      "Marketing Communication Officer KG Media": 27
     },
     "entries": [
       {
@@ -7549,6 +7549,13 @@
         "timestamp": "2026-04-17 01:04:40",
         "source": "github_action",
         "candidate": "Zaidan Nabiel",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 01:05:09",
+        "source": "github_action",
+        "candidate": "Adinda  Saskya",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
