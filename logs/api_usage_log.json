@@ -7143,10 +7143,10 @@
     ]
   },
   "2026-04-17": {
-    "total": 873,
+    "total": 874,
     "streamlit": 0,
-    "github_action": 873,
-    "successful": 873,
+    "github_action": 874,
+    "successful": 874,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
@@ -7155,16 +7155,9 @@
       "Sustainability Officer KG Media": 200,
       "Strategic Planner KG Media": 90,
       "Reporter Nasional": 112,
-      "Content Writer Homey": 40
+      "Content Writer Homey": 41
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 08:46:42",
-        "source": "github_action",
-        "candidate": "Frisna silvilia berutu Frisna",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 08:47:18",
         "source": "github_action",
@@ -7855,6 +7848,13 @@
         "timestamp": "2026-04-17 09:35:35",
         "source": "github_action",
         "candidate": "Rheza Dio Primananda",
+        "position": "Content Writer Homey",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 09:36:05",
+        "source": "github_action",
+        "candidate": "Evita Febrianti  Yusuf",
         "position": "Content Writer Homey",
         "success": true
       }
