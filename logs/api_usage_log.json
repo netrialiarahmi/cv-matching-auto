@@ -7143,23 +7143,16 @@
     ]
   },
   "2026-04-17": {
-    "total": 123,
+    "total": 124,
     "streamlit": 0,
-    "github_action": 123,
-    "successful": 123,
+    "github_action": 124,
+    "successful": 124,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
-      "Marketing Communication Officer KG Media": 92
+      "Marketing Communication Officer KG Media": 93
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 00:48:00",
-        "source": "github_action",
-        "candidate": "Jamaluddin An-Nashar",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 00:48:28",
         "source": "github_action",
@@ -7850,6 +7843,13 @@
         "timestamp": "2026-04-17 01:37:49",
         "source": "github_action",
         "candidate": "khansa Rania Bakhita",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 01:38:22",
+        "source": "github_action",
+        "candidate": "Nazlan Syahputra",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
