@@ -7143,10 +7143,10 @@
     ]
   },
   "2026-04-17": {
-    "total": 769,
+    "total": 770,
     "streamlit": 0,
-    "github_action": 769,
-    "successful": 769,
+    "github_action": 770,
+    "successful": 770,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
@@ -7154,16 +7154,9 @@
       "Reporter Megapolitan": 200,
       "Sustainability Officer KG Media": 200,
       "Strategic Planner KG Media": 90,
-      "Reporter Nasional": 48
+      "Reporter Nasional": 49
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 07:55:04",
-        "source": "github_action",
-        "candidate": "Sasra adilla",
-        "position": "Sustainability Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 07:55:31",
         "source": "github_action",
@@ -7854,6 +7847,13 @@
         "timestamp": "2026-04-17 08:44:39",
         "source": "github_action",
         "candidate": "Fitria Humaira",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 08:45:06",
+        "source": "github_action",
+        "candidate": "Gabby Rieuwpassa",
         "position": "Reporter Nasional",
         "success": true
       }
