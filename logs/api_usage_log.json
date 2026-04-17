@@ -7143,10 +7143,10 @@
     ]
   },
   "2026-04-17": {
-    "total": 747,
+    "total": 748,
     "streamlit": 0,
-    "github_action": 747,
-    "successful": 747,
+    "github_action": 748,
+    "successful": 748,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
@@ -7154,16 +7154,9 @@
       "Reporter Megapolitan": 200,
       "Sustainability Officer KG Media": 200,
       "Strategic Planner KG Media": 90,
-      "Reporter Nasional": 26
+      "Reporter Nasional": 27
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 07:43:54",
-        "source": "github_action",
-        "candidate": "Ajeng Pramesthi Rinjani",
-        "position": "Sustainability Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 07:44:23",
         "source": "github_action",
@@ -7854,6 +7847,13 @@
         "timestamp": "2026-04-17 08:33:36",
         "source": "github_action",
         "candidate": "Linda Delani",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 08:34:06",
+        "source": "github_action",
+        "candidate": "Yoana Lestonac Elita",
         "position": "Reporter Nasional",
         "success": true
       }
