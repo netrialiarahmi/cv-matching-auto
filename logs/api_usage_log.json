@@ -7143,10 +7143,10 @@
     ]
   },
   "2026-04-17": {
-    "total": 766,
+    "total": 767,
     "streamlit": 0,
-    "github_action": 766,
-    "successful": 766,
+    "github_action": 767,
+    "successful": 767,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
@@ -7154,16 +7154,9 @@
       "Reporter Megapolitan": 200,
       "Sustainability Officer KG Media": 200,
       "Strategic Planner KG Media": 90,
-      "Reporter Nasional": 45
+      "Reporter Nasional": 46
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 07:53:42",
-        "source": "github_action",
-        "candidate": "Juan Yosef",
-        "position": "Sustainability Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 07:54:10",
         "source": "github_action",
@@ -7854,6 +7847,13 @@
         "timestamp": "2026-04-17 08:42:59",
         "source": "github_action",
         "candidate": "Astrid Paramitha",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 08:43:31",
+        "source": "github_action",
+        "candidate": "Filza Fitriadhi",
         "position": "Reporter Nasional",
         "success": true
       }
