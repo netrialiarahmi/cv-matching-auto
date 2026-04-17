@@ -7143,26 +7143,19 @@
     ]
   },
   "2026-04-17": {
-    "total": 350,
+    "total": 351,
     "streamlit": 0,
-    "github_action": 350,
-    "successful": 350,
+    "github_action": 351,
+    "successful": 351,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
       "Sustainability Officer KG Media": 100,
-      "Strategic Planner KG Media": 19
+      "Strategic Planner KG Media": 20
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 02:38:55",
-        "source": "github_action",
-        "candidate": "Gregorius Naralatu Dharana",
-        "position": "Sustainability Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 02:39:28",
         "source": "github_action",
@@ -7853,6 +7846,13 @@
         "timestamp": "2026-04-17 03:24:50",
         "source": "github_action",
         "candidate": "Jeremy Randolph",
+        "position": "Strategic Planner KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 03:25:28",
+        "source": "github_action",
+        "candidate": "Ferdinand Leonardi",
         "position": "Strategic Planner KG Media",
         "success": true
       }
