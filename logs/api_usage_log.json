@@ -7143,27 +7143,20 @@
     ]
   },
   "2026-04-17": {
-    "total": 596,
+    "total": 597,
     "streamlit": 0,
-    "github_action": 596,
-    "successful": 596,
+    "github_action": 597,
+    "successful": 597,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 200,
-      "Reporter Megapolitan": 165,
+      "Reporter Megapolitan": 166,
       "Sustainability Officer KG Media": 100,
       "Strategic Planner KG Media": 88,
       "Reporter Nasional": 12
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 04:41:38",
-        "source": "github_action",
-        "candidate": "Muhammad Bozyar Zulkarnain",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 04:43:56",
         "source": "github_action",
@@ -7854,6 +7847,13 @@
         "timestamp": "2026-04-17 07:18:24",
         "source": "github_action",
         "candidate": "Michael Gono ate",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 07:18:50",
+        "source": "github_action",
+        "candidate": "salamah hrp",
         "position": "Reporter Megapolitan",
         "success": true
       }
