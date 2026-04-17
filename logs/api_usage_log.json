@@ -7143,10 +7143,10 @@
     ]
   },
   "2026-04-17": {
-    "total": 909,
+    "total": 910,
     "streamlit": 0,
-    "github_action": 909,
-    "successful": 909,
+    "github_action": 910,
+    "successful": 910,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
@@ -7155,16 +7155,9 @@
       "Sustainability Officer KG Media": 200,
       "Strategic Planner KG Media": 90,
       "Reporter Nasional": 112,
-      "Content Writer Homey": 76
+      "Content Writer Homey": 77
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 09:04:49",
-        "source": "github_action",
-        "candidate": "Annisa Firdaus Damayanti",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 09:05:20",
         "source": "github_action",
@@ -7855,6 +7848,13 @@
         "timestamp": "2026-04-17 09:52:11",
         "source": "github_action",
         "candidate": "Evinta Prieska Revi Eka Amanda",
+        "position": "Content Writer Homey",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 09:52:42",
+        "source": "github_action",
+        "candidate": "Fath Tazkya Ernest Jamila",
         "position": "Content Writer Homey",
         "success": true
       }
