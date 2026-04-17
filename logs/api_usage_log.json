@@ -7143,27 +7143,20 @@
     ]
   },
   "2026-04-17": {
-    "total": 725,
+    "total": 726,
     "streamlit": 0,
-    "github_action": 725,
-    "successful": 725,
+    "github_action": 726,
+    "successful": 726,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 200,
       "Reporter Megapolitan": 200,
-      "Sustainability Officer KG Media": 194,
+      "Sustainability Officer KG Media": 195,
       "Strategic Planner KG Media": 88,
       "Reporter Nasional": 12
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 07:33:03",
-        "source": "github_action",
-        "candidate": "Haidar Satrio Ilham",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 07:33:33",
         "source": "github_action",
@@ -7854,6 +7847,13 @@
         "timestamp": "2026-04-17 08:22:51",
         "source": "github_action",
         "candidate": "Nabilah Sabitah Azalia",
+        "position": "Sustainability Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 08:23:23",
+        "source": "github_action",
+        "candidate": "Cinta Maharani",
         "position": "Sustainability Officer KG Media",
         "success": true
       }
