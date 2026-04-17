@@ -7143,26 +7143,19 @@
     ]
   },
   "2026-04-17": {
-    "total": 334,
+    "total": 335,
     "streamlit": 0,
-    "github_action": 334,
-    "successful": 334,
+    "github_action": 335,
+    "successful": 335,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
       "Sustainability Officer KG Media": 100,
-      "Strategic Planner KG Media": 3
+      "Strategic Planner KG Media": 4
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 02:31:05",
-        "source": "github_action",
-        "candidate": "Aqshal Abiyoga Muhammad",
-        "position": "Sustainability Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 02:31:38",
         "source": "github_action",
@@ -7853,6 +7846,13 @@
         "timestamp": "2026-04-17 03:17:32",
         "source": "github_action",
         "candidate": "Raidilla Artia",
+        "position": "Strategic Planner KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 03:18:03",
+        "source": "github_action",
+        "candidate": "Adinda  Saskya",
         "position": "Strategic Planner KG Media",
         "success": true
       }
