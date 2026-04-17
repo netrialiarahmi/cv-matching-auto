@@ -7143,10 +7143,10 @@
     ]
   },
   "2026-04-17": {
-    "total": 891,
+    "total": 892,
     "streamlit": 0,
-    "github_action": 891,
-    "successful": 891,
+    "github_action": 892,
+    "successful": 892,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
@@ -7155,16 +7155,9 @@
       "Sustainability Officer KG Media": 200,
       "Strategic Planner KG Media": 90,
       "Reporter Nasional": 112,
-      "Content Writer Homey": 58
+      "Content Writer Homey": 59
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 08:55:28",
-        "source": "github_action",
-        "candidate": "Adira Putri Aliffa",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 08:55:57",
         "source": "github_action",
@@ -7855,6 +7848,13 @@
         "timestamp": "2026-04-17 09:43:50",
         "source": "github_action",
         "candidate": "Tuahta Aldo Rachmansyah",
+        "position": "Content Writer Homey",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 09:44:21",
+        "source": "github_action",
+        "candidate": "Wulandari Fitriani",
         "position": "Content Writer Homey",
         "success": true
       }
