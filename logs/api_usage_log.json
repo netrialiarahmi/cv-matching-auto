@@ -7143,25 +7143,18 @@
     ]
   },
   "2026-04-17": {
-    "total": 320,
+    "total": 321,
     "streamlit": 0,
-    "github_action": 320,
-    "successful": 320,
+    "github_action": 321,
+    "successful": 321,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
-      "Sustainability Officer KG Media": 89
+      "Sustainability Officer KG Media": 90
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 02:24:20",
-        "source": "github_action",
-        "candidate": "Wahyu Setiawan",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 02:24:52",
         "source": "github_action",
@@ -7852,6 +7845,13 @@
         "timestamp": "2026-04-17 03:10:54",
         "source": "github_action",
         "candidate": "Meli Mariana Sitinjak",
+        "position": "Sustainability Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 03:11:24",
+        "source": "github_action",
+        "candidate": "Sarah Ilham",
         "position": "Sustainability Officer KG Media",
         "success": true
       }
