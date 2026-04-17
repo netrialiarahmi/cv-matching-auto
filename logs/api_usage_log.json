@@ -7143,23 +7143,16 @@
     ]
   },
   "2026-04-17": {
-    "total": 120,
+    "total": 121,
     "streamlit": 0,
-    "github_action": 120,
-    "successful": 120,
+    "github_action": 121,
+    "successful": 121,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
-      "Marketing Communication Officer KG Media": 89
+      "Marketing Communication Officer KG Media": 90
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 00:46:16",
-        "source": "github_action",
-        "candidate": "juno ongko",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 00:46:53",
         "source": "github_action",
@@ -7850,6 +7843,13 @@
         "timestamp": "2026-04-17 01:36:15",
         "source": "github_action",
         "candidate": "Choirunnisa Salsabiela",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 01:36:44",
+        "source": "github_action",
+        "candidate": "Muhammad Cipta Fikri Apriyadi",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
