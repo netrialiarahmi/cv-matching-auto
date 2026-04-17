@@ -7143,10 +7143,10 @@
     ]
   },
   "2026-04-17": {
-    "total": 501,
+    "total": 502,
     "streamlit": 0,
-    "github_action": 501,
-    "successful": 501,
+    "github_action": 502,
+    "successful": 502,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
@@ -7154,16 +7154,9 @@
       "Reporter Megapolitan": 100,
       "Sustainability Officer KG Media": 100,
       "Strategic Planner KG Media": 88,
-      "Reporter Nasional": 82
+      "Reporter Nasional": 83
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 03:51:36",
-        "source": "github_action",
-        "candidate": "Yoga Nugraha",
-        "position": "Strategic Planner KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 03:52:12",
         "source": "github_action",
@@ -7854,6 +7847,13 @@
         "timestamp": "2026-04-17 04:46:42",
         "source": "github_action",
         "candidate": "Raihan Athaya Mustafa",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 04:47:11",
+        "source": "github_action",
+        "candidate": "Susilo Bambang Yudoyono",
         "position": "Reporter Nasional",
         "success": true
       }
