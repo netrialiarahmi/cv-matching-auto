@@ -7143,24 +7143,17 @@
     ]
   },
   "2026-04-17": {
-    "total": 172,
+    "total": 173,
     "streamlit": 0,
-    "github_action": 172,
-    "successful": 172,
+    "github_action": 173,
+    "successful": 173,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Megapolitan": 41
+      "Reporter Megapolitan": 42
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 01:12:47",
-        "source": "github_action",
-        "candidate": "Muhammad Feyzel Khalfani Putra Ardanesworo",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 01:13:23",
         "source": "github_action",
@@ -7851,6 +7844,13 @@
         "timestamp": "2026-04-17 02:01:01",
         "source": "github_action",
         "candidate": "Tevin Heikal",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 02:01:29",
+        "source": "github_action",
+        "candidate": "Ervira Octaviola Kurniawan",
         "position": "Reporter Megapolitan",
         "success": true
       }
