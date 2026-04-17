@@ -7143,24 +7143,17 @@
     ]
   },
   "2026-04-17": {
-    "total": 224,
+    "total": 225,
     "streamlit": 0,
-    "github_action": 224,
-    "successful": 224,
+    "github_action": 225,
+    "successful": 225,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Megapolitan": 93
+      "Reporter Megapolitan": 94
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 01:38:51",
-        "source": "github_action",
-        "candidate": "Dhimas risang sri  arya naratama",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 01:39:22",
         "source": "github_action",
@@ -7851,6 +7844,13 @@
         "timestamp": "2026-04-17 02:26:02",
         "source": "github_action",
         "candidate": "Alya Hafilah",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 02:26:33",
+        "source": "github_action",
+        "candidate": "Suharno Suharno",
         "position": "Reporter Megapolitan",
         "success": true
       }
