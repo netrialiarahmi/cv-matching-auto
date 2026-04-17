@@ -7143,24 +7143,17 @@
     ]
   },
   "2026-04-17": {
-    "total": 203,
+    "total": 204,
     "streamlit": 0,
-    "github_action": 203,
-    "successful": 203,
+    "github_action": 204,
+    "successful": 204,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Megapolitan": 72
+      "Reporter Megapolitan": 73
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 01:28:31",
-        "source": "github_action",
-        "candidate": "Jacqueline Manullang",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 01:28:59",
         "source": "github_action",
@@ -7851,6 +7844,13 @@
         "timestamp": "2026-04-17 02:15:32",
         "source": "github_action",
         "candidate": "Jacko Agun",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 02:16:01",
+        "source": "github_action",
+        "candidate": "Anjani Nuraini Al Sannia",
         "position": "Reporter Megapolitan",
         "success": true
       }
