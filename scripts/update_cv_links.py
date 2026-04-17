@@ -198,17 +198,34 @@ def update_cv_links_for_position(position_name, file_storage_url):
     
     print(f"✅ Fetched {len(fresh_candidates)} candidates from File Storage")
     
-    # Build a mapping of email -> resume link from fresh data
-    email_to_resume_link = {}
+    # Build mappings: email -> all links AND name -> all links (fallback)
+    email_to_links = {}
+    name_to_links = {}
     
     for _, row in fresh_candidates.iterrows():
         email = get_column_value(row, "Email Address", "Alamat Email", "").strip()
         resume_link = get_column_value(row, "Resume Link", "Link Resume", "")
+        profile_link = get_column_value(row, "Kalibrr Profile Link", "Link Profil Kalibrr", "")
+        app_link = get_column_value(row, "Job Application Link", "Link Aplikasi Pekerjaan", "")
+        
+        links = {
+            "resume": resume_link,
+            "profile": profile_link,
+            "application": app_link,
+            "email": email,
+        }
         
         if email:
-            email_to_resume_link[email.lower()] = resume_link
+            email_to_links[email.lower()] = links
+        
+        # Build name key: "FirstName LastName" for fallback matching
+        first = str(get_column_value(row, "First Name", "Nama Depan", "")).strip()
+        last = str(get_column_value(row, "Last Name", "Nama Belakang", "")).strip()
+        if first:
+            full_name = " ".join(f"{first} {last}".split()).lower()
+            name_to_links[full_name] = links
     
-    print(f"📋 Found {len(email_to_resume_link)} candidates in fresh data")
+    print(f"📋 Found {len(email_to_links)} emails + {len(name_to_links)} names in fresh data")
     
     # Verify Resume Link column exists in existing results
     if "Resume Link" not in existing_results.columns:
@@ -216,24 +233,45 @@ def update_cv_links_for_position(position_name, file_storage_url):
         print(f"   Available columns: {list(existing_results.columns)}")
         return 0
     
-    # Update resume links in existing results — always overwrite from fresh data
+    # Update links in existing results — always overwrite from fresh data
     updated_count = 0
+    emails_backfilled = 0
     
     for idx, row in existing_results.iterrows():
         candidate_email = str(row.get("Candidate Email", "")).strip().lower()
+        candidate_name = " ".join(str(row.get("Candidate Name", "")).split()).lower()
         
-        if candidate_email in email_to_resume_link:
-            new_resume_link = email_to_resume_link[candidate_email]
+        # Try email match first, then fall back to name match
+        matched_links = None
+        if candidate_email and candidate_email != "nan" and candidate_email in email_to_links:
+            matched_links = email_to_links[candidate_email]
+        elif candidate_name and candidate_name != "nan" and candidate_name in name_to_links:
+            matched_links = name_to_links[candidate_name]
+        
+        if matched_links is not None:
             old_resume_link = row.get("Resume Link", "")
+            new_resume_link = matched_links["resume"]
             
-            # Always update from fresh data
+            # Update Resume Link
             existing_results.at[idx, "Resume Link"] = new_resume_link
+            
+            # Update Kalibrr Profile and Application Link if columns exist
+            if "Kalibrr Profile" in existing_results.columns and matched_links["profile"]:
+                existing_results.at[idx, "Kalibrr Profile"] = matched_links["profile"]
+            if "Application Link" in existing_results.columns and matched_links["application"]:
+                existing_results.at[idx, "Application Link"] = matched_links["application"]
+            
+            # Backfill missing email
+            if (candidate_email == "nan" or not candidate_email) and matched_links["email"]:
+                existing_results.at[idx, "Candidate Email"] = matched_links["email"]
+                emails_backfilled += 1
+            
             updated_count += 1
             
-            # Only log when the link actually changed
+            # Only log when the resume link actually changed
             if str(new_resume_link) != str(old_resume_link):
-                candidate_name = row.get('Candidate Name', 'Unknown')
-                print(f"  ✓ Updated resume link for: {candidate_name}")
+                display_name = row.get('Candidate Name', 'Unknown')
+                print(f"  ✓ Updated resume link for: {display_name}")
                 print(f"    Old: {_truncate_str(old_resume_link, 80)}")
                 print(f"    New: {_truncate_str(new_resume_link, 80)}")
     
@@ -241,7 +279,9 @@ def update_cv_links_for_position(position_name, file_storage_url):
     if updated_count > 0:
         try:
             existing_results.to_csv(results_file, index=False)
-            print(f"💾 Saved {updated_count} resume link(s) to {results_file}")
+            print(f"💾 Saved {updated_count} link(s) updated to {results_file}")
+            if emails_backfilled > 0:
+                print(f"   📧 Backfilled {emails_backfilled} missing email(s)")
         except Exception as e:
             print(f"❌ Error saving results: {e}")
             return 0
