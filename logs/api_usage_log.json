@@ -7143,26 +7143,19 @@
     ]
   },
   "2026-04-17": {
-    "total": 367,
+    "total": 368,
     "streamlit": 0,
-    "github_action": 367,
-    "successful": 367,
+    "github_action": 368,
+    "successful": 368,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
       "Sustainability Officer KG Media": 100,
-      "Strategic Planner KG Media": 36
+      "Strategic Planner KG Media": 37
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 02:46:51",
-        "source": "github_action",
-        "candidate": "Rafid Hidayat",
-        "position": "Sustainability Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 02:47:18",
         "source": "github_action",
@@ -7853,6 +7846,13 @@
         "timestamp": "2026-04-17 03:33:22",
         "source": "github_action",
         "candidate": "Tri Endah Lestari",
+        "position": "Strategic Planner KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 03:33:57",
+        "source": "github_action",
+        "candidate": "jennifer patricia",
         "position": "Strategic Planner KG Media",
         "success": true
       }
