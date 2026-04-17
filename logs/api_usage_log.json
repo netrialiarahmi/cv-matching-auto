@@ -7143,24 +7143,17 @@
     ]
   },
   "2026-04-17": {
-    "total": 228,
+    "total": 229,
     "streamlit": 0,
-    "github_action": 228,
-    "successful": 228,
+    "github_action": 229,
+    "successful": 229,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Megapolitan": 97
+      "Reporter Megapolitan": 98
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 01:40:56",
-        "source": "github_action",
-        "candidate": "Juan Yosef",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 01:41:27",
         "source": "github_action",
@@ -7851,6 +7844,13 @@
         "timestamp": "2026-04-17 02:27:35",
         "source": "github_action",
         "candidate": "Fajar Gumilar",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 02:28:08",
+        "source": "github_action",
+        "candidate": "Muhammad Shaddam Rizqullah",
         "position": "Reporter Megapolitan",
         "success": true
       }
