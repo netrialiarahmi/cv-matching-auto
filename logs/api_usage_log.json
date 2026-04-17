@@ -7143,25 +7143,18 @@
     ]
   },
   "2026-04-17": {
-    "total": 255,
+    "total": 256,
     "streamlit": 0,
-    "github_action": 255,
-    "successful": 255,
+    "github_action": 256,
+    "successful": 256,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
-      "Sustainability Officer KG Media": 24
+      "Sustainability Officer KG Media": 25
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 01:54:08",
-        "source": "github_action",
-        "candidate": "Fathianada Anggitha Supriadi",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 01:54:37",
         "source": "github_action",
@@ -7852,6 +7845,13 @@
         "timestamp": "2026-04-17 02:40:52",
         "source": "github_action",
         "candidate": "Wihda Aufi Nur Salsabila",
+        "position": "Sustainability Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 02:41:17",
+        "source": "github_action",
+        "candidate": "Atika Rahayu Puteri",
         "position": "Sustainability Officer KG Media",
         "success": true
       }
