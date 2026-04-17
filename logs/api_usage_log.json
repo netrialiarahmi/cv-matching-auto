@@ -7143,10 +7143,10 @@
     ]
   },
   "2026-04-17": {
-    "total": 835,
+    "total": 836,
     "streamlit": 0,
-    "github_action": 835,
-    "successful": 835,
+    "github_action": 836,
+    "successful": 836,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
@@ -7155,16 +7155,9 @@
       "Sustainability Officer KG Media": 200,
       "Strategic Planner KG Media": 90,
       "Reporter Nasional": 112,
-      "Content Writer Homey": 2
+      "Content Writer Homey": 3
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 08:28:02",
-        "source": "github_action",
-        "candidate": "Sinar Hayati Marega",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 08:28:33",
         "source": "github_action",
@@ -7855,6 +7848,13 @@
         "timestamp": "2026-04-17 09:17:13",
         "source": "github_action",
         "candidate": "Shofie Aulia",
+        "position": "Content Writer Homey",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 09:17:41",
+        "source": "github_action",
+        "candidate": "Lia Lestari",
         "position": "Content Writer Homey",
         "success": true
       }
