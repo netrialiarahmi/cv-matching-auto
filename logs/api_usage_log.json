@@ -7143,27 +7143,20 @@
     ]
   },
   "2026-04-17": {
-    "total": 660,
+    "total": 661,
     "streamlit": 0,
-    "github_action": 660,
-    "successful": 660,
+    "github_action": 661,
+    "successful": 661,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 200,
       "Reporter Megapolitan": 200,
-      "Sustainability Officer KG Media": 129,
+      "Sustainability Officer KG Media": 130,
       "Strategic Planner KG Media": 88,
       "Reporter Nasional": 12
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 07:00:50",
-        "source": "github_action",
-        "candidate": "Ardan Fitriansyah",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 07:01:24",
         "source": "github_action",
@@ -7854,6 +7847,13 @@
         "timestamp": "2026-04-17 07:50:11",
         "source": "github_action",
         "candidate": "Fatima Nur Azizia",
+        "position": "Sustainability Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 07:50:45",
+        "source": "github_action",
+        "candidate": "Hanif  Fathoni",
         "position": "Sustainability Officer KG Media",
         "success": true
       }
