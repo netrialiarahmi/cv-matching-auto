@@ -7143,26 +7143,19 @@
     ]
   },
   "2026-04-17": {
-    "total": 383,
+    "total": 384,
     "streamlit": 0,
-    "github_action": 383,
-    "successful": 383,
+    "github_action": 384,
+    "successful": 384,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
       "Sustainability Officer KG Media": 100,
-      "Strategic Planner KG Media": 52
+      "Strategic Planner KG Media": 53
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 02:54:04",
-        "source": "github_action",
-        "candidate": "Ruth Elsamo Christine  Pasaribu",
-        "position": "Sustainability Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 02:54:30",
         "source": "github_action",
@@ -7853,6 +7846,13 @@
         "timestamp": "2026-04-17 03:41:45",
         "source": "github_action",
         "candidate": "Reski Hasisah",
+        "position": "Strategic Planner KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 03:42:20",
+        "source": "github_action",
+        "candidate": "Primadiani Wahyuningtyas",
         "position": "Strategic Planner KG Media",
         "success": true
       }
