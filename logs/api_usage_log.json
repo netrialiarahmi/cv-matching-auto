@@ -7143,25 +7143,18 @@
     ]
   },
   "2026-04-17": {
-    "total": 325,
+    "total": 326,
     "streamlit": 0,
-    "github_action": 325,
-    "successful": 325,
+    "github_action": 326,
+    "successful": 326,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
-      "Sustainability Officer KG Media": 94
+      "Sustainability Officer KG Media": 95
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 02:26:35",
-        "source": "github_action",
-        "candidate": "fauzan nugraha",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 02:27:05",
         "source": "github_action",
@@ -7852,6 +7845,13 @@
         "timestamp": "2026-04-17 03:13:24",
         "source": "github_action",
         "candidate": "Muhammad Rafi Wicaksono",
+        "position": "Sustainability Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 03:13:51",
+        "source": "github_action",
+        "candidate": "Amos Christian Simanjuntak",
         "position": "Sustainability Officer KG Media",
         "success": true
       }
