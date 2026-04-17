@@ -7143,27 +7143,20 @@
     ]
   },
   "2026-04-17": {
-    "total": 614,
+    "total": 615,
     "streamlit": 0,
-    "github_action": 614,
-    "successful": 614,
+    "github_action": 615,
+    "successful": 615,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 200,
-      "Reporter Megapolitan": 183,
+      "Reporter Megapolitan": 184,
       "Sustainability Officer KG Media": 100,
       "Strategic Planner KG Media": 88,
       "Reporter Nasional": 12
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 05:20:53",
-        "source": "github_action",
-        "candidate": "Savira Kirana",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 05:23:13",
         "source": "github_action",
@@ -7854,6 +7847,13 @@
         "timestamp": "2026-04-17 07:27:21",
         "source": "github_action",
         "candidate": "Anggun Falufi Eriyanti",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 07:27:50",
+        "source": "github_action",
+        "candidate": "Aprilia khusnul Khotimah",
         "position": "Reporter Megapolitan",
         "success": true
       }
