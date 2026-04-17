@@ -7143,10 +7143,10 @@
     ]
   },
   "2026-04-17": {
-    "total": 847,
+    "total": 848,
     "streamlit": 0,
-    "github_action": 847,
-    "successful": 847,
+    "github_action": 848,
+    "successful": 848,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
@@ -7155,16 +7155,9 @@
       "Sustainability Officer KG Media": 200,
       "Strategic Planner KG Media": 90,
       "Reporter Nasional": 112,
-      "Content Writer Homey": 14
+      "Content Writer Homey": 15
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 08:34:06",
-        "source": "github_action",
-        "candidate": "Yoana Lestonac Elita",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 08:34:33",
         "source": "github_action",
@@ -7855,6 +7848,13 @@
         "timestamp": "2026-04-17 09:23:29",
         "source": "github_action",
         "candidate": "Priscilla Waworuntu Pangakuang",
+        "position": "Content Writer Homey",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 09:23:31",
+        "source": "github_action",
+        "candidate": "Ahmad Diponegoro",
         "position": "Content Writer Homey",
         "success": true
       }
