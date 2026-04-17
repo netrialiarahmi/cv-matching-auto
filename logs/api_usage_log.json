@@ -7143,14 +7143,14 @@
     ]
   },
   "2026-04-17": {
-    "total": 60,
+    "total": 61,
     "streamlit": 0,
-    "github_action": 60,
-    "successful": 60,
+    "github_action": 61,
+    "successful": 61,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
-      "Marketing Communication Officer KG Media": 29
+      "Marketing Communication Officer KG Media": 30
     },
     "entries": [
       {
@@ -7570,6 +7570,13 @@
         "timestamp": "2026-04-17 01:06:11",
         "source": "github_action",
         "candidate": "Lutfya Buatika Inka",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 01:06:41",
+        "source": "github_action",
+        "candidate": "Nila Maharani Chaniago",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
