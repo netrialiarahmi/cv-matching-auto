@@ -7143,24 +7143,17 @@
     ]
   },
   "2026-04-17": {
-    "total": 166,
+    "total": 167,
     "streamlit": 0,
-    "github_action": 166,
-    "successful": 166,
+    "github_action": 167,
+    "successful": 167,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Megapolitan": 35
+      "Reporter Megapolitan": 36
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 01:09:40",
-        "source": "github_action",
-        "candidate": "vania maudyna",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 01:10:05",
         "source": "github_action",
@@ -7851,6 +7844,13 @@
         "timestamp": "2026-04-17 01:58:23",
         "source": "github_action",
         "candidate": "Dicky Aditya Wijaya",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 01:58:50",
+        "source": "github_action",
+        "candidate": "Azzahra Aulia Nada",
         "position": "Reporter Megapolitan",
         "success": true
       }
