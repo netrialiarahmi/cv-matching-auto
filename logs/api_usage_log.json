@@ -7143,25 +7143,18 @@
     ]
   },
   "2026-04-17": {
-    "total": 298,
+    "total": 299,
     "streamlit": 0,
-    "github_action": 298,
-    "successful": 298,
+    "github_action": 299,
+    "successful": 299,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
-      "Sustainability Officer KG Media": 67
+      "Sustainability Officer KG Media": 68
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 02:14:26",
-        "source": "github_action",
-        "candidate": "yusuf rinaldy",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 02:14:53",
         "source": "github_action",
@@ -7852,6 +7845,13 @@
         "timestamp": "2026-04-17 03:00:29",
         "source": "github_action",
         "candidate": "Ardhana Evano Dhiyaul Haq",
+        "position": "Sustainability Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 03:01:02",
+        "source": "github_action",
+        "candidate": "Nurul Rahma",
         "position": "Sustainability Officer KG Media",
         "success": true
       }
