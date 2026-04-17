@@ -7143,25 +7143,18 @@
     ]
   },
   "2026-04-17": {
-    "total": 305,
+    "total": 306,
     "streamlit": 0,
-    "github_action": 305,
-    "successful": 305,
+    "github_action": 306,
+    "successful": 306,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
-      "Sustainability Officer KG Media": 74
+      "Sustainability Officer KG Media": 75
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 02:16:59",
-        "source": "github_action",
-        "candidate": "azka nurzaman",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 02:17:32",
         "source": "github_action",
@@ -7852,6 +7845,13 @@
         "timestamp": "2026-04-17 03:04:03",
         "source": "github_action",
         "candidate": "Gusti Izza",
+        "position": "Sustainability Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 03:04:30",
+        "source": "github_action",
+        "candidate": "Rifdah Z",
         "position": "Sustainability Officer KG Media",
         "success": true
       }
