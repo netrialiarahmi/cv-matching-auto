@@ -7143,14 +7143,14 @@
     ]
   },
   "2026-04-17": {
-    "total": 61,
+    "total": 62,
     "streamlit": 0,
-    "github_action": 61,
-    "successful": 61,
+    "github_action": 62,
+    "successful": 62,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
-      "Marketing Communication Officer KG Media": 30
+      "Marketing Communication Officer KG Media": 31
     },
     "entries": [
       {
@@ -7577,6 +7577,13 @@
         "timestamp": "2026-04-17 01:06:41",
         "source": "github_action",
         "candidate": "Nila Maharani Chaniago",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 01:07:12",
+        "source": "github_action",
+        "candidate": "Farhan Afif Kusumah",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
