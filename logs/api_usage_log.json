@@ -7143,10 +7143,10 @@
     ]
   },
   "2026-04-17": {
-    "total": 816,
+    "total": 817,
     "streamlit": 0,
-    "github_action": 816,
-    "successful": 816,
+    "github_action": 817,
+    "successful": 817,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
@@ -7154,16 +7154,9 @@
       "Reporter Megapolitan": 200,
       "Sustainability Officer KG Media": 200,
       "Strategic Planner KG Media": 90,
-      "Reporter Nasional": 95
+      "Reporter Nasional": 96
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 08:19:08",
-        "source": "github_action",
-        "candidate": "Pandu Askaria",
-        "position": "Sustainability Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 08:19:11",
         "source": "github_action",
@@ -7854,6 +7847,13 @@
         "timestamp": "2026-04-17 09:07:31",
         "source": "github_action",
         "candidate": "Fadli Parangin angin",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 09:08:01",
+        "source": "github_action",
+        "candidate": "Matthew Sihotang",
         "position": "Reporter Nasional",
         "success": true
       }
