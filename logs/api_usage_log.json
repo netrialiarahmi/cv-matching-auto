@@ -7143,27 +7143,20 @@
     ]
   },
   "2026-04-17": {
-    "total": 655,
+    "total": 656,
     "streamlit": 0,
-    "github_action": 655,
-    "successful": 655,
+    "github_action": 656,
+    "successful": 656,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 200,
       "Reporter Megapolitan": 200,
-      "Sustainability Officer KG Media": 124,
+      "Sustainability Officer KG Media": 125,
       "Strategic Planner KG Media": 88,
       "Reporter Nasional": 12
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 06:53:04",
-        "source": "github_action",
-        "candidate": "Aulia Vinka Dinda Pratiwi S. I. Kom",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 06:55:22",
         "source": "github_action",
@@ -7854,6 +7847,13 @@
         "timestamp": "2026-04-17 07:47:33",
         "source": "github_action",
         "candidate": "Wihda Aufi Nur Salsabila",
+        "position": "Sustainability Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 07:48:05",
+        "source": "github_action",
+        "candidate": "Atika Rahayu Puteri",
         "position": "Sustainability Officer KG Media",
         "success": true
       }
