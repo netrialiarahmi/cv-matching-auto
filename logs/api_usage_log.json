@@ -7143,27 +7143,20 @@
     ]
   },
   "2026-04-17": {
-    "total": 586,
+    "total": 587,
     "streamlit": 0,
-    "github_action": 586,
-    "successful": 586,
+    "github_action": 587,
+    "successful": 587,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 200,
-      "Reporter Megapolitan": 155,
+      "Reporter Megapolitan": 156,
       "Sustainability Officer KG Media": 100,
       "Strategic Planner KG Media": 88,
       "Reporter Nasional": 12
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 04:31:43",
-        "source": "github_action",
-        "candidate": "Haniah Nurul Izza Izza",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 04:32:11",
         "source": "github_action",
@@ -7854,6 +7847,13 @@
         "timestamp": "2026-04-17 07:13:13",
         "source": "github_action",
         "candidate": "Wildan Adil Hilba",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 07:13:41",
+        "source": "github_action",
+        "candidate": "Hafidah Esa Anggraini",
         "position": "Reporter Megapolitan",
         "success": true
       }
