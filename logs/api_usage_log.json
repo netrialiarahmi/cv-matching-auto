@@ -7143,27 +7143,20 @@
     ]
   },
   "2026-04-17": {
-    "total": 702,
+    "total": 703,
     "streamlit": 0,
-    "github_action": 702,
-    "successful": 702,
+    "github_action": 703,
+    "successful": 703,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 200,
       "Reporter Megapolitan": 200,
-      "Sustainability Officer KG Media": 171,
+      "Sustainability Officer KG Media": 172,
       "Strategic Planner KG Media": 88,
       "Reporter Nasional": 12
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 07:21:53",
-        "source": "github_action",
-        "candidate": "Pandi Ramedhan",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 07:22:26",
         "source": "github_action",
@@ -7854,6 +7847,13 @@
         "timestamp": "2026-04-17 08:10:53",
         "source": "github_action",
         "candidate": "Febiana Nur Azizah",
+        "position": "Sustainability Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 08:11:28",
+        "source": "github_action",
+        "candidate": "Beauty Keren",
         "position": "Sustainability Officer KG Media",
         "success": true
       }
