@@ -7143,10 +7143,10 @@
     ]
   },
   "2026-04-17": {
-    "total": 832,
+    "total": 833,
     "streamlit": 0,
-    "github_action": 832,
-    "successful": 832,
+    "github_action": 833,
+    "successful": 833,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
@@ -7154,16 +7154,9 @@
       "Reporter Megapolitan": 200,
       "Sustainability Officer KG Media": 200,
       "Strategic Planner KG Media": 90,
-      "Reporter Nasional": 111
+      "Reporter Nasional": 112
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 08:26:34",
-        "source": "github_action",
-        "candidate": "Nadia Azzahra wibowo",
-        "position": "Strategic Planner KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 08:27:03",
         "source": "github_action",
@@ -7854,6 +7847,13 @@
         "timestamp": "2026-04-17 09:15:33",
         "source": "github_action",
         "candidate": "Fathan Alamsyah",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 09:16:09",
+        "source": "github_action",
+        "candidate": "septi nadya putri",
         "position": "Reporter Nasional",
         "success": true
       }
