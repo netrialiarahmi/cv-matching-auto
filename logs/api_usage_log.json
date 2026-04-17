@@ -7143,10 +7143,10 @@
     ]
   },
   "2026-04-17": {
-    "total": 892,
+    "total": 893,
     "streamlit": 0,
-    "github_action": 892,
-    "successful": 892,
+    "github_action": 893,
+    "successful": 893,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
@@ -7155,16 +7155,9 @@
       "Sustainability Officer KG Media": 200,
       "Strategic Planner KG Media": 90,
       "Reporter Nasional": 112,
-      "Content Writer Homey": 59
+      "Content Writer Homey": 60
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 08:55:57",
-        "source": "github_action",
-        "candidate": "Nadya Vitri",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 08:56:27",
         "source": "github_action",
@@ -7855,6 +7848,13 @@
         "timestamp": "2026-04-17 09:44:21",
         "source": "github_action",
         "candidate": "Wulandari Fitriani",
+        "position": "Content Writer Homey",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 09:44:23",
+        "source": "github_action",
+        "candidate": "Amelia Putri",
         "position": "Content Writer Homey",
         "success": true
       }
