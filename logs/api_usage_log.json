@@ -7143,14 +7143,14 @@
     ]
   },
   "2026-04-17": {
-    "total": 67,
+    "total": 68,
     "streamlit": 0,
-    "github_action": 67,
-    "successful": 67,
+    "github_action": 68,
+    "successful": 68,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
-      "Marketing Communication Officer KG Media": 36
+      "Marketing Communication Officer KG Media": 37
     },
     "entries": [
       {
@@ -7619,6 +7619,13 @@
         "timestamp": "2026-04-17 01:09:40",
         "source": "github_action",
         "candidate": "vania maudyna",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 01:10:05",
+        "source": "github_action",
+        "candidate": "Anjanni Dewi",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
