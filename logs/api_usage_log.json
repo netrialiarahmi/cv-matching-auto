@@ -7143,23 +7143,16 @@
     ]
   },
   "2026-04-17": {
-    "total": 126,
+    "total": 127,
     "streamlit": 0,
-    "github_action": 126,
-    "successful": 126,
+    "github_action": 127,
+    "successful": 127,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
-      "Marketing Communication Officer KG Media": 95
+      "Marketing Communication Officer KG Media": 96
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 00:49:25",
-        "source": "github_action",
-        "candidate": "Pinkan Maliha Yasmin",
-        "position": "Account Executive VCBL",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 00:49:27",
         "source": "github_action",
@@ -7850,6 +7843,13 @@
         "timestamp": "2026-04-17 01:39:22",
         "source": "github_action",
         "candidate": "brian adityatama",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 01:39:50",
+        "source": "github_action",
+        "candidate": "Lizet Novalinda",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
