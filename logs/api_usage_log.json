@@ -7143,27 +7143,20 @@
     ]
   },
   "2026-04-17": {
-    "total": 631,
+    "total": 632,
     "streamlit": 0,
-    "github_action": 631,
-    "successful": 631,
+    "github_action": 632,
+    "successful": 632,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 200,
       "Reporter Megapolitan": 200,
-      "Sustainability Officer KG Media": 100,
+      "Sustainability Officer KG Media": 101,
       "Strategic Planner KG Media": 88,
       "Reporter Nasional": 12
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 06:00:04",
-        "source": "github_action",
-        "candidate": "Gregorius Manurung",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 06:02:22",
         "source": "github_action",
@@ -7855,6 +7848,13 @@
         "source": "github_action",
         "candidate": "Antonius Hendra",
         "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 07:36:00",
+        "source": "github_action",
+        "candidate": "Muhammad Ardhanie Amrullah",
+        "position": "Sustainability Officer KG Media",
         "success": true
       }
     ]
