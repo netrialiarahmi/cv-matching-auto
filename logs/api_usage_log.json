@@ -7143,24 +7143,17 @@
     ]
   },
   "2026-04-17": {
-    "total": 147,
+    "total": 148,
     "streamlit": 0,
-    "github_action": 147,
-    "successful": 147,
+    "github_action": 148,
+    "successful": 148,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Megapolitan": 16
+      "Reporter Megapolitan": 17
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 01:00:01",
-        "source": "github_action",
-        "candidate": "dhabith aufa",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 01:00:32",
         "source": "github_action",
@@ -7851,6 +7844,13 @@
         "timestamp": "2026-04-17 01:49:51",
         "source": "github_action",
         "candidate": "Trisha Dantiani Husada",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 01:50:18",
+        "source": "github_action",
+        "candidate": "Muhammad Nadhif Firdausi",
         "position": "Reporter Megapolitan",
         "success": true
       }
