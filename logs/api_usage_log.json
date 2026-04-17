@@ -7143,27 +7143,20 @@
     ]
   },
   "2026-04-17": {
-    "total": 688,
+    "total": 689,
     "streamlit": 0,
-    "github_action": 688,
-    "successful": 688,
+    "github_action": 689,
+    "successful": 689,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 200,
       "Reporter Megapolitan": 200,
-      "Sustainability Officer KG Media": 157,
+      "Sustainability Officer KG Media": 158,
       "Strategic Planner KG Media": 88,
       "Reporter Nasional": 12
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 07:14:41",
-        "source": "github_action",
-        "candidate": "Ai Samaytuha Maryam",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 07:15:09",
         "source": "github_action",
@@ -7854,6 +7847,13 @@
         "timestamp": "2026-04-17 08:03:39",
         "source": "github_action",
         "candidate": "Gusti Farhan",
+        "position": "Sustainability Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 08:03:42",
+        "source": "github_action",
+        "candidate": "Rizky Muhammad",
         "position": "Sustainability Officer KG Media",
         "success": true
       }
