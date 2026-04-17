@@ -7143,10 +7143,10 @@
     ]
   },
   "2026-04-17": {
-    "total": 889,
+    "total": 890,
     "streamlit": 0,
-    "github_action": 889,
-    "successful": 889,
+    "github_action": 890,
+    "successful": 890,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
@@ -7155,16 +7155,9 @@
       "Sustainability Officer KG Media": 200,
       "Strategic Planner KG Media": 90,
       "Reporter Nasional": 112,
-      "Content Writer Homey": 56
+      "Content Writer Homey": 57
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 08:54:23",
-        "source": "github_action",
-        "candidate": "Andini Pratiwi",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 08:54:57",
         "source": "github_action",
@@ -7855,6 +7848,13 @@
         "timestamp": "2026-04-17 09:42:48",
         "source": "github_action",
         "candidate": "Fikri Yatin Rizka",
+        "position": "Content Writer Homey",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 09:43:20",
+        "source": "github_action",
+        "candidate": "Amanda Rae Irawan",
         "position": "Content Writer Homey",
         "success": true
       }
