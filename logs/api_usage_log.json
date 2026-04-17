@@ -7143,25 +7143,18 @@
     ]
   },
   "2026-04-17": {
-    "total": 241,
+    "total": 242,
     "streamlit": 0,
-    "github_action": 241,
-    "successful": 241,
+    "github_action": 242,
+    "successful": 242,
     "failed": 0,
     "positions": {
       "Account Executive VCBL": 31,
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
-      "Sustainability Officer KG Media": 10
+      "Sustainability Officer KG Media": 11
     },
     "entries": [
-      {
-        "timestamp": "2026-04-17 01:47:22",
-        "source": "github_action",
-        "candidate": "Rayfa Haidar Utomo",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-17 01:47:55",
         "source": "github_action",
@@ -7852,6 +7845,13 @@
         "timestamp": "2026-04-17 02:34:10",
         "source": "github_action",
         "candidate": "Ghulandito  Wijanarko",
+        "position": "Sustainability Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-17 02:34:44",
+        "source": "github_action",
+        "candidate": "Siva  Aripin",
         "position": "Sustainability Officer KG Media",
         "success": true
       }
