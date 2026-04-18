@@ -7861,26 +7861,19 @@
     ]
   },
   "2026-04-18": {
-    "total": 452,
+    "total": 453,
     "streamlit": 0,
-    "github_action": 452,
-    "successful": 452,
+    "github_action": 453,
+    "successful": 453,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
       "Sustainability Officer KG Media": 65,
       "Reporter Nasional": 100,
-      "Content Writer Homey": 87
+      "Content Writer Homey": 88
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 06:19:56",
-        "source": "github_action",
-        "candidate": "Gilang pramudia",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 06:20:21",
         "source": "github_action",
@@ -8571,6 +8564,13 @@
         "timestamp": "2026-04-18 07:03:37",
         "source": "github_action",
         "candidate": "Intan Ayu Maharani",
+        "position": "Content Writer Homey",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 07:04:05",
+        "source": "github_action",
+        "candidate": "Prianda Saputra",
         "position": "Content Writer Homey",
         "success": true
       }
