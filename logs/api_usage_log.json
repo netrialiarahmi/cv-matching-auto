@@ -7861,24 +7861,17 @@
     ]
   },
   "2026-04-18": {
-    "total": 253,
+    "total": 254,
     "streamlit": 0,
-    "github_action": 253,
-    "successful": 253,
+    "github_action": 254,
+    "successful": 254,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
-      "Sustainability Officer KG Media": 53
+      "Sustainability Officer KG Media": 54
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 04:56:11",
-        "source": "github_action",
-        "candidate": "Sherlina Purnamasari",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 04:56:38",
         "source": "github_action",
@@ -8569,6 +8562,13 @@
         "timestamp": "2026-04-18 05:37:14",
         "source": "github_action",
         "candidate": "Clakez210804 Putri",
+        "position": "Sustainability Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 05:37:43",
+        "source": "github_action",
+        "candidate": "Septian Putra Manuel Simangunsong",
         "position": "Sustainability Officer KG Media",
         "success": true
       }
