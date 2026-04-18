@@ -7861,24 +7861,17 @@
     ]
   },
   "2026-04-18": {
-    "total": 234,
+    "total": 235,
     "streamlit": 0,
-    "github_action": 234,
-    "successful": 234,
+    "github_action": 235,
+    "successful": 235,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
-      "Sustainability Officer KG Media": 34
+      "Sustainability Officer KG Media": 35
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 04:49:06",
-        "source": "github_action",
-        "candidate": "Sekar Langit",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 04:49:29",
         "source": "github_action",
@@ -8569,6 +8562,13 @@
         "timestamp": "2026-04-18 05:29:25",
         "source": "github_action",
         "candidate": "Aura Isyel Febriyanti",
+        "position": "Sustainability Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 05:29:56",
+        "source": "github_action",
+        "candidate": "Brilian Iril Achmad",
         "position": "Sustainability Officer KG Media",
         "success": true
       }
