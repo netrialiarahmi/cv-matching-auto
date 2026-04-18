@@ -7861,26 +7861,19 @@
     ]
   },
   "2026-04-18": {
-    "total": 429,
+    "total": 430,
     "streamlit": 0,
-    "github_action": 429,
-    "successful": 429,
+    "github_action": 430,
+    "successful": 430,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
       "Sustainability Officer KG Media": 65,
       "Reporter Nasional": 100,
-      "Content Writer Homey": 64
+      "Content Writer Homey": 65
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 06:10:12",
-        "source": "github_action",
-        "candidate": "Sri Nabila Safnas",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 06:10:42",
         "source": "github_action",
@@ -8571,6 +8564,13 @@
         "timestamp": "2026-04-18 06:53:39",
         "source": "github_action",
         "candidate": "Eka Putri  Lestari",
+        "position": "Content Writer Homey",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 06:54:03",
+        "source": "github_action",
+        "candidate": "Merlin Cahyawati",
         "position": "Content Writer Homey",
         "success": true
       }
