@@ -7861,23 +7861,16 @@
     ]
   },
   "2026-04-18": {
-    "total": 130,
+    "total": 131,
     "streamlit": 0,
-    "github_action": 130,
-    "successful": 130,
+    "github_action": 131,
+    "successful": 131,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Megapolitan": 30
+      "Reporter Megapolitan": 31
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 04:03:56",
-        "source": "github_action",
-        "candidate": "Skolastika Rury Anandri",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 04:04:22",
         "source": "github_action",
@@ -8568,6 +8561,13 @@
         "timestamp": "2026-04-18 04:46:56",
         "source": "github_action",
         "candidate": "Aminatus Sa'idah",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 04:47:24",
+        "source": "github_action",
+        "candidate": "Kayla Almalika Putri",
         "position": "Reporter Megapolitan",
         "success": true
       }
