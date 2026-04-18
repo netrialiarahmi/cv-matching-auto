@@ -7861,24 +7861,17 @@
     ]
   },
   "2026-04-18": {
-    "total": 206,
+    "total": 207,
     "streamlit": 0,
-    "github_action": 206,
-    "successful": 206,
+    "github_action": 207,
+    "successful": 207,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
-      "Sustainability Officer KG Media": 6
+      "Sustainability Officer KG Media": 7
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 04:38:51",
-        "source": "github_action",
-        "candidate": "Hanna Christi",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 04:39:17",
         "source": "github_action",
@@ -8569,6 +8562,13 @@
         "timestamp": "2026-04-18 05:18:12",
         "source": "github_action",
         "candidate": "Adrian Khrisna  Muda",
+        "position": "Sustainability Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 05:18:37",
+        "source": "github_action",
+        "candidate": "Astrid Dwivani",
         "position": "Sustainability Officer KG Media",
         "success": true
       }
