@@ -7861,10 +7861,10 @@
     ]
   },
   "2026-04-18": {
-    "total": 519,
+    "total": 520,
     "streamlit": 0,
-    "github_action": 519,
-    "successful": 519,
+    "github_action": 520,
+    "successful": 520,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
@@ -7872,16 +7872,9 @@
       "Sustainability Officer KG Media": 65,
       "Reporter Nasional": 100,
       "Content Writer Homey": 100,
-      "Data Analyst (Business Intelligence)": 54
+      "Data Analyst (Business Intelligence)": 55
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 06:49:27",
-        "source": "github_action",
-        "candidate": "Gede Arga Adrian",
-        "position": "Content Writer Homey",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 06:50:05",
         "source": "github_action",
@@ -8572,6 +8565,13 @@
         "timestamp": "2026-04-18 07:45:47",
         "source": "github_action",
         "candidate": "Siti Nurhaliza",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 07:46:21",
+        "source": "github_action",
+        "candidate": "Daffa El Ghifari",
         "position": "Data Analyst (Business Intelligence)",
         "success": true
       }
