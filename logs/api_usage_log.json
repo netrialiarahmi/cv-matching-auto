@@ -7861,10 +7861,10 @@
     ]
   },
   "2026-04-18": {
-    "total": 631,
+    "total": 632,
     "streamlit": 0,
-    "github_action": 631,
-    "successful": 631,
+    "github_action": 632,
+    "successful": 632,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
@@ -7873,16 +7873,9 @@
       "Reporter Nasional": 100,
       "Content Writer Homey": 100,
       "Data Analyst (Business Intelligence)": 100,
-      "Business Development Analyst": 66
+      "Business Development Analyst": 67
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 07:51:07",
-        "source": "github_action",
-        "candidate": "Anastasya .",
-        "position": "Data Analyst (Business Intelligence)",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 07:51:33",
         "source": "github_action",
@@ -8573,6 +8566,13 @@
         "timestamp": "2026-04-18 08:37:56",
         "source": "github_action",
         "candidate": "Sena Sativa",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 08:38:24",
+        "source": "github_action",
+        "candidate": "Dezenia Zain Rachmawati",
         "position": "Business Development Analyst",
         "success": true
       }
