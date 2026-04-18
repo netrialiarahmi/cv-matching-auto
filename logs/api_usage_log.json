@@ -7861,25 +7861,18 @@
     ]
   },
   "2026-04-18": {
-    "total": 324,
+    "total": 325,
     "streamlit": 0,
-    "github_action": 324,
-    "successful": 324,
+    "github_action": 325,
+    "successful": 325,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
       "Sustainability Officer KG Media": 65,
-      "Reporter Nasional": 59
+      "Reporter Nasional": 60
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 05:26:04",
-        "source": "github_action",
-        "candidate": "Sari Sapitri",
-        "position": "Sustainability Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 05:26:32",
         "source": "github_action",
@@ -8570,6 +8563,13 @@
         "timestamp": "2026-04-18 06:07:23",
         "source": "github_action",
         "candidate": "Safira Tri Cahya",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 06:07:52",
+        "source": "github_action",
+        "candidate": "Zakariya Robbani",
         "position": "Reporter Nasional",
         "success": true
       }
