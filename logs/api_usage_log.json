@@ -7861,25 +7861,18 @@
     ]
   },
   "2026-04-18": {
-    "total": 286,
+    "total": 287,
     "streamlit": 0,
-    "github_action": 286,
-    "successful": 286,
+    "github_action": 287,
+    "successful": 287,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
       "Sustainability Officer KG Media": 65,
-      "Reporter Nasional": 21
+      "Reporter Nasional": 22
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 05:09:30",
-        "source": "github_action",
-        "candidate": "Claudita  Sidabutar",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 05:09:59",
         "source": "github_action",
@@ -8570,6 +8563,13 @@
         "timestamp": "2026-04-18 05:51:21",
         "source": "github_action",
         "candidate": "Muthia Nur Azmiatin",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 05:51:44",
+        "source": "github_action",
+        "candidate": "Khanisa Azahra",
         "position": "Reporter Nasional",
         "success": true
       }
