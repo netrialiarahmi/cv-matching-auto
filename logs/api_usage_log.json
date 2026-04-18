@@ -7861,10 +7861,10 @@
     ]
   },
   "2026-04-18": {
-    "total": 547,
+    "total": 548,
     "streamlit": 0,
-    "github_action": 547,
-    "successful": 547,
+    "github_action": 548,
+    "successful": 548,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
@@ -7872,16 +7872,9 @@
       "Sustainability Officer KG Media": 65,
       "Reporter Nasional": 100,
       "Content Writer Homey": 100,
-      "Data Analyst (Business Intelligence)": 82
+      "Data Analyst (Business Intelligence)": 83
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 07:01:51",
-        "source": "github_action",
-        "candidate": "ALSHA MAULIDA Alwahdy",
-        "position": "Content Writer Homey",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 07:02:18",
         "source": "github_action",
@@ -8572,6 +8565,13 @@
         "timestamp": "2026-04-18 07:58:23",
         "source": "github_action",
         "candidate": "Nadiya Delima",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 07:58:51",
+        "source": "github_action",
+        "candidate": "Imada Anggita Sharen",
         "position": "Data Analyst (Business Intelligence)",
         "success": true
       }
