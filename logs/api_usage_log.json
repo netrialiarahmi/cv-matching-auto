@@ -7861,23 +7861,16 @@
     ]
   },
   "2026-04-18": {
-    "total": 165,
+    "total": 166,
     "streamlit": 0,
-    "github_action": 165,
-    "successful": 165,
+    "github_action": 166,
+    "successful": 166,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Megapolitan": 65
+      "Reporter Megapolitan": 66
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 04:20:17",
-        "source": "github_action",
-        "candidate": "Julius Prabowo",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 04:20:51",
         "source": "github_action",
@@ -8568,6 +8561,13 @@
         "timestamp": "2026-04-18 05:00:37",
         "source": "github_action",
         "candidate": "Farrel  Fauzan",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 05:01:04",
+        "source": "github_action",
+        "candidate": "Fauziah Sabtuanisa",
         "position": "Reporter Megapolitan",
         "success": true
       }
