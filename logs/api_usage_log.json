@@ -7861,24 +7861,17 @@
     ]
   },
   "2026-04-18": {
-    "total": 204,
+    "total": 205,
     "streamlit": 0,
-    "github_action": 204,
-    "successful": 204,
+    "github_action": 205,
+    "successful": 205,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
-      "Sustainability Officer KG Media": 4
+      "Sustainability Officer KG Media": 5
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 04:37:59",
-        "source": "github_action",
-        "candidate": "Muhammad Husni",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 04:38:25",
         "source": "github_action",
@@ -8569,6 +8562,13 @@
         "timestamp": "2026-04-18 05:17:19",
         "source": "github_action",
         "candidate": "azhira nabila",
+        "position": "Sustainability Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 05:17:44",
+        "source": "github_action",
+        "candidate": "Daniel Pandapotan",
         "position": "Sustainability Officer KG Media",
         "success": true
       }
