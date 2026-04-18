@@ -7861,23 +7861,16 @@
     ]
   },
   "2026-04-18": {
-    "total": 179,
+    "total": 180,
     "streamlit": 0,
-    "github_action": 179,
-    "successful": 179,
+    "github_action": 180,
+    "successful": 180,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Megapolitan": 79
+      "Reporter Megapolitan": 80
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 04:26:32",
-        "source": "github_action",
-        "candidate": "Gabriel Alloy Varo Surbakti",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 04:26:59",
         "source": "github_action",
@@ -8568,6 +8561,13 @@
         "timestamp": "2026-04-18 05:06:34",
         "source": "github_action",
         "candidate": "Muhamad Rakan Syaifullah",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 05:06:36",
+        "source": "github_action",
+        "candidate": "widyy B.Y.S",
         "position": "Reporter Megapolitan",
         "success": true
       }
