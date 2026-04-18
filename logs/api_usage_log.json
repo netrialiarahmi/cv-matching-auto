@@ -7861,23 +7861,16 @@
     ]
   },
   "2026-04-18": {
-    "total": 102,
+    "total": 103,
     "streamlit": 0,
-    "github_action": 102,
-    "successful": 102,
+    "github_action": 103,
+    "successful": 103,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Megapolitan": 2
+      "Reporter Megapolitan": 3
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 03:51:25",
-        "source": "github_action",
-        "candidate": "Muhammad Restu Anargya",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 03:51:50",
         "source": "github_action",
@@ -8568,6 +8561,13 @@
         "timestamp": "2026-04-18 04:36:38",
         "source": "github_action",
         "candidate": "Lutfi Rahmawati",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 04:37:05",
+        "source": "github_action",
+        "candidate": "Nadhira Nurul Azka",
         "position": "Reporter Megapolitan",
         "success": true
       }
