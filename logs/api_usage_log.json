@@ -7861,10 +7861,10 @@
     ]
   },
   "2026-04-18": {
-    "total": 490,
+    "total": 491,
     "streamlit": 0,
-    "github_action": 490,
-    "successful": 490,
+    "github_action": 491,
+    "successful": 491,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
@@ -7872,16 +7872,9 @@
       "Sustainability Officer KG Media": 65,
       "Reporter Nasional": 100,
       "Content Writer Homey": 100,
-      "Data Analyst (Business Intelligence)": 25
+      "Data Analyst (Business Intelligence)": 26
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 06:36:00",
-        "source": "github_action",
-        "candidate": "Mohammad Owen",
-        "position": "Content Writer Homey",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 06:36:27",
         "source": "github_action",
@@ -8572,6 +8565,13 @@
         "timestamp": "2026-04-18 07:22:03",
         "source": "github_action",
         "candidate": "Antya Alhikmah Alham",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 07:22:33",
+        "source": "github_action",
+        "candidate": "Muhammad  Farhansyah",
         "position": "Data Analyst (Business Intelligence)",
         "success": true
       }
