@@ -7861,24 +7861,17 @@
     ]
   },
   "2026-04-18": {
-    "total": 254,
+    "total": 255,
     "streamlit": 0,
-    "github_action": 254,
-    "successful": 254,
+    "github_action": 255,
+    "successful": 255,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
-      "Sustainability Officer KG Media": 54
+      "Sustainability Officer KG Media": 55
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 04:56:38",
-        "source": "github_action",
-        "candidate": "Sindhu Linguistika Manumanasa",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 04:57:04",
         "source": "github_action",
@@ -8569,6 +8562,13 @@
         "timestamp": "2026-04-18 05:37:43",
         "source": "github_action",
         "candidate": "Septian Putra Manuel Simangunsong",
+        "position": "Sustainability Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 05:38:09",
+        "source": "github_action",
+        "candidate": "Risma Febrianti",
         "position": "Sustainability Officer KG Media",
         "success": true
       }
