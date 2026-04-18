@@ -7861,10 +7861,10 @@
     ]
   },
   "2026-04-18": {
-    "total": 501,
+    "total": 502,
     "streamlit": 0,
-    "github_action": 501,
-    "successful": 501,
+    "github_action": 502,
+    "successful": 502,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
@@ -7872,16 +7872,9 @@
       "Sustainability Officer KG Media": 65,
       "Reporter Nasional": 100,
       "Content Writer Homey": 100,
-      "Data Analyst (Business Intelligence)": 36
+      "Data Analyst (Business Intelligence)": 37
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 06:41:26",
-        "source": "github_action",
-        "candidate": "Angelina Tiara Puspitalova",
-        "position": "Content Writer Homey",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 06:41:57",
         "source": "github_action",
@@ -8572,6 +8565,13 @@
         "timestamp": "2026-04-18 07:27:13",
         "source": "github_action",
         "candidate": "Muhammad Rangga Hata Raditya",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 07:27:40",
+        "source": "github_action",
+        "candidate": "Anzela Fi Adha El Faza",
         "position": "Data Analyst (Business Intelligence)",
         "success": true
       }
