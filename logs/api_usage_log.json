@@ -7861,23 +7861,16 @@
     ]
   },
   "2026-04-18": {
-    "total": 178,
+    "total": 179,
     "streamlit": 0,
-    "github_action": 178,
-    "successful": 178,
+    "github_action": 179,
+    "successful": 179,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Megapolitan": 78
+      "Reporter Megapolitan": 79
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 04:26:06",
-        "source": "github_action",
-        "candidate": "Nadhief Setiadi",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 04:26:32",
         "source": "github_action",
@@ -8568,6 +8561,13 @@
         "timestamp": "2026-04-18 05:06:01",
         "source": "github_action",
         "candidate": "Putri Hesti Lestari",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 05:06:34",
+        "source": "github_action",
+        "candidate": "Muhamad Rakan Syaifullah",
         "position": "Reporter Megapolitan",
         "success": true
       }
