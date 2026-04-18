@@ -7861,23 +7861,16 @@
     ]
   },
   "2026-04-18": {
-    "total": 170,
+    "total": 171,
     "streamlit": 0,
-    "github_action": 170,
-    "successful": 170,
+    "github_action": 171,
+    "successful": 171,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Megapolitan": 70
+      "Reporter Megapolitan": 71
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 04:22:40",
-        "source": "github_action",
-        "candidate": "Steven andi Wijaya",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 04:23:06",
         "source": "github_action",
@@ -8568,6 +8561,13 @@
         "timestamp": "2026-04-18 05:02:51",
         "source": "github_action",
         "candidate": "Fano Eger",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 05:03:18",
+        "source": "github_action",
+        "candidate": "Qanish nan",
         "position": "Reporter Megapolitan",
         "success": true
       }
