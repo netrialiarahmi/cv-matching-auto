@@ -7861,10 +7861,10 @@
     ]
   },
   "2026-04-18": {
-    "total": 481,
+    "total": 482,
     "streamlit": 0,
-    "github_action": 481,
-    "successful": 481,
+    "github_action": 482,
+    "successful": 482,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
@@ -7872,16 +7872,9 @@
       "Sustainability Officer KG Media": 65,
       "Reporter Nasional": 100,
       "Content Writer Homey": 100,
-      "Data Analyst (Business Intelligence)": 16
+      "Data Analyst (Business Intelligence)": 17
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 06:31:58",
-        "source": "github_action",
-        "candidate": "Kristine  Theresia",
-        "position": "Content Writer Homey",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 06:32:26",
         "source": "github_action",
@@ -8572,6 +8565,13 @@
         "timestamp": "2026-04-18 07:17:44",
         "source": "github_action",
         "candidate": "Royan Krisnanda Tiony",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 07:18:16",
+        "source": "github_action",
+        "candidate": "rosalie naurah",
         "position": "Data Analyst (Business Intelligence)",
         "success": true
       }
