@@ -7861,13 +7861,13 @@
     ]
   },
   "2026-04-18": {
-    "total": 16,
+    "total": 17,
     "streamlit": 0,
-    "github_action": 16,
-    "successful": 16,
+    "github_action": 17,
+    "successful": 17,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 16
+      "Marketing Communication Officer KG Media": 17
     },
     "entries": [
       {
@@ -7979,6 +7979,13 @@
         "timestamp": "2026-04-18 03:57:32",
         "source": "github_action",
         "candidate": "Yohana Oktavia Putri Simangunsong",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 03:57:58",
+        "source": "github_action",
+        "candidate": "Ricky Ramdhan Darmawan",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
