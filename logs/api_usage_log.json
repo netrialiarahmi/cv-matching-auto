@@ -7861,23 +7861,16 @@
     ]
   },
   "2026-04-18": {
-    "total": 107,
+    "total": 108,
     "streamlit": 0,
-    "github_action": 107,
-    "successful": 107,
+    "github_action": 108,
+    "successful": 108,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Megapolitan": 7
+      "Reporter Megapolitan": 8
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 03:53:48",
-        "source": "github_action",
-        "candidate": "Ahmed Reza Al Aziz",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 03:54:15",
         "source": "github_action",
@@ -8568,6 +8561,13 @@
         "timestamp": "2026-04-18 04:38:51",
         "source": "github_action",
         "candidate": "Hanna Christi",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 04:39:17",
+        "source": "github_action",
+        "candidate": "Arshya Fatimah Azzahra",
         "position": "Reporter Megapolitan",
         "success": true
       }
