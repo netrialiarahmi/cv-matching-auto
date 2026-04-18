@@ -7861,23 +7861,16 @@
     ]
   },
   "2026-04-18": {
-    "total": 127,
+    "total": 128,
     "streamlit": 0,
-    "github_action": 127,
-    "successful": 127,
+    "github_action": 128,
+    "successful": 128,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Megapolitan": 27
+      "Reporter Megapolitan": 28
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 04:02:36",
-        "source": "github_action",
-        "candidate": "Akbar Adzani",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 04:03:05",
         "source": "github_action",
@@ -8568,6 +8561,13 @@
         "timestamp": "2026-04-18 04:45:36",
         "source": "github_action",
         "candidate": "Muhammad Ilhamsyah",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 04:46:06",
+        "source": "github_action",
+        "candidate": "Latifatul Karimah",
         "position": "Reporter Megapolitan",
         "success": true
       }
