@@ -7861,10 +7861,10 @@
     ]
   },
   "2026-04-18": {
-    "total": 633,
+    "total": 634,
     "streamlit": 0,
-    "github_action": 633,
-    "successful": 633,
+    "github_action": 634,
+    "successful": 634,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
@@ -7873,16 +7873,9 @@
       "Reporter Nasional": 100,
       "Content Writer Homey": 100,
       "Data Analyst (Business Intelligence)": 100,
-      "Business Development Analyst": 68
+      "Business Development Analyst": 69
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 07:52:01",
-        "source": "github_action",
-        "candidate": "Renata Elsa",
-        "position": "Data Analyst (Business Intelligence)",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 07:52:28",
         "source": "github_action",
@@ -8573,6 +8566,13 @@
         "timestamp": "2026-04-18 08:38:54",
         "source": "github_action",
         "candidate": "Hanif  Fathoni",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 08:39:21",
+        "source": "github_action",
+        "candidate": "Sarah Laura Tarigan",
         "position": "Business Development Analyst",
         "success": true
       }
