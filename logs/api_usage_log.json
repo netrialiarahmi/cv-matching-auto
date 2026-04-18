@@ -7861,10 +7861,10 @@
     ]
   },
   "2026-04-18": {
-    "total": 601,
+    "total": 602,
     "streamlit": 0,
-    "github_action": 601,
-    "successful": 601,
+    "github_action": 602,
+    "successful": 602,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
@@ -7873,16 +7873,9 @@
       "Reporter Nasional": 100,
       "Content Writer Homey": 100,
       "Data Analyst (Business Intelligence)": 100,
-      "Business Development Analyst": 36
+      "Business Development Analyst": 37
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 07:27:40",
-        "source": "github_action",
-        "candidate": "Anzela Fi Adha El Faza",
-        "position": "Data Analyst (Business Intelligence)",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 07:28:07",
         "source": "github_action",
@@ -8573,6 +8566,13 @@
         "timestamp": "2026-04-18 08:23:59",
         "source": "github_action",
         "candidate": "DEVI AYU RAHMATIKA",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 08:24:27",
+        "source": "github_action",
+        "candidate": "Andi Muhammad Rafli Armaya",
         "position": "Business Development Analyst",
         "success": true
       }
