@@ -7861,23 +7861,16 @@
     ]
   },
   "2026-04-18": {
-    "total": 129,
+    "total": 130,
     "streamlit": 0,
-    "github_action": 129,
-    "successful": 129,
+    "github_action": 130,
+    "successful": 130,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Megapolitan": 29
+      "Reporter Megapolitan": 30
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 04:03:31",
-        "source": "github_action",
-        "candidate": "Arnoldus Boly Peran",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 04:03:56",
         "source": "github_action",
@@ -8568,6 +8561,13 @@
         "timestamp": "2026-04-18 04:46:28",
         "source": "github_action",
         "candidate": "Ashfa  Nurul Azizah",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 04:46:56",
+        "source": "github_action",
+        "candidate": "Aminatus Sa'idah",
         "position": "Reporter Megapolitan",
         "success": true
       }
