@@ -7861,25 +7861,18 @@
     ]
   },
   "2026-04-18": {
-    "total": 350,
+    "total": 351,
     "streamlit": 0,
-    "github_action": 350,
-    "successful": 350,
+    "github_action": 351,
+    "successful": 351,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
       "Sustainability Officer KG Media": 65,
-      "Reporter Nasional": 85
+      "Reporter Nasional": 86
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 05:36:42",
-        "source": "github_action",
-        "candidate": "DEVI AYU RAHMATIKA",
-        "position": "Sustainability Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 05:37:12",
         "source": "github_action",
@@ -8570,6 +8563,13 @@
         "timestamp": "2026-04-18 06:18:30",
         "source": "github_action",
         "candidate": "Ade krisna Rivaldy",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 06:18:58",
+        "source": "github_action",
+        "candidate": "Inayah Kurniawati",
         "position": "Reporter Nasional",
         "success": true
       }
