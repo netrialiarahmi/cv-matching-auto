@@ -7861,23 +7861,16 @@
     ]
   },
   "2026-04-18": {
-    "total": 181,
+    "total": 182,
     "streamlit": 0,
-    "github_action": 181,
-    "successful": 181,
+    "github_action": 182,
+    "successful": 182,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Megapolitan": 81
+      "Reporter Megapolitan": 82
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 04:27:22",
-        "source": "github_action",
-        "candidate": "Sasra adilla",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 04:27:50",
         "source": "github_action",
@@ -8568,6 +8561,13 @@
         "timestamp": "2026-04-18 05:07:04",
         "source": "github_action",
         "candidate": "Muhammad Thaba Pamungkas",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 05:07:31",
+        "source": "github_action",
+        "candidate": "Muhammad Arya Andriansyah",
         "position": "Reporter Megapolitan",
         "success": true
       }
