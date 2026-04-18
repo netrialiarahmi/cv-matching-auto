@@ -7861,10 +7861,10 @@
     ]
   },
   "2026-04-18": {
-    "total": 485,
+    "total": 486,
     "streamlit": 0,
-    "github_action": 485,
-    "successful": 485,
+    "github_action": 486,
+    "successful": 486,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
@@ -7872,16 +7872,9 @@
       "Sustainability Officer KG Media": 65,
       "Reporter Nasional": 100,
       "Content Writer Homey": 100,
-      "Data Analyst (Business Intelligence)": 20
+      "Data Analyst (Business Intelligence)": 21
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 06:33:46",
-        "source": "github_action",
-        "candidate": "Siti Shalwa Aulia",
-        "position": "Content Writer Homey",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 06:34:11",
         "source": "github_action",
@@ -8572,6 +8565,13 @@
         "timestamp": "2026-04-18 07:19:42",
         "source": "github_action",
         "candidate": "Maesha Ayu Syaharani",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 07:20:09",
+        "source": "github_action",
+        "candidate": "Siwi Budi Utami",
         "position": "Data Analyst (Business Intelligence)",
         "success": true
       }
