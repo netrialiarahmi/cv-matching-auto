@@ -7861,25 +7861,18 @@
     ]
   },
   "2026-04-18": {
-    "total": 291,
+    "total": 292,
     "streamlit": 0,
-    "github_action": 291,
-    "successful": 291,
+    "github_action": 292,
+    "successful": 292,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
       "Sustainability Officer KG Media": 65,
-      "Reporter Nasional": 26
+      "Reporter Nasional": 27
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 05:11:53",
-        "source": "github_action",
-        "candidate": "Eugenia F. N. Siregar",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 05:12:17",
         "source": "github_action",
@@ -8570,6 +8563,13 @@
         "timestamp": "2026-04-18 05:53:35",
         "source": "github_action",
         "candidate": "Hamdi Abdul Halim",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 05:54:01",
+        "source": "github_action",
+        "candidate": "Rachel Immanuela",
         "position": "Reporter Nasional",
         "success": true
       }
