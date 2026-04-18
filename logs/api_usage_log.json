@@ -7861,23 +7861,16 @@
     ]
   },
   "2026-04-18": {
-    "total": 149,
+    "total": 150,
     "streamlit": 0,
-    "github_action": 149,
-    "successful": 149,
+    "github_action": 150,
+    "successful": 150,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Megapolitan": 49
+      "Reporter Megapolitan": 50
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 04:12:48",
-        "source": "github_action",
-        "candidate": "Josemari Ola lazar",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 04:13:14",
         "source": "github_action",
@@ -8568,6 +8561,13 @@
         "timestamp": "2026-04-18 04:54:17",
         "source": "github_action",
         "candidate": "Asprila_maharani Maharani",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 04:54:42",
+        "source": "github_action",
+        "candidate": "Genta Marlinda Eko Putra",
         "position": "Reporter Megapolitan",
         "success": true
       }
