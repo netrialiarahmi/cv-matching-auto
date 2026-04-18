@@ -7861,25 +7861,18 @@
     ]
   },
   "2026-04-18": {
-    "total": 271,
+    "total": 272,
     "streamlit": 0,
-    "github_action": 271,
-    "successful": 271,
+    "github_action": 272,
+    "successful": 272,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
       "Sustainability Officer KG Media": 65,
-      "Reporter Nasional": 6
+      "Reporter Nasional": 7
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 05:03:20",
-        "source": "github_action",
-        "candidate": "Nuzulul Magfiroh",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 05:03:45",
         "source": "github_action",
@@ -8570,6 +8563,13 @@
         "timestamp": "2026-04-18 05:44:55",
         "source": "github_action",
         "candidate": "Miftah Dwi Kharunia",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 05:45:20",
+        "source": "github_action",
+        "candidate": "Ronny Saragih",
         "position": "Reporter Nasional",
         "success": true
       }
