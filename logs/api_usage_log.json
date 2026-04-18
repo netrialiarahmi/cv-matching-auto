@@ -7861,26 +7861,19 @@
     ]
   },
   "2026-04-18": {
-    "total": 447,
+    "total": 448,
     "streamlit": 0,
-    "github_action": 447,
-    "successful": 447,
+    "github_action": 448,
+    "successful": 448,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
       "Sustainability Officer KG Media": 65,
       "Reporter Nasional": 100,
-      "Content Writer Homey": 82
+      "Content Writer Homey": 83
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 06:17:58",
-        "source": "github_action",
-        "candidate": "Fajar Gumilar",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 06:18:00",
         "source": "github_action",
@@ -8571,6 +8564,13 @@
         "timestamp": "2026-04-18 07:01:24",
         "source": "github_action",
         "candidate": "Luffiati Gina Puspita",
+        "position": "Content Writer Homey",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 07:01:51",
+        "source": "github_action",
+        "candidate": "ALSHA MAULIDA Alwahdy",
         "position": "Content Writer Homey",
         "success": true
       }
