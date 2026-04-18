@@ -7861,10 +7861,10 @@
     ]
   },
   "2026-04-18": {
-    "total": 536,
+    "total": 537,
     "streamlit": 0,
-    "github_action": 536,
-    "successful": 536,
+    "github_action": 537,
+    "successful": 537,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
@@ -7872,16 +7872,9 @@
       "Sustainability Officer KG Media": 65,
       "Reporter Nasional": 100,
       "Content Writer Homey": 100,
-      "Data Analyst (Business Intelligence)": 71
+      "Data Analyst (Business Intelligence)": 72
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 06:56:56",
-        "source": "github_action",
-        "candidate": "Claudita  Sidabutar",
-        "position": "Content Writer Homey",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 06:57:18",
         "source": "github_action",
@@ -8572,6 +8565,13 @@
         "timestamp": "2026-04-18 07:53:01",
         "source": "github_action",
         "candidate": "Rahma Dewi Puspa Khairina",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 07:53:32",
+        "source": "github_action",
+        "candidate": "Desti Kumalasari",
         "position": "Data Analyst (Business Intelligence)",
         "success": true
       }
