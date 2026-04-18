@@ -7861,23 +7861,16 @@
     ]
   },
   "2026-04-18": {
-    "total": 134,
+    "total": 135,
     "streamlit": 0,
-    "github_action": 134,
-    "successful": 134,
+    "github_action": 135,
+    "successful": 135,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Megapolitan": 34
+      "Reporter Megapolitan": 35
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 04:05:50",
-        "source": "github_action",
-        "candidate": "Azzahra Fiesa Kanaya",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 04:06:15",
         "source": "github_action",
@@ -8568,6 +8561,13 @@
         "timestamp": "2026-04-18 04:48:38",
         "source": "github_action",
         "candidate": "Mochammad Rafi' Maulana",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 04:49:06",
+        "source": "github_action",
+        "candidate": "Sekar Langit",
         "position": "Reporter Megapolitan",
         "success": true
       }
