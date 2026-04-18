@@ -7861,23 +7861,16 @@
     ]
   },
   "2026-04-18": {
-    "total": 182,
+    "total": 183,
     "streamlit": 0,
-    "github_action": 182,
-    "successful": 182,
+    "github_action": 183,
+    "successful": 183,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Megapolitan": 82
+      "Reporter Megapolitan": 83
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 04:27:50",
-        "source": "github_action",
-        "candidate": "Shoofii Ahdianati Jauzaa",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 04:28:18",
         "source": "github_action",
@@ -8568,6 +8561,13 @@
         "timestamp": "2026-04-18 05:07:31",
         "source": "github_action",
         "candidate": "Muhammad Arya Andriansyah",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 05:07:33",
+        "source": "github_action",
+        "candidate": "Frisna silvilia berutu Frisna",
         "position": "Reporter Megapolitan",
         "success": true
       }
