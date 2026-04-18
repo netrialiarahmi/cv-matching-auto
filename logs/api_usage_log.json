@@ -7861,13 +7861,13 @@
     ]
   },
   "2026-04-18": {
-    "total": 95,
+    "total": 96,
     "streamlit": 0,
-    "github_action": 95,
-    "successful": 95,
+    "github_action": 96,
+    "successful": 96,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 95
+      "Marketing Communication Officer KG Media": 96
     },
     "entries": [
       {
@@ -8532,6 +8532,13 @@
         "timestamp": "2026-04-18 04:33:15",
         "source": "github_action",
         "candidate": "Ida Ayu Putu Wagiswari",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 04:33:42",
+        "source": "github_action",
+        "candidate": "Arvy Tazkia Azzahra",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
