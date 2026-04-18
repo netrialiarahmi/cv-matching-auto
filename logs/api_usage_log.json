@@ -7861,26 +7861,19 @@
     ]
   },
   "2026-04-18": {
-    "total": 375,
+    "total": 376,
     "streamlit": 0,
-    "github_action": 375,
-    "successful": 375,
+    "github_action": 376,
+    "successful": 376,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
       "Sustainability Officer KG Media": 65,
       "Reporter Nasional": 100,
-      "Content Writer Homey": 10
+      "Content Writer Homey": 11
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 05:47:13",
-        "source": "github_action",
-        "candidate": "egi apriyanti",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 05:47:43",
         "source": "github_action",
@@ -8571,6 +8564,13 @@
         "timestamp": "2026-04-18 06:29:32",
         "source": "github_action",
         "candidate": "deanita salsabila",
+        "position": "Content Writer Homey",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 06:29:58",
+        "source": "github_action",
+        "candidate": "Jihan Afifah Larasati",
         "position": "Content Writer Homey",
         "success": true
       }
