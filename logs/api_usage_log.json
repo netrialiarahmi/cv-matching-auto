@@ -7861,23 +7861,16 @@
     ]
   },
   "2026-04-18": {
-    "total": 105,
+    "total": 106,
     "streamlit": 0,
-    "github_action": 105,
-    "successful": 105,
+    "github_action": 106,
+    "successful": 106,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Megapolitan": 5
+      "Reporter Megapolitan": 6
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 03:52:48",
-        "source": "github_action",
-        "candidate": "Irene Kusuma",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 03:53:18",
         "source": "github_action",
@@ -8568,6 +8561,13 @@
         "timestamp": "2026-04-18 04:37:59",
         "source": "github_action",
         "candidate": "Muhammad Husni",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 04:38:25",
+        "source": "github_action",
+        "candidate": "Fathiyah Sabila",
         "position": "Reporter Megapolitan",
         "success": true
       }
