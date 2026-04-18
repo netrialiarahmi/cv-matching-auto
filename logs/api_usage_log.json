@@ -7861,10 +7861,10 @@
     ]
   },
   "2026-04-18": {
-    "total": 551,
+    "total": 552,
     "streamlit": 0,
-    "github_action": 551,
-    "successful": 551,
+    "github_action": 552,
+    "successful": 552,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
@@ -7872,16 +7872,9 @@
       "Sustainability Officer KG Media": 65,
       "Reporter Nasional": 100,
       "Content Writer Homey": 100,
-      "Data Analyst (Business Intelligence)": 86
+      "Data Analyst (Business Intelligence)": 87
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 07:03:37",
-        "source": "github_action",
-        "candidate": "Intan Ayu Maharani",
-        "position": "Content Writer Homey",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 07:04:05",
         "source": "github_action",
@@ -8572,6 +8565,13 @@
         "timestamp": "2026-04-18 08:00:17",
         "source": "github_action",
         "candidate": "Lucy Rizky Prasiska",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 08:00:43",
+        "source": "github_action",
+        "candidate": "Zaky Rizky Akbar",
         "position": "Data Analyst (Business Intelligence)",
         "success": true
       }
