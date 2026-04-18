@@ -7861,23 +7861,16 @@
     ]
   },
   "2026-04-18": {
-    "total": 183,
+    "total": 184,
     "streamlit": 0,
-    "github_action": 183,
-    "successful": 183,
+    "github_action": 184,
+    "successful": 184,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Megapolitan": 83
+      "Reporter Megapolitan": 84
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 04:28:18",
-        "source": "github_action",
-        "candidate": "Brillian N Hanin Pratama",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 04:28:46",
         "source": "github_action",
@@ -8568,6 +8561,13 @@
         "timestamp": "2026-04-18 05:07:33",
         "source": "github_action",
         "candidate": "Frisna silvilia berutu Frisna",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 05:08:02",
+        "source": "github_action",
+        "candidate": "Dharma Pandularas",
         "position": "Reporter Megapolitan",
         "success": true
       }
