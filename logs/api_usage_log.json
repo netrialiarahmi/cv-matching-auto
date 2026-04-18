@@ -7861,10 +7861,10 @@
     ]
   },
   "2026-04-18": {
-    "total": 752,
+    "total": 753,
     "streamlit": 0,
-    "github_action": 752,
-    "successful": 752,
+    "github_action": 753,
+    "successful": 753,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
@@ -7874,16 +7874,9 @@
       "Content Writer Homey": 100,
       "Data Analyst (Business Intelligence)": 100,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 87
+      "Account Executive VCBL": 88
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 08:47:59",
-        "source": "github_action",
-        "candidate": "Bintang Artha Velina Simanjuntak",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 08:48:26",
         "source": "github_action",
@@ -8574,6 +8567,13 @@
         "timestamp": "2026-04-18 09:31:27",
         "source": "github_action",
         "candidate": "Taufik Hidayat",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 09:31:54",
+        "source": "github_action",
+        "candidate": "David Martino Arreltama",
         "position": "Account Executive VCBL",
         "success": true
       }
