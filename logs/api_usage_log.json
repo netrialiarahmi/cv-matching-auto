@@ -7861,23 +7861,16 @@
     ]
   },
   "2026-04-18": {
-    "total": 184,
+    "total": 185,
     "streamlit": 0,
-    "github_action": 184,
-    "successful": 184,
+    "github_action": 185,
+    "successful": 185,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Megapolitan": 84
+      "Reporter Megapolitan": 85
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 04:28:46",
-        "source": "github_action",
-        "candidate": "Dhea Putri",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 04:29:13",
         "source": "github_action",
@@ -8568,6 +8561,13 @@
         "timestamp": "2026-04-18 05:08:02",
         "source": "github_action",
         "candidate": "Dharma Pandularas",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 05:08:32",
+        "source": "github_action",
+        "candidate": "Maisya Savinka Achmad",
         "position": "Reporter Megapolitan",
         "success": true
       }
