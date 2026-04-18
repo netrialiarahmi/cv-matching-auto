@@ -7861,25 +7861,18 @@
     ]
   },
   "2026-04-18": {
-    "total": 267,
+    "total": 268,
     "streamlit": 0,
-    "github_action": 267,
-    "successful": 267,
+    "github_action": 268,
+    "successful": 268,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
       "Sustainability Officer KG Media": 65,
-      "Reporter Nasional": 2
+      "Reporter Nasional": 3
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 05:01:56",
-        "source": "github_action",
-        "candidate": "Muhammad Hafiz Darmawan Destrian",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 05:02:24",
         "source": "github_action",
@@ -8570,6 +8563,13 @@
         "timestamp": "2026-04-18 05:43:05",
         "source": "github_action",
         "candidate": "Andika Pratama",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 05:43:30",
+        "source": "github_action",
+        "candidate": "Ahmad Khoirul Anam",
         "position": "Reporter Nasional",
         "success": true
       }
