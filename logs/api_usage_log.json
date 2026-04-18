@@ -7861,24 +7861,17 @@
     ]
   },
   "2026-04-18": {
-    "total": 233,
+    "total": 234,
     "streamlit": 0,
-    "github_action": 233,
-    "successful": 233,
+    "github_action": 234,
+    "successful": 234,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
-      "Sustainability Officer KG Media": 33
+      "Sustainability Officer KG Media": 34
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 04:48:38",
-        "source": "github_action",
-        "candidate": "Mochammad Rafi' Maulana",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 04:49:06",
         "source": "github_action",
@@ -8569,6 +8562,13 @@
         "timestamp": "2026-04-18 05:28:55",
         "source": "github_action",
         "candidate": "Sandra Samara Alamsyah",
+        "position": "Sustainability Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 05:29:25",
+        "source": "github_action",
+        "candidate": "Aura Isyel Febriyanti",
         "position": "Sustainability Officer KG Media",
         "success": true
       }
