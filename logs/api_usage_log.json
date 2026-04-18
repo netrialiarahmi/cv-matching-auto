@@ -7861,10 +7861,10 @@
     ]
   },
   "2026-04-18": {
-    "total": 510,
+    "total": 511,
     "streamlit": 0,
-    "github_action": 510,
-    "successful": 510,
+    "github_action": 511,
+    "successful": 511,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
@@ -7872,16 +7872,9 @@
       "Sustainability Officer KG Media": 65,
       "Reporter Nasional": 100,
       "Content Writer Homey": 100,
-      "Data Analyst (Business Intelligence)": 45
+      "Data Analyst (Business Intelligence)": 46
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 06:45:12",
-        "source": "github_action",
-        "candidate": "Ilham Renanda",
-        "position": "Content Writer Homey",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 06:45:43",
         "source": "github_action",
@@ -8572,6 +8565,13 @@
         "timestamp": "2026-04-18 07:41:38",
         "source": "github_action",
         "candidate": "Amelia Wardani",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 07:42:05",
+        "source": "github_action",
+        "candidate": "Ulfah Dwilestary",
         "position": "Data Analyst (Business Intelligence)",
         "success": true
       }
