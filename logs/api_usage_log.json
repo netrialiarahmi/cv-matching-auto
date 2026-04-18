@@ -7861,24 +7861,17 @@
     ]
   },
   "2026-04-18": {
-    "total": 214,
+    "total": 215,
     "streamlit": 0,
-    "github_action": 214,
-    "successful": 214,
+    "github_action": 215,
+    "successful": 215,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
-      "Sustainability Officer KG Media": 14
+      "Sustainability Officer KG Media": 15
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 04:42:08",
-        "source": "github_action",
-        "candidate": "Suci Rahma Nisa",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 04:42:34",
         "source": "github_action",
@@ -8569,6 +8562,13 @@
         "timestamp": "2026-04-18 05:20:53",
         "source": "github_action",
         "candidate": "YUSRON BADRI",
+        "position": "Sustainability Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 05:21:21",
+        "source": "github_action",
+        "candidate": "Alyaa Hasna Syifa",
         "position": "Sustainability Officer KG Media",
         "success": true
       }
