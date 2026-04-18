@@ -7861,26 +7861,19 @@
     ]
   },
   "2026-04-18": {
-    "total": 438,
+    "total": 439,
     "streamlit": 0,
-    "github_action": 438,
-    "successful": 438,
+    "github_action": 439,
+    "successful": 439,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
       "Sustainability Officer KG Media": 65,
       "Reporter Nasional": 100,
-      "Content Writer Homey": 73
+      "Content Writer Homey": 74
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 06:14:15",
-        "source": "github_action",
-        "candidate": "Lisa Damayanti",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 06:14:17",
         "source": "github_action",
@@ -8571,6 +8564,13 @@
         "timestamp": "2026-04-18 06:57:18",
         "source": "github_action",
         "candidate": "Noor Iksan Maulana",
+        "position": "Content Writer Homey",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 06:57:50",
+        "source": "github_action",
+        "candidate": "Indri Tedja Tyasning",
         "position": "Content Writer Homey",
         "success": true
       }
