@@ -7861,24 +7861,17 @@
     ]
   },
   "2026-04-18": {
-    "total": 262,
+    "total": 263,
     "streamlit": 0,
-    "github_action": 262,
-    "successful": 262,
+    "github_action": 263,
+    "successful": 263,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
-      "Sustainability Officer KG Media": 62
+      "Sustainability Officer KG Media": 63
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 04:59:43",
-        "source": "github_action",
-        "candidate": "Diva Khairunnisa",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 05:00:10",
         "source": "github_action",
@@ -8569,6 +8562,13 @@
         "timestamp": "2026-04-18 05:40:51",
         "source": "github_action",
         "candidate": "Sendi Zikri Julian Fadilah",
+        "position": "Sustainability Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 05:41:20",
+        "source": "github_action",
+        "candidate": "Robie Muhammad Ramadhan",
         "position": "Sustainability Officer KG Media",
         "success": true
       }
