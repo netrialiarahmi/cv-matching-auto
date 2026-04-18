@@ -7861,26 +7861,19 @@
     ]
   },
   "2026-04-18": {
-    "total": 410,
+    "total": 411,
     "streamlit": 0,
-    "github_action": 410,
-    "successful": 410,
+    "github_action": 411,
+    "successful": 411,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
       "Sustainability Officer KG Media": 65,
       "Reporter Nasional": 100,
-      "Content Writer Homey": 45
+      "Content Writer Homey": 46
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 06:02:12",
-        "source": "github_action",
-        "candidate": "Muhammad  Syarifuddin",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 06:02:37",
         "source": "github_action",
@@ -8571,6 +8564,13 @@
         "timestamp": "2026-04-18 06:44:47",
         "source": "github_action",
         "candidate": "Muhammad Thaba Pamungkas",
+        "position": "Content Writer Homey",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 06:45:12",
+        "source": "github_action",
+        "candidate": "Ilham Renanda",
         "position": "Content Writer Homey",
         "success": true
       }
