@@ -7861,23 +7861,16 @@
     ]
   },
   "2026-04-18": {
-    "total": 164,
+    "total": 165,
     "streamlit": 0,
-    "github_action": 164,
-    "successful": 164,
+    "github_action": 165,
+    "successful": 165,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Megapolitan": 64
+      "Reporter Megapolitan": 65
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 04:19:49",
-        "source": "github_action",
-        "candidate": "Alfi Riansyah",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 04:20:17",
         "source": "github_action",
@@ -8568,6 +8561,13 @@
         "timestamp": "2026-04-18 05:00:10",
         "source": "github_action",
         "candidate": "Faiz Maulida",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 05:00:37",
+        "source": "github_action",
+        "candidate": "Farrel  Fauzan",
         "position": "Reporter Megapolitan",
         "success": true
       }
