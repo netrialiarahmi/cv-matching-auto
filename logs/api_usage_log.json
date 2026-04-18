@@ -7861,25 +7861,18 @@
     ]
   },
   "2026-04-18": {
-    "total": 316,
+    "total": 317,
     "streamlit": 0,
-    "github_action": 316,
-    "successful": 316,
+    "github_action": 317,
+    "successful": 317,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
       "Sustainability Officer KG Media": 65,
-      "Reporter Nasional": 51
+      "Reporter Nasional": 52
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 05:22:17",
-        "source": "github_action",
-        "candidate": "Kinanti Salsabila",
-        "position": "Sustainability Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 05:22:44",
         "source": "github_action",
@@ -8570,6 +8563,13 @@
         "timestamp": "2026-04-18 06:04:30",
         "source": "github_action",
         "candidate": "muhammad ulhaq",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 06:04:59",
+        "source": "github_action",
+        "candidate": "Febriyandi Putra Ilham Permana",
         "position": "Reporter Nasional",
         "success": true
       }
