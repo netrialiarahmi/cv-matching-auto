@@ -7861,10 +7861,10 @@
     ]
   },
   "2026-04-18": {
-    "total": 518,
+    "total": 519,
     "streamlit": 0,
-    "github_action": 518,
-    "successful": 518,
+    "github_action": 519,
+    "successful": 519,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
@@ -7872,16 +7872,9 @@
       "Sustainability Officer KG Media": 65,
       "Reporter Nasional": 100,
       "Content Writer Homey": 100,
-      "Data Analyst (Business Intelligence)": 53
+      "Data Analyst (Business Intelligence)": 54
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 06:49:02",
-        "source": "github_action",
-        "candidate": "Adinda Rhamadani",
-        "position": "Content Writer Homey",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 06:49:27",
         "source": "github_action",
@@ -8572,6 +8565,13 @@
         "timestamp": "2026-04-18 07:45:19",
         "source": "github_action",
         "candidate": "Muhammad Faiz Azhari",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 07:45:47",
+        "source": "github_action",
+        "candidate": "Siti Nurhaliza",
         "position": "Data Analyst (Business Intelligence)",
         "success": true
       }
