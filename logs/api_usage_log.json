@@ -7861,24 +7861,17 @@
     ]
   },
   "2026-04-18": {
-    "total": 201,
+    "total": 202,
     "streamlit": 0,
-    "github_action": 201,
-    "successful": 201,
+    "github_action": 202,
+    "successful": 202,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
-      "Sustainability Officer KG Media": 1
+      "Sustainability Officer KG Media": 2
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 04:36:38",
-        "source": "github_action",
-        "candidate": "Lutfi Rahmawati",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 04:37:05",
         "source": "github_action",
@@ -8569,6 +8562,13 @@
         "timestamp": "2026-04-18 05:15:55",
         "source": "github_action",
         "candidate": "Fatwa Farhanto",
+        "position": "Sustainability Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 05:16:21",
+        "source": "github_action",
+        "candidate": "Azzara Putri Elvaza",
         "position": "Sustainability Officer KG Media",
         "success": true
       }
