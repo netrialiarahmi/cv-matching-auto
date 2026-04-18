@@ -7861,13 +7861,13 @@
     ]
   },
   "2026-04-18": {
-    "total": 71,
+    "total": 72,
     "streamlit": 0,
-    "github_action": 71,
-    "successful": 71,
+    "github_action": 72,
+    "successful": 72,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 71
+      "Marketing Communication Officer KG Media": 72
     },
     "entries": [
       {
@@ -8364,6 +8364,13 @@
         "timestamp": "2026-04-18 04:22:40",
         "source": "github_action",
         "candidate": "Steven andi Wijaya",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 04:23:06",
+        "source": "github_action",
+        "candidate": "Muhammad Zaky Nurrahman",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
