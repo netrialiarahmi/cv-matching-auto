@@ -7861,23 +7861,16 @@
     ]
   },
   "2026-04-18": {
-    "total": 167,
+    "total": 168,
     "streamlit": 0,
-    "github_action": 167,
-    "successful": 167,
+    "github_action": 168,
+    "successful": 168,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Megapolitan": 67
+      "Reporter Megapolitan": 68
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 04:21:16",
-        "source": "github_action",
-        "candidate": "Fitria Salsabila",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 04:21:44",
         "source": "github_action",
@@ -8568,6 +8561,13 @@
         "timestamp": "2026-04-18 05:01:29",
         "source": "github_action",
         "candidate": "Fikri Muchtar",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 05:01:56",
+        "source": "github_action",
+        "candidate": "Muhammad Hafiz Darmawan Destrian",
         "position": "Reporter Megapolitan",
         "success": true
       }
