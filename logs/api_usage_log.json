@@ -7861,25 +7861,18 @@
     ]
   },
   "2026-04-18": {
-    "total": 289,
+    "total": 290,
     "streamlit": 0,
-    "github_action": 289,
-    "successful": 289,
+    "github_action": 290,
+    "successful": 290,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
       "Sustainability Officer KG Media": 65,
-      "Reporter Nasional": 24
+      "Reporter Nasional": 25
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 05:10:56",
-        "source": "github_action",
-        "candidate": "Reinada Frianka  Ramdani",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 05:11:24",
         "source": "github_action",
@@ -8570,6 +8563,13 @@
         "timestamp": "2026-04-18 05:52:38",
         "source": "github_action",
         "candidate": "Nasywa Kharima",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 05:53:07",
+        "source": "github_action",
+        "candidate": "Wahyu Setiawan",
         "position": "Reporter Nasional",
         "success": true
       }
