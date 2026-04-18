@@ -7861,23 +7861,16 @@
     ]
   },
   "2026-04-18": {
-    "total": 128,
+    "total": 129,
     "streamlit": 0,
-    "github_action": 128,
-    "successful": 128,
+    "github_action": 129,
+    "successful": 129,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Megapolitan": 28
+      "Reporter Megapolitan": 29
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 04:03:05",
-        "source": "github_action",
-        "candidate": "Marsha Yoan Ezraria",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 04:03:31",
         "source": "github_action",
@@ -8568,6 +8561,13 @@
         "timestamp": "2026-04-18 04:46:06",
         "source": "github_action",
         "candidate": "Latifatul Karimah",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 04:46:28",
+        "source": "github_action",
+        "candidate": "Ashfa  Nurul Azizah",
         "position": "Reporter Megapolitan",
         "success": true
       }
