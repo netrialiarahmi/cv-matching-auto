@@ -7861,10 +7861,10 @@
     ]
   },
   "2026-04-18": {
-    "total": 527,
+    "total": 528,
     "streamlit": 0,
-    "github_action": 527,
-    "successful": 527,
+    "github_action": 528,
+    "successful": 528,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
@@ -7872,16 +7872,9 @@
       "Sustainability Officer KG Media": 65,
       "Reporter Nasional": 100,
       "Content Writer Homey": 100,
-      "Data Analyst (Business Intelligence)": 62
+      "Data Analyst (Business Intelligence)": 63
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 06:53:14",
-        "source": "github_action",
-        "candidate": "Nur Baeti",
-        "position": "Content Writer Homey",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 06:53:39",
         "source": "github_action",
@@ -8572,6 +8565,13 @@
         "timestamp": "2026-04-18 07:48:47",
         "source": "github_action",
         "candidate": "An'nisa Salsabhila",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 07:49:14",
+        "source": "github_action",
+        "candidate": "Shafira Jasmine Angesti",
         "position": "Data Analyst (Business Intelligence)",
         "success": true
       }
