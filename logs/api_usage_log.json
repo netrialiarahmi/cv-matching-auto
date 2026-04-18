@@ -7861,26 +7861,19 @@
     ]
   },
   "2026-04-18": {
-    "total": 443,
+    "total": 444,
     "streamlit": 0,
-    "github_action": 443,
-    "successful": 443,
+    "github_action": 444,
+    "successful": 444,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
       "Sustainability Officer KG Media": 65,
       "Reporter Nasional": 100,
-      "Content Writer Homey": 78
+      "Content Writer Homey": 79
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 06:16:09",
-        "source": "github_action",
-        "candidate": "Andito  Gifari",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 06:16:39",
         "source": "github_action",
@@ -8571,6 +8564,13 @@
         "timestamp": "2026-04-18 06:59:21",
         "source": "github_action",
         "candidate": "Savira Afiyah",
+        "position": "Content Writer Homey",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 06:59:48",
+        "source": "github_action",
+        "candidate": "Dwi Utari",
         "position": "Content Writer Homey",
         "success": true
       }
