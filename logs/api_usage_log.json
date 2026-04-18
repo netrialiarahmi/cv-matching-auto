@@ -7861,10 +7861,10 @@
     ]
   },
   "2026-04-18": {
-    "total": 500,
+    "total": 501,
     "streamlit": 0,
-    "github_action": 500,
-    "successful": 500,
+    "github_action": 501,
+    "successful": 501,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
@@ -7872,16 +7872,9 @@
       "Sustainability Officer KG Media": 65,
       "Reporter Nasional": 100,
       "Content Writer Homey": 100,
-      "Data Analyst (Business Intelligence)": 35
+      "Data Analyst (Business Intelligence)": 36
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 06:40:55",
-        "source": "github_action",
-        "candidate": "Briana Putri Alridya",
-        "position": "Content Writer Homey",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 06:41:26",
         "source": "github_action",
@@ -8572,6 +8565,13 @@
         "timestamp": "2026-04-18 07:26:44",
         "source": "github_action",
         "candidate": "Farhan Renardi",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 07:27:13",
+        "source": "github_action",
+        "candidate": "Muhammad Rangga Hata Raditya",
         "position": "Data Analyst (Business Intelligence)",
         "success": true
       }
