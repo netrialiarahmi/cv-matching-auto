@@ -7861,23 +7861,16 @@
     ]
   },
   "2026-04-18": {
-    "total": 113,
+    "total": 114,
     "streamlit": 0,
-    "github_action": 113,
-    "successful": 113,
+    "github_action": 114,
+    "successful": 114,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Megapolitan": 13
+      "Reporter Megapolitan": 14
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 03:56:37",
-        "source": "github_action",
-        "candidate": "Reno Ferdiasyah",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 03:57:05",
         "source": "github_action",
@@ -8568,6 +8561,13 @@
         "timestamp": "2026-04-18 04:41:11",
         "source": "github_action",
         "candidate": "Sami Muhammad",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 04:41:40",
+        "source": "github_action",
+        "candidate": "Meidiana  Shafa Kayla",
         "position": "Reporter Megapolitan",
         "success": true
       }
