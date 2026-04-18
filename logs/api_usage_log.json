@@ -7861,25 +7861,18 @@
     ]
   },
   "2026-04-18": {
-    "total": 274,
+    "total": 275,
     "streamlit": 0,
-    "github_action": 274,
-    "successful": 274,
+    "github_action": 275,
+    "successful": 275,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
       "Sustainability Officer KG Media": 65,
-      "Reporter Nasional": 9
+      "Reporter Nasional": 10
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 05:04:33",
-        "source": "github_action",
-        "candidate": "Azzahwa Zulfa Annabila",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 05:05:01",
         "source": "github_action",
@@ -8570,6 +8563,13 @@
         "timestamp": "2026-04-18 05:46:14",
         "source": "github_action",
         "candidate": "Salsabillah Irwanda",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 05:46:41",
+        "source": "github_action",
+        "candidate": "Erika Choirunisa",
         "position": "Reporter Nasional",
         "success": true
       }
