@@ -7861,23 +7861,16 @@
     ]
   },
   "2026-04-18": {
-    "total": 145,
+    "total": 146,
     "streamlit": 0,
-    "github_action": 145,
-    "successful": 145,
+    "github_action": 146,
+    "successful": 146,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Megapolitan": 45
+      "Reporter Megapolitan": 46
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 04:11:02",
-        "source": "github_action",
-        "candidate": "Alexandra Liani",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 04:11:29",
         "source": "github_action",
@@ -8568,6 +8561,13 @@
         "timestamp": "2026-04-18 04:52:51",
         "source": "github_action",
         "candidate": "Hanisar Achmad Fauzan",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 04:53:21",
+        "source": "github_action",
+        "candidate": "Dearest Tiantama",
         "position": "Reporter Megapolitan",
         "success": true
       }
