@@ -7861,13 +7861,13 @@
     ]
   },
   "2026-04-18": {
-    "total": 22,
+    "total": 23,
     "streamlit": 0,
-    "github_action": 22,
-    "successful": 22,
+    "github_action": 23,
+    "successful": 23,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 22
+      "Marketing Communication Officer KG Media": 23
     },
     "entries": [
       {
@@ -8021,6 +8021,13 @@
         "timestamp": "2026-04-18 03:59:57",
         "source": "github_action",
         "candidate": "Nur Intan Wulandari",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 04:00:24",
+        "source": "github_action",
+        "candidate": "Lukmanpuraga Adhi Pradana",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
