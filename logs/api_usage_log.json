@@ -7861,10 +7861,10 @@
     ]
   },
   "2026-04-18": {
-    "total": 479,
+    "total": 480,
     "streamlit": 0,
-    "github_action": 479,
-    "successful": 479,
+    "github_action": 480,
+    "successful": 480,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
@@ -7872,16 +7872,9 @@
       "Sustainability Officer KG Media": 65,
       "Reporter Nasional": 100,
       "Content Writer Homey": 100,
-      "Data Analyst (Business Intelligence)": 14
+      "Data Analyst (Business Intelligence)": 15
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 06:31:29",
-        "source": "github_action",
-        "candidate": "Heriyandi Pandapotan Sihombing",
-        "position": "Content Writer Homey",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 06:31:31",
         "source": "github_action",
@@ -8572,6 +8565,13 @@
         "timestamp": "2026-04-18 07:16:39",
         "source": "github_action",
         "candidate": "Kirana Humaira Putri",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 07:17:07",
+        "source": "github_action",
+        "candidate": "Rifky Alfitra",
         "position": "Data Analyst (Business Intelligence)",
         "success": true
       }
