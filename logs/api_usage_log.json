@@ -7861,10 +7861,10 @@
     ]
   },
   "2026-04-18": {
-    "total": 475,
+    "total": 476,
     "streamlit": 0,
-    "github_action": 475,
-    "successful": 475,
+    "github_action": 476,
+    "successful": 476,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
@@ -7872,16 +7872,9 @@
       "Sustainability Officer KG Media": 65,
       "Reporter Nasional": 100,
       "Content Writer Homey": 100,
-      "Data Analyst (Business Intelligence)": 10
+      "Data Analyst (Business Intelligence)": 11
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 06:29:58",
-        "source": "github_action",
-        "candidate": "Jihan Afifah Larasati",
-        "position": "Content Writer Homey",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 06:30:33",
         "source": "github_action",
@@ -8572,6 +8565,13 @@
         "timestamp": "2026-04-18 07:14:35",
         "source": "github_action",
         "candidate": "Aliya Maharani",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 07:15:08",
+        "source": "github_action",
+        "candidate": "Muhammad Dipinto",
         "position": "Data Analyst (Business Intelligence)",
         "success": true
       }
