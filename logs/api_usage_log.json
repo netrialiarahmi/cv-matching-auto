@@ -7861,23 +7861,16 @@
     ]
   },
   "2026-04-18": {
-    "total": 177,
+    "total": 178,
     "streamlit": 0,
-    "github_action": 177,
-    "successful": 177,
+    "github_action": 178,
+    "successful": 178,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Megapolitan": 77
+      "Reporter Megapolitan": 78
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 04:25:41",
-        "source": "github_action",
-        "candidate": "Angely -",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 04:26:06",
         "source": "github_action",
@@ -8568,6 +8561,13 @@
         "timestamp": "2026-04-18 05:05:28",
         "source": "github_action",
         "candidate": "M Abyan Denawa putra",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 05:06:01",
+        "source": "github_action",
+        "candidate": "Putri Hesti Lestari",
         "position": "Reporter Megapolitan",
         "success": true
       }
