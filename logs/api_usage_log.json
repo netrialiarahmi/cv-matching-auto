@@ -7861,23 +7861,16 @@
     ]
   },
   "2026-04-18": {
-    "total": 138,
+    "total": 139,
     "streamlit": 0,
-    "github_action": 138,
-    "successful": 138,
+    "github_action": 139,
+    "successful": 139,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Megapolitan": 38
+      "Reporter Megapolitan": 39
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 04:07:46",
-        "source": "github_action",
-        "candidate": "Maria Nyssa",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 04:08:10",
         "source": "github_action",
@@ -8568,6 +8561,13 @@
         "timestamp": "2026-04-18 04:49:57",
         "source": "github_action",
         "candidate": "Hartanti Rahma Putri",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 04:50:20",
+        "source": "github_action",
+        "candidate": "prayuda ramadhan",
         "position": "Reporter Megapolitan",
         "success": true
       }
