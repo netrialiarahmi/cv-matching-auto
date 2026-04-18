@@ -7861,10 +7861,10 @@
     ]
   },
   "2026-04-18": {
-    "total": 491,
+    "total": 492,
     "streamlit": 0,
-    "github_action": 491,
-    "successful": 491,
+    "github_action": 492,
+    "successful": 492,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
@@ -7872,16 +7872,9 @@
       "Sustainability Officer KG Media": 65,
       "Reporter Nasional": 100,
       "Content Writer Homey": 100,
-      "Data Analyst (Business Intelligence)": 26
+      "Data Analyst (Business Intelligence)": 27
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 06:36:27",
-        "source": "github_action",
-        "candidate": "Dominikus Wirawan Kuncorojati",
-        "position": "Content Writer Homey",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 06:36:58",
         "source": "github_action",
@@ -8572,6 +8565,13 @@
         "timestamp": "2026-04-18 07:22:33",
         "source": "github_action",
         "candidate": "Muhammad  Farhansyah",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 07:23:01",
+        "source": "github_action",
+        "candidate": "Gayatri Ayodhya",
         "position": "Data Analyst (Business Intelligence)",
         "success": true
       }
