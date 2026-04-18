@@ -7861,10 +7861,10 @@
     ]
   },
   "2026-04-18": {
-    "total": 760,
+    "total": 761,
     "streamlit": 0,
-    "github_action": 760,
-    "successful": 760,
+    "github_action": 761,
+    "successful": 761,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
@@ -7874,16 +7874,9 @@
       "Content Writer Homey": 100,
       "Data Analyst (Business Intelligence)": 100,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 95
+      "Account Executive VCBL": 96
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 08:51:46",
-        "source": "github_action",
-        "candidate": "nathania abhista",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 08:52:12",
         "source": "github_action",
@@ -8574,6 +8567,13 @@
         "timestamp": "2026-04-18 09:34:23",
         "source": "github_action",
         "candidate": "Sindy Rosita",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 09:34:49",
+        "source": "github_action",
+        "candidate": "Naila Asyrofa Khilyah",
         "position": "Account Executive VCBL",
         "success": true
       }
