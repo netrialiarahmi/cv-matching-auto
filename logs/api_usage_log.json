@@ -7861,26 +7861,19 @@
     ]
   },
   "2026-04-18": {
-    "total": 448,
+    "total": 449,
     "streamlit": 0,
-    "github_action": 448,
-    "successful": 448,
+    "github_action": 449,
+    "successful": 449,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
       "Sustainability Officer KG Media": 65,
       "Reporter Nasional": 100,
-      "Content Writer Homey": 83
+      "Content Writer Homey": 84
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 06:18:00",
-        "source": "github_action",
-        "candidate": "sitinurfadilamopi sitinurfadilamopi",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 06:18:30",
         "source": "github_action",
@@ -8571,6 +8564,13 @@
         "timestamp": "2026-04-18 07:01:51",
         "source": "github_action",
         "candidate": "ALSHA MAULIDA Alwahdy",
+        "position": "Content Writer Homey",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 07:02:18",
+        "source": "github_action",
+        "candidate": "Nurul Siregar",
         "position": "Content Writer Homey",
         "success": true
       }
