@@ -7861,26 +7861,19 @@
     ]
   },
   "2026-04-18": {
-    "total": 413,
+    "total": 414,
     "streamlit": 0,
-    "github_action": 413,
-    "successful": 413,
+    "github_action": 414,
+    "successful": 414,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
       "Sustainability Officer KG Media": 65,
       "Reporter Nasional": 100,
-      "Content Writer Homey": 48
+      "Content Writer Homey": 49
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 06:03:37",
-        "source": "github_action",
-        "candidate": "Reyvan Andrian Kristiandi",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 06:04:04",
         "source": "github_action",
@@ -8571,6 +8564,13 @@
         "timestamp": "2026-04-18 06:46:10",
         "source": "github_action",
         "candidate": "Prajwalita Nareswari",
+        "position": "Content Writer Homey",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 06:46:43",
+        "source": "github_action",
+        "candidate": "Hijfa Azzahra",
         "position": "Content Writer Homey",
         "success": true
       }
