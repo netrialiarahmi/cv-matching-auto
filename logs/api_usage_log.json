@@ -7861,23 +7861,16 @@
     ]
   },
   "2026-04-18": {
-    "total": 153,
+    "total": 154,
     "streamlit": 0,
-    "github_action": 153,
-    "successful": 153,
+    "github_action": 154,
+    "successful": 154,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Megapolitan": 53
+      "Reporter Megapolitan": 54
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 04:14:35",
-        "source": "github_action",
-        "candidate": "Rina auliya",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 04:15:01",
         "source": "github_action",
@@ -8568,6 +8561,13 @@
         "timestamp": "2026-04-18 04:55:39",
         "source": "github_action",
         "candidate": "Rizky Darmawan",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 04:56:11",
+        "source": "github_action",
+        "candidate": "Sherlina Purnamasari",
         "position": "Reporter Megapolitan",
         "success": true
       }
