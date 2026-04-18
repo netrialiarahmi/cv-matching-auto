@@ -7861,26 +7861,19 @@
     ]
   },
   "2026-04-18": {
-    "total": 437,
+    "total": 438,
     "streamlit": 0,
-    "github_action": 437,
-    "successful": 437,
+    "github_action": 438,
+    "successful": 438,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
       "Sustainability Officer KG Media": 65,
       "Reporter Nasional": 100,
-      "Content Writer Homey": 72
+      "Content Writer Homey": 73
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 06:13:48",
-        "source": "github_action",
-        "candidate": "Azhary Dinahusary",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 06:14:15",
         "source": "github_action",
@@ -8571,6 +8564,13 @@
         "timestamp": "2026-04-18 06:56:56",
         "source": "github_action",
         "candidate": "Claudita  Sidabutar",
+        "position": "Content Writer Homey",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 06:57:18",
+        "source": "github_action",
+        "candidate": "Noor Iksan Maulana",
         "position": "Content Writer Homey",
         "success": true
       }
