@@ -7861,24 +7861,17 @@
     ]
   },
   "2026-04-18": {
-    "total": 216,
+    "total": 217,
     "streamlit": 0,
-    "github_action": 216,
-    "successful": 216,
+    "github_action": 217,
+    "successful": 217,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
-      "Sustainability Officer KG Media": 16
+      "Sustainability Officer KG Media": 17
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 04:43:00",
-        "source": "github_action",
-        "candidate": "Windi Saputra",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 04:43:24",
         "source": "github_action",
@@ -8569,6 +8562,13 @@
         "timestamp": "2026-04-18 05:21:52",
         "source": "github_action",
         "candidate": "Amira Fyrda Bilqis Maulana",
+        "position": "Sustainability Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 05:22:17",
+        "source": "github_action",
+        "candidate": "Kinanti Salsabila",
         "position": "Sustainability Officer KG Media",
         "success": true
       }
