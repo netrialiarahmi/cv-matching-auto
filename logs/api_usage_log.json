@@ -7861,26 +7861,19 @@
     ]
   },
   "2026-04-18": {
-    "total": 401,
+    "total": 402,
     "streamlit": 0,
-    "github_action": 401,
-    "successful": 401,
+    "github_action": 402,
+    "successful": 402,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
       "Sustainability Officer KG Media": 65,
       "Reporter Nasional": 100,
-      "Content Writer Homey": 36
+      "Content Writer Homey": 37
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 05:58:04",
-        "source": "github_action",
-        "candidate": "Noviyanti Putri Wihadi",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 05:58:30",
         "source": "github_action",
@@ -8571,6 +8564,13 @@
         "timestamp": "2026-04-18 06:40:55",
         "source": "github_action",
         "candidate": "Briana Putri Alridya",
+        "position": "Content Writer Homey",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 06:41:26",
+        "source": "github_action",
+        "candidate": "Angelina Tiara Puspitalova",
         "position": "Content Writer Homey",
         "success": true
       }
