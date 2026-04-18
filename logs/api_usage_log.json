@@ -7861,23 +7861,16 @@
     ]
   },
   "2026-04-18": {
-    "total": 180,
+    "total": 181,
     "streamlit": 0,
-    "github_action": 180,
-    "successful": 180,
+    "github_action": 181,
+    "successful": 181,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Megapolitan": 80
+      "Reporter Megapolitan": 81
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 04:26:59",
-        "source": "github_action",
-        "candidate": "Binar Rembulan",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 04:27:22",
         "source": "github_action",
@@ -8568,6 +8561,13 @@
         "timestamp": "2026-04-18 05:06:36",
         "source": "github_action",
         "candidate": "widyy B.Y.S",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 05:07:04",
+        "source": "github_action",
+        "candidate": "Muhammad Thaba Pamungkas",
         "position": "Reporter Megapolitan",
         "success": true
       }
