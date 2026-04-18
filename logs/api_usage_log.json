@@ -7861,24 +7861,17 @@
     ]
   },
   "2026-04-18": {
-    "total": 202,
+    "total": 203,
     "streamlit": 0,
-    "github_action": 202,
-    "successful": 202,
+    "github_action": 203,
+    "successful": 203,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
-      "Sustainability Officer KG Media": 2
+      "Sustainability Officer KG Media": 3
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 04:37:05",
-        "source": "github_action",
-        "candidate": "Nadhira Nurul Azka",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 04:37:31",
         "source": "github_action",
@@ -8569,6 +8562,13 @@
         "timestamp": "2026-04-18 05:16:21",
         "source": "github_action",
         "candidate": "Azzara Putri Elvaza",
+        "position": "Sustainability Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 05:16:49",
+        "source": "github_action",
+        "candidate": "Novalin Valin",
         "position": "Sustainability Officer KG Media",
         "success": true
       }
