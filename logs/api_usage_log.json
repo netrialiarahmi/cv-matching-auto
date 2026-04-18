@@ -7861,24 +7861,17 @@
     ]
   },
   "2026-04-18": {
-    "total": 237,
+    "total": 238,
     "streamlit": 0,
-    "github_action": 237,
-    "successful": 237,
+    "github_action": 238,
+    "successful": 238,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
-      "Sustainability Officer KG Media": 37
+      "Sustainability Officer KG Media": 38
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 04:49:57",
-        "source": "github_action",
-        "candidate": "Hartanti Rahma Putri",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 04:50:20",
         "source": "github_action",
@@ -8569,6 +8562,13 @@
         "timestamp": "2026-04-18 05:30:48",
         "source": "github_action",
         "candidate": "Shofia Aniisa",
+        "position": "Sustainability Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 05:31:13",
+        "source": "github_action",
+        "candidate": "Alyza Ratih Wigiaharty",
         "position": "Sustainability Officer KG Media",
         "success": true
       }
