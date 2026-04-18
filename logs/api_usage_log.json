@@ -7861,23 +7861,16 @@
     ]
   },
   "2026-04-18": {
-    "total": 132,
+    "total": 133,
     "streamlit": 0,
-    "github_action": 132,
-    "successful": 132,
+    "github_action": 133,
+    "successful": 133,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Megapolitan": 32
+      "Reporter Megapolitan": 33
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 04:04:53",
-        "source": "github_action",
-        "candidate": "Sherly Octaviani",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 04:05:21",
         "source": "github_action",
@@ -8568,6 +8561,13 @@
         "timestamp": "2026-04-18 04:47:50",
         "source": "github_action",
         "candidate": "Elisa apriliyani",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 04:48:15",
+        "source": "github_action",
+        "candidate": "Laya Salsabila",
         "position": "Reporter Megapolitan",
         "success": true
       }
