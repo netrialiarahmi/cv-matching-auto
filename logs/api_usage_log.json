@@ -7861,13 +7861,13 @@
     ]
   },
   "2026-04-18": {
-    "total": 72,
+    "total": 73,
     "streamlit": 0,
-    "github_action": 72,
-    "successful": 72,
+    "github_action": 73,
+    "successful": 73,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 72
+      "Marketing Communication Officer KG Media": 73
     },
     "entries": [
       {
@@ -8371,6 +8371,13 @@
         "timestamp": "2026-04-18 04:23:06",
         "source": "github_action",
         "candidate": "Muhammad Zaky Nurrahman",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 04:23:29",
+        "source": "github_action",
+        "candidate": "Usy Izzani Faizti",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
