@@ -7861,24 +7861,17 @@
     ]
   },
   "2026-04-18": {
-    "total": 248,
+    "total": 249,
     "streamlit": 0,
-    "github_action": 248,
-    "successful": 248,
+    "github_action": 249,
+    "successful": 249,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
-      "Sustainability Officer KG Media": 48
+      "Sustainability Officer KG Media": 49
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 04:54:17",
-        "source": "github_action",
-        "candidate": "Asprila_maharani Maharani",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 04:54:42",
         "source": "github_action",
@@ -8569,6 +8562,13 @@
         "timestamp": "2026-04-18 05:35:15",
         "source": "github_action",
         "candidate": "Yoanda Adzra nabilasya",
+        "position": "Sustainability Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 05:35:46",
+        "source": "github_action",
+        "candidate": "Yunita Indriyani",
         "position": "Sustainability Officer KG Media",
         "success": true
       }
