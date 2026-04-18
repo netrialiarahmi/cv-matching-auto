@@ -7861,25 +7861,18 @@
     ]
   },
   "2026-04-18": {
-    "total": 281,
+    "total": 282,
     "streamlit": 0,
-    "github_action": 281,
-    "successful": 281,
+    "github_action": 282,
+    "successful": 282,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
       "Sustainability Officer KG Media": 65,
-      "Reporter Nasional": 16
+      "Reporter Nasional": 17
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 05:07:31",
-        "source": "github_action",
-        "candidate": "Muhammad Arya Andriansyah",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 05:07:33",
         "source": "github_action",
@@ -8570,6 +8563,13 @@
         "timestamp": "2026-04-18 05:49:38",
         "source": "github_action",
         "candidate": "Farhan Nuzhadiwa",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 05:50:03",
+        "source": "github_action",
+        "candidate": "Aldian Zakarias Bani",
         "position": "Reporter Nasional",
         "success": true
       }
