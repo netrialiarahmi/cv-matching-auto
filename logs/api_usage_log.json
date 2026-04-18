@@ -7861,10 +7861,10 @@
     ]
   },
   "2026-04-18": {
-    "total": 649,
+    "total": 650,
     "streamlit": 0,
-    "github_action": 649,
-    "successful": 649,
+    "github_action": 650,
+    "successful": 650,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
@@ -7873,16 +7873,9 @@
       "Reporter Nasional": 100,
       "Content Writer Homey": 100,
       "Data Analyst (Business Intelligence)": 100,
-      "Business Development Analyst": 84
+      "Business Development Analyst": 85
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 07:59:50",
-        "source": "github_action",
-        "candidate": "Valentin Hendra Jaya",
-        "position": "Data Analyst (Business Intelligence)",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 08:00:17",
         "source": "github_action",
@@ -8573,6 +8566,13 @@
         "timestamp": "2026-04-18 08:46:20",
         "source": "github_action",
         "candidate": "Mohammad Farhan Saputra",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 08:46:57",
+        "source": "github_action",
+        "candidate": "Ananda Sari",
         "position": "Business Development Analyst",
         "success": true
       }
