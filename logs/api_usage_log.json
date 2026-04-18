@@ -7861,26 +7861,19 @@
     ]
   },
   "2026-04-18": {
-    "total": 374,
+    "total": 375,
     "streamlit": 0,
-    "github_action": 374,
-    "successful": 374,
+    "github_action": 375,
+    "successful": 375,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
       "Sustainability Officer KG Media": 65,
       "Reporter Nasional": 100,
-      "Content Writer Homey": 9
+      "Content Writer Homey": 10
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 05:46:41",
-        "source": "github_action",
-        "candidate": "Erika Choirunisa",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 05:47:13",
         "source": "github_action",
@@ -8571,6 +8564,13 @@
         "timestamp": "2026-04-18 06:29:04",
         "source": "github_action",
         "candidate": "Teddy Adhitya",
+        "position": "Content Writer Homey",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 06:29:32",
+        "source": "github_action",
+        "candidate": "deanita salsabila",
         "position": "Content Writer Homey",
         "success": true
       }
