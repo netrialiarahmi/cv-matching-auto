@@ -7861,24 +7861,17 @@
     ]
   },
   "2026-04-18": {
-    "total": 207,
+    "total": 208,
     "streamlit": 0,
-    "github_action": 207,
-    "successful": 207,
+    "github_action": 208,
+    "successful": 208,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
-      "Sustainability Officer KG Media": 7
+      "Sustainability Officer KG Media": 8
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 04:39:17",
-        "source": "github_action",
-        "candidate": "Arshya Fatimah Azzahra",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 04:39:19",
         "source": "github_action",
@@ -8569,6 +8562,13 @@
         "timestamp": "2026-04-18 05:18:37",
         "source": "github_action",
         "candidate": "Astrid Dwivani",
+        "position": "Sustainability Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 05:19:10",
+        "source": "github_action",
+        "candidate": "sukma gultom",
         "position": "Sustainability Officer KG Media",
         "success": true
       }
