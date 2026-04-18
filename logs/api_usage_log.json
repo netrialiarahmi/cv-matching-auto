@@ -7861,23 +7861,16 @@
     ]
   },
   "2026-04-18": {
-    "total": 121,
+    "total": 122,
     "streamlit": 0,
-    "github_action": 121,
-    "successful": 121,
+    "github_action": 122,
+    "successful": 122,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Megapolitan": 21
+      "Reporter Megapolitan": 22
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 03:59:57",
-        "source": "github_action",
-        "candidate": "Nur Intan Wulandari",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 04:00:24",
         "source": "github_action",
@@ -8568,6 +8561,13 @@
         "timestamp": "2026-04-18 04:44:36",
         "source": "github_action",
         "candidate": "Aldy Rahman",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 04:44:38",
+        "source": "github_action",
+        "candidate": "Deni Pandu Lutfi efendi",
         "position": "Reporter Megapolitan",
         "success": true
       }
