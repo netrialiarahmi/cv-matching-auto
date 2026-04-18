@@ -7861,23 +7861,16 @@
     ]
   },
   "2026-04-18": {
-    "total": 168,
+    "total": 169,
     "streamlit": 0,
-    "github_action": 168,
-    "successful": 168,
+    "github_action": 169,
+    "successful": 169,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Megapolitan": 68
+      "Reporter Megapolitan": 69
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 04:21:44",
-        "source": "github_action",
-        "candidate": "sahrul abdul huda",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 04:22:09",
         "source": "github_action",
@@ -8568,6 +8561,13 @@
         "timestamp": "2026-04-18 05:01:56",
         "source": "github_action",
         "candidate": "Muhammad Hafiz Darmawan Destrian",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 05:02:24",
+        "source": "github_action",
+        "candidate": "Masyita Deta Rahadiani",
         "position": "Reporter Megapolitan",
         "success": true
       }
