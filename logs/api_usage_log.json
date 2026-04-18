@@ -7861,25 +7861,18 @@
     ]
   },
   "2026-04-18": {
-    "total": 311,
+    "total": 312,
     "streamlit": 0,
-    "github_action": 311,
-    "successful": 311,
+    "github_action": 312,
+    "successful": 312,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
       "Sustainability Officer KG Media": 65,
-      "Reporter Nasional": 46
+      "Reporter Nasional": 47
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 05:20:04",
-        "source": "github_action",
-        "candidate": "Ridho Putra Pasepi",
-        "position": "Sustainability Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 05:20:27",
         "source": "github_action",
@@ -8570,6 +8563,13 @@
         "timestamp": "2026-04-18 06:02:12",
         "source": "github_action",
         "candidate": "Muhammad  Syarifuddin",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 06:02:37",
+        "source": "github_action",
+        "candidate": "Ghifarra Ayudiani",
         "position": "Reporter Nasional",
         "success": true
       }
