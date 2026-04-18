@@ -7861,23 +7861,16 @@
     ]
   },
   "2026-04-18": {
-    "total": 144,
+    "total": 145,
     "streamlit": 0,
-    "github_action": 144,
-    "successful": 144,
+    "github_action": 145,
+    "successful": 145,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Megapolitan": 44
+      "Reporter Megapolitan": 45
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 04:10:32",
-        "source": "github_action",
-        "candidate": "Andika Yanuar Fitriansyah",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 04:11:02",
         "source": "github_action",
@@ -8568,6 +8561,13 @@
         "timestamp": "2026-04-18 04:52:31",
         "source": "github_action",
         "candidate": "Firlina Rizky Putri Fajarani",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 04:52:51",
+        "source": "github_action",
+        "candidate": "Hanisar Achmad Fauzan",
         "position": "Reporter Megapolitan",
         "success": true
       }
