@@ -7861,10 +7861,10 @@
     ]
   },
   "2026-04-18": {
-    "total": 487,
+    "total": 488,
     "streamlit": 0,
-    "github_action": 487,
-    "successful": 487,
+    "github_action": 488,
+    "successful": 488,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
@@ -7872,16 +7872,9 @@
       "Sustainability Officer KG Media": 65,
       "Reporter Nasional": 100,
       "Content Writer Homey": 100,
-      "Data Analyst (Business Intelligence)": 22
+      "Data Analyst (Business Intelligence)": 23
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 06:34:38",
-        "source": "github_action",
-        "candidate": "Filemon Agung Hadiwardoyo",
-        "position": "Content Writer Homey",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 06:35:03",
         "source": "github_action",
@@ -8572,6 +8565,13 @@
         "timestamp": "2026-04-18 07:20:39",
         "source": "github_action",
         "candidate": "BIFFANCA ALLYA KENEDY",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 07:21:07",
+        "source": "github_action",
+        "candidate": "Firda Kusumawardhani",
         "position": "Data Analyst (Business Intelligence)",
         "success": true
       }
