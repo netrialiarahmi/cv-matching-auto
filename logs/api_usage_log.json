@@ -7861,13 +7861,13 @@
     ]
   },
   "2026-04-18": {
-    "total": 69,
+    "total": 70,
     "streamlit": 0,
-    "github_action": 69,
-    "successful": 69,
+    "github_action": 70,
+    "successful": 70,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 69
+      "Marketing Communication Officer KG Media": 70
     },
     "entries": [
       {
@@ -8350,6 +8350,13 @@
         "timestamp": "2026-04-18 04:21:44",
         "source": "github_action",
         "candidate": "sahrul abdul huda",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 04:22:09",
+        "source": "github_action",
+        "candidate": "Kafrawi Miftah",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
