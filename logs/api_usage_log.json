@@ -7861,24 +7861,17 @@
     ]
   },
   "2026-04-18": {
-    "total": 217,
+    "total": 218,
     "streamlit": 0,
-    "github_action": 217,
-    "successful": 217,
+    "github_action": 218,
+    "successful": 218,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
-      "Sustainability Officer KG Media": 17
+      "Sustainability Officer KG Media": 18
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 04:43:24",
-        "source": "github_action",
-        "candidate": "Muhamad Reza Pahlevi",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 04:43:49",
         "source": "github_action",
@@ -8569,6 +8562,13 @@
         "timestamp": "2026-04-18 05:22:17",
         "source": "github_action",
         "candidate": "Kinanti Salsabila",
+        "position": "Sustainability Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 05:22:44",
+        "source": "github_action",
+        "candidate": "Alfonsus Satya",
         "position": "Sustainability Officer KG Media",
         "success": true
       }
