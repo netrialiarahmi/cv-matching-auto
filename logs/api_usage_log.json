@@ -7861,25 +7861,18 @@
     ]
   },
   "2026-04-18": {
-    "total": 314,
+    "total": 315,
     "streamlit": 0,
-    "github_action": 314,
-    "successful": 314,
+    "github_action": 315,
+    "successful": 315,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
       "Sustainability Officer KG Media": 65,
-      "Reporter Nasional": 49
+      "Reporter Nasional": 50
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 05:21:21",
-        "source": "github_action",
-        "candidate": "Alyaa Hasna Syifa",
-        "position": "Sustainability Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 05:21:52",
         "source": "github_action",
@@ -8570,6 +8563,13 @@
         "timestamp": "2026-04-18 06:03:37",
         "source": "github_action",
         "candidate": "Reyvan Andrian Kristiandi",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 06:04:04",
+        "source": "github_action",
+        "candidate": "Lizah Faizah",
         "position": "Reporter Nasional",
         "success": true
       }
