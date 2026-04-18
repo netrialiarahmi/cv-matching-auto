@@ -7861,26 +7861,19 @@
     ]
   },
   "2026-04-18": {
-    "total": 423,
+    "total": 424,
     "streamlit": 0,
-    "github_action": 423,
-    "successful": 423,
+    "github_action": 424,
+    "successful": 424,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
       "Sustainability Officer KG Media": 65,
       "Reporter Nasional": 100,
-      "Content Writer Homey": 58
+      "Content Writer Homey": 59
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 06:07:23",
-        "source": "github_action",
-        "candidate": "Safira Tri Cahya",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 06:07:52",
         "source": "github_action",
@@ -8571,6 +8564,13 @@
         "timestamp": "2026-04-18 06:51:00",
         "source": "github_action",
         "candidate": "Rani Purwanti",
+        "position": "Content Writer Homey",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 06:51:28",
+        "source": "github_action",
+        "candidate": "Olvy Lianara Handoko",
         "position": "Content Writer Homey",
         "success": true
       }
