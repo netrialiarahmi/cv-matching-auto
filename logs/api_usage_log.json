@@ -7861,25 +7861,18 @@
     ]
   },
   "2026-04-18": {
-    "total": 278,
+    "total": 279,
     "streamlit": 0,
-    "github_action": 278,
-    "successful": 278,
+    "github_action": 279,
+    "successful": 279,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
       "Sustainability Officer KG Media": 65,
-      "Reporter Nasional": 13
+      "Reporter Nasional": 14
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 05:06:34",
-        "source": "github_action",
-        "candidate": "Muhamad Rakan Syaifullah",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 05:06:36",
         "source": "github_action",
@@ -8570,6 +8563,13 @@
         "timestamp": "2026-04-18 05:48:11",
         "source": "github_action",
         "candidate": "irfanaf bss",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 05:48:42",
+        "source": "github_action",
+        "candidate": "Muhammad Fauzan",
         "position": "Reporter Nasional",
         "success": true
       }
