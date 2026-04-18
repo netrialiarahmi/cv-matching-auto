@@ -7861,23 +7861,16 @@
     ]
   },
   "2026-04-18": {
-    "total": 154,
+    "total": 155,
     "streamlit": 0,
-    "github_action": 154,
-    "successful": 154,
+    "github_action": 155,
+    "successful": 155,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Megapolitan": 54
+      "Reporter Megapolitan": 55
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 04:15:01",
-        "source": "github_action",
-        "candidate": "Dea Fahira",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 04:15:28",
         "source": "github_action",
@@ -8568,6 +8561,13 @@
         "timestamp": "2026-04-18 04:56:11",
         "source": "github_action",
         "candidate": "Sherlina Purnamasari",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 04:56:38",
+        "source": "github_action",
+        "candidate": "Sindhu Linguistika Manumanasa",
         "position": "Reporter Megapolitan",
         "success": true
       }
