@@ -7861,26 +7861,19 @@
     ]
   },
   "2026-04-18": {
-    "total": 450,
+    "total": 451,
     "streamlit": 0,
-    "github_action": 450,
-    "successful": 450,
+    "github_action": 451,
+    "successful": 451,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
       "Sustainability Officer KG Media": 65,
       "Reporter Nasional": 100,
-      "Content Writer Homey": 85
+      "Content Writer Homey": 86
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 06:18:58",
-        "source": "github_action",
-        "candidate": "Inayah Kurniawati",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 06:19:28",
         "source": "github_action",
@@ -8571,6 +8564,13 @@
         "timestamp": "2026-04-18 07:02:46",
         "source": "github_action",
         "candidate": "Nadia Daniel",
+        "position": "Content Writer Homey",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 07:03:11",
+        "source": "github_action",
+        "candidate": "Alvines Pratama",
         "position": "Content Writer Homey",
         "success": true
       }
