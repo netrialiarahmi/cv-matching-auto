@@ -7861,23 +7861,16 @@
     ]
   },
   "2026-04-18": {
-    "total": 143,
+    "total": 144,
     "streamlit": 0,
-    "github_action": 143,
-    "successful": 143,
+    "github_action": 144,
+    "successful": 144,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Megapolitan": 43
+      "Reporter Megapolitan": 44
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 04:10:03",
-        "source": "github_action",
-        "candidate": "Alvie Dian Verina",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 04:10:32",
         "source": "github_action",
@@ -8568,6 +8561,13 @@
         "timestamp": "2026-04-18 04:52:06",
         "source": "github_action",
         "candidate": "Dwi Ramayanti",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 04:52:31",
+        "source": "github_action",
+        "candidate": "Firlina Rizky Putri Fajarani",
         "position": "Reporter Megapolitan",
         "success": true
       }
