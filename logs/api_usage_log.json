@@ -7861,23 +7861,16 @@
     ]
   },
   "2026-04-18": {
-    "total": 141,
+    "total": 142,
     "streamlit": 0,
-    "github_action": 141,
-    "successful": 141,
+    "github_action": 142,
+    "successful": 142,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Megapolitan": 41
+      "Reporter Megapolitan": 42
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 04:09:09",
-        "source": "github_action",
-        "candidate": "Dio Rahardian",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 04:09:37",
         "source": "github_action",
@@ -8568,6 +8561,13 @@
         "timestamp": "2026-04-18 04:51:13",
         "source": "github_action",
         "candidate": "Tiaranissa Juliansyah",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 04:51:41",
+        "source": "github_action",
+        "candidate": "Ajmal Fajar",
         "position": "Reporter Megapolitan",
         "success": true
       }
