@@ -7861,23 +7861,16 @@
     ]
   },
   "2026-04-18": {
-    "total": 101,
+    "total": 102,
     "streamlit": 0,
-    "github_action": 101,
-    "successful": 101,
+    "github_action": 102,
+    "successful": 102,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Megapolitan": 1
+      "Reporter Megapolitan": 2
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 03:50:57",
-        "source": "github_action",
-        "candidate": "Reva Jilan",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 03:51:25",
         "source": "github_action",
@@ -8568,6 +8561,13 @@
         "timestamp": "2026-04-18 04:36:10",
         "source": "github_action",
         "candidate": "Sbsalsabila I",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 04:36:38",
+        "source": "github_action",
+        "candidate": "Lutfi Rahmawati",
         "position": "Reporter Megapolitan",
         "success": true
       }
