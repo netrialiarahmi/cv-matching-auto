@@ -7861,26 +7861,19 @@
     ]
   },
   "2026-04-18": {
-    "total": 436,
+    "total": 437,
     "streamlit": 0,
-    "github_action": 436,
-    "successful": 436,
+    "github_action": 437,
+    "successful": 437,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
       "Sustainability Officer KG Media": 65,
       "Reporter Nasional": 100,
-      "Content Writer Homey": 71
+      "Content Writer Homey": 72
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 06:13:23",
-        "source": "github_action",
-        "candidate": "Nazwa Nabilla",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 06:13:48",
         "source": "github_action",
@@ -8571,6 +8564,13 @@
         "timestamp": "2026-04-18 06:56:26",
         "source": "github_action",
         "candidate": "Habibah Dyah Miranda",
+        "position": "Content Writer Homey",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 06:56:56",
+        "source": "github_action",
+        "candidate": "Claudita  Sidabutar",
         "position": "Content Writer Homey",
         "success": true
       }
