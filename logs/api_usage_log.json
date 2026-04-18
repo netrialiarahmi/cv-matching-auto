@@ -7861,24 +7861,17 @@
     ]
   },
   "2026-04-18": {
-    "total": 210,
+    "total": 211,
     "streamlit": 0,
-    "github_action": 210,
-    "successful": 210,
+    "github_action": 211,
+    "successful": 211,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
-      "Sustainability Officer KG Media": 10
+      "Sustainability Officer KG Media": 11
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 04:40:14",
-        "source": "github_action",
-        "candidate": "Teguh Eka Budianto",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 04:40:41",
         "source": "github_action",
@@ -8569,6 +8562,13 @@
         "timestamp": "2026-04-18 05:19:38",
         "source": "github_action",
         "candidate": "Firdanarestri Mahya P",
+        "position": "Sustainability Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 05:20:02",
+        "source": "github_action",
+        "candidate": "Sulthan Akmal",
         "position": "Sustainability Officer KG Media",
         "success": true
       }
