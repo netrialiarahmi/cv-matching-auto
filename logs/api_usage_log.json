@@ -7861,10 +7861,10 @@
     ]
   },
   "2026-04-18": {
-    "total": 517,
+    "total": 518,
     "streamlit": 0,
-    "github_action": 517,
-    "successful": 517,
+    "github_action": 518,
+    "successful": 518,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
@@ -7872,16 +7872,9 @@
       "Sustainability Officer KG Media": 65,
       "Reporter Nasional": 100,
       "Content Writer Homey": 100,
-      "Data Analyst (Business Intelligence)": 52
+      "Data Analyst (Business Intelligence)": 53
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 06:48:35",
-        "source": "github_action",
-        "candidate": "Rismayanti Mamong",
-        "position": "Content Writer Homey",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 06:49:02",
         "source": "github_action",
@@ -8572,6 +8565,13 @@
         "timestamp": "2026-04-18 07:44:52",
         "source": "github_action",
         "candidate": "difans afta https://www.linkedin.com/in/difansafta/",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 07:45:19",
+        "source": "github_action",
+        "candidate": "Muhammad Faiz Azhari",
         "position": "Data Analyst (Business Intelligence)",
         "success": true
       }
