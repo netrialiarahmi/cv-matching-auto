@@ -7861,10 +7861,10 @@
     ]
   },
   "2026-04-18": {
-    "total": 477,
+    "total": 478,
     "streamlit": 0,
-    "github_action": 477,
-    "successful": 477,
+    "github_action": 478,
+    "successful": 478,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
@@ -7872,16 +7872,9 @@
       "Sustainability Officer KG Media": 65,
       "Reporter Nasional": 100,
       "Content Writer Homey": 100,
-      "Data Analyst (Business Intelligence)": 12
+      "Data Analyst (Business Intelligence)": 13
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 06:30:35",
-        "source": "github_action",
-        "candidate": "Kalya Rizkya",
-        "position": "Content Writer Homey",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 06:31:01",
         "source": "github_action",
@@ -8572,6 +8565,13 @@
         "timestamp": "2026-04-18 07:15:39",
         "source": "github_action",
         "candidate": "Frida Putriassa",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 07:16:10",
+        "source": "github_action",
+        "candidate": "Raafi  Musa Fatahilah Kemas",
         "position": "Data Analyst (Business Intelligence)",
         "success": true
       }
