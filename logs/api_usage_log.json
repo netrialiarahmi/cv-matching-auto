@@ -7861,13 +7861,13 @@
     ]
   },
   "2026-04-18": {
-    "total": 27,
+    "total": 28,
     "streamlit": 0,
-    "github_action": 27,
-    "successful": 27,
+    "github_action": 28,
+    "successful": 28,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 27
+      "Marketing Communication Officer KG Media": 28
     },
     "entries": [
       {
@@ -8056,6 +8056,13 @@
         "timestamp": "2026-04-18 04:02:09",
         "source": "github_action",
         "candidate": "Hanif  Fathoni",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 04:02:36",
+        "source": "github_action",
+        "candidate": "Akbar Adzani",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
