@@ -7861,25 +7861,18 @@
     ]
   },
   "2026-04-18": {
-    "total": 288,
+    "total": 289,
     "streamlit": 0,
-    "github_action": 288,
-    "successful": 288,
+    "github_action": 289,
+    "successful": 289,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
       "Sustainability Officer KG Media": 65,
-      "Reporter Nasional": 23
+      "Reporter Nasional": 24
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 05:10:29",
-        "source": "github_action",
-        "candidate": "Hernadia Putri",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 05:10:56",
         "source": "github_action",
@@ -8570,6 +8563,13 @@
         "timestamp": "2026-04-18 05:52:11",
         "source": "github_action",
         "candidate": "Abrar Rizq",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 05:52:38",
+        "source": "github_action",
+        "candidate": "Nasywa Kharima",
         "position": "Reporter Nasional",
         "success": true
       }
