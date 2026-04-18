@@ -7861,24 +7861,17 @@
     ]
   },
   "2026-04-18": {
-    "total": 212,
+    "total": 213,
     "streamlit": 0,
-    "github_action": 212,
-    "successful": 212,
+    "github_action": 213,
+    "successful": 213,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
-      "Sustainability Officer KG Media": 12
+      "Sustainability Officer KG Media": 13
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 04:41:11",
-        "source": "github_action",
-        "candidate": "Sami Muhammad",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 04:41:40",
         "source": "github_action",
@@ -8569,6 +8562,13 @@
         "timestamp": "2026-04-18 05:20:04",
         "source": "github_action",
         "candidate": "Ridho Putra Pasepi",
+        "position": "Sustainability Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 05:20:27",
+        "source": "github_action",
+        "candidate": "Andre Sugiarta",
         "position": "Sustainability Officer KG Media",
         "success": true
       }
