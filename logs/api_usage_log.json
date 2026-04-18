@@ -7861,10 +7861,10 @@
     ]
   },
   "2026-04-18": {
-    "total": 558,
+    "total": 559,
     "streamlit": 0,
-    "github_action": 558,
-    "successful": 558,
+    "github_action": 559,
+    "successful": 559,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
@@ -7872,16 +7872,9 @@
       "Sustainability Officer KG Media": 65,
       "Reporter Nasional": 100,
       "Content Writer Homey": 100,
-      "Data Analyst (Business Intelligence)": 93
+      "Data Analyst (Business Intelligence)": 94
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 07:07:11",
-        "source": "github_action",
-        "candidate": "Muhammad Fadli Sinatrya",
-        "position": "Content Writer Homey",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 07:07:39",
         "source": "github_action",
@@ -8572,6 +8565,13 @@
         "timestamp": "2026-04-18 08:03:16",
         "source": "github_action",
         "candidate": "Areta Fidela Artanti",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 08:03:48",
+        "source": "github_action",
+        "candidate": "Ismi Ana Sulasiyah",
         "position": "Data Analyst (Business Intelligence)",
         "success": true
       }
