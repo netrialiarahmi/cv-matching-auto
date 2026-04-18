@@ -7861,25 +7861,18 @@
     ]
   },
   "2026-04-18": {
-    "total": 353,
+    "total": 354,
     "streamlit": 0,
-    "github_action": 353,
-    "successful": 353,
+    "github_action": 354,
+    "successful": 354,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
       "Sustainability Officer KG Media": 65,
-      "Reporter Nasional": 88
+      "Reporter Nasional": 89
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 05:37:43",
-        "source": "github_action",
-        "candidate": "Septian Putra Manuel Simangunsong",
-        "position": "Sustainability Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 05:38:09",
         "source": "github_action",
@@ -8570,6 +8563,13 @@
         "timestamp": "2026-04-18 06:19:56",
         "source": "github_action",
         "candidate": "Gilang pramudia",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 06:20:21",
+        "source": "github_action",
+        "candidate": "Yoseph Aldhi Kristiantoro",
         "position": "Reporter Nasional",
         "success": true
       }
