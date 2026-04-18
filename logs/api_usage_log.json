@@ -7861,26 +7861,19 @@
     ]
   },
   "2026-04-18": {
-    "total": 373,
+    "total": 374,
     "streamlit": 0,
-    "github_action": 373,
-    "successful": 373,
+    "github_action": 374,
+    "successful": 374,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
       "Sustainability Officer KG Media": 65,
       "Reporter Nasional": 100,
-      "Content Writer Homey": 8
+      "Content Writer Homey": 9
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 05:46:14",
-        "source": "github_action",
-        "candidate": "Salsabillah Irwanda",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 05:46:41",
         "source": "github_action",
@@ -8571,6 +8564,13 @@
         "timestamp": "2026-04-18 06:28:39",
         "source": "github_action",
         "candidate": "Maurell Raisa Putri",
+        "position": "Content Writer Homey",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 06:29:04",
+        "source": "github_action",
+        "candidate": "Teddy Adhitya",
         "position": "Content Writer Homey",
         "success": true
       }
