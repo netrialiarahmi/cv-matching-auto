@@ -7861,26 +7861,19 @@
     ]
   },
   "2026-04-18": {
-    "total": 459,
+    "total": 460,
     "streamlit": 0,
-    "github_action": 459,
-    "successful": 459,
+    "github_action": 460,
+    "successful": 460,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
       "Sustainability Officer KG Media": 65,
       "Reporter Nasional": 100,
-      "Content Writer Homey": 94
+      "Content Writer Homey": 95
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 06:22:35",
-        "source": "github_action",
-        "candidate": "Muhamad Reza Pahlevi",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 06:23:01",
         "source": "github_action",
@@ -8571,6 +8564,13 @@
         "timestamp": "2026-04-18 07:07:11",
         "source": "github_action",
         "candidate": "Muhammad Fadli Sinatrya",
+        "position": "Content Writer Homey",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 07:07:39",
+        "source": "github_action",
+        "candidate": "resya husaini",
         "position": "Content Writer Homey",
         "success": true
       }
