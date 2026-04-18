@@ -7861,10 +7861,10 @@
     ]
   },
   "2026-04-18": {
-    "total": 529,
+    "total": 530,
     "streamlit": 0,
-    "github_action": 529,
-    "successful": 529,
+    "github_action": 530,
+    "successful": 530,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
@@ -7872,16 +7872,9 @@
       "Sustainability Officer KG Media": 65,
       "Reporter Nasional": 100,
       "Content Writer Homey": 100,
-      "Data Analyst (Business Intelligence)": 64
+      "Data Analyst (Business Intelligence)": 65
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 06:54:03",
-        "source": "github_action",
-        "candidate": "Merlin Cahyawati",
-        "position": "Content Writer Homey",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 06:54:28",
         "source": "github_action",
@@ -8572,6 +8565,13 @@
         "timestamp": "2026-04-18 07:49:40",
         "source": "github_action",
         "candidate": "Abdillah Dwi Cahya",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 07:50:09",
+        "source": "github_action",
+        "candidate": "Putri Nisrina Az-Zahra",
         "position": "Data Analyst (Business Intelligence)",
         "success": true
       }
