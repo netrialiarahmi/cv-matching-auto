@@ -7861,23 +7861,16 @@
     ]
   },
   "2026-04-18": {
-    "total": 155,
+    "total": 156,
     "streamlit": 0,
-    "github_action": 155,
-    "successful": 155,
+    "github_action": 156,
+    "successful": 156,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Megapolitan": 55
+      "Reporter Megapolitan": 56
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 04:15:28",
-        "source": "github_action",
-        "candidate": "Lucy Rizky Prasiska",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 04:15:56",
         "source": "github_action",
@@ -8568,6 +8561,13 @@
         "timestamp": "2026-04-18 04:56:38",
         "source": "github_action",
         "candidate": "Sindhu Linguistika Manumanasa",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 04:57:04",
+        "source": "github_action",
+        "candidate": "Gemma Ramadhina Zaneta",
         "position": "Reporter Megapolitan",
         "success": true
       }
