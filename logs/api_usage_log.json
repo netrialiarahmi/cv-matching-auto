@@ -7861,24 +7861,17 @@
     ]
   },
   "2026-04-18": {
-    "total": 225,
+    "total": 226,
     "streamlit": 0,
-    "github_action": 225,
-    "successful": 225,
+    "github_action": 226,
+    "successful": 226,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
-      "Sustainability Officer KG Media": 25
+      "Sustainability Officer KG Media": 26
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 04:45:34",
-        "source": "github_action",
-        "candidate": "Khairul Anwar",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 04:45:36",
         "source": "github_action",
@@ -8569,6 +8562,13 @@
         "timestamp": "2026-04-18 05:26:04",
         "source": "github_action",
         "candidate": "Sari Sapitri",
+        "position": "Sustainability Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 05:26:32",
+        "source": "github_action",
+        "candidate": "Adhwa Firyal Kamillah",
         "position": "Sustainability Officer KG Media",
         "success": true
       }
