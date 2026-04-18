@@ -7861,26 +7861,19 @@
     ]
   },
   "2026-04-18": {
-    "total": 430,
+    "total": 431,
     "streamlit": 0,
-    "github_action": 430,
-    "successful": 430,
+    "github_action": 431,
+    "successful": 431,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
       "Sustainability Officer KG Media": 65,
       "Reporter Nasional": 100,
-      "Content Writer Homey": 65
+      "Content Writer Homey": 66
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 06:10:42",
-        "source": "github_action",
-        "candidate": "Aura Alifah",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 06:11:08",
         "source": "github_action",
@@ -8571,6 +8564,13 @@
         "timestamp": "2026-04-18 06:54:03",
         "source": "github_action",
         "candidate": "Merlin Cahyawati",
+        "position": "Content Writer Homey",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 06:54:28",
+        "source": "github_action",
+        "candidate": "Bima Agil Pandada",
         "position": "Content Writer Homey",
         "success": true
       }
