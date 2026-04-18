@@ -7861,25 +7861,18 @@
     ]
   },
   "2026-04-18": {
-    "total": 339,
+    "total": 340,
     "streamlit": 0,
-    "github_action": 339,
-    "successful": 339,
+    "github_action": 340,
+    "successful": 340,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
       "Sustainability Officer KG Media": 65,
-      "Reporter Nasional": 74
+      "Reporter Nasional": 75
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 05:32:05",
-        "source": "github_action",
-        "candidate": "Irene Anugerah Nggebu",
-        "position": "Sustainability Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 05:32:07",
         "source": "github_action",
@@ -8570,6 +8563,13 @@
         "timestamp": "2026-04-18 06:14:15",
         "source": "github_action",
         "candidate": "Lisa Damayanti",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 06:14:17",
+        "source": "github_action",
+        "candidate": "Segitarius Segitarius",
         "position": "Reporter Nasional",
         "success": true
       }
