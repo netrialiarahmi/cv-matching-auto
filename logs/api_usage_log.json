@@ -7861,24 +7861,17 @@
     ]
   },
   "2026-04-18": {
-    "total": 221,
+    "total": 222,
     "streamlit": 0,
-    "github_action": 221,
-    "successful": 221,
+    "github_action": 222,
+    "successful": 222,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
-      "Sustainability Officer KG Media": 21
+      "Sustainability Officer KG Media": 22
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 04:44:38",
-        "source": "github_action",
-        "candidate": "Deni Pandu Lutfi efendi",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 04:45:05",
         "source": "github_action",
@@ -8569,6 +8562,13 @@
         "timestamp": "2026-04-18 05:24:11",
         "source": "github_action",
         "candidate": "Andre Valentcius Pane",
+        "position": "Sustainability Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 05:24:39",
+        "source": "github_action",
+        "candidate": "Muhammad Iqbal Riady",
         "position": "Sustainability Officer KG Media",
         "success": true
       }
