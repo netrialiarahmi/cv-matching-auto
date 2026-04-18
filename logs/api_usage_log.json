@@ -7861,24 +7861,17 @@
     ]
   },
   "2026-04-18": {
-    "total": 222,
+    "total": 223,
     "streamlit": 0,
-    "github_action": 222,
-    "successful": 222,
+    "github_action": 223,
+    "successful": 223,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
-      "Sustainability Officer KG Media": 22
+      "Sustainability Officer KG Media": 23
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 04:45:05",
-        "source": "github_action",
-        "candidate": "Silmi Aliya Zahra Sudarya",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 04:45:29",
         "source": "github_action",
@@ -8569,6 +8562,13 @@
         "timestamp": "2026-04-18 05:24:39",
         "source": "github_action",
         "candidate": "Muhammad Iqbal Riady",
+        "position": "Sustainability Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 05:25:05",
+        "source": "github_action",
+        "candidate": "Anbiya  Aswandi",
         "position": "Sustainability Officer KG Media",
         "success": true
       }
