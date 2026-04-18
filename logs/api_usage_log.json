@@ -7861,25 +7861,18 @@
     ]
   },
   "2026-04-18": {
-    "total": 313,
+    "total": 314,
     "streamlit": 0,
-    "github_action": 313,
-    "successful": 313,
+    "github_action": 314,
+    "successful": 314,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
       "Sustainability Officer KG Media": 65,
-      "Reporter Nasional": 48
+      "Reporter Nasional": 49
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 05:20:53",
-        "source": "github_action",
-        "candidate": "YUSRON BADRI",
-        "position": "Sustainability Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 05:21:21",
         "source": "github_action",
@@ -8570,6 +8563,13 @@
         "timestamp": "2026-04-18 06:03:09",
         "source": "github_action",
         "candidate": "Fauzi Ramadhan",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 06:03:37",
+        "source": "github_action",
+        "candidate": "Reyvan Andrian Kristiandi",
         "position": "Reporter Nasional",
         "success": true
       }
