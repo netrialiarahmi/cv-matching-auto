@@ -7861,24 +7861,17 @@
     ]
   },
   "2026-04-18": {
-    "total": 255,
+    "total": 256,
     "streamlit": 0,
-    "github_action": 255,
-    "successful": 255,
+    "github_action": 256,
+    "successful": 256,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
-      "Sustainability Officer KG Media": 55
+      "Sustainability Officer KG Media": 56
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 04:57:04",
-        "source": "github_action",
-        "candidate": "Gemma Ramadhina Zaneta",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 04:57:06",
         "source": "github_action",
@@ -8569,6 +8562,13 @@
         "timestamp": "2026-04-18 05:38:09",
         "source": "github_action",
         "candidate": "Risma Febrianti",
+        "position": "Sustainability Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 05:38:33",
+        "source": "github_action",
+        "candidate": "Rivia Putri",
         "position": "Sustainability Officer KG Media",
         "success": true
       }
