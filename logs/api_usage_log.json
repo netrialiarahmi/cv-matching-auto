@@ -7861,10 +7861,10 @@
     ]
   },
   "2026-04-18": {
-    "total": 535,
+    "total": 536,
     "streamlit": 0,
-    "github_action": 535,
-    "successful": 535,
+    "github_action": 536,
+    "successful": 536,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
@@ -7872,16 +7872,9 @@
       "Sustainability Officer KG Media": 65,
       "Reporter Nasional": 100,
       "Content Writer Homey": 100,
-      "Data Analyst (Business Intelligence)": 70
+      "Data Analyst (Business Intelligence)": 71
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 06:56:26",
-        "source": "github_action",
-        "candidate": "Habibah Dyah Miranda",
-        "position": "Content Writer Homey",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 06:56:56",
         "source": "github_action",
@@ -8572,6 +8565,13 @@
         "timestamp": "2026-04-18 07:52:28",
         "source": "github_action",
         "candidate": "Daniyal kahfi",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 07:53:01",
+        "source": "github_action",
+        "candidate": "Rahma Dewi Puspa Khairina",
         "position": "Data Analyst (Business Intelligence)",
         "success": true
       }
