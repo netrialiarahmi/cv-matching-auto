@@ -7861,23 +7861,16 @@
     ]
   },
   "2026-04-18": {
-    "total": 108,
+    "total": 109,
     "streamlit": 0,
-    "github_action": 108,
-    "successful": 108,
+    "github_action": 109,
+    "successful": 109,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Megapolitan": 8
+      "Reporter Megapolitan": 9
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 03:54:15",
-        "source": "github_action",
-        "candidate": "Priscilla Waworuntu Pangakuang",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 03:54:41",
         "source": "github_action",
@@ -8568,6 +8561,13 @@
         "timestamp": "2026-04-18 04:39:17",
         "source": "github_action",
         "candidate": "Arshya Fatimah Azzahra",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 04:39:19",
+        "source": "github_action",
+        "candidate": "shafitri -",
         "position": "Reporter Megapolitan",
         "success": true
       }
