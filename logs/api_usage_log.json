@@ -7861,23 +7861,16 @@
     ]
   },
   "2026-04-18": {
-    "total": 122,
+    "total": 123,
     "streamlit": 0,
-    "github_action": 122,
-    "successful": 122,
+    "github_action": 123,
+    "successful": 123,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Megapolitan": 22
+      "Reporter Megapolitan": 23
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 04:00:24",
-        "source": "github_action",
-        "candidate": "Lukmanpuraga Adhi Pradana",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 04:00:50",
         "source": "github_action",
@@ -8568,6 +8561,13 @@
         "timestamp": "2026-04-18 04:44:38",
         "source": "github_action",
         "candidate": "Deni Pandu Lutfi efendi",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 04:45:05",
+        "source": "github_action",
+        "candidate": "Silmi Aliya Zahra Sudarya",
         "position": "Reporter Megapolitan",
         "success": true
       }
