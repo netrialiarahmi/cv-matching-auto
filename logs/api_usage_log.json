@@ -7861,13 +7861,13 @@
     ]
   },
   "2026-04-18": {
-    "total": 40,
+    "total": 41,
     "streamlit": 0,
-    "github_action": 40,
-    "successful": 40,
+    "github_action": 41,
+    "successful": 41,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 40
+      "Marketing Communication Officer KG Media": 41
     },
     "entries": [
       {
@@ -8147,6 +8147,13 @@
         "timestamp": "2026-04-18 04:08:10",
         "source": "github_action",
         "candidate": "Aristya Bhaskoro",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 04:08:43",
+        "source": "github_action",
+        "candidate": "Arya Maheswara Putra Arifin",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
