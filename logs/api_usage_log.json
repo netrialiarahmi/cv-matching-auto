@@ -7861,13 +7861,13 @@
     ]
   },
   "2026-04-18": {
-    "total": 74,
+    "total": 75,
     "streamlit": 0,
-    "github_action": 74,
-    "successful": 74,
+    "github_action": 75,
+    "successful": 75,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 74
+      "Marketing Communication Officer KG Media": 75
     },
     "entries": [
       {
@@ -8385,6 +8385,13 @@
         "timestamp": "2026-04-18 04:23:54",
         "source": "github_action",
         "candidate": "Lorentz Putra",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 04:24:19",
+        "source": "github_action",
+        "candidate": "Haekal Fazal Yakhsa",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
