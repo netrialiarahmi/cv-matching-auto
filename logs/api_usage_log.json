@@ -7861,13 +7861,13 @@
     ]
   },
   "2026-04-18": {
-    "total": 51,
+    "total": 52,
     "streamlit": 0,
-    "github_action": 51,
-    "successful": 51,
+    "github_action": 52,
+    "successful": 52,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 51
+      "Marketing Communication Officer KG Media": 52
     },
     "entries": [
       {
@@ -8224,6 +8224,13 @@
         "timestamp": "2026-04-18 04:13:14",
         "source": "github_action",
         "candidate": "Rizka Rubbyanti Rivera",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 04:13:43",
+        "source": "github_action",
+        "candidate": "Dhara Devona Lutsfi",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
