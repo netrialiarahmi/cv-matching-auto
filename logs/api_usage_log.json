@@ -7861,10 +7861,10 @@
     ]
   },
   "2026-04-18": {
-    "total": 521,
+    "total": 522,
     "streamlit": 0,
-    "github_action": 521,
-    "successful": 521,
+    "github_action": 522,
+    "successful": 522,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
@@ -7872,16 +7872,9 @@
       "Sustainability Officer KG Media": 65,
       "Reporter Nasional": 100,
       "Content Writer Homey": 100,
-      "Data Analyst (Business Intelligence)": 56
+      "Data Analyst (Business Intelligence)": 57
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 06:50:29",
-        "source": "github_action",
-        "candidate": "Anne Nurjihan",
-        "position": "Content Writer Homey",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 06:51:00",
         "source": "github_action",
@@ -8572,6 +8565,13 @@
         "timestamp": "2026-04-18 07:46:49",
         "source": "github_action",
         "candidate": "Angga Yulian Adi Pradana",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 07:47:15",
+        "source": "github_action",
+        "candidate": "Muhammad Fikri Fakhrurozi",
         "position": "Data Analyst (Business Intelligence)",
         "success": true
       }
