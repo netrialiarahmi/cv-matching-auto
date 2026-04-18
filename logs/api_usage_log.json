@@ -7861,10 +7861,10 @@
     ]
   },
   "2026-04-18": {
-    "total": 531,
+    "total": 532,
     "streamlit": 0,
-    "github_action": 531,
-    "successful": 531,
+    "github_action": 532,
+    "successful": 532,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
@@ -7872,16 +7872,9 @@
       "Sustainability Officer KG Media": 65,
       "Reporter Nasional": 100,
       "Content Writer Homey": 100,
-      "Data Analyst (Business Intelligence)": 66
+      "Data Analyst (Business Intelligence)": 67
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 06:54:55",
-        "source": "github_action",
-        "candidate": "WARDA CHAERUL SANI",
-        "position": "Content Writer Homey",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 06:54:57",
         "source": "github_action",
@@ -8572,6 +8565,13 @@
         "timestamp": "2026-04-18 07:50:38",
         "source": "github_action",
         "candidate": "Yovie Pradea Sandiana",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 07:51:07",
+        "source": "github_action",
+        "candidate": "Anastasya .",
         "position": "Data Analyst (Business Intelligence)",
         "success": true
       }
