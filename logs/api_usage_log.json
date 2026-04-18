@@ -7861,25 +7861,18 @@
     ]
   },
   "2026-04-18": {
-    "total": 312,
+    "total": 313,
     "streamlit": 0,
-    "github_action": 312,
-    "successful": 312,
+    "github_action": 313,
+    "successful": 313,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
       "Sustainability Officer KG Media": 65,
-      "Reporter Nasional": 47
+      "Reporter Nasional": 48
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 05:20:27",
-        "source": "github_action",
-        "candidate": "Andre Sugiarta",
-        "position": "Sustainability Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 05:20:53",
         "source": "github_action",
@@ -8570,6 +8563,13 @@
         "timestamp": "2026-04-18 06:02:37",
         "source": "github_action",
         "candidate": "Ghifarra Ayudiani",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 06:03:09",
+        "source": "github_action",
+        "candidate": "Fauzi Ramadhan",
         "position": "Reporter Nasional",
         "success": true
       }
