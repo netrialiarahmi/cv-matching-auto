@@ -7861,25 +7861,18 @@
     ]
   },
   "2026-04-18": {
-    "total": 354,
+    "total": 355,
     "streamlit": 0,
-    "github_action": 354,
-    "successful": 354,
+    "github_action": 355,
+    "successful": 355,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
       "Sustainability Officer KG Media": 65,
-      "Reporter Nasional": 89
+      "Reporter Nasional": 90
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 05:38:09",
-        "source": "github_action",
-        "candidate": "Risma Febrianti",
-        "position": "Sustainability Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 05:38:33",
         "source": "github_action",
@@ -8570,6 +8563,13 @@
         "timestamp": "2026-04-18 06:20:21",
         "source": "github_action",
         "candidate": "Yoseph Aldhi Kristiantoro",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 06:20:47",
+        "source": "github_action",
+        "candidate": "Hafiza Aulia Rahmawati",
         "position": "Reporter Nasional",
         "success": true
       }
