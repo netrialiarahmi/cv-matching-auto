@@ -7861,10 +7861,10 @@
     ]
   },
   "2026-04-18": {
-    "total": 703,
+    "total": 704,
     "streamlit": 0,
-    "github_action": 703,
-    "successful": 703,
+    "github_action": 704,
+    "successful": 704,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
@@ -7874,16 +7874,9 @@
       "Content Writer Homey": 100,
       "Data Analyst (Business Intelligence)": 100,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 38
+      "Account Executive VCBL": 39
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 08:25:18",
-        "source": "github_action",
-        "candidate": "Muhammad Farhan Faturrachman",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 08:25:50",
         "source": "github_action",
@@ -8574,6 +8567,13 @@
         "timestamp": "2026-04-18 09:09:47",
         "source": "github_action",
         "candidate": "M Fadhil Ramadhan",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 09:10:12",
+        "source": "github_action",
+        "candidate": "Hafidh Muhammad Ibnu Sina",
         "position": "Account Executive VCBL",
         "success": true
       }
