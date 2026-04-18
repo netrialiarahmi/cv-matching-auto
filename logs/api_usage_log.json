@@ -7861,10 +7861,10 @@
     ]
   },
   "2026-04-18": {
-    "total": 545,
+    "total": 546,
     "streamlit": 0,
-    "github_action": 545,
-    "successful": 545,
+    "github_action": 546,
+    "successful": 546,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
@@ -7872,16 +7872,9 @@
       "Sustainability Officer KG Media": 65,
       "Reporter Nasional": 100,
       "Content Writer Homey": 100,
-      "Data Analyst (Business Intelligence)": 80
+      "Data Analyst (Business Intelligence)": 81
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 07:00:56",
-        "source": "github_action",
-        "candidate": "Teguh Eka Budianto",
-        "position": "Content Writer Homey",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 07:01:24",
         "source": "github_action",
@@ -8572,6 +8565,13 @@
         "timestamp": "2026-04-18 07:57:21",
         "source": "github_action",
         "candidate": "Fernando Valentinus",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 07:57:50",
+        "source": "github_action",
+        "candidate": "Adifa Yasin Aksyarafah",
         "position": "Data Analyst (Business Intelligence)",
         "success": true
       }
