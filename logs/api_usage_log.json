@@ -7861,10 +7861,10 @@
     ]
   },
   "2026-04-18": {
-    "total": 740,
+    "total": 741,
     "streamlit": 0,
-    "github_action": 740,
-    "successful": 740,
+    "github_action": 741,
+    "successful": 741,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
@@ -7874,16 +7874,9 @@
       "Content Writer Homey": 100,
       "Data Analyst (Business Intelligence)": 100,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 75
+      "Account Executive VCBL": 76
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 08:42:22",
-        "source": "github_action",
-        "candidate": "Riskia Rafida",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 08:42:50",
         "source": "github_action",
@@ -8574,6 +8567,13 @@
         "timestamp": "2026-04-18 09:26:00",
         "source": "github_action",
         "candidate": "Windi Helvira",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 09:26:29",
+        "source": "github_action",
+        "candidate": "SUTAN ANANDA RIESLY FAJAR MAULANA",
         "position": "Account Executive VCBL",
         "success": true
       }
