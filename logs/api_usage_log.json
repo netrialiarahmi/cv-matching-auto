@@ -7861,25 +7861,18 @@
     ]
   },
   "2026-04-18": {
-    "total": 325,
+    "total": 326,
     "streamlit": 0,
-    "github_action": 325,
-    "successful": 325,
+    "github_action": 326,
+    "successful": 326,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
       "Sustainability Officer KG Media": 65,
-      "Reporter Nasional": 60
+      "Reporter Nasional": 61
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 05:26:32",
-        "source": "github_action",
-        "candidate": "Adhwa Firyal Kamillah",
-        "position": "Sustainability Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 05:27:01",
         "source": "github_action",
@@ -8570,6 +8563,13 @@
         "timestamp": "2026-04-18 06:07:52",
         "source": "github_action",
         "candidate": "Zakariya Robbani",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 06:08:19",
+        "source": "github_action",
+        "candidate": "Halwa  Raudhatul",
         "position": "Reporter Nasional",
         "success": true
       }
