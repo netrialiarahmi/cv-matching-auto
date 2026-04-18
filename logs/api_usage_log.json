@@ -7861,10 +7861,10 @@
     ]
   },
   "2026-04-18": {
-    "total": 513,
+    "total": 514,
     "streamlit": 0,
-    "github_action": 513,
-    "successful": 513,
+    "github_action": 514,
+    "successful": 514,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
@@ -7872,16 +7872,9 @@
       "Sustainability Officer KG Media": 65,
       "Reporter Nasional": 100,
       "Content Writer Homey": 100,
-      "Data Analyst (Business Intelligence)": 48
+      "Data Analyst (Business Intelligence)": 49
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 06:46:43",
-        "source": "github_action",
-        "candidate": "Hijfa Azzahra",
-        "position": "Content Writer Homey",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 06:47:11",
         "source": "github_action",
@@ -8572,6 +8565,13 @@
         "timestamp": "2026-04-18 07:43:00",
         "source": "github_action",
         "candidate": "Regita Cahyaningsih",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 07:43:29",
+        "source": "github_action",
+        "candidate": "Putri Fatiha Nuzula",
         "position": "Data Analyst (Business Intelligence)",
         "success": true
       }
