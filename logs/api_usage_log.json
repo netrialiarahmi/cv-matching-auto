@@ -7861,23 +7861,16 @@
     ]
   },
   "2026-04-18": {
-    "total": 188,
+    "total": 189,
     "streamlit": 0,
-    "github_action": 188,
-    "successful": 188,
+    "github_action": 189,
+    "successful": 189,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Megapolitan": 88
+      "Reporter Megapolitan": 89
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 04:30:29",
-        "source": "github_action",
-        "candidate": "Ida Riyani",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 04:31:00",
         "source": "github_action",
@@ -8568,6 +8561,13 @@
         "timestamp": "2026-04-18 05:09:59",
         "source": "github_action",
         "candidate": "Naufal Refrizal",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 05:10:29",
+        "source": "github_action",
+        "candidate": "Hernadia Putri",
         "position": "Reporter Megapolitan",
         "success": true
       }
