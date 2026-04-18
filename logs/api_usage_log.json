@@ -7861,26 +7861,19 @@
     ]
   },
   "2026-04-18": {
-    "total": 418,
+    "total": 419,
     "streamlit": 0,
-    "github_action": 418,
-    "successful": 418,
+    "github_action": 419,
+    "successful": 419,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
       "Sustainability Officer KG Media": 65,
       "Reporter Nasional": 100,
-      "Content Writer Homey": 53
+      "Content Writer Homey": 54
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 06:05:56",
-        "source": "github_action",
-        "candidate": "Chantika  Permata Haryo Mokoginta",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 06:06:25",
         "source": "github_action",
@@ -8571,6 +8564,13 @@
         "timestamp": "2026-04-18 06:48:35",
         "source": "github_action",
         "candidate": "Rismayanti Mamong",
+        "position": "Content Writer Homey",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 06:49:02",
+        "source": "github_action",
+        "candidate": "Adinda Rhamadani",
         "position": "Content Writer Homey",
         "success": true
       }
