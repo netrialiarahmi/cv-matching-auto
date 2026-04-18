@@ -7861,23 +7861,17 @@
     ]
   },
   "2026-04-18": {
-    "total": 200,
+    "total": 201,
     "streamlit": 0,
-    "github_action": 200,
-    "successful": 200,
+    "github_action": 201,
+    "successful": 201,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Megapolitan": 100
+      "Reporter Megapolitan": 100,
+      "Sustainability Officer KG Media": 1
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 04:36:10",
-        "source": "github_action",
-        "candidate": "Sbsalsabila I",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 04:36:38",
         "source": "github_action",
@@ -8569,6 +8563,13 @@
         "source": "github_action",
         "candidate": "Sesha Dewi Masita",
         "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 05:15:55",
+        "source": "github_action",
+        "candidate": "Fatwa Farhanto",
+        "position": "Sustainability Officer KG Media",
         "success": true
       }
     ]
