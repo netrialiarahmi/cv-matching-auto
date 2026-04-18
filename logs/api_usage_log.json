@@ -7861,26 +7861,19 @@
     ]
   },
   "2026-04-18": {
-    "total": 464,
+    "total": 465,
     "streamlit": 0,
-    "github_action": 464,
-    "successful": 464,
+    "github_action": 465,
+    "successful": 465,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
       "Sustainability Officer KG Media": 65,
       "Reporter Nasional": 100,
-      "Content Writer Homey": 99
+      "Content Writer Homey": 100
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 06:24:50",
-        "source": "github_action",
-        "candidate": "Sbsalsabila I",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 06:25:15",
         "source": "github_action",
@@ -8571,6 +8564,13 @@
         "timestamp": "2026-04-18 07:09:31",
         "source": "github_action",
         "candidate": "Salsabila Auliya Ramadhany Ahmad",
+        "position": "Content Writer Homey",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 07:09:56",
+        "source": "github_action",
+        "candidate": "KURNIA AGUSTIN",
         "position": "Content Writer Homey",
         "success": true
       }
