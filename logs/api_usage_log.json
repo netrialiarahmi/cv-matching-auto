@@ -7861,24 +7861,17 @@
     ]
   },
   "2026-04-18": {
-    "total": 240,
+    "total": 241,
     "streamlit": 0,
-    "github_action": 240,
-    "successful": 240,
+    "github_action": 241,
+    "successful": 241,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
-      "Sustainability Officer KG Media": 40
+      "Sustainability Officer KG Media": 41
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 04:51:13",
-        "source": "github_action",
-        "candidate": "Tiaranissa Juliansyah",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 04:51:41",
         "source": "github_action",
@@ -8569,6 +8562,13 @@
         "timestamp": "2026-04-18 05:32:05",
         "source": "github_action",
         "candidate": "Irene Anugerah Nggebu",
+        "position": "Sustainability Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 05:32:07",
+        "source": "github_action",
+        "candidate": "FAUZIA AYU KAMILA nan",
         "position": "Sustainability Officer KG Media",
         "success": true
       }
