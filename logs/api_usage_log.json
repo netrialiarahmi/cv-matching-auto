@@ -7861,24 +7861,17 @@
     ]
   },
   "2026-04-18": {
-    "total": 239,
+    "total": 240,
     "streamlit": 0,
-    "github_action": 239,
-    "successful": 239,
+    "github_action": 240,
+    "successful": 240,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
-      "Sustainability Officer KG Media": 39
+      "Sustainability Officer KG Media": 40
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 04:50:47",
-        "source": "github_action",
-        "candidate": "M Daffa Aryakhanza",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 04:51:13",
         "source": "github_action",
@@ -8569,6 +8562,13 @@
         "timestamp": "2026-04-18 05:31:40",
         "source": "github_action",
         "candidate": "Jeyllen Manoppo",
+        "position": "Sustainability Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 05:32:05",
+        "source": "github_action",
+        "candidate": "Irene Anugerah Nggebu",
         "position": "Sustainability Officer KG Media",
         "success": true
       }
