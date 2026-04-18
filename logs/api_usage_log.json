@@ -7861,24 +7861,17 @@
     ]
   },
   "2026-04-18": {
-    "total": 243,
+    "total": 244,
     "streamlit": 0,
-    "github_action": 243,
-    "successful": 243,
+    "github_action": 244,
+    "successful": 244,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
-      "Sustainability Officer KG Media": 43
+      "Sustainability Officer KG Media": 44
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 04:52:31",
-        "source": "github_action",
-        "candidate": "Firlina Rizky Putri Fajarani",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 04:52:51",
         "source": "github_action",
@@ -8569,6 +8562,13 @@
         "timestamp": "2026-04-18 05:33:00",
         "source": "github_action",
         "candidate": "Gelardus Randan",
+        "position": "Sustainability Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 05:33:30",
+        "source": "github_action",
+        "candidate": "Irene Anugerah",
         "position": "Sustainability Officer KG Media",
         "success": true
       }
