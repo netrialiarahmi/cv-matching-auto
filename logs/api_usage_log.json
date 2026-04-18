@@ -7861,25 +7861,18 @@
     ]
   },
   "2026-04-18": {
-    "total": 333,
+    "total": 334,
     "streamlit": 0,
-    "github_action": 333,
-    "successful": 333,
+    "github_action": 334,
+    "successful": 334,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
       "Sustainability Officer KG Media": 65,
-      "Reporter Nasional": 68
+      "Reporter Nasional": 69
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 05:29:25",
-        "source": "github_action",
-        "candidate": "Aura Isyel Febriyanti",
-        "position": "Sustainability Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 05:29:56",
         "source": "github_action",
@@ -8570,6 +8563,13 @@
         "timestamp": "2026-04-18 06:11:36",
         "source": "github_action",
         "candidate": "Dliya Syahla",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 06:12:01",
+        "source": "github_action",
+        "candidate": "Viky Violin",
         "position": "Reporter Nasional",
         "success": true
       }
