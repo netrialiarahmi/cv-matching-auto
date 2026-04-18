@@ -7861,26 +7861,19 @@
     ]
   },
   "2026-04-18": {
-    "total": 381,
+    "total": 382,
     "streamlit": 0,
-    "github_action": 381,
-    "successful": 381,
+    "github_action": 382,
+    "successful": 382,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
       "Sustainability Officer KG Media": 65,
       "Reporter Nasional": 100,
-      "Content Writer Homey": 16
+      "Content Writer Homey": 17
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 05:50:03",
-        "source": "github_action",
-        "candidate": "Aldian Zakarias Bani",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 05:50:31",
         "source": "github_action",
@@ -8571,6 +8564,13 @@
         "timestamp": "2026-04-18 06:31:31",
         "source": "github_action",
         "candidate": "nathalie elsa",
+        "position": "Content Writer Homey",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 06:31:58",
+        "source": "github_action",
+        "candidate": "Kristine  Theresia",
         "position": "Content Writer Homey",
         "success": true
       }
