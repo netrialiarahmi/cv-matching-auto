@@ -7861,10 +7861,10 @@
     ]
   },
   "2026-04-18": {
-    "total": 717,
+    "total": 718,
     "streamlit": 0,
-    "github_action": 717,
-    "successful": 717,
+    "github_action": 718,
+    "successful": 718,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
@@ -7874,16 +7874,9 @@
       "Content Writer Homey": 100,
       "Data Analyst (Business Intelligence)": 100,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 52
+      "Account Executive VCBL": 53
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 08:31:44",
-        "source": "github_action",
-        "candidate": "Qinthara Ayu Raihan",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 08:32:10",
         "source": "github_action",
@@ -8574,6 +8567,13 @@
         "timestamp": "2026-04-18 09:15:42",
         "source": "github_action",
         "candidate": "Amadhea Putri Namira",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 09:16:09",
+        "source": "github_action",
+        "candidate": "Amyra Amalia Aqila",
         "position": "Account Executive VCBL",
         "success": true
       }
