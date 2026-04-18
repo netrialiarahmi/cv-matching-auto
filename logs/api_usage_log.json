@@ -7861,23 +7861,16 @@
     ]
   },
   "2026-04-18": {
-    "total": 119,
+    "total": 120,
     "streamlit": 0,
-    "github_action": 119,
-    "successful": 119,
+    "github_action": 120,
+    "successful": 120,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Megapolitan": 19
+      "Reporter Megapolitan": 20
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 03:59:28",
-        "source": "github_action",
-        "candidate": "Nur Angga Saputro",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 03:59:55",
         "source": "github_action",
@@ -8568,6 +8561,13 @@
         "timestamp": "2026-04-18 04:43:49",
         "source": "github_action",
         "candidate": "Mayke Salsa",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 04:44:12",
+        "source": "github_action",
+        "candidate": "Akhmad Syawaludin Fikri",
         "position": "Reporter Megapolitan",
         "success": true
       }
