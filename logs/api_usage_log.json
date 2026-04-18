@@ -7861,23 +7861,16 @@
     ]
   },
   "2026-04-18": {
-    "total": 172,
+    "total": 173,
     "streamlit": 0,
-    "github_action": 172,
-    "successful": 172,
+    "github_action": 173,
+    "successful": 173,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Megapolitan": 72
+      "Reporter Megapolitan": 73
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 04:23:29",
-        "source": "github_action",
-        "candidate": "Usy Izzani Faizti",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 04:23:54",
         "source": "github_action",
@@ -8568,6 +8561,13 @@
         "timestamp": "2026-04-18 05:03:20",
         "source": "github_action",
         "candidate": "Nuzulul Magfiroh",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 05:03:45",
+        "source": "github_action",
+        "candidate": "Sandrina Fitriani",
         "position": "Reporter Megapolitan",
         "success": true
       }
