@@ -7861,10 +7861,10 @@
     ]
   },
   "2026-04-18": {
-    "total": 572,
+    "total": 573,
     "streamlit": 0,
-    "github_action": 572,
-    "successful": 572,
+    "github_action": 573,
+    "successful": 573,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
@@ -7873,16 +7873,9 @@
       "Reporter Nasional": 100,
       "Content Writer Homey": 100,
       "Data Analyst (Business Intelligence)": 100,
-      "Business Development Analyst": 7
+      "Business Development Analyst": 8
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 07:13:38",
-        "source": "github_action",
-        "candidate": "Mayer Omega Parlindungan",
-        "position": "Data Analyst (Business Intelligence)",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 07:14:05",
         "source": "github_action",
@@ -8573,6 +8566,13 @@
         "timestamp": "2026-04-18 08:10:12",
         "source": "github_action",
         "candidate": "Onisa Nainggolan",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 08:10:42",
+        "source": "github_action",
+        "candidate": "Cindy Dwi Kurnia",
         "position": "Business Development Analyst",
         "success": true
       }
