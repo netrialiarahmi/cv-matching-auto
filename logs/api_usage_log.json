@@ -7861,23 +7861,16 @@
     ]
   },
   "2026-04-18": {
-    "total": 133,
+    "total": 134,
     "streamlit": 0,
-    "github_action": 133,
-    "successful": 133,
+    "github_action": 134,
+    "successful": 134,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Megapolitan": 33
+      "Reporter Megapolitan": 34
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 04:05:21",
-        "source": "github_action",
-        "candidate": "Rizky Bagas Pratama",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 04:05:50",
         "source": "github_action",
@@ -8568,6 +8561,13 @@
         "timestamp": "2026-04-18 04:48:15",
         "source": "github_action",
         "candidate": "Laya Salsabila",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 04:48:38",
+        "source": "github_action",
+        "candidate": "Mochammad Rafi' Maulana",
         "position": "Reporter Megapolitan",
         "success": true
       }
