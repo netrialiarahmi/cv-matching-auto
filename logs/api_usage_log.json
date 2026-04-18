@@ -7861,25 +7861,18 @@
     ]
   },
   "2026-04-18": {
-    "total": 282,
+    "total": 283,
     "streamlit": 0,
-    "github_action": 282,
-    "successful": 282,
+    "github_action": 283,
+    "successful": 283,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
       "Sustainability Officer KG Media": 65,
-      "Reporter Nasional": 17
+      "Reporter Nasional": 18
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 05:07:33",
-        "source": "github_action",
-        "candidate": "Frisna silvilia berutu Frisna",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 05:08:02",
         "source": "github_action",
@@ -8570,6 +8563,13 @@
         "timestamp": "2026-04-18 05:50:03",
         "source": "github_action",
         "candidate": "Aldian Zakarias Bani",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 05:50:31",
+        "source": "github_action",
+        "candidate": "Fadya  Jasmin Malihah",
         "position": "Reporter Nasional",
         "success": true
       }
