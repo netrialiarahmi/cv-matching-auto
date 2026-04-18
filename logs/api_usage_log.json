@@ -7861,25 +7861,18 @@
     ]
   },
   "2026-04-18": {
-    "total": 363,
+    "total": 364,
     "streamlit": 0,
-    "github_action": 363,
-    "successful": 363,
+    "github_action": 364,
+    "successful": 364,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
       "Sustainability Officer KG Media": 65,
-      "Reporter Nasional": 98
+      "Reporter Nasional": 99
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 05:41:43",
-        "source": "github_action",
-        "candidate": "Mohammad Rizkinanda  R",
-        "position": "Sustainability Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 05:42:09",
         "source": "github_action",
@@ -8570,6 +8563,13 @@
         "timestamp": "2026-04-18 06:23:55",
         "source": "github_action",
         "candidate": "Dhianti Karamina zilda",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 06:24:24",
+        "source": "github_action",
+        "candidate": "Muhammad  Noor",
         "position": "Reporter Nasional",
         "success": true
       }
