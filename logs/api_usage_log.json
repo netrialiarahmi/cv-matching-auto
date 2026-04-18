@@ -7861,25 +7861,18 @@
     ]
   },
   "2026-04-18": {
-    "total": 328,
+    "total": 329,
     "streamlit": 0,
-    "github_action": 328,
-    "successful": 328,
+    "github_action": 329,
+    "successful": 329,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
       "Sustainability Officer KG Media": 65,
-      "Reporter Nasional": 63
+      "Reporter Nasional": 64
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 05:27:53",
-        "source": "github_action",
-        "candidate": "Syahli Raihan Najib",
-        "position": "Sustainability Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 05:28:21",
         "source": "github_action",
@@ -8570,6 +8563,13 @@
         "timestamp": "2026-04-18 06:09:13",
         "source": "github_action",
         "candidate": "Donny Muslim",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 06:09:46",
+        "source": "github_action",
+        "candidate": "Dea Duta  Aulia",
         "position": "Reporter Nasional",
         "success": true
       }
