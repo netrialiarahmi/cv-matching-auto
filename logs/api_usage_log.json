@@ -7861,25 +7861,18 @@
     ]
   },
   "2026-04-18": {
-    "total": 352,
+    "total": 353,
     "streamlit": 0,
-    "github_action": 352,
-    "successful": 352,
+    "github_action": 353,
+    "successful": 353,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
       "Sustainability Officer KG Media": 65,
-      "Reporter Nasional": 87
+      "Reporter Nasional": 88
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 05:37:14",
-        "source": "github_action",
-        "candidate": "Clakez210804 Putri",
-        "position": "Sustainability Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 05:37:43",
         "source": "github_action",
@@ -8570,6 +8563,13 @@
         "timestamp": "2026-04-18 06:19:28",
         "source": "github_action",
         "candidate": "Muhamad Farhan",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 06:19:56",
+        "source": "github_action",
+        "candidate": "Gilang pramudia",
         "position": "Reporter Nasional",
         "success": true
       }
