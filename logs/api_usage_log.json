@@ -7861,26 +7861,19 @@
     ]
   },
   "2026-04-18": {
-    "total": 385,
+    "total": 386,
     "streamlit": 0,
-    "github_action": 385,
-    "successful": 385,
+    "github_action": 386,
+    "successful": 386,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
       "Sustainability Officer KG Media": 65,
       "Reporter Nasional": 100,
-      "Content Writer Homey": 20
+      "Content Writer Homey": 21
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 05:51:21",
-        "source": "github_action",
-        "candidate": "Muthia Nur Azmiatin",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 05:51:44",
         "source": "github_action",
@@ -8571,6 +8564,13 @@
         "timestamp": "2026-04-18 06:33:21",
         "source": "github_action",
         "candidate": "KINANTI MUTIARA  PRASOJO",
+        "position": "Content Writer Homey",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 06:33:46",
+        "source": "github_action",
+        "candidate": "Siti Shalwa Aulia",
         "position": "Content Writer Homey",
         "success": true
       }
