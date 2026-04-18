@@ -7861,26 +7861,19 @@
     ]
   },
   "2026-04-18": {
-    "total": 463,
+    "total": 464,
     "streamlit": 0,
-    "github_action": 463,
-    "successful": 463,
+    "github_action": 464,
+    "successful": 464,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
       "Sustainability Officer KG Media": 65,
       "Reporter Nasional": 100,
-      "Content Writer Homey": 98
+      "Content Writer Homey": 99
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 06:24:24",
-        "source": "github_action",
-        "candidate": "Muhammad  Noor",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 06:24:50",
         "source": "github_action",
@@ -8571,6 +8564,13 @@
         "timestamp": "2026-04-18 07:09:06",
         "source": "github_action",
         "candidate": "Christoporus Kurnia Chandra",
+        "position": "Content Writer Homey",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 07:09:31",
+        "source": "github_action",
+        "candidate": "Salsabila Auliya Ramadhany Ahmad",
         "position": "Content Writer Homey",
         "success": true
       }
