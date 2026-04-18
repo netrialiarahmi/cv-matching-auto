@@ -7861,25 +7861,18 @@
     ]
   },
   "2026-04-18": {
-    "total": 303,
+    "total": 304,
     "streamlit": 0,
-    "github_action": 303,
-    "successful": 303,
+    "github_action": 304,
+    "successful": 304,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
       "Sustainability Officer KG Media": 65,
-      "Reporter Nasional": 38
+      "Reporter Nasional": 39
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 05:17:19",
-        "source": "github_action",
-        "candidate": "azhira nabila",
-        "position": "Sustainability Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 05:17:44",
         "source": "github_action",
@@ -8570,6 +8563,13 @@
         "timestamp": "2026-04-18 05:58:30",
         "source": "github_action",
         "candidate": "Muhammad Tanzilal Azizi Dapulu",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 05:58:57",
+        "source": "github_action",
+        "candidate": "Yusia Agatha Sihite",
         "position": "Reporter Nasional",
         "success": true
       }
