@@ -7861,24 +7861,17 @@
     ]
   },
   "2026-04-18": {
-    "total": 256,
+    "total": 257,
     "streamlit": 0,
-    "github_action": 256,
-    "successful": 256,
+    "github_action": 257,
+    "successful": 257,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
-      "Sustainability Officer KG Media": 56
+      "Sustainability Officer KG Media": 57
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 04:57:06",
-        "source": "github_action",
-        "candidate": "Rayhan Racha",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 04:57:31",
         "source": "github_action",
@@ -8569,6 +8562,13 @@
         "timestamp": "2026-04-18 05:38:33",
         "source": "github_action",
         "candidate": "Rivia Putri",
+        "position": "Sustainability Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 05:39:04",
+        "source": "github_action",
+        "candidate": "Harum Sabryna",
         "position": "Sustainability Officer KG Media",
         "success": true
       }
