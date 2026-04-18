@@ -7861,25 +7861,18 @@
     ]
   },
   "2026-04-18": {
-    "total": 266,
+    "total": 267,
     "streamlit": 0,
-    "github_action": 266,
-    "successful": 266,
+    "github_action": 267,
+    "successful": 267,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
       "Sustainability Officer KG Media": 65,
-      "Reporter Nasional": 1
+      "Reporter Nasional": 2
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 05:01:29",
-        "source": "github_action",
-        "candidate": "Fikri Muchtar",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 05:01:56",
         "source": "github_action",
@@ -8570,6 +8563,13 @@
         "timestamp": "2026-04-18 05:42:38",
         "source": "github_action",
         "candidate": "Daffa Almaas Pramesthy",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 05:43:05",
+        "source": "github_action",
+        "candidate": "Andika Pratama",
         "position": "Reporter Nasional",
         "success": true
       }
