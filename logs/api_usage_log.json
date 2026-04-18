@@ -7861,26 +7861,19 @@
     ]
   },
   "2026-04-18": {
-    "total": 421,
+    "total": 422,
     "streamlit": 0,
-    "github_action": 421,
-    "successful": 421,
+    "github_action": 422,
+    "successful": 422,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
       "Sustainability Officer KG Media": 65,
       "Reporter Nasional": 100,
-      "Content Writer Homey": 56
+      "Content Writer Homey": 57
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 06:06:53",
-        "source": "github_action",
-        "candidate": "Qonitah Khairunnisa",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 06:06:56",
         "source": "github_action",
@@ -8571,6 +8564,13 @@
         "timestamp": "2026-04-18 06:50:05",
         "source": "github_action",
         "candidate": "Shella Shofiyannajah",
+        "position": "Content Writer Homey",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 06:50:29",
+        "source": "github_action",
+        "candidate": "Anne Nurjihan",
         "position": "Content Writer Homey",
         "success": true
       }
