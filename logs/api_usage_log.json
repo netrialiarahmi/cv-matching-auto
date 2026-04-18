@@ -7861,23 +7861,16 @@
     ]
   },
   "2026-04-18": {
-    "total": 196,
+    "total": 197,
     "streamlit": 0,
-    "github_action": 196,
-    "successful": 196,
+    "github_action": 197,
+    "successful": 197,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Megapolitan": 96
+      "Reporter Megapolitan": 97
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 04:34:14",
-        "source": "github_action",
-        "candidate": "Abdurrahman Nashiir",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 04:34:41",
         "source": "github_action",
@@ -8568,6 +8561,13 @@
         "timestamp": "2026-04-18 05:13:37",
         "source": "github_action",
         "candidate": "Andito  Gifari",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 05:14:05",
+        "source": "github_action",
+        "candidate": "Rismayanti Mamong",
         "position": "Reporter Megapolitan",
         "success": true
       }
