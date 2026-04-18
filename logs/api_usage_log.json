@@ -7861,10 +7861,10 @@
     ]
   },
   "2026-04-18": {
-    "total": 507,
+    "total": 508,
     "streamlit": 0,
-    "github_action": 507,
-    "successful": 507,
+    "github_action": 508,
+    "successful": 508,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
@@ -7872,16 +7872,9 @@
       "Sustainability Officer KG Media": 65,
       "Reporter Nasional": 100,
       "Content Writer Homey": 100,
-      "Data Analyst (Business Intelligence)": 42
+      "Data Analyst (Business Intelligence)": 43
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 06:44:17",
-        "source": "github_action",
-        "candidate": "Mohamad Reza Permana",
-        "position": "Content Writer Homey",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 06:44:19",
         "source": "github_action",
@@ -8572,6 +8565,13 @@
         "timestamp": "2026-04-18 07:40:01",
         "source": "github_action",
         "candidate": "Jasmine Mutia Alifa",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 07:40:31",
+        "source": "github_action",
+        "candidate": "ziq izza",
         "position": "Data Analyst (Business Intelligence)",
         "success": true
       }
