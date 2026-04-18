@@ -7861,25 +7861,18 @@
     ]
   },
   "2026-04-18": {
-    "total": 280,
+    "total": 281,
     "streamlit": 0,
-    "github_action": 280,
-    "successful": 280,
+    "github_action": 281,
+    "successful": 281,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
       "Sustainability Officer KG Media": 65,
-      "Reporter Nasional": 15
+      "Reporter Nasional": 16
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 05:07:04",
-        "source": "github_action",
-        "candidate": "Muhammad Thaba Pamungkas",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 05:07:31",
         "source": "github_action",
@@ -8570,6 +8563,13 @@
         "timestamp": "2026-04-18 05:49:08",
         "source": "github_action",
         "candidate": "Rio Valentino",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 05:49:38",
+        "source": "github_action",
+        "candidate": "Farhan Nuzhadiwa",
         "position": "Reporter Nasional",
         "success": true
       }
