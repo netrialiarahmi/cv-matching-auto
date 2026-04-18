@@ -7861,23 +7861,16 @@
     ]
   },
   "2026-04-18": {
-    "total": 176,
+    "total": 177,
     "streamlit": 0,
-    "github_action": 176,
-    "successful": 176,
+    "github_action": 177,
+    "successful": 177,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Megapolitan": 76
+      "Reporter Megapolitan": 77
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 04:25:14",
-        "source": "github_action",
-        "candidate": "Asri Nur Ulva",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 04:25:41",
         "source": "github_action",
@@ -8568,6 +8561,13 @@
         "timestamp": "2026-04-18 05:05:01",
         "source": "github_action",
         "candidate": "Hilda Shakira",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 05:05:28",
+        "source": "github_action",
+        "candidate": "M Abyan Denawa putra",
         "position": "Reporter Megapolitan",
         "success": true
       }
