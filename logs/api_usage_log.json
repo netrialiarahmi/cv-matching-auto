@@ -7861,25 +7861,18 @@
     ]
   },
   "2026-04-18": {
-    "total": 298,
+    "total": 299,
     "streamlit": 0,
-    "github_action": 298,
-    "successful": 298,
+    "github_action": 299,
+    "successful": 299,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
       "Sustainability Officer KG Media": 65,
-      "Reporter Nasional": 33
+      "Reporter Nasional": 34
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 05:14:56",
-        "source": "github_action",
-        "candidate": "Carlo Alesandrino Pranata",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 05:15:24",
         "source": "github_action",
@@ -8570,6 +8563,13 @@
         "timestamp": "2026-04-18 05:56:40",
         "source": "github_action",
         "candidate": "Fitri Yuniarsih",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 05:57:10",
+        "source": "github_action",
+        "candidate": "Nur Baeti",
         "position": "Reporter Nasional",
         "success": true
       }
