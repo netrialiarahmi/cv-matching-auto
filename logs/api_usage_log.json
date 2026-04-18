@@ -7861,10 +7861,10 @@
     ]
   },
   "2026-04-18": {
-    "total": 570,
+    "total": 571,
     "streamlit": 0,
-    "github_action": 570,
-    "successful": 570,
+    "github_action": 571,
+    "successful": 571,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
@@ -7873,16 +7873,9 @@
       "Reporter Nasional": 100,
       "Content Writer Homey": 100,
       "Data Analyst (Business Intelligence)": 100,
-      "Business Development Analyst": 5
+      "Business Development Analyst": 6
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 07:12:41",
-        "source": "github_action",
-        "candidate": "Satrio Bagus Panuntun",
-        "position": "Data Analyst (Business Intelligence)",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 07:13:07",
         "source": "github_action",
@@ -8573,6 +8566,13 @@
         "timestamp": "2026-04-18 08:09:12",
         "source": "github_action",
         "candidate": "Raditya Ari Vernandito",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 08:09:41",
+        "source": "github_action",
+        "candidate": "guruh haryo",
         "position": "Business Development Analyst",
         "success": true
       }
