@@ -7861,25 +7861,18 @@
     ]
   },
   "2026-04-18": {
-    "total": 320,
+    "total": 321,
     "streamlit": 0,
-    "github_action": 320,
-    "successful": 320,
+    "github_action": 321,
+    "successful": 321,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
       "Sustainability Officer KG Media": 65,
-      "Reporter Nasional": 55
+      "Reporter Nasional": 56
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 05:24:11",
-        "source": "github_action",
-        "candidate": "Andre Valentcius Pane",
-        "position": "Sustainability Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 05:24:39",
         "source": "github_action",
@@ -8570,6 +8563,13 @@
         "timestamp": "2026-04-18 06:06:25",
         "source": "github_action",
         "candidate": "Risma Savhira",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 06:06:27",
+        "source": "github_action",
+        "candidate": "Gibran Yudhistira",
         "position": "Reporter Nasional",
         "success": true
       }
