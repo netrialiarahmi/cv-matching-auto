@@ -7861,24 +7861,17 @@
     ]
   },
   "2026-04-18": {
-    "total": 224,
+    "total": 225,
     "streamlit": 0,
-    "github_action": 224,
-    "successful": 224,
+    "github_action": 225,
+    "successful": 225,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
-      "Sustainability Officer KG Media": 24
+      "Sustainability Officer KG Media": 25
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 04:45:31",
-        "source": "github_action",
-        "candidate": "29-Farhan Jiddan",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 04:45:34",
         "source": "github_action",
@@ -8569,6 +8562,13 @@
         "timestamp": "2026-04-18 05:25:36",
         "source": "github_action",
         "candidate": "Alfian Bayu",
+        "position": "Sustainability Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 05:26:04",
+        "source": "github_action",
+        "candidate": "Sari Sapitri",
         "position": "Sustainability Officer KG Media",
         "success": true
       }
