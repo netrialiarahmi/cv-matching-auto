@@ -7861,13 +7861,13 @@
     ]
   },
   "2026-04-18": {
-    "total": 82,
+    "total": 83,
     "streamlit": 0,
-    "github_action": 82,
-    "successful": 82,
+    "github_action": 83,
+    "successful": 83,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 82
+      "Marketing Communication Officer KG Media": 83
     },
     "entries": [
       {
@@ -8441,6 +8441,13 @@
         "timestamp": "2026-04-18 04:27:22",
         "source": "github_action",
         "candidate": "Sasra adilla",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 04:27:50",
+        "source": "github_action",
+        "candidate": "Shoofii Ahdianati Jauzaa",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
