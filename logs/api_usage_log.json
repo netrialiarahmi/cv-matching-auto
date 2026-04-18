@@ -7861,24 +7861,17 @@
     ]
   },
   "2026-04-18": {
-    "total": 223,
+    "total": 224,
     "streamlit": 0,
-    "github_action": 223,
-    "successful": 223,
+    "github_action": 224,
+    "successful": 224,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
-      "Sustainability Officer KG Media": 23
+      "Sustainability Officer KG Media": 24
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 04:45:29",
-        "source": "github_action",
-        "candidate": "Yulia Rosa Purba",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 04:45:31",
         "source": "github_action",
@@ -8569,6 +8562,13 @@
         "timestamp": "2026-04-18 05:25:05",
         "source": "github_action",
         "candidate": "Anbiya  Aswandi",
+        "position": "Sustainability Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 05:25:36",
+        "source": "github_action",
+        "candidate": "Alfian Bayu",
         "position": "Sustainability Officer KG Media",
         "success": true
       }
