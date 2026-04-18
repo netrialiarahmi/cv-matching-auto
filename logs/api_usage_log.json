@@ -7861,24 +7861,17 @@
     ]
   },
   "2026-04-18": {
-    "total": 263,
+    "total": 264,
     "streamlit": 0,
-    "github_action": 263,
-    "successful": 263,
+    "github_action": 264,
+    "successful": 264,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
-      "Sustainability Officer KG Media": 63
+      "Sustainability Officer KG Media": 64
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 05:00:10",
-        "source": "github_action",
-        "candidate": "Faiz Maulida",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 05:00:37",
         "source": "github_action",
@@ -8569,6 +8562,13 @@
         "timestamp": "2026-04-18 05:41:20",
         "source": "github_action",
         "candidate": "Robie Muhammad Ramadhan",
+        "position": "Sustainability Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 05:41:43",
+        "source": "github_action",
+        "candidate": "Mohammad Rizkinanda  R",
         "position": "Sustainability Officer KG Media",
         "success": true
       }
