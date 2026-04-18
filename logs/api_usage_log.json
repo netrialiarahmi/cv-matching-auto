@@ -7861,13 +7861,13 @@
     ]
   },
   "2026-04-18": {
-    "total": 38,
+    "total": 39,
     "streamlit": 0,
-    "github_action": 38,
-    "successful": 38,
+    "github_action": 39,
+    "successful": 39,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 38
+      "Marketing Communication Officer KG Media": 39
     },
     "entries": [
       {
@@ -8133,6 +8133,13 @@
         "timestamp": "2026-04-18 04:07:12",
         "source": "github_action",
         "candidate": "Angelica Nadya",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 04:07:46",
+        "source": "github_action",
+        "candidate": "Maria Nyssa",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
