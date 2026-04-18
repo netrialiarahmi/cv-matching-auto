@@ -7861,10 +7861,10 @@
     ]
   },
   "2026-04-18": {
-    "total": 563,
+    "total": 564,
     "streamlit": 0,
-    "github_action": 563,
-    "successful": 563,
+    "github_action": 564,
+    "successful": 564,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
@@ -7872,16 +7872,9 @@
       "Sustainability Officer KG Media": 65,
       "Reporter Nasional": 100,
       "Content Writer Homey": 100,
-      "Data Analyst (Business Intelligence)": 98
+      "Data Analyst (Business Intelligence)": 99
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 07:09:31",
-        "source": "github_action",
-        "candidate": "Salsabila Auliya Ramadhany Ahmad",
-        "position": "Content Writer Homey",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 07:09:56",
         "source": "github_action",
@@ -8572,6 +8565,13 @@
         "timestamp": "2026-04-18 08:05:51",
         "source": "github_action",
         "candidate": "Gifari Akhsan",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 08:06:16",
+        "source": "github_action",
+        "candidate": "Vinka Bella",
         "position": "Data Analyst (Business Intelligence)",
         "success": true
       }
