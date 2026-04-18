@@ -7861,23 +7861,16 @@
     ]
   },
   "2026-04-18": {
-    "total": 194,
+    "total": 195,
     "streamlit": 0,
-    "github_action": 194,
-    "successful": 194,
+    "github_action": 195,
+    "successful": 195,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Megapolitan": 94
+      "Reporter Megapolitan": 95
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 04:33:15",
-        "source": "github_action",
-        "candidate": "Ida Ayu Putu Wagiswari",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 04:33:42",
         "source": "github_action",
@@ -8568,6 +8561,13 @@
         "timestamp": "2026-04-18 05:12:45",
         "source": "github_action",
         "candidate": "Febi Dena Ashari",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 05:13:12",
+        "source": "github_action",
+        "candidate": "Yulfiha Nur Azizah",
         "position": "Reporter Megapolitan",
         "success": true
       }
