@@ -7861,10 +7861,10 @@
     ]
   },
   "2026-04-18": {
-    "total": 539,
+    "total": 540,
     "streamlit": 0,
-    "github_action": 539,
-    "successful": 539,
+    "github_action": 540,
+    "successful": 540,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
@@ -7872,16 +7872,9 @@
       "Sustainability Officer KG Media": 65,
       "Reporter Nasional": 100,
       "Content Writer Homey": 100,
-      "Data Analyst (Business Intelligence)": 74
+      "Data Analyst (Business Intelligence)": 75
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 06:58:22",
-        "source": "github_action",
-        "candidate": "Ratna Sari",
-        "position": "Content Writer Homey",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 06:58:24",
         "source": "github_action",
@@ -8572,6 +8565,13 @@
         "timestamp": "2026-04-18 07:54:24",
         "source": "github_action",
         "candidate": "Dwi Yulianto",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 07:54:48",
+        "source": "github_action",
+        "candidate": "M. Helmy Zakaria",
         "position": "Data Analyst (Business Intelligence)",
         "success": true
       }
