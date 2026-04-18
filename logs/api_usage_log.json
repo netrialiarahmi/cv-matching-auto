@@ -7861,13 +7861,13 @@
     ]
   },
   "2026-04-18": {
-    "total": 81,
+    "total": 82,
     "streamlit": 0,
-    "github_action": 81,
-    "successful": 81,
+    "github_action": 82,
+    "successful": 82,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 81
+      "Marketing Communication Officer KG Media": 82
     },
     "entries": [
       {
@@ -8434,6 +8434,13 @@
         "timestamp": "2026-04-18 04:26:59",
         "source": "github_action",
         "candidate": "Binar Rembulan",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 04:27:22",
+        "source": "github_action",
+        "candidate": "Sasra adilla",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
