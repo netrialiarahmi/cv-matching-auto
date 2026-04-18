@@ -7861,24 +7861,17 @@
     ]
   },
   "2026-04-18": {
-    "total": 242,
+    "total": 243,
     "streamlit": 0,
-    "github_action": 242,
-    "successful": 242,
+    "github_action": 243,
+    "successful": 243,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
-      "Sustainability Officer KG Media": 42
+      "Sustainability Officer KG Media": 43
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 04:52:06",
-        "source": "github_action",
-        "candidate": "Dwi Ramayanti",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 04:52:31",
         "source": "github_action",
@@ -8569,6 +8562,13 @@
         "timestamp": "2026-04-18 05:32:35",
         "source": "github_action",
         "candidate": "Oktavianna Ginting",
+        "position": "Sustainability Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 05:33:00",
+        "source": "github_action",
+        "candidate": "Gelardus Randan",
         "position": "Sustainability Officer KG Media",
         "success": true
       }
