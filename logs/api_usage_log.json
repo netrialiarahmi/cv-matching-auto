@@ -7861,25 +7861,18 @@
     ]
   },
   "2026-04-18": {
-    "total": 297,
+    "total": 298,
     "streamlit": 0,
-    "github_action": 297,
-    "successful": 297,
+    "github_action": 298,
+    "successful": 298,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
       "Sustainability Officer KG Media": 65,
-      "Reporter Nasional": 32
+      "Reporter Nasional": 33
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 05:14:32",
-        "source": "github_action",
-        "candidate": "Muhammad Elga Johan Prasetyo",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 05:14:56",
         "source": "github_action",
@@ -8570,6 +8563,13 @@
         "timestamp": "2026-04-18 05:56:13",
         "source": "github_action",
         "candidate": "Dwi Arif Darmawan",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 05:56:40",
+        "source": "github_action",
+        "candidate": "Fitri Yuniarsih",
         "position": "Reporter Nasional",
         "success": true
       }
