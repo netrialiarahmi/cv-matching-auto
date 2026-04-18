@@ -7861,10 +7861,10 @@
     ]
   },
   "2026-04-18": {
-    "total": 489,
+    "total": 490,
     "streamlit": 0,
-    "github_action": 489,
-    "successful": 489,
+    "github_action": 490,
+    "successful": 490,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
@@ -7872,16 +7872,9 @@
       "Sustainability Officer KG Media": 65,
       "Reporter Nasional": 100,
       "Content Writer Homey": 100,
-      "Data Analyst (Business Intelligence)": 24
+      "Data Analyst (Business Intelligence)": 25
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 06:35:34",
-        "source": "github_action",
-        "candidate": "Erika Desy Lestari",
-        "position": "Content Writer Homey",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 06:36:00",
         "source": "github_action",
@@ -8572,6 +8565,13 @@
         "timestamp": "2026-04-18 07:21:34",
         "source": "github_action",
         "candidate": "Muhammad Rifqi Ramadhani",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 07:22:03",
+        "source": "github_action",
+        "candidate": "Antya Alhikmah Alham",
         "position": "Data Analyst (Business Intelligence)",
         "success": true
       }
