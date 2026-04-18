@@ -7861,10 +7861,10 @@
     ]
   },
   "2026-04-18": {
-    "total": 579,
+    "total": 580,
     "streamlit": 0,
-    "github_action": 579,
-    "successful": 579,
+    "github_action": 580,
+    "successful": 580,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
@@ -7873,16 +7873,9 @@
       "Reporter Nasional": 100,
       "Content Writer Homey": 100,
       "Data Analyst (Business Intelligence)": 100,
-      "Business Development Analyst": 14
+      "Business Development Analyst": 15
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 07:17:07",
-        "source": "github_action",
-        "candidate": "Rifky Alfitra",
-        "position": "Data Analyst (Business Intelligence)",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 07:17:44",
         "source": "github_action",
@@ -8573,6 +8566,13 @@
         "timestamp": "2026-04-18 08:13:19",
         "source": "github_action",
         "candidate": "Sri Cintia Dewi",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 08:13:52",
+        "source": "github_action",
+        "candidate": "Muhammad Shodiqin",
         "position": "Business Development Analyst",
         "success": true
       }
