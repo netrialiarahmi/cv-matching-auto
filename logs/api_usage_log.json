@@ -7861,13 +7861,13 @@
     ]
   },
   "2026-04-18": {
-    "total": 14,
+    "total": 15,
     "streamlit": 0,
-    "github_action": 14,
-    "successful": 14,
+    "github_action": 15,
+    "successful": 15,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 14
+      "Marketing Communication Officer KG Media": 15
     },
     "entries": [
       {
@@ -7965,6 +7965,13 @@
         "timestamp": "2026-04-18 03:56:37",
         "source": "github_action",
         "candidate": "Reno Ferdiasyah",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 03:57:05",
+        "source": "github_action",
+        "candidate": "Tiara Putri Andini",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
