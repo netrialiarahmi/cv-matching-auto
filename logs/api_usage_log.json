@@ -7861,10 +7861,10 @@
     ]
   },
   "2026-04-18": {
-    "total": 557,
+    "total": 558,
     "streamlit": 0,
-    "github_action": 557,
-    "successful": 557,
+    "github_action": 558,
+    "successful": 558,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
@@ -7872,16 +7872,9 @@
       "Sustainability Officer KG Media": 65,
       "Reporter Nasional": 100,
       "Content Writer Homey": 100,
-      "Data Analyst (Business Intelligence)": 92
+      "Data Analyst (Business Intelligence)": 93
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 07:06:41",
-        "source": "github_action",
-        "candidate": "Arif Nurochman",
-        "position": "Content Writer Homey",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 07:07:11",
         "source": "github_action",
@@ -8572,6 +8565,13 @@
         "timestamp": "2026-04-18 08:02:46",
         "source": "github_action",
         "candidate": "Atsna Dewi Shafrina",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 08:03:16",
+        "source": "github_action",
+        "candidate": "Areta Fidela Artanti",
         "position": "Data Analyst (Business Intelligence)",
         "success": true
       }
