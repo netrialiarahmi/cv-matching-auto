@@ -7861,26 +7861,19 @@
     ]
   },
   "2026-04-18": {
-    "total": 461,
+    "total": 462,
     "streamlit": 0,
-    "github_action": 461,
-    "successful": 461,
+    "github_action": 462,
+    "successful": 462,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
       "Sustainability Officer KG Media": 65,
       "Reporter Nasional": 100,
-      "Content Writer Homey": 96
+      "Content Writer Homey": 97
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 06:23:29",
-        "source": "github_action",
-        "candidate": "Maghrifa Aulia Az-Zahra",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 06:23:55",
         "source": "github_action",
@@ -8571,6 +8564,13 @@
         "timestamp": "2026-04-18 07:08:11",
         "source": "github_action",
         "candidate": "Tiara Luminous",
+        "position": "Content Writer Homey",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 07:08:36",
+        "source": "github_action",
+        "candidate": "Sindhu Linguistika Manumanasa",
         "position": "Content Writer Homey",
         "success": true
       }
