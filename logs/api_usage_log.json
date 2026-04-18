@@ -7861,24 +7861,17 @@
     ]
   },
   "2026-04-18": {
-    "total": 264,
+    "total": 265,
     "streamlit": 0,
-    "github_action": 264,
-    "successful": 264,
+    "github_action": 265,
+    "successful": 265,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
-      "Sustainability Officer KG Media": 64
+      "Sustainability Officer KG Media": 65
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 05:00:37",
-        "source": "github_action",
-        "candidate": "Farrel  Fauzan",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 05:01:04",
         "source": "github_action",
@@ -8569,6 +8562,13 @@
         "timestamp": "2026-04-18 05:41:43",
         "source": "github_action",
         "candidate": "Mohammad Rizkinanda  R",
+        "position": "Sustainability Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 05:42:09",
+        "source": "github_action",
+        "candidate": "Suci Witna",
         "position": "Sustainability Officer KG Media",
         "success": true
       }
