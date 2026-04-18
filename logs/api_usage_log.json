@@ -7861,13 +7861,13 @@
     ]
   },
   "2026-04-18": {
-    "total": 52,
+    "total": 53,
     "streamlit": 0,
-    "github_action": 52,
-    "successful": 52,
+    "github_action": 53,
+    "successful": 53,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 52
+      "Marketing Communication Officer KG Media": 53
     },
     "entries": [
       {
@@ -8231,6 +8231,13 @@
         "timestamp": "2026-04-18 04:13:43",
         "source": "github_action",
         "candidate": "Dhara Devona Lutsfi",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 04:14:10",
+        "source": "github_action",
+        "candidate": "neng Halima",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
