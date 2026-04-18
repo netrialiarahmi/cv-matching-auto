@@ -7861,10 +7861,10 @@
     ]
   },
   "2026-04-18": {
-    "total": 550,
+    "total": 551,
     "streamlit": 0,
-    "github_action": 550,
-    "successful": 550,
+    "github_action": 551,
+    "successful": 551,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
@@ -7872,16 +7872,9 @@
       "Sustainability Officer KG Media": 65,
       "Reporter Nasional": 100,
       "Content Writer Homey": 100,
-      "Data Analyst (Business Intelligence)": 85
+      "Data Analyst (Business Intelligence)": 86
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 07:03:11",
-        "source": "github_action",
-        "candidate": "Alvines Pratama",
-        "position": "Content Writer Homey",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 07:03:37",
         "source": "github_action",
@@ -8572,6 +8565,13 @@
         "timestamp": "2026-04-18 07:59:50",
         "source": "github_action",
         "candidate": "Valentin Hendra Jaya",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 08:00:17",
+        "source": "github_action",
+        "candidate": "Lucy Rizky Prasiska",
         "position": "Data Analyst (Business Intelligence)",
         "success": true
       }
