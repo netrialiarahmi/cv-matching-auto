@@ -7861,13 +7861,13 @@
     ]
   },
   "2026-04-18": {
-    "total": 61,
+    "total": 62,
     "streamlit": 0,
-    "github_action": 61,
-    "successful": 61,
+    "github_action": 62,
+    "successful": 62,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 61
+      "Marketing Communication Officer KG Media": 62
     },
     "entries": [
       {
@@ -8294,6 +8294,13 @@
         "timestamp": "2026-04-18 04:17:51",
         "source": "github_action",
         "candidate": "Maria Natalie Safira",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 04:18:18",
+        "source": "github_action",
+        "candidate": "Jessica Natasha",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
