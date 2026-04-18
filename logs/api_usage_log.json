@@ -7861,10 +7861,10 @@
     ]
   },
   "2026-04-18": {
-    "total": 515,
+    "total": 516,
     "streamlit": 0,
-    "github_action": 515,
-    "successful": 515,
+    "github_action": 516,
+    "successful": 516,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
@@ -7872,16 +7872,9 @@
       "Sustainability Officer KG Media": 65,
       "Reporter Nasional": 100,
       "Content Writer Homey": 100,
-      "Data Analyst (Business Intelligence)": 50
+      "Data Analyst (Business Intelligence)": 51
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 06:47:39",
-        "source": "github_action",
-        "candidate": "Dina Rochmaningsih",
-        "position": "Content Writer Homey",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 06:48:07",
         "source": "github_action",
@@ -8572,6 +8565,13 @@
         "timestamp": "2026-04-18 07:43:57",
         "source": "github_action",
         "candidate": "Arruum Kiranadjie",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 07:44:22",
+        "source": "github_action",
+        "candidate": "disya ariza",
         "position": "Data Analyst (Business Intelligence)",
         "success": true
       }
