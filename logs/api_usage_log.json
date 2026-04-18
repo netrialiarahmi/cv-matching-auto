@@ -7861,26 +7861,19 @@
     ]
   },
   "2026-04-18": {
-    "total": 379,
+    "total": 380,
     "streamlit": 0,
-    "github_action": 379,
-    "successful": 379,
+    "github_action": 380,
+    "successful": 380,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
       "Sustainability Officer KG Media": 65,
       "Reporter Nasional": 100,
-      "Content Writer Homey": 14
+      "Content Writer Homey": 15
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 05:49:08",
-        "source": "github_action",
-        "candidate": "Rio Valentino",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 05:49:38",
         "source": "github_action",
@@ -8571,6 +8564,13 @@
         "timestamp": "2026-04-18 06:31:01",
         "source": "github_action",
         "candidate": "Wahyu Lelyana",
+        "position": "Content Writer Homey",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 06:31:29",
+        "source": "github_action",
+        "candidate": "Heriyandi Pandapotan Sihombing",
         "position": "Content Writer Homey",
         "success": true
       }
