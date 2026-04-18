@@ -7861,25 +7861,18 @@
     ]
   },
   "2026-04-18": {
-    "total": 345,
+    "total": 346,
     "streamlit": 0,
-    "github_action": 345,
-    "successful": 345,
+    "github_action": 346,
+    "successful": 346,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
       "Sustainability Officer KG Media": 65,
-      "Reporter Nasional": 80
+      "Reporter Nasional": 81
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 05:34:25",
-        "source": "github_action",
-        "candidate": "Dwi Anggraini Susilowati",
-        "position": "Sustainability Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 05:34:50",
         "source": "github_action",
@@ -8570,6 +8563,13 @@
         "timestamp": "2026-04-18 06:16:39",
         "source": "github_action",
         "candidate": "Fano Eger",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 06:17:03",
+        "source": "github_action",
+        "candidate": "Mutia Choerunissa",
         "position": "Reporter Nasional",
         "success": true
       }
