@@ -7861,23 +7861,16 @@
     ]
   },
   "2026-04-18": {
-    "total": 195,
+    "total": 196,
     "streamlit": 0,
-    "github_action": 195,
-    "successful": 195,
+    "github_action": 196,
+    "successful": 196,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Megapolitan": 95
+      "Reporter Megapolitan": 96
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 04:33:42",
-        "source": "github_action",
-        "candidate": "Arvy Tazkia Azzahra",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 04:34:14",
         "source": "github_action",
@@ -8568,6 +8561,13 @@
         "timestamp": "2026-04-18 05:13:12",
         "source": "github_action",
         "candidate": "Yulfiha Nur Azizah",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 05:13:37",
+        "source": "github_action",
+        "candidate": "Andito  Gifari",
         "position": "Reporter Megapolitan",
         "success": true
       }
