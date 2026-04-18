@@ -7861,10 +7861,10 @@
     ]
   },
   "2026-04-18": {
-    "total": 744,
+    "total": 745,
     "streamlit": 0,
-    "github_action": 744,
-    "successful": 744,
+    "github_action": 745,
+    "successful": 745,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
@@ -7874,16 +7874,9 @@
       "Content Writer Homey": 100,
       "Data Analyst (Business Intelligence)": 100,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 79
+      "Account Executive VCBL": 80
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 08:44:22",
-        "source": "github_action",
-        "candidate": "Alfieny Putri Heriyanto",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 08:44:51",
         "source": "github_action",
@@ -8574,6 +8567,13 @@
         "timestamp": "2026-04-18 09:27:27",
         "source": "github_action",
         "candidate": "Oryza Zaidandio",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 09:27:56",
+        "source": "github_action",
+        "candidate": "Rifqi Soeleiman",
         "position": "Account Executive VCBL",
         "success": true
       }
