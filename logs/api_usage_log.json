@@ -7861,25 +7861,18 @@
     ]
   },
   "2026-04-18": {
-    "total": 326,
+    "total": 327,
     "streamlit": 0,
-    "github_action": 326,
-    "successful": 326,
+    "github_action": 327,
+    "successful": 327,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
       "Sustainability Officer KG Media": 65,
-      "Reporter Nasional": 61
+      "Reporter Nasional": 62
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 05:27:01",
-        "source": "github_action",
-        "candidate": "Fajar Nugroho",
-        "position": "Sustainability Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 05:27:26",
         "source": "github_action",
@@ -8570,6 +8563,13 @@
         "timestamp": "2026-04-18 06:08:19",
         "source": "github_action",
         "candidate": "Halwa  Raudhatul",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 06:08:45",
+        "source": "github_action",
+        "candidate": "Husaini Dani",
         "position": "Reporter Nasional",
         "success": true
       }
