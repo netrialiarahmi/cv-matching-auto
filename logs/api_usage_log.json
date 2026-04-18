@@ -7861,25 +7861,19 @@
     ]
   },
   "2026-04-18": {
-    "total": 365,
+    "total": 366,
     "streamlit": 0,
-    "github_action": 365,
-    "successful": 365,
+    "github_action": 366,
+    "successful": 366,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
       "Sustainability Officer KG Media": 65,
-      "Reporter Nasional": 100
+      "Reporter Nasional": 100,
+      "Content Writer Homey": 1
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 05:42:38",
-        "source": "github_action",
-        "candidate": "Daffa Almaas Pramesthy",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 05:43:05",
         "source": "github_action",
@@ -8571,6 +8565,13 @@
         "source": "github_action",
         "candidate": "Sbsalsabila I",
         "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 06:25:15",
+        "source": "github_action",
+        "candidate": "Puspa Maulida Lestari",
+        "position": "Content Writer Homey",
         "success": true
       }
     ]
