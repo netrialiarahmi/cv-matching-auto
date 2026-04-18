@@ -7861,10 +7861,10 @@
     ]
   },
   "2026-04-18": {
-    "total": 600,
+    "total": 601,
     "streamlit": 0,
-    "github_action": 600,
-    "successful": 600,
+    "github_action": 601,
+    "successful": 601,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
@@ -7873,16 +7873,9 @@
       "Reporter Nasional": 100,
       "Content Writer Homey": 100,
       "Data Analyst (Business Intelligence)": 100,
-      "Business Development Analyst": 35
+      "Business Development Analyst": 36
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 07:27:13",
-        "source": "github_action",
-        "candidate": "Muhammad Rangga Hata Raditya",
-        "position": "Data Analyst (Business Intelligence)",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 07:27:40",
         "source": "github_action",
@@ -8573,6 +8566,13 @@
         "timestamp": "2026-04-18 08:23:35",
         "source": "github_action",
         "candidate": "I Gusti Agung Sanjaya Setyanegara",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 08:23:59",
+        "source": "github_action",
+        "candidate": "DEVI AYU RAHMATIKA",
         "position": "Business Development Analyst",
         "success": true
       }
