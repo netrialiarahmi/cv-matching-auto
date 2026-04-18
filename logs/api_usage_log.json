@@ -7861,26 +7861,19 @@
     ]
   },
   "2026-04-18": {
-    "total": 371,
+    "total": 372,
     "streamlit": 0,
-    "github_action": 371,
-    "successful": 371,
+    "github_action": 372,
+    "successful": 372,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
       "Sustainability Officer KG Media": 65,
       "Reporter Nasional": 100,
-      "Content Writer Homey": 6
+      "Content Writer Homey": 7
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 05:45:20",
-        "source": "github_action",
-        "candidate": "Ronny Saragih",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 05:45:47",
         "source": "github_action",
@@ -8571,6 +8564,13 @@
         "timestamp": "2026-04-18 06:27:30",
         "source": "github_action",
         "candidate": "Aulyani al adawiyah",
+        "position": "Content Writer Homey",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 06:27:59",
+        "source": "github_action",
+        "candidate": "Alya Hasna",
         "position": "Content Writer Homey",
         "success": true
       }
