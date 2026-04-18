@@ -7861,10 +7861,10 @@
     ]
   },
   "2026-04-18": {
-    "total": 511,
+    "total": 512,
     "streamlit": 0,
-    "github_action": 511,
-    "successful": 511,
+    "github_action": 512,
+    "successful": 512,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
@@ -7872,16 +7872,9 @@
       "Sustainability Officer KG Media": 65,
       "Reporter Nasional": 100,
       "Content Writer Homey": 100,
-      "Data Analyst (Business Intelligence)": 46
+      "Data Analyst (Business Intelligence)": 47
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 06:45:43",
-        "source": "github_action",
-        "candidate": "Khansa Izzana Amd. I. Kom.",
-        "position": "Content Writer Homey",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 06:46:10",
         "source": "github_action",
@@ -8572,6 +8565,13 @@
         "timestamp": "2026-04-18 07:42:05",
         "source": "github_action",
         "candidate": "Ulfah Dwilestary",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 07:42:35",
+        "source": "github_action",
+        "candidate": "Bayu Angkasa",
         "position": "Data Analyst (Business Intelligence)",
         "success": true
       }
