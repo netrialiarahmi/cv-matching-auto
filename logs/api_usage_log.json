@@ -7861,23 +7861,16 @@
     ]
   },
   "2026-04-18": {
-    "total": 187,
+    "total": 188,
     "streamlit": 0,
-    "github_action": 187,
-    "successful": 187,
+    "github_action": 188,
+    "successful": 188,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Megapolitan": 87
+      "Reporter Megapolitan": 88
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 04:30:04",
-        "source": "github_action",
-        "candidate": "Angelia Putri",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 04:30:29",
         "source": "github_action",
@@ -8568,6 +8561,13 @@
         "timestamp": "2026-04-18 05:09:30",
         "source": "github_action",
         "candidate": "Claudita  Sidabutar",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 05:09:59",
+        "source": "github_action",
+        "candidate": "Naufal Refrizal",
         "position": "Reporter Megapolitan",
         "success": true
       }
