@@ -7861,10 +7861,10 @@
     ]
   },
   "2026-04-18": {
-    "total": 505,
+    "total": 506,
     "streamlit": 0,
-    "github_action": 505,
-    "successful": 505,
+    "github_action": 506,
+    "successful": 506,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
@@ -7872,16 +7872,9 @@
       "Sustainability Officer KG Media": 65,
       "Reporter Nasional": 100,
       "Content Writer Homey": 100,
-      "Data Analyst (Business Intelligence)": 40
+      "Data Analyst (Business Intelligence)": 41
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 06:43:23",
-        "source": "github_action",
-        "candidate": "Sintya Dewi Rahma",
-        "position": "Content Writer Homey",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 06:43:52",
         "source": "github_action",
@@ -8572,6 +8565,13 @@
         "timestamp": "2026-04-18 07:29:01",
         "source": "github_action",
         "candidate": "Fitriana Budi Rizqi",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 07:29:31",
+        "source": "github_action",
+        "candidate": "Rahmat Taufiq H.R",
         "position": "Data Analyst (Business Intelligence)",
         "success": true
       }
