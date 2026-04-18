@@ -7861,23 +7861,16 @@
     ]
   },
   "2026-04-18": {
-    "total": 104,
+    "total": 105,
     "streamlit": 0,
-    "github_action": 104,
-    "successful": 104,
+    "github_action": 105,
+    "successful": 105,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Megapolitan": 4
+      "Reporter Megapolitan": 5
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 03:52:22",
-        "source": "github_action",
-        "candidate": "Ananda Ratih",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 03:52:48",
         "source": "github_action",
@@ -8568,6 +8561,13 @@
         "timestamp": "2026-04-18 04:37:31",
         "source": "github_action",
         "candidate": "Ahmad Zuhair  Yahya",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 04:37:59",
+        "source": "github_action",
+        "candidate": "Muhammad Husni",
         "position": "Reporter Megapolitan",
         "success": true
       }
