@@ -7861,24 +7861,17 @@
     ]
   },
   "2026-04-18": {
-    "total": 215,
+    "total": 216,
     "streamlit": 0,
-    "github_action": 215,
-    "successful": 215,
+    "github_action": 216,
+    "successful": 216,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
-      "Sustainability Officer KG Media": 15
+      "Sustainability Officer KG Media": 16
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 04:42:34",
-        "source": "github_action",
-        "candidate": "Gisella Aulia R",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 04:43:00",
         "source": "github_action",
@@ -8569,6 +8562,13 @@
         "timestamp": "2026-04-18 05:21:21",
         "source": "github_action",
         "candidate": "Alyaa Hasna Syifa",
+        "position": "Sustainability Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 05:21:52",
+        "source": "github_action",
+        "candidate": "Amira Fyrda Bilqis Maulana",
         "position": "Sustainability Officer KG Media",
         "success": true
       }
