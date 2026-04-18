@@ -7861,25 +7861,18 @@
     ]
   },
   "2026-04-18": {
-    "total": 331,
+    "total": 332,
     "streamlit": 0,
-    "github_action": 331,
-    "successful": 331,
+    "github_action": 332,
+    "successful": 332,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
       "Sustainability Officer KG Media": 65,
-      "Reporter Nasional": 66
+      "Reporter Nasional": 67
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 05:28:53",
-        "source": "github_action",
-        "candidate": "Tri Nurianto",
-        "position": "Sustainability Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 05:28:55",
         "source": "github_action",
@@ -8570,6 +8563,13 @@
         "timestamp": "2026-04-18 06:10:42",
         "source": "github_action",
         "candidate": "Aura Alifah",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 06:11:08",
+        "source": "github_action",
+        "candidate": "Haikal Sujono",
         "position": "Reporter Nasional",
         "success": true
       }
