@@ -7861,26 +7861,19 @@
     ]
   },
   "2026-04-18": {
-    "total": 457,
+    "total": 458,
     "streamlit": 0,
-    "github_action": 457,
-    "successful": 457,
+    "github_action": 458,
+    "successful": 458,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
       "Sustainability Officer KG Media": 65,
       "Reporter Nasional": 100,
-      "Content Writer Homey": 92
+      "Content Writer Homey": 93
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 06:21:44",
-        "source": "github_action",
-        "candidate": "Restira My Syahputri",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 06:22:12",
         "source": "github_action",
@@ -8571,6 +8564,13 @@
         "timestamp": "2026-04-18 07:06:11",
         "source": "github_action",
         "candidate": "tresna nur",
+        "position": "Content Writer Homey",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 07:06:41",
+        "source": "github_action",
+        "candidate": "Arif Nurochman",
         "position": "Content Writer Homey",
         "success": true
       }
