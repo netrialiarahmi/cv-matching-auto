@@ -7861,26 +7861,19 @@
     ]
   },
   "2026-04-18": {
-    "total": 416,
+    "total": 417,
     "streamlit": 0,
-    "github_action": 416,
-    "successful": 416,
+    "github_action": 417,
+    "successful": 417,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
       "Sustainability Officer KG Media": 65,
       "Reporter Nasional": 100,
-      "Content Writer Homey": 51
+      "Content Writer Homey": 52
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 06:04:59",
-        "source": "github_action",
-        "candidate": "Febriyandi Putra Ilham Permana",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 06:05:30",
         "source": "github_action",
@@ -8571,6 +8564,13 @@
         "timestamp": "2026-04-18 06:47:39",
         "source": "github_action",
         "candidate": "Dina Rochmaningsih",
+        "position": "Content Writer Homey",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 06:48:07",
+        "source": "github_action",
+        "candidate": "Khanifa Isnaini",
         "position": "Content Writer Homey",
         "success": true
       }
