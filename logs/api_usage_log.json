@@ -7861,25 +7861,18 @@
     ]
   },
   "2026-04-18": {
-    "total": 334,
+    "total": 335,
     "streamlit": 0,
-    "github_action": 334,
-    "successful": 334,
+    "github_action": 335,
+    "successful": 335,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
       "Sustainability Officer KG Media": 65,
-      "Reporter Nasional": 69
+      "Reporter Nasional": 70
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 05:29:56",
-        "source": "github_action",
-        "candidate": "Brilian Iril Achmad",
-        "position": "Sustainability Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 05:30:21",
         "source": "github_action",
@@ -8570,6 +8563,13 @@
         "timestamp": "2026-04-18 06:12:01",
         "source": "github_action",
         "candidate": "Viky Violin",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 06:12:29",
+        "source": "github_action",
+        "candidate": "Fath Tazkya Ernest Jamila",
         "position": "Reporter Nasional",
         "success": true
       }
