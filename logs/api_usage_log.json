@@ -7861,26 +7861,19 @@
     ]
   },
   "2026-04-18": {
-    "total": 419,
+    "total": 420,
     "streamlit": 0,
-    "github_action": 419,
-    "successful": 419,
+    "github_action": 420,
+    "successful": 420,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
       "Sustainability Officer KG Media": 65,
       "Reporter Nasional": 100,
-      "Content Writer Homey": 54
+      "Content Writer Homey": 55
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 06:06:25",
-        "source": "github_action",
-        "candidate": "Risma Savhira",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 06:06:27",
         "source": "github_action",
@@ -8571,6 +8564,13 @@
         "timestamp": "2026-04-18 06:49:02",
         "source": "github_action",
         "candidate": "Adinda Rhamadani",
+        "position": "Content Writer Homey",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 06:49:27",
+        "source": "github_action",
+        "candidate": "Gede Arga Adrian",
         "position": "Content Writer Homey",
         "success": true
       }
