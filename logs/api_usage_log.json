@@ -7861,23 +7861,16 @@
     ]
   },
   "2026-04-18": {
-    "total": 115,
+    "total": 116,
     "streamlit": 0,
-    "github_action": 115,
-    "successful": 115,
+    "github_action": 116,
+    "successful": 116,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Megapolitan": 15
+      "Reporter Megapolitan": 16
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 03:57:32",
-        "source": "github_action",
-        "candidate": "Yohana Oktavia Putri Simangunsong",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 03:57:58",
         "source": "github_action",
@@ -8568,6 +8561,13 @@
         "timestamp": "2026-04-18 04:42:08",
         "source": "github_action",
         "candidate": "Suci Rahma Nisa",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 04:42:34",
+        "source": "github_action",
+        "candidate": "Gisella Aulia R",
         "position": "Reporter Megapolitan",
         "success": true
       }
