@@ -7861,26 +7861,19 @@
     ]
   },
   "2026-04-18": {
-    "total": 425,
+    "total": 426,
     "streamlit": 0,
-    "github_action": 425,
-    "successful": 425,
+    "github_action": 426,
+    "successful": 426,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
       "Sustainability Officer KG Media": 65,
       "Reporter Nasional": 100,
-      "Content Writer Homey": 60
+      "Content Writer Homey": 61
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 06:08:19",
-        "source": "github_action",
-        "candidate": "Halwa  Raudhatul",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 06:08:45",
         "source": "github_action",
@@ -8571,6 +8564,13 @@
         "timestamp": "2026-04-18 06:51:55",
         "source": "github_action",
         "candidate": "Ummu  Cholifatul Latifah",
+        "position": "Content Writer Homey",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 06:52:22",
+        "source": "github_action",
+        "candidate": "Yulis Majidatul Choiriah",
         "position": "Content Writer Homey",
         "success": true
       }
