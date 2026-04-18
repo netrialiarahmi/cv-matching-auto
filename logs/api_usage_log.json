@@ -7861,23 +7861,16 @@
     ]
   },
   "2026-04-18": {
-    "total": 199,
+    "total": 200,
     "streamlit": 0,
-    "github_action": 199,
-    "successful": 199,
+    "github_action": 200,
+    "successful": 200,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Megapolitan": 99
+      "Reporter Megapolitan": 100
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 04:35:42",
-        "source": "github_action",
-        "candidate": "Brilian Iril Achmad",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 04:36:10",
         "source": "github_action",
@@ -8568,6 +8561,13 @@
         "timestamp": "2026-04-18 05:14:56",
         "source": "github_action",
         "candidate": "Carlo Alesandrino Pranata",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 05:15:24",
+        "source": "github_action",
+        "candidate": "Sesha Dewi Masita",
         "position": "Reporter Megapolitan",
         "success": true
       }
