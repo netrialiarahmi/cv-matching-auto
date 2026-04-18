@@ -7861,24 +7861,17 @@
     ]
   },
   "2026-04-18": {
-    "total": 246,
+    "total": 247,
     "streamlit": 0,
-    "github_action": 246,
-    "successful": 246,
+    "github_action": 247,
+    "successful": 247,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
-      "Sustainability Officer KG Media": 46
+      "Sustainability Officer KG Media": 47
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 04:53:47",
-        "source": "github_action",
-        "candidate": "Shelma Auliya M.",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 04:54:15",
         "source": "github_action",
@@ -8569,6 +8562,13 @@
         "timestamp": "2026-04-18 05:34:25",
         "source": "github_action",
         "candidate": "Dwi Anggraini Susilowati",
+        "position": "Sustainability Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 05:34:50",
+        "source": "github_action",
+        "candidate": "Alfano Gerlano",
         "position": "Sustainability Officer KG Media",
         "success": true
       }
