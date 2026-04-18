@@ -7861,26 +7861,20 @@
     ]
   },
   "2026-04-18": {
-    "total": 465,
+    "total": 466,
     "streamlit": 0,
-    "github_action": 465,
-    "successful": 465,
+    "github_action": 466,
+    "successful": 466,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
       "Sustainability Officer KG Media": 65,
       "Reporter Nasional": 100,
-      "Content Writer Homey": 100
+      "Content Writer Homey": 100,
+      "Data Analyst (Business Intelligence)": 1
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 06:25:15",
-        "source": "github_action",
-        "candidate": "Puspa Maulida Lestari",
-        "position": "Content Writer Homey",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 06:25:40",
         "source": "github_action",
@@ -8572,6 +8566,13 @@
         "source": "github_action",
         "candidate": "KURNIA AGUSTIN",
         "position": "Content Writer Homey",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 07:10:26",
+        "source": "github_action",
+        "candidate": "Elitadyani Sarsito",
+        "position": "Data Analyst (Business Intelligence)",
         "success": true
       }
     ]
