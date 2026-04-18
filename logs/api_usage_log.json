@@ -7861,26 +7861,19 @@
     ]
   },
   "2026-04-18": {
-    "total": 369,
+    "total": 370,
     "streamlit": 0,
-    "github_action": 369,
-    "successful": 369,
+    "github_action": 370,
+    "successful": 370,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
       "Sustainability Officer KG Media": 65,
       "Reporter Nasional": 100,
-      "Content Writer Homey": 4
+      "Content Writer Homey": 5
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 05:44:24",
-        "source": "github_action",
-        "candidate": "Nabillah Syidah",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 05:44:55",
         "source": "github_action",
@@ -8571,6 +8564,13 @@
         "timestamp": "2026-04-18 06:26:34",
         "source": "github_action",
         "candidate": "ARIF ANWAR RIZKY",
+        "position": "Content Writer Homey",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 06:27:02",
+        "source": "github_action",
+        "candidate": "Bryant Hans Channing Panjaitan",
         "position": "Content Writer Homey",
         "success": true
       }
