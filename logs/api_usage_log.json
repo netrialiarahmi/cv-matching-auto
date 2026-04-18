@@ -7861,10 +7861,10 @@
     ]
   },
   "2026-04-18": {
-    "total": 549,
+    "total": 550,
     "streamlit": 0,
-    "github_action": 549,
-    "successful": 549,
+    "github_action": 550,
+    "successful": 550,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
@@ -7872,16 +7872,9 @@
       "Sustainability Officer KG Media": 65,
       "Reporter Nasional": 100,
       "Content Writer Homey": 100,
-      "Data Analyst (Business Intelligence)": 84
+      "Data Analyst (Business Intelligence)": 85
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 07:02:46",
-        "source": "github_action",
-        "candidate": "Nadia Daniel",
-        "position": "Content Writer Homey",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 07:03:11",
         "source": "github_action",
@@ -8572,6 +8565,13 @@
         "timestamp": "2026-04-18 07:59:20",
         "source": "github_action",
         "candidate": "Muhamad Fandhi",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 07:59:50",
+        "source": "github_action",
+        "candidate": "Valentin Hendra Jaya",
         "position": "Data Analyst (Business Intelligence)",
         "success": true
       }
