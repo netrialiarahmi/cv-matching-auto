@@ -7861,10 +7861,10 @@
     ]
   },
   "2026-04-18": {
-    "total": 609,
+    "total": 610,
     "streamlit": 0,
-    "github_action": 609,
-    "successful": 609,
+    "github_action": 610,
+    "successful": 610,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
@@ -7873,16 +7873,9 @@
       "Reporter Nasional": 100,
       "Content Writer Homey": 100,
       "Data Analyst (Business Intelligence)": 100,
-      "Business Development Analyst": 44
+      "Business Development Analyst": 45
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 07:41:38",
-        "source": "github_action",
-        "candidate": "Amelia Wardani",
-        "position": "Data Analyst (Business Intelligence)",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 07:42:05",
         "source": "github_action",
@@ -8573,6 +8566,13 @@
         "timestamp": "2026-04-18 08:27:52",
         "source": "github_action",
         "candidate": "Putra Lubis",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 08:28:20",
+        "source": "github_action",
+        "candidate": "Anastasya .",
         "position": "Business Development Analyst",
         "success": true
       }
