@@ -7861,26 +7861,19 @@
     ]
   },
   "2026-04-18": {
-    "total": 407,
+    "total": 408,
     "streamlit": 0,
-    "github_action": 407,
-    "successful": 407,
+    "github_action": 408,
+    "successful": 408,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
       "Sustainability Officer KG Media": 65,
       "Reporter Nasional": 100,
-      "Content Writer Homey": 42
+      "Content Writer Homey": 43
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 06:00:53",
-        "source": "github_action",
-        "candidate": "Amanda Rae Irawan",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 06:01:20",
         "source": "github_action",
@@ -8571,6 +8564,13 @@
         "timestamp": "2026-04-18 06:43:52",
         "source": "github_action",
         "candidate": "Denting Azzahra",
+        "position": "Content Writer Homey",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 06:44:17",
+        "source": "github_action",
+        "candidate": "Mohamad Reza Permana",
         "position": "Content Writer Homey",
         "success": true
       }
