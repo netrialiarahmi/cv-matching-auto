@@ -7861,26 +7861,19 @@
     ]
   },
   "2026-04-18": {
-    "total": 462,
+    "total": 463,
     "streamlit": 0,
-    "github_action": 462,
-    "successful": 462,
+    "github_action": 463,
+    "successful": 463,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
       "Sustainability Officer KG Media": 65,
       "Reporter Nasional": 100,
-      "Content Writer Homey": 97
+      "Content Writer Homey": 98
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 06:23:55",
-        "source": "github_action",
-        "candidate": "Dhianti Karamina zilda",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 06:24:24",
         "source": "github_action",
@@ -8571,6 +8564,13 @@
         "timestamp": "2026-04-18 07:08:36",
         "source": "github_action",
         "candidate": "Sindhu Linguistika Manumanasa",
+        "position": "Content Writer Homey",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 07:09:06",
+        "source": "github_action",
+        "candidate": "Christoporus Kurnia Chandra",
         "position": "Content Writer Homey",
         "success": true
       }
