@@ -7861,25 +7861,18 @@
     ]
   },
   "2026-04-18": {
-    "total": 323,
+    "total": 324,
     "streamlit": 0,
-    "github_action": 323,
-    "successful": 323,
+    "github_action": 324,
+    "successful": 324,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
       "Sustainability Officer KG Media": 65,
-      "Reporter Nasional": 58
+      "Reporter Nasional": 59
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 05:25:36",
-        "source": "github_action",
-        "candidate": "Alfian Bayu",
-        "position": "Sustainability Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 05:26:04",
         "source": "github_action",
@@ -8570,6 +8563,13 @@
         "timestamp": "2026-04-18 06:06:56",
         "source": "github_action",
         "candidate": "asya di",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 06:07:23",
+        "source": "github_action",
+        "candidate": "Safira Tri Cahya",
         "position": "Reporter Nasional",
         "success": true
       }
