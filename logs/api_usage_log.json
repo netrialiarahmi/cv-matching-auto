@@ -7861,23 +7861,16 @@
     ]
   },
   "2026-04-18": {
-    "total": 190,
+    "total": 191,
     "streamlit": 0,
-    "github_action": 190,
-    "successful": 190,
+    "github_action": 191,
+    "successful": 191,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Megapolitan": 90
+      "Reporter Megapolitan": 91
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 04:31:28",
-        "source": "github_action",
-        "candidate": "Arya Nurcahyo",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 04:31:53",
         "source": "github_action",
@@ -8568,6 +8561,13 @@
         "timestamp": "2026-04-18 05:10:56",
         "source": "github_action",
         "candidate": "Reinada Frianka  Ramdani",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 05:11:24",
+        "source": "github_action",
+        "candidate": "Devita Nur Azizah",
         "position": "Reporter Megapolitan",
         "success": true
       }
