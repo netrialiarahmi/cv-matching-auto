@@ -7861,23 +7861,16 @@
     ]
   },
   "2026-04-18": {
-    "total": 150,
+    "total": 151,
     "streamlit": 0,
-    "github_action": 150,
-    "successful": 150,
+    "github_action": 151,
+    "successful": 151,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Megapolitan": 50
+      "Reporter Megapolitan": 51
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 04:13:14",
-        "source": "github_action",
-        "candidate": "Rizka Rubbyanti Rivera",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 04:13:43",
         "source": "github_action",
@@ -8568,6 +8561,13 @@
         "timestamp": "2026-04-18 04:54:42",
         "source": "github_action",
         "candidate": "Genta Marlinda Eko Putra",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 04:54:44",
+        "source": "github_action",
+        "candidate": "Mutiara Riany",
         "position": "Reporter Megapolitan",
         "success": true
       }
