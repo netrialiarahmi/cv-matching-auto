@@ -7861,25 +7861,18 @@
     ]
   },
   "2026-04-18": {
-    "total": 361,
+    "total": 362,
     "streamlit": 0,
-    "github_action": 361,
-    "successful": 361,
+    "github_action": 362,
+    "successful": 362,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
       "Sustainability Officer KG Media": 65,
-      "Reporter Nasional": 96
+      "Reporter Nasional": 97
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 05:40:51",
-        "source": "github_action",
-        "candidate": "Sendi Zikri Julian Fadilah",
-        "position": "Sustainability Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 05:41:20",
         "source": "github_action",
@@ -8570,6 +8563,13 @@
         "timestamp": "2026-04-18 06:23:01",
         "source": "github_action",
         "candidate": "ARIF ANWAR RIZKY",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 06:23:29",
+        "source": "github_action",
+        "candidate": "Maghrifa Aulia Az-Zahra",
         "position": "Reporter Nasional",
         "success": true
       }
