@@ -7861,10 +7861,10 @@
     ]
   },
   "2026-04-18": {
-    "total": 749,
+    "total": 750,
     "streamlit": 0,
-    "github_action": 749,
-    "successful": 749,
+    "github_action": 750,
+    "successful": 750,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
@@ -7874,16 +7874,9 @@
       "Content Writer Homey": 100,
       "Data Analyst (Business Intelligence)": 100,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 84
+      "Account Executive VCBL": 85
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 08:46:57",
-        "source": "github_action",
-        "candidate": "Ananda Sari",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 08:46:59",
         "source": "github_action",
@@ -8574,6 +8567,13 @@
         "timestamp": "2026-04-18 09:30:03",
         "source": "github_action",
         "candidate": "Rahmavita Naripati",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 09:30:33",
+        "source": "github_action",
+        "candidate": "Hilbram Syahrul",
         "position": "Account Executive VCBL",
         "success": true
       }
