@@ -7861,13 +7861,13 @@
     ]
   },
   "2026-04-18": {
-    "total": 76,
+    "total": 77,
     "streamlit": 0,
-    "github_action": 76,
-    "successful": 76,
+    "github_action": 77,
+    "successful": 77,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 76
+      "Marketing Communication Officer KG Media": 77
     },
     "entries": [
       {
@@ -8399,6 +8399,13 @@
         "timestamp": "2026-04-18 04:24:46",
         "source": "github_action",
         "candidate": "Mulyani Safira",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 04:25:14",
+        "source": "github_action",
+        "candidate": "Asri Nur Ulva",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
