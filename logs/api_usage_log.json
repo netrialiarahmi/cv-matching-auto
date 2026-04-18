@@ -7861,25 +7861,18 @@
     ]
   },
   "2026-04-18": {
-    "total": 305,
+    "total": 306,
     "streamlit": 0,
-    "github_action": 305,
-    "successful": 305,
+    "github_action": 306,
+    "successful": 306,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
       "Sustainability Officer KG Media": 65,
-      "Reporter Nasional": 40
+      "Reporter Nasional": 41
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 05:18:12",
-        "source": "github_action",
-        "candidate": "Adrian Khrisna  Muda",
-        "position": "Sustainability Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 05:18:37",
         "source": "github_action",
@@ -8570,6 +8563,13 @@
         "timestamp": "2026-04-18 05:59:27",
         "source": "github_action",
         "candidate": "Luh Muni Wiraswari",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 05:59:55",
+        "source": "github_action",
+        "candidate": "Mochhamad Ferrari  Wijaya",
         "position": "Reporter Nasional",
         "success": true
       }
