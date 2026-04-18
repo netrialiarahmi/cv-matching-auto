@@ -7861,10 +7861,10 @@
     ]
   },
   "2026-04-18": {
-    "total": 591,
+    "total": 592,
     "streamlit": 0,
-    "github_action": 591,
-    "successful": 591,
+    "github_action": 592,
+    "successful": 592,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
@@ -7873,16 +7873,9 @@
       "Reporter Nasional": 100,
       "Content Writer Homey": 100,
       "Data Analyst (Business Intelligence)": 100,
-      "Business Development Analyst": 26
+      "Business Development Analyst": 27
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 07:23:01",
-        "source": "github_action",
-        "candidate": "Gayatri Ayodhya",
-        "position": "Data Analyst (Business Intelligence)",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 07:23:30",
         "source": "github_action",
@@ -8573,6 +8566,13 @@
         "timestamp": "2026-04-18 08:19:17",
         "source": "github_action",
         "candidate": "Mohamad Dani Setiawardi",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 08:19:48",
+        "source": "github_action",
+        "candidate": "FELIA RACHMILA",
         "position": "Business Development Analyst",
         "success": true
       }
