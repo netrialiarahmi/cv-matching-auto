@@ -7861,25 +7861,18 @@
     ]
   },
   "2026-04-18": {
-    "total": 329,
+    "total": 330,
     "streamlit": 0,
-    "github_action": 329,
-    "successful": 329,
+    "github_action": 330,
+    "successful": 330,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
       "Sustainability Officer KG Media": 65,
-      "Reporter Nasional": 64
+      "Reporter Nasional": 65
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 05:28:21",
-        "source": "github_action",
-        "candidate": "Reza Mukhtar",
-        "position": "Sustainability Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 05:28:51",
         "source": "github_action",
@@ -8570,6 +8563,13 @@
         "timestamp": "2026-04-18 06:09:46",
         "source": "github_action",
         "candidate": "Dea Duta  Aulia",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 06:10:12",
+        "source": "github_action",
+        "candidate": "Sri Nabila Safnas",
         "position": "Reporter Nasional",
         "success": true
       }
