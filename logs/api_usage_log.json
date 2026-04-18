@@ -7861,24 +7861,17 @@
     ]
   },
   "2026-04-18": {
-    "total": 257,
+    "total": 258,
     "streamlit": 0,
-    "github_action": 257,
-    "successful": 257,
+    "github_action": 258,
+    "successful": 258,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
-      "Sustainability Officer KG Media": 57
+      "Sustainability Officer KG Media": 58
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 04:57:31",
-        "source": "github_action",
-        "candidate": "Okta Dwi Setiani",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 04:57:58",
         "source": "github_action",
@@ -8569,6 +8562,13 @@
         "timestamp": "2026-04-18 05:39:04",
         "source": "github_action",
         "candidate": "Harum Sabryna",
+        "position": "Sustainability Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 05:39:29",
+        "source": "github_action",
+        "candidate": "Mifta Salsabila Ali",
         "position": "Sustainability Officer KG Media",
         "success": true
       }
