@@ -7861,13 +7861,13 @@
     ]
   },
   "2026-04-18": {
-    "total": 9,
+    "total": 10,
     "streamlit": 0,
-    "github_action": 9,
-    "successful": 9,
+    "github_action": 10,
+    "successful": 10,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 9
+      "Marketing Communication Officer KG Media": 10
     },
     "entries": [
       {
@@ -7930,6 +7930,13 @@
         "timestamp": "2026-04-18 03:54:15",
         "source": "github_action",
         "candidate": "Priscilla Waworuntu Pangakuang",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 03:54:41",
+        "source": "github_action",
+        "candidate": "Alfyan Rajiv Attar",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
