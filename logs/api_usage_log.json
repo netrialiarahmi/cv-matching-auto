@@ -7861,24 +7861,17 @@
     ]
   },
   "2026-04-18": {
-    "total": 250,
+    "total": 251,
     "streamlit": 0,
-    "github_action": 250,
-    "successful": 250,
+    "github_action": 251,
+    "successful": 251,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
-      "Sustainability Officer KG Media": 50
+      "Sustainability Officer KG Media": 51
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 04:54:44",
-        "source": "github_action",
-        "candidate": "Mutiara Riany",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 04:55:13",
         "source": "github_action",
@@ -8569,6 +8562,13 @@
         "timestamp": "2026-04-18 05:36:16",
         "source": "github_action",
         "candidate": "Daffa Sandya Affansyah",
+        "position": "Sustainability Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 05:36:42",
+        "source": "github_action",
+        "candidate": "DEVI AYU RAHMATIKA",
         "position": "Sustainability Officer KG Media",
         "success": true
       }
