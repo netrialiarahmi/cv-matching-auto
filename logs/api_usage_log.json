@@ -7861,25 +7861,18 @@
     ]
   },
   "2026-04-18": {
-    "total": 359,
+    "total": 360,
     "streamlit": 0,
-    "github_action": 359,
-    "successful": 359,
+    "github_action": 360,
+    "successful": 360,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
       "Sustainability Officer KG Media": 65,
-      "Reporter Nasional": 94
+      "Reporter Nasional": 95
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 05:39:59",
-        "source": "github_action",
-        "candidate": "Yogi Pangestu",
-        "position": "Sustainability Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 05:40:26",
         "source": "github_action",
@@ -8570,6 +8563,13 @@
         "timestamp": "2026-04-18 06:22:12",
         "source": "github_action",
         "candidate": "Qonita Hamidah",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 06:22:35",
+        "source": "github_action",
+        "candidate": "Muhamad Reza Pahlevi",
         "position": "Reporter Nasional",
         "success": true
       }
