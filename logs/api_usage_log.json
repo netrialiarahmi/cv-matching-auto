@@ -7861,26 +7861,19 @@
     ]
   },
   "2026-04-18": {
-    "total": 404,
+    "total": 405,
     "streamlit": 0,
-    "github_action": 404,
-    "successful": 404,
+    "github_action": 405,
+    "successful": 405,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
       "Sustainability Officer KG Media": 65,
       "Reporter Nasional": 100,
-      "Content Writer Homey": 39
+      "Content Writer Homey": 40
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 05:59:27",
-        "source": "github_action",
-        "candidate": "Luh Muni Wiraswari",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 05:59:55",
         "source": "github_action",
@@ -8571,6 +8564,13 @@
         "timestamp": "2026-04-18 06:42:29",
         "source": "github_action",
         "candidate": "Muhammad Fauzan Mubarak",
+        "position": "Content Writer Homey",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 06:42:57",
+        "source": "github_action",
+        "candidate": "Siti Nurjanah Nurjanah",
         "position": "Content Writer Homey",
         "success": true
       }
