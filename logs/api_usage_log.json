@@ -7861,25 +7861,18 @@
     ]
   },
   "2026-04-18": {
-    "total": 283,
+    "total": 284,
     "streamlit": 0,
-    "github_action": 283,
-    "successful": 283,
+    "github_action": 284,
+    "successful": 284,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
       "Sustainability Officer KG Media": 65,
-      "Reporter Nasional": 18
+      "Reporter Nasional": 19
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 05:08:02",
-        "source": "github_action",
-        "candidate": "Dharma Pandularas",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 05:08:32",
         "source": "github_action",
@@ -8570,6 +8563,13 @@
         "timestamp": "2026-04-18 05:50:31",
         "source": "github_action",
         "candidate": "Fadya  Jasmin Malihah",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 05:50:54",
+        "source": "github_action",
+        "candidate": "Alif  Pratama",
         "position": "Reporter Nasional",
         "success": true
       }
