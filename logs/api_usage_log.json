@@ -7861,10 +7861,10 @@
     ]
   },
   "2026-04-18": {
-    "total": 498,
+    "total": 499,
     "streamlit": 0,
-    "github_action": 498,
-    "successful": 498,
+    "github_action": 499,
+    "successful": 499,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
@@ -7872,16 +7872,9 @@
       "Sustainability Officer KG Media": 65,
       "Reporter Nasional": 100,
       "Content Writer Homey": 100,
-      "Data Analyst (Business Intelligence)": 33
+      "Data Analyst (Business Intelligence)": 34
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 06:39:56",
-        "source": "github_action",
-        "candidate": "Ajmal Fajar",
-        "position": "Content Writer Homey",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 06:40:26",
         "source": "github_action",
@@ -8572,6 +8565,13 @@
         "timestamp": "2026-04-18 07:25:49",
         "source": "github_action",
         "candidate": "Primadiani Wahyuningtyas",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 07:26:16",
+        "source": "github_action",
+        "candidate": "Plabenson Plabenson",
         "position": "Data Analyst (Business Intelligence)",
         "success": true
       }
