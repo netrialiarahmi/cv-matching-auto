@@ -7861,25 +7861,18 @@
     ]
   },
   "2026-04-18": {
-    "total": 292,
+    "total": 293,
     "streamlit": 0,
-    "github_action": 292,
-    "successful": 292,
+    "github_action": 293,
+    "successful": 293,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
       "Sustainability Officer KG Media": 65,
-      "Reporter Nasional": 27
+      "Reporter Nasional": 28
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 05:12:17",
-        "source": "github_action",
-        "candidate": "Therresia Maria Magdalena Morais",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 05:12:45",
         "source": "github_action",
@@ -8570,6 +8563,13 @@
         "timestamp": "2026-04-18 05:54:01",
         "source": "github_action",
         "candidate": "Rachel Immanuela",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 05:54:30",
+        "source": "github_action",
+        "candidate": "Fatur Sophian",
         "position": "Reporter Nasional",
         "success": true
       }
