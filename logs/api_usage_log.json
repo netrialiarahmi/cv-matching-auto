@@ -7861,23 +7861,16 @@
     ]
   },
   "2026-04-18": {
-    "total": 166,
+    "total": 167,
     "streamlit": 0,
-    "github_action": 166,
-    "successful": 166,
+    "github_action": 167,
+    "successful": 167,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Megapolitan": 66
+      "Reporter Megapolitan": 67
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 04:20:51",
-        "source": "github_action",
-        "candidate": "Diva Salsabila",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 04:21:16",
         "source": "github_action",
@@ -8568,6 +8561,13 @@
         "timestamp": "2026-04-18 05:01:04",
         "source": "github_action",
         "candidate": "Fauziah Sabtuanisa",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 05:01:29",
+        "source": "github_action",
+        "candidate": "Fikri Muchtar",
         "position": "Reporter Megapolitan",
         "success": true
       }
