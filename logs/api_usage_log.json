@@ -7861,26 +7861,19 @@
     ]
   },
   "2026-04-18": {
-    "total": 434,
+    "total": 435,
     "streamlit": 0,
-    "github_action": 434,
-    "successful": 434,
+    "github_action": 435,
+    "successful": 435,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
       "Sustainability Officer KG Media": 65,
       "Reporter Nasional": 100,
-      "Content Writer Homey": 69
+      "Content Writer Homey": 70
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 06:12:29",
-        "source": "github_action",
-        "candidate": "Fath Tazkya Ernest Jamila",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 06:12:57",
         "source": "github_action",
@@ -8571,6 +8564,13 @@
         "timestamp": "2026-04-18 06:55:30",
         "source": "github_action",
         "candidate": "Elsa Bhuwana  Nauratama",
+        "position": "Content Writer Homey",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 06:56:01",
+        "source": "github_action",
+        "candidate": "Luthfy Fakhrurozie",
         "position": "Content Writer Homey",
         "success": true
       }
