@@ -7861,23 +7861,16 @@
     ]
   },
   "2026-04-18": {
-    "total": 185,
+    "total": 186,
     "streamlit": 0,
-    "github_action": 185,
-    "successful": 185,
+    "github_action": 186,
+    "successful": 186,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Megapolitan": 85
+      "Reporter Megapolitan": 86
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 04:29:13",
-        "source": "github_action",
-        "candidate": "syifa az zahra",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 04:29:37",
         "source": "github_action",
@@ -8568,6 +8561,13 @@
         "timestamp": "2026-04-18 05:08:32",
         "source": "github_action",
         "candidate": "Maisya Savinka Achmad",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 05:09:00",
+        "source": "github_action",
+        "candidate": "Ade Zahra",
         "position": "Reporter Megapolitan",
         "success": true
       }
