@@ -7861,26 +7861,19 @@
     ]
   },
   "2026-04-18": {
-    "total": 453,
+    "total": 454,
     "streamlit": 0,
-    "github_action": 453,
-    "successful": 453,
+    "github_action": 454,
+    "successful": 454,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
       "Sustainability Officer KG Media": 65,
       "Reporter Nasional": 100,
-      "Content Writer Homey": 88
+      "Content Writer Homey": 89
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 06:20:21",
-        "source": "github_action",
-        "candidate": "Yoseph Aldhi Kristiantoro",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 06:20:47",
         "source": "github_action",
@@ -8571,6 +8564,13 @@
         "timestamp": "2026-04-18 07:04:05",
         "source": "github_action",
         "candidate": "Prianda Saputra",
+        "position": "Content Writer Homey",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 07:04:36",
+        "source": "github_action",
+        "candidate": "Kharisma Dhita Retnosari",
         "position": "Content Writer Homey",
         "success": true
       }
