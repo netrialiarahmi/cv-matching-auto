@@ -7861,10 +7861,10 @@
     ]
   },
   "2026-04-18": {
-    "total": 712,
+    "total": 713,
     "streamlit": 0,
-    "github_action": 712,
-    "successful": 712,
+    "github_action": 713,
+    "successful": 713,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
@@ -7874,16 +7874,9 @@
       "Content Writer Homey": 100,
       "Data Analyst (Business Intelligence)": 100,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 47
+      "Account Executive VCBL": 48
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 08:29:44",
-        "source": "github_action",
-        "candidate": "Gregorius Naralatu Dharana",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 08:30:15",
         "source": "github_action",
@@ -8574,6 +8567,13 @@
         "timestamp": "2026-04-18 09:13:10",
         "source": "github_action",
         "candidate": "Dwiky Satria",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 09:13:45",
+        "source": "github_action",
+        "candidate": "Syarif Antoni",
         "position": "Account Executive VCBL",
         "success": true
       }
