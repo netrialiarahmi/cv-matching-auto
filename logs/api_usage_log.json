@@ -7861,13 +7861,13 @@
     ]
   },
   "2026-04-18": {
-    "total": 8,
+    "total": 9,
     "streamlit": 0,
-    "github_action": 8,
-    "successful": 8,
+    "github_action": 9,
+    "successful": 9,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 8
+      "Marketing Communication Officer KG Media": 9
     },
     "entries": [
       {
@@ -7923,6 +7923,13 @@
         "timestamp": "2026-04-18 03:53:48",
         "source": "github_action",
         "candidate": "Ahmed Reza Al Aziz",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 03:54:15",
+        "source": "github_action",
+        "candidate": "Priscilla Waworuntu Pangakuang",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
