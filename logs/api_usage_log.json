@@ -7861,25 +7861,18 @@
     ]
   },
   "2026-04-18": {
-    "total": 360,
+    "total": 361,
     "streamlit": 0,
-    "github_action": 360,
-    "successful": 360,
+    "github_action": 361,
+    "successful": 361,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
       "Sustainability Officer KG Media": 65,
-      "Reporter Nasional": 95
+      "Reporter Nasional": 96
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 05:40:26",
-        "source": "github_action",
-        "candidate": "Saskia Aisya",
-        "position": "Sustainability Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 05:40:51",
         "source": "github_action",
@@ -8570,6 +8563,13 @@
         "timestamp": "2026-04-18 06:22:35",
         "source": "github_action",
         "candidate": "Muhamad Reza Pahlevi",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 06:23:01",
+        "source": "github_action",
+        "candidate": "ARIF ANWAR RIZKY",
         "position": "Reporter Nasional",
         "success": true
       }
