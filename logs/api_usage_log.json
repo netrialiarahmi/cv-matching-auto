@@ -7861,26 +7861,19 @@
     ]
   },
   "2026-04-18": {
-    "total": 386,
+    "total": 387,
     "streamlit": 0,
-    "github_action": 386,
-    "successful": 386,
+    "github_action": 387,
+    "successful": 387,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
       "Sustainability Officer KG Media": 65,
       "Reporter Nasional": 100,
-      "Content Writer Homey": 21
+      "Content Writer Homey": 22
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 05:51:44",
-        "source": "github_action",
-        "candidate": "Khanisa Azahra",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 05:52:11",
         "source": "github_action",
@@ -8571,6 +8564,13 @@
         "timestamp": "2026-04-18 06:33:46",
         "source": "github_action",
         "candidate": "Siti Shalwa Aulia",
+        "position": "Content Writer Homey",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 06:34:11",
+        "source": "github_action",
+        "candidate": "Dewi Anggriani Siregar",
         "position": "Content Writer Homey",
         "success": true
       }
