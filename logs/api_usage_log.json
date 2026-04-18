@@ -7861,25 +7861,18 @@
     ]
   },
   "2026-04-18": {
-    "total": 342,
+    "total": 343,
     "streamlit": 0,
-    "github_action": 342,
-    "successful": 342,
+    "github_action": 343,
+    "successful": 343,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
       "Sustainability Officer KG Media": 65,
-      "Reporter Nasional": 77
+      "Reporter Nasional": 78
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 05:33:00",
-        "source": "github_action",
-        "candidate": "Gelardus Randan",
-        "position": "Sustainability Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 05:33:30",
         "source": "github_action",
@@ -8570,6 +8563,13 @@
         "timestamp": "2026-04-18 06:15:13",
         "source": "github_action",
         "candidate": "Yanuar Riezqi Yovanda",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 06:15:40",
+        "source": "github_action",
+        "candidate": "vindra argha pratama",
         "position": "Reporter Nasional",
         "success": true
       }
