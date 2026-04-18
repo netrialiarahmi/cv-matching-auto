@@ -7861,23 +7861,16 @@
     ]
   },
   "2026-04-18": {
-    "total": 197,
+    "total": 198,
     "streamlit": 0,
-    "github_action": 197,
-    "successful": 197,
+    "github_action": 198,
+    "successful": 198,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Megapolitan": 97
+      "Reporter Megapolitan": 98
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 04:34:41",
-        "source": "github_action",
-        "candidate": "Gregorius Vincent Raka Pratama",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 04:35:13",
         "source": "github_action",
@@ -8568,6 +8561,13 @@
         "timestamp": "2026-04-18 05:14:05",
         "source": "github_action",
         "candidate": "Rismayanti Mamong",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 05:14:32",
+        "source": "github_action",
+        "candidate": "Muhammad Elga Johan Prasetyo",
         "position": "Reporter Megapolitan",
         "success": true
       }
