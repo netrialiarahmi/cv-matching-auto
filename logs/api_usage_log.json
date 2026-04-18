@@ -7861,26 +7861,19 @@
     ]
   },
   "2026-04-18": {
-    "total": 387,
+    "total": 388,
     "streamlit": 0,
-    "github_action": 387,
-    "successful": 387,
+    "github_action": 388,
+    "successful": 388,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
       "Sustainability Officer KG Media": 65,
       "Reporter Nasional": 100,
-      "Content Writer Homey": 22
+      "Content Writer Homey": 23
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 05:52:11",
-        "source": "github_action",
-        "candidate": "Abrar Rizq",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 05:52:38",
         "source": "github_action",
@@ -8571,6 +8564,13 @@
         "timestamp": "2026-04-18 06:34:11",
         "source": "github_action",
         "candidate": "Dewi Anggriani Siregar",
+        "position": "Content Writer Homey",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 06:34:38",
+        "source": "github_action",
+        "candidate": "Filemon Agung Hadiwardoyo",
         "position": "Content Writer Homey",
         "success": true
       }
