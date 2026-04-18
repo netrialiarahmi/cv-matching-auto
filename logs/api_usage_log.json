@@ -7861,25 +7861,18 @@
     ]
   },
   "2026-04-18": {
-    "total": 332,
+    "total": 333,
     "streamlit": 0,
-    "github_action": 332,
-    "successful": 332,
+    "github_action": 333,
+    "successful": 333,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
       "Sustainability Officer KG Media": 65,
-      "Reporter Nasional": 67
+      "Reporter Nasional": 68
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 05:28:55",
-        "source": "github_action",
-        "candidate": "Sandra Samara Alamsyah",
-        "position": "Sustainability Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 05:29:25",
         "source": "github_action",
@@ -8570,6 +8563,13 @@
         "timestamp": "2026-04-18 06:11:08",
         "source": "github_action",
         "candidate": "Haikal Sujono",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 06:11:36",
+        "source": "github_action",
+        "candidate": "Dliya Syahla",
         "position": "Reporter Nasional",
         "success": true
       }
