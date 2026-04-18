@@ -7861,23 +7861,16 @@
     ]
   },
   "2026-04-18": {
-    "total": 142,
+    "total": 143,
     "streamlit": 0,
-    "github_action": 142,
-    "successful": 142,
+    "github_action": 143,
+    "successful": 143,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Megapolitan": 42
+      "Reporter Megapolitan": 43
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 04:09:37",
-        "source": "github_action",
-        "candidate": "Muhammad Ridwan Ali",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 04:10:03",
         "source": "github_action",
@@ -8568,6 +8561,13 @@
         "timestamp": "2026-04-18 04:51:41",
         "source": "github_action",
         "candidate": "Ajmal Fajar",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 04:52:06",
+        "source": "github_action",
+        "candidate": "Dwi Ramayanti",
         "position": "Reporter Megapolitan",
         "success": true
       }
