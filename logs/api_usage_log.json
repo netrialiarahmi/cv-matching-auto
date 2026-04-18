@@ -7861,23 +7861,16 @@
     ]
   },
   "2026-04-18": {
-    "total": 161,
+    "total": 162,
     "streamlit": 0,
-    "github_action": 161,
-    "successful": 161,
+    "github_action": 162,
+    "successful": 162,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Megapolitan": 61
+      "Reporter Megapolitan": 62
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 04:18:18",
-        "source": "github_action",
-        "candidate": "Jessica Natasha",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 04:18:46",
         "source": "github_action",
@@ -8568,6 +8561,13 @@
         "timestamp": "2026-04-18 04:58:49",
         "source": "github_action",
         "candidate": "Fadillah Asriani",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 04:59:16",
+        "source": "github_action",
+        "candidate": "Fikma Khairunnisa",
         "position": "Reporter Megapolitan",
         "success": true
       }
