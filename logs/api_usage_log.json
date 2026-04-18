@@ -7861,23 +7861,16 @@
     ]
   },
   "2026-04-18": {
-    "total": 198,
+    "total": 199,
     "streamlit": 0,
-    "github_action": 198,
-    "successful": 198,
+    "github_action": 199,
+    "successful": 199,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Megapolitan": 98
+      "Reporter Megapolitan": 99
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 04:35:13",
-        "source": "github_action",
-        "candidate": "Yogi Robiansyah",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 04:35:42",
         "source": "github_action",
@@ -8568,6 +8561,13 @@
         "timestamp": "2026-04-18 05:14:32",
         "source": "github_action",
         "candidate": "Muhammad Elga Johan Prasetyo",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 05:14:56",
+        "source": "github_action",
+        "candidate": "Carlo Alesandrino Pranata",
         "position": "Reporter Megapolitan",
         "success": true
       }
