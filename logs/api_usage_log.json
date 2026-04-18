@@ -7861,26 +7861,19 @@
     ]
   },
   "2026-04-18": {
-    "total": 396,
+    "total": 397,
     "streamlit": 0,
-    "github_action": 396,
-    "successful": 396,
+    "github_action": 397,
+    "successful": 397,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
       "Sustainability Officer KG Media": 65,
       "Reporter Nasional": 100,
-      "Content Writer Homey": 31
+      "Content Writer Homey": 32
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 05:56:13",
-        "source": "github_action",
-        "candidate": "Dwi Arif Darmawan",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 05:56:40",
         "source": "github_action",
@@ -8571,6 +8564,13 @@
         "timestamp": "2026-04-18 06:38:31",
         "source": "github_action",
         "candidate": "Qonitah Khairunnisa",
+        "position": "Content Writer Homey",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 06:38:57",
+        "source": "github_action",
+        "candidate": "Yulfiha Nur Azizah",
         "position": "Content Writer Homey",
         "success": true
       }
