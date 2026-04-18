@@ -7861,23 +7861,16 @@
     ]
   },
   "2026-04-18": {
-    "total": 163,
+    "total": 164,
     "streamlit": 0,
-    "github_action": 163,
-    "successful": 163,
+    "github_action": 164,
+    "successful": 164,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Megapolitan": 63
+      "Reporter Megapolitan": 64
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 04:19:18",
-        "source": "github_action",
-        "candidate": "Sisi Maulid Tania",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 04:19:49",
         "source": "github_action",
@@ -8568,6 +8561,13 @@
         "timestamp": "2026-04-18 04:59:43",
         "source": "github_action",
         "candidate": "Diva Khairunnisa",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 05:00:10",
+        "source": "github_action",
+        "candidate": "Faiz Maulida",
         "position": "Reporter Megapolitan",
         "success": true
       }
