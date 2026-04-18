@@ -7861,26 +7861,19 @@
     ]
   },
   "2026-04-18": {
-    "total": 370,
+    "total": 371,
     "streamlit": 0,
-    "github_action": 370,
-    "successful": 370,
+    "github_action": 371,
+    "successful": 371,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
       "Sustainability Officer KG Media": 65,
       "Reporter Nasional": 100,
-      "Content Writer Homey": 5
+      "Content Writer Homey": 6
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 05:44:55",
-        "source": "github_action",
-        "candidate": "Miftah Dwi Kharunia",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 05:45:20",
         "source": "github_action",
@@ -8571,6 +8564,13 @@
         "timestamp": "2026-04-18 06:27:02",
         "source": "github_action",
         "candidate": "Bryant Hans Channing Panjaitan",
+        "position": "Content Writer Homey",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 06:27:30",
+        "source": "github_action",
+        "candidate": "Aulyani al adawiyah",
         "position": "Content Writer Homey",
         "success": true
       }
