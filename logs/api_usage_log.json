@@ -7861,23 +7861,16 @@
     ]
   },
   "2026-04-18": {
-    "total": 173,
+    "total": 174,
     "streamlit": 0,
-    "github_action": 173,
-    "successful": 173,
+    "github_action": 174,
+    "successful": 174,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Megapolitan": 73
+      "Reporter Megapolitan": 74
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 04:23:54",
-        "source": "github_action",
-        "candidate": "Lorentz Putra",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 04:24:19",
         "source": "github_action",
@@ -8568,6 +8561,13 @@
         "timestamp": "2026-04-18 05:03:45",
         "source": "github_action",
         "candidate": "Sandrina Fitriani",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 05:04:11",
+        "source": "github_action",
+        "candidate": "Siti Labibah  Fitriana",
         "position": "Reporter Megapolitan",
         "success": true
       }
