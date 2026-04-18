@@ -7861,10 +7861,10 @@
     ]
   },
   "2026-04-18": {
-    "total": 560,
+    "total": 561,
     "streamlit": 0,
-    "github_action": 560,
-    "successful": 560,
+    "github_action": 561,
+    "successful": 561,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
@@ -7872,16 +7872,9 @@
       "Sustainability Officer KG Media": 65,
       "Reporter Nasional": 100,
       "Content Writer Homey": 100,
-      "Data Analyst (Business Intelligence)": 95
+      "Data Analyst (Business Intelligence)": 96
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 07:08:11",
-        "source": "github_action",
-        "candidate": "Tiara Luminous",
-        "position": "Content Writer Homey",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 07:08:36",
         "source": "github_action",
@@ -8572,6 +8565,13 @@
         "timestamp": "2026-04-18 08:04:20",
         "source": "github_action",
         "candidate": "Bowid Primadhi",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 08:04:49",
+        "source": "github_action",
+        "candidate": "Yohanes Evan Setiawan",
         "position": "Data Analyst (Business Intelligence)",
         "success": true
       }
