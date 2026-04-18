@@ -7861,26 +7861,19 @@
     ]
   },
   "2026-04-18": {
-    "total": 384,
+    "total": 385,
     "streamlit": 0,
-    "github_action": 384,
-    "successful": 384,
+    "github_action": 385,
+    "successful": 385,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
       "Sustainability Officer KG Media": 65,
       "Reporter Nasional": 100,
-      "Content Writer Homey": 19
+      "Content Writer Homey": 20
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 05:51:18",
-        "source": "github_action",
-        "candidate": "Anjani Nuraini Al Sannia",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 05:51:21",
         "source": "github_action",
@@ -8571,6 +8564,13 @@
         "timestamp": "2026-04-18 06:32:53",
         "source": "github_action",
         "candidate": "Valensi Douzi Fortuna",
+        "position": "Content Writer Homey",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 06:33:21",
+        "source": "github_action",
+        "candidate": "KINANTI MUTIARA  PRASOJO",
         "position": "Content Writer Homey",
         "success": true
       }
