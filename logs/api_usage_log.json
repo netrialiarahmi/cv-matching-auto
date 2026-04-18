@@ -7861,13 +7861,13 @@
     ]
   },
   "2026-04-18": {
-    "total": 11,
+    "total": 12,
     "streamlit": 0,
-    "github_action": 11,
-    "successful": 11,
+    "github_action": 12,
+    "successful": 12,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 11
+      "Marketing Communication Officer KG Media": 12
     },
     "entries": [
       {
@@ -7944,6 +7944,13 @@
         "timestamp": "2026-04-18 03:55:11",
         "source": "github_action",
         "candidate": "Aviana Rahim",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 03:55:40",
+        "source": "github_action",
+        "candidate": "Kristy Natalia Kadang",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
