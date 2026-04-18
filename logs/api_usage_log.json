@@ -7861,10 +7861,10 @@
     ]
   },
   "2026-04-18": {
-    "total": 644,
+    "total": 645,
     "streamlit": 0,
-    "github_action": 644,
-    "successful": 644,
+    "github_action": 645,
+    "successful": 645,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
@@ -7873,16 +7873,9 @@
       "Reporter Nasional": 100,
       "Content Writer Homey": 100,
       "Data Analyst (Business Intelligence)": 100,
-      "Business Development Analyst": 79
+      "Business Development Analyst": 80
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 07:57:21",
-        "source": "github_action",
-        "candidate": "Fernando Valentinus",
-        "position": "Data Analyst (Business Intelligence)",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 07:57:50",
         "source": "github_action",
@@ -8573,6 +8566,13 @@
         "timestamp": "2026-04-18 08:43:52",
         "source": "github_action",
         "candidate": "Deri Eko Nurmansah",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 08:44:22",
+        "source": "github_action",
+        "candidate": "Alfieny Putri Heriyanto",
         "position": "Business Development Analyst",
         "success": true
       }
