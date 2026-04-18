@@ -7861,23 +7861,16 @@
     ]
   },
   "2026-04-18": {
-    "total": 193,
+    "total": 194,
     "streamlit": 0,
-    "github_action": 193,
-    "successful": 193,
+    "github_action": 194,
+    "successful": 194,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Megapolitan": 93
+      "Reporter Megapolitan": 94
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 04:32:48",
-        "source": "github_action",
-        "candidate": "Muzakki  Zaidan",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 04:33:15",
         "source": "github_action",
@@ -8568,6 +8561,13 @@
         "timestamp": "2026-04-18 05:12:17",
         "source": "github_action",
         "candidate": "Therresia Maria Magdalena Morais",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 05:12:45",
+        "source": "github_action",
+        "candidate": "Febi Dena Ashari",
         "position": "Reporter Megapolitan",
         "success": true
       }
