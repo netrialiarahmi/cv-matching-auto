@@ -7861,24 +7861,17 @@
     ]
   },
   "2026-04-18": {
-    "total": 229,
+    "total": 230,
     "streamlit": 0,
-    "github_action": 229,
-    "successful": 229,
+    "github_action": 230,
+    "successful": 230,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
-      "Sustainability Officer KG Media": 29
+      "Sustainability Officer KG Media": 30
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 04:46:56",
-        "source": "github_action",
-        "candidate": "Aminatus Sa'idah",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 04:47:24",
         "source": "github_action",
@@ -8569,6 +8562,13 @@
         "timestamp": "2026-04-18 05:27:53",
         "source": "github_action",
         "candidate": "Syahli Raihan Najib",
+        "position": "Sustainability Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 05:28:21",
+        "source": "github_action",
+        "candidate": "Reza Mukhtar",
         "position": "Sustainability Officer KG Media",
         "success": true
       }
