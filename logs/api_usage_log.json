@@ -7861,26 +7861,19 @@
     ]
   },
   "2026-04-18": {
-    "total": 389,
+    "total": 390,
     "streamlit": 0,
-    "github_action": 389,
-    "successful": 389,
+    "github_action": 390,
+    "successful": 390,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
       "Sustainability Officer KG Media": 65,
       "Reporter Nasional": 100,
-      "Content Writer Homey": 24
+      "Content Writer Homey": 25
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 05:53:07",
-        "source": "github_action",
-        "candidate": "Wahyu Setiawan",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 05:53:35",
         "source": "github_action",
@@ -8571,6 +8564,13 @@
         "timestamp": "2026-04-18 06:35:03",
         "source": "github_action",
         "candidate": "Lula Wahyu Anindita",
+        "position": "Content Writer Homey",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 06:35:34",
+        "source": "github_action",
+        "candidate": "Erika Desy Lestari",
         "position": "Content Writer Homey",
         "success": true
       }
