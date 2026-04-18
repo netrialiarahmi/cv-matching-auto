@@ -7861,10 +7861,10 @@
     ]
   },
   "2026-04-18": {
-    "total": 663,
+    "total": 664,
     "streamlit": 0,
-    "github_action": 663,
-    "successful": 663,
+    "github_action": 664,
+    "successful": 664,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
@@ -7873,16 +7873,9 @@
       "Reporter Nasional": 100,
       "Content Writer Homey": 100,
       "Data Analyst (Business Intelligence)": 100,
-      "Business Development Analyst": 98
+      "Business Development Analyst": 99
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 08:06:16",
-        "source": "github_action",
-        "candidate": "Vinka Bella",
-        "position": "Data Analyst (Business Intelligence)",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 08:06:46",
         "source": "github_action",
@@ -8573,6 +8566,13 @@
         "timestamp": "2026-04-18 08:52:43",
         "source": "github_action",
         "candidate": "Herviona Advenester Wardhani",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 08:53:13",
+        "source": "github_action",
+        "candidate": "Yohana Simarmata",
         "position": "Business Development Analyst",
         "success": true
       }
