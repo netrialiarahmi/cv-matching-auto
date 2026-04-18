@@ -7861,13 +7861,13 @@
     ]
   },
   "2026-04-18": {
-    "total": 53,
+    "total": 54,
     "streamlit": 0,
-    "github_action": 53,
-    "successful": 53,
+    "github_action": 54,
+    "successful": 54,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 53
+      "Marketing Communication Officer KG Media": 54
     },
     "entries": [
       {
@@ -8238,6 +8238,13 @@
         "timestamp": "2026-04-18 04:14:10",
         "source": "github_action",
         "candidate": "neng Halima",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 04:14:35",
+        "source": "github_action",
+        "candidate": "Rina auliya",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
