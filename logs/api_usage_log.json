@@ -7861,23 +7861,16 @@
     ]
   },
   "2026-04-18": {
-    "total": 131,
+    "total": 132,
     "streamlit": 0,
-    "github_action": 131,
-    "successful": 131,
+    "github_action": 132,
+    "successful": 132,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Megapolitan": 31
+      "Reporter Megapolitan": 32
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 04:04:22",
-        "source": "github_action",
-        "candidate": "Achmad Ghatfan",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 04:04:53",
         "source": "github_action",
@@ -8568,6 +8561,13 @@
         "timestamp": "2026-04-18 04:47:24",
         "source": "github_action",
         "candidate": "Kayla Almalika Putri",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 04:47:50",
+        "source": "github_action",
+        "candidate": "Elisa apriliyani",
         "position": "Reporter Megapolitan",
         "success": true
       }
