@@ -7861,25 +7861,18 @@
     ]
   },
   "2026-04-18": {
-    "total": 301,
+    "total": 302,
     "streamlit": 0,
-    "github_action": 301,
-    "successful": 301,
+    "github_action": 302,
+    "successful": 302,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
       "Sustainability Officer KG Media": 65,
-      "Reporter Nasional": 36
+      "Reporter Nasional": 37
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 05:16:21",
-        "source": "github_action",
-        "candidate": "Azzara Putri Elvaza",
-        "position": "Sustainability Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 05:16:49",
         "source": "github_action",
@@ -8570,6 +8563,13 @@
         "timestamp": "2026-04-18 05:57:39",
         "source": "github_action",
         "candidate": "Selly Al Azhar",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 05:58:04",
+        "source": "github_action",
+        "candidate": "Noviyanti Putri Wihadi",
         "position": "Reporter Nasional",
         "success": true
       }
