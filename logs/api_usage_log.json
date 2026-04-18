@@ -7861,25 +7861,18 @@
     ]
   },
   "2026-04-18": {
-    "total": 356,
+    "total": 357,
     "streamlit": 0,
-    "github_action": 356,
-    "successful": 356,
+    "github_action": 357,
+    "successful": 357,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
       "Sustainability Officer KG Media": 65,
-      "Reporter Nasional": 91
+      "Reporter Nasional": 92
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 05:39:04",
-        "source": "github_action",
-        "candidate": "Harum Sabryna",
-        "position": "Sustainability Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 05:39:29",
         "source": "github_action",
@@ -8570,6 +8563,13 @@
         "timestamp": "2026-04-18 06:21:14",
         "source": "github_action",
         "candidate": "Steven Andreas",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 06:21:42",
+        "source": "github_action",
+        "candidate": "Shelma Auliya M.",
         "position": "Reporter Nasional",
         "success": true
       }
