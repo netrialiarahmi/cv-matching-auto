@@ -7861,24 +7861,18 @@
     ]
   },
   "2026-04-18": {
-    "total": 265,
+    "total": 266,
     "streamlit": 0,
-    "github_action": 265,
-    "successful": 265,
+    "github_action": 266,
+    "successful": 266,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
-      "Sustainability Officer KG Media": 65
+      "Sustainability Officer KG Media": 65,
+      "Reporter Nasional": 1
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 05:01:04",
-        "source": "github_action",
-        "candidate": "Fauziah Sabtuanisa",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 05:01:29",
         "source": "github_action",
@@ -8570,6 +8564,13 @@
         "source": "github_action",
         "candidate": "Suci Witna",
         "position": "Sustainability Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 05:42:38",
+        "source": "github_action",
+        "candidate": "Daffa Almaas Pramesthy",
+        "position": "Reporter Nasional",
         "success": true
       }
     ]
