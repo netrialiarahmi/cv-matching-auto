@@ -7861,26 +7861,19 @@
     ]
   },
   "2026-04-18": {
-    "total": 415,
+    "total": 416,
     "streamlit": 0,
-    "github_action": 415,
-    "successful": 415,
+    "github_action": 416,
+    "successful": 416,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
       "Sustainability Officer KG Media": 65,
       "Reporter Nasional": 100,
-      "Content Writer Homey": 50
+      "Content Writer Homey": 51
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 06:04:30",
-        "source": "github_action",
-        "candidate": "muhammad ulhaq",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 06:04:59",
         "source": "github_action",
@@ -8571,6 +8564,13 @@
         "timestamp": "2026-04-18 06:47:11",
         "source": "github_action",
         "candidate": "Helmaayussifa  Nur Amelia",
+        "position": "Content Writer Homey",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 06:47:39",
+        "source": "github_action",
+        "candidate": "Dina Rochmaningsih",
         "position": "Content Writer Homey",
         "success": true
       }
