@@ -7861,25 +7861,18 @@
     ]
   },
   "2026-04-18": {
-    "total": 293,
+    "total": 294,
     "streamlit": 0,
-    "github_action": 293,
-    "successful": 293,
+    "github_action": 294,
+    "successful": 294,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
       "Sustainability Officer KG Media": 65,
-      "Reporter Nasional": 28
+      "Reporter Nasional": 29
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 05:12:45",
-        "source": "github_action",
-        "candidate": "Febi Dena Ashari",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 05:13:12",
         "source": "github_action",
@@ -8570,6 +8563,13 @@
         "timestamp": "2026-04-18 05:54:30",
         "source": "github_action",
         "candidate": "Fatur Sophian",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 05:54:55",
+        "source": "github_action",
+        "candidate": "Genta Marlinda Eko Putra",
         "position": "Reporter Nasional",
         "success": true
       }
