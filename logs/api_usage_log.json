@@ -7861,25 +7861,18 @@
     ]
   },
   "2026-04-18": {
-    "total": 338,
+    "total": 339,
     "streamlit": 0,
-    "github_action": 338,
-    "successful": 338,
+    "github_action": 339,
+    "successful": 339,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
       "Sustainability Officer KG Media": 65,
-      "Reporter Nasional": 73
+      "Reporter Nasional": 74
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 05:31:40",
-        "source": "github_action",
-        "candidate": "Jeyllen Manoppo",
-        "position": "Sustainability Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 05:32:05",
         "source": "github_action",
@@ -8570,6 +8563,13 @@
         "timestamp": "2026-04-18 06:13:48",
         "source": "github_action",
         "candidate": "Azhary Dinahusary",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 06:14:15",
+        "source": "github_action",
+        "candidate": "Lisa Damayanti",
         "position": "Reporter Nasional",
         "success": true
       }
