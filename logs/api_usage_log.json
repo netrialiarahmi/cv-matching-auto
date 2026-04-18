@@ -7861,10 +7861,10 @@
     ]
   },
   "2026-04-18": {
-    "total": 486,
+    "total": 487,
     "streamlit": 0,
-    "github_action": 486,
-    "successful": 486,
+    "github_action": 487,
+    "successful": 487,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
@@ -7872,16 +7872,9 @@
       "Sustainability Officer KG Media": 65,
       "Reporter Nasional": 100,
       "Content Writer Homey": 100,
-      "Data Analyst (Business Intelligence)": 21
+      "Data Analyst (Business Intelligence)": 22
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 06:34:11",
-        "source": "github_action",
-        "candidate": "Dewi Anggriani Siregar",
-        "position": "Content Writer Homey",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 06:34:38",
         "source": "github_action",
@@ -8572,6 +8565,13 @@
         "timestamp": "2026-04-18 07:20:09",
         "source": "github_action",
         "candidate": "Siwi Budi Utami",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 07:20:39",
+        "source": "github_action",
+        "candidate": "BIFFANCA ALLYA KENEDY",
         "position": "Data Analyst (Business Intelligence)",
         "success": true
       }
