@@ -7861,13 +7861,13 @@
     ]
   },
   "2026-04-18": {
-    "total": 64,
+    "total": 65,
     "streamlit": 0,
-    "github_action": 64,
-    "successful": 64,
+    "github_action": 65,
+    "successful": 65,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 64
+      "Marketing Communication Officer KG Media": 65
     },
     "entries": [
       {
@@ -8315,6 +8315,13 @@
         "timestamp": "2026-04-18 04:19:18",
         "source": "github_action",
         "candidate": "Sisi Maulid Tania",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 04:19:49",
+        "source": "github_action",
+        "candidate": "Alfi Riansyah",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
