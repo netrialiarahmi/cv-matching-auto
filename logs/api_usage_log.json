@@ -7861,23 +7861,16 @@
     ]
   },
   "2026-04-18": {
-    "total": 117,
+    "total": 118,
     "streamlit": 0,
-    "github_action": 117,
-    "successful": 117,
+    "github_action": 118,
+    "successful": 118,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Megapolitan": 17
+      "Reporter Megapolitan": 18
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 03:58:24",
-        "source": "github_action",
-        "candidate": "Muhammad Hadi",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 03:58:58",
         "source": "github_action",
@@ -8568,6 +8561,13 @@
         "timestamp": "2026-04-18 04:43:00",
         "source": "github_action",
         "candidate": "Windi Saputra",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 04:43:24",
+        "source": "github_action",
+        "candidate": "Muhamad Reza Pahlevi",
         "position": "Reporter Megapolitan",
         "success": true
       }
