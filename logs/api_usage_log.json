@@ -7861,26 +7861,19 @@
     ]
   },
   "2026-04-18": {
-    "total": 400,
+    "total": 401,
     "streamlit": 0,
-    "github_action": 400,
-    "successful": 400,
+    "github_action": 401,
+    "successful": 401,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
       "Sustainability Officer KG Media": 65,
       "Reporter Nasional": 100,
-      "Content Writer Homey": 35
+      "Content Writer Homey": 36
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 05:57:39",
-        "source": "github_action",
-        "candidate": "Selly Al Azhar",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 05:58:04",
         "source": "github_action",
@@ -8571,6 +8564,13 @@
         "timestamp": "2026-04-18 06:40:26",
         "source": "github_action",
         "candidate": "Theadi Yanuar Kristie",
+        "position": "Content Writer Homey",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 06:40:55",
+        "source": "github_action",
+        "candidate": "Briana Putri Alridya",
         "position": "Content Writer Homey",
         "success": true
       }
