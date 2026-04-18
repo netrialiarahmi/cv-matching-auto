@@ -7861,10 +7861,10 @@
     ]
   },
   "2026-04-18": {
-    "total": 523,
+    "total": 524,
     "streamlit": 0,
-    "github_action": 523,
-    "successful": 523,
+    "github_action": 524,
+    "successful": 524,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
@@ -7872,16 +7872,9 @@
       "Sustainability Officer KG Media": 65,
       "Reporter Nasional": 100,
       "Content Writer Homey": 100,
-      "Data Analyst (Business Intelligence)": 58
+      "Data Analyst (Business Intelligence)": 59
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 06:51:28",
-        "source": "github_action",
-        "candidate": "Olvy Lianara Handoko",
-        "position": "Content Writer Homey",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 06:51:55",
         "source": "github_action",
@@ -8572,6 +8565,13 @@
         "timestamp": "2026-04-18 07:47:43",
         "source": "github_action",
         "candidate": "Dani Himawan",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 07:47:45",
+        "source": "github_action",
+        "candidate": "Ismail Saifurrasyid",
         "position": "Data Analyst (Business Intelligence)",
         "success": true
       }
