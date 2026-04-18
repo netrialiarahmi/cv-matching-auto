@@ -7861,10 +7861,10 @@
     ]
   },
   "2026-04-18": {
-    "total": 493,
+    "total": 494,
     "streamlit": 0,
-    "github_action": 493,
-    "successful": 493,
+    "github_action": 494,
+    "successful": 494,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
@@ -7872,16 +7872,9 @@
       "Sustainability Officer KG Media": 65,
       "Reporter Nasional": 100,
       "Content Writer Homey": 100,
-      "Data Analyst (Business Intelligence)": 28
+      "Data Analyst (Business Intelligence)": 29
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 06:37:34",
-        "source": "github_action",
-        "candidate": "Salma  Yubdina Nur Laila",
-        "position": "Content Writer Homey",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 06:38:05",
         "source": "github_action",
@@ -8572,6 +8565,13 @@
         "timestamp": "2026-04-18 07:23:30",
         "source": "github_action",
         "candidate": "Adam Y Patmawidjaja",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 07:23:59",
+        "source": "github_action",
+        "candidate": "Shalfa Salsabilla",
         "position": "Data Analyst (Business Intelligence)",
         "success": true
       }
