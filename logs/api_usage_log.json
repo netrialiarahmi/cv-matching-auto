@@ -7861,25 +7861,18 @@
     ]
   },
   "2026-04-18": {
-    "total": 318,
+    "total": 319,
     "streamlit": 0,
-    "github_action": 318,
-    "successful": 318,
+    "github_action": 319,
+    "successful": 319,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
       "Sustainability Officer KG Media": 65,
-      "Reporter Nasional": 53
+      "Reporter Nasional": 54
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 05:23:12",
-        "source": "github_action",
-        "candidate": "Nurul Khumairoh",
-        "position": "Sustainability Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 05:23:41",
         "source": "github_action",
@@ -8570,6 +8563,13 @@
         "timestamp": "2026-04-18 06:05:30",
         "source": "github_action",
         "candidate": "Hany Fatihah Ahmad",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 06:05:56",
+        "source": "github_action",
+        "candidate": "Chantika  Permata Haryo Mokoginta",
         "position": "Reporter Nasional",
         "success": true
       }
