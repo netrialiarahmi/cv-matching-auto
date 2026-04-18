@@ -7861,25 +7861,18 @@
     ]
   },
   "2026-04-18": {
-    "total": 336,
+    "total": 337,
     "streamlit": 0,
-    "github_action": 336,
-    "successful": 336,
+    "github_action": 337,
+    "successful": 337,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
       "Sustainability Officer KG Media": 65,
-      "Reporter Nasional": 71
+      "Reporter Nasional": 72
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 05:30:48",
-        "source": "github_action",
-        "candidate": "Shofia Aniisa",
-        "position": "Sustainability Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 05:31:13",
         "source": "github_action",
@@ -8570,6 +8563,13 @@
         "timestamp": "2026-04-18 06:12:57",
         "source": "github_action",
         "candidate": "Sahla Layyin  Azkia",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 06:13:23",
+        "source": "github_action",
+        "candidate": "Nazwa Nabilla",
         "position": "Reporter Nasional",
         "success": true
       }
