@@ -7861,10 +7861,10 @@
     ]
   },
   "2026-04-18": {
-    "total": 676,
+    "total": 677,
     "streamlit": 0,
-    "github_action": 676,
-    "successful": 676,
+    "github_action": 677,
+    "successful": 677,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
@@ -7874,16 +7874,9 @@
       "Content Writer Homey": 100,
       "Data Analyst (Business Intelligence)": 100,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 11
+      "Account Executive VCBL": 12
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 08:12:45",
-        "source": "github_action",
-        "candidate": "Roychan Idris",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 08:13:17",
         "source": "github_action",
@@ -8574,6 +8567,13 @@
         "timestamp": "2026-04-18 08:58:32",
         "source": "github_action",
         "candidate": "Christian Aldy",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 08:59:00",
+        "source": "github_action",
+        "candidate": "Danti Maharani",
         "position": "Account Executive VCBL",
         "success": true
       }
