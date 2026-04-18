@@ -7861,10 +7861,10 @@
     ]
   },
   "2026-04-18": {
-    "total": 509,
+    "total": 510,
     "streamlit": 0,
-    "github_action": 509,
-    "successful": 509,
+    "github_action": 510,
+    "successful": 510,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
@@ -7872,16 +7872,9 @@
       "Sustainability Officer KG Media": 65,
       "Reporter Nasional": 100,
       "Content Writer Homey": 100,
-      "Data Analyst (Business Intelligence)": 44
+      "Data Analyst (Business Intelligence)": 45
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 06:44:47",
-        "source": "github_action",
-        "candidate": "Muhammad Thaba Pamungkas",
-        "position": "Content Writer Homey",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 06:45:12",
         "source": "github_action",
@@ -8572,6 +8565,13 @@
         "timestamp": "2026-04-18 07:41:00",
         "source": "github_action",
         "candidate": "Lintan ‘Asiyatun Nabah",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 07:41:38",
+        "source": "github_action",
+        "candidate": "Amelia Wardani",
         "position": "Data Analyst (Business Intelligence)",
         "success": true
       }
