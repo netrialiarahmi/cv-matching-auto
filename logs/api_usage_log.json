@@ -7861,10 +7861,10 @@
     ]
   },
   "2026-04-18": {
-    "total": 524,
+    "total": 525,
     "streamlit": 0,
-    "github_action": 524,
-    "successful": 524,
+    "github_action": 525,
+    "successful": 525,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
@@ -7872,16 +7872,9 @@
       "Sustainability Officer KG Media": 65,
       "Reporter Nasional": 100,
       "Content Writer Homey": 100,
-      "Data Analyst (Business Intelligence)": 59
+      "Data Analyst (Business Intelligence)": 60
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 06:51:55",
-        "source": "github_action",
-        "candidate": "Ummu  Cholifatul Latifah",
-        "position": "Content Writer Homey",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 06:52:22",
         "source": "github_action",
@@ -8572,6 +8565,13 @@
         "timestamp": "2026-04-18 07:47:45",
         "source": "github_action",
         "candidate": "Ismail Saifurrasyid",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 07:48:14",
+        "source": "github_action",
+        "candidate": "Raudah Rizky Ramadhani Siregar",
         "position": "Data Analyst (Business Intelligence)",
         "success": true
       }
