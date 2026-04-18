@@ -7861,25 +7861,18 @@
     ]
   },
   "2026-04-18": {
-    "total": 294,
+    "total": 295,
     "streamlit": 0,
-    "github_action": 294,
-    "successful": 294,
+    "github_action": 295,
+    "successful": 295,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
       "Sustainability Officer KG Media": 65,
-      "Reporter Nasional": 29
+      "Reporter Nasional": 30
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 05:13:12",
-        "source": "github_action",
-        "candidate": "Yulfiha Nur Azizah",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 05:13:37",
         "source": "github_action",
@@ -8570,6 +8563,13 @@
         "timestamp": "2026-04-18 05:54:55",
         "source": "github_action",
         "candidate": "Genta Marlinda Eko Putra",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 05:55:21",
+        "source": "github_action",
+        "candidate": "Yayu Afnan  Novianti",
         "position": "Reporter Nasional",
         "success": true
       }
