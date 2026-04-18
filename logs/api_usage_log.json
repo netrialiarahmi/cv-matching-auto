@@ -7861,24 +7861,17 @@
     ]
   },
   "2026-04-18": {
-    "total": 226,
+    "total": 227,
     "streamlit": 0,
-    "github_action": 226,
-    "successful": 226,
+    "github_action": 227,
+    "successful": 227,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
-      "Sustainability Officer KG Media": 26
+      "Sustainability Officer KG Media": 27
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 04:45:36",
-        "source": "github_action",
-        "candidate": "Muhammad Ilhamsyah",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 04:46:06",
         "source": "github_action",
@@ -8569,6 +8562,13 @@
         "timestamp": "2026-04-18 05:26:32",
         "source": "github_action",
         "candidate": "Adhwa Firyal Kamillah",
+        "position": "Sustainability Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 05:27:01",
+        "source": "github_action",
+        "candidate": "Fajar Nugroho",
         "position": "Sustainability Officer KG Media",
         "success": true
       }
