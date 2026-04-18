@@ -7861,23 +7861,16 @@
     ]
   },
   "2026-04-18": {
-    "total": 160,
+    "total": 161,
     "streamlit": 0,
-    "github_action": 160,
-    "successful": 160,
+    "github_action": 161,
+    "successful": 161,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Megapolitan": 60
+      "Reporter Megapolitan": 61
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 04:17:51",
-        "source": "github_action",
-        "candidate": "Maria Natalie Safira",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 04:18:18",
         "source": "github_action",
@@ -8568,6 +8561,13 @@
         "timestamp": "2026-04-18 04:58:25",
         "source": "github_action",
         "candidate": "Salomo Marbun",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 04:58:49",
+        "source": "github_action",
+        "candidate": "Fadillah Asriani",
         "position": "Reporter Megapolitan",
         "success": true
       }
