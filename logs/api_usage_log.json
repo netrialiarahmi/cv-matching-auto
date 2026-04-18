@@ -7861,26 +7861,19 @@
     ]
   },
   "2026-04-18": {
-    "total": 406,
+    "total": 407,
     "streamlit": 0,
-    "github_action": 406,
-    "successful": 406,
+    "github_action": 407,
+    "successful": 407,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
       "Sustainability Officer KG Media": 65,
       "Reporter Nasional": 100,
-      "Content Writer Homey": 41
+      "Content Writer Homey": 42
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 06:00:24",
-        "source": "github_action",
-        "candidate": "Rismayanti Mamong",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 06:00:53",
         "source": "github_action",
@@ -8571,6 +8564,13 @@
         "timestamp": "2026-04-18 06:43:23",
         "source": "github_action",
         "candidate": "Sintya Dewi Rahma",
+        "position": "Content Writer Homey",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 06:43:52",
+        "source": "github_action",
+        "candidate": "Denting Azzahra",
         "position": "Content Writer Homey",
         "success": true
       }
