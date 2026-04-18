@@ -7861,24 +7861,17 @@
     ]
   },
   "2026-04-18": {
-    "total": 213,
+    "total": 214,
     "streamlit": 0,
-    "github_action": 213,
-    "successful": 213,
+    "github_action": 214,
+    "successful": 214,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
-      "Sustainability Officer KG Media": 13
+      "Sustainability Officer KG Media": 14
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 04:41:40",
-        "source": "github_action",
-        "candidate": "Meidiana  Shafa Kayla",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 04:42:08",
         "source": "github_action",
@@ -8569,6 +8562,13 @@
         "timestamp": "2026-04-18 05:20:27",
         "source": "github_action",
         "candidate": "Andre Sugiarta",
+        "position": "Sustainability Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 05:20:53",
+        "source": "github_action",
+        "candidate": "YUSRON BADRI",
         "position": "Sustainability Officer KG Media",
         "success": true
       }
