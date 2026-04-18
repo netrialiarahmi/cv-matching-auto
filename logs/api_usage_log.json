@@ -7861,25 +7861,18 @@
     ]
   },
   "2026-04-18": {
-    "total": 299,
+    "total": 300,
     "streamlit": 0,
-    "github_action": 299,
-    "successful": 299,
+    "github_action": 300,
+    "successful": 300,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
       "Sustainability Officer KG Media": 65,
-      "Reporter Nasional": 34
+      "Reporter Nasional": 35
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 05:15:24",
-        "source": "github_action",
-        "candidate": "Sesha Dewi Masita",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 05:15:55",
         "source": "github_action",
@@ -8570,6 +8563,13 @@
         "timestamp": "2026-04-18 05:57:10",
         "source": "github_action",
         "candidate": "Nur Baeti",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 05:57:12",
+        "source": "github_action",
+        "candidate": "fadhilah aisyah widyatiwi",
         "position": "Reporter Nasional",
         "success": true
       }
