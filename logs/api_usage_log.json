@@ -7861,10 +7861,10 @@
     ]
   },
   "2026-04-18": {
-    "total": 499,
+    "total": 500,
     "streamlit": 0,
-    "github_action": 499,
-    "successful": 499,
+    "github_action": 500,
+    "successful": 500,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
@@ -7872,16 +7872,9 @@
       "Sustainability Officer KG Media": 65,
       "Reporter Nasional": 100,
       "Content Writer Homey": 100,
-      "Data Analyst (Business Intelligence)": 34
+      "Data Analyst (Business Intelligence)": 35
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 06:40:26",
-        "source": "github_action",
-        "candidate": "Theadi Yanuar Kristie",
-        "position": "Content Writer Homey",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 06:40:55",
         "source": "github_action",
@@ -8572,6 +8565,13 @@
         "timestamp": "2026-04-18 07:26:16",
         "source": "github_action",
         "candidate": "Plabenson Plabenson",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 07:26:44",
+        "source": "github_action",
+        "candidate": "Farhan Renardi",
         "position": "Data Analyst (Business Intelligence)",
         "success": true
       }
