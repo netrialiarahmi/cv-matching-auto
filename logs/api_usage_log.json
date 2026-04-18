@@ -7861,13 +7861,13 @@
     ]
   },
   "2026-04-18": {
-    "total": 21,
+    "total": 22,
     "streamlit": 0,
-    "github_action": 21,
-    "successful": 21,
+    "github_action": 22,
+    "successful": 22,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 21
+      "Marketing Communication Officer KG Media": 22
     },
     "entries": [
       {
@@ -8014,6 +8014,13 @@
         "timestamp": "2026-04-18 03:59:55",
         "source": "github_action",
         "candidate": "Josafat Yoga",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 03:59:57",
+        "source": "github_action",
+        "candidate": "Nur Intan Wulandari",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
