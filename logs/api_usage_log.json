@@ -7861,23 +7861,16 @@
     ]
   },
   "2026-04-18": {
-    "total": 139,
+    "total": 140,
     "streamlit": 0,
-    "github_action": 139,
-    "successful": 139,
+    "github_action": 140,
+    "successful": 140,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Megapolitan": 39
+      "Reporter Megapolitan": 40
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 04:08:10",
-        "source": "github_action",
-        "candidate": "Aristya Bhaskoro",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 04:08:43",
         "source": "github_action",
@@ -8568,6 +8561,13 @@
         "timestamp": "2026-04-18 04:50:20",
         "source": "github_action",
         "candidate": "prayuda ramadhan",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 04:50:47",
+        "source": "github_action",
+        "candidate": "M Daffa Aryakhanza",
         "position": "Reporter Megapolitan",
         "success": true
       }
