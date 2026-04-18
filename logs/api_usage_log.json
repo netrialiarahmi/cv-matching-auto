@@ -7861,24 +7861,17 @@
     ]
   },
   "2026-04-18": {
-    "total": 230,
+    "total": 231,
     "streamlit": 0,
-    "github_action": 230,
-    "successful": 230,
+    "github_action": 231,
+    "successful": 231,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
-      "Sustainability Officer KG Media": 30
+      "Sustainability Officer KG Media": 31
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 04:47:24",
-        "source": "github_action",
-        "candidate": "Kayla Almalika Putri",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 04:47:50",
         "source": "github_action",
@@ -8569,6 +8562,13 @@
         "timestamp": "2026-04-18 05:28:21",
         "source": "github_action",
         "candidate": "Reza Mukhtar",
+        "position": "Sustainability Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 05:28:51",
+        "source": "github_action",
+        "candidate": "Jessy Lie",
         "position": "Sustainability Officer KG Media",
         "success": true
       }
