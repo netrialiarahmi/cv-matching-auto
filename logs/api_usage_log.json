@@ -7861,26 +7861,19 @@
     ]
   },
   "2026-04-18": {
-    "total": 395,
+    "total": 396,
     "streamlit": 0,
-    "github_action": 395,
-    "successful": 395,
+    "github_action": 396,
+    "successful": 396,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
       "Sustainability Officer KG Media": 65,
       "Reporter Nasional": 100,
-      "Content Writer Homey": 30
+      "Content Writer Homey": 31
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 05:55:46",
-        "source": "github_action",
-        "candidate": "Narti Oktavia",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 05:56:13",
         "source": "github_action",
@@ -8571,6 +8564,13 @@
         "timestamp": "2026-04-18 06:38:05",
         "source": "github_action",
         "candidate": "Haniah Nurul Izza Izza",
+        "position": "Content Writer Homey",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 06:38:31",
+        "source": "github_action",
+        "candidate": "Qonitah Khairunnisa",
         "position": "Content Writer Homey",
         "success": true
       }
