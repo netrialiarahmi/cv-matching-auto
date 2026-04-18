@@ -7861,10 +7861,10 @@
     ]
   },
   "2026-04-18": {
-    "total": 480,
+    "total": 481,
     "streamlit": 0,
-    "github_action": 480,
-    "successful": 480,
+    "github_action": 481,
+    "successful": 481,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
@@ -7872,16 +7872,9 @@
       "Sustainability Officer KG Media": 65,
       "Reporter Nasional": 100,
       "Content Writer Homey": 100,
-      "Data Analyst (Business Intelligence)": 15
+      "Data Analyst (Business Intelligence)": 16
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 06:31:31",
-        "source": "github_action",
-        "candidate": "nathalie elsa",
-        "position": "Content Writer Homey",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 06:31:58",
         "source": "github_action",
@@ -8572,6 +8565,13 @@
         "timestamp": "2026-04-18 07:17:07",
         "source": "github_action",
         "candidate": "Rifky Alfitra",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 07:17:44",
+        "source": "github_action",
+        "candidate": "Royan Krisnanda Tiony",
         "position": "Data Analyst (Business Intelligence)",
         "success": true
       }
