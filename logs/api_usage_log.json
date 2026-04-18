@@ -7861,23 +7861,16 @@
     ]
   },
   "2026-04-18": {
-    "total": 151,
+    "total": 152,
     "streamlit": 0,
-    "github_action": 151,
-    "successful": 151,
+    "github_action": 152,
+    "successful": 152,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Megapolitan": 51
+      "Reporter Megapolitan": 52
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 04:13:43",
-        "source": "github_action",
-        "candidate": "Dhara Devona Lutsfi",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 04:14:10",
         "source": "github_action",
@@ -8568,6 +8561,13 @@
         "timestamp": "2026-04-18 04:54:44",
         "source": "github_action",
         "candidate": "Mutiara Riany",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 04:55:13",
+        "source": "github_action",
+        "candidate": "Theadi Yanuar Kristie",
         "position": "Reporter Megapolitan",
         "success": true
       }
