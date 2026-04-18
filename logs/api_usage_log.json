@@ -7861,26 +7861,19 @@
     ]
   },
   "2026-04-18": {
-    "total": 390,
+    "total": 391,
     "streamlit": 0,
-    "github_action": 390,
-    "successful": 390,
+    "github_action": 391,
+    "successful": 391,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
       "Sustainability Officer KG Media": 65,
       "Reporter Nasional": 100,
-      "Content Writer Homey": 25
+      "Content Writer Homey": 26
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 05:53:35",
-        "source": "github_action",
-        "candidate": "Hamdi Abdul Halim",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 05:54:01",
         "source": "github_action",
@@ -8571,6 +8564,13 @@
         "timestamp": "2026-04-18 06:35:34",
         "source": "github_action",
         "candidate": "Erika Desy Lestari",
+        "position": "Content Writer Homey",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 06:36:00",
+        "source": "github_action",
+        "candidate": "Mohammad Owen",
         "position": "Content Writer Homey",
         "success": true
       }
