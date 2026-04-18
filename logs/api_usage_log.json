@@ -7861,23 +7861,16 @@
     ]
   },
   "2026-04-18": {
-    "total": 110,
+    "total": 111,
     "streamlit": 0,
-    "github_action": 110,
-    "successful": 110,
+    "github_action": 111,
+    "successful": 111,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Megapolitan": 10
+      "Reporter Megapolitan": 11
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 03:55:11",
-        "source": "github_action",
-        "candidate": "Aviana Rahim",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 03:55:40",
         "source": "github_action",
@@ -8568,6 +8561,13 @@
         "timestamp": "2026-04-18 04:39:44",
         "source": "github_action",
         "candidate": "Hafizah Fikriah Waskan",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 04:40:14",
+        "source": "github_action",
+        "candidate": "Teguh Eka Budianto",
         "position": "Reporter Megapolitan",
         "success": true
       }
