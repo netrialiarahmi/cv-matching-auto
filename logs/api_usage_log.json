@@ -7861,10 +7861,10 @@
     ]
   },
   "2026-04-18": {
-    "total": 685,
+    "total": 686,
     "streamlit": 0,
-    "github_action": 685,
-    "successful": 685,
+    "github_action": 686,
+    "successful": 686,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
@@ -7874,16 +7874,9 @@
       "Content Writer Homey": 100,
       "Data Analyst (Business Intelligence)": 100,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 20
+      "Account Executive VCBL": 21
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 08:16:48",
-        "source": "github_action",
-        "candidate": "Syaillendra Ardifasalma",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 08:17:15",
         "source": "github_action",
@@ -8574,6 +8567,13 @@
         "timestamp": "2026-04-18 09:01:39",
         "source": "github_action",
         "candidate": "Insyirah Ayu Ardila",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 09:02:05",
+        "source": "github_action",
+        "candidate": "Doni Wenfery Simorangkir",
         "position": "Account Executive VCBL",
         "success": true
       }
