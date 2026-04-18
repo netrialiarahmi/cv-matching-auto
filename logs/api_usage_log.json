@@ -7861,10 +7861,10 @@
     ]
   },
   "2026-04-18": {
-    "total": 673,
+    "total": 674,
     "streamlit": 0,
-    "github_action": 673,
-    "successful": 673,
+    "github_action": 674,
+    "successful": 674,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
@@ -7874,16 +7874,9 @@
       "Content Writer Homey": 100,
       "Data Analyst (Business Intelligence)": 100,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 8
+      "Account Executive VCBL": 9
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 08:11:14",
-        "source": "github_action",
-        "candidate": "Agnes Christina Lasromaito Purba",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 08:11:44",
         "source": "github_action",
@@ -8574,6 +8567,13 @@
         "timestamp": "2026-04-18 08:57:07",
         "source": "github_action",
         "candidate": "Farid Hidayat Putra",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 08:57:35",
+        "source": "github_action",
+        "candidate": "Suryani Safitri",
         "position": "Account Executive VCBL",
         "success": true
       }
