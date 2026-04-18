@@ -7861,10 +7861,10 @@
     ]
   },
   "2026-04-18": {
-    "total": 538,
+    "total": 539,
     "streamlit": 0,
-    "github_action": 538,
-    "successful": 538,
+    "github_action": 539,
+    "successful": 539,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
@@ -7872,16 +7872,9 @@
       "Sustainability Officer KG Media": 65,
       "Reporter Nasional": 100,
       "Content Writer Homey": 100,
-      "Data Analyst (Business Intelligence)": 73
+      "Data Analyst (Business Intelligence)": 74
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 06:57:50",
-        "source": "github_action",
-        "candidate": "Indri Tedja Tyasning",
-        "position": "Content Writer Homey",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 06:58:22",
         "source": "github_action",
@@ -8572,6 +8565,13 @@
         "timestamp": "2026-04-18 07:53:58",
         "source": "github_action",
         "candidate": "Nur  Azizah",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 07:54:24",
+        "source": "github_action",
+        "candidate": "Dwi Yulianto",
         "position": "Data Analyst (Business Intelligence)",
         "success": true
       }
