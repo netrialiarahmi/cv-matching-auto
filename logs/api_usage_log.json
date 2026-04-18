@@ -7861,25 +7861,18 @@
     ]
   },
   "2026-04-18": {
-    "total": 279,
+    "total": 280,
     "streamlit": 0,
-    "github_action": 279,
-    "successful": 279,
+    "github_action": 280,
+    "successful": 280,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
       "Sustainability Officer KG Media": 65,
-      "Reporter Nasional": 14
+      "Reporter Nasional": 15
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 05:06:36",
-        "source": "github_action",
-        "candidate": "widyy B.Y.S",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 05:07:04",
         "source": "github_action",
@@ -8570,6 +8563,13 @@
         "timestamp": "2026-04-18 05:48:42",
         "source": "github_action",
         "candidate": "Muhammad Fauzan",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 05:49:08",
+        "source": "github_action",
+        "candidate": "Rio Valentino",
         "position": "Reporter Nasional",
         "success": true
       }
