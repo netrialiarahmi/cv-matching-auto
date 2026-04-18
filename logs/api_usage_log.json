@@ -7861,23 +7861,16 @@
     ]
   },
   "2026-04-18": {
-    "total": 135,
+    "total": 136,
     "streamlit": 0,
-    "github_action": 135,
-    "successful": 135,
+    "github_action": 136,
+    "successful": 136,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Megapolitan": 35
+      "Reporter Megapolitan": 36
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 04:06:15",
-        "source": "github_action",
-        "candidate": "Octria Vesensia",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 04:06:42",
         "source": "github_action",
@@ -8568,6 +8561,13 @@
         "timestamp": "2026-04-18 04:49:06",
         "source": "github_action",
         "candidate": "Sekar Langit",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 04:49:29",
+        "source": "github_action",
+        "candidate": "fariz albab",
         "position": "Reporter Megapolitan",
         "success": true
       }
