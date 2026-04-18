@@ -7861,25 +7861,18 @@
     ]
   },
   "2026-04-18": {
-    "total": 275,
+    "total": 276,
     "streamlit": 0,
-    "github_action": 275,
-    "successful": 275,
+    "github_action": 276,
+    "successful": 276,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
       "Sustainability Officer KG Media": 65,
-      "Reporter Nasional": 10
+      "Reporter Nasional": 11
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 05:05:01",
-        "source": "github_action",
-        "candidate": "Hilda Shakira",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 05:05:28",
         "source": "github_action",
@@ -8570,6 +8563,13 @@
         "timestamp": "2026-04-18 05:46:41",
         "source": "github_action",
         "candidate": "Erika Choirunisa",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 05:47:13",
+        "source": "github_action",
+        "candidate": "egi apriyanti",
         "position": "Reporter Nasional",
         "success": true
       }
