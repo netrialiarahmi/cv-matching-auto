@@ -7861,24 +7861,17 @@
     ]
   },
   "2026-04-18": {
-    "total": 251,
+    "total": 252,
     "streamlit": 0,
-    "github_action": 251,
-    "successful": 251,
+    "github_action": 252,
+    "successful": 252,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
-      "Sustainability Officer KG Media": 51
+      "Sustainability Officer KG Media": 52
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 04:55:13",
-        "source": "github_action",
-        "candidate": "Theadi Yanuar Kristie",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 04:55:39",
         "source": "github_action",
@@ -8569,6 +8562,13 @@
         "timestamp": "2026-04-18 05:36:42",
         "source": "github_action",
         "candidate": "DEVI AYU RAHMATIKA",
+        "position": "Sustainability Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 05:37:12",
+        "source": "github_action",
+        "candidate": "Nurcahaya  Kartika Sari",
         "position": "Sustainability Officer KG Media",
         "success": true
       }
