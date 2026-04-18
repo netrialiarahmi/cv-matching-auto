@@ -7861,23 +7861,16 @@
     ]
   },
   "2026-04-18": {
-    "total": 175,
+    "total": 176,
     "streamlit": 0,
-    "github_action": 175,
-    "successful": 175,
+    "github_action": 176,
+    "successful": 176,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Megapolitan": 75
+      "Reporter Megapolitan": 76
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 04:24:46",
-        "source": "github_action",
-        "candidate": "Mulyani Safira",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 04:25:14",
         "source": "github_action",
@@ -8568,6 +8561,13 @@
         "timestamp": "2026-04-18 05:04:33",
         "source": "github_action",
         "candidate": "Azzahwa Zulfa Annabila",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 05:05:01",
+        "source": "github_action",
+        "candidate": "Hilda Shakira",
         "position": "Reporter Megapolitan",
         "success": true
       }
