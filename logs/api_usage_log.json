@@ -7861,23 +7861,16 @@
     ]
   },
   "2026-04-18": {
-    "total": 192,
+    "total": 193,
     "streamlit": 0,
-    "github_action": 192,
-    "successful": 192,
+    "github_action": 193,
+    "successful": 193,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Megapolitan": 92
+      "Reporter Megapolitan": 93
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 04:32:20",
-        "source": "github_action",
-        "candidate": "Muhammad Dhika Ramadhan",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 04:32:48",
         "source": "github_action",
@@ -8568,6 +8561,13 @@
         "timestamp": "2026-04-18 05:11:53",
         "source": "github_action",
         "candidate": "Eugenia F. N. Siregar",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 05:12:17",
+        "source": "github_action",
+        "candidate": "Therresia Maria Magdalena Morais",
         "position": "Reporter Megapolitan",
         "success": true
       }
