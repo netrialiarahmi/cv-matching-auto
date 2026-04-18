@@ -7861,26 +7861,19 @@
     ]
   },
   "2026-04-18": {
-    "total": 445,
+    "total": 446,
     "streamlit": 0,
-    "github_action": 445,
-    "successful": 445,
+    "github_action": 446,
+    "successful": 446,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
       "Sustainability Officer KG Media": 65,
       "Reporter Nasional": 100,
-      "Content Writer Homey": 80
+      "Content Writer Homey": 81
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 06:17:03",
-        "source": "github_action",
-        "candidate": "Mutia Choerunissa",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 06:17:29",
         "source": "github_action",
@@ -8571,6 +8564,13 @@
         "timestamp": "2026-04-18 07:00:25",
         "source": "github_action",
         "candidate": "Eka Sukaswatiningrum",
+        "position": "Content Writer Homey",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 07:00:56",
+        "source": "github_action",
+        "candidate": "Teguh Eka Budianto",
         "position": "Content Writer Homey",
         "success": true
       }
