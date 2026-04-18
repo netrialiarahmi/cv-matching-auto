@@ -7861,26 +7861,19 @@
     ]
   },
   "2026-04-18": {
-    "total": 408,
+    "total": 409,
     "streamlit": 0,
-    "github_action": 408,
-    "successful": 408,
+    "github_action": 409,
+    "successful": 409,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
       "Sustainability Officer KG Media": 65,
       "Reporter Nasional": 100,
-      "Content Writer Homey": 43
+      "Content Writer Homey": 44
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 06:01:20",
-        "source": "github_action",
-        "candidate": "Della margaretha",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 06:01:45",
         "source": "github_action",
@@ -8571,6 +8564,13 @@
         "timestamp": "2026-04-18 06:44:17",
         "source": "github_action",
         "candidate": "Mohamad Reza Permana",
+        "position": "Content Writer Homey",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 06:44:19",
+        "source": "github_action",
+        "candidate": "Monica Erma  Noberita",
         "position": "Content Writer Homey",
         "success": true
       }
