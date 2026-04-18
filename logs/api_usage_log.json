@@ -7861,26 +7861,19 @@
     ]
   },
   "2026-04-18": {
-    "total": 383,
+    "total": 384,
     "streamlit": 0,
-    "github_action": 383,
-    "successful": 383,
+    "github_action": 384,
+    "successful": 384,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
       "Sustainability Officer KG Media": 65,
       "Reporter Nasional": 100,
-      "Content Writer Homey": 18
+      "Content Writer Homey": 19
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 05:50:54",
-        "source": "github_action",
-        "candidate": "Alif  Pratama",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 05:51:18",
         "source": "github_action",
@@ -8571,6 +8564,13 @@
         "timestamp": "2026-04-18 06:32:26",
         "source": "github_action",
         "candidate": "Puteri Dinanti",
+        "position": "Content Writer Homey",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 06:32:53",
+        "source": "github_action",
+        "candidate": "Valensi Douzi Fortuna",
         "position": "Content Writer Homey",
         "success": true
       }
