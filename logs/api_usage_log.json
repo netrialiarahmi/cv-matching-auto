@@ -7861,25 +7861,18 @@
     ]
   },
   "2026-04-18": {
-    "total": 304,
+    "total": 305,
     "streamlit": 0,
-    "github_action": 304,
-    "successful": 304,
+    "github_action": 305,
+    "successful": 305,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
       "Sustainability Officer KG Media": 65,
-      "Reporter Nasional": 39
+      "Reporter Nasional": 40
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 05:17:44",
-        "source": "github_action",
-        "candidate": "Daniel Pandapotan",
-        "position": "Sustainability Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 05:18:12",
         "source": "github_action",
@@ -8570,6 +8563,13 @@
         "timestamp": "2026-04-18 05:58:57",
         "source": "github_action",
         "candidate": "Yusia Agatha Sihite",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 05:59:27",
+        "source": "github_action",
+        "candidate": "Luh Muni Wiraswari",
         "position": "Reporter Nasional",
         "success": true
       }
