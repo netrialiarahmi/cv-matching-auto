@@ -7861,23 +7861,16 @@
     ]
   },
   "2026-04-18": {
-    "total": 137,
+    "total": 138,
     "streamlit": 0,
-    "github_action": 137,
-    "successful": 137,
+    "github_action": 138,
+    "successful": 138,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Megapolitan": 37
+      "Reporter Megapolitan": 38
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 04:07:12",
-        "source": "github_action",
-        "candidate": "Angelica Nadya",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 04:07:46",
         "source": "github_action",
@@ -8568,6 +8561,13 @@
         "timestamp": "2026-04-18 04:49:31",
         "source": "github_action",
         "candidate": "Bintang Esperanza",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 04:49:57",
+        "source": "github_action",
+        "candidate": "Hartanti Rahma Putri",
         "position": "Reporter Megapolitan",
         "success": true
       }
