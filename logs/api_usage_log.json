@@ -7861,25 +7861,18 @@
     ]
   },
   "2026-04-18": {
-    "total": 308,
+    "total": 309,
     "streamlit": 0,
-    "github_action": 308,
-    "successful": 308,
+    "github_action": 309,
+    "successful": 309,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
       "Sustainability Officer KG Media": 65,
-      "Reporter Nasional": 43
+      "Reporter Nasional": 44
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 05:19:12",
-        "source": "github_action",
-        "candidate": "Nida Ulhaq",
-        "position": "Sustainability Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 05:19:38",
         "source": "github_action",
@@ -8570,6 +8563,13 @@
         "timestamp": "2026-04-18 06:00:53",
         "source": "github_action",
         "candidate": "Amanda Rae Irawan",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 06:01:20",
+        "source": "github_action",
+        "candidate": "Della margaretha",
         "position": "Reporter Nasional",
         "success": true
       }
