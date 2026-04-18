@@ -7861,10 +7861,10 @@
     ]
   },
   "2026-04-18": {
-    "total": 747,
+    "total": 748,
     "streamlit": 0,
-    "github_action": 747,
-    "successful": 747,
+    "github_action": 748,
+    "successful": 748,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
@@ -7874,16 +7874,9 @@
       "Content Writer Homey": 100,
       "Data Analyst (Business Intelligence)": 100,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 82
+      "Account Executive VCBL": 83
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 08:45:50",
-        "source": "github_action",
-        "candidate": "Yohana Berliana",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 08:46:20",
         "source": "github_action",
@@ -8574,6 +8567,13 @@
         "timestamp": "2026-04-18 09:28:58",
         "source": "github_action",
         "candidate": "AYU SETIANI",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 09:29:30",
+        "source": "github_action",
+        "candidate": "felix fernando",
         "position": "Account Executive VCBL",
         "success": true
       }
