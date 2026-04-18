@@ -7861,23 +7861,16 @@
     ]
   },
   "2026-04-18": {
-    "total": 146,
+    "total": 147,
     "streamlit": 0,
-    "github_action": 146,
-    "successful": 146,
+    "github_action": 147,
+    "successful": 147,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Megapolitan": 46
+      "Reporter Megapolitan": 47
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 04:11:29",
-        "source": "github_action",
-        "candidate": "Ayu Mutia Safitri",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 04:11:56",
         "source": "github_action",
@@ -8568,6 +8561,13 @@
         "timestamp": "2026-04-18 04:53:21",
         "source": "github_action",
         "candidate": "Dearest Tiantama",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 04:53:47",
+        "source": "github_action",
+        "candidate": "Shelma Auliya M.",
         "position": "Reporter Megapolitan",
         "success": true
       }
