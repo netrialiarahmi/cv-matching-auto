@@ -7861,25 +7861,18 @@
     ]
   },
   "2026-04-18": {
-    "total": 321,
+    "total": 322,
     "streamlit": 0,
-    "github_action": 321,
-    "successful": 321,
+    "github_action": 322,
+    "successful": 322,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
       "Sustainability Officer KG Media": 65,
-      "Reporter Nasional": 56
+      "Reporter Nasional": 57
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 05:24:39",
-        "source": "github_action",
-        "candidate": "Muhammad Iqbal Riady",
-        "position": "Sustainability Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 05:25:05",
         "source": "github_action",
@@ -8570,6 +8563,13 @@
         "timestamp": "2026-04-18 06:06:27",
         "source": "github_action",
         "candidate": "Gibran Yudhistira",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 06:06:53",
+        "source": "github_action",
+        "candidate": "Qonitah Khairunnisa",
         "position": "Reporter Nasional",
         "success": true
       }
