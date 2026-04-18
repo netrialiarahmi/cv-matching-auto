@@ -7861,10 +7861,10 @@
     ]
   },
   "2026-04-18": {
-    "total": 561,
+    "total": 562,
     "streamlit": 0,
-    "github_action": 561,
-    "successful": 561,
+    "github_action": 562,
+    "successful": 562,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
@@ -7872,16 +7872,9 @@
       "Sustainability Officer KG Media": 65,
       "Reporter Nasional": 100,
       "Content Writer Homey": 100,
-      "Data Analyst (Business Intelligence)": 96
+      "Data Analyst (Business Intelligence)": 97
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 07:08:36",
-        "source": "github_action",
-        "candidate": "Sindhu Linguistika Manumanasa",
-        "position": "Content Writer Homey",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 07:09:06",
         "source": "github_action",
@@ -8572,6 +8565,13 @@
         "timestamp": "2026-04-18 08:04:49",
         "source": "github_action",
         "candidate": "Yohanes Evan Setiawan",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 08:05:18",
+        "source": "github_action",
+        "candidate": "Rajib Kurniawan",
         "position": "Data Analyst (Business Intelligence)",
         "success": true
       }
