@@ -7861,26 +7861,19 @@
     ]
   },
   "2026-04-18": {
-    "total": 442,
+    "total": 443,
     "streamlit": 0,
-    "github_action": 442,
-    "successful": 442,
+    "github_action": 443,
+    "successful": 443,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
       "Sustainability Officer KG Media": 65,
       "Reporter Nasional": 100,
-      "Content Writer Homey": 77
+      "Content Writer Homey": 78
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 06:15:40",
-        "source": "github_action",
-        "candidate": "vindra argha pratama",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 06:16:09",
         "source": "github_action",
@@ -8571,6 +8564,13 @@
         "timestamp": "2026-04-18 06:58:54",
         "source": "github_action",
         "candidate": "alsheila vannya",
+        "position": "Content Writer Homey",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 06:59:21",
+        "source": "github_action",
+        "candidate": "Savira Afiyah",
         "position": "Content Writer Homey",
         "success": true
       }
