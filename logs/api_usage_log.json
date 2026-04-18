@@ -7861,10 +7861,10 @@
     ]
   },
   "2026-04-18": {
-    "total": 555,
+    "total": 556,
     "streamlit": 0,
-    "github_action": 555,
-    "successful": 555,
+    "github_action": 556,
+    "successful": 556,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
@@ -7872,16 +7872,9 @@
       "Sustainability Officer KG Media": 65,
       "Reporter Nasional": 100,
       "Content Writer Homey": 100,
-      "Data Analyst (Business Intelligence)": 90
+      "Data Analyst (Business Intelligence)": 91
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 07:05:37",
-        "source": "github_action",
-        "candidate": "Adinda  Saskya",
-        "position": "Content Writer Homey",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 07:06:11",
         "source": "github_action",
@@ -8572,6 +8565,13 @@
         "timestamp": "2026-04-18 08:01:50",
         "source": "github_action",
         "candidate": "Muhammad Syarifuddin Nur Ramadhoni",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 08:02:15",
+        "source": "github_action",
+        "candidate": "nathania abhista",
         "position": "Data Analyst (Business Intelligence)",
         "success": true
       }
