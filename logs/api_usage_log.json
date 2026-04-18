@@ -7861,13 +7861,13 @@
     ]
   },
   "2026-04-18": {
-    "total": 87,
+    "total": 88,
     "streamlit": 0,
-    "github_action": 87,
-    "successful": 87,
+    "github_action": 88,
+    "successful": 88,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 87
+      "Marketing Communication Officer KG Media": 88
     },
     "entries": [
       {
@@ -8476,6 +8476,13 @@
         "timestamp": "2026-04-18 04:29:37",
         "source": "github_action",
         "candidate": "Linda Delani",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 04:30:04",
+        "source": "github_action",
+        "candidate": "Angelia Putri",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
