@@ -7861,23 +7861,16 @@
     ]
   },
   "2026-04-18": {
-    "total": 186,
+    "total": 187,
     "streamlit": 0,
-    "github_action": 186,
-    "successful": 186,
+    "github_action": 187,
+    "successful": 187,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Megapolitan": 86
+      "Reporter Megapolitan": 87
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 04:29:37",
-        "source": "github_action",
-        "candidate": "Linda Delani",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 04:30:04",
         "source": "github_action",
@@ -8568,6 +8561,13 @@
         "timestamp": "2026-04-18 05:09:00",
         "source": "github_action",
         "candidate": "Ade Zahra",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 05:09:30",
+        "source": "github_action",
+        "candidate": "Claudita  Sidabutar",
         "position": "Reporter Megapolitan",
         "success": true
       }
