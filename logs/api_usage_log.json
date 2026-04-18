@@ -7861,26 +7861,19 @@
     ]
   },
   "2026-04-18": {
-    "total": 403,
+    "total": 404,
     "streamlit": 0,
-    "github_action": 403,
-    "successful": 403,
+    "github_action": 404,
+    "successful": 404,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 100,
       "Sustainability Officer KG Media": 65,
       "Reporter Nasional": 100,
-      "Content Writer Homey": 38
+      "Content Writer Homey": 39
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 05:58:57",
-        "source": "github_action",
-        "candidate": "Yusia Agatha Sihite",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 05:59:27",
         "source": "github_action",
@@ -8571,6 +8564,13 @@
         "timestamp": "2026-04-18 06:41:57",
         "source": "github_action",
         "candidate": "Haidar Satrio Ilham",
+        "position": "Content Writer Homey",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 06:42:29",
+        "source": "github_action",
+        "candidate": "Muhammad Fauzan Mubarak",
         "position": "Content Writer Homey",
         "success": true
       }
