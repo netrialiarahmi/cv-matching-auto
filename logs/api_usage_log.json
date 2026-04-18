@@ -7861,10 +7861,10 @@
     ]
   },
   "2026-04-18": {
-    "total": 484,
+    "total": 485,
     "streamlit": 0,
-    "github_action": 484,
-    "successful": 484,
+    "github_action": 485,
+    "successful": 485,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
@@ -7872,16 +7872,9 @@
       "Sustainability Officer KG Media": 65,
       "Reporter Nasional": 100,
       "Content Writer Homey": 100,
-      "Data Analyst (Business Intelligence)": 19
+      "Data Analyst (Business Intelligence)": 20
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 06:33:21",
-        "source": "github_action",
-        "candidate": "KINANTI MUTIARA  PRASOJO",
-        "position": "Content Writer Homey",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 06:33:46",
         "source": "github_action",
@@ -8572,6 +8565,13 @@
         "timestamp": "2026-04-18 07:19:13",
         "source": "github_action",
         "candidate": "Widya Amalia Putri Riswandha",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 07:19:42",
+        "source": "github_action",
+        "candidate": "Maesha Ayu Syaharani",
         "position": "Data Analyst (Business Intelligence)",
         "success": true
       }
