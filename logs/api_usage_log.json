@@ -7861,10 +7861,10 @@
     ]
   },
   "2026-04-18": {
-    "total": 468,
+    "total": 469,
     "streamlit": 0,
-    "github_action": 468,
-    "successful": 468,
+    "github_action": 469,
+    "successful": 469,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
@@ -7872,16 +7872,9 @@
       "Sustainability Officer KG Media": 65,
       "Reporter Nasional": 100,
       "Content Writer Homey": 100,
-      "Data Analyst (Business Intelligence)": 3
+      "Data Analyst (Business Intelligence)": 4
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 06:26:34",
-        "source": "github_action",
-        "candidate": "ARIF ANWAR RIZKY",
-        "position": "Content Writer Homey",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 06:27:02",
         "source": "github_action",
@@ -8572,6 +8565,13 @@
         "timestamp": "2026-04-18 07:11:19",
         "source": "github_action",
         "candidate": "Raecita Razzak",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 07:11:45",
+        "source": "github_action",
+        "candidate": "Nurwan Muchammad Iqbal",
         "position": "Data Analyst (Business Intelligence)",
         "success": true
       }
