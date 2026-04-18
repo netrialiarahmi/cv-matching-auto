@@ -7861,23 +7861,16 @@
     ]
   },
   "2026-04-18": {
-    "total": 114,
+    "total": 115,
     "streamlit": 0,
-    "github_action": 114,
-    "successful": 114,
+    "github_action": 115,
+    "successful": 115,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Megapolitan": 14
+      "Reporter Megapolitan": 15
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 03:57:05",
-        "source": "github_action",
-        "candidate": "Tiara Putri Andini",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 03:57:32",
         "source": "github_action",
@@ -8568,6 +8561,13 @@
         "timestamp": "2026-04-18 04:41:40",
         "source": "github_action",
         "candidate": "Meidiana  Shafa Kayla",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 04:42:08",
+        "source": "github_action",
+        "candidate": "Suci Rahma Nisa",
         "position": "Reporter Megapolitan",
         "success": true
       }
