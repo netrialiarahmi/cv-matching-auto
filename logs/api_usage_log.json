@@ -7861,13 +7861,13 @@
     ]
   },
   "2026-04-18": {
-    "total": 86,
+    "total": 87,
     "streamlit": 0,
-    "github_action": 86,
-    "successful": 86,
+    "github_action": 87,
+    "successful": 87,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 86
+      "Marketing Communication Officer KG Media": 87
     },
     "entries": [
       {
@@ -8469,6 +8469,13 @@
         "timestamp": "2026-04-18 04:29:13",
         "source": "github_action",
         "candidate": "syifa az zahra",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 04:29:37",
+        "source": "github_action",
+        "candidate": "Linda Delani",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
