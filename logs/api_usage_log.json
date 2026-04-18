@@ -7861,10 +7861,10 @@
     ]
   },
   "2026-04-18": {
-    "total": 543,
+    "total": 544,
     "streamlit": 0,
-    "github_action": 543,
-    "successful": 543,
+    "github_action": 544,
+    "successful": 544,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
@@ -7872,16 +7872,9 @@
       "Sustainability Officer KG Media": 65,
       "Reporter Nasional": 100,
       "Content Writer Homey": 100,
-      "Data Analyst (Business Intelligence)": 78
+      "Data Analyst (Business Intelligence)": 79
     },
     "entries": [
-      {
-        "timestamp": "2026-04-18 06:59:48",
-        "source": "github_action",
-        "candidate": "Dwi Utari",
-        "position": "Content Writer Homey",
-        "success": true
-      },
       {
         "timestamp": "2026-04-18 07:00:25",
         "source": "github_action",
@@ -8572,6 +8565,13 @@
         "timestamp": "2026-04-18 07:56:13",
         "source": "github_action",
         "candidate": "Senna Yoga Abira",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-18 07:56:47",
+        "source": "github_action",
+        "candidate": "Vanesa",
         "position": "Data Analyst (Business Intelligence)",
         "success": true
       }
