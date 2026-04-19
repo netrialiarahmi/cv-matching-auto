@@ -8580,24 +8580,17 @@
     ]
   },
   "2026-04-19": {
-    "total": 211,
+    "total": 212,
     "streamlit": 0,
-    "github_action": 211,
-    "successful": 211,
+    "github_action": 212,
+    "successful": 212,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 71,
-      "Reporter Nasional": 40
+      "Reporter Nasional": 41
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 05:04:20",
-        "source": "github_action",
-        "candidate": "Muhammad  Noor",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 05:04:47",
         "source": "github_action",
@@ -9288,6 +9281,13 @@
         "timestamp": "2026-04-19 05:47:40",
         "source": "github_action",
         "candidate": "Mercy Pika Irawanty Sinaga",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 05:48:07",
+        "source": "github_action",
+        "candidate": "Gita Putri",
         "position": "Reporter Nasional",
         "success": true
       }
