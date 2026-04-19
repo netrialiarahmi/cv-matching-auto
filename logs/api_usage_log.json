@@ -8580,25 +8580,18 @@
     ]
   },
   "2026-04-19": {
-    "total": 358,
+    "total": 359,
     "streamlit": 0,
-    "github_action": 358,
-    "successful": 358,
+    "github_action": 359,
+    "successful": 359,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 71,
       "Reporter Nasional": 100,
-      "Content Writer Homey": 87
+      "Content Writer Homey": 88
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 06:10:11",
-        "source": "github_action",
-        "candidate": "Rivaldo Simanjuntak",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 06:10:41",
         "source": "github_action",
@@ -9289,6 +9282,13 @@
         "timestamp": "2026-04-19 06:56:05",
         "source": "github_action",
         "candidate": "Jangga Krisna Bayu Putra",
+        "position": "Content Writer Homey",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 06:56:33",
+        "source": "github_action",
+        "candidate": "Ii Widya",
         "position": "Content Writer Homey",
         "success": true
       }
