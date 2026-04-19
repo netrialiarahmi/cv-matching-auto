@@ -8580,24 +8580,17 @@
     ]
   },
   "2026-04-19": {
-    "total": 226,
+    "total": 227,
     "streamlit": 0,
-    "github_action": 226,
-    "successful": 226,
+    "github_action": 227,
+    "successful": 227,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 71,
-      "Reporter Nasional": 55
+      "Reporter Nasional": 56
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 05:10:59",
-        "source": "github_action",
-        "candidate": "Muhammad Satria",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 05:11:27",
         "source": "github_action",
@@ -9288,6 +9281,13 @@
         "timestamp": "2026-04-19 05:54:38",
         "source": "github_action",
         "candidate": "Tresye Alfa Ega  Turang",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 05:55:04",
+        "source": "github_action",
+        "candidate": "BAGUS SADEWO",
         "position": "Reporter Nasional",
         "success": true
       }
