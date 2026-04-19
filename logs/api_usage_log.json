@@ -8580,23 +8580,16 @@
     ]
   },
   "2026-04-19": {
-    "total": 139,
+    "total": 140,
     "streamlit": 0,
-    "github_action": 139,
-    "successful": 139,
+    "github_action": 140,
+    "successful": 140,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Megapolitan": 39
+      "Reporter Megapolitan": 40
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 04:28:05",
-        "source": "github_action",
-        "candidate": "Arif Nurochman",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 04:28:33",
         "source": "github_action",
@@ -9287,6 +9280,13 @@
         "timestamp": "2026-04-19 05:15:40",
         "source": "github_action",
         "candidate": "Lidia Indri Astuti",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 05:16:08",
+        "source": "github_action",
+        "candidate": "Bayu Indra Wibowo",
         "position": "Reporter Megapolitan",
         "success": true
       }
