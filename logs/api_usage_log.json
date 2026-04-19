@@ -8580,13 +8580,13 @@
     ]
   },
   "2026-04-19": {
-    "total": 87,
+    "total": 88,
     "streamlit": 0,
-    "github_action": 87,
-    "successful": 87,
+    "github_action": 88,
+    "successful": 88,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 87
+      "Marketing Communication Officer KG Media": 88
     },
     "entries": [
       {
@@ -9195,6 +9195,13 @@
         "timestamp": "2026-04-19 04:52:19",
         "source": "github_action",
         "candidate": "Reza Febri Pratama",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 04:52:49",
+        "source": "github_action",
+        "candidate": "Aditya Nugroho",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
