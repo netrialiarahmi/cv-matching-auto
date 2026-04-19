@@ -8580,25 +8580,18 @@
     ]
   },
   "2026-04-19": {
-    "total": 334,
+    "total": 335,
     "streamlit": 0,
-    "github_action": 334,
-    "successful": 334,
+    "github_action": 335,
+    "successful": 335,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 71,
       "Reporter Nasional": 100,
-      "Content Writer Homey": 63
+      "Content Writer Homey": 64
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 05:59:05",
-        "source": "github_action",
-        "candidate": "Ilham Zikru Romadhon",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 05:59:33",
         "source": "github_action",
@@ -9289,6 +9282,13 @@
         "timestamp": "2026-04-19 06:45:20",
         "source": "github_action",
         "candidate": "Zahwa Britny Septiana",
+        "position": "Content Writer Homey",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 06:45:50",
+        "source": "github_action",
+        "candidate": "Yulaichah .",
         "position": "Content Writer Homey",
         "success": true
       }
