@@ -8580,26 +8580,19 @@
     ]
   },
   "2026-04-19": {
-    "total": 460,
+    "total": 461,
     "streamlit": 0,
-    "github_action": 460,
-    "successful": 460,
+    "github_action": 461,
+    "successful": 461,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 71,
       "Reporter Nasional": 100,
       "Content Writer Homey": 100,
-      "Data Analyst (Business Intelligence)": 89
+      "Data Analyst (Business Intelligence)": 90
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 06:57:02",
-        "source": "github_action",
-        "candidate": "sefany yusan",
-        "position": "Content Writer Homey",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 06:57:26",
         "source": "github_action",
@@ -9290,6 +9283,13 @@
         "timestamp": "2026-04-19 07:45:10",
         "source": "github_action",
         "candidate": "Elisio Sianturi",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 07:45:39",
+        "source": "github_action",
+        "candidate": "Kautsar Hilmi",
         "position": "Data Analyst (Business Intelligence)",
         "success": true
       }
