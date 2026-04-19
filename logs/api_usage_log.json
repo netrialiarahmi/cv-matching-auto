@@ -8580,24 +8580,17 @@
     ]
   },
   "2026-04-19": {
-    "total": 195,
+    "total": 196,
     "streamlit": 0,
-    "github_action": 195,
-    "successful": 195,
+    "github_action": 196,
+    "successful": 196,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 71,
-      "Reporter Nasional": 24
+      "Reporter Nasional": 25
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 04:56:51",
-        "source": "github_action",
-        "candidate": "Nicholas Raditya Tarigan",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 04:57:29",
         "source": "github_action",
@@ -9288,6 +9281,13 @@
         "timestamp": "2026-04-19 05:40:45",
         "source": "github_action",
         "candidate": "Endang Angriani",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 05:41:13",
+        "source": "github_action",
+        "candidate": "Ananda Yuni Pertiwi",
         "position": "Reporter Nasional",
         "success": true
       }
