@@ -8580,26 +8580,19 @@
     ]
   },
   "2026-04-19": {
-    "total": 428,
+    "total": 429,
     "streamlit": 0,
-    "github_action": 428,
-    "successful": 428,
+    "github_action": 429,
+    "successful": 429,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 71,
       "Reporter Nasional": 100,
       "Content Writer Homey": 100,
-      "Data Analyst (Business Intelligence)": 57
+      "Data Analyst (Business Intelligence)": 58
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 06:43:05",
-        "source": "github_action",
-        "candidate": "andreas setya",
-        "position": "Content Writer Homey",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 06:43:32",
         "source": "github_action",
@@ -9290,6 +9283,13 @@
         "timestamp": "2026-04-19 07:29:18",
         "source": "github_action",
         "candidate": "Muhammad Hilmi Faiz",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 07:29:44",
+        "source": "github_action",
+        "candidate": "Gert Antonio Tobing",
         "position": "Data Analyst (Business Intelligence)",
         "success": true
       }
