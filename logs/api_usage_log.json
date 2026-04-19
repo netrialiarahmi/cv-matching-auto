@@ -8580,23 +8580,16 @@
     ]
   },
   "2026-04-19": {
-    "total": 114,
+    "total": 115,
     "streamlit": 0,
-    "github_action": 114,
-    "successful": 114,
+    "github_action": 115,
+    "successful": 115,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Megapolitan": 14
+      "Reporter Megapolitan": 15
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 04:14:51",
-        "source": "github_action",
-        "candidate": "Chilfia Debora Silitonga",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 04:15:21",
         "source": "github_action",
@@ -9287,6 +9280,13 @@
         "timestamp": "2026-04-19 05:05:16",
         "source": "github_action",
         "candidate": "Devira Andrawina",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 05:05:44",
+        "source": "github_action",
+        "candidate": "Salma Shalsabilla",
         "position": "Reporter Megapolitan",
         "success": true
       }
