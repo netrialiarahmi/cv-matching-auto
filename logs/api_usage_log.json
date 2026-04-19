@@ -8580,25 +8580,19 @@
     ]
   },
   "2026-04-19": {
-    "total": 371,
+    "total": 372,
     "streamlit": 0,
-    "github_action": 371,
-    "successful": 371,
+    "github_action": 372,
+    "successful": 372,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 71,
       "Reporter Nasional": 100,
-      "Content Writer Homey": 100
+      "Content Writer Homey": 100,
+      "Data Analyst (Business Intelligence)": 1
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 06:17:04",
-        "source": "github_action",
-        "candidate": "Rima Aisha Zahra",
-        "position": "Content Writer Homey",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 06:17:29",
         "source": "github_action",
@@ -9290,6 +9284,13 @@
         "source": "github_action",
         "candidate": "Fery Suryadi",
         "position": "Content Writer Homey",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 07:01:37",
+        "source": "github_action",
+        "candidate": "Dicky Herdian Adi Candra",
+        "position": "Data Analyst (Business Intelligence)",
         "success": true
       }
     ]
