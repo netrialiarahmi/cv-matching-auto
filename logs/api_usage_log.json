@@ -8580,24 +8580,17 @@
     ]
   },
   "2026-04-19": {
-    "total": 221,
+    "total": 222,
     "streamlit": 0,
-    "github_action": 221,
-    "successful": 221,
+    "github_action": 222,
+    "successful": 222,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 71,
-      "Reporter Nasional": 50
+      "Reporter Nasional": 51
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 05:09:04",
-        "source": "github_action",
-        "candidate": "Dea Alvitalakhsmi",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 05:09:34",
         "source": "github_action",
@@ -9288,6 +9281,13 @@
         "timestamp": "2026-04-19 05:52:35",
         "source": "github_action",
         "candidate": "Syahrul Rifai Tri Laksono",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 05:52:40",
+        "source": "github_action",
+        "candidate": "Aqmarina Oktavia Ibrahim",
         "position": "Reporter Nasional",
         "success": true
       }
