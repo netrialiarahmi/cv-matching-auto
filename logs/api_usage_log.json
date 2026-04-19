@@ -8580,23 +8580,16 @@
     ]
   },
   "2026-04-19": {
-    "total": 121,
+    "total": 122,
     "streamlit": 0,
-    "github_action": 121,
-    "successful": 121,
+    "github_action": 122,
+    "successful": 122,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Megapolitan": 21
+      "Reporter Megapolitan": 22
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 04:18:36",
-        "source": "github_action",
-        "candidate": "DINA ZULFA FAUZIYYAH",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 04:19:05",
         "source": "github_action",
@@ -9287,6 +9280,13 @@
         "timestamp": "2026-04-19 05:08:35",
         "source": "github_action",
         "candidate": "Laras Iqrimatus Solihah",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 05:09:04",
+        "source": "github_action",
+        "candidate": "Dea Alvitalakhsmi",
         "position": "Reporter Megapolitan",
         "success": true
       }
