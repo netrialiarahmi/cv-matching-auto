@@ -8580,10 +8580,10 @@
     ]
   },
   "2026-04-19": {
-    "total": 502,
+    "total": 503,
     "streamlit": 0,
-    "github_action": 502,
-    "successful": 502,
+    "github_action": 503,
+    "successful": 503,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
@@ -8591,16 +8591,9 @@
       "Reporter Nasional": 100,
       "Content Writer Homey": 100,
       "Data Analyst (Business Intelligence)": 100,
-      "Business Development Analyst": 31
+      "Business Development Analyst": 32
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 07:17:17",
-        "source": "github_action",
-        "candidate": "Reygina Wahyunda Wulandari",
-        "position": "Data Analyst (Business Intelligence)",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 07:17:51",
         "source": "github_action",
@@ -9291,6 +9284,13 @@
         "timestamp": "2026-04-19 08:05:55",
         "source": "github_action",
         "candidate": "cecep aris afandi andi",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 08:06:25",
+        "source": "github_action",
+        "candidate": "I Gusti Agung Sanjaya Setyanegara",
         "position": "Business Development Analyst",
         "success": true
       }
