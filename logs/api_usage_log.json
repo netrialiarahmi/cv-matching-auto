@@ -8580,26 +8580,19 @@
     ]
   },
   "2026-04-19": {
-    "total": 435,
+    "total": 436,
     "streamlit": 0,
-    "github_action": 435,
-    "successful": 435,
+    "github_action": 436,
+    "successful": 436,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 71,
       "Reporter Nasional": 100,
       "Content Writer Homey": 100,
-      "Data Analyst (Business Intelligence)": 64
+      "Data Analyst (Business Intelligence)": 65
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 06:46:19",
-        "source": "github_action",
-        "candidate": "Muhammad Ade Ardiansa",
-        "position": "Content Writer Homey",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 06:46:44",
         "source": "github_action",
@@ -9290,6 +9283,13 @@
         "timestamp": "2026-04-19 07:32:49",
         "source": "github_action",
         "candidate": "Chaliesya Nabila Adinda Supriyanto",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 07:33:22",
+        "source": "github_action",
+        "candidate": "Adrian Fadhil Melandri",
         "position": "Data Analyst (Business Intelligence)",
         "success": true
       }
