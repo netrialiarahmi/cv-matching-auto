@@ -8580,23 +8580,16 @@
     ]
   },
   "2026-04-19": {
-    "total": 152,
+    "total": 153,
     "streamlit": 0,
-    "github_action": 152,
-    "successful": 152,
+    "github_action": 153,
+    "successful": 153,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Megapolitan": 52
+      "Reporter Megapolitan": 53
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 04:34:56",
-        "source": "github_action",
-        "candidate": "Mutiara Kartini Pattiasina",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 04:35:27",
         "source": "github_action",
@@ -9287,6 +9280,13 @@
         "timestamp": "2026-04-19 05:21:20",
         "source": "github_action",
         "candidate": "Ai  Nurajizah",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 05:21:48",
+        "source": "github_action",
+        "candidate": "Reski Gunawan",
         "position": "Reporter Megapolitan",
         "success": true
       }
