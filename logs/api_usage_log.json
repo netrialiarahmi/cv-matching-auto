@@ -8580,24 +8580,17 @@
     ]
   },
   "2026-04-19": {
-    "total": 242,
+    "total": 243,
     "streamlit": 0,
-    "github_action": 242,
-    "successful": 242,
+    "github_action": 243,
+    "successful": 243,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 71,
-      "Reporter Nasional": 71
+      "Reporter Nasional": 72
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 05:17:27",
-        "source": "github_action",
-        "candidate": "Ayulia Soma",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 05:17:53",
         "source": "github_action",
@@ -9288,6 +9281,13 @@
         "timestamp": "2026-04-19 06:02:28",
         "source": "github_action",
         "candidate": "Yessi Baldah zus to yusa",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 06:03:00",
+        "source": "github_action",
+        "candidate": "Anjar Palupi",
         "position": "Reporter Nasional",
         "success": true
       }
