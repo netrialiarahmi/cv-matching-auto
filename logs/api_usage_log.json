@@ -8580,25 +8580,18 @@
     ]
   },
   "2026-04-19": {
-    "total": 345,
+    "total": 346,
     "streamlit": 0,
-    "github_action": 345,
-    "successful": 345,
+    "github_action": 346,
+    "successful": 346,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 71,
       "Reporter Nasional": 100,
-      "Content Writer Homey": 74
+      "Content Writer Homey": 75
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 06:04:29",
-        "source": "github_action",
-        "candidate": "ERIJ  karimah",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 06:05:01",
         "source": "github_action",
@@ -9289,6 +9282,13 @@
         "timestamp": "2026-04-19 06:50:18",
         "source": "github_action",
         "candidate": "Kholfan Faruq",
+        "position": "Content Writer Homey",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 06:50:45",
+        "source": "github_action",
+        "candidate": "Saharani Putri Azzahra",
         "position": "Content Writer Homey",
         "success": true
       }
