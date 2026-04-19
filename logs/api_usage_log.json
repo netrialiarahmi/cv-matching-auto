@@ -8580,24 +8580,17 @@
     ]
   },
   "2026-04-19": {
-    "total": 231,
+    "total": 232,
     "streamlit": 0,
-    "github_action": 231,
-    "successful": 231,
+    "github_action": 232,
+    "successful": 232,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 71,
-      "Reporter Nasional": 60
+      "Reporter Nasional": 61
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 05:12:56",
-        "source": "github_action",
-        "candidate": "syafira bulan",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 05:13:22",
         "source": "github_action",
@@ -9288,6 +9281,13 @@
         "timestamp": "2026-04-19 05:56:59",
         "source": "github_action",
         "candidate": "MUHAMMAD THAREQ HARYADI",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 05:57:36",
+        "source": "github_action",
+        "candidate": "Muhammad Farhan",
         "position": "Reporter Nasional",
         "success": true
       }
