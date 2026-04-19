@@ -8580,13 +8580,13 @@
     ]
   },
   "2026-04-19": {
-    "total": 68,
+    "total": 69,
     "streamlit": 0,
-    "github_action": 68,
-    "successful": 68,
+    "github_action": 69,
+    "successful": 69,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 68
+      "Marketing Communication Officer KG Media": 69
     },
     "entries": [
       {
@@ -9062,6 +9062,13 @@
         "timestamp": "2026-04-19 04:42:43",
         "source": "github_action",
         "candidate": "Lina  Selviana",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 04:43:11",
+        "source": "github_action",
+        "candidate": "Nieko Hariyadi",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
