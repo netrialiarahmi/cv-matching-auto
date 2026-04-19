@@ -8580,10 +8580,10 @@
     ]
   },
   "2026-04-19": {
-    "total": 621,
+    "total": 622,
     "streamlit": 0,
-    "github_action": 621,
-    "successful": 621,
+    "github_action": 622,
+    "successful": 622,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
@@ -8592,16 +8592,9 @@
       "Content Writer Homey": 100,
       "Data Analyst (Business Intelligence)": 100,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 50
+      "Account Executive VCBL": 51
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 08:15:26",
-        "source": "github_action",
-        "candidate": "Tuti Asriza",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 08:15:57",
         "source": "github_action",
@@ -9292,6 +9285,13 @@
         "timestamp": "2026-04-19 09:01:54",
         "source": "github_action",
         "candidate": "Nisa Nur Amalia",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 09:02:30",
+        "source": "github_action",
+        "candidate": "Dhinda Khaira Ummah",
         "position": "Account Executive VCBL",
         "success": true
       }
