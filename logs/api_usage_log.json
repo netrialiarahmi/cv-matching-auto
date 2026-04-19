@@ -8580,23 +8580,16 @@
     ]
   },
   "2026-04-19": {
-    "total": 136,
+    "total": 137,
     "streamlit": 0,
-    "github_action": 136,
-    "successful": 136,
+    "github_action": 137,
+    "successful": 137,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Megapolitan": 36
+      "Reporter Megapolitan": 37
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 04:26:31",
-        "source": "github_action",
-        "candidate": "joyada geraldy",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 04:27:02",
         "source": "github_action",
@@ -9287,6 +9280,13 @@
         "timestamp": "2026-04-19 05:14:17",
         "source": "github_action",
         "candidate": "Mikhail Zidane",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 05:14:44",
+        "source": "github_action",
+        "candidate": "Anggi Pavilda Ariestiawan Putra",
         "position": "Reporter Megapolitan",
         "success": true
       }
