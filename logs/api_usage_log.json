@@ -8580,26 +8580,19 @@
     ]
   },
   "2026-04-19": {
-    "total": 404,
+    "total": 405,
     "streamlit": 0,
-    "github_action": 404,
-    "successful": 404,
+    "github_action": 405,
+    "successful": 405,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 71,
       "Reporter Nasional": 100,
       "Content Writer Homey": 100,
-      "Data Analyst (Business Intelligence)": 33
+      "Data Analyst (Business Intelligence)": 34
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 06:32:22",
-        "source": "github_action",
-        "candidate": "kezia ayu",
-        "position": "Content Writer Homey",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 06:32:26",
         "source": "github_action",
@@ -9290,6 +9283,13 @@
         "timestamp": "2026-04-19 07:17:51",
         "source": "github_action",
         "candidate": "Puspita N.A Putri",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 07:18:22",
+        "source": "github_action",
+        "candidate": "Aditya Kresna",
         "position": "Data Analyst (Business Intelligence)",
         "success": true
       }
