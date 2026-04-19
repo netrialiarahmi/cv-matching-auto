@@ -8580,26 +8580,19 @@
     ]
   },
   "2026-04-19": {
-    "total": 453,
+    "total": 454,
     "streamlit": 0,
-    "github_action": 453,
-    "successful": 453,
+    "github_action": 454,
+    "successful": 454,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 71,
       "Reporter Nasional": 100,
       "Content Writer Homey": 100,
-      "Data Analyst (Business Intelligence)": 82
+      "Data Analyst (Business Intelligence)": 83
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 06:54:16",
-        "source": "github_action",
-        "candidate": "Garneta Marsha",
-        "position": "Content Writer Homey",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 06:54:45",
         "source": "github_action",
@@ -9290,6 +9283,13 @@
         "timestamp": "2026-04-19 07:41:33",
         "source": "github_action",
         "candidate": "Julia Enjela Setiawan",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 07:42:04",
+        "source": "github_action",
+        "candidate": "Bila Hasna",
         "position": "Data Analyst (Business Intelligence)",
         "success": true
       }
