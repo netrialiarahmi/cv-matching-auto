@@ -8580,23 +8580,16 @@
     ]
   },
   "2026-04-19": {
-    "total": 104,
+    "total": 105,
     "streamlit": 0,
-    "github_action": 104,
-    "successful": 104,
+    "github_action": 105,
+    "successful": 105,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Megapolitan": 4
+      "Reporter Megapolitan": 5
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 04:10:36",
-        "source": "github_action",
-        "candidate": "Wandy Hasibuan",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 04:10:40",
         "source": "github_action",
@@ -9287,6 +9280,13 @@
         "timestamp": "2026-04-19 05:00:46",
         "source": "github_action",
         "candidate": "Fajar Alim Mutaqin",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 05:01:12",
+        "source": "github_action",
+        "candidate": "Ghatfan Abdullah",
         "position": "Reporter Megapolitan",
         "success": true
       }
