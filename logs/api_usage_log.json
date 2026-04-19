@@ -8580,24 +8580,17 @@
     ]
   },
   "2026-04-19": {
-    "total": 182,
+    "total": 183,
     "streamlit": 0,
-    "github_action": 182,
-    "successful": 182,
+    "github_action": 183,
+    "successful": 183,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 71,
-      "Reporter Nasional": 11
+      "Reporter Nasional": 12
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 04:50:37",
-        "source": "github_action",
-        "candidate": "Ahimsa Damar Galih",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 04:51:08",
         "source": "github_action",
@@ -9288,6 +9281,13 @@
         "timestamp": "2026-04-19 05:34:39",
         "source": "github_action",
         "candidate": "Yoseph Aldhi Kristiantoro",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 05:35:08",
+        "source": "github_action",
+        "candidate": "Steven Andreas",
         "position": "Reporter Nasional",
         "success": true
       }
