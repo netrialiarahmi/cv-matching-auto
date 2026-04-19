@@ -8580,24 +8580,17 @@
     ]
   },
   "2026-04-19": {
-    "total": 208,
+    "total": 209,
     "streamlit": 0,
-    "github_action": 208,
-    "successful": 208,
+    "github_action": 209,
+    "successful": 209,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 71,
-      "Reporter Nasional": 37
+      "Reporter Nasional": 38
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 05:03:00",
-        "source": "github_action",
-        "candidate": "Mayang  Camila Evania",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 05:03:23",
         "source": "github_action",
@@ -9288,6 +9281,13 @@
         "timestamp": "2026-04-19 05:46:18",
         "source": "github_action",
         "candidate": "Isti Annura Hadistiani",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 05:46:47",
+        "source": "github_action",
+        "candidate": "Gaswara Utama",
         "position": "Reporter Nasional",
         "success": true
       }
