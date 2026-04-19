@@ -8580,10 +8580,10 @@
     ]
   },
   "2026-04-19": {
-    "total": 482,
+    "total": 483,
     "streamlit": 0,
-    "github_action": 482,
-    "successful": 482,
+    "github_action": 483,
+    "successful": 483,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
@@ -8591,16 +8591,9 @@
       "Reporter Nasional": 100,
       "Content Writer Homey": 100,
       "Data Analyst (Business Intelligence)": 100,
-      "Business Development Analyst": 11
+      "Business Development Analyst": 12
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 07:07:50",
-        "source": "github_action",
-        "candidate": "Rahmi Anadra",
-        "position": "Data Analyst (Business Intelligence)",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 07:08:19",
         "source": "github_action",
@@ -9291,6 +9284,13 @@
         "timestamp": "2026-04-19 07:56:07",
         "source": "github_action",
         "candidate": "Roychan Idris",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 07:56:37",
+        "source": "github_action",
+        "candidate": "Putri Hernawati",
         "position": "Business Development Analyst",
         "success": true
       }
