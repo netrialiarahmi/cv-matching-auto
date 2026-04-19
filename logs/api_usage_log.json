@@ -8580,26 +8580,19 @@
     ]
   },
   "2026-04-19": {
-    "total": 417,
+    "total": 418,
     "streamlit": 0,
-    "github_action": 417,
-    "successful": 417,
+    "github_action": 418,
+    "successful": 418,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 71,
       "Reporter Nasional": 100,
       "Content Writer Homey": 100,
-      "Data Analyst (Business Intelligence)": 46
+      "Data Analyst (Business Intelligence)": 47
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 06:37:49",
-        "source": "github_action",
-        "candidate": "Hafidh Muhammad Ibnu Sina",
-        "position": "Content Writer Homey",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 06:38:15",
         "source": "github_action",
@@ -9290,6 +9283,13 @@
         "timestamp": "2026-04-19 07:23:58",
         "source": "github_action",
         "candidate": "Eveline Nazirah",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 07:24:28",
+        "source": "github_action",
+        "candidate": "Ivo Maretha Sitepu",
         "position": "Data Analyst (Business Intelligence)",
         "success": true
       }
