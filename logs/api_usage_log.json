@@ -8580,26 +8580,19 @@
     ]
   },
   "2026-04-19": {
-    "total": 466,
+    "total": 467,
     "streamlit": 0,
-    "github_action": 466,
-    "successful": 466,
+    "github_action": 467,
+    "successful": 467,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 71,
       "Reporter Nasional": 100,
       "Content Writer Homey": 100,
-      "Data Analyst (Business Intelligence)": 95
+      "Data Analyst (Business Intelligence)": 96
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 06:59:43",
-        "source": "github_action",
-        "candidate": "Yasmine Salsabilla",
-        "position": "Content Writer Homey",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 07:00:11",
         "source": "github_action",
@@ -9290,6 +9283,13 @@
         "timestamp": "2026-04-19 07:48:14",
         "source": "github_action",
         "candidate": "Zalikha Syahlarani",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 07:48:43",
+        "source": "github_action",
+        "candidate": "Rahmat Chairulloh",
         "position": "Data Analyst (Business Intelligence)",
         "success": true
       }
