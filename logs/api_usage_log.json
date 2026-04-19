@@ -8580,10 +8580,10 @@
     ]
   },
   "2026-04-19": {
-    "total": 625,
+    "total": 626,
     "streamlit": 0,
-    "github_action": 625,
-    "successful": 625,
+    "github_action": 626,
+    "successful": 626,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
@@ -8592,16 +8592,9 @@
       "Content Writer Homey": 100,
       "Data Analyst (Business Intelligence)": 100,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 54
+      "Account Executive VCBL": 55
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 08:17:39",
-        "source": "github_action",
-        "candidate": "Fatimah Nurul Jamilah",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 08:18:07",
         "source": "github_action",
@@ -9292,6 +9285,13 @@
         "timestamp": "2026-04-19 09:04:08",
         "source": "github_action",
         "candidate": "Reynaldi Rizky Aulia Bassar",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 09:04:39",
+        "source": "github_action",
+        "candidate": "Faruqi Al Ghifari",
         "position": "Account Executive VCBL",
         "success": true
       }
