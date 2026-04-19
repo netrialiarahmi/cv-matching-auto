@@ -8580,24 +8580,17 @@
     ]
   },
   "2026-04-19": {
-    "total": 267,
+    "total": 268,
     "streamlit": 0,
-    "github_action": 267,
-    "successful": 267,
+    "github_action": 268,
+    "successful": 268,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 71,
-      "Reporter Nasional": 96
+      "Reporter Nasional": 97
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 05:28:05",
-        "source": "github_action",
-        "candidate": "Sendi Zikri Julian Fadilah",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 05:28:31",
         "source": "github_action",
@@ -9288,6 +9281,13 @@
         "timestamp": "2026-04-19 06:14:14",
         "source": "github_action",
         "candidate": "Sarah Almira",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 06:14:51",
+        "source": "github_action",
+        "candidate": "Siti Anisa Handayani",
         "position": "Reporter Nasional",
         "success": true
       }
