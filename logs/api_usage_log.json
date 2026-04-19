@@ -8580,10 +8580,10 @@
     ]
   },
   "2026-04-19": {
-    "total": 534,
+    "total": 535,
     "streamlit": 0,
-    "github_action": 534,
-    "successful": 534,
+    "github_action": 535,
+    "successful": 535,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
@@ -8591,16 +8591,9 @@
       "Reporter Nasional": 100,
       "Content Writer Homey": 100,
       "Data Analyst (Business Intelligence)": 100,
-      "Business Development Analyst": 63
+      "Business Development Analyst": 64
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 07:32:49",
-        "source": "github_action",
-        "candidate": "Chaliesya Nabila Adinda Supriyanto",
-        "position": "Data Analyst (Business Intelligence)",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 07:33:22",
         "source": "github_action",
@@ -9291,6 +9284,13 @@
         "timestamp": "2026-04-19 08:21:35",
         "source": "github_action",
         "candidate": "Sarah Laura Tarigan",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 08:22:06",
+        "source": "github_action",
+        "candidate": "Muhamad Shahriza Rijadi Putra",
         "position": "Business Development Analyst",
         "success": true
       }
