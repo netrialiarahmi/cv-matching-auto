@@ -8580,23 +8580,16 @@
     ]
   },
   "2026-04-19": {
-    "total": 125,
+    "total": 126,
     "streamlit": 0,
-    "github_action": 125,
-    "successful": 125,
+    "github_action": 126,
+    "successful": 126,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Megapolitan": 25
+      "Reporter Megapolitan": 26
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 04:20:41",
-        "source": "github_action",
-        "candidate": "Risabela Berliyana",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 04:21:11",
         "source": "github_action",
@@ -9287,6 +9280,13 @@
         "timestamp": "2026-04-19 05:10:29",
         "source": "github_action",
         "candidate": "Sevty Adinia",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 05:10:33",
+        "source": "github_action",
+        "candidate": "Della Yuspita",
         "position": "Reporter Megapolitan",
         "success": true
       }
