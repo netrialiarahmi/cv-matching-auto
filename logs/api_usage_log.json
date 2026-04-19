@@ -8580,10 +8580,10 @@
     ]
   },
   "2026-04-19": {
-    "total": 622,
+    "total": 623,
     "streamlit": 0,
-    "github_action": 622,
-    "successful": 622,
+    "github_action": 623,
+    "successful": 623,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
@@ -8592,16 +8592,9 @@
       "Content Writer Homey": 100,
       "Data Analyst (Business Intelligence)": 100,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 51
+      "Account Executive VCBL": 52
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 08:15:57",
-        "source": "github_action",
-        "candidate": "Noer Suhasbi",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 08:16:31",
         "source": "github_action",
@@ -9292,6 +9285,13 @@
         "timestamp": "2026-04-19 09:02:30",
         "source": "github_action",
         "candidate": "Dhinda Khaira Ummah",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 09:02:58",
+        "source": "github_action",
+        "candidate": "Muhammad Arrumi Fayyad",
         "position": "Account Executive VCBL",
         "success": true
       }
