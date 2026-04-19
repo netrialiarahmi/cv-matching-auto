@@ -8580,25 +8580,18 @@
     ]
   },
   "2026-04-19": {
-    "total": 272,
+    "total": 273,
     "streamlit": 0,
-    "github_action": 272,
-    "successful": 272,
+    "github_action": 273,
+    "successful": 273,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 71,
       "Reporter Nasional": 100,
-      "Content Writer Homey": 1
+      "Content Writer Homey": 2
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 05:30:34",
-        "source": "github_action",
-        "candidate": "Fano Eger",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 05:31:02",
         "source": "github_action",
@@ -9289,6 +9282,13 @@
         "timestamp": "2026-04-19 06:17:04",
         "source": "github_action",
         "candidate": "Rima Aisha Zahra",
+        "position": "Content Writer Homey",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 06:17:29",
+        "source": "github_action",
+        "candidate": "Pristitia  Bintari",
         "position": "Content Writer Homey",
         "success": true
       }
