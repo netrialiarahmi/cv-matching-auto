@@ -8580,24 +8580,17 @@
     ]
   },
   "2026-04-19": {
-    "total": 214,
+    "total": 215,
     "streamlit": 0,
-    "github_action": 214,
-    "successful": 214,
+    "github_action": 215,
+    "successful": 215,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 71,
-      "Reporter Nasional": 43
+      "Reporter Nasional": 44
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 05:05:44",
-        "source": "github_action",
-        "candidate": "Salma Shalsabilla",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 05:06:12",
         "source": "github_action",
@@ -9288,6 +9281,13 @@
         "timestamp": "2026-04-19 05:49:08",
         "source": "github_action",
         "candidate": "DHEYANA HARIYANTI",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 05:49:35",
+        "source": "github_action",
+        "candidate": "Anggita Nur Cahyani",
         "position": "Reporter Nasional",
         "success": true
       }
