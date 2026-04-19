@@ -8580,23 +8580,16 @@
     ]
   },
   "2026-04-19": {
-    "total": 142,
+    "total": 143,
     "streamlit": 0,
-    "github_action": 142,
-    "successful": 142,
+    "github_action": 143,
+    "successful": 143,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Megapolitan": 42
+      "Reporter Megapolitan": 43
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 04:29:34",
-        "source": "github_action",
-        "candidate": "Hanny Dwi Rahmawati",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 04:30:05",
         "source": "github_action",
@@ -9287,6 +9280,13 @@
         "timestamp": "2026-04-19 05:17:01",
         "source": "github_action",
         "candidate": "Silva Ikhanaya Putri",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 05:17:27",
+        "source": "github_action",
+        "candidate": "Ayulia Soma",
         "position": "Reporter Megapolitan",
         "success": true
       }
