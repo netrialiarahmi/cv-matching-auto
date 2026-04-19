@@ -8580,25 +8580,18 @@
     ]
   },
   "2026-04-19": {
-    "total": 312,
+    "total": 313,
     "streamlit": 0,
-    "github_action": 312,
-    "successful": 312,
+    "github_action": 313,
+    "successful": 313,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 71,
       "Reporter Nasional": 100,
-      "Content Writer Homey": 41
+      "Content Writer Homey": 42
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 05:48:37",
-        "source": "github_action",
-        "candidate": "Revo Anggara",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 05:49:08",
         "source": "github_action",
@@ -9289,6 +9282,13 @@
         "timestamp": "2026-04-19 06:34:56",
         "source": "github_action",
         "candidate": "Irma Mae",
+        "position": "Content Writer Homey",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 06:35:23",
+        "source": "github_action",
+        "candidate": "Iqra Wiarta",
         "position": "Content Writer Homey",
         "success": true
       }
