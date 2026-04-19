@@ -8580,26 +8580,19 @@
     ]
   },
   "2026-04-19": {
-    "total": 378,
+    "total": 379,
     "streamlit": 0,
-    "github_action": 378,
-    "successful": 378,
+    "github_action": 379,
+    "successful": 379,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 71,
       "Reporter Nasional": 100,
       "Content Writer Homey": 100,
-      "Data Analyst (Business Intelligence)": 7
+      "Data Analyst (Business Intelligence)": 8
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 06:20:30",
-        "source": "github_action",
-        "candidate": "Johan Cakra",
-        "position": "Content Writer Homey",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 06:20:58",
         "source": "github_action",
@@ -9290,6 +9283,13 @@
         "timestamp": "2026-04-19 07:05:01",
         "source": "github_action",
         "candidate": "Hilmi Reza Muhammad",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 07:05:33",
+        "source": "github_action",
+        "candidate": "Zahra Salsabila Hernanda",
         "position": "Data Analyst (Business Intelligence)",
         "success": true
       }
