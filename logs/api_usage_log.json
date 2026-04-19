@@ -8580,10 +8580,10 @@
     ]
   },
   "2026-04-19": {
-    "total": 538,
+    "total": 539,
     "streamlit": 0,
-    "github_action": 538,
-    "successful": 538,
+    "github_action": 539,
+    "successful": 539,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
@@ -8591,16 +8591,9 @@
       "Reporter Nasional": 100,
       "Content Writer Homey": 100,
       "Data Analyst (Business Intelligence)": 100,
-      "Business Development Analyst": 67
+      "Business Development Analyst": 68
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 07:34:33",
-        "source": "github_action",
-        "candidate": "Erina Rifka",
-        "position": "Data Analyst (Business Intelligence)",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 07:35:03",
         "source": "github_action",
@@ -9291,6 +9284,13 @@
         "timestamp": "2026-04-19 08:23:13",
         "source": "github_action",
         "candidate": "Pinta Rohmada Rahayu",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 08:23:46",
+        "source": "github_action",
+        "candidate": "Renata Elsa",
         "position": "Business Development Analyst",
         "success": true
       }
