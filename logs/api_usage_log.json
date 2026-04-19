@@ -8580,25 +8580,18 @@
     ]
   },
   "2026-04-19": {
-    "total": 346,
+    "total": 347,
     "streamlit": 0,
-    "github_action": 346,
-    "successful": 346,
+    "github_action": 347,
+    "successful": 347,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 71,
       "Reporter Nasional": 100,
-      "Content Writer Homey": 75
+      "Content Writer Homey": 76
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 06:05:01",
-        "source": "github_action",
-        "candidate": "Nadifa Aisyahrizka",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 06:05:30",
         "source": "github_action",
@@ -9289,6 +9282,13 @@
         "timestamp": "2026-04-19 06:50:45",
         "source": "github_action",
         "candidate": "Saharani Putri Azzahra",
+        "position": "Content Writer Homey",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 06:51:12",
+        "source": "github_action",
+        "candidate": "Avrinda Manggarani",
         "position": "Content Writer Homey",
         "success": true
       }
