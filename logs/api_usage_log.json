@@ -8580,23 +8580,16 @@
     ]
   },
   "2026-04-19": {
-    "total": 130,
+    "total": 131,
     "streamlit": 0,
-    "github_action": 130,
-    "successful": 130,
+    "github_action": 131,
+    "successful": 131,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Megapolitan": 30
+      "Reporter Megapolitan": 31
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 04:23:11",
-        "source": "github_action",
-        "candidate": "MuhamadTaju Subki",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 04:23:43",
         "source": "github_action",
@@ -9287,6 +9280,13 @@
         "timestamp": "2026-04-19 05:12:23",
         "source": "github_action",
         "candidate": "Raudhatul Jannah",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 05:12:52",
+        "source": "github_action",
+        "candidate": "Nataya Kirana",
         "position": "Reporter Megapolitan",
         "success": true
       }
