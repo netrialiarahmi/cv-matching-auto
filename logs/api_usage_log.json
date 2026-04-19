@@ -8580,10 +8580,10 @@
     ]
   },
   "2026-04-19": {
-    "total": 555,
+    "total": 556,
     "streamlit": 0,
-    "github_action": 555,
-    "successful": 555,
+    "github_action": 556,
+    "successful": 556,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
@@ -8591,16 +8591,9 @@
       "Reporter Nasional": 100,
       "Content Writer Homey": 100,
       "Data Analyst (Business Intelligence)": 100,
-      "Business Development Analyst": 84
+      "Business Development Analyst": 85
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 07:43:03",
-        "source": "github_action",
-        "candidate": "Debby Ganesha",
-        "position": "Data Analyst (Business Intelligence)",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 07:43:34",
         "source": "github_action",
@@ -9291,6 +9284,13 @@
         "timestamp": "2026-04-19 08:31:48",
         "source": "github_action",
         "candidate": "Siti Lailatul Magfiroh",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 08:32:17",
+        "source": "github_action",
+        "candidate": "Charles Philip",
         "position": "Business Development Analyst",
         "success": true
       }
