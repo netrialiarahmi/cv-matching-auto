@@ -8580,23 +8580,16 @@
     ]
   },
   "2026-04-19": {
-    "total": 144,
+    "total": 145,
     "streamlit": 0,
-    "github_action": 144,
-    "successful": 144,
+    "github_action": 145,
+    "successful": 145,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Megapolitan": 44
+      "Reporter Megapolitan": 45
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 04:30:45",
-        "source": "github_action",
-        "candidate": "Vania Shauma Salsabila",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 04:31:13",
         "source": "github_action",
@@ -9287,6 +9280,13 @@
         "timestamp": "2026-04-19 05:17:53",
         "source": "github_action",
         "candidate": "Alpian Pratama",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 05:18:18",
+        "source": "github_action",
+        "candidate": "Layla Ilma",
         "position": "Reporter Megapolitan",
         "success": true
       }
