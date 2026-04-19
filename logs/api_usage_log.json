@@ -8580,26 +8580,19 @@
     ]
   },
   "2026-04-19": {
-    "total": 412,
+    "total": 413,
     "streamlit": 0,
-    "github_action": 412,
-    "successful": 412,
+    "github_action": 413,
+    "successful": 413,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 71,
       "Reporter Nasional": 100,
       "Content Writer Homey": 100,
-      "Data Analyst (Business Intelligence)": 41
+      "Data Analyst (Business Intelligence)": 42
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 06:35:23",
-        "source": "github_action",
-        "candidate": "Iqra Wiarta",
-        "position": "Content Writer Homey",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 06:35:53",
         "source": "github_action",
@@ -9290,6 +9283,13 @@
         "timestamp": "2026-04-19 07:22:00",
         "source": "github_action",
         "candidate": "Diva Regina Setyakarere",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 07:22:30",
+        "source": "github_action",
+        "candidate": "Rivaldo Timoty Manihuruk",
         "position": "Data Analyst (Business Intelligence)",
         "success": true
       }
