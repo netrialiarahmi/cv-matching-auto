@@ -8580,23 +8580,16 @@
     ]
   },
   "2026-04-19": {
-    "total": 165,
+    "total": 166,
     "streamlit": 0,
-    "github_action": 165,
-    "successful": 165,
+    "github_action": 166,
+    "successful": 166,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Megapolitan": 65
+      "Reporter Megapolitan": 66
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 04:41:42",
-        "source": "github_action",
-        "candidate": "Annisa Miftahul Jannah",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 04:42:15",
         "source": "github_action",
@@ -9287,6 +9280,13 @@
         "timestamp": "2026-04-19 05:26:44",
         "source": "github_action",
         "candidate": "Muhamad Abrar  Ariq",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 05:27:10",
+        "source": "github_action",
+        "candidate": "Muhamad Helmi Kaffah Nur Iman",
         "position": "Reporter Megapolitan",
         "success": true
       }
