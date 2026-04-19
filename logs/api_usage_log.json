@@ -8580,10 +8580,10 @@
     ]
   },
   "2026-04-19": {
-    "total": 604,
+    "total": 605,
     "streamlit": 0,
-    "github_action": 604,
-    "successful": 604,
+    "github_action": 605,
+    "successful": 605,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
@@ -8592,16 +8592,9 @@
       "Content Writer Homey": 100,
       "Data Analyst (Business Intelligence)": 100,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 33
+      "Account Executive VCBL": 34
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 08:07:24",
-        "source": "github_action",
-        "candidate": "Andi Muhammad Rafli Armaya",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 08:07:55",
         "source": "github_action",
@@ -9292,6 +9285,13 @@
         "timestamp": "2026-04-19 08:54:28",
         "source": "github_action",
         "candidate": "Rifdah Luthfiah",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 08:54:56",
+        "source": "github_action",
+        "candidate": "muhammad ariel rafdi",
         "position": "Account Executive VCBL",
         "success": true
       }
