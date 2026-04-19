@@ -8580,24 +8580,17 @@
     ]
   },
   "2026-04-19": {
-    "total": 254,
+    "total": 255,
     "streamlit": 0,
-    "github_action": 254,
-    "successful": 254,
+    "github_action": 255,
+    "successful": 255,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 71,
-      "Reporter Nasional": 83
+      "Reporter Nasional": 84
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 05:22:42",
-        "source": "github_action",
-        "candidate": "Aryca Pratami",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 05:23:06",
         "source": "github_action",
@@ -9288,6 +9281,13 @@
         "timestamp": "2026-04-19 06:08:09",
         "source": "github_action",
         "candidate": "Dimas Candra",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 06:08:13",
+        "source": "github_action",
+        "candidate": "Aziizah Azhaar",
         "position": "Reporter Nasional",
         "success": true
       }
