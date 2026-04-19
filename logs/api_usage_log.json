@@ -8580,10 +8580,10 @@
     ]
   },
   "2026-04-19": {
-    "total": 669,
+    "total": 670,
     "streamlit": 0,
-    "github_action": 669,
-    "successful": 669,
+    "github_action": 670,
+    "successful": 670,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
@@ -8592,16 +8592,9 @@
       "Content Writer Homey": 100,
       "Data Analyst (Business Intelligence)": 100,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 98
+      "Account Executive VCBL": 99
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 08:39:20",
-        "source": "github_action",
-        "candidate": "Yunita W",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 08:39:49",
         "source": "github_action",
@@ -9292,6 +9285,13 @@
         "timestamp": "2026-04-19 09:24:27",
         "source": "github_action",
         "candidate": "Widitra Rama",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 09:24:56",
+        "source": "github_action",
+        "candidate": "Mohamad Dani Setiawardi",
         "position": "Account Executive VCBL",
         "success": true
       }
