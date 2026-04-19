@@ -8580,26 +8580,19 @@
     ]
   },
   "2026-04-19": {
-    "total": 433,
+    "total": 434,
     "streamlit": 0,
-    "github_action": 433,
-    "successful": 433,
+    "github_action": 434,
+    "successful": 434,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 71,
       "Reporter Nasional": 100,
       "Content Writer Homey": 100,
-      "Data Analyst (Business Intelligence)": 62
+      "Data Analyst (Business Intelligence)": 63
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 06:45:20",
-        "source": "github_action",
-        "candidate": "Zahwa Britny Septiana",
-        "position": "Content Writer Homey",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 06:45:50",
         "source": "github_action",
@@ -9290,6 +9283,13 @@
         "timestamp": "2026-04-19 07:31:51",
         "source": "github_action",
         "candidate": "Andi Ahyaul",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 07:32:18",
+        "source": "github_action",
+        "candidate": "Suci Fransisca Sisilia",
         "position": "Data Analyst (Business Intelligence)",
         "success": true
       }
