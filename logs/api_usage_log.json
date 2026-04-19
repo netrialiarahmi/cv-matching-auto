@@ -8580,13 +8580,13 @@
     ]
   },
   "2026-04-19": {
-    "total": 94,
+    "total": 95,
     "streamlit": 0,
-    "github_action": 94,
-    "successful": 94,
+    "github_action": 95,
+    "successful": 95,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 94
+      "Marketing Communication Officer KG Media": 95
     },
     "entries": [
       {
@@ -9244,6 +9244,13 @@
         "timestamp": "2026-04-19 04:55:51",
         "source": "github_action",
         "candidate": "Muhammad Hafidz",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 04:56:22",
+        "source": "github_action",
+        "candidate": "keysha sekar",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
