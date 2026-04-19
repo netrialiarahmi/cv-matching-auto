@@ -8580,26 +8580,19 @@
     ]
   },
   "2026-04-19": {
-    "total": 415,
+    "total": 416,
     "streamlit": 0,
-    "github_action": 415,
-    "successful": 415,
+    "github_action": 416,
+    "successful": 416,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 71,
       "Reporter Nasional": 100,
       "Content Writer Homey": 100,
-      "Data Analyst (Business Intelligence)": 44
+      "Data Analyst (Business Intelligence)": 45
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 06:36:53",
-        "source": "github_action",
-        "candidate": "Dhea Amanda",
-        "position": "Content Writer Homey",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 06:37:20",
         "source": "github_action",
@@ -9290,6 +9283,13 @@
         "timestamp": "2026-04-19 07:23:04",
         "source": "github_action",
         "candidate": "Tazqia Ranyanisha",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 07:23:28",
+        "source": "github_action",
+        "candidate": "Lawaahizh Hanifah Pulungan",
         "position": "Data Analyst (Business Intelligence)",
         "success": true
       }
