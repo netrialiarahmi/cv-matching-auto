@@ -8580,26 +8580,19 @@
     ]
   },
   "2026-04-19": {
-    "total": 445,
+    "total": 446,
     "streamlit": 0,
-    "github_action": 445,
-    "successful": 445,
+    "github_action": 446,
+    "successful": 446,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 71,
       "Reporter Nasional": 100,
       "Content Writer Homey": 100,
-      "Data Analyst (Business Intelligence)": 74
+      "Data Analyst (Business Intelligence)": 75
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 06:50:45",
-        "source": "github_action",
-        "candidate": "Saharani Putri Azzahra",
-        "position": "Content Writer Homey",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 06:51:12",
         "source": "github_action",
@@ -9290,6 +9283,13 @@
         "timestamp": "2026-04-19 07:37:41",
         "source": "github_action",
         "candidate": "Khori Wijaya",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 07:38:12",
+        "source": "github_action",
+        "candidate": "Syafira Putri Zahra",
         "position": "Data Analyst (Business Intelligence)",
         "success": true
       }
