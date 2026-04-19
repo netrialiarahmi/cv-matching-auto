@@ -8580,24 +8580,17 @@
     ]
   },
   "2026-04-19": {
-    "total": 178,
+    "total": 179,
     "streamlit": 0,
-    "github_action": 178,
-    "successful": 178,
+    "github_action": 179,
+    "successful": 179,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 71,
-      "Reporter Nasional": 7
+      "Reporter Nasional": 8
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 04:48:30",
-        "source": "github_action",
-        "candidate": "Muhammad Axel Arafhat",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 04:48:59",
         "source": "github_action",
@@ -9288,6 +9281,13 @@
         "timestamp": "2026-04-19 05:32:44",
         "source": "github_action",
         "candidate": "Ade krisna Rivaldy",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 05:33:11",
+        "source": "github_action",
+        "candidate": "Inayah Kurniawati",
         "position": "Reporter Nasional",
         "success": true
       }
