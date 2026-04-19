@@ -8580,24 +8580,17 @@
     ]
   },
   "2026-04-19": {
-    "total": 238,
+    "total": 239,
     "streamlit": 0,
-    "github_action": 238,
-    "successful": 238,
+    "github_action": 239,
+    "successful": 239,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 71,
-      "Reporter Nasional": 67
+      "Reporter Nasional": 68
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 05:15:40",
-        "source": "github_action",
-        "candidate": "Lidia Indri Astuti",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 05:16:08",
         "source": "github_action",
@@ -9288,6 +9281,13 @@
         "timestamp": "2026-04-19 06:00:32",
         "source": "github_action",
         "candidate": "Sabrina  Ariani",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 06:00:59",
+        "source": "github_action",
+        "candidate": "Nanda Rahman Rahimi Dhilsi",
         "position": "Reporter Nasional",
         "success": true
       }
