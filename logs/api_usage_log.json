@@ -8580,10 +8580,10 @@
     ]
   },
   "2026-04-19": {
-    "total": 580,
+    "total": 581,
     "streamlit": 0,
-    "github_action": 580,
-    "successful": 580,
+    "github_action": 581,
+    "successful": 581,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
@@ -8592,16 +8592,9 @@
       "Content Writer Homey": 100,
       "Data Analyst (Business Intelligence)": 100,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 9
+      "Account Executive VCBL": 10
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 07:55:37",
-        "source": "github_action",
-        "candidate": "Reza Vallevi",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 07:56:07",
         "source": "github_action",
@@ -9292,6 +9285,13 @@
         "timestamp": "2026-04-19 08:43:56",
         "source": "github_action",
         "candidate": "Suryani Safitri",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 08:44:25",
+        "source": "github_action",
+        "candidate": "ALFA SANDI  SAPUTRA",
         "position": "Account Executive VCBL",
         "success": true
       }
