@@ -8580,10 +8580,10 @@
     ]
   },
   "2026-04-19": {
-    "total": 527,
+    "total": 528,
     "streamlit": 0,
-    "github_action": 527,
-    "successful": 527,
+    "github_action": 528,
+    "successful": 528,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
@@ -8591,16 +8591,9 @@
       "Reporter Nasional": 100,
       "Content Writer Homey": 100,
       "Data Analyst (Business Intelligence)": 100,
-      "Business Development Analyst": 56
+      "Business Development Analyst": 57
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 07:29:18",
-        "source": "github_action",
-        "candidate": "Muhammad Hilmi Faiz",
-        "position": "Data Analyst (Business Intelligence)",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 07:29:44",
         "source": "github_action",
@@ -9291,6 +9284,13 @@
         "timestamp": "2026-04-19 08:18:07",
         "source": "github_action",
         "candidate": "Naufal  Hudaya",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 08:18:33",
+        "source": "github_action",
+        "candidate": "Aulia Ramandha  Hendra",
         "position": "Business Development Analyst",
         "success": true
       }
