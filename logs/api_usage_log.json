@@ -8580,25 +8580,18 @@
     ]
   },
   "2026-04-19": {
-    "total": 336,
+    "total": 337,
     "streamlit": 0,
-    "github_action": 336,
-    "successful": 336,
+    "github_action": 337,
+    "successful": 337,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 71,
       "Reporter Nasional": 100,
-      "Content Writer Homey": 65
+      "Content Writer Homey": 66
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 06:00:01",
-        "source": "github_action",
-        "candidate": "ananda santria pratama",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 06:00:32",
         "source": "github_action",
@@ -9289,6 +9282,13 @@
         "timestamp": "2026-04-19 06:46:19",
         "source": "github_action",
         "candidate": "Muhammad Ade Ardiansa",
+        "position": "Content Writer Homey",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 06:46:44",
+        "source": "github_action",
+        "candidate": "Tio Sari Febrina Silaban",
         "position": "Content Writer Homey",
         "success": true
       }
