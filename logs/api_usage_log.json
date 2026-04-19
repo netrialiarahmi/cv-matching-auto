@@ -8580,24 +8580,17 @@
     ]
   },
   "2026-04-19": {
-    "total": 249,
+    "total": 250,
     "streamlit": 0,
-    "github_action": 249,
-    "successful": 249,
+    "github_action": 250,
+    "successful": 250,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 71,
-      "Reporter Nasional": 78
+      "Reporter Nasional": 79
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 05:20:29",
-        "source": "github_action",
-        "candidate": "Akil Albari",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 05:20:54",
         "source": "github_action",
@@ -9288,6 +9281,13 @@
         "timestamp": "2026-04-19 06:06:00",
         "source": "github_action",
         "candidate": "Yuan Forevers Kuada",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 06:06:29",
+        "source": "github_action",
+        "candidate": "Wika Andriani Pangaribuan",
         "position": "Reporter Nasional",
         "success": true
       }
