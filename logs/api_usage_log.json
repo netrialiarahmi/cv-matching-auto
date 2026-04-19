@@ -8580,24 +8580,17 @@
     ]
   },
   "2026-04-19": {
-    "total": 188,
+    "total": 189,
     "streamlit": 0,
-    "github_action": 188,
-    "successful": 188,
+    "github_action": 189,
+    "successful": 189,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 71,
-      "Reporter Nasional": 17
+      "Reporter Nasional": 18
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 04:53:18",
-        "source": "github_action",
-        "candidate": "Lyrasava Fatikha Shailaloka",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 04:53:46",
         "source": "github_action",
@@ -9288,6 +9281,13 @@
         "timestamp": "2026-04-19 05:37:09",
         "source": "github_action",
         "candidate": "ARIF ANWAR RIZKY",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 05:37:41",
+        "source": "github_action",
+        "candidate": "Maghrifa Aulia Az-Zahra",
         "position": "Reporter Nasional",
         "success": true
       }
