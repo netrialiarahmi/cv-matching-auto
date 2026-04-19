@@ -8580,13 +8580,13 @@
     ]
   },
   "2026-04-19": {
-    "total": 4,
+    "total": 5,
     "streamlit": 0,
-    "github_action": 4,
-    "successful": 4,
+    "github_action": 5,
+    "successful": 5,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 4
+      "Marketing Communication Officer KG Media": 5
     },
     "entries": [
       {
@@ -8614,6 +8614,13 @@
         "timestamp": "2026-04-19 04:10:03",
         "source": "github_action",
         "candidate": "Muhammad Erhan Reza",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 04:10:36",
+        "source": "github_action",
+        "candidate": "Wandy Hasibuan",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
