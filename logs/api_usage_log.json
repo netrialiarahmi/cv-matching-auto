@@ -8580,26 +8580,19 @@
     ]
   },
   "2026-04-19": {
-    "total": 451,
+    "total": 452,
     "streamlit": 0,
-    "github_action": 451,
-    "successful": 451,
+    "github_action": 452,
+    "successful": 452,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 71,
       "Reporter Nasional": 100,
       "Content Writer Homey": 100,
-      "Data Analyst (Business Intelligence)": 80
+      "Data Analyst (Business Intelligence)": 81
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 06:53:23",
-        "source": "github_action",
-        "candidate": "Olivia Syalsabela",
-        "position": "Content Writer Homey",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 06:53:50",
         "source": "github_action",
@@ -9290,6 +9283,13 @@
         "timestamp": "2026-04-19 07:40:34",
         "source": "github_action",
         "candidate": "Devianna Felicia Veronica",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 07:41:04",
+        "source": "github_action",
+        "candidate": "Muh. Rojil Alhamdi",
         "position": "Data Analyst (Business Intelligence)",
         "success": true
       }
