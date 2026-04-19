@@ -8580,23 +8580,16 @@
     ]
   },
   "2026-04-19": {
-    "total": 118,
+    "total": 119,
     "streamlit": 0,
-    "github_action": 118,
-    "successful": 118,
+    "github_action": 119,
+    "successful": 119,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Megapolitan": 18
+      "Reporter Megapolitan": 19
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 04:16:55",
-        "source": "github_action",
-        "candidate": "Rushafah Salsabila",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 04:17:29",
         "source": "github_action",
@@ -9287,6 +9280,13 @@
         "timestamp": "2026-04-19 05:07:09",
         "source": "github_action",
         "candidate": "Izwadi Harahap",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 05:07:36",
+        "source": "github_action",
+        "candidate": "MICHELLE PAPILAYA",
         "position": "Reporter Megapolitan",
         "success": true
       }
