@@ -8580,24 +8580,17 @@
     ]
   },
   "2026-04-19": {
-    "total": 177,
+    "total": 178,
     "streamlit": 0,
-    "github_action": 177,
-    "successful": 177,
+    "github_action": 178,
+    "successful": 178,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 71,
-      "Reporter Nasional": 6
+      "Reporter Nasional": 7
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 04:47:56",
-        "source": "github_action",
-        "candidate": "Naafi Apryanda",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 04:48:30",
         "source": "github_action",
@@ -9288,6 +9281,13 @@
         "timestamp": "2026-04-19 05:32:11",
         "source": "github_action",
         "candidate": "sitinurfadilamopi sitinurfadilamopi",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 05:32:44",
+        "source": "github_action",
+        "candidate": "Ade krisna Rivaldy",
         "position": "Reporter Nasional",
         "success": true
       }
