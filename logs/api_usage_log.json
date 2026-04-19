@@ -8580,10 +8580,10 @@
     ]
   },
   "2026-04-19": {
-    "total": 666,
+    "total": 667,
     "streamlit": 0,
-    "github_action": 666,
-    "successful": 666,
+    "github_action": 667,
+    "successful": 667,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
@@ -8592,16 +8592,9 @@
       "Content Writer Homey": 100,
       "Data Analyst (Business Intelligence)": 100,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 95
+      "Account Executive VCBL": 96
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 08:37:56",
-        "source": "github_action",
-        "candidate": "Dini Muzdalifah",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 08:38:23",
         "source": "github_action",
@@ -9292,6 +9285,13 @@
         "timestamp": "2026-04-19 09:22:57",
         "source": "github_action",
         "candidate": "Bariq Iqbal Agia Putra",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 09:23:26",
+        "source": "github_action",
+        "candidate": "Salsa  Danisaskiya",
         "position": "Account Executive VCBL",
         "success": true
       }
