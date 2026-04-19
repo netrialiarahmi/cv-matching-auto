@@ -8580,10 +8580,10 @@
     ]
   },
   "2026-04-19": {
-    "total": 528,
+    "total": 529,
     "streamlit": 0,
-    "github_action": 528,
-    "successful": 528,
+    "github_action": 529,
+    "successful": 529,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
@@ -8591,16 +8591,9 @@
       "Reporter Nasional": 100,
       "Content Writer Homey": 100,
       "Data Analyst (Business Intelligence)": 100,
-      "Business Development Analyst": 57
+      "Business Development Analyst": 58
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 07:29:44",
-        "source": "github_action",
-        "candidate": "Gert Antonio Tobing",
-        "position": "Data Analyst (Business Intelligence)",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 07:30:15",
         "source": "github_action",
@@ -9291,6 +9284,13 @@
         "timestamp": "2026-04-19 08:18:33",
         "source": "github_action",
         "candidate": "Aulia Ramandha  Hendra",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 08:19:01",
+        "source": "github_action",
+        "candidate": "Raditya Nurhandayani",
         "position": "Business Development Analyst",
         "success": true
       }
