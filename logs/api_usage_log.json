@@ -8580,26 +8580,19 @@
     ]
   },
   "2026-04-19": {
-    "total": 448,
+    "total": 449,
     "streamlit": 0,
-    "github_action": 448,
-    "successful": 448,
+    "github_action": 449,
+    "successful": 449,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 71,
       "Reporter Nasional": 100,
       "Content Writer Homey": 100,
-      "Data Analyst (Business Intelligence)": 77
+      "Data Analyst (Business Intelligence)": 78
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 06:52:06",
-        "source": "github_action",
-        "candidate": "ANDIRA VIRNA AYUNDITA",
-        "position": "Content Writer Homey",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 06:52:31",
         "source": "github_action",
@@ -9290,6 +9283,13 @@
         "timestamp": "2026-04-19 07:39:06",
         "source": "github_action",
         "candidate": "Siti Nur Fatimah",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 07:39:35",
+        "source": "github_action",
+        "candidate": "Audie Nabiel Akmal",
         "position": "Data Analyst (Business Intelligence)",
         "success": true
       }
