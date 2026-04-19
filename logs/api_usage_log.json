@@ -8580,23 +8580,16 @@
     ]
   },
   "2026-04-19": {
-    "total": 112,
+    "total": 113,
     "streamlit": 0,
-    "github_action": 112,
-    "successful": 112,
+    "github_action": 113,
+    "successful": 113,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Megapolitan": 12
+      "Reporter Megapolitan": 13
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 04:13:50",
-        "source": "github_action",
-        "candidate": "Michael Rusli",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 04:14:22",
         "source": "github_action",
@@ -9287,6 +9280,13 @@
         "timestamp": "2026-04-19 05:04:20",
         "source": "github_action",
         "candidate": "Muhammad  Noor",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 05:04:47",
+        "source": "github_action",
+        "candidate": "Fara Maulina Adzkia",
         "position": "Reporter Megapolitan",
         "success": true
       }
