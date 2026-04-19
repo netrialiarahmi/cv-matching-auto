@@ -8580,25 +8580,18 @@
     ]
   },
   "2026-04-19": {
-    "total": 284,
+    "total": 285,
     "streamlit": 0,
-    "github_action": 284,
-    "successful": 284,
+    "github_action": 285,
+    "successful": 285,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 71,
       "Reporter Nasional": 100,
-      "Content Writer Homey": 13
+      "Content Writer Homey": 14
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 05:35:45",
-        "source": "github_action",
-        "candidate": "Restira My Syahputri",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 05:36:12",
         "source": "github_action",
@@ -9289,6 +9282,13 @@
         "timestamp": "2026-04-19 06:22:36",
         "source": "github_action",
         "candidate": "Moh Faizal Lupphy Sahab",
+        "position": "Content Writer Homey",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 06:23:05",
+        "source": "github_action",
+        "candidate": "Gadis Sakiakirti",
         "position": "Content Writer Homey",
         "success": true
       }
