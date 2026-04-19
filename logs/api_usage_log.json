@@ -8580,24 +8580,17 @@
     ]
   },
   "2026-04-19": {
-    "total": 234,
+    "total": 235,
     "streamlit": 0,
-    "github_action": 234,
-    "successful": 234,
+    "github_action": 235,
+    "successful": 235,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 71,
-      "Reporter Nasional": 63
+      "Reporter Nasional": 64
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 05:13:52",
-        "source": "github_action",
-        "candidate": "ANDARI EKA NUR ALLIFAH",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 05:14:17",
         "source": "github_action",
@@ -9288,6 +9281,13 @@
         "timestamp": "2026-04-19 05:58:36",
         "source": "github_action",
         "candidate": "Indira Putri",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 05:59:05",
+        "source": "github_action",
+        "candidate": "Ilham Zikru Romadhon",
         "position": "Reporter Nasional",
         "success": true
       }
