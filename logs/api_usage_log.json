@@ -8580,10 +8580,10 @@
     ]
   },
   "2026-04-19": {
-    "total": 637,
+    "total": 638,
     "streamlit": 0,
-    "github_action": 637,
-    "successful": 637,
+    "github_action": 638,
+    "successful": 638,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
@@ -8592,16 +8592,9 @@
       "Content Writer Homey": 100,
       "Data Analyst (Business Intelligence)": 100,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 66
+      "Account Executive VCBL": 67
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 08:23:13",
-        "source": "github_action",
-        "candidate": "Pinta Rohmada Rahayu",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 08:23:46",
         "source": "github_action",
@@ -9292,6 +9285,13 @@
         "timestamp": "2026-04-19 09:10:21",
         "source": "github_action",
         "candidate": "Muhammad Rizki",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 09:10:49",
+        "source": "github_action",
+        "candidate": "Muhammad Kevandra",
         "position": "Account Executive VCBL",
         "success": true
       }
