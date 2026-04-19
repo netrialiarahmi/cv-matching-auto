@@ -8580,13 +8580,13 @@
     ]
   },
   "2026-04-19": {
-    "total": 98,
+    "total": 99,
     "streamlit": 0,
-    "github_action": 98,
-    "successful": 98,
+    "github_action": 99,
+    "successful": 99,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 98
+      "Marketing Communication Officer KG Media": 99
     },
     "entries": [
       {
@@ -9272,6 +9272,13 @@
         "timestamp": "2026-04-19 04:57:59",
         "source": "github_action",
         "candidate": "Filipa Mutiara",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 04:58:28",
+        "source": "github_action",
+        "candidate": "Pratiwi Rahmadanti",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
