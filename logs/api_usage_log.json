@@ -8580,24 +8580,17 @@
     ]
   },
   "2026-04-19": {
-    "total": 228,
+    "total": 229,
     "streamlit": 0,
-    "github_action": 228,
-    "successful": 228,
+    "github_action": 229,
+    "successful": 229,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 71,
-      "Reporter Nasional": 57
+      "Reporter Nasional": 58
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 05:11:55",
-        "source": "github_action",
-        "candidate": "ananda santria pratama",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 05:12:23",
         "source": "github_action",
@@ -9288,6 +9281,13 @@
         "timestamp": "2026-04-19 05:55:34",
         "source": "github_action",
         "candidate": "Reza Rahmanto",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 05:56:04",
+        "source": "github_action",
+        "candidate": "Ilham Maulana",
         "position": "Reporter Nasional",
         "success": true
       }
