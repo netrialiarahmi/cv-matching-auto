@@ -8580,10 +8580,10 @@
     ]
   },
   "2026-04-19": {
-    "total": 633,
+    "total": 634,
     "streamlit": 0,
-    "github_action": 633,
-    "successful": 633,
+    "github_action": 634,
+    "successful": 634,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
@@ -8592,16 +8592,9 @@
       "Content Writer Homey": 100,
       "Data Analyst (Business Intelligence)": 100,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 62
+      "Account Executive VCBL": 63
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 08:21:35",
-        "source": "github_action",
-        "candidate": "Sarah Laura Tarigan",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 08:22:06",
         "source": "github_action",
@@ -9292,6 +9285,13 @@
         "timestamp": "2026-04-19 09:08:09",
         "source": "github_action",
         "candidate": "Salma Alika",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 09:08:42",
+        "source": "github_action",
+        "candidate": "Lowdy Filan Arsyandi",
         "position": "Account Executive VCBL",
         "success": true
       }
