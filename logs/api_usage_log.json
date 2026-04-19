@@ -8580,24 +8580,17 @@
     ]
   },
   "2026-04-19": {
-    "total": 218,
+    "total": 219,
     "streamlit": 0,
-    "github_action": 218,
-    "successful": 218,
+    "github_action": 219,
+    "successful": 219,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 71,
-      "Reporter Nasional": 47
+      "Reporter Nasional": 48
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 05:07:36",
-        "source": "github_action",
-        "candidate": "MICHELLE PAPILAYA",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 05:08:06",
         "source": "github_action",
@@ -9288,6 +9281,13 @@
         "timestamp": "2026-04-19 05:51:02",
         "source": "github_action",
         "candidate": "Muhammad Iqbal",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 05:51:35",
+        "source": "github_action",
+        "candidate": "Dinar Indrani",
         "position": "Reporter Nasional",
         "success": true
       }
