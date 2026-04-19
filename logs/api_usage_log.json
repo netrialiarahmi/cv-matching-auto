@@ -8580,24 +8580,17 @@
     ]
   },
   "2026-04-19": {
-    "total": 255,
+    "total": 256,
     "streamlit": 0,
-    "github_action": 255,
-    "successful": 255,
+    "github_action": 256,
+    "successful": 256,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 71,
-      "Reporter Nasional": 84
+      "Reporter Nasional": 85
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 05:23:06",
-        "source": "github_action",
-        "candidate": "Fiere Febrian",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 05:23:33",
         "source": "github_action",
@@ -9288,6 +9281,13 @@
         "timestamp": "2026-04-19 06:08:13",
         "source": "github_action",
         "candidate": "Aziizah Azhaar",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 06:08:42",
+        "source": "github_action",
+        "candidate": "Sukriwan  Ramadhan",
         "position": "Reporter Nasional",
         "success": true
       }
