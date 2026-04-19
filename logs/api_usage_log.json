@@ -8580,26 +8580,19 @@
     ]
   },
   "2026-04-19": {
-    "total": 429,
+    "total": 430,
     "streamlit": 0,
-    "github_action": 429,
-    "successful": 429,
+    "github_action": 430,
+    "successful": 430,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 71,
       "Reporter Nasional": 100,
       "Content Writer Homey": 100,
-      "Data Analyst (Business Intelligence)": 58
+      "Data Analyst (Business Intelligence)": 59
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 06:43:32",
-        "source": "github_action",
-        "candidate": "Lazman Auzan  Rasib",
-        "position": "Content Writer Homey",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 06:44:02",
         "source": "github_action",
@@ -9290,6 +9283,13 @@
         "timestamp": "2026-04-19 07:29:44",
         "source": "github_action",
         "candidate": "Gert Antonio Tobing",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 07:30:15",
+        "source": "github_action",
+        "candidate": "Revaldo Sagala",
         "position": "Data Analyst (Business Intelligence)",
         "success": true
       }
