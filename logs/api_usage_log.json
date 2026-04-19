@@ -8580,24 +8580,17 @@
     ]
   },
   "2026-04-19": {
-    "total": 207,
+    "total": 208,
     "streamlit": 0,
-    "github_action": 207,
-    "successful": 207,
+    "github_action": 208,
+    "successful": 208,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 71,
-      "Reporter Nasional": 36
+      "Reporter Nasional": 37
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 05:02:33",
-        "source": "github_action",
-        "candidate": "Diffa Anggraini",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 05:03:00",
         "source": "github_action",
@@ -9288,6 +9281,13 @@
         "timestamp": "2026-04-19 05:45:51",
         "source": "github_action",
         "candidate": "Maulina Amaliya",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 05:46:18",
+        "source": "github_action",
+        "candidate": "Isti Annura Hadistiani",
         "position": "Reporter Nasional",
         "success": true
       }
