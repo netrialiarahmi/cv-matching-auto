@@ -8580,24 +8580,17 @@
     ]
   },
   "2026-04-19": {
-    "total": 248,
+    "total": 249,
     "streamlit": 0,
-    "github_action": 248,
-    "successful": 248,
+    "github_action": 249,
+    "successful": 249,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 71,
-      "Reporter Nasional": 77
+      "Reporter Nasional": 78
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 05:20:06",
-        "source": "github_action",
-        "candidate": "Yoanda Adzra nabilasya",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 05:20:29",
         "source": "github_action",
@@ -9288,6 +9281,13 @@
         "timestamp": "2026-04-19 06:05:30",
         "source": "github_action",
         "candidate": "ALSHA MAULIDA Alwahdy",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 06:06:00",
+        "source": "github_action",
+        "candidate": "Yuan Forevers Kuada",
         "position": "Reporter Nasional",
         "success": true
       }
