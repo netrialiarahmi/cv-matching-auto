@@ -8580,26 +8580,19 @@
     ]
   },
   "2026-04-19": {
-    "total": 431,
+    "total": 432,
     "streamlit": 0,
-    "github_action": 431,
-    "successful": 431,
+    "github_action": 432,
+    "successful": 432,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 71,
       "Reporter Nasional": 100,
       "Content Writer Homey": 100,
-      "Data Analyst (Business Intelligence)": 60
+      "Data Analyst (Business Intelligence)": 61
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 06:44:27",
-        "source": "github_action",
-        "candidate": "Inez Indira Budi",
-        "position": "Content Writer Homey",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 06:44:52",
         "source": "github_action",
@@ -9290,6 +9283,13 @@
         "timestamp": "2026-04-19 07:30:50",
         "source": "github_action",
         "candidate": "Sapto Ariyadi",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 07:31:22",
+        "source": "github_action",
+        "candidate": "Yose Amru Rizal",
         "position": "Data Analyst (Business Intelligence)",
         "success": true
       }
