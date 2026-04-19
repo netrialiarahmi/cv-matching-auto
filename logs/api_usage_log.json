@@ -8580,24 +8580,17 @@
     ]
   },
   "2026-04-19": {
-    "total": 236,
+    "total": 237,
     "streamlit": 0,
-    "github_action": 236,
-    "successful": 236,
+    "github_action": 237,
+    "successful": 237,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 71,
-      "Reporter Nasional": 65
+      "Reporter Nasional": 66
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 05:14:44",
-        "source": "github_action",
-        "candidate": "Anggi Pavilda Ariestiawan Putra",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 05:15:13",
         "source": "github_action",
@@ -9288,6 +9281,13 @@
         "timestamp": "2026-04-19 05:59:33",
         "source": "github_action",
         "candidate": "Umar Falahudin",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 06:00:01",
+        "source": "github_action",
+        "candidate": "ananda santria pratama",
         "position": "Reporter Nasional",
         "success": true
       }
