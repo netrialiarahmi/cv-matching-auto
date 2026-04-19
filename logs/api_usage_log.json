@@ -8580,23 +8580,16 @@
     ]
   },
   "2026-04-19": {
-    "total": 117,
+    "total": 118,
     "streamlit": 0,
-    "github_action": 117,
-    "successful": 117,
+    "github_action": 118,
+    "successful": 118,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Megapolitan": 17
+      "Reporter Megapolitan": 18
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 04:16:25",
-        "source": "github_action",
-        "candidate": "Muammar Tsaqif Abdurrahman",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 04:16:55",
         "source": "github_action",
@@ -9287,6 +9280,13 @@
         "timestamp": "2026-04-19 05:06:42",
         "source": "github_action",
         "candidate": "Lulu Rahma",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 05:07:09",
+        "source": "github_action",
+        "candidate": "Izwadi Harahap",
         "position": "Reporter Megapolitan",
         "success": true
       }
