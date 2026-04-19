@@ -8580,13 +8580,13 @@
     ]
   },
   "2026-04-19": {
-    "total": 14,
+    "total": 15,
     "streamlit": 0,
-    "github_action": 14,
-    "successful": 14,
+    "github_action": 15,
+    "successful": 15,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 14
+      "Marketing Communication Officer KG Media": 15
     },
     "entries": [
       {
@@ -8684,6 +8684,13 @@
         "timestamp": "2026-04-19 04:14:22",
         "source": "github_action",
         "candidate": "Tessa Nandita",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 04:14:51",
+        "source": "github_action",
+        "candidate": "Chilfia Debora Silitonga",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
