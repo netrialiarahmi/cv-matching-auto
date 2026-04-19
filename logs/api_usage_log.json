@@ -8580,13 +8580,13 @@
     ]
   },
   "2026-04-19": {
-    "total": 27,
+    "total": 28,
     "streamlit": 0,
-    "github_action": 27,
-    "successful": 27,
+    "github_action": 28,
+    "successful": 28,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 27
+      "Marketing Communication Officer KG Media": 28
     },
     "entries": [
       {
@@ -8775,6 +8775,13 @@
         "timestamp": "2026-04-19 04:21:11",
         "source": "github_action",
         "candidate": "Amira Zaina",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 04:21:43",
+        "source": "github_action",
+        "candidate": "Hestakhia Pranawati",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
