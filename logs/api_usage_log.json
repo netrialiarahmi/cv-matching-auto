@@ -8580,23 +8580,16 @@
     ]
   },
   "2026-04-19": {
-    "total": 132,
+    "total": 133,
     "streamlit": 0,
-    "github_action": 132,
-    "successful": 132,
+    "github_action": 133,
+    "successful": 133,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Megapolitan": 32
+      "Reporter Megapolitan": 33
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 04:24:19",
-        "source": "github_action",
-        "candidate": "Syifa Dhiarinda Hamdi",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 04:24:53",
         "source": "github_action",
@@ -9287,6 +9280,13 @@
         "timestamp": "2026-04-19 05:12:56",
         "source": "github_action",
         "candidate": "syafira bulan",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 05:13:22",
+        "source": "github_action",
+        "candidate": "Anastasya Yuliarta",
         "position": "Reporter Megapolitan",
         "success": true
       }
