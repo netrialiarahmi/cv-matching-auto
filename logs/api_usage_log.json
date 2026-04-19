@@ -8580,24 +8580,17 @@
     ]
   },
   "2026-04-19": {
-    "total": 263,
+    "total": 264,
     "streamlit": 0,
-    "github_action": 263,
-    "successful": 263,
+    "github_action": 264,
+    "successful": 264,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 71,
-      "Reporter Nasional": 92
+      "Reporter Nasional": 93
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 05:26:15",
-        "source": "github_action",
-        "candidate": "Gregorius Naralatu Dharana",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 05:26:44",
         "source": "github_action",
@@ -9288,6 +9281,13 @@
         "timestamp": "2026-04-19 06:12:16",
         "source": "github_action",
         "candidate": "Amisha Destira elianza",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 06:12:44",
+        "source": "github_action",
+        "candidate": "Bayu Indra Wibowo",
         "position": "Reporter Nasional",
         "success": true
       }
