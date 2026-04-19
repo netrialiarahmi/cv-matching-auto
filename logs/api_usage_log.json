@@ -8580,13 +8580,13 @@
     ]
   },
   "2026-04-19": {
-    "total": 45,
+    "total": 46,
     "streamlit": 0,
-    "github_action": 45,
-    "successful": 45,
+    "github_action": 46,
+    "successful": 46,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 45
+      "Marketing Communication Officer KG Media": 46
     },
     "entries": [
       {
@@ -8901,6 +8901,13 @@
         "timestamp": "2026-04-19 04:30:45",
         "source": "github_action",
         "candidate": "Vania Shauma Salsabila",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 04:31:13",
+        "source": "github_action",
+        "candidate": "Gloria Maranatha",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
