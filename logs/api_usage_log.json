@@ -8580,10 +8580,10 @@
     ]
   },
   "2026-04-19": {
-    "total": 584,
+    "total": 585,
     "streamlit": 0,
-    "github_action": 584,
-    "successful": 584,
+    "github_action": 585,
+    "successful": 585,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
@@ -8592,16 +8592,9 @@
       "Content Writer Homey": 100,
       "Data Analyst (Business Intelligence)": 100,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 13
+      "Account Executive VCBL": 14
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 07:57:11",
-        "source": "github_action",
-        "candidate": "Muhammad Shodiqin",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 07:57:40",
         "source": "github_action",
@@ -9292,6 +9285,13 @@
         "timestamp": "2026-04-19 08:46:01",
         "source": "github_action",
         "candidate": "Amelia Riyanti",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 08:46:05",
+        "source": "github_action",
+        "candidate": "REHAN PAGADILA",
         "position": "Account Executive VCBL",
         "success": true
       }
