@@ -8580,10 +8580,10 @@
     ]
   },
   "2026-04-19": {
-    "total": 618,
+    "total": 619,
     "streamlit": 0,
-    "github_action": 618,
-    "successful": 618,
+    "github_action": 619,
+    "successful": 619,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
@@ -8592,16 +8592,9 @@
       "Content Writer Homey": 100,
       "Data Analyst (Business Intelligence)": 100,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 47
+      "Account Executive VCBL": 48
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 08:14:02",
-        "source": "github_action",
-        "candidate": "Salsabila Posmaryana Utami",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 08:14:31",
         "source": "github_action",
@@ -9292,6 +9285,13 @@
         "timestamp": "2026-04-19 09:00:24",
         "source": "github_action",
         "candidate": "dicky candra darmawan",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 09:00:54",
+        "source": "github_action",
+        "candidate": "Amadhea Putri Namira",
         "position": "Account Executive VCBL",
         "success": true
       }
