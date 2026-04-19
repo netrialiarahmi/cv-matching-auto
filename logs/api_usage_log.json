@@ -8580,24 +8580,17 @@
     ]
   },
   "2026-04-19": {
-    "total": 243,
+    "total": 244,
     "streamlit": 0,
-    "github_action": 243,
-    "successful": 243,
+    "github_action": 244,
+    "successful": 244,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 71,
-      "Reporter Nasional": 72
+      "Reporter Nasional": 73
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 05:17:53",
-        "source": "github_action",
-        "candidate": "Alpian Pratama",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 05:18:18",
         "source": "github_action",
@@ -9288,6 +9281,13 @@
         "timestamp": "2026-04-19 06:03:00",
         "source": "github_action",
         "candidate": "Anjar Palupi",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 06:03:33",
+        "source": "github_action",
+        "candidate": "Selia  Nurazwaima",
         "position": "Reporter Nasional",
         "success": true
       }
