@@ -8580,24 +8580,17 @@
     ]
   },
   "2026-04-19": {
-    "total": 215,
+    "total": 216,
     "streamlit": 0,
-    "github_action": 215,
-    "successful": 215,
+    "github_action": 216,
+    "successful": 216,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 71,
-      "Reporter Nasional": 44
+      "Reporter Nasional": 45
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 05:06:12",
-        "source": "github_action",
-        "candidate": "Tri Devi Wahyu Ningrum",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 05:06:42",
         "source": "github_action",
@@ -9288,6 +9281,13 @@
         "timestamp": "2026-04-19 05:49:35",
         "source": "github_action",
         "candidate": "Anggita Nur Cahyani",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 05:50:04",
+        "source": "github_action",
+        "candidate": "Corry Salsabilla",
         "position": "Reporter Nasional",
         "success": true
       }
