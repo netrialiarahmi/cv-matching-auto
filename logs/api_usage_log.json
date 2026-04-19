@@ -8580,26 +8580,19 @@
     ]
   },
   "2026-04-19": {
-    "total": 389,
+    "total": 390,
     "streamlit": 0,
-    "github_action": 389,
-    "successful": 389,
+    "github_action": 390,
+    "successful": 390,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 71,
       "Reporter Nasional": 100,
       "Content Writer Homey": 100,
-      "Data Analyst (Business Intelligence)": 18
+      "Data Analyst (Business Intelligence)": 19
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 06:25:08",
-        "source": "github_action",
-        "candidate": "Muhammad Naufal Putranryo",
-        "position": "Content Writer Homey",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 06:25:36",
         "source": "github_action",
@@ -9290,6 +9283,13 @@
         "timestamp": "2026-04-19 07:10:52",
         "source": "github_action",
         "candidate": "Muhammad Jilham",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 07:11:21",
+        "source": "github_action",
+        "candidate": "Ellena Dio paska",
         "position": "Data Analyst (Business Intelligence)",
         "success": true
       }
