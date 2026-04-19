@@ -8580,13 +8580,13 @@
     ]
   },
   "2026-04-19": {
-    "total": 17,
+    "total": 18,
     "streamlit": 0,
-    "github_action": 17,
-    "successful": 17,
+    "github_action": 18,
+    "successful": 18,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 17
+      "Marketing Communication Officer KG Media": 18
     },
     "entries": [
       {
@@ -8705,6 +8705,13 @@
         "timestamp": "2026-04-19 04:15:52",
         "source": "github_action",
         "candidate": "Jessica Trioktora",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 04:16:25",
+        "source": "github_action",
+        "candidate": "Muammar Tsaqif Abdurrahman",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
