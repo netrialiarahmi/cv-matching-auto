@@ -8580,24 +8580,17 @@
     ]
   },
   "2026-04-19": {
-    "total": 172,
+    "total": 173,
     "streamlit": 0,
-    "github_action": 172,
-    "successful": 172,
+    "github_action": 173,
+    "successful": 173,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 71,
-      "Reporter Nasional": 1
+      "Reporter Nasional": 2
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 04:45:18",
-        "source": "github_action",
-        "candidate": "Elvina Lyonita Saputri",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 04:45:52",
         "source": "github_action",
@@ -9288,6 +9281,13 @@
         "timestamp": "2026-04-19 05:30:03",
         "source": "github_action",
         "candidate": "Andito  Gifari",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 05:30:34",
+        "source": "github_action",
+        "candidate": "Fano Eger",
         "position": "Reporter Nasional",
         "success": true
       }
