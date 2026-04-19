@@ -8580,24 +8580,17 @@
     ]
   },
   "2026-04-19": {
-    "total": 244,
+    "total": 245,
     "streamlit": 0,
-    "github_action": 244,
-    "successful": 244,
+    "github_action": 245,
+    "successful": 245,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 71,
-      "Reporter Nasional": 73
+      "Reporter Nasional": 74
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 05:18:18",
-        "source": "github_action",
-        "candidate": "Layla Ilma",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 05:18:45",
         "source": "github_action",
@@ -9288,6 +9281,13 @@
         "timestamp": "2026-04-19 06:03:33",
         "source": "github_action",
         "candidate": "Selia  Nurazwaima",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 06:04:02",
+        "source": "github_action",
+        "candidate": "Asyadillah Althaf",
         "position": "Reporter Nasional",
         "success": true
       }
