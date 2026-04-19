@@ -8580,13 +8580,13 @@
     ]
   },
   "2026-04-19": {
-    "total": 21,
+    "total": 22,
     "streamlit": 0,
-    "github_action": 21,
-    "successful": 21,
+    "github_action": 22,
+    "successful": 22,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 21
+      "Marketing Communication Officer KG Media": 22
     },
     "entries": [
       {
@@ -8733,6 +8733,13 @@
         "timestamp": "2026-04-19 04:18:03",
         "source": "github_action",
         "candidate": "Vincent Lingga",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 04:18:36",
+        "source": "github_action",
+        "candidate": "DINA ZULFA FAUZIYYAH",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
