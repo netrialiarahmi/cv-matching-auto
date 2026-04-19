@@ -8580,23 +8580,16 @@
     ]
   },
   "2026-04-19": {
-    "total": 134,
+    "total": 135,
     "streamlit": 0,
-    "github_action": 134,
-    "successful": 134,
+    "github_action": 135,
+    "successful": 135,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Megapolitan": 34
+      "Reporter Megapolitan": 35
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 04:25:28",
-        "source": "github_action",
-        "candidate": "Gilang Anjar Rinaldy",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 04:26:01",
         "source": "github_action",
@@ -9287,6 +9280,13 @@
         "timestamp": "2026-04-19 05:13:48",
         "source": "github_action",
         "candidate": "Parlin Martua Silitonga",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 05:13:52",
+        "source": "github_action",
+        "candidate": "ANDARI EKA NUR ALLIFAH",
         "position": "Reporter Megapolitan",
         "success": true
       }
