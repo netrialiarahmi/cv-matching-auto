@@ -8580,25 +8580,18 @@
     ]
   },
   "2026-04-19": {
-    "total": 328,
+    "total": 329,
     "streamlit": 0,
-    "github_action": 328,
-    "successful": 328,
+    "github_action": 329,
+    "successful": 329,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 71,
       "Reporter Nasional": 100,
-      "Content Writer Homey": 57
+      "Content Writer Homey": 58
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 05:56:04",
-        "source": "github_action",
-        "candidate": "Ilham Maulana",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 05:56:32",
         "source": "github_action",
@@ -9289,6 +9282,13 @@
         "timestamp": "2026-04-19 06:42:33",
         "source": "github_action",
         "candidate": "Natasha Elizabeth",
+        "position": "Content Writer Homey",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 06:43:05",
+        "source": "github_action",
+        "candidate": "andreas setya",
         "position": "Content Writer Homey",
         "success": true
       }
