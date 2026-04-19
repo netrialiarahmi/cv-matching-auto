@@ -8580,24 +8580,17 @@
     ]
   },
   "2026-04-19": {
-    "total": 257,
+    "total": 258,
     "streamlit": 0,
-    "github_action": 257,
-    "successful": 257,
+    "github_action": 258,
+    "successful": 258,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 71,
-      "Reporter Nasional": 86
+      "Reporter Nasional": 87
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 05:23:58",
-        "source": "github_action",
-        "candidate": "andi rizka FA",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 05:24:23",
         "source": "github_action",
@@ -9288,6 +9281,13 @@
         "timestamp": "2026-04-19 06:09:10",
         "source": "github_action",
         "candidate": "Salma Shalsabilla",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 06:09:42",
+        "source": "github_action",
+        "candidate": "Muhammad Fadli Sinatrya",
         "position": "Reporter Nasional",
         "success": true
       }
