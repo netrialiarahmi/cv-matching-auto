@@ -8580,25 +8580,18 @@
     ]
   },
   "2026-04-19": {
-    "total": 362,
+    "total": 363,
     "streamlit": 0,
-    "github_action": 362,
-    "successful": 362,
+    "github_action": 363,
+    "successful": 363,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 71,
       "Reporter Nasional": 100,
-      "Content Writer Homey": 91
+      "Content Writer Homey": 92
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 06:12:16",
-        "source": "github_action",
-        "candidate": "Amisha Destira elianza",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 06:12:44",
         "source": "github_action",
@@ -9289,6 +9282,13 @@
         "timestamp": "2026-04-19 06:57:26",
         "source": "github_action",
         "candidate": "Viky Kosasih",
+        "position": "Content Writer Homey",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 06:57:54",
+        "source": "github_action",
+        "candidate": "fajar algi",
         "position": "Content Writer Homey",
         "success": true
       }
