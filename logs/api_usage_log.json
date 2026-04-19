@@ -8580,26 +8580,19 @@
     ]
   },
   "2026-04-19": {
-    "total": 375,
+    "total": 376,
     "streamlit": 0,
-    "github_action": 375,
-    "successful": 375,
+    "github_action": 376,
+    "successful": 376,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 71,
       "Reporter Nasional": 100,
       "Content Writer Homey": 100,
-      "Data Analyst (Business Intelligence)": 4
+      "Data Analyst (Business Intelligence)": 5
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 06:18:57",
-        "source": "github_action",
-        "candidate": "Tasya Aprillia",
-        "position": "Content Writer Homey",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 06:19:30",
         "source": "github_action",
@@ -9290,6 +9283,13 @@
         "timestamp": "2026-04-19 07:03:18",
         "source": "github_action",
         "candidate": "Rizal Rahman R",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 07:03:54",
+        "source": "github_action",
+        "candidate": "Mohamad Bhakti Adhi Yaksa",
         "position": "Data Analyst (Business Intelligence)",
         "success": true
       }
