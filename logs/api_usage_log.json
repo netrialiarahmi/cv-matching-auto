@@ -8580,23 +8580,16 @@
     ]
   },
   "2026-04-19": {
-    "total": 124,
+    "total": 125,
     "streamlit": 0,
-    "github_action": 124,
-    "successful": 124,
+    "github_action": 125,
+    "successful": 125,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Megapolitan": 24
+      "Reporter Megapolitan": 25
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 04:20:12",
-        "source": "github_action",
-        "candidate": "Fathurreza Febrian",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 04:20:41",
         "source": "github_action",
@@ -9287,6 +9280,13 @@
         "timestamp": "2026-04-19 05:10:01",
         "source": "github_action",
         "candidate": "Naufal Hadad",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 05:10:29",
+        "source": "github_action",
+        "candidate": "Sevty Adinia",
         "position": "Reporter Megapolitan",
         "success": true
       }
