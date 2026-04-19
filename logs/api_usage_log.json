@@ -8580,24 +8580,17 @@
     ]
   },
   "2026-04-19": {
-    "total": 203,
+    "total": 204,
     "streamlit": 0,
-    "github_action": 203,
-    "successful": 203,
+    "github_action": 204,
+    "successful": 204,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 71,
-      "Reporter Nasional": 32
+      "Reporter Nasional": 33
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 05:00:46",
-        "source": "github_action",
-        "candidate": "Fajar Alim Mutaqin",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 05:01:12",
         "source": "github_action",
@@ -9288,6 +9281,13 @@
         "timestamp": "2026-04-19 05:44:41",
         "source": "github_action",
         "candidate": "Iqbal Fakhriza",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 05:44:46",
+        "source": "github_action",
+        "candidate": "Fawwaz Azmi Iltizam",
         "position": "Reporter Nasional",
         "success": true
       }
