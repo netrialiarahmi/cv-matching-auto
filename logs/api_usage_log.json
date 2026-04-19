@@ -8580,26 +8580,19 @@
     ]
   },
   "2026-04-19": {
-    "total": 470,
+    "total": 471,
     "streamlit": 0,
-    "github_action": 470,
-    "successful": 470,
+    "github_action": 471,
+    "successful": 471,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 71,
       "Reporter Nasional": 100,
       "Content Writer Homey": 100,
-      "Data Analyst (Business Intelligence)": 99
+      "Data Analyst (Business Intelligence)": 100
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 07:01:32",
-        "source": "github_action",
-        "candidate": "Fery Suryadi",
-        "position": "Content Writer Homey",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 07:01:37",
         "source": "github_action",
@@ -9290,6 +9283,13 @@
         "timestamp": "2026-04-19 07:49:45",
         "source": "github_action",
         "candidate": "Adithya Fazriel",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 07:50:14",
+        "source": "github_action",
+        "candidate": "Devi Novita Simatupang",
         "position": "Data Analyst (Business Intelligence)",
         "success": true
       }
