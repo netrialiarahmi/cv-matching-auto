@@ -8580,23 +8580,16 @@
     ]
   },
   "2026-04-19": {
-    "total": 143,
+    "total": 144,
     "streamlit": 0,
-    "github_action": 143,
-    "successful": 143,
+    "github_action": 144,
+    "successful": 144,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Megapolitan": 43
+      "Reporter Megapolitan": 44
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 04:30:05",
-        "source": "github_action",
-        "candidate": "Elsani Nurwasiah Ali Takrim",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 04:30:45",
         "source": "github_action",
@@ -9287,6 +9280,13 @@
         "timestamp": "2026-04-19 05:17:27",
         "source": "github_action",
         "candidate": "Ayulia Soma",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 05:17:53",
+        "source": "github_action",
+        "candidate": "Alpian Pratama",
         "position": "Reporter Megapolitan",
         "success": true
       }
