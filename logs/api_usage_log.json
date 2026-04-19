@@ -8580,25 +8580,18 @@
     ]
   },
   "2026-04-19": {
-    "total": 363,
+    "total": 364,
     "streamlit": 0,
-    "github_action": 363,
-    "successful": 363,
+    "github_action": 364,
+    "successful": 364,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 71,
       "Reporter Nasional": 100,
-      "Content Writer Homey": 92
+      "Content Writer Homey": 93
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 06:12:44",
-        "source": "github_action",
-        "candidate": "Bayu Indra Wibowo",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 06:13:13",
         "source": "github_action",
@@ -9289,6 +9282,13 @@
         "timestamp": "2026-04-19 06:57:54",
         "source": "github_action",
         "candidate": "fajar algi",
+        "position": "Content Writer Homey",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 06:58:22",
+        "source": "github_action",
+        "candidate": "Sendi Zikri Julian Fadilah",
         "position": "Content Writer Homey",
         "success": true
       }
