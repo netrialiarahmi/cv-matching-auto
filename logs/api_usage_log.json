@@ -8580,24 +8580,17 @@
     ]
   },
   "2026-04-19": {
-    "total": 179,
+    "total": 180,
     "streamlit": 0,
-    "github_action": 179,
-    "successful": 179,
+    "github_action": 180,
+    "successful": 180,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 71,
-      "Reporter Nasional": 8
+      "Reporter Nasional": 9
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 04:48:59",
-        "source": "github_action",
-        "candidate": "Gerry Yudistira Wijaya",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 04:49:32",
         "source": "github_action",
@@ -9288,6 +9281,13 @@
         "timestamp": "2026-04-19 05:33:11",
         "source": "github_action",
         "candidate": "Inayah Kurniawati",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 05:33:42",
+        "source": "github_action",
+        "candidate": "Muhamad Farhan",
         "position": "Reporter Nasional",
         "success": true
       }
