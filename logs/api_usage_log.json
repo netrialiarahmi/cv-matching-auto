@@ -8580,24 +8580,17 @@
     ]
   },
   "2026-04-19": {
-    "total": 185,
+    "total": 186,
     "streamlit": 0,
-    "github_action": 185,
-    "successful": 185,
+    "github_action": 186,
+    "successful": 186,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 71,
-      "Reporter Nasional": 14
+      "Reporter Nasional": 15
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 04:51:47",
-        "source": "github_action",
-        "candidate": "Achmad Iqbal Hartanto",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 04:52:19",
         "source": "github_action",
@@ -9288,6 +9281,13 @@
         "timestamp": "2026-04-19 05:35:45",
         "source": "github_action",
         "candidate": "Restira My Syahputri",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 05:36:12",
+        "source": "github_action",
+        "candidate": "Qonita Hamidah",
         "position": "Reporter Nasional",
         "success": true
       }
