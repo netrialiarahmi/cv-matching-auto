@@ -8580,10 +8580,10 @@
     ]
   },
   "2026-04-19": {
-    "total": 543,
+    "total": 544,
     "streamlit": 0,
-    "github_action": 543,
-    "successful": 543,
+    "github_action": 544,
+    "successful": 544,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
@@ -8591,16 +8591,9 @@
       "Reporter Nasional": 100,
       "Content Writer Homey": 100,
       "Data Analyst (Business Intelligence)": 100,
-      "Business Development Analyst": 72
+      "Business Development Analyst": 73
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 07:37:11",
-        "source": "github_action",
-        "candidate": "Ramadhan Pratama",
-        "position": "Data Analyst (Business Intelligence)",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 07:37:41",
         "source": "github_action",
@@ -9291,6 +9284,13 @@
         "timestamp": "2026-04-19 08:25:53",
         "source": "github_action",
         "candidate": "Indhira Amarta  Mahanani",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 08:26:23",
+        "source": "github_action",
+        "candidate": "Alfieny Putri Heriyanto",
         "position": "Business Development Analyst",
         "success": true
       }
