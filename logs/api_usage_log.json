@@ -8580,25 +8580,18 @@
     ]
   },
   "2026-04-19": {
-    "total": 350,
+    "total": 351,
     "streamlit": 0,
-    "github_action": 350,
-    "successful": 350,
+    "github_action": 351,
+    "successful": 351,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 71,
       "Reporter Nasional": 100,
-      "Content Writer Homey": 79
+      "Content Writer Homey": 80
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 06:07:03",
-        "source": "github_action",
-        "candidate": "Adelia Kartika Nur Huda",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 06:07:33",
         "source": "github_action",
@@ -9289,6 +9282,13 @@
         "timestamp": "2026-04-19 06:52:31",
         "source": "github_action",
         "candidate": "Yulia Rosa Purba",
+        "position": "Content Writer Homey",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 06:52:57",
+        "source": "github_action",
+        "candidate": "Ecik Saliman",
         "position": "Content Writer Homey",
         "success": true
       }
