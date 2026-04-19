@@ -8580,10 +8580,10 @@
     ]
   },
   "2026-04-19": {
-    "total": 487,
+    "total": 488,
     "streamlit": 0,
-    "github_action": 487,
-    "successful": 487,
+    "github_action": 488,
+    "successful": 488,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
@@ -8591,16 +8591,9 @@
       "Reporter Nasional": 100,
       "Content Writer Homey": 100,
       "Data Analyst (Business Intelligence)": 100,
-      "Business Development Analyst": 16
+      "Business Development Analyst": 17
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 07:10:17",
-        "source": "github_action",
-        "candidate": "Nurul  Ummah",
-        "position": "Data Analyst (Business Intelligence)",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 07:10:52",
         "source": "github_action",
@@ -9291,6 +9284,13 @@
         "timestamp": "2026-04-19 07:58:14",
         "source": "github_action",
         "candidate": "Muhammad Althaf Suwanda",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 07:58:47",
+        "source": "github_action",
+        "candidate": "Ghaisani Nabilah Putri",
         "position": "Business Development Analyst",
         "success": true
       }
