@@ -8580,10 +8580,10 @@
     ]
   },
   "2026-04-19": {
-    "total": 586,
+    "total": 587,
     "streamlit": 0,
-    "github_action": 586,
-    "successful": 586,
+    "github_action": 587,
+    "successful": 587,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
@@ -8592,16 +8592,9 @@
       "Content Writer Homey": 100,
       "Data Analyst (Business Intelligence)": 100,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 15
+      "Account Executive VCBL": 16
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 07:58:14",
-        "source": "github_action",
-        "candidate": "Muhammad Althaf Suwanda",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 07:58:47",
         "source": "github_action",
@@ -9292,6 +9285,13 @@
         "timestamp": "2026-04-19 08:46:35",
         "source": "github_action",
         "candidate": "Faiz Ardana Sani",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 08:46:39",
+        "source": "github_action",
+        "candidate": "Korin Indriani",
         "position": "Account Executive VCBL",
         "success": true
       }
