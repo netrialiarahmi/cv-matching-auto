@@ -8580,23 +8580,16 @@
     ]
   },
   "2026-04-19": {
-    "total": 120,
+    "total": 121,
     "streamlit": 0,
-    "github_action": 120,
-    "successful": 120,
+    "github_action": 121,
+    "successful": 121,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Megapolitan": 20
+      "Reporter Megapolitan": 21
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 04:18:03",
-        "source": "github_action",
-        "candidate": "Vincent Lingga",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 04:18:36",
         "source": "github_action",
@@ -9287,6 +9280,13 @@
         "timestamp": "2026-04-19 05:08:06",
         "source": "github_action",
         "candidate": "Fraya Diaz Rasyade",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 05:08:35",
+        "source": "github_action",
+        "candidate": "Laras Iqrimatus Solihah",
         "position": "Reporter Megapolitan",
         "success": true
       }
