@@ -8580,23 +8580,16 @@
     ]
   },
   "2026-04-19": {
-    "total": 163,
+    "total": 164,
     "streamlit": 0,
-    "github_action": 163,
-    "successful": 163,
+    "github_action": 164,
+    "successful": 164,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Megapolitan": 63
+      "Reporter Megapolitan": 64
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 04:40:37",
-        "source": "github_action",
-        "candidate": "Lulu Arsylia",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 04:41:07",
         "source": "github_action",
@@ -9287,6 +9280,13 @@
         "timestamp": "2026-04-19 05:25:48",
         "source": "github_action",
         "candidate": "Alipia Sabina",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 05:26:15",
+        "source": "github_action",
+        "candidate": "Gregorius Naralatu Dharana",
         "position": "Reporter Megapolitan",
         "success": true
       }
