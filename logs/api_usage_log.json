@@ -8580,25 +8580,18 @@
     ]
   },
   "2026-04-19": {
-    "total": 355,
+    "total": 356,
     "streamlit": 0,
-    "github_action": 355,
-    "successful": 355,
+    "github_action": 356,
+    "successful": 356,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 71,
       "Reporter Nasional": 100,
-      "Content Writer Homey": 84
+      "Content Writer Homey": 85
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 06:08:42",
-        "source": "github_action",
-        "candidate": "Sukriwan  Ramadhan",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 06:09:10",
         "source": "github_action",
@@ -9289,6 +9282,13 @@
         "timestamp": "2026-04-19 06:54:45",
         "source": "github_action",
         "candidate": "Alfina Winda Choyrala",
+        "position": "Content Writer Homey",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 06:55:10",
+        "source": "github_action",
+        "candidate": "DWITYA ARTHA RIO",
         "position": "Content Writer Homey",
         "success": true
       }
