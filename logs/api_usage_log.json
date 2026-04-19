@@ -8580,13 +8580,13 @@
     ]
   },
   "2026-04-19": {
-    "total": 48,
+    "total": 49,
     "streamlit": 0,
-    "github_action": 48,
-    "successful": 48,
+    "github_action": 49,
+    "successful": 49,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 48
+      "Marketing Communication Officer KG Media": 49
     },
     "entries": [
       {
@@ -8922,6 +8922,13 @@
         "timestamp": "2026-04-19 04:32:20",
         "source": "github_action",
         "candidate": "Altaft alfarizki",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 04:32:53",
+        "source": "github_action",
+        "candidate": "Salwa Putri",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
