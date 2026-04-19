@@ -8580,25 +8580,18 @@
     ]
   },
   "2026-04-19": {
-    "total": 327,
+    "total": 328,
     "streamlit": 0,
-    "github_action": 327,
-    "successful": 327,
+    "github_action": 328,
+    "successful": 328,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 71,
       "Reporter Nasional": 100,
-      "Content Writer Homey": 56
+      "Content Writer Homey": 57
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 05:55:34",
-        "source": "github_action",
-        "candidate": "Reza Rahmanto",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 05:56:04",
         "source": "github_action",
@@ -9289,6 +9282,13 @@
         "timestamp": "2026-04-19 06:42:02",
         "source": "github_action",
         "candidate": "Adhe Prastyo",
+        "position": "Content Writer Homey",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 06:42:33",
+        "source": "github_action",
+        "candidate": "Natasha Elizabeth",
         "position": "Content Writer Homey",
         "success": true
       }
