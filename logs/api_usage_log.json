@@ -8580,25 +8580,18 @@
     ]
   },
   "2026-04-19": {
-    "total": 326,
+    "total": 327,
     "streamlit": 0,
-    "github_action": 326,
-    "successful": 326,
+    "github_action": 327,
+    "successful": 327,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 71,
       "Reporter Nasional": 100,
-      "Content Writer Homey": 55
+      "Content Writer Homey": 56
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 05:55:04",
-        "source": "github_action",
-        "candidate": "BAGUS SADEWO",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 05:55:34",
         "source": "github_action",
@@ -9289,6 +9282,13 @@
         "timestamp": "2026-04-19 06:41:36",
         "source": "github_action",
         "candidate": "Ii  Widya",
+        "position": "Content Writer Homey",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 06:42:02",
+        "source": "github_action",
+        "candidate": "Adhe Prastyo",
         "position": "Content Writer Homey",
         "success": true
       }
