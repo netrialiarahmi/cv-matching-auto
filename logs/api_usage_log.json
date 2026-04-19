@@ -8580,23 +8580,16 @@
     ]
   },
   "2026-04-19": {
-    "total": 137,
+    "total": 138,
     "streamlit": 0,
-    "github_action": 137,
-    "successful": 137,
+    "github_action": 138,
+    "successful": 138,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Megapolitan": 37
+      "Reporter Megapolitan": 38
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 04:27:02",
-        "source": "github_action",
-        "candidate": "Thalia Ashifa",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 04:27:35",
         "source": "github_action",
@@ -9287,6 +9280,13 @@
         "timestamp": "2026-04-19 05:14:44",
         "source": "github_action",
         "candidate": "Anggi Pavilda Ariestiawan Putra",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 05:15:13",
+        "source": "github_action",
+        "candidate": "Mega Rizka",
         "position": "Reporter Megapolitan",
         "success": true
       }
