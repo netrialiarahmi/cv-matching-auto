@@ -8580,24 +8580,17 @@
     ]
   },
   "2026-04-19": {
-    "total": 220,
+    "total": 221,
     "streamlit": 0,
-    "github_action": 220,
-    "successful": 220,
+    "github_action": 221,
+    "successful": 221,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 71,
-      "Reporter Nasional": 49
+      "Reporter Nasional": 50
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 05:08:35",
-        "source": "github_action",
-        "candidate": "Laras Iqrimatus Solihah",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 05:09:04",
         "source": "github_action",
@@ -9288,6 +9281,13 @@
         "timestamp": "2026-04-19 05:52:07",
         "source": "github_action",
         "candidate": "Devita Nur Azizah",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 05:52:35",
+        "source": "github_action",
+        "candidate": "Syahrul Rifai Tri Laksono",
         "position": "Reporter Nasional",
         "success": true
       }
