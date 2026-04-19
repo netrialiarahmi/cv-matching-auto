@@ -8580,26 +8580,19 @@
     ]
   },
   "2026-04-19": {
-    "total": 396,
+    "total": 397,
     "streamlit": 0,
-    "github_action": 396,
-    "successful": 396,
+    "github_action": 397,
+    "successful": 397,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 71,
       "Reporter Nasional": 100,
       "Content Writer Homey": 100,
-      "Data Analyst (Business Intelligence)": 25
+      "Data Analyst (Business Intelligence)": 26
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 06:28:33",
-        "source": "github_action",
-        "candidate": "Muhamad Ichsan  Hidayatullah",
-        "position": "Content Writer Homey",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 06:28:59",
         "source": "github_action",
@@ -9290,6 +9283,13 @@
         "timestamp": "2026-04-19 07:14:13",
         "source": "github_action",
         "candidate": "Rahmanda Eko  Nugroho",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 07:14:43",
+        "source": "github_action",
+        "candidate": "Reswara Fawwaz",
         "position": "Data Analyst (Business Intelligence)",
         "success": true
       }
