@@ -8580,13 +8580,13 @@
     ]
   },
   "2026-04-19": {
-    "total": 97,
+    "total": 98,
     "streamlit": 0,
-    "github_action": 97,
-    "successful": 97,
+    "github_action": 98,
+    "successful": 98,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 97
+      "Marketing Communication Officer KG Media": 98
     },
     "entries": [
       {
@@ -9265,6 +9265,13 @@
         "timestamp": "2026-04-19 04:57:29",
         "source": "github_action",
         "candidate": "Fina Septiani",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 04:57:59",
+        "source": "github_action",
+        "candidate": "Filipa Mutiara",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
