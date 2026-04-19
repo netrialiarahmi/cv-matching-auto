@@ -8580,23 +8580,16 @@
     ]
   },
   "2026-04-19": {
-    "total": 116,
+    "total": 117,
     "streamlit": 0,
-    "github_action": 116,
-    "successful": 116,
+    "github_action": 117,
+    "successful": 117,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Megapolitan": 16
+      "Reporter Megapolitan": 17
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 04:15:52",
-        "source": "github_action",
-        "candidate": "Jessica Trioktora",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 04:16:25",
         "source": "github_action",
@@ -9287,6 +9280,13 @@
         "timestamp": "2026-04-19 05:06:12",
         "source": "github_action",
         "candidate": "Tri Devi Wahyu Ningrum",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 05:06:42",
+        "source": "github_action",
+        "candidate": "Lulu Rahma",
         "position": "Reporter Megapolitan",
         "success": true
       }
