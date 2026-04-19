@@ -8580,23 +8580,16 @@
     ]
   },
   "2026-04-19": {
-    "total": 123,
+    "total": 124,
     "streamlit": 0,
-    "github_action": 123,
-    "successful": 123,
+    "github_action": 124,
+    "successful": 124,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Megapolitan": 23
+      "Reporter Megapolitan": 24
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 04:19:40",
-        "source": "github_action",
-        "candidate": "Monica Desideria",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 04:20:12",
         "source": "github_action",
@@ -9287,6 +9280,13 @@
         "timestamp": "2026-04-19 05:09:34",
         "source": "github_action",
         "candidate": "Amelia Fadila",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 05:10:01",
+        "source": "github_action",
+        "candidate": "Naufal Hadad",
         "position": "Reporter Megapolitan",
         "success": true
       }
