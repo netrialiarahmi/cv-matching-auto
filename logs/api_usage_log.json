@@ -8580,26 +8580,19 @@
     ]
   },
   "2026-04-19": {
-    "total": 400,
+    "total": 401,
     "streamlit": 0,
-    "github_action": 400,
-    "successful": 400,
+    "github_action": 401,
+    "successful": 401,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 71,
       "Reporter Nasional": 100,
       "Content Writer Homey": 100,
-      "Data Analyst (Business Intelligence)": 29
+      "Data Analyst (Business Intelligence)": 30
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 06:30:31",
-        "source": "github_action",
-        "candidate": "Ruben Tobing",
-        "position": "Content Writer Homey",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 06:30:58",
         "source": "github_action",
@@ -9290,6 +9283,13 @@
         "timestamp": "2026-04-19 07:15:47",
         "source": "github_action",
         "candidate": "Nicholas Alven",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 07:16:16",
+        "source": "github_action",
+        "candidate": "Putri Andini Novianti",
         "position": "Data Analyst (Business Intelligence)",
         "success": true
       }
