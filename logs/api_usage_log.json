@@ -8580,24 +8580,17 @@
     ]
   },
   "2026-04-19": {
-    "total": 192,
+    "total": 193,
     "streamlit": 0,
-    "github_action": 192,
-    "successful": 192,
+    "github_action": 193,
+    "successful": 193,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 71,
-      "Reporter Nasional": 21
+      "Reporter Nasional": 22
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 04:55:19",
-        "source": "github_action",
-        "candidate": "Romiyanti Uli Septerina Panggabean",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 04:55:51",
         "source": "github_action",
@@ -9288,6 +9281,13 @@
         "timestamp": "2026-04-19 05:39:18",
         "source": "github_action",
         "candidate": "Muhammad Arief  Adhistyo Hidayat",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 05:39:49",
+        "source": "github_action",
+        "candidate": "Regina Mahal Fitrah",
         "position": "Reporter Nasional",
         "success": true
       }
