@@ -8580,24 +8580,17 @@
     ]
   },
   "2026-04-19": {
-    "total": 235,
+    "total": 236,
     "streamlit": 0,
-    "github_action": 235,
-    "successful": 235,
+    "github_action": 236,
+    "successful": 236,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 71,
-      "Reporter Nasional": 64
+      "Reporter Nasional": 65
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 05:14:17",
-        "source": "github_action",
-        "candidate": "Mikhail Zidane",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 05:14:44",
         "source": "github_action",
@@ -9288,6 +9281,13 @@
         "timestamp": "2026-04-19 05:59:05",
         "source": "github_action",
         "candidate": "Ilham Zikru Romadhon",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 05:59:33",
+        "source": "github_action",
+        "candidate": "Umar Falahudin",
         "position": "Reporter Nasional",
         "success": true
       }
