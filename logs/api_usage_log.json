@@ -8580,25 +8580,18 @@
     ]
   },
   "2026-04-19": {
-    "total": 280,
+    "total": 281,
     "streamlit": 0,
-    "github_action": 280,
-    "successful": 280,
+    "github_action": 281,
+    "successful": 281,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 71,
       "Reporter Nasional": 100,
-      "Content Writer Homey": 9
+      "Content Writer Homey": 10
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 05:34:13",
-        "source": "github_action",
-        "candidate": "Gilang pramudia",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 05:34:39",
         "source": "github_action",
@@ -9289,6 +9282,13 @@
         "timestamp": "2026-04-19 06:20:58",
         "source": "github_action",
         "candidate": "Elly Shofia Nurrochmah",
+        "position": "Content Writer Homey",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 06:21:27",
+        "source": "github_action",
+        "candidate": "Hari Andriono Widodo M",
         "position": "Content Writer Homey",
         "success": true
       }
