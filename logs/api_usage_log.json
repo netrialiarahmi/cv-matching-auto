@@ -8580,25 +8580,18 @@
     ]
   },
   "2026-04-19": {
-    "total": 297,
+    "total": 298,
     "streamlit": 0,
-    "github_action": 297,
-    "successful": 297,
+    "github_action": 298,
+    "successful": 298,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 71,
       "Reporter Nasional": 100,
-      "Content Writer Homey": 26
+      "Content Writer Homey": 27
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 05:42:09",
-        "source": "github_action",
-        "candidate": "Anisa Nur Syafitri",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 05:42:35",
         "source": "github_action",
@@ -9289,6 +9282,13 @@
         "timestamp": "2026-04-19 06:28:33",
         "source": "github_action",
         "candidate": "Muhamad Ichsan  Hidayatullah",
+        "position": "Content Writer Homey",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 06:28:59",
+        "source": "github_action",
+        "candidate": "Dilla Rahma",
         "position": "Content Writer Homey",
         "success": true
       }
