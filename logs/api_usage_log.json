@@ -8580,23 +8580,16 @@
     ]
   },
   "2026-04-19": {
-    "total": 154,
+    "total": 155,
     "streamlit": 0,
-    "github_action": 154,
-    "successful": 154,
+    "github_action": 155,
+    "successful": 155,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Megapolitan": 54
+      "Reporter Megapolitan": 55
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 04:35:57",
-        "source": "github_action",
-        "candidate": "Adelya  Rizky Safanisa",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 04:36:27",
         "source": "github_action",
@@ -9287,6 +9280,13 @@
         "timestamp": "2026-04-19 05:22:15",
         "source": "github_action",
         "candidate": "Bimo Radityo",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 05:22:42",
+        "source": "github_action",
+        "candidate": "Aryca Pratami",
         "position": "Reporter Megapolitan",
         "success": true
       }
