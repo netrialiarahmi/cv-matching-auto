@@ -8580,10 +8580,10 @@
     ]
   },
   "2026-04-19": {
-    "total": 616,
+    "total": 617,
     "streamlit": 0,
-    "github_action": 616,
-    "successful": 616,
+    "github_action": 617,
+    "successful": 617,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
@@ -8592,16 +8592,9 @@
       "Content Writer Homey": 100,
       "Data Analyst (Business Intelligence)": 100,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 45
+      "Account Executive VCBL": 46
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 08:13:03",
-        "source": "github_action",
-        "candidate": "Anglir Ratna Widuri",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 08:13:32",
         "source": "github_action",
@@ -9292,6 +9285,13 @@
         "timestamp": "2026-04-19 08:59:27",
         "source": "github_action",
         "candidate": "Syarif Antoni",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 08:59:55",
+        "source": "github_action",
+        "candidate": "Vanya Soraya Irsanti",
         "position": "Account Executive VCBL",
         "success": true
       }
