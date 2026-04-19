@@ -8580,26 +8580,19 @@
     ]
   },
   "2026-04-19": {
-    "total": 390,
+    "total": 391,
     "streamlit": 0,
-    "github_action": 390,
-    "successful": 390,
+    "github_action": 391,
+    "successful": 391,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 71,
       "Reporter Nasional": 100,
       "Content Writer Homey": 100,
-      "Data Analyst (Business Intelligence)": 19
+      "Data Analyst (Business Intelligence)": 20
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 06:25:36",
-        "source": "github_action",
-        "candidate": "Helmi Ramadhan",
-        "position": "Content Writer Homey",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 06:26:08",
         "source": "github_action",
@@ -9290,6 +9283,13 @@
         "timestamp": "2026-04-19 07:11:21",
         "source": "github_action",
         "candidate": "Ellena Dio paska",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 07:11:48",
+        "source": "github_action",
+        "candidate": "Grady Simanjaya",
         "position": "Data Analyst (Business Intelligence)",
         "success": true
       }
