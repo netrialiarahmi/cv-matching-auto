@@ -8580,10 +8580,10 @@
     ]
   },
   "2026-04-19": {
-    "total": 497,
+    "total": 498,
     "streamlit": 0,
-    "github_action": 497,
-    "successful": 497,
+    "github_action": 498,
+    "successful": 498,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
@@ -8591,16 +8591,9 @@
       "Reporter Nasional": 100,
       "Content Writer Homey": 100,
       "Data Analyst (Business Intelligence)": 100,
-      "Business Development Analyst": 26
+      "Business Development Analyst": 27
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 07:14:47",
-        "source": "github_action",
-        "candidate": "richy priyambodo",
-        "position": "Data Analyst (Business Intelligence)",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 07:15:15",
         "source": "github_action",
@@ -9291,6 +9284,13 @@
         "timestamp": "2026-04-19 08:03:16",
         "source": "github_action",
         "candidate": "Henry Aldebaran",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 08:03:45",
+        "source": "github_action",
+        "candidate": "Faqih Wasim Ahmad",
         "position": "Business Development Analyst",
         "success": true
       }
