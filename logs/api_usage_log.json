@@ -8580,23 +8580,16 @@
     ]
   },
   "2026-04-19": {
-    "total": 122,
+    "total": 123,
     "streamlit": 0,
-    "github_action": 122,
-    "successful": 122,
+    "github_action": 123,
+    "successful": 123,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Megapolitan": 22
+      "Reporter Megapolitan": 23
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 04:19:05",
-        "source": "github_action",
-        "candidate": "victor timothy",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 04:19:40",
         "source": "github_action",
@@ -9287,6 +9280,13 @@
         "timestamp": "2026-04-19 05:09:04",
         "source": "github_action",
         "candidate": "Dea Alvitalakhsmi",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 05:09:34",
+        "source": "github_action",
+        "candidate": "Amelia Fadila",
         "position": "Reporter Megapolitan",
         "success": true
       }
