@@ -8580,23 +8580,16 @@
     ]
   },
   "2026-04-19": {
-    "total": 149,
+    "total": 150,
     "streamlit": 0,
-    "github_action": 149,
-    "successful": 149,
+    "github_action": 150,
+    "successful": 150,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Megapolitan": 49
+      "Reporter Megapolitan": 50
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 04:33:25",
-        "source": "github_action",
-        "candidate": "Ryan Rabbani",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 04:33:56",
         "source": "github_action",
@@ -9287,6 +9280,13 @@
         "timestamp": "2026-04-19 05:20:06",
         "source": "github_action",
         "candidate": "Yoanda Adzra nabilasya",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 05:20:29",
+        "source": "github_action",
+        "candidate": "Akil Albari",
         "position": "Reporter Megapolitan",
         "success": true
       }
