@@ -8580,23 +8580,16 @@
     ]
   },
   "2026-04-19": {
-    "total": 166,
+    "total": 167,
     "streamlit": 0,
-    "github_action": 166,
-    "successful": 166,
+    "github_action": 167,
+    "successful": 167,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Megapolitan": 66
+      "Reporter Megapolitan": 67
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 04:42:15",
-        "source": "github_action",
-        "candidate": "Sabna Daniela Husna",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 04:42:43",
         "source": "github_action",
@@ -9287,6 +9280,13 @@
         "timestamp": "2026-04-19 05:27:10",
         "source": "github_action",
         "candidate": "Muhamad Helmi Kaffah Nur Iman",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 05:27:37",
+        "source": "github_action",
+        "candidate": "Annisaa Shabeela",
         "position": "Reporter Megapolitan",
         "success": true
       }
