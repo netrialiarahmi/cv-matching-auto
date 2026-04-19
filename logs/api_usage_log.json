@@ -8580,25 +8580,18 @@
     ]
   },
   "2026-04-19": {
-    "total": 360,
+    "total": 361,
     "streamlit": 0,
-    "github_action": 360,
-    "successful": 360,
+    "github_action": 361,
+    "successful": 361,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 71,
       "Reporter Nasional": 100,
-      "Content Writer Homey": 89
+      "Content Writer Homey": 90
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 06:11:15",
-        "source": "github_action",
-        "candidate": "Noval Adityo",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 06:11:47",
         "source": "github_action",
@@ -9289,6 +9282,13 @@
         "timestamp": "2026-04-19 06:56:36",
         "source": "github_action",
         "candidate": "aldila juwita",
+        "position": "Content Writer Homey",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 06:57:02",
+        "source": "github_action",
+        "candidate": "sefany yusan",
         "position": "Content Writer Homey",
         "success": true
       }
