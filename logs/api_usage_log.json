@@ -8580,13 +8580,13 @@
     ]
   },
   "2026-04-19": {
-    "total": 2,
+    "total": 3,
     "streamlit": 0,
-    "github_action": 2,
-    "successful": 2,
+    "github_action": 3,
+    "successful": 3,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 2
+      "Marketing Communication Officer KG Media": 3
     },
     "entries": [
       {
@@ -8600,6 +8600,13 @@
         "timestamp": "2026-04-19 04:09:01",
         "source": "github_action",
         "candidate": "Marcellus Noel",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 04:09:33",
+        "source": "github_action",
+        "candidate": "Irmina Ayu Lentera",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
