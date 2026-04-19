@@ -8580,10 +8580,10 @@
     ]
   },
   "2026-04-19": {
-    "total": 500,
+    "total": 501,
     "streamlit": 0,
-    "github_action": 500,
-    "successful": 500,
+    "github_action": 501,
+    "successful": 501,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
@@ -8591,16 +8591,9 @@
       "Reporter Nasional": 100,
       "Content Writer Homey": 100,
       "Data Analyst (Business Intelligence)": 100,
-      "Business Development Analyst": 29
+      "Business Development Analyst": 30
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 07:16:16",
-        "source": "github_action",
-        "candidate": "Putri Andini Novianti",
-        "position": "Data Analyst (Business Intelligence)",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 07:16:48",
         "source": "github_action",
@@ -9291,6 +9284,13 @@
         "timestamp": "2026-04-19 08:04:57",
         "source": "github_action",
         "candidate": "Damar Aji Kuncoro",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 08:05:28",
+        "source": "github_action",
+        "candidate": "Ari Sudewa",
         "position": "Business Development Analyst",
         "success": true
       }
