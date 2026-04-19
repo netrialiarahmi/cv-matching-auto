@@ -8580,26 +8580,19 @@
     ]
   },
   "2026-04-19": {
-    "total": 430,
+    "total": 431,
     "streamlit": 0,
-    "github_action": 430,
-    "successful": 430,
+    "github_action": 431,
+    "successful": 431,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 71,
       "Reporter Nasional": 100,
       "Content Writer Homey": 100,
-      "Data Analyst (Business Intelligence)": 59
+      "Data Analyst (Business Intelligence)": 60
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 06:44:02",
-        "source": "github_action",
-        "candidate": "Fahmi Alfarouqi",
-        "position": "Content Writer Homey",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 06:44:27",
         "source": "github_action",
@@ -9290,6 +9283,13 @@
         "timestamp": "2026-04-19 07:30:15",
         "source": "github_action",
         "candidate": "Revaldo Sagala",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 07:30:50",
+        "source": "github_action",
+        "candidate": "Sapto Ariyadi",
         "position": "Data Analyst (Business Intelligence)",
         "success": true
       }
