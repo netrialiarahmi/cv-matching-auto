@@ -8580,23 +8580,16 @@
     ]
   },
   "2026-04-19": {
-    "total": 160,
+    "total": 161,
     "streamlit": 0,
-    "github_action": 160,
-    "successful": 160,
+    "github_action": 161,
+    "successful": 161,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Megapolitan": 60
+      "Reporter Megapolitan": 61
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 04:39:08",
-        "source": "github_action",
-        "candidate": "Tri Endah Lestari",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 04:39:37",
         "source": "github_action",
@@ -9287,6 +9280,13 @@
         "timestamp": "2026-04-19 05:24:50",
         "source": "github_action",
         "candidate": "putri  yulianti",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 05:25:16",
+        "source": "github_action",
+        "candidate": "Febri Ilham",
         "position": "Reporter Megapolitan",
         "success": true
       }
