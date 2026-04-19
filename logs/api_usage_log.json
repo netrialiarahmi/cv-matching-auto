@@ -8580,10 +8580,10 @@
     ]
   },
   "2026-04-19": {
-    "total": 601,
+    "total": 602,
     "streamlit": 0,
-    "github_action": 601,
-    "successful": 601,
+    "github_action": 602,
+    "successful": 602,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
@@ -8592,16 +8592,9 @@
       "Content Writer Homey": 100,
       "Data Analyst (Business Intelligence)": 100,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 30
+      "Account Executive VCBL": 31
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 08:05:55",
-        "source": "github_action",
-        "candidate": "cecep aris afandi andi",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 08:06:25",
         "source": "github_action",
@@ -9292,6 +9285,13 @@
         "timestamp": "2026-04-19 08:52:54",
         "source": "github_action",
         "candidate": "Suharto Putra",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 08:53:28",
+        "source": "github_action",
+        "candidate": "Helena Caesaria",
         "position": "Account Executive VCBL",
         "success": true
       }
