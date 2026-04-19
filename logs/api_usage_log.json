@@ -8580,24 +8580,17 @@
     ]
   },
   "2026-04-19": {
-    "total": 191,
+    "total": 192,
     "streamlit": 0,
-    "github_action": 191,
-    "successful": 191,
+    "github_action": 192,
+    "successful": 192,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 71,
-      "Reporter Nasional": 20
+      "Reporter Nasional": 21
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 04:54:48",
-        "source": "github_action",
-        "candidate": "Doni Alfattah Reyhan",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 04:55:19",
         "source": "github_action",
@@ -9288,6 +9281,13 @@
         "timestamp": "2026-04-19 05:38:47",
         "source": "github_action",
         "candidate": "Muhammad  Noor",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 05:39:18",
+        "source": "github_action",
+        "candidate": "Muhammad Arief  Adhistyo Hidayat",
         "position": "Reporter Nasional",
         "success": true
       }
