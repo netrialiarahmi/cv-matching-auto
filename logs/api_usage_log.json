@@ -8580,22 +8580,16 @@
     ]
   },
   "2026-04-19": {
-    "total": 100,
+    "total": 101,
     "streamlit": 0,
-    "github_action": 100,
-    "successful": 100,
+    "github_action": 101,
+    "successful": 101,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 100
+      "Marketing Communication Officer KG Media": 100,
+      "Reporter Megapolitan": 1
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 04:08:31",
-        "source": "github_action",
-        "candidate": "Keysha Athanadira Fadhila",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 04:09:01",
         "source": "github_action",
@@ -9287,6 +9281,13 @@
         "source": "github_action",
         "candidate": "Adinda Permatasiwi",
         "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 04:59:23",
+        "source": "github_action",
+        "candidate": "Rika Yanti Sipakkar",
+        "position": "Reporter Megapolitan",
         "success": true
       }
     ]
