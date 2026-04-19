@@ -8580,26 +8580,19 @@
     ]
   },
   "2026-04-19": {
-    "total": 454,
+    "total": 455,
     "streamlit": 0,
-    "github_action": 454,
-    "successful": 454,
+    "github_action": 455,
+    "successful": 455,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 71,
       "Reporter Nasional": 100,
       "Content Writer Homey": 100,
-      "Data Analyst (Business Intelligence)": 83
+      "Data Analyst (Business Intelligence)": 84
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 06:54:45",
-        "source": "github_action",
-        "candidate": "Alfina Winda Choyrala",
-        "position": "Content Writer Homey",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 06:55:10",
         "source": "github_action",
@@ -9290,6 +9283,13 @@
         "timestamp": "2026-04-19 07:42:04",
         "source": "github_action",
         "candidate": "Bila Hasna",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 07:42:37",
+        "source": "github_action",
+        "candidate": "Choirul Anwar",
         "position": "Data Analyst (Business Intelligence)",
         "success": true
       }
