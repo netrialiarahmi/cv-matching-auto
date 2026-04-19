@@ -8580,10 +8580,10 @@
     ]
   },
   "2026-04-19": {
-    "total": 532,
+    "total": 533,
     "streamlit": 0,
-    "github_action": 532,
-    "successful": 532,
+    "github_action": 533,
+    "successful": 533,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
@@ -8591,16 +8591,9 @@
       "Reporter Nasional": 100,
       "Content Writer Homey": 100,
       "Data Analyst (Business Intelligence)": 100,
-      "Business Development Analyst": 61
+      "Business Development Analyst": 62
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 07:31:51",
-        "source": "github_action",
-        "candidate": "Andi Ahyaul",
-        "position": "Data Analyst (Business Intelligence)",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 07:32:18",
         "source": "github_action",
@@ -9291,6 +9284,13 @@
         "timestamp": "2026-04-19 08:20:37",
         "source": "github_action",
         "candidate": "Sena Sativa",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 08:21:05",
+        "source": "github_action",
+        "candidate": "Hanif  Fathoni",
         "position": "Business Development Analyst",
         "success": true
       }
