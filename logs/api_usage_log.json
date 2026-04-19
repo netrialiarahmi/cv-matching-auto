@@ -8580,25 +8580,18 @@
     ]
   },
   "2026-04-19": {
-    "total": 303,
+    "total": 304,
     "streamlit": 0,
-    "github_action": 303,
-    "successful": 303,
+    "github_action": 304,
+    "successful": 304,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 71,
       "Reporter Nasional": 100,
-      "Content Writer Homey": 32
+      "Content Writer Homey": 33
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 05:44:46",
-        "source": "github_action",
-        "candidate": "Fawwaz Azmi Iltizam",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 05:45:15",
         "source": "github_action",
@@ -9289,6 +9282,13 @@
         "timestamp": "2026-04-19 06:31:27",
         "source": "github_action",
         "candidate": "Shal Shabilah",
+        "position": "Content Writer Homey",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 06:31:55",
+        "source": "github_action",
+        "candidate": "Rafly Almahdi",
         "position": "Content Writer Homey",
         "success": true
       }
