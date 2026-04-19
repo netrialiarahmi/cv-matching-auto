@@ -8580,25 +8580,18 @@
     ]
   },
   "2026-04-19": {
-    "total": 318,
+    "total": 319,
     "streamlit": 0,
-    "github_action": 318,
-    "successful": 318,
+    "github_action": 319,
+    "successful": 319,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 71,
       "Reporter Nasional": 100,
-      "Content Writer Homey": 47
+      "Content Writer Homey": 48
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 05:51:35",
-        "source": "github_action",
-        "candidate": "Dinar Indrani",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 05:52:07",
         "source": "github_action",
@@ -9289,6 +9282,13 @@
         "timestamp": "2026-04-19 06:37:49",
         "source": "github_action",
         "candidate": "Hafidh Muhammad Ibnu Sina",
+        "position": "Content Writer Homey",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 06:38:15",
+        "source": "github_action",
+        "candidate": "Abidana Mazida",
         "position": "Content Writer Homey",
         "success": true
       }
