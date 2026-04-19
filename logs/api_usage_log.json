@@ -8580,23 +8580,16 @@
     ]
   },
   "2026-04-19": {
-    "total": 145,
+    "total": 146,
     "streamlit": 0,
-    "github_action": 145,
-    "successful": 145,
+    "github_action": 146,
+    "successful": 146,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Megapolitan": 45
+      "Reporter Megapolitan": 46
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 04:31:13",
-        "source": "github_action",
-        "candidate": "Gloria Maranatha",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 04:31:48",
         "source": "github_action",
@@ -9287,6 +9280,13 @@
         "timestamp": "2026-04-19 05:18:18",
         "source": "github_action",
         "candidate": "Layla Ilma",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 05:18:45",
+        "source": "github_action",
+        "candidate": "Tsaqila Idzhan",
         "position": "Reporter Megapolitan",
         "success": true
       }
