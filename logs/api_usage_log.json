@@ -8580,10 +8580,10 @@
     ]
   },
   "2026-04-19": {
-    "total": 512,
+    "total": 513,
     "streamlit": 0,
-    "github_action": 512,
-    "successful": 512,
+    "github_action": 513,
+    "successful": 513,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
@@ -8591,16 +8591,9 @@
       "Reporter Nasional": 100,
       "Content Writer Homey": 100,
       "Data Analyst (Business Intelligence)": 100,
-      "Business Development Analyst": 41
+      "Business Development Analyst": 42
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 07:22:30",
-        "source": "github_action",
-        "candidate": "Rivaldo Timoty Manihuruk",
-        "position": "Data Analyst (Business Intelligence)",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 07:22:34",
         "source": "github_action",
@@ -9291,6 +9284,13 @@
         "timestamp": "2026-04-19 08:11:01",
         "source": "github_action",
         "candidate": "Anastasya .",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 08:11:31",
+        "source": "github_action",
+        "candidate": "Satria Wibowo",
         "position": "Business Development Analyst",
         "success": true
       }
