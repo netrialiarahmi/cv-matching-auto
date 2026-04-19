@@ -8580,10 +8580,10 @@
     ]
   },
   "2026-04-19": {
-    "total": 524,
+    "total": 525,
     "streamlit": 0,
-    "github_action": 524,
-    "successful": 524,
+    "github_action": 525,
+    "successful": 525,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
@@ -8591,16 +8591,9 @@
       "Reporter Nasional": 100,
       "Content Writer Homey": 100,
       "Data Analyst (Business Intelligence)": 100,
-      "Business Development Analyst": 53
+      "Business Development Analyst": 54
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 07:27:45",
-        "source": "github_action",
-        "candidate": "satrio bayu tirto laksono",
-        "position": "Data Analyst (Business Intelligence)",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 07:28:13",
         "source": "github_action",
@@ -9291,6 +9284,13 @@
         "timestamp": "2026-04-19 08:16:31",
         "source": "github_action",
         "candidate": "Arve Barus",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 08:17:07",
+        "source": "github_action",
+        "candidate": "Rizky Nurbayani Muhari",
         "position": "Business Development Analyst",
         "success": true
       }
