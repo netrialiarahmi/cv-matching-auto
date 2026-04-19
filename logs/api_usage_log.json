@@ -8580,13 +8580,13 @@
     ]
   },
   "2026-04-19": {
-    "total": 12,
+    "total": 13,
     "streamlit": 0,
-    "github_action": 12,
-    "successful": 12,
+    "github_action": 13,
+    "successful": 13,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 12
+      "Marketing Communication Officer KG Media": 13
     },
     "entries": [
       {
@@ -8670,6 +8670,13 @@
         "timestamp": "2026-04-19 04:13:21",
         "source": "github_action",
         "candidate": "Andini Puspamaya",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 04:13:50",
+        "source": "github_action",
+        "candidate": "Michael Rusli",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
