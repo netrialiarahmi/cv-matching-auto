@@ -8580,24 +8580,17 @@
     ]
   },
   "2026-04-19": {
-    "total": 181,
+    "total": 182,
     "streamlit": 0,
-    "github_action": 181,
-    "successful": 181,
+    "github_action": 182,
+    "successful": 182,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 71,
-      "Reporter Nasional": 10
+      "Reporter Nasional": 11
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 04:50:03",
-        "source": "github_action",
-        "candidate": "Nisrina Nabila",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 04:50:37",
         "source": "github_action",
@@ -9288,6 +9281,13 @@
         "timestamp": "2026-04-19 05:34:13",
         "source": "github_action",
         "candidate": "Gilang pramudia",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 05:34:39",
+        "source": "github_action",
+        "candidate": "Yoseph Aldhi Kristiantoro",
         "position": "Reporter Nasional",
         "success": true
       }
