@@ -8580,24 +8580,17 @@
     ]
   },
   "2026-04-19": {
-    "total": 174,
+    "total": 175,
     "streamlit": 0,
-    "github_action": 174,
-    "successful": 174,
+    "github_action": 175,
+    "successful": 175,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 71,
-      "Reporter Nasional": 3
+      "Reporter Nasional": 4
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 04:46:19",
-        "source": "github_action",
-        "candidate": "Rahmatia Rahmatia",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 04:46:55",
         "source": "github_action",
@@ -9288,6 +9281,13 @@
         "timestamp": "2026-04-19 05:31:02",
         "source": "github_action",
         "candidate": "Mutia Choerunissa",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 05:31:33",
+        "source": "github_action",
+        "candidate": "Dara Maharani",
         "position": "Reporter Nasional",
         "success": true
       }
