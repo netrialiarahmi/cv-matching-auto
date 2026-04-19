@@ -8580,24 +8580,17 @@
     ]
   },
   "2026-04-19": {
-    "total": 198,
+    "total": 199,
     "streamlit": 0,
-    "github_action": 198,
-    "successful": 198,
+    "github_action": 199,
+    "successful": 199,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 71,
-      "Reporter Nasional": 27
+      "Reporter Nasional": 28
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 04:58:28",
-        "source": "github_action",
-        "candidate": "Pratiwi Rahmadanti",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 04:58:57",
         "source": "github_action",
@@ -9288,6 +9281,13 @@
         "timestamp": "2026-04-19 05:42:09",
         "source": "github_action",
         "candidate": "Anisa Nur Syafitri",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 05:42:35",
+        "source": "github_action",
+        "candidate": "Muhammad Farhan Agusta",
         "position": "Reporter Nasional",
         "success": true
       }
