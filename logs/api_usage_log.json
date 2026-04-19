@@ -8580,10 +8580,10 @@
     ]
   },
   "2026-04-19": {
-    "total": 499,
+    "total": 500,
     "streamlit": 0,
-    "github_action": 499,
-    "successful": 499,
+    "github_action": 500,
+    "successful": 500,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
@@ -8591,16 +8591,9 @@
       "Reporter Nasional": 100,
       "Content Writer Homey": 100,
       "Data Analyst (Business Intelligence)": 100,
-      "Business Development Analyst": 28
+      "Business Development Analyst": 29
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 07:15:47",
-        "source": "github_action",
-        "candidate": "Nicholas Alven",
-        "position": "Data Analyst (Business Intelligence)",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 07:16:16",
         "source": "github_action",
@@ -9291,6 +9284,13 @@
         "timestamp": "2026-04-19 08:04:23",
         "source": "github_action",
         "candidate": "wahyu wiguna rismanto",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 08:04:57",
+        "source": "github_action",
+        "candidate": "Damar Aji Kuncoro",
         "position": "Business Development Analyst",
         "success": true
       }
