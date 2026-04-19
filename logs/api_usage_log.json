@@ -8580,25 +8580,18 @@
     ]
   },
   "2026-04-19": {
-    "total": 343,
+    "total": 344,
     "streamlit": 0,
-    "github_action": 343,
-    "successful": 343,
+    "github_action": 344,
+    "successful": 344,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 71,
       "Reporter Nasional": 100,
-      "Content Writer Homey": 72
+      "Content Writer Homey": 73
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 06:03:33",
-        "source": "github_action",
-        "candidate": "Selia  Nurazwaima",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 06:04:02",
         "source": "github_action",
@@ -9289,6 +9282,13 @@
         "timestamp": "2026-04-19 06:49:26",
         "source": "github_action",
         "candidate": "Firman Budi",
+        "position": "Content Writer Homey",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 06:49:52",
+        "source": "github_action",
+        "candidate": "Rafil  Aji Aditama",
         "position": "Content Writer Homey",
         "success": true
       }
