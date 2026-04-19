@@ -8580,26 +8580,19 @@
     ]
   },
   "2026-04-19": {
-    "total": 452,
+    "total": 453,
     "streamlit": 0,
-    "github_action": 452,
-    "successful": 452,
+    "github_action": 453,
+    "successful": 453,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 71,
       "Reporter Nasional": 100,
       "Content Writer Homey": 100,
-      "Data Analyst (Business Intelligence)": 81
+      "Data Analyst (Business Intelligence)": 82
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 06:53:50",
-        "source": "github_action",
-        "candidate": "FUAD AKBAR",
-        "position": "Content Writer Homey",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 06:54:16",
         "source": "github_action",
@@ -9290,6 +9283,13 @@
         "timestamp": "2026-04-19 07:41:04",
         "source": "github_action",
         "candidate": "Muh. Rojil Alhamdi",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 07:41:33",
+        "source": "github_action",
+        "candidate": "Julia Enjela Setiawan",
         "position": "Data Analyst (Business Intelligence)",
         "success": true
       }
