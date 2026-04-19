@@ -8580,24 +8580,17 @@
     ]
   },
   "2026-04-19": {
-    "total": 258,
+    "total": 259,
     "streamlit": 0,
-    "github_action": 258,
-    "successful": 258,
+    "github_action": 259,
+    "successful": 259,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 71,
-      "Reporter Nasional": 87
+      "Reporter Nasional": 88
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 05:24:23",
-        "source": "github_action",
-        "candidate": "Elsa Oriana Rajagukguk",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 05:24:50",
         "source": "github_action",
@@ -9288,6 +9281,13 @@
         "timestamp": "2026-04-19 06:09:42",
         "source": "github_action",
         "candidate": "Muhammad Fadli Sinatrya",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 06:10:11",
+        "source": "github_action",
+        "candidate": "Rivaldo Simanjuntak",
         "position": "Reporter Nasional",
         "success": true
       }
