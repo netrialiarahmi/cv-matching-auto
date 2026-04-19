@@ -8580,25 +8580,18 @@
     ]
   },
   "2026-04-19": {
-    "total": 277,
+    "total": 278,
     "streamlit": 0,
-    "github_action": 277,
-    "successful": 277,
+    "github_action": 278,
+    "successful": 278,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 71,
       "Reporter Nasional": 100,
-      "Content Writer Homey": 6
+      "Content Writer Homey": 7
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 05:32:44",
-        "source": "github_action",
-        "candidate": "Ade krisna Rivaldy",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 05:33:11",
         "source": "github_action",
@@ -9289,6 +9282,13 @@
         "timestamp": "2026-04-19 06:19:30",
         "source": "github_action",
         "candidate": "Afifah Dwi Marhaeni",
+        "position": "Content Writer Homey",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 06:19:59",
+        "source": "github_action",
+        "candidate": "Rizky _Alinsyira",
         "position": "Content Writer Homey",
         "success": true
       }
