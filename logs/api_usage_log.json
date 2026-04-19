@@ -8580,26 +8580,19 @@
     ]
   },
   "2026-04-19": {
-    "total": 424,
+    "total": 425,
     "streamlit": 0,
-    "github_action": 424,
-    "successful": 424,
+    "github_action": 425,
+    "successful": 425,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 71,
       "Reporter Nasional": 100,
       "Content Writer Homey": 100,
-      "Data Analyst (Business Intelligence)": 53
+      "Data Analyst (Business Intelligence)": 54
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 06:41:11",
-        "source": "github_action",
-        "candidate": "Kiki Dwi",
-        "position": "Content Writer Homey",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 06:41:36",
         "source": "github_action",
@@ -9290,6 +9283,13 @@
         "timestamp": "2026-04-19 07:27:15",
         "source": "github_action",
         "candidate": "Oky Ibrahim Septiadi",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 07:27:45",
+        "source": "github_action",
+        "candidate": "satrio bayu tirto laksono",
         "position": "Data Analyst (Business Intelligence)",
         "success": true
       }
