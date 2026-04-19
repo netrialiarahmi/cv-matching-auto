@@ -8580,23 +8580,16 @@
     ]
   },
   "2026-04-19": {
-    "total": 101,
+    "total": 102,
     "streamlit": 0,
-    "github_action": 101,
-    "successful": 101,
+    "github_action": 102,
+    "successful": 102,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Megapolitan": 1
+      "Reporter Megapolitan": 2
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 04:09:01",
-        "source": "github_action",
-        "candidate": "Marcellus Noel",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 04:09:33",
         "source": "github_action",
@@ -9287,6 +9280,13 @@
         "timestamp": "2026-04-19 04:59:23",
         "source": "github_action",
         "candidate": "Rika Yanti Sipakkar",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 04:59:50",
+        "source": "github_action",
+        "candidate": "Dhimas risang sri  arya naratama",
         "position": "Reporter Megapolitan",
         "success": true
       }
