@@ -8580,23 +8580,16 @@
     ]
   },
   "2026-04-19": {
-    "total": 156,
+    "total": 157,
     "streamlit": 0,
-    "github_action": 156,
-    "successful": 156,
+    "github_action": 157,
+    "successful": 157,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Megapolitan": 56
+      "Reporter Megapolitan": 57
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 04:36:57",
-        "source": "github_action",
-        "candidate": "Rafi Zacky",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 04:37:30",
         "source": "github_action",
@@ -9287,6 +9280,13 @@
         "timestamp": "2026-04-19 05:23:06",
         "source": "github_action",
         "candidate": "Fiere Febrian",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 05:23:33",
+        "source": "github_action",
+        "candidate": "Haura Athallah Salsabila",
         "position": "Reporter Megapolitan",
         "success": true
       }
