@@ -8580,10 +8580,10 @@
     ]
   },
   "2026-04-19": {
-    "total": 556,
+    "total": 557,
     "streamlit": 0,
-    "github_action": 556,
-    "successful": 556,
+    "github_action": 557,
+    "successful": 557,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
@@ -8591,16 +8591,9 @@
       "Reporter Nasional": 100,
       "Content Writer Homey": 100,
       "Data Analyst (Business Intelligence)": 100,
-      "Business Development Analyst": 85
+      "Business Development Analyst": 86
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 07:43:34",
-        "source": "github_action",
-        "candidate": "Gregorius Naralatu Dharana",
-        "position": "Data Analyst (Business Intelligence)",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 07:44:12",
         "source": "github_action",
@@ -9291,6 +9284,13 @@
         "timestamp": "2026-04-19 08:32:17",
         "source": "github_action",
         "candidate": "Charles Philip",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 08:32:45",
+        "source": "github_action",
+        "candidate": "ERLINA FRANSISKA",
         "position": "Business Development Analyst",
         "success": true
       }
