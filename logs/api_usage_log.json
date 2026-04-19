@@ -8580,23 +8580,16 @@
     ]
   },
   "2026-04-19": {
-    "total": 164,
+    "total": 165,
     "streamlit": 0,
-    "github_action": 164,
-    "successful": 164,
+    "github_action": 165,
+    "successful": 165,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Megapolitan": 64
+      "Reporter Megapolitan": 65
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 04:41:07",
-        "source": "github_action",
-        "candidate": "Ramadhani Eka Saputra",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 04:41:42",
         "source": "github_action",
@@ -9287,6 +9280,13 @@
         "timestamp": "2026-04-19 05:26:15",
         "source": "github_action",
         "candidate": "Gregorius Naralatu Dharana",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 05:26:44",
+        "source": "github_action",
+        "candidate": "Muhamad Abrar  Ariq",
         "position": "Reporter Megapolitan",
         "success": true
       }
