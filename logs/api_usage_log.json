@@ -8580,10 +8580,10 @@
     ]
   },
   "2026-04-19": {
-    "total": 485,
+    "total": 486,
     "streamlit": 0,
-    "github_action": 485,
-    "successful": 485,
+    "github_action": 486,
+    "successful": 486,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
@@ -8591,16 +8591,9 @@
       "Reporter Nasional": 100,
       "Content Writer Homey": 100,
       "Data Analyst (Business Intelligence)": 100,
-      "Business Development Analyst": 14
+      "Business Development Analyst": 15
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 07:09:17",
-        "source": "github_action",
-        "candidate": "Audry Putri",
-        "position": "Data Analyst (Business Intelligence)",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 07:09:46",
         "source": "github_action",
@@ -9291,6 +9284,13 @@
         "timestamp": "2026-04-19 07:57:11",
         "source": "github_action",
         "candidate": "Muhammad Shodiqin",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 07:57:40",
+        "source": "github_action",
+        "candidate": "Aldi Nur",
         "position": "Business Development Analyst",
         "success": true
       }
