@@ -8580,26 +8580,19 @@
     ]
   },
   "2026-04-19": {
-    "total": 442,
+    "total": 443,
     "streamlit": 0,
-    "github_action": 442,
-    "successful": 442,
+    "github_action": 443,
+    "successful": 443,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 71,
       "Reporter Nasional": 100,
       "Content Writer Homey": 100,
-      "Data Analyst (Business Intelligence)": 71
+      "Data Analyst (Business Intelligence)": 72
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 06:49:26",
-        "source": "github_action",
-        "candidate": "Firman Budi",
-        "position": "Content Writer Homey",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 06:49:52",
         "source": "github_action",
@@ -9290,6 +9283,13 @@
         "timestamp": "2026-04-19 07:36:02",
         "source": "github_action",
         "candidate": "Wulan Sapitri",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 07:36:35",
+        "source": "github_action",
+        "candidate": "Syair Dafiq Faizur Rahman",
         "position": "Data Analyst (Business Intelligence)",
         "success": true
       }
