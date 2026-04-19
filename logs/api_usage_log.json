@@ -8580,25 +8580,18 @@
     ]
   },
   "2026-04-19": {
-    "total": 316,
+    "total": 317,
     "streamlit": 0,
-    "github_action": 316,
-    "successful": 316,
+    "github_action": 317,
+    "successful": 317,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 71,
       "Reporter Nasional": 100,
-      "Content Writer Homey": 45
+      "Content Writer Homey": 46
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 05:50:30",
-        "source": "github_action",
-        "candidate": "KURNIA AGUSTIN",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 05:51:02",
         "source": "github_action",
@@ -9289,6 +9282,13 @@
         "timestamp": "2026-04-19 06:36:53",
         "source": "github_action",
         "candidate": "Dhea Amanda",
+        "position": "Content Writer Homey",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 06:37:20",
+        "source": "github_action",
+        "candidate": "Nur Rahmaini Lubis",
         "position": "Content Writer Homey",
         "success": true
       }
