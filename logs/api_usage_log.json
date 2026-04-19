@@ -8580,24 +8580,17 @@
     ]
   },
   "2026-04-19": {
-    "total": 219,
+    "total": 220,
     "streamlit": 0,
-    "github_action": 219,
-    "successful": 219,
+    "github_action": 220,
+    "successful": 220,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 71,
-      "Reporter Nasional": 48
+      "Reporter Nasional": 49
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 05:08:06",
-        "source": "github_action",
-        "candidate": "Fraya Diaz Rasyade",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 05:08:35",
         "source": "github_action",
@@ -9288,6 +9281,13 @@
         "timestamp": "2026-04-19 05:51:35",
         "source": "github_action",
         "candidate": "Dinar Indrani",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 05:52:07",
+        "source": "github_action",
+        "candidate": "Devita Nur Azizah",
         "position": "Reporter Nasional",
         "success": true
       }
