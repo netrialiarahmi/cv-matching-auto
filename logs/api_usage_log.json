@@ -8580,10 +8580,10 @@
     ]
   },
   "2026-04-19": {
-    "total": 548,
+    "total": 549,
     "streamlit": 0,
-    "github_action": 548,
-    "successful": 548,
+    "github_action": 549,
+    "successful": 549,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
@@ -8591,16 +8591,9 @@
       "Reporter Nasional": 100,
       "Content Writer Homey": 100,
       "Data Analyst (Business Intelligence)": 100,
-      "Business Development Analyst": 77
+      "Business Development Analyst": 78
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 07:39:35",
-        "source": "github_action",
-        "candidate": "Audie Nabiel Akmal",
-        "position": "Data Analyst (Business Intelligence)",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 07:40:04",
         "source": "github_action",
@@ -9291,6 +9284,13 @@
         "timestamp": "2026-04-19 08:28:34",
         "source": "github_action",
         "candidate": "Mohammad Farhan Saputra",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 08:29:13",
+        "source": "github_action",
+        "candidate": "Ananda Sari",
         "position": "Business Development Analyst",
         "success": true
       }
