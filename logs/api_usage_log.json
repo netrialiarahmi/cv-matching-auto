@@ -8580,23 +8580,16 @@
     ]
   },
   "2026-04-19": {
-    "total": 127,
+    "total": 128,
     "streamlit": 0,
-    "github_action": 127,
-    "successful": 127,
+    "github_action": 128,
+    "successful": 128,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Megapolitan": 27
+      "Reporter Megapolitan": 28
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 04:21:43",
-        "source": "github_action",
-        "candidate": "Hestakhia Pranawati",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 04:22:11",
         "source": "github_action",
@@ -9287,6 +9280,13 @@
         "timestamp": "2026-04-19 05:10:59",
         "source": "github_action",
         "candidate": "Muhammad Satria",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 05:11:27",
+        "source": "github_action",
+        "candidate": "Dimas Pangestu Ramadan",
         "position": "Reporter Megapolitan",
         "success": true
       }
