@@ -8580,25 +8580,18 @@
     ]
   },
   "2026-04-19": {
-    "total": 330,
+    "total": 331,
     "streamlit": 0,
-    "github_action": 330,
-    "successful": 330,
+    "github_action": 331,
+    "successful": 331,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 71,
       "Reporter Nasional": 100,
-      "Content Writer Homey": 59
+      "Content Writer Homey": 60
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 05:56:59",
-        "source": "github_action",
-        "candidate": "MUHAMMAD THAREQ HARYADI",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 05:57:36",
         "source": "github_action",
@@ -9289,6 +9282,13 @@
         "timestamp": "2026-04-19 06:43:32",
         "source": "github_action",
         "candidate": "Lazman Auzan  Rasib",
+        "position": "Content Writer Homey",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 06:44:02",
+        "source": "github_action",
+        "candidate": "Fahmi Alfarouqi",
         "position": "Content Writer Homey",
         "success": true
       }
