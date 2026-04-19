@@ -8580,24 +8580,17 @@
     ]
   },
   "2026-04-19": {
-    "total": 212,
+    "total": 213,
     "streamlit": 0,
-    "github_action": 212,
-    "successful": 212,
+    "github_action": 213,
+    "successful": 213,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 71,
-      "Reporter Nasional": 41
+      "Reporter Nasional": 42
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 05:04:47",
-        "source": "github_action",
-        "candidate": "Fara Maulina Adzkia",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 05:05:16",
         "source": "github_action",
@@ -9288,6 +9281,13 @@
         "timestamp": "2026-04-19 05:48:07",
         "source": "github_action",
         "candidate": "Gita Putri",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 05:48:37",
+        "source": "github_action",
+        "candidate": "Revo Anggara",
         "position": "Reporter Nasional",
         "success": true
       }
