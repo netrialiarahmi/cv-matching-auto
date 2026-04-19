@@ -8580,25 +8580,18 @@
     ]
   },
   "2026-04-19": {
-    "total": 342,
+    "total": 343,
     "streamlit": 0,
-    "github_action": 342,
-    "successful": 342,
+    "github_action": 343,
+    "successful": 343,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 71,
       "Reporter Nasional": 100,
-      "Content Writer Homey": 71
+      "Content Writer Homey": 72
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 06:03:00",
-        "source": "github_action",
-        "candidate": "Anjar Palupi",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 06:03:33",
         "source": "github_action",
@@ -9289,6 +9282,13 @@
         "timestamp": "2026-04-19 06:48:58",
         "source": "github_action",
         "candidate": "Agnes Fiona  Iga Kristiana",
+        "position": "Content Writer Homey",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 06:49:26",
+        "source": "github_action",
+        "candidate": "Firman Budi",
         "position": "Content Writer Homey",
         "success": true
       }
