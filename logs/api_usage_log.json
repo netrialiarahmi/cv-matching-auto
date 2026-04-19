@@ -8580,24 +8580,17 @@
     ]
   },
   "2026-04-19": {
-    "total": 270,
+    "total": 271,
     "streamlit": 0,
-    "github_action": 270,
-    "successful": 270,
+    "github_action": 271,
+    "successful": 271,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 71,
-      "Reporter Nasional": 99
+      "Reporter Nasional": 100
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 05:29:28",
-        "source": "github_action",
-        "candidate": "Marcellino Faisal Ronald, S.M.",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 05:30:03",
         "source": "github_action",
@@ -9288,6 +9281,13 @@
         "timestamp": "2026-04-19 06:15:58",
         "source": "github_action",
         "candidate": "Sholahuddin Al Ayyubi",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 06:16:28",
+        "source": "github_action",
+        "candidate": "Anindya Nur Aprillea",
         "position": "Reporter Nasional",
         "success": true
       }
