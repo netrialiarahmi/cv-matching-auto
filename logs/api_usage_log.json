@@ -8580,24 +8580,17 @@
     ]
   },
   "2026-04-19": {
-    "total": 201,
+    "total": 202,
     "streamlit": 0,
-    "github_action": 201,
-    "successful": 201,
+    "github_action": 202,
+    "successful": 202,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 71,
-      "Reporter Nasional": 30
+      "Reporter Nasional": 31
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 04:59:50",
-        "source": "github_action",
-        "candidate": "Dhimas risang sri  arya naratama",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 05:00:19",
         "source": "github_action",
@@ -9288,6 +9281,13 @@
         "timestamp": "2026-04-19 05:43:38",
         "source": "github_action",
         "candidate": "Otto Hari Febra Maheswara",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 05:44:10",
+        "source": "github_action",
+        "candidate": "Fraya Diaz Rasyade",
         "position": "Reporter Nasional",
         "success": true
       }
