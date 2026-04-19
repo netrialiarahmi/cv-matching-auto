@@ -8580,23 +8580,16 @@
     ]
   },
   "2026-04-19": {
-    "total": 141,
+    "total": 142,
     "streamlit": 0,
-    "github_action": 141,
-    "successful": 141,
+    "github_action": 142,
+    "successful": 142,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Megapolitan": 41
+      "Reporter Megapolitan": 42
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 04:29:05",
-        "source": "github_action",
-        "candidate": "Vito Maulana",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 04:29:34",
         "source": "github_action",
@@ -9287,6 +9280,13 @@
         "timestamp": "2026-04-19 05:16:35",
         "source": "github_action",
         "candidate": "Dwi Putro Erianto",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 05:17:01",
+        "source": "github_action",
+        "candidate": "Silva Ikhanaya Putri",
         "position": "Reporter Megapolitan",
         "success": true
       }
