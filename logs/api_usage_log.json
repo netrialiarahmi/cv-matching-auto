@@ -8580,23 +8580,16 @@
     ]
   },
   "2026-04-19": {
-    "total": 147,
+    "total": 148,
     "streamlit": 0,
-    "github_action": 147,
-    "successful": 147,
+    "github_action": 148,
+    "successful": 148,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Megapolitan": 47
+      "Reporter Megapolitan": 48
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 04:32:20",
-        "source": "github_action",
-        "candidate": "Altaft alfarizki",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 04:32:53",
         "source": "github_action",
@@ -9287,6 +9280,13 @@
         "timestamp": "2026-04-19 05:19:13",
         "source": "github_action",
         "candidate": "Sovi Yasmin",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 05:19:39",
+        "source": "github_action",
+        "candidate": "Maryam Nur fatimah",
         "position": "Reporter Megapolitan",
         "success": true
       }
