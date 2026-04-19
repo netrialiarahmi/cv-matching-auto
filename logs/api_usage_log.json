@@ -8580,10 +8580,10 @@
     ]
   },
   "2026-04-19": {
-    "total": 593,
+    "total": 594,
     "streamlit": 0,
-    "github_action": 593,
-    "successful": 593,
+    "github_action": 594,
+    "successful": 594,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
@@ -8592,16 +8592,9 @@
       "Content Writer Homey": 100,
       "Data Analyst (Business Intelligence)": 100,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 22
+      "Account Executive VCBL": 23
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 08:01:45",
-        "source": "github_action",
-        "candidate": "Firly Ramadhan",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 08:02:12",
         "source": "github_action",
@@ -9292,6 +9285,13 @@
         "timestamp": "2026-04-19 08:49:21",
         "source": "github_action",
         "candidate": "Daffa Sandya Affansyah",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 08:49:51",
+        "source": "github_action",
+        "candidate": "Jamaluddin An-Nashar",
         "position": "Account Executive VCBL",
         "success": true
       }
