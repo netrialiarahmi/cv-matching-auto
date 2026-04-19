@@ -8580,25 +8580,18 @@
     ]
   },
   "2026-04-19": {
-    "total": 344,
+    "total": 345,
     "streamlit": 0,
-    "github_action": 344,
-    "successful": 344,
+    "github_action": 345,
+    "successful": 345,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 71,
       "Reporter Nasional": 100,
-      "Content Writer Homey": 73
+      "Content Writer Homey": 74
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 06:04:02",
-        "source": "github_action",
-        "candidate": "Asyadillah Althaf",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 06:04:29",
         "source": "github_action",
@@ -9289,6 +9282,13 @@
         "timestamp": "2026-04-19 06:49:52",
         "source": "github_action",
         "candidate": "Rafil  Aji Aditama",
+        "position": "Content Writer Homey",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 06:50:18",
+        "source": "github_action",
+        "candidate": "Kholfan Faruq",
         "position": "Content Writer Homey",
         "success": true
       }
