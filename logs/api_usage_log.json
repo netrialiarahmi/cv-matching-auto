@@ -8580,26 +8580,19 @@
     ]
   },
   "2026-04-19": {
-    "total": 374,
+    "total": 375,
     "streamlit": 0,
-    "github_action": 374,
-    "successful": 374,
+    "github_action": 375,
+    "successful": 375,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 71,
       "Reporter Nasional": 100,
       "Content Writer Homey": 100,
-      "Data Analyst (Business Intelligence)": 3
+      "Data Analyst (Business Intelligence)": 4
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 06:18:28",
-        "source": "github_action",
-        "candidate": "jonathan kristinus",
-        "position": "Content Writer Homey",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 06:18:57",
         "source": "github_action",
@@ -9290,6 +9283,13 @@
         "timestamp": "2026-04-19 07:02:43",
         "source": "github_action",
         "candidate": "Rahadian Putra",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 07:03:18",
+        "source": "github_action",
+        "candidate": "Rizal Rahman R",
         "position": "Data Analyst (Business Intelligence)",
         "success": true
       }
