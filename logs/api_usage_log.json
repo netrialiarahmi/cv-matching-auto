@@ -8580,25 +8580,18 @@
     ]
   },
   "2026-04-19": {
-    "total": 364,
+    "total": 365,
     "streamlit": 0,
-    "github_action": 364,
-    "successful": 364,
+    "github_action": 365,
+    "successful": 365,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 71,
       "Reporter Nasional": 100,
-      "Content Writer Homey": 93
+      "Content Writer Homey": 94
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 06:13:13",
-        "source": "github_action",
-        "candidate": "Anastasya Yuliarta",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 06:13:44",
         "source": "github_action",
@@ -9289,6 +9282,13 @@
         "timestamp": "2026-04-19 06:58:22",
         "source": "github_action",
         "candidate": "Sendi Zikri Julian Fadilah",
+        "position": "Content Writer Homey",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 06:58:49",
+        "source": "github_action",
+        "candidate": "Lutfi Dwi",
         "position": "Content Writer Homey",
         "success": true
       }
