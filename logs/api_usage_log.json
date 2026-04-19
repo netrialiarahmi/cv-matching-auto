@@ -8580,24 +8580,17 @@
     ]
   },
   "2026-04-19": {
-    "total": 194,
+    "total": 195,
     "streamlit": 0,
-    "github_action": 194,
-    "successful": 194,
+    "github_action": 195,
+    "successful": 195,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 71,
-      "Reporter Nasional": 23
+      "Reporter Nasional": 24
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 04:56:22",
-        "source": "github_action",
-        "candidate": "keysha sekar",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 04:56:51",
         "source": "github_action",
@@ -9288,6 +9281,13 @@
         "timestamp": "2026-04-19 05:40:18",
         "source": "github_action",
         "candidate": "Aura Antari",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 05:40:45",
+        "source": "github_action",
+        "candidate": "Endang Angriani",
         "position": "Reporter Nasional",
         "success": true
       }
