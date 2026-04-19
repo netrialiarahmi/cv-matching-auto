@@ -8580,26 +8580,19 @@
     ]
   },
   "2026-04-19": {
-    "total": 462,
+    "total": 463,
     "streamlit": 0,
-    "github_action": 462,
-    "successful": 462,
+    "github_action": 463,
+    "successful": 463,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 71,
       "Reporter Nasional": 100,
       "Content Writer Homey": 100,
-      "Data Analyst (Business Intelligence)": 91
+      "Data Analyst (Business Intelligence)": 92
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 06:57:54",
-        "source": "github_action",
-        "candidate": "fajar algi",
-        "position": "Content Writer Homey",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 06:58:22",
         "source": "github_action",
@@ -9290,6 +9283,13 @@
         "timestamp": "2026-04-19 07:46:10",
         "source": "github_action",
         "candidate": "Muhammad Daffa Muwaffaq",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 07:46:37",
+        "source": "github_action",
+        "candidate": "Wulan Puspita",
         "position": "Data Analyst (Business Intelligence)",
         "success": true
       }
