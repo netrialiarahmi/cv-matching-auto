@@ -8580,25 +8580,18 @@
     ]
   },
   "2026-04-19": {
-    "total": 282,
+    "total": 283,
     "streamlit": 0,
-    "github_action": 282,
-    "successful": 282,
+    "github_action": 283,
+    "successful": 283,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 71,
       "Reporter Nasional": 100,
-      "Content Writer Homey": 11
+      "Content Writer Homey": 12
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 05:35:08",
-        "source": "github_action",
-        "candidate": "Steven Andreas",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 05:35:40",
         "source": "github_action",
@@ -9289,6 +9282,13 @@
         "timestamp": "2026-04-19 06:22:01",
         "source": "github_action",
         "candidate": "Distika Safara Setianda",
+        "position": "Content Writer Homey",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 06:22:33",
+        "source": "github_action",
+        "candidate": "Sukriwan  Ramadhan",
         "position": "Content Writer Homey",
         "success": true
       }
