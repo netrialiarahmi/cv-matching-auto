@@ -8580,26 +8580,19 @@
     ]
   },
   "2026-04-19": {
-    "total": 410,
+    "total": 411,
     "streamlit": 0,
-    "github_action": 410,
-    "successful": 410,
+    "github_action": 411,
+    "successful": 411,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 71,
       "Reporter Nasional": 100,
       "Content Writer Homey": 100,
-      "Data Analyst (Business Intelligence)": 39
+      "Data Analyst (Business Intelligence)": 40
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 06:34:52",
-        "source": "github_action",
-        "candidate": "Maharani Devitasari",
-        "position": "Content Writer Homey",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 06:34:56",
         "source": "github_action",
@@ -9290,6 +9283,13 @@
         "timestamp": "2026-04-19 07:21:02",
         "source": "github_action",
         "candidate": "Adinda Hita Saraswati",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 07:21:32",
+        "source": "github_action",
+        "candidate": "Muhammad Egan Renjiro",
         "position": "Data Analyst (Business Intelligence)",
         "success": true
       }
