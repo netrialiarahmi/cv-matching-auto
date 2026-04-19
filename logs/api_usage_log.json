@@ -8580,10 +8580,10 @@
     ]
   },
   "2026-04-19": {
-    "total": 496,
+    "total": 497,
     "streamlit": 0,
-    "github_action": 496,
-    "successful": 496,
+    "github_action": 497,
+    "successful": 497,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
@@ -8591,16 +8591,9 @@
       "Reporter Nasional": 100,
       "Content Writer Homey": 100,
       "Data Analyst (Business Intelligence)": 100,
-      "Business Development Analyst": 25
+      "Business Development Analyst": 26
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 07:14:43",
-        "source": "github_action",
-        "candidate": "Reswara Fawwaz",
-        "position": "Data Analyst (Business Intelligence)",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 07:14:47",
         "source": "github_action",
@@ -9291,6 +9284,13 @@
         "timestamp": "2026-04-19 08:02:44",
         "source": "github_action",
         "candidate": "FELIA RACHMILA",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 08:03:16",
+        "source": "github_action",
+        "candidate": "Henry Aldebaran",
         "position": "Business Development Analyst",
         "success": true
       }
