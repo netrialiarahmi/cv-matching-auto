@@ -8580,24 +8580,17 @@
     ]
   },
   "2026-04-19": {
-    "total": 209,
+    "total": 210,
     "streamlit": 0,
-    "github_action": 209,
-    "successful": 209,
+    "github_action": 210,
+    "successful": 210,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 71,
-      "Reporter Nasional": 38
+      "Reporter Nasional": 39
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 05:03:23",
-        "source": "github_action",
-        "candidate": "Aulia Ana Fatimah",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 05:03:49",
         "source": "github_action",
@@ -9288,6 +9281,13 @@
         "timestamp": "2026-04-19 05:46:47",
         "source": "github_action",
         "candidate": "Gaswara Utama",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 05:47:12",
+        "source": "github_action",
+        "candidate": "Ahda Sabila",
         "position": "Reporter Nasional",
         "success": true
       }
