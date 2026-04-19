@@ -8580,26 +8580,19 @@
     ]
   },
   "2026-04-19": {
-    "total": 422,
+    "total": 423,
     "streamlit": 0,
-    "github_action": 422,
-    "successful": 422,
+    "github_action": 423,
+    "successful": 423,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 71,
       "Reporter Nasional": 100,
       "Content Writer Homey": 100,
-      "Data Analyst (Business Intelligence)": 51
+      "Data Analyst (Business Intelligence)": 52
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 06:40:16",
-        "source": "github_action",
-        "candidate": "Faisal Azis Hidayat",
-        "position": "Content Writer Homey",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 06:40:44",
         "source": "github_action",
@@ -9290,6 +9283,13 @@
         "timestamp": "2026-04-19 07:26:43",
         "source": "github_action",
         "candidate": "Rifa Kirana",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 07:27:11",
+        "source": "github_action",
+        "candidate": "Hanif  Fathoni",
         "position": "Data Analyst (Business Intelligence)",
         "success": true
       }
