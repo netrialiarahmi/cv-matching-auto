@@ -8580,24 +8580,17 @@
     ]
   },
   "2026-04-19": {
-    "total": 190,
+    "total": 191,
     "streamlit": 0,
-    "github_action": 190,
-    "successful": 190,
+    "github_action": 191,
+    "successful": 191,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 71,
-      "Reporter Nasional": 19
+      "Reporter Nasional": 20
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 04:54:15",
-        "source": "github_action",
-        "candidate": "Naura Cintantya Khairunnisa",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 04:54:48",
         "source": "github_action",
@@ -9288,6 +9281,13 @@
         "timestamp": "2026-04-19 05:38:11",
         "source": "github_action",
         "candidate": "Dhianti Karamina zilda",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 05:38:47",
+        "source": "github_action",
+        "candidate": "Muhammad  Noor",
         "position": "Reporter Nasional",
         "success": true
       }
