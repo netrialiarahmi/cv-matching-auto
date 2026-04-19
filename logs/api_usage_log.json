@@ -8580,26 +8580,19 @@
     ]
   },
   "2026-04-19": {
-    "total": 384,
+    "total": 385,
     "streamlit": 0,
-    "github_action": 384,
-    "successful": 384,
+    "github_action": 385,
+    "successful": 385,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 71,
       "Reporter Nasional": 100,
       "Content Writer Homey": 100,
-      "Data Analyst (Business Intelligence)": 13
+      "Data Analyst (Business Intelligence)": 14
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 06:23:05",
-        "source": "github_action",
-        "candidate": "Gadis Sakiakirti",
-        "position": "Content Writer Homey",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 06:23:33",
         "source": "github_action",
@@ -9290,6 +9283,13 @@
         "timestamp": "2026-04-19 07:08:19",
         "source": "github_action",
         "candidate": "Adam Suvi",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 07:08:51",
+        "source": "github_action",
+        "candidate": "Muhammad Razi Rizzardi",
         "position": "Data Analyst (Business Intelligence)",
         "success": true
       }
