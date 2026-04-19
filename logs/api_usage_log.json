@@ -8580,26 +8580,19 @@
     ]
   },
   "2026-04-19": {
-    "total": 457,
+    "total": 458,
     "streamlit": 0,
-    "github_action": 457,
-    "successful": 457,
+    "github_action": 458,
+    "successful": 458,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 71,
       "Reporter Nasional": 100,
       "Content Writer Homey": 100,
-      "Data Analyst (Business Intelligence)": 86
+      "Data Analyst (Business Intelligence)": 87
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 06:56:05",
-        "source": "github_action",
-        "candidate": "Jangga Krisna Bayu Putra",
-        "position": "Content Writer Homey",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 06:56:33",
         "source": "github_action",
@@ -9290,6 +9283,13 @@
         "timestamp": "2026-04-19 07:43:34",
         "source": "github_action",
         "candidate": "Gregorius Naralatu Dharana",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 07:44:12",
+        "source": "github_action",
+        "candidate": "Bagas Eko Tjahyono Putro Putro",
         "position": "Data Analyst (Business Intelligence)",
         "success": true
       }
