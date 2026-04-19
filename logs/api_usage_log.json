@@ -8580,25 +8580,18 @@
     ]
   },
   "2026-04-19": {
-    "total": 305,
+    "total": 306,
     "streamlit": 0,
-    "github_action": 305,
-    "successful": 305,
+    "github_action": 306,
+    "successful": 306,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 71,
       "Reporter Nasional": 100,
-      "Content Writer Homey": 34
+      "Content Writer Homey": 35
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 05:45:46",
-        "source": "github_action",
-        "candidate": "Wildan Adil Hilba",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 05:45:51",
         "source": "github_action",
@@ -9289,6 +9282,13 @@
         "timestamp": "2026-04-19 06:32:22",
         "source": "github_action",
         "candidate": "kezia ayu",
+        "position": "Content Writer Homey",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 06:32:26",
+        "source": "github_action",
+        "candidate": "yashintaputri0@gmail.com Putri",
         "position": "Content Writer Homey",
         "success": true
       }
