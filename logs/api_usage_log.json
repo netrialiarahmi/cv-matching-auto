@@ -8580,25 +8580,18 @@
     ]
   },
   "2026-04-19": {
-    "total": 302,
+    "total": 303,
     "streamlit": 0,
-    "github_action": 302,
-    "successful": 302,
+    "github_action": 303,
+    "successful": 303,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 71,
       "Reporter Nasional": 100,
-      "Content Writer Homey": 31
+      "Content Writer Homey": 32
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 05:44:41",
-        "source": "github_action",
-        "candidate": "Iqbal Fakhriza",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 05:44:46",
         "source": "github_action",
@@ -9289,6 +9282,13 @@
         "timestamp": "2026-04-19 06:30:58",
         "source": "github_action",
         "candidate": "Tria Kurnia",
+        "position": "Content Writer Homey",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 06:31:27",
+        "source": "github_action",
+        "candidate": "Shal Shabilah",
         "position": "Content Writer Homey",
         "success": true
       }
