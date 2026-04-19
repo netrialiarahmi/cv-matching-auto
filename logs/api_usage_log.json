@@ -8580,23 +8580,16 @@
     ]
   },
   "2026-04-19": {
-    "total": 107,
+    "total": 108,
     "streamlit": 0,
-    "github_action": 107,
-    "successful": 107,
+    "github_action": 108,
+    "successful": 108,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Megapolitan": 7
+      "Reporter Megapolitan": 8
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 04:11:16",
-        "source": "github_action",
-        "candidate": "Mohammad Farhan Saputra",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 04:11:48",
         "source": "github_action",
@@ -9287,6 +9280,13 @@
         "timestamp": "2026-04-19 05:02:07",
         "source": "github_action",
         "candidate": "Muhammad Aidil Sani",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 05:02:33",
+        "source": "github_action",
+        "candidate": "Diffa Anggraini",
         "position": "Reporter Megapolitan",
         "success": true
       }
