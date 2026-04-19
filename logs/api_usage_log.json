@@ -8580,23 +8580,16 @@
     ]
   },
   "2026-04-19": {
-    "total": 161,
+    "total": 162,
     "streamlit": 0,
-    "github_action": 161,
-    "successful": 161,
+    "github_action": 162,
+    "successful": 162,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Megapolitan": 61
+      "Reporter Megapolitan": 62
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 04:39:37",
-        "source": "github_action",
-        "candidate": "Amanda Patricia Hutauruk",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 04:40:07",
         "source": "github_action",
@@ -9287,6 +9280,13 @@
         "timestamp": "2026-04-19 05:25:16",
         "source": "github_action",
         "candidate": "Febri Ilham",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 05:25:20",
+        "source": "github_action",
+        "candidate": "sinto wahyu",
         "position": "Reporter Megapolitan",
         "success": true
       }
