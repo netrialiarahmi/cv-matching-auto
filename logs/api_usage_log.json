@@ -8580,13 +8580,13 @@
     ]
   },
   "2026-04-19": {
-    "total": 96,
+    "total": 97,
     "streamlit": 0,
-    "github_action": 96,
-    "successful": 96,
+    "github_action": 97,
+    "successful": 97,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 96
+      "Marketing Communication Officer KG Media": 97
     },
     "entries": [
       {
@@ -9258,6 +9258,13 @@
         "timestamp": "2026-04-19 04:56:51",
         "source": "github_action",
         "candidate": "Nicholas Raditya Tarigan",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 04:57:29",
+        "source": "github_action",
+        "candidate": "Fina Septiani",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
