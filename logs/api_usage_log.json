@@ -8580,25 +8580,18 @@
     ]
   },
   "2026-04-19": {
-    "total": 325,
+    "total": 326,
     "streamlit": 0,
-    "github_action": 325,
-    "successful": 325,
+    "github_action": 326,
+    "successful": 326,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 71,
       "Reporter Nasional": 100,
-      "Content Writer Homey": 54
+      "Content Writer Homey": 55
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 05:54:38",
-        "source": "github_action",
-        "candidate": "Tresye Alfa Ega  Turang",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 05:55:04",
         "source": "github_action",
@@ -9289,6 +9282,13 @@
         "timestamp": "2026-04-19 06:41:11",
         "source": "github_action",
         "candidate": "Kiki Dwi",
+        "position": "Content Writer Homey",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 06:41:36",
+        "source": "github_action",
+        "candidate": "Ii  Widya",
         "position": "Content Writer Homey",
         "success": true
       }
