@@ -8580,25 +8580,18 @@
     ]
   },
   "2026-04-19": {
-    "total": 300,
+    "total": 301,
     "streamlit": 0,
-    "github_action": 300,
-    "successful": 300,
+    "github_action": 301,
+    "successful": 301,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 71,
       "Reporter Nasional": 100,
-      "Content Writer Homey": 29
+      "Content Writer Homey": 30
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 05:43:38",
-        "source": "github_action",
-        "candidate": "Otto Hari Febra Maheswara",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 05:44:10",
         "source": "github_action",
@@ -9289,6 +9282,13 @@
         "timestamp": "2026-04-19 06:29:58",
         "source": "github_action",
         "candidate": "Mutiara Addiba",
+        "position": "Content Writer Homey",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 06:30:31",
+        "source": "github_action",
+        "candidate": "Ruben Tobing",
         "position": "Content Writer Homey",
         "success": true
       }
