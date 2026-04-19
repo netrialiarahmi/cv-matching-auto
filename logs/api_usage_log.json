@@ -8580,13 +8580,13 @@
     ]
   },
   "2026-04-19": {
-    "total": 46,
+    "total": 47,
     "streamlit": 0,
-    "github_action": 46,
-    "successful": 46,
+    "github_action": 47,
+    "successful": 47,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 46
+      "Marketing Communication Officer KG Media": 47
     },
     "entries": [
       {
@@ -8908,6 +8908,13 @@
         "timestamp": "2026-04-19 04:31:13",
         "source": "github_action",
         "candidate": "Gloria Maranatha",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 04:31:48",
+        "source": "github_action",
+        "candidate": "Erdisa Nurmalia",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
