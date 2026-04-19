@@ -8580,23 +8580,16 @@
     ]
   },
   "2026-04-19": {
-    "total": 151,
+    "total": 152,
     "streamlit": 0,
-    "github_action": 151,
-    "successful": 151,
+    "github_action": 152,
+    "successful": 152,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Megapolitan": 51
+      "Reporter Megapolitan": 52
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 04:34:26",
-        "source": "github_action",
-        "candidate": "Alfa Ruhma",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 04:34:56",
         "source": "github_action",
@@ -9287,6 +9280,13 @@
         "timestamp": "2026-04-19 05:20:54",
         "source": "github_action",
         "candidate": "Faiza Dewi Naifasya",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 05:21:20",
+        "source": "github_action",
+        "candidate": "Ai  Nurajizah",
         "position": "Reporter Megapolitan",
         "success": true
       }
