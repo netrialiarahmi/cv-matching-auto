@@ -8580,24 +8580,17 @@
     ]
   },
   "2026-04-19": {
-    "total": 210,
+    "total": 211,
     "streamlit": 0,
-    "github_action": 210,
-    "successful": 210,
+    "github_action": 211,
+    "successful": 211,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 71,
-      "Reporter Nasional": 39
+      "Reporter Nasional": 40
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 05:03:49",
-        "source": "github_action",
-        "candidate": "Kristy Natalia Kadang",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 05:04:20",
         "source": "github_action",
@@ -9288,6 +9281,13 @@
         "timestamp": "2026-04-19 05:47:12",
         "source": "github_action",
         "candidate": "Ahda Sabila",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 05:47:40",
+        "source": "github_action",
+        "candidate": "Mercy Pika Irawanty Sinaga",
         "position": "Reporter Nasional",
         "success": true
       }
