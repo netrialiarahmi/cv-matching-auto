@@ -8580,13 +8580,13 @@
     ]
   },
   "2026-04-19": {
-    "total": 84,
+    "total": 85,
     "streamlit": 0,
-    "github_action": 84,
-    "successful": 84,
+    "github_action": 85,
+    "successful": 85,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 84
+      "Marketing Communication Officer KG Media": 85
     },
     "entries": [
       {
@@ -9174,6 +9174,13 @@
         "timestamp": "2026-04-19 04:51:08",
         "source": "github_action",
         "candidate": "Abel Syifa Ghazalah",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 04:51:12",
+        "source": "github_action",
+        "candidate": "Yuliani Yuliani",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
