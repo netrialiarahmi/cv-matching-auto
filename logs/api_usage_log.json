@@ -8580,24 +8580,17 @@
     ]
   },
   "2026-04-19": {
-    "total": 261,
+    "total": 262,
     "streamlit": 0,
-    "github_action": 261,
-    "successful": 261,
+    "github_action": 262,
+    "successful": 262,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 71,
-      "Reporter Nasional": 90
+      "Reporter Nasional": 91
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 05:25:20",
-        "source": "github_action",
-        "candidate": "sinto wahyu",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 05:25:48",
         "source": "github_action",
@@ -9288,6 +9281,13 @@
         "timestamp": "2026-04-19 06:11:15",
         "source": "github_action",
         "candidate": "Noval Adityo",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 06:11:47",
+        "source": "github_action",
+        "candidate": "Friendsa Hasugian",
         "position": "Reporter Nasional",
         "success": true
       }
