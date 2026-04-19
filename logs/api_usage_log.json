@@ -8580,25 +8580,18 @@
     ]
   },
   "2026-04-19": {
-    "total": 356,
+    "total": 357,
     "streamlit": 0,
-    "github_action": 356,
-    "successful": 356,
+    "github_action": 357,
+    "successful": 357,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 71,
       "Reporter Nasional": 100,
-      "Content Writer Homey": 85
+      "Content Writer Homey": 86
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 06:09:10",
-        "source": "github_action",
-        "candidate": "Salma Shalsabilla",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 06:09:42",
         "source": "github_action",
@@ -9289,6 +9282,13 @@
         "timestamp": "2026-04-19 06:55:10",
         "source": "github_action",
         "candidate": "DWITYA ARTHA RIO",
+        "position": "Content Writer Homey",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 06:55:38",
+        "source": "github_action",
+        "candidate": "Sekar Langit",
         "position": "Content Writer Homey",
         "success": true
       }
