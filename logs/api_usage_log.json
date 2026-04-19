@@ -8580,23 +8580,16 @@
     ]
   },
   "2026-04-19": {
-    "total": 102,
+    "total": 103,
     "streamlit": 0,
-    "github_action": 102,
-    "successful": 102,
+    "github_action": 103,
+    "successful": 103,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Megapolitan": 2
+      "Reporter Megapolitan": 3
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 04:09:33",
-        "source": "github_action",
-        "candidate": "Irmina Ayu Lentera",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 04:10:03",
         "source": "github_action",
@@ -9287,6 +9280,13 @@
         "timestamp": "2026-04-19 04:59:50",
         "source": "github_action",
         "candidate": "Dhimas risang sri  arya naratama",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 05:00:19",
+        "source": "github_action",
+        "candidate": "Indra Gunawan",
         "position": "Reporter Megapolitan",
         "success": true
       }
