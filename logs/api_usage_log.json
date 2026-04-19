@@ -8580,24 +8580,17 @@
     ]
   },
   "2026-04-19": {
-    "total": 262,
+    "total": 263,
     "streamlit": 0,
-    "github_action": 262,
-    "successful": 262,
+    "github_action": 263,
+    "successful": 263,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 71,
-      "Reporter Nasional": 91
+      "Reporter Nasional": 92
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 05:25:48",
-        "source": "github_action",
-        "candidate": "Alipia Sabina",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 05:26:15",
         "source": "github_action",
@@ -9288,6 +9281,13 @@
         "timestamp": "2026-04-19 06:11:47",
         "source": "github_action",
         "candidate": "Friendsa Hasugian",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 06:12:16",
+        "source": "github_action",
+        "candidate": "Amisha Destira elianza",
         "position": "Reporter Nasional",
         "success": true
       }
