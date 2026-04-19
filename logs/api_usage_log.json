@@ -8580,25 +8580,18 @@
     ]
   },
   "2026-04-19": {
-    "total": 369,
+    "total": 370,
     "streamlit": 0,
-    "github_action": 369,
-    "successful": 369,
+    "github_action": 370,
+    "successful": 370,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 71,
       "Reporter Nasional": 100,
-      "Content Writer Homey": 98
+      "Content Writer Homey": 99
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 06:15:58",
-        "source": "github_action",
-        "candidate": "Sholahuddin Al Ayyubi",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 06:16:28",
         "source": "github_action",
@@ -9289,6 +9282,13 @@
         "timestamp": "2026-04-19 07:00:36",
         "source": "github_action",
         "candidate": "Agustina Dwi Cahyani",
+        "position": "Content Writer Homey",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 07:01:04",
+        "source": "github_action",
+        "candidate": "Muhammad Muzakki",
         "position": "Content Writer Homey",
         "success": true
       }
