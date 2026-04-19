@@ -8580,26 +8580,19 @@
     ]
   },
   "2026-04-19": {
-    "total": 468,
+    "total": 469,
     "streamlit": 0,
-    "github_action": 468,
-    "successful": 468,
+    "github_action": 469,
+    "successful": 469,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 71,
       "Reporter Nasional": 100,
       "Content Writer Homey": 100,
-      "Data Analyst (Business Intelligence)": 97
+      "Data Analyst (Business Intelligence)": 98
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 07:00:36",
-        "source": "github_action",
-        "candidate": "Agustina Dwi Cahyani",
-        "position": "Content Writer Homey",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 07:01:04",
         "source": "github_action",
@@ -9290,6 +9283,13 @@
         "timestamp": "2026-04-19 07:49:10",
         "source": "github_action",
         "candidate": "Anugrah Gunawan",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 07:49:14",
+        "source": "github_action",
+        "candidate": "Geger Indrawati Pujilestari Surono",
         "position": "Data Analyst (Business Intelligence)",
         "success": true
       }
