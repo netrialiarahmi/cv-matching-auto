@@ -8580,24 +8580,17 @@
     ]
   },
   "2026-04-19": {
-    "total": 253,
+    "total": 254,
     "streamlit": 0,
-    "github_action": 253,
-    "successful": 253,
+    "github_action": 254,
+    "successful": 254,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 71,
-      "Reporter Nasional": 82
+      "Reporter Nasional": 83
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 05:22:15",
-        "source": "github_action",
-        "candidate": "Bimo Radityo",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 05:22:42",
         "source": "github_action",
@@ -9288,6 +9281,13 @@
         "timestamp": "2026-04-19 06:07:37",
         "source": "github_action",
         "candidate": "Dwi Putra",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 06:08:09",
+        "source": "github_action",
+        "candidate": "Dimas Candra",
         "position": "Reporter Nasional",
         "success": true
       }
