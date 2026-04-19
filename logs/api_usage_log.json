@@ -8580,26 +8580,19 @@
     ]
   },
   "2026-04-19": {
-    "total": 441,
+    "total": 442,
     "streamlit": 0,
-    "github_action": 441,
-    "successful": 441,
+    "github_action": 442,
+    "successful": 442,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 71,
       "Reporter Nasional": 100,
       "Content Writer Homey": 100,
-      "Data Analyst (Business Intelligence)": 70
+      "Data Analyst (Business Intelligence)": 71
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 06:48:58",
-        "source": "github_action",
-        "candidate": "Agnes Fiona  Iga Kristiana",
-        "position": "Content Writer Homey",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 06:49:26",
         "source": "github_action",
@@ -9290,6 +9283,13 @@
         "timestamp": "2026-04-19 07:35:32",
         "source": "github_action",
         "candidate": "Nabila Putri Setiawan",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 07:36:02",
+        "source": "github_action",
+        "candidate": "Wulan Sapitri",
         "position": "Data Analyst (Business Intelligence)",
         "success": true
       }
