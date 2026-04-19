@@ -8580,24 +8580,17 @@
     ]
   },
   "2026-04-19": {
-    "total": 184,
+    "total": 185,
     "streamlit": 0,
-    "github_action": 184,
-    "successful": 184,
+    "github_action": 185,
+    "successful": 185,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 71,
-      "Reporter Nasional": 13
+      "Reporter Nasional": 14
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 04:51:12",
-        "source": "github_action",
-        "candidate": "Yuliani Yuliani",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 04:51:47",
         "source": "github_action",
@@ -9288,6 +9281,13 @@
         "timestamp": "2026-04-19 05:35:40",
         "source": "github_action",
         "candidate": "Shelma Auliya M.",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 05:35:45",
+        "source": "github_action",
+        "candidate": "Restira My Syahputri",
         "position": "Reporter Nasional",
         "success": true
       }
