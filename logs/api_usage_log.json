@@ -8580,13 +8580,13 @@
     ]
   },
   "2026-04-19": {
-    "total": 9,
+    "total": 10,
     "streamlit": 0,
-    "github_action": 9,
-    "successful": 9,
+    "github_action": 10,
+    "successful": 10,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 9
+      "Marketing Communication Officer KG Media": 10
     },
     "entries": [
       {
@@ -8649,6 +8649,13 @@
         "timestamp": "2026-04-19 04:11:48",
         "source": "github_action",
         "candidate": "Maritza dwi Zahrani",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 04:12:22",
+        "source": "github_action",
+        "candidate": "Laisya Nauva",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
