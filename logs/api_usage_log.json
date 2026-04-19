@@ -8580,10 +8580,10 @@
     ]
   },
   "2026-04-19": {
-    "total": 635,
+    "total": 636,
     "streamlit": 0,
-    "github_action": 635,
-    "successful": 635,
+    "github_action": 636,
+    "successful": 636,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
@@ -8592,16 +8592,9 @@
       "Content Writer Homey": 100,
       "Data Analyst (Business Intelligence)": 100,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 64
+      "Account Executive VCBL": 65
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 08:22:39",
-        "source": "github_action",
-        "candidate": "Rezy Aprilliano Adha",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 08:22:43",
         "source": "github_action",
@@ -9292,6 +9285,13 @@
         "timestamp": "2026-04-19 09:09:20",
         "source": "github_action",
         "candidate": "Ayu Siti Hajar",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 09:09:49",
+        "source": "github_action",
+        "candidate": "Annisa Wardhatul",
         "position": "Account Executive VCBL",
         "success": true
       }
