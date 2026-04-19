@@ -8580,24 +8580,17 @@
     ]
   },
   "2026-04-19": {
-    "total": 223,
+    "total": 224,
     "streamlit": 0,
-    "github_action": 223,
-    "successful": 223,
+    "github_action": 224,
+    "successful": 224,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 71,
-      "Reporter Nasional": 52
+      "Reporter Nasional": 53
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 05:10:01",
-        "source": "github_action",
-        "candidate": "Naufal Hadad",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 05:10:29",
         "source": "github_action",
@@ -9288,6 +9281,13 @@
         "timestamp": "2026-04-19 05:53:10",
         "source": "github_action",
         "candidate": "Hijfa Azzahra",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 05:53:40",
+        "source": "github_action",
+        "candidate": "Meidiana  Shafa Kayla",
         "position": "Reporter Nasional",
         "success": true
       }
