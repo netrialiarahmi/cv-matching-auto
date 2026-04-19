@@ -8580,24 +8580,17 @@
     ]
   },
   "2026-04-19": {
-    "total": 217,
+    "total": 218,
     "streamlit": 0,
-    "github_action": 217,
-    "successful": 217,
+    "github_action": 218,
+    "successful": 218,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 71,
-      "Reporter Nasional": 46
+      "Reporter Nasional": 47
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 05:07:09",
-        "source": "github_action",
-        "candidate": "Izwadi Harahap",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 05:07:36",
         "source": "github_action",
@@ -9288,6 +9281,13 @@
         "timestamp": "2026-04-19 05:50:30",
         "source": "github_action",
         "candidate": "KURNIA AGUSTIN",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 05:51:02",
+        "source": "github_action",
+        "candidate": "Muhammad Iqbal",
         "position": "Reporter Nasional",
         "success": true
       }
