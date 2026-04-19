@@ -8580,24 +8580,17 @@
     ]
   },
   "2026-04-19": {
-    "total": 186,
+    "total": 187,
     "streamlit": 0,
-    "github_action": 186,
-    "successful": 186,
+    "github_action": 187,
+    "successful": 187,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 71,
-      "Reporter Nasional": 15
+      "Reporter Nasional": 16
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 04:52:19",
-        "source": "github_action",
-        "candidate": "Reza Febri Pratama",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 04:52:49",
         "source": "github_action",
@@ -9288,6 +9281,13 @@
         "timestamp": "2026-04-19 05:36:12",
         "source": "github_action",
         "candidate": "Qonita Hamidah",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 05:36:42",
+        "source": "github_action",
+        "candidate": "Muhamad Reza Pahlevi",
         "position": "Reporter Nasional",
         "success": true
       }
