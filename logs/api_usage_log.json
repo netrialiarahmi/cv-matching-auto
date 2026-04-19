@@ -8580,24 +8580,17 @@
     ]
   },
   "2026-04-19": {
-    "total": 266,
+    "total": 267,
     "streamlit": 0,
-    "github_action": 266,
-    "successful": 266,
+    "github_action": 267,
+    "successful": 267,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 71,
-      "Reporter Nasional": 95
+      "Reporter Nasional": 96
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 05:27:37",
-        "source": "github_action",
-        "candidate": "Annisaa Shabeela",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 05:28:05",
         "source": "github_action",
@@ -9288,6 +9281,13 @@
         "timestamp": "2026-04-19 06:13:44",
         "source": "github_action",
         "candidate": "Salsabila Syafaati Azizah",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 06:14:14",
+        "source": "github_action",
+        "candidate": "Sarah Almira",
         "position": "Reporter Nasional",
         "success": true
       }
