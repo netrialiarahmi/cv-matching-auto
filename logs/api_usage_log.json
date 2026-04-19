@@ -8580,13 +8580,13 @@
     ]
   },
   "2026-04-19": {
-    "total": 34,
+    "total": 35,
     "streamlit": 0,
-    "github_action": 34,
-    "successful": 34,
+    "github_action": 35,
+    "successful": 35,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 34
+      "Marketing Communication Officer KG Media": 35
     },
     "entries": [
       {
@@ -8824,6 +8824,13 @@
         "timestamp": "2026-04-19 04:24:53",
         "source": "github_action",
         "candidate": "Muhammad Riyan Wildani",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 04:25:28",
+        "source": "github_action",
+        "candidate": "Gilang Anjar Rinaldy",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
