@@ -8580,10 +8580,10 @@
     ]
   },
   "2026-04-19": {
-    "total": 492,
+    "total": 493,
     "streamlit": 0,
-    "github_action": 492,
-    "successful": 492,
+    "github_action": 493,
+    "successful": 493,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
@@ -8591,16 +8591,9 @@
       "Reporter Nasional": 100,
       "Content Writer Homey": 100,
       "Data Analyst (Business Intelligence)": 100,
-      "Business Development Analyst": 21
+      "Business Development Analyst": 22
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 07:12:50",
-        "source": "github_action",
-        "candidate": "Nauval Gymnasti",
-        "position": "Data Analyst (Business Intelligence)",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 07:13:15",
         "source": "github_action",
@@ -9291,6 +9284,13 @@
         "timestamp": "2026-04-19 08:00:40",
         "source": "github_action",
         "candidate": "Agung Pramono",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 08:01:12",
+        "source": "github_action",
+        "candidate": "Sandi Mayyoga",
         "position": "Business Development Analyst",
         "success": true
       }
