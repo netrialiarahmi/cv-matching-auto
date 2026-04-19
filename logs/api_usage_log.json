@@ -8580,25 +8580,18 @@
     ]
   },
   "2026-04-19": {
-    "total": 341,
+    "total": 342,
     "streamlit": 0,
-    "github_action": 341,
-    "successful": 341,
+    "github_action": 342,
+    "successful": 342,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 71,
       "Reporter Nasional": 100,
-      "Content Writer Homey": 70
+      "Content Writer Homey": 71
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 06:02:28",
-        "source": "github_action",
-        "candidate": "Yessi Baldah zus to yusa",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 06:03:00",
         "source": "github_action",
@@ -9289,6 +9282,13 @@
         "timestamp": "2026-04-19 06:48:33",
         "source": "github_action",
         "candidate": "Anastasya Joice Tri Vena",
+        "position": "Content Writer Homey",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 06:48:58",
+        "source": "github_action",
+        "candidate": "Agnes Fiona  Iga Kristiana",
         "position": "Content Writer Homey",
         "success": true
       }
