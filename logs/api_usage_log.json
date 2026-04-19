@@ -8580,25 +8580,18 @@
     ]
   },
   "2026-04-19": {
-    "total": 347,
+    "total": 348,
     "streamlit": 0,
-    "github_action": 347,
-    "successful": 347,
+    "github_action": 348,
+    "successful": 348,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 71,
       "Reporter Nasional": 100,
-      "Content Writer Homey": 76
+      "Content Writer Homey": 77
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 06:05:30",
-        "source": "github_action",
-        "candidate": "ALSHA MAULIDA Alwahdy",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 06:06:00",
         "source": "github_action",
@@ -9289,6 +9282,13 @@
         "timestamp": "2026-04-19 06:51:12",
         "source": "github_action",
         "candidate": "Avrinda Manggarani",
+        "position": "Content Writer Homey",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 06:51:40",
+        "source": "github_action",
+        "candidate": "Mohammad Daffa",
         "position": "Content Writer Homey",
         "success": true
       }
