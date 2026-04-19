@@ -8580,13 +8580,13 @@
     ]
   },
   "2026-04-19": {
-    "total": 41,
+    "total": 42,
     "streamlit": 0,
-    "github_action": 41,
-    "successful": 41,
+    "github_action": 42,
+    "successful": 42,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 41
+      "Marketing Communication Officer KG Media": 42
     },
     "entries": [
       {
@@ -8873,6 +8873,13 @@
         "timestamp": "2026-04-19 04:28:33",
         "source": "github_action",
         "candidate": "KEMAL AL KAUTSAR MABRURI",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 04:29:05",
+        "source": "github_action",
+        "candidate": "Vito Maulana",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
