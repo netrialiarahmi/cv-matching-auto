@@ -8580,26 +8580,19 @@
     ]
   },
   "2026-04-19": {
-    "total": 459,
+    "total": 460,
     "streamlit": 0,
-    "github_action": 459,
-    "successful": 459,
+    "github_action": 460,
+    "successful": 460,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 71,
       "Reporter Nasional": 100,
       "Content Writer Homey": 100,
-      "Data Analyst (Business Intelligence)": 88
+      "Data Analyst (Business Intelligence)": 89
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 06:56:36",
-        "source": "github_action",
-        "candidate": "aldila juwita",
-        "position": "Content Writer Homey",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 06:57:02",
         "source": "github_action",
@@ -9290,6 +9283,13 @@
         "timestamp": "2026-04-19 07:44:41",
         "source": "github_action",
         "candidate": "Joy Michael",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 07:45:10",
+        "source": "github_action",
+        "candidate": "Elisio Sianturi",
         "position": "Data Analyst (Business Intelligence)",
         "success": true
       }
