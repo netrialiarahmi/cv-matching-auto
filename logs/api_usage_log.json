@@ -8580,26 +8580,19 @@
     ]
   },
   "2026-04-19": {
-    "total": 408,
+    "total": 409,
     "streamlit": 0,
-    "github_action": 408,
-    "successful": 408,
+    "github_action": 409,
+    "successful": 409,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 71,
       "Reporter Nasional": 100,
       "Content Writer Homey": 100,
-      "Data Analyst (Business Intelligence)": 37
+      "Data Analyst (Business Intelligence)": 38
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 06:33:52",
-        "source": "github_action",
-        "candidate": "Tresye Alfa Ega  Turang",
-        "position": "Content Writer Homey",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 06:34:27",
         "source": "github_action",
@@ -9290,6 +9283,13 @@
         "timestamp": "2026-04-19 07:20:05",
         "source": "github_action",
         "candidate": "Muhammad Rasikh Azfa Riyyasy",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 07:20:34",
+        "source": "github_action",
+        "candidate": "nalby berry",
         "position": "Data Analyst (Business Intelligence)",
         "success": true
       }
