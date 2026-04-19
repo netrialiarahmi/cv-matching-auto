@@ -8580,23 +8580,16 @@
     ]
   },
   "2026-04-19": {
-    "total": 126,
+    "total": 127,
     "streamlit": 0,
-    "github_action": 126,
-    "successful": 126,
+    "github_action": 127,
+    "successful": 127,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Megapolitan": 26
+      "Reporter Megapolitan": 27
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 04:21:11",
-        "source": "github_action",
-        "candidate": "Amira Zaina",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 04:21:43",
         "source": "github_action",
@@ -9287,6 +9280,13 @@
         "timestamp": "2026-04-19 05:10:33",
         "source": "github_action",
         "candidate": "Della Yuspita",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 05:10:59",
+        "source": "github_action",
+        "candidate": "Muhammad Satria",
         "position": "Reporter Megapolitan",
         "success": true
       }
