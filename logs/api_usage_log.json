@@ -8580,24 +8580,17 @@
     ]
   },
   "2026-04-19": {
-    "total": 197,
+    "total": 198,
     "streamlit": 0,
-    "github_action": 197,
-    "successful": 197,
+    "github_action": 198,
+    "successful": 198,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 71,
-      "Reporter Nasional": 26
+      "Reporter Nasional": 27
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 04:57:59",
-        "source": "github_action",
-        "candidate": "Filipa Mutiara",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 04:58:28",
         "source": "github_action",
@@ -9288,6 +9281,13 @@
         "timestamp": "2026-04-19 05:41:41",
         "source": "github_action",
         "candidate": "Afifah Azzahra",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 05:42:09",
+        "source": "github_action",
+        "candidate": "Anisa Nur Syafitri",
         "position": "Reporter Nasional",
         "success": true
       }
