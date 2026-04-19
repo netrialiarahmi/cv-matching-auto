@@ -8580,25 +8580,18 @@
     ]
   },
   "2026-04-19": {
-    "total": 294,
+    "total": 295,
     "streamlit": 0,
-    "github_action": 294,
-    "successful": 294,
+    "github_action": 295,
+    "successful": 295,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 71,
       "Reporter Nasional": 100,
-      "Content Writer Homey": 23
+      "Content Writer Homey": 24
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 05:40:45",
-        "source": "github_action",
-        "candidate": "Endang Angriani",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 05:41:13",
         "source": "github_action",
@@ -9289,6 +9282,13 @@
         "timestamp": "2026-04-19 06:27:05",
         "source": "github_action",
         "candidate": "BROHIM AMINGKAWIYA SANTOSO",
+        "position": "Content Writer Homey",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 06:27:36",
+        "source": "github_action",
+        "candidate": "Sri Wahyuni Indah Pratiwi",
         "position": "Content Writer Homey",
         "success": true
       }
