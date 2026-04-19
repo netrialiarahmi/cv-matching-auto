@@ -8580,25 +8580,18 @@
     ]
   },
   "2026-04-19": {
-    "total": 299,
+    "total": 300,
     "streamlit": 0,
-    "github_action": 299,
-    "successful": 299,
+    "github_action": 300,
+    "successful": 300,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 71,
       "Reporter Nasional": 100,
-      "Content Writer Homey": 28
+      "Content Writer Homey": 29
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 05:43:05",
-        "source": "github_action",
-        "candidate": "Muhjid Bagus Oqsaberi",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 05:43:38",
         "source": "github_action",
@@ -9289,6 +9282,13 @@
         "timestamp": "2026-04-19 06:29:27",
         "source": "github_action",
         "candidate": "Audrey Annisa Budianti",
+        "position": "Content Writer Homey",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 06:29:58",
+        "source": "github_action",
+        "candidate": "Mutiara Addiba",
         "position": "Content Writer Homey",
         "success": true
       }
