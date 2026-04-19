@@ -8580,23 +8580,16 @@
     ]
   },
   "2026-04-19": {
-    "total": 138,
+    "total": 139,
     "streamlit": 0,
-    "github_action": 138,
-    "successful": 138,
+    "github_action": 139,
+    "successful": 139,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Megapolitan": 38
+      "Reporter Megapolitan": 39
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 04:27:35",
-        "source": "github_action",
-        "candidate": "Ilham Aprilano",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 04:28:05",
         "source": "github_action",
@@ -9287,6 +9280,13 @@
         "timestamp": "2026-04-19 05:15:13",
         "source": "github_action",
         "candidate": "Mega Rizka",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 05:15:40",
+        "source": "github_action",
+        "candidate": "Lidia Indri Astuti",
         "position": "Reporter Megapolitan",
         "success": true
       }
