@@ -8580,23 +8580,16 @@
     ]
   },
   "2026-04-19": {
-    "total": 168,
+    "total": 169,
     "streamlit": 0,
-    "github_action": 168,
-    "successful": 168,
+    "github_action": 169,
+    "successful": 169,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Megapolitan": 68
+      "Reporter Megapolitan": 69
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 04:43:11",
-        "source": "github_action",
-        "candidate": "Nieko Hariyadi",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 04:43:41",
         "source": "github_action",
@@ -9287,6 +9280,13 @@
         "timestamp": "2026-04-19 05:28:05",
         "source": "github_action",
         "candidate": "Sendi Zikri Julian Fadilah",
+        "position": "Reporter Megapolitan",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 05:28:31",
+        "source": "github_action",
+        "candidate": "Asraf Fitris Rachmat",
         "position": "Reporter Megapolitan",
         "success": true
       }
