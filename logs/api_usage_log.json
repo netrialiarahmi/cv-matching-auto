@@ -8580,10 +8580,10 @@
     ]
   },
   "2026-04-19": {
-    "total": 560,
+    "total": 561,
     "streamlit": 0,
-    "github_action": 560,
-    "successful": 560,
+    "github_action": 561,
+    "successful": 561,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
@@ -8591,16 +8591,9 @@
       "Reporter Nasional": 100,
       "Content Writer Homey": 100,
       "Data Analyst (Business Intelligence)": 100,
-      "Business Development Analyst": 89
+      "Business Development Analyst": 90
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 07:45:39",
-        "source": "github_action",
-        "candidate": "Kautsar Hilmi",
-        "position": "Data Analyst (Business Intelligence)",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 07:46:10",
         "source": "github_action",
@@ -9291,6 +9284,13 @@
         "timestamp": "2026-04-19 08:34:21",
         "source": "github_action",
         "candidate": "KEMAL AL KAUTSAR MABRURI",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 08:34:53",
+        "source": "github_action",
+        "candidate": "Herviona Advenester Wardhani",
         "position": "Business Development Analyst",
         "success": true
       }
