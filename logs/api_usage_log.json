@@ -8580,24 +8580,17 @@
     ]
   },
   "2026-04-19": {
-    "total": 245,
+    "total": 246,
     "streamlit": 0,
-    "github_action": 245,
-    "successful": 245,
+    "github_action": 246,
+    "successful": 246,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 71,
-      "Reporter Nasional": 74
+      "Reporter Nasional": 75
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 05:18:45",
-        "source": "github_action",
-        "candidate": "Tsaqila Idzhan",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 05:19:13",
         "source": "github_action",
@@ -9288,6 +9281,13 @@
         "timestamp": "2026-04-19 06:04:02",
         "source": "github_action",
         "candidate": "Asyadillah Althaf",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 06:04:29",
+        "source": "github_action",
+        "candidate": "ERIJ  karimah",
         "position": "Reporter Nasional",
         "success": true
       }
