@@ -8580,13 +8580,13 @@
     ]
   },
   "2026-04-19": {
-    "total": 40,
+    "total": 41,
     "streamlit": 0,
-    "github_action": 40,
-    "successful": 40,
+    "github_action": 41,
+    "successful": 41,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 40
+      "Marketing Communication Officer KG Media": 41
     },
     "entries": [
       {
@@ -8866,6 +8866,13 @@
         "timestamp": "2026-04-19 04:28:05",
         "source": "github_action",
         "candidate": "Arif Nurochman",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 04:28:33",
+        "source": "github_action",
+        "candidate": "KEMAL AL KAUTSAR MABRURI",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
