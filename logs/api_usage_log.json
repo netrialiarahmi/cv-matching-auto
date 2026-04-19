@@ -8580,25 +8580,18 @@
     ]
   },
   "2026-04-19": {
-    "total": 320,
+    "total": 321,
     "streamlit": 0,
-    "github_action": 320,
-    "successful": 320,
+    "github_action": 321,
+    "successful": 321,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 71,
       "Reporter Nasional": 100,
-      "Content Writer Homey": 49
+      "Content Writer Homey": 50
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 05:52:35",
-        "source": "github_action",
-        "candidate": "Syahrul Rifai Tri Laksono",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 05:52:40",
         "source": "github_action",
@@ -9289,6 +9282,13 @@
         "timestamp": "2026-04-19 06:38:42",
         "source": "github_action",
         "candidate": "Silvia Ayu Maharani",
+        "position": "Content Writer Homey",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 06:39:18",
+        "source": "github_action",
+        "candidate": "Cecilia Situmorang",
         "position": "Content Writer Homey",
         "success": true
       }
