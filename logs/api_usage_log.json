@@ -8580,24 +8580,17 @@
     ]
   },
   "2026-04-19": {
-    "total": 264,
+    "total": 265,
     "streamlit": 0,
-    "github_action": 264,
-    "successful": 264,
+    "github_action": 265,
+    "successful": 265,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Megapolitan": 71,
-      "Reporter Nasional": 93
+      "Reporter Nasional": 94
     },
     "entries": [
-      {
-        "timestamp": "2026-04-19 05:26:44",
-        "source": "github_action",
-        "candidate": "Muhamad Abrar  Ariq",
-        "position": "Reporter Megapolitan",
-        "success": true
-      },
       {
         "timestamp": "2026-04-19 05:27:10",
         "source": "github_action",
@@ -9288,6 +9281,13 @@
         "timestamp": "2026-04-19 06:12:44",
         "source": "github_action",
         "candidate": "Bayu Indra Wibowo",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-19 06:13:13",
+        "source": "github_action",
+        "candidate": "Anastasya Yuliarta",
         "position": "Reporter Nasional",
         "success": true
       }
