@@ -9298,10 +9298,10 @@
     ]
   },
   "2026-04-20": {
-    "total": 412,
+    "total": 413,
     "streamlit": 0,
-    "github_action": 412,
-    "successful": 412,
+    "github_action": 413,
+    "successful": 413,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
@@ -9309,16 +9309,9 @@
       "Content Writer Homey": 1,
       "Data Analyst (Business Intelligence)": 100,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 11
+      "Account Executive VCBL": 12
     },
     "entries": [
-      {
-        "timestamp": "2026-04-20 06:33:05",
-        "source": "github_action",
-        "candidate": "Sri Cintia Dewi",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-20 06:33:38",
         "source": "github_action",
@@ -10009,6 +10002,13 @@
         "timestamp": "2026-04-20 07:20:56",
         "source": "github_action",
         "candidate": "Elfrida Fiola Siregar siregar",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-20 07:21:29",
+        "source": "github_action",
+        "candidate": "Amelia Riyanti",
         "position": "Account Executive VCBL",
         "success": true
       }
