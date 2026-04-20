@@ -9298,13 +9298,13 @@
     ]
   },
   "2026-04-20": {
-    "total": 99,
+    "total": 100,
     "streamlit": 0,
-    "github_action": 99,
-    "successful": 99,
+    "github_action": 100,
+    "successful": 100,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 99
+      "Marketing Communication Officer KG Media": 100
     },
     "entries": [
       {
@@ -9997,6 +9997,13 @@
         "timestamp": "2026-04-20 04:58:17",
         "source": "github_action",
         "candidate": "Syafira Zahra Julianti",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-20 04:58:45",
+        "source": "github_action",
+        "candidate": "Ayu Asriyani",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
