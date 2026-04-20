@@ -9298,23 +9298,16 @@
     ]
   },
   "2026-04-20": {
-    "total": 112,
+    "total": 113,
     "streamlit": 0,
-    "github_action": 112,
-    "successful": 112,
+    "github_action": 113,
+    "successful": 113,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 12
+      "Reporter Nasional": 13
     },
     "entries": [
-      {
-        "timestamp": "2026-04-20 04:17:41",
-        "source": "github_action",
-        "candidate": "Fakhri Nan Arif Meivetra",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-20 04:18:14",
         "source": "github_action",
@@ -10005,6 +9998,13 @@
         "timestamp": "2026-04-20 05:04:05",
         "source": "github_action",
         "candidate": "Shelma Auliya M.",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-20 05:04:07",
+        "source": "github_action",
+        "candidate": "Restira My Syahputri",
         "position": "Reporter Nasional",
         "success": true
       }
