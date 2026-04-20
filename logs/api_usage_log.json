@@ -9298,25 +9298,18 @@
     ]
   },
   "2026-04-20": {
-    "total": 287,
+    "total": 288,
     "streamlit": 0,
-    "github_action": 287,
-    "successful": 287,
+    "github_action": 288,
+    "successful": 288,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Content Writer Homey": 1,
-      "Data Analyst (Business Intelligence)": 86
+      "Data Analyst (Business Intelligence)": 87
     },
     "entries": [
-      {
-        "timestamp": "2026-04-20 05:37:26",
-        "source": "github_action",
-        "candidate": "Sarah Almira",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-20 05:37:58",
         "source": "github_action",
@@ -10007,6 +10000,13 @@
         "timestamp": "2026-04-20 06:21:26",
         "source": "github_action",
         "candidate": "Rafhiromadhoni Sopandi",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-20 06:21:58",
+        "source": "github_action",
+        "candidate": "FITRI HANDAYANI",
         "position": "Data Analyst (Business Intelligence)",
         "success": true
       }
