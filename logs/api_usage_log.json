@@ -9298,13 +9298,13 @@
     ]
   },
   "2026-04-20": {
-    "total": 90,
+    "total": 91,
     "streamlit": 0,
-    "github_action": 90,
-    "successful": 90,
+    "github_action": 91,
+    "successful": 91,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 90
+      "Marketing Communication Officer KG Media": 91
     },
     "entries": [
       {
@@ -9934,6 +9934,13 @@
         "timestamp": "2026-04-20 04:54:16",
         "source": "github_action",
         "candidate": "Selaya Anastasya",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-20 04:54:50",
+        "source": "github_action",
+        "candidate": "Novia Novia",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
