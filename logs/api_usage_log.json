@@ -9298,13 +9298,13 @@
     ]
   },
   "2026-04-20": {
-    "total": 87,
+    "total": 88,
     "streamlit": 0,
-    "github_action": 87,
-    "successful": 87,
+    "github_action": 88,
+    "successful": 88,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 87
+      "Marketing Communication Officer KG Media": 88
     },
     "entries": [
       {
@@ -9913,6 +9913,13 @@
         "timestamp": "2026-04-20 04:52:51",
         "source": "github_action",
         "candidate": "Adelisa Ihdina Sentosa",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-20 04:53:19",
+        "source": "github_action",
+        "candidate": "Theresia Pietra Maharani",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
