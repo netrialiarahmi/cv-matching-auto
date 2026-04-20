@@ -9298,26 +9298,19 @@
     ]
   },
   "2026-04-20": {
-    "total": 374,
+    "total": 375,
     "streamlit": 0,
-    "github_action": 374,
-    "successful": 374,
+    "github_action": 375,
+    "successful": 375,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Content Writer Homey": 1,
       "Data Analyst (Business Intelligence)": 100,
-      "Business Development Analyst": 73
+      "Business Development Analyst": 74
     },
     "entries": [
-      {
-        "timestamp": "2026-04-20 06:16:02",
-        "source": "github_action",
-        "candidate": "Haryadi Tri Nugroho",
-        "position": "Data Analyst (Business Intelligence)",
-        "success": true
-      },
       {
         "timestamp": "2026-04-20 06:16:32",
         "source": "github_action",
@@ -10008,6 +10001,13 @@
         "timestamp": "2026-04-20 07:02:18",
         "source": "github_action",
         "candidate": "Alifah Nurfaizah",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-20 07:02:51",
+        "source": "github_action",
+        "candidate": "Bintang Artha Velina Simanjuntak",
         "position": "Business Development Analyst",
         "success": true
       }
