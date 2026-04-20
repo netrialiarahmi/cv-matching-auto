@@ -9298,13 +9298,13 @@
     ]
   },
   "2026-04-20": {
-    "total": 45,
+    "total": 46,
     "streamlit": 0,
-    "github_action": 45,
-    "successful": 45,
+    "github_action": 46,
+    "successful": 46,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 45
+      "Marketing Communication Officer KG Media": 46
     },
     "entries": [
       {
@@ -9619,6 +9619,13 @@
         "timestamp": "2026-04-20 04:32:52",
         "source": "github_action",
         "candidate": "Ida Kholifatur Rohmah",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-20 04:32:54",
+        "source": "github_action",
+        "candidate": "Gusti Anagia",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
