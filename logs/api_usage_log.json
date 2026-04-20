@@ -9298,23 +9298,16 @@
     ]
   },
   "2026-04-20": {
-    "total": 142,
+    "total": 143,
     "streamlit": 0,
-    "github_action": 142,
-    "successful": 142,
+    "github_action": 143,
+    "successful": 143,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 42
+      "Reporter Nasional": 43
     },
     "entries": [
-      {
-        "timestamp": "2026-04-20 04:31:54",
-        "source": "github_action",
-        "candidate": "Desak Agung Mahalakshmi Daneswara",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-20 04:32:23",
         "source": "github_action",
@@ -10005,6 +9998,13 @@
         "timestamp": "2026-04-20 05:17:01",
         "source": "github_action",
         "candidate": "Corry Salsabilla",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-20 05:17:28",
+        "source": "github_action",
+        "candidate": "Muhammad Iqbal",
         "position": "Reporter Nasional",
         "success": true
       }
