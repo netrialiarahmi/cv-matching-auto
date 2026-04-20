@@ -9298,23 +9298,16 @@
     ]
   },
   "2026-04-20": {
-    "total": 190,
+    "total": 191,
     "streamlit": 0,
-    "github_action": 190,
-    "successful": 190,
+    "github_action": 191,
+    "successful": 191,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 90
+      "Reporter Nasional": 91
     },
     "entries": [
-      {
-        "timestamp": "2026-04-20 04:54:50",
-        "source": "github_action",
-        "candidate": "Novia Novia",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-20 04:55:18",
         "source": "github_action",
@@ -10005,6 +9998,13 @@
         "timestamp": "2026-04-20 05:38:28",
         "source": "github_action",
         "candidate": "Rahel  Siregar",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-20 05:38:55",
+        "source": "github_action",
+        "candidate": "Sholahuddin Al Ayyubi",
         "position": "Reporter Nasional",
         "success": true
       }
