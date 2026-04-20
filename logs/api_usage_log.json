@@ -9298,10 +9298,10 @@
     ]
   },
   "2026-04-20": {
-    "total": 490,
+    "total": 491,
     "streamlit": 0,
-    "github_action": 490,
-    "successful": 490,
+    "github_action": 491,
+    "successful": 491,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
@@ -9309,16 +9309,9 @@
       "Content Writer Homey": 1,
       "Data Analyst (Business Intelligence)": 100,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 89
+      "Account Executive VCBL": 90
     },
     "entries": [
-      {
-        "timestamp": "2026-04-20 07:11:02",
-        "source": "github_action",
-        "candidate": "Yunita W",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-20 07:11:31",
         "source": "github_action",
@@ -10009,6 +10002,13 @@
         "timestamp": "2026-04-20 07:55:40",
         "source": "github_action",
         "candidate": "Kurnia Ariati",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-20 07:56:08",
+        "source": "github_action",
+        "candidate": "Widitra Rama",
         "position": "Account Executive VCBL",
         "success": true
       }
