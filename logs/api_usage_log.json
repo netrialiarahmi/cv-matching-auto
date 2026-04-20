@@ -9298,23 +9298,16 @@
     ]
   },
   "2026-04-20": {
-    "total": 179,
+    "total": 180,
     "streamlit": 0,
-    "github_action": 179,
-    "successful": 179,
+    "github_action": 180,
+    "successful": 180,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 79
+      "Reporter Nasional": 80
     },
     "entries": [
-      {
-        "timestamp": "2026-04-20 04:49:16",
-        "source": "github_action",
-        "candidate": "Michael Adriel Savero",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-20 04:49:48",
         "source": "github_action",
@@ -10005,6 +9998,13 @@
         "timestamp": "2026-04-20 05:33:06",
         "source": "github_action",
         "candidate": "Salma Shalsabilla",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-20 05:33:34",
+        "source": "github_action",
+        "candidate": "Muhammad Fadli Sinatrya",
         "position": "Reporter Nasional",
         "success": true
       }
