@@ -9296,5 +9296,24 @@
         "success": true
       }
     ]
+  },
+  "2026-04-20": {
+    "total": 1,
+    "streamlit": 0,
+    "github_action": 1,
+    "successful": 1,
+    "failed": 0,
+    "positions": {
+      "Marketing Communication Officer KG Media": 1
+    },
+    "entries": [
+      {
+        "timestamp": "2026-04-20 04:12:25",
+        "source": "github_action",
+        "candidate": "Muhammad Alfanza Rizqy Dzakwan",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      }
+    ]
   }
 }
