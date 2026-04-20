@@ -9298,25 +9298,18 @@
     ]
   },
   "2026-04-20": {
-    "total": 290,
+    "total": 291,
     "streamlit": 0,
-    "github_action": 290,
-    "successful": 290,
+    "github_action": 291,
+    "successful": 291,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Content Writer Homey": 1,
-      "Data Analyst (Business Intelligence)": 89
+      "Data Analyst (Business Intelligence)": 90
     },
     "entries": [
-      {
-        "timestamp": "2026-04-20 05:38:55",
-        "source": "github_action",
-        "candidate": "Sholahuddin Al Ayyubi",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-20 05:38:58",
         "source": "github_action",
@@ -10007,6 +10000,13 @@
         "timestamp": "2026-04-20 06:22:49",
         "source": "github_action",
         "candidate": "Juan Sabastian Tampubolon",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-20 06:23:17",
+        "source": "github_action",
+        "candidate": "Raflian Bara Akbar",
         "position": "Data Analyst (Business Intelligence)",
         "success": true
       }
