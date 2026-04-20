@@ -9298,25 +9298,18 @@
     ]
   },
   "2026-04-20": {
-    "total": 273,
+    "total": 274,
     "streamlit": 0,
-    "github_action": 273,
-    "successful": 273,
+    "github_action": 274,
+    "successful": 274,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Content Writer Homey": 1,
-      "Data Analyst (Business Intelligence)": 72
+      "Data Analyst (Business Intelligence)": 73
     },
     "entries": [
-      {
-        "timestamp": "2026-04-20 05:31:35",
-        "source": "github_action",
-        "candidate": "adinda azizah",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-20 05:31:37",
         "source": "github_action",
@@ -10007,6 +10000,13 @@
         "timestamp": "2026-04-20 06:15:09",
         "source": "github_action",
         "candidate": "Ester Siahaan",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-20 06:15:38",
+        "source": "github_action",
+        "candidate": "Fathurreza Febrian",
         "position": "Data Analyst (Business Intelligence)",
         "success": true
       }
