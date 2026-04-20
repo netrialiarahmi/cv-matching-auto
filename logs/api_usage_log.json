@@ -9298,23 +9298,16 @@
     ]
   },
   "2026-04-20": {
-    "total": 186,
+    "total": 187,
     "streamlit": 0,
-    "github_action": 186,
-    "successful": 186,
+    "github_action": 187,
+    "successful": 187,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 86
+      "Reporter Nasional": 87
     },
     "entries": [
-      {
-        "timestamp": "2026-04-20 04:52:51",
-        "source": "github_action",
-        "candidate": "Adelisa Ihdina Sentosa",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-20 04:53:19",
         "source": "github_action",
@@ -10005,6 +9998,13 @@
         "timestamp": "2026-04-20 05:36:26",
         "source": "github_action",
         "candidate": "Anastasya Yuliarta",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-20 05:36:56",
+        "source": "github_action",
+        "candidate": "Salsabila Syafaati Azizah",
         "position": "Reporter Nasional",
         "success": true
       }
