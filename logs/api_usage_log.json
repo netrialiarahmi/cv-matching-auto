@@ -9298,10 +9298,10 @@
     ]
   },
   "2026-04-20": {
-    "total": 434,
+    "total": 435,
     "streamlit": 0,
-    "github_action": 434,
-    "successful": 434,
+    "github_action": 435,
+    "successful": 435,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
@@ -9309,16 +9309,9 @@
       "Content Writer Homey": 1,
       "Data Analyst (Business Intelligence)": 100,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 33
+      "Account Executive VCBL": 34
     },
     "entries": [
-      {
-        "timestamp": "2026-04-20 06:44:04",
-        "source": "github_action",
-        "candidate": "Rayhan Naufal Haytami",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-20 06:44:36",
         "source": "github_action",
@@ -10009,6 +10002,13 @@
         "timestamp": "2026-04-20 07:30:36",
         "source": "github_action",
         "candidate": "Hafidh Muhammad Ibnu Sina",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-20 07:30:38",
+        "source": "github_action",
+        "candidate": "Dwi Syahra",
         "position": "Account Executive VCBL",
         "success": true
       }
