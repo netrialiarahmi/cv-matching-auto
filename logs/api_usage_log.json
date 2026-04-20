@@ -9298,13 +9298,13 @@
     ]
   },
   "2026-04-20": {
-    "total": 14,
+    "total": 15,
     "streamlit": 0,
-    "github_action": 14,
-    "successful": 14,
+    "github_action": 15,
+    "successful": 15,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 14
+      "Marketing Communication Officer KG Media": 15
     },
     "entries": [
       {
@@ -9402,6 +9402,13 @@
         "timestamp": "2026-04-20 04:18:14",
         "source": "github_action",
         "candidate": "Vicky Heldiansyah Fathullah",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-20 04:18:45",
+        "source": "github_action",
+        "candidate": "Amadhea Putri Namira",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
