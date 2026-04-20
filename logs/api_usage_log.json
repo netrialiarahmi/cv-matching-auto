@@ -9298,25 +9298,18 @@
     ]
   },
   "2026-04-20": {
-    "total": 211,
+    "total": 212,
     "streamlit": 0,
-    "github_action": 211,
-    "successful": 211,
+    "github_action": 212,
+    "successful": 212,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Content Writer Homey": 1,
-      "Data Analyst (Business Intelligence)": 10
+      "Data Analyst (Business Intelligence)": 11
     },
     "entries": [
-      {
-        "timestamp": "2026-04-20 05:04:05",
-        "source": "github_action",
-        "candidate": "Shelma Auliya M.",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-20 05:04:07",
         "source": "github_action",
@@ -10007,6 +10000,13 @@
         "timestamp": "2026-04-20 05:46:46",
         "source": "github_action",
         "candidate": "Febrian Aji Pangestu",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-20 05:47:19",
+        "source": "github_action",
+        "candidate": "Bilqiis Shahieza",
         "position": "Data Analyst (Business Intelligence)",
         "success": true
       }
