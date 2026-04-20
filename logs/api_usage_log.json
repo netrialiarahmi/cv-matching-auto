@@ -9298,13 +9298,13 @@
     ]
   },
   "2026-04-20": {
-    "total": 12,
+    "total": 13,
     "streamlit": 0,
-    "github_action": 12,
-    "successful": 12,
+    "github_action": 13,
+    "successful": 13,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 12
+      "Marketing Communication Officer KG Media": 13
     },
     "entries": [
       {
@@ -9388,6 +9388,13 @@
         "timestamp": "2026-04-20 04:17:07",
         "source": "github_action",
         "candidate": "Fellycia Lim",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-20 04:17:41",
+        "source": "github_action",
+        "candidate": "Fakhri Nan Arif Meivetra",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
