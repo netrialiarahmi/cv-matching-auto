@@ -9298,10 +9298,10 @@
     ]
   },
   "2026-04-20": {
-    "total": 411,
+    "total": 412,
     "streamlit": 0,
-    "github_action": 411,
-    "successful": 411,
+    "github_action": 412,
+    "successful": 412,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
@@ -9309,16 +9309,9 @@
       "Content Writer Homey": 1,
       "Data Analyst (Business Intelligence)": 100,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 10
+      "Account Executive VCBL": 11
     },
     "entries": [
-      {
-        "timestamp": "2026-04-20 06:33:02",
-        "source": "github_action",
-        "candidate": "Putri Hernawati",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-20 06:33:05",
         "source": "github_action",
@@ -10009,6 +10002,13 @@
         "timestamp": "2026-04-20 07:20:28",
         "source": "github_action",
         "candidate": "Danti Maharani",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-20 07:20:56",
+        "source": "github_action",
+        "candidate": "Elfrida Fiola Siregar siregar",
         "position": "Account Executive VCBL",
         "success": true
       }
