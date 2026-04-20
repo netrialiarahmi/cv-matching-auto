@@ -9298,26 +9298,19 @@
     ]
   },
   "2026-04-20": {
-    "total": 342,
+    "total": 343,
     "streamlit": 0,
-    "github_action": 342,
-    "successful": 342,
+    "github_action": 343,
+    "successful": 343,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Content Writer Homey": 1,
       "Data Analyst (Business Intelligence)": 100,
-      "Business Development Analyst": 41
+      "Business Development Analyst": 42
     },
     "entries": [
-      {
-        "timestamp": "2026-04-20 06:01:15",
-        "source": "github_action",
-        "candidate": "Aditia Rahman",
-        "position": "Data Analyst (Business Intelligence)",
-        "success": true
-      },
       {
         "timestamp": "2026-04-20 06:01:43",
         "source": "github_action",
@@ -10008,6 +10001,13 @@
         "timestamp": "2026-04-20 06:47:34",
         "source": "github_action",
         "candidate": "Wira Laksana",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-20 06:47:37",
+        "source": "github_action",
+        "candidate": "Anglir Ratna Widuri",
         "position": "Business Development Analyst",
         "success": true
       }
