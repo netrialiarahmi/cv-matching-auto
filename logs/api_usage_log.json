@@ -9298,10 +9298,10 @@
     ]
   },
   "2026-04-20": {
-    "total": 449,
+    "total": 450,
     "streamlit": 0,
-    "github_action": 449,
-    "successful": 449,
+    "github_action": 450,
+    "successful": 450,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
@@ -9309,16 +9309,9 @@
       "Content Writer Homey": 1,
       "Data Analyst (Business Intelligence)": 100,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 48
+      "Account Executive VCBL": 49
     },
     "entries": [
-      {
-        "timestamp": "2026-04-20 06:51:02",
-        "source": "github_action",
-        "candidate": "Rizky Nurbayani Muhari",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-20 06:51:30",
         "source": "github_action",
@@ -10009,6 +10002,13 @@
         "timestamp": "2026-04-20 07:37:04",
         "source": "github_action",
         "candidate": "Muhammad Arrumi Fayyad",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-20 07:37:35",
+        "source": "github_action",
+        "candidate": "Aurelia Alexa",
         "position": "Account Executive VCBL",
         "success": true
       }
