@@ -9298,23 +9298,16 @@
     ]
   },
   "2026-04-20": {
-    "total": 187,
+    "total": 188,
     "streamlit": 0,
-    "github_action": 187,
-    "successful": 187,
+    "github_action": 188,
+    "successful": 188,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 87
+      "Reporter Nasional": 88
     },
     "entries": [
-      {
-        "timestamp": "2026-04-20 04:53:19",
-        "source": "github_action",
-        "candidate": "Theresia Pietra Maharani",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-20 04:53:48",
         "source": "github_action",
@@ -10005,6 +9998,13 @@
         "timestamp": "2026-04-20 05:36:56",
         "source": "github_action",
         "candidate": "Salsabila Syafaati Azizah",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-20 05:37:26",
+        "source": "github_action",
+        "candidate": "Sarah Almira",
         "position": "Reporter Nasional",
         "success": true
       }
