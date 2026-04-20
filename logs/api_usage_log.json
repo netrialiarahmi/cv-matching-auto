@@ -9298,23 +9298,16 @@
     ]
   },
   "2026-04-20": {
-    "total": 110,
+    "total": 111,
     "streamlit": 0,
-    "github_action": 110,
-    "successful": 110,
+    "github_action": 111,
+    "successful": 111,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 10
+      "Reporter Nasional": 11
     },
     "entries": [
-      {
-        "timestamp": "2026-04-20 04:17:05",
-        "source": "github_action",
-        "candidate": "Paskalia Riris",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-20 04:17:07",
         "source": "github_action",
@@ -10005,6 +9998,13 @@
         "timestamp": "2026-04-20 05:03:06",
         "source": "github_action",
         "candidate": "Gilang pramudia",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-20 05:03:36",
+        "source": "github_action",
+        "candidate": "Steven Andreas",
         "position": "Reporter Nasional",
         "success": true
       }
