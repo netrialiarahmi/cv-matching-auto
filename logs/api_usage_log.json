@@ -9298,25 +9298,18 @@
     ]
   },
   "2026-04-20": {
-    "total": 251,
+    "total": 252,
     "streamlit": 0,
-    "github_action": 251,
-    "successful": 251,
+    "github_action": 252,
+    "successful": 252,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Content Writer Homey": 1,
-      "Data Analyst (Business Intelligence)": 50
+      "Data Analyst (Business Intelligence)": 51
     },
     "entries": [
-      {
-        "timestamp": "2026-04-20 05:21:16",
-        "source": "github_action",
-        "candidate": "BAGUS SADEWO",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-20 05:21:50",
         "source": "github_action",
@@ -10007,6 +10000,13 @@
         "timestamp": "2026-04-20 06:04:36",
         "source": "github_action",
         "candidate": "Dimas  Rizqy",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-20 06:05:11",
+        "source": "github_action",
+        "candidate": "Ramadhan Surya Handika",
         "position": "Data Analyst (Business Intelligence)",
         "success": true
       }
