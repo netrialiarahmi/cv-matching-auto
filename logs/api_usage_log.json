@@ -9298,25 +9298,18 @@
     ]
   },
   "2026-04-20": {
-    "total": 231,
+    "total": 232,
     "streamlit": 0,
-    "github_action": 231,
-    "successful": 231,
+    "github_action": 232,
+    "successful": 232,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Content Writer Homey": 1,
-      "Data Analyst (Business Intelligence)": 30
+      "Data Analyst (Business Intelligence)": 31
     },
     "entries": [
-      {
-        "timestamp": "2026-04-20 05:13:03",
-        "source": "github_action",
-        "candidate": "Wildan Adil Hilba",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-20 05:13:06",
         "source": "github_action",
@@ -10007,6 +10000,13 @@
         "timestamp": "2026-04-20 05:56:03",
         "source": "github_action",
         "candidate": "Alfonsus Yoga",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-20 05:56:28",
+        "source": "github_action",
+        "candidate": "Frandy  Wahyu Imawan",
         "position": "Data Analyst (Business Intelligence)",
         "success": true
       }
