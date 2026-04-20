@@ -9298,23 +9298,16 @@
     ]
   },
   "2026-04-20": {
-    "total": 131,
+    "total": 132,
     "streamlit": 0,
-    "github_action": 131,
-    "successful": 131,
+    "github_action": 132,
+    "successful": 132,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 31
+      "Reporter Nasional": 32
     },
     "entries": [
-      {
-        "timestamp": "2026-04-20 04:26:25",
-        "source": "github_action",
-        "candidate": "Farhan Putra Sapari",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-20 04:26:56",
         "source": "github_action",
@@ -10005,6 +9998,13 @@
         "timestamp": "2026-04-20 05:12:35",
         "source": "github_action",
         "candidate": "Fawwaz Azmi Iltizam",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-20 05:13:03",
+        "source": "github_action",
+        "candidate": "Wildan Adil Hilba",
         "position": "Reporter Nasional",
         "success": true
       }
