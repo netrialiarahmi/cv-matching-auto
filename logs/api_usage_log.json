@@ -9298,10 +9298,10 @@
     ]
   },
   "2026-04-20": {
-    "total": 468,
+    "total": 469,
     "streamlit": 0,
-    "github_action": 468,
-    "successful": 468,
+    "github_action": 469,
+    "successful": 469,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
@@ -9309,16 +9309,9 @@
       "Content Writer Homey": 1,
       "Data Analyst (Business Intelligence)": 100,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 67
+      "Account Executive VCBL": 68
     },
     "entries": [
-      {
-        "timestamp": "2026-04-20 07:00:05",
-        "source": "github_action",
-        "candidate": "Muhammad  Azriel",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-20 07:00:42",
         "source": "github_action",
@@ -10009,6 +10002,13 @@
         "timestamp": "2026-04-20 07:45:52",
         "source": "github_action",
         "candidate": "Oryza Zaidandio",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-20 07:46:24",
+        "source": "github_action",
+        "candidate": "Rifqi Soeleiman",
         "position": "Account Executive VCBL",
         "success": true
       }
