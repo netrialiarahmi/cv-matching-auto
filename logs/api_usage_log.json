@@ -9298,13 +9298,13 @@
     ]
   },
   "2026-04-20": {
-    "total": 25,
+    "total": 26,
     "streamlit": 0,
-    "github_action": 25,
-    "successful": 25,
+    "github_action": 26,
+    "successful": 26,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 25
+      "Marketing Communication Officer KG Media": 26
     },
     "entries": [
       {
@@ -9479,6 +9479,13 @@
         "timestamp": "2026-04-20 04:23:09",
         "source": "github_action",
         "candidate": "Audy Tirta Nirwana",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-20 04:23:37",
+        "source": "github_action",
+        "candidate": "Safura Farah Insani",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
