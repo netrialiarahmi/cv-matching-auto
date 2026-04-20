@@ -9298,10 +9298,10 @@
     ]
   },
   "2026-04-20": {
-    "total": 441,
+    "total": 442,
     "streamlit": 0,
-    "github_action": 441,
-    "successful": 441,
+    "github_action": 442,
+    "successful": 442,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
@@ -9309,16 +9309,9 @@
       "Content Writer Homey": 1,
       "Data Analyst (Business Intelligence)": 100,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 40
+      "Account Executive VCBL": 41
     },
     "entries": [
-      {
-        "timestamp": "2026-04-20 06:47:34",
-        "source": "github_action",
-        "candidate": "Wira Laksana",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-20 06:47:37",
         "source": "github_action",
@@ -10009,6 +10002,13 @@
         "timestamp": "2026-04-20 07:33:11",
         "source": "github_action",
         "candidate": "Golda  Meiyer",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-20 07:33:38",
+        "source": "github_action",
+        "candidate": "Dwiky Satria",
         "position": "Account Executive VCBL",
         "success": true
       }
