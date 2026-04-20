@@ -9298,23 +9298,16 @@
     ]
   },
   "2026-04-20": {
-    "total": 106,
+    "total": 107,
     "streamlit": 0,
-    "github_action": 106,
-    "successful": 106,
+    "github_action": 107,
+    "successful": 107,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 6
+      "Reporter Nasional": 7
     },
     "entries": [
-      {
-        "timestamp": "2026-04-20 04:15:08",
-        "source": "github_action",
-        "candidate": "Ayu Dewi Siti Aisyah",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-20 04:15:35",
         "source": "github_action",
@@ -10005,6 +9998,13 @@
         "timestamp": "2026-04-20 05:01:11",
         "source": "github_action",
         "candidate": "sitinurfadilamopi sitinurfadilamopi",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-20 05:01:45",
+        "source": "github_action",
+        "candidate": "Ade krisna Rivaldy",
         "position": "Reporter Nasional",
         "success": true
       }
