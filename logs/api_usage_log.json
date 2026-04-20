@@ -9298,23 +9298,16 @@
     ]
   },
   "2026-04-20": {
-    "total": 137,
+    "total": 138,
     "streamlit": 0,
-    "github_action": 137,
-    "successful": 137,
+    "github_action": 138,
+    "successful": 138,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 37
+      "Reporter Nasional": 38
     },
     "entries": [
-      {
-        "timestamp": "2026-04-20 04:29:18",
-        "source": "github_action",
-        "candidate": "Arindryo Laatstiko Jati",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-20 04:29:53",
         "source": "github_action",
@@ -10005,6 +9998,13 @@
         "timestamp": "2026-04-20 05:14:49",
         "source": "github_action",
         "candidate": "Mercy Pika Irawanty Sinaga",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-20 05:15:18",
+        "source": "github_action",
+        "candidate": "Gita Putri",
         "position": "Reporter Nasional",
         "success": true
       }
