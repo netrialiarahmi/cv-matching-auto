@@ -9298,13 +9298,13 @@
     ]
   },
   "2026-04-20": {
-    "total": 80,
+    "total": 81,
     "streamlit": 0,
-    "github_action": 80,
-    "successful": 80,
+    "github_action": 81,
+    "successful": 81,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 80
+      "Marketing Communication Officer KG Media": 81
     },
     "entries": [
       {
@@ -9864,6 +9864,13 @@
         "timestamp": "2026-04-20 04:49:16",
         "source": "github_action",
         "candidate": "Michael Adriel Savero",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-20 04:49:48",
+        "source": "github_action",
+        "candidate": "Cynthia Laura",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
