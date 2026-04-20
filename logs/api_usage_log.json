@@ -9298,26 +9298,19 @@
     ]
   },
   "2026-04-20": {
-    "total": 309,
+    "total": 310,
     "streamlit": 0,
-    "github_action": 309,
-    "successful": 309,
+    "github_action": 310,
+    "successful": 310,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Content Writer Homey": 1,
       "Data Analyst (Business Intelligence)": 100,
-      "Business Development Analyst": 8
+      "Business Development Analyst": 9
     },
     "entries": [
-      {
-        "timestamp": "2026-04-20 05:46:16",
-        "source": "github_action",
-        "candidate": "Dinda Fauziah Luthfiani",
-        "position": "Data Analyst (Business Intelligence)",
-        "success": true
-      },
       {
         "timestamp": "2026-04-20 05:46:46",
         "source": "github_action",
@@ -10008,6 +10001,13 @@
         "timestamp": "2026-04-20 06:31:35",
         "source": "github_action",
         "candidate": "Cindy Dwi Kurnia",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-20 06:32:05",
+        "source": "github_action",
+        "candidate": "Reza Vallevi",
         "position": "Business Development Analyst",
         "success": true
       }
