@@ -9298,25 +9298,18 @@
     ]
   },
   "2026-04-20": {
-    "total": 257,
+    "total": 258,
     "streamlit": 0,
-    "github_action": 257,
-    "successful": 257,
+    "github_action": 258,
+    "successful": 258,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Content Writer Homey": 1,
-      "Data Analyst (Business Intelligence)": 56
+      "Data Analyst (Business Intelligence)": 57
     },
     "entries": [
-      {
-        "timestamp": "2026-04-20 05:24:11",
-        "source": "github_action",
-        "candidate": "Indira Putri",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-20 05:24:48",
         "source": "github_action",
@@ -10007,6 +10000,13 @@
         "timestamp": "2026-04-20 06:07:41",
         "source": "github_action",
         "candidate": "Benedictus Bayu Pramudhito",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-20 06:08:05",
+        "source": "github_action",
+        "candidate": "Ahmad Pahlevi",
         "position": "Data Analyst (Business Intelligence)",
         "success": true
       }
