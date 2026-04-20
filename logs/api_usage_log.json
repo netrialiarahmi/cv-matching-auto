@@ -9298,25 +9298,18 @@
     ]
   },
   "2026-04-20": {
-    "total": 224,
+    "total": 225,
     "streamlit": 0,
-    "github_action": 224,
-    "successful": 224,
+    "github_action": 225,
+    "successful": 225,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Content Writer Homey": 1,
-      "Data Analyst (Business Intelligence)": 23
+      "Data Analyst (Business Intelligence)": 24
     },
     "entries": [
-      {
-        "timestamp": "2026-04-20 05:09:53",
-        "source": "github_action",
-        "candidate": "Anisa Nur Syafitri",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-20 05:10:21",
         "source": "github_action",
@@ -10007,6 +10000,13 @@
         "timestamp": "2026-04-20 05:53:00",
         "source": "github_action",
         "candidate": "Riyan Zaenal Arifin",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-20 05:53:34",
+        "source": "github_action",
+        "candidate": "Irfan Junior",
         "position": "Data Analyst (Business Intelligence)",
         "success": true
       }
