@@ -9298,25 +9298,18 @@
     ]
   },
   "2026-04-20": {
-    "total": 275,
+    "total": 276,
     "streamlit": 0,
-    "github_action": 275,
-    "successful": 275,
+    "github_action": 276,
+    "successful": 276,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Content Writer Homey": 1,
-      "Data Analyst (Business Intelligence)": 74
+      "Data Analyst (Business Intelligence)": 75
     },
     "entries": [
-      {
-        "timestamp": "2026-04-20 05:32:09",
-        "source": "github_action",
-        "candidate": "Dimas Candra",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-20 05:32:11",
         "source": "github_action",
@@ -10007,6 +10000,13 @@
         "timestamp": "2026-04-20 06:16:02",
         "source": "github_action",
         "candidate": "Haryadi Tri Nugroho",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-20 06:16:32",
+        "source": "github_action",
+        "candidate": "Humaira Rizqi Tridianti",
         "position": "Data Analyst (Business Intelligence)",
         "success": true
       }
