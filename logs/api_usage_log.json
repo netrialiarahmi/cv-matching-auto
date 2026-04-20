@@ -9298,10 +9298,10 @@
     ]
   },
   "2026-04-20": {
-    "total": 456,
+    "total": 457,
     "streamlit": 0,
-    "github_action": 456,
-    "successful": 456,
+    "github_action": 457,
+    "successful": 457,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
@@ -9309,16 +9309,9 @@
       "Content Writer Homey": 1,
       "Data Analyst (Business Intelligence)": 100,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 55
+      "Account Executive VCBL": 56
     },
     "entries": [
-      {
-        "timestamp": "2026-04-20 06:54:31",
-        "source": "github_action",
-        "candidate": "Sena Sativa",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-20 06:55:01",
         "source": "github_action",
@@ -10009,6 +10002,13 @@
         "timestamp": "2026-04-20 07:40:20",
         "source": "github_action",
         "candidate": "Farid Abdullah",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-20 07:40:53",
+        "source": "github_action",
+        "candidate": "Dedi Kurniawan",
         "position": "Account Executive VCBL",
         "success": true
       }
