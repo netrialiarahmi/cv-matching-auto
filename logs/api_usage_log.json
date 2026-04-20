@@ -9298,13 +9298,13 @@
     ]
   },
   "2026-04-20": {
-    "total": 67,
+    "total": 68,
     "streamlit": 0,
-    "github_action": 67,
-    "successful": 67,
+    "github_action": 68,
+    "successful": 68,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 67
+      "Marketing Communication Officer KG Media": 68
     },
     "entries": [
       {
@@ -9773,6 +9773,13 @@
         "timestamp": "2026-04-20 04:42:53",
         "source": "github_action",
         "candidate": "Kurnia Rahmat Dhani",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-20 04:43:21",
+        "source": "github_action",
+        "candidate": "Muhammad Ar Raffi",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
