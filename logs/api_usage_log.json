@@ -9298,10 +9298,10 @@
     ]
   },
   "2026-04-20": {
-    "total": 436,
+    "total": 437,
     "streamlit": 0,
-    "github_action": 436,
-    "successful": 436,
+    "github_action": 437,
+    "successful": 437,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
@@ -9309,16 +9309,9 @@
       "Content Writer Homey": 1,
       "Data Analyst (Business Intelligence)": 100,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 35
+      "Account Executive VCBL": 36
     },
     "entries": [
-      {
-        "timestamp": "2026-04-20 06:45:07",
-        "source": "github_action",
-        "candidate": "Kadek Nia Widiartini",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-20 06:45:36",
         "source": "github_action",
@@ -10009,6 +10002,13 @@
         "timestamp": "2026-04-20 07:31:13",
         "source": "github_action",
         "candidate": "Jaka Perdana",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-20 07:31:40",
+        "source": "github_action",
+        "candidate": "Parto  Simanihuruk",
         "position": "Account Executive VCBL",
         "success": true
       }
