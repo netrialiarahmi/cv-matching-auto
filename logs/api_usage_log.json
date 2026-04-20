@@ -9298,13 +9298,13 @@
     ]
   },
   "2026-04-20": {
-    "total": 35,
+    "total": 36,
     "streamlit": 0,
-    "github_action": 35,
-    "successful": 35,
+    "github_action": 36,
+    "successful": 36,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 35
+      "Marketing Communication Officer KG Media": 36
     },
     "entries": [
       {
@@ -9549,6 +9549,13 @@
         "timestamp": "2026-04-20 04:27:51",
         "source": "github_action",
         "candidate": "Nabilah Daffa Puspalohita",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-20 04:28:18",
+        "source": "github_action",
+        "candidate": "Edlina Hurin Urba Karina",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
