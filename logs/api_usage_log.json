@@ -9298,13 +9298,13 @@
     ]
   },
   "2026-04-20": {
-    "total": 57,
+    "total": 58,
     "streamlit": 0,
-    "github_action": 57,
-    "successful": 57,
+    "github_action": 58,
+    "successful": 58,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 57
+      "Marketing Communication Officer KG Media": 58
     },
     "entries": [
       {
@@ -9703,6 +9703,13 @@
         "timestamp": "2026-04-20 04:37:56",
         "source": "github_action",
         "candidate": "Namira Rahmadani",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-20 04:38:25",
+        "source": "github_action",
+        "candidate": "Omisoka Luhur Pambudi",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
