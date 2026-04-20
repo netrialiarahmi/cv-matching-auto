@@ -9298,25 +9298,18 @@
     ]
   },
   "2026-04-20": {
-    "total": 295,
+    "total": 296,
     "streamlit": 0,
-    "github_action": 295,
-    "successful": 295,
+    "github_action": 296,
+    "successful": 296,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Content Writer Homey": 1,
-      "Data Analyst (Business Intelligence)": 94
+      "Data Analyst (Business Intelligence)": 95
     },
     "entries": [
-      {
-        "timestamp": "2026-04-20 05:40:25",
-        "source": "github_action",
-        "candidate": "Sindhu Linguistika Manumanasa",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-20 05:40:54",
         "source": "github_action",
@@ -10007,6 +10000,13 @@
         "timestamp": "2026-04-20 06:25:04",
         "source": "github_action",
         "candidate": "Rendy Adie Tama",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-20 06:25:31",
+        "source": "github_action",
+        "candidate": "Arnoldus Boly Peran",
         "position": "Data Analyst (Business Intelligence)",
         "success": true
       }
