@@ -9298,25 +9298,18 @@
     ]
   },
   "2026-04-20": {
-    "total": 222,
+    "total": 223,
     "streamlit": 0,
-    "github_action": 222,
-    "successful": 222,
+    "github_action": 223,
+    "successful": 223,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Content Writer Homey": 1,
-      "Data Analyst (Business Intelligence)": 21
+      "Data Analyst (Business Intelligence)": 22
     },
     "entries": [
-      {
-        "timestamp": "2026-04-20 05:08:55",
-        "source": "github_action",
-        "candidate": "Ananda Yuni Pertiwi",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-20 05:09:23",
         "source": "github_action",
@@ -10007,6 +10000,13 @@
         "timestamp": "2026-04-20 05:51:59",
         "source": "github_action",
         "candidate": "Nugraha Catur Septian Patra",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-20 05:52:30",
+        "source": "github_action",
+        "candidate": "Cherise Earlene",
         "position": "Data Analyst (Business Intelligence)",
         "success": true
       }
