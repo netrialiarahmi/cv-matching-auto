@@ -9298,23 +9298,16 @@
     ]
   },
   "2026-04-20": {
-    "total": 172,
+    "total": 173,
     "streamlit": 0,
-    "github_action": 172,
-    "successful": 172,
+    "github_action": 173,
+    "successful": 173,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 72
+      "Reporter Nasional": 73
     },
     "entries": [
-      {
-        "timestamp": "2026-04-20 04:45:48",
-        "source": "github_action",
-        "candidate": "Salma Alika",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-20 04:46:16",
         "source": "github_action",
@@ -10005,6 +9998,13 @@
         "timestamp": "2026-04-20 05:30:34",
         "source": "github_action",
         "candidate": "Wika Andriani Pangaribuan",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-20 05:31:02",
+        "source": "github_action",
+        "candidate": "Adelia Kartika Nur Huda",
         "position": "Reporter Nasional",
         "success": true
       }
