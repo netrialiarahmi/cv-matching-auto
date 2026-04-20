@@ -9298,10 +9298,10 @@
     ]
   },
   "2026-04-20": {
-    "total": 473,
+    "total": 474,
     "streamlit": 0,
-    "github_action": 473,
-    "successful": 473,
+    "github_action": 474,
+    "successful": 474,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
@@ -9309,16 +9309,9 @@
       "Content Writer Homey": 1,
       "Data Analyst (Business Intelligence)": 100,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 72
+      "Account Executive VCBL": 73
     },
     "entries": [
-      {
-        "timestamp": "2026-04-20 07:02:18",
-        "source": "github_action",
-        "candidate": "Alifah Nurfaizah",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-20 07:02:51",
         "source": "github_action",
@@ -10009,6 +10002,13 @@
         "timestamp": "2026-04-20 07:48:25",
         "source": "github_action",
         "candidate": "Hilbram Syahrul",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-20 07:48:54",
+        "source": "github_action",
+        "candidate": "Taufik Hidayat",
         "position": "Account Executive VCBL",
         "success": true
       }
