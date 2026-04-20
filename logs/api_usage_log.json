@@ -9298,10 +9298,10 @@
     ]
   },
   "2026-04-20": {
-    "total": 438,
+    "total": 439,
     "streamlit": 0,
-    "github_action": 438,
-    "successful": 438,
+    "github_action": 439,
+    "successful": 439,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
@@ -9309,16 +9309,9 @@
       "Content Writer Homey": 1,
       "Data Analyst (Business Intelligence)": 100,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 37
+      "Account Executive VCBL": 38
     },
     "entries": [
-      {
-        "timestamp": "2026-04-20 06:46:07",
-        "source": "github_action",
-        "candidate": "Satria Wibowo",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-20 06:46:33",
         "source": "github_action",
@@ -10009,6 +10002,13 @@
         "timestamp": "2026-04-20 07:31:42",
         "source": "github_action",
         "candidate": "Ricki Indra Permana Putra",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-20 07:32:15",
+        "source": "github_action",
+        "candidate": "Safira Amanda Prasanti",
         "position": "Account Executive VCBL",
         "success": true
       }
