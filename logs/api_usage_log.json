@@ -9298,23 +9298,16 @@
     ]
   },
   "2026-04-20": {
-    "total": 162,
+    "total": 163,
     "streamlit": 0,
-    "github_action": 162,
-    "successful": 162,
+    "github_action": 163,
+    "successful": 163,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 62
+      "Reporter Nasional": 63
     },
     "entries": [
-      {
-        "timestamp": "2026-04-20 04:40:54",
-        "source": "github_action",
-        "candidate": "Muhammad Ghaisan Amir",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-20 04:41:23",
         "source": "github_action",
@@ -10005,6 +9998,13 @@
         "timestamp": "2026-04-20 05:26:02",
         "source": "github_action",
         "candidate": "Sabrina  Ariani",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-20 05:26:28",
+        "source": "github_action",
+        "candidate": "Therresia Maria Magdalena Morais",
         "position": "Reporter Nasional",
         "success": true
       }
