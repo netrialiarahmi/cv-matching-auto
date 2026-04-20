@@ -9298,23 +9298,16 @@
     ]
   },
   "2026-04-20": {
-    "total": 165,
+    "total": 166,
     "streamlit": 0,
-    "github_action": 165,
-    "successful": 165,
+    "github_action": 166,
+    "successful": 166,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 65
+      "Reporter Nasional": 66
     },
     "entries": [
-      {
-        "timestamp": "2026-04-20 04:42:25",
-        "source": "github_action",
-        "candidate": "Pratiwi Putri Luckytasari",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-20 04:42:53",
         "source": "github_action",
@@ -10005,6 +9998,13 @@
         "timestamp": "2026-04-20 05:27:22",
         "source": "github_action",
         "candidate": "Yessi Baldah zus to yusa",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-20 05:27:50",
+        "source": "github_action",
+        "candidate": "Anjar Palupi",
         "position": "Reporter Nasional",
         "success": true
       }
