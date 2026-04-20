@@ -9298,26 +9298,19 @@
     ]
   },
   "2026-04-20": {
-    "total": 399,
+    "total": 400,
     "streamlit": 0,
-    "github_action": 399,
-    "successful": 399,
+    "github_action": 400,
+    "successful": 400,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Content Writer Homey": 1,
       "Data Analyst (Business Intelligence)": 100,
-      "Business Development Analyst": 98
+      "Business Development Analyst": 99
     },
     "entries": [
-      {
-        "timestamp": "2026-04-20 06:26:57",
-        "source": "github_action",
-        "candidate": "Silvy Putri Hanafi",
-        "position": "Data Analyst (Business Intelligence)",
-        "success": true
-      },
       {
         "timestamp": "2026-04-20 06:27:22",
         "source": "github_action",
@@ -10008,6 +10001,13 @@
         "timestamp": "2026-04-20 07:15:06",
         "source": "github_action",
         "candidate": "Wahyu Eka",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-20 07:15:08",
+        "source": "github_action",
+        "candidate": "Darrell Matthews",
         "position": "Business Development Analyst",
         "success": true
       }
