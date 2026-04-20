@@ -9298,26 +9298,19 @@
     ]
   },
   "2026-04-20": {
-    "total": 347,
+    "total": 348,
     "streamlit": 0,
-    "github_action": 347,
-    "successful": 347,
+    "github_action": 348,
+    "successful": 348,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Content Writer Homey": 1,
       "Data Analyst (Business Intelligence)": 100,
-      "Business Development Analyst": 46
+      "Business Development Analyst": 47
     },
     "entries": [
-      {
-        "timestamp": "2026-04-20 06:03:43",
-        "source": "github_action",
-        "candidate": "Prianda Saputra",
-        "position": "Data Analyst (Business Intelligence)",
-        "success": true
-      },
       {
         "timestamp": "2026-04-20 06:03:45",
         "source": "github_action",
@@ -10008,6 +10001,13 @@
         "timestamp": "2026-04-20 06:49:34",
         "source": "github_action",
         "candidate": "Ivan Rivaldi",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-20 06:50:01",
+        "source": "github_action",
+        "candidate": "Tuti Asriza",
         "position": "Business Development Analyst",
         "success": true
       }
