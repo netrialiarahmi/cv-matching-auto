@@ -9298,13 +9298,13 @@
     ]
   },
   "2026-04-20": {
-    "total": 96,
+    "total": 97,
     "streamlit": 0,
-    "github_action": 96,
-    "successful": 96,
+    "github_action": 97,
+    "successful": 97,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 96
+      "Marketing Communication Officer KG Media": 97
     },
     "entries": [
       {
@@ -9976,6 +9976,13 @@
         "timestamp": "2026-04-20 04:56:46",
         "source": "github_action",
         "candidate": "Wirda Adelia",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-20 04:57:16",
+        "source": "github_action",
+        "candidate": "Tri Ratna Chaniyatun Nisa",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
