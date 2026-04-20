@@ -9298,10 +9298,10 @@
     ]
   },
   "2026-04-20": {
-    "total": 475,
+    "total": 476,
     "streamlit": 0,
-    "github_action": 475,
-    "successful": 475,
+    "github_action": 476,
+    "successful": 476,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
@@ -9309,16 +9309,9 @@
       "Content Writer Homey": 1,
       "Data Analyst (Business Intelligence)": 100,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 74
+      "Account Executive VCBL": 75
     },
     "entries": [
-      {
-        "timestamp": "2026-04-20 07:03:21",
-        "source": "github_action",
-        "candidate": "Nadia Sarah Wulandari",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-20 07:03:51",
         "source": "github_action",
@@ -10009,6 +10002,13 @@
         "timestamp": "2026-04-20 07:49:21",
         "source": "github_action",
         "candidate": "David Martino Arreltama",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-20 07:49:23",
+        "source": "github_action",
+        "candidate": "ardhi purnomo",
         "position": "Account Executive VCBL",
         "success": true
       }
