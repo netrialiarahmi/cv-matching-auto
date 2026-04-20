@@ -9298,13 +9298,13 @@
     ]
   },
   "2026-04-20": {
-    "total": 68,
+    "total": 69,
     "streamlit": 0,
-    "github_action": 68,
-    "successful": 68,
+    "github_action": 69,
+    "successful": 69,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 68
+      "Marketing Communication Officer KG Media": 69
     },
     "entries": [
       {
@@ -9780,6 +9780,13 @@
         "timestamp": "2026-04-20 04:43:21",
         "source": "github_action",
         "candidate": "Muhammad Ar Raffi",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-20 04:43:52",
+        "source": "github_action",
+        "candidate": "shafira zelinda",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
