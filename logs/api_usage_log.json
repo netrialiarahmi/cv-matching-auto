@@ -9298,10 +9298,10 @@
     ]
   },
   "2026-04-20": {
-    "total": 451,
+    "total": 452,
     "streamlit": 0,
-    "github_action": 451,
-    "successful": 451,
+    "github_action": 452,
+    "successful": 452,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
@@ -9309,16 +9309,9 @@
       "Content Writer Homey": 1,
       "Data Analyst (Business Intelligence)": 100,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 50
+      "Account Executive VCBL": 51
     },
     "entries": [
-      {
-        "timestamp": "2026-04-20 06:51:59",
-        "source": "github_action",
-        "candidate": "Naufal  Hudaya",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-20 06:52:29",
         "source": "github_action",
@@ -10009,6 +10002,13 @@
         "timestamp": "2026-04-20 07:38:01",
         "source": "github_action",
         "candidate": "Reynaldi Rizky Aulia Bassar",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-20 07:38:31",
+        "source": "github_action",
+        "candidate": "Faruqi Al Ghifari",
         "position": "Account Executive VCBL",
         "success": true
       }
