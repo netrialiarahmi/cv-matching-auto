@@ -9298,13 +9298,13 @@
     ]
   },
   "2026-04-20": {
-    "total": 59,
+    "total": 60,
     "streamlit": 0,
-    "github_action": 59,
-    "successful": 59,
+    "github_action": 60,
+    "successful": 60,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 59
+      "Marketing Communication Officer KG Media": 60
     },
     "entries": [
       {
@@ -9717,6 +9717,13 @@
         "timestamp": "2026-04-20 04:38:52",
         "source": "github_action",
         "candidate": "Marsaadhiyaa Syahlaa",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-20 04:39:26",
+        "source": "github_action",
+        "candidate": "Karunia  Kartika",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
