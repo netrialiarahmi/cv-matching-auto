@@ -9298,10 +9298,10 @@
     ]
   },
   "2026-04-20": {
-    "total": 495,
+    "total": 496,
     "streamlit": 0,
-    "github_action": 495,
-    "successful": 495,
+    "github_action": 496,
+    "successful": 496,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
@@ -9309,16 +9309,9 @@
       "Content Writer Homey": 1,
       "Data Analyst (Business Intelligence)": 100,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 94
+      "Account Executive VCBL": 95
     },
     "entries": [
-      {
-        "timestamp": "2026-04-20 07:13:35",
-        "source": "github_action",
-        "candidate": "Arvid Lukita Zhafran",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-20 07:14:04",
         "source": "github_action",
@@ -10009,6 +10002,13 @@
         "timestamp": "2026-04-20 07:58:16",
         "source": "github_action",
         "candidate": "yohan wahyudi",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-20 07:58:18",
+        "source": "github_action",
+        "candidate": "Hafizh Jawas",
         "position": "Account Executive VCBL",
         "success": true
       }
