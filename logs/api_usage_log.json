@@ -9298,10 +9298,10 @@
     ]
   },
   "2026-04-20": {
-    "total": 498,
+    "total": 499,
     "streamlit": 0,
-    "github_action": 498,
-    "successful": 498,
+    "github_action": 499,
+    "successful": 499,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
@@ -9309,16 +9309,9 @@
       "Content Writer Homey": 1,
       "Data Analyst (Business Intelligence)": 100,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 97
+      "Account Executive VCBL": 98
     },
     "entries": [
-      {
-        "timestamp": "2026-04-20 07:15:06",
-        "source": "github_action",
-        "candidate": "Wahyu Eka",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-20 07:15:08",
         "source": "github_action",
@@ -10009,6 +10002,13 @@
         "timestamp": "2026-04-20 07:59:24",
         "source": "github_action",
         "candidate": "Sherina Agustina",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-20 07:59:47",
+        "source": "github_action",
+        "candidate": "Aprilia Finanda",
         "position": "Account Executive VCBL",
         "success": true
       }
