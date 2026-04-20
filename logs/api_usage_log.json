@@ -9298,10 +9298,10 @@
     ]
   },
   "2026-04-20": {
-    "total": 407,
+    "total": 408,
     "streamlit": 0,
-    "github_action": 407,
-    "successful": 407,
+    "github_action": 408,
+    "successful": 408,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
@@ -9309,16 +9309,9 @@
       "Content Writer Homey": 1,
       "Data Analyst (Business Intelligence)": 100,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 6
+      "Account Executive VCBL": 7
     },
     "entries": [
-      {
-        "timestamp": "2026-04-20 06:31:00",
-        "source": "github_action",
-        "candidate": "Onisa Nainggolan",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-20 06:31:35",
         "source": "github_action",
@@ -10009,6 +10002,13 @@
         "timestamp": "2026-04-20 07:18:52",
         "source": "github_action",
         "candidate": "Ilham Rahmatulloh",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-20 07:19:20",
+        "source": "github_action",
+        "candidate": "Mohammad Farhan Saputra",
         "position": "Account Executive VCBL",
         "success": true
       }
