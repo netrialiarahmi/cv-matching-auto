@@ -9298,26 +9298,19 @@
     ]
   },
   "2026-04-20": {
-    "total": 394,
+    "total": 395,
     "streamlit": 0,
-    "github_action": 394,
-    "successful": 394,
+    "github_action": 395,
+    "successful": 395,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Content Writer Homey": 1,
       "Data Analyst (Business Intelligence)": 100,
-      "Business Development Analyst": 93
+      "Business Development Analyst": 94
     },
     "entries": [
-      {
-        "timestamp": "2026-04-20 06:25:04",
-        "source": "github_action",
-        "candidate": "Rendy Adie Tama",
-        "position": "Data Analyst (Business Intelligence)",
-        "success": true
-      },
       {
         "timestamp": "2026-04-20 06:25:31",
         "source": "github_action",
@@ -10008,6 +10001,13 @@
         "timestamp": "2026-04-20 07:12:36",
         "source": "github_action",
         "candidate": "BIFFANCA ALLYA KENEDY",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-20 07:13:07",
+        "source": "github_action",
+        "candidate": "Muhammad Firdaus Pratama",
         "position": "Business Development Analyst",
         "success": true
       }
