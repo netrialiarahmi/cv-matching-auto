@@ -9298,13 +9298,13 @@
     ]
   },
   "2026-04-20": {
-    "total": 93,
+    "total": 94,
     "streamlit": 0,
-    "github_action": 93,
-    "successful": 93,
+    "github_action": 94,
+    "successful": 94,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 93
+      "Marketing Communication Officer KG Media": 94
     },
     "entries": [
       {
@@ -9955,6 +9955,13 @@
         "timestamp": "2026-04-20 04:55:20",
         "source": "github_action",
         "candidate": "Irham Armansyah",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-20 04:55:48",
+        "source": "github_action",
+        "candidate": "Prita Maharani Putri",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
