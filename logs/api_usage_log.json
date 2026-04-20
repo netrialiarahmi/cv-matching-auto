@@ -9298,13 +9298,13 @@
     ]
   },
   "2026-04-20": {
-    "total": 8,
+    "total": 9,
     "streamlit": 0,
-    "github_action": 8,
-    "successful": 8,
+    "github_action": 9,
+    "successful": 9,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 8
+      "Marketing Communication Officer KG Media": 9
     },
     "entries": [
       {
@@ -9360,6 +9360,13 @@
         "timestamp": "2026-04-20 04:15:35",
         "source": "github_action",
         "candidate": "Defita Zulmi",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-20 04:16:02",
+        "source": "github_action",
+        "candidate": "Khauratul Azizah Oktaviany",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
