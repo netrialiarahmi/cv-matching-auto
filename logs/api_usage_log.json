@@ -9298,10 +9298,10 @@
     ]
   },
   "2026-04-20": {
-    "total": 454,
+    "total": 455,
     "streamlit": 0,
-    "github_action": 454,
-    "successful": 454,
+    "github_action": 455,
+    "successful": 455,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
@@ -9309,16 +9309,9 @@
       "Content Writer Homey": 1,
       "Data Analyst (Business Intelligence)": 100,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 53
+      "Account Executive VCBL": 54
     },
     "entries": [
-      {
-        "timestamp": "2026-04-20 06:53:29",
-        "source": "github_action",
-        "candidate": "Audie Nabiel Akmal",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-20 06:53:59",
         "source": "github_action",
@@ -10009,6 +10002,13 @@
         "timestamp": "2026-04-20 07:39:25",
         "source": "github_action",
         "candidate": "Muhammad Izza Lathiif",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-20 07:39:56",
+        "source": "github_action",
+        "candidate": "Rachma Ama",
         "position": "Account Executive VCBL",
         "success": true
       }
