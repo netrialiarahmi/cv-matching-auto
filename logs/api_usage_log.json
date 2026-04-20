@@ -9298,23 +9298,16 @@
     ]
   },
   "2026-04-20": {
-    "total": 193,
+    "total": 194,
     "streamlit": 0,
-    "github_action": 193,
-    "successful": 193,
+    "github_action": 194,
+    "successful": 194,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 93
+      "Reporter Nasional": 94
     },
     "entries": [
-      {
-        "timestamp": "2026-04-20 04:55:48",
-        "source": "github_action",
-        "candidate": "Prita Maharani Putri",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-20 04:56:18",
         "source": "github_action",
@@ -10005,6 +9998,13 @@
         "timestamp": "2026-04-20 05:39:00",
         "source": "github_action",
         "candidate": "Josua ruyandi Mangi",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-20 05:39:29",
+        "source": "github_action",
+        "candidate": "Izwadi Harahap",
         "position": "Reporter Nasional",
         "success": true
       }
