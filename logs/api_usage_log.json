@@ -9298,23 +9298,16 @@
     ]
   },
   "2026-04-20": {
-    "total": 174,
+    "total": 175,
     "streamlit": 0,
-    "github_action": 174,
-    "successful": 174,
+    "github_action": 175,
+    "successful": 175,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 74
+      "Reporter Nasional": 75
     },
     "entries": [
-      {
-        "timestamp": "2026-04-20 04:46:46",
-        "source": "github_action",
-        "candidate": "nadiah rodliyya",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-20 04:47:20",
         "source": "github_action",
@@ -10005,6 +9998,13 @@
         "timestamp": "2026-04-20 05:31:35",
         "source": "github_action",
         "candidate": "adinda azizah",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-20 05:31:37",
+        "source": "github_action",
+        "candidate": "Dwi Putra",
         "position": "Reporter Nasional",
         "success": true
       }
