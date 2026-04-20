@@ -9298,13 +9298,13 @@
     ]
   },
   "2026-04-20": {
-    "total": 66,
+    "total": 67,
     "streamlit": 0,
-    "github_action": 66,
-    "successful": 66,
+    "github_action": 67,
+    "successful": 67,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 66
+      "Marketing Communication Officer KG Media": 67
     },
     "entries": [
       {
@@ -9766,6 +9766,13 @@
         "timestamp": "2026-04-20 04:42:25",
         "source": "github_action",
         "candidate": "Pratiwi Putri Luckytasari",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-20 04:42:53",
+        "source": "github_action",
+        "candidate": "Kurnia Rahmat Dhani",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
