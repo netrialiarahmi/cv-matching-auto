@@ -9298,26 +9298,19 @@
     ]
   },
   "2026-04-20": {
-    "total": 319,
+    "total": 320,
     "streamlit": 0,
-    "github_action": 319,
-    "successful": 319,
+    "github_action": 320,
+    "successful": 320,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Content Writer Homey": 1,
       "Data Analyst (Business Intelligence)": 100,
-      "Business Development Analyst": 18
+      "Business Development Analyst": 19
     },
     "entries": [
-      {
-        "timestamp": "2026-04-20 05:51:07",
-        "source": "github_action",
-        "candidate": "Angelina naa",
-        "position": "Data Analyst (Business Intelligence)",
-        "success": true
-      },
       {
         "timestamp": "2026-04-20 05:51:35",
         "source": "github_action",
@@ -10008,6 +10001,13 @@
         "timestamp": "2026-04-20 06:36:16",
         "source": "github_action",
         "candidate": "Fransiska Malita",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-20 06:36:49",
+        "source": "github_action",
+        "candidate": "Agung Pramono",
         "position": "Business Development Analyst",
         "success": true
       }
