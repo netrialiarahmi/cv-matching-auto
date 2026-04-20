@@ -9298,23 +9298,16 @@
     ]
   },
   "2026-04-20": {
-    "total": 199,
+    "total": 200,
     "streamlit": 0,
-    "github_action": 199,
-    "successful": 199,
+    "github_action": 200,
+    "successful": 200,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 99
+      "Reporter Nasional": 100
     },
     "entries": [
-      {
-        "timestamp": "2026-04-20 04:58:45",
-        "source": "github_action",
-        "candidate": "Ayu Asriyani",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-20 04:59:15",
         "source": "github_action",
@@ -10005,6 +9998,13 @@
         "timestamp": "2026-04-20 05:42:05",
         "source": "github_action",
         "candidate": "Benoel Andinafa Simarmata",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-20 05:42:08",
+        "source": "github_action",
+        "candidate": "Andre Putra",
         "position": "Reporter Nasional",
         "success": true
       }
