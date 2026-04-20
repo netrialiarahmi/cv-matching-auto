@@ -9298,23 +9298,16 @@
     ]
   },
   "2026-04-20": {
-    "total": 123,
+    "total": 124,
     "streamlit": 0,
-    "github_action": 123,
-    "successful": 123,
+    "github_action": 124,
+    "successful": 124,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 23
+      "Reporter Nasional": 24
     },
     "entries": [
-      {
-        "timestamp": "2026-04-20 04:22:43",
-        "source": "github_action",
-        "candidate": "luthfi Jessica putri",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-20 04:23:09",
         "source": "github_action",
@@ -10005,6 +9998,13 @@
         "timestamp": "2026-04-20 05:08:55",
         "source": "github_action",
         "candidate": "Ananda Yuni Pertiwi",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-20 05:09:23",
+        "source": "github_action",
+        "candidate": "Afifah Azzahra",
         "position": "Reporter Nasional",
         "success": true
       }
