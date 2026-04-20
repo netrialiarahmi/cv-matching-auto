@@ -9298,26 +9298,19 @@
     ]
   },
   "2026-04-20": {
-    "total": 380,
+    "total": 381,
     "streamlit": 0,
-    "github_action": 380,
-    "successful": 380,
+    "github_action": 381,
+    "successful": 381,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Content Writer Homey": 1,
       "Data Analyst (Business Intelligence)": 100,
-      "Business Development Analyst": 79
+      "Business Development Analyst": 80
     },
     "entries": [
-      {
-        "timestamp": "2026-04-20 06:18:32",
-        "source": "github_action",
-        "candidate": "dzulfan nur f",
-        "position": "Data Analyst (Business Intelligence)",
-        "success": true
-      },
       {
         "timestamp": "2026-04-20 06:19:01",
         "source": "github_action",
@@ -10008,6 +10001,13 @@
         "timestamp": "2026-04-20 07:05:21",
         "source": "github_action",
         "candidate": "Adelya Vasya Maharani",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-20 07:05:54",
+        "source": "github_action",
+        "candidate": "nathania abhista",
         "position": "Business Development Analyst",
         "success": true
       }
