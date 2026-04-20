@@ -9298,10 +9298,10 @@
     ]
   },
   "2026-04-20": {
-    "total": 455,
+    "total": 456,
     "streamlit": 0,
-    "github_action": 455,
-    "successful": 455,
+    "github_action": 456,
+    "successful": 456,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
@@ -9309,16 +9309,9 @@
       "Content Writer Homey": 1,
       "Data Analyst (Business Intelligence)": 100,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 54
+      "Account Executive VCBL": 55
     },
     "entries": [
-      {
-        "timestamp": "2026-04-20 06:53:59",
-        "source": "github_action",
-        "candidate": "Edlina Hurin Urba Karina",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-20 06:54:31",
         "source": "github_action",
@@ -10009,6 +10002,13 @@
         "timestamp": "2026-04-20 07:39:56",
         "source": "github_action",
         "candidate": "Rachma Ama",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-20 07:40:20",
+        "source": "github_action",
+        "candidate": "Farid Abdullah",
         "position": "Account Executive VCBL",
         "success": true
       }
