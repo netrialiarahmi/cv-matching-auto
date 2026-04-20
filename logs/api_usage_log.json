@@ -9298,25 +9298,18 @@
     ]
   },
   "2026-04-20": {
-    "total": 289,
+    "total": 290,
     "streamlit": 0,
-    "github_action": 289,
-    "successful": 289,
+    "github_action": 290,
+    "successful": 290,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Content Writer Homey": 1,
-      "Data Analyst (Business Intelligence)": 88
+      "Data Analyst (Business Intelligence)": 89
     },
     "entries": [
-      {
-        "timestamp": "2026-04-20 05:38:28",
-        "source": "github_action",
-        "candidate": "Rahel  Siregar",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-20 05:38:55",
         "source": "github_action",
@@ -10007,6 +10000,13 @@
         "timestamp": "2026-04-20 06:22:23",
         "source": "github_action",
         "candidate": "Mia Widya Rahmi",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-20 06:22:49",
+        "source": "github_action",
+        "candidate": "Juan Sabastian Tampubolon",
         "position": "Data Analyst (Business Intelligence)",
         "success": true
       }
