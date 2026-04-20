@@ -9298,23 +9298,16 @@
     ]
   },
   "2026-04-20": {
-    "total": 146,
+    "total": 147,
     "streamlit": 0,
-    "github_action": 146,
-    "successful": 146,
+    "github_action": 147,
+    "successful": 147,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 46
+      "Reporter Nasional": 47
     },
     "entries": [
-      {
-        "timestamp": "2026-04-20 04:33:24",
-        "source": "github_action",
-        "candidate": "Rara Salsabila",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-20 04:33:56",
         "source": "github_action",
@@ -10005,6 +9998,13 @@
         "timestamp": "2026-04-20 05:18:55",
         "source": "github_action",
         "candidate": "Syahrul Rifai Tri Laksono",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-20 05:18:57",
+        "source": "github_action",
+        "candidate": "Aqmarina Oktavia Ibrahim",
         "position": "Reporter Nasional",
         "success": true
       }
