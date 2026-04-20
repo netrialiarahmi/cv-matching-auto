@@ -9298,10 +9298,10 @@
     ]
   },
   "2026-04-20": {
-    "total": 423,
+    "total": 424,
     "streamlit": 0,
-    "github_action": 423,
-    "successful": 423,
+    "github_action": 424,
+    "successful": 424,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
@@ -9309,16 +9309,9 @@
       "Content Writer Homey": 1,
       "Data Analyst (Business Intelligence)": 100,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 22
+      "Account Executive VCBL": 23
     },
     "entries": [
-      {
-        "timestamp": "2026-04-20 06:38:49",
-        "source": "github_action",
-        "candidate": "FELIA RACHMILA",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-20 06:39:20",
         "source": "github_action",
@@ -10009,6 +10002,13 @@
         "timestamp": "2026-04-20 07:25:22",
         "source": "github_action",
         "candidate": "Gita Aurelia",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-20 07:25:46",
+        "source": "github_action",
+        "candidate": "Yogi Pradana",
         "position": "Account Executive VCBL",
         "success": true
       }
