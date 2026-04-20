@@ -9298,25 +9298,18 @@
     ]
   },
   "2026-04-20": {
-    "total": 245,
+    "total": 246,
     "streamlit": 0,
-    "github_action": 245,
-    "successful": 245,
+    "github_action": 246,
+    "successful": 246,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Content Writer Homey": 1,
-      "Data Analyst (Business Intelligence)": 44
+      "Data Analyst (Business Intelligence)": 45
     },
     "entries": [
-      {
-        "timestamp": "2026-04-20 05:18:55",
-        "source": "github_action",
-        "candidate": "Syahrul Rifai Tri Laksono",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-20 05:18:57",
         "source": "github_action",
@@ -10007,6 +10000,13 @@
         "timestamp": "2026-04-20 06:02:18",
         "source": "github_action",
         "candidate": "Jhuryyah  Aninditha",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-20 06:02:44",
+        "source": "github_action",
+        "candidate": "Ula Adrikni Rohmati",
         "position": "Data Analyst (Business Intelligence)",
         "success": true
       }
