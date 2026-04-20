@@ -9298,13 +9298,13 @@
     ]
   },
   "2026-04-20": {
-    "total": 91,
+    "total": 92,
     "streamlit": 0,
-    "github_action": 91,
-    "successful": 91,
+    "github_action": 92,
+    "successful": 92,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 91
+      "Marketing Communication Officer KG Media": 92
     },
     "entries": [
       {
@@ -9941,6 +9941,13 @@
         "timestamp": "2026-04-20 04:54:50",
         "source": "github_action",
         "candidate": "Novia Novia",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-20 04:55:18",
+        "source": "github_action",
+        "candidate": "Adinda Natasya Balqis",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
