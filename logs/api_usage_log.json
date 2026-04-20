@@ -9298,25 +9298,18 @@
     ]
   },
   "2026-04-20": {
-    "total": 296,
+    "total": 297,
     "streamlit": 0,
-    "github_action": 296,
-    "successful": 296,
+    "github_action": 297,
+    "successful": 297,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Content Writer Homey": 1,
-      "Data Analyst (Business Intelligence)": 95
+      "Data Analyst (Business Intelligence)": 96
     },
     "entries": [
-      {
-        "timestamp": "2026-04-20 05:40:54",
-        "source": "github_action",
-        "candidate": "Yeni Pujita Astuti",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-20 05:41:36",
         "source": "github_action",
@@ -10007,6 +10000,13 @@
         "timestamp": "2026-04-20 06:25:31",
         "source": "github_action",
         "candidate": "Arnoldus Boly Peran",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-20 06:25:58",
+        "source": "github_action",
+        "candidate": "Muhammad Azimuthal Hikam",
         "position": "Data Analyst (Business Intelligence)",
         "success": true
       }
