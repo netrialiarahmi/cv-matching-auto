@@ -9298,25 +9298,18 @@
     ]
   },
   "2026-04-20": {
-    "total": 285,
+    "total": 286,
     "streamlit": 0,
-    "github_action": 285,
-    "successful": 285,
+    "github_action": 286,
+    "successful": 286,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Content Writer Homey": 1,
-      "Data Analyst (Business Intelligence)": 84
+      "Data Analyst (Business Intelligence)": 85
     },
     "entries": [
-      {
-        "timestamp": "2026-04-20 05:36:26",
-        "source": "github_action",
-        "candidate": "Anastasya Yuliarta",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-20 05:36:56",
         "source": "github_action",
@@ -10007,6 +10000,13 @@
         "timestamp": "2026-04-20 06:20:30",
         "source": "github_action",
         "candidate": "Arinda Vidhyastika",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-20 06:20:57",
+        "source": "github_action",
+        "candidate": "Alfi Amirotus Sholikhah",
         "position": "Data Analyst (Business Intelligence)",
         "success": true
       }
