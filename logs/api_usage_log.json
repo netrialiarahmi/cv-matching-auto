@@ -9298,23 +9298,16 @@
     ]
   },
   "2026-04-20": {
-    "total": 122,
+    "total": 123,
     "streamlit": 0,
-    "github_action": 122,
-    "successful": 122,
+    "github_action": 123,
+    "successful": 123,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 22
+      "Reporter Nasional": 23
     },
     "entries": [
-      {
-        "timestamp": "2026-04-20 04:22:15",
-        "source": "github_action",
-        "candidate": "almira fadila",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-20 04:22:43",
         "source": "github_action",
@@ -10005,6 +9998,13 @@
         "timestamp": "2026-04-20 05:08:30",
         "source": "github_action",
         "candidate": "Endang Angriani",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-20 05:08:55",
+        "source": "github_action",
+        "candidate": "Ananda Yuni Pertiwi",
         "position": "Reporter Nasional",
         "success": true
       }
