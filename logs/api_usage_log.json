@@ -9298,23 +9298,16 @@
     ]
   },
   "2026-04-20": {
-    "total": 140,
+    "total": 141,
     "streamlit": 0,
-    "github_action": 140,
-    "successful": 140,
+    "github_action": 141,
+    "successful": 141,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 40
+      "Reporter Nasional": 41
     },
     "entries": [
-      {
-        "timestamp": "2026-04-20 04:30:52",
-        "source": "github_action",
-        "candidate": "Anggun Putri Pratiwi",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-20 04:31:26",
         "source": "github_action",
@@ -10005,6 +9998,13 @@
         "timestamp": "2026-04-20 05:16:13",
         "source": "github_action",
         "candidate": "DHEYANA HARIYANTI",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-20 05:16:35",
+        "source": "github_action",
+        "candidate": "Anggita Nur Cahyani",
         "position": "Reporter Nasional",
         "success": true
       }
