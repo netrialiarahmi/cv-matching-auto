@@ -9298,10 +9298,10 @@
     ]
   },
   "2026-04-20": {
-    "total": 493,
+    "total": 494,
     "streamlit": 0,
-    "github_action": 493,
-    "successful": 493,
+    "github_action": 494,
+    "successful": 494,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
@@ -9309,16 +9309,9 @@
       "Content Writer Homey": 1,
       "Data Analyst (Business Intelligence)": 100,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 92
+      "Account Executive VCBL": 93
     },
     "entries": [
-      {
-        "timestamp": "2026-04-20 07:12:36",
-        "source": "github_action",
-        "candidate": "BIFFANCA ALLYA KENEDY",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-20 07:13:07",
         "source": "github_action",
@@ -10009,6 +10002,13 @@
         "timestamp": "2026-04-20 07:57:17",
         "source": "github_action",
         "candidate": "Fatmawati",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-20 07:57:46",
+        "source": "github_action",
+        "candidate": "Felix Bernardo",
         "position": "Account Executive VCBL",
         "success": true
       }
