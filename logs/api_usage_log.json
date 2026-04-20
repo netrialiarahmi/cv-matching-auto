@@ -9298,10 +9298,10 @@
     ]
   },
   "2026-04-20": {
-    "total": 430,
+    "total": 431,
     "streamlit": 0,
-    "github_action": 430,
-    "successful": 430,
+    "github_action": 431,
+    "successful": 431,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
@@ -9309,16 +9309,9 @@
       "Content Writer Homey": 1,
       "Data Analyst (Business Intelligence)": 100,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 29
+      "Account Executive VCBL": 30
     },
     "entries": [
-      {
-        "timestamp": "2026-04-20 06:42:13",
-        "source": "github_action",
-        "candidate": "DEVI AYU RAHMATIKA",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-20 06:42:40",
         "source": "github_action",
@@ -10009,6 +10002,13 @@
         "timestamp": "2026-04-20 07:28:38",
         "source": "github_action",
         "candidate": "Helena Caesaria",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-20 07:29:10",
+        "source": "github_action",
+        "candidate": "camila chairunnisa",
         "position": "Account Executive VCBL",
         "success": true
       }
