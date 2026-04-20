@@ -9298,23 +9298,16 @@
     ]
   },
   "2026-04-20": {
-    "total": 157,
+    "total": 158,
     "streamlit": 0,
-    "github_action": 157,
-    "successful": 157,
+    "github_action": 158,
+    "successful": 158,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 57
+      "Reporter Nasional": 58
     },
     "entries": [
-      {
-        "timestamp": "2026-04-20 04:38:25",
-        "source": "github_action",
-        "candidate": "Omisoka Luhur Pambudi",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-20 04:38:52",
         "source": "github_action",
@@ -10005,6 +9998,13 @@
         "timestamp": "2026-04-20 05:23:44",
         "source": "github_action",
         "candidate": "yusuf rinaldy",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-20 05:24:11",
+        "source": "github_action",
+        "candidate": "Indira Putri",
         "position": "Reporter Nasional",
         "success": true
       }
