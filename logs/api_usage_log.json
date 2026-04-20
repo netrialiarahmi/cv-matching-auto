@@ -9298,26 +9298,19 @@
     ]
   },
   "2026-04-20": {
-    "total": 322,
+    "total": 323,
     "streamlit": 0,
-    "github_action": 322,
-    "successful": 322,
+    "github_action": 323,
+    "successful": 323,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Content Writer Homey": 1,
       "Data Analyst (Business Intelligence)": 100,
-      "Business Development Analyst": 21
+      "Business Development Analyst": 22
     },
     "entries": [
-      {
-        "timestamp": "2026-04-20 05:52:30",
-        "source": "github_action",
-        "candidate": "Cherise Earlene",
-        "position": "Data Analyst (Business Intelligence)",
-        "success": true
-      },
       {
         "timestamp": "2026-04-20 05:53:00",
         "source": "github_action",
@@ -10008,6 +10001,13 @@
         "timestamp": "2026-04-20 06:37:51",
         "source": "github_action",
         "candidate": "Firly Ramadhan",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-20 06:38:17",
+        "source": "github_action",
+        "candidate": "Mohamad Dani Setiawardi",
         "position": "Business Development Analyst",
         "success": true
       }
