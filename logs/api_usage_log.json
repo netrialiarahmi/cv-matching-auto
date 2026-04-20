@@ -9298,25 +9298,18 @@
     ]
   },
   "2026-04-20": {
-    "total": 230,
+    "total": 231,
     "streamlit": 0,
-    "github_action": 230,
-    "successful": 230,
+    "github_action": 231,
+    "successful": 231,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Content Writer Homey": 1,
-      "Data Analyst (Business Intelligence)": 29
+      "Data Analyst (Business Intelligence)": 30
     },
     "entries": [
-      {
-        "timestamp": "2026-04-20 05:12:35",
-        "source": "github_action",
-        "candidate": "Fawwaz Azmi Iltizam",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-20 05:13:03",
         "source": "github_action",
@@ -10007,6 +10000,13 @@
         "timestamp": "2026-04-20 05:56:01",
         "source": "github_action",
         "candidate": "Arie Andreana Taufiq",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-20 05:56:03",
+        "source": "github_action",
+        "candidate": "Alfonsus Yoga",
         "position": "Data Analyst (Business Intelligence)",
         "success": true
       }
