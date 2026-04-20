@@ -9298,13 +9298,13 @@
     ]
   },
   "2026-04-20": {
-    "total": 33,
+    "total": 34,
     "streamlit": 0,
-    "github_action": 33,
-    "successful": 33,
+    "github_action": 34,
+    "successful": 34,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 33
+      "Marketing Communication Officer KG Media": 34
     },
     "entries": [
       {
@@ -9535,6 +9535,13 @@
         "timestamp": "2026-04-20 04:26:56",
         "source": "github_action",
         "candidate": "Yunissa Anzu Maharani",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-20 04:27:22",
+        "source": "github_action",
+        "candidate": "Intan Ayu Maharani",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
