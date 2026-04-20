@@ -9298,10 +9298,10 @@
     ]
   },
   "2026-04-20": {
-    "total": 480,
+    "total": 481,
     "streamlit": 0,
-    "github_action": 480,
-    "successful": 480,
+    "github_action": 481,
+    "successful": 481,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
@@ -9309,16 +9309,9 @@
       "Content Writer Homey": 1,
       "Data Analyst (Business Intelligence)": 100,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 79
+      "Account Executive VCBL": 80
     },
     "entries": [
-      {
-        "timestamp": "2026-04-20 07:05:54",
-        "source": "github_action",
-        "candidate": "nathania abhista",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-20 07:06:26",
         "source": "github_action",
@@ -10009,6 +10002,13 @@
         "timestamp": "2026-04-20 07:50:58",
         "source": "github_action",
         "candidate": "Aprina Septauli Manurung",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-20 07:51:24",
+        "source": "github_action",
+        "candidate": "Agus Nur Habib",
         "position": "Account Executive VCBL",
         "success": true
       }
