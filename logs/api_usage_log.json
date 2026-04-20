@@ -9298,13 +9298,13 @@
     ]
   },
   "2026-04-20": {
-    "total": 23,
+    "total": 24,
     "streamlit": 0,
-    "github_action": 23,
-    "successful": 23,
+    "github_action": 24,
+    "successful": 24,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 23
+      "Marketing Communication Officer KG Media": 24
     },
     "entries": [
       {
@@ -9465,6 +9465,13 @@
         "timestamp": "2026-04-20 04:22:15",
         "source": "github_action",
         "candidate": "almira fadila",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-20 04:22:43",
+        "source": "github_action",
+        "candidate": "luthfi Jessica putri",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
