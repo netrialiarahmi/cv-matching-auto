@@ -9298,23 +9298,16 @@
     ]
   },
   "2026-04-20": {
-    "total": 120,
+    "total": 121,
     "streamlit": 0,
-    "github_action": 120,
-    "successful": 120,
+    "github_action": 121,
+    "successful": 121,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 20
+      "Reporter Nasional": 21
     },
     "entries": [
-      {
-        "timestamp": "2026-04-20 04:21:09",
-        "source": "github_action",
-        "candidate": "Aurora Aurora Rivera",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-20 04:21:43",
         "source": "github_action",
@@ -10005,6 +9998,13 @@
         "timestamp": "2026-04-20 05:07:30",
         "source": "github_action",
         "candidate": "Muhammad Arief  Adhistyo Hidayat",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-20 05:08:03",
+        "source": "github_action",
+        "candidate": "Aura Antari",
         "position": "Reporter Nasional",
         "success": true
       }
