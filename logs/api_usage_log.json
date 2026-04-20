@@ -9298,23 +9298,16 @@
     ]
   },
   "2026-04-20": {
-    "total": 177,
+    "total": 178,
     "streamlit": 0,
-    "github_action": 177,
-    "successful": 177,
+    "github_action": 178,
+    "successful": 178,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 77
+      "Reporter Nasional": 78
     },
     "entries": [
-      {
-        "timestamp": "2026-04-20 04:48:21",
-        "source": "github_action",
-        "candidate": "Nurhaliza Chairindah",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-20 04:48:49",
         "source": "github_action",
@@ -10005,6 +9998,13 @@
         "timestamp": "2026-04-20 05:32:11",
         "source": "github_action",
         "candidate": "Aziizah Azhaar",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-20 05:32:40",
+        "source": "github_action",
+        "candidate": "Sukriwan  Ramadhan",
         "position": "Reporter Nasional",
         "success": true
       }
