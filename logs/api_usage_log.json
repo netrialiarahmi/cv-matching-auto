@@ -9298,25 +9298,18 @@
     ]
   },
   "2026-04-20": {
-    "total": 242,
+    "total": 243,
     "streamlit": 0,
-    "github_action": 242,
-    "successful": 242,
+    "github_action": 243,
+    "successful": 243,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Content Writer Homey": 1,
-      "Data Analyst (Business Intelligence)": 41
+      "Data Analyst (Business Intelligence)": 42
     },
     "entries": [
-      {
-        "timestamp": "2026-04-20 05:17:28",
-        "source": "github_action",
-        "candidate": "Muhammad Iqbal",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-20 05:18:01",
         "source": "github_action",
@@ -10007,6 +10000,13 @@
         "timestamp": "2026-04-20 06:00:48",
         "source": "github_action",
         "candidate": "Irfan Dwi Prawira",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-20 06:01:15",
+        "source": "github_action",
+        "candidate": "Aditia Rahman",
         "position": "Data Analyst (Business Intelligence)",
         "success": true
       }
