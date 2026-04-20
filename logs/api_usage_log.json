@@ -9298,25 +9298,18 @@
     ]
   },
   "2026-04-20": {
-    "total": 252,
+    "total": 253,
     "streamlit": 0,
-    "github_action": 252,
-    "successful": 252,
+    "github_action": 253,
+    "successful": 253,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Content Writer Homey": 1,
-      "Data Analyst (Business Intelligence)": 51
+      "Data Analyst (Business Intelligence)": 52
     },
     "entries": [
-      {
-        "timestamp": "2026-04-20 05:21:50",
-        "source": "github_action",
-        "candidate": "Ilham Maulana",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-20 05:22:16",
         "source": "github_action",
@@ -10007,6 +10000,13 @@
         "timestamp": "2026-04-20 06:05:11",
         "source": "github_action",
         "candidate": "Ramadhan Surya Handika",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-20 06:05:41",
+        "source": "github_action",
+        "candidate": "Shefiyyah Aurellia",
         "position": "Data Analyst (Business Intelligence)",
         "success": true
       }
