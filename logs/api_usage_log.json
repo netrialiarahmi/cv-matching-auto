@@ -9298,10 +9298,10 @@
     ]
   },
   "2026-04-20": {
-    "total": 496,
+    "total": 497,
     "streamlit": 0,
-    "github_action": 496,
-    "successful": 496,
+    "github_action": 497,
+    "successful": 497,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
@@ -9309,16 +9309,9 @@
       "Content Writer Homey": 1,
       "Data Analyst (Business Intelligence)": 100,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 95
+      "Account Executive VCBL": 96
     },
     "entries": [
-      {
-        "timestamp": "2026-04-20 07:14:04",
-        "source": "github_action",
-        "candidate": "Danang Permana",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-20 07:14:33",
         "source": "github_action",
@@ -10009,6 +10002,13 @@
         "timestamp": "2026-04-20 07:58:18",
         "source": "github_action",
         "candidate": "Hafizh Jawas",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-20 07:58:50",
+        "source": "github_action",
+        "candidate": "Alif Rizky Fadhillah",
         "position": "Account Executive VCBL",
         "success": true
       }
