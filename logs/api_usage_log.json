@@ -9298,10 +9298,10 @@
     ]
   },
   "2026-04-20": {
-    "total": 470,
+    "total": 471,
     "streamlit": 0,
-    "github_action": 470,
-    "successful": 470,
+    "github_action": 471,
+    "successful": 471,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
@@ -9309,16 +9309,9 @@
       "Content Writer Homey": 1,
       "Data Analyst (Business Intelligence)": 100,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 69
+      "Account Executive VCBL": 70
     },
     "entries": [
-      {
-        "timestamp": "2026-04-20 07:01:13",
-        "source": "github_action",
-        "candidate": "Mohammad Farhan Saputra",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-20 07:01:45",
         "source": "github_action",
@@ -10009,6 +10002,13 @@
         "timestamp": "2026-04-20 07:46:53",
         "source": "github_action",
         "candidate": "Amelia Putri R",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-20 07:47:22",
+        "source": "github_action",
+        "candidate": "AYU SETIANI",
         "position": "Account Executive VCBL",
         "success": true
       }
