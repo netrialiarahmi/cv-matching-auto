@@ -9298,23 +9298,16 @@
     ]
   },
   "2026-04-20": {
-    "total": 109,
+    "total": 110,
     "streamlit": 0,
-    "github_action": 109,
-    "successful": 109,
+    "github_action": 110,
+    "successful": 110,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 9
+      "Reporter Nasional": 10
     },
     "entries": [
-      {
-        "timestamp": "2026-04-20 04:16:34",
-        "source": "github_action",
-        "candidate": "Muhammad Ghazi Putra Assad",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-20 04:17:05",
         "source": "github_action",
@@ -10005,6 +9998,13 @@
         "timestamp": "2026-04-20 05:02:35",
         "source": "github_action",
         "candidate": "Muhamad Farhan",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-20 05:03:06",
+        "source": "github_action",
+        "candidate": "Gilang pramudia",
         "position": "Reporter Nasional",
         "success": true
       }
