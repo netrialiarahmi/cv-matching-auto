@@ -9298,25 +9298,18 @@
     ]
   },
   "2026-04-20": {
-    "total": 209,
+    "total": 210,
     "streamlit": 0,
-    "github_action": 209,
-    "successful": 209,
+    "github_action": 210,
+    "successful": 210,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Content Writer Homey": 1,
-      "Data Analyst (Business Intelligence)": 8
+      "Data Analyst (Business Intelligence)": 9
     },
     "entries": [
-      {
-        "timestamp": "2026-04-20 05:03:06",
-        "source": "github_action",
-        "candidate": "Gilang pramudia",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-20 05:03:36",
         "source": "github_action",
@@ -10007,6 +10000,13 @@
         "timestamp": "2026-04-20 05:45:47",
         "source": "github_action",
         "candidate": "nicholas Yonath boentoro",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-20 05:46:16",
+        "source": "github_action",
+        "candidate": "Dinda Fauziah Luthfiani",
         "position": "Data Analyst (Business Intelligence)",
         "success": true
       }
