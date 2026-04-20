@@ -9298,13 +9298,13 @@
     ]
   },
   "2026-04-20": {
-    "total": 34,
+    "total": 35,
     "streamlit": 0,
-    "github_action": 34,
-    "successful": 34,
+    "github_action": 35,
+    "successful": 35,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 34
+      "Marketing Communication Officer KG Media": 35
     },
     "entries": [
       {
@@ -9542,6 +9542,13 @@
         "timestamp": "2026-04-20 04:27:22",
         "source": "github_action",
         "candidate": "Intan Ayu Maharani",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-20 04:27:51",
+        "source": "github_action",
+        "candidate": "Nabilah Daffa Puspalohita",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
