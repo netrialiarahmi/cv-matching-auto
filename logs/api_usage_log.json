@@ -9298,10 +9298,10 @@
     ]
   },
   "2026-04-20": {
-    "total": 435,
+    "total": 436,
     "streamlit": 0,
-    "github_action": 435,
-    "successful": 435,
+    "github_action": 436,
+    "successful": 436,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
@@ -9309,16 +9309,9 @@
       "Content Writer Homey": 1,
       "Data Analyst (Business Intelligence)": 100,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 34
+      "Account Executive VCBL": 35
     },
     "entries": [
-      {
-        "timestamp": "2026-04-20 06:44:36",
-        "source": "github_action",
-        "candidate": "Rayhan Putra",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-20 06:45:07",
         "source": "github_action",
@@ -10009,6 +10002,13 @@
         "timestamp": "2026-04-20 07:30:38",
         "source": "github_action",
         "candidate": "Dwi Syahra",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-20 07:31:13",
+        "source": "github_action",
+        "candidate": "Jaka Perdana",
         "position": "Account Executive VCBL",
         "success": true
       }
