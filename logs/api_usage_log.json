@@ -9298,23 +9298,16 @@
     ]
   },
   "2026-04-20": {
-    "total": 150,
+    "total": 151,
     "streamlit": 0,
-    "github_action": 150,
-    "successful": 150,
+    "github_action": 151,
+    "successful": 151,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 50
+      "Reporter Nasional": 51
     },
     "entries": [
-      {
-        "timestamp": "2026-04-20 04:35:22",
-        "source": "github_action",
-        "candidate": "Raditya Ari Vernandito",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-20 04:35:52",
         "source": "github_action",
@@ -10005,6 +9998,13 @@
         "timestamp": "2026-04-20 05:20:24",
         "source": "github_action",
         "candidate": "Ajmal Fajar",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-20 05:20:49",
+        "source": "github_action",
+        "candidate": "Tresye Alfa Ega  Turang",
         "position": "Reporter Nasional",
         "success": true
       }
