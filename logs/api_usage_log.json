@@ -9298,23 +9298,16 @@
     ]
   },
   "2026-04-20": {
-    "total": 166,
+    "total": 167,
     "streamlit": 0,
-    "github_action": 166,
-    "successful": 166,
+    "github_action": 167,
+    "successful": 167,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 66
+      "Reporter Nasional": 67
     },
     "entries": [
-      {
-        "timestamp": "2026-04-20 04:42:53",
-        "source": "github_action",
-        "candidate": "Kurnia Rahmat Dhani",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-20 04:43:21",
         "source": "github_action",
@@ -10005,6 +9998,13 @@
         "timestamp": "2026-04-20 05:27:50",
         "source": "github_action",
         "candidate": "Anjar Palupi",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-20 05:28:20",
+        "source": "github_action",
+        "candidate": "Selia  Nurazwaima",
         "position": "Reporter Nasional",
         "success": true
       }
