@@ -9298,13 +9298,13 @@
     ]
   },
   "2026-04-20": {
-    "total": 32,
+    "total": 33,
     "streamlit": 0,
-    "github_action": 32,
-    "successful": 32,
+    "github_action": 33,
+    "successful": 33,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 32
+      "Marketing Communication Officer KG Media": 33
     },
     "entries": [
       {
@@ -9528,6 +9528,13 @@
         "timestamp": "2026-04-20 04:26:25",
         "source": "github_action",
         "candidate": "Farhan Putra Sapari",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-20 04:26:56",
+        "source": "github_action",
+        "candidate": "Yunissa Anzu Maharani",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
