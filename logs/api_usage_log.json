@@ -9298,26 +9298,19 @@
     ]
   },
   "2026-04-20": {
-    "total": 305,
+    "total": 306,
     "streamlit": 0,
-    "github_action": 305,
-    "successful": 305,
+    "github_action": 306,
+    "successful": 306,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Content Writer Homey": 1,
       "Data Analyst (Business Intelligence)": 100,
-      "Business Development Analyst": 4
+      "Business Development Analyst": 5
     },
     "entries": [
-      {
-        "timestamp": "2026-04-20 05:44:21",
-        "source": "github_action",
-        "candidate": "Dina Uli",
-        "position": "Data Analyst (Business Intelligence)",
-        "success": true
-      },
       {
         "timestamp": "2026-04-20 05:44:47",
         "source": "github_action",
@@ -10008,6 +10001,13 @@
         "timestamp": "2026-04-20 06:29:26",
         "source": "github_action",
         "candidate": "Ilham Putra",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-20 06:29:57",
+        "source": "github_action",
+        "candidate": "Raditya Ari Vernandito",
         "position": "Business Development Analyst",
         "success": true
       }
