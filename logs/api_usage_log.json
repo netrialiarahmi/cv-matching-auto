@@ -9298,25 +9298,18 @@
     ]
   },
   "2026-04-20": {
-    "total": 293,
+    "total": 294,
     "streamlit": 0,
-    "github_action": 293,
-    "successful": 293,
+    "github_action": 294,
+    "successful": 294,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Content Writer Homey": 1,
-      "Data Analyst (Business Intelligence)": 92
+      "Data Analyst (Business Intelligence)": 93
     },
     "entries": [
-      {
-        "timestamp": "2026-04-20 05:39:29",
-        "source": "github_action",
-        "candidate": "Izwadi Harahap",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-20 05:39:57",
         "source": "github_action",
@@ -10007,6 +10000,13 @@
         "timestamp": "2026-04-20 06:24:01",
         "source": "github_action",
         "candidate": "Muhammad Awaluddin",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-20 06:24:25",
+        "source": "github_action",
+        "candidate": "Fahrul Nazar",
         "position": "Data Analyst (Business Intelligence)",
         "success": true
       }
