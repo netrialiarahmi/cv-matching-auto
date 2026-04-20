@@ -9298,10 +9298,10 @@
     ]
   },
   "2026-04-20": {
-    "total": 478,
+    "total": 479,
     "streamlit": 0,
-    "github_action": 478,
-    "successful": 478,
+    "github_action": 479,
+    "successful": 479,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
@@ -9309,16 +9309,9 @@
       "Content Writer Homey": 1,
       "Data Analyst (Business Intelligence)": 100,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 77
+      "Account Executive VCBL": 78
     },
     "entries": [
-      {
-        "timestamp": "2026-04-20 07:04:50",
-        "source": "github_action",
-        "candidate": "ERLINA FRANSISKA",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-20 07:05:21",
         "source": "github_action",
@@ -10009,6 +10002,13 @@
         "timestamp": "2026-04-20 07:50:28",
         "source": "github_action",
         "candidate": "Michelle Anastasya supriyadi",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-20 07:50:30",
+        "source": "github_action",
+        "candidate": "ANDARI EKA NUR ALLIFAH",
         "position": "Account Executive VCBL",
         "success": true
       }
