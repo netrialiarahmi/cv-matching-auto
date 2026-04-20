@@ -9298,25 +9298,18 @@
     ]
   },
   "2026-04-20": {
-    "total": 228,
+    "total": 229,
     "streamlit": 0,
-    "github_action": 228,
-    "successful": 228,
+    "github_action": 229,
+    "successful": 229,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Content Writer Homey": 1,
-      "Data Analyst (Business Intelligence)": 27
+      "Data Analyst (Business Intelligence)": 28
     },
     "entries": [
-      {
-        "timestamp": "2026-04-20 05:12:00",
-        "source": "github_action",
-        "candidate": "Fraya Diaz Rasyade",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-20 05:12:33",
         "source": "github_action",
@@ -10007,6 +10000,13 @@
         "timestamp": "2026-04-20 05:54:58",
         "source": "github_action",
         "candidate": "Rehand Naifisurya Hermansyah",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-20 05:55:29",
+        "source": "github_action",
+        "candidate": "Intan Megananda",
         "position": "Data Analyst (Business Intelligence)",
         "success": true
       }
