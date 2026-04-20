@@ -9298,23 +9298,16 @@
     ]
   },
   "2026-04-20": {
-    "total": 114,
+    "total": 115,
     "streamlit": 0,
-    "github_action": 114,
-    "successful": 114,
+    "github_action": 115,
+    "successful": 115,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 14
+      "Reporter Nasional": 15
     },
     "entries": [
-      {
-        "timestamp": "2026-04-20 04:18:45",
-        "source": "github_action",
-        "candidate": "Amadhea Putri Namira",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-20 04:19:17",
         "source": "github_action",
@@ -10005,6 +9998,13 @@
         "timestamp": "2026-04-20 05:04:38",
         "source": "github_action",
         "candidate": "Qonita Hamidah",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-20 05:05:06",
+        "source": "github_action",
+        "candidate": "Muhamad Reza Pahlevi",
         "position": "Reporter Nasional",
         "success": true
       }
