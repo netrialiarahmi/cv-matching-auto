@@ -9298,22 +9298,16 @@
     ]
   },
   "2026-04-20": {
-    "total": 100,
+    "total": 101,
     "streamlit": 0,
-    "github_action": 100,
-    "successful": 100,
+    "github_action": 101,
+    "successful": 101,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 100
+      "Marketing Communication Officer KG Media": 100,
+      "Reporter Nasional": 1
     },
     "entries": [
-      {
-        "timestamp": "2026-04-20 04:12:25",
-        "source": "github_action",
-        "candidate": "Muhammad Alfanza Rizqy Dzakwan",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-20 04:12:51",
         "source": "github_action",
@@ -10005,6 +9999,13 @@
         "source": "github_action",
         "candidate": "Ayu Asriyani",
         "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-20 04:59:15",
+        "source": "github_action",
+        "candidate": "Andito  Gifari",
+        "position": "Reporter Nasional",
         "success": true
       }
     ]
