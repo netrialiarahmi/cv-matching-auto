@@ -9298,10 +9298,10 @@
     ]
   },
   "2026-04-20": {
-    "total": 472,
+    "total": 473,
     "streamlit": 0,
-    "github_action": 472,
-    "successful": 472,
+    "github_action": 473,
+    "successful": 473,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
@@ -9309,16 +9309,9 @@
       "Content Writer Homey": 1,
       "Data Analyst (Business Intelligence)": 100,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 71
+      "Account Executive VCBL": 72
     },
     "entries": [
-      {
-        "timestamp": "2026-04-20 07:01:47",
-        "source": "github_action",
-        "candidate": "Sheila Armelia",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-20 07:02:18",
         "source": "github_action",
@@ -10009,6 +10002,13 @@
         "timestamp": "2026-04-20 07:47:54",
         "source": "github_action",
         "candidate": "Rahmavita Naripati",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-20 07:48:25",
+        "source": "github_action",
+        "candidate": "Hilbram Syahrul",
         "position": "Account Executive VCBL",
         "success": true
       }
