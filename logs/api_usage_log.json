@@ -9298,13 +9298,13 @@
     ]
   },
   "2026-04-20": {
-    "total": 22,
+    "total": 23,
     "streamlit": 0,
-    "github_action": 22,
-    "successful": 22,
+    "github_action": 23,
+    "successful": 23,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 22
+      "Marketing Communication Officer KG Media": 23
     },
     "entries": [
       {
@@ -9458,6 +9458,13 @@
         "timestamp": "2026-04-20 04:21:43",
         "source": "github_action",
         "candidate": "maulana malik",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-20 04:22:15",
+        "source": "github_action",
+        "candidate": "almira fadila",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
