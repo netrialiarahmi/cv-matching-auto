@@ -9298,13 +9298,13 @@
     ]
   },
   "2026-04-20": {
-    "total": 92,
+    "total": 93,
     "streamlit": 0,
-    "github_action": 92,
-    "successful": 92,
+    "github_action": 93,
+    "successful": 93,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 92
+      "Marketing Communication Officer KG Media": 93
     },
     "entries": [
       {
@@ -9948,6 +9948,13 @@
         "timestamp": "2026-04-20 04:55:18",
         "source": "github_action",
         "candidate": "Adinda Natasya Balqis",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-20 04:55:20",
+        "source": "github_action",
+        "candidate": "Irham Armansyah",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
