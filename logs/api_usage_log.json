@@ -9298,13 +9298,13 @@
     ]
   },
   "2026-04-20": {
-    "total": 27,
+    "total": 28,
     "streamlit": 0,
-    "github_action": 27,
-    "successful": 27,
+    "github_action": 28,
+    "successful": 28,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 27
+      "Marketing Communication Officer KG Media": 28
     },
     "entries": [
       {
@@ -9493,6 +9493,13 @@
         "timestamp": "2026-04-20 04:24:04",
         "source": "github_action",
         "candidate": "Muhamad Raflie",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-20 04:24:30",
+        "source": "github_action",
+        "candidate": "Wahyudin ‎",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
