@@ -9298,25 +9298,18 @@
     ]
   },
   "2026-04-20": {
-    "total": 255,
+    "total": 256,
     "streamlit": 0,
-    "github_action": 255,
-    "successful": 255,
+    "github_action": 256,
+    "successful": 256,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Content Writer Homey": 1,
-      "Data Analyst (Business Intelligence)": 54
+      "Data Analyst (Business Intelligence)": 55
     },
     "entries": [
-      {
-        "timestamp": "2026-04-20 05:23:13",
-        "source": "github_action",
-        "candidate": "Muhammad Farhan",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-20 05:23:44",
         "source": "github_action",
@@ -10007,6 +10000,13 @@
         "timestamp": "2026-04-20 06:06:39",
         "source": "github_action",
         "candidate": "Tasya Fauzia Fitriasari",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-20 06:07:08",
+        "source": "github_action",
+        "candidate": "Ryan Sihono",
         "position": "Data Analyst (Business Intelligence)",
         "success": true
       }
