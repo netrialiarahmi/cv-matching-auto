@@ -9298,23 +9298,16 @@
     ]
   },
   "2026-04-20": {
-    "total": 154,
+    "total": 155,
     "streamlit": 0,
-    "github_action": 154,
-    "successful": 154,
+    "github_action": 155,
+    "successful": 155,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 54
+      "Reporter Nasional": 55
     },
     "entries": [
-      {
-        "timestamp": "2026-04-20 04:36:54",
-        "source": "github_action",
-        "candidate": "Fajar Surya Nurrohman",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-20 04:37:23",
         "source": "github_action",
@@ -10005,6 +9998,13 @@
         "timestamp": "2026-04-20 05:22:16",
         "source": "github_action",
         "candidate": "Carlo Alesandrino Pranata",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-20 05:22:41",
+        "source": "github_action",
+        "candidate": "MUHAMMAD THAREQ HARYADI",
         "position": "Reporter Nasional",
         "success": true
       }
