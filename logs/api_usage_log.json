@@ -9298,23 +9298,16 @@
     ]
   },
   "2026-04-20": {
-    "total": 156,
+    "total": 157,
     "streamlit": 0,
-    "github_action": 156,
-    "successful": 156,
+    "github_action": 157,
+    "successful": 157,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 56
+      "Reporter Nasional": 57
     },
     "entries": [
-      {
-        "timestamp": "2026-04-20 04:37:56",
-        "source": "github_action",
-        "candidate": "Namira Rahmadani",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-20 04:38:25",
         "source": "github_action",
@@ -10005,6 +9998,13 @@
         "timestamp": "2026-04-20 05:23:13",
         "source": "github_action",
         "candidate": "Muhammad Farhan",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-20 05:23:44",
+        "source": "github_action",
+        "candidate": "yusuf rinaldy",
         "position": "Reporter Nasional",
         "success": true
       }
