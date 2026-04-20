@@ -9298,10 +9298,10 @@
     ]
   },
   "2026-04-20": {
-    "total": 500,
+    "total": 501,
     "streamlit": 0,
-    "github_action": 500,
-    "successful": 500,
+    "github_action": 501,
+    "successful": 501,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
@@ -9309,16 +9309,9 @@
       "Content Writer Homey": 1,
       "Data Analyst (Business Intelligence)": 100,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 99
+      "Account Executive VCBL": 100
     },
     "entries": [
-      {
-        "timestamp": "2026-04-20 07:15:41",
-        "source": "github_action",
-        "candidate": "Novita Rahmawati",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-20 07:16:18",
         "source": "github_action",
@@ -10009,6 +10002,13 @@
         "timestamp": "2026-04-20 07:59:49",
         "source": "github_action",
         "candidate": "Gilang Rizky Akbar",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-20 08:00:19",
+        "source": "github_action",
+        "candidate": "Galang Akbar Wibisono",
         "position": "Account Executive VCBL",
         "success": true
       }
