@@ -9298,25 +9298,18 @@
     ]
   },
   "2026-04-20": {
-    "total": 235,
+    "total": 236,
     "streamlit": 0,
-    "github_action": 235,
-    "successful": 235,
+    "github_action": 236,
+    "successful": 236,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Content Writer Homey": 1,
-      "Data Analyst (Business Intelligence)": 34
+      "Data Analyst (Business Intelligence)": 35
     },
     "entries": [
-      {
-        "timestamp": "2026-04-20 05:14:23",
-        "source": "github_action",
-        "candidate": "Ahda Sabila",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-20 05:14:49",
         "source": "github_action",
@@ -10007,6 +10000,13 @@
         "timestamp": "2026-04-20 05:58:01",
         "source": "github_action",
         "candidate": "Aldi J. Simamora",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-20 05:58:26",
+        "source": "github_action",
+        "candidate": "Anggi Azkiya Khairunnisa Gunawan",
         "position": "Data Analyst (Business Intelligence)",
         "success": true
       }
