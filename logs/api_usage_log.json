@@ -9298,25 +9298,18 @@
     ]
   },
   "2026-04-20": {
-    "total": 239,
+    "total": 240,
     "streamlit": 0,
-    "github_action": 239,
-    "successful": 239,
+    "github_action": 240,
+    "successful": 240,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Content Writer Homey": 1,
-      "Data Analyst (Business Intelligence)": 38
+      "Data Analyst (Business Intelligence)": 39
     },
     "entries": [
-      {
-        "timestamp": "2026-04-20 05:16:13",
-        "source": "github_action",
-        "candidate": "DHEYANA HARIYANTI",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-20 05:16:35",
         "source": "github_action",
@@ -10007,6 +10000,13 @@
         "timestamp": "2026-04-20 05:59:48",
         "source": "github_action",
         "candidate": "Muhammad Rizky Hasbi Rivandra",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-20 06:00:19",
+        "source": "github_action",
+        "candidate": "Dito Dirgantara",
         "position": "Data Analyst (Business Intelligence)",
         "success": true
       }
