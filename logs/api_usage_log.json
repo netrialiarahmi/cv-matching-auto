@@ -9298,25 +9298,18 @@
     ]
   },
   "2026-04-20": {
-    "total": 274,
+    "total": 275,
     "streamlit": 0,
-    "github_action": 274,
-    "successful": 274,
+    "github_action": 275,
+    "successful": 275,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Content Writer Homey": 1,
-      "Data Analyst (Business Intelligence)": 73
+      "Data Analyst (Business Intelligence)": 74
     },
     "entries": [
-      {
-        "timestamp": "2026-04-20 05:31:37",
-        "source": "github_action",
-        "candidate": "Dwi Putra",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-20 05:32:09",
         "source": "github_action",
@@ -10007,6 +10000,13 @@
         "timestamp": "2026-04-20 06:15:38",
         "source": "github_action",
         "candidate": "Fathurreza Febrian",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-20 06:16:02",
+        "source": "github_action",
+        "candidate": "Haryadi Tri Nugroho",
         "position": "Data Analyst (Business Intelligence)",
         "success": true
       }
