@@ -9298,13 +9298,13 @@
     ]
   },
   "2026-04-20": {
-    "total": 6,
+    "total": 7,
     "streamlit": 0,
-    "github_action": 6,
-    "successful": 6,
+    "github_action": 7,
+    "successful": 7,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 6
+      "Marketing Communication Officer KG Media": 7
     },
     "entries": [
       {
@@ -9346,6 +9346,13 @@
         "timestamp": "2026-04-20 04:14:38",
         "source": "github_action",
         "candidate": "Livia Brigitta Mendrofa",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-20 04:15:08",
+        "source": "github_action",
+        "candidate": "Ayu Dewi Siti Aisyah",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
