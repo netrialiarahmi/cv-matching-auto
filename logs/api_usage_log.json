@@ -9298,26 +9298,19 @@
     ]
   },
   "2026-04-20": {
-    "total": 335,
+    "total": 336,
     "streamlit": 0,
-    "github_action": 335,
-    "successful": 335,
+    "github_action": 336,
+    "successful": 336,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Content Writer Homey": 1,
       "Data Analyst (Business Intelligence)": 100,
-      "Business Development Analyst": 34
+      "Business Development Analyst": 35
     },
     "entries": [
-      {
-        "timestamp": "2026-04-20 05:58:26",
-        "source": "github_action",
-        "candidate": "Anggi Azkiya Khairunnisa Gunawan",
-        "position": "Data Analyst (Business Intelligence)",
-        "success": true
-      },
       {
         "timestamp": "2026-04-20 05:58:54",
         "source": "github_action",
@@ -10008,6 +10001,13 @@
         "timestamp": "2026-04-20 06:44:04",
         "source": "github_action",
         "candidate": "Rayhan Naufal Haytami",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-20 06:44:36",
+        "source": "github_action",
+        "candidate": "Rayhan Putra",
         "position": "Business Development Analyst",
         "success": true
       }
