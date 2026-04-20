@@ -9298,25 +9298,18 @@
     ]
   },
   "2026-04-20": {
-    "total": 221,
+    "total": 222,
     "streamlit": 0,
-    "github_action": 221,
-    "successful": 221,
+    "github_action": 222,
+    "successful": 222,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Content Writer Homey": 1,
-      "Data Analyst (Business Intelligence)": 20
+      "Data Analyst (Business Intelligence)": 21
     },
     "entries": [
-      {
-        "timestamp": "2026-04-20 05:08:30",
-        "source": "github_action",
-        "candidate": "Endang Angriani",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-20 05:08:55",
         "source": "github_action",
@@ -10007,6 +10000,13 @@
         "timestamp": "2026-04-20 05:51:35",
         "source": "github_action",
         "candidate": "Novia Uly  Gultom",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-20 05:51:59",
+        "source": "github_action",
+        "candidate": "Nugraha Catur Septian Patra",
         "position": "Data Analyst (Business Intelligence)",
         "success": true
       }
