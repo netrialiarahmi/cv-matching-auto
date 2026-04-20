@@ -9298,23 +9298,16 @@
     ]
   },
   "2026-04-20": {
-    "total": 178,
+    "total": 179,
     "streamlit": 0,
-    "github_action": 178,
-    "successful": 178,
+    "github_action": 179,
+    "successful": 179,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 78
+      "Reporter Nasional": 79
     },
     "entries": [
-      {
-        "timestamp": "2026-04-20 04:48:49",
-        "source": "github_action",
-        "candidate": "Muhammad Izza Lathiif",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-20 04:49:16",
         "source": "github_action",
@@ -10005,6 +9998,13 @@
         "timestamp": "2026-04-20 05:32:40",
         "source": "github_action",
         "candidate": "Sukriwan  Ramadhan",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-20 05:33:06",
+        "source": "github_action",
+        "candidate": "Salma Shalsabilla",
         "position": "Reporter Nasional",
         "success": true
       }
