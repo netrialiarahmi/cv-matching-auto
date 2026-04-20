@@ -9298,10 +9298,10 @@
     ]
   },
   "2026-04-20": {
-    "total": 484,
+    "total": 485,
     "streamlit": 0,
-    "github_action": 484,
-    "successful": 484,
+    "github_action": 485,
+    "successful": 485,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
@@ -9309,16 +9309,9 @@
       "Content Writer Homey": 1,
       "Data Analyst (Business Intelligence)": 100,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 83
+      "Account Executive VCBL": 84
     },
     "entries": [
-      {
-        "timestamp": "2026-04-20 07:08:04",
-        "source": "github_action",
-        "candidate": "Rio Fabianto",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-20 07:08:32",
         "source": "github_action",
@@ -10009,6 +10002,13 @@
         "timestamp": "2026-04-20 07:53:04",
         "source": "github_action",
         "candidate": "Listianova Nurrochmah",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-20 07:53:36",
+        "source": "github_action",
+        "candidate": "Satria Gunawan",
         "position": "Account Executive VCBL",
         "success": true
       }
