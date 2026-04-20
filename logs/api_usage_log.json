@@ -9298,23 +9298,16 @@
     ]
   },
   "2026-04-20": {
-    "total": 130,
+    "total": 131,
     "streamlit": 0,
-    "github_action": 130,
-    "successful": 130,
+    "github_action": 131,
+    "successful": 131,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 30
+      "Reporter Nasional": 31
     },
     "entries": [
-      {
-        "timestamp": "2026-04-20 04:25:57",
-        "source": "github_action",
-        "candidate": "M Azmil  Nasrullah S",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-20 04:26:25",
         "source": "github_action",
@@ -10005,6 +9998,13 @@
         "timestamp": "2026-04-20 05:12:33",
         "source": "github_action",
         "candidate": "Iqbal Fakhriza",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-20 05:12:35",
+        "source": "github_action",
+        "candidate": "Fawwaz Azmi Iltizam",
         "position": "Reporter Nasional",
         "success": true
       }
