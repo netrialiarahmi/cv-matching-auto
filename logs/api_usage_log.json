@@ -9298,25 +9298,18 @@
     ]
   },
   "2026-04-20": {
-    "total": 262,
+    "total": 263,
     "streamlit": 0,
-    "github_action": 262,
-    "successful": 262,
+    "github_action": 263,
+    "successful": 263,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Content Writer Homey": 1,
-      "Data Analyst (Business Intelligence)": 61
+      "Data Analyst (Business Intelligence)": 62
     },
     "entries": [
-      {
-        "timestamp": "2026-04-20 05:26:28",
-        "source": "github_action",
-        "candidate": "Therresia Maria Magdalena Morais",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-20 05:26:59",
         "source": "github_action",
@@ -10007,6 +10000,13 @@
         "timestamp": "2026-04-20 06:09:56",
         "source": "github_action",
         "candidate": "Muhammad Faisal",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-20 06:10:28",
+        "source": "github_action",
+        "candidate": "Roychan Idris",
         "position": "Data Analyst (Business Intelligence)",
         "success": true
       }
