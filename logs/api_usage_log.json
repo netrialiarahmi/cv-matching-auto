@@ -9298,10 +9298,10 @@
     ]
   },
   "2026-04-20": {
-    "total": 424,
+    "total": 425,
     "streamlit": 0,
-    "github_action": 424,
-    "successful": 424,
+    "github_action": 425,
+    "successful": 425,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
@@ -9309,16 +9309,9 @@
       "Content Writer Homey": 1,
       "Data Analyst (Business Intelligence)": 100,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 23
+      "Account Executive VCBL": 24
     },
     "entries": [
-      {
-        "timestamp": "2026-04-20 06:39:20",
-        "source": "github_action",
-        "candidate": "Henry Aldebaran",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-20 06:39:49",
         "source": "github_action",
@@ -10009,6 +10002,13 @@
         "timestamp": "2026-04-20 07:25:46",
         "source": "github_action",
         "candidate": "Yogi Pradana",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-20 07:26:23",
+        "source": "github_action",
+        "candidate": "Pinkan Maliha Yasmin",
         "position": "Account Executive VCBL",
         "success": true
       }
