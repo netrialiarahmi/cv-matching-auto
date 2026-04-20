@@ -9298,23 +9298,16 @@
     ]
   },
   "2026-04-20": {
-    "total": 125,
+    "total": 126,
     "streamlit": 0,
-    "github_action": 125,
-    "successful": 125,
+    "github_action": 126,
+    "successful": 126,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 25
+      "Reporter Nasional": 26
     },
     "entries": [
-      {
-        "timestamp": "2026-04-20 04:23:37",
-        "source": "github_action",
-        "candidate": "Safura Farah Insani",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-20 04:24:04",
         "source": "github_action",
@@ -10005,6 +9998,13 @@
         "timestamp": "2026-04-20 05:09:53",
         "source": "github_action",
         "candidate": "Anisa Nur Syafitri",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-20 05:10:21",
+        "source": "github_action",
+        "candidate": "Muhammad Farhan Agusta",
         "position": "Reporter Nasional",
         "success": true
       }
