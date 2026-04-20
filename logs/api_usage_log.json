@@ -9298,23 +9298,16 @@
     ]
   },
   "2026-04-20": {
-    "total": 175,
+    "total": 176,
     "streamlit": 0,
-    "github_action": 175,
-    "successful": 175,
+    "github_action": 176,
+    "successful": 176,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 75
+      "Reporter Nasional": 76
     },
     "entries": [
-      {
-        "timestamp": "2026-04-20 04:47:20",
-        "source": "github_action",
-        "candidate": "M Daniel Rexa Faraz",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-20 04:47:49",
         "source": "github_action",
@@ -10005,6 +9998,13 @@
         "timestamp": "2026-04-20 05:31:37",
         "source": "github_action",
         "candidate": "Dwi Putra",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-20 05:32:09",
+        "source": "github_action",
+        "candidate": "Dimas Candra",
         "position": "Reporter Nasional",
         "success": true
       }
