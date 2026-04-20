@@ -9298,25 +9298,18 @@
     ]
   },
   "2026-04-20": {
-    "total": 214,
+    "total": 215,
     "streamlit": 0,
-    "github_action": 214,
-    "successful": 214,
+    "github_action": 215,
+    "successful": 215,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Content Writer Homey": 1,
-      "Data Analyst (Business Intelligence)": 13
+      "Data Analyst (Business Intelligence)": 14
     },
     "entries": [
-      {
-        "timestamp": "2026-04-20 05:05:06",
-        "source": "github_action",
-        "candidate": "Muhamad Reza Pahlevi",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-20 05:05:31",
         "source": "github_action",
@@ -10007,6 +10000,13 @@
         "timestamp": "2026-04-20 05:48:18",
         "source": "github_action",
         "candidate": "Abdan Syakur",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-20 05:48:50",
+        "source": "github_action",
+        "candidate": "Nurul Fadlilah Utami",
         "position": "Data Analyst (Business Intelligence)",
         "success": true
       }
