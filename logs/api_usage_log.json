@@ -9298,10 +9298,10 @@
     ]
   },
   "2026-04-20": {
-    "total": 486,
+    "total": 487,
     "streamlit": 0,
-    "github_action": 486,
-    "successful": 486,
+    "github_action": 487,
+    "successful": 487,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
@@ -9309,16 +9309,9 @@
       "Content Writer Homey": 1,
       "Data Analyst (Business Intelligence)": 100,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 85
+      "Account Executive VCBL": 86
     },
     "entries": [
-      {
-        "timestamp": "2026-04-20 07:09:03",
-        "source": "github_action",
-        "candidate": "Muhammad Iqbal Dwiputra",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-20 07:09:32",
         "source": "github_action",
@@ -10009,6 +10002,13 @@
         "timestamp": "2026-04-20 07:54:06",
         "source": "github_action",
         "candidate": "Rully Anggi Akbar Akbar",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-20 07:54:09",
+        "source": "github_action",
+        "candidate": "Rani Nur Afifah",
         "position": "Account Executive VCBL",
         "success": true
       }
