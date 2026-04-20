@@ -9298,25 +9298,18 @@
     ]
   },
   "2026-04-20": {
-    "total": 297,
+    "total": 298,
     "streamlit": 0,
-    "github_action": 297,
-    "successful": 297,
+    "github_action": 298,
+    "successful": 298,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Content Writer Homey": 1,
-      "Data Analyst (Business Intelligence)": 96
+      "Data Analyst (Business Intelligence)": 97
     },
     "entries": [
-      {
-        "timestamp": "2026-04-20 05:41:36",
-        "source": "github_action",
-        "candidate": "dearest tiantama",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-20 05:42:05",
         "source": "github_action",
@@ -10007,6 +10000,13 @@
         "timestamp": "2026-04-20 06:25:58",
         "source": "github_action",
         "candidate": "Muhammad Azimuthal Hikam",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-20 06:26:23",
+        "source": "github_action",
+        "candidate": "NEVIRA ANGGRAENI",
         "position": "Data Analyst (Business Intelligence)",
         "success": true
       }
