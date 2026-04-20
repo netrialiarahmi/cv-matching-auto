@@ -9298,25 +9298,18 @@
     ]
   },
   "2026-04-20": {
-    "total": 279,
+    "total": 280,
     "streamlit": 0,
-    "github_action": 279,
-    "successful": 279,
+    "github_action": 280,
+    "successful": 280,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Content Writer Homey": 1,
-      "Data Analyst (Business Intelligence)": 78
+      "Data Analyst (Business Intelligence)": 79
     },
     "entries": [
-      {
-        "timestamp": "2026-04-20 05:33:34",
-        "source": "github_action",
-        "candidate": "Muhammad Fadli Sinatrya",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-20 05:34:00",
         "source": "github_action",
@@ -10007,6 +10000,13 @@
         "timestamp": "2026-04-20 06:17:29",
         "source": "github_action",
         "candidate": "Lintang Cahyaning Sukma",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-20 06:17:58",
+        "source": "github_action",
+        "candidate": "Satria Adjie Heriansyah",
         "position": "Data Analyst (Business Intelligence)",
         "success": true
       }
