@@ -9298,10 +9298,10 @@
     ]
   },
   "2026-04-20": {
-    "total": 499,
+    "total": 500,
     "streamlit": 0,
-    "github_action": 499,
-    "successful": 499,
+    "github_action": 500,
+    "successful": 500,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
@@ -9309,16 +9309,9 @@
       "Content Writer Homey": 1,
       "Data Analyst (Business Intelligence)": 100,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 98
+      "Account Executive VCBL": 99
     },
     "entries": [
-      {
-        "timestamp": "2026-04-20 07:15:08",
-        "source": "github_action",
-        "candidate": "Darrell Matthews",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-20 07:15:41",
         "source": "github_action",
@@ -10009,6 +10002,13 @@
         "timestamp": "2026-04-20 07:59:47",
         "source": "github_action",
         "candidate": "Aprilia Finanda",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-20 07:59:49",
+        "source": "github_action",
+        "candidate": "Gilang Rizky Akbar",
         "position": "Account Executive VCBL",
         "success": true
       }
