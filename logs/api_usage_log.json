@@ -9298,23 +9298,16 @@
     ]
   },
   "2026-04-20": {
-    "total": 119,
+    "total": 120,
     "streamlit": 0,
-    "github_action": 119,
-    "successful": 119,
+    "github_action": 120,
+    "successful": 120,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 19
+      "Reporter Nasional": 20
     },
     "entries": [
-      {
-        "timestamp": "2026-04-20 04:20:41",
-        "source": "github_action",
-        "candidate": "Theresia Avilla Indah Aryanto",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-20 04:21:09",
         "source": "github_action",
@@ -10005,6 +9998,13 @@
         "timestamp": "2026-04-20 05:07:00",
         "source": "github_action",
         "candidate": "Muhammad  Noor",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-20 05:07:30",
+        "source": "github_action",
+        "candidate": "Muhammad Arief  Adhistyo Hidayat",
         "position": "Reporter Nasional",
         "success": true
       }
