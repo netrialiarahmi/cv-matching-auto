@@ -9298,25 +9298,18 @@
     ]
   },
   "2026-04-20": {
-    "total": 259,
+    "total": 260,
     "streamlit": 0,
-    "github_action": 259,
-    "successful": 259,
+    "github_action": 260,
+    "successful": 260,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Content Writer Homey": 1,
-      "Data Analyst (Business Intelligence)": 58
+      "Data Analyst (Business Intelligence)": 59
     },
     "entries": [
-      {
-        "timestamp": "2026-04-20 05:25:12",
-        "source": "github_action",
-        "candidate": "Umar Falahudin",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-20 05:25:38",
         "source": "github_action",
@@ -10007,6 +10000,13 @@
         "timestamp": "2026-04-20 06:08:33",
         "source": "github_action",
         "candidate": "Rahajeng Febri Shafiyah",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-20 06:09:00",
+        "source": "github_action",
+        "candidate": "Yazid Nizar Sopian",
         "position": "Data Analyst (Business Intelligence)",
         "success": true
       }
