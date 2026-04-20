@@ -9298,13 +9298,13 @@
     ]
   },
   "2026-04-20": {
-    "total": 2,
+    "total": 3,
     "streamlit": 0,
-    "github_action": 2,
-    "successful": 2,
+    "github_action": 3,
+    "successful": 3,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 2
+      "Marketing Communication Officer KG Media": 3
     },
     "entries": [
       {
@@ -9318,6 +9318,13 @@
         "timestamp": "2026-04-20 04:12:51",
         "source": "github_action",
         "candidate": "Amadeus Valentino",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-20 04:13:20",
+        "source": "github_action",
+        "candidate": "Akbar Haidar Rosyada",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
