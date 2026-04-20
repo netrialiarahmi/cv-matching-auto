@@ -9298,25 +9298,18 @@
     ]
   },
   "2026-04-20": {
-    "total": 298,
+    "total": 299,
     "streamlit": 0,
-    "github_action": 298,
-    "successful": 298,
+    "github_action": 299,
+    "successful": 299,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Content Writer Homey": 1,
-      "Data Analyst (Business Intelligence)": 97
+      "Data Analyst (Business Intelligence)": 98
     },
     "entries": [
-      {
-        "timestamp": "2026-04-20 05:42:05",
-        "source": "github_action",
-        "candidate": "Benoel Andinafa Simarmata",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-20 05:42:08",
         "source": "github_action",
@@ -10007,6 +10000,13 @@
         "timestamp": "2026-04-20 06:26:23",
         "source": "github_action",
         "candidate": "NEVIRA ANGGRAENI",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-20 06:26:55",
+        "source": "github_action",
+        "candidate": "Musyarofah",
         "position": "Data Analyst (Business Intelligence)",
         "success": true
       }
