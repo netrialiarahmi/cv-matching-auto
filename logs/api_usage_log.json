@@ -9298,25 +9298,18 @@
     ]
   },
   "2026-04-20": {
-    "total": 246,
+    "total": 247,
     "streamlit": 0,
-    "github_action": 246,
-    "successful": 246,
+    "github_action": 247,
+    "successful": 247,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Content Writer Homey": 1,
-      "Data Analyst (Business Intelligence)": 45
+      "Data Analyst (Business Intelligence)": 46
     },
     "entries": [
-      {
-        "timestamp": "2026-04-20 05:18:57",
-        "source": "github_action",
-        "candidate": "Aqmarina Oktavia Ibrahim",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-20 05:19:26",
         "source": "github_action",
@@ -10007,6 +10000,13 @@
         "timestamp": "2026-04-20 06:02:44",
         "source": "github_action",
         "candidate": "Ula Adrikni Rohmati",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-20 06:03:11",
+        "source": "github_action",
+        "candidate": "Diana Masruroh",
         "position": "Data Analyst (Business Intelligence)",
         "success": true
       }
