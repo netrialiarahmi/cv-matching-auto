@@ -9298,25 +9298,18 @@
     ]
   },
   "2026-04-20": {
-    "total": 206,
+    "total": 207,
     "streamlit": 0,
-    "github_action": 206,
-    "successful": 206,
+    "github_action": 207,
+    "successful": 207,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Content Writer Homey": 1,
-      "Data Analyst (Business Intelligence)": 5
+      "Data Analyst (Business Intelligence)": 6
     },
     "entries": [
-      {
-        "timestamp": "2026-04-20 05:01:45",
-        "source": "github_action",
-        "candidate": "Ade krisna Rivaldy",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-20 05:02:09",
         "source": "github_action",
@@ -10007,6 +10000,13 @@
         "timestamp": "2026-04-20 05:44:21",
         "source": "github_action",
         "candidate": "Dina Uli",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-20 05:44:47",
+        "source": "github_action",
+        "candidate": "Intan Amalia",
         "position": "Data Analyst (Business Intelligence)",
         "success": true
       }
