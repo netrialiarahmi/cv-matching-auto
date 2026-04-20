@@ -9298,25 +9298,18 @@
     ]
   },
   "2026-04-20": {
-    "total": 265,
+    "total": 266,
     "streamlit": 0,
-    "github_action": 265,
-    "successful": 265,
+    "github_action": 266,
+    "successful": 266,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Content Writer Homey": 1,
-      "Data Analyst (Business Intelligence)": 64
+      "Data Analyst (Business Intelligence)": 65
     },
     "entries": [
-      {
-        "timestamp": "2026-04-20 05:27:50",
-        "source": "github_action",
-        "candidate": "Anjar Palupi",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-20 05:28:20",
         "source": "github_action",
@@ -10007,6 +10000,13 @@
         "timestamp": "2026-04-20 06:11:24",
         "source": "github_action",
         "candidate": "Muhammad Daffa Fachreza",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-20 06:11:54",
+        "source": "github_action",
+        "candidate": "Muhamad Arya Pratama",
         "position": "Data Analyst (Business Intelligence)",
         "success": true
       }
