@@ -9298,23 +9298,16 @@
     ]
   },
   "2026-04-20": {
-    "total": 170,
+    "total": 171,
     "streamlit": 0,
-    "github_action": 170,
-    "successful": 170,
+    "github_action": 171,
+    "successful": 171,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 70
+      "Reporter Nasional": 71
     },
     "entries": [
-      {
-        "timestamp": "2026-04-20 04:44:49",
-        "source": "github_action",
-        "candidate": "Inessa Widyasari",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-20 04:45:15",
         "source": "github_action",
@@ -10005,6 +9998,13 @@
         "timestamp": "2026-04-20 05:29:41",
         "source": "github_action",
         "candidate": "Nadifa Aisyahrizka",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-20 05:30:07",
+        "source": "github_action",
+        "candidate": "ALSHA MAULIDA Alwahdy",
         "position": "Reporter Nasional",
         "success": true
       }
