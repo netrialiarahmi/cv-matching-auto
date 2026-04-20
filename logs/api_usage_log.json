@@ -9298,23 +9298,16 @@
     ]
   },
   "2026-04-20": {
-    "total": 135,
+    "total": 136,
     "streamlit": 0,
-    "github_action": 135,
-    "successful": 135,
+    "github_action": 136,
+    "successful": 136,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 35
+      "Reporter Nasional": 36
     },
     "entries": [
-      {
-        "timestamp": "2026-04-20 04:28:18",
-        "source": "github_action",
-        "candidate": "Edlina Hurin Urba Karina",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-20 04:28:50",
         "source": "github_action",
@@ -10005,6 +9998,13 @@
         "timestamp": "2026-04-20 05:14:00",
         "source": "github_action",
         "candidate": "Gaswara Utama",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-20 05:14:23",
+        "source": "github_action",
+        "candidate": "Ahda Sabila",
         "position": "Reporter Nasional",
         "success": true
       }
