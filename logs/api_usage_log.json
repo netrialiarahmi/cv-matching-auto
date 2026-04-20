@@ -9298,23 +9298,16 @@
     ]
   },
   "2026-04-20": {
-    "total": 111,
+    "total": 112,
     "streamlit": 0,
-    "github_action": 111,
-    "successful": 111,
+    "github_action": 112,
+    "successful": 112,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 11
+      "Reporter Nasional": 12
     },
     "entries": [
-      {
-        "timestamp": "2026-04-20 04:17:07",
-        "source": "github_action",
-        "candidate": "Fellycia Lim",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-20 04:17:41",
         "source": "github_action",
@@ -10005,6 +9998,13 @@
         "timestamp": "2026-04-20 05:03:36",
         "source": "github_action",
         "candidate": "Steven Andreas",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-20 05:04:05",
+        "source": "github_action",
+        "candidate": "Shelma Auliya M.",
         "position": "Reporter Nasional",
         "success": true
       }
