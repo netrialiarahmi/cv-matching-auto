@@ -9298,10 +9298,10 @@
     ]
   },
   "2026-04-20": {
-    "total": 406,
+    "total": 407,
     "streamlit": 0,
-    "github_action": 406,
-    "successful": 406,
+    "github_action": 407,
+    "successful": 407,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
@@ -9309,16 +9309,9 @@
       "Content Writer Homey": 1,
       "Data Analyst (Business Intelligence)": 100,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 5
+      "Account Executive VCBL": 6
     },
     "entries": [
-      {
-        "timestamp": "2026-04-20 06:30:26",
-        "source": "github_action",
-        "candidate": "guruh haryo",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-20 06:31:00",
         "source": "github_action",
@@ -10009,6 +10002,13 @@
         "timestamp": "2026-04-20 07:18:25",
         "source": "github_action",
         "candidate": "Jethro Giovanni Saputra",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-20 07:18:52",
+        "source": "github_action",
+        "candidate": "Ilham Rahmatulloh",
         "position": "Account Executive VCBL",
         "success": true
       }
