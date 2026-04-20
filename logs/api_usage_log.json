@@ -9298,25 +9298,18 @@
     ]
   },
   "2026-04-20": {
-    "total": 238,
+    "total": 239,
     "streamlit": 0,
-    "github_action": 238,
-    "successful": 238,
+    "github_action": 239,
+    "successful": 239,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Content Writer Homey": 1,
-      "Data Analyst (Business Intelligence)": 37
+      "Data Analyst (Business Intelligence)": 38
     },
     "entries": [
-      {
-        "timestamp": "2026-04-20 05:15:47",
-        "source": "github_action",
-        "candidate": "Revo Anggara",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-20 05:16:13",
         "source": "github_action",
@@ -10007,6 +10000,13 @@
         "timestamp": "2026-04-20 05:59:22",
         "source": "github_action",
         "candidate": "Rangga Prangwedana Januwarsa",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-20 05:59:48",
+        "source": "github_action",
+        "candidate": "Muhammad Rizky Hasbi Rivandra",
         "position": "Data Analyst (Business Intelligence)",
         "success": true
       }
