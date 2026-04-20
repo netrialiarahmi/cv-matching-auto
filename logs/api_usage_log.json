@@ -9298,13 +9298,13 @@
     ]
   },
   "2026-04-20": {
-    "total": 76,
+    "total": 77,
     "streamlit": 0,
-    "github_action": 76,
-    "successful": 76,
+    "github_action": 77,
+    "successful": 77,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 76
+      "Marketing Communication Officer KG Media": 77
     },
     "entries": [
       {
@@ -9836,6 +9836,13 @@
         "timestamp": "2026-04-20 04:47:20",
         "source": "github_action",
         "candidate": "M Daniel Rexa Faraz",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-20 04:47:49",
+        "source": "github_action",
+        "candidate": "Ivan Prakarsa",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
