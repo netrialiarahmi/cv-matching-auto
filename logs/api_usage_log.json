@@ -9298,23 +9298,16 @@
     ]
   },
   "2026-04-20": {
-    "total": 188,
+    "total": 189,
     "streamlit": 0,
-    "github_action": 188,
-    "successful": 188,
+    "github_action": 189,
+    "successful": 189,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 88
+      "Reporter Nasional": 89
     },
     "entries": [
-      {
-        "timestamp": "2026-04-20 04:53:48",
-        "source": "github_action",
-        "candidate": "Desti Triyana",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-20 04:54:16",
         "source": "github_action",
@@ -10005,6 +9998,13 @@
         "timestamp": "2026-04-20 05:37:26",
         "source": "github_action",
         "candidate": "Sarah Almira",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-20 05:37:58",
+        "source": "github_action",
+        "candidate": "Siti Anisa Handayani",
         "position": "Reporter Nasional",
         "success": true
       }
