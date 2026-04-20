@@ -9298,10 +9298,10 @@
     ]
   },
   "2026-04-20": {
-    "total": 443,
+    "total": 444,
     "streamlit": 0,
-    "github_action": 443,
-    "successful": 443,
+    "github_action": 444,
+    "successful": 444,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
@@ -9309,16 +9309,9 @@
       "Content Writer Homey": 1,
       "Data Analyst (Business Intelligence)": 100,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 42
+      "Account Executive VCBL": 43
     },
     "entries": [
-      {
-        "timestamp": "2026-04-20 06:48:11",
-        "source": "github_action",
-        "candidate": "Aditya Reynaldi",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-20 06:48:38",
         "source": "github_action",
@@ -10009,6 +10002,13 @@
         "timestamp": "2026-04-20 07:34:11",
         "source": "github_action",
         "candidate": "Syarif Antoni",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-20 07:34:38",
+        "source": "github_action",
+        "candidate": "Vanya Soraya Irsanti",
         "position": "Account Executive VCBL",
         "success": true
       }
