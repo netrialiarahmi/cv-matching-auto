@@ -9298,23 +9298,16 @@
     ]
   },
   "2026-04-20": {
-    "total": 151,
+    "total": 152,
     "streamlit": 0,
-    "github_action": 151,
-    "successful": 151,
+    "github_action": 152,
+    "successful": 152,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 51
+      "Reporter Nasional": 52
     },
     "entries": [
-      {
-        "timestamp": "2026-04-20 04:35:52",
-        "source": "github_action",
-        "candidate": "Ayu Dewi Siti Aisyah",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-20 04:35:54",
         "source": "github_action",
@@ -10005,6 +9998,13 @@
         "timestamp": "2026-04-20 05:20:49",
         "source": "github_action",
         "candidate": "Tresye Alfa Ega  Turang",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-20 05:21:16",
+        "source": "github_action",
+        "candidate": "BAGUS SADEWO",
         "position": "Reporter Nasional",
         "success": true
       }
