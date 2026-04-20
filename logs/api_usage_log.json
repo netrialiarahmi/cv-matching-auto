@@ -9298,23 +9298,16 @@
     ]
   },
   "2026-04-20": {
-    "total": 144,
+    "total": 145,
     "streamlit": 0,
-    "github_action": 144,
-    "successful": 144,
+    "github_action": 145,
+    "successful": 145,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 44
+      "Reporter Nasional": 45
     },
     "entries": [
-      {
-        "timestamp": "2026-04-20 04:32:52",
-        "source": "github_action",
-        "candidate": "Ida Kholifatur Rohmah",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-20 04:32:54",
         "source": "github_action",
@@ -10005,6 +9998,13 @@
         "timestamp": "2026-04-20 05:18:01",
         "source": "github_action",
         "candidate": "Dinar Indrani",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-20 05:18:29",
+        "source": "github_action",
+        "candidate": "Devita Nur Azizah",
         "position": "Reporter Nasional",
         "success": true
       }
