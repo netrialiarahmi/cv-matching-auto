@@ -9298,25 +9298,18 @@
     ]
   },
   "2026-04-20": {
-    "total": 269,
+    "total": 270,
     "streamlit": 0,
-    "github_action": 269,
-    "successful": 269,
+    "github_action": 270,
+    "successful": 270,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Content Writer Homey": 1,
-      "Data Analyst (Business Intelligence)": 68
+      "Data Analyst (Business Intelligence)": 69
     },
     "entries": [
-      {
-        "timestamp": "2026-04-20 05:29:41",
-        "source": "github_action",
-        "candidate": "Nadifa Aisyahrizka",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-20 05:30:07",
         "source": "github_action",
@@ -10007,6 +10000,13 @@
         "timestamp": "2026-04-20 06:13:20",
         "source": "github_action",
         "candidate": "Resti Hastarini",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-20 06:13:45",
+        "source": "github_action",
+        "candidate": "Safira Melya Ramadhayanti",
         "position": "Data Analyst (Business Intelligence)",
         "success": true
       }
