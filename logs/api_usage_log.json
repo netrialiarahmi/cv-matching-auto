@@ -9298,23 +9298,16 @@
     ]
   },
   "2026-04-20": {
-    "total": 194,
+    "total": 195,
     "streamlit": 0,
-    "github_action": 194,
-    "successful": 194,
+    "github_action": 195,
+    "successful": 195,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 94
+      "Reporter Nasional": 95
     },
     "entries": [
-      {
-        "timestamp": "2026-04-20 04:56:18",
-        "source": "github_action",
-        "candidate": "Muhammad Rizieq Al Ghofiqi",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-20 04:56:46",
         "source": "github_action",
@@ -10005,6 +9998,13 @@
         "timestamp": "2026-04-20 05:39:29",
         "source": "github_action",
         "candidate": "Izwadi Harahap",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-20 05:39:57",
+        "source": "github_action",
+        "candidate": "Rika Jahara",
         "position": "Reporter Nasional",
         "success": true
       }
