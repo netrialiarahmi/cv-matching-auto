@@ -9298,26 +9298,19 @@
     ]
   },
   "2026-04-20": {
-    "total": 363,
+    "total": 364,
     "streamlit": 0,
-    "github_action": 363,
-    "successful": 363,
+    "github_action": 364,
+    "successful": 364,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Content Writer Homey": 1,
       "Data Analyst (Business Intelligence)": 100,
-      "Business Development Analyst": 62
+      "Business Development Analyst": 63
     },
     "entries": [
-      {
-        "timestamp": "2026-04-20 06:10:58",
-        "source": "github_action",
-        "candidate": "Andi Rachmad Rinaldy",
-        "position": "Data Analyst (Business Intelligence)",
-        "success": true
-      },
       {
         "timestamp": "2026-04-20 06:11:24",
         "source": "github_action",
@@ -10008,6 +10001,13 @@
         "timestamp": "2026-04-20 06:57:10",
         "source": "github_action",
         "candidate": "Renata Elsa",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-20 06:57:40",
+        "source": "github_action",
+        "candidate": "Ernest Silalahi",
         "position": "Business Development Analyst",
         "success": true
       }
