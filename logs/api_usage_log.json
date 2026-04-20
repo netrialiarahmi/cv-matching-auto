@@ -9298,25 +9298,18 @@
     ]
   },
   "2026-04-20": {
-    "total": 205,
+    "total": 206,
     "streamlit": 0,
-    "github_action": 205,
-    "successful": 205,
+    "github_action": 206,
+    "successful": 206,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Content Writer Homey": 1,
-      "Data Analyst (Business Intelligence)": 4
+      "Data Analyst (Business Intelligence)": 5
     },
     "entries": [
-      {
-        "timestamp": "2026-04-20 05:01:11",
-        "source": "github_action",
-        "candidate": "sitinurfadilamopi sitinurfadilamopi",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-20 05:01:45",
         "source": "github_action",
@@ -10007,6 +10000,13 @@
         "timestamp": "2026-04-20 05:43:55",
         "source": "github_action",
         "candidate": "Meitiza Meitiza",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-20 05:44:21",
+        "source": "github_action",
+        "candidate": "Dina Uli",
         "position": "Data Analyst (Business Intelligence)",
         "success": true
       }
