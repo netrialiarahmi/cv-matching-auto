@@ -9298,26 +9298,19 @@
     ]
   },
   "2026-04-20": {
-    "total": 361,
+    "total": 362,
     "streamlit": 0,
-    "github_action": 361,
-    "successful": 361,
+    "github_action": 362,
+    "successful": 362,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Content Writer Homey": 1,
       "Data Analyst (Business Intelligence)": 100,
-      "Business Development Analyst": 60
+      "Business Development Analyst": 61
     },
     "entries": [
-      {
-        "timestamp": "2026-04-20 06:09:56",
-        "source": "github_action",
-        "candidate": "Muhammad Faisal",
-        "position": "Data Analyst (Business Intelligence)",
-        "success": true
-      },
       {
         "timestamp": "2026-04-20 06:10:28",
         "source": "github_action",
@@ -10008,6 +10001,13 @@
         "timestamp": "2026-04-20 06:56:11",
         "source": "github_action",
         "candidate": "Rafif Murti rizky",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-20 06:56:42",
+        "source": "github_action",
+        "candidate": "Pinta Rohmada Rahayu",
         "position": "Business Development Analyst",
         "success": true
       }
