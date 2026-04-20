@@ -9298,10 +9298,10 @@
     ]
   },
   "2026-04-20": {
-    "total": 466,
+    "total": 467,
     "streamlit": 0,
-    "github_action": 466,
-    "successful": 466,
+    "github_action": 467,
+    "successful": 467,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
@@ -9309,16 +9309,9 @@
       "Content Writer Homey": 1,
       "Data Analyst (Business Intelligence)": 100,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 65
+      "Account Executive VCBL": 66
     },
     "entries": [
-      {
-        "timestamp": "2026-04-20 06:59:02",
-        "source": "github_action",
-        "candidate": "Indhira Amarta  Mahanani",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-20 06:59:35",
         "source": "github_action",
@@ -10009,6 +10002,13 @@
         "timestamp": "2026-04-20 07:44:55",
         "source": "github_action",
         "candidate": "Aulia Aisyatu Zakia",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-20 07:45:25",
+        "source": "github_action",
+        "candidate": "Bunga Annelies  Flo",
         "position": "Account Executive VCBL",
         "success": true
       }
