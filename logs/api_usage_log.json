@@ -9298,13 +9298,13 @@
     ]
   },
   "2026-04-20": {
-    "total": 48,
+    "total": 49,
     "streamlit": 0,
-    "github_action": 48,
-    "successful": 48,
+    "github_action": 49,
+    "successful": 49,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 48
+      "Marketing Communication Officer KG Media": 49
     },
     "entries": [
       {
@@ -9640,6 +9640,13 @@
         "timestamp": "2026-04-20 04:33:56",
         "source": "github_action",
         "candidate": "Gracia Natasya",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-20 04:34:23",
+        "source": "github_action",
+        "candidate": "Muhammad Iqbal",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
