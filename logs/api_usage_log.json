@@ -9298,23 +9298,16 @@
     ]
   },
   "2026-04-20": {
-    "total": 149,
+    "total": 150,
     "streamlit": 0,
-    "github_action": 149,
-    "successful": 149,
+    "github_action": 150,
+    "successful": 150,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 49
+      "Reporter Nasional": 50
     },
     "entries": [
-      {
-        "timestamp": "2026-04-20 04:34:51",
-        "source": "github_action",
-        "candidate": "Venusia Sharon Wijaya",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-20 04:35:22",
         "source": "github_action",
@@ -10005,6 +9998,13 @@
         "timestamp": "2026-04-20 05:19:53",
         "source": "github_action",
         "candidate": "Meidiana  Shafa Kayla",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-20 05:20:24",
+        "source": "github_action",
+        "candidate": "Ajmal Fajar",
         "position": "Reporter Nasional",
         "success": true
       }
