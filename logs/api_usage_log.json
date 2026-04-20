@@ -9298,23 +9298,16 @@
     ]
   },
   "2026-04-20": {
-    "total": 160,
+    "total": 161,
     "streamlit": 0,
-    "github_action": 160,
-    "successful": 160,
+    "github_action": 161,
+    "successful": 161,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 60
+      "Reporter Nasional": 61
     },
     "entries": [
-      {
-        "timestamp": "2026-04-20 04:39:58",
-        "source": "github_action",
-        "candidate": "Laras  Sekar Ayu",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-20 04:40:25",
         "source": "github_action",
@@ -10005,6 +9998,13 @@
         "timestamp": "2026-04-20 05:25:12",
         "source": "github_action",
         "candidate": "Umar Falahudin",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-20 05:25:38",
+        "source": "github_action",
+        "candidate": "ananda santria pratama",
         "position": "Reporter Nasional",
         "success": true
       }
