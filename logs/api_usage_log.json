@@ -9298,23 +9298,16 @@
     ]
   },
   "2026-04-20": {
-    "total": 155,
+    "total": 156,
     "streamlit": 0,
-    "github_action": 155,
-    "successful": 155,
+    "github_action": 156,
+    "successful": 156,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 55
+      "Reporter Nasional": 56
     },
     "entries": [
-      {
-        "timestamp": "2026-04-20 04:37:23",
-        "source": "github_action",
-        "candidate": "Tasya Fitriah Liandra",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-20 04:37:56",
         "source": "github_action",
@@ -10005,6 +9998,13 @@
         "timestamp": "2026-04-20 05:22:41",
         "source": "github_action",
         "candidate": "MUHAMMAD THAREQ HARYADI",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-20 05:23:13",
+        "source": "github_action",
+        "candidate": "Muhammad Farhan",
         "position": "Reporter Nasional",
         "success": true
       }
