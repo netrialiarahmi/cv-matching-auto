@@ -9298,23 +9298,16 @@
     ]
   },
   "2026-04-20": {
-    "total": 197,
+    "total": 198,
     "streamlit": 0,
-    "github_action": 197,
-    "successful": 197,
+    "github_action": 198,
+    "successful": 198,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 97
+      "Reporter Nasional": 98
     },
     "entries": [
-      {
-        "timestamp": "2026-04-20 04:57:44",
-        "source": "github_action",
-        "candidate": "Nada Fakhirah",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-20 04:58:17",
         "source": "github_action",
@@ -10005,6 +9998,13 @@
         "timestamp": "2026-04-20 05:40:54",
         "source": "github_action",
         "candidate": "Yeni Pujita Astuti",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-20 05:41:36",
+        "source": "github_action",
+        "candidate": "dearest tiantama",
         "position": "Reporter Nasional",
         "success": true
       }
