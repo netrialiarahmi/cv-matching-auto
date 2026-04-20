@@ -9298,10 +9298,10 @@
     ]
   },
   "2026-04-20": {
-    "total": 481,
+    "total": 482,
     "streamlit": 0,
-    "github_action": 481,
-    "successful": 481,
+    "github_action": 482,
+    "successful": 482,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
@@ -9309,16 +9309,9 @@
       "Content Writer Homey": 1,
       "Data Analyst (Business Intelligence)": 100,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 80
+      "Account Executive VCBL": 81
     },
     "entries": [
-      {
-        "timestamp": "2026-04-20 07:06:26",
-        "source": "github_action",
-        "candidate": "KEMAL AL KAUTSAR MABRURI",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-20 07:06:59",
         "source": "github_action",
@@ -10009,6 +10002,13 @@
         "timestamp": "2026-04-20 07:51:24",
         "source": "github_action",
         "candidate": "Agus Nur Habib",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-20 07:51:56",
+        "source": "github_action",
+        "candidate": "Sindy Rosita",
         "position": "Account Executive VCBL",
         "success": true
       }
