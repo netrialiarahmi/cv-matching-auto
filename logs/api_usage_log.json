@@ -9298,10 +9298,10 @@
     ]
   },
   "2026-04-20": {
-    "total": 477,
+    "total": 478,
     "streamlit": 0,
-    "github_action": 477,
-    "successful": 477,
+    "github_action": 478,
+    "successful": 478,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
@@ -9309,16 +9309,9 @@
       "Content Writer Homey": 1,
       "Data Analyst (Business Intelligence)": 100,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 76
+      "Account Executive VCBL": 77
     },
     "entries": [
-      {
-        "timestamp": "2026-04-20 07:04:20",
-        "source": "github_action",
-        "candidate": "Charles Philip",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-20 07:04:50",
         "source": "github_action",
@@ -10009,6 +10002,13 @@
         "timestamp": "2026-04-20 07:49:54",
         "source": "github_action",
         "candidate": "Huriyatul Hanna",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-20 07:50:28",
+        "source": "github_action",
+        "candidate": "Michelle Anastasya supriyadi",
         "position": "Account Executive VCBL",
         "success": true
       }
