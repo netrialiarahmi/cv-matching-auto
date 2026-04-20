@@ -9298,10 +9298,10 @@
     ]
   },
   "2026-04-20": {
-    "total": 416,
+    "total": 417,
     "streamlit": 0,
-    "github_action": 416,
-    "successful": 416,
+    "github_action": 417,
+    "successful": 417,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
@@ -9309,16 +9309,9 @@
       "Content Writer Homey": 1,
       "Data Analyst (Business Intelligence)": 100,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 15
+      "Account Executive VCBL": 16
     },
     "entries": [
-      {
-        "timestamp": "2026-04-20 06:35:21",
-        "source": "github_action",
-        "candidate": "Ghaisani Nabilah Putri",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-20 06:35:49",
         "source": "github_action",
@@ -10009,6 +10002,13 @@
         "timestamp": "2026-04-20 07:22:05",
         "source": "github_action",
         "candidate": "Korin Indriani",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-20 07:22:08",
+        "source": "github_action",
+        "candidate": "ALIFA RAHMADANI",
         "position": "Account Executive VCBL",
         "success": true
       }
