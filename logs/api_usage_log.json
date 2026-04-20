@@ -9298,10 +9298,10 @@
     ]
   },
   "2026-04-20": {
-    "total": 432,
+    "total": 433,
     "streamlit": 0,
-    "github_action": 432,
-    "successful": 432,
+    "github_action": 433,
+    "successful": 433,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
@@ -9309,16 +9309,9 @@
       "Content Writer Homey": 1,
       "Data Analyst (Business Intelligence)": 100,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 31
+      "Account Executive VCBL": 32
     },
     "entries": [
-      {
-        "timestamp": "2026-04-20 06:43:08",
-        "source": "github_action",
-        "candidate": "Nurul Hadi",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-20 06:43:35",
         "source": "github_action",
@@ -10009,6 +10002,13 @@
         "timestamp": "2026-04-20 07:29:37",
         "source": "github_action",
         "candidate": "Rifdah Luthfiah",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-20 07:30:09",
+        "source": "github_action",
+        "candidate": "M Fadhil Ramadhan",
         "position": "Account Executive VCBL",
         "success": true
       }
