@@ -9298,13 +9298,13 @@
     ]
   },
   "2026-04-20": {
-    "total": 64,
+    "total": 65,
     "streamlit": 0,
-    "github_action": 64,
-    "successful": 64,
+    "github_action": 65,
+    "successful": 65,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 64
+      "Marketing Communication Officer KG Media": 65
     },
     "entries": [
       {
@@ -9752,6 +9752,13 @@
         "timestamp": "2026-04-20 04:41:23",
         "source": "github_action",
         "candidate": "Khairunnisa Basrie",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-20 04:41:58",
+        "source": "github_action",
+        "candidate": "Mhd Devvit Amdani",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
