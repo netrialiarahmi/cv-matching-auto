@@ -9298,23 +9298,16 @@
     ]
   },
   "2026-04-20": {
-    "total": 195,
+    "total": 196,
     "streamlit": 0,
-    "github_action": 195,
-    "successful": 195,
+    "github_action": 196,
+    "successful": 196,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 95
+      "Reporter Nasional": 96
     },
     "entries": [
-      {
-        "timestamp": "2026-04-20 04:56:46",
-        "source": "github_action",
-        "candidate": "Wirda Adelia",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-20 04:57:16",
         "source": "github_action",
@@ -10005,6 +9998,13 @@
         "timestamp": "2026-04-20 05:39:57",
         "source": "github_action",
         "candidate": "Rika Jahara",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-20 05:40:25",
+        "source": "github_action",
+        "candidate": "Sindhu Linguistika Manumanasa",
         "position": "Reporter Nasional",
         "success": true
       }
