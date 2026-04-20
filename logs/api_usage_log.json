@@ -9298,26 +9298,19 @@
     ]
   },
   "2026-04-20": {
-    "total": 357,
+    "total": 358,
     "streamlit": 0,
-    "github_action": 357,
-    "successful": 357,
+    "github_action": 358,
+    "successful": 358,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Content Writer Homey": 1,
       "Data Analyst (Business Intelligence)": 100,
-      "Business Development Analyst": 56
+      "Business Development Analyst": 57
     },
     "entries": [
-      {
-        "timestamp": "2026-04-20 06:08:05",
-        "source": "github_action",
-        "candidate": "Ahmad Pahlevi",
-        "position": "Data Analyst (Business Intelligence)",
-        "success": true
-      },
       {
         "timestamp": "2026-04-20 06:08:33",
         "source": "github_action",
@@ -10008,6 +10001,13 @@
         "timestamp": "2026-04-20 06:54:31",
         "source": "github_action",
         "candidate": "Sena Sativa",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-20 06:55:01",
+        "source": "github_action",
+        "candidate": "Sarah Laura Tarigan",
         "position": "Business Development Analyst",
         "success": true
       }
