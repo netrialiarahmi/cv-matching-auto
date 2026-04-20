@@ -9298,10 +9298,10 @@
     ]
   },
   "2026-04-20": {
-    "total": 426,
+    "total": 427,
     "streamlit": 0,
-    "github_action": 426,
-    "successful": 426,
+    "github_action": 427,
+    "successful": 427,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
@@ -9309,16 +9309,9 @@
       "Content Writer Homey": 1,
       "Data Analyst (Business Intelligence)": 100,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 25
+      "Account Executive VCBL": 26
     },
     "entries": [
-      {
-        "timestamp": "2026-04-20 06:40:18",
-        "source": "github_action",
-        "candidate": "wahyu wiguna rismanto",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-20 06:40:51",
         "source": "github_action",
@@ -10009,6 +10002,13 @@
         "timestamp": "2026-04-20 07:26:26",
         "source": "github_action",
         "candidate": "Sidiq Yogha Nariza",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-20 07:27:00",
+        "source": "github_action",
+        "candidate": "Hasna Muti Andini",
         "position": "Account Executive VCBL",
         "success": true
       }
