@@ -9298,25 +9298,18 @@
     ]
   },
   "2026-04-20": {
-    "total": 237,
+    "total": 238,
     "streamlit": 0,
-    "github_action": 237,
-    "successful": 237,
+    "github_action": 238,
+    "successful": 238,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Content Writer Homey": 1,
-      "Data Analyst (Business Intelligence)": 36
+      "Data Analyst (Business Intelligence)": 37
     },
     "entries": [
-      {
-        "timestamp": "2026-04-20 05:15:18",
-        "source": "github_action",
-        "candidate": "Gita Putri",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-20 05:15:47",
         "source": "github_action",
@@ -10007,6 +10000,13 @@
         "timestamp": "2026-04-20 05:58:54",
         "source": "github_action",
         "candidate": "Silmi Azdkiatul Athqia",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-20 05:59:22",
+        "source": "github_action",
+        "candidate": "Rangga Prangwedana Januwarsa",
         "position": "Data Analyst (Business Intelligence)",
         "success": true
       }
