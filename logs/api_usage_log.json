@@ -9298,10 +9298,10 @@
     ]
   },
   "2026-04-20": {
-    "total": 452,
+    "total": 453,
     "streamlit": 0,
-    "github_action": 452,
-    "successful": 452,
+    "github_action": 453,
+    "successful": 453,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
@@ -9309,16 +9309,9 @@
       "Content Writer Homey": 1,
       "Data Analyst (Business Intelligence)": 100,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 51
+      "Account Executive VCBL": 52
     },
     "entries": [
-      {
-        "timestamp": "2026-04-20 06:52:29",
-        "source": "github_action",
-        "candidate": "Aulia Ramandha  Hendra",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-20 06:52:59",
         "source": "github_action",
@@ -10009,6 +10002,13 @@
         "timestamp": "2026-04-20 07:38:31",
         "source": "github_action",
         "candidate": "Faruqi Al Ghifari",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-20 07:38:55",
+        "source": "github_action",
+        "candidate": "Cindy Regina Anastasia",
         "position": "Account Executive VCBL",
         "success": true
       }
