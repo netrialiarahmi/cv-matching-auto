@@ -9298,23 +9298,16 @@
     ]
   },
   "2026-04-20": {
-    "total": 176,
+    "total": 177,
     "streamlit": 0,
-    "github_action": 176,
-    "successful": 176,
+    "github_action": 177,
+    "successful": 177,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 76
+      "Reporter Nasional": 77
     },
     "entries": [
-      {
-        "timestamp": "2026-04-20 04:47:49",
-        "source": "github_action",
-        "candidate": "Ivan Prakarsa",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-20 04:48:21",
         "source": "github_action",
@@ -10005,6 +9998,13 @@
         "timestamp": "2026-04-20 05:32:09",
         "source": "github_action",
         "candidate": "Dimas Candra",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-20 05:32:11",
+        "source": "github_action",
+        "candidate": "Aziizah Azhaar",
         "position": "Reporter Nasional",
         "success": true
       }
