@@ -9298,13 +9298,13 @@
     ]
   },
   "2026-04-20": {
-    "total": 41,
+    "total": 42,
     "streamlit": 0,
-    "github_action": 41,
-    "successful": 41,
+    "github_action": 42,
+    "successful": 42,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 41
+      "Marketing Communication Officer KG Media": 42
     },
     "entries": [
       {
@@ -9591,6 +9591,13 @@
         "timestamp": "2026-04-20 04:30:52",
         "source": "github_action",
         "candidate": "Anggun Putri Pratiwi",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-20 04:31:26",
+        "source": "github_action",
+        "candidate": "Desiree  Angelica",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
