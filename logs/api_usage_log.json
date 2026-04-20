@@ -9298,25 +9298,18 @@
     ]
   },
   "2026-04-20": {
-    "total": 236,
+    "total": 237,
     "streamlit": 0,
-    "github_action": 236,
-    "successful": 236,
+    "github_action": 237,
+    "successful": 237,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Content Writer Homey": 1,
-      "Data Analyst (Business Intelligence)": 35
+      "Data Analyst (Business Intelligence)": 36
     },
     "entries": [
-      {
-        "timestamp": "2026-04-20 05:14:49",
-        "source": "github_action",
-        "candidate": "Mercy Pika Irawanty Sinaga",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-20 05:15:18",
         "source": "github_action",
@@ -10007,6 +10000,13 @@
         "timestamp": "2026-04-20 05:58:26",
         "source": "github_action",
         "candidate": "Anggi Azkiya Khairunnisa Gunawan",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-20 05:58:54",
+        "source": "github_action",
+        "candidate": "Silmi Azdkiatul Athqia",
         "position": "Data Analyst (Business Intelligence)",
         "success": true
       }
