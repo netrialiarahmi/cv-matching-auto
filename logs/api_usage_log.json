@@ -9298,13 +9298,13 @@
     ]
   },
   "2026-04-20": {
-    "total": 65,
+    "total": 66,
     "streamlit": 0,
-    "github_action": 65,
-    "successful": 65,
+    "github_action": 66,
+    "successful": 66,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 65
+      "Marketing Communication Officer KG Media": 66
     },
     "entries": [
       {
@@ -9759,6 +9759,13 @@
         "timestamp": "2026-04-20 04:41:58",
         "source": "github_action",
         "candidate": "Mhd Devvit Amdani",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-20 04:42:25",
+        "source": "github_action",
+        "candidate": "Pratiwi Putri Luckytasari",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
