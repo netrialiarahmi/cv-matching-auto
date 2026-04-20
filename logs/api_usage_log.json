@@ -9298,13 +9298,13 @@
     ]
   },
   "2026-04-20": {
-    "total": 89,
+    "total": 90,
     "streamlit": 0,
-    "github_action": 89,
-    "successful": 89,
+    "github_action": 90,
+    "successful": 90,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 89
+      "Marketing Communication Officer KG Media": 90
     },
     "entries": [
       {
@@ -9927,6 +9927,13 @@
         "timestamp": "2026-04-20 04:53:48",
         "source": "github_action",
         "candidate": "Desti Triyana",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-20 04:54:16",
+        "source": "github_action",
+        "candidate": "Selaya Anastasya",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
