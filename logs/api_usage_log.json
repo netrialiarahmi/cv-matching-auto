@@ -9298,25 +9298,18 @@
     ]
   },
   "2026-04-20": {
-    "total": 225,
+    "total": 226,
     "streamlit": 0,
-    "github_action": 225,
-    "successful": 225,
+    "github_action": 226,
+    "successful": 226,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Content Writer Homey": 1,
-      "Data Analyst (Business Intelligence)": 24
+      "Data Analyst (Business Intelligence)": 25
     },
     "entries": [
-      {
-        "timestamp": "2026-04-20 05:10:21",
-        "source": "github_action",
-        "candidate": "Muhammad Farhan Agusta",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-20 05:10:53",
         "source": "github_action",
@@ -10007,6 +10000,13 @@
         "timestamp": "2026-04-20 05:53:34",
         "source": "github_action",
         "candidate": "Irfan Junior",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-20 05:54:06",
+        "source": "github_action",
+        "candidate": "Hanifatul Insan",
         "position": "Data Analyst (Business Intelligence)",
         "success": true
       }
