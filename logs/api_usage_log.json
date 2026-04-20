@@ -9298,25 +9298,18 @@
     ]
   },
   "2026-04-20": {
-    "total": 281,
+    "total": 282,
     "streamlit": 0,
-    "github_action": 281,
-    "successful": 281,
+    "github_action": 282,
+    "successful": 282,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Content Writer Homey": 1,
-      "Data Analyst (Business Intelligence)": 80
+      "Data Analyst (Business Intelligence)": 81
     },
     "entries": [
-      {
-        "timestamp": "2026-04-20 05:34:31",
-        "source": "github_action",
-        "candidate": "Rohmat Sukmana",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-20 05:35:01",
         "source": "github_action",
@@ -10007,6 +10000,13 @@
         "timestamp": "2026-04-20 06:18:32",
         "source": "github_action",
         "candidate": "dzulfan nur f",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-20 06:19:01",
+        "source": "github_action",
+        "candidate": "Muhammad Ahnaf Naufal",
         "position": "Data Analyst (Business Intelligence)",
         "success": true
       }
