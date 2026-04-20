@@ -9298,10 +9298,10 @@
     ]
   },
   "2026-04-20": {
-    "total": 462,
+    "total": 463,
     "streamlit": 0,
-    "github_action": 462,
-    "successful": 462,
+    "github_action": 463,
+    "successful": 463,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
@@ -9309,16 +9309,9 @@
       "Content Writer Homey": 1,
       "Data Analyst (Business Intelligence)": 100,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 61
+      "Account Executive VCBL": 62
     },
     "entries": [
-      {
-        "timestamp": "2026-04-20 06:57:10",
-        "source": "github_action",
-        "candidate": "Renata Elsa",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-20 06:57:40",
         "source": "github_action",
@@ -10009,6 +10002,13 @@
         "timestamp": "2026-04-20 07:43:24",
         "source": "github_action",
         "candidate": "Muhammad Rizki",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-20 07:43:53",
+        "source": "github_action",
+        "candidate": "Muhammad Kevandra",
         "position": "Account Executive VCBL",
         "success": true
       }
