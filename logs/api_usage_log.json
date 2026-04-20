@@ -9298,25 +9298,18 @@
     ]
   },
   "2026-04-20": {
-    "total": 241,
+    "total": 242,
     "streamlit": 0,
-    "github_action": 241,
-    "successful": 241,
+    "github_action": 242,
+    "successful": 242,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Content Writer Homey": 1,
-      "Data Analyst (Business Intelligence)": 40
+      "Data Analyst (Business Intelligence)": 41
     },
     "entries": [
-      {
-        "timestamp": "2026-04-20 05:17:01",
-        "source": "github_action",
-        "candidate": "Corry Salsabilla",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-20 05:17:28",
         "source": "github_action",
@@ -10007,6 +10000,13 @@
         "timestamp": "2026-04-20 06:00:21",
         "source": "github_action",
         "candidate": "Abhi Setyoko",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-20 06:00:48",
+        "source": "github_action",
+        "candidate": "Irfan Dwi Prawira",
         "position": "Data Analyst (Business Intelligence)",
         "success": true
       }
