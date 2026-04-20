@@ -9298,13 +9298,13 @@
     ]
   },
   "2026-04-20": {
-    "total": 40,
+    "total": 41,
     "streamlit": 0,
-    "github_action": 40,
-    "successful": 40,
+    "github_action": 41,
+    "successful": 41,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 40
+      "Marketing Communication Officer KG Media": 41
     },
     "entries": [
       {
@@ -9584,6 +9584,13 @@
         "timestamp": "2026-04-20 04:30:23",
         "source": "github_action",
         "candidate": "Faishal Zuhair",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-20 04:30:52",
+        "source": "github_action",
+        "candidate": "Anggun Putri Pratiwi",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
