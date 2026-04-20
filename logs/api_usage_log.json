@@ -9298,26 +9298,19 @@
     ]
   },
   "2026-04-20": {
-    "total": 334,
+    "total": 335,
     "streamlit": 0,
-    "github_action": 334,
-    "successful": 334,
+    "github_action": 335,
+    "successful": 335,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Content Writer Homey": 1,
       "Data Analyst (Business Intelligence)": 100,
-      "Business Development Analyst": 33
+      "Business Development Analyst": 34
     },
     "entries": [
-      {
-        "timestamp": "2026-04-20 05:58:01",
-        "source": "github_action",
-        "candidate": "Aldi J. Simamora",
-        "position": "Data Analyst (Business Intelligence)",
-        "success": true
-      },
       {
         "timestamp": "2026-04-20 05:58:26",
         "source": "github_action",
@@ -10008,6 +10001,13 @@
         "timestamp": "2026-04-20 06:43:35",
         "source": "github_action",
         "candidate": "Muhammad Farhan Faturrachman",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-20 06:44:04",
+        "source": "github_action",
+        "candidate": "Rayhan Naufal Haytami",
         "position": "Business Development Analyst",
         "success": true
       }
