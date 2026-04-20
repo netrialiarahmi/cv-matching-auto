@@ -9298,13 +9298,13 @@
     ]
   },
   "2026-04-20": {
-    "total": 9,
+    "total": 10,
     "streamlit": 0,
-    "github_action": 9,
-    "successful": 9,
+    "github_action": 10,
+    "successful": 10,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 9
+      "Marketing Communication Officer KG Media": 10
     },
     "entries": [
       {
@@ -9367,6 +9367,13 @@
         "timestamp": "2026-04-20 04:16:02",
         "source": "github_action",
         "candidate": "Khauratul Azizah Oktaviany",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-20 04:16:34",
+        "source": "github_action",
+        "candidate": "Muhammad Ghazi Putra Assad",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
