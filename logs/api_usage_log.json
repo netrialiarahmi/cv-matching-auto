@@ -9298,23 +9298,16 @@
     ]
   },
   "2026-04-20": {
-    "total": 191,
+    "total": 192,
     "streamlit": 0,
-    "github_action": 191,
-    "successful": 191,
+    "github_action": 192,
+    "successful": 192,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 91
+      "Reporter Nasional": 92
     },
     "entries": [
-      {
-        "timestamp": "2026-04-20 04:55:18",
-        "source": "github_action",
-        "candidate": "Adinda Natasya Balqis",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-20 04:55:20",
         "source": "github_action",
@@ -10005,6 +9998,13 @@
         "timestamp": "2026-04-20 05:38:55",
         "source": "github_action",
         "candidate": "Sholahuddin Al Ayyubi",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-20 05:38:58",
+        "source": "github_action",
+        "candidate": "Nuzulul Magfiroh",
         "position": "Reporter Nasional",
         "success": true
       }
