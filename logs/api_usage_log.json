@@ -10015,25 +10015,18 @@
     ]
   },
   "2026-04-21": {
-    "total": 304,
+    "total": 305,
     "streamlit": 0,
-    "github_action": 304,
-    "successful": 304,
+    "github_action": 305,
+    "successful": 305,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Data Analyst (Business Intelligence)": 53,
-      "Business Development Analyst": 51
+      "Business Development Analyst": 52
     },
     "entries": [
-      {
-        "timestamp": "2026-04-21 05:42:52",
-        "source": "github_action",
-        "candidate": "Kevin Jeremia Lubis",
-        "position": "Data Analyst (Business Intelligence)",
-        "success": true
-      },
       {
         "timestamp": "2026-04-21 05:43:22",
         "source": "github_action",
@@ -10724,6 +10717,13 @@
         "timestamp": "2026-04-21 06:29:57",
         "source": "github_action",
         "candidate": "Sena Sativa",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-21 06:30:30",
+        "source": "github_action",
+        "candidate": "Sarah Laura Tarigan",
         "position": "Business Development Analyst",
         "success": true
       }
