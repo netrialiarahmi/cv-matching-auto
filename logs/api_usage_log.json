@@ -10015,23 +10015,16 @@
     ]
   },
   "2026-04-21": {
-    "total": 165,
+    "total": 166,
     "streamlit": 0,
-    "github_action": 165,
-    "successful": 165,
+    "github_action": 166,
+    "successful": 166,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 65
+      "Reporter Nasional": 66
     },
     "entries": [
-      {
-        "timestamp": "2026-04-21 04:37:54",
-        "source": "github_action",
-        "candidate": "Leyla Jamiya Iswandaru Putri",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-21 04:38:30",
         "source": "github_action",
@@ -10722,6 +10715,13 @@
         "timestamp": "2026-04-21 05:24:56",
         "source": "github_action",
         "candidate": "Nadifa Aisyahrizka",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-21 05:25:26",
+        "source": "github_action",
+        "candidate": "Wika Andriani Pangaribuan",
         "position": "Reporter Nasional",
         "success": true
       }
