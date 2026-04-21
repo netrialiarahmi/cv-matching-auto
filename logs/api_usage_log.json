@@ -10015,25 +10015,18 @@
     ]
   },
   "2026-04-21": {
-    "total": 333,
+    "total": 334,
     "streamlit": 0,
-    "github_action": 333,
-    "successful": 333,
+    "github_action": 334,
+    "successful": 334,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Data Analyst (Business Intelligence)": 53,
-      "Business Development Analyst": 80
+      "Business Development Analyst": 81
     },
     "entries": [
-      {
-        "timestamp": "2026-04-21 05:55:43",
-        "source": "github_action",
-        "candidate": "Sapta Putra",
-        "position": "Data Analyst (Business Intelligence)",
-        "success": true
-      },
       {
         "timestamp": "2026-04-21 05:56:14",
         "source": "github_action",
@@ -10724,6 +10717,13 @@
         "timestamp": "2026-04-21 06:44:22",
         "source": "github_action",
         "candidate": "Devianna Felicia Veronica",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-21 06:44:55",
+        "source": "github_action",
+        "candidate": "syahna zhafira",
         "position": "Business Development Analyst",
         "success": true
       }
