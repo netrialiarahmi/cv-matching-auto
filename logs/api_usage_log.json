@@ -10015,25 +10015,18 @@
     ]
   },
   "2026-04-21": {
-    "total": 276,
+    "total": 277,
     "streamlit": 0,
-    "github_action": 276,
-    "successful": 276,
+    "github_action": 277,
+    "successful": 277,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Data Analyst (Business Intelligence)": 53,
-      "Business Development Analyst": 23
+      "Business Development Analyst": 24
     },
     "entries": [
-      {
-        "timestamp": "2026-04-21 05:30:26",
-        "source": "github_action",
-        "candidate": "Friendsa Hasugian",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-21 05:30:56",
         "source": "github_action",
@@ -10724,6 +10717,13 @@
         "timestamp": "2026-04-21 06:15:17",
         "source": "github_action",
         "candidate": "Faqih Wasim Ahmad",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-21 06:15:47",
+        "source": "github_action",
+        "candidate": "wahyu wiguna rismanto",
         "position": "Business Development Analyst",
         "success": true
       }
