@@ -10015,23 +10015,16 @@
     ]
   },
   "2026-04-21": {
-    "total": 112,
+    "total": 113,
     "streamlit": 0,
-    "github_action": 112,
-    "successful": 112,
+    "github_action": 113,
+    "successful": 113,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 12
+      "Reporter Nasional": 13
     },
     "entries": [
-      {
-        "timestamp": "2026-04-21 04:10:48",
-        "source": "github_action",
-        "candidate": "Dhinda Khaira Ummah",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-21 04:11:22",
         "source": "github_action",
@@ -10722,6 +10715,13 @@
         "timestamp": "2026-04-21 04:59:55",
         "source": "github_action",
         "candidate": "Restira My Syahputri",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-21 05:00:28",
+        "source": "github_action",
+        "candidate": "Qonita Hamidah",
         "position": "Reporter Nasional",
         "success": true
       }
