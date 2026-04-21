@@ -10015,25 +10015,18 @@
     ]
   },
   "2026-04-21": {
-    "total": 346,
+    "total": 347,
     "streamlit": 0,
-    "github_action": 346,
-    "successful": 346,
+    "github_action": 347,
+    "successful": 347,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Data Analyst (Business Intelligence)": 53,
-      "Business Development Analyst": 93
+      "Business Development Analyst": 94
     },
     "entries": [
-      {
-        "timestamp": "2026-04-21 06:01:29",
-        "source": "github_action",
-        "candidate": "Imroatul Khoiriyah",
-        "position": "Data Analyst (Business Intelligence)",
-        "success": true
-      },
       {
         "timestamp": "2026-04-21 06:02:02",
         "source": "github_action",
@@ -10724,6 +10717,13 @@
         "timestamp": "2026-04-21 06:51:06",
         "source": "github_action",
         "candidate": "Kevin Adi Nugraha",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-21 06:51:09",
+        "source": "github_action",
+        "candidate": "Audrey Kay",
         "position": "Business Development Analyst",
         "success": true
       }
