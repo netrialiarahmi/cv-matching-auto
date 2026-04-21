@@ -10015,23 +10015,16 @@
     ]
   },
   "2026-04-21": {
-    "total": 129,
+    "total": 130,
     "streamlit": 0,
-    "github_action": 129,
-    "successful": 129,
+    "github_action": 130,
+    "successful": 130,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 29
+      "Reporter Nasional": 30
     },
     "entries": [
-      {
-        "timestamp": "2026-04-21 04:19:00",
-        "source": "github_action",
-        "candidate": "dimas Nugraha",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-21 04:19:29",
         "source": "github_action",
@@ -10722,6 +10715,13 @@
         "timestamp": "2026-04-21 05:08:06",
         "source": "github_action",
         "candidate": "Fawwaz Azmi Iltizam",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-21 05:08:38",
+        "source": "github_action",
+        "candidate": "Wildan Adil Hilba",
         "position": "Reporter Nasional",
         "success": true
       }
