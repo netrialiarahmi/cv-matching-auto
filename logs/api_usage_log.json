@@ -10015,23 +10015,16 @@
     ]
   },
   "2026-04-21": {
-    "total": 152,
+    "total": 153,
     "streamlit": 0,
-    "github_action": 152,
-    "successful": 152,
+    "github_action": 153,
+    "successful": 153,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 52
+      "Reporter Nasional": 53
     },
     "entries": [
-      {
-        "timestamp": "2026-04-21 04:30:55",
-        "source": "github_action",
-        "candidate": "Gabriel Perigrinus Satrio Wibisono",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-21 04:31:27",
         "source": "github_action",
@@ -10722,6 +10715,13 @@
         "timestamp": "2026-04-21 05:18:41",
         "source": "github_action",
         "candidate": "Muhammad Farhan",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-21 05:19:13",
+        "source": "github_action",
+        "candidate": "yusuf rinaldy",
         "position": "Reporter Nasional",
         "success": true
       }
