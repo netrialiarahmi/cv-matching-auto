@@ -10015,26 +10015,19 @@
     ]
   },
   "2026-04-21": {
-    "total": 403,
+    "total": 404,
     "streamlit": 0,
-    "github_action": 403,
-    "successful": 403,
+    "github_action": 404,
+    "successful": 404,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Data Analyst (Business Intelligence)": 53,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 50
+      "Account Executive VCBL": 51
     },
     "entries": [
-      {
-        "timestamp": "2026-04-21 06:29:57",
-        "source": "github_action",
-        "candidate": "Sena Sativa",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-21 06:30:30",
         "source": "github_action",
@@ -10725,6 +10718,13 @@
         "timestamp": "2026-04-21 07:16:45",
         "source": "github_action",
         "candidate": "Rachma Ama",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-21 07:17:13",
+        "source": "github_action",
+        "candidate": "Farid Abdullah",
         "position": "Account Executive VCBL",
         "success": true
       }
