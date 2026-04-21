@@ -10015,24 +10015,17 @@
     ]
   },
   "2026-04-21": {
-    "total": 251,
+    "total": 252,
     "streamlit": 0,
-    "github_action": 251,
-    "successful": 251,
+    "github_action": 252,
+    "successful": 252,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
-      "Data Analyst (Business Intelligence)": 51
+      "Data Analyst (Business Intelligence)": 52
     },
     "entries": [
-      {
-        "timestamp": "2026-04-21 05:18:41",
-        "source": "github_action",
-        "candidate": "Muhammad Farhan",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-21 05:19:13",
         "source": "github_action",
@@ -10723,6 +10716,13 @@
         "timestamp": "2026-04-21 06:03:03",
         "source": "github_action",
         "candidate": "yohanes arvandi",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-21 06:03:31",
+        "source": "github_action",
+        "candidate": "Marcellino Faisal Ronald, S.M.",
         "position": "Data Analyst (Business Intelligence)",
         "success": true
       }
