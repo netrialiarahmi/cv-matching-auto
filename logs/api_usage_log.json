@@ -10015,24 +10015,17 @@
     ]
   },
   "2026-04-21": {
-    "total": 201,
+    "total": 202,
     "streamlit": 0,
-    "github_action": 201,
-    "successful": 201,
+    "github_action": 202,
+    "successful": 202,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
-      "Data Analyst (Business Intelligence)": 1
+      "Data Analyst (Business Intelligence)": 2
     },
     "entries": [
-      {
-        "timestamp": "2026-04-21 04:55:51",
-        "source": "github_action",
-        "candidate": "Fano Eger",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-21 04:56:17",
         "source": "github_action",
@@ -10723,6 +10716,13 @@
         "timestamp": "2026-04-21 05:41:41",
         "source": "github_action",
         "candidate": "Surya Reza Putra",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-21 05:41:45",
+        "source": "github_action",
+        "candidate": "Ade Puspaning Ayu",
         "position": "Data Analyst (Business Intelligence)",
         "success": true
       }
