@@ -10015,26 +10015,19 @@
     ]
   },
   "2026-04-21": {
-    "total": 446,
+    "total": 447,
     "streamlit": 0,
-    "github_action": 446,
-    "successful": 446,
+    "github_action": 447,
+    "successful": 447,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Data Analyst (Business Intelligence)": 53,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 93
+      "Account Executive VCBL": 94
     },
     "entries": [
-      {
-        "timestamp": "2026-04-21 06:51:09",
-        "source": "github_action",
-        "candidate": "Audrey Kay",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-21 06:51:43",
         "source": "github_action",
@@ -10725,6 +10718,13 @@
         "timestamp": "2026-04-21 07:36:47",
         "source": "github_action",
         "candidate": "Marsal AK Donny",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-21 07:37:15",
+        "source": "github_action",
+        "candidate": "Azka Putrie",
         "position": "Account Executive VCBL",
         "success": true
       }
