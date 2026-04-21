@@ -10015,13 +10015,13 @@
     ]
   },
   "2026-04-21": {
-    "total": 68,
+    "total": 69,
     "streamlit": 0,
-    "github_action": 68,
-    "successful": 68,
+    "github_action": 69,
+    "successful": 69,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 68
+      "Marketing Communication Officer KG Media": 69
     },
     "entries": [
       {
@@ -10497,6 +10497,13 @@
         "timestamp": "2026-04-21 04:38:59",
         "source": "github_action",
         "candidate": "Farah Deswinta",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-21 04:39:31",
+        "source": "github_action",
+        "candidate": "Syakira Wardatul Aisyi",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
