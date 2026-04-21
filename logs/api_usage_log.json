@@ -10015,25 +10015,18 @@
     ]
   },
   "2026-04-21": {
-    "total": 288,
+    "total": 289,
     "streamlit": 0,
-    "github_action": 288,
-    "successful": 288,
+    "github_action": 289,
+    "successful": 289,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Data Analyst (Business Intelligence)": 53,
-      "Business Development Analyst": 35
+      "Business Development Analyst": 36
     },
     "entries": [
-      {
-        "timestamp": "2026-04-21 05:35:56",
-        "source": "github_action",
-        "candidate": "Sindhu Linguistika Manumanasa",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-21 05:36:32",
         "source": "github_action",
@@ -10724,6 +10717,13 @@
         "timestamp": "2026-04-21 06:21:28",
         "source": "github_action",
         "candidate": "Satria Wibowo",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-21 06:21:57",
+        "source": "github_action",
+        "candidate": "Akmal Aminullah",
         "position": "Business Development Analyst",
         "success": true
       }
