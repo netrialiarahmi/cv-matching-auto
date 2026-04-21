@@ -10015,23 +10015,16 @@
     ]
   },
   "2026-04-21": {
-    "total": 180,
+    "total": 181,
     "streamlit": 0,
-    "github_action": 180,
-    "successful": 180,
+    "github_action": 181,
+    "successful": 181,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 80
+      "Reporter Nasional": 81
     },
     "entries": [
-      {
-        "timestamp": "2026-04-21 04:45:13",
-        "source": "github_action",
-        "candidate": "GINA NURULFADILAH",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-21 04:45:42",
         "source": "github_action",
@@ -10722,6 +10715,13 @@
         "timestamp": "2026-04-21 05:32:08",
         "source": "github_action",
         "candidate": "Salsabila Syafaati Azizah",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-21 05:32:44",
+        "source": "github_action",
+        "candidate": "Sarah Almira",
         "position": "Reporter Nasional",
         "success": true
       }
