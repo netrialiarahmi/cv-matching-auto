@@ -10015,24 +10015,17 @@
     ]
   },
   "2026-04-21": {
-    "total": 242,
+    "total": 243,
     "streamlit": 0,
-    "github_action": 242,
-    "successful": 242,
+    "github_action": 243,
+    "successful": 243,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
-      "Data Analyst (Business Intelligence)": 42
+      "Data Analyst (Business Intelligence)": 43
     },
     "entries": [
-      {
-        "timestamp": "2026-04-21 05:14:41",
-        "source": "github_action",
-        "candidate": "Syahrul Rifai Tri Laksono",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-21 05:14:45",
         "source": "github_action",
@@ -10723,6 +10716,13 @@
         "timestamp": "2026-04-21 05:59:08",
         "source": "github_action",
         "candidate": "Deasy Martauli Togatorop",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-21 05:59:36",
+        "source": "github_action",
+        "candidate": "Lola Amalia Putri",
         "position": "Data Analyst (Business Intelligence)",
         "success": true
       }
