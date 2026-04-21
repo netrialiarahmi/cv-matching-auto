@@ -10015,26 +10015,19 @@
     ]
   },
   "2026-04-21": {
-    "total": 447,
+    "total": 448,
     "streamlit": 0,
-    "github_action": 447,
-    "successful": 447,
+    "github_action": 448,
+    "successful": 448,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Data Analyst (Business Intelligence)": 53,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 94
+      "Account Executive VCBL": 95
     },
     "entries": [
-      {
-        "timestamp": "2026-04-21 06:51:43",
-        "source": "github_action",
-        "candidate": "Dila Safitri",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-21 06:52:19",
         "source": "github_action",
@@ -10725,6 +10718,13 @@
         "timestamp": "2026-04-21 07:37:15",
         "source": "github_action",
         "candidate": "Azka Putrie",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-21 07:37:40",
+        "source": "github_action",
+        "candidate": "Reyhan Dzaky",
         "position": "Account Executive VCBL",
         "success": true
       }
