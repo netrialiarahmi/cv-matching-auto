@@ -10015,26 +10015,19 @@
     ]
   },
   "2026-04-21": {
-    "total": 377,
+    "total": 378,
     "streamlit": 0,
-    "github_action": 377,
-    "successful": 377,
+    "github_action": 378,
+    "successful": 378,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Data Analyst (Business Intelligence)": 53,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 24
+      "Account Executive VCBL": 25
     },
     "entries": [
-      {
-        "timestamp": "2026-04-21 06:16:16",
-        "source": "github_action",
-        "candidate": "Damar Aji Kuncoro",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-21 06:16:46",
         "source": "github_action",
@@ -10725,6 +10718,13 @@
         "timestamp": "2026-04-21 07:04:31",
         "source": "github_action",
         "candidate": "Hasna Muti Andini",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-21 07:05:01",
+        "source": "github_action",
+        "candidate": "Matin Muhammad",
         "position": "Account Executive VCBL",
         "success": true
       }
