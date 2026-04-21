@@ -10015,24 +10015,17 @@
     ]
   },
   "2026-04-21": {
-    "total": 232,
+    "total": 233,
     "streamlit": 0,
-    "github_action": 232,
-    "successful": 232,
+    "github_action": 233,
+    "successful": 233,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
-      "Data Analyst (Business Intelligence)": 32
+      "Data Analyst (Business Intelligence)": 33
     },
     "entries": [
-      {
-        "timestamp": "2026-04-21 05:09:40",
-        "source": "github_action",
-        "candidate": "Gaswara Utama",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-21 05:10:10",
         "source": "github_action",
@@ -10723,6 +10716,13 @@
         "timestamp": "2026-04-21 05:54:48",
         "source": "github_action",
         "candidate": "Diva Nur Haffifah",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-21 05:55:14",
+        "source": "github_action",
+        "candidate": "Helmi Dwi Prasetya",
         "position": "Data Analyst (Business Intelligence)",
         "success": true
       }
