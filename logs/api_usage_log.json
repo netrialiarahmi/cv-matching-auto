@@ -10015,13 +10015,13 @@
     ]
   },
   "2026-04-21": {
-    "total": 95,
+    "total": 96,
     "streamlit": 0,
-    "github_action": 95,
-    "successful": 95,
+    "github_action": 96,
+    "successful": 96,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 95
+      "Marketing Communication Officer KG Media": 96
     },
     "entries": [
       {
@@ -10686,6 +10686,13 @@
         "timestamp": "2026-04-21 04:52:43",
         "source": "github_action",
         "candidate": "Alma Musa Rasyidi",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-21 04:53:14",
+        "source": "github_action",
+        "candidate": "Muhammad Fiqan Nasution",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
