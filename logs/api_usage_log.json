@@ -10015,13 +10015,13 @@
     ]
   },
   "2026-04-21": {
-    "total": 48,
+    "total": 49,
     "streamlit": 0,
-    "github_action": 48,
-    "successful": 48,
+    "github_action": 49,
+    "successful": 49,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 48
+      "Marketing Communication Officer KG Media": 49
     },
     "entries": [
       {
@@ -10357,6 +10357,13 @@
         "timestamp": "2026-04-21 04:28:15",
         "source": "github_action",
         "candidate": "Muktafa Hadi Yahya",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-21 04:28:51",
+        "source": "github_action",
+        "candidate": "Rachma Alya Hapsari Kusumayanti",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
