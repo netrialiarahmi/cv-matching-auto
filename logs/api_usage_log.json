@@ -10015,25 +10015,18 @@
     ]
   },
   "2026-04-21": {
-    "total": 254,
+    "total": 255,
     "streamlit": 0,
-    "github_action": 254,
-    "successful": 254,
+    "github_action": 255,
+    "successful": 255,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Data Analyst (Business Intelligence)": 53,
-      "Business Development Analyst": 1
+      "Business Development Analyst": 2
     },
     "entries": [
-      {
-        "timestamp": "2026-04-21 05:20:12",
-        "source": "github_action",
-        "candidate": "Umar Falahudin",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-21 05:20:42",
         "source": "github_action",
@@ -10724,6 +10717,13 @@
         "timestamp": "2026-04-21 06:04:26",
         "source": "github_action",
         "candidate": "Yuke Luviana",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-21 06:04:57",
+        "source": "github_action",
+        "candidate": "Hagie Pradivio",
         "position": "Business Development Analyst",
         "success": true
       }
