@@ -10015,23 +10015,16 @@
     ]
   },
   "2026-04-21": {
-    "total": 175,
+    "total": 176,
     "streamlit": 0,
-    "github_action": 175,
-    "successful": 175,
+    "github_action": 176,
+    "successful": 176,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 75
+      "Reporter Nasional": 76
     },
     "entries": [
-      {
-        "timestamp": "2026-04-21 04:43:10",
-        "source": "github_action",
-        "candidate": "Nisrina Nisrina",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-21 04:43:39",
         "source": "github_action",
@@ -10722,6 +10715,13 @@
         "timestamp": "2026-04-21 05:29:22",
         "source": "github_action",
         "candidate": "Rivaldo Simanjuntak",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-21 05:29:52",
+        "source": "github_action",
+        "candidate": "Rohmat Sukmana",
         "position": "Reporter Nasional",
         "success": true
       }
