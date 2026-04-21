@@ -10015,25 +10015,18 @@
     ]
   },
   "2026-04-21": {
-    "total": 307,
+    "total": 308,
     "streamlit": 0,
-    "github_action": 307,
-    "successful": 307,
+    "github_action": 308,
+    "successful": 308,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Data Analyst (Business Intelligence)": 53,
-      "Business Development Analyst": 54
+      "Business Development Analyst": 55
     },
     "entries": [
-      {
-        "timestamp": "2026-04-21 05:44:25",
-        "source": "github_action",
-        "candidate": "FITRA RAMADHANA",
-        "position": "Data Analyst (Business Intelligence)",
-        "success": true
-      },
       {
         "timestamp": "2026-04-21 05:44:28",
         "source": "github_action",
@@ -10724,6 +10717,13 @@
         "timestamp": "2026-04-21 06:31:33",
         "source": "github_action",
         "candidate": "Rezy Aprilliano Adha",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-21 06:31:37",
+        "source": "github_action",
+        "candidate": "Rafif Murti rizky",
         "position": "Business Development Analyst",
         "success": true
       }
