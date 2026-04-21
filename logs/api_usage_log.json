@@ -10015,25 +10015,18 @@
     ]
   },
   "2026-04-21": {
-    "total": 271,
+    "total": 272,
     "streamlit": 0,
-    "github_action": 271,
-    "successful": 271,
+    "github_action": 272,
+    "successful": 272,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Data Analyst (Business Intelligence)": 53,
-      "Business Development Analyst": 18
+      "Business Development Analyst": 19
     },
     "entries": [
-      {
-        "timestamp": "2026-04-21 05:27:54",
-        "source": "github_action",
-        "candidate": "Sukriwan  Ramadhan",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-21 05:28:24",
         "source": "github_action",
@@ -10724,6 +10717,13 @@
         "timestamp": "2026-04-21 06:12:41",
         "source": "github_action",
         "candidate": "Agung Pramono",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-21 06:13:17",
+        "source": "github_action",
+        "candidate": "Firly Ramadhan",
         "position": "Business Development Analyst",
         "success": true
       }
