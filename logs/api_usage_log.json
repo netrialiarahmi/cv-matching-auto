@@ -10015,26 +10015,19 @@
     ]
   },
   "2026-04-21": {
-    "total": 410,
+    "total": 411,
     "streamlit": 0,
-    "github_action": 410,
-    "successful": 410,
+    "github_action": 411,
+    "successful": 411,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Data Analyst (Business Intelligence)": 53,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 57
+      "Account Executive VCBL": 58
     },
     "entries": [
-      {
-        "timestamp": "2026-04-21 06:33:12",
-        "source": "github_action",
-        "candidate": "Ernest Silalahi",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-21 06:33:42",
         "source": "github_action",
@@ -10725,6 +10718,13 @@
         "timestamp": "2026-04-21 07:20:08",
         "source": "github_action",
         "candidate": "Muhammad Kevandra",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-21 07:20:35",
+        "source": "github_action",
+        "candidate": "Windi Helvira",
         "position": "Account Executive VCBL",
         "success": true
       }
