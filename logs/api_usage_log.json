@@ -10015,13 +10015,13 @@
     ]
   },
   "2026-04-21": {
-    "total": 91,
+    "total": 92,
     "streamlit": 0,
-    "github_action": 91,
-    "successful": 91,
+    "github_action": 92,
+    "successful": 92,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 91
+      "Marketing Communication Officer KG Media": 92
     },
     "entries": [
       {
@@ -10658,6 +10658,13 @@
         "timestamp": "2026-04-21 04:50:34",
         "source": "github_action",
         "candidate": "Muhammad Daffa Farras",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-21 04:51:07",
+        "source": "github_action",
+        "candidate": "Erick Rivaldianto",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
