@@ -10015,26 +10015,19 @@
     ]
   },
   "2026-04-21": {
-    "total": 451,
+    "total": 452,
     "streamlit": 0,
-    "github_action": 451,
-    "successful": 451,
+    "github_action": 452,
+    "successful": 452,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Data Analyst (Business Intelligence)": 53,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 98
+      "Account Executive VCBL": 99
     },
     "entries": [
-      {
-        "timestamp": "2026-04-21 06:53:50",
-        "source": "github_action",
-        "candidate": "Tommy Tri Prasetyo",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-21 06:54:24",
         "source": "github_action",
@@ -10725,6 +10718,13 @@
         "timestamp": "2026-04-21 07:39:08",
         "source": "github_action",
         "candidate": "Amelia Intan",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-21 07:39:42",
+        "source": "github_action",
+        "candidate": "Aufa Sofyan",
         "position": "Account Executive VCBL",
         "success": true
       }
