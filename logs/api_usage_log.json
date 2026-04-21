@@ -10015,23 +10015,16 @@
     ]
   },
   "2026-04-21": {
-    "total": 195,
+    "total": 196,
     "streamlit": 0,
-    "github_action": 195,
-    "successful": 195,
+    "github_action": 196,
+    "successful": 196,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 95
+      "Reporter Nasional": 96
     },
     "entries": [
-      {
-        "timestamp": "2026-04-21 04:53:14",
-        "source": "github_action",
-        "candidate": "Muhammad Fiqan Nasution",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-21 04:53:46",
         "source": "github_action",
@@ -10722,6 +10715,13 @@
         "timestamp": "2026-04-21 05:38:33",
         "source": "github_action",
         "candidate": "Nur Rahmaini Lubis",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-21 05:39:02",
+        "source": "github_action",
+        "candidate": "Andika Yudhistira",
         "position": "Reporter Nasional",
         "success": true
       }
