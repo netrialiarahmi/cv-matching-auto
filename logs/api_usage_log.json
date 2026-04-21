@@ -10015,13 +10015,13 @@
     ]
   },
   "2026-04-21": {
-    "total": 62,
+    "total": 63,
     "streamlit": 0,
-    "github_action": 62,
-    "successful": 62,
+    "github_action": 63,
+    "successful": 63,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 62
+      "Marketing Communication Officer KG Media": 63
     },
     "entries": [
       {
@@ -10455,6 +10455,13 @@
         "timestamp": "2026-04-21 04:35:50",
         "source": "github_action",
         "candidate": "Carla Callista",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-21 04:36:18",
+        "source": "github_action",
+        "candidate": "Dini Fajaryani",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
