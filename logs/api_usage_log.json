@@ -10015,13 +10015,13 @@
     ]
   },
   "2026-04-21": {
-    "total": 92,
+    "total": 93,
     "streamlit": 0,
-    "github_action": 92,
-    "successful": 92,
+    "github_action": 93,
+    "successful": 93,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 92
+      "Marketing Communication Officer KG Media": 93
     },
     "entries": [
       {
@@ -10665,6 +10665,13 @@
         "timestamp": "2026-04-21 04:51:07",
         "source": "github_action",
         "candidate": "Erick Rivaldianto",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-21 04:51:37",
+        "source": "github_action",
+        "candidate": "Lutvi Auliya Jamal",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
