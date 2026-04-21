@@ -10015,26 +10015,19 @@
     ]
   },
   "2026-04-21": {
-    "total": 423,
+    "total": 424,
     "streamlit": 0,
-    "github_action": 423,
-    "successful": 423,
+    "github_action": 424,
+    "successful": 424,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Data Analyst (Business Intelligence)": 53,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 70
+      "Account Executive VCBL": 71
     },
     "entries": [
-      {
-        "timestamp": "2026-04-21 06:39:39",
-        "source": "github_action",
-        "candidate": "ERLINA FRANSISKA",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-21 06:40:09",
         "source": "github_action",
@@ -10725,6 +10718,13 @@
         "timestamp": "2026-04-21 07:26:08",
         "source": "github_action",
         "candidate": "Huriyatul Hanna",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-21 07:26:45",
+        "source": "github_action",
+        "candidate": "Michelle Anastasya supriyadi",
         "position": "Account Executive VCBL",
         "success": true
       }
