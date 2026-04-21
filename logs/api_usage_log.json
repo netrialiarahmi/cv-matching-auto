@@ -10015,13 +10015,13 @@
     ]
   },
   "2026-04-21": {
-    "total": 67,
+    "total": 68,
     "streamlit": 0,
-    "github_action": 67,
-    "successful": 67,
+    "github_action": 68,
+    "successful": 68,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 67
+      "Marketing Communication Officer KG Media": 68
     },
     "entries": [
       {
@@ -10490,6 +10490,13 @@
         "timestamp": "2026-04-21 04:38:30",
         "source": "github_action",
         "candidate": "Adhitya Reinindra",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-21 04:38:59",
+        "source": "github_action",
+        "candidate": "Farah Deswinta",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
