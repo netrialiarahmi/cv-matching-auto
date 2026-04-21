@@ -10015,25 +10015,18 @@
     ]
   },
   "2026-04-21": {
-    "total": 323,
+    "total": 324,
     "streamlit": 0,
-    "github_action": 323,
-    "successful": 323,
+    "github_action": 324,
+    "successful": 324,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Data Analyst (Business Intelligence)": 53,
-      "Business Development Analyst": 70
+      "Business Development Analyst": 71
     },
     "entries": [
-      {
-        "timestamp": "2026-04-21 05:51:29",
-        "source": "github_action",
-        "candidate": "RENDY CANDRA PERMANA",
-        "position": "Data Analyst (Business Intelligence)",
-        "success": true
-      },
       {
         "timestamp": "2026-04-21 05:51:59",
         "source": "github_action",
@@ -10724,6 +10717,13 @@
         "timestamp": "2026-04-21 06:39:06",
         "source": "github_action",
         "candidate": "Charles Philip",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-21 06:39:39",
+        "source": "github_action",
+        "candidate": "ERLINA FRANSISKA",
         "position": "Business Development Analyst",
         "success": true
       }
