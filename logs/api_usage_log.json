@@ -10015,25 +10015,18 @@
     ]
   },
   "2026-04-21": {
-    "total": 331,
+    "total": 332,
     "streamlit": 0,
-    "github_action": 331,
-    "successful": 331,
+    "github_action": 332,
+    "successful": 332,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Data Analyst (Business Intelligence)": 53,
-      "Business Development Analyst": 78
+      "Business Development Analyst": 79
     },
     "entries": [
-      {
-        "timestamp": "2026-04-21 05:54:48",
-        "source": "github_action",
-        "candidate": "Diva Nur Haffifah",
-        "position": "Data Analyst (Business Intelligence)",
-        "success": true
-      },
       {
         "timestamp": "2026-04-21 05:55:14",
         "source": "github_action",
@@ -10724,6 +10717,13 @@
         "timestamp": "2026-04-21 06:43:25",
         "source": "github_action",
         "candidate": "Muhammad Iqbal Dwiputra",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-21 06:43:53",
+        "source": "github_action",
+        "candidate": "Dini Muzdalifah",
         "position": "Business Development Analyst",
         "success": true
       }
