@@ -10015,13 +10015,13 @@
     ]
   },
   "2026-04-21": {
-    "total": 94,
+    "total": 95,
     "streamlit": 0,
-    "github_action": 94,
-    "successful": 94,
+    "github_action": 95,
+    "successful": 95,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 94
+      "Marketing Communication Officer KG Media": 95
     },
     "entries": [
       {
@@ -10679,6 +10679,13 @@
         "timestamp": "2026-04-21 04:52:11",
         "source": "github_action",
         "candidate": "Hayfa Nazelia",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-21 04:52:43",
+        "source": "github_action",
+        "candidate": "Alma Musa Rasyidi",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
