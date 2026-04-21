@@ -10015,25 +10015,18 @@
     ]
   },
   "2026-04-21": {
-    "total": 313,
+    "total": 314,
     "streamlit": 0,
-    "github_action": 313,
-    "successful": 313,
+    "github_action": 314,
+    "successful": 314,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Data Analyst (Business Intelligence)": 53,
-      "Business Development Analyst": 60
+      "Business Development Analyst": 61
     },
     "entries": [
-      {
-        "timestamp": "2026-04-21 05:47:02",
-        "source": "github_action",
-        "candidate": "Rayhan Taufiqulhakim",
-        "position": "Data Analyst (Business Intelligence)",
-        "success": true
-      },
       {
         "timestamp": "2026-04-21 05:47:30",
         "source": "github_action",
@@ -10724,6 +10717,13 @@
         "timestamp": "2026-04-21 06:34:12",
         "source": "github_action",
         "candidate": "Indhira Amarta  Mahanani",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-21 06:34:45",
+        "source": "github_action",
+        "candidate": "wahyu cahyaningrum",
         "position": "Business Development Analyst",
         "success": true
       }
