@@ -10015,24 +10015,17 @@
     ]
   },
   "2026-04-21": {
-    "total": 203,
+    "total": 204,
     "streamlit": 0,
-    "github_action": 203,
-    "successful": 203,
+    "github_action": 204,
+    "successful": 204,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
-      "Data Analyst (Business Intelligence)": 3
+      "Data Analyst (Business Intelligence)": 4
     },
     "entries": [
-      {
-        "timestamp": "2026-04-21 04:56:44",
-        "source": "github_action",
-        "candidate": "Dara Maharani",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-21 04:57:21",
         "source": "github_action",
@@ -10723,6 +10716,13 @@
         "timestamp": "2026-04-21 05:42:16",
         "source": "github_action",
         "candidate": "Imran Nur",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-21 05:42:49",
+        "source": "github_action",
+        "candidate": "Vanessa Vanessa",
         "position": "Data Analyst (Business Intelligence)",
         "success": true
       }
