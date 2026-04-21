@@ -10015,26 +10015,19 @@
     ]
   },
   "2026-04-21": {
-    "total": 428,
+    "total": 429,
     "streamlit": 0,
-    "github_action": 428,
-    "successful": 428,
+    "github_action": 429,
+    "successful": 429,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Data Analyst (Business Intelligence)": 53,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 75
+      "Account Executive VCBL": 76
     },
     "entries": [
-      {
-        "timestamp": "2026-04-21 06:42:19",
-        "source": "github_action",
-        "candidate": "Yohana Simarmata",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-21 06:42:51",
         "source": "github_action",
@@ -10725,6 +10718,13 @@
         "timestamp": "2026-04-21 07:28:33",
         "source": "github_action",
         "candidate": "Sindy Rosita",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-21 07:29:05",
+        "source": "github_action",
+        "candidate": "Listianova Nurrochmah",
         "position": "Account Executive VCBL",
         "success": true
       }
