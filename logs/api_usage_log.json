@@ -10015,25 +10015,18 @@
     ]
   },
   "2026-04-21": {
-    "total": 278,
+    "total": 279,
     "streamlit": 0,
-    "github_action": 278,
-    "successful": 278,
+    "github_action": 279,
+    "successful": 279,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Data Analyst (Business Intelligence)": 53,
-      "Business Development Analyst": 25
+      "Business Development Analyst": 26
     },
     "entries": [
-      {
-        "timestamp": "2026-04-21 05:31:31",
-        "source": "github_action",
-        "candidate": "Anastasya Yuliarta",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-21 05:32:08",
         "source": "github_action",
@@ -10724,6 +10717,13 @@
         "timestamp": "2026-04-21 06:16:16",
         "source": "github_action",
         "candidate": "Damar Aji Kuncoro",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-21 06:16:46",
+        "source": "github_action",
+        "candidate": "cecep aris afandi andi",
         "position": "Business Development Analyst",
         "success": true
       }
