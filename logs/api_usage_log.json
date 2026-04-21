@@ -10015,23 +10015,16 @@
     ]
   },
   "2026-04-21": {
-    "total": 130,
+    "total": 131,
     "streamlit": 0,
-    "github_action": 130,
-    "successful": 130,
+    "github_action": 131,
+    "successful": 131,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 30
+      "Reporter Nasional": 31
     },
     "entries": [
-      {
-        "timestamp": "2026-04-21 04:19:29",
-        "source": "github_action",
-        "candidate": "Noor Latifah Adzhari",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-21 04:19:59",
         "source": "github_action",
@@ -10722,6 +10715,13 @@
         "timestamp": "2026-04-21 05:08:38",
         "source": "github_action",
         "candidate": "Wildan Adil Hilba",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-21 05:08:43",
+        "source": "github_action",
+        "candidate": "Maulina Amaliya",
         "position": "Reporter Nasional",
         "success": true
       }
