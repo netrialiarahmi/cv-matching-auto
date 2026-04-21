@@ -10015,24 +10015,17 @@
     ]
   },
   "2026-04-21": {
-    "total": 244,
+    "total": 245,
     "streamlit": 0,
-    "github_action": 244,
-    "successful": 244,
+    "github_action": 245,
+    "successful": 245,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
-      "Data Analyst (Business Intelligence)": 44
+      "Data Analyst (Business Intelligence)": 45
     },
     "entries": [
-      {
-        "timestamp": "2026-04-21 05:15:13",
-        "source": "github_action",
-        "candidate": "Meidiana  Shafa Kayla",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-21 05:15:43",
         "source": "github_action",
@@ -10723,6 +10716,13 @@
         "timestamp": "2026-04-21 06:00:04",
         "source": "github_action",
         "candidate": "Rivaldo Elshaddai",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-21 06:00:34",
+        "source": "github_action",
+        "candidate": "Muhammad Latief Najmuddin",
         "position": "Data Analyst (Business Intelligence)",
         "success": true
       }
