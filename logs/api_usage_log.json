@@ -10015,26 +10015,19 @@
     ]
   },
   "2026-04-21": {
-    "total": 426,
+    "total": 427,
     "streamlit": 0,
-    "github_action": 426,
-    "successful": 426,
+    "github_action": 427,
+    "successful": 427,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Data Analyst (Business Intelligence)": 53,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 73
+      "Account Executive VCBL": 74
     },
     "entries": [
-      {
-        "timestamp": "2026-04-21 06:41:16",
-        "source": "github_action",
-        "candidate": "KEMAL AL KAUTSAR MABRURI",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-21 06:41:50",
         "source": "github_action",
@@ -10725,6 +10718,13 @@
         "timestamp": "2026-04-21 07:27:22",
         "source": "github_action",
         "candidate": "Aprina Septauli Manurung",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-21 07:27:54",
+        "source": "github_action",
+        "candidate": "Agus Nur Habib",
         "position": "Account Executive VCBL",
         "success": true
       }
