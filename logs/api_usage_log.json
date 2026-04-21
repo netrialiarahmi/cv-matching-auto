@@ -10015,23 +10015,16 @@
     ]
   },
   "2026-04-21": {
-    "total": 125,
+    "total": 126,
     "streamlit": 0,
-    "github_action": 125,
-    "successful": 125,
+    "github_action": 126,
+    "successful": 126,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 25
+      "Reporter Nasional": 26
     },
     "entries": [
-      {
-        "timestamp": "2026-04-21 04:17:20",
-        "source": "github_action",
-        "candidate": "Muhammad Abdul Aziz",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-21 04:17:23",
         "source": "github_action",
@@ -10722,6 +10715,13 @@
         "timestamp": "2026-04-21 05:06:29",
         "source": "github_action",
         "candidate": "Muhjid Bagus Oqsaberi",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-21 05:07:01",
+        "source": "github_action",
+        "candidate": "Otto Hari Febra Maheswara",
         "position": "Reporter Nasional",
         "success": true
       }
