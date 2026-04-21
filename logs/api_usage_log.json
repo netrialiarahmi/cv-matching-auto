@@ -10015,13 +10015,13 @@
     ]
   },
   "2026-04-21": {
-    "total": 85,
+    "total": 86,
     "streamlit": 0,
-    "github_action": 85,
-    "successful": 85,
+    "github_action": 86,
+    "successful": 86,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 85
+      "Marketing Communication Officer KG Media": 86
     },
     "entries": [
       {
@@ -10616,6 +10616,13 @@
         "timestamp": "2026-04-21 04:47:21",
         "source": "github_action",
         "candidate": "Muhammad Rafi Yudistira",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-21 04:47:56",
+        "source": "github_action",
+        "candidate": "Geishia Alen Tie",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
