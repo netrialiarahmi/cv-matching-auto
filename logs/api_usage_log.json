@@ -10015,25 +10015,18 @@
     ]
   },
   "2026-04-21": {
-    "total": 337,
+    "total": 338,
     "streamlit": 0,
-    "github_action": 337,
-    "successful": 337,
+    "github_action": 338,
+    "successful": 338,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Data Analyst (Business Intelligence)": 53,
-      "Business Development Analyst": 84
+      "Business Development Analyst": 85
     },
     "entries": [
-      {
-        "timestamp": "2026-04-21 05:57:43",
-        "source": "github_action",
-        "candidate": "Farid Saifullah",
-        "position": "Data Analyst (Business Intelligence)",
-        "success": true
-      },
       {
         "timestamp": "2026-04-21 05:58:08",
         "source": "github_action",
@@ -10724,6 +10717,13 @@
         "timestamp": "2026-04-21 06:46:37",
         "source": "github_action",
         "candidate": "Argani Arief Santoso",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-21 06:47:15",
+        "source": "github_action",
+        "candidate": "BIFFANCA ALLYA KENEDY",
         "position": "Business Development Analyst",
         "success": true
       }
