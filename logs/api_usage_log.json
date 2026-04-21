@@ -10015,26 +10015,19 @@
     ]
   },
   "2026-04-21": {
-    "total": 404,
+    "total": 405,
     "streamlit": 0,
-    "github_action": 404,
-    "successful": 404,
+    "github_action": 405,
+    "successful": 405,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Data Analyst (Business Intelligence)": 53,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 51
+      "Account Executive VCBL": 52
     },
     "entries": [
-      {
-        "timestamp": "2026-04-21 06:30:30",
-        "source": "github_action",
-        "candidate": "Sarah Laura Tarigan",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-21 06:31:03",
         "source": "github_action",
@@ -10725,6 +10718,13 @@
         "timestamp": "2026-04-21 07:17:13",
         "source": "github_action",
         "candidate": "Farid Abdullah",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-21 07:17:48",
+        "source": "github_action",
+        "candidate": "Dedi Kurniawan",
         "position": "Account Executive VCBL",
         "success": true
       }
