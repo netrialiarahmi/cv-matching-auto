@@ -10015,13 +10015,13 @@
     ]
   },
   "2026-04-21": {
-    "total": 34,
+    "total": 35,
     "streamlit": 0,
-    "github_action": 34,
-    "successful": 34,
+    "github_action": 35,
+    "successful": 35,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 34
+      "Marketing Communication Officer KG Media": 35
     },
     "entries": [
       {
@@ -10259,6 +10259,13 @@
         "timestamp": "2026-04-21 04:20:58",
         "source": "github_action",
         "candidate": "Rahma Herawati",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-21 04:21:29",
+        "source": "github_action",
+        "candidate": "Monica Ayu Nanda",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
