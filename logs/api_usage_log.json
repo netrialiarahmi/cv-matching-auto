@@ -10015,24 +10015,17 @@
     ]
   },
   "2026-04-21": {
-    "total": 219,
+    "total": 220,
     "streamlit": 0,
-    "github_action": 219,
-    "successful": 219,
+    "github_action": 220,
+    "successful": 220,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
-      "Data Analyst (Business Intelligence)": 19
+      "Data Analyst (Business Intelligence)": 20
     },
     "entries": [
-      {
-        "timestamp": "2026-04-21 05:04:05",
-        "source": "github_action",
-        "candidate": "Aura Antari",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-21 05:04:35",
         "source": "github_action",
@@ -10723,6 +10716,13 @@
         "timestamp": "2026-04-21 05:49:00",
         "source": "github_action",
         "candidate": "MUHAMMAD DAFA ALFARIDZY",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-21 05:49:26",
+        "source": "github_action",
+        "candidate": "Shifa Oktavia",
         "position": "Data Analyst (Business Intelligence)",
         "success": true
       }
