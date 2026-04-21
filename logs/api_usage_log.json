@@ -10015,23 +10015,16 @@
     ]
   },
   "2026-04-21": {
-    "total": 194,
+    "total": 195,
     "streamlit": 0,
-    "github_action": 194,
-    "successful": 194,
+    "github_action": 195,
+    "successful": 195,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 94
+      "Reporter Nasional": 95
     },
     "entries": [
-      {
-        "timestamp": "2026-04-21 04:52:43",
-        "source": "github_action",
-        "candidate": "Alma Musa Rasyidi",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-21 04:53:14",
         "source": "github_action",
@@ -10722,6 +10715,13 @@
         "timestamp": "2026-04-21 05:38:06",
         "source": "github_action",
         "candidate": "naura nrmahsa",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-21 05:38:33",
+        "source": "github_action",
+        "candidate": "Nur Rahmaini Lubis",
         "position": "Reporter Nasional",
         "success": true
       }
