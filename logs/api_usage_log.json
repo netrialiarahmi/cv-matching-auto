@@ -10015,13 +10015,13 @@
     ]
   },
   "2026-04-21": {
-    "total": 76,
+    "total": 77,
     "streamlit": 0,
-    "github_action": 76,
-    "successful": 76,
+    "github_action": 77,
+    "successful": 77,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 76
+      "Marketing Communication Officer KG Media": 77
     },
     "entries": [
       {
@@ -10553,6 +10553,13 @@
         "timestamp": "2026-04-21 04:43:10",
         "source": "github_action",
         "candidate": "Nisrina Nisrina",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-21 04:43:39",
+        "source": "github_action",
+        "candidate": "Muhammad Fajjar Efendi",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
