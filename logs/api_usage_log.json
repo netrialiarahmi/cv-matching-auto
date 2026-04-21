@@ -10015,23 +10015,16 @@
     ]
   },
   "2026-04-21": {
-    "total": 189,
+    "total": 190,
     "streamlit": 0,
-    "github_action": 189,
-    "successful": 189,
+    "github_action": 190,
+    "successful": 190,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 89
+      "Reporter Nasional": 90
     },
     "entries": [
-      {
-        "timestamp": "2026-04-21 04:50:02",
-        "source": "github_action",
-        "candidate": "Debrina Adisty Purbonugrahaeni",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-21 04:50:34",
         "source": "github_action",
@@ -10722,6 +10715,13 @@
         "timestamp": "2026-04-21 05:35:56",
         "source": "github_action",
         "candidate": "Sindhu Linguistika Manumanasa",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-21 05:36:32",
+        "source": "github_action",
+        "candidate": "dearest tiantama",
         "position": "Reporter Nasional",
         "success": true
       }
