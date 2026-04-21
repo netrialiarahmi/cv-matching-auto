@@ -10015,23 +10015,16 @@
     ]
   },
   "2026-04-21": {
-    "total": 172,
+    "total": 173,
     "streamlit": 0,
-    "github_action": 172,
-    "successful": 172,
+    "github_action": 173,
+    "successful": 173,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 72
+      "Reporter Nasional": 73
     },
     "entries": [
-      {
-        "timestamp": "2026-04-21 04:41:38",
-        "source": "github_action",
-        "candidate": "Lisa Christina",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-21 04:42:09",
         "source": "github_action",
@@ -10722,6 +10715,13 @@
         "timestamp": "2026-04-21 05:27:54",
         "source": "github_action",
         "candidate": "Sukriwan  Ramadhan",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-21 05:28:24",
+        "source": "github_action",
+        "candidate": "Salma Shalsabilla",
         "position": "Reporter Nasional",
         "success": true
       }
