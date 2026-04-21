@@ -10015,25 +10015,18 @@
     ]
   },
   "2026-04-21": {
-    "total": 341,
+    "total": 342,
     "streamlit": 0,
-    "github_action": 341,
-    "successful": 341,
+    "github_action": 342,
+    "successful": 342,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Data Analyst (Business Intelligence)": 53,
-      "Business Development Analyst": 88
+      "Business Development Analyst": 89
     },
     "entries": [
-      {
-        "timestamp": "2026-04-21 05:59:08",
-        "source": "github_action",
-        "candidate": "Deasy Martauli Togatorop",
-        "position": "Data Analyst (Business Intelligence)",
-        "success": true
-      },
       {
         "timestamp": "2026-04-21 05:59:36",
         "source": "github_action",
@@ -10724,6 +10717,13 @@
         "timestamp": "2026-04-21 06:48:45",
         "source": "github_action",
         "candidate": "Vannessa Handini Dhewa Putri",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-21 06:49:17",
+        "source": "github_action",
+        "candidate": "Wahyu Eka",
         "position": "Business Development Analyst",
         "success": true
       }
