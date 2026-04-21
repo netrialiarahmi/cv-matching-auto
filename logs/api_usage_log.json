@@ -10015,13 +10015,13 @@
     ]
   },
   "2026-04-21": {
-    "total": 82,
+    "total": 83,
     "streamlit": 0,
-    "github_action": 82,
-    "successful": 82,
+    "github_action": 83,
+    "successful": 83,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 82
+      "Marketing Communication Officer KG Media": 83
     },
     "entries": [
       {
@@ -10595,6 +10595,13 @@
         "timestamp": "2026-04-21 04:45:42",
         "source": "github_action",
         "candidate": "shofiyah andasfi",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-21 04:46:13",
+        "source": "github_action",
+        "candidate": "Nadia Daniel",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
