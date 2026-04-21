@@ -10015,23 +10015,16 @@
     ]
   },
   "2026-04-21": {
-    "total": 170,
+    "total": 171,
     "streamlit": 0,
-    "github_action": 170,
-    "successful": 170,
+    "github_action": 171,
+    "successful": 171,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 70
+      "Reporter Nasional": 71
     },
     "entries": [
-      {
-        "timestamp": "2026-04-21 04:40:32",
-        "source": "github_action",
-        "candidate": "Shafira Maulani Putri",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-21 04:41:07",
         "source": "github_action",
@@ -10722,6 +10715,13 @@
         "timestamp": "2026-04-21 05:27:18",
         "source": "github_action",
         "candidate": "Dimas Candra",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-21 05:27:21",
+        "source": "github_action",
+        "candidate": "Aziizah Azhaar",
         "position": "Reporter Nasional",
         "success": true
       }
