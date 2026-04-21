@@ -10015,25 +10015,18 @@
     ]
   },
   "2026-04-21": {
-    "total": 283,
+    "total": 284,
     "streamlit": 0,
-    "github_action": 283,
-    "successful": 283,
+    "github_action": 284,
+    "successful": 284,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Data Analyst (Business Intelligence)": 53,
-      "Business Development Analyst": 30
+      "Business Development Analyst": 31
     },
     "entries": [
-      {
-        "timestamp": "2026-04-21 05:34:22",
-        "source": "github_action",
-        "candidate": "Sholahuddin Al Ayyubi",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-21 05:34:26",
         "source": "github_action",
@@ -10724,6 +10717,13 @@
         "timestamp": "2026-04-21 06:18:35",
         "source": "github_action",
         "candidate": "Muhammad Farhan Faturrachman",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-21 06:19:08",
+        "source": "github_action",
+        "candidate": "Rayhan Naufal Haytami",
         "position": "Business Development Analyst",
         "success": true
       }
