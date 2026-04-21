@@ -10015,25 +10015,18 @@
     ]
   },
   "2026-04-21": {
-    "total": 310,
+    "total": 311,
     "streamlit": 0,
-    "github_action": 310,
-    "successful": 310,
+    "github_action": 311,
+    "successful": 311,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Data Analyst (Business Intelligence)": 53,
-      "Business Development Analyst": 57
+      "Business Development Analyst": 58
     },
     "entries": [
-      {
-        "timestamp": "2026-04-21 05:45:29",
-        "source": "github_action",
-        "candidate": "Alimuddin Lewa",
-        "position": "Data Analyst (Business Intelligence)",
-        "success": true
-      },
       {
         "timestamp": "2026-04-21 05:46:02",
         "source": "github_action",
@@ -10724,6 +10717,13 @@
         "timestamp": "2026-04-21 06:32:41",
         "source": "github_action",
         "candidate": "Renata Elsa",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-21 06:33:12",
+        "source": "github_action",
+        "candidate": "Ernest Silalahi",
         "position": "Business Development Analyst",
         "success": true
       }
