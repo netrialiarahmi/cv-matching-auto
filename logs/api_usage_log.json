@@ -10015,13 +10015,13 @@
     ]
   },
   "2026-04-21": {
-    "total": 33,
+    "total": 34,
     "streamlit": 0,
-    "github_action": 33,
-    "successful": 33,
+    "github_action": 34,
+    "successful": 34,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 33
+      "Marketing Communication Officer KG Media": 34
     },
     "entries": [
       {
@@ -10252,6 +10252,13 @@
         "timestamp": "2026-04-21 04:20:28",
         "source": "github_action",
         "candidate": "Karen Kurniawan",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-21 04:20:58",
+        "source": "github_action",
+        "candidate": "Rahma Herawati",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
