@@ -10015,26 +10015,19 @@
     ]
   },
   "2026-04-21": {
-    "total": 361,
+    "total": 362,
     "streamlit": 0,
-    "github_action": 361,
-    "successful": 361,
+    "github_action": 362,
+    "successful": 362,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Data Analyst (Business Intelligence)": 53,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 8
+      "Account Executive VCBL": 9
     },
     "entries": [
-      {
-        "timestamp": "2026-04-21 06:08:34",
-        "source": "github_action",
-        "candidate": "Roychan Idris",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-21 06:09:03",
         "source": "github_action",
@@ -10725,6 +10718,13 @@
         "timestamp": "2026-04-21 06:58:03",
         "source": "github_action",
         "candidate": "Farid Hidayat Putra",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-21 06:58:38",
+        "source": "github_action",
+        "candidate": "Suryani Safitri",
         "position": "Account Executive VCBL",
         "success": true
       }
