@@ -10015,24 +10015,17 @@
     ]
   },
   "2026-04-21": {
-    "total": 243,
+    "total": 244,
     "streamlit": 0,
-    "github_action": 243,
-    "successful": 243,
+    "github_action": 244,
+    "successful": 244,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
-      "Data Analyst (Business Intelligence)": 43
+      "Data Analyst (Business Intelligence)": 44
     },
     "entries": [
-      {
-        "timestamp": "2026-04-21 05:14:45",
-        "source": "github_action",
-        "candidate": "Aqmarina Oktavia Ibrahim",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-21 05:15:13",
         "source": "github_action",
@@ -10723,6 +10716,13 @@
         "timestamp": "2026-04-21 05:59:36",
         "source": "github_action",
         "candidate": "Lola Amalia Putri",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-21 06:00:04",
+        "source": "github_action",
+        "candidate": "Rivaldo Elshaddai",
         "position": "Data Analyst (Business Intelligence)",
         "success": true
       }
