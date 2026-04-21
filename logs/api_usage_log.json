@@ -10015,23 +10015,16 @@
     ]
   },
   "2026-04-21": {
-    "total": 138,
+    "total": 139,
     "streamlit": 0,
-    "github_action": 138,
-    "successful": 138,
+    "github_action": 139,
+    "successful": 139,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 38
+      "Reporter Nasional": 39
     },
     "entries": [
-      {
-        "timestamp": "2026-04-21 04:23:38",
-        "source": "github_action",
-        "candidate": "venny ramadhita",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-21 04:24:07",
         "source": "github_action",
@@ -10722,6 +10715,13 @@
         "timestamp": "2026-04-21 05:12:07",
         "source": "github_action",
         "candidate": "Anggita Nur Cahyani",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-21 05:12:37",
+        "source": "github_action",
+        "candidate": "Corry Salsabilla",
         "position": "Reporter Nasional",
         "success": true
       }
