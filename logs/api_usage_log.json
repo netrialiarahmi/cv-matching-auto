@@ -10015,23 +10015,16 @@
     ]
   },
   "2026-04-21": {
-    "total": 174,
+    "total": 175,
     "streamlit": 0,
-    "github_action": 174,
-    "successful": 174,
+    "github_action": 175,
+    "successful": 175,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 74
+      "Reporter Nasional": 75
     },
     "entries": [
-      {
-        "timestamp": "2026-04-21 04:42:38",
-        "source": "github_action",
-        "candidate": "Belinda Maharani Tarmizi, S. H.",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-21 04:43:10",
         "source": "github_action",
@@ -10722,6 +10715,13 @@
         "timestamp": "2026-04-21 05:28:53",
         "source": "github_action",
         "candidate": "Muhammad Fadli Sinatrya",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-21 05:29:22",
+        "source": "github_action",
+        "candidate": "Rivaldo Simanjuntak",
         "position": "Reporter Nasional",
         "success": true
       }
