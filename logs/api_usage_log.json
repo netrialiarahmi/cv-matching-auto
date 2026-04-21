@@ -10015,23 +10015,16 @@
     ]
   },
   "2026-04-21": {
-    "total": 199,
+    "total": 200,
     "streamlit": 0,
-    "github_action": 199,
-    "successful": 199,
+    "github_action": 200,
+    "successful": 200,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 99
+      "Reporter Nasional": 100
     },
     "entries": [
-      {
-        "timestamp": "2026-04-21 04:54:51",
-        "source": "github_action",
-        "candidate": "Intan Permata Amanda",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-21 04:55:21",
         "source": "github_action",
@@ -10722,6 +10715,13 @@
         "timestamp": "2026-04-21 05:40:37",
         "source": "github_action",
         "candidate": "Mira Widya Saragih",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-21 05:41:09",
+        "source": "github_action",
+        "candidate": "Helmi Ramadhan",
         "position": "Reporter Nasional",
         "success": true
       }
