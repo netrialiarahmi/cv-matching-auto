@@ -10015,24 +10015,17 @@
     ]
   },
   "2026-04-21": {
-    "total": 211,
+    "total": 212,
     "streamlit": 0,
-    "github_action": 211,
-    "successful": 211,
+    "github_action": 212,
+    "successful": 212,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
-      "Data Analyst (Business Intelligence)": 11
+      "Data Analyst (Business Intelligence)": 12
     },
     "entries": [
-      {
-        "timestamp": "2026-04-21 04:59:55",
-        "source": "github_action",
-        "candidate": "Restira My Syahputri",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-21 05:00:28",
         "source": "github_action",
@@ -10723,6 +10716,13 @@
         "timestamp": "2026-04-21 05:45:29",
         "source": "github_action",
         "candidate": "Alimuddin Lewa",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-21 05:46:02",
+        "source": "github_action",
+        "candidate": "Febhe Maulita May Pramasta",
         "position": "Data Analyst (Business Intelligence)",
         "success": true
       }
