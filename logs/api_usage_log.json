@@ -10015,23 +10015,16 @@
     ]
   },
   "2026-04-21": {
-    "total": 183,
+    "total": 184,
     "streamlit": 0,
-    "github_action": 183,
-    "successful": 183,
+    "github_action": 184,
+    "successful": 184,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 83
+      "Reporter Nasional": 84
     },
     "entries": [
-      {
-        "timestamp": "2026-04-21 04:46:45",
-        "source": "github_action",
-        "candidate": "Mutiara  Rizky Aulia",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-21 04:47:21",
         "source": "github_action",
@@ -10722,6 +10715,13 @@
         "timestamp": "2026-04-21 05:33:48",
         "source": "github_action",
         "candidate": "Rahel  Siregar",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-21 05:34:22",
+        "source": "github_action",
+        "candidate": "Sholahuddin Al Ayyubi",
         "position": "Reporter Nasional",
         "success": true
       }
