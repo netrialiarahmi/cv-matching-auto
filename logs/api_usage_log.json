@@ -10015,13 +10015,13 @@
     ]
   },
   "2026-04-21": {
-    "total": 11,
+    "total": 12,
     "streamlit": 0,
-    "github_action": 11,
-    "successful": 11,
+    "github_action": 12,
+    "successful": 12,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 11
+      "Marketing Communication Officer KG Media": 12
     },
     "entries": [
       {
@@ -10098,6 +10098,13 @@
         "timestamp": "2026-04-21 04:09:43",
         "source": "github_action",
         "candidate": "Clorentia Sherly",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-21 04:10:16",
+        "source": "github_action",
+        "candidate": "Raisa Zakiah",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
