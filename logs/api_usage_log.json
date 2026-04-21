@@ -10015,25 +10015,18 @@
     ]
   },
   "2026-04-21": {
-    "total": 300,
+    "total": 301,
     "streamlit": 0,
-    "github_action": 300,
-    "successful": 300,
+    "github_action": 301,
+    "successful": 301,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Data Analyst (Business Intelligence)": 53,
-      "Business Development Analyst": 47
+      "Business Development Analyst": 48
     },
     "entries": [
-      {
-        "timestamp": "2026-04-21 05:41:41",
-        "source": "github_action",
-        "candidate": "Surya Reza Putra",
-        "position": "Data Analyst (Business Intelligence)",
-        "success": true
-      },
       {
         "timestamp": "2026-04-21 05:41:45",
         "source": "github_action",
@@ -10724,6 +10717,13 @@
         "timestamp": "2026-04-21 06:27:45",
         "source": "github_action",
         "candidate": "Naufal  Hudaya",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-21 06:28:20",
+        "source": "github_action",
+        "candidate": "Aulia Ramandha  Hendra",
         "position": "Business Development Analyst",
         "success": true
       }
