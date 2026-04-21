@@ -10015,24 +10015,17 @@
     ]
   },
   "2026-04-21": {
-    "total": 250,
+    "total": 251,
     "streamlit": 0,
-    "github_action": 250,
-    "successful": 250,
+    "github_action": 251,
+    "successful": 251,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
-      "Data Analyst (Business Intelligence)": 50
+      "Data Analyst (Business Intelligence)": 51
     },
     "entries": [
-      {
-        "timestamp": "2026-04-21 05:18:08",
-        "source": "github_action",
-        "candidate": "MUHAMMAD THAREQ HARYADI",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-21 05:18:41",
         "source": "github_action",
@@ -10723,6 +10716,13 @@
         "timestamp": "2026-04-21 06:03:00",
         "source": "github_action",
         "candidate": "Aprilyanti Mularia",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-21 06:03:03",
+        "source": "github_action",
+        "candidate": "yohanes arvandi",
         "position": "Data Analyst (Business Intelligence)",
         "success": true
       }
