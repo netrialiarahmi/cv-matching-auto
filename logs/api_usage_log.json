@@ -10015,23 +10015,16 @@
     ]
   },
   "2026-04-21": {
-    "total": 135,
+    "total": 136,
     "streamlit": 0,
-    "github_action": 135,
-    "successful": 135,
+    "github_action": 136,
+    "successful": 136,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 35
+      "Reporter Nasional": 36
     },
     "entries": [
-      {
-        "timestamp": "2026-04-21 04:22:00",
-        "source": "github_action",
-        "candidate": "MUHAMMAD ISLAM",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-21 04:22:35",
         "source": "github_action",
@@ -10722,6 +10715,13 @@
         "timestamp": "2026-04-21 05:10:36",
         "source": "github_action",
         "candidate": "Gita Putri",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-21 05:11:07",
+        "source": "github_action",
+        "candidate": "Revo Anggara",
         "position": "Reporter Nasional",
         "success": true
       }
