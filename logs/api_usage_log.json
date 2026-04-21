@@ -10015,13 +10015,13 @@
     ]
   },
   "2026-04-21": {
-    "total": 29,
+    "total": 30,
     "streamlit": 0,
-    "github_action": 29,
-    "successful": 29,
+    "github_action": 30,
+    "successful": 30,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 29
+      "Marketing Communication Officer KG Media": 30
     },
     "entries": [
       {
@@ -10224,6 +10224,13 @@
         "timestamp": "2026-04-21 04:18:28",
         "source": "github_action",
         "candidate": "Zidani  Ilham",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-21 04:19:00",
+        "source": "github_action",
+        "candidate": "dimas Nugraha",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
