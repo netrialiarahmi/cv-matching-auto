@@ -10015,24 +10015,17 @@
     ]
   },
   "2026-04-21": {
-    "total": 223,
+    "total": 224,
     "streamlit": 0,
-    "github_action": 223,
-    "successful": 223,
+    "github_action": 224,
+    "successful": 224,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
-      "Data Analyst (Business Intelligence)": 23
+      "Data Analyst (Business Intelligence)": 24
     },
     "entries": [
-      {
-        "timestamp": "2026-04-21 05:06:00",
-        "source": "github_action",
-        "candidate": "Muhammad Farhan Agusta",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-21 05:06:29",
         "source": "github_action",
@@ -10723,6 +10716,13 @@
         "timestamp": "2026-04-21 05:51:01",
         "source": "github_action",
         "candidate": "Hilman Dimas",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-21 05:51:29",
+        "source": "github_action",
+        "candidate": "RENDY CANDRA PERMANA",
         "position": "Data Analyst (Business Intelligence)",
         "success": true
       }
