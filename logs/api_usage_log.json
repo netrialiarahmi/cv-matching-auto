@@ -10015,25 +10015,18 @@
     ]
   },
   "2026-04-21": {
-    "total": 292,
+    "total": 293,
     "streamlit": 0,
-    "github_action": 292,
-    "successful": 292,
+    "github_action": 293,
+    "successful": 293,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Data Analyst (Business Intelligence)": 53,
-      "Business Development Analyst": 39
+      "Business Development Analyst": 40
     },
     "entries": [
-      {
-        "timestamp": "2026-04-21 05:38:02",
-        "source": "github_action",
-        "candidate": "Eugenia F. N. Siregar",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-21 05:38:06",
         "source": "github_action",
@@ -10724,6 +10717,13 @@
         "timestamp": "2026-04-21 06:23:40",
         "source": "github_action",
         "candidate": "Aditya Reynaldi",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-21 06:24:09",
+        "source": "github_action",
+        "candidate": "Salsabila Posmaryana Utami",
         "position": "Business Development Analyst",
         "success": true
       }
