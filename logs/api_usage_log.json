@@ -10015,24 +10015,17 @@
     ]
   },
   "2026-04-21": {
-    "total": 221,
+    "total": 222,
     "streamlit": 0,
-    "github_action": 221,
-    "successful": 221,
+    "github_action": 222,
+    "successful": 222,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
-      "Data Analyst (Business Intelligence)": 21
+      "Data Analyst (Business Intelligence)": 22
     },
     "entries": [
-      {
-        "timestamp": "2026-04-21 05:05:03",
-        "source": "github_action",
-        "candidate": "Afifah Azzahra",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-21 05:05:33",
         "source": "github_action",
@@ -10723,6 +10716,13 @@
         "timestamp": "2026-04-21 05:50:05",
         "source": "github_action",
         "candidate": "irhamillah work",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-21 05:50:32",
+        "source": "github_action",
+        "candidate": "Galih Sadewa",
         "position": "Data Analyst (Business Intelligence)",
         "success": true
       }
