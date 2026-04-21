@@ -10015,13 +10015,13 @@
     ]
   },
   "2026-04-21": {
-    "total": 59,
+    "total": 60,
     "streamlit": 0,
-    "github_action": 59,
-    "successful": 59,
+    "github_action": 60,
+    "successful": 60,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 59
+      "Marketing Communication Officer KG Media": 60
     },
     "entries": [
       {
@@ -10434,6 +10434,13 @@
         "timestamp": "2026-04-21 04:34:10",
         "source": "github_action",
         "candidate": "Monica Angelina",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-21 04:34:40",
+        "source": "github_action",
+        "candidate": "Nadila Nurwijayantri",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
