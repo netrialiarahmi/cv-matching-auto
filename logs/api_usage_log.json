@@ -10015,24 +10015,17 @@
     ]
   },
   "2026-04-21": {
-    "total": 210,
+    "total": 211,
     "streamlit": 0,
-    "github_action": 210,
-    "successful": 210,
+    "github_action": 211,
+    "successful": 211,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
-      "Data Analyst (Business Intelligence)": 10
+      "Data Analyst (Business Intelligence)": 11
     },
     "entries": [
-      {
-        "timestamp": "2026-04-21 04:59:51",
-        "source": "github_action",
-        "candidate": "Shelma Auliya M.",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-21 04:59:55",
         "source": "github_action",
@@ -10723,6 +10716,13 @@
         "timestamp": "2026-04-21 05:45:00",
         "source": "github_action",
         "candidate": "Bayu Kustianto",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-21 05:45:29",
+        "source": "github_action",
+        "candidate": "Alimuddin Lewa",
         "position": "Data Analyst (Business Intelligence)",
         "success": true
       }
