@@ -10015,23 +10015,16 @@
     ]
   },
   "2026-04-21": {
-    "total": 156,
+    "total": 157,
     "streamlit": 0,
-    "github_action": 156,
-    "successful": 156,
+    "github_action": 157,
+    "successful": 157,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 56
+      "Reporter Nasional": 57
     },
     "entries": [
-      {
-        "timestamp": "2026-04-21 04:33:07",
-        "source": "github_action",
-        "candidate": "Muhammad Syahdila Rafli Akhbar",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-21 04:33:38",
         "source": "github_action",
@@ -10722,6 +10715,13 @@
         "timestamp": "2026-04-21 05:20:42",
         "source": "github_action",
         "candidate": "ananda santria pratama",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-21 05:21:09",
+        "source": "github_action",
+        "candidate": "Sabrina  Ariani",
         "position": "Reporter Nasional",
         "success": true
       }
