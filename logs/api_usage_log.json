@@ -10015,13 +10015,13 @@
     ]
   },
   "2026-04-21": {
-    "total": 45,
+    "total": 46,
     "streamlit": 0,
-    "github_action": 45,
-    "successful": 45,
+    "github_action": 46,
+    "successful": 46,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 45
+      "Marketing Communication Officer KG Media": 46
     },
     "entries": [
       {
@@ -10336,6 +10336,13 @@
         "timestamp": "2026-04-21 04:26:41",
         "source": "github_action",
         "candidate": "Paramita .",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-21 04:27:10",
+        "source": "github_action",
+        "candidate": "AISA ROSJIDA",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
