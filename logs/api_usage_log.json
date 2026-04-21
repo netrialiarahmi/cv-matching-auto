@@ -10015,24 +10015,17 @@
     ]
   },
   "2026-04-21": {
-    "total": 237,
+    "total": 238,
     "streamlit": 0,
-    "github_action": 237,
-    "successful": 237,
+    "github_action": 238,
+    "successful": 238,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
-      "Data Analyst (Business Intelligence)": 37
+      "Data Analyst (Business Intelligence)": 38
     },
     "entries": [
-      {
-        "timestamp": "2026-04-21 05:12:07",
-        "source": "github_action",
-        "candidate": "Anggita Nur Cahyani",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-21 05:12:37",
         "source": "github_action",
@@ -10723,6 +10716,13 @@
         "timestamp": "2026-04-21 05:57:15",
         "source": "github_action",
         "candidate": "Nur Kholifah",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-21 05:57:43",
+        "source": "github_action",
+        "candidate": "Farid Saifullah",
         "position": "Data Analyst (Business Intelligence)",
         "success": true
       }
