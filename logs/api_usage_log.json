@@ -10015,25 +10015,18 @@
     ]
   },
   "2026-04-21": {
-    "total": 330,
+    "total": 331,
     "streamlit": 0,
-    "github_action": 330,
-    "successful": 330,
+    "github_action": 331,
+    "successful": 331,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Data Analyst (Business Intelligence)": 53,
-      "Business Development Analyst": 77
+      "Business Development Analyst": 78
     },
     "entries": [
-      {
-        "timestamp": "2026-04-21 05:54:22",
-        "source": "github_action",
-        "candidate": "Damar Sanubari",
-        "position": "Data Analyst (Business Intelligence)",
-        "success": true
-      },
       {
         "timestamp": "2026-04-21 05:54:48",
         "source": "github_action",
@@ -10724,6 +10717,13 @@
         "timestamp": "2026-04-21 06:42:51",
         "source": "github_action",
         "candidate": "Rio Fabianto",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-21 06:43:25",
+        "source": "github_action",
+        "candidate": "Muhammad Iqbal Dwiputra",
         "position": "Business Development Analyst",
         "success": true
       }
