@@ -10015,23 +10015,16 @@
     ]
   },
   "2026-04-21": {
-    "total": 188,
+    "total": 189,
     "streamlit": 0,
-    "github_action": 188,
-    "successful": 188,
+    "github_action": 189,
+    "successful": 189,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 88
+      "Reporter Nasional": 89
     },
     "entries": [
-      {
-        "timestamp": "2026-04-21 04:49:30",
-        "source": "github_action",
-        "candidate": "Aldo Ruben Hasiholan Sihombing",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-21 04:50:02",
         "source": "github_action",
@@ -10722,6 +10715,13 @@
         "timestamp": "2026-04-21 05:35:29",
         "source": "github_action",
         "candidate": "Rika Jahara",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-21 05:35:56",
+        "source": "github_action",
+        "candidate": "Sindhu Linguistika Manumanasa",
         "position": "Reporter Nasional",
         "success": true
       }
