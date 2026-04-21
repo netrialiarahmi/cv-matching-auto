@@ -10015,23 +10015,16 @@
     ]
   },
   "2026-04-21": {
-    "total": 153,
+    "total": 154,
     "streamlit": 0,
-    "github_action": 153,
-    "successful": 153,
+    "github_action": 154,
+    "successful": 154,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 53
+      "Reporter Nasional": 54
     },
     "entries": [
-      {
-        "timestamp": "2026-04-21 04:31:27",
-        "source": "github_action",
-        "candidate": "Ainan Fauziyah Husodo",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-21 04:32:00",
         "source": "github_action",
@@ -10722,6 +10715,13 @@
         "timestamp": "2026-04-21 05:19:13",
         "source": "github_action",
         "candidate": "yusuf rinaldy",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-21 05:19:44",
+        "source": "github_action",
+        "candidate": "Indira Putri",
         "position": "Reporter Nasional",
         "success": true
       }
