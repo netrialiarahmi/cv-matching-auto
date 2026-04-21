@@ -10015,25 +10015,18 @@
     ]
   },
   "2026-04-21": {
-    "total": 269,
+    "total": 270,
     "streamlit": 0,
-    "github_action": 269,
-    "successful": 269,
+    "github_action": 270,
+    "successful": 270,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Data Analyst (Business Intelligence)": 53,
-      "Business Development Analyst": 16
+      "Business Development Analyst": 17
     },
     "entries": [
-      {
-        "timestamp": "2026-04-21 05:27:18",
-        "source": "github_action",
-        "candidate": "Dimas Candra",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-21 05:27:21",
         "source": "github_action",
@@ -10724,6 +10717,13 @@
         "timestamp": "2026-04-21 06:11:42",
         "source": "github_action",
         "candidate": "Fahmi Rahmat",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-21 06:12:12",
+        "source": "github_action",
+        "candidate": "Fransiska Malita",
         "position": "Business Development Analyst",
         "success": true
       }
