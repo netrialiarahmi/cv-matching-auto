@@ -10015,13 +10015,13 @@
     ]
   },
   "2026-04-21": {
-    "total": 28,
+    "total": 29,
     "streamlit": 0,
-    "github_action": 28,
-    "successful": 28,
+    "github_action": 29,
+    "successful": 29,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 28
+      "Marketing Communication Officer KG Media": 29
     },
     "entries": [
       {
@@ -10217,6 +10217,13 @@
         "timestamp": "2026-04-21 04:17:56",
         "source": "github_action",
         "candidate": "Raynaldi Aziz Nugraha",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-21 04:18:28",
+        "source": "github_action",
+        "candidate": "Zidani  Ilham",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
