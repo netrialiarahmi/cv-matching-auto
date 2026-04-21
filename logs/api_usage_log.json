@@ -10015,13 +10015,13 @@
     ]
   },
   "2026-04-21": {
-    "total": 97,
+    "total": 98,
     "streamlit": 0,
-    "github_action": 97,
-    "successful": 97,
+    "github_action": 98,
+    "successful": 98,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 97
+      "Marketing Communication Officer KG Media": 98
     },
     "entries": [
       {
@@ -10700,6 +10700,13 @@
         "timestamp": "2026-04-21 04:53:46",
         "source": "github_action",
         "candidate": "Aracelly Najwa Aulia Sukasa",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-21 04:54:14",
+        "source": "github_action",
+        "candidate": "Septya Aulia Pratiwi",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
