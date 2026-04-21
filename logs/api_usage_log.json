@@ -10015,13 +10015,13 @@
     ]
   },
   "2026-04-21": {
-    "total": 10,
+    "total": 11,
     "streamlit": 0,
-    "github_action": 10,
-    "successful": 10,
+    "github_action": 11,
+    "successful": 11,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 10
+      "Marketing Communication Officer KG Media": 11
     },
     "entries": [
       {
@@ -10091,6 +10091,13 @@
         "timestamp": "2026-04-21 04:09:17",
         "source": "github_action",
         "candidate": "Muhammad  Fadhlurrahman",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-21 04:09:43",
+        "source": "github_action",
+        "candidate": "Clorentia Sherly",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
