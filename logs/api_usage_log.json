@@ -10015,25 +10015,18 @@
     ]
   },
   "2026-04-21": {
-    "total": 305,
+    "total": 306,
     "streamlit": 0,
-    "github_action": 305,
-    "successful": 305,
+    "github_action": 306,
+    "successful": 306,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Data Analyst (Business Intelligence)": 53,
-      "Business Development Analyst": 52
+      "Business Development Analyst": 53
     },
     "entries": [
-      {
-        "timestamp": "2026-04-21 05:43:22",
-        "source": "github_action",
-        "candidate": "Gazell Asmara",
-        "position": "Data Analyst (Business Intelligence)",
-        "success": true
-      },
       {
         "timestamp": "2026-04-21 05:43:53",
         "source": "github_action",
@@ -10724,6 +10717,13 @@
         "timestamp": "2026-04-21 06:30:30",
         "source": "github_action",
         "candidate": "Sarah Laura Tarigan",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-21 06:31:03",
+        "source": "github_action",
+        "candidate": "Muhamad Shahriza Rijadi Putra",
         "position": "Business Development Analyst",
         "success": true
       }
