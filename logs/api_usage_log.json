@@ -10015,13 +10015,13 @@
     ]
   },
   "2026-04-21": {
-    "total": 54,
+    "total": 55,
     "streamlit": 0,
-    "github_action": 54,
-    "successful": 54,
+    "github_action": 55,
+    "successful": 55,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 54
+      "Marketing Communication Officer KG Media": 55
     },
     "entries": [
       {
@@ -10399,6 +10399,13 @@
         "timestamp": "2026-04-21 04:31:27",
         "source": "github_action",
         "candidate": "Ainan Fauziyah Husodo",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-21 04:32:00",
+        "source": "github_action",
+        "candidate": "LUQMAN KAHFIE",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
