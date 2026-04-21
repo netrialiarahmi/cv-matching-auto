@@ -10015,23 +10015,16 @@
     ]
   },
   "2026-04-21": {
-    "total": 187,
+    "total": 188,
     "streamlit": 0,
-    "github_action": 187,
-    "successful": 187,
+    "github_action": 188,
+    "successful": 188,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 87
+      "Reporter Nasional": 88
     },
     "entries": [
-      {
-        "timestamp": "2026-04-21 04:48:57",
-        "source": "github_action",
-        "candidate": "Ghufrani Ferina Meindrasari",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-21 04:49:30",
         "source": "github_action",
@@ -10722,6 +10715,13 @@
         "timestamp": "2026-04-21 05:34:57",
         "source": "github_action",
         "candidate": "Izwadi Harahap",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-21 05:35:29",
+        "source": "github_action",
+        "candidate": "Rika Jahara",
         "position": "Reporter Nasional",
         "success": true
       }
