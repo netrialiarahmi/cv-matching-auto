@@ -10015,25 +10015,18 @@
     ]
   },
   "2026-04-21": {
-    "total": 296,
+    "total": 297,
     "streamlit": 0,
-    "github_action": 296,
-    "successful": 296,
+    "github_action": 297,
+    "successful": 297,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Data Analyst (Business Intelligence)": 53,
-      "Business Development Analyst": 43
+      "Business Development Analyst": 44
     },
     "entries": [
-      {
-        "timestamp": "2026-04-21 05:39:36",
-        "source": "github_action",
-        "candidate": "Wildan Adil Hilba",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-21 05:40:05",
         "source": "github_action",
@@ -10724,6 +10717,13 @@
         "timestamp": "2026-04-21 06:25:45",
         "source": "github_action",
         "candidate": "Tuti Asriza",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-21 06:26:13",
+        "source": "github_action",
+        "candidate": "Arve Barus",
         "position": "Business Development Analyst",
         "success": true
       }
