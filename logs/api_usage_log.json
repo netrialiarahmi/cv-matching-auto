@@ -10015,25 +10015,18 @@
     ]
   },
   "2026-04-21": {
-    "total": 290,
+    "total": 291,
     "streamlit": 0,
-    "github_action": 290,
-    "successful": 290,
+    "github_action": 291,
+    "successful": 291,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Data Analyst (Business Intelligence)": 53,
-      "Business Development Analyst": 37
+      "Business Development Analyst": 38
     },
     "entries": [
-      {
-        "timestamp": "2026-04-21 05:37:03",
-        "source": "github_action",
-        "candidate": "Benoel Andinafa Simarmata",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-21 05:37:31",
         "source": "github_action",
@@ -10724,6 +10717,13 @@
         "timestamp": "2026-04-21 06:22:30",
         "source": "github_action",
         "candidate": "Gregorius Naralatu Dharana",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-21 06:23:03",
+        "source": "github_action",
+        "candidate": "Wira Laksana",
         "position": "Business Development Analyst",
         "success": true
       }
