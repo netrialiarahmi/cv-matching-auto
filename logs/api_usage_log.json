@@ -10015,13 +10015,13 @@
     ]
   },
   "2026-04-21": {
-    "total": 56,
+    "total": 57,
     "streamlit": 0,
-    "github_action": 56,
-    "successful": 56,
+    "github_action": 57,
+    "successful": 57,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 56
+      "Marketing Communication Officer KG Media": 57
     },
     "entries": [
       {
@@ -10413,6 +10413,13 @@
         "timestamp": "2026-04-21 04:32:32",
         "source": "github_action",
         "candidate": "Ladwiga Nalendra",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-21 04:33:07",
+        "source": "github_action",
+        "candidate": "Muhammad Syahdila Rafli Akhbar",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
