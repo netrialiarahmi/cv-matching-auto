@@ -10015,25 +10015,18 @@
     ]
   },
   "2026-04-21": {
-    "total": 319,
+    "total": 320,
     "streamlit": 0,
-    "github_action": 319,
-    "successful": 319,
+    "github_action": 320,
+    "successful": 320,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Data Analyst (Business Intelligence)": 53,
-      "Business Development Analyst": 66
+      "Business Development Analyst": 67
     },
     "entries": [
-      {
-        "timestamp": "2026-04-21 05:49:26",
-        "source": "github_action",
-        "candidate": "Shifa Oktavia",
-        "position": "Data Analyst (Business Intelligence)",
-        "success": true
-      },
       {
         "timestamp": "2026-04-21 05:50:05",
         "source": "github_action",
@@ -10724,6 +10717,13 @@
         "timestamp": "2026-04-21 06:37:03",
         "source": "github_action",
         "candidate": "Sheila Armelia",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-21 06:37:33",
+        "source": "github_action",
+        "candidate": "Alifah Nurfaizah",
         "position": "Business Development Analyst",
         "success": true
       }
