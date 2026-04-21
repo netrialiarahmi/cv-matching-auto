@@ -10015,24 +10015,17 @@
     ]
   },
   "2026-04-21": {
-    "total": 224,
+    "total": 225,
     "streamlit": 0,
-    "github_action": 224,
-    "successful": 224,
+    "github_action": 225,
+    "successful": 225,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
-      "Data Analyst (Business Intelligence)": 24
+      "Data Analyst (Business Intelligence)": 25
     },
     "entries": [
-      {
-        "timestamp": "2026-04-21 05:06:29",
-        "source": "github_action",
-        "candidate": "Muhjid Bagus Oqsaberi",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-21 05:07:01",
         "source": "github_action",
@@ -10723,6 +10716,13 @@
         "timestamp": "2026-04-21 05:51:29",
         "source": "github_action",
         "candidate": "RENDY CANDRA PERMANA",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-21 05:51:59",
+        "source": "github_action",
+        "candidate": "Abdur Rahman",
         "position": "Data Analyst (Business Intelligence)",
         "success": true
       }
