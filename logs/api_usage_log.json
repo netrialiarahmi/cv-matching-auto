@@ -10015,25 +10015,18 @@
     ]
   },
   "2026-04-21": {
-    "total": 289,
+    "total": 290,
     "streamlit": 0,
-    "github_action": 289,
-    "successful": 289,
+    "github_action": 290,
+    "successful": 290,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Data Analyst (Business Intelligence)": 53,
-      "Business Development Analyst": 36
+      "Business Development Analyst": 37
     },
     "entries": [
-      {
-        "timestamp": "2026-04-21 05:36:32",
-        "source": "github_action",
-        "candidate": "dearest tiantama",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-21 05:37:03",
         "source": "github_action",
@@ -10724,6 +10717,13 @@
         "timestamp": "2026-04-21 06:21:57",
         "source": "github_action",
         "candidate": "Akmal Aminullah",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-21 06:22:30",
+        "source": "github_action",
+        "candidate": "Gregorius Naralatu Dharana",
         "position": "Business Development Analyst",
         "success": true
       }
