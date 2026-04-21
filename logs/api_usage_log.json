@@ -10015,25 +10015,18 @@
     ]
   },
   "2026-04-21": {
-    "total": 334,
+    "total": 335,
     "streamlit": 0,
-    "github_action": 334,
-    "successful": 334,
+    "github_action": 335,
+    "successful": 335,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Data Analyst (Business Intelligence)": 53,
-      "Business Development Analyst": 81
+      "Business Development Analyst": 82
     },
     "entries": [
-      {
-        "timestamp": "2026-04-21 05:56:14",
-        "source": "github_action",
-        "candidate": "Ahmad Said Saputra",
-        "position": "Data Analyst (Business Intelligence)",
-        "success": true
-      },
       {
         "timestamp": "2026-04-21 05:56:48",
         "source": "github_action",
@@ -10724,6 +10717,13 @@
         "timestamp": "2026-04-21 06:44:55",
         "source": "github_action",
         "candidate": "syahna zhafira",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-21 06:45:34",
+        "source": "github_action",
+        "candidate": "Yunita W",
         "position": "Business Development Analyst",
         "success": true
       }
