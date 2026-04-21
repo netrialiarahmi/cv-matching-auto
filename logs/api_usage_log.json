@@ -10015,25 +10015,18 @@
     ]
   },
   "2026-04-21": {
-    "total": 299,
+    "total": 300,
     "streamlit": 0,
-    "github_action": 299,
-    "successful": 299,
+    "github_action": 300,
+    "successful": 300,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Data Analyst (Business Intelligence)": 53,
-      "Business Development Analyst": 46
+      "Business Development Analyst": 47
     },
     "entries": [
-      {
-        "timestamp": "2026-04-21 05:41:09",
-        "source": "github_action",
-        "candidate": "Helmi Ramadhan",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-21 05:41:41",
         "source": "github_action",
@@ -10724,6 +10717,13 @@
         "timestamp": "2026-04-21 06:27:19",
         "source": "github_action",
         "candidate": "Fatimah Nurul Jamilah",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-21 06:27:45",
+        "source": "github_action",
+        "candidate": "Naufal  Hudaya",
         "position": "Business Development Analyst",
         "success": true
       }
