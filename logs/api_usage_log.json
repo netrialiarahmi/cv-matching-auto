@@ -10015,13 +10015,13 @@
     ]
   },
   "2026-04-21": {
-    "total": 99,
+    "total": 100,
     "streamlit": 0,
-    "github_action": 99,
-    "successful": 99,
+    "github_action": 100,
+    "successful": 100,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 99
+      "Marketing Communication Officer KG Media": 100
     },
     "entries": [
       {
@@ -10714,6 +10714,13 @@
         "timestamp": "2026-04-21 04:54:18",
         "source": "github_action",
         "candidate": "Nadya Salsabila",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-21 04:54:51",
+        "source": "github_action",
+        "candidate": "Intan Permata Amanda",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
