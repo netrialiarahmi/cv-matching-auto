@@ -10015,23 +10015,16 @@
     ]
   },
   "2026-04-21": {
-    "total": 177,
+    "total": 178,
     "streamlit": 0,
-    "github_action": 177,
-    "successful": 177,
+    "github_action": 178,
+    "successful": 178,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 77
+      "Reporter Nasional": 78
     },
     "entries": [
-      {
-        "timestamp": "2026-04-21 04:44:09",
-        "source": "github_action",
-        "candidate": "Andi Hanifah Oktariani",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-21 04:44:38",
         "source": "github_action",
@@ -10722,6 +10715,13 @@
         "timestamp": "2026-04-21 05:30:26",
         "source": "github_action",
         "candidate": "Friendsa Hasugian",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-21 05:30:56",
+        "source": "github_action",
+        "candidate": "Bayu Indra Wibowo",
         "position": "Reporter Nasional",
         "success": true
       }
