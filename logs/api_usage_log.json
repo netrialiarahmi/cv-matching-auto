@@ -10015,25 +10015,18 @@
     ]
   },
   "2026-04-21": {
-    "total": 279,
+    "total": 280,
     "streamlit": 0,
-    "github_action": 279,
-    "successful": 279,
+    "github_action": 280,
+    "successful": 280,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Data Analyst (Business Intelligence)": 53,
-      "Business Development Analyst": 26
+      "Business Development Analyst": 27
     },
     "entries": [
-      {
-        "timestamp": "2026-04-21 05:32:08",
-        "source": "github_action",
-        "candidate": "Salsabila Syafaati Azizah",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-21 05:32:44",
         "source": "github_action",
@@ -10724,6 +10717,13 @@
         "timestamp": "2026-04-21 06:16:46",
         "source": "github_action",
         "candidate": "cecep aris afandi andi",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-21 06:17:12",
+        "source": "github_action",
+        "candidate": "I Gusti Agung Sanjaya Setyanegara",
         "position": "Business Development Analyst",
         "success": true
       }
