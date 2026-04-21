@@ -10015,23 +10015,16 @@
     ]
   },
   "2026-04-21": {
-    "total": 164,
+    "total": 165,
     "streamlit": 0,
-    "github_action": 164,
-    "successful": 164,
+    "github_action": 165,
+    "successful": 165,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 64
+      "Reporter Nasional": 65
     },
     "entries": [
-      {
-        "timestamp": "2026-04-21 04:37:21",
-        "source": "github_action",
-        "candidate": "Natasya Rizqina",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-21 04:37:54",
         "source": "github_action",
@@ -10722,6 +10715,13 @@
         "timestamp": "2026-04-21 05:24:27",
         "source": "github_action",
         "candidate": "ERIJ  karimah",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-21 05:24:56",
+        "source": "github_action",
+        "candidate": "Nadifa Aisyahrizka",
         "position": "Reporter Nasional",
         "success": true
       }
