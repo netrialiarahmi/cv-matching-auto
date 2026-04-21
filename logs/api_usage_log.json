@@ -10015,13 +10015,13 @@
     ]
   },
   "2026-04-21": {
-    "total": 87,
+    "total": 88,
     "streamlit": 0,
-    "github_action": 87,
-    "successful": 87,
+    "github_action": 88,
+    "successful": 88,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 87
+      "Marketing Communication Officer KG Media": 88
     },
     "entries": [
       {
@@ -10630,6 +10630,13 @@
         "timestamp": "2026-04-21 04:48:27",
         "source": "github_action",
         "candidate": "Audiva Asmara",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-21 04:48:57",
+        "source": "github_action",
+        "candidate": "Ghufrani Ferina Meindrasari",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
