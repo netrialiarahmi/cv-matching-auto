@@ -10015,26 +10015,19 @@
     ]
   },
   "2026-04-21": {
-    "total": 407,
+    "total": 408,
     "streamlit": 0,
-    "github_action": 407,
-    "successful": 407,
+    "github_action": 408,
+    "successful": 408,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Data Analyst (Business Intelligence)": 53,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 54
+      "Account Executive VCBL": 55
     },
     "entries": [
-      {
-        "timestamp": "2026-04-21 06:31:37",
-        "source": "github_action",
-        "candidate": "Rafif Murti rizky",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-21 06:32:05",
         "source": "github_action",
@@ -10725,6 +10718,13 @@
         "timestamp": "2026-04-21 07:18:45",
         "source": "github_action",
         "candidate": "Ayu Siti Hajar",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-21 07:19:12",
+        "source": "github_action",
+        "candidate": "Annisa Wardhatul",
         "position": "Account Executive VCBL",
         "success": true
       }
