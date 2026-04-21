@@ -10015,25 +10015,18 @@
     ]
   },
   "2026-04-21": {
-    "total": 270,
+    "total": 271,
     "streamlit": 0,
-    "github_action": 270,
-    "successful": 270,
+    "github_action": 271,
+    "successful": 271,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Data Analyst (Business Intelligence)": 53,
-      "Business Development Analyst": 17
+      "Business Development Analyst": 18
     },
     "entries": [
-      {
-        "timestamp": "2026-04-21 05:27:21",
-        "source": "github_action",
-        "candidate": "Aziizah Azhaar",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-21 05:27:54",
         "source": "github_action",
@@ -10724,6 +10717,13 @@
         "timestamp": "2026-04-21 06:12:12",
         "source": "github_action",
         "candidate": "Fransiska Malita",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-21 06:12:41",
+        "source": "github_action",
+        "candidate": "Agung Pramono",
         "position": "Business Development Analyst",
         "success": true
       }
