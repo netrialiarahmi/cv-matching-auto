@@ -10015,25 +10015,18 @@
     ]
   },
   "2026-04-21": {
-    "total": 352,
+    "total": 353,
     "streamlit": 0,
-    "github_action": 352,
-    "successful": 352,
+    "github_action": 353,
+    "successful": 353,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Data Analyst (Business Intelligence)": 53,
-      "Business Development Analyst": 99
+      "Business Development Analyst": 100
     },
     "entries": [
-      {
-        "timestamp": "2026-04-21 06:03:57",
-        "source": "github_action",
-        "candidate": "friska dwi  wulandari",
-        "position": "Data Analyst (Business Intelligence)",
-        "success": true
-      },
       {
         "timestamp": "2026-04-21 06:04:26",
         "source": "github_action",
@@ -10724,6 +10717,13 @@
         "timestamp": "2026-04-21 06:53:50",
         "source": "github_action",
         "candidate": "Tommy Tri Prasetyo",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-21 06:54:24",
+        "source": "github_action",
+        "candidate": "Muhammad Yafa  Atsari",
         "position": "Business Development Analyst",
         "success": true
       }
