@@ -10015,24 +10015,17 @@
     ]
   },
   "2026-04-21": {
-    "total": 240,
+    "total": 241,
     "streamlit": 0,
-    "github_action": 240,
-    "successful": 240,
+    "github_action": 241,
+    "successful": 241,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
-      "Data Analyst (Business Intelligence)": 40
+      "Data Analyst (Business Intelligence)": 41
     },
     "entries": [
-      {
-        "timestamp": "2026-04-21 05:13:41",
-        "source": "github_action",
-        "candidate": "Dinar Indrani",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-21 05:14:16",
         "source": "github_action",
@@ -10723,6 +10716,13 @@
         "timestamp": "2026-04-21 05:58:12",
         "source": "github_action",
         "candidate": "Aliza Zainina Azka",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-21 05:58:40",
+        "source": "github_action",
+        "candidate": "Joshua Vandoberto P",
         "position": "Data Analyst (Business Intelligence)",
         "success": true
       }
