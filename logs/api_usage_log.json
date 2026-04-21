@@ -10015,25 +10015,18 @@
     ]
   },
   "2026-04-21": {
-    "total": 287,
+    "total": 288,
     "streamlit": 0,
-    "github_action": 287,
-    "successful": 287,
+    "github_action": 288,
+    "successful": 288,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Data Analyst (Business Intelligence)": 53,
-      "Business Development Analyst": 34
+      "Business Development Analyst": 35
     },
     "entries": [
-      {
-        "timestamp": "2026-04-21 05:35:29",
-        "source": "github_action",
-        "candidate": "Rika Jahara",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-21 05:35:56",
         "source": "github_action",
@@ -10724,6 +10717,13 @@
         "timestamp": "2026-04-21 06:20:58",
         "source": "github_action",
         "candidate": "Anastasya .",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-21 06:21:28",
+        "source": "github_action",
+        "candidate": "Satria Wibowo",
         "position": "Business Development Analyst",
         "success": true
       }
