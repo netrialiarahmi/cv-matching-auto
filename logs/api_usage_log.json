@@ -10015,25 +10015,18 @@
     ]
   },
   "2026-04-21": {
-    "total": 325,
+    "total": 326,
     "streamlit": 0,
-    "github_action": 325,
-    "successful": 325,
+    "github_action": 326,
+    "successful": 326,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Data Analyst (Business Intelligence)": 53,
-      "Business Development Analyst": 72
+      "Business Development Analyst": 73
     },
     "entries": [
-      {
-        "timestamp": "2026-04-21 05:52:03",
-        "source": "github_action",
-        "candidate": "Tri Wahyu Ramadhani",
-        "position": "Data Analyst (Business Intelligence)",
-        "success": true
-      },
       {
         "timestamp": "2026-04-21 05:52:32",
         "source": "github_action",
@@ -10724,6 +10717,13 @@
         "timestamp": "2026-04-21 06:40:09",
         "source": "github_action",
         "candidate": "Adelya Vasya Maharani",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-21 06:40:43",
+        "source": "github_action",
+        "candidate": "nathania abhista",
         "position": "Business Development Analyst",
         "success": true
       }
