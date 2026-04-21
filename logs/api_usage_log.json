@@ -10015,13 +10015,13 @@
     ]
   },
   "2026-04-21": {
-    "total": 47,
+    "total": 48,
     "streamlit": 0,
-    "github_action": 47,
-    "successful": 47,
+    "github_action": 48,
+    "successful": 48,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 47
+      "Marketing Communication Officer KG Media": 48
     },
     "entries": [
       {
@@ -10350,6 +10350,13 @@
         "timestamp": "2026-04-21 04:27:40",
         "source": "github_action",
         "candidate": "Muhammad Hamdi  Satrio",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-21 04:28:15",
+        "source": "github_action",
+        "candidate": "Muktafa Hadi Yahya",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
