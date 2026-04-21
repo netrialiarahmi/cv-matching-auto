@@ -10015,24 +10015,17 @@
     ]
   },
   "2026-04-21": {
-    "total": 229,
+    "total": 230,
     "streamlit": 0,
-    "github_action": 229,
-    "successful": 229,
+    "github_action": 230,
+    "successful": 230,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
-      "Data Analyst (Business Intelligence)": 29
+      "Data Analyst (Business Intelligence)": 30
     },
     "entries": [
-      {
-        "timestamp": "2026-04-21 05:08:38",
-        "source": "github_action",
-        "candidate": "Wildan Adil Hilba",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-21 05:08:43",
         "source": "github_action",
@@ -10723,6 +10716,13 @@
         "timestamp": "2026-04-21 05:53:31",
         "source": "github_action",
         "candidate": "Ibnathy Kirana Gunawan",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-21 05:53:55",
+        "source": "github_action",
+        "candidate": "ichmalurrayhan rayhan",
         "position": "Data Analyst (Business Intelligence)",
         "success": true
       }
