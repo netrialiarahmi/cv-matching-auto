@@ -10015,25 +10015,18 @@
     ]
   },
   "2026-04-21": {
-    "total": 343,
+    "total": 344,
     "streamlit": 0,
-    "github_action": 343,
-    "successful": 343,
+    "github_action": 344,
+    "successful": 344,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Data Analyst (Business Intelligence)": 53,
-      "Business Development Analyst": 90
+      "Business Development Analyst": 91
     },
     "entries": [
-      {
-        "timestamp": "2026-04-21 06:00:04",
-        "source": "github_action",
-        "candidate": "Rivaldo Elshaddai",
-        "position": "Data Analyst (Business Intelligence)",
-        "success": true
-      },
       {
         "timestamp": "2026-04-21 06:00:34",
         "source": "github_action",
@@ -10724,6 +10717,13 @@
         "timestamp": "2026-04-21 06:49:20",
         "source": "github_action",
         "candidate": "Darrell Matthews",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-21 06:50:06",
+        "source": "github_action",
+        "candidate": "Maheswari Adriyani Soeharto",
         "position": "Business Development Analyst",
         "success": true
       }
