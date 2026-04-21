@@ -10015,13 +10015,13 @@
     ]
   },
   "2026-04-21": {
-    "total": 73,
+    "total": 74,
     "streamlit": 0,
-    "github_action": 73,
-    "successful": 73,
+    "github_action": 74,
+    "successful": 74,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 73
+      "Marketing Communication Officer KG Media": 74
     },
     "entries": [
       {
@@ -10532,6 +10532,13 @@
         "timestamp": "2026-04-21 04:41:38",
         "source": "github_action",
         "candidate": "Lisa Christina",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-21 04:42:09",
+        "source": "github_action",
+        "candidate": "Friday Arianty",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
