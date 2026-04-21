@@ -10015,25 +10015,18 @@
     ]
   },
   "2026-04-21": {
-    "total": 315,
+    "total": 316,
     "streamlit": 0,
-    "github_action": 315,
-    "successful": 315,
+    "github_action": 316,
+    "successful": 316,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Data Analyst (Business Intelligence)": 53,
-      "Business Development Analyst": 62
+      "Business Development Analyst": 63
     },
     "entries": [
-      {
-        "timestamp": "2026-04-21 05:47:34",
-        "source": "github_action",
-        "candidate": "Dwi Fitriani Azhari",
-        "position": "Data Analyst (Business Intelligence)",
-        "success": true
-      },
       {
         "timestamp": "2026-04-21 05:48:04",
         "source": "github_action",
@@ -10724,6 +10717,13 @@
         "timestamp": "2026-04-21 06:35:21",
         "source": "github_action",
         "candidate": "Muhammad  Azriel",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-21 06:35:54",
+        "source": "github_action",
+        "candidate": "Yohana Berliana",
         "position": "Business Development Analyst",
         "success": true
       }
