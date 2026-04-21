@@ -10015,23 +10015,16 @@
     ]
   },
   "2026-04-21": {
-    "total": 121,
+    "total": 122,
     "streamlit": 0,
-    "github_action": 121,
-    "successful": 121,
+    "github_action": 122,
+    "successful": 122,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 21
+      "Reporter Nasional": 22
     },
     "entries": [
-      {
-        "timestamp": "2026-04-21 04:15:17",
-        "source": "github_action",
-        "candidate": "Salsabill Rizkina Putri",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-21 04:15:49",
         "source": "github_action",
@@ -10722,6 +10715,13 @@
         "timestamp": "2026-04-21 05:04:35",
         "source": "github_action",
         "candidate": "Endang Angriani",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-21 05:05:03",
+        "source": "github_action",
+        "candidate": "Afifah Azzahra",
         "position": "Reporter Nasional",
         "success": true
       }
