@@ -10015,23 +10015,16 @@
     ]
   },
   "2026-04-21": {
-    "total": 154,
+    "total": 155,
     "streamlit": 0,
-    "github_action": 154,
-    "successful": 154,
+    "github_action": 155,
+    "successful": 155,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 54
+      "Reporter Nasional": 55
     },
     "entries": [
-      {
-        "timestamp": "2026-04-21 04:32:00",
-        "source": "github_action",
-        "candidate": "LUQMAN KAHFIE",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-21 04:32:32",
         "source": "github_action",
@@ -10722,6 +10715,13 @@
         "timestamp": "2026-04-21 05:19:44",
         "source": "github_action",
         "candidate": "Indira Putri",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-21 05:20:12",
+        "source": "github_action",
+        "candidate": "Umar Falahudin",
         "position": "Reporter Nasional",
         "success": true
       }
