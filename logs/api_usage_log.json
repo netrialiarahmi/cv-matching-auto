@@ -10015,22 +10015,16 @@
     ]
   },
   "2026-04-21": {
-    "total": 100,
+    "total": 101,
     "streamlit": 0,
-    "github_action": 100,
-    "successful": 100,
+    "github_action": 101,
+    "successful": 101,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 100
+      "Marketing Communication Officer KG Media": 100,
+      "Reporter Nasional": 1
     },
     "entries": [
-      {
-        "timestamp": "2026-04-21 04:04:57",
-        "source": "github_action",
-        "candidate": "Balqis Nurmahdiyah",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-21 04:05:30",
         "source": "github_action",
@@ -10722,6 +10716,13 @@
         "source": "github_action",
         "candidate": "Intan Permata Amanda",
         "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-21 04:55:21",
+        "source": "github_action",
+        "candidate": "Andito  Gifari",
+        "position": "Reporter Nasional",
         "success": true
       }
     ]
