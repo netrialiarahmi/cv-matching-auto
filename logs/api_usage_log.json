@@ -10015,23 +10015,16 @@
     ]
   },
   "2026-04-21": {
-    "total": 176,
+    "total": 177,
     "streamlit": 0,
-    "github_action": 176,
-    "successful": 176,
+    "github_action": 177,
+    "successful": 177,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 76
+      "Reporter Nasional": 77
     },
     "entries": [
-      {
-        "timestamp": "2026-04-21 04:43:39",
-        "source": "github_action",
-        "candidate": "Muhammad Fajjar Efendi",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-21 04:44:09",
         "source": "github_action",
@@ -10722,6 +10715,13 @@
         "timestamp": "2026-04-21 05:29:52",
         "source": "github_action",
         "candidate": "Rohmat Sukmana",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-21 05:30:26",
+        "source": "github_action",
+        "candidate": "Friendsa Hasugian",
         "position": "Reporter Nasional",
         "success": true
       }
