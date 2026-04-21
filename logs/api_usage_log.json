@@ -10015,25 +10015,18 @@
     ]
   },
   "2026-04-21": {
-    "total": 262,
+    "total": 263,
     "streamlit": 0,
-    "github_action": 262,
-    "successful": 262,
+    "github_action": 263,
+    "successful": 263,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Data Analyst (Business Intelligence)": 53,
-      "Business Development Analyst": 9
+      "Business Development Analyst": 10
     },
     "entries": [
-      {
-        "timestamp": "2026-04-21 05:23:59",
-        "source": "github_action",
-        "candidate": "Asyadillah Althaf",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-21 05:24:27",
         "source": "github_action",
@@ -10724,6 +10717,13 @@
         "timestamp": "2026-04-21 06:08:34",
         "source": "github_action",
         "candidate": "Roychan Idris",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-21 06:09:03",
+        "source": "github_action",
+        "candidate": "Putri Hernawati",
         "position": "Business Development Analyst",
         "success": true
       }
