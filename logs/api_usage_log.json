@@ -10015,23 +10015,17 @@
     ]
   },
   "2026-04-21": {
-    "total": 200,
+    "total": 201,
     "streamlit": 0,
-    "github_action": 200,
-    "successful": 200,
+    "github_action": 201,
+    "successful": 201,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 100
+      "Reporter Nasional": 100,
+      "Data Analyst (Business Intelligence)": 1
     },
     "entries": [
-      {
-        "timestamp": "2026-04-21 04:55:21",
-        "source": "github_action",
-        "candidate": "Andito  Gifari",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-21 04:55:51",
         "source": "github_action",
@@ -10723,6 +10717,13 @@
         "source": "github_action",
         "candidate": "Helmi Ramadhan",
         "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-21 05:41:41",
+        "source": "github_action",
+        "candidate": "Surya Reza Putra",
+        "position": "Data Analyst (Business Intelligence)",
         "success": true
       }
     ]
