@@ -10015,24 +10015,17 @@
     ]
   },
   "2026-04-21": {
-    "total": 209,
+    "total": 210,
     "streamlit": 0,
-    "github_action": 209,
-    "successful": 209,
+    "github_action": 210,
+    "successful": 210,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
-      "Data Analyst (Business Intelligence)": 9
+      "Data Analyst (Business Intelligence)": 10
     },
     "entries": [
-      {
-        "timestamp": "2026-04-21 04:59:23",
-        "source": "github_action",
-        "candidate": "Gilang pramudia",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-21 04:59:51",
         "source": "github_action",
@@ -10723,6 +10716,13 @@
         "timestamp": "2026-04-21 05:44:28",
         "source": "github_action",
         "candidate": "marvin sachio",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-21 05:45:00",
+        "source": "github_action",
+        "candidate": "Bayu Kustianto",
         "position": "Data Analyst (Business Intelligence)",
         "success": true
       }
