@@ -10015,24 +10015,17 @@
     ]
   },
   "2026-04-21": {
-    "total": 231,
+    "total": 232,
     "streamlit": 0,
-    "github_action": 231,
-    "successful": 231,
+    "github_action": 232,
+    "successful": 232,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
-      "Data Analyst (Business Intelligence)": 31
+      "Data Analyst (Business Intelligence)": 32
     },
     "entries": [
-      {
-        "timestamp": "2026-04-21 05:09:10",
-        "source": "github_action",
-        "candidate": "Isti Annura Hadistiani",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-21 05:09:40",
         "source": "github_action",
@@ -10723,6 +10716,13 @@
         "timestamp": "2026-04-21 05:54:22",
         "source": "github_action",
         "candidate": "Damar Sanubari",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-21 05:54:48",
+        "source": "github_action",
+        "candidate": "Diva Nur Haffifah",
         "position": "Data Analyst (Business Intelligence)",
         "success": true
       }
