@@ -10015,25 +10015,18 @@
     ]
   },
   "2026-04-21": {
-    "total": 324,
+    "total": 325,
     "streamlit": 0,
-    "github_action": 324,
-    "successful": 324,
+    "github_action": 325,
+    "successful": 325,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Data Analyst (Business Intelligence)": 53,
-      "Business Development Analyst": 71
+      "Business Development Analyst": 72
     },
     "entries": [
-      {
-        "timestamp": "2026-04-21 05:51:59",
-        "source": "github_action",
-        "candidate": "Abdur Rahman",
-        "position": "Data Analyst (Business Intelligence)",
-        "success": true
-      },
       {
         "timestamp": "2026-04-21 05:52:03",
         "source": "github_action",
@@ -10724,6 +10717,13 @@
         "timestamp": "2026-04-21 06:39:39",
         "source": "github_action",
         "candidate": "ERLINA FRANSISKA",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-21 06:40:09",
+        "source": "github_action",
+        "candidate": "Adelya Vasya Maharani",
         "position": "Business Development Analyst",
         "success": true
       }
