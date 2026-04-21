@@ -10015,24 +10015,18 @@
     ]
   },
   "2026-04-21": {
-    "total": 253,
+    "total": 254,
     "streamlit": 0,
-    "github_action": 253,
-    "successful": 253,
+    "github_action": 254,
+    "successful": 254,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
-      "Data Analyst (Business Intelligence)": 53
+      "Data Analyst (Business Intelligence)": 53,
+      "Business Development Analyst": 1
     },
     "entries": [
-      {
-        "timestamp": "2026-04-21 05:19:44",
-        "source": "github_action",
-        "candidate": "Indira Putri",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-21 05:20:12",
         "source": "github_action",
@@ -10724,6 +10718,13 @@
         "source": "github_action",
         "candidate": "friska dwi  wulandari",
         "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-21 06:04:26",
+        "source": "github_action",
+        "candidate": "Yuke Luviana",
+        "position": "Business Development Analyst",
         "success": true
       }
     ]
