@@ -10015,26 +10015,19 @@
     ]
   },
   "2026-04-21": {
-    "total": 424,
+    "total": 425,
     "streamlit": 0,
-    "github_action": 424,
-    "successful": 424,
+    "github_action": 425,
+    "successful": 425,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Data Analyst (Business Intelligence)": 53,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 71
+      "Account Executive VCBL": 72
     },
     "entries": [
-      {
-        "timestamp": "2026-04-21 06:40:09",
-        "source": "github_action",
-        "candidate": "Adelya Vasya Maharani",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-21 06:40:43",
         "source": "github_action",
@@ -10725,6 +10718,13 @@
         "timestamp": "2026-04-21 07:26:45",
         "source": "github_action",
         "candidate": "Michelle Anastasya supriyadi",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-21 07:26:48",
+        "source": "github_action",
+        "candidate": "ANDARI EKA NUR ALLIFAH",
         "position": "Account Executive VCBL",
         "success": true
       }
