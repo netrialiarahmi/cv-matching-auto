@@ -10015,24 +10015,17 @@
     ]
   },
   "2026-04-21": {
-    "total": 218,
+    "total": 219,
     "streamlit": 0,
-    "github_action": 218,
-    "successful": 218,
+    "github_action": 219,
+    "successful": 219,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
-      "Data Analyst (Business Intelligence)": 18
+      "Data Analyst (Business Intelligence)": 19
     },
     "entries": [
-      {
-        "timestamp": "2026-04-21 05:03:37",
-        "source": "github_action",
-        "candidate": "Muhammad Arief  Adhistyo Hidayat",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-21 05:04:05",
         "source": "github_action",
@@ -10723,6 +10716,13 @@
         "timestamp": "2026-04-21 05:48:34",
         "source": "github_action",
         "candidate": "Isnaieni Ijtima' Amna Fitri",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-21 05:49:00",
+        "source": "github_action",
+        "candidate": "MUHAMMAD DAFA ALFARIDZY",
         "position": "Data Analyst (Business Intelligence)",
         "success": true
       }
