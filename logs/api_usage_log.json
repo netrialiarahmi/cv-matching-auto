@@ -10015,25 +10015,18 @@
     ]
   },
   "2026-04-21": {
-    "total": 339,
+    "total": 340,
     "streamlit": 0,
-    "github_action": 339,
-    "successful": 339,
+    "github_action": 340,
+    "successful": 340,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Data Analyst (Business Intelligence)": 53,
-      "Business Development Analyst": 86
+      "Business Development Analyst": 87
     },
     "entries": [
-      {
-        "timestamp": "2026-04-21 05:58:12",
-        "source": "github_action",
-        "candidate": "Aliza Zainina Azka",
-        "position": "Data Analyst (Business Intelligence)",
-        "success": true
-      },
       {
         "timestamp": "2026-04-21 05:58:40",
         "source": "github_action",
@@ -10724,6 +10717,13 @@
         "timestamp": "2026-04-21 06:47:47",
         "source": "github_action",
         "candidate": "Muhammad Firdaus Pratama",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-21 06:48:15",
+        "source": "github_action",
+        "candidate": "Danang Permana",
         "position": "Business Development Analyst",
         "success": true
       }
