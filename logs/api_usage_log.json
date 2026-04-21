@@ -10015,13 +10015,13 @@
     ]
   },
   "2026-04-21": {
-    "total": 13,
+    "total": 14,
     "streamlit": 0,
-    "github_action": 13,
-    "successful": 13,
+    "github_action": 14,
+    "successful": 14,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 13
+      "Marketing Communication Officer KG Media": 14
     },
     "entries": [
       {
@@ -10112,6 +10112,13 @@
         "timestamp": "2026-04-21 04:10:48",
         "source": "github_action",
         "candidate": "Dhinda Khaira Ummah",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-21 04:11:22",
+        "source": "github_action",
+        "candidate": "Aulyani al adawiyah",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
