@@ -10015,13 +10015,13 @@
     ]
   },
   "2026-04-21": {
-    "total": 77,
+    "total": 78,
     "streamlit": 0,
-    "github_action": 77,
-    "successful": 77,
+    "github_action": 78,
+    "successful": 78,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 77
+      "Marketing Communication Officer KG Media": 78
     },
     "entries": [
       {
@@ -10560,6 +10560,13 @@
         "timestamp": "2026-04-21 04:43:39",
         "source": "github_action",
         "candidate": "Muhammad Fajjar Efendi",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-21 04:44:09",
+        "source": "github_action",
+        "candidate": "Andi Hanifah Oktariani",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
