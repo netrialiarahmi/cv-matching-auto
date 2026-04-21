@@ -10015,23 +10015,16 @@
     ]
   },
   "2026-04-21": {
-    "total": 115,
+    "total": 116,
     "streamlit": 0,
-    "github_action": 115,
-    "successful": 115,
+    "github_action": 116,
+    "successful": 116,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 15
+      "Reporter Nasional": 16
     },
     "entries": [
-      {
-        "timestamp": "2026-04-21 04:12:25",
-        "source": "github_action",
-        "candidate": "Nurul Ayu Oktavianti",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-21 04:12:56",
         "source": "github_action",
@@ -10722,6 +10715,13 @@
         "timestamp": "2026-04-21 05:01:27",
         "source": "github_action",
         "candidate": "ARIF ANWAR RIZKY",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-21 05:01:56",
+        "source": "github_action",
+        "candidate": "Maghrifa Aulia Az-Zahra",
         "position": "Reporter Nasional",
         "success": true
       }
