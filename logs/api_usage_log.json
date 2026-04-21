@@ -10015,23 +10015,16 @@
     ]
   },
   "2026-04-21": {
-    "total": 132,
+    "total": 133,
     "streamlit": 0,
-    "github_action": 132,
-    "successful": 132,
+    "github_action": 133,
+    "successful": 133,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 32
+      "Reporter Nasional": 33
     },
     "entries": [
-      {
-        "timestamp": "2026-04-21 04:20:28",
-        "source": "github_action",
-        "candidate": "Karen Kurniawan",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-21 04:20:58",
         "source": "github_action",
@@ -10722,6 +10715,13 @@
         "timestamp": "2026-04-21 05:09:10",
         "source": "github_action",
         "candidate": "Isti Annura Hadistiani",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-21 05:09:40",
+        "source": "github_action",
+        "candidate": "Gaswara Utama",
         "position": "Reporter Nasional",
         "success": true
       }
