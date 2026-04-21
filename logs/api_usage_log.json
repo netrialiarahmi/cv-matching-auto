@@ -10015,24 +10015,17 @@
     ]
   },
   "2026-04-21": {
-    "total": 248,
+    "total": 249,
     "streamlit": 0,
-    "github_action": 248,
-    "successful": 248,
+    "github_action": 249,
+    "successful": 249,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
-      "Data Analyst (Business Intelligence)": 48
+      "Data Analyst (Business Intelligence)": 49
     },
     "entries": [
-      {
-        "timestamp": "2026-04-21 05:17:07",
-        "source": "github_action",
-        "candidate": "Ilham Maulana",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-21 05:17:37",
         "source": "github_action",
@@ -10723,6 +10716,13 @@
         "timestamp": "2026-04-21 06:02:02",
         "source": "github_action",
         "candidate": "Wan Teja  Kusuma",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-21 06:02:30",
+        "source": "github_action",
+        "candidate": "Nandito Ramadhan",
         "position": "Data Analyst (Business Intelligence)",
         "success": true
       }
