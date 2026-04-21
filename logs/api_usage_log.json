@@ -10015,25 +10015,18 @@
     ]
   },
   "2026-04-21": {
-    "total": 317,
+    "total": 318,
     "streamlit": 0,
-    "github_action": 317,
-    "successful": 317,
+    "github_action": 318,
+    "successful": 318,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Data Analyst (Business Intelligence)": 53,
-      "Business Development Analyst": 64
+      "Business Development Analyst": 65
     },
     "entries": [
-      {
-        "timestamp": "2026-04-21 05:48:34",
-        "source": "github_action",
-        "candidate": "Isnaieni Ijtima' Amna Fitri",
-        "position": "Data Analyst (Business Intelligence)",
-        "success": true
-      },
       {
         "timestamp": "2026-04-21 05:49:00",
         "source": "github_action",
@@ -10724,6 +10717,13 @@
         "timestamp": "2026-04-21 06:36:25",
         "source": "github_action",
         "candidate": "Mohammad Farhan Saputra",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-21 06:37:00",
+        "source": "github_action",
+        "candidate": "Ananda Sari",
         "position": "Business Development Analyst",
         "success": true
       }
