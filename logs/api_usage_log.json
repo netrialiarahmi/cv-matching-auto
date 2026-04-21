@@ -10015,13 +10015,13 @@
     ]
   },
   "2026-04-21": {
-    "total": 81,
+    "total": 82,
     "streamlit": 0,
-    "github_action": 81,
-    "successful": 81,
+    "github_action": 82,
+    "successful": 82,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 81
+      "Marketing Communication Officer KG Media": 82
     },
     "entries": [
       {
@@ -10588,6 +10588,13 @@
         "timestamp": "2026-04-21 04:45:13",
         "source": "github_action",
         "candidate": "GINA NURULFADILAH",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-21 04:45:42",
+        "source": "github_action",
+        "candidate": "shofiyah andasfi",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
