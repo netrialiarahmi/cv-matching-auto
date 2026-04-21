@@ -10015,13 +10015,13 @@
     ]
   },
   "2026-04-21": {
-    "total": 21,
+    "total": 22,
     "streamlit": 0,
-    "github_action": 21,
-    "successful": 21,
+    "github_action": 22,
+    "successful": 22,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 21
+      "Marketing Communication Officer KG Media": 22
     },
     "entries": [
       {
@@ -10168,6 +10168,13 @@
         "timestamp": "2026-04-21 04:14:48",
         "source": "github_action",
         "candidate": "Brian Firnandi Supriyatmono",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-21 04:15:17",
+        "source": "github_action",
+        "candidate": "Salsabill Rizkina Putri",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
