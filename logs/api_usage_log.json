@@ -10015,26 +10015,19 @@
     ]
   },
   "2026-04-21": {
-    "total": 405,
+    "total": 406,
     "streamlit": 0,
-    "github_action": 405,
-    "successful": 405,
+    "github_action": 406,
+    "successful": 406,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Data Analyst (Business Intelligence)": 53,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 52
+      "Account Executive VCBL": 53
     },
     "entries": [
-      {
-        "timestamp": "2026-04-21 06:31:03",
-        "source": "github_action",
-        "candidate": "Muhamad Shahriza Rijadi Putra",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-21 06:31:33",
         "source": "github_action",
@@ -10725,6 +10718,13 @@
         "timestamp": "2026-04-21 07:17:48",
         "source": "github_action",
         "candidate": "Dedi Kurniawan",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-21 07:18:16",
+        "source": "github_action",
+        "candidate": "Salma Alika",
         "position": "Account Executive VCBL",
         "success": true
       }
