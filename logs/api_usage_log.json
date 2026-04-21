@@ -10015,26 +10015,19 @@
     ]
   },
   "2026-04-21": {
-    "total": 365,
+    "total": 366,
     "streamlit": 0,
-    "github_action": 365,
-    "successful": 365,
+    "github_action": 366,
+    "successful": 366,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Data Analyst (Business Intelligence)": 53,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 12
+      "Account Executive VCBL": 13
     },
     "entries": [
-      {
-        "timestamp": "2026-04-21 06:10:08",
-        "source": "github_action",
-        "candidate": "Aldi Nur",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-21 06:10:42",
         "source": "github_action",
@@ -10725,6 +10718,13 @@
         "timestamp": "2026-04-21 06:59:40",
         "source": "github_action",
         "candidate": "REHAN PAGADILA",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-21 07:00:11",
+        "source": "github_action",
+        "candidate": "Faiz Ardana Sani",
         "position": "Account Executive VCBL",
         "success": true
       }
