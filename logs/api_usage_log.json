@@ -10015,25 +10015,18 @@
     ]
   },
   "2026-04-21": {
-    "total": 306,
+    "total": 307,
     "streamlit": 0,
-    "github_action": 306,
-    "successful": 306,
+    "github_action": 307,
+    "successful": 307,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Data Analyst (Business Intelligence)": 53,
-      "Business Development Analyst": 53
+      "Business Development Analyst": 54
     },
     "entries": [
-      {
-        "timestamp": "2026-04-21 05:43:53",
-        "source": "github_action",
-        "candidate": "divan irawan",
-        "position": "Data Analyst (Business Intelligence)",
-        "success": true
-      },
       {
         "timestamp": "2026-04-21 05:44:25",
         "source": "github_action",
@@ -10724,6 +10717,13 @@
         "timestamp": "2026-04-21 06:31:03",
         "source": "github_action",
         "candidate": "Muhamad Shahriza Rijadi Putra",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-21 06:31:33",
+        "source": "github_action",
+        "candidate": "Rezy Aprilliano Adha",
         "position": "Business Development Analyst",
         "success": true
       }
