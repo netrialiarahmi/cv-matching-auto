@@ -10015,25 +10015,18 @@
     ]
   },
   "2026-04-21": {
-    "total": 312,
+    "total": 313,
     "streamlit": 0,
-    "github_action": 312,
-    "successful": 312,
+    "github_action": 313,
+    "successful": 313,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Data Analyst (Business Intelligence)": 53,
-      "Business Development Analyst": 59
+      "Business Development Analyst": 60
     },
     "entries": [
-      {
-        "timestamp": "2026-04-21 05:46:33",
-        "source": "github_action",
-        "candidate": "Astri Wahyu  Mitayani",
-        "position": "Data Analyst (Business Intelligence)",
-        "success": true
-      },
       {
         "timestamp": "2026-04-21 05:47:02",
         "source": "github_action",
@@ -10724,6 +10717,13 @@
         "timestamp": "2026-04-21 06:33:42",
         "source": "github_action",
         "candidate": "Galuh Kinanthi Rahardjo",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-21 06:34:12",
+        "source": "github_action",
+        "candidate": "Indhira Amarta  Mahanani",
         "position": "Business Development Analyst",
         "success": true
       }
