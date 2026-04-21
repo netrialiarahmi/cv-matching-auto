@@ -10015,13 +10015,13 @@
     ]
   },
   "2026-04-21": {
-    "total": 36,
+    "total": 37,
     "streamlit": 0,
-    "github_action": 36,
-    "successful": 36,
+    "github_action": 37,
+    "successful": 37,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 36
+      "Marketing Communication Officer KG Media": 37
     },
     "entries": [
       {
@@ -10273,6 +10273,13 @@
         "timestamp": "2026-04-21 04:22:00",
         "source": "github_action",
         "candidate": "MUHAMMAD ISLAM",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-21 04:22:35",
+        "source": "github_action",
+        "candidate": "Kristine  Theresia",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
