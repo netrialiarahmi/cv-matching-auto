@@ -10015,24 +10015,17 @@
     ]
   },
   "2026-04-21": {
-    "total": 236,
+    "total": 237,
     "streamlit": 0,
-    "github_action": 236,
-    "successful": 236,
+    "github_action": 237,
+    "successful": 237,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
-      "Data Analyst (Business Intelligence)": 36
+      "Data Analyst (Business Intelligence)": 37
     },
     "entries": [
-      {
-        "timestamp": "2026-04-21 05:11:41",
-        "source": "github_action",
-        "candidate": "DHEYANA HARIYANTI",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-21 05:12:07",
         "source": "github_action",
@@ -10723,6 +10716,13 @@
         "timestamp": "2026-04-21 05:56:48",
         "source": "github_action",
         "candidate": "Ade Musthopic",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-21 05:57:15",
+        "source": "github_action",
+        "candidate": "Nur Kholifah",
         "position": "Data Analyst (Business Intelligence)",
         "success": true
       }
