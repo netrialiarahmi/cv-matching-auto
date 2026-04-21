@@ -10015,26 +10015,19 @@
     ]
   },
   "2026-04-21": {
-    "total": 436,
+    "total": 437,
     "streamlit": 0,
-    "github_action": 436,
-    "successful": 436,
+    "github_action": 437,
+    "successful": 437,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Data Analyst (Business Intelligence)": 53,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 83
+      "Account Executive VCBL": 84
     },
     "entries": [
-      {
-        "timestamp": "2026-04-21 06:46:37",
-        "source": "github_action",
-        "candidate": "Argani Arief Santoso",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-21 06:47:15",
         "source": "github_action",
@@ -10725,6 +10718,13 @@
         "timestamp": "2026-04-21 07:32:25",
         "source": "github_action",
         "candidate": "Widitra Rama",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-21 07:32:57",
+        "source": "github_action",
+        "candidate": "Mohamad Dani Setiawardi",
         "position": "Account Executive VCBL",
         "success": true
       }
