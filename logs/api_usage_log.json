@@ -10015,25 +10015,18 @@
     ]
   },
   "2026-04-21": {
-    "total": 264,
+    "total": 265,
     "streamlit": 0,
-    "github_action": 264,
-    "successful": 264,
+    "github_action": 265,
+    "successful": 265,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Data Analyst (Business Intelligence)": 53,
-      "Business Development Analyst": 11
+      "Business Development Analyst": 12
     },
     "entries": [
-      {
-        "timestamp": "2026-04-21 05:24:56",
-        "source": "github_action",
-        "candidate": "Nadifa Aisyahrizka",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-21 05:25:26",
         "source": "github_action",
@@ -10724,6 +10717,13 @@
         "timestamp": "2026-04-21 06:09:06",
         "source": "github_action",
         "candidate": "Sri Cintia Dewi",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-21 06:09:37",
+        "source": "github_action",
+        "candidate": "Muhammad Shodiqin",
         "position": "Business Development Analyst",
         "success": true
       }
