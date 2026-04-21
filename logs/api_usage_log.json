@@ -10015,23 +10015,16 @@
     ]
   },
   "2026-04-21": {
-    "total": 186,
+    "total": 187,
     "streamlit": 0,
-    "github_action": 186,
-    "successful": 186,
+    "github_action": 187,
+    "successful": 187,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 86
+      "Reporter Nasional": 87
     },
     "entries": [
-      {
-        "timestamp": "2026-04-21 04:48:27",
-        "source": "github_action",
-        "candidate": "Audiva Asmara",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-21 04:48:57",
         "source": "github_action",
@@ -10722,6 +10715,13 @@
         "timestamp": "2026-04-21 05:34:29",
         "source": "github_action",
         "candidate": "Josua ruyandi Mangi",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-21 05:34:57",
+        "source": "github_action",
+        "candidate": "Izwadi Harahap",
         "position": "Reporter Nasional",
         "success": true
       }
