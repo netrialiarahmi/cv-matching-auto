@@ -10015,23 +10015,16 @@
     ]
   },
   "2026-04-21": {
-    "total": 185,
+    "total": 186,
     "streamlit": 0,
-    "github_action": 185,
-    "successful": 185,
+    "github_action": 186,
+    "successful": 186,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 85
+      "Reporter Nasional": 86
     },
     "entries": [
-      {
-        "timestamp": "2026-04-21 04:47:56",
-        "source": "github_action",
-        "candidate": "Geishia Alen Tie",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-21 04:48:27",
         "source": "github_action",
@@ -10722,6 +10715,13 @@
         "timestamp": "2026-04-21 05:34:26",
         "source": "github_action",
         "candidate": "Nuzulul Magfiroh",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-21 05:34:29",
+        "source": "github_action",
+        "candidate": "Josua ruyandi Mangi",
         "position": "Reporter Nasional",
         "success": true
       }
