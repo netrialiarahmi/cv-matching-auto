@@ -10015,24 +10015,17 @@
     ]
   },
   "2026-04-21": {
-    "total": 239,
+    "total": 240,
     "streamlit": 0,
-    "github_action": 239,
-    "successful": 239,
+    "github_action": 240,
+    "successful": 240,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
-      "Data Analyst (Business Intelligence)": 39
+      "Data Analyst (Business Intelligence)": 40
     },
     "entries": [
-      {
-        "timestamp": "2026-04-21 05:13:08",
-        "source": "github_action",
-        "candidate": "Muhammad Iqbal",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-21 05:13:41",
         "source": "github_action",
@@ -10723,6 +10716,13 @@
         "timestamp": "2026-04-21 05:58:08",
         "source": "github_action",
         "candidate": "Azwendi Azwar",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-21 05:58:12",
+        "source": "github_action",
+        "candidate": "Aliza Zainina Azka",
         "position": "Data Analyst (Business Intelligence)",
         "success": true
       }
