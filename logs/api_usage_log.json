@@ -10015,24 +10015,17 @@
     ]
   },
   "2026-04-21": {
-    "total": 214,
+    "total": 215,
     "streamlit": 0,
-    "github_action": 214,
-    "successful": 214,
+    "github_action": 215,
+    "successful": 215,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
-      "Data Analyst (Business Intelligence)": 14
+      "Data Analyst (Business Intelligence)": 15
     },
     "entries": [
-      {
-        "timestamp": "2026-04-21 05:01:27",
-        "source": "github_action",
-        "candidate": "ARIF ANWAR RIZKY",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-21 05:01:56",
         "source": "github_action",
@@ -10723,6 +10716,13 @@
         "timestamp": "2026-04-21 05:47:02",
         "source": "github_action",
         "candidate": "Rayhan Taufiqulhakim",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-21 05:47:30",
+        "source": "github_action",
+        "candidate": "Usamah Abdul Hakim",
         "position": "Data Analyst (Business Intelligence)",
         "success": true
       }
