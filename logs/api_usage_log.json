@@ -10015,23 +10015,16 @@
     ]
   },
   "2026-04-21": {
-    "total": 128,
+    "total": 129,
     "streamlit": 0,
-    "github_action": 128,
-    "successful": 128,
+    "github_action": 129,
+    "successful": 129,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 28
+      "Reporter Nasional": 29
     },
     "entries": [
-      {
-        "timestamp": "2026-04-21 04:18:28",
-        "source": "github_action",
-        "candidate": "Zidani  Ilham",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-21 04:19:00",
         "source": "github_action",
@@ -10722,6 +10715,13 @@
         "timestamp": "2026-04-21 05:08:02",
         "source": "github_action",
         "candidate": "Iqbal Fakhriza",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-21 05:08:06",
+        "source": "github_action",
+        "candidate": "Fawwaz Azmi Iltizam",
         "position": "Reporter Nasional",
         "success": true
       }
