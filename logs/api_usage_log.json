@@ -10015,26 +10015,19 @@
     ]
   },
   "2026-04-21": {
-    "total": 450,
+    "total": 451,
     "streamlit": 0,
-    "github_action": 450,
-    "successful": 450,
+    "github_action": 451,
+    "successful": 451,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Data Analyst (Business Intelligence)": 53,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 97
+      "Account Executive VCBL": 98
     },
     "entries": [
-      {
-        "timestamp": "2026-04-21 06:53:17",
-        "source": "github_action",
-        "candidate": "MERCY GAYATRI",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-21 06:53:50",
         "source": "github_action",
@@ -10725,6 +10718,13 @@
         "timestamp": "2026-04-21 07:38:40",
         "source": "github_action",
         "candidate": "NOVI RIYANTI",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-21 07:39:08",
+        "source": "github_action",
+        "candidate": "Amelia Intan",
         "position": "Account Executive VCBL",
         "success": true
       }
