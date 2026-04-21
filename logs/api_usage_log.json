@@ -10015,13 +10015,13 @@
     ]
   },
   "2026-04-21": {
-    "total": 39,
+    "total": 40,
     "streamlit": 0,
-    "github_action": 39,
-    "successful": 39,
+    "github_action": 40,
+    "successful": 40,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 39
+      "Marketing Communication Officer KG Media": 40
     },
     "entries": [
       {
@@ -10294,6 +10294,13 @@
         "timestamp": "2026-04-21 04:23:38",
         "source": "github_action",
         "candidate": "venny ramadhita",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-21 04:24:07",
+        "source": "github_action",
+        "candidate": "Alfina Rizky Pratiwi",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
