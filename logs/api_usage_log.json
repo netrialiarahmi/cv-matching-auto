@@ -10015,26 +10015,19 @@
     ]
   },
   "2026-04-21": {
-    "total": 357,
+    "total": 358,
     "streamlit": 0,
-    "github_action": 357,
-    "successful": 357,
+    "github_action": 358,
+    "successful": 358,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Data Analyst (Business Intelligence)": 53,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 4
+      "Account Executive VCBL": 5
     },
     "entries": [
-      {
-        "timestamp": "2026-04-21 06:06:30",
-        "source": "github_action",
-        "candidate": "Raditya Ari Vernandito",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-21 06:07:00",
         "source": "github_action",
@@ -10725,6 +10718,13 @@
         "timestamp": "2026-04-21 06:56:35",
         "source": "github_action",
         "candidate": "Syafira Akhtari",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-21 06:57:04",
+        "source": "github_action",
+        "candidate": "Jethro Giovanni Saputra",
         "position": "Account Executive VCBL",
         "success": true
       }
