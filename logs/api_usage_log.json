@@ -10015,23 +10015,16 @@
     ]
   },
   "2026-04-21": {
-    "total": 196,
+    "total": 197,
     "streamlit": 0,
-    "github_action": 196,
-    "successful": 196,
+    "github_action": 197,
+    "successful": 197,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 96
+      "Reporter Nasional": 97
     },
     "entries": [
-      {
-        "timestamp": "2026-04-21 04:53:46",
-        "source": "github_action",
-        "candidate": "Aracelly Najwa Aulia Sukasa",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-21 04:54:14",
         "source": "github_action",
@@ -10722,6 +10715,13 @@
         "timestamp": "2026-04-21 05:39:02",
         "source": "github_action",
         "candidate": "Andika Yudhistira",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-21 05:39:36",
+        "source": "github_action",
+        "candidate": "Wildan Adil Hilba",
         "position": "Reporter Nasional",
         "success": true
       }
