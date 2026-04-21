@@ -10015,23 +10015,16 @@
     ]
   },
   "2026-04-21": {
-    "total": 123,
+    "total": 124,
     "streamlit": 0,
-    "github_action": 123,
-    "successful": 123,
+    "github_action": 124,
+    "successful": 124,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 23
+      "Reporter Nasional": 24
     },
     "entries": [
-      {
-        "timestamp": "2026-04-21 04:16:20",
-        "source": "github_action",
-        "candidate": "Emmanuella Hadassah",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-21 04:16:47",
         "source": "github_action",
@@ -10722,6 +10715,13 @@
         "timestamp": "2026-04-21 05:05:33",
         "source": "github_action",
         "candidate": "Anisa Nur Syafitri",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-21 05:06:00",
+        "source": "github_action",
+        "candidate": "Muhammad Farhan Agusta",
         "position": "Reporter Nasional",
         "success": true
       }
