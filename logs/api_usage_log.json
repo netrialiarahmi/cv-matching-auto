@@ -10015,25 +10015,18 @@
     ]
   },
   "2026-04-21": {
-    "total": 298,
+    "total": 299,
     "streamlit": 0,
-    "github_action": 298,
-    "successful": 298,
+    "github_action": 299,
+    "successful": 299,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Data Analyst (Business Intelligence)": 53,
-      "Business Development Analyst": 45
+      "Business Development Analyst": 46
     },
     "entries": [
-      {
-        "timestamp": "2026-04-21 05:40:37",
-        "source": "github_action",
-        "candidate": "Mira Widya Saragih",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-21 05:41:09",
         "source": "github_action",
@@ -10724,6 +10717,13 @@
         "timestamp": "2026-04-21 06:26:45",
         "source": "github_action",
         "candidate": "Rizky Nurbayani Muhari",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-21 06:27:19",
+        "source": "github_action",
+        "candidate": "Fatimah Nurul Jamilah",
         "position": "Business Development Analyst",
         "success": true
       }
