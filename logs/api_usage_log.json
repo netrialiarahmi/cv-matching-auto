@@ -10015,23 +10015,16 @@
     ]
   },
   "2026-04-21": {
-    "total": 141,
+    "total": 142,
     "streamlit": 0,
-    "github_action": 141,
-    "successful": 141,
+    "github_action": 142,
+    "successful": 142,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 41
+      "Reporter Nasional": 42
     },
     "entries": [
-      {
-        "timestamp": "2026-04-21 04:25:07",
-        "source": "github_action",
-        "candidate": "Farah  Armelia",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-21 04:25:38",
         "source": "github_action",
@@ -10722,6 +10715,13 @@
         "timestamp": "2026-04-21 05:13:41",
         "source": "github_action",
         "candidate": "Dinar Indrani",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-21 05:14:16",
+        "source": "github_action",
+        "candidate": "Devita Nur Azizah",
         "position": "Reporter Nasional",
         "success": true
       }
