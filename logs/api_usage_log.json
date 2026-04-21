@@ -10015,25 +10015,18 @@
     ]
   },
   "2026-04-21": {
-    "total": 272,
+    "total": 273,
     "streamlit": 0,
-    "github_action": 272,
-    "successful": 272,
+    "github_action": 273,
+    "successful": 273,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Data Analyst (Business Intelligence)": 53,
-      "Business Development Analyst": 19
+      "Business Development Analyst": 20
     },
     "entries": [
-      {
-        "timestamp": "2026-04-21 05:28:24",
-        "source": "github_action",
-        "candidate": "Salma Shalsabilla",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-21 05:28:53",
         "source": "github_action",
@@ -10724,6 +10717,13 @@
         "timestamp": "2026-04-21 06:13:17",
         "source": "github_action",
         "candidate": "Firly Ramadhan",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-21 06:13:44",
+        "source": "github_action",
+        "candidate": "Mohamad Dani Setiawardi",
         "position": "Business Development Analyst",
         "success": true
       }
