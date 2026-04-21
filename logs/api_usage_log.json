@@ -10015,24 +10015,17 @@
     ]
   },
   "2026-04-21": {
-    "total": 227,
+    "total": 228,
     "streamlit": 0,
-    "github_action": 227,
-    "successful": 227,
+    "github_action": 228,
+    "successful": 228,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
-      "Data Analyst (Business Intelligence)": 27
+      "Data Analyst (Business Intelligence)": 28
     },
     "entries": [
-      {
-        "timestamp": "2026-04-21 05:08:02",
-        "source": "github_action",
-        "candidate": "Iqbal Fakhriza",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-21 05:08:06",
         "source": "github_action",
@@ -10723,6 +10716,13 @@
         "timestamp": "2026-04-21 05:52:32",
         "source": "github_action",
         "candidate": "Cahyana Ahmad Pahlevi pahlevi",
+        "position": "Data Analyst (Business Intelligence)",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-21 05:53:01",
+        "source": "github_action",
+        "candidate": "Fuji Asti Kholisa",
         "position": "Data Analyst (Business Intelligence)",
         "success": true
       }
