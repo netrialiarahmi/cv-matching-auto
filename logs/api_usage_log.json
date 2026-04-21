@@ -10015,13 +10015,13 @@
     ]
   },
   "2026-04-21": {
-    "total": 4,
+    "total": 5,
     "streamlit": 0,
-    "github_action": 4,
-    "successful": 4,
+    "github_action": 5,
+    "successful": 5,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 4
+      "Marketing Communication Officer KG Media": 5
     },
     "entries": [
       {
@@ -10049,6 +10049,13 @@
         "timestamp": "2026-04-21 04:06:30",
         "source": "github_action",
         "candidate": "Willyossa Putra Ramadhan",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-21 04:07:03",
+        "source": "github_action",
+        "candidate": "Kezia Natalie Yofitria",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
