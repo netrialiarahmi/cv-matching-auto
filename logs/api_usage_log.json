@@ -10015,13 +10015,13 @@
     ]
   },
   "2026-04-21": {
-    "total": 24,
+    "total": 25,
     "streamlit": 0,
-    "github_action": 24,
-    "successful": 24,
+    "github_action": 25,
+    "successful": 25,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 24
+      "Marketing Communication Officer KG Media": 25
     },
     "entries": [
       {
@@ -10189,6 +10189,13 @@
         "timestamp": "2026-04-21 04:16:20",
         "source": "github_action",
         "candidate": "Emmanuella Hadassah",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-21 04:16:47",
+        "source": "github_action",
+        "candidate": "Fae  Hanifa",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
