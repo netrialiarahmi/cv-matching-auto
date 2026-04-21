@@ -10015,23 +10015,16 @@
     ]
   },
   "2026-04-21": {
-    "total": 162,
+    "total": 163,
     "streamlit": 0,
-    "github_action": 162,
-    "successful": 162,
+    "github_action": 163,
+    "successful": 163,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 62
+      "Reporter Nasional": 63
     },
     "entries": [
-      {
-        "timestamp": "2026-04-21 04:36:18",
-        "source": "github_action",
-        "candidate": "Dini Fajaryani",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-21 04:36:49",
         "source": "github_action",
@@ -10722,6 +10715,13 @@
         "timestamp": "2026-04-21 05:23:35",
         "source": "github_action",
         "candidate": "Selia  Nurazwaima",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-21 05:23:59",
+        "source": "github_action",
+        "candidate": "Asyadillah Althaf",
         "position": "Reporter Nasional",
         "success": true
       }
