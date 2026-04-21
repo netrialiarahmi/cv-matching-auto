@@ -10015,26 +10015,19 @@
     ]
   },
   "2026-04-21": {
-    "total": 416,
+    "total": 417,
     "streamlit": 0,
-    "github_action": 416,
-    "successful": 416,
+    "github_action": 417,
+    "successful": 417,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Data Analyst (Business Intelligence)": 53,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 63
+      "Account Executive VCBL": 64
     },
     "entries": [
-      {
-        "timestamp": "2026-04-21 06:36:25",
-        "source": "github_action",
-        "candidate": "Mohammad Farhan Saputra",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-21 06:37:00",
         "source": "github_action",
@@ -10725,6 +10718,13 @@
         "timestamp": "2026-04-21 07:22:58",
         "source": "github_action",
         "candidate": "Rifqi Soeleiman",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-21 07:23:30",
+        "source": "github_action",
+        "candidate": "Amelia Putri R",
         "position": "Account Executive VCBL",
         "success": true
       }
