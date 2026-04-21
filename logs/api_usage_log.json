@@ -10015,25 +10015,18 @@
     ]
   },
   "2026-04-21": {
-    "total": 259,
+    "total": 260,
     "streamlit": 0,
-    "github_action": 259,
-    "successful": 259,
+    "github_action": 260,
+    "successful": 260,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Data Analyst (Business Intelligence)": 53,
-      "Business Development Analyst": 6
+      "Business Development Analyst": 7
     },
     "entries": [
-      {
-        "timestamp": "2026-04-21 05:22:36",
-        "source": "github_action",
-        "candidate": "Yessi Baldah zus to yusa",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-21 05:23:07",
         "source": "github_action",
@@ -10724,6 +10717,13 @@
         "timestamp": "2026-04-21 06:07:00",
         "source": "github_action",
         "candidate": "guruh haryo",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-21 06:07:29",
+        "source": "github_action",
+        "candidate": "Onisa Nainggolan",
         "position": "Business Development Analyst",
         "success": true
       }
