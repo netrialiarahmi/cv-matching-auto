@@ -10015,23 +10015,16 @@
     ]
   },
   "2026-04-21": {
-    "total": 134,
+    "total": 135,
     "streamlit": 0,
-    "github_action": 134,
-    "successful": 134,
+    "github_action": 135,
+    "successful": 135,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 34
+      "Reporter Nasional": 35
     },
     "entries": [
-      {
-        "timestamp": "2026-04-21 04:21:29",
-        "source": "github_action",
-        "candidate": "Monica Ayu Nanda",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-21 04:22:00",
         "source": "github_action",
@@ -10722,6 +10715,13 @@
         "timestamp": "2026-04-21 05:10:10",
         "source": "github_action",
         "candidate": "Mercy Pika Irawanty Sinaga",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-21 05:10:36",
+        "source": "github_action",
+        "candidate": "Gita Putri",
         "position": "Reporter Nasional",
         "success": true
       }
