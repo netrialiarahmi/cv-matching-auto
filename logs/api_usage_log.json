@@ -10015,25 +10015,18 @@
     ]
   },
   "2026-04-21": {
-    "total": 329,
+    "total": 330,
     "streamlit": 0,
-    "github_action": 329,
-    "successful": 329,
+    "github_action": 330,
+    "successful": 330,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Data Analyst (Business Intelligence)": 53,
-      "Business Development Analyst": 76
+      "Business Development Analyst": 77
     },
     "entries": [
-      {
-        "timestamp": "2026-04-21 05:53:55",
-        "source": "github_action",
-        "candidate": "ichmalurrayhan rayhan",
-        "position": "Data Analyst (Business Intelligence)",
-        "success": true
-      },
       {
         "timestamp": "2026-04-21 05:54:22",
         "source": "github_action",
@@ -10724,6 +10717,13 @@
         "timestamp": "2026-04-21 06:42:19",
         "source": "github_action",
         "candidate": "Yohana Simarmata",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-21 06:42:51",
+        "source": "github_action",
+        "candidate": "Rio Fabianto",
         "position": "Business Development Analyst",
         "success": true
       }
