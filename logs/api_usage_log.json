@@ -10015,23 +10015,16 @@
     ]
   },
   "2026-04-21": {
-    "total": 118,
+    "total": 119,
     "streamlit": 0,
-    "github_action": 118,
-    "successful": 118,
+    "github_action": 119,
+    "successful": 119,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 18
+      "Reporter Nasional": 19
     },
     "entries": [
-      {
-        "timestamp": "2026-04-21 04:13:51",
-        "source": "github_action",
-        "candidate": "Maurell Raisa Putri",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-21 04:14:18",
         "source": "github_action",
@@ -10722,6 +10715,13 @@
         "timestamp": "2026-04-21 05:03:02",
         "source": "github_action",
         "candidate": "Muhammad  Noor",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-21 05:03:37",
+        "source": "github_action",
+        "candidate": "Muhammad Arief  Adhistyo Hidayat",
         "position": "Reporter Nasional",
         "success": true
       }
