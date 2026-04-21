@@ -10015,25 +10015,18 @@
     ]
   },
   "2026-04-21": {
-    "total": 327,
+    "total": 328,
     "streamlit": 0,
-    "github_action": 327,
-    "successful": 327,
+    "github_action": 328,
+    "successful": 328,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Data Analyst (Business Intelligence)": 53,
-      "Business Development Analyst": 74
+      "Business Development Analyst": 75
     },
     "entries": [
-      {
-        "timestamp": "2026-04-21 05:53:01",
-        "source": "github_action",
-        "candidate": "Fuji Asti Kholisa",
-        "position": "Data Analyst (Business Intelligence)",
-        "success": true
-      },
       {
         "timestamp": "2026-04-21 05:53:31",
         "source": "github_action",
@@ -10724,6 +10717,13 @@
         "timestamp": "2026-04-21 06:41:16",
         "source": "github_action",
         "candidate": "KEMAL AL KAUTSAR MABRURI",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-21 06:41:50",
+        "source": "github_action",
+        "candidate": "Herviona Advenester Wardhani",
         "position": "Business Development Analyst",
         "success": true
       }
