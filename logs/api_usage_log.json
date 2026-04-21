@@ -10015,26 +10015,19 @@
     ]
   },
   "2026-04-21": {
-    "total": 449,
+    "total": 450,
     "streamlit": 0,
-    "github_action": 449,
-    "successful": 449,
+    "github_action": 450,
+    "successful": 450,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Data Analyst (Business Intelligence)": 53,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 96
+      "Account Executive VCBL": 97
     },
     "entries": [
-      {
-        "timestamp": "2026-04-21 06:52:49",
-        "source": "github_action",
-        "candidate": "Muhammad Irsyad Hawari",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-21 06:53:17",
         "source": "github_action",
@@ -10725,6 +10718,13 @@
         "timestamp": "2026-04-21 07:38:09",
         "source": "github_action",
         "candidate": "Muhamad Tegar Dwi Prasetyo",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-21 07:38:40",
+        "source": "github_action",
+        "candidate": "NOVI RIYANTI",
         "position": "Account Executive VCBL",
         "success": true
       }
