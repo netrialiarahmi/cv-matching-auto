@@ -10015,23 +10015,16 @@
     ]
   },
   "2026-04-21": {
-    "total": 102,
+    "total": 103,
     "streamlit": 0,
-    "github_action": 102,
-    "successful": 102,
+    "github_action": 103,
+    "successful": 103,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 2
+      "Reporter Nasional": 3
     },
     "entries": [
-      {
-        "timestamp": "2026-04-21 04:05:59",
-        "source": "github_action",
-        "candidate": "Bagas Arya Indaru",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-21 04:06:30",
         "source": "github_action",
@@ -10722,6 +10715,13 @@
         "timestamp": "2026-04-21 04:55:51",
         "source": "github_action",
         "candidate": "Fano Eger",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-21 04:56:17",
+        "source": "github_action",
+        "candidate": "Mutia Choerunissa",
         "position": "Reporter Nasional",
         "success": true
       }
