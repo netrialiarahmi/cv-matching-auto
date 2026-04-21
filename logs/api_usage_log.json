@@ -10015,26 +10015,19 @@
     ]
   },
   "2026-04-21": {
-    "total": 383,
+    "total": 384,
     "streamlit": 0,
-    "github_action": 383,
-    "successful": 383,
+    "github_action": 384,
+    "successful": 384,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Data Analyst (Business Intelligence)": 53,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 30
+      "Account Executive VCBL": 31
     },
     "entries": [
-      {
-        "timestamp": "2026-04-21 06:19:08",
-        "source": "github_action",
-        "candidate": "Rayhan Naufal Haytami",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-21 06:19:42",
         "source": "github_action",
@@ -10725,6 +10718,13 @@
         "timestamp": "2026-04-21 07:07:37",
         "source": "github_action",
         "candidate": "M Fadhil Ramadhan",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-21 07:08:04",
+        "source": "github_action",
+        "candidate": "Hafidh Muhammad Ibnu Sina",
         "position": "Account Executive VCBL",
         "success": true
       }
