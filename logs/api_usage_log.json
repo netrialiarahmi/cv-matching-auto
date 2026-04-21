@@ -10015,25 +10015,18 @@
     ]
   },
   "2026-04-21": {
-    "total": 350,
+    "total": 351,
     "streamlit": 0,
-    "github_action": 350,
-    "successful": 350,
+    "github_action": 351,
+    "successful": 351,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Data Analyst (Business Intelligence)": 53,
-      "Business Development Analyst": 97
+      "Business Development Analyst": 98
     },
     "entries": [
-      {
-        "timestamp": "2026-04-21 06:03:03",
-        "source": "github_action",
-        "candidate": "yohanes arvandi",
-        "position": "Data Analyst (Business Intelligence)",
-        "success": true
-      },
       {
         "timestamp": "2026-04-21 06:03:31",
         "source": "github_action",
@@ -10724,6 +10717,13 @@
         "timestamp": "2026-04-21 06:52:49",
         "source": "github_action",
         "candidate": "Muhammad Irsyad Hawari",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-21 06:53:17",
+        "source": "github_action",
+        "candidate": "MERCY GAYATRI",
         "position": "Business Development Analyst",
         "success": true
       }
