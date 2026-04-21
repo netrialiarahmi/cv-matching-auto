@@ -10015,23 +10015,16 @@
     ]
   },
   "2026-04-21": {
-    "total": 160,
+    "total": 161,
     "streamlit": 0,
-    "github_action": 160,
-    "successful": 160,
+    "github_action": 161,
+    "successful": 161,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 60
+      "Reporter Nasional": 61
     },
     "entries": [
-      {
-        "timestamp": "2026-04-21 04:35:10",
-        "source": "github_action",
-        "candidate": "IRFANI NURUL AZIZAH",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-21 04:35:50",
         "source": "github_action",
@@ -10722,6 +10715,13 @@
         "timestamp": "2026-04-21 05:22:36",
         "source": "github_action",
         "candidate": "Yessi Baldah zus to yusa",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-21 05:23:07",
+        "source": "github_action",
+        "candidate": "Anjar Palupi",
         "position": "Reporter Nasional",
         "success": true
       }
