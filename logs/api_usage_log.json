@@ -10731,25 +10731,18 @@
     ]
   },
   "2026-04-22": {
-    "total": 548,
+    "total": 549,
     "streamlit": 0,
-    "github_action": 548,
-    "successful": 548,
+    "github_action": 549,
+    "successful": 549,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 200,
       "Reporter Nasional": 162,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 86
+      "Account Executive VCBL": 87
     },
     "entries": [
-      {
-        "timestamp": "2026-04-22 06:20:45",
-        "source": "github_action",
-        "candidate": "Rifka Elfrida Hutasoit",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-22 06:20:48",
         "source": "github_action",
@@ -11440,6 +11433,13 @@
         "timestamp": "2026-04-22 07:03:44",
         "source": "github_action",
         "candidate": "Ine Safitri",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-22 07:04:14",
+        "source": "github_action",
+        "candidate": "Safira Melya Ramadhayanti",
         "position": "Account Executive VCBL",
         "success": true
       }
