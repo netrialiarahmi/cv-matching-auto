@@ -10731,25 +10731,18 @@
     ]
   },
   "2026-04-22": {
-    "total": 532,
+    "total": 533,
     "streamlit": 0,
-    "github_action": 532,
-    "successful": 532,
+    "github_action": 533,
+    "successful": 533,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 200,
       "Reporter Nasional": 162,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 70
+      "Account Executive VCBL": 71
     },
     "entries": [
-      {
-        "timestamp": "2026-04-22 06:13:35",
-        "source": "github_action",
-        "candidate": "Muhammad Firdaus Pratama",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-22 06:14:03",
         "source": "github_action",
@@ -11440,6 +11433,13 @@
         "timestamp": "2026-04-22 06:56:47",
         "source": "github_action",
         "candidate": "Widitra Rama",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-22 06:57:16",
+        "source": "github_action",
+        "candidate": "Mohamad Dani Setiawardi",
         "position": "Account Executive VCBL",
         "success": true
       }
