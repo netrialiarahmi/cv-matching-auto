@@ -10731,25 +10731,18 @@
     ]
   },
   "2026-04-22": {
-    "total": 519,
+    "total": 520,
     "streamlit": 0,
-    "github_action": 519,
-    "successful": 519,
+    "github_action": 520,
+    "successful": 520,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 200,
       "Reporter Nasional": 162,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 57
+      "Account Executive VCBL": 58
     },
     "entries": [
-      {
-        "timestamp": "2026-04-22 06:03:55",
-        "source": "github_action",
-        "candidate": "Charles Philip",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-22 06:07:35",
         "source": "github_action",
@@ -11440,6 +11433,13 @@
         "timestamp": "2026-04-22 06:51:38",
         "source": "github_action",
         "candidate": "Taufik Hidayat",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-22 06:52:07",
+        "source": "github_action",
+        "candidate": "David Martino Arreltama",
         "position": "Account Executive VCBL",
         "success": true
       }
