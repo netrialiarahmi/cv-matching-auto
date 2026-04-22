@@ -10731,13 +10731,13 @@
     ]
   },
   "2026-04-22": {
-    "total": 82,
+    "total": 83,
     "streamlit": 0,
-    "github_action": 82,
-    "successful": 82,
+    "github_action": 83,
+    "successful": 83,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 82
+      "Marketing Communication Officer KG Media": 83
     },
     "entries": [
       {
@@ -11311,6 +11311,13 @@
         "timestamp": "2026-04-22 03:23:07",
         "source": "github_action",
         "candidate": "Muhamad Naufal Ridho",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-22 03:23:11",
+        "source": "github_action",
+        "candidate": "Regina Angelita",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
