@@ -10731,25 +10731,18 @@
     ]
   },
   "2026-04-22": {
-    "total": 561,
+    "total": 562,
     "streamlit": 0,
-    "github_action": 561,
-    "successful": 561,
+    "github_action": 562,
+    "successful": 562,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 200,
       "Reporter Nasional": 162,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 99
+      "Account Executive VCBL": 100
     },
     "entries": [
-      {
-        "timestamp": "2026-04-22 06:26:16",
-        "source": "github_action",
-        "candidate": "Dina Alfianna Wulan Sari",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-22 06:26:50",
         "source": "github_action",
@@ -11440,6 +11433,13 @@
         "timestamp": "2026-04-22 07:10:07",
         "source": "github_action",
         "candidate": "Anastasya Theresia Bidara",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-22 07:10:37",
+        "source": "github_action",
+        "candidate": "Dhianya Putri Shafiya Wicaksono",
         "position": "Account Executive VCBL",
         "success": true
       }
