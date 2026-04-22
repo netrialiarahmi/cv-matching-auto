@@ -10731,24 +10731,17 @@
     ]
   },
   "2026-04-22": {
-    "total": 432,
+    "total": 433,
     "streamlit": 0,
-    "github_action": 432,
-    "successful": 432,
+    "github_action": 433,
+    "successful": 433,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 200,
       "Reporter Nasional": 162,
-      "Business Development Analyst": 70
+      "Business Development Analyst": 71
     },
     "entries": [
-      {
-        "timestamp": "2026-04-22 05:23:03",
-        "source": "github_action",
-        "candidate": "Nuzulul Magfiroh",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-22 05:23:07",
         "source": "github_action",
@@ -11439,6 +11432,13 @@
         "timestamp": "2026-04-22 06:13:04",
         "source": "github_action",
         "candidate": "BIFFANCA ALLYA KENEDY",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-22 06:13:35",
+        "source": "github_action",
+        "candidate": "Muhammad Firdaus Pratama",
         "position": "Business Development Analyst",
         "success": true
       }
