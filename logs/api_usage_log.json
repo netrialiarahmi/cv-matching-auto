@@ -10731,23 +10731,16 @@
     ]
   },
   "2026-04-22": {
-    "total": 150,
+    "total": 151,
     "streamlit": 0,
-    "github_action": 150,
-    "successful": 150,
+    "github_action": 151,
+    "successful": 151,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 50
+      "Reporter Nasional": 51
     },
     "entries": [
-      {
-        "timestamp": "2026-04-22 03:06:20",
-        "source": "github_action",
-        "candidate": "Dira Maulida",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-22 03:06:54",
         "source": "github_action",
@@ -11438,6 +11431,13 @@
         "timestamp": "2026-04-22 03:55:41",
         "source": "github_action",
         "candidate": "Umar Falahudin",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-22 03:56:10",
+        "source": "github_action",
+        "candidate": "Sabrina  Ariani",
         "position": "Reporter Nasional",
         "success": true
       }
