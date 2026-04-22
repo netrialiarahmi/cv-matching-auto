@@ -10731,23 +10731,16 @@
     ]
   },
   "2026-04-22": {
-    "total": 111,
+    "total": 112,
     "streamlit": 0,
-    "github_action": 111,
-    "successful": 111,
+    "github_action": 112,
+    "successful": 112,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 11
+      "Reporter Nasional": 12
     },
     "entries": [
-      {
-        "timestamp": "2026-04-22 02:47:00",
-        "source": "github_action",
-        "candidate": "Dzulfiqar Arifuddin",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-22 02:47:32",
         "source": "github_action",
@@ -11438,6 +11431,13 @@
         "timestamp": "2026-04-22 03:37:01",
         "source": "github_action",
         "candidate": "Qonita Hamidah",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-22 03:37:33",
+        "source": "github_action",
+        "candidate": "Muhamad Reza Pahlevi",
         "position": "Reporter Nasional",
         "success": true
       }
