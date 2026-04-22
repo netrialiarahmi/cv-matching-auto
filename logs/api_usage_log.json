@@ -10731,13 +10731,13 @@
     ]
   },
   "2026-04-22": {
-    "total": 71,
+    "total": 72,
     "streamlit": 0,
-    "github_action": 71,
-    "successful": 71,
+    "github_action": 72,
+    "successful": 72,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 71
+      "Marketing Communication Officer KG Media": 72
     },
     "entries": [
       {
@@ -11234,6 +11234,13 @@
         "timestamp": "2026-04-22 03:17:09",
         "source": "github_action",
         "candidate": "Maulidina Nur Salam",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-22 03:17:40",
+        "source": "github_action",
+        "candidate": "Nurul Afriyanti",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
