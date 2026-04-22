@@ -10731,23 +10731,16 @@
     ]
   },
   "2026-04-22": {
-    "total": 132,
+    "total": 133,
     "streamlit": 0,
-    "github_action": 132,
-    "successful": 132,
+    "github_action": 133,
+    "successful": 133,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 32
+      "Reporter Nasional": 33
     },
     "entries": [
-      {
-        "timestamp": "2026-04-22 02:57:23",
-        "source": "github_action",
-        "candidate": "Fitriana Fatihatul Hasanah",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-22 02:57:53",
         "source": "github_action",
@@ -11438,6 +11431,13 @@
         "timestamp": "2026-04-22 03:46:54",
         "source": "github_action",
         "candidate": "Revo Anggara",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-22 03:47:27",
+        "source": "github_action",
+        "candidate": "DHEYANA HARIYANTI",
         "position": "Reporter Nasional",
         "success": true
       }
