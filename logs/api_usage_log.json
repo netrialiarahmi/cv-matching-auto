@@ -10731,13 +10731,13 @@
     ]
   },
   "2026-04-22": {
-    "total": 87,
+    "total": 88,
     "streamlit": 0,
-    "github_action": 87,
-    "successful": 87,
+    "github_action": 88,
+    "successful": 88,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 87
+      "Marketing Communication Officer KG Media": 88
     },
     "entries": [
       {
@@ -11346,6 +11346,13 @@
         "timestamp": "2026-04-22 03:25:25",
         "source": "github_action",
         "candidate": "Mahir Muhammad",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-22 03:25:59",
+        "source": "github_action",
+        "candidate": "Hanggoro Ritzki Geza",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
