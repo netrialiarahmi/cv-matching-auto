@@ -10731,23 +10731,16 @@
     ]
   },
   "2026-04-22": {
-    "total": 320,
+    "total": 321,
     "streamlit": 0,
-    "github_action": 320,
-    "successful": 320,
+    "github_action": 321,
+    "successful": 321,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 200,
-      "Reporter Nasional": 120
+      "Reporter Nasional": 121
     },
     "entries": [
-      {
-        "timestamp": "2026-04-22 04:32:08",
-        "source": "github_action",
-        "candidate": "Intan Shifa Rusliani",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-22 04:32:37",
         "source": "github_action",
@@ -11438,6 +11431,13 @@
         "timestamp": "2026-04-22 05:17:29",
         "source": "github_action",
         "candidate": "Dimas Candra",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-22 05:17:32",
+        "source": "github_action",
+        "candidate": "Aziizah Azhaar",
         "position": "Reporter Nasional",
         "success": true
       }
