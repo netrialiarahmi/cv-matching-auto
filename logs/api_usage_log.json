@@ -10731,13 +10731,13 @@
     ]
   },
   "2026-04-22": {
-    "total": 91,
+    "total": 92,
     "streamlit": 0,
-    "github_action": 91,
-    "successful": 91,
+    "github_action": 92,
+    "successful": 92,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 91
+      "Marketing Communication Officer KG Media": 92
     },
     "entries": [
       {
@@ -11374,6 +11374,13 @@
         "timestamp": "2026-04-22 03:27:35",
         "source": "github_action",
         "candidate": "Reza SyahFahlevi",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-22 03:28:04",
+        "source": "github_action",
+        "candidate": "Siti Fatmawati Sandari",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
