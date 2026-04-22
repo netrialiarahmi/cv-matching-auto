@@ -10731,13 +10731,13 @@
     ]
   },
   "2026-04-22": {
-    "total": 6,
+    "total": 7,
     "streamlit": 0,
-    "github_action": 6,
-    "successful": 6,
+    "github_action": 7,
+    "successful": 7,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 6
+      "Marketing Communication Officer KG Media": 7
     },
     "entries": [
       {
@@ -10779,6 +10779,13 @@
         "timestamp": "2026-04-22 02:43:48",
         "source": "github_action",
         "candidate": "Satrio Bekti Wibowo",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-22 02:44:19",
+        "source": "github_action",
+        "candidate": "Hendi Candra",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
