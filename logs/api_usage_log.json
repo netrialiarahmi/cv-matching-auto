@@ -10731,23 +10731,16 @@
     ]
   },
   "2026-04-22": {
-    "total": 123,
+    "total": 124,
     "streamlit": 0,
-    "github_action": 123,
-    "successful": 123,
+    "github_action": 124,
+    "successful": 124,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 23
+      "Reporter Nasional": 24
     },
     "entries": [
-      {
-        "timestamp": "2026-04-22 02:52:59",
-        "source": "github_action",
-        "candidate": "Anggitaniko  Shiba",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-22 02:53:29",
         "source": "github_action",
@@ -11438,6 +11431,13 @@
         "timestamp": "2026-04-22 03:43:19",
         "source": "github_action",
         "candidate": "Otto Hari Febra Maheswara",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-22 03:43:51",
+        "source": "github_action",
+        "candidate": "Fraya Diaz Rasyade",
         "position": "Reporter Nasional",
         "success": true
       }
