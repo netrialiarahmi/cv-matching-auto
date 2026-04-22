@@ -10731,23 +10731,16 @@
     ]
   },
   "2026-04-22": {
-    "total": 116,
+    "total": 117,
     "streamlit": 0,
-    "github_action": 116,
-    "successful": 116,
+    "github_action": 117,
+    "successful": 117,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 16
+      "Reporter Nasional": 17
     },
     "entries": [
-      {
-        "timestamp": "2026-04-22 02:49:47",
-        "source": "github_action",
-        "candidate": "Meilida  Imelia",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-22 02:50:18",
         "source": "github_action",
@@ -11438,6 +11431,13 @@
         "timestamp": "2026-04-22 03:39:34",
         "source": "github_action",
         "candidate": "Muhammad  Noor",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-22 03:40:11",
+        "source": "github_action",
+        "candidate": "Muhammad Arief  Adhistyo Hidayat",
         "position": "Reporter Nasional",
         "success": true
       }
