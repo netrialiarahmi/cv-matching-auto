@@ -10731,13 +10731,13 @@
     ]
   },
   "2026-04-22": {
-    "total": 23,
+    "total": 24,
     "streamlit": 0,
-    "github_action": 23,
-    "successful": 23,
+    "github_action": 24,
+    "successful": 24,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 23
+      "Marketing Communication Officer KG Media": 24
     },
     "entries": [
       {
@@ -10898,6 +10898,13 @@
         "timestamp": "2026-04-22 02:52:24",
         "source": "github_action",
         "candidate": "Shabila Aulia",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-22 02:52:59",
+        "source": "github_action",
+        "candidate": "Anggitaniko  Shiba",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
