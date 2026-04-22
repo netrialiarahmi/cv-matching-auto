@@ -10731,25 +10731,18 @@
     ]
   },
   "2026-04-22": {
-    "total": 489,
+    "total": 490,
     "streamlit": 0,
-    "github_action": 489,
-    "successful": 489,
+    "github_action": 490,
+    "successful": 490,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 200,
       "Reporter Nasional": 162,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 27
+      "Account Executive VCBL": 28
     },
     "entries": [
-      {
-        "timestamp": "2026-04-22 05:49:31",
-        "source": "github_action",
-        "candidate": "Kadek Nia Widiartini",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-22 05:50:02",
         "source": "github_action",
@@ -11440,6 +11433,13 @@
         "timestamp": "2026-04-22 06:38:09",
         "source": "github_action",
         "candidate": "Hafidh Muhammad Ibnu Sina",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-22 06:38:12",
+        "source": "github_action",
+        "candidate": "Dwi Syahra",
         "position": "Account Executive VCBL",
         "success": true
       }
