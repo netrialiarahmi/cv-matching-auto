@@ -10731,13 +10731,13 @@
     ]
   },
   "2026-04-22": {
-    "total": 15,
+    "total": 16,
     "streamlit": 0,
-    "github_action": 15,
-    "successful": 15,
+    "github_action": 16,
+    "successful": 16,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 15
+      "Marketing Communication Officer KG Media": 16
     },
     "entries": [
       {
@@ -10842,6 +10842,13 @@
         "timestamp": "2026-04-22 02:48:40",
         "source": "github_action",
         "candidate": "Lifta Febia Adhani",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-22 02:49:13",
+        "source": "github_action",
+        "candidate": "Shifa Aulia Rizky",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
