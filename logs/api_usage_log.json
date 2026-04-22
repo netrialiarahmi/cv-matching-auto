@@ -10731,25 +10731,18 @@
     ]
   },
   "2026-04-22": {
-    "total": 541,
+    "total": 542,
     "streamlit": 0,
-    "github_action": 541,
-    "successful": 541,
+    "github_action": 542,
+    "successful": 542,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 200,
       "Reporter Nasional": 162,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 79
+      "Account Executive VCBL": 80
     },
     "entries": [
-      {
-        "timestamp": "2026-04-22 06:17:41",
-        "source": "github_action",
-        "candidate": "Muhammad Irsyad Hawari",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-22 06:18:08",
         "source": "github_action",
@@ -11440,6 +11433,13 @@
         "timestamp": "2026-04-22 07:00:43",
         "source": "github_action",
         "candidate": "Azka Putrie",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-22 07:01:10",
+        "source": "github_action",
+        "candidate": "Reyhan Dzaky",
         "position": "Account Executive VCBL",
         "success": true
       }
