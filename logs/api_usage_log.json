@@ -10731,23 +10731,16 @@
     ]
   },
   "2026-04-22": {
-    "total": 170,
+    "total": 171,
     "streamlit": 0,
-    "github_action": 170,
-    "successful": 170,
+    "github_action": 171,
+    "successful": 171,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 108,
+      "Marketing Communication Officer KG Media": 109,
       "Reporter Nasional": 62
     },
     "entries": [
-      {
-        "timestamp": "2026-04-22 03:17:09",
-        "source": "github_action",
-        "candidate": "Maulidina Nur Salam",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-22 03:17:40",
         "source": "github_action",
@@ -11438,6 +11431,13 @@
         "timestamp": "2026-04-22 04:06:14",
         "source": "github_action",
         "candidate": "Muhamad Naufal Ridho",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-22 04:06:17",
+        "source": "github_action",
+        "candidate": "Regina Angelita",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
