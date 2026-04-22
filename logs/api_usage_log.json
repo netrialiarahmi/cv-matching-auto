@@ -10731,23 +10731,16 @@
     ]
   },
   "2026-04-22": {
-    "total": 144,
+    "total": 145,
     "streamlit": 0,
-    "github_action": 144,
-    "successful": 144,
+    "github_action": 145,
+    "successful": 145,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 44
+      "Reporter Nasional": 45
     },
     "entries": [
-      {
-        "timestamp": "2026-04-22 03:03:29",
-        "source": "github_action",
-        "candidate": "Mira  Andiani",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-22 03:04:05",
         "source": "github_action",
@@ -11438,6 +11431,13 @@
         "timestamp": "2026-04-22 03:52:42",
         "source": "github_action",
         "candidate": "Ilham Maulana",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-22 03:53:09",
+        "source": "github_action",
+        "candidate": "Carlo Alesandrino Pranata",
         "position": "Reporter Nasional",
         "success": true
       }
