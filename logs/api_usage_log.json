@@ -10731,25 +10731,18 @@
     ]
   },
   "2026-04-22": {
-    "total": 552,
+    "total": 553,
     "streamlit": 0,
-    "github_action": 552,
-    "successful": 552,
+    "github_action": 553,
+    "successful": 553,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 200,
       "Reporter Nasional": 162,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 90
+      "Account Executive VCBL": 91
     },
     "entries": [
-      {
-        "timestamp": "2026-04-22 06:21:52",
-        "source": "github_action",
-        "candidate": "Muhammad Daffa Fadhilah",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-22 06:22:25",
         "source": "github_action",
@@ -11440,6 +11433,13 @@
         "timestamp": "2026-04-22 07:05:37",
         "source": "github_action",
         "candidate": "Putri Nur Farida",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-22 07:06:06",
+        "source": "github_action",
+        "candidate": "Tracy Silalahi",
         "position": "Account Executive VCBL",
         "success": true
       }
