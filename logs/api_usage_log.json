@@ -10731,25 +10731,18 @@
     ]
   },
   "2026-04-22": {
-    "total": 379,
+    "total": 380,
     "streamlit": 0,
-    "github_action": 379,
-    "successful": 379,
+    "github_action": 380,
+    "successful": 380,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 79
+      "Account Executive VCBL": 80
     },
     "entries": [
-      {
-        "timestamp": "2026-04-22 04:58:40",
-        "source": "github_action",
-        "candidate": "Vannessa Handini Dhewa Putri",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-22 04:59:12",
         "source": "github_action",
@@ -11440,6 +11433,13 @@
         "timestamp": "2026-04-22 05:42:05",
         "source": "github_action",
         "candidate": "yohan wahyudi",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-22 05:42:08",
+        "source": "github_action",
+        "candidate": "Hafizh Jawas",
         "position": "Account Executive VCBL",
         "success": true
       }
