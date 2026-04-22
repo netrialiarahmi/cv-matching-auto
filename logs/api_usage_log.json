@@ -10731,24 +10731,17 @@
     ]
   },
   "2026-04-22": {
-    "total": 209,
+    "total": 210,
     "streamlit": 0,
-    "github_action": 209,
-    "successful": 209,
+    "github_action": 210,
+    "successful": 210,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
-      "Business Development Analyst": 9
+      "Business Development Analyst": 10
     },
     "entries": [
-      {
-        "timestamp": "2026-04-22 03:36:28",
-        "source": "github_action",
-        "candidate": "Gilang pramudia",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-22 03:37:01",
         "source": "github_action",
@@ -11439,6 +11432,13 @@
         "timestamp": "2026-04-22 04:23:38",
         "source": "github_action",
         "candidate": "Putri Hernawati",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-22 04:23:41",
+        "source": "github_action",
+        "candidate": "Sri Cintia Dewi",
         "position": "Business Development Analyst",
         "success": true
       }
