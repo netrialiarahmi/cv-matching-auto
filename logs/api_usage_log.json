@@ -10731,24 +10731,17 @@
     ]
   },
   "2026-04-22": {
-    "total": 422,
+    "total": 423,
     "streamlit": 0,
-    "github_action": 422,
-    "successful": 422,
+    "github_action": 423,
+    "successful": 423,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 200,
       "Reporter Nasional": 162,
-      "Business Development Analyst": 60
+      "Business Development Analyst": 61
     },
     "entries": [
-      {
-        "timestamp": "2026-04-22 05:18:32",
-        "source": "github_action",
-        "candidate": "Salma Shalsabilla",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-22 05:18:58",
         "source": "github_action",
@@ -11439,6 +11432,13 @@
         "timestamp": "2026-04-22 06:08:06",
         "source": "github_action",
         "candidate": "Adelya Vasya Maharani",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-22 06:08:38",
+        "source": "github_action",
+        "candidate": "KEMAL AL KAUTSAR MABRURI",
         "position": "Business Development Analyst",
         "success": true
       }
