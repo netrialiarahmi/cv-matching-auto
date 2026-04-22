@@ -10731,23 +10731,16 @@
     ]
   },
   "2026-04-22": {
-    "total": 152,
+    "total": 153,
     "streamlit": 0,
-    "github_action": 152,
-    "successful": 152,
+    "github_action": 153,
+    "successful": 153,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 52
+      "Reporter Nasional": 53
     },
     "entries": [
-      {
-        "timestamp": "2026-04-22 03:07:28",
-        "source": "github_action",
-        "candidate": "Farras Shofi M",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-22 03:08:03",
         "source": "github_action",
@@ -11438,6 +11431,13 @@
         "timestamp": "2026-04-22 03:56:37",
         "source": "github_action",
         "candidate": "Therresia Maria Magdalena Morais",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-22 03:57:05",
+        "source": "github_action",
+        "candidate": "Thoriq Baihaqi Firdaus",
         "position": "Reporter Nasional",
         "success": true
       }
