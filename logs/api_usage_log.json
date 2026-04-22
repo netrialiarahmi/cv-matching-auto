@@ -10731,23 +10731,16 @@
     ]
   },
   "2026-04-22": {
-    "total": 360,
+    "total": 361,
     "streamlit": 0,
-    "github_action": 360,
-    "successful": 360,
+    "github_action": 361,
+    "successful": 361,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 200,
-      "Reporter Nasional": 160
+      "Reporter Nasional": 161
     },
     "entries": [
-      {
-        "timestamp": "2026-04-22 04:51:25",
-        "source": "github_action",
-        "candidate": "Evelyn Inly",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-22 04:51:53",
         "source": "github_action",
@@ -11438,6 +11431,13 @@
         "timestamp": "2026-04-22 05:35:26",
         "source": "github_action",
         "candidate": "Turangga Raflihuda",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-22 05:35:29",
+        "source": "github_action",
+        "candidate": "Destya Aulia Hafifah",
         "position": "Reporter Nasional",
         "success": true
       }
