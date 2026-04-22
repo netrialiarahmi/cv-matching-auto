@@ -10731,23 +10731,16 @@
     ]
   },
   "2026-04-22": {
-    "total": 135,
+    "total": 136,
     "streamlit": 0,
-    "github_action": 135,
-    "successful": 135,
+    "github_action": 136,
+    "successful": 136,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 35
+      "Reporter Nasional": 36
     },
     "entries": [
-      {
-        "timestamp": "2026-04-22 02:59:01",
-        "source": "github_action",
-        "candidate": "Azri Tryas Muqita",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-22 02:59:34",
         "source": "github_action",
@@ -11438,6 +11431,13 @@
         "timestamp": "2026-04-22 03:48:25",
         "source": "github_action",
         "candidate": "Corry Salsabilla",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-22 03:48:56",
+        "source": "github_action",
+        "candidate": "Muhammad Iqbal",
         "position": "Reporter Nasional",
         "success": true
       }
