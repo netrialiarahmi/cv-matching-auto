@@ -10731,23 +10731,16 @@
     ]
   },
   "2026-04-22": {
-    "total": 151,
+    "total": 152,
     "streamlit": 0,
-    "github_action": 151,
-    "successful": 151,
+    "github_action": 152,
+    "successful": 152,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 51
+      "Reporter Nasional": 52
     },
     "entries": [
-      {
-        "timestamp": "2026-04-22 03:06:54",
-        "source": "github_action",
-        "candidate": "Muhammad Rafli",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-22 03:07:28",
         "source": "github_action",
@@ -11438,6 +11431,13 @@
         "timestamp": "2026-04-22 03:56:10",
         "source": "github_action",
         "candidate": "Sabrina  Ariani",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-22 03:56:37",
+        "source": "github_action",
+        "candidate": "Therresia Maria Magdalena Morais",
         "position": "Reporter Nasional",
         "success": true
       }
