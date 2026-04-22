@@ -10731,13 +10731,13 @@
     ]
   },
   "2026-04-22": {
-    "total": 20,
+    "total": 21,
     "streamlit": 0,
-    "github_action": 20,
-    "successful": 20,
+    "github_action": 21,
+    "successful": 21,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 20
+      "Marketing Communication Officer KG Media": 21
     },
     "entries": [
       {
@@ -10877,6 +10877,13 @@
         "timestamp": "2026-04-22 02:50:52",
         "source": "github_action",
         "candidate": "Davina Ristana Iswari Santosa",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-22 02:51:22",
+        "source": "github_action",
+        "candidate": "Dionisius Aryandra Primantara",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
