@@ -10731,23 +10731,16 @@
     ]
   },
   "2026-04-22": {
-    "total": 130,
+    "total": 131,
     "streamlit": 0,
-    "github_action": 130,
-    "successful": 130,
+    "github_action": 131,
+    "successful": 131,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 30
+      "Reporter Nasional": 31
     },
     "entries": [
-      {
-        "timestamp": "2026-04-22 02:56:45",
-        "source": "github_action",
-        "candidate": "Farhan Razzak M",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-22 02:56:49",
         "source": "github_action",
@@ -11438,6 +11431,13 @@
         "timestamp": "2026-04-22 03:45:53",
         "source": "github_action",
         "candidate": "Gaswara Utama",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-22 03:46:23",
+        "source": "github_action",
+        "candidate": "Gita Putri",
         "position": "Reporter Nasional",
         "success": true
       }
