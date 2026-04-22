@@ -10731,23 +10731,16 @@
     ]
   },
   "2026-04-22": {
-    "total": 137,
+    "total": 138,
     "streamlit": 0,
-    "github_action": 137,
-    "successful": 137,
+    "github_action": 138,
+    "successful": 138,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 37
+      "Reporter Nasional": 38
     },
     "entries": [
-      {
-        "timestamp": "2026-04-22 03:00:09",
-        "source": "github_action",
-        "candidate": "Ayu Puji Lestari",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-22 03:00:12",
         "source": "github_action",
@@ -11438,6 +11431,13 @@
         "timestamp": "2026-04-22 03:49:30",
         "source": "github_action",
         "candidate": "Dinar Indrani",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-22 03:50:10",
+        "source": "github_action",
+        "candidate": "Devita Nur Azizah",
         "position": "Reporter Nasional",
         "success": true
       }
