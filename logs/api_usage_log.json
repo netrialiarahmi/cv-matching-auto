@@ -10731,25 +10731,18 @@
     ]
   },
   "2026-04-22": {
-    "total": 537,
+    "total": 538,
     "streamlit": 0,
-    "github_action": 537,
-    "successful": 537,
+    "github_action": 538,
+    "successful": 538,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 200,
       "Reporter Nasional": 162,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 75
+      "Account Executive VCBL": 76
     },
     "entries": [
-      {
-        "timestamp": "2026-04-22 06:15:32",
-        "source": "github_action",
-        "candidate": "Maheswari Adriyani Soeharto",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-22 06:15:59",
         "source": "github_action",
@@ -11440,6 +11433,13 @@
         "timestamp": "2026-04-22 06:58:48",
         "source": "github_action",
         "candidate": "Alif Rizky Fadhillah",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-22 06:59:15",
+        "source": "github_action",
+        "candidate": "Sherina Agustina",
         "position": "Account Executive VCBL",
         "success": true
       }
