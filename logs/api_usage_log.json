@@ -10731,23 +10731,16 @@
     ]
   },
   "2026-04-22": {
-    "total": 128,
+    "total": 129,
     "streamlit": 0,
-    "github_action": 128,
-    "successful": 128,
+    "github_action": 129,
+    "successful": 129,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 28
+      "Reporter Nasional": 29
     },
     "entries": [
-      {
-        "timestamp": "2026-04-22 02:55:37",
-        "source": "github_action",
-        "candidate": "Firmansyah 21",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-22 02:56:08",
         "source": "github_action",
@@ -11438,6 +11431,13 @@
         "timestamp": "2026-04-22 03:44:55",
         "source": "github_action",
         "candidate": "Maulina Amaliya",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-22 03:45:24",
+        "source": "github_action",
+        "candidate": "Isti Annura Hadistiani",
         "position": "Reporter Nasional",
         "success": true
       }
