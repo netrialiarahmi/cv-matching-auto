@@ -10731,13 +10731,13 @@
     ]
   },
   "2026-04-22": {
-    "total": 44,
+    "total": 45,
     "streamlit": 0,
-    "github_action": 44,
-    "successful": 44,
+    "github_action": 45,
+    "successful": 45,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 44
+      "Marketing Communication Officer KG Media": 45
     },
     "entries": [
       {
@@ -11045,6 +11045,13 @@
         "timestamp": "2026-04-22 03:02:58",
         "source": "github_action",
         "candidate": "Fathan Alamsyah",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-22 03:03:29",
+        "source": "github_action",
+        "candidate": "Mira  Andiani",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
