@@ -10731,13 +10731,13 @@
     ]
   },
   "2026-04-22": {
-    "total": 25,
+    "total": 26,
     "streamlit": 0,
-    "github_action": 25,
-    "successful": 25,
+    "github_action": 26,
+    "successful": 26,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 25
+      "Marketing Communication Officer KG Media": 26
     },
     "entries": [
       {
@@ -10912,6 +10912,13 @@
         "timestamp": "2026-04-22 02:53:29",
         "source": "github_action",
         "candidate": "Mega Leoni Pane",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-22 02:54:00",
+        "source": "github_action",
+        "candidate": "muhamad syauqi",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
