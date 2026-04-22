@@ -10731,25 +10731,18 @@
     ]
   },
   "2026-04-22": {
-    "total": 533,
+    "total": 534,
     "streamlit": 0,
-    "github_action": 533,
-    "successful": 533,
+    "github_action": 534,
+    "successful": 534,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 200,
       "Reporter Nasional": 162,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 71
+      "Account Executive VCBL": 72
     },
     "entries": [
-      {
-        "timestamp": "2026-04-22 06:14:03",
-        "source": "github_action",
-        "candidate": "Danang Permana",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-22 06:14:29",
         "source": "github_action",
@@ -11440,6 +11433,13 @@
         "timestamp": "2026-04-22 06:57:16",
         "source": "github_action",
         "candidate": "Mohamad Dani Setiawardi",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-22 06:57:50",
+        "source": "github_action",
+        "candidate": "Fatmawati",
         "position": "Account Executive VCBL",
         "success": true
       }
