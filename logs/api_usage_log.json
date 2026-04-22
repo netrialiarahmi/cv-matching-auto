@@ -10731,24 +10731,17 @@
     ]
   },
   "2026-04-22": {
-    "total": 400,
+    "total": 401,
     "streamlit": 0,
-    "github_action": 400,
-    "successful": 400,
+    "github_action": 401,
+    "successful": 401,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 200,
       "Reporter Nasional": 162,
-      "Business Development Analyst": 38
+      "Business Development Analyst": 39
     },
     "entries": [
-      {
-        "timestamp": "2026-04-22 05:08:52",
-        "source": "github_action",
-        "candidate": "Tresye Alfa Ega  Turang",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-22 05:09:18",
         "source": "github_action",
@@ -11439,6 +11432,13 @@
         "timestamp": "2026-04-22 05:54:27",
         "source": "github_action",
         "candidate": "Fatimah Nurul Jamilah",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-22 05:54:55",
+        "source": "github_action",
+        "candidate": "Naufal  Hudaya",
         "position": "Business Development Analyst",
         "success": true
       }
