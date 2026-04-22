@@ -10731,23 +10731,16 @@
     ]
   },
   "2026-04-22": {
-    "total": 176,
+    "total": 177,
     "streamlit": 0,
-    "github_action": 176,
-    "successful": 176,
+    "github_action": 177,
+    "successful": 177,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 76
+      "Reporter Nasional": 77
     },
     "entries": [
-      {
-        "timestamp": "2026-04-22 03:20:26",
-        "source": "github_action",
-        "candidate": "Ali Farhan Akhmad",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-22 03:21:02",
         "source": "github_action",
@@ -11438,6 +11431,13 @@
         "timestamp": "2026-04-22 04:08:12",
         "source": "github_action",
         "candidate": "Sholahuddin Al Ayyubi",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-22 04:08:16",
+        "source": "github_action",
+        "candidate": "Nuzulul Magfiroh",
         "position": "Reporter Nasional",
         "success": true
       }
