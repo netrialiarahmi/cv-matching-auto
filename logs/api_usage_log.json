@@ -10731,23 +10731,16 @@
     ]
   },
   "2026-04-22": {
-    "total": 195,
+    "total": 196,
     "streamlit": 0,
-    "github_action": 195,
-    "successful": 195,
+    "github_action": 196,
+    "successful": 196,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 95
+      "Reporter Nasional": 96
     },
     "entries": [
-      {
-        "timestamp": "2026-04-22 03:30:08",
-        "source": "github_action",
-        "candidate": "Tegar Ageng Pambudi",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-22 03:30:41",
         "source": "github_action",
@@ -11438,6 +11431,13 @@
         "timestamp": "2026-04-22 04:16:39",
         "source": "github_action",
         "candidate": "Shella Utari Heldani",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-22 04:17:05",
+        "source": "github_action",
+        "candidate": "Nurul Rahma",
         "position": "Reporter Nasional",
         "success": true
       }
