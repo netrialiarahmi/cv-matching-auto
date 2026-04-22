@@ -10731,13 +10731,13 @@
     ]
   },
   "2026-04-22": {
-    "total": 47,
+    "total": 48,
     "streamlit": 0,
-    "github_action": 47,
-    "successful": 47,
+    "github_action": 48,
+    "successful": 48,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 47
+      "Marketing Communication Officer KG Media": 48
     },
     "entries": [
       {
@@ -11066,6 +11066,13 @@
         "timestamp": "2026-04-22 03:04:39",
         "source": "github_action",
         "candidate": "Lastri Ayu Lestari",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-22 03:04:43",
+        "source": "github_action",
+        "candidate": "Athar Hisyam",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
