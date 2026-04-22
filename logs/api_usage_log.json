@@ -10731,13 +10731,13 @@
     ]
   },
   "2026-04-22": {
-    "total": 97,
+    "total": 98,
     "streamlit": 0,
-    "github_action": 97,
-    "successful": 97,
+    "github_action": 98,
+    "successful": 98,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 97
+      "Marketing Communication Officer KG Media": 98
     },
     "entries": [
       {
@@ -11416,6 +11416,13 @@
         "timestamp": "2026-04-22 03:30:41",
         "source": "github_action",
         "candidate": "M Rifaldi fadli",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-22 03:31:13",
+        "source": "github_action",
+        "candidate": "Dayinta Ayuning Aribhumi",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
