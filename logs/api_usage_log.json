@@ -10731,25 +10731,18 @@
     ]
   },
   "2026-04-22": {
-    "total": 495,
+    "total": 496,
     "streamlit": 0,
-    "github_action": 495,
-    "successful": 495,
+    "github_action": 496,
+    "successful": 496,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 200,
       "Reporter Nasional": 162,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 33
+      "Account Executive VCBL": 34
     },
     "entries": [
-      {
-        "timestamp": "2026-04-22 05:52:32",
-        "source": "github_action",
-        "candidate": "Salsabila Posmaryana Utami",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-22 05:52:59",
         "source": "github_action",
@@ -11440,6 +11433,13 @@
         "timestamp": "2026-04-22 06:40:15",
         "source": "github_action",
         "candidate": "Dwiky Satria",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-22 06:40:43",
+        "source": "github_action",
+        "candidate": "Syarif Antoni",
         "position": "Account Executive VCBL",
         "success": true
       }
