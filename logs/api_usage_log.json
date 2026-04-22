@@ -10731,23 +10731,16 @@
     ]
   },
   "2026-04-22": {
-    "total": 106,
+    "total": 107,
     "streamlit": 0,
-    "github_action": 106,
-    "successful": 106,
+    "github_action": 107,
+    "successful": 107,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 6
+      "Reporter Nasional": 7
     },
     "entries": [
-      {
-        "timestamp": "2026-04-22 02:44:19",
-        "source": "github_action",
-        "candidate": "Hendi Candra",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-22 02:44:47",
         "source": "github_action",
@@ -11438,6 +11431,13 @@
         "timestamp": "2026-04-22 03:34:52",
         "source": "github_action",
         "candidate": "sitinurfadilamopi sitinurfadilamopi",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-22 03:34:57",
+        "source": "github_action",
+        "candidate": "Ade krisna Rivaldy",
         "position": "Reporter Nasional",
         "success": true
       }
