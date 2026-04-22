@@ -10731,30 +10731,16 @@
     ]
   },
   "2026-04-22": {
-    "total": 165,
+    "total": 167,
     "streamlit": 0,
-    "github_action": 165,
-    "successful": 165,
+    "github_action": 167,
+    "successful": 167,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 103,
-      "Reporter Nasional": 62
+      "Marketing Communication Officer KG Media": 100,
+      "Reporter Nasional": 67
     },
     "entries": [
-      {
-        "timestamp": "2026-04-22 03:14:34",
-        "source": "github_action",
-        "candidate": "Fahreza Oktavian",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
-      {
-        "timestamp": "2026-04-22 03:15:03",
-        "source": "github_action",
-        "candidate": "Rio Adryawan",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-22 03:15:36",
         "source": "github_action",
@@ -11421,24 +11407,38 @@
         "success": true
       },
       {
-        "timestamp": "2026-04-22 04:02:21",
+        "timestamp": "2026-04-22 04:01:46",
         "source": "github_action",
-        "candidate": "Rio Valentino",
-        "position": "Marketing Communication Officer KG Media",
+        "candidate": "Dimas Candra",
+        "position": "Reporter Nasional",
         "success": true
       },
       {
-        "timestamp": "2026-04-22 04:02:49",
+        "timestamp": "2026-04-22 04:01:49",
         "source": "github_action",
-        "candidate": "Rena Dwi",
-        "position": "Marketing Communication Officer KG Media",
+        "candidate": "Aziizah Azhaar",
+        "position": "Reporter Nasional",
         "success": true
       },
       {
-        "timestamp": "2026-04-22 04:03:23",
+        "timestamp": "2026-04-22 04:02:25",
         "source": "github_action",
-        "candidate": "Ali Farhan Akhmad",
-        "position": "Marketing Communication Officer KG Media",
+        "candidate": "Sukriwan  Ramadhan",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-22 04:02:55",
+        "source": "github_action",
+        "candidate": "Salma Shalsabilla",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-22 04:03:29",
+        "source": "github_action",
+        "candidate": "Muhammad Fadli Sinatrya",
+        "position": "Reporter Nasional",
         "success": true
       }
     ]
