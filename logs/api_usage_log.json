@@ -10731,16 +10731,23 @@
     ]
   },
   "2026-04-22": {
-    "total": 166,
+    "total": 165,
     "streamlit": 0,
-    "github_action": 166,
-    "successful": 166,
+    "github_action": 165,
+    "successful": 165,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 66
+      "Marketing Communication Officer KG Media": 103,
+      "Reporter Nasional": 62
     },
     "entries": [
+      {
+        "timestamp": "2026-04-22 03:14:34",
+        "source": "github_action",
+        "candidate": "Fahreza Oktavian",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
       {
         "timestamp": "2026-04-22 03:15:03",
         "source": "github_action",
@@ -11414,31 +11421,24 @@
         "success": true
       },
       {
-        "timestamp": "2026-04-22 04:01:46",
+        "timestamp": "2026-04-22 04:02:21",
         "source": "github_action",
-        "candidate": "Dimas Candra",
-        "position": "Reporter Nasional",
+        "candidate": "Rio Valentino",
+        "position": "Marketing Communication Officer KG Media",
         "success": true
       },
       {
-        "timestamp": "2026-04-22 04:01:49",
+        "timestamp": "2026-04-22 04:02:49",
         "source": "github_action",
-        "candidate": "Aziizah Azhaar",
-        "position": "Reporter Nasional",
+        "candidate": "Rena Dwi",
+        "position": "Marketing Communication Officer KG Media",
         "success": true
       },
       {
-        "timestamp": "2026-04-22 04:02:25",
+        "timestamp": "2026-04-22 04:03:23",
         "source": "github_action",
-        "candidate": "Sukriwan  Ramadhan",
-        "position": "Reporter Nasional",
-        "success": true
-      },
-      {
-        "timestamp": "2026-04-22 04:02:55",
-        "source": "github_action",
-        "candidate": "Salma Shalsabilla",
-        "position": "Reporter Nasional",
+        "candidate": "Ali Farhan Akhmad",
+        "position": "Marketing Communication Officer KG Media",
         "success": true
       }
     ]
