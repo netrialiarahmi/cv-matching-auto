@@ -10731,25 +10731,18 @@
     ]
   },
   "2026-04-22": {
-    "total": 498,
+    "total": 499,
     "streamlit": 0,
-    "github_action": 498,
-    "successful": 498,
+    "github_action": 499,
+    "successful": 499,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 200,
       "Reporter Nasional": 162,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 36
+      "Account Executive VCBL": 37
     },
     "entries": [
-      {
-        "timestamp": "2026-04-22 05:53:56",
-        "source": "github_action",
-        "candidate": "Arve Barus",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-22 05:54:27",
         "source": "github_action",
@@ -11440,6 +11433,13 @@
         "timestamp": "2026-04-22 06:41:51",
         "source": "github_action",
         "candidate": "Amyra Amalia Aqila",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-22 06:42:24",
+        "source": "github_action",
+        "candidate": "Nisa Nur Amalia",
         "position": "Account Executive VCBL",
         "success": true
       }
