@@ -10731,23 +10731,16 @@
     ]
   },
   "2026-04-22": {
-    "total": 131,
+    "total": 132,
     "streamlit": 0,
-    "github_action": 131,
-    "successful": 131,
+    "github_action": 132,
+    "successful": 132,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 31
+      "Reporter Nasional": 32
     },
     "entries": [
-      {
-        "timestamp": "2026-04-22 02:56:49",
-        "source": "github_action",
-        "candidate": "Frisna silvilia berutu Frisna",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-22 02:57:23",
         "source": "github_action",
@@ -11438,6 +11431,13 @@
         "timestamp": "2026-04-22 03:46:23",
         "source": "github_action",
         "candidate": "Gita Putri",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-22 03:46:54",
+        "source": "github_action",
+        "candidate": "Revo Anggara",
         "position": "Reporter Nasional",
         "success": true
       }
