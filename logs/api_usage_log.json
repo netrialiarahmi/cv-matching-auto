@@ -10731,25 +10731,18 @@
     ]
   },
   "2026-04-22": {
-    "total": 525,
+    "total": 526,
     "streamlit": 0,
-    "github_action": 525,
-    "successful": 525,
+    "github_action": 526,
+    "successful": 526,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 200,
       "Reporter Nasional": 162,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 63
+      "Account Executive VCBL": 64
     },
     "entries": [
-      {
-        "timestamp": "2026-04-22 06:10:07",
-        "source": "github_action",
-        "candidate": "Rio Fabianto",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-22 06:10:36",
         "source": "github_action",
@@ -11440,6 +11433,13 @@
         "timestamp": "2026-04-22 06:53:43",
         "source": "github_action",
         "candidate": "Agus Nur Habib",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-22 06:54:13",
+        "source": "github_action",
+        "candidate": "Sindy Rosita",
         "position": "Account Executive VCBL",
         "success": true
       }
