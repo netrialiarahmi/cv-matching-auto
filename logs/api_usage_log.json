@@ -10731,23 +10731,16 @@
     ]
   },
   "2026-04-22": {
-    "total": 237,
+    "total": 238,
     "streamlit": 0,
-    "github_action": 237,
-    "successful": 237,
+    "github_action": 238,
+    "successful": 238,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 175,
+      "Marketing Communication Officer KG Media": 176,
       "Reporter Nasional": 62
     },
     "entries": [
-      {
-        "timestamp": "2026-04-22 03:50:10",
-        "source": "github_action",
-        "candidate": "Devita Nur Azizah",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-22 03:50:40",
         "source": "github_action",
@@ -11438,6 +11431,13 @@
         "timestamp": "2026-04-22 04:40:03",
         "source": "github_action",
         "candidate": "Halim Zunurain",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-22 04:40:06",
+        "source": "github_action",
+        "candidate": "Axel Hans Kristian",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
