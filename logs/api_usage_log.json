@@ -10731,24 +10731,17 @@
     ]
   },
   "2026-04-22": {
-    "total": 442,
+    "total": 443,
     "streamlit": 0,
-    "github_action": 442,
-    "successful": 442,
+    "github_action": 443,
+    "successful": 443,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 200,
       "Reporter Nasional": 162,
-      "Business Development Analyst": 80
+      "Business Development Analyst": 81
     },
     "entries": [
-      {
-        "timestamp": "2026-04-22 05:26:55",
-        "source": "github_action",
-        "candidate": "Wildan Adil Hilba",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-22 05:27:24",
         "source": "github_action",
@@ -11439,6 +11432,13 @@
         "timestamp": "2026-04-22 06:17:41",
         "source": "github_action",
         "candidate": "Muhammad Irsyad Hawari",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-22 06:18:08",
+        "source": "github_action",
+        "candidate": "MERCY GAYATRI",
         "position": "Business Development Analyst",
         "success": true
       }
