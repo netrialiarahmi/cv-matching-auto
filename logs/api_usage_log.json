@@ -10731,25 +10731,18 @@
     ]
   },
   "2026-04-22": {
-    "total": 383,
+    "total": 384,
     "streamlit": 0,
-    "github_action": 383,
-    "successful": 383,
+    "github_action": 384,
+    "successful": 384,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 83
+      "Account Executive VCBL": 84
     },
     "entries": [
-      {
-        "timestamp": "2026-04-22 05:00:18",
-        "source": "github_action",
-        "candidate": "Farid Faqih Kusuma Budi",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-22 05:00:48",
         "source": "github_action",
@@ -11440,6 +11433,13 @@
         "timestamp": "2026-04-22 05:43:36",
         "source": "github_action",
         "candidate": "Aprilia Finanda",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-22 05:43:39",
+        "source": "github_action",
+        "candidate": "Gilang Rizky Akbar",
         "position": "Account Executive VCBL",
         "success": true
       }
