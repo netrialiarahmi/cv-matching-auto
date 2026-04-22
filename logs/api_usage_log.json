@@ -10731,13 +10731,13 @@
     ]
   },
   "2026-04-22": {
-    "total": 69,
+    "total": 70,
     "streamlit": 0,
-    "github_action": 69,
-    "successful": 69,
+    "github_action": 70,
+    "successful": 70,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 69
+      "Marketing Communication Officer KG Media": 70
     },
     "entries": [
       {
@@ -11220,6 +11220,13 @@
         "timestamp": "2026-04-22 03:16:08",
         "source": "github_action",
         "candidate": "Kholil Aziz",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-22 03:16:38",
+        "source": "github_action",
+        "candidate": "Karina Azka Tridewi",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
