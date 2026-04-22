@@ -10731,13 +10731,13 @@
     ]
   },
   "2026-04-22": {
-    "total": 9,
+    "total": 10,
     "streamlit": 0,
-    "github_action": 9,
-    "successful": 9,
+    "github_action": 10,
+    "successful": 10,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 9
+      "Marketing Communication Officer KG Media": 10
     },
     "entries": [
       {
@@ -10800,6 +10800,13 @@
         "timestamp": "2026-04-22 02:45:22",
         "source": "github_action",
         "candidate": "Bayu Altaer",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-22 02:45:52",
+        "source": "github_action",
+        "candidate": "Novita Rahmawati",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
