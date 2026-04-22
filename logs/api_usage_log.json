@@ -10731,714 +10731,716 @@
     ]
   },
   "2026-04-22": {
-    "total": 346,
+    "total": 349,
     "streamlit": 0,
-    "github_action": 346,
-    "successful": 346,
+    "github_action": 349,
+    "successful": 349,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 200,
-      "Reporter Nasional": 146
+      "Marketing Communication Officer KG Media": 100,
+      "Reporter Nasional": 100,
+      "Business Development Analyst": 100,
+      "Account Executive VCBL": 49
     },
     "entries": [
       {
-        "timestamp": "2026-04-22 04:45:02",
+        "timestamp": "2026-04-22 04:43:48",
         "source": "github_action",
-        "candidate": "Harieza Noor Azmie",
-        "position": "Marketing Communication Officer KG Media",
+        "candidate": "Rafif Murti rizky",
+        "position": "Business Development Analyst",
         "success": true
       },
       {
-        "timestamp": "2026-04-22 04:45:34",
+        "timestamp": "2026-04-22 04:44:18",
         "source": "github_action",
-        "candidate": "Febiana Nur Azizah",
-        "position": "Marketing Communication Officer KG Media",
+        "candidate": "Pinta Rohmada Rahayu",
+        "position": "Business Development Analyst",
         "success": true
       },
       {
-        "timestamp": "2026-04-22 04:45:37",
+        "timestamp": "2026-04-22 04:44:50",
         "source": "github_action",
-        "candidate": "Muhamad Yusuf Hasyim",
-        "position": "Marketing Communication Officer KG Media",
+        "candidate": "Renata Elsa",
+        "position": "Business Development Analyst",
         "success": true
       },
       {
-        "timestamp": "2026-04-22 04:45:40",
+        "timestamp": "2026-04-22 04:45:23",
         "source": "github_action",
-        "candidate": "Muhammad Irhaz Adha A. Basyah",
-        "position": "Marketing Communication Officer KG Media",
+        "candidate": "Ernest Silalahi",
+        "position": "Business Development Analyst",
         "success": true
       },
       {
-        "timestamp": "2026-04-22 04:46:12",
+        "timestamp": "2026-04-22 04:45:54",
         "source": "github_action",
-        "candidate": "Nadia Tarisa Rizki Indah",
-        "position": "Marketing Communication Officer KG Media",
+        "candidate": "Galuh Kinanthi Rahardjo",
+        "position": "Business Development Analyst",
         "success": true
       },
       {
-        "timestamp": "2026-04-22 04:46:46",
+        "timestamp": "2026-04-22 04:46:27",
         "source": "github_action",
-        "candidate": "Quinta Elvira Rosiana Sipahutar",
-        "position": "Marketing Communication Officer KG Media",
+        "candidate": "Indhira Amarta  Mahanani",
+        "position": "Business Development Analyst",
         "success": true
       },
       {
-        "timestamp": "2026-04-22 04:47:22",
+        "timestamp": "2026-04-22 04:46:58",
         "source": "github_action",
-        "candidate": "Faros Khoirudin Prayoga",
-        "position": "Marketing Communication Officer KG Media",
+        "candidate": "wahyu cahyaningrum",
+        "position": "Business Development Analyst",
         "success": true
       },
       {
-        "timestamp": "2026-04-22 04:47:50",
+        "timestamp": "2026-04-22 04:47:30",
         "source": "github_action",
-        "candidate": "Nissa Dwi Anggraeni",
-        "position": "Marketing Communication Officer KG Media",
+        "candidate": "Yohana Berliana",
+        "position": "Business Development Analyst",
         "success": true
       },
       {
-        "timestamp": "2026-04-22 04:48:22",
+        "timestamp": "2026-04-22 04:48:03",
         "source": "github_action",
-        "candidate": "Azka azka",
-        "position": "Marketing Communication Officer KG Media",
+        "candidate": "Mohammad Farhan Saputra",
+        "position": "Business Development Analyst",
         "success": true
       },
       {
-        "timestamp": "2026-04-22 04:48:49",
+        "timestamp": "2026-04-22 04:48:34",
         "source": "github_action",
-        "candidate": "Sevty Adinia",
-        "position": "Marketing Communication Officer KG Media",
+        "candidate": "Ananda Sari",
+        "position": "Business Development Analyst",
         "success": true
       },
       {
-        "timestamp": "2026-04-22 04:49:21",
+        "timestamp": "2026-04-22 04:48:37",
         "source": "github_action",
-        "candidate": "Putri Wijayanti",
-        "position": "Marketing Communication Officer KG Media",
+        "candidate": "Sheila Armelia",
+        "position": "Business Development Analyst",
         "success": true
       },
       {
-        "timestamp": "2026-04-22 04:49:52",
+        "timestamp": "2026-04-22 04:49:07",
         "source": "github_action",
-        "candidate": "Reno Renaldi",
-        "position": "Marketing Communication Officer KG Media",
+        "candidate": "Alifah Nurfaizah",
+        "position": "Business Development Analyst",
         "success": true
       },
       {
-        "timestamp": "2026-04-22 04:50:23",
+        "timestamp": "2026-04-22 04:49:36",
         "source": "github_action",
-        "candidate": "Nur Faizah Al Bahriyatul Baqiroh",
-        "position": "Marketing Communication Officer KG Media",
+        "candidate": "Bintang Artha Velina Simanjuntak",
+        "position": "Business Development Analyst",
         "success": true
       },
       {
-        "timestamp": "2026-04-22 04:50:56",
+        "timestamp": "2026-04-22 04:50:02",
         "source": "github_action",
-        "candidate": "Natalia Eksi Prana Wijayanti",
-        "position": "Marketing Communication Officer KG Media",
+        "candidate": "Carles Sinambela",
+        "position": "Business Development Analyst",
         "success": true
       },
       {
-        "timestamp": "2026-04-22 04:51:25",
+        "timestamp": "2026-04-22 04:50:33",
         "source": "github_action",
-        "candidate": "Evelyn Inly",
-        "position": "Marketing Communication Officer KG Media",
+        "candidate": "Charles Philip",
+        "position": "Business Development Analyst",
         "success": true
       },
       {
-        "timestamp": "2026-04-22 04:51:53",
+        "timestamp": "2026-04-22 04:51:01",
         "source": "github_action",
-        "candidate": "Desi Putri Rahmadhani",
-        "position": "Marketing Communication Officer KG Media",
+        "candidate": "ERLINA FRANSISKA",
+        "position": "Business Development Analyst",
         "success": true
       },
       {
-        "timestamp": "2026-04-22 04:52:18",
+        "timestamp": "2026-04-22 04:51:34",
         "source": "github_action",
-        "candidate": "Andito  Gifari",
-        "position": "Reporter Nasional",
+        "candidate": "Adelya Vasya Maharani",
+        "position": "Business Development Analyst",
         "success": true
       },
       {
-        "timestamp": "2026-04-22 04:52:49",
+        "timestamp": "2026-04-22 04:52:06",
         "source": "github_action",
-        "candidate": "Fano Eger",
-        "position": "Reporter Nasional",
+        "candidate": "KEMAL AL KAUTSAR MABRURI",
+        "position": "Business Development Analyst",
         "success": true
       },
       {
-        "timestamp": "2026-04-22 04:53:16",
+        "timestamp": "2026-04-22 04:52:36",
         "source": "github_action",
-        "candidate": "Mutia Choerunissa",
-        "position": "Reporter Nasional",
+        "candidate": "Herviona Advenester Wardhani",
+        "position": "Business Development Analyst",
         "success": true
       },
       {
-        "timestamp": "2026-04-22 04:53:44",
+        "timestamp": "2026-04-22 04:53:05",
         "source": "github_action",
-        "candidate": "Dara Maharani",
-        "position": "Reporter Nasional",
+        "candidate": "Yohana Simarmata",
+        "position": "Business Development Analyst",
         "success": true
       },
       {
-        "timestamp": "2026-04-22 04:54:17",
+        "timestamp": "2026-04-22 04:53:33",
         "source": "github_action",
-        "candidate": "Fajar Gumilar",
-        "position": "Reporter Nasional",
+        "candidate": "Rio Fabianto",
+        "position": "Business Development Analyst",
         "success": true
       },
       {
-        "timestamp": "2026-04-22 04:54:19",
+        "timestamp": "2026-04-22 04:54:04",
         "source": "github_action",
-        "candidate": "sitinurfadilamopi sitinurfadilamopi",
-        "position": "Reporter Nasional",
+        "candidate": "Muhammad Iqbal Dwiputra",
+        "position": "Business Development Analyst",
         "success": true
       },
       {
-        "timestamp": "2026-04-22 04:54:47",
+        "timestamp": "2026-04-22 04:54:30",
         "source": "github_action",
-        "candidate": "Ade krisna Rivaldy",
-        "position": "Reporter Nasional",
+        "candidate": "Dini Muzdalifah",
+        "position": "Business Development Analyst",
         "success": true
       },
       {
-        "timestamp": "2026-04-22 04:55:12",
+        "timestamp": "2026-04-22 04:55:01",
         "source": "github_action",
-        "candidate": "Inayah Kurniawati",
-        "position": "Reporter Nasional",
+        "candidate": "Devianna Felicia Veronica",
+        "position": "Business Development Analyst",
         "success": true
       },
       {
-        "timestamp": "2026-04-22 04:55:41",
+        "timestamp": "2026-04-22 04:55:31",
         "source": "github_action",
-        "candidate": "Muhamad Farhan",
-        "position": "Reporter Nasional",
+        "candidate": "syahna zhafira",
+        "position": "Business Development Analyst",
         "success": true
       },
       {
-        "timestamp": "2026-04-22 04:56:12",
+        "timestamp": "2026-04-22 04:56:04",
         "source": "github_action",
-        "candidate": "Gilang pramudia",
-        "position": "Reporter Nasional",
+        "candidate": "Yunita W",
+        "position": "Business Development Analyst",
         "success": true
       },
       {
-        "timestamp": "2026-04-22 04:56:42",
+        "timestamp": "2026-04-22 04:56:37",
         "source": "github_action",
-        "candidate": "Muhamad Reza Pahlevi",
-        "position": "Reporter Nasional",
+        "candidate": "Argani Arief Santoso",
+        "position": "Business Development Analyst",
         "success": true
       },
       {
-        "timestamp": "2026-04-22 04:57:08",
+        "timestamp": "2026-04-22 04:57:12",
         "source": "github_action",
-        "candidate": "ARIF ANWAR RIZKY",
-        "position": "Reporter Nasional",
+        "candidate": "BIFFANCA ALLYA KENEDY",
+        "position": "Business Development Analyst",
         "success": true
       },
       {
-        "timestamp": "2026-04-22 04:57:35",
+        "timestamp": "2026-04-22 04:57:42",
         "source": "github_action",
-        "candidate": "Maghrifa Aulia Az-Zahra",
-        "position": "Reporter Nasional",
+        "candidate": "Muhammad Firdaus Pratama",
+        "position": "Business Development Analyst",
         "success": true
       },
       {
-        "timestamp": "2026-04-22 04:58:03",
+        "timestamp": "2026-04-22 04:58:12",
         "source": "github_action",
-        "candidate": "Dhianti Karamina zilda",
-        "position": "Reporter Nasional",
+        "candidate": "Danang Permana",
+        "position": "Business Development Analyst",
         "success": true
       },
       {
-        "timestamp": "2026-04-22 04:58:32",
+        "timestamp": "2026-04-22 04:58:40",
         "source": "github_action",
-        "candidate": "Muhammad  Noor",
-        "position": "Reporter Nasional",
+        "candidate": "Vannessa Handini Dhewa Putri",
+        "position": "Business Development Analyst",
         "success": true
       },
       {
-        "timestamp": "2026-04-22 04:59:05",
+        "timestamp": "2026-04-22 04:59:12",
         "source": "github_action",
-        "candidate": "Muhammad Arief  Adhistyo Hidayat",
-        "position": "Reporter Nasional",
+        "candidate": "Wahyu Eka",
+        "position": "Business Development Analyst",
         "success": true
       },
       {
-        "timestamp": "2026-04-22 04:59:35",
+        "timestamp": "2026-04-22 04:59:16",
         "source": "github_action",
-        "candidate": "Aura Antari",
-        "position": "Reporter Nasional",
+        "candidate": "Darrell Matthews",
+        "position": "Business Development Analyst",
         "success": true
       },
       {
-        "timestamp": "2026-04-22 05:00:03",
+        "timestamp": "2026-04-22 04:59:50",
         "source": "github_action",
-        "candidate": "Endang Angriani",
-        "position": "Reporter Nasional",
+        "candidate": "Maheswari Adriyani Soeharto",
+        "position": "Business Development Analyst",
         "success": true
       },
       {
-        "timestamp": "2026-04-22 05:00:31",
+        "timestamp": "2026-04-22 05:00:18",
         "source": "github_action",
-        "candidate": "Anisa Nur Syafitri",
-        "position": "Reporter Nasional",
+        "candidate": "Farid Faqih Kusuma Budi",
+        "position": "Business Development Analyst",
         "success": true
       },
       {
-        "timestamp": "2026-04-22 05:01:02",
+        "timestamp": "2026-04-22 05:00:48",
         "source": "github_action",
-        "candidate": "Muhjid Bagus Oqsaberi",
-        "position": "Reporter Nasional",
+        "candidate": "Kevin Adi Nugraha",
+        "position": "Business Development Analyst",
         "success": true
       },
       {
-        "timestamp": "2026-04-22 05:01:35",
+        "timestamp": "2026-04-22 05:01:18",
         "source": "github_action",
-        "candidate": "Otto Hari Febra Maheswara",
-        "position": "Reporter Nasional",
+        "candidate": "Dila Safitri",
+        "position": "Business Development Analyst",
         "success": true
       },
       {
-        "timestamp": "2026-04-22 05:02:03",
+        "timestamp": "2026-04-22 05:01:50",
         "source": "github_action",
-        "candidate": "Fraya Diaz Rasyade",
-        "position": "Reporter Nasional",
+        "candidate": "Asty Firdausya",
+        "position": "Business Development Analyst",
         "success": true
       },
       {
-        "timestamp": "2026-04-22 05:02:34",
+        "timestamp": "2026-04-22 05:02:20",
         "source": "github_action",
-        "candidate": "Iqbal Fakhriza",
-        "position": "Reporter Nasional",
+        "candidate": "Muhammad Irsyad Hawari",
+        "position": "Business Development Analyst",
         "success": true
       },
       {
-        "timestamp": "2026-04-22 05:02:36",
+        "timestamp": "2026-04-22 05:02:50",
         "source": "github_action",
-        "candidate": "Fawwaz Azmi Iltizam",
-        "position": "Reporter Nasional",
+        "candidate": "MERCY GAYATRI",
+        "position": "Business Development Analyst",
         "success": true
       },
       {
-        "timestamp": "2026-04-22 05:03:05",
+        "timestamp": "2026-04-22 05:03:25",
         "source": "github_action",
-        "candidate": "Wildan Adil Hilba",
-        "position": "Reporter Nasional",
+        "candidate": "Tommy Tri Prasetyo",
+        "position": "Business Development Analyst",
         "success": true
       },
       {
-        "timestamp": "2026-04-22 05:03:08",
+        "timestamp": "2026-04-22 05:03:58",
         "source": "github_action",
-        "candidate": "Maulina Amaliya",
-        "position": "Reporter Nasional",
+        "candidate": "sefira fazria",
+        "position": "Business Development Analyst",
         "success": true
       },
       {
-        "timestamp": "2026-04-22 05:03:33",
+        "timestamp": "2026-04-22 05:04:01",
         "source": "github_action",
-        "candidate": "Isti Annura Hadistiani",
-        "position": "Reporter Nasional",
+        "candidate": "Irvan Maulana",
+        "position": "Business Development Analyst",
         "success": true
       },
       {
-        "timestamp": "2026-04-22 05:04:02",
+        "timestamp": "2026-04-22 05:04:34",
         "source": "github_action",
-        "candidate": "Gaswara Utama",
-        "position": "Reporter Nasional",
+        "candidate": "Rafinda  Asca Riandy",
+        "position": "Business Development Analyst",
         "success": true
       },
       {
-        "timestamp": "2026-04-22 05:04:30",
+        "timestamp": "2026-04-22 05:05:05",
         "source": "github_action",
-        "candidate": "Gita Putri",
-        "position": "Reporter Nasional",
+        "candidate": "Alvie Dian Verina",
+        "position": "Business Development Analyst",
         "success": true
       },
       {
-        "timestamp": "2026-04-22 05:04:56",
+        "timestamp": "2026-04-22 05:05:36",
         "source": "github_action",
-        "candidate": "Revo Anggara",
-        "position": "Reporter Nasional",
+        "candidate": "Rifka Elfrida Hutasoit",
+        "position": "Business Development Analyst",
         "success": true
       },
       {
-        "timestamp": "2026-04-22 05:05:23",
+        "timestamp": "2026-04-22 05:05:39",
         "source": "github_action",
-        "candidate": "Anggita Nur Cahyani",
-        "position": "Reporter Nasional",
+        "candidate": "Agie Satria Chandra",
+        "position": "Business Development Analyst",
         "success": true
       },
       {
-        "timestamp": "2026-04-22 05:05:50",
+        "timestamp": "2026-04-22 05:05:43",
         "source": "github_action",
-        "candidate": "Corry Salsabilla",
-        "position": "Reporter Nasional",
+        "candidate": "Abdul Rohman Hadi",
+        "position": "Business Development Analyst",
         "success": true
       },
       {
-        "timestamp": "2026-04-22 05:06:19",
+        "timestamp": "2026-04-22 05:06:14",
         "source": "github_action",
-        "candidate": "Muhammad Iqbal",
-        "position": "Reporter Nasional",
+        "candidate": "Lucy Rizky Prasiska",
+        "position": "Business Development Analyst",
         "success": true
       },
       {
-        "timestamp": "2026-04-22 05:06:47",
+        "timestamp": "2026-04-22 05:06:42",
         "source": "github_action",
-        "candidate": "Dinar Indrani",
-        "position": "Reporter Nasional",
+        "candidate": "Raihan Athalla Radistra",
+        "position": "Business Development Analyst",
         "success": true
       },
       {
-        "timestamp": "2026-04-22 05:07:25",
+        "timestamp": "2026-04-22 05:07:12",
         "source": "github_action",
-        "candidate": "Devita Nur Azizah",
-        "position": "Reporter Nasional",
+        "candidate": "Ambia Rahman",
+        "position": "Business Development Analyst",
         "success": true
       },
       {
-        "timestamp": "2026-04-22 05:07:56",
+        "timestamp": "2026-04-22 05:07:45",
         "source": "github_action",
-        "candidate": "Syahrul Rifai Tri Laksono",
-        "position": "Reporter Nasional",
+        "candidate": "Aqila Amalia",
+        "position": "Account Executive VCBL",
         "success": true
       },
       {
-        "timestamp": "2026-04-22 05:07:58",
+        "timestamp": "2026-04-22 05:08:12",
         "source": "github_action",
-        "candidate": "Aqmarina Oktavia Ibrahim",
-        "position": "Reporter Nasional",
+        "candidate": "Avisa Zahirah",
+        "position": "Account Executive VCBL",
         "success": true
       },
       {
-        "timestamp": "2026-04-22 05:08:26",
+        "timestamp": "2026-04-22 05:08:42",
         "source": "github_action",
-        "candidate": "Ajmal Fajar",
-        "position": "Reporter Nasional",
+        "candidate": "Farhan Rahman",
+        "position": "Account Executive VCBL",
         "success": true
       },
       {
-        "timestamp": "2026-04-22 05:08:52",
+        "timestamp": "2026-04-22 05:09:19",
         "source": "github_action",
-        "candidate": "Tresye Alfa Ega  Turang",
-        "position": "Reporter Nasional",
+        "candidate": "Syafira Akhtari",
+        "position": "Account Executive VCBL",
         "success": true
       },
       {
-        "timestamp": "2026-04-22 05:09:18",
+        "timestamp": "2026-04-22 05:09:50",
         "source": "github_action",
-        "candidate": "BAGUS SADEWO",
-        "position": "Reporter Nasional",
+        "candidate": "Jethro Giovanni Saputra",
+        "position": "Account Executive VCBL",
         "success": true
       },
       {
-        "timestamp": "2026-04-22 05:09:46",
+        "timestamp": "2026-04-22 05:10:22",
         "source": "github_action",
-        "candidate": "Carlo Alesandrino Pranata",
-        "position": "Reporter Nasional",
+        "candidate": "Ilham Rahmatulloh",
+        "position": "Account Executive VCBL",
         "success": true
       },
       {
-        "timestamp": "2026-04-22 05:10:12",
+        "timestamp": "2026-04-22 05:10:52",
         "source": "github_action",
-        "candidate": "MUHAMMAD THAREQ HARYADI",
-        "position": "Reporter Nasional",
+        "candidate": "Mohammad Farhan Saputra",
+        "position": "Account Executive VCBL",
         "success": true
       },
       {
-        "timestamp": "2026-04-22 05:10:43",
+        "timestamp": "2026-04-22 05:10:56",
         "source": "github_action",
-        "candidate": "Muhammad Farhan",
-        "position": "Reporter Nasional",
+        "candidate": "Farid Hidayat Putra",
+        "position": "Account Executive VCBL",
         "success": true
       },
       {
-        "timestamp": "2026-04-22 05:11:15",
+        "timestamp": "2026-04-22 05:11:23",
         "source": "github_action",
-        "candidate": "yusuf rinaldy",
-        "position": "Reporter Nasional",
+        "candidate": "Suryani Safitri",
+        "position": "Account Executive VCBL",
         "success": true
       },
       {
-        "timestamp": "2026-04-22 05:11:44",
+        "timestamp": "2026-04-22 05:11:53",
         "source": "github_action",
-        "candidate": "Indira Putri",
-        "position": "Reporter Nasional",
+        "candidate": "Amelia Riyanti",
+        "position": "Account Executive VCBL",
         "success": true
       },
       {
-        "timestamp": "2026-04-22 05:12:08",
+        "timestamp": "2026-04-22 05:11:56",
         "source": "github_action",
-        "candidate": "Umar Falahudin",
-        "position": "Reporter Nasional",
+        "candidate": "REHAN PAGADILA",
+        "position": "Account Executive VCBL",
         "success": true
       },
       {
-        "timestamp": "2026-04-22 05:12:37",
+        "timestamp": "2026-04-22 05:12:27",
         "source": "github_action",
-        "candidate": "Sabrina  Ariani",
-        "position": "Reporter Nasional",
+        "candidate": "Faiz Ardana Sani",
+        "position": "Account Executive VCBL",
         "success": true
       },
       {
-        "timestamp": "2026-04-22 05:13:04",
+        "timestamp": "2026-04-22 05:12:30",
         "source": "github_action",
-        "candidate": "Therresia Maria Magdalena Morais",
-        "position": "Reporter Nasional",
+        "candidate": "Korin Indriani",
+        "position": "Account Executive VCBL",
         "success": true
       },
       {
-        "timestamp": "2026-04-22 05:13:34",
+        "timestamp": "2026-04-22 05:12:34",
         "source": "github_action",
-        "candidate": "Thoriq Baihaqi Firdaus",
-        "position": "Reporter Nasional",
+        "candidate": "ALIFA RAHMADANI",
+        "position": "Account Executive VCBL",
         "success": true
       },
       {
-        "timestamp": "2026-04-22 05:14:01",
+        "timestamp": "2026-04-22 05:13:07",
         "source": "github_action",
-        "candidate": "Yessi Baldah zus to yusa",
-        "position": "Reporter Nasional",
+        "candidate": "At Thariq Aleeyah Tsamara",
+        "position": "Account Executive VCBL",
         "success": true
       },
       {
-        "timestamp": "2026-04-22 05:14:31",
+        "timestamp": "2026-04-22 05:13:38",
         "source": "github_action",
-        "candidate": "Selia  Nurazwaima",
-        "position": "Reporter Nasional",
+        "candidate": "Insyirah Ayu Ardila",
+        "position": "Account Executive VCBL",
         "success": true
       },
       {
-        "timestamp": "2026-04-22 05:14:57",
+        "timestamp": "2026-04-22 05:14:09",
         "source": "github_action",
-        "candidate": "Asyadillah Althaf",
-        "position": "Reporter Nasional",
+        "candidate": "Doni Wenfery Simorangkir",
+        "position": "Account Executive VCBL",
         "success": true
       },
       {
-        "timestamp": "2026-04-22 05:15:26",
+        "timestamp": "2026-04-22 05:14:40",
         "source": "github_action",
-        "candidate": "ERIJ  karimah",
-        "position": "Reporter Nasional",
+        "candidate": "juno ongko",
+        "position": "Account Executive VCBL",
         "success": true
       },
       {
-        "timestamp": "2026-04-22 05:15:54",
+        "timestamp": "2026-04-22 05:15:10",
         "source": "github_action",
-        "candidate": "Nadifa Aisyahrizka",
-        "position": "Reporter Nasional",
+        "candidate": "Daffa Sandya Affansyah",
+        "position": "Account Executive VCBL",
         "success": true
       },
       {
-        "timestamp": "2026-04-22 05:16:23",
+        "timestamp": "2026-04-22 05:15:41",
         "source": "github_action",
-        "candidate": "Wika Andriani Pangaribuan",
-        "position": "Reporter Nasional",
+        "candidate": "Gita Aurelia",
+        "position": "Account Executive VCBL",
         "success": true
       },
       {
-        "timestamp": "2026-04-22 05:16:53",
+        "timestamp": "2026-04-22 05:16:14",
         "source": "github_action",
-        "candidate": "adinda azizah",
-        "position": "Reporter Nasional",
+        "candidate": "Pinkan Maliha Yasmin",
+        "position": "Account Executive VCBL",
         "success": true
       },
       {
-        "timestamp": "2026-04-22 05:16:56",
+        "timestamp": "2026-04-22 05:16:17",
         "source": "github_action",
-        "candidate": "Dwi Putra",
-        "position": "Reporter Nasional",
+        "candidate": "Sidiq Yogha Nariza",
+        "position": "Account Executive VCBL",
         "success": true
       },
       {
-        "timestamp": "2026-04-22 05:17:29",
+        "timestamp": "2026-04-22 05:16:47",
         "source": "github_action",
-        "candidate": "Dimas Candra",
-        "position": "Reporter Nasional",
+        "candidate": "Matin Muhammad",
+        "position": "Account Executive VCBL",
         "success": true
       },
       {
-        "timestamp": "2026-04-22 05:17:32",
+        "timestamp": "2026-04-22 05:17:16",
         "source": "github_action",
-        "candidate": "Aziizah Azhaar",
-        "position": "Reporter Nasional",
+        "candidate": "Suharto Putra",
+        "position": "Account Executive VCBL",
         "success": true
       },
       {
-        "timestamp": "2026-04-22 05:18:05",
+        "timestamp": "2026-04-22 05:17:45",
         "source": "github_action",
-        "candidate": "Sukriwan  Ramadhan",
-        "position": "Reporter Nasional",
+        "candidate": "Helena Caesaria",
+        "position": "Account Executive VCBL",
         "success": true
       },
       {
-        "timestamp": "2026-04-22 05:18:32",
+        "timestamp": "2026-04-22 05:18:14",
         "source": "github_action",
-        "candidate": "Salma Shalsabilla",
-        "position": "Reporter Nasional",
+        "candidate": "camila chairunnisa",
+        "position": "Account Executive VCBL",
         "success": true
       },
       {
-        "timestamp": "2026-04-22 05:18:58",
+        "timestamp": "2026-04-22 05:18:41",
         "source": "github_action",
-        "candidate": "Rivaldo Simanjuntak",
-        "position": "Reporter Nasional",
+        "candidate": "Rifdah Luthfiah",
+        "position": "Account Executive VCBL",
         "success": true
       },
       {
-        "timestamp": "2026-04-22 05:19:30",
+        "timestamp": "2026-04-22 05:19:14",
         "source": "github_action",
-        "candidate": "Rohmat Sukmana",
-        "position": "Reporter Nasional",
+        "candidate": "M Fadhil Ramadhan",
+        "position": "Account Executive VCBL",
         "success": true
       },
       {
-        "timestamp": "2026-04-22 05:19:58",
+        "timestamp": "2026-04-22 05:19:41",
         "source": "github_action",
-        "candidate": "Friendsa Hasugian",
-        "position": "Reporter Nasional",
+        "candidate": "Hafidh Muhammad Ibnu Sina",
+        "position": "Account Executive VCBL",
         "success": true
       },
       {
-        "timestamp": "2026-04-22 05:20:28",
+        "timestamp": "2026-04-22 05:19:44",
         "source": "github_action",
-        "candidate": "Bayu Indra Wibowo",
-        "position": "Reporter Nasional",
+        "candidate": "Dwi Syahra",
+        "position": "Account Executive VCBL",
         "success": true
       },
       {
-        "timestamp": "2026-04-22 05:20:59",
+        "timestamp": "2026-04-22 05:20:08",
         "source": "github_action",
-        "candidate": "Salsabila Syafaati Azizah",
-        "position": "Reporter Nasional",
+        "candidate": "Parto  Simanihuruk",
+        "position": "Account Executive VCBL",
         "success": true
       },
       {
-        "timestamp": "2026-04-22 05:21:28",
+        "timestamp": "2026-04-22 05:20:12",
         "source": "github_action",
-        "candidate": "Sarah Almira",
-        "position": "Reporter Nasional",
+        "candidate": "Ricki Indra Permana Putra",
+        "position": "Account Executive VCBL",
         "success": true
       },
       {
-        "timestamp": "2026-04-22 05:21:57",
+        "timestamp": "2026-04-22 05:20:44",
         "source": "github_action",
-        "candidate": "Siti Anisa Handayani",
-        "position": "Reporter Nasional",
+        "candidate": "Safira Amanda Prasanti",
+        "position": "Account Executive VCBL",
         "success": true
       },
       {
-        "timestamp": "2026-04-22 05:22:28",
+        "timestamp": "2026-04-22 05:21:13",
         "source": "github_action",
-        "candidate": "Rahel  Siregar",
-        "position": "Reporter Nasional",
+        "candidate": "Golda  Meiyer",
+        "position": "Account Executive VCBL",
         "success": true
       },
       {
-        "timestamp": "2026-04-22 05:23:01",
+        "timestamp": "2026-04-22 05:21:43",
         "source": "github_action",
-        "candidate": "Sholahuddin Al Ayyubi",
-        "position": "Reporter Nasional",
+        "candidate": "Dwiky Satria",
+        "position": "Account Executive VCBL",
         "success": true
       },
       {
-        "timestamp": "2026-04-22 05:23:03",
+        "timestamp": "2026-04-22 05:22:14",
         "source": "github_action",
-        "candidate": "Nuzulul Magfiroh",
-        "position": "Reporter Nasional",
+        "candidate": "Syarif Antoni",
+        "position": "Account Executive VCBL",
         "success": true
       },
       {
-        "timestamp": "2026-04-22 05:23:07",
+        "timestamp": "2026-04-22 05:22:40",
         "source": "github_action",
-        "candidate": "Josua ruyandi Mangi",
-        "position": "Reporter Nasional",
+        "candidate": "Vanya Soraya Irsanti",
+        "position": "Account Executive VCBL",
         "success": true
       },
       {
-        "timestamp": "2026-04-22 05:23:36",
+        "timestamp": "2026-04-22 05:23:08",
         "source": "github_action",
-        "candidate": "Rika Jahara",
-        "position": "Reporter Nasional",
+        "candidate": "Amadhea Putri Namira",
+        "position": "Account Executive VCBL",
         "success": true
       },
       {
-        "timestamp": "2026-04-22 05:24:05",
+        "timestamp": "2026-04-22 05:23:39",
         "source": "github_action",
-        "candidate": "Sindhu Linguistika Manumanasa",
-        "position": "Reporter Nasional",
+        "candidate": "Amyra Amalia Aqila",
+        "position": "Account Executive VCBL",
         "success": true
       },
       {
-        "timestamp": "2026-04-22 05:24:37",
+        "timestamp": "2026-04-22 05:24:08",
         "source": "github_action",
-        "candidate": "dearest tiantama",
-        "position": "Reporter Nasional",
+        "candidate": "Nisa Nur Amalia",
+        "position": "Account Executive VCBL",
         "success": true
       },
       {
-        "timestamp": "2026-04-22 05:25:03",
+        "timestamp": "2026-04-22 05:24:40",
         "source": "github_action",
-        "candidate": "Nataya Kirana",
-        "position": "Reporter Nasional",
+        "candidate": "Muhammad Arrumi Fayyad",
+        "position": "Account Executive VCBL",
         "success": true
       },
       {
-        "timestamp": "2026-04-22 05:25:32",
+        "timestamp": "2026-04-22 05:25:08",
         "source": "github_action",
-        "candidate": "Eugenia F. N. Siregar",
-        "position": "Reporter Nasional",
+        "candidate": "Aurelia Alexa",
+        "position": "Account Executive VCBL",
         "success": true
       },
       {
-        "timestamp": "2026-04-22 05:25:34",
+        "timestamp": "2026-04-22 05:25:38",
         "source": "github_action",
-        "candidate": "naura nrmahsa",
-        "position": "Reporter Nasional",
+        "candidate": "Reynaldi Rizky Aulia Bassar",
+        "position": "Account Executive VCBL",
         "success": true
       },
       {
-        "timestamp": "2026-04-22 05:26:02",
+        "timestamp": "2026-04-22 05:26:07",
         "source": "github_action",
-        "candidate": "Nur Rahmaini Lubis",
-        "position": "Reporter Nasional",
+        "candidate": "Cindy Regina Anastasia",
+        "position": "Account Executive VCBL",
         "success": true
       },
       {
-        "timestamp": "2026-04-22 05:26:26",
+        "timestamp": "2026-04-22 05:26:37",
         "source": "github_action",
-        "candidate": "Andika Yudhistira",
-        "position": "Reporter Nasional",
+        "candidate": "Muhammad Izza Lathiif",
+        "position": "Account Executive VCBL",
         "success": true
       },
       {
-        "timestamp": "2026-04-22 05:26:55",
+        "timestamp": "2026-04-22 05:27:06",
         "source": "github_action",
-        "candidate": "Wildan Adil Hilba",
-        "position": "Reporter Nasional",
+        "candidate": "Rachma Ama",
+        "position": "Account Executive VCBL",
         "success": true
       },
       {
-        "timestamp": "2026-04-22 05:27:24",
+        "timestamp": "2026-04-22 05:27:32",
         "source": "github_action",
-        "candidate": "Adley  Ramli Elhasain",
-        "position": "Reporter Nasional",
+        "candidate": "Farid Abdullah",
+        "position": "Account Executive VCBL",
         "success": true
       },
       {
-        "timestamp": "2026-04-22 05:27:58",
+        "timestamp": "2026-04-22 05:28:07",
         "source": "github_action",
-        "candidate": "Andi  Adnan",
-        "position": "Reporter Nasional",
+        "candidate": "Dedi Kurniawan",
+        "position": "Account Executive VCBL",
         "success": true
       },
       {
-        "timestamp": "2026-04-22 05:28:27",
+        "timestamp": "2026-04-22 05:28:33",
         "source": "github_action",
-        "candidate": "Rifqi Adirahman Anas",
-        "position": "Reporter Nasional",
+        "candidate": "Salma Alika",
+        "position": "Account Executive VCBL",
         "success": true
       }
     ]
