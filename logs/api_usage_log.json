@@ -10731,23 +10731,16 @@
     ]
   },
   "2026-04-22": {
-    "total": 122,
+    "total": 123,
     "streamlit": 0,
-    "github_action": 122,
-    "successful": 122,
+    "github_action": 123,
+    "successful": 123,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 22
+      "Reporter Nasional": 23
     },
     "entries": [
-      {
-        "timestamp": "2026-04-22 02:52:24",
-        "source": "github_action",
-        "candidate": "Shabila Aulia",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-22 02:52:59",
         "source": "github_action",
@@ -11438,6 +11431,13 @@
         "timestamp": "2026-04-22 03:42:46",
         "source": "github_action",
         "candidate": "Muhjid Bagus Oqsaberi",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-22 03:43:19",
+        "source": "github_action",
+        "candidate": "Otto Hari Febra Maheswara",
         "position": "Reporter Nasional",
         "success": true
       }
