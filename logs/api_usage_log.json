@@ -10731,25 +10731,18 @@
     ]
   },
   "2026-04-22": {
-    "total": 496,
+    "total": 497,
     "streamlit": 0,
-    "github_action": 496,
-    "successful": 496,
+    "github_action": 497,
+    "successful": 497,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 200,
       "Reporter Nasional": 162,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 34
+      "Account Executive VCBL": 35
     },
     "entries": [
-      {
-        "timestamp": "2026-04-22 05:52:59",
-        "source": "github_action",
-        "candidate": "Ivan Rivaldi",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-22 05:53:27",
         "source": "github_action",
@@ -11440,6 +11433,13 @@
         "timestamp": "2026-04-22 06:40:43",
         "source": "github_action",
         "candidate": "Syarif Antoni",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-22 06:41:19",
+        "source": "github_action",
+        "candidate": "Amadhea Putri Namira",
         "position": "Account Executive VCBL",
         "success": true
       }
