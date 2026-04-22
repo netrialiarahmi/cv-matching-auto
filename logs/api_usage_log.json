@@ -10731,25 +10731,18 @@
     ]
   },
   "2026-04-22": {
-    "total": 542,
+    "total": 543,
     "streamlit": 0,
-    "github_action": 542,
-    "successful": 542,
+    "github_action": 543,
+    "successful": 543,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 200,
       "Reporter Nasional": 162,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 80
+      "Account Executive VCBL": 81
     },
     "entries": [
-      {
-        "timestamp": "2026-04-22 06:18:08",
-        "source": "github_action",
-        "candidate": "MERCY GAYATRI",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-22 06:18:39",
         "source": "github_action",
@@ -11440,6 +11433,13 @@
         "timestamp": "2026-04-22 07:01:10",
         "source": "github_action",
         "candidate": "Reyhan Dzaky",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-22 07:01:39",
+        "source": "github_action",
+        "candidate": "Muhamad Tegar Dwi Prasetyo",
         "position": "Account Executive VCBL",
         "success": true
       }
