@@ -10731,25 +10731,18 @@
     ]
   },
   "2026-04-22": {
-    "total": 527,
+    "total": 528,
     "streamlit": 0,
-    "github_action": 527,
-    "successful": 527,
+    "github_action": 528,
+    "successful": 528,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 200,
       "Reporter Nasional": 162,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 65
+      "Account Executive VCBL": 66
     },
     "entries": [
-      {
-        "timestamp": "2026-04-22 06:11:04",
-        "source": "github_action",
-        "candidate": "Dini Muzdalifah",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-22 06:11:35",
         "source": "github_action",
@@ -11440,6 +11433,13 @@
         "timestamp": "2026-04-22 06:54:42",
         "source": "github_action",
         "candidate": "Listianova Nurrochmah",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-22 06:55:13",
+        "source": "github_action",
+        "candidate": "Rully Anggi Akbar Akbar",
         "position": "Account Executive VCBL",
         "success": true
       }
