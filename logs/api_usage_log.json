@@ -10731,25 +10731,18 @@
     ]
   },
   "2026-04-22": {
-    "total": 514,
+    "total": 515,
     "streamlit": 0,
-    "github_action": 514,
-    "successful": 514,
+    "github_action": 515,
+    "successful": 515,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 200,
       "Reporter Nasional": 162,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 52
+      "Account Executive VCBL": 53
     },
     "entries": [
-      {
-        "timestamp": "2026-04-22 06:01:42",
-        "source": "github_action",
-        "candidate": "Mohammad Farhan Saputra",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-22 06:02:23",
         "source": "github_action",
@@ -11440,6 +11433,13 @@
         "timestamp": "2026-04-22 06:49:08",
         "source": "github_action",
         "candidate": "Bunga Annelies  Flo",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-22 06:49:36",
+        "source": "github_action",
+        "candidate": "Oryza Zaidandio",
         "position": "Account Executive VCBL",
         "success": true
       }
