@@ -10731,23 +10731,16 @@
     ]
   },
   "2026-04-22": {
-    "total": 103,
+    "total": 104,
     "streamlit": 0,
-    "github_action": 103,
-    "successful": 103,
+    "github_action": 104,
+    "successful": 104,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 3
+      "Reporter Nasional": 4
     },
     "entries": [
-      {
-        "timestamp": "2026-04-22 02:42:44",
-        "source": "github_action",
-        "candidate": "harisul amal",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-22 02:43:17",
         "source": "github_action",
@@ -11438,6 +11431,13 @@
         "timestamp": "2026-04-22 03:33:44",
         "source": "github_action",
         "candidate": "Mutia Choerunissa",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-22 03:34:12",
+        "source": "github_action",
+        "candidate": "Dara Maharani",
         "position": "Reporter Nasional",
         "success": true
       }
