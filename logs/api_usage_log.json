@@ -10731,13 +10731,13 @@
     ]
   },
   "2026-04-22": {
-    "total": 93,
+    "total": 94,
     "streamlit": 0,
-    "github_action": 93,
-    "successful": 93,
+    "github_action": 94,
+    "successful": 94,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 93
+      "Marketing Communication Officer KG Media": 94
     },
     "entries": [
       {
@@ -11388,6 +11388,13 @@
         "timestamp": "2026-04-22 03:28:34",
         "source": "github_action",
         "candidate": "Patrick Trusto Jati Wibowo",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-22 03:29:01",
+        "source": "github_action",
+        "candidate": "Qonitah Khairunnisa",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
