@@ -10731,13 +10731,13 @@
     ]
   },
   "2026-04-22": {
-    "total": 43,
+    "total": 44,
     "streamlit": 0,
-    "github_action": 43,
-    "successful": 43,
+    "github_action": 44,
+    "successful": 44,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 43
+      "Marketing Communication Officer KG Media": 44
     },
     "entries": [
       {
@@ -11038,6 +11038,13 @@
         "timestamp": "2026-04-22 03:02:23",
         "source": "github_action",
         "candidate": "Putri Astrian Surahman",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-22 03:02:58",
+        "source": "github_action",
+        "candidate": "Fathan Alamsyah",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
