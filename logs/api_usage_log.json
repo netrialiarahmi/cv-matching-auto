@@ -10731,13 +10731,13 @@
     ]
   },
   "2026-04-22": {
-    "total": 48,
+    "total": 49,
     "streamlit": 0,
-    "github_action": 48,
-    "successful": 48,
+    "github_action": 49,
+    "successful": 49,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 48
+      "Marketing Communication Officer KG Media": 49
     },
     "entries": [
       {
@@ -11073,6 +11073,13 @@
         "timestamp": "2026-04-22 03:04:43",
         "source": "github_action",
         "candidate": "Athar Hisyam",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-22 03:05:18",
+        "source": "github_action",
+        "candidate": "Dzika Fajar Alfian  Ramadhani",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
