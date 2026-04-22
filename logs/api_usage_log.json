@@ -10731,23 +10731,16 @@
     ]
   },
   "2026-04-22": {
-    "total": 133,
+    "total": 134,
     "streamlit": 0,
-    "github_action": 133,
-    "successful": 133,
+    "github_action": 134,
+    "successful": 134,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 33
+      "Reporter Nasional": 34
     },
     "entries": [
-      {
-        "timestamp": "2026-04-22 02:57:53",
-        "source": "github_action",
-        "candidate": "Divanya Nouval I.S",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-22 02:58:29",
         "source": "github_action",
@@ -11438,6 +11431,13 @@
         "timestamp": "2026-04-22 03:47:27",
         "source": "github_action",
         "candidate": "DHEYANA HARIYANTI",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-22 03:47:56",
+        "source": "github_action",
+        "candidate": "Anggita Nur Cahyani",
         "position": "Reporter Nasional",
         "success": true
       }
