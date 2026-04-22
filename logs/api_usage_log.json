@@ -10731,23 +10731,16 @@
     ]
   },
   "2026-04-22": {
-    "total": 186,
+    "total": 187,
     "streamlit": 0,
-    "github_action": 186,
-    "successful": 186,
+    "github_action": 187,
+    "successful": 187,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 124,
+      "Marketing Communication Officer KG Media": 125,
       "Reporter Nasional": 62
     },
     "entries": [
-      {
-        "timestamp": "2026-04-22 03:25:25",
-        "source": "github_action",
-        "candidate": "Mahir Muhammad",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-22 03:25:59",
         "source": "github_action",
@@ -11438,6 +11431,13 @@
         "timestamp": "2026-04-22 04:14:24",
         "source": "github_action",
         "candidate": "waode afa",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-22 04:14:27",
+        "source": "github_action",
+        "candidate": "Anastasya Setiawan",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
