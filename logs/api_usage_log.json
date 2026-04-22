@@ -10731,19 +10731,26 @@
     ]
   },
   "2026-04-22": {
-    "total": 1,
+    "total": 2,
     "streamlit": 0,
-    "github_action": 1,
-    "successful": 1,
+    "github_action": 2,
+    "successful": 2,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 1
+      "Marketing Communication Officer KG Media": 2
     },
     "entries": [
       {
         "timestamp": "2026-04-22 02:41:40",
         "source": "github_action",
         "candidate": "Fauzi Triputra Hidayat",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-22 02:42:12",
+        "source": "github_action",
+        "candidate": "Andreas Totti sianipar",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
