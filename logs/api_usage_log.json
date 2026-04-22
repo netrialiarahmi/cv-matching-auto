@@ -10731,25 +10731,18 @@
     ]
   },
   "2026-04-22": {
-    "total": 506,
+    "total": 507,
     "streamlit": 0,
-    "github_action": 506,
-    "successful": 506,
+    "github_action": 507,
+    "successful": 507,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 200,
       "Reporter Nasional": 162,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 44
+      "Account Executive VCBL": 45
     },
     "entries": [
-      {
-        "timestamp": "2026-04-22 05:57:59",
-        "source": "github_action",
-        "candidate": "Rezy Aprilliano Adha",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-22 05:58:03",
         "source": "github_action",
@@ -11440,6 +11433,13 @@
         "timestamp": "2026-04-22 06:45:45",
         "source": "github_action",
         "candidate": "Farid Abdullah",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-22 06:46:12",
+        "source": "github_action",
+        "candidate": "Salma Alika",
         "position": "Account Executive VCBL",
         "success": true
       }
