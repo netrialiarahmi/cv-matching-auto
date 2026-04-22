@@ -10731,24 +10731,17 @@
     ]
   },
   "2026-04-22": {
-    "total": 443,
+    "total": 444,
     "streamlit": 0,
-    "github_action": 443,
-    "successful": 443,
+    "github_action": 444,
+    "successful": 444,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 200,
       "Reporter Nasional": 162,
-      "Business Development Analyst": 81
+      "Business Development Analyst": 82
     },
     "entries": [
-      {
-        "timestamp": "2026-04-22 05:27:24",
-        "source": "github_action",
-        "candidate": "Adley  Ramli Elhasain",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-22 05:27:58",
         "source": "github_action",
@@ -11439,6 +11432,13 @@
         "timestamp": "2026-04-22 06:18:08",
         "source": "github_action",
         "candidate": "MERCY GAYATRI",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-22 06:18:39",
+        "source": "github_action",
+        "candidate": "Tommy Tri Prasetyo",
         "position": "Business Development Analyst",
         "success": true
       }
