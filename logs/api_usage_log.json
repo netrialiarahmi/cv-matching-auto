@@ -10731,16 +10731,23 @@
     ]
   },
   "2026-04-22": {
-    "total": 164,
+    "total": 163,
     "streamlit": 0,
-    "github_action": 164,
-    "successful": 164,
+    "github_action": 163,
+    "successful": 163,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 64
+      "Marketing Communication Officer KG Media": 101,
+      "Reporter Nasional": 62
     },
     "entries": [
+      {
+        "timestamp": "2026-04-22 03:13:28",
+        "source": "github_action",
+        "candidate": "Prajwalita Nareswari",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
       {
         "timestamp": "2026-04-22 03:14:00",
         "source": "github_action",
@@ -11428,17 +11435,10 @@
         "success": true
       },
       {
-        "timestamp": "2026-04-22 04:01:46",
+        "timestamp": "2026-04-22 04:02:21",
         "source": "github_action",
-        "candidate": "Dimas Candra",
-        "position": "Reporter Nasional",
-        "success": true
-      },
-      {
-        "timestamp": "2026-04-22 04:01:49",
-        "source": "github_action",
-        "candidate": "Aziizah Azhaar",
-        "position": "Reporter Nasional",
+        "candidate": "Rio Valentino",
+        "position": "Marketing Communication Officer KG Media",
         "success": true
       }
     ]
