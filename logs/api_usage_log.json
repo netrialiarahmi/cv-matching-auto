@@ -10731,25 +10731,18 @@
     ]
   },
   "2026-04-22": {
-    "total": 478,
+    "total": 479,
     "streamlit": 0,
-    "github_action": 478,
-    "successful": 478,
+    "github_action": 479,
+    "successful": 479,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 200,
       "Reporter Nasional": 162,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 16
+      "Account Executive VCBL": 17
     },
     "entries": [
-      {
-        "timestamp": "2026-04-22 05:44:15",
-        "source": "github_action",
-        "candidate": "Firly Ramadhan",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-22 05:44:45",
         "source": "github_action",
@@ -11440,6 +11433,13 @@
         "timestamp": "2026-04-22 06:32:45",
         "source": "github_action",
         "candidate": "Doni Wenfery Simorangkir",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-22 06:33:17",
+        "source": "github_action",
+        "candidate": "juno ongko",
         "position": "Account Executive VCBL",
         "success": true
       }
