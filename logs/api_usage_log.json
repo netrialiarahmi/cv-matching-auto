@@ -10731,23 +10731,16 @@
     ]
   },
   "2026-04-22": {
-    "total": 208,
+    "total": 209,
     "streamlit": 0,
-    "github_action": 208,
-    "successful": 208,
+    "github_action": 209,
+    "successful": 209,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 146,
+      "Marketing Communication Officer KG Media": 147,
       "Reporter Nasional": 62
     },
     "entries": [
-      {
-        "timestamp": "2026-04-22 03:35:57",
-        "source": "github_action",
-        "candidate": "Muhamad Farhan",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-22 03:36:28",
         "source": "github_action",
@@ -11438,6 +11431,13 @@
         "timestamp": "2026-04-22 04:25:23",
         "source": "github_action",
         "candidate": "KURNIA AGUSTIN",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-22 04:25:51",
+        "source": "github_action",
+        "candidate": "indira kasde",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
