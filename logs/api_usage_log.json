@@ -10731,23 +10731,16 @@
     ]
   },
   "2026-04-22": {
-    "total": 235,
+    "total": 236,
     "streamlit": 0,
-    "github_action": 235,
-    "successful": 235,
+    "github_action": 236,
+    "successful": 236,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 173,
+      "Marketing Communication Officer KG Media": 174,
       "Reporter Nasional": 62
     },
     "entries": [
-      {
-        "timestamp": "2026-04-22 03:48:56",
-        "source": "github_action",
-        "candidate": "Muhammad Iqbal",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-22 03:49:30",
         "source": "github_action",
@@ -11438,6 +11431,13 @@
         "timestamp": "2026-04-22 04:39:06",
         "source": "github_action",
         "candidate": "Andry Syahputra",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-22 04:39:34",
+        "source": "github_action",
+        "candidate": "Farhan Ali Hamdani",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
