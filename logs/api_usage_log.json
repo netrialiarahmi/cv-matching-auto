@@ -10731,25 +10731,18 @@
     ]
   },
   "2026-04-22": {
-    "total": 560,
+    "total": 561,
     "streamlit": 0,
-    "github_action": 560,
-    "successful": 560,
+    "github_action": 561,
+    "successful": 561,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 200,
       "Reporter Nasional": 162,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 98
+      "Account Executive VCBL": 99
     },
     "entries": [
-      {
-        "timestamp": "2026-04-22 06:25:46",
-        "source": "github_action",
-        "candidate": "tahashshunan Hiththah Zein",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-22 06:26:16",
         "source": "github_action",
@@ -11440,6 +11433,13 @@
         "timestamp": "2026-04-22 07:09:36",
         "source": "github_action",
         "candidate": "Raihan Isbintara",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-22 07:10:07",
+        "source": "github_action",
+        "candidate": "Anastasya Theresia Bidara",
         "position": "Account Executive VCBL",
         "success": true
       }
