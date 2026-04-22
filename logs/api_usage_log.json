@@ -10731,13 +10731,13 @@
     ]
   },
   "2026-04-22": {
-    "total": 21,
+    "total": 22,
     "streamlit": 0,
-    "github_action": 21,
-    "successful": 21,
+    "github_action": 22,
+    "successful": 22,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 21
+      "Marketing Communication Officer KG Media": 22
     },
     "entries": [
       {
@@ -10884,6 +10884,13 @@
         "timestamp": "2026-04-22 02:51:22",
         "source": "github_action",
         "candidate": "Dionisius Aryandra Primantara",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-22 02:51:51",
+        "source": "github_action",
+        "candidate": "Fyda Fauziyyah",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
