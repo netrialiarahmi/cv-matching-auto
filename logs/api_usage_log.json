@@ -10731,23 +10731,16 @@
     ]
   },
   "2026-04-22": {
-    "total": 248,
+    "total": 249,
     "streamlit": 0,
-    "github_action": 248,
-    "successful": 248,
+    "github_action": 249,
+    "successful": 249,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 186,
+      "Marketing Communication Officer KG Media": 187,
       "Reporter Nasional": 62
     },
     "entries": [
-      {
-        "timestamp": "2026-04-22 03:55:14",
-        "source": "github_action",
-        "candidate": "Indira Putri",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-22 03:55:41",
         "source": "github_action",
@@ -11438,6 +11431,13 @@
         "timestamp": "2026-04-22 04:45:34",
         "source": "github_action",
         "candidate": "Febiana Nur Azizah",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-22 04:45:37",
+        "source": "github_action",
+        "candidate": "Muhamad Yusuf Hasyim",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
