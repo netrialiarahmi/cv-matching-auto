@@ -10731,25 +10731,18 @@
     ]
   },
   "2026-04-22": {
-    "total": 505,
+    "total": 506,
     "streamlit": 0,
-    "github_action": 505,
-    "successful": 505,
+    "github_action": 506,
+    "successful": 506,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 200,
       "Reporter Nasional": 162,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 43
+      "Account Executive VCBL": 44
     },
     "entries": [
-      {
-        "timestamp": "2026-04-22 05:57:32",
-        "source": "github_action",
-        "candidate": "Muhamad Shahriza Rijadi Putra",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-22 05:57:59",
         "source": "github_action",
@@ -11440,6 +11433,13 @@
         "timestamp": "2026-04-22 06:45:18",
         "source": "github_action",
         "candidate": "Rachma Ama",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-22 06:45:45",
+        "source": "github_action",
+        "candidate": "Farid Abdullah",
         "position": "Account Executive VCBL",
         "success": true
       }
