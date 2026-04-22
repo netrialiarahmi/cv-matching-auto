@@ -10731,23 +10731,16 @@
     ]
   },
   "2026-04-22": {
-    "total": 184,
+    "total": 185,
     "streamlit": 0,
-    "github_action": 184,
-    "successful": 184,
+    "github_action": 185,
+    "successful": 185,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 84
+      "Reporter Nasional": 85
     },
     "entries": [
-      {
-        "timestamp": "2026-04-22 03:24:15",
-        "source": "github_action",
-        "candidate": "Brigitta Purnama",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-22 03:24:50",
         "source": "github_action",
@@ -11438,6 +11431,13 @@
         "timestamp": "2026-04-22 04:11:24",
         "source": "github_action",
         "candidate": "Eugenia F. N. Siregar",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-22 04:11:28",
+        "source": "github_action",
+        "candidate": "naura nrmahsa",
         "position": "Reporter Nasional",
         "success": true
       }
