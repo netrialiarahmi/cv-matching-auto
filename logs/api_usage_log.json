@@ -10731,23 +10731,16 @@
     ]
   },
   "2026-04-22": {
-    "total": 121,
+    "total": 122,
     "streamlit": 0,
-    "github_action": 121,
-    "successful": 121,
+    "github_action": 122,
+    "successful": 122,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 21
+      "Reporter Nasional": 22
     },
     "entries": [
-      {
-        "timestamp": "2026-04-22 02:51:51",
-        "source": "github_action",
-        "candidate": "Fyda Fauziyyah",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-22 02:52:24",
         "source": "github_action",
@@ -11438,6 +11431,13 @@
         "timestamp": "2026-04-22 03:42:13",
         "source": "github_action",
         "candidate": "Muhammad Farhan Agusta",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-22 03:42:46",
+        "source": "github_action",
+        "candidate": "Muhjid Bagus Oqsaberi",
         "position": "Reporter Nasional",
         "success": true
       }
