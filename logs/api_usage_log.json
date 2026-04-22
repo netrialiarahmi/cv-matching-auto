@@ -10731,30 +10731,16 @@
     ]
   },
   "2026-04-22": {
-    "total": 164,
+    "total": 166,
     "streamlit": 0,
-    "github_action": 164,
-    "successful": 164,
+    "github_action": 166,
+    "successful": 166,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 102,
-      "Reporter Nasional": 62
+      "Marketing Communication Officer KG Media": 100,
+      "Reporter Nasional": 66
     },
     "entries": [
-      {
-        "timestamp": "2026-04-22 03:14:00",
-        "source": "github_action",
-        "candidate": "Devin Fahrezi Alandeta",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
-      {
-        "timestamp": "2026-04-22 03:14:34",
-        "source": "github_action",
-        "candidate": "Fahreza Oktavian",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-22 03:15:03",
         "source": "github_action",
@@ -11428,17 +11414,31 @@
         "success": true
       },
       {
-        "timestamp": "2026-04-22 04:02:21",
+        "timestamp": "2026-04-22 04:01:46",
         "source": "github_action",
-        "candidate": "Rio Valentino",
-        "position": "Marketing Communication Officer KG Media",
+        "candidate": "Dimas Candra",
+        "position": "Reporter Nasional",
         "success": true
       },
       {
-        "timestamp": "2026-04-22 04:02:49",
+        "timestamp": "2026-04-22 04:01:49",
         "source": "github_action",
-        "candidate": "Rena Dwi",
-        "position": "Marketing Communication Officer KG Media",
+        "candidate": "Aziizah Azhaar",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-22 04:02:25",
+        "source": "github_action",
+        "candidate": "Sukriwan  Ramadhan",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-22 04:02:55",
+        "source": "github_action",
+        "candidate": "Salma Shalsabilla",
+        "position": "Reporter Nasional",
         "success": true
       }
     ]
