@@ -10731,25 +10731,18 @@
     ]
   },
   "2026-04-22": {
-    "total": 530,
+    "total": 531,
     "streamlit": 0,
-    "github_action": 530,
-    "successful": 530,
+    "github_action": 531,
+    "successful": 531,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 200,
       "Reporter Nasional": 162,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 68
+      "Account Executive VCBL": 69
     },
     "entries": [
-      {
-        "timestamp": "2026-04-22 06:12:34",
-        "source": "github_action",
-        "candidate": "Argani Arief Santoso",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-22 06:13:04",
         "source": "github_action",
@@ -11440,6 +11433,13 @@
         "timestamp": "2026-04-22 06:55:46",
         "source": "github_action",
         "candidate": "Bariq Iqbal Agia Putra",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-22 06:56:15",
+        "source": "github_action",
+        "candidate": "Kurnia Ariati",
         "position": "Account Executive VCBL",
         "success": true
       }
