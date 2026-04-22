@@ -10731,25 +10731,18 @@
     ]
   },
   "2026-04-22": {
-    "total": 544,
+    "total": 545,
     "streamlit": 0,
-    "github_action": 544,
-    "successful": 544,
+    "github_action": 545,
+    "successful": 545,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 200,
       "Reporter Nasional": 162,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 82
+      "Account Executive VCBL": 83
     },
     "entries": [
-      {
-        "timestamp": "2026-04-22 06:19:11",
-        "source": "github_action",
-        "candidate": "sefira fazria",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-22 06:19:14",
         "source": "github_action",
@@ -11440,6 +11433,13 @@
         "timestamp": "2026-04-22 07:02:08",
         "source": "github_action",
         "candidate": "NOVI RIYANTI",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-22 07:02:41",
+        "source": "github_action",
+        "candidate": "Amelia Intan",
         "position": "Account Executive VCBL",
         "success": true
       }
