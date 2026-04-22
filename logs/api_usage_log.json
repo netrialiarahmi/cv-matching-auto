@@ -10731,25 +10731,18 @@
     ]
   },
   "2026-04-22": {
-    "total": 508,
+    "total": 509,
     "streamlit": 0,
-    "github_action": 508,
-    "successful": 508,
+    "github_action": 509,
+    "successful": 509,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 200,
       "Reporter Nasional": 162,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 46
+      "Account Executive VCBL": 47
     },
     "entries": [
-      {
-        "timestamp": "2026-04-22 05:58:33",
-        "source": "github_action",
-        "candidate": "Pinta Rohmada Rahayu",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-22 05:59:05",
         "source": "github_action",
@@ -11440,6 +11433,13 @@
         "timestamp": "2026-04-22 06:46:38",
         "source": "github_action",
         "candidate": "Ayu Siti Hajar",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-22 06:47:07",
+        "source": "github_action",
+        "candidate": "Annisa Wardhatul",
         "position": "Account Executive VCBL",
         "success": true
       }
