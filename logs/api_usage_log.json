@@ -10731,13 +10731,13 @@
     ]
   },
   "2026-04-22": {
-    "total": 41,
+    "total": 42,
     "streamlit": 0,
-    "github_action": 41,
-    "successful": 41,
+    "github_action": 42,
+    "successful": 42,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 41
+      "Marketing Communication Officer KG Media": 42
     },
     "entries": [
       {
@@ -11024,6 +11024,13 @@
         "timestamp": "2026-04-22 03:01:23",
         "source": "github_action",
         "candidate": "Hadisti Nur Adrian",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-22 03:01:53",
+        "source": "github_action",
+        "candidate": "Muthia Khansa",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
