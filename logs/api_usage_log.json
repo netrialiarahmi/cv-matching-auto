@@ -10731,13 +10731,13 @@
     ]
   },
   "2026-04-22": {
-    "total": 50,
+    "total": 51,
     "streamlit": 0,
-    "github_action": 50,
-    "successful": 50,
+    "github_action": 51,
+    "successful": 51,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 50
+      "Marketing Communication Officer KG Media": 51
     },
     "entries": [
       {
@@ -11087,6 +11087,13 @@
         "timestamp": "2026-04-22 03:05:49",
         "source": "github_action",
         "candidate": "Muhammad Syahrul Muhajirin",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-22 03:06:20",
+        "source": "github_action",
+        "candidate": "Dira Maulida",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
