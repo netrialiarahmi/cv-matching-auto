@@ -10731,13 +10731,13 @@
     ]
   },
   "2026-04-22": {
-    "total": 86,
+    "total": 87,
     "streamlit": 0,
-    "github_action": 86,
-    "successful": 86,
+    "github_action": 87,
+    "successful": 87,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 86
+      "Marketing Communication Officer KG Media": 87
     },
     "entries": [
       {
@@ -11339,6 +11339,13 @@
         "timestamp": "2026-04-22 03:24:50",
         "source": "github_action",
         "candidate": "Anita Afriani",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-22 03:25:25",
+        "source": "github_action",
+        "candidate": "Mahir Muhammad",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
