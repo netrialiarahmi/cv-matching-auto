@@ -10731,25 +10731,18 @@
     ]
   },
   "2026-04-22": {
-    "total": 556,
+    "total": 557,
     "streamlit": 0,
-    "github_action": 556,
-    "successful": 556,
+    "github_action": 557,
+    "successful": 557,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 200,
       "Reporter Nasional": 162,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 94
+      "Account Executive VCBL": 95
     },
     "entries": [
-      {
-        "timestamp": "2026-04-22 06:23:52",
-        "source": "github_action",
-        "candidate": "Andre Sugiarta",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-22 06:24:21",
         "source": "github_action",
@@ -11440,6 +11433,13 @@
         "timestamp": "2026-04-22 07:07:50",
         "source": "github_action",
         "candidate": "Fadli Rahman",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-22 07:08:17",
+        "source": "github_action",
+        "candidate": "Iqbal Fathurrahman",
         "position": "Account Executive VCBL",
         "success": true
       }
