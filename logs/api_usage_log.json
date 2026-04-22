@@ -10731,23 +10731,16 @@
     ]
   },
   "2026-04-22": {
-    "total": 141,
+    "total": 142,
     "streamlit": 0,
-    "github_action": 141,
-    "successful": 141,
+    "github_action": 142,
+    "successful": 142,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 41
+      "Reporter Nasional": 42
     },
     "entries": [
-      {
-        "timestamp": "2026-04-22 03:01:53",
-        "source": "github_action",
-        "candidate": "Muthia Khansa",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-22 03:02:23",
         "source": "github_action",
@@ -11438,6 +11431,13 @@
         "timestamp": "2026-04-22 03:51:14",
         "source": "github_action",
         "candidate": "Ajmal Fajar",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-22 03:51:42",
+        "source": "github_action",
+        "candidate": "Tresye Alfa Ega  Turang",
         "position": "Reporter Nasional",
         "success": true
       }
