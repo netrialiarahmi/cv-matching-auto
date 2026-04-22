@@ -10731,23 +10731,16 @@
     ]
   },
   "2026-04-22": {
-    "total": 240,
+    "total": 241,
     "streamlit": 0,
-    "github_action": 240,
-    "successful": 240,
+    "github_action": 241,
+    "successful": 241,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 178,
+      "Marketing Communication Officer KG Media": 179,
       "Reporter Nasional": 62
     },
     "entries": [
-      {
-        "timestamp": "2026-04-22 03:51:14",
-        "source": "github_action",
-        "candidate": "Ajmal Fajar",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-22 03:51:42",
         "source": "github_action",
@@ -11438,6 +11431,13 @@
         "timestamp": "2026-04-22 04:41:12",
         "source": "github_action",
         "candidate": "Ikhsan Fatkhurrohman Dahlan",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-22 04:41:38",
+        "source": "github_action",
+        "candidate": "Daffa Prasetyo",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
