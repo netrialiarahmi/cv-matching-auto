@@ -10731,25 +10731,18 @@
     ]
   },
   "2026-04-22": {
-    "total": 511,
+    "total": 512,
     "streamlit": 0,
-    "github_action": 511,
-    "successful": 511,
+    "github_action": 512,
+    "successful": 512,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 200,
       "Reporter Nasional": 162,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 49
+      "Account Executive VCBL": 50
     },
     "entries": [
-      {
-        "timestamp": "2026-04-22 06:00:00",
-        "source": "github_action",
-        "candidate": "Indhira Amarta  Mahanani",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-22 06:00:36",
         "source": "github_action",
@@ -11440,6 +11433,13 @@
         "timestamp": "2026-04-22 06:48:04",
         "source": "github_action",
         "candidate": "Muhammad Kevandra",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-22 06:48:34",
+        "source": "github_action",
+        "candidate": "SUTAN ANANDA RIESLY FAJAR MAULANA",
         "position": "Account Executive VCBL",
         "success": true
       }
