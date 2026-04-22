@@ -10731,23 +10731,16 @@
     ]
   },
   "2026-04-22": {
-    "total": 158,
+    "total": 159,
     "streamlit": 0,
-    "github_action": 158,
-    "successful": 158,
+    "github_action": 159,
+    "successful": 159,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 58
+      "Reporter Nasional": 59
     },
     "entries": [
-      {
-        "timestamp": "2026-04-22 03:10:47",
-        "source": "github_action",
-        "candidate": "Yehezkiel Calvin Octavianus Paat",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-22 03:11:21",
         "source": "github_action",
@@ -11438,6 +11431,13 @@
         "timestamp": "2026-04-22 03:59:30",
         "source": "github_action",
         "candidate": "ERIJ  karimah",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-22 04:00:05",
+        "source": "github_action",
+        "candidate": "Nadifa Aisyahrizka",
         "position": "Reporter Nasional",
         "success": true
       }
