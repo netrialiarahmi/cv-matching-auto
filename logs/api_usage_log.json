@@ -10731,25 +10731,18 @@
     ]
   },
   "2026-04-22": {
-    "total": 523,
+    "total": 524,
     "streamlit": 0,
-    "github_action": 523,
-    "successful": 523,
+    "github_action": 524,
+    "successful": 524,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 200,
       "Reporter Nasional": 162,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 61
+      "Account Executive VCBL": 62
     },
     "entries": [
-      {
-        "timestamp": "2026-04-22 06:09:09",
-        "source": "github_action",
-        "candidate": "Herviona Advenester Wardhani",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-22 06:09:40",
         "source": "github_action",
@@ -11440,6 +11433,13 @@
         "timestamp": "2026-04-22 06:52:40",
         "source": "github_action",
         "candidate": "ANDARI EKA NUR ALLIFAH",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-22 06:53:12",
+        "source": "github_action",
+        "candidate": "Aprina Septauli Manurung",
         "position": "Account Executive VCBL",
         "success": true
       }
