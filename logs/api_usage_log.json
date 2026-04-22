@@ -10731,13 +10731,13 @@
     ]
   },
   "2026-04-22": {
-    "total": 28,
+    "total": 29,
     "streamlit": 0,
-    "github_action": 28,
-    "successful": 28,
+    "github_action": 29,
+    "successful": 29,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 28
+      "Marketing Communication Officer KG Media": 29
     },
     "entries": [
       {
@@ -10933,6 +10933,13 @@
         "timestamp": "2026-04-22 02:55:05",
         "source": "github_action",
         "candidate": "Hariyanto  .",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-22 02:55:37",
+        "source": "github_action",
+        "candidate": "Firmansyah 21",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
