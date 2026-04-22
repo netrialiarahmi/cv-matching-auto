@@ -10731,25 +10731,18 @@
     ]
   },
   "2026-04-22": {
-    "total": 515,
+    "total": 516,
     "streamlit": 0,
-    "github_action": 515,
-    "successful": 515,
+    "github_action": 516,
+    "successful": 516,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 200,
       "Reporter Nasional": 162,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 53
+      "Account Executive VCBL": 54
     },
     "entries": [
-      {
-        "timestamp": "2026-04-22 06:02:23",
-        "source": "github_action",
-        "candidate": "Ananda Sari",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-22 06:02:25",
         "source": "github_action",
@@ -11440,6 +11433,13 @@
         "timestamp": "2026-04-22 06:49:36",
         "source": "github_action",
         "candidate": "Oryza Zaidandio",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-22 06:50:06",
+        "source": "github_action",
+        "candidate": "Rifqi Soeleiman",
         "position": "Account Executive VCBL",
         "success": true
       }
