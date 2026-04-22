@@ -10731,25 +10731,18 @@
     ]
   },
   "2026-04-22": {
-    "total": 483,
+    "total": 484,
     "streamlit": 0,
-    "github_action": 483,
-    "successful": 483,
+    "github_action": 484,
+    "successful": 484,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 200,
       "Reporter Nasional": 162,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 21
+      "Account Executive VCBL": 22
     },
     "entries": [
-      {
-        "timestamp": "2026-04-22 05:46:39",
-        "source": "github_action",
-        "candidate": "cecep aris afandi andi",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-22 05:47:06",
         "source": "github_action",
@@ -11440,6 +11433,13 @@
         "timestamp": "2026-04-22 06:35:07",
         "source": "github_action",
         "candidate": "Sidiq Yogha Nariza",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-22 06:35:37",
+        "source": "github_action",
+        "candidate": "Matin Muhammad",
         "position": "Account Executive VCBL",
         "success": true
       }
