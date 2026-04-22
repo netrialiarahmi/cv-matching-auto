@@ -10731,13 +10731,13 @@
     ]
   },
   "2026-04-22": {
-    "total": 52,
+    "total": 53,
     "streamlit": 0,
-    "github_action": 52,
-    "successful": 52,
+    "github_action": 53,
+    "successful": 53,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 52
+      "Marketing Communication Officer KG Media": 53
     },
     "entries": [
       {
@@ -11101,6 +11101,13 @@
         "timestamp": "2026-04-22 03:06:54",
         "source": "github_action",
         "candidate": "Muhammad Rafli",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-22 03:07:28",
+        "source": "github_action",
+        "candidate": "Farras Shofi M",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
