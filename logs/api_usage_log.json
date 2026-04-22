@@ -10731,25 +10731,18 @@
     ]
   },
   "2026-04-22": {
-    "total": 531,
+    "total": 532,
     "streamlit": 0,
-    "github_action": 531,
-    "successful": 531,
+    "github_action": 532,
+    "successful": 532,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 200,
       "Reporter Nasional": 162,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 69
+      "Account Executive VCBL": 70
     },
     "entries": [
-      {
-        "timestamp": "2026-04-22 06:13:04",
-        "source": "github_action",
-        "candidate": "BIFFANCA ALLYA KENEDY",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-22 06:13:35",
         "source": "github_action",
@@ -11440,6 +11433,13 @@
         "timestamp": "2026-04-22 06:56:15",
         "source": "github_action",
         "candidate": "Kurnia Ariati",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-22 06:56:47",
+        "source": "github_action",
+        "candidate": "Widitra Rama",
         "position": "Account Executive VCBL",
         "success": true
       }
