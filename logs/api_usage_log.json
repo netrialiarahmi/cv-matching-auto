@@ -10731,23 +10731,16 @@
     ]
   },
   "2026-04-22": {
-    "total": 231,
+    "total": 232,
     "streamlit": 0,
-    "github_action": 231,
-    "successful": 231,
+    "github_action": 232,
+    "successful": 232,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 169,
+      "Marketing Communication Officer KG Media": 170,
       "Reporter Nasional": 62
     },
     "entries": [
-      {
-        "timestamp": "2026-04-22 03:46:54",
-        "source": "github_action",
-        "candidate": "Revo Anggara",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-22 03:47:27",
         "source": "github_action",
@@ -11438,6 +11431,13 @@
         "timestamp": "2026-04-22 04:37:06",
         "source": "github_action",
         "candidate": "Safira Jodi",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-22 04:37:33",
+        "source": "github_action",
+        "candidate": "kenzie salman",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
