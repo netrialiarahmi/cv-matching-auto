@@ -10731,25 +10731,18 @@
     ]
   },
   "2026-04-22": {
-    "total": 555,
+    "total": 556,
     "streamlit": 0,
-    "github_action": 555,
-    "successful": 555,
+    "github_action": 556,
+    "successful": 556,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 200,
       "Reporter Nasional": 162,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 93
+      "Account Executive VCBL": 94
     },
     "entries": [
-      {
-        "timestamp": "2026-04-22 06:23:24",
-        "source": "github_action",
-        "candidate": "Maria Natalie Safira",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-22 06:23:52",
         "source": "github_action",
@@ -11440,6 +11433,13 @@
         "timestamp": "2026-04-22 07:07:13",
         "source": "github_action",
         "candidate": "Yoshika sinaga",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-22 07:07:50",
+        "source": "github_action",
+        "candidate": "Fadli Rahman",
         "position": "Account Executive VCBL",
         "success": true
       }
