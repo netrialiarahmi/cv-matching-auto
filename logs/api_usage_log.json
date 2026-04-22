@@ -10731,24 +10731,17 @@
     ]
   },
   "2026-04-22": {
-    "total": 259,
+    "total": 260,
     "streamlit": 0,
-    "github_action": 259,
-    "successful": 259,
+    "github_action": 260,
+    "successful": 260,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
-      "Business Development Analyst": 59
+      "Business Development Analyst": 60
     },
     "entries": [
-      {
-        "timestamp": "2026-04-22 04:00:37",
-        "source": "github_action",
-        "candidate": "Wika Andriani Pangaribuan",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-22 04:01:09",
         "source": "github_action",
@@ -11439,6 +11432,13 @@
         "timestamp": "2026-04-22 04:48:34",
         "source": "github_action",
         "candidate": "Ananda Sari",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-22 04:48:37",
+        "source": "github_action",
+        "candidate": "Sheila Armelia",
         "position": "Business Development Analyst",
         "success": true
       }
