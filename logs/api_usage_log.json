@@ -10731,13 +10731,13 @@
     ]
   },
   "2026-04-22": {
-    "total": 30,
+    "total": 31,
     "streamlit": 0,
-    "github_action": 30,
-    "successful": 30,
+    "github_action": 31,
+    "successful": 31,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 30
+      "Marketing Communication Officer KG Media": 31
     },
     "entries": [
       {
@@ -10947,6 +10947,13 @@
         "timestamp": "2026-04-22 02:56:08",
         "source": "github_action",
         "candidate": "Hilda Shakira",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-22 02:56:45",
+        "source": "github_action",
+        "candidate": "Farhan Razzak M",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
