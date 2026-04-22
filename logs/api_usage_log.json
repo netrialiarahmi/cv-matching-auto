@@ -10731,23 +10731,16 @@
     ]
   },
   "2026-04-22": {
-    "total": 134,
+    "total": 135,
     "streamlit": 0,
-    "github_action": 134,
-    "successful": 134,
+    "github_action": 135,
+    "successful": 135,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 34
+      "Reporter Nasional": 35
     },
     "entries": [
-      {
-        "timestamp": "2026-04-22 02:58:29",
-        "source": "github_action",
-        "candidate": "Moniq Tesalonika Hutabarat",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-22 02:59:01",
         "source": "github_action",
@@ -11438,6 +11431,13 @@
         "timestamp": "2026-04-22 03:47:56",
         "source": "github_action",
         "candidate": "Anggita Nur Cahyani",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-22 03:48:25",
+        "source": "github_action",
+        "candidate": "Corry Salsabilla",
         "position": "Reporter Nasional",
         "success": true
       }
