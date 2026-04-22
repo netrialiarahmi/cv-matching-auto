@@ -10731,23 +10731,16 @@
     ]
   },
   "2026-04-22": {
-    "total": 117,
+    "total": 118,
     "streamlit": 0,
-    "github_action": 117,
-    "successful": 117,
+    "github_action": 118,
+    "successful": 118,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 17
+      "Reporter Nasional": 18
     },
     "entries": [
-      {
-        "timestamp": "2026-04-22 02:50:18",
-        "source": "github_action",
-        "candidate": "jihan nivi",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-22 02:50:21",
         "source": "github_action",
@@ -11438,6 +11431,13 @@
         "timestamp": "2026-04-22 03:40:11",
         "source": "github_action",
         "candidate": "Muhammad Arief  Adhistyo Hidayat",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-22 03:40:43",
+        "source": "github_action",
+        "candidate": "Aura Antari",
         "position": "Reporter Nasional",
         "success": true
       }
