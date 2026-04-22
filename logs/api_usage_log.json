@@ -10731,13 +10731,13 @@
     ]
   },
   "2026-04-22": {
-    "total": 88,
+    "total": 89,
     "streamlit": 0,
-    "github_action": 88,
-    "successful": 88,
+    "github_action": 89,
+    "successful": 89,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 88
+      "Marketing Communication Officer KG Media": 89
     },
     "entries": [
       {
@@ -11353,6 +11353,13 @@
         "timestamp": "2026-04-22 03:25:59",
         "source": "github_action",
         "candidate": "Hanggoro Ritzki Geza",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-22 03:26:29",
+        "source": "github_action",
+        "candidate": "Muhammad Ihdi  Yuwana",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
