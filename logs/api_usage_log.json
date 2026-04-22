@@ -10731,24 +10731,17 @@
     ]
   },
   "2026-04-22": {
-    "total": 402,
+    "total": 403,
     "streamlit": 0,
-    "github_action": 402,
-    "successful": 402,
+    "github_action": 403,
+    "successful": 403,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 200,
       "Reporter Nasional": 162,
-      "Business Development Analyst": 40
+      "Business Development Analyst": 41
     },
     "entries": [
-      {
-        "timestamp": "2026-04-22 05:09:46",
-        "source": "github_action",
-        "candidate": "Carlo Alesandrino Pranata",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-22 05:10:12",
         "source": "github_action",
@@ -11439,6 +11432,13 @@
         "timestamp": "2026-04-22 05:55:22",
         "source": "github_action",
         "candidate": "Aulia Ramandha  Hendra",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-22 05:55:52",
+        "source": "github_action",
+        "candidate": "Audie Nabiel Akmal",
         "position": "Business Development Analyst",
         "success": true
       }
