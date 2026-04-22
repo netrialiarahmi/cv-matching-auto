@@ -10731,16 +10731,23 @@
     ]
   },
   "2026-04-22": {
-    "total": 165,
+    "total": 164,
     "streamlit": 0,
-    "github_action": 165,
-    "successful": 165,
+    "github_action": 164,
+    "successful": 164,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 65
+      "Marketing Communication Officer KG Media": 102,
+      "Reporter Nasional": 62
     },
     "entries": [
+      {
+        "timestamp": "2026-04-22 03:14:00",
+        "source": "github_action",
+        "candidate": "Devin Fahrezi Alandeta",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
       {
         "timestamp": "2026-04-22 03:14:34",
         "source": "github_action",
@@ -11421,24 +11428,17 @@
         "success": true
       },
       {
-        "timestamp": "2026-04-22 04:01:46",
+        "timestamp": "2026-04-22 04:02:21",
         "source": "github_action",
-        "candidate": "Dimas Candra",
-        "position": "Reporter Nasional",
+        "candidate": "Rio Valentino",
+        "position": "Marketing Communication Officer KG Media",
         "success": true
       },
       {
-        "timestamp": "2026-04-22 04:01:49",
+        "timestamp": "2026-04-22 04:02:49",
         "source": "github_action",
-        "candidate": "Aziizah Azhaar",
-        "position": "Reporter Nasional",
-        "success": true
-      },
-      {
-        "timestamp": "2026-04-22 04:02:25",
-        "source": "github_action",
-        "candidate": "Sukriwan  Ramadhan",
-        "position": "Reporter Nasional",
+        "candidate": "Rena Dwi",
+        "position": "Marketing Communication Officer KG Media",
         "success": true
       }
     ]
