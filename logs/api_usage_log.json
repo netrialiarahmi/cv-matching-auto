@@ -10731,23 +10731,16 @@
     ]
   },
   "2026-04-22": {
-    "total": 115,
+    "total": 116,
     "streamlit": 0,
-    "github_action": 115,
-    "successful": 115,
+    "github_action": 116,
+    "successful": 116,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 15
+      "Reporter Nasional": 16
     },
     "entries": [
-      {
-        "timestamp": "2026-04-22 02:49:13",
-        "source": "github_action",
-        "candidate": "Shifa Aulia Rizky",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-22 02:49:47",
         "source": "github_action",
@@ -11438,6 +11431,13 @@
         "timestamp": "2026-04-22 03:39:02",
         "source": "github_action",
         "candidate": "Dhianti Karamina zilda",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-22 03:39:34",
+        "source": "github_action",
+        "candidate": "Muhammad  Noor",
         "position": "Reporter Nasional",
         "success": true
       }
