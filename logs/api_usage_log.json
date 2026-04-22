@@ -10731,23 +10731,16 @@
     ]
   },
   "2026-04-22": {
-    "total": 143,
+    "total": 144,
     "streamlit": 0,
-    "github_action": 143,
-    "successful": 143,
+    "github_action": 144,
+    "successful": 144,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 43
+      "Reporter Nasional": 44
     },
     "entries": [
-      {
-        "timestamp": "2026-04-22 03:02:58",
-        "source": "github_action",
-        "candidate": "Fathan Alamsyah",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-22 03:03:29",
         "source": "github_action",
@@ -11438,6 +11431,13 @@
         "timestamp": "2026-04-22 03:52:09",
         "source": "github_action",
         "candidate": "BAGUS SADEWO",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-22 03:52:42",
+        "source": "github_action",
+        "candidate": "Ilham Maulana",
         "position": "Reporter Nasional",
         "success": true
       }
