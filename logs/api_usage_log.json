@@ -10731,13 +10731,13 @@
     ]
   },
   "2026-04-22": {
-    "total": 85,
+    "total": 86,
     "streamlit": 0,
-    "github_action": 85,
-    "successful": 85,
+    "github_action": 86,
+    "successful": 86,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 85
+      "Marketing Communication Officer KG Media": 86
     },
     "entries": [
       {
@@ -11332,6 +11332,13 @@
         "timestamp": "2026-04-22 03:24:15",
         "source": "github_action",
         "candidate": "Brigitta Purnama",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-22 03:24:50",
+        "source": "github_action",
+        "candidate": "Anita Afriani",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
