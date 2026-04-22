@@ -10731,13 +10731,13 @@
     ]
   },
   "2026-04-22": {
-    "total": 64,
+    "total": 65,
     "streamlit": 0,
-    "github_action": 64,
-    "successful": 64,
+    "github_action": 65,
+    "successful": 65,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 64
+      "Marketing Communication Officer KG Media": 65
     },
     "entries": [
       {
@@ -11185,6 +11185,13 @@
         "timestamp": "2026-04-22 03:13:28",
         "source": "github_action",
         "candidate": "Prajwalita Nareswari",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-22 03:14:00",
+        "source": "github_action",
+        "candidate": "Devin Fahrezi Alandeta",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
