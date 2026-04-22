@@ -10731,13 +10731,13 @@
     ]
   },
   "2026-04-22": {
-    "total": 74,
+    "total": 75,
     "streamlit": 0,
-    "github_action": 74,
-    "successful": 74,
+    "github_action": 75,
+    "successful": 75,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 74
+      "Marketing Communication Officer KG Media": 75
     },
     "entries": [
       {
@@ -11255,6 +11255,13 @@
         "timestamp": "2026-04-22 03:18:44",
         "source": "github_action",
         "candidate": "Salwa Lidya",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-22 03:19:17",
+        "source": "github_action",
+        "candidate": "Rio Valentino",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
