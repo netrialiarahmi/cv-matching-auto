@@ -10731,13 +10731,13 @@
     ]
   },
   "2026-04-22": {
-    "total": 49,
+    "total": 50,
     "streamlit": 0,
-    "github_action": 49,
-    "successful": 49,
+    "github_action": 50,
+    "successful": 50,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 49
+      "Marketing Communication Officer KG Media": 50
     },
     "entries": [
       {
@@ -11080,6 +11080,13 @@
         "timestamp": "2026-04-22 03:05:18",
         "source": "github_action",
         "candidate": "Dzika Fajar Alfian  Ramadhani",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-22 03:05:49",
+        "source": "github_action",
+        "candidate": "Muhammad Syahrul Muhajirin",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
