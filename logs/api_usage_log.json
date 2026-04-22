@@ -10731,23 +10731,16 @@
     ]
   },
   "2026-04-22": {
-    "total": 243,
+    "total": 244,
     "streamlit": 0,
-    "github_action": 243,
-    "successful": 243,
+    "github_action": 244,
+    "successful": 244,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 181,
+      "Marketing Communication Officer KG Media": 182,
       "Reporter Nasional": 62
     },
     "entries": [
-      {
-        "timestamp": "2026-04-22 03:52:42",
-        "source": "github_action",
-        "candidate": "Ilham Maulana",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-22 03:53:09",
         "source": "github_action",
@@ -11438,6 +11431,13 @@
         "timestamp": "2026-04-22 04:42:46",
         "source": "github_action",
         "candidate": "Mansa Manalu",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-22 04:43:15",
+        "source": "github_action",
+        "candidate": "Nanda Rahman Rahimi Dhilsi",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
