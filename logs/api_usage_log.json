@@ -10731,24 +10731,17 @@
     ]
   },
   "2026-04-22": {
-    "total": 395,
+    "total": 396,
     "streamlit": 0,
-    "github_action": 395,
-    "successful": 395,
+    "github_action": 396,
+    "successful": 396,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 200,
       "Reporter Nasional": 162,
-      "Business Development Analyst": 33
+      "Business Development Analyst": 34
     },
     "entries": [
-      {
-        "timestamp": "2026-04-22 05:06:47",
-        "source": "github_action",
-        "candidate": "Dinar Indrani",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-22 05:07:25",
         "source": "github_action",
@@ -11439,6 +11432,13 @@
         "timestamp": "2026-04-22 05:52:03",
         "source": "github_action",
         "candidate": "Aditya Reynaldi",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-22 05:52:32",
+        "source": "github_action",
+        "candidate": "Salsabila Posmaryana Utami",
         "position": "Business Development Analyst",
         "success": true
       }
