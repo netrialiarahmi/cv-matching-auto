@@ -10731,25 +10731,18 @@
     ]
   },
   "2026-04-22": {
-    "total": 480,
+    "total": 481,
     "streamlit": 0,
-    "github_action": 480,
-    "successful": 480,
+    "github_action": 481,
+    "successful": 481,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 200,
       "Reporter Nasional": 162,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 18
+      "Account Executive VCBL": 19
     },
     "entries": [
-      {
-        "timestamp": "2026-04-22 05:45:13",
-        "source": "github_action",
-        "candidate": "Faqih Wasim Ahmad",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-22 05:45:42",
         "source": "github_action",
@@ -11440,6 +11433,13 @@
         "timestamp": "2026-04-22 06:33:51",
         "source": "github_action",
         "candidate": "Daffa Sandya Affansyah",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-22 06:34:24",
+        "source": "github_action",
+        "candidate": "Gita Aurelia",
         "position": "Account Executive VCBL",
         "success": true
       }
