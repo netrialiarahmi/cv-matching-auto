@@ -10731,23 +10731,16 @@
     ]
   },
   "2026-04-22": {
-    "total": 273,
+    "total": 274,
     "streamlit": 0,
-    "github_action": 273,
-    "successful": 273,
+    "github_action": 274,
+    "successful": 274,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 200,
-      "Reporter Nasional": 73
+      "Reporter Nasional": 74
     },
     "entries": [
-      {
-        "timestamp": "2026-04-22 04:07:59",
-        "source": "github_action",
-        "candidate": "Mahir Muhammad",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-22 04:08:32",
         "source": "github_action",
@@ -11438,6 +11431,13 @@
         "timestamp": "2026-04-22 04:56:42",
         "source": "github_action",
         "candidate": "Muhamad Reza Pahlevi",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-22 04:57:08",
+        "source": "github_action",
+        "candidate": "ARIF ANWAR RIZKY",
         "position": "Reporter Nasional",
         "success": true
       }
