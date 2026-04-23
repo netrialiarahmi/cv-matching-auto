@@ -11446,24 +11446,17 @@
     ]
   },
   "2026-04-23": {
-    "total": 233,
+    "total": 234,
     "streamlit": 0,
-    "github_action": 233,
-    "successful": 233,
+    "github_action": 234,
+    "successful": 234,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
-      "Business Development Analyst": 33
+      "Business Development Analyst": 34
     },
     "entries": [
-      {
-        "timestamp": "2026-04-23 05:15:36",
-        "source": "github_action",
-        "candidate": "Aqmarina Oktavia Ibrahim",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-23 05:16:09",
         "source": "github_action",
@@ -12154,6 +12147,13 @@
         "timestamp": "2026-04-23 06:04:33",
         "source": "github_action",
         "candidate": "Tuti Asriza",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-23 06:05:03",
+        "source": "github_action",
+        "candidate": "Arve Barus",
         "position": "Business Development Analyst",
         "success": true
       }
