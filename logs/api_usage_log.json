@@ -11446,25 +11446,18 @@
     ]
   },
   "2026-04-23": {
-    "total": 346,
+    "total": 347,
     "streamlit": 0,
-    "github_action": 346,
-    "successful": 346,
+    "github_action": 347,
+    "successful": 347,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 46
+      "Account Executive VCBL": 47
     },
     "entries": [
-      {
-        "timestamp": "2026-04-23 06:11:27",
-        "source": "github_action",
-        "candidate": "wahyu cahyaningrum",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-23 06:11:56",
         "source": "github_action",
@@ -12155,6 +12148,13 @@
         "timestamp": "2026-04-23 06:58:50",
         "source": "github_action",
         "candidate": "SUTAN ANANDA RIESLY FAJAR MAULANA",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-23 06:58:54",
+        "source": "github_action",
+        "candidate": "Aulia Aisyatu Zakia",
         "position": "Account Executive VCBL",
         "success": true
       }
