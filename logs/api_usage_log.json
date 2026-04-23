@@ -11446,23 +11446,16 @@
     ]
   },
   "2026-04-23": {
-    "total": 125,
+    "total": 126,
     "streamlit": 0,
-    "github_action": 125,
-    "successful": 125,
+    "github_action": 126,
+    "successful": 126,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 25
+      "Reporter Nasional": 26
     },
     "entries": [
-      {
-        "timestamp": "2026-04-23 04:21:33",
-        "source": "github_action",
-        "candidate": "KINANTI MUTIARA  PRASOJO",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-23 04:22:07",
         "source": "github_action",
@@ -12153,6 +12146,13 @@
         "timestamp": "2026-04-23 05:11:35",
         "source": "github_action",
         "candidate": "Isti Annura Hadistiani",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-23 05:12:04",
+        "source": "github_action",
+        "candidate": "Gaswara Utama",
         "position": "Reporter Nasional",
         "success": true
       }
