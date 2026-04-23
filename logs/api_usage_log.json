@@ -11446,13 +11446,13 @@
     ]
   },
   "2026-04-23": {
-    "total": 76,
+    "total": 77,
     "streamlit": 0,
-    "github_action": 76,
-    "successful": 76,
+    "github_action": 77,
+    "successful": 77,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 76
+      "Marketing Communication Officer KG Media": 77
     },
     "entries": [
       {
@@ -11984,6 +11984,13 @@
         "timestamp": "2026-04-23 04:48:21",
         "source": "github_action",
         "candidate": "gloria angel",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-23 04:48:53",
+        "source": "github_action",
+        "candidate": "Harieza Noor Azmie",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
