@@ -11446,23 +11446,16 @@
     ]
   },
   "2026-04-23": {
-    "total": 111,
+    "total": 112,
     "streamlit": 0,
-    "github_action": 111,
-    "successful": 111,
+    "github_action": 112,
+    "successful": 112,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 11
+      "Reporter Nasional": 12
     },
     "entries": [
-      {
-        "timestamp": "2026-04-23 04:14:22",
-        "source": "github_action",
-        "candidate": "Hanggoro Ritzki Geza",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-23 04:14:53",
         "source": "github_action",
@@ -12153,6 +12146,13 @@
         "timestamp": "2026-04-23 05:05:15",
         "source": "github_action",
         "candidate": "ARIF ANWAR RIZKY",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-23 05:05:44",
+        "source": "github_action",
+        "candidate": "Maghrifa Aulia Az-Zahra",
         "position": "Reporter Nasional",
         "success": true
       }
