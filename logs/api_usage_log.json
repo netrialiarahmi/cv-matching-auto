@@ -11446,23 +11446,16 @@
     ]
   },
   "2026-04-23": {
-    "total": 128,
+    "total": 129,
     "streamlit": 0,
-    "github_action": 128,
-    "successful": 128,
+    "github_action": 129,
+    "successful": 129,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 28
+      "Reporter Nasional": 29
     },
     "entries": [
-      {
-        "timestamp": "2026-04-23 04:23:16",
-        "source": "github_action",
-        "candidate": "Rahmita adinda",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-23 04:23:46",
         "source": "github_action",
@@ -12153,6 +12146,13 @@
         "timestamp": "2026-04-23 05:13:04",
         "source": "github_action",
         "candidate": "Revo Anggara",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-23 05:13:32",
+        "source": "github_action",
+        "candidate": "Anggita Nur Cahyani",
         "position": "Reporter Nasional",
         "success": true
       }
