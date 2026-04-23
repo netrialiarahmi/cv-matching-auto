@@ -11446,24 +11446,17 @@
     ]
   },
   "2026-04-23": {
-    "total": 226,
+    "total": 227,
     "streamlit": 0,
-    "github_action": 226,
-    "successful": 226,
+    "github_action": 227,
+    "successful": 227,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
-      "Business Development Analyst": 26
+      "Business Development Analyst": 27
     },
     "entries": [
-      {
-        "timestamp": "2026-04-23 05:12:32",
-        "source": "github_action",
-        "candidate": "Gita Putri",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-23 05:13:04",
         "source": "github_action",
@@ -12154,6 +12147,13 @@
         "timestamp": "2026-04-23 06:01:00",
         "source": "github_action",
         "candidate": "Kadek Nia Widiartini",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-23 06:01:34",
+        "source": "github_action",
+        "candidate": "Satria Wibowo",
         "position": "Business Development Analyst",
         "success": true
       }
