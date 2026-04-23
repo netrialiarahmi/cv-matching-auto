@@ -11446,25 +11446,18 @@
     ]
   },
   "2026-04-23": {
-    "total": 399,
+    "total": 400,
     "streamlit": 0,
-    "github_action": 399,
-    "successful": 399,
+    "github_action": 400,
+    "successful": 400,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 99
+      "Account Executive VCBL": 100
     },
     "entries": [
-      {
-        "timestamp": "2026-04-23 06:36:56",
-        "source": "github_action",
-        "candidate": "Ady Ramzy",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-23 06:37:28",
         "source": "github_action",
@@ -12155,6 +12148,13 @@
         "timestamp": "2026-04-23 07:23:52",
         "source": "github_action",
         "candidate": "Suryansyah Alimas",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-23 07:24:21",
+        "source": "github_action",
+        "candidate": "Qinar Biran",
         "position": "Account Executive VCBL",
         "success": true
       }
