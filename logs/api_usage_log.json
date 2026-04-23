@@ -11446,23 +11446,16 @@
     ]
   },
   "2026-04-23": {
-    "total": 164,
+    "total": 165,
     "streamlit": 0,
-    "github_action": 164,
-    "successful": 164,
+    "github_action": 165,
+    "successful": 165,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 64
+      "Reporter Nasional": 65
     },
     "entries": [
-      {
-        "timestamp": "2026-04-23 04:42:51",
-        "source": "github_action",
-        "candidate": "Fildza Salma Malahati",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-23 04:43:22",
         "source": "github_action",
@@ -12153,6 +12146,13 @@
         "timestamp": "2026-04-23 05:30:26",
         "source": "github_action",
         "candidate": "Rahel  Siregar",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-23 05:31:00",
+        "source": "github_action",
+        "candidate": "Sholahuddin Al Ayyubi",
         "position": "Reporter Nasional",
         "success": true
       }
