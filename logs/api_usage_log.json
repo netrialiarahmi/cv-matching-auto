@@ -11446,23 +11446,17 @@
     ]
   },
   "2026-04-23": {
-    "total": 200,
+    "total": 201,
     "streamlit": 0,
-    "github_action": 200,
-    "successful": 200,
+    "github_action": 201,
+    "successful": 201,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 100
+      "Reporter Nasional": 100,
+      "Business Development Analyst": 1
     },
     "entries": [
-      {
-        "timestamp": "2026-04-23 05:00:46",
-        "source": "github_action",
-        "candidate": "Andito  Gifari",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-23 05:01:15",
         "source": "github_action",
@@ -12154,6 +12148,13 @@
         "source": "github_action",
         "candidate": "Siti Nurhalisa",
         "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-23 05:48:06",
+        "source": "github_action",
+        "candidate": "Yuke Luviana",
+        "position": "Business Development Analyst",
         "success": true
       }
     ]
