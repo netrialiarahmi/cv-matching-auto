@@ -11446,13 +11446,13 @@
     ]
   },
   "2026-04-23": {
-    "total": 18,
+    "total": 19,
     "streamlit": 0,
-    "github_action": 18,
-    "successful": 18,
+    "github_action": 19,
+    "successful": 19,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 18
+      "Marketing Communication Officer KG Media": 19
     },
     "entries": [
       {
@@ -11578,6 +11578,13 @@
         "timestamp": "2026-04-23 04:17:37",
         "source": "github_action",
         "candidate": "Qonitah Khairunnisa",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-23 04:18:08",
+        "source": "github_action",
+        "candidate": "M Rifaldi fadli",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
