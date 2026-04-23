@@ -11446,24 +11446,17 @@
     ]
   },
   "2026-04-23": {
-    "total": 252,
+    "total": 253,
     "streamlit": 0,
-    "github_action": 252,
-    "successful": 252,
+    "github_action": 253,
+    "successful": 253,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
-      "Business Development Analyst": 52
+      "Business Development Analyst": 53
     },
     "entries": [
-      {
-        "timestamp": "2026-04-23 05:24:45",
-        "source": "github_action",
-        "candidate": "Dwi Putra",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-23 05:25:20",
         "source": "github_action",
@@ -12154,6 +12147,13 @@
         "timestamp": "2026-04-23 06:14:02",
         "source": "github_action",
         "candidate": "Bintang Artha Velina Simanjuntak",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-23 06:14:31",
+        "source": "github_action",
+        "candidate": "Charles Philip",
         "position": "Business Development Analyst",
         "success": true
       }
