@@ -11446,24 +11446,17 @@
     ]
   },
   "2026-04-23": {
-    "total": 258,
+    "total": 259,
     "streamlit": 0,
-    "github_action": 258,
-    "successful": 258,
+    "github_action": 259,
+    "successful": 259,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
-      "Business Development Analyst": 58
+      "Business Development Analyst": 59
     },
     "entries": [
-      {
-        "timestamp": "2026-04-23 05:27:51",
-        "source": "github_action",
-        "candidate": "Friendsa Hasugian",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-23 05:28:20",
         "source": "github_action",
@@ -12154,6 +12147,13 @@
         "timestamp": "2026-04-23 06:17:12",
         "source": "github_action",
         "candidate": "Rio Fabianto",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-23 06:17:43",
+        "source": "github_action",
+        "candidate": "Muhammad Iqbal Dwiputra",
         "position": "Business Development Analyst",
         "success": true
       }
