@@ -11446,24 +11446,17 @@
     ]
   },
   "2026-04-23": {
-    "total": 228,
+    "total": 229,
     "streamlit": 0,
-    "github_action": 228,
-    "successful": 228,
+    "github_action": 229,
+    "successful": 229,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
-      "Business Development Analyst": 28
+      "Business Development Analyst": 29
     },
     "entries": [
-      {
-        "timestamp": "2026-04-23 05:13:32",
-        "source": "github_action",
-        "candidate": "Anggita Nur Cahyani",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-23 05:14:02",
         "source": "github_action",
@@ -12154,6 +12147,13 @@
         "timestamp": "2026-04-23 06:02:04",
         "source": "github_action",
         "candidate": "Akmal Aminullah",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-23 06:02:31",
+        "source": "github_action",
+        "candidate": "Gregorius Naralatu Dharana",
         "position": "Business Development Analyst",
         "success": true
       }
