@@ -11446,19 +11446,26 @@
     ]
   },
   "2026-04-23": {
-    "total": 1,
+    "total": 2,
     "streamlit": 0,
-    "github_action": 1,
-    "successful": 1,
+    "github_action": 2,
+    "successful": 2,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 1
+      "Marketing Communication Officer KG Media": 2
     },
     "entries": [
       {
         "timestamp": "2026-04-23 04:08:41",
         "source": "github_action",
         "candidate": "Rio Valentino",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-23 04:09:12",
+        "source": "github_action",
+        "candidate": "Rena Dwi",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
