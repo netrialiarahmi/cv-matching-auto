@@ -11446,23 +11446,16 @@
     ]
   },
   "2026-04-23": {
-    "total": 150,
+    "total": 151,
     "streamlit": 0,
-    "github_action": 150,
-    "successful": 150,
+    "github_action": 151,
+    "successful": 151,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 50
+      "Reporter Nasional": 51
     },
     "entries": [
-      {
-        "timestamp": "2026-04-23 04:35:23",
-        "source": "github_action",
-        "candidate": "Rizma Khansa Zulfa",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-23 04:35:54",
         "source": "github_action",
@@ -12153,6 +12146,13 @@
         "timestamp": "2026-04-23 05:23:42",
         "source": "github_action",
         "candidate": "Nadifa Aisyahrizka",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-23 05:24:12",
+        "source": "github_action",
+        "candidate": "Wika Andriani Pangaribuan",
         "position": "Reporter Nasional",
         "success": true
       }
