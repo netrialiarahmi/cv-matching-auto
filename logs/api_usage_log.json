@@ -11446,24 +11446,17 @@
     ]
   },
   "2026-04-23": {
-    "total": 279,
+    "total": 280,
     "streamlit": 0,
-    "github_action": 279,
-    "successful": 279,
+    "github_action": 280,
+    "successful": 280,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
-      "Business Development Analyst": 79
+      "Business Development Analyst": 80
     },
     "entries": [
-      {
-        "timestamp": "2026-04-23 05:37:55",
-        "source": "github_action",
-        "candidate": "Shella Utari Heldani",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-23 05:38:24",
         "source": "github_action",
@@ -12154,6 +12147,13 @@
         "timestamp": "2026-04-23 06:27:20",
         "source": "github_action",
         "candidate": "Rifka Elfrida Hutasoit",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-23 06:27:25",
+        "source": "github_action",
+        "candidate": "Agie Satria Chandra",
         "position": "Business Development Analyst",
         "success": true
       }
