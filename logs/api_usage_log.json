@@ -11446,13 +11446,13 @@
     ]
   },
   "2026-04-23": {
-    "total": 42,
+    "total": 43,
     "streamlit": 0,
-    "github_action": 42,
-    "successful": 42,
+    "github_action": 43,
+    "successful": 43,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 42
+      "Marketing Communication Officer KG Media": 43
     },
     "entries": [
       {
@@ -11746,6 +11746,13 @@
         "timestamp": "2026-04-23 04:30:28",
         "source": "github_action",
         "candidate": "KURNIA AGUSTIN",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-23 04:31:00",
+        "source": "github_action",
+        "candidate": "indira kasde",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
