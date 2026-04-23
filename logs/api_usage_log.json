@@ -11446,23 +11446,16 @@
     ]
   },
   "2026-04-23": {
-    "total": 101,
+    "total": 102,
     "streamlit": 0,
-    "github_action": 101,
-    "successful": 101,
+    "github_action": 102,
+    "successful": 102,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 1
+      "Reporter Nasional": 2
     },
     "entries": [
-      {
-        "timestamp": "2026-04-23 04:09:12",
-        "source": "github_action",
-        "candidate": "Rena Dwi",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-23 04:09:47",
         "source": "github_action",
@@ -12153,6 +12146,13 @@
         "timestamp": "2026-04-23 05:00:46",
         "source": "github_action",
         "candidate": "Andito  Gifari",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-23 05:01:15",
+        "source": "github_action",
+        "candidate": "Fano Eger",
         "position": "Reporter Nasional",
         "success": true
       }
