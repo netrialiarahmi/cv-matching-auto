@@ -11446,25 +11446,18 @@
     ]
   },
   "2026-04-23": {
-    "total": 326,
+    "total": 327,
     "streamlit": 0,
-    "github_action": 326,
-    "successful": 326,
+    "github_action": 327,
+    "successful": 327,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 26
+      "Account Executive VCBL": 27
     },
     "entries": [
-      {
-        "timestamp": "2026-04-23 06:01:34",
-        "source": "github_action",
-        "candidate": "Satria Wibowo",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-23 06:02:04",
         "source": "github_action",
@@ -12155,6 +12148,13 @@
         "timestamp": "2026-04-23 06:49:05",
         "source": "github_action",
         "candidate": "Dwi Syahra",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-23 06:49:34",
+        "source": "github_action",
+        "candidate": "Parto  Simanihuruk",
         "position": "Account Executive VCBL",
         "success": true
       }
