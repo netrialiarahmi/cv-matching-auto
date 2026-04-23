@@ -11446,23 +11446,16 @@
     ]
   },
   "2026-04-23": {
-    "total": 178,
+    "total": 179,
     "streamlit": 0,
-    "github_action": 178,
-    "successful": 178,
+    "github_action": 179,
+    "successful": 179,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 78
+      "Reporter Nasional": 79
     },
     "entries": [
-      {
-        "timestamp": "2026-04-23 04:49:33",
-        "source": "github_action",
-        "candidate": "Muhamad Yusuf Hasyim",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-23 04:49:38",
         "source": "github_action",
@@ -12153,6 +12146,13 @@
         "timestamp": "2026-04-23 05:36:56",
         "source": "github_action",
         "candidate": "AMIN MOMIAGE",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-23 05:37:23",
+        "source": "github_action",
+        "candidate": "Arshya Fatimah Azzahra",
         "position": "Reporter Nasional",
         "success": true
       }
