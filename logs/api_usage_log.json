@@ -11446,22 +11446,16 @@
     ]
   },
   "2026-04-23": {
-    "total": 100,
+    "total": 101,
     "streamlit": 0,
-    "github_action": 100,
-    "successful": 100,
+    "github_action": 101,
+    "successful": 101,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 100
+      "Marketing Communication Officer KG Media": 100,
+      "Reporter Nasional": 1
     },
     "entries": [
-      {
-        "timestamp": "2026-04-23 04:08:41",
-        "source": "github_action",
-        "candidate": "Rio Valentino",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-23 04:09:12",
         "source": "github_action",
@@ -12153,6 +12147,13 @@
         "source": "github_action",
         "candidate": "Alyaa Hasna Syifa",
         "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-23 05:00:46",
+        "source": "github_action",
+        "candidate": "Andito  Gifari",
+        "position": "Reporter Nasional",
         "success": true
       }
     ]
