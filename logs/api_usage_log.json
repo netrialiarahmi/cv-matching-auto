@@ -11446,24 +11446,17 @@
     ]
   },
   "2026-04-23": {
-    "total": 210,
+    "total": 211,
     "streamlit": 0,
-    "github_action": 210,
-    "successful": 210,
+    "github_action": 211,
+    "successful": 211,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
-      "Business Development Analyst": 10
+      "Business Development Analyst": 11
     },
     "entries": [
-      {
-        "timestamp": "2026-04-23 05:05:15",
-        "source": "github_action",
-        "candidate": "ARIF ANWAR RIZKY",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-23 05:05:44",
         "source": "github_action",
@@ -12154,6 +12147,13 @@
         "timestamp": "2026-04-23 05:52:53",
         "source": "github_action",
         "candidate": "Aldi Nur",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-23 05:53:27",
+        "source": "github_action",
+        "candidate": "Muhammad Althaf Suwanda",
         "position": "Business Development Analyst",
         "success": true
       }
