@@ -11446,13 +11446,13 @@
     ]
   },
   "2026-04-23": {
-    "total": 24,
+    "total": 25,
     "streamlit": 0,
-    "github_action": 24,
-    "successful": 24,
+    "github_action": 25,
+    "successful": 25,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 24
+      "Marketing Communication Officer KG Media": 25
     },
     "entries": [
       {
@@ -11620,6 +11620,13 @@
         "timestamp": "2026-04-23 04:20:25",
         "source": "github_action",
         "candidate": "Faiza Zulrahma",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-23 04:20:59",
+        "source": "github_action",
+        "candidate": "Lita Cecillya",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
