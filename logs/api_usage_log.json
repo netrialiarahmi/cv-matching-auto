@@ -11446,23 +11446,16 @@
     ]
   },
   "2026-04-23": {
-    "total": 166,
+    "total": 167,
     "streamlit": 0,
-    "github_action": 166,
-    "successful": 166,
+    "github_action": 167,
+    "successful": 167,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 66
+      "Reporter Nasional": 67
     },
     "entries": [
-      {
-        "timestamp": "2026-04-23 04:43:55",
-        "source": "github_action",
-        "candidate": "Farhan Ali Hamdani",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-23 04:44:29",
         "source": "github_action",
@@ -12153,6 +12146,13 @@
         "timestamp": "2026-04-23 05:31:04",
         "source": "github_action",
         "candidate": "Josua ruyandi Mangi",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-23 05:31:35",
+        "source": "github_action",
+        "candidate": "Rika Jahara",
         "position": "Reporter Nasional",
         "success": true
       }
