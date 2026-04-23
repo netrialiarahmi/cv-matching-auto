@@ -11446,23 +11446,16 @@
     ]
   },
   "2026-04-23": {
-    "total": 199,
+    "total": 200,
     "streamlit": 0,
-    "github_action": 199,
-    "successful": 199,
+    "github_action": 200,
+    "successful": 200,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 99
+      "Reporter Nasional": 100
     },
     "entries": [
-      {
-        "timestamp": "2026-04-23 05:00:13",
-        "source": "github_action",
-        "candidate": "Alyaa Hasna Syifa",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-23 05:00:46",
         "source": "github_action",
@@ -12153,6 +12146,13 @@
         "timestamp": "2026-04-23 05:47:01",
         "source": "github_action",
         "candidate": "Zulfikar Zaki Ridwan",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-23 05:47:34",
+        "source": "github_action",
+        "candidate": "Siti Nurhalisa",
         "position": "Reporter Nasional",
         "success": true
       }
