@@ -11446,24 +11446,17 @@
     ]
   },
   "2026-04-23": {
-    "total": 277,
+    "total": 278,
     "streamlit": 0,
-    "github_action": 277,
-    "successful": 277,
+    "github_action": 278,
+    "successful": 278,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
-      "Business Development Analyst": 77
+      "Business Development Analyst": 78
     },
     "entries": [
-      {
-        "timestamp": "2026-04-23 05:36:56",
-        "source": "github_action",
-        "candidate": "AMIN MOMIAGE",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-23 05:37:23",
         "source": "github_action",
@@ -12154,6 +12147,13 @@
         "timestamp": "2026-04-23 06:26:16",
         "source": "github_action",
         "candidate": "Rafinda  Asca Riandy",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-23 06:26:50",
+        "source": "github_action",
+        "candidate": "Alvie Dian Verina",
         "position": "Business Development Analyst",
         "success": true
       }
