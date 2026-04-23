@@ -11446,13 +11446,13 @@
     ]
   },
   "2026-04-23": {
-    "total": 25,
+    "total": 26,
     "streamlit": 0,
-    "github_action": 25,
-    "successful": 25,
+    "github_action": 26,
+    "successful": 26,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 25
+      "Marketing Communication Officer KG Media": 26
     },
     "entries": [
       {
@@ -11627,6 +11627,13 @@
         "timestamp": "2026-04-23 04:20:59",
         "source": "github_action",
         "candidate": "Lita Cecillya",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-23 04:21:33",
+        "source": "github_action",
+        "candidate": "KINANTI MUTIARA  PRASOJO",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
