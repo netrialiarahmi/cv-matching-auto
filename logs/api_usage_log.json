@@ -11446,24 +11446,17 @@
     ]
   },
   "2026-04-23": {
-    "total": 285,
+    "total": 286,
     "streamlit": 0,
-    "github_action": 285,
-    "successful": 285,
+    "github_action": 286,
+    "successful": 286,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
-      "Business Development Analyst": 85
+      "Business Development Analyst": 86
     },
     "entries": [
-      {
-        "timestamp": "2026-04-23 05:40:53",
-        "source": "github_action",
-        "candidate": "Anita Tri Dewi",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-23 05:41:23",
         "source": "github_action",
@@ -12154,6 +12147,13 @@
         "timestamp": "2026-04-23 06:29:37",
         "source": "github_action",
         "candidate": "Nancy Yonata",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-23 06:30:06",
+        "source": "github_action",
+        "candidate": "Andre Sugiarta",
         "position": "Business Development Analyst",
         "success": true
       }
