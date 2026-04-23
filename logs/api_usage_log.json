@@ -11446,23 +11446,16 @@
     ]
   },
   "2026-04-23": {
-    "total": 192,
+    "total": 193,
     "streamlit": 0,
-    "github_action": 192,
-    "successful": 192,
+    "github_action": 193,
+    "successful": 193,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 92
+      "Reporter Nasional": 93
     },
     "entries": [
-      {
-        "timestamp": "2026-04-23 04:56:24",
-        "source": "github_action",
-        "candidate": "Abraham Satrio Wibowo",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-23 04:56:55",
         "source": "github_action",
@@ -12153,6 +12146,13 @@
         "timestamp": "2026-04-23 05:43:25",
         "source": "github_action",
         "candidate": "Nanda Tsani Azizah",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-23 05:43:53",
+        "source": "github_action",
+        "candidate": "Adhimasandya Harsaning",
         "position": "Reporter Nasional",
         "success": true
       }
