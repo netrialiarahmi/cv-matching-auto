@@ -11446,23 +11446,16 @@
     ]
   },
   "2026-04-23": {
-    "total": 143,
+    "total": 144,
     "streamlit": 0,
-    "github_action": 143,
-    "successful": 143,
+    "github_action": 144,
+    "successful": 144,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 43
+      "Reporter Nasional": 44
     },
     "entries": [
-      {
-        "timestamp": "2026-04-23 04:31:32",
-        "source": "github_action",
-        "candidate": "Anggi Hasna Nabillah",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-23 04:32:07",
         "source": "github_action",
@@ -12153,6 +12146,13 @@
         "timestamp": "2026-04-23 05:20:06",
         "source": "github_action",
         "candidate": "Umar Falahudin",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-23 05:20:37",
+        "source": "github_action",
+        "candidate": "Therresia Maria Magdalena Morais",
         "position": "Reporter Nasional",
         "success": true
       }
