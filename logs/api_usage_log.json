@@ -11446,13 +11446,13 @@
     ]
   },
   "2026-04-23": {
-    "total": 89,
+    "total": 90,
     "streamlit": 0,
-    "github_action": 89,
-    "successful": 89,
+    "github_action": 90,
+    "successful": 90,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 89
+      "Marketing Communication Officer KG Media": 90
     },
     "entries": [
       {
@@ -12075,6 +12075,13 @@
         "timestamp": "2026-04-23 04:54:11",
         "source": "github_action",
         "candidate": "Natalia Eksi Prana Wijayanti",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-23 04:54:42",
+        "source": "github_action",
+        "candidate": "Evelyn Inly",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
