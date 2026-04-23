@@ -11446,25 +11446,18 @@
     ]
   },
   "2026-04-23": {
-    "total": 384,
+    "total": 385,
     "streamlit": 0,
-    "github_action": 384,
-    "successful": 384,
+    "github_action": 385,
+    "successful": 385,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 84
+      "Account Executive VCBL": 85
     },
     "entries": [
-      {
-        "timestamp": "2026-04-23 06:29:37",
-        "source": "github_action",
-        "candidate": "Nancy Yonata",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-23 06:30:06",
         "source": "github_action",
@@ -12155,6 +12148,13 @@
         "timestamp": "2026-04-23 07:16:24",
         "source": "github_action",
         "candidate": "Tracy Silalahi",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-23 07:16:58",
+        "source": "github_action",
+        "candidate": "MARLINDA MARLINDA",
         "position": "Account Executive VCBL",
         "success": true
       }
