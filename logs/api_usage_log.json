@@ -11446,23 +11446,16 @@
     ]
   },
   "2026-04-23": {
-    "total": 156,
+    "total": 157,
     "streamlit": 0,
-    "github_action": 156,
-    "successful": 156,
+    "github_action": 157,
+    "successful": 157,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 56
+      "Reporter Nasional": 57
     },
     "entries": [
-      {
-        "timestamp": "2026-04-23 04:38:36",
-        "source": "github_action",
-        "candidate": "Dayu Fadhila",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-23 04:39:08",
         "source": "github_action",
@@ -12153,6 +12146,13 @@
         "timestamp": "2026-04-23 05:26:20",
         "source": "github_action",
         "candidate": "Salma Shalsabilla",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-23 05:26:46",
+        "source": "github_action",
+        "candidate": "Rivaldo Simanjuntak",
         "position": "Reporter Nasional",
         "success": true
       }
