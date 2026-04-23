@@ -11446,13 +11446,13 @@
     ]
   },
   "2026-04-23": {
-    "total": 53,
+    "total": 54,
     "streamlit": 0,
-    "github_action": 53,
-    "successful": 53,
+    "github_action": 54,
+    "successful": 54,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 53
+      "Marketing Communication Officer KG Media": 54
     },
     "entries": [
       {
@@ -11823,6 +11823,13 @@
         "timestamp": "2026-04-23 04:36:26",
         "source": "github_action",
         "candidate": "Daryl Marcviandra",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-23 04:36:59",
+        "source": "github_action",
+        "candidate": "Intan Shifa Rusliani",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
