@@ -11446,13 +11446,13 @@
     ]
   },
   "2026-04-23": {
-    "total": 79,
+    "total": 80,
     "streamlit": 0,
-    "github_action": 79,
-    "successful": 79,
+    "github_action": 80,
+    "successful": 80,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 79
+      "Marketing Communication Officer KG Media": 80
     },
     "entries": [
       {
@@ -12005,6 +12005,13 @@
         "timestamp": "2026-04-23 04:49:33",
         "source": "github_action",
         "candidate": "Muhamad Yusuf Hasyim",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-23 04:49:38",
+        "source": "github_action",
+        "candidate": "Muhammad Irhaz Adha A. Basyah",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
