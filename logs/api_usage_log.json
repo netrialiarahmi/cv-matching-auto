@@ -11446,25 +11446,18 @@
     ]
   },
   "2026-04-23": {
-    "total": 332,
+    "total": 333,
     "streamlit": 0,
-    "github_action": 332,
-    "successful": 332,
+    "github_action": 333,
+    "successful": 333,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 32
+      "Account Executive VCBL": 33
     },
     "entries": [
-      {
-        "timestamp": "2026-04-23 06:04:33",
-        "source": "github_action",
-        "candidate": "Tuti Asriza",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-23 06:05:03",
         "source": "github_action",
@@ -12155,6 +12148,13 @@
         "timestamp": "2026-04-23 06:51:42",
         "source": "github_action",
         "candidate": "Syarif Antoni",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-23 06:52:12",
+        "source": "github_action",
+        "candidate": "Amadhea Putri Namira",
         "position": "Account Executive VCBL",
         "success": true
       }
