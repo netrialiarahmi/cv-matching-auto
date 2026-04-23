@@ -11446,23 +11446,16 @@
     ]
   },
   "2026-04-23": {
-    "total": 154,
+    "total": 155,
     "streamlit": 0,
-    "github_action": 154,
-    "successful": 154,
+    "github_action": 155,
+    "successful": 155,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 54
+      "Reporter Nasional": 55
     },
     "entries": [
-      {
-        "timestamp": "2026-04-23 04:37:31",
-        "source": "github_action",
-        "candidate": "Prianda Saputra",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-23 04:38:03",
         "source": "github_action",
@@ -12153,6 +12146,13 @@
         "timestamp": "2026-04-23 05:25:20",
         "source": "github_action",
         "candidate": "Dimas Candra",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-23 05:25:54",
+        "source": "github_action",
+        "candidate": "Sukriwan  Ramadhan",
         "position": "Reporter Nasional",
         "success": true
       }
