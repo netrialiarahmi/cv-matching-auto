@@ -11446,13 +11446,13 @@
     ]
   },
   "2026-04-23": {
-    "total": 74,
+    "total": 75,
     "streamlit": 0,
-    "github_action": 74,
-    "successful": 74,
+    "github_action": 75,
+    "successful": 75,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 74
+      "Marketing Communication Officer KG Media": 75
     },
     "entries": [
       {
@@ -11970,6 +11970,13 @@
         "timestamp": "2026-04-23 04:47:18",
         "source": "github_action",
         "candidate": "Mansa Manalu",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-23 04:47:49",
+        "source": "github_action",
+        "candidate": "Nanda Rahman Rahimi Dhilsi",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
