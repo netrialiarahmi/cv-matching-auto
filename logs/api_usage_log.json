@@ -11446,24 +11446,17 @@
     ]
   },
   "2026-04-23": {
-    "total": 214,
+    "total": 215,
     "streamlit": 0,
-    "github_action": 214,
-    "successful": 214,
+    "github_action": 215,
+    "successful": 215,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
-      "Business Development Analyst": 14
+      "Business Development Analyst": 15
     },
     "entries": [
-      {
-        "timestamp": "2026-04-23 05:07:20",
-        "source": "github_action",
-        "candidate": "Muhammad Arief  Adhistyo Hidayat",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-23 05:07:49",
         "source": "github_action",
@@ -12154,6 +12147,13 @@
         "timestamp": "2026-04-23 05:54:54",
         "source": "github_action",
         "candidate": "Fransiska Malita",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-23 05:55:23",
+        "source": "github_action",
+        "candidate": "Agung Pramono",
         "position": "Business Development Analyst",
         "success": true
       }
