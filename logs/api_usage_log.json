@@ -11446,25 +11446,18 @@
     ]
   },
   "2026-04-23": {
-    "total": 393,
+    "total": 394,
     "streamlit": 0,
-    "github_action": 393,
-    "successful": 393,
+    "github_action": 394,
+    "successful": 394,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 93
+      "Account Executive VCBL": 94
     },
     "entries": [
-      {
-        "timestamp": "2026-04-23 06:33:51",
-        "source": "github_action",
-        "candidate": "Akbar Adzani",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-23 06:34:19",
         "source": "github_action",
@@ -12155,6 +12148,13 @@
         "timestamp": "2026-04-23 07:20:53",
         "source": "github_action",
         "candidate": "Arum widya",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-23 07:21:21",
+        "source": "github_action",
+        "candidate": "Faudilla Nurin Asfar",
         "position": "Account Executive VCBL",
         "success": true
       }
