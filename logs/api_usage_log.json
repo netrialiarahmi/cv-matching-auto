@@ -11446,25 +11446,18 @@
     ]
   },
   "2026-04-23": {
-    "total": 367,
+    "total": 368,
     "streamlit": 0,
-    "github_action": 367,
-    "successful": 367,
+    "github_action": 368,
+    "successful": 368,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 67
+      "Account Executive VCBL": 68
     },
     "entries": [
-      {
-        "timestamp": "2026-04-23 06:22:00",
-        "source": "github_action",
-        "candidate": "Darrell Matthews",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-23 06:22:30",
         "source": "github_action",
@@ -12155,6 +12148,13 @@
         "timestamp": "2026-04-23 07:08:38",
         "source": "github_action",
         "candidate": "yohan wahyudi",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-23 07:08:42",
+        "source": "github_action",
+        "candidate": "Hafizh Jawas",
         "position": "Account Executive VCBL",
         "success": true
       }
