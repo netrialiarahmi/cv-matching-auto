@@ -11446,23 +11446,16 @@
     ]
   },
   "2026-04-23": {
-    "total": 176,
+    "total": 177,
     "streamlit": 0,
-    "github_action": 176,
-    "successful": 176,
+    "github_action": 177,
+    "successful": 177,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 76
+      "Reporter Nasional": 77
     },
     "entries": [
-      {
-        "timestamp": "2026-04-23 04:48:53",
-        "source": "github_action",
-        "candidate": "Harieza Noor Azmie",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-23 04:49:29",
         "source": "github_action",
@@ -12153,6 +12146,13 @@
         "timestamp": "2026-04-23 05:35:52",
         "source": "github_action",
         "candidate": "Adley  Ramli Elhasain",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-23 05:36:21",
+        "source": "github_action",
+        "candidate": "Rifqi Adirahman Anas",
         "position": "Reporter Nasional",
         "success": true
       }
