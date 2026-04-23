@@ -11446,13 +11446,13 @@
     ]
   },
   "2026-04-23": {
-    "total": 54,
+    "total": 55,
     "streamlit": 0,
-    "github_action": 54,
-    "successful": 54,
+    "github_action": 55,
+    "successful": 55,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 54
+      "Marketing Communication Officer KG Media": 55
     },
     "entries": [
       {
@@ -11830,6 +11830,13 @@
         "timestamp": "2026-04-23 04:36:59",
         "source": "github_action",
         "candidate": "Intan Shifa Rusliani",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-23 04:37:31",
+        "source": "github_action",
+        "candidate": "Prianda Saputra",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
