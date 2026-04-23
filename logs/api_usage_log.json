@@ -11446,25 +11446,18 @@
     ]
   },
   "2026-04-23": {
-    "total": 366,
+    "total": 367,
     "streamlit": 0,
-    "github_action": 366,
-    "successful": 366,
+    "github_action": 367,
+    "successful": 367,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 66
+      "Account Executive VCBL": 67
     },
     "entries": [
-      {
-        "timestamp": "2026-04-23 06:21:56",
-        "source": "github_action",
-        "candidate": "Wahyu Eka",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-23 06:22:00",
         "source": "github_action",
@@ -12155,6 +12148,13 @@
         "timestamp": "2026-04-23 07:08:08",
         "source": "github_action",
         "candidate": "Fatmawati",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-23 07:08:38",
+        "source": "github_action",
+        "candidate": "yohan wahyudi",
         "position": "Account Executive VCBL",
         "success": true
       }
