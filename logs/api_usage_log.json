@@ -11446,23 +11446,16 @@
     ]
   },
   "2026-04-23": {
-    "total": 191,
+    "total": 192,
     "streamlit": 0,
-    "github_action": 191,
-    "successful": 191,
+    "github_action": 192,
+    "successful": 192,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 91
+      "Reporter Nasional": 92
     },
     "entries": [
-      {
-        "timestamp": "2026-04-23 04:55:51",
-        "source": "github_action",
-        "candidate": "Zahra Aisha",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-23 04:56:24",
         "source": "github_action",
@@ -12153,6 +12146,13 @@
         "timestamp": "2026-04-23 05:42:53",
         "source": "github_action",
         "candidate": "Destya Aulia Hafifah",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-23 05:43:25",
+        "source": "github_action",
+        "candidate": "Nanda Tsani Azizah",
         "position": "Reporter Nasional",
         "success": true
       }
