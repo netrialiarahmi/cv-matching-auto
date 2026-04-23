@@ -11446,23 +11446,16 @@
     ]
   },
   "2026-04-23": {
-    "total": 141,
+    "total": 142,
     "streamlit": 0,
-    "github_action": 141,
-    "successful": 141,
+    "github_action": 142,
+    "successful": 142,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 41
+      "Reporter Nasional": 42
     },
     "entries": [
-      {
-        "timestamp": "2026-04-23 04:30:28",
-        "source": "github_action",
-        "candidate": "KURNIA AGUSTIN",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-23 04:31:00",
         "source": "github_action",
@@ -12153,6 +12146,13 @@
         "timestamp": "2026-04-23 05:19:06",
         "source": "github_action",
         "candidate": "yusuf rinaldy",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-23 05:19:35",
+        "source": "github_action",
+        "candidate": "Indira Putri",
         "position": "Reporter Nasional",
         "success": true
       }
