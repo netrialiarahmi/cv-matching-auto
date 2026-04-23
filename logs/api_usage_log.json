@@ -11446,24 +11446,17 @@
     ]
   },
   "2026-04-23": {
-    "total": 265,
+    "total": 266,
     "streamlit": 0,
-    "github_action": 265,
-    "successful": 265,
+    "github_action": 266,
+    "successful": 266,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
-      "Business Development Analyst": 65
+      "Business Development Analyst": 66
     },
     "entries": [
-      {
-        "timestamp": "2026-04-23 05:31:04",
-        "source": "github_action",
-        "candidate": "Josua ruyandi Mangi",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-23 05:31:35",
         "source": "github_action",
@@ -12154,6 +12147,13 @@
         "timestamp": "2026-04-23 06:20:49",
         "source": "github_action",
         "candidate": "Danang Permana",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-23 06:21:23",
+        "source": "github_action",
+        "candidate": "Vannessa Handini Dhewa Putri",
         "position": "Business Development Analyst",
         "success": true
       }
