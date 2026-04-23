@@ -11446,25 +11446,18 @@
     ]
   },
   "2026-04-23": {
-    "total": 330,
+    "total": 331,
     "streamlit": 0,
-    "github_action": 330,
-    "successful": 330,
+    "github_action": 331,
+    "successful": 331,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 30
+      "Account Executive VCBL": 31
     },
     "entries": [
-      {
-        "timestamp": "2026-04-23 06:03:33",
-        "source": "github_action",
-        "candidate": "Salsabila Posmaryana Utami",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-23 06:04:01",
         "source": "github_action",
@@ -12155,6 +12148,13 @@
         "timestamp": "2026-04-23 06:50:41",
         "source": "github_action",
         "candidate": "Golda  Meiyer",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-23 06:51:13",
+        "source": "github_action",
+        "candidate": "Dwiky Satria",
         "position": "Account Executive VCBL",
         "success": true
       }
