@@ -11446,25 +11446,18 @@
     ]
   },
   "2026-04-23": {
-    "total": 309,
+    "total": 310,
     "streamlit": 0,
-    "github_action": 309,
-    "successful": 309,
+    "github_action": 310,
+    "successful": 310,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 9
+      "Account Executive VCBL": 10
     },
     "entries": [
-      {
-        "timestamp": "2026-04-23 05:52:53",
-        "source": "github_action",
-        "candidate": "Aldi Nur",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-23 05:53:27",
         "source": "github_action",
@@ -12155,6 +12148,13 @@
         "timestamp": "2026-04-23 06:41:19",
         "source": "github_action",
         "candidate": "Suryani Safitri",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-23 06:41:51",
+        "source": "github_action",
+        "candidate": "Amelia Riyanti",
         "position": "Account Executive VCBL",
         "success": true
       }
