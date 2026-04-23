@@ -11446,23 +11446,16 @@
     ]
   },
   "2026-04-23": {
-    "total": 184,
+    "total": 185,
     "streamlit": 0,
-    "github_action": 184,
-    "successful": 184,
+    "github_action": 185,
+    "successful": 185,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 84
+      "Reporter Nasional": 85
     },
     "entries": [
-      {
-        "timestamp": "2026-04-23 04:52:10",
-        "source": "github_action",
-        "candidate": "Azka azka",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-23 04:52:40",
         "source": "github_action",
@@ -12153,6 +12146,13 @@
         "timestamp": "2026-04-23 05:39:52",
         "source": "github_action",
         "candidate": "Muhammad Fadhilah",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-23 05:40:19",
+        "source": "github_action",
+        "candidate": "Adinda Nur Izzati Amil",
         "position": "Reporter Nasional",
         "success": true
       }
