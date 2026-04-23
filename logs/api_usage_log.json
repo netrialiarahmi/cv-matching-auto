@@ -11446,23 +11446,16 @@
     ]
   },
   "2026-04-23": {
-    "total": 151,
+    "total": 152,
     "streamlit": 0,
-    "github_action": 151,
-    "successful": 151,
+    "github_action": 152,
+    "successful": 152,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 51
+      "Reporter Nasional": 52
     },
     "entries": [
-      {
-        "timestamp": "2026-04-23 04:35:54",
-        "source": "github_action",
-        "candidate": "Benedicta Avelia",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-23 04:36:26",
         "source": "github_action",
@@ -12153,6 +12146,13 @@
         "timestamp": "2026-04-23 05:24:12",
         "source": "github_action",
         "candidate": "Wika Andriani Pangaribuan",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-23 05:24:41",
+        "source": "github_action",
+        "candidate": "adinda azizah",
         "position": "Reporter Nasional",
         "success": true
       }
