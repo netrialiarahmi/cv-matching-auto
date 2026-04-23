@@ -11446,25 +11446,18 @@
     ]
   },
   "2026-04-23": {
-    "total": 388,
+    "total": 389,
     "streamlit": 0,
-    "github_action": 388,
-    "successful": 388,
+    "github_action": 389,
+    "successful": 389,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 88
+      "Account Executive VCBL": 89
     },
     "entries": [
-      {
-        "timestamp": "2026-04-23 06:31:39",
-        "source": "github_action",
-        "candidate": "Arman  Rafi",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-23 06:32:11",
         "source": "github_action",
@@ -12155,6 +12148,13 @@
         "timestamp": "2026-04-23 07:18:39",
         "source": "github_action",
         "candidate": "Amalia Frachmadiany",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-23 07:19:11",
+        "source": "github_action",
+        "candidate": "Andinna  Putri",
         "position": "Account Executive VCBL",
         "success": true
       }
