@@ -11446,13 +11446,13 @@
     ]
   },
   "2026-04-23": {
-    "total": 55,
+    "total": 56,
     "streamlit": 0,
-    "github_action": 55,
-    "successful": 55,
+    "github_action": 56,
+    "successful": 56,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 55
+      "Marketing Communication Officer KG Media": 56
     },
     "entries": [
       {
@@ -11837,6 +11837,13 @@
         "timestamp": "2026-04-23 04:37:31",
         "source": "github_action",
         "candidate": "Prianda Saputra",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-23 04:38:03",
+        "source": "github_action",
+        "candidate": "Hendy Reynaldi",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
