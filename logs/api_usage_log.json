@@ -11446,23 +11446,16 @@
     ]
   },
   "2026-04-23": {
-    "total": 186,
+    "total": 187,
     "streamlit": 0,
-    "github_action": 186,
-    "successful": 186,
+    "github_action": 187,
+    "successful": 187,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 86
+      "Reporter Nasional": 87
     },
     "entries": [
-      {
-        "timestamp": "2026-04-23 04:53:11",
-        "source": "github_action",
-        "candidate": "Reno Renaldi",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-23 04:53:43",
         "source": "github_action",
@@ -12153,6 +12146,13 @@
         "timestamp": "2026-04-23 05:40:53",
         "source": "github_action",
         "candidate": "Anita Tri Dewi",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-23 05:41:23",
+        "source": "github_action",
+        "candidate": "Bill Khairan Nisa",
         "position": "Reporter Nasional",
         "success": true
       }
