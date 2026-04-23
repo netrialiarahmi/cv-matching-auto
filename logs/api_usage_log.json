@@ -11446,13 +11446,13 @@
     ]
   },
   "2026-04-23": {
-    "total": 96,
+    "total": 97,
     "streamlit": 0,
-    "github_action": 96,
-    "successful": 96,
+    "github_action": 97,
+    "successful": 97,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 96
+      "Marketing Communication Officer KG Media": 97
     },
     "entries": [
       {
@@ -12124,6 +12124,13 @@
         "timestamp": "2026-04-23 04:57:56",
         "source": "github_action",
         "candidate": "ghina shaliha",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-23 04:58:30",
+        "source": "github_action",
+        "candidate": "Rizky Farrell Valeryan Sinaga",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
