@@ -11446,13 +11446,13 @@
     ]
   },
   "2026-04-23": {
-    "total": 85,
+    "total": 86,
     "streamlit": 0,
-    "github_action": 85,
-    "successful": 85,
+    "github_action": 86,
+    "successful": 86,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 85
+      "Marketing Communication Officer KG Media": 86
     },
     "entries": [
       {
@@ -12047,6 +12047,13 @@
         "timestamp": "2026-04-23 04:52:10",
         "source": "github_action",
         "candidate": "Azka azka",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-23 04:52:40",
+        "source": "github_action",
+        "candidate": "Sevty Adinia",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
