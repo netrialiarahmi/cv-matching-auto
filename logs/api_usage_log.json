@@ -11446,23 +11446,16 @@
     ]
   },
   "2026-04-23": {
-    "total": 159,
+    "total": 160,
     "streamlit": 0,
-    "github_action": 159,
-    "successful": 159,
+    "github_action": 160,
+    "successful": 160,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 59
+      "Reporter Nasional": 60
     },
     "entries": [
-      {
-        "timestamp": "2026-04-23 04:40:13",
-        "source": "github_action",
-        "candidate": "Salsabila Putri",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-23 04:40:45",
         "source": "github_action",
@@ -12153,6 +12146,13 @@
         "timestamp": "2026-04-23 05:27:51",
         "source": "github_action",
         "candidate": "Friendsa Hasugian",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-23 05:28:20",
+        "source": "github_action",
+        "candidate": "Bayu Indra Wibowo",
         "position": "Reporter Nasional",
         "success": true
       }
