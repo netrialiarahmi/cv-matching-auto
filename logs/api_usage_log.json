@@ -11446,24 +11446,17 @@
     ]
   },
   "2026-04-23": {
-    "total": 203,
+    "total": 204,
     "streamlit": 0,
-    "github_action": 203,
-    "successful": 203,
+    "github_action": 204,
+    "successful": 204,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
-      "Business Development Analyst": 3
+      "Business Development Analyst": 4
     },
     "entries": [
-      {
-        "timestamp": "2026-04-23 05:02:14",
-        "source": "github_action",
-        "candidate": "Dara Maharani",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-23 05:02:48",
         "source": "github_action",
@@ -12154,6 +12147,13 @@
         "timestamp": "2026-04-23 05:49:07",
         "source": "github_action",
         "candidate": "Ajeng Ayuningtyas",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-23 05:49:35",
+        "source": "github_action",
+        "candidate": "Ilham Putra",
         "position": "Business Development Analyst",
         "success": true
       }
