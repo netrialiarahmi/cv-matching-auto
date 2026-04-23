@@ -11446,23 +11446,16 @@
     ]
   },
   "2026-04-23": {
-    "total": 135,
+    "total": 136,
     "streamlit": 0,
-    "github_action": 135,
-    "successful": 135,
+    "github_action": 136,
+    "successful": 136,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 35
+      "Reporter Nasional": 36
     },
     "entries": [
-      {
-        "timestamp": "2026-04-23 04:27:10",
-        "source": "github_action",
-        "candidate": "Nabilah Putri Anggraeni",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-23 04:27:42",
         "source": "github_action",
@@ -12153,6 +12146,13 @@
         "timestamp": "2026-04-23 05:16:09",
         "source": "github_action",
         "candidate": "Ajmal Fajar",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-23 05:16:37",
+        "source": "github_action",
+        "candidate": "Tresye Alfa Ega  Turang",
         "position": "Reporter Nasional",
         "success": true
       }
