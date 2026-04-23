@@ -11446,25 +11446,18 @@
     ]
   },
   "2026-04-23": {
-    "total": 311,
+    "total": 312,
     "streamlit": 0,
-    "github_action": 311,
-    "successful": 311,
+    "github_action": 312,
+    "successful": 312,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 11
+      "Account Executive VCBL": 12
     },
     "entries": [
-      {
-        "timestamp": "2026-04-23 05:53:59",
-        "source": "github_action",
-        "candidate": "Ghaisani Nabilah Putri",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-23 05:54:26",
         "source": "github_action",
@@ -12155,6 +12148,13 @@
         "timestamp": "2026-04-23 06:42:22",
         "source": "github_action",
         "candidate": "Faiz Ardana Sani",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-23 06:42:26",
+        "source": "github_action",
+        "candidate": "Korin Indriani",
         "position": "Account Executive VCBL",
         "success": true
       }
