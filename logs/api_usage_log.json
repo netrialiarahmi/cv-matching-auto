@@ -11446,23 +11446,16 @@
     ]
   },
   "2026-04-23": {
-    "total": 126,
+    "total": 127,
     "streamlit": 0,
-    "github_action": 126,
-    "successful": 126,
+    "github_action": 127,
+    "successful": 127,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 26
+      "Reporter Nasional": 27
     },
     "entries": [
-      {
-        "timestamp": "2026-04-23 04:22:07",
-        "source": "github_action",
-        "candidate": "Fardilla Yusuf",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-23 04:22:40",
         "source": "github_action",
@@ -12153,6 +12146,13 @@
         "timestamp": "2026-04-23 05:12:04",
         "source": "github_action",
         "candidate": "Gaswara Utama",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-23 05:12:32",
+        "source": "github_action",
+        "candidate": "Gita Putri",
         "position": "Reporter Nasional",
         "success": true
       }
