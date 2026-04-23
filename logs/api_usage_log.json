@@ -11446,13 +11446,13 @@
     ]
   },
   "2026-04-23": {
-    "total": 56,
+    "total": 57,
     "streamlit": 0,
-    "github_action": 56,
-    "successful": 56,
+    "github_action": 57,
+    "successful": 57,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 56
+      "Marketing Communication Officer KG Media": 57
     },
     "entries": [
       {
@@ -11844,6 +11844,13 @@
         "timestamp": "2026-04-23 04:38:03",
         "source": "github_action",
         "candidate": "Hendy Reynaldi",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-23 04:38:36",
+        "source": "github_action",
+        "candidate": "Dayu Fadhila",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
