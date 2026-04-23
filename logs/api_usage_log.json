@@ -11446,23 +11446,16 @@
     ]
   },
   "2026-04-23": {
-    "total": 170,
+    "total": 171,
     "streamlit": 0,
-    "github_action": 170,
-    "successful": 170,
+    "github_action": 171,
+    "successful": 171,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 70
+      "Reporter Nasional": 71
     },
     "entries": [
-      {
-        "timestamp": "2026-04-23 04:45:37",
-        "source": "github_action",
-        "candidate": "Ikhsan Fatkhurrohman Dahlan",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-23 04:46:10",
         "source": "github_action",
@@ -12153,6 +12146,13 @@
         "timestamp": "2026-04-23 05:33:08",
         "source": "github_action",
         "candidate": "Nataya Kirana",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-23 05:33:41",
+        "source": "github_action",
+        "candidate": "Eugenia F. N. Siregar",
         "position": "Reporter Nasional",
         "success": true
       }
