@@ -11446,24 +11446,18 @@
     ]
   },
   "2026-04-23": {
-    "total": 300,
+    "total": 301,
     "streamlit": 0,
-    "github_action": 300,
-    "successful": 300,
+    "github_action": 301,
+    "successful": 301,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
-      "Business Development Analyst": 100
+      "Business Development Analyst": 100,
+      "Account Executive VCBL": 1
     },
     "entries": [
-      {
-        "timestamp": "2026-04-23 05:48:06",
-        "source": "github_action",
-        "candidate": "Yuke Luviana",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-23 05:48:38",
         "source": "github_action",
@@ -12155,6 +12149,13 @@
         "source": "github_action",
         "candidate": "Ady Ramzy",
         "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-23 06:37:28",
+        "source": "github_action",
+        "candidate": "Aqila Amalia",
+        "position": "Account Executive VCBL",
         "success": true
       }
     ]
