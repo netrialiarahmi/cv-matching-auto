@@ -11446,25 +11446,18 @@
     ]
   },
   "2026-04-23": {
-    "total": 307,
+    "total": 308,
     "streamlit": 0,
-    "github_action": 307,
-    "successful": 307,
+    "github_action": 308,
+    "successful": 308,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 7
+      "Account Executive VCBL": 8
     },
     "entries": [
-      {
-        "timestamp": "2026-04-23 05:51:48",
-        "source": "github_action",
-        "candidate": "Cindy Dwi Kurnia",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-23 05:52:20",
         "source": "github_action",
@@ -12155,6 +12148,13 @@
         "timestamp": "2026-04-23 06:40:44",
         "source": "github_action",
         "candidate": "Mohammad Farhan Saputra",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-23 06:40:47",
+        "source": "github_action",
+        "candidate": "Farid Hidayat Putra",
         "position": "Account Executive VCBL",
         "success": true
       }
