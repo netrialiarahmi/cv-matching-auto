@@ -11446,25 +11446,18 @@
     ]
   },
   "2026-04-23": {
-    "total": 318,
+    "total": 319,
     "streamlit": 0,
-    "github_action": 318,
-    "successful": 318,
+    "github_action": 319,
+    "successful": 319,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 18
+      "Account Executive VCBL": 19
     },
     "entries": [
-      {
-        "timestamp": "2026-04-23 05:57:28",
-        "source": "github_action",
-        "candidate": "wahyu wiguna rismanto",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-23 05:57:56",
         "source": "github_action",
@@ -12155,6 +12148,13 @@
         "timestamp": "2026-04-23 06:45:38",
         "source": "github_action",
         "candidate": "Gita Aurelia",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-23 06:46:13",
+        "source": "github_action",
+        "candidate": "Pinkan Maliha Yasmin",
         "position": "Account Executive VCBL",
         "success": true
       }
