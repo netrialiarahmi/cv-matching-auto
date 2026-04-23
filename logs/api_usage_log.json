@@ -11446,24 +11446,17 @@
     ]
   },
   "2026-04-23": {
-    "total": 261,
+    "total": 262,
     "streamlit": 0,
-    "github_action": 261,
-    "successful": 261,
+    "github_action": 262,
+    "successful": 262,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
-      "Business Development Analyst": 61
+      "Business Development Analyst": 62
     },
     "entries": [
-      {
-        "timestamp": "2026-04-23 05:29:22",
-        "source": "github_action",
-        "candidate": "Sarah Almira",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-23 05:29:55",
         "source": "github_action",
@@ -12154,6 +12147,13 @@
         "timestamp": "2026-04-23 06:18:42",
         "source": "github_action",
         "candidate": "Devianna Felicia Veronica",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-23 06:19:11",
+        "source": "github_action",
+        "candidate": "Yunita W",
         "position": "Business Development Analyst",
         "success": true
       }
