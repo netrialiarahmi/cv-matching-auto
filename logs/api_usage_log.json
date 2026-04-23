@@ -11446,23 +11446,16 @@
     ]
   },
   "2026-04-23": {
-    "total": 129,
+    "total": 130,
     "streamlit": 0,
-    "github_action": 129,
-    "successful": 129,
+    "github_action": 130,
+    "successful": 130,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 29
+      "Reporter Nasional": 30
     },
     "entries": [
-      {
-        "timestamp": "2026-04-23 04:23:46",
-        "source": "github_action",
-        "candidate": "Widya Fitrianingsih",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-23 04:24:19",
         "source": "github_action",
@@ -12153,6 +12146,13 @@
         "timestamp": "2026-04-23 05:13:32",
         "source": "github_action",
         "candidate": "Anggita Nur Cahyani",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-23 05:14:02",
+        "source": "github_action",
+        "candidate": "Corry Salsabilla",
         "position": "Reporter Nasional",
         "success": true
       }
