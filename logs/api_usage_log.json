@@ -11446,23 +11446,16 @@
     ]
   },
   "2026-04-23": {
-    "total": 146,
+    "total": 147,
     "streamlit": 0,
-    "github_action": 146,
-    "successful": 146,
+    "github_action": 147,
+    "successful": 147,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 46
+      "Reporter Nasional": 47
     },
     "entries": [
-      {
-        "timestamp": "2026-04-23 04:33:21",
-        "source": "github_action",
-        "candidate": "David Siburian",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-23 04:33:51",
         "source": "github_action",
@@ -12153,6 +12146,13 @@
         "timestamp": "2026-04-23 05:21:39",
         "source": "github_action",
         "candidate": "Yessi Baldah zus to yusa",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-23 05:22:12",
+        "source": "github_action",
+        "candidate": "Selia  Nurazwaima",
         "position": "Reporter Nasional",
         "success": true
       }
