@@ -11446,23 +11446,16 @@
     ]
   },
   "2026-04-23": {
-    "total": 103,
+    "total": 104,
     "streamlit": 0,
-    "github_action": 103,
-    "successful": 103,
+    "github_action": 104,
+    "successful": 104,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 3
+      "Reporter Nasional": 4
     },
     "entries": [
-      {
-        "timestamp": "2026-04-23 04:10:20",
-        "source": "github_action",
-        "candidate": "Rahina Kamilah",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-23 04:11:00",
         "source": "github_action",
@@ -12153,6 +12146,13 @@
         "timestamp": "2026-04-23 05:01:45",
         "source": "github_action",
         "candidate": "Mutia Choerunissa",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-23 05:02:14",
+        "source": "github_action",
+        "candidate": "Dara Maharani",
         "position": "Reporter Nasional",
         "success": true
       }
