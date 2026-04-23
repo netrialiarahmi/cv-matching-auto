@@ -11446,25 +11446,18 @@
     ]
   },
   "2026-04-23": {
-    "total": 312,
+    "total": 313,
     "streamlit": 0,
-    "github_action": 312,
-    "successful": 312,
+    "github_action": 313,
+    "successful": 313,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 12
+      "Account Executive VCBL": 13
     },
     "entries": [
-      {
-        "timestamp": "2026-04-23 05:54:26",
-        "source": "github_action",
-        "candidate": "Fahmi Rahmat",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-23 05:54:54",
         "source": "github_action",
@@ -12155,6 +12148,13 @@
         "timestamp": "2026-04-23 06:42:26",
         "source": "github_action",
         "candidate": "Korin Indriani",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-23 06:42:54",
+        "source": "github_action",
+        "candidate": "At Thariq Aleeyah Tsamara",
         "position": "Account Executive VCBL",
         "success": true
       }
