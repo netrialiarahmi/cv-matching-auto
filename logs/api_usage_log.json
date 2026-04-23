@@ -11446,23 +11446,16 @@
     ]
   },
   "2026-04-23": {
-    "total": 198,
+    "total": 199,
     "streamlit": 0,
-    "github_action": 198,
-    "successful": 198,
+    "github_action": 199,
+    "successful": 199,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 98
+      "Reporter Nasional": 99
     },
     "entries": [
-      {
-        "timestamp": "2026-04-23 04:59:39",
-        "source": "github_action",
-        "candidate": "Desti Syarifah",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-23 05:00:13",
         "source": "github_action",
@@ -12153,6 +12146,13 @@
         "timestamp": "2026-04-23 05:46:28",
         "source": "github_action",
         "candidate": "Wimby Safitri",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-23 05:47:01",
+        "source": "github_action",
+        "candidate": "Zulfikar Zaki Ridwan",
         "position": "Reporter Nasional",
         "success": true
       }
