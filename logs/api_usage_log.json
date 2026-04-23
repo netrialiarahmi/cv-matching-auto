@@ -11446,24 +11446,17 @@
     ]
   },
   "2026-04-23": {
-    "total": 225,
+    "total": 226,
     "streamlit": 0,
-    "github_action": 225,
-    "successful": 225,
+    "github_action": 226,
+    "successful": 226,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
-      "Business Development Analyst": 25
+      "Business Development Analyst": 26
     },
     "entries": [
-      {
-        "timestamp": "2026-04-23 05:12:04",
-        "source": "github_action",
-        "candidate": "Gaswara Utama",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-23 05:12:32",
         "source": "github_action",
@@ -12154,6 +12147,13 @@
         "timestamp": "2026-04-23 06:00:25",
         "source": "github_action",
         "candidate": "Rayhan Putra",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-23 06:01:00",
+        "source": "github_action",
+        "candidate": "Kadek Nia Widiartini",
         "position": "Business Development Analyst",
         "success": true
       }
