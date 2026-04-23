@@ -11446,23 +11446,16 @@
     ]
   },
   "2026-04-23": {
-    "total": 182,
+    "total": 183,
     "streamlit": 0,
-    "github_action": 182,
-    "successful": 182,
+    "github_action": 183,
+    "successful": 183,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 82
+      "Reporter Nasional": 83
     },
     "entries": [
-      {
-        "timestamp": "2026-04-23 04:51:09",
-        "source": "github_action",
-        "candidate": "Faros Khoirudin Prayoga",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-23 04:51:39",
         "source": "github_action",
@@ -12153,6 +12146,13 @@
         "timestamp": "2026-04-23 05:38:57",
         "source": "github_action",
         "candidate": "Ayu Nisa'Usholihah",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-23 05:39:25",
+        "source": "github_action",
+        "candidate": "Abdul Rohman",
         "position": "Reporter Nasional",
         "success": true
       }
