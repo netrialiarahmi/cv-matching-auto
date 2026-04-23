@@ -11446,25 +11446,18 @@
     ]
   },
   "2026-04-23": {
-    "total": 387,
+    "total": 388,
     "streamlit": 0,
-    "github_action": 387,
-    "successful": 387,
+    "github_action": 388,
+    "successful": 388,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 87
+      "Account Executive VCBL": 88
     },
     "entries": [
-      {
-        "timestamp": "2026-04-23 06:31:09",
-        "source": "github_action",
-        "candidate": "Tri Dessy Natalia",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-23 06:31:39",
         "source": "github_action",
@@ -12155,6 +12148,13 @@
         "timestamp": "2026-04-23 07:18:06",
         "source": "github_action",
         "candidate": "Iqbal Fathurrahman",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-23 07:18:39",
+        "source": "github_action",
+        "candidate": "Amalia Frachmadiany",
         "position": "Account Executive VCBL",
         "success": true
       }
