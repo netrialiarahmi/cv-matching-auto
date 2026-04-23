@@ -11446,23 +11446,16 @@
     ]
   },
   "2026-04-23": {
-    "total": 183,
+    "total": 184,
     "streamlit": 0,
-    "github_action": 183,
-    "successful": 183,
+    "github_action": 184,
+    "successful": 184,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 83
+      "Reporter Nasional": 84
     },
     "entries": [
-      {
-        "timestamp": "2026-04-23 04:51:39",
-        "source": "github_action",
-        "candidate": "Nissa Dwi Anggraeni",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-23 04:52:10",
         "source": "github_action",
@@ -12153,6 +12146,13 @@
         "timestamp": "2026-04-23 05:39:25",
         "source": "github_action",
         "candidate": "Abdul Rohman",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-23 05:39:52",
+        "source": "github_action",
+        "candidate": "Muhammad Fadhilah",
         "position": "Reporter Nasional",
         "success": true
       }
