@@ -11446,23 +11446,16 @@
     ]
   },
   "2026-04-23": {
-    "total": 145,
+    "total": 146,
     "streamlit": 0,
-    "github_action": 145,
-    "successful": 145,
+    "github_action": 146,
+    "successful": 146,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 45
+      "Reporter Nasional": 46
     },
     "entries": [
-      {
-        "timestamp": "2026-04-23 04:32:40",
-        "source": "github_action",
-        "candidate": "Pieters Hansdijanto",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-23 04:33:21",
         "source": "github_action",
@@ -12153,6 +12146,13 @@
         "timestamp": "2026-04-23 05:21:10",
         "source": "github_action",
         "candidate": "Thoriq Baihaqi Firdaus",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-23 05:21:39",
+        "source": "github_action",
+        "candidate": "Yessi Baldah zus to yusa",
         "position": "Reporter Nasional",
         "success": true
       }
