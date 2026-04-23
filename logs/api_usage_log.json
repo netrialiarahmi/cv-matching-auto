@@ -11446,25 +11446,18 @@
     ]
   },
   "2026-04-23": {
-    "total": 328,
+    "total": 329,
     "streamlit": 0,
-    "github_action": 328,
-    "successful": 328,
+    "github_action": 329,
+    "successful": 329,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 28
+      "Account Executive VCBL": 29
     },
     "entries": [
-      {
-        "timestamp": "2026-04-23 06:02:31",
-        "source": "github_action",
-        "candidate": "Gregorius Naralatu Dharana",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-23 06:03:03",
         "source": "github_action",
@@ -12155,6 +12148,13 @@
         "timestamp": "2026-04-23 06:49:38",
         "source": "github_action",
         "candidate": "Ricki Indra Permana Putra",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-23 06:50:08",
+        "source": "github_action",
+        "candidate": "Safira Amanda Prasanti",
         "position": "Account Executive VCBL",
         "success": true
       }
