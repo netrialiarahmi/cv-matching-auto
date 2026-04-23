@@ -11446,23 +11446,16 @@
     ]
   },
   "2026-04-23": {
-    "total": 197,
+    "total": 198,
     "streamlit": 0,
-    "github_action": 197,
-    "successful": 197,
+    "github_action": 198,
+    "successful": 198,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 97
+      "Reporter Nasional": 98
     },
     "entries": [
-      {
-        "timestamp": "2026-04-23 04:59:08",
-        "source": "github_action",
-        "candidate": "amarilis putri",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-23 04:59:39",
         "source": "github_action",
@@ -12153,6 +12146,13 @@
         "timestamp": "2026-04-23 05:46:01",
         "source": "github_action",
         "candidate": "Yolla Wiranda",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-23 05:46:28",
+        "source": "github_action",
+        "candidate": "Wimby Safitri",
         "position": "Reporter Nasional",
         "success": true
       }
