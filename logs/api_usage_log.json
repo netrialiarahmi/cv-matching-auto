@@ -11446,23 +11446,16 @@
     ]
   },
   "2026-04-23": {
-    "total": 113,
+    "total": 114,
     "streamlit": 0,
-    "github_action": 113,
-    "successful": 113,
+    "github_action": 114,
+    "successful": 114,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 13
+      "Reporter Nasional": 14
     },
     "entries": [
-      {
-        "timestamp": "2026-04-23 04:15:31",
-        "source": "github_action",
-        "candidate": "bintang nabila katya",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-23 04:16:00",
         "source": "github_action",
@@ -12153,6 +12146,13 @@
         "timestamp": "2026-04-23 05:06:13",
         "source": "github_action",
         "candidate": "Dhianti Karamina zilda",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-23 05:06:46",
+        "source": "github_action",
+        "candidate": "Muhammad  Noor",
         "position": "Reporter Nasional",
         "success": true
       }
