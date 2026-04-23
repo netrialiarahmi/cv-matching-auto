@@ -11446,24 +11446,17 @@
     ]
   },
   "2026-04-23": {
-    "total": 229,
+    "total": 230,
     "streamlit": 0,
-    "github_action": 229,
-    "successful": 229,
+    "github_action": 230,
+    "successful": 230,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
-      "Business Development Analyst": 29
+      "Business Development Analyst": 30
     },
     "entries": [
-      {
-        "timestamp": "2026-04-23 05:14:02",
-        "source": "github_action",
-        "candidate": "Corry Salsabilla",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-23 05:14:31",
         "source": "github_action",
@@ -12154,6 +12147,13 @@
         "timestamp": "2026-04-23 06:02:31",
         "source": "github_action",
         "candidate": "Gregorius Naralatu Dharana",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-23 06:03:03",
+        "source": "github_action",
+        "candidate": "Aditya Reynaldi",
         "position": "Business Development Analyst",
         "success": true
       }
