@@ -11446,13 +11446,13 @@
     ]
   },
   "2026-04-23": {
-    "total": 38,
+    "total": 39,
     "streamlit": 0,
-    "github_action": 38,
-    "successful": 38,
+    "github_action": 39,
+    "successful": 39,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 38
+      "Marketing Communication Officer KG Media": 39
     },
     "entries": [
       {
@@ -11718,6 +11718,13 @@
         "timestamp": "2026-04-23 04:28:15",
         "source": "github_action",
         "candidate": "Hadya Hexa L. Surbakti",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-23 04:28:50",
+        "source": "github_action",
+        "candidate": "Nafa Ariesa Evani",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
