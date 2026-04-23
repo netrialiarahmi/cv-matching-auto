@@ -11446,25 +11446,18 @@
     ]
   },
   "2026-04-23": {
-    "total": 338,
+    "total": 339,
     "streamlit": 0,
-    "github_action": 338,
-    "successful": 338,
+    "github_action": 339,
+    "successful": 339,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 38
+      "Account Executive VCBL": 39
     },
     "entries": [
-      {
-        "timestamp": "2026-04-23 06:07:39",
-        "source": "github_action",
-        "candidate": "Edlina Hurin Urba Karina",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-23 06:08:12",
         "source": "github_action",
@@ -12155,6 +12148,13 @@
         "timestamp": "2026-04-23 06:54:44",
         "source": "github_action",
         "candidate": "Cindy Regina Anastasia",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-23 06:55:12",
+        "source": "github_action",
+        "candidate": "Muhammad Izza Lathiif",
         "position": "Account Executive VCBL",
         "success": true
       }
