@@ -11446,13 +11446,13 @@
     ]
   },
   "2026-04-23": {
-    "total": 99,
+    "total": 100,
     "streamlit": 0,
-    "github_action": 99,
-    "successful": 99,
+    "github_action": 100,
+    "successful": 100,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 99
+      "Marketing Communication Officer KG Media": 100
     },
     "entries": [
       {
@@ -12145,6 +12145,13 @@
         "timestamp": "2026-04-23 04:59:39",
         "source": "github_action",
         "candidate": "Desti Syarifah",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-23 05:00:13",
+        "source": "github_action",
+        "candidate": "Alyaa Hasna Syifa",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
