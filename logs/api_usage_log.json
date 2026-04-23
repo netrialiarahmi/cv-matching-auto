@@ -11446,23 +11446,16 @@
     ]
   },
   "2026-04-23": {
-    "total": 185,
+    "total": 186,
     "streamlit": 0,
-    "github_action": 185,
-    "successful": 185,
+    "github_action": 186,
+    "successful": 186,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 85
+      "Reporter Nasional": 86
     },
     "entries": [
-      {
-        "timestamp": "2026-04-23 04:52:40",
-        "source": "github_action",
-        "candidate": "Sevty Adinia",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-23 04:53:11",
         "source": "github_action",
@@ -12153,6 +12146,13 @@
         "timestamp": "2026-04-23 05:40:19",
         "source": "github_action",
         "candidate": "Adinda Nur Izzati Amil",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-23 05:40:53",
+        "source": "github_action",
+        "candidate": "Anita Tri Dewi",
         "position": "Reporter Nasional",
         "success": true
       }
