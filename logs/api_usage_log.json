@@ -11446,25 +11446,18 @@
     ]
   },
   "2026-04-23": {
-    "total": 381,
+    "total": 382,
     "streamlit": 0,
-    "github_action": 381,
-    "successful": 381,
+    "github_action": 382,
+    "successful": 382,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 81
+      "Account Executive VCBL": 82
     },
     "entries": [
-      {
-        "timestamp": "2026-04-23 06:27:59",
-        "source": "github_action",
-        "candidate": "Raihan Athalla Radistra",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-23 06:28:34",
         "source": "github_action",
@@ -12155,6 +12148,13 @@
         "timestamp": "2026-04-23 07:14:52",
         "source": "github_action",
         "candidate": "Jamil Saepul Azis",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-23 07:15:22",
+        "source": "github_action",
+        "candidate": "Khillad Pratama",
         "position": "Account Executive VCBL",
         "success": true
       }
