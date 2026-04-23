@@ -11446,13 +11446,13 @@
     ]
   },
   "2026-04-23": {
-    "total": 44,
+    "total": 45,
     "streamlit": 0,
-    "github_action": 44,
-    "successful": 44,
+    "github_action": 45,
+    "successful": 45,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 44
+      "Marketing Communication Officer KG Media": 45
     },
     "entries": [
       {
@@ -11760,6 +11760,13 @@
         "timestamp": "2026-04-23 04:31:32",
         "source": "github_action",
         "candidate": "Anggi Hasna Nabillah",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-23 04:32:07",
+        "source": "github_action",
+        "candidate": "silva lismawarni",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
