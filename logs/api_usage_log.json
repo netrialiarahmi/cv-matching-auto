@@ -11446,24 +11446,17 @@
     ]
   },
   "2026-04-23": {
-    "total": 221,
+    "total": 222,
     "streamlit": 0,
-    "github_action": 221,
-    "successful": 221,
+    "github_action": 222,
+    "successful": 222,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
-      "Business Development Analyst": 21
+      "Business Development Analyst": 22
     },
     "entries": [
-      {
-        "timestamp": "2026-04-23 05:10:30",
-        "source": "github_action",
-        "candidate": "Fawwaz Azmi Iltizam",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-23 05:11:02",
         "source": "github_action",
@@ -12154,6 +12147,13 @@
         "timestamp": "2026-04-23 05:58:24",
         "source": "github_action",
         "candidate": "I Gusti Agung Sanjaya Setyanegara",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-23 05:58:53",
+        "source": "github_action",
+        "candidate": "DEVI AYU RAHMATIKA",
         "position": "Business Development Analyst",
         "success": true
       }
