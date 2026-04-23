@@ -11446,23 +11446,16 @@
     ]
   },
   "2026-04-23": {
-    "total": 106,
+    "total": 107,
     "streamlit": 0,
-    "github_action": 106,
-    "successful": 106,
+    "github_action": 107,
+    "successful": 107,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 6
+      "Reporter Nasional": 7
     },
     "entries": [
-      {
-        "timestamp": "2026-04-23 04:12:06",
-        "source": "github_action",
-        "candidate": "Andreas  Bagus Aryo Seto Edinna Wibowo",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-23 04:12:37",
         "source": "github_action",
@@ -12153,6 +12146,13 @@
         "timestamp": "2026-04-23 05:02:51",
         "source": "github_action",
         "candidate": "sitinurfadilamopi sitinurfadilamopi",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-23 05:03:25",
+        "source": "github_action",
+        "candidate": "Ade krisna Rivaldy",
         "position": "Reporter Nasional",
         "success": true
       }
