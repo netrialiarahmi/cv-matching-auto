@@ -11446,25 +11446,18 @@
     ]
   },
   "2026-04-23": {
-    "total": 379,
+    "total": 380,
     "streamlit": 0,
-    "github_action": 379,
-    "successful": 379,
+    "github_action": 380,
+    "successful": 380,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 79
+      "Account Executive VCBL": 80
     },
     "entries": [
-      {
-        "timestamp": "2026-04-23 06:27:25",
-        "source": "github_action",
-        "candidate": "Agie Satria Chandra",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-23 06:27:28",
         "source": "github_action",
@@ -12155,6 +12148,13 @@
         "timestamp": "2026-04-23 07:13:50",
         "source": "github_action",
         "candidate": "Ine Safitri",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-23 07:14:24",
+        "source": "github_action",
+        "candidate": "Safira Melya Ramadhayanti",
         "position": "Account Executive VCBL",
         "success": true
       }
