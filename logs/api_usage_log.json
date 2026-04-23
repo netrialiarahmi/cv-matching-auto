@@ -11446,13 +11446,13 @@
     ]
   },
   "2026-04-23": {
-    "total": 47,
+    "total": 48,
     "streamlit": 0,
-    "github_action": 47,
-    "successful": 47,
+    "github_action": 48,
+    "successful": 48,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 47
+      "Marketing Communication Officer KG Media": 48
     },
     "entries": [
       {
@@ -11781,6 +11781,13 @@
         "timestamp": "2026-04-23 04:33:21",
         "source": "github_action",
         "candidate": "David Siburian",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-23 04:33:51",
+        "source": "github_action",
+        "candidate": "Nauval Hasemi",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
