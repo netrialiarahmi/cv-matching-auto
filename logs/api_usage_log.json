@@ -12161,13 +12161,13 @@
     ]
   },
   "2026-04-24": {
-    "total": 64,
+    "total": 65,
     "streamlit": 0,
-    "github_action": 64,
-    "successful": 64,
+    "github_action": 65,
+    "successful": 65,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 64
+      "Marketing Communication Officer KG Media": 65
     },
     "entries": [
       {
@@ -12615,6 +12615,13 @@
         "timestamp": "2026-04-24 04:43:51",
         "source": "github_action",
         "candidate": "Ikhsan Fatkhurrohman Dahlan",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-24 04:44:19",
+        "source": "github_action",
+        "candidate": "Daffa Prasetyo",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
