@@ -12161,25 +12161,18 @@
     ]
   },
   "2026-04-24": {
-    "total": 319,
+    "total": 320,
     "streamlit": 0,
-    "github_action": 319,
-    "successful": 319,
+    "github_action": 320,
+    "successful": 320,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 19
+      "Account Executive VCBL": 20
     },
     "entries": [
-      {
-        "timestamp": "2026-04-24 05:57:42",
-        "source": "github_action",
-        "candidate": "DEVI AYU RAHMATIKA",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-24 05:58:07",
         "source": "github_action",
@@ -12870,6 +12863,13 @@
         "timestamp": "2026-04-24 06:44:01",
         "source": "github_action",
         "candidate": "Sidiq Yogha Nariza",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-24 06:44:29",
+        "source": "github_action",
+        "candidate": "Helena Caesaria",
         "position": "Account Executive VCBL",
         "success": true
       }
