@@ -12161,23 +12161,16 @@
     ]
   },
   "2026-04-24": {
-    "total": 151,
+    "total": 152,
     "streamlit": 0,
-    "github_action": 151,
-    "successful": 151,
+    "github_action": 152,
+    "successful": 152,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 51
+      "Reporter Nasional": 52
     },
     "entries": [
-      {
-        "timestamp": "2026-04-24 04:38:08",
-        "source": "github_action",
-        "candidate": "Masyita Deta Rahadiani",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-24 04:38:40",
         "source": "github_action",
@@ -12868,6 +12861,13 @@
         "timestamp": "2026-04-24 05:24:14",
         "source": "github_action",
         "candidate": "Salma Shalsabilla",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-24 05:24:42",
+        "source": "github_action",
+        "candidate": "Rivaldo Simanjuntak",
         "position": "Reporter Nasional",
         "success": true
       }
