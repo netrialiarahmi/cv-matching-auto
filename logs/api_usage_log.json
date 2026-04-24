@@ -12161,25 +12161,18 @@
     ]
   },
   "2026-04-24": {
-    "total": 390,
+    "total": 391,
     "streamlit": 0,
-    "github_action": 390,
-    "successful": 390,
+    "github_action": 391,
+    "successful": 391,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 90
+      "Account Executive VCBL": 91
     },
     "entries": [
-      {
-        "timestamp": "2026-04-24 06:31:24",
-        "source": "github_action",
-        "candidate": "Rahman Putra Fireza",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-24 06:31:55",
         "source": "github_action",
@@ -12870,6 +12863,13 @@
         "timestamp": "2026-04-24 07:16:09",
         "source": "github_action",
         "candidate": "Suryansyah Alimas",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-24 07:16:38",
+        "source": "github_action",
+        "candidate": "Atsiilah Pratiwi",
         "position": "Account Executive VCBL",
         "success": true
       }
