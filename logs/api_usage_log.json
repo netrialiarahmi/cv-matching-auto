@@ -12161,23 +12161,16 @@
     ]
   },
   "2026-04-24": {
-    "total": 196,
+    "total": 197,
     "streamlit": 0,
-    "github_action": 196,
-    "successful": 196,
+    "github_action": 197,
+    "successful": 197,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 96
+      "Reporter Nasional": 97
     },
     "entries": [
-      {
-        "timestamp": "2026-04-24 04:58:59",
-        "source": "github_action",
-        "candidate": "Hulwah  Siti Fatimah Sa'idah",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-24 04:59:29",
         "source": "github_action",
@@ -12868,6 +12861,13 @@
         "timestamp": "2026-04-24 05:45:34",
         "source": "github_action",
         "candidate": "Tiva Simanjuntak",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-24 05:45:59",
+        "source": "github_action",
+        "candidate": "ane hainunnisa",
         "position": "Reporter Nasional",
         "success": true
       }
