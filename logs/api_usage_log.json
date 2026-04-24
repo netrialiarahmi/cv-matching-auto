@@ -12161,25 +12161,18 @@
     ]
   },
   "2026-04-24": {
-    "total": 315,
+    "total": 316,
     "streamlit": 0,
-    "github_action": 315,
-    "successful": 315,
+    "github_action": 316,
+    "successful": 316,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 15
+      "Account Executive VCBL": 16
     },
     "entries": [
-      {
-        "timestamp": "2026-04-24 05:55:48",
-        "source": "github_action",
-        "candidate": "FELIA RACHMILA",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-24 05:56:19",
         "source": "github_action",
@@ -12870,6 +12863,13 @@
         "timestamp": "2026-04-24 06:42:28",
         "source": "github_action",
         "candidate": "juno ongko",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-24 06:42:54",
+        "source": "github_action",
+        "candidate": "Daffa Sandya Affansyah",
         "position": "Account Executive VCBL",
         "success": true
       }
