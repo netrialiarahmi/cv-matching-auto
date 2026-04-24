@@ -12161,25 +12161,18 @@
     ]
   },
   "2026-04-24": {
-    "total": 333,
+    "total": 334,
     "streamlit": 0,
-    "github_action": 333,
-    "successful": 333,
+    "github_action": 334,
+    "successful": 334,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 33
+      "Account Executive VCBL": 34
     },
     "entries": [
-      {
-        "timestamp": "2026-04-24 06:04:47",
-        "source": "github_action",
-        "candidate": "Aulia Ramandha  Hendra",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-24 06:05:19",
         "source": "github_action",
@@ -12870,6 +12863,13 @@
         "timestamp": "2026-04-24 06:50:04",
         "source": "github_action",
         "candidate": "Aurelia Alexa",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-24 06:50:40",
+        "source": "github_action",
+        "candidate": "Reynaldi Rizky Aulia Bassar",
         "position": "Account Executive VCBL",
         "success": true
       }
