@@ -12161,23 +12161,16 @@
     ]
   },
   "2026-04-24": {
-    "total": 198,
+    "total": 199,
     "streamlit": 0,
-    "github_action": 198,
-    "successful": 198,
+    "github_action": 199,
+    "successful": 199,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 98
+      "Reporter Nasional": 99
     },
     "entries": [
-      {
-        "timestamp": "2026-04-24 05:00:03",
-        "source": "github_action",
-        "candidate": "Fathur Adam",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-24 05:00:39",
         "source": "github_action",
@@ -12868,6 +12861,13 @@
         "timestamp": "2026-04-24 05:46:31",
         "source": "github_action",
         "candidate": "Kholifatul Mariana",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-24 05:46:57",
+        "source": "github_action",
+        "candidate": "Hasti Nadhilah",
         "position": "Reporter Nasional",
         "success": true
       }
