@@ -12161,24 +12161,17 @@
     ]
   },
   "2026-04-24": {
-    "total": 284,
+    "total": 285,
     "streamlit": 0,
-    "github_action": 284,
-    "successful": 284,
+    "github_action": 285,
+    "successful": 285,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
-      "Business Development Analyst": 84
+      "Business Development Analyst": 85
     },
     "entries": [
-      {
-        "timestamp": "2026-04-24 05:40:21",
-        "source": "github_action",
-        "candidate": "Adhimasandya Harsaning",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-24 05:40:49",
         "source": "github_action",
@@ -12869,6 +12862,13 @@
         "timestamp": "2026-04-24 06:28:10",
         "source": "github_action",
         "candidate": "Muhamad Noval Prabowo",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-24 06:28:14",
+        "source": "github_action",
+        "candidate": "Muhammad rizky Hendrinov P",
         "position": "Business Development Analyst",
         "success": true
       }
