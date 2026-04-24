@@ -12161,25 +12161,18 @@
     ]
   },
   "2026-04-24": {
-    "total": 318,
+    "total": 319,
     "streamlit": 0,
-    "github_action": 318,
-    "successful": 318,
+    "github_action": 319,
+    "successful": 319,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 18
+      "Account Executive VCBL": 19
     },
     "entries": [
-      {
-        "timestamp": "2026-04-24 05:57:15",
-        "source": "github_action",
-        "candidate": "I Gusti Agung Sanjaya Setyanegara",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-24 05:57:42",
         "source": "github_action",
@@ -12870,6 +12863,13 @@
         "timestamp": "2026-04-24 06:43:57",
         "source": "github_action",
         "candidate": "Pinkan Maliha Yasmin",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-24 06:44:01",
+        "source": "github_action",
+        "candidate": "Sidiq Yogha Nariza",
         "position": "Account Executive VCBL",
         "success": true
       }
