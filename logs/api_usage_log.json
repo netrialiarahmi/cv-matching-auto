@@ -12161,24 +12161,17 @@
     ]
   },
   "2026-04-24": {
-    "total": 217,
+    "total": 218,
     "streamlit": 0,
-    "github_action": 217,
-    "successful": 217,
+    "github_action": 218,
+    "successful": 218,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
-      "Business Development Analyst": 17
+      "Business Development Analyst": 18
     },
     "entries": [
-      {
-        "timestamp": "2026-04-24 05:09:13",
-        "source": "github_action",
-        "candidate": "Muhjid Bagus Oqsaberi",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-24 05:09:44",
         "source": "github_action",
@@ -12869,6 +12862,13 @@
         "timestamp": "2026-04-24 05:56:19",
         "source": "github_action",
         "candidate": "Faqih Wasim Ahmad",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-24 05:56:47",
+        "source": "github_action",
+        "candidate": "cecep aris afandi andi",
         "position": "Business Development Analyst",
         "success": true
       }
