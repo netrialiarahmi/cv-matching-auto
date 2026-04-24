@@ -12161,13 +12161,13 @@
     ]
   },
   "2026-04-24": {
-    "total": 29,
+    "total": 30,
     "streamlit": 0,
-    "github_action": 29,
-    "successful": 29,
+    "github_action": 30,
+    "successful": 30,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 29
+      "Marketing Communication Officer KG Media": 30
     },
     "entries": [
       {
@@ -12370,6 +12370,13 @@
         "timestamp": "2026-04-24 04:26:14",
         "source": "github_action",
         "candidate": "Dede Kurnianto",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-24 04:26:47",
+        "source": "github_action",
+        "candidate": "Bryant Hans Channing Panjaitan",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
