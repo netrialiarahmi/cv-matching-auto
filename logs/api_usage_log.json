@@ -12161,13 +12161,13 @@
     ]
   },
   "2026-04-24": {
-    "total": 74,
+    "total": 75,
     "streamlit": 0,
-    "github_action": 74,
-    "successful": 74,
+    "github_action": 75,
+    "successful": 75,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 74
+      "Marketing Communication Officer KG Media": 75
     },
     "entries": [
       {
@@ -12685,6 +12685,13 @@
         "timestamp": "2026-04-24 04:48:10",
         "source": "github_action",
         "candidate": "Quinta Elvira Rosiana Sipahutar",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-24 04:48:42",
+        "source": "github_action",
+        "candidate": "Faros Khoirudin Prayoga",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
