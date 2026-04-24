@@ -12161,24 +12161,17 @@
     ]
   },
   "2026-04-24": {
-    "total": 257,
+    "total": 258,
     "streamlit": 0,
-    "github_action": 257,
-    "successful": 257,
+    "github_action": 258,
+    "successful": 258,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
-      "Business Development Analyst": 57
+      "Business Development Analyst": 58
     },
     "entries": [
-      {
-        "timestamp": "2026-04-24 05:27:51",
-        "source": "github_action",
-        "candidate": "Siti Anisa Handayani",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-24 05:28:24",
         "source": "github_action",
@@ -12869,6 +12862,13 @@
         "timestamp": "2026-04-24 06:16:07",
         "source": "github_action",
         "candidate": "Argani Arief Santoso",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-24 06:16:40",
+        "source": "github_action",
+        "candidate": "Muhammad Firdaus Pratama",
         "position": "Business Development Analyst",
         "success": true
       }
