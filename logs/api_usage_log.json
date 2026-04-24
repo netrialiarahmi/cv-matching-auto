@@ -12161,13 +12161,13 @@
     ]
   },
   "2026-04-24": {
-    "total": 90,
+    "total": 91,
     "streamlit": 0,
-    "github_action": 90,
-    "successful": 90,
+    "github_action": 91,
+    "successful": 91,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 90
+      "Marketing Communication Officer KG Media": 91
     },
     "entries": [
       {
@@ -12797,6 +12797,13 @@
         "timestamp": "2026-04-24 04:56:26",
         "source": "github_action",
         "candidate": "Lukas Luhur Pambudi",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-24 04:56:53",
+        "source": "github_action",
+        "candidate": "Ni Luh Kade Dwi Ratna Safitri",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
