@@ -12161,24 +12161,17 @@
     ]
   },
   "2026-04-24": {
-    "total": 216,
+    "total": 217,
     "streamlit": 0,
-    "github_action": 216,
-    "successful": 216,
+    "github_action": 217,
+    "successful": 217,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
-      "Business Development Analyst": 16
+      "Business Development Analyst": 17
     },
     "entries": [
-      {
-        "timestamp": "2026-04-24 05:08:40",
-        "source": "github_action",
-        "candidate": "Anisa Nur Syafitri",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-24 05:09:13",
         "source": "github_action",
@@ -12869,6 +12862,13 @@
         "timestamp": "2026-04-24 05:55:48",
         "source": "github_action",
         "candidate": "FELIA RACHMILA",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-24 05:56:19",
+        "source": "github_action",
+        "candidate": "Faqih Wasim Ahmad",
         "position": "Business Development Analyst",
         "success": true
       }
