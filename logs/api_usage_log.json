@@ -12161,13 +12161,13 @@
     ]
   },
   "2026-04-24": {
-    "total": 58,
+    "total": 59,
     "streamlit": 0,
-    "github_action": 58,
-    "successful": 58,
+    "github_action": 59,
+    "successful": 59,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 58
+      "Marketing Communication Officer KG Media": 59
     },
     "entries": [
       {
@@ -12573,6 +12573,13 @@
         "timestamp": "2026-04-24 04:41:12",
         "source": "github_action",
         "candidate": "kenzie salman",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-24 04:41:42",
+        "source": "github_action",
+        "candidate": "Fildza Salma Malahati",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
