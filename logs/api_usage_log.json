@@ -12161,25 +12161,18 @@
     ]
   },
   "2026-04-24": {
-    "total": 395,
+    "total": 396,
     "streamlit": 0,
-    "github_action": 395,
-    "successful": 395,
+    "github_action": 396,
+    "successful": 396,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 95
+      "Account Executive VCBL": 96
     },
     "entries": [
-      {
-        "timestamp": "2026-04-24 06:33:58",
-        "source": "github_action",
-        "candidate": "Novita Erma Putri Lestari",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-24 06:34:31",
         "source": "github_action",
@@ -12870,6 +12863,13 @@
         "timestamp": "2026-04-24 07:18:36",
         "source": "github_action",
         "candidate": "Puji lestari",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-24 07:19:04",
+        "source": "github_action",
+        "candidate": "Ocha Fatirr",
         "position": "Account Executive VCBL",
         "success": true
       }
