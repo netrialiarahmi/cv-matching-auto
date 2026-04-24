@@ -12161,13 +12161,13 @@
     ]
   },
   "2026-04-24": {
-    "total": 35,
+    "total": 36,
     "streamlit": 0,
-    "github_action": 35,
-    "successful": 35,
+    "github_action": 36,
+    "successful": 36,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 35
+      "Marketing Communication Officer KG Media": 36
     },
     "entries": [
       {
@@ -12412,6 +12412,13 @@
         "timestamp": "2026-04-24 04:29:25",
         "source": "github_action",
         "candidate": "Nafa Ariesa Evani",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-24 04:29:53",
+        "source": "github_action",
+        "candidate": "Muhamad Gilman",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
