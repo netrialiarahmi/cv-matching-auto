@@ -12161,25 +12161,18 @@
     ]
   },
   "2026-04-24": {
-    "total": 332,
+    "total": 333,
     "streamlit": 0,
-    "github_action": 332,
-    "successful": 332,
+    "github_action": 333,
+    "successful": 333,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 32
+      "Account Executive VCBL": 33
     },
     "entries": [
-      {
-        "timestamp": "2026-04-24 06:04:19",
-        "source": "github_action",
-        "candidate": "Naufal  Hudaya",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-24 06:04:47",
         "source": "github_action",
@@ -12870,6 +12863,13 @@
         "timestamp": "2026-04-24 06:49:34",
         "source": "github_action",
         "candidate": "Muhammad Arrumi Fayyad",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-24 06:50:04",
+        "source": "github_action",
+        "candidate": "Aurelia Alexa",
         "position": "Account Executive VCBL",
         "success": true
       }
