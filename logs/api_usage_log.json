@@ -12161,23 +12161,16 @@
     ]
   },
   "2026-04-24": {
-    "total": 185,
+    "total": 186,
     "streamlit": 0,
-    "github_action": 185,
-    "successful": 185,
+    "github_action": 186,
+    "successful": 186,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 85
+      "Reporter Nasional": 86
     },
     "entries": [
-      {
-        "timestamp": "2026-04-24 04:54:22",
-        "source": "github_action",
-        "candidate": "Alya Zulkarnain",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-24 04:54:49",
         "source": "github_action",
@@ -12868,6 +12861,13 @@
         "timestamp": "2026-04-24 05:40:21",
         "source": "github_action",
         "candidate": "Adhimasandya Harsaning",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-24 05:40:49",
+        "source": "github_action",
+        "candidate": "Alprita Cersia Lobo",
         "position": "Reporter Nasional",
         "success": true
       }
