@@ -12161,13 +12161,13 @@
     ]
   },
   "2026-04-24": {
-    "total": 46,
+    "total": 47,
     "streamlit": 0,
-    "github_action": 46,
-    "successful": 46,
+    "github_action": 47,
+    "successful": 47,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 46
+      "Marketing Communication Officer KG Media": 47
     },
     "entries": [
       {
@@ -12489,6 +12489,13 @@
         "timestamp": "2026-04-24 04:35:01",
         "source": "github_action",
         "candidate": "Rizma Khansa Zulfa",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-24 04:35:33",
+        "source": "github_action",
+        "candidate": "Benedicta Avelia",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
