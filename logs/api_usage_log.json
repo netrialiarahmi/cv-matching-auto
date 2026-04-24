@@ -12161,13 +12161,13 @@
     ]
   },
   "2026-04-24": {
-    "total": 81,
+    "total": 82,
     "streamlit": 0,
-    "github_action": 81,
-    "successful": 81,
+    "github_action": 82,
+    "successful": 82,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 81
+      "Marketing Communication Officer KG Media": 82
     },
     "entries": [
       {
@@ -12734,6 +12734,13 @@
         "timestamp": "2026-04-24 04:51:41",
         "source": "github_action",
         "candidate": "Evelyn Inly",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-24 04:52:18",
+        "source": "github_action",
+        "candidate": "Jesslyn Samantha",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
