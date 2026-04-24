@@ -12161,13 +12161,13 @@
     ]
   },
   "2026-04-24": {
-    "total": 85,
+    "total": 86,
     "streamlit": 0,
-    "github_action": 85,
-    "successful": 85,
+    "github_action": 86,
+    "successful": 86,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 85
+      "Marketing Communication Officer KG Media": 86
     },
     "entries": [
       {
@@ -12762,6 +12762,13 @@
         "timestamp": "2026-04-24 04:53:51",
         "source": "github_action",
         "candidate": "Rifky Ardhian Taqwa",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-24 04:54:22",
+        "source": "github_action",
+        "candidate": "Alya Zulkarnain",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
