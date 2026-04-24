@@ -12161,13 +12161,13 @@
     ]
   },
   "2026-04-24": {
-    "total": 56,
+    "total": 57,
     "streamlit": 0,
-    "github_action": 56,
-    "successful": 56,
+    "github_action": 57,
+    "successful": 57,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 56
+      "Marketing Communication Officer KG Media": 57
     },
     "entries": [
       {
@@ -12559,6 +12559,13 @@
         "timestamp": "2026-04-24 04:40:12",
         "source": "github_action",
         "candidate": "Dien Shafa Moesya",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-24 04:40:41",
+        "source": "github_action",
+        "candidate": "Safira Jodi",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
