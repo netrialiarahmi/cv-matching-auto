@@ -12161,24 +12161,17 @@
     ]
   },
   "2026-04-24": {
-    "total": 294,
+    "total": 295,
     "streamlit": 0,
-    "github_action": 294,
-    "successful": 294,
+    "github_action": 295,
+    "successful": 295,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
-      "Business Development Analyst": 94
+      "Business Development Analyst": 95
     },
     "entries": [
-      {
-        "timestamp": "2026-04-24 05:45:06",
-        "source": "github_action",
-        "candidate": "Zulfa Atsna Taqia",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-24 05:45:34",
         "source": "github_action",
@@ -12869,6 +12862,13 @@
         "timestamp": "2026-04-24 06:32:56",
         "source": "github_action",
         "candidate": "Reiski HPL",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-24 06:33:26",
+        "source": "github_action",
+        "candidate": "Kautsar Hilmi",
         "position": "Business Development Analyst",
         "success": true
       }
