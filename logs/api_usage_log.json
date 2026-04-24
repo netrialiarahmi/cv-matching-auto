@@ -12161,24 +12161,17 @@
     ]
   },
   "2026-04-24": {
-    "total": 260,
+    "total": 261,
     "streamlit": 0,
-    "github_action": 260,
-    "successful": 260,
+    "github_action": 261,
+    "successful": 261,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
-      "Business Development Analyst": 60
+      "Business Development Analyst": 61
     },
     "entries": [
-      {
-        "timestamp": "2026-04-24 05:29:28",
-        "source": "github_action",
-        "candidate": "Rika Jahara",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-24 05:29:58",
         "source": "github_action",
@@ -12869,6 +12862,13 @@
         "timestamp": "2026-04-24 06:17:44",
         "source": "github_action",
         "candidate": "Vannessa Handini Dhewa Putri",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-24 06:18:13",
+        "source": "github_action",
+        "candidate": "Wahyu Eka",
         "position": "Business Development Analyst",
         "success": true
       }
