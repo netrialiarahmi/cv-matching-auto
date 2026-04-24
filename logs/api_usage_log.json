@@ -12161,25 +12161,18 @@
     ]
   },
   "2026-04-24": {
-    "total": 387,
+    "total": 388,
     "streamlit": 0,
-    "github_action": 387,
-    "successful": 387,
+    "github_action": 388,
+    "successful": 388,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 87
+      "Account Executive VCBL": 88
     },
     "entries": [
-      {
-        "timestamp": "2026-04-24 06:29:51",
-        "source": "github_action",
-        "candidate": "Samdya Fauzan  Pangestu",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-24 06:30:23",
         "source": "github_action",
@@ -12870,6 +12863,13 @@
         "timestamp": "2026-04-24 07:14:44",
         "source": "github_action",
         "candidate": "Mei liya Wulan dari",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-24 07:15:11",
+        "source": "github_action",
+        "candidate": "Grace Horstefanny",
         "position": "Account Executive VCBL",
         "success": true
       }
