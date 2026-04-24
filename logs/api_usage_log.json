@@ -12161,23 +12161,16 @@
     ]
   },
   "2026-04-24": {
-    "total": 157,
+    "total": 158,
     "streamlit": 0,
-    "github_action": 157,
-    "successful": 157,
+    "github_action": 158,
+    "successful": 158,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 57
+      "Reporter Nasional": 58
     },
     "entries": [
-      {
-        "timestamp": "2026-04-24 04:41:12",
-        "source": "github_action",
-        "candidate": "kenzie salman",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-24 04:41:42",
         "source": "github_action",
@@ -12868,6 +12861,13 @@
         "timestamp": "2026-04-24 05:27:19",
         "source": "github_action",
         "candidate": "Sarah Almira",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-24 05:27:51",
+        "source": "github_action",
+        "candidate": "Siti Anisa Handayani",
         "position": "Reporter Nasional",
         "success": true
       }
