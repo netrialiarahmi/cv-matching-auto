@@ -12161,25 +12161,18 @@
     ]
   },
   "2026-04-24": {
-    "total": 347,
+    "total": 348,
     "streamlit": 0,
-    "github_action": 347,
-    "successful": 347,
+    "github_action": 348,
+    "successful": 348,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 47
+      "Account Executive VCBL": 48
     },
     "entries": [
-      {
-        "timestamp": "2026-04-24 06:11:22",
-        "source": "github_action",
-        "candidate": "Charles Philip",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-24 06:11:54",
         "source": "github_action",
@@ -12870,6 +12863,13 @@
         "timestamp": "2026-04-24 06:56:33",
         "source": "github_action",
         "candidate": "Rahmavita Naripati",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-24 06:57:03",
+        "source": "github_action",
+        "candidate": "Hilbram Syahrul",
         "position": "Account Executive VCBL",
         "success": true
       }
