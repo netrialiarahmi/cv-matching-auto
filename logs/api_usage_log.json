@@ -12161,24 +12161,17 @@
     ]
   },
   "2026-04-24": {
-    "total": 262,
+    "total": 263,
     "streamlit": 0,
-    "github_action": 262,
-    "successful": 262,
+    "github_action": 263,
+    "successful": 263,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
-      "Business Development Analyst": 62
+      "Business Development Analyst": 63
     },
     "entries": [
-      {
-        "timestamp": "2026-04-24 05:30:32",
-        "source": "github_action",
-        "candidate": "dearest tiantama",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-24 05:30:58",
         "source": "github_action",
@@ -12869,6 +12862,13 @@
         "timestamp": "2026-04-24 06:18:16",
         "source": "github_action",
         "candidate": "Darrell Matthews",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-24 06:18:45",
+        "source": "github_action",
+        "candidate": "Maheswari Adriyani Soeharto",
         "position": "Business Development Analyst",
         "success": true
       }
