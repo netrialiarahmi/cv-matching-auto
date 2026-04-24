@@ -12161,13 +12161,13 @@
     ]
   },
   "2026-04-24": {
-    "total": 83,
+    "total": 84,
     "streamlit": 0,
-    "github_action": 83,
-    "successful": 83,
+    "github_action": 84,
+    "successful": 84,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 83
+      "Marketing Communication Officer KG Media": 84
     },
     "entries": [
       {
@@ -12748,6 +12748,13 @@
         "timestamp": "2026-04-24 04:52:52",
         "source": "github_action",
         "candidate": "Zahra Aisha",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-24 04:53:21",
+        "source": "github_action",
+        "candidate": "Abraham Satrio Wibowo",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
