@@ -12161,13 +12161,13 @@
     ]
   },
   "2026-04-24": {
-    "total": 17,
+    "total": 18,
     "streamlit": 0,
-    "github_action": 17,
-    "successful": 17,
+    "github_action": 18,
+    "successful": 18,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 17
+      "Marketing Communication Officer KG Media": 18
     },
     "entries": [
       {
@@ -12286,6 +12286,13 @@
         "timestamp": "2026-04-24 04:20:20",
         "source": "github_action",
         "candidate": "Qonitah Khairunnisa",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-24 04:20:52",
+        "source": "github_action",
+        "candidate": "Dayinta Ayuning Aribhumi",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
