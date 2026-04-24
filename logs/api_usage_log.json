@@ -12161,23 +12161,16 @@
     ]
   },
   "2026-04-24": {
-    "total": 168,
+    "total": 169,
     "streamlit": 0,
-    "github_action": 168,
-    "successful": 168,
+    "github_action": 169,
+    "successful": 169,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 68
+      "Reporter Nasional": 69
     },
     "entries": [
-      {
-        "timestamp": "2026-04-24 04:46:18",
-        "source": "github_action",
-        "candidate": "gloria angel",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-24 04:46:57",
         "source": "github_action",
@@ -12868,6 +12861,13 @@
         "timestamp": "2026-04-24 05:32:24",
         "source": "github_action",
         "candidate": "Andika Yudhistira",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-24 05:32:55",
+        "source": "github_action",
+        "candidate": "Wildan Adil Hilba",
         "position": "Reporter Nasional",
         "success": true
       }
