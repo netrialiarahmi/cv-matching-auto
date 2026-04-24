@@ -12161,23 +12161,16 @@
     ]
   },
   "2026-04-24": {
-    "total": 178,
+    "total": 179,
     "streamlit": 0,
-    "github_action": 178,
-    "successful": 178,
+    "github_action": 179,
+    "successful": 179,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 78
+      "Reporter Nasional": 79
     },
     "entries": [
-      {
-        "timestamp": "2026-04-24 04:50:43",
-        "source": "github_action",
-        "candidate": "Reno Renaldi",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-24 04:51:11",
         "source": "github_action",
@@ -12868,6 +12861,13 @@
         "timestamp": "2026-04-24 05:37:13",
         "source": "github_action",
         "candidate": "Adinda Nur Izzati Amil",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-24 05:37:44",
+        "source": "github_action",
+        "candidate": "Anita Tri Dewi",
         "position": "Reporter Nasional",
         "success": true
       }
