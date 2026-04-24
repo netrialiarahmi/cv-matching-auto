@@ -12161,24 +12161,17 @@
     ]
   },
   "2026-04-24": {
-    "total": 237,
+    "total": 238,
     "streamlit": 0,
-    "github_action": 237,
-    "successful": 237,
+    "github_action": 238,
+    "successful": 238,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
-      "Business Development Analyst": 37
+      "Business Development Analyst": 38
     },
     "entries": [
-      {
-        "timestamp": "2026-04-24 05:18:20",
-        "source": "github_action",
-        "candidate": "yusuf rinaldy",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-24 05:18:47",
         "source": "github_action",
@@ -12869,6 +12862,13 @@
         "timestamp": "2026-04-24 06:06:18",
         "source": "github_action",
         "candidate": "Rezy Aprilliano Adha",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-24 06:06:21",
+        "source": "github_action",
+        "candidate": "Rafif Murti rizky",
         "position": "Business Development Analyst",
         "success": true
       }
