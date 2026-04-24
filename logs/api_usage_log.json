@@ -12161,24 +12161,17 @@
     ]
   },
   "2026-04-24": {
-    "total": 292,
+    "total": 293,
     "streamlit": 0,
-    "github_action": 292,
-    "successful": 292,
+    "github_action": 293,
+    "successful": 293,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
-      "Business Development Analyst": 92
+      "Business Development Analyst": 93
     },
     "entries": [
-      {
-        "timestamp": "2026-04-24 05:44:08",
-        "source": "github_action",
-        "candidate": "Dita Salsabila Kurniawan",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-24 05:44:36",
         "source": "github_action",
@@ -12869,6 +12862,13 @@
         "timestamp": "2026-04-24 06:31:55",
         "source": "github_action",
         "candidate": "Andrean Okta Pratama",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-24 06:32:24",
+        "source": "github_action",
+        "candidate": "Renhaditya Masyuda",
         "position": "Business Development Analyst",
         "success": true
       }
