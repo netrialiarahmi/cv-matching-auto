@@ -12161,24 +12161,17 @@
     ]
   },
   "2026-04-24": {
-    "total": 263,
+    "total": 264,
     "streamlit": 0,
-    "github_action": 263,
-    "successful": 263,
+    "github_action": 264,
+    "successful": 264,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
-      "Business Development Analyst": 63
+      "Business Development Analyst": 64
     },
     "entries": [
-      {
-        "timestamp": "2026-04-24 05:30:58",
-        "source": "github_action",
-        "candidate": "Nataya Kirana",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-24 05:31:30",
         "source": "github_action",
@@ -12869,6 +12862,13 @@
         "timestamp": "2026-04-24 06:18:45",
         "source": "github_action",
         "candidate": "Maheswari Adriyani Soeharto",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-24 06:19:16",
+        "source": "github_action",
+        "candidate": "Farid Faqih Kusuma Budi",
         "position": "Business Development Analyst",
         "success": true
       }
