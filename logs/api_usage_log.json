@@ -12161,23 +12161,16 @@
     ]
   },
   "2026-04-24": {
-    "total": 161,
+    "total": 162,
     "streamlit": 0,
-    "github_action": 161,
-    "successful": 161,
+    "github_action": 162,
+    "successful": 162,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 61
+      "Reporter Nasional": 62
     },
     "entries": [
-      {
-        "timestamp": "2026-04-24 04:42:52",
-        "source": "github_action",
-        "candidate": "Axel Hans Kristian",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-24 04:43:21",
         "source": "github_action",
@@ -12868,6 +12861,13 @@
         "timestamp": "2026-04-24 05:29:28",
         "source": "github_action",
         "candidate": "Rika Jahara",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-24 05:29:58",
+        "source": "github_action",
+        "candidate": "Sindhu Linguistika Manumanasa",
         "position": "Reporter Nasional",
         "success": true
       }
