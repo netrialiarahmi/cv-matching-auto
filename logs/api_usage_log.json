@@ -12161,24 +12161,17 @@
     ]
   },
   "2026-04-24": {
-    "total": 298,
+    "total": 299,
     "streamlit": 0,
-    "github_action": 298,
-    "successful": 298,
+    "github_action": 299,
+    "successful": 299,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
-      "Business Development Analyst": 98
+      "Business Development Analyst": 99
     },
     "entries": [
-      {
-        "timestamp": "2026-04-24 05:46:57",
-        "source": "github_action",
-        "candidate": "Hasti Nadhilah",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-24 05:47:22",
         "source": "github_action",
@@ -12869,6 +12862,13 @@
         "timestamp": "2026-04-24 06:34:35",
         "source": "github_action",
         "candidate": "Sujiwo Gio",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-24 06:35:04",
+        "source": "github_action",
+        "candidate": "Ahmad Sulaeman",
         "position": "Business Development Analyst",
         "success": true
       }
