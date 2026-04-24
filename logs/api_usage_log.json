@@ -12161,23 +12161,16 @@
     ]
   },
   "2026-04-24": {
-    "total": 134,
+    "total": 135,
     "streamlit": 0,
-    "github_action": 134,
-    "successful": 134,
+    "github_action": 135,
+    "successful": 135,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 34
+      "Reporter Nasional": 35
     },
     "entries": [
-      {
-        "timestamp": "2026-04-24 04:29:25",
-        "source": "github_action",
-        "candidate": "Nafa Ariesa Evani",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-24 04:29:53",
         "source": "github_action",
@@ -12868,6 +12861,13 @@
         "timestamp": "2026-04-24 05:16:27",
         "source": "github_action",
         "candidate": "BAGUS SADEWO",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-24 05:16:51",
+        "source": "github_action",
+        "candidate": "Carlo Alesandrino Pranata",
         "position": "Reporter Nasional",
         "success": true
       }
