@@ -12161,23 +12161,16 @@
     ]
   },
   "2026-04-24": {
-    "total": 104,
+    "total": 105,
     "streamlit": 0,
-    "github_action": 104,
-    "successful": 104,
+    "github_action": 105,
+    "successful": 105,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 4
+      "Reporter Nasional": 5
     },
     "entries": [
-      {
-        "timestamp": "2026-04-24 04:13:59",
-        "source": "github_action",
-        "candidate": "Agnes Debora  Zega",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-24 04:14:29",
         "source": "github_action",
@@ -12868,6 +12861,13 @@
         "timestamp": "2026-04-24 05:02:35",
         "source": "github_action",
         "candidate": "Dara Maharani",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-24 05:03:07",
+        "source": "github_action",
+        "candidate": "Fajar Gumilar",
         "position": "Reporter Nasional",
         "success": true
       }
