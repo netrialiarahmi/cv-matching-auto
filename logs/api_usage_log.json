@@ -12161,23 +12161,16 @@
     ]
   },
   "2026-04-24": {
-    "total": 197,
+    "total": 198,
     "streamlit": 0,
-    "github_action": 197,
-    "successful": 197,
+    "github_action": 198,
+    "successful": 198,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 97
+      "Reporter Nasional": 98
     },
     "entries": [
-      {
-        "timestamp": "2026-04-24 04:59:29",
-        "source": "github_action",
-        "candidate": "Catharina Zvica Hoogcain Terang",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-24 05:00:03",
         "source": "github_action",
@@ -12868,6 +12861,13 @@
         "timestamp": "2026-04-24 05:45:59",
         "source": "github_action",
         "candidate": "ane hainunnisa",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-24 05:46:31",
+        "source": "github_action",
+        "candidate": "Kholifatul Mariana",
         "position": "Reporter Nasional",
         "success": true
       }
