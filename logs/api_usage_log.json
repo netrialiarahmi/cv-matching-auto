@@ -12161,23 +12161,16 @@
     ]
   },
   "2026-04-24": {
-    "total": 188,
+    "total": 189,
     "streamlit": 0,
-    "github_action": 188,
-    "successful": 188,
+    "github_action": 189,
+    "successful": 189,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 88
+      "Reporter Nasional": 89
     },
     "entries": [
-      {
-        "timestamp": "2026-04-24 04:55:54",
-        "source": "github_action",
-        "candidate": "amarilis putri",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-24 04:56:26",
         "source": "github_action",
@@ -12868,6 +12861,13 @@
         "timestamp": "2026-04-24 05:41:44",
         "source": "github_action",
         "candidate": "Putri Rahma Aryani",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-24 05:42:15",
+        "source": "github_action",
+        "candidate": "Yolla Wiranda",
         "position": "Reporter Nasional",
         "success": true
       }
