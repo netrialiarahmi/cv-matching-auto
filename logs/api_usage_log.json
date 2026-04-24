@@ -12161,25 +12161,18 @@
     ]
   },
   "2026-04-24": {
-    "total": 349,
+    "total": 350,
     "streamlit": 0,
-    "github_action": 349,
-    "successful": 349,
+    "github_action": 350,
+    "successful": 350,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 49
+      "Account Executive VCBL": 50
     },
     "entries": [
-      {
-        "timestamp": "2026-04-24 06:12:25",
-        "source": "github_action",
-        "candidate": "KEMAL AL KAUTSAR MABRURI",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-24 06:12:55",
         "source": "github_action",
@@ -12870,6 +12863,13 @@
         "timestamp": "2026-04-24 06:57:37",
         "source": "github_action",
         "candidate": "Taufik Hidayat",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-24 06:58:02",
+        "source": "github_action",
+        "candidate": "Michelle Anastasya supriyadi",
         "position": "Account Executive VCBL",
         "success": true
       }
