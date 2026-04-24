@@ -12161,13 +12161,13 @@
     ]
   },
   "2026-04-24": {
-    "total": 33,
+    "total": 34,
     "streamlit": 0,
-    "github_action": 33,
-    "successful": 33,
+    "github_action": 34,
+    "successful": 34,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 33
+      "Marketing Communication Officer KG Media": 34
     },
     "entries": [
       {
@@ -12398,6 +12398,13 @@
         "timestamp": "2026-04-24 04:28:18",
         "source": "github_action",
         "candidate": "Nabilah Putri Anggraeni",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-24 04:28:51",
+        "source": "github_action",
+        "candidate": "Amanda Ayu Cinthia",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
