@@ -12161,13 +12161,13 @@
     ]
   },
   "2026-04-24": {
-    "total": 7,
+    "total": 8,
     "streamlit": 0,
-    "github_action": 7,
-    "successful": 7,
+    "github_action": 8,
+    "successful": 8,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 7
+      "Marketing Communication Officer KG Media": 8
     },
     "entries": [
       {
@@ -12216,6 +12216,13 @@
         "timestamp": "2026-04-24 04:14:59",
         "source": "github_action",
         "candidate": "Andreas  Bagus Aryo Seto Edinna Wibowo",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-24 04:15:34",
+        "source": "github_action",
+        "candidate": "Muhamad Naufal Ridho",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
