@@ -12161,23 +12161,16 @@
     ]
   },
   "2026-04-24": {
-    "total": 181,
+    "total": 182,
     "streamlit": 0,
-    "github_action": 181,
-    "successful": 181,
+    "github_action": 182,
+    "successful": 182,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 81
+      "Reporter Nasional": 82
     },
     "entries": [
-      {
-        "timestamp": "2026-04-24 04:52:18",
-        "source": "github_action",
-        "candidate": "Jesslyn Samantha",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-24 04:52:52",
         "source": "github_action",
@@ -12868,6 +12861,13 @@
         "timestamp": "2026-04-24 05:38:46",
         "source": "github_action",
         "candidate": "Siti Aqila Nursilmina",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-24 05:39:13",
+        "source": "github_action",
+        "candidate": "Turangga Raflihuda",
         "position": "Reporter Nasional",
         "success": true
       }
