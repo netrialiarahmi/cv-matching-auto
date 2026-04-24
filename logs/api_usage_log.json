@@ -12161,24 +12161,17 @@
     ]
   },
   "2026-04-24": {
-    "total": 290,
+    "total": 291,
     "streamlit": 0,
-    "github_action": 290,
-    "successful": 290,
+    "github_action": 291,
+    "successful": 291,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
-      "Business Development Analyst": 90
+      "Business Development Analyst": 91
     },
     "entries": [
-      {
-        "timestamp": "2026-04-24 05:43:15",
-        "source": "github_action",
-        "candidate": "Albinus Anwar Judat",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-24 05:43:42",
         "source": "github_action",
@@ -12869,6 +12862,13 @@
         "timestamp": "2026-04-24 06:30:51",
         "source": "github_action",
         "candidate": "Rafly Ramadhani",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-24 06:31:24",
+        "source": "github_action",
+        "candidate": "Rahman Putra Fireza",
         "position": "Business Development Analyst",
         "success": true
       }
