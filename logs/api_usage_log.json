@@ -12161,23 +12161,16 @@
     ]
   },
   "2026-04-24": {
-    "total": 171,
+    "total": 172,
     "streamlit": 0,
-    "github_action": 171,
-    "successful": 171,
+    "github_action": 172,
+    "successful": 172,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 71
+      "Reporter Nasional": 72
     },
     "entries": [
-      {
-        "timestamp": "2026-04-24 04:47:03",
-        "source": "github_action",
-        "candidate": "Muhammad Irhaz Adha A. Basyah",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-24 04:47:34",
         "source": "github_action",
@@ -12868,6 +12861,13 @@
         "timestamp": "2026-04-24 05:33:56",
         "source": "github_action",
         "candidate": "AMIN MOMIAGE",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-24 05:34:29",
+        "source": "github_action",
+        "candidate": "Arshya Fatimah Azzahra",
         "position": "Reporter Nasional",
         "success": true
       }
