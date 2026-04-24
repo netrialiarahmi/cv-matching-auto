@@ -12161,13 +12161,13 @@
     ]
   },
   "2026-04-24": {
-    "total": 37,
+    "total": 38,
     "streamlit": 0,
-    "github_action": 37,
-    "successful": 37,
+    "github_action": 38,
+    "successful": 38,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 37
+      "Marketing Communication Officer KG Media": 38
     },
     "entries": [
       {
@@ -12426,6 +12426,13 @@
         "timestamp": "2026-04-24 04:30:26",
         "source": "github_action",
         "candidate": "Adithya Satya",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-24 04:30:53",
+        "source": "github_action",
+        "candidate": "KURNIA AGUSTIN",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
