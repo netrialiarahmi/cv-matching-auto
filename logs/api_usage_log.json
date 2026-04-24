@@ -12161,13 +12161,13 @@
     ]
   },
   "2026-04-24": {
-    "total": 44,
+    "total": 45,
     "streamlit": 0,
-    "github_action": 44,
-    "successful": 44,
+    "github_action": 45,
+    "successful": 45,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 44
+      "Marketing Communication Officer KG Media": 45
     },
     "entries": [
       {
@@ -12475,6 +12475,13 @@
         "timestamp": "2026-04-24 04:34:04",
         "source": "github_action",
         "candidate": "Muchammad Gofarul Abidin",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-24 04:34:34",
+        "source": "github_action",
+        "candidate": "Heri Satriawan",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
