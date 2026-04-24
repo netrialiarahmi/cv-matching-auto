@@ -12161,23 +12161,16 @@
     ]
   },
   "2026-04-24": {
-    "total": 130,
+    "total": 131,
     "streamlit": 0,
-    "github_action": 130,
-    "successful": 130,
+    "github_action": 131,
+    "successful": 131,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 30
+      "Reporter Nasional": 31
     },
     "entries": [
-      {
-        "timestamp": "2026-04-24 04:27:16",
-        "source": "github_action",
-        "candidate": "Alifah Nurfaizah",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-24 04:27:45",
         "source": "github_action",
@@ -12868,6 +12861,13 @@
         "timestamp": "2026-04-24 05:14:36",
         "source": "github_action",
         "candidate": "Dinar Indrani",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-24 05:15:03",
+        "source": "github_action",
+        "candidate": "Syahrul Rifai Tri Laksono",
         "position": "Reporter Nasional",
         "success": true
       }
