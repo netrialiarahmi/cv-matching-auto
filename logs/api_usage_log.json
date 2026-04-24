@@ -12161,25 +12161,18 @@
     ]
   },
   "2026-04-24": {
-    "total": 397,
+    "total": 398,
     "streamlit": 0,
-    "github_action": 397,
-    "successful": 397,
+    "github_action": 398,
+    "successful": 398,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 97
+      "Account Executive VCBL": 98
     },
     "entries": [
-      {
-        "timestamp": "2026-04-24 06:34:35",
-        "source": "github_action",
-        "candidate": "Sujiwo Gio",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-24 06:35:04",
         "source": "github_action",
@@ -12870,6 +12863,13 @@
         "timestamp": "2026-04-24 07:19:33",
         "source": "github_action",
         "candidate": "Wira Laksana",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-24 07:20:01",
+        "source": "github_action",
+        "candidate": "Widya Adiyatma",
         "position": "Account Executive VCBL",
         "success": true
       }
