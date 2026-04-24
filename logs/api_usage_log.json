@@ -12161,24 +12161,17 @@
     ]
   },
   "2026-04-24": {
-    "total": 271,
+    "total": 272,
     "streamlit": 0,
-    "github_action": 271,
-    "successful": 271,
+    "github_action": 272,
+    "successful": 272,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
-      "Business Development Analyst": 71
+      "Business Development Analyst": 72
     },
     "entries": [
-      {
-        "timestamp": "2026-04-24 05:34:29",
-        "source": "github_action",
-        "candidate": "Arshya Fatimah Azzahra",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-24 05:35:02",
         "source": "github_action",
@@ -12869,6 +12862,13 @@
         "timestamp": "2026-04-24 06:22:32",
         "source": "github_action",
         "candidate": "Alvie Dian Verina",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-24 06:23:00",
+        "source": "github_action",
+        "candidate": "Rifka Elfrida Hutasoit",
         "position": "Business Development Analyst",
         "success": true
       }
