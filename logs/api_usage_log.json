@@ -12161,23 +12161,16 @@
     ]
   },
   "2026-04-24": {
-    "total": 129,
+    "total": 130,
     "streamlit": 0,
-    "github_action": 129,
-    "successful": 129,
+    "github_action": 130,
+    "successful": 130,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 29
+      "Reporter Nasional": 30
     },
     "entries": [
-      {
-        "timestamp": "2026-04-24 04:26:47",
-        "source": "github_action",
-        "candidate": "Bryant Hans Channing Panjaitan",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-24 04:27:16",
         "source": "github_action",
@@ -12868,6 +12861,13 @@
         "timestamp": "2026-04-24 05:14:06",
         "source": "github_action",
         "candidate": "Muhammad Iqbal",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-24 05:14:36",
+        "source": "github_action",
+        "candidate": "Dinar Indrani",
         "position": "Reporter Nasional",
         "success": true
       }
