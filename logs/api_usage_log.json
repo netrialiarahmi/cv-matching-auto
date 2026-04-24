@@ -12161,23 +12161,16 @@
     ]
   },
   "2026-04-24": {
-    "total": 187,
+    "total": 188,
     "streamlit": 0,
-    "github_action": 187,
-    "successful": 187,
+    "github_action": 188,
+    "successful": 188,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 87
+      "Reporter Nasional": 88
     },
     "entries": [
-      {
-        "timestamp": "2026-04-24 04:55:23",
-        "source": "github_action",
-        "candidate": "Rizky Farrell Valeryan Sinaga",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-24 04:55:54",
         "source": "github_action",
@@ -12868,6 +12861,13 @@
         "timestamp": "2026-04-24 05:41:16",
         "source": "github_action",
         "candidate": "Oky Zuwifri Tarigan",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-24 05:41:44",
+        "source": "github_action",
+        "candidate": "Putri Rahma Aryani",
         "position": "Reporter Nasional",
         "success": true
       }
