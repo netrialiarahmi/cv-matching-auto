@@ -12161,24 +12161,17 @@
     ]
   },
   "2026-04-24": {
-    "total": 211,
+    "total": 212,
     "streamlit": 0,
-    "github_action": 211,
-    "successful": 211,
+    "github_action": 212,
+    "successful": 212,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
-      "Business Development Analyst": 11
+      "Business Development Analyst": 12
     },
     "entries": [
-      {
-        "timestamp": "2026-04-24 05:06:13",
-        "source": "github_action",
-        "candidate": "Dhianti Karamina zilda",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-24 05:06:43",
         "source": "github_action",
@@ -12869,6 +12862,13 @@
         "timestamp": "2026-04-24 05:53:08",
         "source": "github_action",
         "candidate": "Ghaisani Nabilah Putri",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-24 05:53:39",
+        "source": "github_action",
+        "candidate": "Fahmi Rahmat",
         "position": "Business Development Analyst",
         "success": true
       }
