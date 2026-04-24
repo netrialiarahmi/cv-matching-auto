@@ -12161,24 +12161,17 @@
     ]
   },
   "2026-04-24": {
-    "total": 282,
+    "total": 283,
     "streamlit": 0,
-    "github_action": 282,
-    "successful": 282,
+    "github_action": 283,
+    "successful": 283,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
-      "Business Development Analyst": 82
+      "Business Development Analyst": 83
     },
     "entries": [
-      {
-        "timestamp": "2026-04-24 05:39:16",
-        "source": "github_action",
-        "candidate": "Destya Aulia Hafifah",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-24 05:39:50",
         "source": "github_action",
@@ -12869,6 +12862,13 @@
         "timestamp": "2026-04-24 06:26:58",
         "source": "github_action",
         "candidate": "tahashshunan Hiththah Zein",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-24 06:27:38",
+        "source": "github_action",
+        "candidate": "Rifqi Favian Satriawan",
         "position": "Business Development Analyst",
         "success": true
       }
