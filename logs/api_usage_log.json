@@ -12161,23 +12161,16 @@
     ]
   },
   "2026-04-24": {
-    "total": 120,
+    "total": 121,
     "streamlit": 0,
-    "github_action": 120,
-    "successful": 120,
+    "github_action": 121,
+    "successful": 121,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 20
+      "Reporter Nasional": 21
     },
     "entries": [
-      {
-        "timestamp": "2026-04-24 04:21:59",
-        "source": "github_action",
-        "candidate": "Anastasya Setiawan",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-24 04:22:26",
         "source": "github_action",
@@ -12868,6 +12861,13 @@
         "timestamp": "2026-04-24 05:10:13",
         "source": "github_action",
         "candidate": "Iqbal Fakhriza",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-24 05:10:46",
+        "source": "github_action",
+        "candidate": "Wildan Adil Hilba",
         "position": "Reporter Nasional",
         "success": true
       }
