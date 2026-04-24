@@ -12161,25 +12161,18 @@
     ]
   },
   "2026-04-24": {
-    "total": 370,
+    "total": 371,
     "streamlit": 0,
-    "github_action": 370,
-    "successful": 370,
+    "github_action": 371,
+    "successful": 371,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 70
+      "Account Executive VCBL": 71
     },
     "entries": [
-      {
-        "timestamp": "2026-04-24 06:22:32",
-        "source": "github_action",
-        "candidate": "Alvie Dian Verina",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-24 06:23:00",
         "source": "github_action",
@@ -12870,6 +12863,13 @@
         "timestamp": "2026-04-24 07:06:53",
         "source": "github_action",
         "candidate": "Aufa Sofyan",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-24 07:06:56",
+        "source": "github_action",
+        "candidate": "Inessa Ardia Putri",
         "position": "Account Executive VCBL",
         "success": true
       }
