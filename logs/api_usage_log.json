@@ -12161,24 +12161,17 @@
     ]
   },
   "2026-04-24": {
-    "total": 230,
+    "total": 231,
     "streamlit": 0,
-    "github_action": 230,
-    "successful": 230,
+    "github_action": 231,
+    "successful": 231,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
-      "Business Development Analyst": 30
+      "Business Development Analyst": 31
     },
     "entries": [
-      {
-        "timestamp": "2026-04-24 05:15:03",
-        "source": "github_action",
-        "candidate": "Syahrul Rifai Tri Laksono",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-24 05:15:31",
         "source": "github_action",
@@ -12869,6 +12862,13 @@
         "timestamp": "2026-04-24 06:02:47",
         "source": "github_action",
         "candidate": "Tuti Asriza",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-24 06:03:23",
+        "source": "github_action",
+        "candidate": "Arve Barus",
         "position": "Business Development Analyst",
         "success": true
       }
