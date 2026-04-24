@@ -12161,25 +12161,18 @@
     ]
   },
   "2026-04-24": {
-    "total": 334,
+    "total": 335,
     "streamlit": 0,
-    "github_action": 334,
-    "successful": 334,
+    "github_action": 335,
+    "successful": 335,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 34
+      "Account Executive VCBL": 35
     },
     "entries": [
-      {
-        "timestamp": "2026-04-24 06:05:19",
-        "source": "github_action",
-        "candidate": "Audie Nabiel Akmal",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-24 06:05:51",
         "source": "github_action",
@@ -12870,6 +12863,13 @@
         "timestamp": "2026-04-24 06:50:40",
         "source": "github_action",
         "candidate": "Reynaldi Rizky Aulia Bassar",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-24 06:51:13",
+        "source": "github_action",
+        "candidate": "Cindy Regina Anastasia",
         "position": "Account Executive VCBL",
         "success": true
       }
