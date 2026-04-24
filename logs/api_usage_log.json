@@ -12161,23 +12161,16 @@
     ]
   },
   "2026-04-24": {
-    "total": 119,
+    "total": 120,
     "streamlit": 0,
-    "github_action": 119,
-    "successful": 119,
+    "github_action": 120,
+    "successful": 120,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 19
+      "Reporter Nasional": 20
     },
     "entries": [
-      {
-        "timestamp": "2026-04-24 04:21:55",
-        "source": "github_action",
-        "candidate": "waode afa",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-24 04:21:59",
         "source": "github_action",
@@ -12868,6 +12861,13 @@
         "timestamp": "2026-04-24 05:09:44",
         "source": "github_action",
         "candidate": "Otto Hari Febra Maheswara",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-24 05:10:13",
+        "source": "github_action",
+        "candidate": "Iqbal Fakhriza",
         "position": "Reporter Nasional",
         "success": true
       }
