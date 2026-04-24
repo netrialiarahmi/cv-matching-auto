@@ -12161,25 +12161,18 @@
     ]
   },
   "2026-04-24": {
-    "total": 388,
+    "total": 389,
     "streamlit": 0,
-    "github_action": 388,
-    "successful": 388,
+    "github_action": 389,
+    "successful": 389,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 88
+      "Account Executive VCBL": 89
     },
     "entries": [
-      {
-        "timestamp": "2026-04-24 06:30:23",
-        "source": "github_action",
-        "candidate": "Fathiya Najmaayyubi",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-24 06:30:51",
         "source": "github_action",
@@ -12870,6 +12863,13 @@
         "timestamp": "2026-04-24 07:15:11",
         "source": "github_action",
         "candidate": "Grace Horstefanny",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-24 07:15:41",
+        "source": "github_action",
+        "candidate": "Beatrix Gotama",
         "position": "Account Executive VCBL",
         "success": true
       }
