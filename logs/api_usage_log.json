@@ -12161,24 +12161,17 @@
     ]
   },
   "2026-04-24": {
-    "total": 265,
+    "total": 266,
     "streamlit": 0,
-    "github_action": 265,
-    "successful": 265,
+    "github_action": 266,
+    "successful": 266,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
-      "Business Development Analyst": 65
+      "Business Development Analyst": 66
     },
     "entries": [
-      {
-        "timestamp": "2026-04-24 05:31:33",
-        "source": "github_action",
-        "candidate": "naura nrmahsa",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-24 05:31:58",
         "source": "github_action",
@@ -12869,6 +12862,13 @@
         "timestamp": "2026-04-24 06:19:51",
         "source": "github_action",
         "candidate": "Asty Firdausya",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-24 06:20:21",
+        "source": "github_action",
+        "candidate": "Muhammad Irsyad Hawari",
         "position": "Business Development Analyst",
         "success": true
       }
