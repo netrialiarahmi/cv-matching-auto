@@ -12161,25 +12161,18 @@
     ]
   },
   "2026-04-24": {
-    "total": 391,
+    "total": 392,
     "streamlit": 0,
-    "github_action": 391,
-    "successful": 391,
+    "github_action": 392,
+    "successful": 392,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 91
+      "Account Executive VCBL": 92
     },
     "entries": [
-      {
-        "timestamp": "2026-04-24 06:31:55",
-        "source": "github_action",
-        "candidate": "Andrean Okta Pratama",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-24 06:32:24",
         "source": "github_action",
@@ -12870,6 +12863,13 @@
         "timestamp": "2026-04-24 07:16:38",
         "source": "github_action",
         "candidate": "Atsiilah Pratiwi",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-24 07:17:07",
+        "source": "github_action",
+        "candidate": "Aulia Shobrina",
         "position": "Account Executive VCBL",
         "success": true
       }
