@@ -12161,13 +12161,13 @@
     ]
   },
   "2026-04-24": {
-    "total": 43,
+    "total": 44,
     "streamlit": 0,
-    "github_action": 43,
-    "successful": 43,
+    "github_action": 44,
+    "successful": 44,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 43
+      "Marketing Communication Officer KG Media": 44
     },
     "entries": [
       {
@@ -12468,6 +12468,13 @@
         "timestamp": "2026-04-24 04:33:33",
         "source": "github_action",
         "candidate": "Nauval Hasemi",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-24 04:34:04",
+        "source": "github_action",
+        "candidate": "Muchammad Gofarul Abidin",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
