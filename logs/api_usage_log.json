@@ -12161,24 +12161,17 @@
     ]
   },
   "2026-04-24": {
-    "total": 283,
+    "total": 284,
     "streamlit": 0,
-    "github_action": 283,
-    "successful": 283,
+    "github_action": 284,
+    "successful": 284,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
-      "Business Development Analyst": 83
+      "Business Development Analyst": 84
     },
     "entries": [
-      {
-        "timestamp": "2026-04-24 05:39:50",
-        "source": "github_action",
-        "candidate": "Nanda Tsani Azizah",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-24 05:40:21",
         "source": "github_action",
@@ -12869,6 +12862,13 @@
         "timestamp": "2026-04-24 06:27:38",
         "source": "github_action",
         "candidate": "Rifqi Favian Satriawan",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-24 06:28:10",
+        "source": "github_action",
+        "candidate": "Muhamad Noval Prabowo",
         "position": "Business Development Analyst",
         "success": true
       }
