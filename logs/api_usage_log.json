@@ -12161,23 +12161,16 @@
     ]
   },
   "2026-04-24": {
-    "total": 164,
+    "total": 165,
     "streamlit": 0,
-    "github_action": 164,
-    "successful": 164,
+    "github_action": 165,
+    "successful": 165,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 64
+      "Reporter Nasional": 65
     },
     "entries": [
-      {
-        "timestamp": "2026-04-24 04:44:19",
-        "source": "github_action",
-        "candidate": "Daffa Prasetyo",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-24 04:44:48",
         "source": "github_action",
@@ -12868,6 +12861,13 @@
         "timestamp": "2026-04-24 05:30:58",
         "source": "github_action",
         "candidate": "Nataya Kirana",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-24 05:31:30",
+        "source": "github_action",
+        "candidate": "Eugenia F. N. Siregar",
         "position": "Reporter Nasional",
         "success": true
       }
