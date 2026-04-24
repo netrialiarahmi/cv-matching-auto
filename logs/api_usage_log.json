@@ -12161,24 +12161,17 @@
     ]
   },
   "2026-04-24": {
-    "total": 228,
+    "total": 229,
     "streamlit": 0,
-    "github_action": 228,
-    "successful": 228,
+    "github_action": 229,
+    "successful": 229,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
-      "Business Development Analyst": 28
+      "Business Development Analyst": 29
     },
     "entries": [
-      {
-        "timestamp": "2026-04-24 05:14:06",
-        "source": "github_action",
-        "candidate": "Muhammad Iqbal",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-24 05:14:36",
         "source": "github_action",
@@ -12869,6 +12862,13 @@
         "timestamp": "2026-04-24 06:01:49",
         "source": "github_action",
         "candidate": "Salsabila Posmaryana Utami",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-24 06:02:17",
+        "source": "github_action",
+        "candidate": "Ivan Rivaldi",
         "position": "Business Development Analyst",
         "success": true
       }
