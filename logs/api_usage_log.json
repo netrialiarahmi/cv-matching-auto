@@ -12161,24 +12161,17 @@
     ]
   },
   "2026-04-24": {
-    "total": 208,
+    "total": 209,
     "streamlit": 0,
-    "github_action": 208,
-    "successful": 208,
+    "github_action": 209,
+    "successful": 209,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
-      "Business Development Analyst": 8
+      "Business Development Analyst": 9
     },
     "entries": [
-      {
-        "timestamp": "2026-04-24 05:04:40",
-        "source": "github_action",
-        "candidate": "Muhamad Farhan",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-24 05:05:12",
         "source": "github_action",
@@ -12869,6 +12862,13 @@
         "timestamp": "2026-04-24 05:51:26",
         "source": "github_action",
         "candidate": "Cindy Dwi Kurnia",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-24 05:51:57",
+        "source": "github_action",
+        "candidate": "Aldi Nur",
         "position": "Business Development Analyst",
         "success": true
       }
