@@ -12161,24 +12161,17 @@
     ]
   },
   "2026-04-24": {
-    "total": 206,
+    "total": 207,
     "streamlit": 0,
-    "github_action": 206,
-    "successful": 206,
+    "github_action": 207,
+    "successful": 207,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
-      "Business Development Analyst": 6
+      "Business Development Analyst": 7
     },
     "entries": [
-      {
-        "timestamp": "2026-04-24 05:03:39",
-        "source": "github_action",
-        "candidate": "Ade krisna Rivaldy",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-24 05:04:08",
         "source": "github_action",
@@ -12869,6 +12862,13 @@
         "timestamp": "2026-04-24 05:50:23",
         "source": "github_action",
         "candidate": "guruh haryo",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-24 05:50:52",
+        "source": "github_action",
+        "candidate": "Onisa Nainggolan",
         "position": "Business Development Analyst",
         "success": true
       }
