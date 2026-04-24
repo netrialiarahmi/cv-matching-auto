@@ -12161,23 +12161,16 @@
     ]
   },
   "2026-04-24": {
-    "total": 192,
+    "total": 193,
     "streamlit": 0,
-    "github_action": 192,
-    "successful": 192,
+    "github_action": 193,
+    "successful": 193,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 92
+      "Reporter Nasional": 93
     },
     "entries": [
-      {
-        "timestamp": "2026-04-24 04:57:53",
-        "source": "github_action",
-        "candidate": "Reza Aditya Nugroho",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-24 04:57:56",
         "source": "github_action",
@@ -12868,6 +12861,13 @@
         "timestamp": "2026-04-24 05:43:42",
         "source": "github_action",
         "candidate": "Achmad  Iqbal",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-24 05:44:08",
+        "source": "github_action",
+        "candidate": "Dita Salsabila Kurniawan",
         "position": "Reporter Nasional",
         "success": true
       }
