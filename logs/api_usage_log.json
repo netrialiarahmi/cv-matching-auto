@@ -12161,24 +12161,17 @@
     ]
   },
   "2026-04-24": {
-    "total": 296,
+    "total": 297,
     "streamlit": 0,
-    "github_action": 296,
-    "successful": 296,
+    "github_action": 297,
+    "successful": 297,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
-      "Business Development Analyst": 96
+      "Business Development Analyst": 97
     },
     "entries": [
-      {
-        "timestamp": "2026-04-24 05:45:59",
-        "source": "github_action",
-        "candidate": "ane hainunnisa",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-24 05:46:31",
         "source": "github_action",
@@ -12869,6 +12862,13 @@
         "timestamp": "2026-04-24 06:33:58",
         "source": "github_action",
         "candidate": "Novita Erma Putri Lestari",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-24 06:34:31",
+        "source": "github_action",
+        "candidate": "Eka Pramudianzah",
         "position": "Business Development Analyst",
         "success": true
       }
