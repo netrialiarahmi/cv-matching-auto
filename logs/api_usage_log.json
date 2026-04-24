@@ -12161,23 +12161,16 @@
     ]
   },
   "2026-04-24": {
-    "total": 199,
+    "total": 200,
     "streamlit": 0,
-    "github_action": 199,
-    "successful": 199,
+    "github_action": 200,
+    "successful": 200,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 99
+      "Reporter Nasional": 100
     },
     "entries": [
-      {
-        "timestamp": "2026-04-24 05:00:39",
-        "source": "github_action",
-        "candidate": "Rafly Adli Krisdianto",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-24 05:01:10",
         "source": "github_action",
@@ -12868,6 +12861,13 @@
         "timestamp": "2026-04-24 05:46:57",
         "source": "github_action",
         "candidate": "Hasti Nadhilah",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-24 05:47:22",
+        "source": "github_action",
+        "candidate": "Nazal Jatnika",
         "position": "Reporter Nasional",
         "success": true
       }
