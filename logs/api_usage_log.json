@@ -12161,23 +12161,16 @@
     ]
   },
   "2026-04-24": {
-    "total": 184,
+    "total": 185,
     "streamlit": 0,
-    "github_action": 184,
-    "successful": 184,
+    "github_action": 185,
+    "successful": 185,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 84
+      "Reporter Nasional": 85
     },
     "entries": [
-      {
-        "timestamp": "2026-04-24 04:53:51",
-        "source": "github_action",
-        "candidate": "Rifky Ardhian Taqwa",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-24 04:54:22",
         "source": "github_action",
@@ -12868,6 +12861,13 @@
         "timestamp": "2026-04-24 05:39:50",
         "source": "github_action",
         "candidate": "Nanda Tsani Azizah",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-24 05:40:21",
+        "source": "github_action",
+        "candidate": "Adhimasandya Harsaning",
         "position": "Reporter Nasional",
         "success": true
       }
