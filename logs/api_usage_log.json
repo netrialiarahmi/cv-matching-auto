@@ -12161,13 +12161,13 @@
     ]
   },
   "2026-04-24": {
-    "total": 59,
+    "total": 60,
     "streamlit": 0,
-    "github_action": 59,
-    "successful": 59,
+    "github_action": 60,
+    "successful": 60,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 59
+      "Marketing Communication Officer KG Media": 60
     },
     "entries": [
       {
@@ -12580,6 +12580,13 @@
         "timestamp": "2026-04-24 04:41:42",
         "source": "github_action",
         "candidate": "Fildza Salma Malahati",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-24 04:42:18",
+        "source": "github_action",
+        "candidate": "Andry Syahputra",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
