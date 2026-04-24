@@ -12161,23 +12161,16 @@
     ]
   },
   "2026-04-24": {
-    "total": 158,
+    "total": 159,
     "streamlit": 0,
-    "github_action": 158,
-    "successful": 158,
+    "github_action": 159,
+    "successful": 159,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 58
+      "Reporter Nasional": 59
     },
     "entries": [
-      {
-        "timestamp": "2026-04-24 04:41:42",
-        "source": "github_action",
-        "candidate": "Fildza Salma Malahati",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-24 04:42:18",
         "source": "github_action",
@@ -12868,6 +12861,13 @@
         "timestamp": "2026-04-24 05:27:51",
         "source": "github_action",
         "candidate": "Siti Anisa Handayani",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-24 05:28:24",
+        "source": "github_action",
+        "candidate": "Rahel  Siregar",
         "position": "Reporter Nasional",
         "success": true
       }
