@@ -12161,13 +12161,13 @@
     ]
   },
   "2026-04-24": {
-    "total": 39,
+    "total": 40,
     "streamlit": 0,
-    "github_action": 39,
-    "successful": 39,
+    "github_action": 40,
+    "successful": 40,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 39
+      "Marketing Communication Officer KG Media": 40
     },
     "entries": [
       {
@@ -12440,6 +12440,13 @@
         "timestamp": "2026-04-24 04:31:29",
         "source": "github_action",
         "candidate": "indira kasde",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-24 04:31:59",
+        "source": "github_action",
+        "candidate": "Anggi Hasna Nabillah",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
