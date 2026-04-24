@@ -12161,23 +12161,16 @@
     ]
   },
   "2026-04-24": {
-    "total": 170,
+    "total": 171,
     "streamlit": 0,
-    "github_action": 170,
-    "successful": 170,
+    "github_action": 171,
+    "successful": 171,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 70
+      "Reporter Nasional": 71
     },
     "entries": [
-      {
-        "timestamp": "2026-04-24 04:47:00",
-        "source": "github_action",
-        "candidate": "Muhamad Yusuf Hasyim",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-24 04:47:03",
         "source": "github_action",
@@ -12868,6 +12861,13 @@
         "timestamp": "2026-04-24 05:33:26",
         "source": "github_action",
         "candidate": "Adley  Ramli Elhasain",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-24 05:33:56",
+        "source": "github_action",
+        "candidate": "AMIN MOMIAGE",
         "position": "Reporter Nasional",
         "success": true
       }
