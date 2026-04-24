@@ -12161,25 +12161,18 @@
     ]
   },
   "2026-04-24": {
-    "total": 382,
+    "total": 383,
     "streamlit": 0,
-    "github_action": 382,
-    "successful": 382,
+    "github_action": 383,
+    "successful": 383,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 82
+      "Account Executive VCBL": 83
     },
     "entries": [
-      {
-        "timestamp": "2026-04-24 06:27:38",
-        "source": "github_action",
-        "candidate": "Rifqi Favian Satriawan",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-24 06:28:10",
         "source": "github_action",
@@ -12870,6 +12863,13 @@
         "timestamp": "2026-04-24 07:12:24",
         "source": "github_action",
         "candidate": "Raihan Isbintara",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-24 07:13:03",
+        "source": "github_action",
+        "candidate": "Anastasya Theresia Bidara",
         "position": "Account Executive VCBL",
         "success": true
       }
