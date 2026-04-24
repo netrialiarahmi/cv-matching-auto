@@ -12161,25 +12161,18 @@
     ]
   },
   "2026-04-24": {
-    "total": 367,
+    "total": 368,
     "streamlit": 0,
-    "github_action": 367,
-    "successful": 367,
+    "github_action": 368,
+    "successful": 368,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 67
+      "Account Executive VCBL": 68
     },
     "entries": [
-      {
-        "timestamp": "2026-04-24 06:21:27",
-        "source": "github_action",
-        "candidate": "sefira fazria",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-24 06:21:31",
         "source": "github_action",
@@ -12870,6 +12863,13 @@
         "timestamp": "2026-04-24 07:05:17",
         "source": "github_action",
         "candidate": "Azka Putrie",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-24 07:05:51",
+        "source": "github_action",
+        "candidate": "Reyhan Dzaky",
         "position": "Account Executive VCBL",
         "success": true
       }
