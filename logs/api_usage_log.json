@@ -12161,23 +12161,16 @@
     ]
   },
   "2026-04-24": {
-    "total": 160,
+    "total": 161,
     "streamlit": 0,
-    "github_action": 160,
-    "successful": 160,
+    "github_action": 161,
+    "successful": 161,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 60
+      "Reporter Nasional": 61
     },
     "entries": [
-      {
-        "timestamp": "2026-04-24 04:42:48",
-        "source": "github_action",
-        "candidate": "Halim Zunurain",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-24 04:42:52",
         "source": "github_action",
@@ -12868,6 +12861,13 @@
         "timestamp": "2026-04-24 05:28:57",
         "source": "github_action",
         "candidate": "Sholahuddin Al Ayyubi",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-24 05:29:28",
+        "source": "github_action",
+        "candidate": "Rika Jahara",
         "position": "Reporter Nasional",
         "success": true
       }
