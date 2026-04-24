@@ -12161,25 +12161,18 @@
     ]
   },
   "2026-04-24": {
-    "total": 385,
+    "total": 386,
     "streamlit": 0,
-    "github_action": 385,
-    "successful": 385,
+    "github_action": 386,
+    "successful": 386,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 85
+      "Account Executive VCBL": 86
     },
     "entries": [
-      {
-        "timestamp": "2026-04-24 06:28:44",
-        "source": "github_action",
-        "candidate": "Kristine  Theresia",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-24 06:29:15",
         "source": "github_action",
@@ -12870,6 +12863,13 @@
         "timestamp": "2026-04-24 07:13:44",
         "source": "github_action",
         "candidate": "Arum widya",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-24 07:14:15",
+        "source": "github_action",
+        "candidate": "Faudilla Nurin Asfar",
         "position": "Account Executive VCBL",
         "success": true
       }
