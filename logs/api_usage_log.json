@@ -12161,23 +12161,16 @@
     ]
   },
   "2026-04-24": {
-    "total": 173,
+    "total": 174,
     "streamlit": 0,
-    "github_action": 173,
-    "successful": 173,
+    "github_action": 174,
+    "successful": 174,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 73
+      "Reporter Nasional": 74
     },
     "entries": [
-      {
-        "timestamp": "2026-04-24 04:48:10",
-        "source": "github_action",
-        "candidate": "Quinta Elvira Rosiana Sipahutar",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-24 04:48:42",
         "source": "github_action",
@@ -12868,6 +12861,13 @@
         "timestamp": "2026-04-24 05:35:02",
         "source": "github_action",
         "candidate": "Shella Utari Heldani",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-24 05:35:26",
+        "source": "github_action",
+        "candidate": "Nurul Rahma",
         "position": "Reporter Nasional",
         "success": true
       }
