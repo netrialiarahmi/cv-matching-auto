@@ -12876,25 +12876,18 @@
     ]
   },
   "2026-04-25": {
-    "total": 377,
+    "total": 378,
     "streamlit": 0,
-    "github_action": 377,
-    "successful": 377,
+    "github_action": 378,
+    "successful": 378,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 77
+      "Account Executive VCBL": 78
     },
     "entries": [
-      {
-        "timestamp": "2026-04-25 05:56:09",
-        "source": "github_action",
-        "candidate": "Rahman Putra Fireza",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-25 05:56:38",
         "source": "github_action",
@@ -13585,6 +13578,13 @@
         "timestamp": "2026-04-25 06:38:36",
         "source": "github_action",
         "candidate": "Beatrix Gotama",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-25 06:39:02",
+        "source": "github_action",
+        "candidate": "Suryansyah Alimas",
         "position": "Account Executive VCBL",
         "success": true
       }
