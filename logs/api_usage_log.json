@@ -12876,24 +12876,17 @@
     ]
   },
   "2026-04-25": {
-    "total": 296,
+    "total": 297,
     "streamlit": 0,
-    "github_action": 296,
-    "successful": 296,
+    "github_action": 297,
+    "successful": 297,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
-      "Business Development Analyst": 96
+      "Business Development Analyst": 97
     },
     "entries": [
-      {
-        "timestamp": "2026-04-25 05:20:25",
-        "source": "github_action",
-        "candidate": "Muhammad Alifian Ruskandar",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-25 05:20:51",
         "source": "github_action",
@@ -13584,6 +13577,13 @@
         "timestamp": "2026-04-25 06:03:51",
         "source": "github_action",
         "candidate": "Dewi Aspara",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-25 06:04:19",
+        "source": "github_action",
+        "candidate": "Kharisma Qaulam",
         "position": "Business Development Analyst",
         "success": true
       }
