@@ -12876,13 +12876,13 @@
     ]
   },
   "2026-04-25": {
-    "total": 62,
+    "total": 63,
     "streamlit": 0,
-    "github_action": 62,
-    "successful": 62,
+    "github_action": 63,
+    "successful": 63,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 62
+      "Marketing Communication Officer KG Media": 63
     },
     "entries": [
       {
@@ -13316,6 +13316,13 @@
         "timestamp": "2026-04-25 04:21:40",
         "source": "github_action",
         "candidate": "Nanda Rahman Rahimi Dhilsi",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-25 04:22:09",
+        "source": "github_action",
+        "candidate": "gloria angel",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
