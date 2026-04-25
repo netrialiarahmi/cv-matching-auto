@@ -12876,24 +12876,17 @@
     ]
   },
   "2026-04-25": {
-    "total": 275,
+    "total": 276,
     "streamlit": 0,
-    "github_action": 275,
-    "successful": 275,
+    "github_action": 276,
+    "successful": 276,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
-      "Business Development Analyst": 75
+      "Business Development Analyst": 76
     },
     "entries": [
-      {
-        "timestamp": "2026-04-25 05:10:52",
-        "source": "github_action",
-        "candidate": "Yolla Wiranda",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-25 05:11:17",
         "source": "github_action",
@@ -13584,6 +13577,13 @@
         "timestamp": "2026-04-25 05:54:43",
         "source": "github_action",
         "candidate": "Samdya Fauzan  Pangestu",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-25 05:55:10",
+        "source": "github_action",
+        "candidate": "Fathiya Najmaayyubi",
         "position": "Business Development Analyst",
         "success": true
       }
