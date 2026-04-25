@@ -12876,25 +12876,18 @@
     ]
   },
   "2026-04-25": {
-    "total": 355,
+    "total": 356,
     "streamlit": 0,
-    "github_action": 355,
-    "successful": 355,
+    "github_action": 356,
+    "successful": 356,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 55
+      "Account Executive VCBL": 56
     },
     "entries": [
-      {
-        "timestamp": "2026-04-25 05:47:30",
-        "source": "github_action",
-        "candidate": "Asty Firdausya",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-25 05:47:58",
         "source": "github_action",
@@ -13585,6 +13578,13 @@
         "timestamp": "2026-04-25 06:29:49",
         "source": "github_action",
         "candidate": "Sherina Agustina",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-25 06:30:15",
+        "source": "github_action",
+        "candidate": "Aprilia Finanda",
         "position": "Account Executive VCBL",
         "success": true
       }
