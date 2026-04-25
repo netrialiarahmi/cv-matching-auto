@@ -12876,24 +12876,17 @@
     ]
   },
   "2026-04-25": {
-    "total": 229,
+    "total": 230,
     "streamlit": 0,
-    "github_action": 229,
-    "successful": 229,
+    "github_action": 230,
+    "successful": 230,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
-      "Business Development Analyst": 29
+      "Business Development Analyst": 30
     },
     "entries": [
-      {
-        "timestamp": "2026-04-25 04:51:01",
-        "source": "github_action",
-        "candidate": "BAGUS SADEWO",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-25 04:51:28",
         "source": "github_action",
@@ -13584,6 +13577,13 @@
         "timestamp": "2026-04-25 05:35:27",
         "source": "github_action",
         "candidate": "Naufal  Hudaya",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-25 05:35:56",
+        "source": "github_action",
+        "candidate": "Aulia Ramandha  Hendra",
         "position": "Business Development Analyst",
         "success": true
       }
