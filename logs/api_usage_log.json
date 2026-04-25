@@ -12876,13 +12876,13 @@
     ]
   },
   "2026-04-25": {
-    "total": 78,
+    "total": 79,
     "streamlit": 0,
-    "github_action": 78,
-    "successful": 78,
+    "github_action": 79,
+    "successful": 79,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 78
+      "Marketing Communication Officer KG Media": 79
     },
     "entries": [
       {
@@ -13428,6 +13428,13 @@
         "timestamp": "2026-04-25 04:28:28",
         "source": "github_action",
         "candidate": "Alya Zulkarnain",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-25 04:28:57",
+        "source": "github_action",
+        "candidate": "ghina shaliha",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
