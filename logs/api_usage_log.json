@@ -12876,13 +12876,13 @@
     ]
   },
   "2026-04-25": {
-    "total": 94,
+    "total": 95,
     "streamlit": 0,
-    "github_action": 94,
-    "successful": 94,
+    "github_action": 95,
+    "successful": 95,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 94
+      "Marketing Communication Officer KG Media": 95
     },
     "entries": [
       {
@@ -13540,6 +13540,13 @@
         "timestamp": "2026-04-25 04:35:23",
         "source": "github_action",
         "candidate": "Misael Kartika Hadinata",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-25 04:35:49",
+        "source": "github_action",
+        "candidate": "Muhammad Iqbal",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
