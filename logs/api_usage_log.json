@@ -12876,24 +12876,17 @@
     ]
   },
   "2026-04-25": {
-    "total": 285,
+    "total": 286,
     "streamlit": 0,
-    "github_action": 285,
-    "successful": 285,
+    "github_action": 286,
+    "successful": 286,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
-      "Business Development Analyst": 85
+      "Business Development Analyst": 86
     },
     "entries": [
-      {
-        "timestamp": "2026-04-25 05:15:18",
-        "source": "github_action",
-        "candidate": "Mikie Aditya Wicaksana",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-25 05:15:45",
         "source": "github_action",
@@ -13584,6 +13577,13 @@
         "timestamp": "2026-04-25 05:58:55",
         "source": "github_action",
         "candidate": "Ahmad Sulaeman",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-25 05:59:24",
+        "source": "github_action",
+        "candidate": "Fadlan Rahman",
         "position": "Business Development Analyst",
         "success": true
       }
