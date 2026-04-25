@@ -12876,25 +12876,18 @@
     ]
   },
   "2026-04-25": {
-    "total": 370,
+    "total": 371,
     "streamlit": 0,
-    "github_action": 370,
-    "successful": 370,
+    "github_action": 371,
+    "successful": 371,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 70
+      "Account Executive VCBL": 71
     },
     "entries": [
-      {
-        "timestamp": "2026-04-25 05:53:16",
-        "source": "github_action",
-        "candidate": "tahashshunan Hiththah Zein",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-25 05:53:19",
         "source": "github_action",
@@ -13585,6 +13578,13 @@
         "timestamp": "2026-04-25 06:35:59",
         "source": "github_action",
         "candidate": "Andinna  Putri",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-25 06:36:23",
+        "source": "github_action",
+        "candidate": "Raihan Isbintara",
         "position": "Account Executive VCBL",
         "success": true
       }
