@@ -12876,23 +12876,16 @@
     ]
   },
   "2026-04-25": {
-    "total": 134,
+    "total": 135,
     "streamlit": 0,
-    "github_action": 134,
-    "successful": 134,
+    "github_action": 135,
+    "successful": 135,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 34
+      "Reporter Nasional": 35
     },
     "entries": [
-      {
-        "timestamp": "2026-04-25 04:08:47",
-        "source": "github_action",
-        "candidate": "KURNIA AGUSTIN",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-25 04:09:17",
         "source": "github_action",
@@ -13583,6 +13576,13 @@
         "timestamp": "2026-04-25 04:52:53",
         "source": "github_action",
         "candidate": "yusuf rinaldy",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-25 04:53:18",
+        "source": "github_action",
+        "candidate": "Umar Falahudin",
         "position": "Reporter Nasional",
         "success": true
       }
