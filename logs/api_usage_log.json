@@ -12876,24 +12876,17 @@
     ]
   },
   "2026-04-25": {
-    "total": 257,
+    "total": 258,
     "streamlit": 0,
-    "github_action": 257,
-    "successful": 257,
+    "github_action": 258,
+    "successful": 258,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
-      "Business Development Analyst": 57
+      "Business Development Analyst": 58
     },
     "entries": [
-      {
-        "timestamp": "2026-04-25 05:02:58",
-        "source": "github_action",
-        "candidate": "Nur Rahmaini Lubis",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-25 05:03:23",
         "source": "github_action",
@@ -13584,6 +13577,13 @@
         "timestamp": "2026-04-25 05:47:58",
         "source": "github_action",
         "candidate": "Muhammad Irsyad Hawari",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-25 05:48:30",
+        "source": "github_action",
+        "candidate": "Tommy Tri Prasetyo",
         "position": "Business Development Analyst",
         "success": true
       }
