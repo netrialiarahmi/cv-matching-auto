@@ -12876,13 +12876,13 @@
     ]
   },
   "2026-04-25": {
-    "total": 43,
+    "total": 44,
     "streamlit": 0,
-    "github_action": 43,
-    "successful": 43,
+    "github_action": 44,
+    "successful": 44,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 43
+      "Marketing Communication Officer KG Media": 44
     },
     "entries": [
       {
@@ -13183,6 +13183,13 @@
         "timestamp": "2026-04-25 04:12:42",
         "source": "github_action",
         "candidate": "Benedicta Avelia",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-25 04:13:15",
+        "source": "github_action",
+        "candidate": "Daryl Marcviandra",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
