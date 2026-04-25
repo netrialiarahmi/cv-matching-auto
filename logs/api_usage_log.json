@@ -12876,24 +12876,17 @@
     ]
   },
   "2026-04-25": {
-    "total": 251,
+    "total": 252,
     "streamlit": 0,
-    "github_action": 251,
-    "successful": 251,
+    "github_action": 252,
+    "successful": 252,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
-      "Business Development Analyst": 51
+      "Business Development Analyst": 52
     },
     "entries": [
-      {
-        "timestamp": "2026-04-25 05:00:44",
-        "source": "github_action",
-        "candidate": "Rahel  Siregar",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-25 05:01:09",
         "source": "github_action",
@@ -13584,6 +13577,13 @@
         "timestamp": "2026-04-25 05:45:31",
         "source": "github_action",
         "candidate": "Vannessa Handini Dhewa Putri",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-25 05:46:00",
+        "source": "github_action",
+        "candidate": "Wahyu Eka",
         "position": "Business Development Analyst",
         "success": true
       }
