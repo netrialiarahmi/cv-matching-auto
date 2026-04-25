@@ -12876,24 +12876,17 @@
     ]
   },
   "2026-04-25": {
-    "total": 272,
+    "total": 273,
     "streamlit": 0,
-    "github_action": 272,
-    "successful": 272,
+    "github_action": 273,
+    "successful": 273,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
-      "Business Development Analyst": 72
+      "Business Development Analyst": 73
     },
     "entries": [
-      {
-        "timestamp": "2026-04-25 05:09:35",
-        "source": "github_action",
-        "candidate": "Alprita Cersia Lobo",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-25 05:09:58",
         "source": "github_action",
@@ -13584,6 +13577,13 @@
         "timestamp": "2026-04-25 05:53:19",
         "source": "github_action",
         "candidate": "Muhammad rizky Hendrinov P",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-25 05:53:45",
+        "source": "github_action",
+        "candidate": "Kristine  Theresia",
         "position": "Business Development Analyst",
         "success": true
       }
