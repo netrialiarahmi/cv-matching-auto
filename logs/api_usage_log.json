@@ -12876,23 +12876,16 @@
     ]
   },
   "2026-04-25": {
-    "total": 171,
+    "total": 172,
     "streamlit": 0,
-    "github_action": 171,
-    "successful": 171,
+    "github_action": 172,
+    "successful": 172,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 71
+      "Reporter Nasional": 72
     },
     "entries": [
-      {
-        "timestamp": "2026-04-25 04:25:31",
-        "source": "github_action",
-        "candidate": "Reno Renaldi",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-25 04:25:58",
         "source": "github_action",
@@ -13583,6 +13576,13 @@
         "timestamp": "2026-04-25 05:09:03",
         "source": "github_action",
         "candidate": "Turangga Raflihuda",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-25 05:09:06",
+        "source": "github_action",
+        "candidate": "Destya Aulia Hafifah",
         "position": "Reporter Nasional",
         "success": true
       }
