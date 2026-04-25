@@ -12876,24 +12876,17 @@
     ]
   },
   "2026-04-25": {
-    "total": 287,
+    "total": 288,
     "streamlit": 0,
-    "github_action": 287,
-    "successful": 287,
+    "github_action": 288,
+    "successful": 288,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
-      "Business Development Analyst": 87
+      "Business Development Analyst": 88
     },
     "entries": [
-      {
-        "timestamp": "2026-04-25 05:16:19",
-        "source": "github_action",
-        "candidate": "Muhammad Rezki Bayuaji",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-25 05:16:45",
         "source": "github_action",
@@ -13584,6 +13577,13 @@
         "timestamp": "2026-04-25 05:59:54",
         "source": "github_action",
         "candidate": "Muhammad Rifky Fachrudin",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-25 06:00:21",
+        "source": "github_action",
+        "candidate": "Muhammad Irfan Zidni Ali",
         "position": "Business Development Analyst",
         "success": true
       }
