@@ -12876,23 +12876,16 @@
     ]
   },
   "2026-04-25": {
-    "total": 107,
+    "total": 108,
     "streamlit": 0,
-    "github_action": 107,
-    "successful": 107,
+    "github_action": 108,
+    "successful": 108,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 7
+      "Reporter Nasional": 8
     },
     "entries": [
-      {
-        "timestamp": "2026-04-25 03:55:57",
-        "source": "github_action",
-        "candidate": "Muhamad Naufal Ridho",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-25 03:56:28",
         "source": "github_action",
@@ -13583,6 +13576,13 @@
         "timestamp": "2026-04-25 04:40:52",
         "source": "github_action",
         "candidate": "Ade krisna Rivaldy",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-25 04:41:16",
+        "source": "github_action",
+        "candidate": "Inayah Kurniawati",
         "position": "Reporter Nasional",
         "success": true
       }
