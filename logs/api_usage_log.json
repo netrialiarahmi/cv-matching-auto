@@ -12876,23 +12876,16 @@
     ]
   },
   "2026-04-25": {
-    "total": 164,
+    "total": 165,
     "streamlit": 0,
-    "github_action": 164,
-    "successful": 164,
+    "github_action": 165,
+    "successful": 165,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 64
+      "Reporter Nasional": 65
     },
     "entries": [
-      {
-        "timestamp": "2026-04-25 04:22:43",
-        "source": "github_action",
-        "candidate": "Muhamad Yusuf Hasyim",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-25 04:22:46",
         "source": "github_action",
@@ -13583,6 +13576,13 @@
         "timestamp": "2026-04-25 05:05:53",
         "source": "github_action",
         "candidate": "Ayu Nisa'Usholihah",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-25 05:06:19",
+        "source": "github_action",
+        "candidate": "Abdul Rohman",
         "position": "Reporter Nasional",
         "success": true
       }
