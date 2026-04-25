@@ -12876,25 +12876,18 @@
     ]
   },
   "2026-04-25": {
-    "total": 384,
+    "total": 385,
     "streamlit": 0,
-    "github_action": 384,
-    "successful": 384,
+    "github_action": 385,
+    "successful": 385,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 84
+      "Account Executive VCBL": 85
     },
     "entries": [
-      {
-        "timestamp": "2026-04-25 05:58:55",
-        "source": "github_action",
-        "candidate": "Ahmad Sulaeman",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-25 05:59:24",
         "source": "github_action",
@@ -13585,6 +13578,13 @@
         "timestamp": "2026-04-25 06:41:39",
         "source": "github_action",
         "candidate": "Wira Laksana",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-25 06:42:06",
+        "source": "github_action",
+        "candidate": "Widya Adiyatma",
         "position": "Account Executive VCBL",
         "success": true
       }
