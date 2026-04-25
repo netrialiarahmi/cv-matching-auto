@@ -12876,23 +12876,16 @@
     ]
   },
   "2026-04-25": {
-    "total": 133,
+    "total": 134,
     "streamlit": 0,
-    "github_action": 133,
-    "successful": 133,
+    "github_action": 134,
+    "successful": 134,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 33
+      "Reporter Nasional": 34
     },
     "entries": [
-      {
-        "timestamp": "2026-04-25 04:08:16",
-        "source": "github_action",
-        "candidate": "Adithya Satya",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-25 04:08:47",
         "source": "github_action",
@@ -13583,6 +13576,13 @@
         "timestamp": "2026-04-25 04:52:22",
         "source": "github_action",
         "candidate": "Muhammad Farhan",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-25 04:52:53",
+        "source": "github_action",
+        "candidate": "yusuf rinaldy",
         "position": "Reporter Nasional",
         "success": true
       }
