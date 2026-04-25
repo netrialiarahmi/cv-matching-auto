@@ -12876,23 +12876,16 @@
     ]
   },
   "2026-04-25": {
-    "total": 160,
+    "total": 161,
     "streamlit": 0,
-    "github_action": 160,
-    "successful": 160,
+    "github_action": 161,
+    "successful": 161,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 60
+      "Reporter Nasional": 61
     },
     "entries": [
-      {
-        "timestamp": "2026-04-25 04:21:10",
-        "source": "github_action",
-        "candidate": "Mansa Manalu",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-25 04:21:40",
         "source": "github_action",
@@ -13583,6 +13576,13 @@
         "timestamp": "2026-04-25 05:03:52",
         "source": "github_action",
         "candidate": "Wildan Adil Hilba",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-25 05:04:20",
+        "source": "github_action",
+        "candidate": "Adley  Ramli Elhasain",
         "position": "Reporter Nasional",
         "success": true
       }
