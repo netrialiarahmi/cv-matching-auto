@@ -12876,24 +12876,17 @@
     ]
   },
   "2026-04-25": {
-    "total": 290,
+    "total": 291,
     "streamlit": 0,
-    "github_action": 290,
-    "successful": 290,
+    "github_action": 291,
+    "successful": 291,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
-      "Business Development Analyst": 90
+      "Business Development Analyst": 91
     },
     "entries": [
-      {
-        "timestamp": "2026-04-25 05:17:39",
-        "source": "github_action",
-        "candidate": "Leonardo Siahaan, S.H",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-25 05:18:05",
         "source": "github_action",
@@ -13584,6 +13577,13 @@
         "timestamp": "2026-04-25 06:01:24",
         "source": "github_action",
         "candidate": "Prianda Saputra",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-25 06:01:51",
+        "source": "github_action",
+        "candidate": "romy senjaya",
         "position": "Business Development Analyst",
         "success": true
       }
