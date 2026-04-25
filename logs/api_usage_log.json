@@ -12876,23 +12876,16 @@
     ]
   },
   "2026-04-25": {
-    "total": 139,
+    "total": 140,
     "streamlit": 0,
-    "github_action": 139,
-    "successful": 139,
+    "github_action": 140,
+    "successful": 140,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 39
+      "Reporter Nasional": 40
     },
     "entries": [
-      {
-        "timestamp": "2026-04-25 04:11:21",
-        "source": "github_action",
-        "candidate": "Muchammad Gofarul Abidin",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-25 04:11:47",
         "source": "github_action",
@@ -13583,6 +13576,13 @@
         "timestamp": "2026-04-25 04:55:08",
         "source": "github_action",
         "candidate": "Asyadillah Althaf",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-25 04:55:35",
+        "source": "github_action",
+        "candidate": "ERIJ  karimah",
         "position": "Reporter Nasional",
         "success": true
       }
