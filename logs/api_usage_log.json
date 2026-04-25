@@ -12876,13 +12876,13 @@
     ]
   },
   "2026-04-25": {
-    "total": 12,
+    "total": 13,
     "streamlit": 0,
-    "github_action": 12,
-    "successful": 12,
+    "github_action": 13,
+    "successful": 13,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 12
+      "Marketing Communication Officer KG Media": 13
     },
     "entries": [
       {
@@ -12966,6 +12966,13 @@
         "timestamp": "2026-04-25 03:57:54",
         "source": "github_action",
         "candidate": "bintang nabila katya",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-25 03:58:23",
+        "source": "github_action",
+        "candidate": "Reza SyahFahlevi",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
