@@ -12876,13 +12876,13 @@
     ]
   },
   "2026-04-25": {
-    "total": 50,
+    "total": 51,
     "streamlit": 0,
-    "github_action": 50,
-    "successful": 50,
+    "github_action": 51,
+    "successful": 51,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 50
+      "Marketing Communication Officer KG Media": 51
     },
     "entries": [
       {
@@ -13232,6 +13232,13 @@
         "timestamp": "2026-04-25 04:16:10",
         "source": "github_action",
         "candidate": "Chantika  Permata Haryo Mokoginta",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-25 04:16:37",
+        "source": "github_action",
+        "candidate": "Dien Shafa Moesya",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
