@@ -12876,24 +12876,17 @@
     ]
   },
   "2026-04-25": {
-    "total": 213,
+    "total": 214,
     "streamlit": 0,
-    "github_action": 213,
-    "successful": 213,
+    "github_action": 214,
+    "successful": 214,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
-      "Business Development Analyst": 13
+      "Business Development Analyst": 14
     },
     "entries": [
-      {
-        "timestamp": "2026-04-25 04:44:07",
-        "source": "github_action",
-        "candidate": "Aura Antari",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-25 04:44:38",
         "source": "github_action",
@@ -13584,6 +13577,13 @@
         "timestamp": "2026-04-25 05:28:00",
         "source": "github_action",
         "candidate": "Agung Pramono",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-25 05:28:26",
+        "source": "github_action",
+        "candidate": "Firly Ramadhan",
         "position": "Business Development Analyst",
         "success": true
       }
