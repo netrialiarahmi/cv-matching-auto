@@ -12876,13 +12876,13 @@
     ]
   },
   "2026-04-25": {
-    "total": 25,
+    "total": 26,
     "streamlit": 0,
-    "github_action": 25,
-    "successful": 25,
+    "github_action": 26,
+    "successful": 26,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 25
+      "Marketing Communication Officer KG Media": 26
     },
     "entries": [
       {
@@ -13057,6 +13057,13 @@
         "timestamp": "2026-04-25 04:03:52",
         "source": "github_action",
         "candidate": "Widya Fitrianingsih",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-25 04:04:20",
+        "source": "github_action",
+        "candidate": "Dinda Noviana Rambe Putri",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
