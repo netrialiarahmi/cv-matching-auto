@@ -12876,23 +12876,16 @@
     ]
   },
   "2026-04-25": {
-    "total": 166,
+    "total": 167,
     "streamlit": 0,
-    "github_action": 166,
-    "successful": 166,
+    "github_action": 167,
+    "successful": 167,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 66
+      "Reporter Nasional": 67
     },
     "entries": [
-      {
-        "timestamp": "2026-04-25 04:23:16",
-        "source": "github_action",
-        "candidate": "Quinta Elvira Rosiana Sipahutar",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-25 04:23:45",
         "source": "github_action",
@@ -13583,6 +13576,13 @@
         "timestamp": "2026-04-25 05:06:45",
         "source": "github_action",
         "candidate": "Muhammad Fadhilah",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-25 05:07:12",
+        "source": "github_action",
+        "candidate": "Adinda Nur Izzati Amil",
         "position": "Reporter Nasional",
         "success": true
       }
