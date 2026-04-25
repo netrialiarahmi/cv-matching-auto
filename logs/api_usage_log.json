@@ -12876,23 +12876,16 @@
     ]
   },
   "2026-04-25": {
-    "total": 198,
+    "total": 199,
     "streamlit": 0,
-    "github_action": 198,
-    "successful": 198,
+    "github_action": 199,
+    "successful": 199,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 98
+      "Reporter Nasional": 99
     },
     "entries": [
-      {
-        "timestamp": "2026-04-25 04:37:42",
-        "source": "github_action",
-        "candidate": "Rengganis Utami",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-25 04:38:10",
         "source": "github_action",
@@ -13583,6 +13576,13 @@
         "timestamp": "2026-04-25 05:20:51",
         "source": "github_action",
         "candidate": "Ryadh Mega Putera",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-25 05:21:18",
+        "source": "github_action",
+        "candidate": "Rinda Ariska Batubara",
         "position": "Reporter Nasional",
         "success": true
       }
