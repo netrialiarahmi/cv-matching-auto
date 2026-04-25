@@ -12876,25 +12876,18 @@
     ]
   },
   "2026-04-25": {
-    "total": 305,
+    "total": 306,
     "streamlit": 0,
-    "github_action": 305,
-    "successful": 305,
+    "github_action": 306,
+    "successful": 306,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 5
+      "Account Executive VCBL": 6
     },
     "entries": [
-      {
-        "timestamp": "2026-04-25 05:24:29",
-        "source": "github_action",
-        "candidate": "guruh haryo",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-25 05:24:59",
         "source": "github_action",
@@ -13585,6 +13578,13 @@
         "timestamp": "2026-04-25 06:08:36",
         "source": "github_action",
         "candidate": "Jethro Giovanni Saputra",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-25 06:09:05",
+        "source": "github_action",
+        "candidate": "Ilham Rahmatulloh",
         "position": "Account Executive VCBL",
         "success": true
       }
