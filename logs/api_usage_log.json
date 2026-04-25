@@ -12876,24 +12876,17 @@
     ]
   },
   "2026-04-25": {
-    "total": 237,
+    "total": 238,
     "streamlit": 0,
-    "github_action": 237,
-    "successful": 237,
+    "github_action": 238,
+    "successful": 238,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
-      "Business Development Analyst": 37
+      "Business Development Analyst": 38
     },
     "entries": [
-      {
-        "timestamp": "2026-04-25 04:54:43",
-        "source": "github_action",
-        "candidate": "Selia  Nurazwaima",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-25 04:55:08",
         "source": "github_action",
@@ -13584,6 +13577,13 @@
         "timestamp": "2026-04-25 05:38:51",
         "source": "github_action",
         "candidate": "Indhira Amarta  Mahanani",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-25 05:39:19",
+        "source": "github_action",
+        "candidate": "wahyu cahyaningrum",
         "position": "Business Development Analyst",
         "success": true
       }
