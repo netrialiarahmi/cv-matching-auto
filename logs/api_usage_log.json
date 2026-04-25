@@ -12876,25 +12876,18 @@
     ]
   },
   "2026-04-25": {
-    "total": 311,
+    "total": 312,
     "streamlit": 0,
-    "github_action": 311,
-    "successful": 311,
+    "github_action": 312,
+    "successful": 312,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 11
+      "Account Executive VCBL": 12
     },
     "entries": [
-      {
-        "timestamp": "2026-04-25 05:27:30",
-        "source": "github_action",
-        "candidate": "Fransiska Malita",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-25 05:28:00",
         "source": "github_action",
@@ -13585,6 +13578,13 @@
         "timestamp": "2026-04-25 06:11:24",
         "source": "github_action",
         "candidate": "Insyirah Ayu Ardila",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-25 06:11:55",
+        "source": "github_action",
+        "candidate": "Doni Wenfery Simorangkir",
         "position": "Account Executive VCBL",
         "success": true
       }
