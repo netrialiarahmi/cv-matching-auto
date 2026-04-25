@@ -12876,23 +12876,16 @@
     ]
   },
   "2026-04-25": {
-    "total": 178,
+    "total": 179,
     "streamlit": 0,
-    "github_action": 178,
-    "successful": 178,
+    "github_action": 179,
+    "successful": 179,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 78
+      "Reporter Nasional": 79
     },
     "entries": [
-      {
-        "timestamp": "2026-04-25 04:28:57",
-        "source": "github_action",
-        "candidate": "ghina shaliha",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-25 04:29:25",
         "source": "github_action",
@@ -13583,6 +13576,13 @@
         "timestamp": "2026-04-25 05:11:44",
         "source": "github_action",
         "candidate": "Albinus Anwar Judat",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-25 05:12:08",
+        "source": "github_action",
+        "candidate": "Achmad  Iqbal",
         "position": "Reporter Nasional",
         "success": true
       }
