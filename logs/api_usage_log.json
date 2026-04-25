@@ -12876,24 +12876,17 @@
     ]
   },
   "2026-04-25": {
-    "total": 270,
+    "total": 271,
     "streamlit": 0,
-    "github_action": 270,
-    "successful": 270,
+    "github_action": 271,
+    "successful": 271,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
-      "Business Development Analyst": 70
+      "Business Development Analyst": 71
     },
     "entries": [
-      {
-        "timestamp": "2026-04-25 05:09:03",
-        "source": "github_action",
-        "candidate": "Turangga Raflihuda",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-25 05:09:06",
         "source": "github_action",
@@ -13584,6 +13577,13 @@
         "timestamp": "2026-04-25 05:52:47",
         "source": "github_action",
         "candidate": "Arman  Rafi",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-25 05:53:16",
+        "source": "github_action",
+        "candidate": "tahashshunan Hiththah Zein",
         "position": "Business Development Analyst",
         "success": true
       }
