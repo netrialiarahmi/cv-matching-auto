@@ -12876,13 +12876,13 @@
     ]
   },
   "2026-04-25": {
-    "total": 87,
+    "total": 88,
     "streamlit": 0,
-    "github_action": 87,
-    "successful": 87,
+    "github_action": 88,
+    "successful": 88,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 87
+      "Marketing Communication Officer KG Media": 88
     },
     "entries": [
       {
@@ -13491,6 +13491,13 @@
         "timestamp": "2026-04-25 04:32:31",
         "source": "github_action",
         "candidate": "Daffa Al Ghiffari",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-25 04:32:58",
+        "source": "github_action",
+        "candidate": "Hulwah  Siti Fatimah Sa'idah",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
