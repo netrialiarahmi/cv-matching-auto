@@ -12876,23 +12876,16 @@
     ]
   },
   "2026-04-25": {
-    "total": 119,
+    "total": 120,
     "streamlit": 0,
-    "github_action": 119,
-    "successful": 119,
+    "github_action": 120,
+    "successful": 120,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 19
+      "Reporter Nasional": 20
     },
     "entries": [
-      {
-        "timestamp": "2026-04-25 04:01:18",
-        "source": "github_action",
-        "candidate": "Faiza Zulrahma",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-25 04:01:52",
         "source": "github_action",
@@ -13583,6 +13576,13 @@
         "timestamp": "2026-04-25 04:46:38",
         "source": "github_action",
         "candidate": "Wildan Adil Hilba",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-25 04:46:40",
+        "source": "github_action",
+        "candidate": "Maulina Amaliya",
         "position": "Reporter Nasional",
         "success": true
       }
