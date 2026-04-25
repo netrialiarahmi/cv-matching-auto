@@ -12876,25 +12876,18 @@
     ]
   },
   "2026-04-25": {
-    "total": 395,
+    "total": 396,
     "streamlit": 0,
-    "github_action": 395,
-    "successful": 395,
+    "github_action": 396,
+    "successful": 396,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 95
+      "Account Executive VCBL": 96
     },
     "entries": [
-      {
-        "timestamp": "2026-04-25 06:03:51",
-        "source": "github_action",
-        "candidate": "Dewi Aspara",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-25 06:04:19",
         "source": "github_action",
@@ -13585,6 +13578,13 @@
         "timestamp": "2026-04-25 06:46:32",
         "source": "github_action",
         "candidate": "Axa Putri Nabilla",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-25 06:46:56",
+        "source": "github_action",
+        "candidate": "Kiki Gunawanti Khaerani Asri",
         "position": "Account Executive VCBL",
         "success": true
       }
