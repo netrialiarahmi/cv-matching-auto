@@ -12876,24 +12876,17 @@
     ]
   },
   "2026-04-25": {
-    "total": 235,
+    "total": 236,
     "streamlit": 0,
-    "github_action": 235,
-    "successful": 235,
+    "github_action": 236,
+    "successful": 236,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
-      "Business Development Analyst": 35
+      "Business Development Analyst": 36
     },
     "entries": [
-      {
-        "timestamp": "2026-04-25 04:53:43",
-        "source": "github_action",
-        "candidate": "Thoriq Baihaqi Firdaus",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-25 04:54:09",
         "source": "github_action",
@@ -13584,6 +13577,13 @@
         "timestamp": "2026-04-25 05:37:54",
         "source": "github_action",
         "candidate": "Ernest Silalahi",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-25 05:38:22",
+        "source": "github_action",
+        "candidate": "Galuh Kinanthi Rahardjo",
         "position": "Business Development Analyst",
         "success": true
       }
