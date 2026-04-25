@@ -12876,24 +12876,17 @@
     ]
   },
   "2026-04-25": {
-    "total": 259,
+    "total": 260,
     "streamlit": 0,
-    "github_action": 259,
-    "successful": 259,
+    "github_action": 260,
+    "successful": 260,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
-      "Business Development Analyst": 59
+      "Business Development Analyst": 60
     },
     "entries": [
-      {
-        "timestamp": "2026-04-25 05:03:52",
-        "source": "github_action",
-        "candidate": "Wildan Adil Hilba",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-25 05:04:20",
         "source": "github_action",
@@ -13584,6 +13577,13 @@
         "timestamp": "2026-04-25 05:48:33",
         "source": "github_action",
         "candidate": "Irvan Maulana",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-25 05:49:03",
+        "source": "github_action",
+        "candidate": "Rafinda  Asca Riandy",
         "position": "Business Development Analyst",
         "success": true
       }
