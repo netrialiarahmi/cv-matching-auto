@@ -12876,23 +12876,16 @@
     ]
   },
   "2026-04-25": {
-    "total": 153,
+    "total": 154,
     "streamlit": 0,
-    "github_action": 153,
-    "successful": 153,
+    "github_action": 154,
+    "successful": 154,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 53
+      "Reporter Nasional": 54
     },
     "entries": [
-      {
-        "timestamp": "2026-04-25 04:18:07",
-        "source": "github_action",
-        "candidate": "Fildza Salma Malahati",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-25 04:18:38",
         "source": "github_action",
@@ -13583,6 +13576,13 @@
         "timestamp": "2026-04-25 05:01:09",
         "source": "github_action",
         "candidate": "Sindhu Linguistika Manumanasa",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-25 05:01:38",
+        "source": "github_action",
+        "candidate": "dearest tiantama",
         "position": "Reporter Nasional",
         "success": true
       }
