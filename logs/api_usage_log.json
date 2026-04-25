@@ -12876,23 +12876,16 @@
     ]
   },
   "2026-04-25": {
-    "total": 110,
+    "total": 111,
     "streamlit": 0,
-    "github_action": 110,
-    "successful": 110,
+    "github_action": 111,
+    "successful": 111,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 10
+      "Reporter Nasional": 11
     },
     "entries": [
-      {
-        "timestamp": "2026-04-25 03:57:20",
-        "source": "github_action",
-        "candidate": "Muhammad Ihdi  Yuwana",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-25 03:57:54",
         "source": "github_action",
@@ -13583,6 +13576,13 @@
         "timestamp": "2026-04-25 04:42:08",
         "source": "github_action",
         "candidate": "Gilang pramudia",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-25 04:42:36",
+        "source": "github_action",
+        "candidate": "Dhianti Karamina zilda",
         "position": "Reporter Nasional",
         "success": true
       }
