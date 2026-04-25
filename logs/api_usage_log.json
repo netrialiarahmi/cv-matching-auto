@@ -12876,24 +12876,17 @@
     ]
   },
   "2026-04-25": {
-    "total": 223,
+    "total": 224,
     "streamlit": 0,
-    "github_action": 223,
-    "successful": 223,
+    "github_action": 224,
+    "successful": 224,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
-      "Business Development Analyst": 23
+      "Business Development Analyst": 24
     },
     "entries": [
-      {
-        "timestamp": "2026-04-25 04:48:26",
-        "source": "github_action",
-        "candidate": "Revo Anggara",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-25 04:48:53",
         "source": "github_action",
@@ -13584,6 +13577,13 @@
         "timestamp": "2026-04-25 05:32:44",
         "source": "github_action",
         "candidate": "Akmal Aminullah",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-25 05:33:12",
+        "source": "github_action",
+        "candidate": "Aditya Reynaldi",
         "position": "Business Development Analyst",
         "success": true
       }
