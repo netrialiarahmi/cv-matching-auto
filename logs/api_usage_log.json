@@ -12876,25 +12876,18 @@
     ]
   },
   "2026-04-25": {
-    "total": 357,
+    "total": 358,
     "streamlit": 0,
-    "github_action": 357,
-    "successful": 357,
+    "github_action": 358,
+    "successful": 358,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 57
+      "Account Executive VCBL": 58
     },
     "entries": [
-      {
-        "timestamp": "2026-04-25 05:48:30",
-        "source": "github_action",
-        "candidate": "Tommy Tri Prasetyo",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-25 05:48:33",
         "source": "github_action",
@@ -13585,6 +13578,13 @@
         "timestamp": "2026-04-25 06:30:41",
         "source": "github_action",
         "candidate": "Mayangsari Karina Putri",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-25 06:31:10",
+        "source": "github_action",
+        "candidate": "Azka Putrie",
         "position": "Account Executive VCBL",
         "success": true
       }
