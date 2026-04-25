@@ -12876,23 +12876,16 @@
     ]
   },
   "2026-04-25": {
-    "total": 138,
+    "total": 139,
     "streamlit": 0,
-    "github_action": 138,
-    "successful": 138,
+    "github_action": 139,
+    "successful": 139,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 38
+      "Reporter Nasional": 39
     },
     "entries": [
-      {
-        "timestamp": "2026-04-25 04:10:52",
-        "source": "github_action",
-        "candidate": "Nauval Hasemi",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-25 04:11:21",
         "source": "github_action",
@@ -13583,6 +13576,13 @@
         "timestamp": "2026-04-25 04:54:43",
         "source": "github_action",
         "candidate": "Selia  Nurazwaima",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-25 04:55:08",
+        "source": "github_action",
+        "candidate": "Asyadillah Althaf",
         "position": "Reporter Nasional",
         "success": true
       }
