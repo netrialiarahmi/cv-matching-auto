@@ -12876,23 +12876,16 @@
     ]
   },
   "2026-04-25": {
-    "total": 151,
+    "total": 152,
     "streamlit": 0,
-    "github_action": 151,
-    "successful": 151,
+    "github_action": 152,
+    "successful": 152,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 51
+      "Reporter Nasional": 52
     },
     "entries": [
-      {
-        "timestamp": "2026-04-25 04:17:09",
-        "source": "github_action",
-        "candidate": "Safira Jodi",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-25 04:17:36",
         "source": "github_action",
@@ -13583,6 +13576,13 @@
         "timestamp": "2026-04-25 05:00:11",
         "source": "github_action",
         "candidate": "Siti Anisa Handayani",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-25 05:00:44",
+        "source": "github_action",
+        "candidate": "Rahel  Siregar",
         "position": "Reporter Nasional",
         "success": true
       }
