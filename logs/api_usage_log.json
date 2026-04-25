@@ -12876,23 +12876,16 @@
     ]
   },
   "2026-04-25": {
-    "total": 132,
+    "total": 133,
     "streamlit": 0,
-    "github_action": 132,
-    "successful": 132,
+    "github_action": 133,
+    "successful": 133,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 32
+      "Reporter Nasional": 33
     },
     "entries": [
-      {
-        "timestamp": "2026-04-25 04:07:46",
-        "source": "github_action",
-        "candidate": "Muhamad Gilman",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-25 04:08:16",
         "source": "github_action",
@@ -13583,6 +13576,13 @@
         "timestamp": "2026-04-25 04:51:55",
         "source": "github_action",
         "candidate": "MUHAMMAD THAREQ HARYADI",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-25 04:52:22",
+        "source": "github_action",
+        "candidate": "Muhammad Farhan",
         "position": "Reporter Nasional",
         "success": true
       }
