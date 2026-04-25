@@ -12876,24 +12876,17 @@
     ]
   },
   "2026-04-25": {
-    "total": 245,
+    "total": 246,
     "streamlit": 0,
-    "github_action": 245,
-    "successful": 245,
+    "github_action": 246,
+    "successful": 246,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
-      "Business Development Analyst": 45
+      "Business Development Analyst": 46
     },
     "entries": [
-      {
-        "timestamp": "2026-04-25 04:57:52",
-        "source": "github_action",
-        "candidate": "Rohmat Sukmana",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-25 04:58:20",
         "source": "github_action",
@@ -13584,6 +13577,13 @@
         "timestamp": "2026-04-25 05:42:42",
         "source": "github_action",
         "candidate": "Yohana Simarmata",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-25 05:43:08",
+        "source": "github_action",
+        "candidate": "Rio Fabianto",
         "position": "Business Development Analyst",
         "success": true
       }
