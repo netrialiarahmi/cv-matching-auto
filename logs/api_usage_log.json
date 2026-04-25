@@ -12876,25 +12876,18 @@
     ]
   },
   "2026-04-25": {
-    "total": 323,
+    "total": 324,
     "streamlit": 0,
-    "github_action": 323,
-    "successful": 323,
+    "github_action": 324,
+    "successful": 324,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 23
+      "Account Executive VCBL": 24
     },
     "entries": [
-      {
-        "timestamp": "2026-04-25 05:33:12",
-        "source": "github_action",
-        "candidate": "Aditya Reynaldi",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-25 05:33:38",
         "source": "github_action",
@@ -13585,6 +13578,13 @@
         "timestamp": "2026-04-25 06:16:10",
         "source": "github_action",
         "candidate": "Ricki Indra Permana Putra",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-25 06:16:39",
+        "source": "github_action",
+        "candidate": "Safira Amanda Prasanti",
         "position": "Account Executive VCBL",
         "success": true
       }
