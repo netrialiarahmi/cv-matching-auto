@@ -12876,13 +12876,13 @@
     ]
   },
   "2026-04-25": {
-    "total": 84,
+    "total": 85,
     "streamlit": 0,
-    "github_action": 84,
-    "successful": 84,
+    "github_action": 85,
+    "successful": 85,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 84
+      "Marketing Communication Officer KG Media": 85
     },
     "entries": [
       {
@@ -13470,6 +13470,13 @@
         "timestamp": "2026-04-25 04:31:27",
         "source": "github_action",
         "candidate": "M Abyan Denawa putra",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-25 04:32:00",
+        "source": "github_action",
+        "candidate": "Reza Aditya Nugroho",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
