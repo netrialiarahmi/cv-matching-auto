@@ -12876,24 +12876,17 @@
     ]
   },
   "2026-04-25": {
-    "total": 238,
+    "total": 239,
     "streamlit": 0,
-    "github_action": 238,
-    "successful": 238,
+    "github_action": 239,
+    "successful": 239,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
-      "Business Development Analyst": 38
+      "Business Development Analyst": 39
     },
     "entries": [
-      {
-        "timestamp": "2026-04-25 04:55:08",
-        "source": "github_action",
-        "candidate": "Asyadillah Althaf",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-25 04:55:35",
         "source": "github_action",
@@ -13584,6 +13577,13 @@
         "timestamp": "2026-04-25 05:39:19",
         "source": "github_action",
         "candidate": "wahyu cahyaningrum",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-25 05:39:48",
+        "source": "github_action",
+        "candidate": "Yohana Berliana",
         "position": "Business Development Analyst",
         "success": true
       }
