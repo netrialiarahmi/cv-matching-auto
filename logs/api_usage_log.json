@@ -12876,13 +12876,13 @@
     ]
   },
   "2026-04-25": {
-    "total": 85,
+    "total": 86,
     "streamlit": 0,
-    "github_action": 85,
-    "successful": 85,
+    "github_action": 86,
+    "successful": 86,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 85
+      "Marketing Communication Officer KG Media": 86
     },
     "entries": [
       {
@@ -13477,6 +13477,13 @@
         "timestamp": "2026-04-25 04:32:00",
         "source": "github_action",
         "candidate": "Reza Aditya Nugroho",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-25 04:32:03",
+        "source": "github_action",
+        "candidate": "Melody Allegra",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
