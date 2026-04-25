@@ -12876,25 +12876,18 @@
     ]
   },
   "2026-04-25": {
-    "total": 339,
+    "total": 340,
     "streamlit": 0,
-    "github_action": 339,
-    "successful": 339,
+    "github_action": 340,
+    "successful": 340,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 39
+      "Account Executive VCBL": 40
     },
     "entries": [
-      {
-        "timestamp": "2026-04-25 05:40:15",
-        "source": "github_action",
-        "candidate": "Alifah Nurfaizah",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-25 05:40:50",
         "source": "github_action",
@@ -13585,6 +13578,13 @@
         "timestamp": "2026-04-25 06:23:23",
         "source": "github_action",
         "candidate": "Bunga Annelies  Flo",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-25 06:23:50",
+        "source": "github_action",
+        "candidate": "Oryza Zaidandio",
         "position": "Account Executive VCBL",
         "success": true
       }
