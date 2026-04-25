@@ -12876,24 +12876,17 @@
     ]
   },
   "2026-04-25": {
-    "total": 262,
+    "total": 263,
     "streamlit": 0,
-    "github_action": 262,
-    "successful": 262,
+    "github_action": 263,
+    "successful": 263,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
-      "Business Development Analyst": 62
+      "Business Development Analyst": 63
     },
     "entries": [
-      {
-        "timestamp": "2026-04-25 05:05:18",
-        "source": "github_action",
-        "candidate": "Nurul Rahma",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-25 05:05:53",
         "source": "github_action",
@@ -13584,6 +13577,13 @@
         "timestamp": "2026-04-25 05:49:33",
         "source": "github_action",
         "candidate": "Agie Satria Chandra",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-25 05:49:36",
+        "source": "github_action",
+        "candidate": "Abdul Rohman Hadi",
         "position": "Business Development Analyst",
         "success": true
       }
