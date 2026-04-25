@@ -12876,13 +12876,13 @@
     ]
   },
   "2026-04-25": {
-    "total": 54,
+    "total": 55,
     "streamlit": 0,
-    "github_action": 54,
-    "successful": 54,
+    "github_action": 55,
+    "successful": 55,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 54
+      "Marketing Communication Officer KG Media": 55
     },
     "entries": [
       {
@@ -13260,6 +13260,13 @@
         "timestamp": "2026-04-25 04:18:07",
         "source": "github_action",
         "candidate": "Fildza Salma Malahati",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-25 04:18:38",
+        "source": "github_action",
+        "candidate": "Halim Zunurain",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
