@@ -12876,23 +12876,16 @@
     ]
   },
   "2026-04-25": {
-    "total": 125,
+    "total": 126,
     "streamlit": 0,
-    "github_action": 125,
-    "successful": 125,
+    "github_action": 126,
+    "successful": 126,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 25
+      "Reporter Nasional": 26
     },
     "entries": [
-      {
-        "timestamp": "2026-04-25 04:04:20",
-        "source": "github_action",
-        "candidate": "Dinda Noviana Rambe Putri",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-25 04:04:53",
         "source": "github_action",
@@ -13583,6 +13576,13 @@
         "timestamp": "2026-04-25 04:48:53",
         "source": "github_action",
         "candidate": "Anggita Nur Cahyani",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-25 04:49:19",
+        "source": "github_action",
+        "candidate": "Muhammad Iqbal",
         "position": "Reporter Nasional",
         "success": true
       }
