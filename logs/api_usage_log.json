@@ -12876,23 +12876,16 @@
     ]
   },
   "2026-04-25": {
-    "total": 142,
+    "total": 143,
     "streamlit": 0,
-    "github_action": 142,
-    "successful": 142,
+    "github_action": 143,
+    "successful": 143,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 42
+      "Reporter Nasional": 43
     },
     "entries": [
-      {
-        "timestamp": "2026-04-25 04:12:42",
-        "source": "github_action",
-        "candidate": "Benedicta Avelia",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-25 04:13:15",
         "source": "github_action",
@@ -13583,6 +13576,13 @@
         "timestamp": "2026-04-25 04:56:29",
         "source": "github_action",
         "candidate": "Wika Andriani Pangaribuan",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-25 04:56:32",
+        "source": "github_action",
+        "candidate": "Dwi Putra",
         "position": "Reporter Nasional",
         "success": true
       }
