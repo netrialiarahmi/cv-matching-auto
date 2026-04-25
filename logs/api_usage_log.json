@@ -12876,24 +12876,17 @@
     ]
   },
   "2026-04-25": {
-    "total": 201,
+    "total": 202,
     "streamlit": 0,
-    "github_action": 201,
-    "successful": 201,
+    "github_action": 202,
+    "successful": 202,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
-      "Business Development Analyst": 1
+      "Business Development Analyst": 2
     },
     "entries": [
-      {
-        "timestamp": "2026-04-25 04:39:03",
-        "source": "github_action",
-        "candidate": "Fano Eger",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-25 04:39:29",
         "source": "github_action",
@@ -13584,6 +13577,13 @@
         "timestamp": "2026-04-25 05:22:12",
         "source": "github_action",
         "candidate": "Yuke Luviana",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-25 05:22:39",
+        "source": "github_action",
+        "candidate": "Hagie Pradivio",
         "position": "Business Development Analyst",
         "success": true
       }
