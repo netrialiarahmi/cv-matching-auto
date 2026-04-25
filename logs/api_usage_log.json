@@ -12876,23 +12876,16 @@
     ]
   },
   "2026-04-25": {
-    "total": 112,
+    "total": 113,
     "streamlit": 0,
-    "github_action": 112,
-    "successful": 112,
+    "github_action": 113,
+    "successful": 113,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 12
+      "Reporter Nasional": 13
     },
     "entries": [
-      {
-        "timestamp": "2026-04-25 03:58:23",
-        "source": "github_action",
-        "candidate": "Reza SyahFahlevi",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-25 03:58:51",
         "source": "github_action",
@@ -13583,6 +13576,13 @@
         "timestamp": "2026-04-25 04:43:06",
         "source": "github_action",
         "candidate": "Muhammad  Noor",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-25 04:43:37",
+        "source": "github_action",
+        "candidate": "Muhammad Arief  Adhistyo Hidayat",
         "position": "Reporter Nasional",
         "success": true
       }
