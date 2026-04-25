@@ -12876,23 +12876,16 @@
     ]
   },
   "2026-04-25": {
-    "total": 199,
+    "total": 200,
     "streamlit": 0,
-    "github_action": 199,
-    "successful": 199,
+    "github_action": 200,
+    "successful": 200,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 99
+      "Reporter Nasional": 100
     },
     "entries": [
-      {
-        "timestamp": "2026-04-25 04:38:10",
-        "source": "github_action",
-        "candidate": "Rama Santosa",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-25 04:38:37",
         "source": "github_action",
@@ -13583,6 +13576,13 @@
         "timestamp": "2026-04-25 05:21:18",
         "source": "github_action",
         "candidate": "Rinda Ariska Batubara",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-25 05:21:44",
+        "source": "github_action",
+        "candidate": "Imelda Aurellia",
         "position": "Reporter Nasional",
         "success": true
       }
