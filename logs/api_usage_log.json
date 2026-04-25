@@ -12876,25 +12876,18 @@
     ]
   },
   "2026-04-25": {
-    "total": 388,
+    "total": 389,
     "streamlit": 0,
-    "github_action": 388,
-    "successful": 388,
+    "github_action": 389,
+    "successful": 389,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 88
+      "Account Executive VCBL": 89
     },
     "entries": [
-      {
-        "timestamp": "2026-04-25 06:00:51",
-        "source": "github_action",
-        "candidate": "Indra Adi Susanto",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-25 06:01:24",
         "source": "github_action",
@@ -13585,6 +13578,13 @@
         "timestamp": "2026-04-25 06:43:23",
         "source": "github_action",
         "candidate": "Ayu Irene Oktalina",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-25 06:43:53",
+        "source": "github_action",
+        "candidate": "Rifqi Favian Satriawan",
         "position": "Account Executive VCBL",
         "success": true
       }
