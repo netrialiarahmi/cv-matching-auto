@@ -12876,24 +12876,17 @@
     ]
   },
   "2026-04-25": {
-    "total": 258,
+    "total": 259,
     "streamlit": 0,
-    "github_action": 258,
-    "successful": 258,
+    "github_action": 259,
+    "successful": 259,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
-      "Business Development Analyst": 58
+      "Business Development Analyst": 59
     },
     "entries": [
-      {
-        "timestamp": "2026-04-25 05:03:23",
-        "source": "github_action",
-        "candidate": "Andika Yudhistira",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-25 05:03:52",
         "source": "github_action",
@@ -13584,6 +13577,13 @@
         "timestamp": "2026-04-25 05:48:30",
         "source": "github_action",
         "candidate": "Tommy Tri Prasetyo",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-25 05:48:33",
+        "source": "github_action",
+        "candidate": "Irvan Maulana",
         "position": "Business Development Analyst",
         "success": true
       }
