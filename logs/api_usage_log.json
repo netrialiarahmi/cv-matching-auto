@@ -12876,24 +12876,17 @@
     ]
   },
   "2026-04-25": {
-    "total": 252,
+    "total": 253,
     "streamlit": 0,
-    "github_action": 252,
-    "successful": 252,
+    "github_action": 253,
+    "successful": 253,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
-      "Business Development Analyst": 52
+      "Business Development Analyst": 53
     },
     "entries": [
-      {
-        "timestamp": "2026-04-25 05:01:09",
-        "source": "github_action",
-        "candidate": "Sindhu Linguistika Manumanasa",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-25 05:01:38",
         "source": "github_action",
@@ -13584,6 +13577,13 @@
         "timestamp": "2026-04-25 05:46:00",
         "source": "github_action",
         "candidate": "Wahyu Eka",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-25 05:46:03",
+        "source": "github_action",
+        "candidate": "Darrell Matthews",
         "position": "Business Development Analyst",
         "success": true
       }
