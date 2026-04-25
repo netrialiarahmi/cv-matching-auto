@@ -12876,24 +12876,17 @@
     ]
   },
   "2026-04-25": {
-    "total": 292,
+    "total": 293,
     "streamlit": 0,
-    "github_action": 292,
-    "successful": 292,
+    "github_action": 293,
+    "successful": 293,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
-      "Business Development Analyst": 92
+      "Business Development Analyst": 93
     },
     "entries": [
-      {
-        "timestamp": "2026-04-25 05:18:33",
-        "source": "github_action",
-        "candidate": "Pramudya Jaya Saputra",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-25 05:18:58",
         "source": "github_action",
@@ -13584,6 +13577,13 @@
         "timestamp": "2026-04-25 06:02:22",
         "source": "github_action",
         "candidate": "Adinda Hita Saraswati",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-25 06:02:52",
+        "source": "github_action",
+        "candidate": "Dinda Putri Ramadhani",
         "position": "Business Development Analyst",
         "success": true
       }
