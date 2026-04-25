@@ -12876,13 +12876,13 @@
     ]
   },
   "2026-04-25": {
-    "total": 76,
+    "total": 77,
     "streamlit": 0,
-    "github_action": 76,
-    "successful": 76,
+    "github_action": 77,
+    "successful": 77,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 76
+      "Marketing Communication Officer KG Media": 77
     },
     "entries": [
       {
@@ -13414,6 +13414,13 @@
         "timestamp": "2026-04-25 04:27:28",
         "source": "github_action",
         "candidate": "Abraham Satrio Wibowo",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-25 04:27:59",
+        "source": "github_action",
+        "candidate": "Rifky Ardhian Taqwa",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
