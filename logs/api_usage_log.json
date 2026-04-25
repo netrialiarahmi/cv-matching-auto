@@ -12876,13 +12876,13 @@
     ]
   },
   "2026-04-25": {
-    "total": 57,
+    "total": 58,
     "streamlit": 0,
-    "github_action": 57,
-    "successful": 57,
+    "github_action": 58,
+    "successful": 58,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 57
+      "Marketing Communication Officer KG Media": 58
     },
     "entries": [
       {
@@ -13281,6 +13281,13 @@
         "timestamp": "2026-04-25 04:19:10",
         "source": "github_action",
         "candidate": "Nopri Ramadan Sulu",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-25 04:19:40",
+        "source": "github_action",
+        "candidate": "Ikhsan Fatkhurrohman Dahlan",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
