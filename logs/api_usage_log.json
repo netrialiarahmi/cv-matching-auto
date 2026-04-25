@@ -12876,23 +12876,16 @@
     ]
   },
   "2026-04-25": {
-    "total": 176,
+    "total": 177,
     "streamlit": 0,
-    "github_action": 176,
-    "successful": 176,
+    "github_action": 177,
+    "successful": 177,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 76
+      "Reporter Nasional": 77
     },
     "entries": [
-      {
-        "timestamp": "2026-04-25 04:27:59",
-        "source": "github_action",
-        "candidate": "Rifky Ardhian Taqwa",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-25 04:28:28",
         "source": "github_action",
@@ -13583,6 +13576,13 @@
         "timestamp": "2026-04-25 05:10:52",
         "source": "github_action",
         "candidate": "Yolla Wiranda",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-25 05:11:17",
+        "source": "github_action",
+        "candidate": "Wimby Safitri",
         "position": "Reporter Nasional",
         "success": true
       }
