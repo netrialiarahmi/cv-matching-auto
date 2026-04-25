@@ -12876,24 +12876,17 @@
     ]
   },
   "2026-04-25": {
-    "total": 217,
+    "total": 218,
     "streamlit": 0,
-    "github_action": 217,
-    "successful": 217,
+    "github_action": 218,
+    "successful": 218,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
-      "Business Development Analyst": 17
+      "Business Development Analyst": 18
     },
     "entries": [
-      {
-        "timestamp": "2026-04-25 04:46:07",
-        "source": "github_action",
-        "candidate": "Iqbal Fakhriza",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-25 04:46:38",
         "source": "github_action",
@@ -13584,6 +13577,13 @@
         "timestamp": "2026-04-25 05:29:58",
         "source": "github_action",
         "candidate": "cecep aris afandi andi",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-25 05:30:23",
+        "source": "github_action",
+        "candidate": "DEVI AYU RAHMATIKA",
         "position": "Business Development Analyst",
         "success": true
       }
