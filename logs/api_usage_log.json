@@ -12876,24 +12876,17 @@
     ]
   },
   "2026-04-25": {
-    "total": 266,
+    "total": 267,
     "streamlit": 0,
-    "github_action": 266,
-    "successful": 266,
+    "github_action": 267,
+    "successful": 267,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
-      "Business Development Analyst": 66
+      "Business Development Analyst": 67
     },
     "entries": [
-      {
-        "timestamp": "2026-04-25 05:07:12",
-        "source": "github_action",
-        "candidate": "Adinda Nur Izzati Amil",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-25 05:07:41",
         "source": "github_action",
@@ -13584,6 +13577,13 @@
         "timestamp": "2026-04-25 05:51:03",
         "source": "github_action",
         "candidate": "Nancy Yonata",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-25 05:51:32",
+        "source": "github_action",
+        "candidate": "Andre Sugiarta",
         "position": "Business Development Analyst",
         "success": true
       }
