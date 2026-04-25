@@ -12876,23 +12876,16 @@
     ]
   },
   "2026-04-25": {
-    "total": 154,
+    "total": 155,
     "streamlit": 0,
-    "github_action": 154,
-    "successful": 154,
+    "github_action": 155,
+    "successful": 155,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 54
+      "Reporter Nasional": 55
     },
     "entries": [
-      {
-        "timestamp": "2026-04-25 04:18:38",
-        "source": "github_action",
-        "candidate": "Halim Zunurain",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-25 04:18:41",
         "source": "github_action",
@@ -13583,6 +13576,13 @@
         "timestamp": "2026-04-25 05:01:38",
         "source": "github_action",
         "candidate": "dearest tiantama",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-25 05:02:04",
+        "source": "github_action",
+        "candidate": "Nataya Kirana",
         "position": "Reporter Nasional",
         "success": true
       }
