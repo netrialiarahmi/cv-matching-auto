@@ -12876,24 +12876,17 @@
     ]
   },
   "2026-04-25": {
-    "total": 295,
+    "total": 296,
     "streamlit": 0,
-    "github_action": 295,
-    "successful": 295,
+    "github_action": 296,
+    "successful": 296,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
-      "Business Development Analyst": 95
+      "Business Development Analyst": 96
     },
     "entries": [
-      {
-        "timestamp": "2026-04-25 05:19:58",
-        "source": "github_action",
-        "candidate": "Herman Yosef Pranidhana Mukti",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-25 05:20:25",
         "source": "github_action",
@@ -13584,6 +13577,13 @@
         "timestamp": "2026-04-25 06:03:21",
         "source": "github_action",
         "candidate": "Rizki Widianingtyas",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-25 06:03:51",
+        "source": "github_action",
+        "candidate": "Dewi Aspara",
         "position": "Business Development Analyst",
         "success": true
       }
