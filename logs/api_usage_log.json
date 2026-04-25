@@ -12876,25 +12876,18 @@
     ]
   },
   "2026-04-25": {
-    "total": 322,
+    "total": 323,
     "streamlit": 0,
-    "github_action": 322,
-    "successful": 322,
+    "github_action": 323,
+    "successful": 323,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 22
+      "Account Executive VCBL": 23
     },
     "entries": [
-      {
-        "timestamp": "2026-04-25 05:32:44",
-        "source": "github_action",
-        "candidate": "Akmal Aminullah",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-25 05:33:12",
         "source": "github_action",
@@ -13585,6 +13578,13 @@
         "timestamp": "2026-04-25 06:16:07",
         "source": "github_action",
         "candidate": "Parto  Simanihuruk",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-25 06:16:10",
+        "source": "github_action",
+        "candidate": "Ricki Indra Permana Putra",
         "position": "Account Executive VCBL",
         "success": true
       }
