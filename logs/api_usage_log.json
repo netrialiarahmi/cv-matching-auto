@@ -12876,24 +12876,17 @@
     ]
   },
   "2026-04-25": {
-    "total": 274,
+    "total": 275,
     "streamlit": 0,
-    "github_action": 274,
-    "successful": 274,
+    "github_action": 275,
+    "successful": 275,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
-      "Business Development Analyst": 74
+      "Business Development Analyst": 75
     },
     "entries": [
-      {
-        "timestamp": "2026-04-25 05:10:26",
-        "source": "github_action",
-        "candidate": "Putri Rahma Aryani",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-25 05:10:52",
         "source": "github_action",
@@ -13584,6 +13577,13 @@
         "timestamp": "2026-04-25 05:54:13",
         "source": "github_action",
         "candidate": "Reynaldi Rizky Aulia Bassar",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-25 05:54:43",
+        "source": "github_action",
+        "candidate": "Samdya Fauzan  Pangestu",
         "position": "Business Development Analyst",
         "success": true
       }
