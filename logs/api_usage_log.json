@@ -12876,25 +12876,18 @@
     ]
   },
   "2026-04-25": {
-    "total": 391,
+    "total": 392,
     "streamlit": 0,
-    "github_action": 391,
-    "successful": 391,
+    "github_action": 392,
+    "successful": 392,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 91
+      "Account Executive VCBL": 92
     },
     "entries": [
-      {
-        "timestamp": "2026-04-25 06:02:22",
-        "source": "github_action",
-        "candidate": "Adinda Hita Saraswati",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-25 06:02:52",
         "source": "github_action",
@@ -13585,6 +13578,13 @@
         "timestamp": "2026-04-25 06:44:48",
         "source": "github_action",
         "candidate": "Yanina Turbana",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-25 06:45:12",
+        "source": "github_action",
+        "candidate": "Timotius Ardi Pradana",
         "position": "Account Executive VCBL",
         "success": true
       }
