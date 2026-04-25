@@ -12876,24 +12876,17 @@
     ]
   },
   "2026-04-25": {
-    "total": 278,
+    "total": 279,
     "streamlit": 0,
-    "github_action": 278,
-    "successful": 278,
+    "github_action": 279,
+    "successful": 279,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
-      "Business Development Analyst": 78
+      "Business Development Analyst": 79
     },
     "entries": [
-      {
-        "timestamp": "2026-04-25 05:12:08",
-        "source": "github_action",
-        "candidate": "Achmad  Iqbal",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-25 05:12:36",
         "source": "github_action",
@@ -13584,6 +13577,13 @@
         "timestamp": "2026-04-25 05:56:09",
         "source": "github_action",
         "candidate": "Rahman Putra Fireza",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-25 05:56:38",
+        "source": "github_action",
+        "candidate": "Andrean Okta Pratama",
         "position": "Business Development Analyst",
         "success": true
       }
