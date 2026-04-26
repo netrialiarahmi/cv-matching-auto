@@ -13591,24 +13591,17 @@
     ]
   },
   "2026-04-26": {
-    "total": 237,
+    "total": 238,
     "streamlit": 0,
-    "github_action": 237,
-    "successful": 237,
+    "github_action": 238,
+    "successful": 238,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
-      "Business Development Analyst": 37
+      "Business Development Analyst": 38
     },
     "entries": [
-      {
-        "timestamp": "2026-04-26 05:17:13",
-        "source": "github_action",
-        "candidate": "Nadifa Aisyahrizka",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-26 05:17:44",
         "source": "github_action",
@@ -14299,6 +14292,13 @@
         "timestamp": "2026-04-26 06:05:43",
         "source": "github_action",
         "candidate": "Alifah Nurfaizah",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-26 06:06:15",
+        "source": "github_action",
+        "candidate": "Bintang Artha Velina Simanjuntak",
         "position": "Business Development Analyst",
         "success": true
       }
