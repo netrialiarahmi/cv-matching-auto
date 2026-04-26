@@ -13591,24 +13591,17 @@
     ]
   },
   "2026-04-26": {
-    "total": 255,
+    "total": 256,
     "streamlit": 0,
-    "github_action": 255,
-    "successful": 255,
+    "github_action": 256,
+    "successful": 256,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
-      "Business Development Analyst": 55
+      "Business Development Analyst": 56
     },
     "entries": [
-      {
-        "timestamp": "2026-04-26 05:25:09",
-        "source": "github_action",
-        "candidate": "Adley  Ramli Elhasain",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-26 05:25:41",
         "source": "github_action",
@@ -14299,6 +14292,13 @@
         "timestamp": "2026-04-26 06:14:08",
         "source": "github_action",
         "candidate": "Rafinda  Asca Riandy",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-26 06:14:37",
+        "source": "github_action",
+        "candidate": "Rifka Elfrida Hutasoit",
         "position": "Business Development Analyst",
         "success": true
       }
