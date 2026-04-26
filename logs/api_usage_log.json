@@ -13591,13 +13591,13 @@
     ]
   },
   "2026-04-26": {
-    "total": 22,
+    "total": 23,
     "streamlit": 0,
-    "github_action": 22,
-    "successful": 22,
+    "github_action": 23,
+    "successful": 23,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 22
+      "Marketing Communication Officer KG Media": 23
     },
     "entries": [
       {
@@ -13751,6 +13751,13 @@
         "timestamp": "2026-04-26 04:25:20",
         "source": "github_action",
         "candidate": "fitriyanti bunga",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-26 04:25:47",
+        "source": "github_action",
+        "candidate": "Widya Fitrianingsih",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
