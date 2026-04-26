@@ -13591,24 +13591,17 @@
     ]
   },
   "2026-04-26": {
-    "total": 263,
+    "total": 264,
     "streamlit": 0,
-    "github_action": 263,
-    "successful": 263,
+    "github_action": 264,
+    "successful": 264,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
-      "Business Development Analyst": 63
+      "Business Development Analyst": 64
     },
     "entries": [
-      {
-        "timestamp": "2026-04-26 05:29:17",
-        "source": "github_action",
-        "candidate": "Bill Khairan Nisa",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-26 05:29:50",
         "source": "github_action",
@@ -14299,6 +14292,13 @@
         "timestamp": "2026-04-26 06:17:12",
         "source": "github_action",
         "candidate": "Bayu Angkasa",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-26 06:17:46",
+        "source": "github_action",
+        "candidate": "Tri Dessy Natalia",
         "position": "Business Development Analyst",
         "success": true
       }
