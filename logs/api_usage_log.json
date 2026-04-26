@@ -13591,23 +13591,16 @@
     ]
   },
   "2026-04-26": {
-    "total": 139,
+    "total": 140,
     "streamlit": 0,
-    "github_action": 139,
-    "successful": 139,
+    "github_action": 140,
+    "successful": 140,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 39
+      "Reporter Nasional": 40
     },
     "entries": [
-      {
-        "timestamp": "2026-04-26 04:33:52",
-        "source": "github_action",
-        "candidate": "Daryl Marcviandra",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-26 04:34:21",
         "source": "github_action",
@@ -14298,6 +14291,13 @@
         "timestamp": "2026-04-26 05:17:44",
         "source": "github_action",
         "candidate": "Wika Andriani Pangaribuan",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-26 05:17:46",
+        "source": "github_action",
+        "candidate": "Dwi Putra",
         "position": "Reporter Nasional",
         "success": true
       }
