@@ -13591,13 +13591,13 @@
     ]
   },
   "2026-04-26": {
-    "total": 39,
+    "total": 40,
     "streamlit": 0,
-    "github_action": 39,
-    "successful": 39,
+    "github_action": 40,
+    "successful": 40,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 39
+      "Marketing Communication Officer KG Media": 40
     },
     "entries": [
       {
@@ -13870,6 +13870,13 @@
         "timestamp": "2026-04-26 04:33:26",
         "source": "github_action",
         "candidate": "Rizma Khansa Zulfa",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-26 04:33:52",
+        "source": "github_action",
+        "candidate": "Daryl Marcviandra",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
