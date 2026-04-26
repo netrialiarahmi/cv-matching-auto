@@ -13591,25 +13591,18 @@
     ]
   },
   "2026-04-26": {
-    "total": 361,
+    "total": 362,
     "streamlit": 0,
-    "github_action": 361,
-    "successful": 361,
+    "github_action": 362,
+    "successful": 362,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 61
+      "Account Executive VCBL": 62
     },
     "entries": [
-      {
-        "timestamp": "2026-04-26 06:16:41",
-        "source": "github_action",
-        "candidate": "Andre Sugiarta",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-26 06:17:12",
         "source": "github_action",
@@ -14300,6 +14293,13 @@
         "timestamp": "2026-04-26 07:02:43",
         "source": "github_action",
         "candidate": "Tracy Silalahi",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-26 07:03:16",
+        "source": "github_action",
+        "candidate": "MARLINDA MARLINDA",
         "position": "Account Executive VCBL",
         "success": true
       }
