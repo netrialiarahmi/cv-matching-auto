@@ -13591,24 +13591,17 @@
     ]
   },
   "2026-04-26": {
-    "total": 207,
+    "total": 208,
     "streamlit": 0,
-    "github_action": 207,
-    "successful": 207,
+    "github_action": 208,
+    "successful": 208,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
-      "Business Development Analyst": 7
+      "Business Development Analyst": 8
     },
     "entries": [
-      {
-        "timestamp": "2026-04-26 05:03:14",
-        "source": "github_action",
-        "candidate": "Inayah Kurniawati",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-26 05:03:42",
         "source": "github_action",
@@ -14299,6 +14292,13 @@
         "timestamp": "2026-04-26 05:50:38",
         "source": "github_action",
         "candidate": "Onisa Nainggolan",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-26 05:51:14",
+        "source": "github_action",
+        "candidate": "Cindy Dwi Kurnia",
         "position": "Business Development Analyst",
         "success": true
       }
