@@ -13591,25 +13591,18 @@
     ]
   },
   "2026-04-26": {
-    "total": 331,
+    "total": 332,
     "streamlit": 0,
-    "github_action": 331,
-    "successful": 331,
+    "github_action": 332,
+    "successful": 332,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 31
+      "Account Executive VCBL": 32
     },
     "entries": [
-      {
-        "timestamp": "2026-04-26 06:03:13",
-        "source": "github_action",
-        "candidate": "Ernest Silalahi",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-26 06:03:48",
         "source": "github_action",
@@ -14300,6 +14293,13 @@
         "timestamp": "2026-04-26 06:49:15",
         "source": "github_action",
         "candidate": "Farid Abdullah",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-26 06:49:58",
+        "source": "github_action",
+        "candidate": "Muhammad Rizki",
         "position": "Account Executive VCBL",
         "success": true
       }
