@@ -13591,24 +13591,17 @@
     ]
   },
   "2026-04-26": {
-    "total": 239,
+    "total": 240,
     "streamlit": 0,
-    "github_action": 239,
-    "successful": 239,
+    "github_action": 240,
+    "successful": 240,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
-      "Business Development Analyst": 39
+      "Business Development Analyst": 40
     },
     "entries": [
-      {
-        "timestamp": "2026-04-26 05:17:46",
-        "source": "github_action",
-        "candidate": "Dwi Putra",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-26 05:18:11",
         "source": "github_action",
@@ -14299,6 +14292,13 @@
         "timestamp": "2026-04-26 06:06:44",
         "source": "github_action",
         "candidate": "Adelya Vasya Maharani",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-26 06:07:13",
+        "source": "github_action",
+        "candidate": "KEMAL AL KAUTSAR MABRURI",
         "position": "Business Development Analyst",
         "success": true
       }
