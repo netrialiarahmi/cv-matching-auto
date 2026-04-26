@@ -13591,23 +13591,16 @@
     ]
   },
   "2026-04-26": {
-    "total": 114,
+    "total": 115,
     "streamlit": 0,
-    "github_action": 114,
-    "successful": 114,
+    "github_action": 115,
+    "successful": 115,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 14
+      "Reporter Nasional": 15
     },
     "entries": [
-      {
-        "timestamp": "2026-04-26 04:22:15",
-        "source": "github_action",
-        "candidate": "Qonitah Khairunnisa",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-26 04:22:45",
         "source": "github_action",
@@ -14298,6 +14291,13 @@
         "timestamp": "2026-04-26 05:06:13",
         "source": "github_action",
         "candidate": "Anisa Nur Syafitri",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-26 05:06:42",
+        "source": "github_action",
+        "candidate": "Muhjid Bagus Oqsaberi",
         "position": "Reporter Nasional",
         "success": true
       }
