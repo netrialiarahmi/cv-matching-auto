@@ -13591,23 +13591,16 @@
     ]
   },
   "2026-04-26": {
-    "total": 155,
+    "total": 156,
     "streamlit": 0,
-    "github_action": 155,
-    "successful": 155,
+    "github_action": 156,
+    "successful": 156,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 55
+      "Reporter Nasional": 56
     },
     "entries": [
-      {
-        "timestamp": "2026-04-26 04:41:17",
-        "source": "github_action",
-        "candidate": "Mansa Manalu",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-26 04:41:42",
         "source": "github_action",
@@ -14298,6 +14291,13 @@
         "timestamp": "2026-04-26 05:24:40",
         "source": "github_action",
         "candidate": "Andika Yudhistira",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-26 05:25:09",
+        "source": "github_action",
+        "candidate": "Adley  Ramli Elhasain",
         "position": "Reporter Nasional",
         "success": true
       }
