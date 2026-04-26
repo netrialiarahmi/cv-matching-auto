@@ -13591,25 +13591,18 @@
     ]
   },
   "2026-04-26": {
-    "total": 353,
+    "total": 354,
     "streamlit": 0,
-    "github_action": 353,
-    "successful": 353,
+    "github_action": 354,
+    "successful": 354,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 53
+      "Account Executive VCBL": 54
     },
     "entries": [
-      {
-        "timestamp": "2026-04-26 06:13:39",
-        "source": "github_action",
-        "candidate": "Irvan Maulana",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-26 06:14:08",
         "source": "github_action",
@@ -14300,6 +14293,13 @@
         "timestamp": "2026-04-26 06:59:33",
         "source": "github_action",
         "candidate": "Mayangsari Karina Putri",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-26 06:59:58",
+        "source": "github_action",
+        "candidate": "Azka Putrie",
         "position": "Account Executive VCBL",
         "success": true
       }
