@@ -13591,13 +13591,13 @@
     ]
   },
   "2026-04-26": {
-    "total": 50,
+    "total": 51,
     "streamlit": 0,
-    "github_action": 50,
-    "successful": 50,
+    "github_action": 51,
+    "successful": 51,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 50
+      "Marketing Communication Officer KG Media": 51
     },
     "entries": [
       {
@@ -13947,6 +13947,13 @@
         "timestamp": "2026-04-26 04:38:47",
         "source": "github_action",
         "candidate": "Halim Zunurain",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-26 04:38:49",
+        "source": "github_action",
+        "candidate": "Axel Hans Kristian",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
