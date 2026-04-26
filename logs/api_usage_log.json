@@ -13591,23 +13591,16 @@
     ]
   },
   "2026-04-26": {
-    "total": 176,
+    "total": 177,
     "streamlit": 0,
-    "github_action": 176,
-    "successful": 176,
+    "github_action": 177,
+    "successful": 177,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 76
+      "Reporter Nasional": 77
     },
     "entries": [
-      {
-        "timestamp": "2026-04-26 04:50:15",
-        "source": "github_action",
-        "candidate": "M Abyan Denawa putra",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-26 04:50:48",
         "source": "github_action",
@@ -14298,6 +14291,13 @@
         "timestamp": "2026-04-26 05:35:10",
         "source": "github_action",
         "candidate": "Zulfa Atsna Taqia",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-26 05:35:34",
+        "source": "github_action",
+        "candidate": "ane hainunnisa",
         "position": "Reporter Nasional",
         "success": true
       }
