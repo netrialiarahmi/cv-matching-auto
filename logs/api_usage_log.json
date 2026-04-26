@@ -13591,23 +13591,16 @@
     ]
   },
   "2026-04-26": {
-    "total": 148,
+    "total": 149,
     "streamlit": 0,
-    "github_action": 148,
-    "successful": 148,
+    "github_action": 149,
+    "successful": 149,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 48
+      "Reporter Nasional": 49
     },
     "entries": [
-      {
-        "timestamp": "2026-04-26 04:38:18",
-        "source": "github_action",
-        "candidate": "kenzie salman",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-26 04:38:47",
         "source": "github_action",
@@ -14298,6 +14291,13 @@
         "timestamp": "2026-04-26 05:21:40",
         "source": "github_action",
         "candidate": "Rahel  Siregar",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-26 05:22:05",
+        "source": "github_action",
+        "candidate": "Sindhu Linguistika Manumanasa",
         "position": "Reporter Nasional",
         "success": true
       }
