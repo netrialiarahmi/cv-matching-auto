@@ -13591,25 +13591,18 @@
     ]
   },
   "2026-04-26": {
-    "total": 378,
+    "total": 379,
     "streamlit": 0,
-    "github_action": 378,
-    "successful": 378,
+    "github_action": 379,
+    "successful": 379,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 78
+      "Account Executive VCBL": 79
     },
     "entries": [
-      {
-        "timestamp": "2026-04-26 06:25:07",
-        "source": "github_action",
-        "candidate": "Fadlan Rahman",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-26 06:25:38",
         "source": "github_action",
@@ -14300,6 +14293,13 @@
         "timestamp": "2026-04-26 07:10:52",
         "source": "github_action",
         "candidate": "Wira Laksana",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-26 07:11:15",
+        "source": "github_action",
+        "candidate": "Muhammad Rosikhul Ilmi",
         "position": "Account Executive VCBL",
         "success": true
       }
