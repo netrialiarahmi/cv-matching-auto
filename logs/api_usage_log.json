@@ -13591,13 +13591,13 @@
     ]
   },
   "2026-04-26": {
-    "total": 2,
+    "total": 3,
     "streamlit": 0,
-    "github_action": 2,
-    "successful": 2,
+    "github_action": 3,
+    "successful": 3,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 2
+      "Marketing Communication Officer KG Media": 3
     },
     "entries": [
       {
@@ -13611,6 +13611,13 @@
         "timestamp": "2026-04-26 04:15:53",
         "source": "github_action",
         "candidate": "Rena Dwi",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-26 04:16:24",
+        "source": "github_action",
+        "candidate": "Ali Farhan Akhmad",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
