@@ -13591,23 +13591,16 @@
     ]
   },
   "2026-04-26": {
-    "total": 164,
+    "total": 165,
     "streamlit": 0,
-    "github_action": 164,
-    "successful": 164,
+    "github_action": 165,
+    "successful": 165,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 64
+      "Reporter Nasional": 65
     },
     "entries": [
-      {
-        "timestamp": "2026-04-26 04:44:27",
-        "source": "github_action",
-        "candidate": "Sevty Adinia",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-26 04:44:54",
         "source": "github_action",
@@ -14298,6 +14291,13 @@
         "timestamp": "2026-04-26 05:29:17",
         "source": "github_action",
         "candidate": "Bill Khairan Nisa",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-26 05:29:50",
+        "source": "github_action",
+        "candidate": "Siti Aqila Nursilmina",
         "position": "Reporter Nasional",
         "success": true
       }
