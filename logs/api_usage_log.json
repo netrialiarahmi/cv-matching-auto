@@ -13591,13 +13591,13 @@
     ]
   },
   "2026-04-26": {
-    "total": 84,
+    "total": 85,
     "streamlit": 0,
-    "github_action": 84,
-    "successful": 84,
+    "github_action": 85,
+    "successful": 85,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 84
+      "Marketing Communication Officer KG Media": 85
     },
     "entries": [
       {
@@ -14185,6 +14185,13 @@
         "timestamp": "2026-04-26 04:52:51",
         "source": "github_action",
         "candidate": "Fadli Parangin angin",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-26 04:53:23",
+        "source": "github_action",
+        "candidate": "Devendra Krisna Mahadipta",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
