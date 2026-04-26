@@ -13591,23 +13591,16 @@
     ]
   },
   "2026-04-26": {
-    "total": 141,
+    "total": 142,
     "streamlit": 0,
-    "github_action": 141,
-    "successful": 141,
+    "github_action": 142,
+    "successful": 142,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 41
+      "Reporter Nasional": 42
     },
     "entries": [
-      {
-        "timestamp": "2026-04-26 04:34:43",
-        "source": "github_action",
-        "candidate": "Hendy Reynaldi",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-26 04:35:17",
         "source": "github_action",
@@ -14298,6 +14291,13 @@
         "timestamp": "2026-04-26 05:18:11",
         "source": "github_action",
         "candidate": "Salma Shalsabilla",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-26 05:18:36",
+        "source": "github_action",
+        "candidate": "Rivaldo Simanjuntak",
         "position": "Reporter Nasional",
         "success": true
       }
