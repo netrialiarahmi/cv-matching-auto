@@ -13591,23 +13591,16 @@
     ]
   },
   "2026-04-26": {
-    "total": 165,
+    "total": 166,
     "streamlit": 0,
-    "github_action": 165,
-    "successful": 165,
+    "github_action": 166,
+    "successful": 166,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 65
+      "Reporter Nasional": 66
     },
     "entries": [
-      {
-        "timestamp": "2026-04-26 04:44:54",
-        "source": "github_action",
-        "candidate": "Reno Renaldi",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-26 04:45:20",
         "source": "github_action",
@@ -14298,6 +14291,13 @@
         "timestamp": "2026-04-26 05:29:50",
         "source": "github_action",
         "candidate": "Siti Aqila Nursilmina",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-26 05:30:23",
+        "source": "github_action",
+        "candidate": "Turangga Raflihuda",
         "position": "Reporter Nasional",
         "success": true
       }
