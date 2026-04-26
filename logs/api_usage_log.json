@@ -13591,23 +13591,16 @@
     ]
   },
   "2026-04-26": {
-    "total": 133,
+    "total": 134,
     "streamlit": 0,
-    "github_action": 133,
-    "successful": 133,
+    "github_action": 134,
+    "successful": 134,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 33
+      "Reporter Nasional": 34
     },
     "entries": [
-      {
-        "timestamp": "2026-04-26 04:31:05",
-        "source": "github_action",
-        "candidate": "silva lismawarni",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-26 04:31:35",
         "source": "github_action",
@@ -14298,6 +14291,13 @@
         "timestamp": "2026-04-26 05:14:54",
         "source": "github_action",
         "candidate": "Umar Falahudin",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-26 05:15:20",
+        "source": "github_action",
+        "candidate": "Yessi Baldah zus to yusa",
         "position": "Reporter Nasional",
         "success": true
       }
