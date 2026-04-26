@@ -13591,23 +13591,16 @@
     ]
   },
   "2026-04-26": {
-    "total": 187,
+    "total": 188,
     "streamlit": 0,
-    "github_action": 187,
-    "successful": 187,
+    "github_action": 188,
+    "successful": 188,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 87
+      "Reporter Nasional": 88
     },
     "entries": [
-      {
-        "timestamp": "2026-04-26 04:54:39",
-        "source": "github_action",
-        "candidate": "Yuniar Mirayanty",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-26 04:55:05",
         "source": "github_action",
@@ -14298,6 +14291,13 @@
         "timestamp": "2026-04-26 05:40:37",
         "source": "github_action",
         "candidate": "Raden arkan",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-26 05:41:04",
+        "source": "github_action",
+        "candidate": "Herman Yosef Pranidhana Mukti",
         "position": "Reporter Nasional",
         "success": true
       }
