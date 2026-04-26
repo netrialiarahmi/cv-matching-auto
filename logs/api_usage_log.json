@@ -13591,13 +13591,13 @@
     ]
   },
   "2026-04-26": {
-    "total": 21,
+    "total": 22,
     "streamlit": 0,
-    "github_action": 21,
-    "successful": 21,
+    "github_action": 22,
+    "successful": 22,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 21
+      "Marketing Communication Officer KG Media": 22
     },
     "entries": [
       {
@@ -13744,6 +13744,13 @@
         "timestamp": "2026-04-26 04:24:50",
         "source": "github_action",
         "candidate": "Fardilla Yusuf",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-26 04:25:20",
+        "source": "github_action",
+        "candidate": "fitriyanti bunga",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
