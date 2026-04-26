@@ -13591,23 +13591,16 @@
     ]
   },
   "2026-04-26": {
-    "total": 150,
+    "total": 151,
     "streamlit": 0,
-    "github_action": 150,
-    "successful": 150,
+    "github_action": 151,
+    "successful": 151,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 50
+      "Reporter Nasional": 51
     },
     "entries": [
-      {
-        "timestamp": "2026-04-26 04:38:49",
-        "source": "github_action",
-        "candidate": "Axel Hans Kristian",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-26 04:39:21",
         "source": "github_action",
@@ -14298,6 +14291,13 @@
         "timestamp": "2026-04-26 05:22:39",
         "source": "github_action",
         "candidate": "dearest tiantama",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-26 05:23:20",
+        "source": "github_action",
+        "candidate": "Nataya Kirana",
         "position": "Reporter Nasional",
         "success": true
       }
