@@ -13591,24 +13591,17 @@
     ]
   },
   "2026-04-26": {
-    "total": 245,
+    "total": 246,
     "streamlit": 0,
-    "github_action": 245,
-    "successful": 245,
+    "github_action": 246,
+    "successful": 246,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
-      "Business Development Analyst": 45
+      "Business Development Analyst": 46
     },
     "entries": [
-      {
-        "timestamp": "2026-04-26 05:20:32",
-        "source": "github_action",
-        "candidate": "Sarah Almira",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-26 05:21:07",
         "source": "github_action",
@@ -14299,6 +14292,13 @@
         "timestamp": "2026-04-26 06:10:03",
         "source": "github_action",
         "candidate": "Argani Arief Santoso",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-26 06:10:34",
+        "source": "github_action",
+        "candidate": "Danang Permana",
         "position": "Business Development Analyst",
         "success": true
       }
