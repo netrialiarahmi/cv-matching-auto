@@ -13591,23 +13591,16 @@
     ]
   },
   "2026-04-26": {
-    "total": 126,
+    "total": 127,
     "streamlit": 0,
-    "github_action": 126,
-    "successful": 126,
+    "github_action": 127,
+    "successful": 127,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 26
+      "Reporter Nasional": 27
     },
     "entries": [
-      {
-        "timestamp": "2026-04-26 04:27:41",
-        "source": "github_action",
-        "candidate": "Yohanes Nofri",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-26 04:28:11",
         "source": "github_action",
@@ -14298,6 +14291,13 @@
         "timestamp": "2026-04-26 05:11:28",
         "source": "github_action",
         "candidate": "Syahrul Rifai Tri Laksono",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-26 05:12:00",
+        "source": "github_action",
+        "candidate": "Ajmal Fajar",
         "position": "Reporter Nasional",
         "success": true
       }
