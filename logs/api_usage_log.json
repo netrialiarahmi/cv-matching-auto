@@ -13591,13 +13591,13 @@
     ]
   },
   "2026-04-26": {
-    "total": 10,
+    "total": 11,
     "streamlit": 0,
-    "github_action": 10,
-    "successful": 10,
+    "github_action": 11,
+    "successful": 11,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 10
+      "Marketing Communication Officer KG Media": 11
     },
     "entries": [
       {
@@ -13667,6 +13667,13 @@
         "timestamp": "2026-04-26 04:19:54",
         "source": "github_action",
         "candidate": "Muhammad Ihdi  Yuwana",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-26 04:20:27",
+        "source": "github_action",
+        "candidate": "bintang nabila katya",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
