@@ -13591,23 +13591,16 @@
     ]
   },
   "2026-04-26": {
-    "total": 143,
+    "total": 144,
     "streamlit": 0,
-    "github_action": 143,
-    "successful": 143,
+    "github_action": 144,
+    "successful": 144,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 43
+      "Reporter Nasional": 44
     },
     "entries": [
-      {
-        "timestamp": "2026-04-26 04:35:49",
-        "source": "github_action",
-        "candidate": "Sabrina Prabawati",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-26 04:36:18",
         "source": "github_action",
@@ -14298,6 +14291,13 @@
         "timestamp": "2026-04-26 05:19:07",
         "source": "github_action",
         "candidate": "Rohmat Sukmana",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-26 05:19:35",
+        "source": "github_action",
+        "candidate": "Friendsa Hasugian",
         "position": "Reporter Nasional",
         "success": true
       }
