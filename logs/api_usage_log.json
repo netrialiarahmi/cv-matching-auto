@@ -13591,13 +13591,13 @@
     ]
   },
   "2026-04-26": {
-    "total": 74,
+    "total": 75,
     "streamlit": 0,
-    "github_action": 74,
-    "successful": 74,
+    "github_action": 75,
+    "successful": 75,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 74
+      "Marketing Communication Officer KG Media": 75
     },
     "entries": [
       {
@@ -14115,6 +14115,13 @@
         "timestamp": "2026-04-26 04:48:50",
         "source": "github_action",
         "candidate": "amarilis putri",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-26 04:49:19",
+        "source": "github_action",
+        "candidate": "Lukas Luhur Pambudi",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
