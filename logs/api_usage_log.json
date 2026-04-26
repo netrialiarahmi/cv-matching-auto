@@ -13591,25 +13591,18 @@
     ]
   },
   "2026-04-26": {
-    "total": 341,
+    "total": 342,
     "streamlit": 0,
-    "github_action": 341,
-    "successful": 341,
+    "github_action": 342,
+    "successful": 342,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 41
+      "Account Executive VCBL": 42
     },
     "entries": [
-      {
-        "timestamp": "2026-04-26 06:08:17",
-        "source": "github_action",
-        "candidate": "Rio Fabianto",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-26 06:08:46",
         "source": "github_action",
@@ -14300,6 +14293,13 @@
         "timestamp": "2026-04-26 06:53:48",
         "source": "github_action",
         "candidate": "ANDARI EKA NUR ALLIFAH",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-26 06:54:15",
+        "source": "github_action",
+        "candidate": "Aprina Septauli Manurung",
         "position": "Account Executive VCBL",
         "success": true
       }
