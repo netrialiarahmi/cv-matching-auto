@@ -13591,24 +13591,17 @@
     ]
   },
   "2026-04-26": {
-    "total": 229,
+    "total": 230,
     "streamlit": 0,
-    "github_action": 229,
-    "successful": 229,
+    "github_action": 230,
+    "successful": 230,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
-      "Business Development Analyst": 29
+      "Business Development Analyst": 30
     },
     "entries": [
-      {
-        "timestamp": "2026-04-26 05:13:28",
-        "source": "github_action",
-        "candidate": "MUHAMMAD THAREQ HARYADI",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-26 05:13:57",
         "source": "github_action",
@@ -14299,6 +14292,13 @@
         "timestamp": "2026-04-26 06:01:45",
         "source": "github_action",
         "candidate": "Audie Nabiel Akmal",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-26 06:02:16",
+        "source": "github_action",
+        "candidate": "Muhamad Shahriza Rijadi Putra",
         "position": "Business Development Analyst",
         "success": true
       }
