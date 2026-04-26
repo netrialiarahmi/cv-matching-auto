@@ -13591,23 +13591,16 @@
     ]
   },
   "2026-04-26": {
-    "total": 145,
+    "total": 146,
     "streamlit": 0,
-    "github_action": 145,
-    "successful": 145,
+    "github_action": 146,
+    "successful": 146,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 45
+      "Reporter Nasional": 46
     },
     "entries": [
-      {
-        "timestamp": "2026-04-26 04:36:47",
-        "source": "github_action",
-        "candidate": "Chantika  Permata Haryo Mokoginta",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-26 04:37:20",
         "source": "github_action",
@@ -14298,6 +14291,13 @@
         "timestamp": "2026-04-26 05:20:04",
         "source": "github_action",
         "candidate": "Salsabila Syafaati Azizah",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-26 05:20:32",
+        "source": "github_action",
+        "candidate": "Sarah Almira",
         "position": "Reporter Nasional",
         "success": true
       }
