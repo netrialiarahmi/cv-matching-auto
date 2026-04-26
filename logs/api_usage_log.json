@@ -13591,25 +13591,18 @@
     ]
   },
   "2026-04-26": {
-    "total": 324,
+    "total": 325,
     "streamlit": 0,
-    "github_action": 324,
-    "successful": 324,
+    "github_action": 325,
+    "successful": 325,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 24
+      "Account Executive VCBL": 25
     },
     "entries": [
-      {
-        "timestamp": "2026-04-26 05:59:37",
-        "source": "github_action",
-        "candidate": "Arve Barus",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-26 06:00:14",
         "source": "github_action",
@@ -14300,6 +14293,13 @@
         "timestamp": "2026-04-26 06:46:03",
         "source": "github_action",
         "candidate": "Dwiky Satria",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-26 06:46:34",
+        "source": "github_action",
+        "candidate": "Syarif Antoni",
         "position": "Account Executive VCBL",
         "success": true
       }
