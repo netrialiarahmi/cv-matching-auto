@@ -13591,13 +13591,13 @@
     ]
   },
   "2026-04-26": {
-    "total": 24,
+    "total": 25,
     "streamlit": 0,
-    "github_action": 24,
-    "successful": 24,
+    "github_action": 25,
+    "successful": 25,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 24
+      "Marketing Communication Officer KG Media": 25
     },
     "entries": [
       {
@@ -13765,6 +13765,13 @@
         "timestamp": "2026-04-26 04:26:16",
         "source": "github_action",
         "candidate": "Dinda Noviana Rambe Putri",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-26 04:26:50",
+        "source": "github_action",
+        "candidate": "Dede Kurnianto",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
