@@ -13591,13 +13591,13 @@
     ]
   },
   "2026-04-26": {
-    "total": 81,
+    "total": 82,
     "streamlit": 0,
-    "github_action": 81,
-    "successful": 81,
+    "github_action": 82,
+    "successful": 82,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 81
+      "Marketing Communication Officer KG Media": 82
     },
     "entries": [
       {
@@ -14164,6 +14164,13 @@
         "timestamp": "2026-04-26 04:51:44",
         "source": "github_action",
         "candidate": "Hulwah  Siti Fatimah Sa'idah",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-26 04:52:17",
+        "source": "github_action",
+        "candidate": "Catharina Zvica Hoogcain Terang",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
