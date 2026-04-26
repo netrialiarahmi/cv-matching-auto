@@ -13591,23 +13591,16 @@
     ]
   },
   "2026-04-26": {
-    "total": 153,
+    "total": 154,
     "streamlit": 0,
-    "github_action": 153,
-    "successful": 153,
+    "github_action": 154,
+    "successful": 154,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 53
+      "Reporter Nasional": 54
     },
     "entries": [
-      {
-        "timestamp": "2026-04-26 04:40:21",
-        "source": "github_action",
-        "candidate": "Daffa Prasetyo",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-26 04:40:49",
         "source": "github_action",
@@ -14298,6 +14291,13 @@
         "timestamp": "2026-04-26 05:23:50",
         "source": "github_action",
         "candidate": "naura nrmahsa",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-26 05:24:15",
+        "source": "github_action",
+        "candidate": "Nur Rahmaini Lubis",
         "position": "Reporter Nasional",
         "success": true
       }
