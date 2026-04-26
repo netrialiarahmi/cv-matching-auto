@@ -13591,23 +13591,16 @@
     ]
   },
   "2026-04-26": {
-    "total": 156,
+    "total": 157,
     "streamlit": 0,
-    "github_action": 156,
-    "successful": 156,
+    "github_action": 157,
+    "successful": 157,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 56
+      "Reporter Nasional": 57
     },
     "entries": [
-      {
-        "timestamp": "2026-04-26 04:41:42",
-        "source": "github_action",
-        "candidate": "Nanda Rahman Rahimi Dhilsi",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-26 04:42:09",
         "source": "github_action",
@@ -14298,6 +14291,13 @@
         "timestamp": "2026-04-26 05:25:09",
         "source": "github_action",
         "candidate": "Adley  Ramli Elhasain",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-26 05:25:41",
+        "source": "github_action",
+        "candidate": "AMIN MOMIAGE",
         "position": "Reporter Nasional",
         "success": true
       }
