@@ -13591,13 +13591,13 @@
     ]
   },
   "2026-04-26": {
-    "total": 99,
+    "total": 100,
     "streamlit": 0,
-    "github_action": 99,
-    "successful": 99,
+    "github_action": 100,
+    "successful": 100,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 99
+      "Marketing Communication Officer KG Media": 100
     },
     "entries": [
       {
@@ -14290,6 +14290,13 @@
         "timestamp": "2026-04-26 04:59:01",
         "source": "github_action",
         "candidate": "abdul syukur afandi",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-26 04:59:55",
+        "source": "github_action",
+        "candidate": "Julia Juventya",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
