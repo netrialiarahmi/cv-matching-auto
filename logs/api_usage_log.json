@@ -13591,13 +13591,13 @@
     ]
   },
   "2026-04-26": {
-    "total": 61,
+    "total": 62,
     "streamlit": 0,
-    "github_action": 61,
-    "successful": 61,
+    "github_action": 62,
+    "successful": 62,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 61
+      "Marketing Communication Officer KG Media": 62
     },
     "entries": [
       {
@@ -14024,6 +14024,13 @@
         "timestamp": "2026-04-26 04:42:44",
         "source": "github_action",
         "candidate": "Muhammad Irhaz Adha A. Basyah",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-26 04:43:08",
+        "source": "github_action",
+        "candidate": "Faros Khoirudin Prayoga",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
