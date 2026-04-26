@@ -13591,24 +13591,17 @@
     ]
   },
   "2026-04-26": {
-    "total": 267,
+    "total": 268,
     "streamlit": 0,
-    "github_action": 267,
-    "successful": 267,
+    "github_action": 268,
+    "successful": 268,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
-      "Business Development Analyst": 67
+      "Business Development Analyst": 68
     },
     "entries": [
-      {
-        "timestamp": "2026-04-26 05:31:16",
-        "source": "github_action",
-        "candidate": "Oky Zuwifri Tarigan",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-26 05:31:42",
         "source": "github_action",
@@ -14299,6 +14292,13 @@
         "timestamp": "2026-04-26 06:18:52",
         "source": "github_action",
         "candidate": "Kristine  Theresia",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-26 06:19:28",
+        "source": "github_action",
+        "candidate": "Reynaldi Rizky Aulia Bassar",
         "position": "Business Development Analyst",
         "success": true
       }
