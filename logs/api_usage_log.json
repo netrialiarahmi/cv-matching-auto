@@ -13591,23 +13591,16 @@
     ]
   },
   "2026-04-26": {
-    "total": 195,
+    "total": 196,
     "streamlit": 0,
-    "github_action": 195,
-    "successful": 195,
+    "github_action": 196,
+    "successful": 196,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 95
+      "Reporter Nasional": 96
     },
     "entries": [
-      {
-        "timestamp": "2026-04-26 04:57:28",
-        "source": "github_action",
-        "candidate": "Rayhan Rifky Maulana",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-26 04:58:00",
         "source": "github_action",
@@ -14298,6 +14291,13 @@
         "timestamp": "2026-04-26 05:44:36",
         "source": "github_action",
         "candidate": "herdianti Indah Puspita",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-26 05:44:38",
+        "source": "github_action",
+        "candidate": "MuhammadFarhanZharif 20-65",
         "position": "Reporter Nasional",
         "success": true
       }
