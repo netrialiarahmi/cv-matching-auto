@@ -13591,24 +13591,17 @@
     ]
   },
   "2026-04-26": {
-    "total": 224,
+    "total": 225,
     "streamlit": 0,
-    "github_action": 224,
-    "successful": 224,
+    "github_action": 225,
+    "successful": 225,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
-      "Business Development Analyst": 24
+      "Business Development Analyst": 25
     },
     "entries": [
-      {
-        "timestamp": "2026-04-26 05:11:00",
-        "source": "github_action",
-        "candidate": "Dinar Indrani",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-26 05:11:28",
         "source": "github_action",
@@ -14299,6 +14292,13 @@
         "timestamp": "2026-04-26 05:59:09",
         "source": "github_action",
         "candidate": "Ivan Rivaldi",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-26 05:59:37",
+        "source": "github_action",
+        "candidate": "Arve Barus",
         "position": "Business Development Analyst",
         "success": true
       }
