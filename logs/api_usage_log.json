@@ -13591,23 +13591,16 @@
     ]
   },
   "2026-04-26": {
-    "total": 157,
+    "total": 158,
     "streamlit": 0,
-    "github_action": 157,
-    "successful": 157,
+    "github_action": 158,
+    "successful": 158,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 57
+      "Reporter Nasional": 58
     },
     "entries": [
-      {
-        "timestamp": "2026-04-26 04:42:09",
-        "source": "github_action",
-        "candidate": "gloria angel",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-26 04:42:39",
         "source": "github_action",
@@ -14298,6 +14291,13 @@
         "timestamp": "2026-04-26 05:25:41",
         "source": "github_action",
         "candidate": "AMIN MOMIAGE",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-26 05:26:09",
+        "source": "github_action",
+        "candidate": "Nurul Rahma",
         "position": "Reporter Nasional",
         "success": true
       }
