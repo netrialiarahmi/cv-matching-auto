@@ -13591,23 +13591,16 @@
     ]
   },
   "2026-04-26": {
-    "total": 174,
+    "total": 175,
     "streamlit": 0,
-    "github_action": 174,
-    "successful": 174,
+    "github_action": 175,
+    "successful": 175,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 74
+      "Reporter Nasional": 75
     },
     "entries": [
-      {
-        "timestamp": "2026-04-26 04:49:19",
-        "source": "github_action",
-        "candidate": "Lukas Luhur Pambudi",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-26 04:49:43",
         "source": "github_action",
@@ -14298,6 +14291,13 @@
         "timestamp": "2026-04-26 05:34:06",
         "source": "github_action",
         "candidate": "Dita Salsabila Kurniawan",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-26 05:34:41",
+        "source": "github_action",
+        "candidate": "Annisa Hermita",
         "position": "Reporter Nasional",
         "success": true
       }
