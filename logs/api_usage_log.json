@@ -13591,25 +13591,18 @@
     ]
   },
   "2026-04-26": {
-    "total": 395,
+    "total": 396,
     "streamlit": 0,
-    "github_action": 395,
-    "successful": 395,
+    "github_action": 396,
+    "successful": 396,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 95
+      "Account Executive VCBL": 96
     },
     "entries": [
-      {
-        "timestamp": "2026-04-26 06:33:18",
-        "source": "github_action",
-        "candidate": "Cherise Earlene",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-26 06:33:56",
         "source": "github_action",
@@ -14300,6 +14293,13 @@
         "timestamp": "2026-04-26 07:18:52",
         "source": "github_action",
         "candidate": "Yonathan Reno Pamungkas",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-26 07:19:28",
+        "source": "github_action",
+        "candidate": "Ayub Ezra Royani Sianturi",
         "position": "Account Executive VCBL",
         "success": true
       }
