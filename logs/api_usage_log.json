@@ -13591,25 +13591,18 @@
     ]
   },
   "2026-04-26": {
-    "total": 368,
+    "total": 369,
     "streamlit": 0,
-    "github_action": 368,
-    "successful": 368,
+    "github_action": 369,
+    "successful": 369,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 68
+      "Account Executive VCBL": 69
     },
     "entries": [
-      {
-        "timestamp": "2026-04-26 06:20:15",
-        "source": "github_action",
-        "candidate": "Samdya Fauzan  Pangestu",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-26 06:20:44",
         "source": "github_action",
@@ -14300,6 +14293,13 @@
         "timestamp": "2026-04-26 07:06:03",
         "source": "github_action",
         "candidate": "Faudilla Nurin Asfar",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-26 07:06:33",
+        "source": "github_action",
+        "candidate": "Mei liya Wulan dari",
         "position": "Account Executive VCBL",
         "success": true
       }
