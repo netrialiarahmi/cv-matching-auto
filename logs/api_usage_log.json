@@ -13591,24 +13591,17 @@
     ]
   },
   "2026-04-26": {
-    "total": 251,
+    "total": 252,
     "streamlit": 0,
-    "github_action": 251,
-    "successful": 251,
+    "github_action": 252,
+    "successful": 252,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
-      "Business Development Analyst": 51
+      "Business Development Analyst": 52
     },
     "entries": [
-      {
-        "timestamp": "2026-04-26 05:23:48",
-        "source": "github_action",
-        "candidate": "Eugenia F. N. Siregar",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-26 05:23:50",
         "source": "github_action",
@@ -14299,6 +14292,13 @@
         "timestamp": "2026-04-26 06:12:34",
         "source": "github_action",
         "candidate": "Farid Faqih Kusuma Budi",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-26 06:13:03",
+        "source": "github_action",
+        "candidate": "Muhammad Irsyad Hawari",
         "position": "Business Development Analyst",
         "success": true
       }
