@@ -13591,23 +13591,16 @@
     ]
   },
   "2026-04-26": {
-    "total": 180,
+    "total": 181,
     "streamlit": 0,
-    "github_action": 180,
-    "successful": 180,
+    "github_action": 181,
+    "successful": 181,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 80
+      "Reporter Nasional": 81
     },
     "entries": [
-      {
-        "timestamp": "2026-04-26 04:51:44",
-        "source": "github_action",
-        "candidate": "Hulwah  Siti Fatimah Sa'idah",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-26 04:52:17",
         "source": "github_action",
@@ -14298,6 +14291,13 @@
         "timestamp": "2026-04-26 05:37:00",
         "source": "github_action",
         "candidate": "Chiko Alif Utama",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-26 05:37:38",
+        "source": "github_action",
+        "candidate": "Muhammad Rezki Bayuaji",
         "position": "Reporter Nasional",
         "success": true
       }
