@@ -13591,23 +13591,16 @@
     ]
   },
   "2026-04-26": {
-    "total": 163,
+    "total": 164,
     "streamlit": 0,
-    "github_action": 163,
-    "successful": 163,
+    "github_action": 164,
+    "successful": 164,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 63
+      "Reporter Nasional": 64
     },
     "entries": [
-      {
-        "timestamp": "2026-04-26 04:44:03",
-        "source": "github_action",
-        "candidate": "Azka azka",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-26 04:44:27",
         "source": "github_action",
@@ -14298,6 +14291,13 @@
         "timestamp": "2026-04-26 05:28:31",
         "source": "github_action",
         "candidate": "Anita Tri Dewi",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-26 05:29:17",
+        "source": "github_action",
+        "candidate": "Bill Khairan Nisa",
         "position": "Reporter Nasional",
         "success": true
       }
