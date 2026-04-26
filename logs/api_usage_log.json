@@ -13591,13 +13591,13 @@
     ]
   },
   "2026-04-26": {
-    "total": 27,
+    "total": 28,
     "streamlit": 0,
-    "github_action": 27,
-    "successful": 27,
+    "github_action": 28,
+    "successful": 28,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 27
+      "Marketing Communication Officer KG Media": 28
     },
     "entries": [
       {
@@ -13786,6 +13786,13 @@
         "timestamp": "2026-04-26 04:27:41",
         "source": "github_action",
         "candidate": "Yohanes Nofri",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-26 04:28:11",
+        "source": "github_action",
+        "candidate": "Nabilah Putri Anggraeni",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
