@@ -13591,24 +13591,17 @@
     ]
   },
   "2026-04-26": {
-    "total": 270,
+    "total": 271,
     "streamlit": 0,
-    "github_action": 270,
-    "successful": 270,
+    "github_action": 271,
+    "successful": 271,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
-      "Business Development Analyst": 70
+      "Business Development Analyst": 71
     },
     "entries": [
-      {
-        "timestamp": "2026-04-26 05:32:45",
-        "source": "github_action",
-        "candidate": "Wimby Safitri",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-26 05:33:12",
         "source": "github_action",
@@ -14299,6 +14292,13 @@
         "timestamp": "2026-04-26 06:20:44",
         "source": "github_action",
         "candidate": "Fathiya Najmaayyubi",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-26 06:21:11",
+        "source": "github_action",
+        "candidate": "Rafly Ramadhani",
         "position": "Business Development Analyst",
         "success": true
       }
