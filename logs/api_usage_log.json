@@ -13591,25 +13591,18 @@
     ]
   },
   "2026-04-26": {
-    "total": 323,
+    "total": 324,
     "streamlit": 0,
-    "github_action": 323,
-    "successful": 323,
+    "github_action": 324,
+    "successful": 324,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 23
+      "Account Executive VCBL": 24
     },
     "entries": [
-      {
-        "timestamp": "2026-04-26 05:59:09",
-        "source": "github_action",
-        "candidate": "Ivan Rivaldi",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-26 05:59:37",
         "source": "github_action",
@@ -14300,6 +14293,13 @@
         "timestamp": "2026-04-26 06:45:34",
         "source": "github_action",
         "candidate": "Golda  Meiyer",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-26 06:46:03",
+        "source": "github_action",
+        "candidate": "Dwiky Satria",
         "position": "Account Executive VCBL",
         "success": true
       }
