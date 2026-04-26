@@ -13591,23 +13591,16 @@
     ]
   },
   "2026-04-26": {
-    "total": 175,
+    "total": 176,
     "streamlit": 0,
-    "github_action": 175,
-    "successful": 175,
+    "github_action": 176,
+    "successful": 176,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 75
+      "Reporter Nasional": 76
     },
     "entries": [
-      {
-        "timestamp": "2026-04-26 04:49:43",
-        "source": "github_action",
-        "candidate": "Ni Luh Kade Dwi Ratna Safitri",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-26 04:50:15",
         "source": "github_action",
@@ -14298,6 +14291,13 @@
         "timestamp": "2026-04-26 05:34:41",
         "source": "github_action",
         "candidate": "Annisa Hermita",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-26 05:35:10",
+        "source": "github_action",
+        "candidate": "Zulfa Atsna Taqia",
         "position": "Reporter Nasional",
         "success": true
       }
