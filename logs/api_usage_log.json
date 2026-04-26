@@ -13591,13 +13591,13 @@
     ]
   },
   "2026-04-26": {
-    "total": 20,
+    "total": 21,
     "streamlit": 0,
-    "github_action": 20,
-    "successful": 20,
+    "github_action": 21,
+    "successful": 21,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 20
+      "Marketing Communication Officer KG Media": 21
     },
     "entries": [
       {
@@ -13737,6 +13737,13 @@
         "timestamp": "2026-04-26 04:24:18",
         "source": "github_action",
         "candidate": "KINANTI MUTIARA  PRASOJO",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-26 04:24:50",
+        "source": "github_action",
+        "candidate": "Fardilla Yusuf",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
