@@ -13591,13 +13591,13 @@
     ]
   },
   "2026-04-26": {
-    "total": 34,
+    "total": 35,
     "streamlit": 0,
-    "github_action": 34,
-    "successful": 34,
+    "github_action": 35,
+    "successful": 35,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 34
+      "Marketing Communication Officer KG Media": 35
     },
     "entries": [
       {
@@ -13835,6 +13835,13 @@
         "timestamp": "2026-04-26 04:31:05",
         "source": "github_action",
         "candidate": "silva lismawarni",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-26 04:31:35",
+        "source": "github_action",
+        "candidate": "Pieters Hansdijanto",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
