@@ -13591,23 +13591,16 @@
     ]
   },
   "2026-04-26": {
-    "total": 102,
+    "total": 103,
     "streamlit": 0,
-    "github_action": 102,
-    "successful": 102,
+    "github_action": 103,
+    "successful": 103,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 2
+      "Reporter Nasional": 3
     },
     "entries": [
-      {
-        "timestamp": "2026-04-26 04:16:24",
-        "source": "github_action",
-        "candidate": "Ali Farhan Akhmad",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-26 04:16:58",
         "source": "github_action",
@@ -14298,6 +14291,13 @@
         "timestamp": "2026-04-26 05:00:50",
         "source": "github_action",
         "candidate": "Fano Eger",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-26 05:01:17",
+        "source": "github_action",
+        "candidate": "Mutia Choerunissa",
         "position": "Reporter Nasional",
         "success": true
       }
