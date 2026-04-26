@@ -13591,23 +13591,16 @@
     ]
   },
   "2026-04-26": {
-    "total": 137,
+    "total": 138,
     "streamlit": 0,
-    "github_action": 137,
-    "successful": 137,
+    "github_action": 138,
+    "successful": 138,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 37
+      "Reporter Nasional": 38
     },
     "entries": [
-      {
-        "timestamp": "2026-04-26 04:33:00",
-        "source": "github_action",
-        "candidate": "Heri Satriawan",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-26 04:33:26",
         "source": "github_action",
@@ -14298,6 +14291,13 @@
         "timestamp": "2026-04-26 05:16:41",
         "source": "github_action",
         "candidate": "ERIJ  karimah",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-26 05:17:13",
+        "source": "github_action",
+        "candidate": "Nadifa Aisyahrizka",
         "position": "Reporter Nasional",
         "success": true
       }
