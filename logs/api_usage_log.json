@@ -13591,25 +13591,18 @@
     ]
   },
   "2026-04-26": {
-    "total": 332,
+    "total": 333,
     "streamlit": 0,
-    "github_action": 332,
-    "successful": 332,
+    "github_action": 333,
+    "successful": 333,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 32
+      "Account Executive VCBL": 33
     },
     "entries": [
-      {
-        "timestamp": "2026-04-26 06:03:48",
-        "source": "github_action",
-        "candidate": "Galuh Kinanthi Rahardjo",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-26 06:04:16",
         "source": "github_action",
@@ -14300,6 +14293,13 @@
         "timestamp": "2026-04-26 06:49:58",
         "source": "github_action",
         "candidate": "Muhammad Rizki",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-26 06:50:44",
+        "source": "github_action",
+        "candidate": "Muhammad Kevandra",
         "position": "Account Executive VCBL",
         "success": true
       }
