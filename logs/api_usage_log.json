@@ -13591,13 +13591,13 @@
     ]
   },
   "2026-04-26": {
-    "total": 26,
+    "total": 27,
     "streamlit": 0,
-    "github_action": 26,
-    "successful": 26,
+    "github_action": 27,
+    "successful": 27,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 26
+      "Marketing Communication Officer KG Media": 27
     },
     "entries": [
       {
@@ -13779,6 +13779,13 @@
         "timestamp": "2026-04-26 04:27:14",
         "source": "github_action",
         "candidate": "Alifah Nurfaizah",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-26 04:27:41",
+        "source": "github_action",
+        "candidate": "Yohanes Nofri",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
