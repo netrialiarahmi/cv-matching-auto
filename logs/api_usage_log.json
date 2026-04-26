@@ -13591,23 +13591,16 @@
     ]
   },
   "2026-04-26": {
-    "total": 151,
+    "total": 152,
     "streamlit": 0,
-    "github_action": 151,
-    "successful": 151,
+    "github_action": 152,
+    "successful": 152,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 51
+      "Reporter Nasional": 52
     },
     "entries": [
-      {
-        "timestamp": "2026-04-26 04:39:21",
-        "source": "github_action",
-        "candidate": "Nopri Ramadan Sulu",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-26 04:39:53",
         "source": "github_action",
@@ -14298,6 +14291,13 @@
         "timestamp": "2026-04-26 05:23:20",
         "source": "github_action",
         "candidate": "Nataya Kirana",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-26 05:23:48",
+        "source": "github_action",
+        "candidate": "Eugenia F. N. Siregar",
         "position": "Reporter Nasional",
         "success": true
       }
