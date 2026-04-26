@@ -13591,24 +13591,17 @@
     ]
   },
   "2026-04-26": {
-    "total": 260,
+    "total": 261,
     "streamlit": 0,
-    "github_action": 260,
-    "successful": 260,
+    "github_action": 261,
+    "successful": 261,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
-      "Business Development Analyst": 60
+      "Business Development Analyst": 61
     },
     "entries": [
-      {
-        "timestamp": "2026-04-26 05:27:28",
-        "source": "github_action",
-        "candidate": "Muhammad Fadhilah",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-26 05:27:55",
         "source": "github_action",
@@ -14299,6 +14292,13 @@
         "timestamp": "2026-04-26 06:15:44",
         "source": "github_action",
         "candidate": "Devit werus siahaan",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-26 06:16:13",
+        "source": "github_action",
+        "candidate": "Nancy Yonata",
         "position": "Business Development Analyst",
         "success": true
       }
