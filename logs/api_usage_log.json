@@ -13591,25 +13591,18 @@
     ]
   },
   "2026-04-26": {
-    "total": 380,
+    "total": 381,
     "streamlit": 0,
-    "github_action": 380,
-    "successful": 380,
+    "github_action": 381,
+    "successful": 381,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 80
+      "Account Executive VCBL": 81
     },
     "entries": [
-      {
-        "timestamp": "2026-04-26 06:26:06",
-        "source": "github_action",
-        "candidate": "Muhammad Irfan Zidni Ali",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-26 06:26:32",
         "source": "github_action",
@@ -14300,6 +14293,13 @@
         "timestamp": "2026-04-26 07:11:55",
         "source": "github_action",
         "candidate": "sofa rina",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-26 07:12:25",
+        "source": "github_action",
+        "candidate": "Ayu Irene Oktalina",
         "position": "Account Executive VCBL",
         "success": true
       }
