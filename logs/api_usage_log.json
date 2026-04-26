@@ -13591,23 +13591,16 @@
     ]
   },
   "2026-04-26": {
-    "total": 154,
+    "total": 155,
     "streamlit": 0,
-    "github_action": 154,
-    "successful": 154,
+    "github_action": 155,
+    "successful": 155,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 54
+      "Reporter Nasional": 55
     },
     "entries": [
-      {
-        "timestamp": "2026-04-26 04:40:49",
-        "source": "github_action",
-        "candidate": "Ricky Iman Ma'rufi",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-26 04:41:17",
         "source": "github_action",
@@ -14298,6 +14291,13 @@
         "timestamp": "2026-04-26 05:24:15",
         "source": "github_action",
         "candidate": "Nur Rahmaini Lubis",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-26 05:24:40",
+        "source": "github_action",
+        "candidate": "Andika Yudhistira",
         "position": "Reporter Nasional",
         "success": true
       }
