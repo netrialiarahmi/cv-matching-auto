@@ -13591,23 +13591,16 @@
     ]
   },
   "2026-04-26": {
-    "total": 167,
+    "total": 168,
     "streamlit": 0,
-    "github_action": 167,
-    "successful": 167,
+    "github_action": 168,
+    "successful": 168,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 67
+      "Reporter Nasional": 68
     },
     "entries": [
-      {
-        "timestamp": "2026-04-26 04:45:46",
-        "source": "github_action",
-        "candidate": "Evelyn Inly",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-26 04:46:17",
         "source": "github_action",
@@ -14298,6 +14291,13 @@
         "timestamp": "2026-04-26 05:30:50",
         "source": "github_action",
         "candidate": "Alprita Cersia Lobo",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-26 05:31:16",
+        "source": "github_action",
+        "candidate": "Oky Zuwifri Tarigan",
         "position": "Reporter Nasional",
         "success": true
       }
