@@ -13591,25 +13591,18 @@
     ]
   },
   "2026-04-26": {
-    "total": 321,
+    "total": 322,
     "streamlit": 0,
-    "github_action": 321,
-    "successful": 321,
+    "github_action": 322,
+    "successful": 322,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 21
+      "Account Executive VCBL": 22
     },
     "entries": [
-      {
-        "timestamp": "2026-04-26 05:58:14",
-        "source": "github_action",
-        "candidate": "Aditya Reynaldi",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-26 05:58:41",
         "source": "github_action",
@@ -14300,6 +14293,13 @@
         "timestamp": "2026-04-26 06:44:39",
         "source": "github_action",
         "candidate": "Parto  Simanihuruk",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-26 06:45:04",
+        "source": "github_action",
+        "candidate": "Safira Amanda Prasanti",
         "position": "Account Executive VCBL",
         "success": true
       }
