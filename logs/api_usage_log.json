@@ -13591,13 +13591,13 @@
     ]
   },
   "2026-04-26": {
-    "total": 35,
+    "total": 36,
     "streamlit": 0,
-    "github_action": 35,
-    "successful": 35,
+    "github_action": 36,
+    "successful": 36,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 35
+      "Marketing Communication Officer KG Media": 36
     },
     "entries": [
       {
@@ -13842,6 +13842,13 @@
         "timestamp": "2026-04-26 04:31:35",
         "source": "github_action",
         "candidate": "Pieters Hansdijanto",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-26 04:32:08",
+        "source": "github_action",
+        "candidate": "Nauval Hasemi",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
