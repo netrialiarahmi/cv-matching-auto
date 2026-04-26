@@ -13591,13 +13591,13 @@
     ]
   },
   "2026-04-26": {
-    "total": 91,
+    "total": 92,
     "streamlit": 0,
-    "github_action": 91,
-    "successful": 91,
+    "github_action": 92,
+    "successful": 92,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 91
+      "Marketing Communication Officer KG Media": 92
     },
     "entries": [
       {
@@ -14234,6 +14234,13 @@
         "timestamp": "2026-04-26 04:55:58",
         "source": "github_action",
         "candidate": "Rengganis Utami",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-26 04:56:01",
+        "source": "github_action",
+        "candidate": "karin alifia",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
