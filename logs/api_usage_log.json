@@ -13591,25 +13591,18 @@
     ]
   },
   "2026-04-26": {
-    "total": 359,
+    "total": 360,
     "streamlit": 0,
-    "github_action": 359,
-    "successful": 359,
+    "github_action": 360,
+    "successful": 360,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 59
+      "Account Executive VCBL": 60
     },
     "entries": [
-      {
-        "timestamp": "2026-04-26 06:15:44",
-        "source": "github_action",
-        "candidate": "Devit werus siahaan",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-26 06:16:13",
         "source": "github_action",
@@ -14300,6 +14293,13 @@
         "timestamp": "2026-04-26 07:01:50",
         "source": "github_action",
         "candidate": "Jamil Saepul Azis",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-26 07:02:18",
+        "source": "github_action",
+        "candidate": "Putri Nur Farida",
         "position": "Account Executive VCBL",
         "success": true
       }
