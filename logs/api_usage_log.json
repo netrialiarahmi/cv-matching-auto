@@ -13591,13 +13591,13 @@
     ]
   },
   "2026-04-26": {
-    "total": 29,
+    "total": 30,
     "streamlit": 0,
-    "github_action": 29,
-    "successful": 29,
+    "github_action": 30,
+    "successful": 30,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 29
+      "Marketing Communication Officer KG Media": 30
     },
     "entries": [
       {
@@ -13800,6 +13800,13 @@
         "timestamp": "2026-04-26 04:28:41",
         "source": "github_action",
         "candidate": "Amanda Ayu Cinthia",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-26 04:29:06",
+        "source": "github_action",
+        "candidate": "Muhamad Gilman",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
