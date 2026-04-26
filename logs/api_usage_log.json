@@ -13591,23 +13591,16 @@
     ]
   },
   "2026-04-26": {
-    "total": 105,
+    "total": 106,
     "streamlit": 0,
-    "github_action": 105,
-    "successful": 105,
+    "github_action": 106,
+    "successful": 106,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 5
+      "Reporter Nasional": 6
     },
     "entries": [
-      {
-        "timestamp": "2026-04-26 04:17:58",
-        "source": "github_action",
-        "candidate": "Aldy Priatno",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-26 04:18:28",
         "source": "github_action",
@@ -14298,6 +14291,13 @@
         "timestamp": "2026-04-26 05:02:16",
         "source": "github_action",
         "candidate": "Fajar Gumilar",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-26 05:02:18",
+        "source": "github_action",
+        "candidate": "sitinurfadilamopi sitinurfadilamopi",
         "position": "Reporter Nasional",
         "success": true
       }
