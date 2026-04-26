@@ -13591,23 +13591,16 @@
     ]
   },
   "2026-04-26": {
-    "total": 189,
+    "total": 190,
     "streamlit": 0,
-    "github_action": 189,
-    "successful": 189,
+    "github_action": 190,
+    "successful": 190,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 89
+      "Reporter Nasional": 90
     },
     "entries": [
-      {
-        "timestamp": "2026-04-26 04:55:30",
-        "source": "github_action",
-        "candidate": "Rifki Buyung",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-26 04:55:58",
         "source": "github_action",
@@ -14298,6 +14291,13 @@
         "timestamp": "2026-04-26 05:41:37",
         "source": "github_action",
         "candidate": "Muhammad Alifian Ruskandar",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-26 05:42:01",
+        "source": "github_action",
+        "candidate": "Ryadh Mega Putera",
         "position": "Reporter Nasional",
         "success": true
       }
