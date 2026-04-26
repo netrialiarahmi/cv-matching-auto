@@ -13591,24 +13591,17 @@
     ]
   },
   "2026-04-26": {
-    "total": 230,
+    "total": 231,
     "streamlit": 0,
-    "github_action": 230,
-    "successful": 230,
+    "github_action": 231,
+    "successful": 231,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
-      "Business Development Analyst": 30
+      "Business Development Analyst": 31
     },
     "entries": [
-      {
-        "timestamp": "2026-04-26 05:13:57",
-        "source": "github_action",
-        "candidate": "Muhammad Farhan",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-26 05:14:28",
         "source": "github_action",
@@ -14299,6 +14292,13 @@
         "timestamp": "2026-04-26 06:02:16",
         "source": "github_action",
         "candidate": "Muhamad Shahriza Rijadi Putra",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-26 06:02:43",
+        "source": "github_action",
+        "candidate": "Pinta Rohmada Rahayu",
         "position": "Business Development Analyst",
         "success": true
       }
