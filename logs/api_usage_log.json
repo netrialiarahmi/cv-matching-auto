@@ -13591,13 +13591,13 @@
     ]
   },
   "2026-04-26": {
-    "total": 83,
+    "total": 84,
     "streamlit": 0,
-    "github_action": 83,
-    "successful": 83,
+    "github_action": 84,
+    "successful": 84,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 83
+      "Marketing Communication Officer KG Media": 84
     },
     "entries": [
       {
@@ -14178,6 +14178,13 @@
         "timestamp": "2026-04-26 04:52:49",
         "source": "github_action",
         "candidate": "Rulia Infah Intari",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-26 04:52:51",
+        "source": "github_action",
+        "candidate": "Fadli Parangin angin",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
