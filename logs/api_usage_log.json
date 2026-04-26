@@ -13591,24 +13591,17 @@
     ]
   },
   "2026-04-26": {
-    "total": 284,
+    "total": 285,
     "streamlit": 0,
-    "github_action": 284,
-    "successful": 284,
+    "github_action": 285,
+    "successful": 285,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
-      "Business Development Analyst": 84
+      "Business Development Analyst": 85
     },
     "entries": [
-      {
-        "timestamp": "2026-04-26 05:39:45",
-        "source": "github_action",
-        "candidate": "Bima Sena Nur Endrawan",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-26 05:40:14",
         "source": "github_action",
@@ -14299,6 +14292,13 @@
         "timestamp": "2026-04-26 06:27:29",
         "source": "github_action",
         "candidate": "romy senjaya",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-26 06:28:01",
+        "source": "github_action",
+        "candidate": "Adinda Hita Saraswati",
         "position": "Business Development Analyst",
         "success": true
       }
