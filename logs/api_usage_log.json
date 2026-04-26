@@ -13591,25 +13591,18 @@
     ]
   },
   "2026-04-26": {
-    "total": 386,
+    "total": 387,
     "streamlit": 0,
-    "github_action": 386,
-    "successful": 386,
+    "github_action": 387,
+    "successful": 387,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 86
+      "Account Executive VCBL": 87
     },
     "entries": [
-      {
-        "timestamp": "2026-04-26 06:28:32",
-        "source": "github_action",
-        "candidate": "Sonia Nazwa",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-26 06:29:01",
         "source": "github_action",
@@ -14300,6 +14293,13 @@
         "timestamp": "2026-04-26 07:14:41",
         "source": "github_action",
         "candidate": "Raesha Mutia",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-26 07:15:10",
+        "source": "github_action",
+        "candidate": "Gina Agustiani",
         "position": "Account Executive VCBL",
         "success": true
       }
