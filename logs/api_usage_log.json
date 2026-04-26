@@ -13591,25 +13591,18 @@
     ]
   },
   "2026-04-26": {
-    "total": 301,
+    "total": 302,
     "streamlit": 0,
-    "github_action": 301,
-    "successful": 301,
+    "github_action": 302,
+    "successful": 302,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 1
+      "Account Executive VCBL": 2
     },
     "entries": [
-      {
-        "timestamp": "2026-04-26 05:48:01",
-        "source": "github_action",
-        "candidate": "Hagie Pradivio",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-26 05:48:31",
         "source": "github_action",
@@ -14300,6 +14293,13 @@
         "timestamp": "2026-04-26 06:35:50",
         "source": "github_action",
         "candidate": "Aqila Amalia",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-26 06:36:16",
+        "source": "github_action",
+        "candidate": "Avisa Zahirah",
         "position": "Account Executive VCBL",
         "success": true
       }
