@@ -13591,13 +13591,13 @@
     ]
   },
   "2026-04-26": {
-    "total": 92,
+    "total": 93,
     "streamlit": 0,
-    "github_action": 92,
-    "successful": 92,
+    "github_action": 93,
+    "successful": 93,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 92
+      "Marketing Communication Officer KG Media": 93
     },
     "entries": [
       {
@@ -14241,6 +14241,13 @@
         "timestamp": "2026-04-26 04:56:01",
         "source": "github_action",
         "candidate": "karin alifia",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-26 04:56:28",
+        "source": "github_action",
+        "candidate": "Hilalia Kani Juliana",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
