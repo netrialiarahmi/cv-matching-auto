@@ -13591,24 +13591,17 @@
     ]
   },
   "2026-04-26": {
-    "total": 289,
+    "total": 290,
     "streamlit": 0,
-    "github_action": 289,
-    "successful": 289,
+    "github_action": 290,
+    "successful": 290,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
-      "Business Development Analyst": 89
+      "Business Development Analyst": 90
     },
     "entries": [
-      {
-        "timestamp": "2026-04-26 05:42:01",
-        "source": "github_action",
-        "candidate": "Ryadh Mega Putera",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-26 05:42:27",
         "source": "github_action",
@@ -14299,6 +14292,13 @@
         "timestamp": "2026-04-26 06:29:44",
         "source": "github_action",
         "candidate": "Kharisma Qaulam",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-26 06:30:21",
+        "source": "github_action",
+        "candidate": "Joko Goftar Nainggolan",
         "position": "Business Development Analyst",
         "success": true
       }
