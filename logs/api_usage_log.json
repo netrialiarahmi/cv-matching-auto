@@ -13591,25 +13591,18 @@
     ]
   },
   "2026-04-26": {
-    "total": 370,
+    "total": 371,
     "streamlit": 0,
-    "github_action": 370,
-    "successful": 370,
+    "github_action": 371,
+    "successful": 371,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 70
+      "Account Executive VCBL": 71
     },
     "entries": [
-      {
-        "timestamp": "2026-04-26 06:21:11",
-        "source": "github_action",
-        "candidate": "Rafly Ramadhani",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-26 06:22:00",
         "source": "github_action",
@@ -14300,6 +14293,13 @@
         "timestamp": "2026-04-26 07:06:57",
         "source": "github_action",
         "candidate": "Grace Horstefanny",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-26 07:07:26",
+        "source": "github_action",
+        "candidate": "Beatrix Gotama",
         "position": "Account Executive VCBL",
         "success": true
       }
