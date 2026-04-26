@@ -13591,25 +13591,18 @@
     ]
   },
   "2026-04-26": {
-    "total": 383,
+    "total": 384,
     "streamlit": 0,
-    "github_action": 383,
-    "successful": 383,
+    "github_action": 384,
+    "successful": 384,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 83
+      "Account Executive VCBL": 84
     },
     "entries": [
-      {
-        "timestamp": "2026-04-26 06:27:29",
-        "source": "github_action",
-        "candidate": "romy senjaya",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-26 06:28:01",
         "source": "github_action",
@@ -14300,6 +14293,13 @@
         "timestamp": "2026-04-26 07:13:23",
         "source": "github_action",
         "candidate": "Sumita Suci Damayanti",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-26 07:13:51",
+        "source": "github_action",
+        "candidate": "Yanina Turbana",
         "position": "Account Executive VCBL",
         "success": true
       }
