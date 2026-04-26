@@ -13591,23 +13591,16 @@
     ]
   },
   "2026-04-26": {
-    "total": 168,
+    "total": 169,
     "streamlit": 0,
-    "github_action": 168,
-    "successful": 168,
+    "github_action": 169,
+    "successful": 169,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 68
+      "Reporter Nasional": 69
     },
     "entries": [
-      {
-        "timestamp": "2026-04-26 04:46:17",
-        "source": "github_action",
-        "candidate": "Jesslyn Samantha",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-26 04:46:46",
         "source": "github_action",
@@ -14298,6 +14291,13 @@
         "timestamp": "2026-04-26 05:31:16",
         "source": "github_action",
         "candidate": "Oky Zuwifri Tarigan",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-26 05:31:42",
+        "source": "github_action",
+        "candidate": "Putri Rahma Aryani",
         "position": "Reporter Nasional",
         "success": true
       }
