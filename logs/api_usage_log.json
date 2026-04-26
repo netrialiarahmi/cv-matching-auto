@@ -13591,24 +13591,17 @@
     ]
   },
   "2026-04-26": {
-    "total": 204,
+    "total": 205,
     "streamlit": 0,
-    "github_action": 204,
-    "successful": 204,
+    "github_action": 205,
+    "successful": 205,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
-      "Business Development Analyst": 4
+      "Business Development Analyst": 5
     },
     "entries": [
-      {
-        "timestamp": "2026-04-26 05:02:16",
-        "source": "github_action",
-        "candidate": "Fajar Gumilar",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-26 05:02:18",
         "source": "github_action",
@@ -14299,6 +14292,13 @@
         "timestamp": "2026-04-26 05:49:00",
         "source": "github_action",
         "candidate": "Ilham Putra",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-26 05:49:34",
+        "source": "github_action",
+        "candidate": "Raditya Ari Vernandito",
         "position": "Business Development Analyst",
         "success": true
       }
