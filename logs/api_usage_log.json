@@ -13591,13 +13591,13 @@
     ]
   },
   "2026-04-26": {
-    "total": 51,
+    "total": 52,
     "streamlit": 0,
-    "github_action": 51,
-    "successful": 51,
+    "github_action": 52,
+    "successful": 52,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 51
+      "Marketing Communication Officer KG Media": 52
     },
     "entries": [
       {
@@ -13954,6 +13954,13 @@
         "timestamp": "2026-04-26 04:38:49",
         "source": "github_action",
         "candidate": "Axel Hans Kristian",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-26 04:39:21",
+        "source": "github_action",
+        "candidate": "Nopri Ramadan Sulu",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
