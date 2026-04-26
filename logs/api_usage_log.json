@@ -13591,23 +13591,16 @@
     ]
   },
   "2026-04-26": {
-    "total": 178,
+    "total": 179,
     "streamlit": 0,
-    "github_action": 178,
-    "successful": 178,
+    "github_action": 179,
+    "successful": 179,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 78
+      "Reporter Nasional": 79
     },
     "entries": [
-      {
-        "timestamp": "2026-04-26 04:50:50",
-        "source": "github_action",
-        "candidate": "Melody Allegra",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-26 04:51:16",
         "source": "github_action",
@@ -14298,6 +14291,13 @@
         "timestamp": "2026-04-26 05:36:05",
         "source": "github_action",
         "candidate": "Hasti Nadhilah",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-26 05:36:35",
+        "source": "github_action",
+        "candidate": "Mikie Aditya Wicaksana",
         "position": "Reporter Nasional",
         "success": true
       }
