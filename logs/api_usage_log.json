@@ -13591,25 +13591,18 @@
     ]
   },
   "2026-04-26": {
-    "total": 376,
+    "total": 377,
     "streamlit": 0,
-    "github_action": 376,
-    "successful": 376,
+    "github_action": 377,
+    "successful": 377,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 76
+      "Account Executive VCBL": 77
     },
     "entries": [
-      {
-        "timestamp": "2026-04-26 06:24:05",
-        "source": "github_action",
-        "candidate": "Sujiwo Gio",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-26 06:24:32",
         "source": "github_action",
@@ -14300,6 +14293,13 @@
         "timestamp": "2026-04-26 07:09:39",
         "source": "github_action",
         "candidate": "Dinda Azaria Rowi",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-26 07:10:26",
+        "source": "github_action",
+        "candidate": "Puji lestari",
         "position": "Account Executive VCBL",
         "success": true
       }
