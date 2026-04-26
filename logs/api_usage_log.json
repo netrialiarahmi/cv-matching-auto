@@ -13591,24 +13591,17 @@
     ]
   },
   "2026-04-26": {
-    "total": 281,
+    "total": 282,
     "streamlit": 0,
-    "github_action": 281,
-    "successful": 281,
+    "github_action": 282,
+    "successful": 282,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
-      "Business Development Analyst": 81
+      "Business Development Analyst": 82
     },
     "entries": [
-      {
-        "timestamp": "2026-04-26 05:38:10",
-        "source": "github_action",
-        "candidate": "EL ZAIDAN",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-26 05:38:39",
         "source": "github_action",
@@ -14299,6 +14292,13 @@
         "timestamp": "2026-04-26 06:26:06",
         "source": "github_action",
         "candidate": "Muhammad Irfan Zidni Ali",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-26 06:26:32",
+        "source": "github_action",
+        "candidate": "Indra Adi Susanto",
         "position": "Business Development Analyst",
         "success": true
       }
