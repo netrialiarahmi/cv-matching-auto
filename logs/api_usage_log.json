@@ -13591,23 +13591,16 @@
     ]
   },
   "2026-04-26": {
-    "total": 199,
+    "total": 200,
     "streamlit": 0,
-    "github_action": 199,
-    "successful": 199,
+    "github_action": 200,
+    "successful": 200,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 99
+      "Reporter Nasional": 100
     },
     "entries": [
-      {
-        "timestamp": "2026-04-26 04:59:55",
-        "source": "github_action",
-        "candidate": "Julia Juventya",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-26 05:00:23",
         "source": "github_action",
@@ -14298,6 +14291,13 @@
         "timestamp": "2026-04-26 05:46:01",
         "source": "github_action",
         "candidate": "Annisa Aprilia",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-26 05:46:33",
+        "source": "github_action",
+        "candidate": "Galih Aria Manggala",
         "position": "Reporter Nasional",
         "success": true
       }
