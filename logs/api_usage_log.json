@@ -13591,25 +13591,18 @@
     ]
   },
   "2026-04-26": {
-    "total": 354,
+    "total": 355,
     "streamlit": 0,
-    "github_action": 354,
-    "successful": 354,
+    "github_action": 355,
+    "successful": 355,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 54
+      "Account Executive VCBL": 55
     },
     "entries": [
-      {
-        "timestamp": "2026-04-26 06:14:08",
-        "source": "github_action",
-        "candidate": "Rafinda  Asca Riandy",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-26 06:14:37",
         "source": "github_action",
@@ -14300,6 +14293,13 @@
         "timestamp": "2026-04-26 06:59:58",
         "source": "github_action",
         "candidate": "Azka Putrie",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-26 07:00:29",
+        "source": "github_action",
+        "candidate": "Muhamad Tegar Dwi Prasetyo",
         "position": "Account Executive VCBL",
         "success": true
       }
