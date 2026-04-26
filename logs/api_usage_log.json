@@ -13591,23 +13591,16 @@
     ]
   },
   "2026-04-26": {
-    "total": 127,
+    "total": 128,
     "streamlit": 0,
-    "github_action": 127,
-    "successful": 127,
+    "github_action": 128,
+    "successful": 128,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 27
+      "Reporter Nasional": 28
     },
     "entries": [
-      {
-        "timestamp": "2026-04-26 04:28:11",
-        "source": "github_action",
-        "candidate": "Nabilah Putri Anggraeni",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-26 04:28:41",
         "source": "github_action",
@@ -14298,6 +14291,13 @@
         "timestamp": "2026-04-26 05:12:00",
         "source": "github_action",
         "candidate": "Ajmal Fajar",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-26 05:12:34",
+        "source": "github_action",
+        "candidate": "BAGUS SADEWO",
         "position": "Reporter Nasional",
         "success": true
       }
