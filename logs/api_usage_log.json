@@ -13591,23 +13591,16 @@
     ]
   },
   "2026-04-26": {
-    "total": 182,
+    "total": 183,
     "streamlit": 0,
-    "github_action": 182,
-    "successful": 182,
+    "github_action": 183,
+    "successful": 183,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 82
+      "Reporter Nasional": 83
     },
     "entries": [
-      {
-        "timestamp": "2026-04-26 04:52:49",
-        "source": "github_action",
-        "candidate": "Rulia Infah Intari",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-26 04:52:51",
         "source": "github_action",
@@ -14298,6 +14291,13 @@
         "timestamp": "2026-04-26 05:38:10",
         "source": "github_action",
         "candidate": "EL ZAIDAN",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-26 05:38:39",
+        "source": "github_action",
+        "candidate": "Ervin Fataka Buana Utama",
         "position": "Reporter Nasional",
         "success": true
       }
