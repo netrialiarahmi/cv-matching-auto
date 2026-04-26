@@ -13591,24 +13591,17 @@
     ]
   },
   "2026-04-26": {
-    "total": 298,
+    "total": 299,
     "streamlit": 0,
-    "github_action": 298,
-    "successful": 298,
+    "github_action": 299,
+    "successful": 299,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
-      "Business Development Analyst": 98
+      "Business Development Analyst": 99
     },
     "entries": [
-      {
-        "timestamp": "2026-04-26 05:46:01",
-        "source": "github_action",
-        "candidate": "Annisa Aprilia",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-26 05:46:33",
         "source": "github_action",
@@ -14299,6 +14292,13 @@
         "timestamp": "2026-04-26 06:34:23",
         "source": "github_action",
         "candidate": "putri  yulianti",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-26 06:34:49",
+        "source": "github_action",
+        "candidate": "Hilmi Hauzan",
         "position": "Business Development Analyst",
         "success": true
       }
