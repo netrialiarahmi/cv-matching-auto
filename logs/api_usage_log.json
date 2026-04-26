@@ -13591,23 +13591,16 @@
     ]
   },
   "2026-04-26": {
-    "total": 196,
+    "total": 197,
     "streamlit": 0,
-    "github_action": 196,
-    "successful": 196,
+    "github_action": 197,
+    "successful": 197,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 96
+      "Reporter Nasional": 97
     },
     "entries": [
-      {
-        "timestamp": "2026-04-26 04:58:00",
-        "source": "github_action",
-        "candidate": "HARYO DAMAR WIDIGDO",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-26 04:58:32",
         "source": "github_action",
@@ -14298,6 +14291,13 @@
         "timestamp": "2026-04-26 05:44:38",
         "source": "github_action",
         "candidate": "MuhammadFarhanZharif 20-65",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-26 05:45:02",
+        "source": "github_action",
+        "candidate": "Nadia Azzahra wibowo",
         "position": "Reporter Nasional",
         "success": true
       }
