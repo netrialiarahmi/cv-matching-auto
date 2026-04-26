@@ -13591,23 +13591,16 @@
     ]
   },
   "2026-04-26": {
-    "total": 166,
+    "total": 167,
     "streamlit": 0,
-    "github_action": 166,
-    "successful": 166,
+    "github_action": 167,
+    "successful": 167,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 66
+      "Reporter Nasional": 67
     },
     "entries": [
-      {
-        "timestamp": "2026-04-26 04:45:20",
-        "source": "github_action",
-        "candidate": "Nur Faizah Al Bahriyatul Baqiroh",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-26 04:45:46",
         "source": "github_action",
@@ -14298,6 +14291,13 @@
         "timestamp": "2026-04-26 05:30:23",
         "source": "github_action",
         "candidate": "Turangga Raflihuda",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-26 05:30:50",
+        "source": "github_action",
+        "candidate": "Alprita Cersia Lobo",
         "position": "Reporter Nasional",
         "success": true
       }
