@@ -13591,23 +13591,16 @@
     ]
   },
   "2026-04-26": {
-    "total": 149,
+    "total": 150,
     "streamlit": 0,
-    "github_action": 149,
-    "successful": 149,
+    "github_action": 150,
+    "successful": 150,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 49
+      "Reporter Nasional": 50
     },
     "entries": [
-      {
-        "timestamp": "2026-04-26 04:38:47",
-        "source": "github_action",
-        "candidate": "Halim Zunurain",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-26 04:38:49",
         "source": "github_action",
@@ -14298,6 +14291,13 @@
         "timestamp": "2026-04-26 05:22:05",
         "source": "github_action",
         "candidate": "Sindhu Linguistika Manumanasa",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-26 05:22:39",
+        "source": "github_action",
+        "candidate": "dearest tiantama",
         "position": "Reporter Nasional",
         "success": true
       }
