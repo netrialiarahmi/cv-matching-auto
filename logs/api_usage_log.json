@@ -13591,25 +13591,18 @@
     ]
   },
   "2026-04-26": {
-    "total": 348,
+    "total": 349,
     "streamlit": 0,
-    "github_action": 348,
-    "successful": 348,
+    "github_action": 349,
+    "successful": 349,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 48
+      "Account Executive VCBL": 49
     },
     "entries": [
-      {
-        "timestamp": "2026-04-26 06:11:33",
-        "source": "github_action",
-        "candidate": "Darrell Matthews",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-26 06:12:02",
         "source": "github_action",
@@ -14300,6 +14293,13 @@
         "timestamp": "2026-04-26 06:56:52",
         "source": "github_action",
         "candidate": "Kurnia Ariati",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-26 06:57:45",
+        "source": "github_action",
+        "candidate": "Fatmawati",
         "position": "Account Executive VCBL",
         "success": true
       }
