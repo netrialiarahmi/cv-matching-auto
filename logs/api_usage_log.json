@@ -13591,23 +13591,16 @@
     ]
   },
   "2026-04-26": {
-    "total": 158,
+    "total": 159,
     "streamlit": 0,
-    "github_action": 158,
-    "successful": 158,
+    "github_action": 159,
+    "successful": 159,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 58
+      "Reporter Nasional": 59
     },
     "entries": [
-      {
-        "timestamp": "2026-04-26 04:42:39",
-        "source": "github_action",
-        "candidate": "Febiana Nur Azizah",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-26 04:42:41",
         "source": "github_action",
@@ -14298,6 +14291,13 @@
         "timestamp": "2026-04-26 05:26:09",
         "source": "github_action",
         "candidate": "Nurul Rahma",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-26 05:26:38",
+        "source": "github_action",
+        "candidate": "Ayu Nisa'Usholihah",
         "position": "Reporter Nasional",
         "success": true
       }
