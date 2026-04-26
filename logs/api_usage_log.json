@@ -13591,23 +13591,16 @@
     ]
   },
   "2026-04-26": {
-    "total": 177,
+    "total": 178,
     "streamlit": 0,
-    "github_action": 177,
-    "successful": 177,
+    "github_action": 178,
+    "successful": 178,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 77
+      "Reporter Nasional": 78
     },
     "entries": [
-      {
-        "timestamp": "2026-04-26 04:50:48",
-        "source": "github_action",
-        "candidate": "Reza Aditya Nugroho",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-26 04:50:50",
         "source": "github_action",
@@ -14298,6 +14291,13 @@
         "timestamp": "2026-04-26 05:35:34",
         "source": "github_action",
         "candidate": "ane hainunnisa",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-26 05:36:05",
+        "source": "github_action",
+        "candidate": "Hasti Nadhilah",
         "position": "Reporter Nasional",
         "success": true
       }
