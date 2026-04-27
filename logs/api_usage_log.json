@@ -14306,24 +14306,17 @@
     ]
   },
   "2026-04-27": {
-    "total": 282,
+    "total": 283,
     "streamlit": 0,
-    "github_action": 282,
-    "successful": 282,
+    "github_action": 283,
+    "successful": 283,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
-      "Business Development Analyst": 82
+      "Business Development Analyst": 83
     },
     "entries": [
-      {
-        "timestamp": "2026-04-27 06:02:36",
-        "source": "github_action",
-        "candidate": "Rinda Ariska Batubara",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-27 06:03:05",
         "source": "github_action",
@@ -15014,6 +15007,13 @@
         "timestamp": "2026-04-27 06:53:02",
         "source": "github_action",
         "candidate": "Joko Goftar Nainggolan",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-27 06:53:35",
+        "source": "github_action",
+        "candidate": "Prily Mustika Yana",
         "position": "Business Development Analyst",
         "success": true
       }
