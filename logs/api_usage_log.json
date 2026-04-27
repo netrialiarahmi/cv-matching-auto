@@ -14306,24 +14306,17 @@
     ]
   },
   "2026-04-27": {
-    "total": 279,
+    "total": 280,
     "streamlit": 0,
-    "github_action": 279,
-    "successful": 279,
+    "github_action": 280,
+    "successful": 280,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
-      "Business Development Analyst": 79
+      "Business Development Analyst": 80
     },
     "entries": [
-      {
-        "timestamp": "2026-04-27 06:01:03",
-        "source": "github_action",
-        "candidate": "Raden arkan",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-27 06:01:34",
         "source": "github_action",
@@ -15014,6 +15007,13 @@
         "timestamp": "2026-04-27 06:51:27",
         "source": "github_action",
         "candidate": "Dinda Putri Ramadhani",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-27 06:52:00",
+        "source": "github_action",
+        "candidate": "Dewi Aspara",
         "position": "Business Development Analyst",
         "success": true
       }
