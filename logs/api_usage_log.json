@@ -14306,23 +14306,16 @@
     ]
   },
   "2026-04-27": {
-    "total": 122,
+    "total": 123,
     "streamlit": 0,
-    "github_action": 122,
-    "successful": 122,
+    "github_action": 123,
+    "successful": 123,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 22
+      "Reporter Nasional": 23
     },
     "entries": [
-      {
-        "timestamp": "2026-04-27 04:44:50",
-        "source": "github_action",
-        "candidate": "Dede Kurnianto",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-27 04:45:16",
         "source": "github_action",
@@ -15013,6 +15006,13 @@
         "timestamp": "2026-04-27 05:32:35",
         "source": "github_action",
         "candidate": "Muhammad Iqbal",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-27 05:33:04",
+        "source": "github_action",
+        "candidate": "Dinar Indrani",
         "position": "Reporter Nasional",
         "success": true
       }
