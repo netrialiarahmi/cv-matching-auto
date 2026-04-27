@@ -14306,25 +14306,18 @@
     ]
   },
   "2026-04-27": {
-    "total": 339,
+    "total": 340,
     "streamlit": 0,
-    "github_action": 339,
-    "successful": 339,
+    "github_action": 340,
+    "successful": 340,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 39
+      "Account Executive VCBL": 40
     },
     "entries": [
-      {
-        "timestamp": "2026-04-27 06:32:45",
-        "source": "github_action",
-        "candidate": "Devianna Felicia Veronica",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-27 06:33:18",
         "source": "github_action",
@@ -15015,6 +15008,13 @@
         "timestamp": "2026-04-27 07:21:48",
         "source": "github_action",
         "candidate": "Aprina Septauli Manurung",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-27 07:22:22",
+        "source": "github_action",
+        "candidate": "Agus Nur Habib",
         "position": "Account Executive VCBL",
         "success": true
       }
