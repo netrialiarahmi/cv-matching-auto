@@ -14306,23 +14306,16 @@
     ]
   },
   "2026-04-27": {
-    "total": 195,
+    "total": 196,
     "streamlit": 0,
-    "github_action": 195,
-    "successful": 195,
+    "github_action": 196,
+    "successful": 196,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 95
+      "Reporter Nasional": 96
     },
     "entries": [
-      {
-        "timestamp": "2026-04-27 05:20:32",
-        "source": "github_action",
-        "candidate": "felin lorensa dani",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-27 05:21:01",
         "source": "github_action",
@@ -15013,6 +15006,13 @@
         "timestamp": "2026-04-27 06:08:24",
         "source": "github_action",
         "candidate": "Almaida Cielvani",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-27 06:08:50",
+        "source": "github_action",
+        "candidate": "Ester Tania Marbun",
         "position": "Reporter Nasional",
         "success": true
       }
