@@ -14306,13 +14306,13 @@
     ]
   },
   "2026-04-27": {
-    "total": 5,
+    "total": 6,
     "streamlit": 0,
-    "github_action": 5,
-    "successful": 5,
+    "github_action": 6,
+    "successful": 6,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 5
+      "Marketing Communication Officer KG Media": 6
     },
     "entries": [
       {
@@ -14347,6 +14347,13 @@
         "timestamp": "2026-04-27 04:35:36",
         "source": "github_action",
         "candidate": "Agnes Debora  Zega",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-27 04:36:09",
+        "source": "github_action",
+        "candidate": "Aldy Priatno",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
