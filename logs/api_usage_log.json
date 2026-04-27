@@ -14306,25 +14306,18 @@
     ]
   },
   "2026-04-27": {
-    "total": 383,
+    "total": 384,
     "streamlit": 0,
-    "github_action": 383,
-    "successful": 383,
+    "github_action": 384,
+    "successful": 384,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 83
+      "Account Executive VCBL": 84
     },
     "entries": [
-      {
-        "timestamp": "2026-04-27 06:54:09",
-        "source": "github_action",
-        "candidate": "Elisabeth Santy Paska",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-27 06:54:42",
         "source": "github_action",
@@ -15015,6 +15008,13 @@
         "timestamp": "2026-04-27 07:44:30",
         "source": "github_action",
         "candidate": "Nachita   Putri Madina",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-27 07:45:03",
+        "source": "github_action",
+        "candidate": "Salma Firda Sabila",
         "position": "Account Executive VCBL",
         "success": true
       }
