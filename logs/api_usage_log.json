@@ -14306,13 +14306,13 @@
     ]
   },
   "2026-04-27": {
-    "total": 61,
+    "total": 62,
     "streamlit": 0,
-    "github_action": 61,
-    "successful": 61,
+    "github_action": 62,
+    "successful": 62,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 61
+      "Marketing Communication Officer KG Media": 62
     },
     "entries": [
       {
@@ -14739,6 +14739,13 @@
         "timestamp": "2026-04-27 05:03:25",
         "source": "github_action",
         "candidate": "Reno Renaldi",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-27 05:03:55",
+        "source": "github_action",
+        "candidate": "Nur Faizah Al Bahriyatul Baqiroh",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
