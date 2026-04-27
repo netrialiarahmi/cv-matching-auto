@@ -14306,24 +14306,17 @@
     ]
   },
   "2026-04-27": {
-    "total": 295,
+    "total": 296,
     "streamlit": 0,
-    "github_action": 295,
-    "successful": 295,
+    "github_action": 296,
+    "successful": 296,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
-      "Business Development Analyst": 95
+      "Business Development Analyst": 96
     },
     "entries": [
-      {
-        "timestamp": "2026-04-27 06:08:50",
-        "source": "github_action",
-        "candidate": "Ester Tania Marbun",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-27 06:09:21",
         "source": "github_action",
@@ -15014,6 +15007,13 @@
         "timestamp": "2026-04-27 06:59:49",
         "source": "github_action",
         "candidate": "Afina Diah",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-27 07:00:26",
+        "source": "github_action",
+        "candidate": "raymond matheus",
         "position": "Business Development Analyst",
         "success": true
       }
