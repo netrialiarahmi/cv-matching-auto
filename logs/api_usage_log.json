@@ -14306,24 +14306,17 @@
     ]
   },
   "2026-04-27": {
-    "total": 237,
+    "total": 238,
     "streamlit": 0,
-    "github_action": 237,
-    "successful": 237,
+    "github_action": 238,
+    "successful": 238,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
-      "Business Development Analyst": 37
+      "Business Development Analyst": 38
     },
     "entries": [
-      {
-        "timestamp": "2026-04-27 05:40:06",
-        "source": "github_action",
-        "candidate": "Salma Shalsabilla",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-27 05:40:33",
         "source": "github_action",
@@ -15014,6 +15007,13 @@
         "timestamp": "2026-04-27 06:31:00",
         "source": "github_action",
         "candidate": "Yohana Simarmata",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-27 06:31:36",
+        "source": "github_action",
+        "candidate": "Rio Fabianto",
         "position": "Business Development Analyst",
         "success": true
       }
