@@ -14306,13 +14306,13 @@
     ]
   },
   "2026-04-27": {
-    "total": 98,
+    "total": 99,
     "streamlit": 0,
-    "github_action": 98,
-    "successful": 98,
+    "github_action": 99,
+    "successful": 99,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 98
+      "Marketing Communication Officer KG Media": 99
     },
     "entries": [
       {
@@ -14998,6 +14998,13 @@
         "timestamp": "2026-04-27 05:21:31",
         "source": "github_action",
         "candidate": "Tsaura Humane Ittihadia",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-27 05:22:02",
+        "source": "github_action",
+        "candidate": "erlina sari sinambela",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
