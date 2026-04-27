@@ -14306,24 +14306,17 @@
     ]
   },
   "2026-04-27": {
-    "total": 224,
+    "total": 225,
     "streamlit": 0,
-    "github_action": 224,
-    "successful": 224,
+    "github_action": 225,
+    "successful": 225,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
-      "Business Development Analyst": 24
+      "Business Development Analyst": 25
     },
     "entries": [
-      {
-        "timestamp": "2026-04-27 05:34:05",
-        "source": "github_action",
-        "candidate": "Ajmal Fajar",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-27 05:34:31",
         "source": "github_action",
@@ -15014,6 +15007,13 @@
         "timestamp": "2026-04-27 06:23:57",
         "source": "github_action",
         "candidate": "Fatimah Nurul Jamilah",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-27 06:24:25",
+        "source": "github_action",
+        "candidate": "Naufal  Hudaya",
         "position": "Business Development Analyst",
         "success": true
       }
