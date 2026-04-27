@@ -14306,23 +14306,16 @@
     ]
   },
   "2026-04-27": {
-    "total": 142,
+    "total": 143,
     "streamlit": 0,
-    "github_action": 142,
-    "successful": 142,
+    "github_action": 143,
+    "successful": 143,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 42
+      "Reporter Nasional": 43
     },
     "entries": [
-      {
-        "timestamp": "2026-04-27 04:55:26",
-        "source": "github_action",
-        "candidate": "Dien Shafa Moesya",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-27 04:55:57",
         "source": "github_action",
@@ -15013,6 +15006,13 @@
         "timestamp": "2026-04-27 05:42:14",
         "source": "github_action",
         "candidate": "Salsabila Syafaati Azizah",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-27 05:42:46",
+        "source": "github_action",
+        "candidate": "Siti Anisa Handayani",
         "position": "Reporter Nasional",
         "success": true
       }
