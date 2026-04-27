@@ -14306,23 +14306,16 @@
     ]
   },
   "2026-04-27": {
-    "total": 126,
+    "total": 127,
     "streamlit": 0,
-    "github_action": 126,
-    "successful": 126,
+    "github_action": 127,
+    "successful": 127,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 26
+      "Reporter Nasional": 27
     },
     "entries": [
-      {
-        "timestamp": "2026-04-27 04:46:56",
-        "source": "github_action",
-        "candidate": "Amanda Ayu Cinthia",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-27 04:47:26",
         "source": "github_action",
@@ -15013,6 +15006,13 @@
         "timestamp": "2026-04-27 05:34:31",
         "source": "github_action",
         "candidate": "BAGUS SADEWO",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-27 05:34:59",
+        "source": "github_action",
+        "candidate": "Carlo Alesandrino Pranata",
         "position": "Reporter Nasional",
         "success": true
       }
