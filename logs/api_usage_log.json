@@ -14304,5 +14304,720 @@
         "success": true
       }
     ]
+  },
+  "2026-04-27": {
+    "total": 400,
+    "streamlit": 0,
+    "github_action": 400,
+    "successful": 400,
+    "failed": 0,
+    "positions": {
+      "Marketing Communication Officer KG Media": 100,
+      "Reporter Nasional": 100,
+      "Business Development Analyst": 100,
+      "Account Executive VCBL": 100
+    },
+    "entries": [
+      {
+        "timestamp": "2026-04-27 07:03:14",
+        "source": "github_action",
+        "candidate": "Aqila Amalia",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-27 07:03:45",
+        "source": "github_action",
+        "candidate": "Avisa Zahirah",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-27 07:04:19",
+        "source": "github_action",
+        "candidate": "Farhan Rahman",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-27 07:04:52",
+        "source": "github_action",
+        "candidate": "Syafira Akhtari",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-27 07:05:26",
+        "source": "github_action",
+        "candidate": "Jethro Giovanni Saputra",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-27 07:05:57",
+        "source": "github_action",
+        "candidate": "Ilham Rahmatulloh",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-27 07:06:01",
+        "source": "github_action",
+        "candidate": "Farid Hidayat Putra",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-27 07:06:36",
+        "source": "github_action",
+        "candidate": "Suryani Safitri",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-27 07:07:06",
+        "source": "github_action",
+        "candidate": "Faiz Ardana Sani",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-27 07:07:39",
+        "source": "github_action",
+        "candidate": "Insyirah Ayu Ardila",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-27 07:08:13",
+        "source": "github_action",
+        "candidate": "juno ongko",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-27 07:08:43",
+        "source": "github_action",
+        "candidate": "Daffa Sandya Affansyah",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-27 07:09:16",
+        "source": "github_action",
+        "candidate": "Gita Aurelia",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-27 07:09:52",
+        "source": "github_action",
+        "candidate": "Pinkan Maliha Yasmin",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-27 07:09:56",
+        "source": "github_action",
+        "candidate": "Sidiq Yogha Nariza",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-27 07:10:28",
+        "source": "github_action",
+        "candidate": "Helena Caesaria",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-27 07:11:01",
+        "source": "github_action",
+        "candidate": "M Fadhil Ramadhan",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-27 07:11:30",
+        "source": "github_action",
+        "candidate": "Hafidh Muhammad Ibnu Sina",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-27 07:11:35",
+        "source": "github_action",
+        "candidate": "Dwi Syahra",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-27 07:12:06",
+        "source": "github_action",
+        "candidate": "Parto  Simanihuruk",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-27 07:12:38",
+        "source": "github_action",
+        "candidate": "Safira Amanda Prasanti",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-27 07:13:16",
+        "source": "github_action",
+        "candidate": "Dwiky Satria",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-27 07:13:51",
+        "source": "github_action",
+        "candidate": "Syarif Antoni",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-27 07:14:23",
+        "source": "github_action",
+        "candidate": "Nisa Nur Amalia",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-27 07:14:52",
+        "source": "github_action",
+        "candidate": "Muhammad Arrumi Fayyad",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-27 07:15:27",
+        "source": "github_action",
+        "candidate": "Reynaldi Rizky Aulia Bassar",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-27 07:15:53",
+        "source": "github_action",
+        "candidate": "Cindy Regina Anastasia",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-27 07:16:23",
+        "source": "github_action",
+        "candidate": "Rachma Ama",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-27 07:16:51",
+        "source": "github_action",
+        "candidate": "Farid Abdullah",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-27 07:17:22",
+        "source": "github_action",
+        "candidate": "Muhammad Rizki",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-27 07:17:57",
+        "source": "github_action",
+        "candidate": "SUTAN ANANDA RIESLY FAJAR MAULANA",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-27 07:18:02",
+        "source": "github_action",
+        "candidate": "Aulia Aisyatu Zakia",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-27 07:18:41",
+        "source": "github_action",
+        "candidate": "Bunga Annelies  Flo",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-27 07:19:10",
+        "source": "github_action",
+        "candidate": "Oryza Zaidandio",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-27 07:19:46",
+        "source": "github_action",
+        "candidate": "Rifqi Soeleiman",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-27 07:20:24",
+        "source": "github_action",
+        "candidate": "Rahmavita Naripati",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-27 07:21:05",
+        "source": "github_action",
+        "candidate": "Taufik Hidayat",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-27 07:21:10",
+        "source": "github_action",
+        "candidate": "ANDARI EKA NUR ALLIFAH",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-27 07:21:48",
+        "source": "github_action",
+        "candidate": "Aprina Septauli Manurung",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-27 07:22:22",
+        "source": "github_action",
+        "candidate": "Agus Nur Habib",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-27 07:22:55",
+        "source": "github_action",
+        "candidate": "Listianova Nurrochmah",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-27 07:23:28",
+        "source": "github_action",
+        "candidate": "Rully Anggi Akbar Akbar",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-27 07:23:32",
+        "source": "github_action",
+        "candidate": "Rani Nur Afifah",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-27 07:24:09",
+        "source": "github_action",
+        "candidate": "Kurnia Ariati",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-27 07:24:42",
+        "source": "github_action",
+        "candidate": "Fatmawati",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-27 07:25:12",
+        "source": "github_action",
+        "candidate": "Alif Rizky Fadhillah",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-27 07:25:46",
+        "source": "github_action",
+        "candidate": "Sherina Agustina",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-27 07:26:16",
+        "source": "github_action",
+        "candidate": "Aprilia Finanda",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-27 07:26:46",
+        "source": "github_action",
+        "candidate": "Mayangsari Karina Putri",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-27 07:27:16",
+        "source": "github_action",
+        "candidate": "Azka Putrie",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-27 07:27:52",
+        "source": "github_action",
+        "candidate": "Muhamad Tegar Dwi Prasetyo",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-27 07:28:26",
+        "source": "github_action",
+        "candidate": "Aufa Sofyan",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-27 07:28:30",
+        "source": "github_action",
+        "candidate": "Inessa Ardia Putri",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-27 07:29:00",
+        "source": "github_action",
+        "candidate": "Ine Safitri",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-27 07:29:32",
+        "source": "github_action",
+        "candidate": "Putri Nur Farida",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-27 07:30:03",
+        "source": "github_action",
+        "candidate": "Tracy Silalahi",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-27 07:30:43",
+        "source": "github_action",
+        "candidate": "MARLINDA MARLINDA",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-27 07:31:16",
+        "source": "github_action",
+        "candidate": "Yoshika sinaga",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-27 07:31:49",
+        "source": "github_action",
+        "candidate": "Amalia Frachmadiany",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-27 07:32:18",
+        "source": "github_action",
+        "candidate": "Andinna  Putri",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-27 07:32:47",
+        "source": "github_action",
+        "candidate": "Raihan Isbintara",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-27 07:33:26",
+        "source": "github_action",
+        "candidate": "Anastasya Theresia Bidara",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-27 07:34:00",
+        "source": "github_action",
+        "candidate": "Faudilla Nurin Asfar",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-27 07:34:32",
+        "source": "github_action",
+        "candidate": "Mei liya Wulan dari",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-27 07:35:04",
+        "source": "github_action",
+        "candidate": "Beatrix Gotama",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-27 07:35:35",
+        "source": "github_action",
+        "candidate": "Suryansyah Alimas",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-27 07:36:03",
+        "source": "github_action",
+        "candidate": "Atsiilah Pratiwi",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-27 07:36:34",
+        "source": "github_action",
+        "candidate": "Aulia Shobrina",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-27 07:37:02",
+        "source": "github_action",
+        "candidate": "Joy Andrew Pradika",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-27 07:37:41",
+        "source": "github_action",
+        "candidate": "Dinda Azaria Rowi",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-27 07:38:14",
+        "source": "github_action",
+        "candidate": "Puji lestari",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-27 07:38:44",
+        "source": "github_action",
+        "candidate": "Wira Laksana",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-27 07:39:13",
+        "source": "github_action",
+        "candidate": "Muhammad Rosikhul Ilmi",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-27 07:39:49",
+        "source": "github_action",
+        "candidate": "sofa rina",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-27 07:40:21",
+        "source": "github_action",
+        "candidate": "Rifqi Favian Satriawan",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-27 07:40:50",
+        "source": "github_action",
+        "candidate": "Sumita Suci Damayanti",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-27 07:41:25",
+        "source": "github_action",
+        "candidate": "Yanina Turbana",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-27 07:41:56",
+        "source": "github_action",
+        "candidate": "Timotius Ardi Pradana",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-27 07:42:26",
+        "source": "github_action",
+        "candidate": "Raesha Mutia",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-27 07:42:58",
+        "source": "github_action",
+        "candidate": "Gina Agustiani",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-27 07:43:24",
+        "source": "github_action",
+        "candidate": "Axa Putri Nabilla",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-27 07:43:55",
+        "source": "github_action",
+        "candidate": "Kiki Gunawanti Khaerani Asri",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-27 07:44:30",
+        "source": "github_action",
+        "candidate": "Nachita   Putri Madina",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-27 07:45:03",
+        "source": "github_action",
+        "candidate": "Salma Firda Sabila",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-27 07:45:34",
+        "source": "github_action",
+        "candidate": "Ihksa Munawwaroh",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-27 07:46:13",
+        "source": "github_action",
+        "candidate": "Aldhi Krisna Randha",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-27 07:46:37",
+        "source": "github_action",
+        "candidate": "Yonathan Reno Pamungkas",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-27 07:47:13",
+        "source": "github_action",
+        "candidate": "Ayub Ezra Royani Sianturi",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-27 07:47:44",
+        "source": "github_action",
+        "candidate": "syifin al mufti",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-27 07:48:11",
+        "source": "github_action",
+        "candidate": "Athaya Ramadhan",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-27 07:48:42",
+        "source": "github_action",
+        "candidate": "Aminah Fitriani Wiryono",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-27 07:49:17",
+        "source": "github_action",
+        "candidate": "Natasya Verlina",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-27 07:49:57",
+        "source": "github_action",
+        "candidate": "Adani Laila Putri",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-27 07:50:27",
+        "source": "github_action",
+        "candidate": "Dhea amara shezikya",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-27 07:50:49",
+        "source": "github_action",
+        "candidate": "Zalsa Satyo  Putri Utomo",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-27 07:51:26",
+        "source": "github_action",
+        "candidate": "Alief Martin",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-27 07:51:49",
+        "source": "github_action",
+        "candidate": "Syahda Zalenina",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-27 07:52:26",
+        "source": "github_action",
+        "candidate": "Lizia Nur Faiziah",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-27 07:52:44",
+        "source": "github_action",
+        "candidate": "Viona Mahardika Harjuni",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-27 07:53:19",
+        "source": "github_action",
+        "candidate": "Vikri Haekal Maulana",
+        "position": "Account Executive VCBL",
+        "success": true
+      }
+    ]
   }
 }
