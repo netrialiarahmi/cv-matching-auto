@@ -14306,13 +14306,13 @@
     ]
   },
   "2026-04-27": {
-    "total": 28,
+    "total": 29,
     "streamlit": 0,
-    "github_action": 28,
-    "successful": 28,
+    "github_action": 29,
+    "successful": 29,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 28
+      "Marketing Communication Officer KG Media": 29
     },
     "entries": [
       {
@@ -14508,6 +14508,13 @@
         "timestamp": "2026-04-27 04:47:26",
         "source": "github_action",
         "candidate": "Muhamad Gilman",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-27 04:47:57",
+        "source": "github_action",
+        "candidate": "Adithya Satya",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
