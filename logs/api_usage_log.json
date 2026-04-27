@@ -14306,25 +14306,18 @@
     ]
   },
   "2026-04-27": {
-    "total": 368,
+    "total": 369,
     "streamlit": 0,
-    "github_action": 368,
-    "successful": 368,
+    "github_action": 369,
+    "successful": 369,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 68
+      "Account Executive VCBL": 69
     },
     "entries": [
-      {
-        "timestamp": "2026-04-27 06:45:59",
-        "source": "github_action",
-        "candidate": "Eka Pramudianzah",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-27 06:46:04",
         "source": "github_action",
@@ -15015,6 +15008,13 @@
         "timestamp": "2026-04-27 07:36:34",
         "source": "github_action",
         "candidate": "Aulia Shobrina",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-27 07:37:02",
+        "source": "github_action",
+        "candidate": "Joy Andrew Pradika",
         "position": "Account Executive VCBL",
         "success": true
       }
