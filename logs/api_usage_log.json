@@ -14306,25 +14306,18 @@
     ]
   },
   "2026-04-27": {
-    "total": 392,
+    "total": 393,
     "streamlit": 0,
-    "github_action": 392,
-    "successful": 392,
+    "github_action": 393,
+    "successful": 393,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 92
+      "Account Executive VCBL": 93
     },
     "entries": [
-      {
-        "timestamp": "2026-04-27 06:58:47",
-        "source": "github_action",
-        "candidate": "Inna  Septyowati",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-27 06:59:18",
         "source": "github_action",
@@ -15015,6 +15008,13 @@
         "timestamp": "2026-04-27 07:49:17",
         "source": "github_action",
         "candidate": "Natasya Verlina",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-27 07:49:57",
+        "source": "github_action",
+        "candidate": "Adani Laila Putri",
         "position": "Account Executive VCBL",
         "success": true
       }
