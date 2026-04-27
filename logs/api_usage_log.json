@@ -14306,23 +14306,16 @@
     ]
   },
   "2026-04-27": {
-    "total": 161,
+    "total": 162,
     "streamlit": 0,
-    "github_action": 161,
-    "successful": 161,
+    "github_action": 162,
+    "successful": 162,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 61
+      "Reporter Nasional": 62
     },
     "entries": [
-      {
-        "timestamp": "2026-04-27 05:03:55",
-        "source": "github_action",
-        "candidate": "Nur Faizah Al Bahriyatul Baqiroh",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-27 05:04:28",
         "source": "github_action",
@@ -15013,6 +15006,13 @@
         "timestamp": "2026-04-27 05:51:34",
         "source": "github_action",
         "candidate": "Turangga Raflihuda",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-27 05:52:01",
+        "source": "github_action",
+        "candidate": "Oky Zuwifri Tarigan",
         "position": "Reporter Nasional",
         "success": true
       }
