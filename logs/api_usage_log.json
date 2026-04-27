@@ -14306,23 +14306,16 @@
     ]
   },
   "2026-04-27": {
-    "total": 190,
+    "total": 191,
     "streamlit": 0,
-    "github_action": 190,
-    "successful": 190,
+    "github_action": 191,
+    "successful": 191,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 90
+      "Reporter Nasional": 91
     },
     "entries": [
-      {
-        "timestamp": "2026-04-27 05:17:47",
-        "source": "github_action",
-        "candidate": "abdul syukur afandi",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-27 05:18:18",
         "source": "github_action",
@@ -15013,6 +15006,13 @@
         "timestamp": "2026-04-27 06:05:58",
         "source": "github_action",
         "candidate": "Alipia Sabina",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-27 06:06:23",
+        "source": "github_action",
+        "candidate": "Annisa Aprilia",
         "position": "Reporter Nasional",
         "success": true
       }
