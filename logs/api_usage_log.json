@@ -14306,23 +14306,16 @@
     ]
   },
   "2026-04-27": {
-    "total": 178,
+    "total": 179,
     "streamlit": 0,
-    "github_action": 178,
-    "successful": 178,
+    "github_action": 179,
+    "successful": 179,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 78
+      "Reporter Nasional": 79
     },
     "entries": [
-      {
-        "timestamp": "2026-04-27 05:12:00",
-        "source": "github_action",
-        "candidate": "Misael Kartika Hadinata",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-27 05:12:34",
         "source": "github_action",
@@ -15013,6 +15006,13 @@
         "timestamp": "2026-04-27 06:00:04",
         "source": "github_action",
         "candidate": "Bima Sena Nur Endrawan",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-27 06:00:36",
+        "source": "github_action",
+        "candidate": "Pramudya Jaya Saputra",
         "position": "Reporter Nasional",
         "success": true
       }
