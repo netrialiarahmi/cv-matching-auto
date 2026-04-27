@@ -14306,25 +14306,18 @@
     ]
   },
   "2026-04-27": {
-    "total": 396,
+    "total": 397,
     "streamlit": 0,
-    "github_action": 396,
-    "successful": 396,
+    "github_action": 397,
+    "successful": 397,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 96
+      "Account Executive VCBL": 97
     },
     "entries": [
-      {
-        "timestamp": "2026-04-27 07:00:59",
-        "source": "github_action",
-        "candidate": "Age Aldi Putra",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-27 07:01:34",
         "source": "github_action",
@@ -15015,6 +15008,13 @@
         "timestamp": "2026-04-27 07:51:26",
         "source": "github_action",
         "candidate": "Alief Martin",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-27 07:51:49",
+        "source": "github_action",
+        "candidate": "Syahda Zalenina",
         "position": "Account Executive VCBL",
         "success": true
       }
