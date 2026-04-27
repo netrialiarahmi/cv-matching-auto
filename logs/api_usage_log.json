@@ -14306,25 +14306,18 @@
     ]
   },
   "2026-04-27": {
-    "total": 391,
+    "total": 392,
     "streamlit": 0,
-    "github_action": 391,
-    "successful": 391,
+    "github_action": 392,
+    "successful": 392,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 91
+      "Account Executive VCBL": 92
     },
     "entries": [
-      {
-        "timestamp": "2026-04-27 06:58:18",
-        "source": "github_action",
-        "candidate": "Dicky Aditya Wijaya",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-27 06:58:47",
         "source": "github_action",
@@ -15015,6 +15008,13 @@
         "timestamp": "2026-04-27 07:48:42",
         "source": "github_action",
         "candidate": "Aminah Fitriani Wiryono",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-27 07:49:17",
+        "source": "github_action",
+        "candidate": "Natasya Verlina",
         "position": "Account Executive VCBL",
         "success": true
       }
