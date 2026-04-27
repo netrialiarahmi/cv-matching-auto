@@ -14306,25 +14306,18 @@
     ]
   },
   "2026-04-27": {
-    "total": 334,
+    "total": 335,
     "streamlit": 0,
-    "github_action": 334,
-    "successful": 334,
+    "github_action": 335,
+    "successful": 335,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 34
+      "Account Executive VCBL": 35
     },
     "entries": [
-      {
-        "timestamp": "2026-04-27 06:29:53",
-        "source": "github_action",
-        "candidate": "Bintang Artha Velina Simanjuntak",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-27 06:30:30",
         "source": "github_action",
@@ -15015,6 +15008,13 @@
         "timestamp": "2026-04-27 07:19:10",
         "source": "github_action",
         "candidate": "Oryza Zaidandio",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-27 07:19:46",
+        "source": "github_action",
+        "candidate": "Rifqi Soeleiman",
         "position": "Account Executive VCBL",
         "success": true
       }
