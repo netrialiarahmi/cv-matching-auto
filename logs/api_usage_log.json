@@ -14306,24 +14306,17 @@
     ]
   },
   "2026-04-27": {
-    "total": 220,
+    "total": 221,
     "streamlit": 0,
-    "github_action": 220,
-    "successful": 220,
+    "github_action": 221,
+    "successful": 221,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
-      "Business Development Analyst": 20
+      "Business Development Analyst": 21
     },
     "entries": [
-      {
-        "timestamp": "2026-04-27 05:32:05",
-        "source": "github_action",
-        "candidate": "Gita Putri",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-27 05:32:35",
         "source": "github_action",
@@ -15014,6 +15007,13 @@
         "timestamp": "2026-04-27 06:21:47",
         "source": "github_action",
         "candidate": "Aditya Reynaldi",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-27 06:22:21",
+        "source": "github_action",
+        "candidate": "Salsabila Posmaryana Utami",
         "position": "Business Development Analyst",
         "success": true
       }
