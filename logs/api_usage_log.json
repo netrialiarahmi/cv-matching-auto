@@ -14306,23 +14306,16 @@
     ]
   },
   "2026-04-27": {
-    "total": 189,
+    "total": 190,
     "streamlit": 0,
-    "github_action": 189,
-    "successful": 189,
+    "github_action": 190,
+    "successful": 190,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 89
+      "Reporter Nasional": 90
     },
     "entries": [
-      {
-        "timestamp": "2026-04-27 05:17:15",
-        "source": "github_action",
-        "candidate": "Gadis Danika",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-27 05:17:47",
         "source": "github_action",
@@ -15013,6 +15006,13 @@
         "timestamp": "2026-04-27 06:05:25",
         "source": "github_action",
         "candidate": "Nadia Azzahra wibowo",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-27 06:05:58",
+        "source": "github_action",
+        "candidate": "Alipia Sabina",
         "position": "Reporter Nasional",
         "success": true
       }
