@@ -14306,23 +14306,16 @@
     ]
   },
   "2026-04-27": {
-    "total": 186,
+    "total": 187,
     "streamlit": 0,
-    "github_action": 186,
-    "successful": 186,
+    "github_action": 187,
+    "successful": 187,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 86
+      "Reporter Nasional": 87
     },
     "entries": [
-      {
-        "timestamp": "2026-04-27 05:15:40",
-        "source": "github_action",
-        "candidate": "Eldion Adzan Zuhri J",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-27 05:16:14",
         "source": "github_action",
@@ -15013,6 +15006,13 @@
         "timestamp": "2026-04-27 06:04:22",
         "source": "github_action",
         "candidate": "Afina Diah",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-27 06:04:53",
+        "source": "github_action",
+        "candidate": "herdianti Indah Puspita",
         "position": "Reporter Nasional",
         "success": true
       }
