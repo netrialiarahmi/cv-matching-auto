@@ -14306,24 +14306,17 @@
     ]
   },
   "2026-04-27": {
-    "total": 294,
+    "total": 295,
     "streamlit": 0,
-    "github_action": 294,
-    "successful": 294,
+    "github_action": 295,
+    "successful": 295,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
-      "Business Development Analyst": 94
+      "Business Development Analyst": 95
     },
     "entries": [
-      {
-        "timestamp": "2026-04-27 06:08:24",
-        "source": "github_action",
-        "candidate": "Almaida Cielvani",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-27 06:08:50",
         "source": "github_action",
@@ -15014,6 +15007,13 @@
         "timestamp": "2026-04-27 06:59:18",
         "source": "github_action",
         "candidate": "Arie Andreana Taufiq",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-27 06:59:49",
+        "source": "github_action",
+        "candidate": "Afina Diah",
         "position": "Business Development Analyst",
         "success": true
       }
