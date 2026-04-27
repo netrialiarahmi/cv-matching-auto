@@ -14306,25 +14306,18 @@
     ]
   },
   "2026-04-27": {
-    "total": 380,
+    "total": 381,
     "streamlit": 0,
-    "github_action": 380,
-    "successful": 380,
+    "github_action": 381,
+    "successful": 381,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 80
+      "Account Executive VCBL": 81
     },
     "entries": [
-      {
-        "timestamp": "2026-04-27 06:52:30",
-        "source": "github_action",
-        "candidate": "Kharisma Qaulam",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-27 06:53:02",
         "source": "github_action",
@@ -15015,6 +15008,13 @@
         "timestamp": "2026-04-27 07:42:58",
         "source": "github_action",
         "candidate": "Gina Agustiani",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-27 07:43:24",
+        "source": "github_action",
+        "candidate": "Axa Putri Nabilla",
         "position": "Account Executive VCBL",
         "success": true
       }
