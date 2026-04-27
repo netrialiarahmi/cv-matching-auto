@@ -14306,13 +14306,13 @@
     ]
   },
   "2026-04-27": {
-    "total": 80,
+    "total": 81,
     "streamlit": 0,
-    "github_action": 80,
-    "successful": 80,
+    "github_action": 81,
+    "successful": 81,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 80
+      "Marketing Communication Officer KG Media": 81
     },
     "entries": [
       {
@@ -14872,6 +14872,13 @@
         "timestamp": "2026-04-27 05:12:34",
         "source": "github_action",
         "candidate": "Muhammad Iqbal",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-27 05:13:05",
+        "source": "github_action",
+        "candidate": "Yuniar Mirayanty",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
