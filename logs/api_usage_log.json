@@ -14306,13 +14306,13 @@
     ]
   },
   "2026-04-27": {
-    "total": 88,
+    "total": 89,
     "streamlit": 0,
-    "github_action": 88,
-    "successful": 88,
+    "github_action": 89,
+    "successful": 89,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 88
+      "Marketing Communication Officer KG Media": 89
     },
     "entries": [
       {
@@ -14928,6 +14928,13 @@
         "timestamp": "2026-04-27 05:16:14",
         "source": "github_action",
         "candidate": "Rayhan Rifky Maulana",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-27 05:16:43",
+        "source": "github_action",
+        "candidate": "HARYO DAMAR WIDIGDO",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
