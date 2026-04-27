@@ -14306,13 +14306,13 @@
     ]
   },
   "2026-04-27": {
-    "total": 94,
+    "total": 95,
     "streamlit": 0,
-    "github_action": 94,
-    "successful": 94,
+    "github_action": 95,
+    "successful": 95,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 94
+      "Marketing Communication Officer KG Media": 95
     },
     "entries": [
       {
@@ -14970,6 +14970,13 @@
         "timestamp": "2026-04-27 05:19:30",
         "source": "github_action",
         "candidate": "Afifah Al Zahra",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-27 05:19:59",
+        "source": "github_action",
+        "candidate": "anjani sarasfathi",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
