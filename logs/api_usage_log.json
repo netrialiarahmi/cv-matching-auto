@@ -14306,24 +14306,17 @@
     ]
   },
   "2026-04-27": {
-    "total": 299,
+    "total": 300,
     "streamlit": 0,
-    "github_action": 299,
-    "successful": 299,
+    "github_action": 300,
+    "successful": 300,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
-      "Business Development Analyst": 99
+      "Business Development Analyst": 100
     },
     "entries": [
-      {
-        "timestamp": "2026-04-27 06:10:47",
-        "source": "github_action",
-        "candidate": "nadima Adelphia",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-27 06:11:21",
         "source": "github_action",
@@ -15014,6 +15007,13 @@
         "timestamp": "2026-04-27 07:02:09",
         "source": "github_action",
         "candidate": "Mohamad Arief Nurramdhan",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-27 07:02:41",
+        "source": "github_action",
+        "candidate": "Rifky Rivaldo",
         "position": "Business Development Analyst",
         "success": true
       }
