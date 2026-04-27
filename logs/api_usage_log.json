@@ -14306,13 +14306,13 @@
     ]
   },
   "2026-04-27": {
-    "total": 60,
+    "total": 61,
     "streamlit": 0,
-    "github_action": 60,
-    "successful": 60,
+    "github_action": 61,
+    "successful": 61,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 60
+      "Marketing Communication Officer KG Media": 61
     },
     "entries": [
       {
@@ -14732,6 +14732,13 @@
         "timestamp": "2026-04-27 05:02:53",
         "source": "github_action",
         "candidate": "Sevty Adinia",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-27 05:03:25",
+        "source": "github_action",
+        "candidate": "Reno Renaldi",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
