@@ -14306,23 +14306,16 @@
     ]
   },
   "2026-04-27": {
-    "total": 174,
+    "total": 175,
     "streamlit": 0,
-    "github_action": 174,
-    "successful": 174,
+    "github_action": 175,
+    "successful": 175,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 74
+      "Reporter Nasional": 75
     },
     "entries": [
-      {
-        "timestamp": "2026-04-27 05:10:23",
-        "source": "github_action",
-        "candidate": "Catharina Zvica Hoogcain Terang",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-27 05:10:56",
         "source": "github_action",
@@ -15013,6 +15006,13 @@
         "timestamp": "2026-04-27 05:58:05",
         "source": "github_action",
         "candidate": "Muhammad Rezki Bayuaji",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-27 05:58:36",
+        "source": "github_action",
+        "candidate": "EL ZAIDAN",
         "position": "Reporter Nasional",
         "success": true
       }
