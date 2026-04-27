@@ -14306,13 +14306,13 @@
     ]
   },
   "2026-04-27": {
-    "total": 18,
+    "total": 19,
     "streamlit": 0,
-    "github_action": 18,
-    "successful": 18,
+    "github_action": 19,
+    "successful": 19,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 18
+      "Marketing Communication Officer KG Media": 19
     },
     "entries": [
       {
@@ -14438,6 +14438,13 @@
         "timestamp": "2026-04-27 04:42:07",
         "source": "github_action",
         "candidate": "Faiza Zulrahma",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-27 04:42:39",
+        "source": "github_action",
+        "candidate": "KINANTI MUTIARA  PRASOJO",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
