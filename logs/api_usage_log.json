@@ -14306,13 +14306,13 @@
     ]
   },
   "2026-04-27": {
-    "total": 12,
+    "total": 13,
     "streamlit": 0,
-    "github_action": 12,
-    "successful": 12,
+    "github_action": 13,
+    "successful": 13,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 12
+      "Marketing Communication Officer KG Media": 13
     },
     "entries": [
       {
@@ -14396,6 +14396,13 @@
         "timestamp": "2026-04-27 04:39:26",
         "source": "github_action",
         "candidate": "Siti Fatmawati Sandari",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-27 04:39:56",
+        "source": "github_action",
+        "candidate": "Patrick Trusto Jati Wibowo",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
