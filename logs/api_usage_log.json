@@ -14306,23 +14306,16 @@
     ]
   },
   "2026-04-27": {
-    "total": 176,
+    "total": 177,
     "streamlit": 0,
-    "github_action": 176,
-    "successful": 176,
+    "github_action": 177,
+    "successful": 177,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 76
+      "Reporter Nasional": 77
     },
     "entries": [
-      {
-        "timestamp": "2026-04-27 05:11:00",
-        "source": "github_action",
-        "candidate": "Fadli Parangin angin",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-27 05:11:32",
         "source": "github_action",
@@ -15013,6 +15006,13 @@
         "timestamp": "2026-04-27 05:59:03",
         "source": "github_action",
         "candidate": "Ervin Fataka Buana Utama",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-27 05:59:34",
+        "source": "github_action",
+        "candidate": "Leonardo Siahaan, S.H",
         "position": "Reporter Nasional",
         "success": true
       }
