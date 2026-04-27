@@ -14306,13 +14306,13 @@
     ]
   },
   "2026-04-27": {
-    "total": 95,
+    "total": 96,
     "streamlit": 0,
-    "github_action": 95,
-    "successful": 95,
+    "github_action": 96,
+    "successful": 96,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 95
+      "Marketing Communication Officer KG Media": 96
     },
     "entries": [
       {
@@ -14977,6 +14977,13 @@
         "timestamp": "2026-04-27 05:19:59",
         "source": "github_action",
         "candidate": "anjani sarasfathi",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-27 05:20:32",
+        "source": "github_action",
+        "candidate": "felin lorensa dani",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
