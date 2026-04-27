@@ -14306,13 +14306,13 @@
     ]
   },
   "2026-04-27": {
-    "total": 58,
+    "total": 59,
     "streamlit": 0,
-    "github_action": 58,
-    "successful": 58,
+    "github_action": 59,
+    "successful": 59,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 58
+      "Marketing Communication Officer KG Media": 59
     },
     "entries": [
       {
@@ -14718,6 +14718,13 @@
         "timestamp": "2026-04-27 05:01:50",
         "source": "github_action",
         "candidate": "Nissa Dwi Anggraeni",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-27 05:02:25",
+        "source": "github_action",
+        "candidate": "Azka azka",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
