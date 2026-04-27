@@ -14306,25 +14306,18 @@
     ]
   },
   "2026-04-27": {
-    "total": 386,
+    "total": 387,
     "streamlit": 0,
-    "github_action": 386,
-    "successful": 386,
+    "github_action": 387,
+    "successful": 387,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 86
+      "Account Executive VCBL": 87
     },
     "entries": [
-      {
-        "timestamp": "2026-04-27 06:55:47",
-        "source": "github_action",
-        "candidate": "Ricky Yosua",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-27 06:56:21",
         "source": "github_action",
@@ -15015,6 +15008,13 @@
         "timestamp": "2026-04-27 07:46:13",
         "source": "github_action",
         "candidate": "Aldhi Krisna Randha",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-27 07:46:37",
+        "source": "github_action",
+        "candidate": "Yonathan Reno Pamungkas",
         "position": "Account Executive VCBL",
         "success": true
       }
