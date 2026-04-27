@@ -14306,13 +14306,13 @@
     ]
   },
   "2026-04-27": {
-    "total": 44,
+    "total": 45,
     "streamlit": 0,
-    "github_action": 44,
-    "successful": 44,
+    "github_action": 45,
+    "successful": 45,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 44
+      "Marketing Communication Officer KG Media": 45
     },
     "entries": [
       {
@@ -14620,6 +14620,13 @@
         "timestamp": "2026-04-27 04:55:57",
         "source": "github_action",
         "candidate": "Safira Jodi",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-27 04:56:26",
+        "source": "github_action",
+        "candidate": "kenzie salman",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
