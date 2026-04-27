@@ -14306,23 +14306,16 @@
     ]
   },
   "2026-04-27": {
-    "total": 163,
+    "total": 164,
     "streamlit": 0,
-    "github_action": 163,
-    "successful": 163,
+    "github_action": 164,
+    "successful": 164,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 63
+      "Reporter Nasional": 64
     },
     "entries": [
-      {
-        "timestamp": "2026-04-27 05:04:59",
-        "source": "github_action",
-        "candidate": "Abraham Satrio Wibowo",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-27 05:05:30",
         "source": "github_action",
@@ -15013,6 +15006,13 @@
         "timestamp": "2026-04-27 05:52:30",
         "source": "github_action",
         "candidate": "Putri Rahma Aryani",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-27 05:53:01",
+        "source": "github_action",
+        "candidate": "Yolla Wiranda",
         "position": "Reporter Nasional",
         "success": true
       }
