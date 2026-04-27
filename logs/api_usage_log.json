@@ -14306,13 +14306,13 @@
     ]
   },
   "2026-04-27": {
-    "total": 3,
+    "total": 4,
     "streamlit": 0,
-    "github_action": 3,
-    "successful": 3,
+    "github_action": 4,
+    "successful": 4,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 3
+      "Marketing Communication Officer KG Media": 4
     },
     "entries": [
       {
@@ -14333,6 +14333,13 @@
         "timestamp": "2026-04-27 04:34:26",
         "source": "github_action",
         "candidate": "Ali Farhan Akhmad",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-27 04:35:00",
+        "source": "github_action",
+        "candidate": "Rahina Kamilah",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
