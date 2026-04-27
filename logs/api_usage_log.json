@@ -14306,13 +14306,13 @@
     ]
   },
   "2026-04-27": {
-    "total": 38,
+    "total": 39,
     "streamlit": 0,
-    "github_action": 38,
-    "successful": 38,
+    "github_action": 39,
+    "successful": 39,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 38
+      "Marketing Communication Officer KG Media": 39
     },
     "entries": [
       {
@@ -14578,6 +14578,13 @@
         "timestamp": "2026-04-27 04:52:49",
         "source": "github_action",
         "candidate": "Intan Shifa Rusliani",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-27 04:53:16",
+        "source": "github_action",
+        "candidate": "Hendy Reynaldi",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
