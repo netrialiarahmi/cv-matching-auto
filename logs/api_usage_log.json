@@ -14306,13 +14306,13 @@
     ]
   },
   "2026-04-27": {
-    "total": 89,
+    "total": 90,
     "streamlit": 0,
-    "github_action": 89,
-    "successful": 89,
+    "github_action": 90,
+    "successful": 90,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 89
+      "Marketing Communication Officer KG Media": 90
     },
     "entries": [
       {
@@ -14935,6 +14935,13 @@
         "timestamp": "2026-04-27 05:16:43",
         "source": "github_action",
         "candidate": "HARYO DAMAR WIDIGDO",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-27 05:17:15",
+        "source": "github_action",
+        "candidate": "Gadis Danika",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
