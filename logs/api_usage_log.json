@@ -14306,25 +14306,18 @@
     ]
   },
   "2026-04-27": {
-    "total": 338,
+    "total": 339,
     "streamlit": 0,
-    "github_action": 338,
-    "successful": 338,
+    "github_action": 339,
+    "successful": 339,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 38
+      "Account Executive VCBL": 39
     },
     "entries": [
-      {
-        "timestamp": "2026-04-27 06:32:12",
-        "source": "github_action",
-        "candidate": "Muhammad Iqbal Dwiputra",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-27 06:32:45",
         "source": "github_action",
@@ -15015,6 +15008,13 @@
         "timestamp": "2026-04-27 07:21:10",
         "source": "github_action",
         "candidate": "ANDARI EKA NUR ALLIFAH",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-27 07:21:48",
+        "source": "github_action",
+        "candidate": "Aprina Septauli Manurung",
         "position": "Account Executive VCBL",
         "success": true
       }
