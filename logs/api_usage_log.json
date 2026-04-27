@@ -14306,13 +14306,13 @@
     ]
   },
   "2026-04-27": {
-    "total": 53,
+    "total": 54,
     "streamlit": 0,
-    "github_action": 53,
-    "successful": 53,
+    "github_action": 54,
+    "successful": 54,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 53
+      "Marketing Communication Officer KG Media": 54
     },
     "entries": [
       {
@@ -14683,6 +14683,13 @@
         "timestamp": "2026-04-27 05:00:08",
         "source": "github_action",
         "candidate": "gloria angel",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-27 05:00:42",
+        "source": "github_action",
+        "candidate": "Febiana Nur Azizah",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
