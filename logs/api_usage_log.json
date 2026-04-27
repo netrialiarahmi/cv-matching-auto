@@ -14306,23 +14306,16 @@
     ]
   },
   "2026-04-27": {
-    "total": 111,
+    "total": 112,
     "streamlit": 0,
-    "github_action": 111,
-    "successful": 111,
+    "github_action": 112,
+    "successful": 112,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 11
+      "Reporter Nasional": 12
     },
     "entries": [
-      {
-        "timestamp": "2026-04-27 04:39:26",
-        "source": "github_action",
-        "candidate": "Siti Fatmawati Sandari",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-27 04:39:56",
         "source": "github_action",
@@ -15013,6 +15006,13 @@
         "timestamp": "2026-04-27 05:27:29",
         "source": "github_action",
         "candidate": "Muhammad Arief  Adhistyo Hidayat",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-27 05:28:02",
+        "source": "github_action",
+        "candidate": "Aura Antari",
         "position": "Reporter Nasional",
         "success": true
       }
