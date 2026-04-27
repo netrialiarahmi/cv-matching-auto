@@ -14306,25 +14306,18 @@
     ]
   },
   "2026-04-27": {
-    "total": 357,
+    "total": 358,
     "streamlit": 0,
-    "github_action": 357,
-    "successful": 357,
+    "github_action": 358,
+    "successful": 358,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 57
+      "Account Executive VCBL": 58
     },
     "entries": [
-      {
-        "timestamp": "2026-04-27 06:40:25",
-        "source": "github_action",
-        "candidate": "Bayu Angkasa",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-27 06:40:55",
         "source": "github_action",
@@ -15015,6 +15008,13 @@
         "timestamp": "2026-04-27 07:30:43",
         "source": "github_action",
         "candidate": "MARLINDA MARLINDA",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-27 07:31:16",
+        "source": "github_action",
+        "candidate": "Yoshika sinaga",
         "position": "Account Executive VCBL",
         "success": true
       }
