@@ -14306,23 +14306,16 @@
     ]
   },
   "2026-04-27": {
-    "total": 114,
+    "total": 115,
     "streamlit": 0,
-    "github_action": 114,
-    "successful": 114,
+    "github_action": 115,
+    "successful": 115,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 14
+      "Reporter Nasional": 15
     },
     "entries": [
-      {
-        "timestamp": "2026-04-27 04:41:01",
-        "source": "github_action",
-        "candidate": "Dayinta Ayuning Aribhumi",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-27 04:41:36",
         "source": "github_action",
@@ -15013,6 +15006,13 @@
         "timestamp": "2026-04-27 05:29:06",
         "source": "github_action",
         "candidate": "Muhjid Bagus Oqsaberi",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-27 05:29:38",
+        "source": "github_action",
+        "candidate": "Otto Hari Febra Maheswara",
         "position": "Reporter Nasional",
         "success": true
       }
