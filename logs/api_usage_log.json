@@ -14306,25 +14306,18 @@
     ]
   },
   "2026-04-27": {
-    "total": 389,
+    "total": 390,
     "streamlit": 0,
-    "github_action": 389,
-    "successful": 389,
+    "github_action": 390,
+    "successful": 390,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 89
+      "Account Executive VCBL": 90
     },
     "entries": [
-      {
-        "timestamp": "2026-04-27 06:57:20",
-        "source": "github_action",
-        "candidate": "Hilmi Hauzan",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-27 06:57:47",
         "source": "github_action",
@@ -15015,6 +15008,13 @@
         "timestamp": "2026-04-27 07:47:44",
         "source": "github_action",
         "candidate": "syifin al mufti",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-27 07:48:11",
+        "source": "github_action",
+        "candidate": "Athaya Ramadhan",
         "position": "Account Executive VCBL",
         "success": true
       }
