@@ -14306,13 +14306,13 @@
     ]
   },
   "2026-04-27": {
-    "total": 39,
+    "total": 40,
     "streamlit": 0,
-    "github_action": 39,
-    "successful": 39,
+    "github_action": 40,
+    "successful": 40,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 39
+      "Marketing Communication Officer KG Media": 40
     },
     "entries": [
       {
@@ -14585,6 +14585,13 @@
         "timestamp": "2026-04-27 04:53:16",
         "source": "github_action",
         "candidate": "Hendy Reynaldi",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-27 04:53:49",
+        "source": "github_action",
+        "candidate": "Masyita Deta Rahadiani",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
