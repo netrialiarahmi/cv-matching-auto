@@ -14306,24 +14306,17 @@
     ]
   },
   "2026-04-27": {
-    "total": 284,
+    "total": 285,
     "streamlit": 0,
-    "github_action": 284,
-    "successful": 284,
+    "github_action": 285,
+    "successful": 285,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
-      "Business Development Analyst": 84
+      "Business Development Analyst": 85
     },
     "entries": [
-      {
-        "timestamp": "2026-04-27 06:03:38",
-        "source": "github_action",
-        "candidate": "Fernando  Limbong",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-27 06:04:22",
         "source": "github_action",
@@ -15014,6 +15007,13 @@
         "timestamp": "2026-04-27 06:54:09",
         "source": "github_action",
         "candidate": "Elisabeth Santy Paska",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-27 06:54:42",
+        "source": "github_action",
+        "candidate": "Irma Anisa Putri",
         "position": "Business Development Analyst",
         "success": true
       }
