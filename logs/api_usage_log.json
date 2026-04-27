@@ -14306,23 +14306,16 @@
     ]
   },
   "2026-04-27": {
-    "total": 199,
+    "total": 200,
     "streamlit": 0,
-    "github_action": 199,
-    "successful": 199,
+    "github_action": 200,
+    "successful": 200,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 99
+      "Reporter Nasional": 100
     },
     "entries": [
-      {
-        "timestamp": "2026-04-27 05:22:07",
-        "source": "github_action",
-        "candidate": "Ulfahny Ashary",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-27 05:22:41",
         "source": "github_action",
@@ -15013,6 +15006,13 @@
         "timestamp": "2026-04-27 06:10:20",
         "source": "github_action",
         "candidate": "Zaky Maulana Putra",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-27 06:10:47",
+        "source": "github_action",
+        "candidate": "nadima Adelphia",
         "position": "Reporter Nasional",
         "success": true
       }
