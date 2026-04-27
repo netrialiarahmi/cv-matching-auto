@@ -14306,23 +14306,16 @@
     ]
   },
   "2026-04-27": {
-    "total": 194,
+    "total": 195,
     "streamlit": 0,
-    "github_action": 194,
-    "successful": 194,
+    "github_action": 195,
+    "successful": 195,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 94
+      "Reporter Nasional": 95
     },
     "entries": [
-      {
-        "timestamp": "2026-04-27 05:19:59",
-        "source": "github_action",
-        "candidate": "anjani sarasfathi",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-27 05:20:32",
         "source": "github_action",
@@ -15013,6 +15006,13 @@
         "timestamp": "2026-04-27 06:07:53",
         "source": "github_action",
         "candidate": "Yoanda Adzra nabilasya",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-27 06:08:24",
+        "source": "github_action",
+        "candidate": "Almaida Cielvani",
         "position": "Reporter Nasional",
         "success": true
       }
