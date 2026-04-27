@@ -14306,23 +14306,16 @@
     ]
   },
   "2026-04-27": {
-    "total": 196,
+    "total": 197,
     "streamlit": 0,
-    "github_action": 196,
-    "successful": 196,
+    "github_action": 197,
+    "successful": 197,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 96
+      "Reporter Nasional": 97
     },
     "entries": [
-      {
-        "timestamp": "2026-04-27 05:21:01",
-        "source": "github_action",
-        "candidate": "Fraya Diaz Rasyade",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-27 05:21:31",
         "source": "github_action",
@@ -15013,6 +15006,13 @@
         "timestamp": "2026-04-27 06:08:50",
         "source": "github_action",
         "candidate": "Ester Tania Marbun",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-27 06:09:21",
+        "source": "github_action",
+        "candidate": "Dananjoyo Karso Ediwiyono",
         "position": "Reporter Nasional",
         "success": true
       }
