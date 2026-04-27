@@ -14306,13 +14306,13 @@
     ]
   },
   "2026-04-27": {
-    "total": 4,
+    "total": 5,
     "streamlit": 0,
-    "github_action": 4,
-    "successful": 4,
+    "github_action": 5,
+    "successful": 5,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 4
+      "Marketing Communication Officer KG Media": 5
     },
     "entries": [
       {
@@ -14340,6 +14340,13 @@
         "timestamp": "2026-04-27 04:35:00",
         "source": "github_action",
         "candidate": "Rahina Kamilah",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-27 04:35:36",
+        "source": "github_action",
+        "candidate": "Agnes Debora  Zega",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
