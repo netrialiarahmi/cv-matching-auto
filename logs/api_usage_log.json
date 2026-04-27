@@ -14306,24 +14306,17 @@
     ]
   },
   "2026-04-27": {
-    "total": 230,
+    "total": 231,
     "streamlit": 0,
-    "github_action": 230,
-    "successful": 230,
+    "github_action": 231,
+    "successful": 231,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
-      "Business Development Analyst": 30
+      "Business Development Analyst": 31
     },
     "entries": [
-      {
-        "timestamp": "2026-04-27 05:37:01",
-        "source": "github_action",
-        "candidate": "Umar Falahudin",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-27 05:37:35",
         "source": "github_action",
@@ -15014,6 +15007,13 @@
         "timestamp": "2026-04-27 06:27:10",
         "source": "github_action",
         "candidate": "Galuh Kinanthi Rahardjo",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-27 06:27:45",
+        "source": "github_action",
+        "candidate": "Indhira Amarta  Mahanani",
         "position": "Business Development Analyst",
         "success": true
       }
