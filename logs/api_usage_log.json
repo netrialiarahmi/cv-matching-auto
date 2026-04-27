@@ -14306,25 +14306,18 @@
     ]
   },
   "2026-04-27": {
-    "total": 316,
+    "total": 317,
     "streamlit": 0,
-    "github_action": 316,
-    "successful": 316,
+    "github_action": 317,
+    "successful": 317,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 16
+      "Account Executive VCBL": 17
     },
     "entries": [
-      {
-        "timestamp": "2026-04-27 06:20:01",
-        "source": "github_action",
-        "candidate": "Nurul Hadi",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-27 06:20:38",
         "source": "github_action",
@@ -15015,6 +15008,13 @@
         "timestamp": "2026-04-27 07:10:28",
         "source": "github_action",
         "candidate": "Helena Caesaria",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-27 07:11:01",
+        "source": "github_action",
+        "candidate": "M Fadhil Ramadhan",
         "position": "Account Executive VCBL",
         "success": true
       }
