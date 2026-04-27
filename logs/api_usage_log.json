@@ -14306,25 +14306,18 @@
     ]
   },
   "2026-04-27": {
-    "total": 398,
+    "total": 399,
     "streamlit": 0,
-    "github_action": 398,
-    "successful": 398,
+    "github_action": 399,
+    "successful": 399,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 98
+      "Account Executive VCBL": 99
     },
     "entries": [
-      {
-        "timestamp": "2026-04-27 07:02:09",
-        "source": "github_action",
-        "candidate": "Mohamad Arief Nurramdhan",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-27 07:02:41",
         "source": "github_action",
@@ -15015,6 +15008,13 @@
         "timestamp": "2026-04-27 07:52:26",
         "source": "github_action",
         "candidate": "Lizia Nur Faiziah",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-27 07:52:44",
+        "source": "github_action",
+        "candidate": "Viona Mahardika Harjuni",
         "position": "Account Executive VCBL",
         "success": true
       }
