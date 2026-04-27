@@ -14306,24 +14306,17 @@
     ]
   },
   "2026-04-27": {
-    "total": 288,
+    "total": 289,
     "streamlit": 0,
-    "github_action": 288,
-    "successful": 288,
+    "github_action": 289,
+    "successful": 289,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
-      "Business Development Analyst": 88
+      "Business Development Analyst": 89
     },
     "entries": [
-      {
-        "timestamp": "2026-04-27 06:05:25",
-        "source": "github_action",
-        "candidate": "Nadia Azzahra wibowo",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-27 06:05:58",
         "source": "github_action",
@@ -15014,6 +15007,13 @@
         "timestamp": "2026-04-27 06:56:21",
         "source": "github_action",
         "candidate": "Cherise Earlene",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-27 06:56:49",
+        "source": "github_action",
+        "candidate": "putri  yulianti",
         "position": "Business Development Analyst",
         "success": true
       }
