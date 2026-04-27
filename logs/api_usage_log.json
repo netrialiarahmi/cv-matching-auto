@@ -14306,24 +14306,17 @@
     ]
   },
   "2026-04-27": {
-    "total": 291,
+    "total": 292,
     "streamlit": 0,
-    "github_action": 291,
-    "successful": 291,
+    "github_action": 292,
+    "successful": 292,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
-      "Business Development Analyst": 91
+      "Business Development Analyst": 92
     },
     "entries": [
-      {
-        "timestamp": "2026-04-27 06:06:55",
-        "source": "github_action",
-        "candidate": "Rizki Nelma Hendra Putra Oke",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-27 06:07:23",
         "source": "github_action",
@@ -15014,6 +15007,13 @@
         "timestamp": "2026-04-27 06:57:47",
         "source": "github_action",
         "candidate": "Anastasya Yuliarta",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-27 06:58:18",
+        "source": "github_action",
+        "candidate": "Dicky Aditya Wijaya",
         "position": "Business Development Analyst",
         "success": true
       }
