@@ -14306,23 +14306,16 @@
     ]
   },
   "2026-04-27": {
-    "total": 183,
+    "total": 184,
     "streamlit": 0,
-    "github_action": 183,
-    "successful": 183,
+    "github_action": 184,
+    "successful": 184,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
-      "Reporter Nasional": 83
+      "Reporter Nasional": 84
     },
     "entries": [
-      {
-        "timestamp": "2026-04-27 05:14:38",
-        "source": "github_action",
-        "candidate": "Rengganis Utami",
-        "position": "Marketing Communication Officer KG Media",
-        "success": true
-      },
       {
         "timestamp": "2026-04-27 05:14:42",
         "source": "github_action",
@@ -15013,6 +15006,13 @@
         "timestamp": "2026-04-27 06:02:36",
         "source": "github_action",
         "candidate": "Rinda Ariska Batubara",
+        "position": "Reporter Nasional",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-27 06:03:05",
+        "source": "github_action",
+        "candidate": "Franciscus Xaverius Agung Waseso",
         "position": "Reporter Nasional",
         "success": true
       }
