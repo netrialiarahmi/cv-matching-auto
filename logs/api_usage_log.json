@@ -14306,25 +14306,18 @@
     ]
   },
   "2026-04-27": {
-    "total": 382,
+    "total": 383,
     "streamlit": 0,
-    "github_action": 382,
-    "successful": 382,
+    "github_action": 383,
+    "successful": 383,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 82
+      "Account Executive VCBL": 83
     },
     "entries": [
-      {
-        "timestamp": "2026-04-27 06:53:35",
-        "source": "github_action",
-        "candidate": "Prily Mustika Yana",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-27 06:54:09",
         "source": "github_action",
@@ -15015,6 +15008,13 @@
         "timestamp": "2026-04-27 07:43:55",
         "source": "github_action",
         "candidate": "Kiki Gunawanti Khaerani Asri",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-27 07:44:30",
+        "source": "github_action",
+        "candidate": "Nachita   Putri Madina",
         "position": "Account Executive VCBL",
         "success": true
       }
