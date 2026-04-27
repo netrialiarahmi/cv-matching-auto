@@ -14306,25 +14306,18 @@
     ]
   },
   "2026-04-27": {
-    "total": 302,
+    "total": 303,
     "streamlit": 0,
-    "github_action": 302,
-    "successful": 302,
+    "github_action": 303,
+    "successful": 303,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 2
+      "Account Executive VCBL": 3
     },
     "entries": [
-      {
-        "timestamp": "2026-04-27 06:12:29",
-        "source": "github_action",
-        "candidate": "Ajeng Ayuningtyas",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-27 06:13:06",
         "source": "github_action",
@@ -15015,6 +15008,13 @@
         "timestamp": "2026-04-27 07:03:45",
         "source": "github_action",
         "candidate": "Avisa Zahirah",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-27 07:04:19",
+        "source": "github_action",
+        "candidate": "Farhan Rahman",
         "position": "Account Executive VCBL",
         "success": true
       }
