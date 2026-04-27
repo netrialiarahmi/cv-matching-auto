@@ -14306,13 +14306,13 @@
     ]
   },
   "2026-04-27": {
-    "total": 87,
+    "total": 88,
     "streamlit": 0,
-    "github_action": 87,
-    "successful": 87,
+    "github_action": 88,
+    "successful": 88,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 87
+      "Marketing Communication Officer KG Media": 88
     },
     "entries": [
       {
@@ -14921,6 +14921,13 @@
         "timestamp": "2026-04-27 05:15:40",
         "source": "github_action",
         "candidate": "Eldion Adzan Zuhri J",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-27 05:16:14",
+        "source": "github_action",
+        "candidate": "Rayhan Rifky Maulana",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
