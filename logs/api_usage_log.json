@@ -14306,24 +14306,17 @@
     ]
   },
   "2026-04-27": {
-    "total": 219,
+    "total": 220,
     "streamlit": 0,
-    "github_action": 219,
-    "successful": 219,
+    "github_action": 220,
+    "successful": 220,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
-      "Business Development Analyst": 19
+      "Business Development Analyst": 20
     },
     "entries": [
-      {
-        "timestamp": "2026-04-27 05:31:39",
-        "source": "github_action",
-        "candidate": "Gaswara Utama",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-27 05:32:05",
         "source": "github_action",
@@ -15014,6 +15007,13 @@
         "timestamp": "2026-04-27 06:21:11",
         "source": "github_action",
         "candidate": "Akmal Aminullah",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-27 06:21:47",
+        "source": "github_action",
+        "candidate": "Aditya Reynaldi",
         "position": "Business Development Analyst",
         "success": true
       }
