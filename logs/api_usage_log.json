@@ -14306,13 +14306,13 @@
     ]
   },
   "2026-04-27": {
-    "total": 62,
+    "total": 63,
     "streamlit": 0,
-    "github_action": 62,
-    "successful": 62,
+    "github_action": 63,
+    "successful": 63,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 62
+      "Marketing Communication Officer KG Media": 63
     },
     "entries": [
       {
@@ -14746,6 +14746,13 @@
         "timestamp": "2026-04-27 05:03:55",
         "source": "github_action",
         "candidate": "Nur Faizah Al Bahriyatul Baqiroh",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-27 05:04:28",
+        "source": "github_action",
+        "candidate": "Evelyn Inly",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
