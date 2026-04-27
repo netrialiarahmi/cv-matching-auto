@@ -14306,13 +14306,13 @@
     ]
   },
   "2026-04-27": {
-    "total": 93,
+    "total": 94,
     "streamlit": 0,
-    "github_action": 93,
-    "successful": 93,
+    "github_action": 94,
+    "successful": 94,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 93
+      "Marketing Communication Officer KG Media": 94
     },
     "entries": [
       {
@@ -14963,6 +14963,13 @@
         "timestamp": "2026-04-27 05:18:54",
         "source": "github_action",
         "candidate": "Afina  Dwiyanti",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-27 05:19:30",
+        "source": "github_action",
+        "candidate": "Afifah Al Zahra",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
