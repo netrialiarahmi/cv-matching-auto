@@ -14306,24 +14306,17 @@
     ]
   },
   "2026-04-27": {
-    "total": 275,
+    "total": 276,
     "streamlit": 0,
-    "github_action": 275,
-    "successful": 275,
+    "github_action": 276,
+    "successful": 276,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
-      "Business Development Analyst": 75
+      "Business Development Analyst": 76
     },
     "entries": [
-      {
-        "timestamp": "2026-04-27 05:59:03",
-        "source": "github_action",
-        "candidate": "Ervin Fataka Buana Utama",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-27 05:59:34",
         "source": "github_action",
@@ -15014,6 +15007,13 @@
         "timestamp": "2026-04-27 06:49:28",
         "source": "github_action",
         "candidate": "Indra Adi Susanto",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-27 06:49:58",
+        "source": "github_action",
+        "candidate": "Prianda Saputra",
         "position": "Business Development Analyst",
         "success": true
       }
