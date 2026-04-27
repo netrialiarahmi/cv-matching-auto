@@ -14306,25 +14306,18 @@
     ]
   },
   "2026-04-27": {
-    "total": 367,
+    "total": 368,
     "streamlit": 0,
-    "github_action": 367,
-    "successful": 367,
+    "github_action": 368,
+    "successful": 368,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 67
+      "Account Executive VCBL": 68
     },
     "entries": [
-      {
-        "timestamp": "2026-04-27 06:45:28",
-        "source": "github_action",
-        "candidate": "Kautsar Hilmi",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-27 06:45:59",
         "source": "github_action",
@@ -15015,6 +15008,13 @@
         "timestamp": "2026-04-27 07:36:03",
         "source": "github_action",
         "candidate": "Atsiilah Pratiwi",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-27 07:36:34",
+        "source": "github_action",
+        "candidate": "Aulia Shobrina",
         "position": "Account Executive VCBL",
         "success": true
       }
