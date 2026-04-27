@@ -14306,13 +14306,13 @@
     ]
   },
   "2026-04-27": {
-    "total": 35,
+    "total": 36,
     "streamlit": 0,
-    "github_action": 35,
-    "successful": 35,
+    "github_action": 36,
+    "successful": 36,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 35
+      "Marketing Communication Officer KG Media": 36
     },
     "entries": [
       {
@@ -14557,6 +14557,13 @@
         "timestamp": "2026-04-27 04:51:09",
         "source": "github_action",
         "candidate": "Heri Satriawan",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-27 04:51:40",
+        "source": "github_action",
+        "candidate": "Rizma Khansa Zulfa",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
