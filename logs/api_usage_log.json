@@ -14306,24 +14306,17 @@
     ]
   },
   "2026-04-27": {
-    "total": 298,
+    "total": 299,
     "streamlit": 0,
-    "github_action": 298,
-    "successful": 298,
+    "github_action": 299,
+    "successful": 299,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
-      "Business Development Analyst": 98
+      "Business Development Analyst": 99
     },
     "entries": [
-      {
-        "timestamp": "2026-04-27 06:10:20",
-        "source": "github_action",
-        "candidate": "Zaky Maulana Putra",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-27 06:10:47",
         "source": "github_action",
@@ -15014,6 +15007,13 @@
         "timestamp": "2026-04-27 07:01:34",
         "source": "github_action",
         "candidate": "Irene Kusuma",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-27 07:02:09",
+        "source": "github_action",
+        "candidate": "Mohamad Arief Nurramdhan",
         "position": "Business Development Analyst",
         "success": true
       }
