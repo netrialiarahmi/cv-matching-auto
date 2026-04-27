@@ -14306,25 +14306,18 @@
     ]
   },
   "2026-04-27": {
-    "total": 384,
+    "total": 385,
     "streamlit": 0,
-    "github_action": 384,
-    "successful": 384,
+    "github_action": 385,
+    "successful": 385,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 84
+      "Account Executive VCBL": 85
     },
     "entries": [
-      {
-        "timestamp": "2026-04-27 06:54:42",
-        "source": "github_action",
-        "candidate": "Irma Anisa Putri",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-27 06:55:16",
         "source": "github_action",
@@ -15015,6 +15008,13 @@
         "timestamp": "2026-04-27 07:45:03",
         "source": "github_action",
         "candidate": "Salma Firda Sabila",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-27 07:45:34",
+        "source": "github_action",
+        "candidate": "Ihksa Munawwaroh",
         "position": "Account Executive VCBL",
         "success": true
       }
