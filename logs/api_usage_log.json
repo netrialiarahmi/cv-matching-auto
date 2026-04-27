@@ -14306,13 +14306,13 @@
     ]
   },
   "2026-04-27": {
-    "total": 70,
+    "total": 71,
     "streamlit": 0,
-    "github_action": 70,
-    "successful": 70,
+    "github_action": 71,
+    "successful": 71,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 70
+      "Marketing Communication Officer KG Media": 71
     },
     "entries": [
       {
@@ -14802,6 +14802,13 @@
         "timestamp": "2026-04-27 05:08:04",
         "source": "github_action",
         "candidate": "Ni Luh Kade Dwi Ratna Safitri",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-27 05:08:38",
+        "source": "github_action",
+        "candidate": "M Abyan Denawa putra",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
