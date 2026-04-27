@@ -14306,25 +14306,18 @@
     ]
   },
   "2026-04-27": {
-    "total": 388,
+    "total": 389,
     "streamlit": 0,
-    "github_action": 388,
-    "successful": 388,
+    "github_action": 389,
+    "successful": 389,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 88
+      "Account Executive VCBL": 89
     },
     "entries": [
-      {
-        "timestamp": "2026-04-27 06:56:49",
-        "source": "github_action",
-        "candidate": "putri  yulianti",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-27 06:57:20",
         "source": "github_action",
@@ -15015,6 +15008,13 @@
         "timestamp": "2026-04-27 07:47:13",
         "source": "github_action",
         "candidate": "Ayub Ezra Royani Sianturi",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-27 07:47:44",
+        "source": "github_action",
+        "candidate": "syifin al mufti",
         "position": "Account Executive VCBL",
         "success": true
       }
