@@ -14306,24 +14306,17 @@
     ]
   },
   "2026-04-27": {
-    "total": 208,
+    "total": 209,
     "streamlit": 0,
-    "github_action": 208,
-    "successful": 208,
+    "github_action": 209,
+    "successful": 209,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
-      "Business Development Analyst": 8
+      "Business Development Analyst": 9
     },
     "entries": [
-      {
-        "timestamp": "2026-04-27 05:26:27",
-        "source": "github_action",
-        "candidate": "Muhamad Farhan",
-        "position": "Reporter Nasional",
-        "success": true
-      },
       {
         "timestamp": "2026-04-27 05:26:55",
         "source": "github_action",
@@ -15014,6 +15007,13 @@
         "timestamp": "2026-04-27 06:15:21",
         "source": "github_action",
         "candidate": "Muhammad Althaf Suwanda",
+        "position": "Business Development Analyst",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-27 06:15:51",
+        "source": "github_action",
+        "candidate": "Fahmi Rahmat",
         "position": "Business Development Analyst",
         "success": true
       }
