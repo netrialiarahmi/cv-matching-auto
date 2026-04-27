@@ -14306,25 +14306,18 @@
     ]
   },
   "2026-04-27": {
-    "total": 323,
+    "total": 324,
     "streamlit": 0,
-    "github_action": 323,
-    "successful": 323,
+    "github_action": 324,
+    "successful": 324,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 23
+      "Account Executive VCBL": 24
     },
     "entries": [
-      {
-        "timestamp": "2026-04-27 06:23:57",
-        "source": "github_action",
-        "candidate": "Fatimah Nurul Jamilah",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-27 06:24:25",
         "source": "github_action",
@@ -15015,6 +15008,13 @@
         "timestamp": "2026-04-27 07:13:51",
         "source": "github_action",
         "candidate": "Syarif Antoni",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-27 07:14:23",
+        "source": "github_action",
+        "candidate": "Nisa Nur Amalia",
         "position": "Account Executive VCBL",
         "success": true
       }
