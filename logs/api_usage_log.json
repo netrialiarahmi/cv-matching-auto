@@ -14306,13 +14306,13 @@
     ]
   },
   "2026-04-27": {
-    "total": 51,
+    "total": 52,
     "streamlit": 0,
-    "github_action": 51,
-    "successful": 51,
+    "github_action": 52,
+    "successful": 52,
     "failed": 0,
     "positions": {
-      "Marketing Communication Officer KG Media": 51
+      "Marketing Communication Officer KG Media": 52
     },
     "entries": [
       {
@@ -14669,6 +14669,13 @@
         "timestamp": "2026-04-27 04:59:11",
         "source": "github_action",
         "candidate": "Ricky Iman Ma'rufi",
+        "position": "Marketing Communication Officer KG Media",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-27 04:59:39",
+        "source": "github_action",
+        "candidate": "Nanda Rahman Rahimi Dhilsi",
         "position": "Marketing Communication Officer KG Media",
         "success": true
       }
