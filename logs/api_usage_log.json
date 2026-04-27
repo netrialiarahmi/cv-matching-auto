@@ -14306,25 +14306,18 @@
     ]
   },
   "2026-04-27": {
-    "total": 378,
+    "total": 379,
     "streamlit": 0,
-    "github_action": 378,
-    "successful": 378,
+    "github_action": 379,
+    "successful": 379,
     "failed": 0,
     "positions": {
       "Marketing Communication Officer KG Media": 100,
       "Reporter Nasional": 100,
       "Business Development Analyst": 100,
-      "Account Executive VCBL": 78
+      "Account Executive VCBL": 79
     },
     "entries": [
-      {
-        "timestamp": "2026-04-27 06:51:27",
-        "source": "github_action",
-        "candidate": "Dinda Putri Ramadhani",
-        "position": "Business Development Analyst",
-        "success": true
-      },
       {
         "timestamp": "2026-04-27 06:52:00",
         "source": "github_action",
@@ -15015,6 +15008,13 @@
         "timestamp": "2026-04-27 07:41:56",
         "source": "github_action",
         "candidate": "Timotius Ardi Pradana",
+        "position": "Account Executive VCBL",
+        "success": true
+      },
+      {
+        "timestamp": "2026-04-27 07:42:26",
+        "source": "github_action",
+        "candidate": "Raesha Mutia",
         "position": "Account Executive VCBL",
         "success": true
       }
